@@ -375,7 +375,7 @@
 
         "Tooltips.Dev.CreateNew" : "Erstelle Neu...",
         "Tooltips.Dev.Selection" : "Selektion: {mode}",
-        "Tooltips.Dev.DevMode.Off" : "Developer Modus: Aus",
+        "Tooltips.Dev.DevMode.Off" : "Entwickler Modus: Aus",
         "Tooltips.Dev.DevMode.On" : "Developer Modus: An",
         "Tooltips.Dev.OpenInspector" : "Inspektor öffnen",
         "Tooltips.Dev.DeselectAll" : "Alles abwählen",
