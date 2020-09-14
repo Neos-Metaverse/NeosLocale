@@ -110,7 +110,7 @@
         "World.Config.AccessLevelHeader" : "Wer kann der Welt beitreten?",
         "World.Config.AutoKickAFK" : "Auto-Kick inaktiver Nutzer:",
         "World.Config.AutoKickAFKMinutes" : "Maximale Inaktivität [Minuten]:",
-        "World.Config.HideFromListing" : "Zeige keine Sitzungs-Listen",
+        "World.Config.HideFromListing" : "Nicht in der Sitzungs-Liste zeigen",
         "World.Config.Autosave" : "Automatisches Speichern (überschreibt die letzte Speicherung):",
         "World.Config.AutosaveInterval" : "Automatisches Speichern Intervall [Minuten]:",
         "World.Config.CleanupAssets" : "Bereinigung nicht verwendeter Assets:",
