@@ -395,7 +395,7 @@
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Objekt als nicht greifbar markieren",
         "Tooltip.CharacterCollider.EnsureWalkRun" : "Gehen/Rennen-Fortbewegung sicherstellen",
         "Tooltip.CharacterCollider.EnsureZeroG" : "Schwerelosigkeits-Fortbewegung sicherstellen",
-        "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Phsikalsiche Flug-Fortbewegung sicherstellen",
+        "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Physikalische Flug-Fortbewegung sicherstellen",
 
         "Tooltip.Light.Point" : "Punkt",
         "Tooltip.Light.Spot" : "Spot",
