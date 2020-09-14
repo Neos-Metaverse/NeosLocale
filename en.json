@@ -823,6 +823,25 @@
         "Settings.Dash.Curvature" : "Curvature",
         "Settings.Dash.OpenCloseSpeed" : "Open/Close Speed",
 
+        "Settings.LeapMotion.Name" : "Leap Motion",
+        "Settings.LeapMotion.Enabled" : "Leap Tracking Enabled",
+        "Settings.LeapMotion.HorizontalOffset" : "Horizontal Offset",
+        "Settings.LeapMotion.VerticalOffset" : "Vertical Offset",
+        "Settings.LeapMotion.ForwardOffset" : "Forward Offset",
+        "Settings.LeapMotion.SnapDistance" : "Controller Hand Snap Distance",
+        "Settings.LeapMotion.UseFingersWhenSnapped" : "Use Fingers When Snapped",
+
+        "Settings.ViveHandTracking.Name" : "Vive Finger Tracking",
+        "Settings.ViveHandTracking.Enabled" : "Vive Hand Tracking Enabled",
+        "Settings.ViveHandTracking.SnapDistance" : "Vive Hand Tracking Snap Distance",
+        "Settings.ViveHandTracking.UseFingersWhenSnapped" : "Use Vive Fingers When Snapped",
+
+        "Settings.WindowsIntegration" : "Windows Integration",
+        "Settings.LinuxIntegration" : "Linux Integration",
+        
+        "Settings.System.KeepOriginalScreenshotFormat" : "Keep original screenshot format",
+        "Settings.System.KeepOriginalScreenshotFormat.Description" : "When enabled, screenshots won't be converted to JPG when saved into the Documents folder",
+
         "Security.Hyperlink.Warning" : "<b><size=125%>Warning: Outgoing hyperlink</size></b>\nYou've clicked a link in a world. Do you want to open it? This will open in your desktop web browser.",
         "Security.Hyperlink.Open" : "Open",
         "Security.Hyperlink.Cancel" : "Cancel",

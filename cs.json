@@ -822,6 +822,25 @@
         "Settings.Dash.Curvature" : "Zakřivení",
         "Settings.Dash.OpenCloseSpeed" : "Rychlost otevření a zavření",
 
+        "Settings.LeapMotion.Name" : "Leap Motion",
+        "Settings.LeapMotion.Enabled" : "Aktivovat Leap Motion Trackování",
+        "Settings.LeapMotion.HorizontalOffset" : "Horizontální kompenzace",
+        "Settings.LeapMotion.VerticalOffset" : "Vertikální kompenzace",
+        "Settings.LeapMotion.ForwardOffset" : "Dopředná kompenzace",
+        "Settings.LeapMotion.SnapDistance" : "Vzdálenost pro preferenci pozice ovladače",
+        "Settings.LeapMotion.UseFingersWhenSnapped" : "Používat prsty i když je preferován ovladač",
+
+        "Settings.ViveHandTracking.Name" : "Vive trackování prstů",
+        "Settings.ViveHandTracking.Enabled" : "Aktivovat Vive trackování rukou",
+        "Settings.ViveHandTracking.SnapDistance" : "Vzdálenost pro preferenci pozice ovladače",
+        "Settings.ViveHandTracking.UseFingersWhenSnapped" : "Používat prsty i když je preferován ovladač",
+
+        "Settings.WindowsIntegration" : "Windows Integrace",
+        "Settings.LinuxIntegration" : "Linux Integrace",
+
+        "Settings.System.KeepOriginalScreenshotFormat" : "Zachovat originální formát screenshotů",
+        "Settings.System.KeepOriginalScreenshotFormat.Description" : "Pokud je tato možnost aktivní, screenshoty nebudou převáděny do JPG formátu při ukládání do dokumentů",
+
         "Security.Hyperlink.Warning" : "<b><size=125%>Varování: Otevíráte externí odkaz</size></b>\nKlikli jste na odkaz ve světě. Chcete jej otevřit? Tato akce otevře Váš webový prohlížeč.",
         "Security.Hyperlink.Open" : "Otevřít",
         "Security.Hyperlink.Cancel" : "Zrušit",
