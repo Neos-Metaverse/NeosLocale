@@ -205,7 +205,7 @@
         "World.SortParameter.OpenedWorldCount" : "Geöffnete Welten",
         "World.SortParameter.TotalSessionCount" : "Anzahl Sitzungen",
         "World.SortParameter.TotalUserCount" : "Anzahl Nutzer",
-        "World.SortParameter.CreationDate" : "Erzeugt am",
+        "World.SortParameter.CreationDate" : "Erstellt am",
         "World.SortParameter.LastUpdateDate" : "Zuletzt geändert am",
         "World.SortParameter.FirstPublishTime" : "Veröffentlicht am",
         "World.SortParameter.TotalVisits" : "Anzahl Besuche",
