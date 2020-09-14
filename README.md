@@ -9,7 +9,8 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 
 2) Verify that Neos' fork of ICU MessageFormat.NET has pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/Frooxius/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
 
-If you can't find your language code in this file, please make a Issue either on the official Neos issue tracker (https://github.com/Frooxius/NeosPublic/issues) or in this repository. Alternatively you can implement the pluralizer yourself based on the reference from the Unicode CLDR repository: https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml and make a pull request for it to be merged with our fork or MessageFormat.NET
+-- If you can't find your language code in this file, please make a Issue either on the official Neos issue tracker (https://github.com/Frooxius/NeosPublic/issues) or in this repository.
+-- Alternatively you can implement the pluralizer yourself based on the reference from the Unicode CLDR repository: https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml and make a pull request for it to be merged with our fork or MessageFormat.NET
 
 3) Add a new [lang-code].json file to your fork. We highly recommend creating a skeleton file first wihout any translation strings, just containing the Locale and Authors and creating a pull request, so it's clearer to other contributors that translations are being worked on by someone.
 
