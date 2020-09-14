@@ -284,7 +284,7 @@
         "Account.ResetPassword" : "Vergebe neues Passwort",
         "Account.Requesting" : "Anfrage...",
         "Account.ErrorPasswordMismatch" : "Passwörter stimmen nicht überein!",
-        "Account.ErrorEmailMismatch" : "Emails-Adressen stimmen nicht überein!",
+        "Account.ErrorEmailMismatch" : "Email-Adressen stimmen nicht überein!",
         "Account.ErrorLoginError" : "Anmelde Fehler:",
         "Account.RegistrationSuccess" : "Registierung erfolgreich! Eine Email mit einem Bestäigungslinks wurde versendet. Nach dem Öffnen dieses Links können Sie sich anmelden.",
 
