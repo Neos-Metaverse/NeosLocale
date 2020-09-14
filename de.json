@@ -354,7 +354,7 @@
         "Undo.TranslateAlongAxis" : "Verschiebung auf Achse",
         "Undo.RotateAroundAxis" : "Rotation um Achse",
         "Undo.ResetPosition" : "Position zurücksetzen",
-        "Undo.ResetRotation" : "Zurücksetzen Rotation",
+        "Undo.ResetRotation" : "Rotation zurücksetzen",
         "Undo.ResetScale" : "Zurücksetzen Skalierung",
 
         "Undo.GrabObjects" : "Objekte greifen",
