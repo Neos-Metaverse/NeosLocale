@@ -50,7 +50,7 @@
         "Interaction.Locomotion" : "Fortbewegung",
         "Interaction.Locomotion.None" : "Keine",
 
-        "Dash.Screens.Home" : "Lokale Basis",
+        "Dash.Screens.Home" : "Home",
         "Dash.Screens.Worlds" : "Welten",
         "Dash.Screens.Contacts" : "Kontakte",
         "Dash.Screens.Inventory" : "Inventar",
