@@ -495,7 +495,7 @@
         "AvatarCreator.Create" : "Erstellen",
 
         "Importer.Folder.Title" : "Ordner Importer",
-        "Importer.Folder.Individual" : "Individual Import",
+        "Importer.Folder.Individual" : "Separater Import",
         "Importer.Folder.Individual.Description" : "Erstellt einen separaten Import Dialog für jede unterstützte Datei im Ordner",
         "Importer.Folder.Batch" : "Batch Import",
         "Importer.Folder.Batch.Description" : "Erstellt einen Importer für jeden Typ mit den gleichen Einstellungen für jede Datei",
