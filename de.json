@@ -4,7 +4,7 @@
     "messages" : 
     {
         "General.OK" : "OK",
-        "General.Cancel" : "Abbrechhen",
+        "General.Cancel" : "Abbrechen",
         "General.Continue" : "Weiter",
         "General.Next" : "Vor",
         "General.Back" : "Zurück",
