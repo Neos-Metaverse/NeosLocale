@@ -286,7 +286,7 @@
         "Account.ErrorPasswordMismatch" : "Passwörter stimmen nicht überein!",
         "Account.ErrorEmailMismatch" : "Email-Adressen stimmen nicht überein!",
         "Account.ErrorLoginError" : "Anmelde Fehler:",
-        "Account.RegistrationSuccess" : "Registierung erfolgreich! Eine Email mit einem Bestäigungslinks wurde versendet. Nach dem Öffnen dieses Links können Sie sich anmelden.",
+        "Account.RegistrationSuccess" : "Registierung erfolgreich! Eine Email mit einem Bestätigungslinks wurde versendet. Nach dem Öffnen dieses Links können Sie sich anmelden.",
 
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Abwesend",
