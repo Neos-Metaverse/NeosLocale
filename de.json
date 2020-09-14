@@ -79,7 +79,7 @@
         "World.LoadedAssets" : "{assets} von {total_assets} geladen",
         "World.Downloading" : "{bytes} von {total_bytes} heruntergeladen",
 
-        "World.Connection.EstablishingConnection" : "Verbindung herstellen",
+        "World.Connection.EstablishingConnection" : "Verbindung wird hergestellt",
         "World.Connection.RequestingJoin" : "Fordere Beitritt an",
         "World.Connection.Authenticating" : "Authentifizieren",
         "World.Connection.Connected" : "Verbunden",
