@@ -222,8 +222,8 @@
         "Indicator.ServerStatus" : "<color=#fff>サーバーステータス:</color> {status, select, Good {良好} Slow {遅い} Down {ダウン} NoInternet {インターネットなし}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "シンク完了",
-        "Indicator.Sync.SyncingItems" : "{item_count,plural, one {# アイテム} other {# アイテム}}シンク中<nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants" : "{variant_count,plural, one {# アセットバリアント} other {# アセットバリアント}} アップロード中",
+        "Indicator.Sync.SyncingItems" : "{item_count,plural, one {# 個のアイテムを} other {# 個のアイテムを}}シンク中<nobr>({item_percent} %)",
+        "Indicator.Sync.UploadingVariants" : "{variant_count,plural, one {# 個のアセットバリアントを} other {# 個のアセットバリアントを}} アップロード中",
         "Indicator.Sync.SyncError" : "シンクエラー! <size=50%>ログをチェックしてください</size>",
         "Indicator.Sync.OutOfSpace" : "空き容量が足りません! <size=50%>シンクできません</size>",
 
@@ -627,7 +627,7 @@
         "Security.HostAccess.Allow" : "許可",
         "Security.HostAccess.Deny" : "拒否",
 
-        "Exiting.SavingItems" : "{n, plural, one {# アイテム} other {# アイテム}} セーブ中...",
+        "Exiting.SavingItems" : "{n, plural, one {# 個のアイテムを} other {# 個のアイテムを}} セーブ中...",
         "Exiting.SavingChanges" : "変更をセーブ中...",
         "Exiting.Exiting" : "終了中...",
         "Exiting.LoggingOut" : "ログアウト中...",
