@@ -693,7 +693,8 @@
 
         "CameraControl.Settings.AvoidOcclusion" : "Verdeckung vermeiden",
         "CameraControl.Settings.KeepInWorldspace" : "Im Worldspace bleiben",
-        "CameraControl.Settings.MovementWobble" : "Wobbble Bewegung",
+        "CameraControl.Settings.MovementWobble" : "Wobble Bewegung",
+
         "CameraControl.Settings.AimInFrontOfHead" : "Ausrichtung auf die Stirn",
         "CameraControl.Settings.HideCamera" : "Kamera unsichtbar",
         "CameraControl.Settings.ForceEyesOnCamera" : "Force Eyes On Camera",
