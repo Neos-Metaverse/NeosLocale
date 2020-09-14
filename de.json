@@ -94,7 +94,7 @@
         "World.Error.UserLimitReached" : "Sitzung hat das Nutzerlimit erreicht",
         "World.Error.FailedAuthentication" : "Authentifizung gescheitert",
         "World.Error.FailedUserID" : "Konnte die UserID nicht authentifizieren",
-        "World.Error.FailedFetchingAuthentication" : "Zugriff auf Authentifiziersnfo fehlgeschlagen",
+        "World.Error.FailedFetchingAuthentication" : "Zugriff auf Authentifizierungsinfo fehlgeschlagen",
         "World.Error.JoinAlreadyRequested" : "Der Beitritt wurde bereits angefordert",
         "World.Error.FailedConnectToRelay" : "Verbindung zum Relay-Server konnte nicht hergestellt werden.",
         "World.Error.NoPort" : "Kein Port angegeben",
