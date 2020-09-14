@@ -542,7 +542,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "Maximale Textur Größe",
         "Importer.Model.Advanced.ImageFormat" : "Bild Format: ",
         "Importer.Model.Advanced.Material" : "Material: ",
-        "Importer.Model.Advanced.AlignAxis" : "Achsen-Ausrichtung : ",
+        "Importer.Model.Advanced.AlignAxis" : "Achsen-Ausrichtung: ",
 
         "Importer.Model.Advanced.Normals" : "Normalen kalkulieren",
         "Importer.Model.Advanced.Tangents" : "Tangenten kalkulieren",
