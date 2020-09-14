@@ -4,7 +4,7 @@ This repository contains the locale assets for the core UI of Neos VR (www.neos.
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
 
-**If you're contributing a new language**
+# If you're contributing a new language
 1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
 
 2) Verify that Neos' fork of ICU MessageFormat.NET has pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/Frooxius/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
@@ -13,7 +13,7 @@ If you can't find your language code in this file, please make a Issue either on
 
 3) Add a new [lang-code].json file to your fork. We highly recommend creating a skeleton file first wihout any translation strings, just containing the Locale and Authors and creating a pull request, so it's clearer to other contributors that translations are being worked on by someone.
 
-**Contributing translations to a language**
+# Contributing translations to a language
 If you'd like to contribute translations for existing language file (or one you have just created), we recommend the following:
 
 1) Make a fork of the repository or your own branch.
@@ -24,7 +24,7 @@ If you'd like to contribute translations for existing language file (or one you 
 
 As Neos develop, we'll be constantly adding new strings in English or modifying the existing ones. We recommend watching the repository for activity through GitHub, so you can get notified when there are changes and new strings to be translated.
 
-**Testing your translation in Neos**
+# Testing your translation in Neos
 As you work on the translation we recommend that you periodically check it inside of Neos. This will not only help ensure that you don't have any syntax errors, but also make sure that the strings are correct in the context.
 
 To test the translation, find folder where Neos.exe is installed (on Steam, you can do so by right clicking Neos, going to Properties -> LOCAL FILES -> BROWSE LOCAL FILES...) and then locate the "Locale" folder. Simply place your modified file into this folder and Neos will load it up.
@@ -37,7 +37,7 @@ By default, Neos uses your system locale to determine which file to load. You ca
 - If the translation isn't loading in Neos, it is likely JSON syntax error preventing it from being loaded
 - If you see "ERROR!!!" instead of your translated string, you have a syntax error in the particular string. Check Neos' log file, which will contain details.
 
-**The ICU MessageFormat Syntax for translation strings**
+# The ICU MessageFormat Syntax for translation strings
 Neos uses the ICU MessageFormat Syntax defined by the Unicode organization for its localized strings. This offers high amount of flexibility on how you translate strings and ensures that you can correctly follow the grammar rules of your language, particularly with regards to pluralization (e.g. displaying "1 item" vs "1 items"). This is why it's important to ensure that your language has a pluralizer implemented in our fork of MessageFormat.NET
 
 To learn more about the ICU MessageFormat Syntax check the following links:
@@ -57,7 +57,7 @@ Another common syntax is using the {variable, select, ...} form. This lets you m
 
 Please let us know if you have any questions or are unsure about certain things.
 
-**Language codes and fallbacks**
+# Language codes and fallbacks
 Neos uses the IETF language tags (https://en.wikipedia.org/wiki/IETF_language_tag) to load locales. These consist of a single primary language tag (typically two-letter language code from ISO 639-1 or a three-letter code from ISO 639-2 (1998), ISO 639-3 (2007) or ISO 639-5 (2008)) and and optional region subtag with country code.
 
 When loading locale file, Neos will first check for the most specific locale file. Then it will load any missing strings from the general locale file and last it will load any missing strings from the English locale.
@@ -68,7 +68,7 @@ We recommend putting most translations into the general language file (single tw
 
 Any strings you don't translate at all will also fall back into their English variants, so you don't have to worry about missing some of them, they can be translated later (or by another contributor). This also ensures that newly added strings in the English will show up and can be gradually translated as they come.
 
-**What if I find string that cannot be translated?**
+# What if I find string that cannot be translated?
 While majority of Neos' UI has been converted to the localizatoin system, there are likely a few stragglers and some parts that aren't translatable right now. If you encounter such place, create an Issue on this repository, ideally with screenshot of the non-translatable part, so we can convert it as well.
 
 Currently there are a few known parts that cannot be translated, but are planned to:
@@ -77,5 +77,5 @@ Currently there are a few known parts that cannot be translated, but are planned
 - LogiX node names and categories (same as above)
 - Component fields (those will only show optional translated names on hover once tooltip system is implemented)
 
-**Any questions?**
+# Any questions?
 If you have questions or are unsure about something, you can create an Issue on this repository or reach out to our team on the official Discord: https://discord.gg/neosvr
