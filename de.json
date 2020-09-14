@@ -837,7 +837,8 @@
 
         "Exiting.SavingItems" : "Speichere {n, plural, ein {# item} viele {# items}}...",
         "Exiting.SavingChanges" : "Speichere Änderungen...",
-        "Exiting.Exiting" : "Beeenden...",
+        "Exiting.Exiting" : "Beenden...",
+
         "Exiting.LoggingOut" : "Abmelden...",
 
         "Dummy" : "Dummy"
