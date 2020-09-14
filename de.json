@@ -76,7 +76,7 @@
         "World.HostIsStarting" : "Host startet die Sitzung",
         "World.Loading" : "Lade...",
         "World.LoadingFailed" : "Laden fehlgeschlagen",
-        "World.LoadedAssets" : "{assets} von {total_assets}",
+        "World.LoadedAssets" : "{assets} von {total_assets} geladen",
         "World.Downloading" : "{bytes} von {total_bytes} heruntergeladen",
 
         "World.Connection.EstablishingConnection" : "Verbindung herstellen",
