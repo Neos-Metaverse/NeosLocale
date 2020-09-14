@@ -355,7 +355,7 @@
         "Undo.RotateAroundAxis" : "Rotation um Achse",
         "Undo.ResetPosition" : "Position zurücksetzen",
         "Undo.ResetRotation" : "Rotation zurücksetzen",
-        "Undo.ResetScale" : "Zurücksetzen Skalierung",
+        "Undo.ResetScale" : "Skalierung zurücksetzen",
 
         "Undo.GrabObjects" : "Objekte greifen",
         "Undo.DestroyGrabbed" : "Löschen gegriffener Objekte",
