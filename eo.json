@@ -132,7 +132,7 @@
         "World.Actions.Delete": "Forigi Mondon",
         "World.Actions.ConfirmDelete": "Konfirmu Forigi",
         "World.Actions.ReallyConfirmDelete": "PERMANENTE FORIGU",
-        "World.Actions.Overwrite": "Anstataŭigi per {nomo}",
+        "World.Actions.Overwrite": "Anstataŭigi per {name}",
         "World.Actions.ConfirmOverwrite": "Konfirmi OVERWRITE",
         "World.Actions.Overwriting": "Superskribo ...",
 
@@ -155,7 +155,7 @@
         "World.Indicator.NoData": "Sen datumoj",
         "World.Indicator.LocalWorld": "Loka Maŝino",
         "World.Indicator.Author": "De: {name}",
-        "World.Indicator.Host": "Gastiganto: {nomo}",
+        "World.Indicator.Host": "Gastiganto: {name}",
         "World.Indicator.Hosting": "Gastigado",
         "World.Indicator.Sessions" : "{n,plural, one {# session} other {# sessions}}",
         "World.Indicator.Users": "Uzantoj",
