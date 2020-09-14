@@ -67,7 +67,7 @@
         "Dash.Actions.CloudHome" : "Cloud Basis",
 
         "Dash.Exit.Header" : "Neos beenden",
-        "Dash.Exit.ExitAndSave" : "Beenden und Basen speichern",
+        "Dash.Exit.ExitAndSave" : "Beenden & Änderungen speichern",
         "Dash.Exit.ExitAndDiscard" : "Beenden & Basen verwerfen",
         "Dash.Exit.ThankYou" : "Vielen Dank für die Nutzung von Neos!",
         "Dash.Exit.SubmittedBy" : "Eingereicht von: {name}",
