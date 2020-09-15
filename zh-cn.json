@@ -31,7 +31,7 @@
         "Locomotion.Fly.Description" : "物理飞行模式",
         "Locomotion.WalkRun.Name" : "步行/跑步",
         "Locomotion.WalkRun.Description" : "身体走路，跑步和跳跃。",
-        "Locomotion.WalkRunGripping.Name" : "步行/跑步（爬坡",
+        "Locomotion.WalkRunGripping.Name" : "步行/跑步(爬坡)",
         "Locomotion.WalkRunGripping.Description" : "走路，奔跑，跳跃和攀登。",
         "Locomotion.ZeroG.Name" : "零重力",
         "Locomotion.ZeroG.Description" : "失重的身体运动",
