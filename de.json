@@ -244,7 +244,7 @@
         "Options.SeatedMode.Off" : "Sitzend Modus: Aus",
 
         "Indicator.OnlineUsers" : "Online Nutzer: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, OK {Good} Langsam {Slow} Außer Betrieb {Down} Kein Internet {No Internet}} ({response_ms} ms)",
+        "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {OK} Slow {Langsam} Down {Außer Betrieb} NoInternet {Kein Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Alles synchronisiert",
         "Indicator.Sync.SyncingItems" : "Synchronisiere {item_count,plural, ein {# item} von {# items}} <nobr>({item_percent} %)",
