@@ -244,7 +244,7 @@
         "Options.SeatedMode.Off" : "sitjandakerfi: Af",
 
         "Indicator.OnlineUsers" : "Online notendur: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus" : "<color=#fff>Netþjónusta:</color> {status, select, Gótt {Good} Hægt {Slow} Niður {Down} Ekkert netsamband {No Internet}} ({response_ms} ms)",
+        "Indicator.ServerStatus" : "<color=#fff>Netþjónusta:</color> {status, select, Good {Gótt} Slow {Hægt} Down {Niður} NoInternet {Ekkert netsamband}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Allt samstillt",
         
