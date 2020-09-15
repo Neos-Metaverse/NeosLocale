@@ -156,7 +156,7 @@
         "World.Indicator.LocalWorld" : "Heimagistað veröld",
         "World.Indicator.Author" : "Af: {name}",
         "World.Indicator.Host" : "Hýsandi: {name}",
-        "World.Indicator.Hosting" : "Hýsing",
+        "World.Indicator.Hosting" : "Hýst",
         
         "World.Indicator.Users" : "Notendur",
         "World.Indicator.Users.None" : "(Enginn virk þing fundust)",
@@ -312,8 +312,8 @@
         "User.Actions.Ban" : "Banna",
 
         "Contacts.Add" : "Bæta við sem meðlimur",
-        "Contacts.Remove" : "Farga meðlimur",
-        "Contacts.ConfirmRemove" : "Farga, ertu viss?",
+        "Contacts.Remove" : "Eyða meðlim",
+        "Contacts.ConfirmRemove" : "Eyða, ertu viss?",
         "Contacts.AcceptRequest" : "Samþykkja beiðni",
         "Contacts.IgnoreRequest" : "Hunsa beiðni",
         "Contacts.Invite" : "Bjóða hingað",
@@ -386,7 +386,7 @@
         
         
 
-        
+        "Tooltip.Color.Picker" : "Lit veljari",
 
         
         
@@ -820,7 +820,7 @@
         
 
         "Settings.Dash.Header" : "Mælaborð",
-        
+        "Settings.Dash.Curvature" : "Sveigja",
         "Settings.Dash.OpenCloseSpeed" : "Opna/loka hraða",
 
         
