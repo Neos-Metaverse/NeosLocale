@@ -74,7 +74,7 @@
 
         "World.Waiting" : "Er í biðslu...",
         "World.HostIsStarting" : "Gestgjafi er að hefja þing",
-        "World.Loading" : "Hlaða...",
+        "World.Loading" : "Hleðslu...",
         "World.LoadingFailed" : "Mistókst",
         "World.LoadedAssets" : "Hlaðaði {assets} af {total_assets}",
         "World.Downloading" : "Niðurhalaði {bytes} af {total_bytes}",
@@ -112,9 +112,9 @@
         "World.Config.AutoKickAFKMinutes" : "Hámarksdauftími:",
         "World.Config.HideFromListing" : "Ekki sýna í þinglýsingu",
         "World.Config.Autosave" : "Vista sjálfkrafa (skrifar yfir síðasta vistun):",
-        "World.Config.AutosaveInterval" : "Autosave every minutes:",
-        "World.Config.CleanupAssets" : "Cleanup Unused Assets:",
-        "World.Config.CleanupInterval" : "Cleanup interval (seconds):",
+        "World.Config.AutosaveInterval" : "Vista sjálfkrafa (mínútur):",
+        "World.Config.CleanupAssets" : "Hreinsa ónotaða assets:",
+        "World.Config.CleanupInterval" : "Hreinsunartímabil (sekúndur):",
 
         "World.Actions.StartSession" : "Byrja þing",
         "World.Actions.Join" : "Taka þátt",
@@ -157,7 +157,7 @@
         "World.Indicator.Author" : "Af: {name}",
         "World.Indicator.Host" : "Hýsandi: {name}",
         "World.Indicator.Hosting" : "Hýsing",
-        "World.Indicator.Sessions" : "{n,plural, one {# session} other {# sessions}}",
+        
         "World.Indicator.Users" : "Notendur",
         "World.Indicator.Users.None" : "(Enginn virk þing fundust)",
         "World.Indicator.Description" : "Lýsing",
@@ -247,8 +247,8 @@
         "Indicator.ServerStatus" : "<color=#fff>Netþjónusta:</color> {status, select, Gótt {Good} Hægt {Slow} Niður {Down} Ekkert netsamband {No Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Allt samstillt",
-        "Indicator.Sync.SyncingItems" : "Samsilla {item_count,plural, einn {# item} annað {# items}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants" : "Upphlaða {variant_count,plural, einn {# asset variant} annað {# asset variants}}",
+        
+        
         "Indicator.Sync.SyncError" : "Samstillingarvilla! <size=50%>Kiktu á log skrá fyrir gríðalega góðar upplysýngar</size>",
         "Indicator.Sync.OutOfSpace" : "Ekkert pláss til! <size=50%>Samstilling ekki hægt af framkvæma</size>",
 
@@ -268,7 +268,7 @@
         "Account.Email" : "Tölvupóstur:",
         "Account.RememberMe" : "Muna eftir mér:",
         "Account.RepeatEmail" : "Endurtaka Tölvupóstur:",
-        "Account.UsernameOrEmail" : "Notendanafn or tölvupóstur:",
+        "Account.UsernameOrEmail" : "Notendanafn eða tölvupóstur:",
         "Account.Password" : "Lykilorð:",
         "Account.RepeatPassword" : "Endurtaka lykilorð:",
         "Account.RecoverPassword" : "Týnt lykilorð?",
@@ -302,7 +302,7 @@
         "Session.Permission.Vistor" : "Sjálfgefinn gestur:",
         "Session.Permission.Contact" : "Sjálfgefinn tengiliður:",
         "Session.Permission.Host" : "Sjálfgefinn hýsandi:",
-        "Session.Permission.PermissionOverrideCount" : "Yfirskrifaða leyfi: {n,select, -1 {---} annað {{n}}}",
+        
         "Session.Permission.ClearOverrides" : "Endursetja leyfi",
 
         "User.Actions.Mute" : "Mállaus",
@@ -772,17 +772,17 @@
         
         
         
-        "Settings.PrimaryController" : "Aðalfjastýring",
+        "Settings.PrimaryController" : "Aðalfjarstýring",
         "Settings.AllowStrafing" : "Leyfa streifing",
         "Settings.UseHeadDirectionForMovement" : "Nota stýring miðað við haus",
         "Settings.SmoothTurn" : "Slétt snúning",
-        "Settings.SmoothTurnExclusiveMode" : "Einungis slétt snúning stilling",
-        "Settings.SmoothTurnSpeed" : "Slétt snúning hraði",
-        "Settings.SnapTurnAngle" : "Smell snúning í gráður",
+        "Settings.SmoothTurnExclusiveMode" : "Einungis slétt snúnings stilling",
+        "Settings.SmoothTurnSpeed" : "Slétt snúnings hraði",
+        "Settings.SnapTurnAngle" : "Smell snúning í gráðum",
         "Settings.NoclipSpeed" : "NeiKlipp hraði",
         
         
-        "Settings.ControllerVibration" : "Fjastýlingatitring",
+        "Settings.ControllerVibration" : "Titring í fjastýringu",
         
         
         
@@ -823,6 +823,25 @@
         
         "Settings.Dash.OpenCloseSpeed" : "Opna/loka hraða",
 
+        
+        
+            
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        "Settings.WindowsIntegration" : "Windows samþætting",
+        "Settings.LinuxIntegration" : "GNU/Linux samþætting",    
+
+        "Settings.System.KeepOriginalScreenshotFormat" : "Keep original screenshot format",
+        "Settings.System.KeepOriginalScreenshotFormat.Description" : "When enabled, screenshots won't be converted to JPG when saved into the Documents folder",
+
         "Security.Hyperlink.Warning" : "<b><size=125%>Warning: Outgoing hyperlink</size></b>\nÞú hefur smellt á hlekk. Viltu opna það? Þessi hlekkur opnar í vafra á tölvuna þína.",
         "Security.Hyperlink.Open" : "Opna",
         "Security.Hyperlink.Cancel" : "Hætta við",
@@ -835,7 +854,7 @@
         "Security.HostAccess.Allow" : "Leyfa",
         "Security.HostAccess.Deny" : "Neita",
 
-        "Exiting.SavingItems" : "Er að vista {n, plural, one {# item} other {# items}}...",
+        
         "Exiting.SavingChanges" : "Að vista Breytingar...",
         "Exiting.Exiting" : "Að loka...",
         "Exiting.LoggingOut" : "Útskráning...",
