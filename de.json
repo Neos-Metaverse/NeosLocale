@@ -247,8 +247,8 @@
         "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {OK} Slow {Langsam} Down {Außer Betrieb} NoInternet {Kein Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Alles synchronisiert",
-        "Indicator.Sync.SyncingItems" : "Synchronisiere {item_count,plural, ein {# item} von {# items}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants" : "Hochladen von {variant_count,plural, ein {# asset variant} von {# asset variants}}",
+		"Indicator.Sync.SyncingItems" : "Synchronisiere {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
+		"Indicator.Sync.UploadingVariants" : "Hochladen {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError" : "Synchronisations-Fehler! <size=50%>Bitte Log für Details prüfen</size>",
         "Indicator.Sync.OutOfSpace" : "Kein Speicherplatz mehr! <size=50%>Kann nicht synchronieren</size>",
 
@@ -286,7 +286,7 @@
         "Account.ErrorPasswordMismatch" : "Passwörter stimmen nicht überein!",
         "Account.ErrorEmailMismatch" : "Email-Adressen stimmen nicht überein!",
         "Account.ErrorLoginError" : "Anmelde Fehler:",
-        "Account.RegistrationSuccess" : "Registierung erfolgreich! Eine Email mit einem Bestätigungslinks wurde versendet. Nach dem Öffnen dieses Links können Sie sich anmelden.",
+        "Account.RegistrationSuccess" : "Registierung erfolgreich! Eine Email mit einem Bestätigungslink wurde versendet. Nach dem Öffnen dieses Links können Sie sich anmelden.",
 
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Abwesend",
@@ -694,7 +694,6 @@
         "CameraControl.Settings.AvoidOcclusion" : "Verdeckung vermeiden",
         "CameraControl.Settings.KeepInWorldspace" : "Im Worldspace bleiben",
         "CameraControl.Settings.MovementWobble" : "Wobble Bewegung",
-
         "CameraControl.Settings.AimInFrontOfHead" : "Ausrichtung auf die Stirn",
         "CameraControl.Settings.HideCamera" : "Kamera unsichtbar",
         "CameraControl.Settings.ForceEyesOnCamera" : "Force Eyes On Camera",
@@ -836,8 +835,8 @@
         "Security.HostAccess.Allow" : "Erlauben",
         "Security.HostAccess.Deny" : "Verweigern",
 
-        "Exiting.SavingItems" : "Speichere {n, plural, ein {# item} viele {# items}}...",
-        "Exiting.SavingChanges" : "Speichere Änderungen...",
+        "Exiting.SavingItems" : "Speichere {n, plural, one {# item} other {# items}}...",
+		"Exiting.SavingChanges" : "Speichere Änderungen...",
         "Exiting.Exiting" : "Beenden...",
 
         "Exiting.LoggingOut" : "Abmelden...",
