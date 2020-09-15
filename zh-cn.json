@@ -253,7 +253,7 @@
 
         "Indicator.Sync.AllSynced" : "全部同步",
         "Indicator.Sync.SyncingItems" : "正在同步{item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants" : "上载中 {variant_count,plural, one {# asset variant} other {# asset variants}}",
+        "Indicator.Sync.UploadingVariants" : "正在上载中 {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError" : "同步错误！ <size=50%>Check log for details</size>",
         "Indicator.Sync.OutOfSpace" : "空间不足！ <size=50%>Cannot sync</size>",
 
