@@ -839,8 +839,8 @@
         "Settings.WindowsIntegration" : "Windows samþætting",
         "Settings.LinuxIntegration" : "GNU/Linux samþætting",    
 
-        "Settings.System.KeepOriginalScreenshotFormat" : "Keep original screenshot format",
-        "Settings.System.KeepOriginalScreenshotFormat.Description" : "When enabled, screenshots won't be converted to JPG when saved into the Documents folder",
+        "Settings.System.KeepOriginalScreenshotFormat" : "Halda upprunaleg screenshot snið",
+        "Settings.System.KeepOriginalScreenshotFormat.Description" : "Með kveikt, screenshottar verða ekki breyttar í JPG þegar flutt út í skjalasaft á tölvunni",
 
         "Security.Hyperlink.Warning" : "<b><size=125%>Warning: Outgoing hyperlink</size></b>\nÞú hefur smellt á hlekk. Viltu opna það? Þessi hlekkur opnar í vafra á tölvuna þína.",
         "Security.Hyperlink.Open" : "Opna",
