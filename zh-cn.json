@@ -382,7 +382,7 @@
         "Tooltips.Dev.Selection" : "选拔: {mode}",
         "Tooltips.Dev.DevMode.Off" : "开发人员模式：关闭",
         "Tooltips.Dev.DevMode.On" : "开发人员模式：开",
-        "Tooltips.Dev.OpenInspector" : "开放检查员",
+        "Tooltips.Dev.OpenInspector" : "开放检查器",
         "Tooltips.Dev.DeselectAll" : "全部取消选择",
         "Tooltips.Dev.DestroySelected" : "销毁所选",
 
@@ -397,7 +397,7 @@
         "Tooltip.GrabbableSetter.NonScalable" : "设置不可缩放",
 
         "Tooltip.CharacterCollider.MarkGrippable" : "设置可抓取",
-        "Tooltip.CharacterCollider.DontMarkGrippable" : "不要设置",
+        "Tooltip.CharacterCollider.DontMarkGrippable" : "不要设置可抓取",
         "Tooltip.CharacterCollider.EnsureWalkRun" : "确保步行/跑步运动",
         "Tooltip.CharacterCollider.EnsureZeroG" : "确保零重力运动",
         "Tooltip.CharacterCollider.EnsurePhysicalFly" : "确保身体飞翔",
@@ -426,11 +426,11 @@
 
         "Tooltip.Mesh.Edit" : "编辑网格",
 
-        "CreateNew.Back" : "<<< <i>背部</i>",
-        "CreateNew.EmptyObject" : "空对象",
+        "CreateNew.Back" : "<<< <i>回去</i>",
+        "CreateNew.EmptyObject" : "空物体",
         "CreateNew.ParticleSystem" : "粒子系统",
 
-        "CreateNew.Object" : "目的",
+        "CreateNew.Object" : "物体",
         "CreateNew.Object.AvatarCreator" : "阿凡达创建机器",
         "CreateNew.Object.Camera" : "相机",
         "CreateNew.Object.Mirror" : "镜子",
@@ -483,7 +483,7 @@
         "CreateNew.Materials" : "材质",
 
         "AvatarCreator.Title" : "阿凡达创建机器",
-        "AvatarCreator.Instructions" : "将头像对象与耳机和控制器参考对齐（可选），然后按创建将其转换为头像",
+        "AvatarCreator.Instructions" : "将阿凡达对象与耳机和控制器参考对齐（可选），然后按创建将其转换为阿凡达",
         "AvatarCreator.UseSymmetry" : "使用对称",
         "AvatarCreator.ShowToolAnchors" : "显示工具锚",
         "AvatarCreator.SetupVolumeMeter" : "设置音量计",
@@ -539,7 +539,7 @@
         "Importer.Model.Millimeters" : "毫米 (mm)",
         "Importer.Model.Centimeters" : "公分 (cm)",
         "Importer.Model.Inches" : "英制",
-        "Importer.Model.FinalizePrompt" : "可以了，好了？",
+        "Importer.Model.FinalizePrompt" : "您确定要导入吗？",
         "Importer.Model.RunImport" : "运行导入！",
 
         "Importer.Model.Advanced.Scale" : "规模: ",
