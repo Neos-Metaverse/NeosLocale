@@ -181,7 +181,7 @@
         "World.Detail.Tags" : "标签",
         "World.Detail.ActionsHeader" : "动作:",
 
-        "World.Category.Everything" : "一切",
+        "World.Category.Everything" : "万事",
         "World.Category.Featured" : "精选",
         "World.Category.PublishedWorlds" : "出版的世界",
         "World.Category.ActiveSessions" : "活动会议",
@@ -211,7 +211,7 @@
         "World.SortParameter.TotalVisits" : "总造访",
 
         "World.Filter.DataSources" : "数据源:",
-        "World.Filter.OpenedWorlds" : "开放世界",
+        "World.Filter.OpenedWorlds" : "开放的世界",
         "World.Filter.ActiveSessions" : "活动会议",
         "World.Filter.PublishedWorlds" : "出版的世界",
         "World.Filter.LocalWorlds" : "本地世界",
@@ -219,7 +219,7 @@
         "World.Filter.ByOwner" : "由业主:",
         "World.Filter.UserOwner" : "所有者是用户",
         "World.Filter.GroupOwner" : "所有者是组",
-        "World.Filter.SubmittedToGroup" : "提交给组：:",
+        "World.Filter.SubmittedToGroup" : "提交给组:",
         "World.Filter.Featured" : "仅精选",
         "World.Filter.MyWorlds" : "我的世界",
         "World.Filter.SessionFiltering" : "会议过滤:",
