@@ -134,7 +134,7 @@
         "World.Actions.ReallyConfirmDelete" : "永久删除",
         "World.Actions.Overwrite" : "用{name}覆盖",
         "World.Actions.ConfirmOverwrite" : "确认覆盖",
-        "World.Actions.Overwriting" : "覆盖...",
+        "World.Actions.Overwriting" : "正在覆盖...",
 
         "World.Actions.ClosePrompt" : "关闭世界?",
         "World.Actions.LeavePrompt" : "离开世界?",
