@@ -561,7 +561,7 @@
         "Importer.Model.Advanced.SetupTimelapse" : "タイムラプスとしてセットアップ",
          "Importer.Model.Advanced.ImportExternalTextures" : "外部テクスチャーをインポート",
         "Importer.Model.Advanced.SkinnedMeshes" : "スキンドメッシュをインポート",
-        "Importer.Model.Advanced.SetupIK" : "IKをセットアップい",
+        "Importer.Model.Advanced.SetupIK" : "IKをセットアップする",
         "Importer.Model.Advanced.VisualizeRig" : "リグを可視化",
         "Importer.Model.Advanced.ForceTpose" : "強制Tポーズ",
         "Importer.Model.Advanced.ForcePointCloud" : "点群としてインポート",
@@ -877,12 +877,12 @@
         "Inspector.Mesh.MergeDoubles" : "頂点の結合",
         "Inspector.Mesh.StripEmptyBlendshapes" : "空のブレンドシェイプを取り除く",
         "Inspector.Mesh.StripBlendshapeNormals" : "ブレンドシェイプのノーマルを取り除く",
-        "Inspector.Mesh.StripBlendshapeTangents" : "String Blendshape Tangents",
+        "Inspector.Mesh.StripBlendshapeTangents" : "ブレンドシェイプのタンジェントを取り除く",
 
         "Inspector.Mesh.GetBoneList" : "ボーンのリストを取得",
         "Inspector.Mesh.GetBoneData" : "ボーンデータを取得",
 
-        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "Trim Vertex Bone Weights To:",
+        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "頂点ボーンウェイトをかりとる:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bone} other {# Bones}}",
         "Inspector.Mesh.UV_Multiplicator" : "乗数:",
         "Inspector.Mesh.ScaleUVs" : "UVのスケール",

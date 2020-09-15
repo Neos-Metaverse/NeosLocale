@@ -882,7 +882,7 @@
         "Inspector.Mesh.MergeDoubles" : "Kunfandi Duoblojn",
         "Inspector.Mesh.StripEmptyBlendshapes" : "Nudigi Malplenajn Blendshape",
         "Inspector.Mesh.StripBlendshapeNormals" : "Strio Blendshape Normals",
-        "Inspector.Mesh.StripBlendshapeTangents" : "Ŝnuro Blendshape Tangents",
+        "Inspector.Mesh.StripBlendshapeTangents" : "Strio Blendshape Tangents",
 
         "Inspector.Mesh.GetBoneList" : "Akiru Ostan Liston",
         "Inspector.Mesh.GetBoneData" : "Akiru Ostajn Datumojn",
