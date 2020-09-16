@@ -190,6 +190,7 @@
         "World.Category.PublishedWorlds" : "公開ワールド",
         "World.Category.ActiveSessions" : "アクティブセッション",
         "World.Category.FriendSessions" : "フレンドのセッション",
+        "World.Category.HeadlessSessions" : "ヘッドレスのセッション",
         "World.Category.Social" : "ソーシャル",
         "World.Category.Games" : "ゲーム",
         "World.Category.Art" : "アート",
