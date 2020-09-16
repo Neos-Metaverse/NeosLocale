@@ -336,7 +336,7 @@
         "Contacts.Blocked" : "ブロック済み",
         "Contacts.SearchResult" : "検索結果",
 
-        "Notifications.IsOnline" : "Is now Online",
+        "Notifications.IsOnline" : "がオンラインになりました",
         "Notifications.IsOnlineOnDifferentVersion" : " <size=75%>(using version: {version})</size>さんがオンラインになりました",
         "Notifications.ReceivedContactRequest" : "フレンドリクエストを送りました",
         "Notifications.ReceivedInvite" : "招待を受けました:",
@@ -351,7 +351,7 @@
         "Undo.Spawn" : "スポーン {name}",
         "Undo.Destroy" : "破棄 {name}",
         "Undo.SpawnComponent" : "{slot_name} に {component_type} をアタッチ",
-        "Undo.DuplicateComponent" : "Duplicate Component",
+        "Undo.DuplicateComponent" : "コンポーネントを複製",
         "Undo.DestroyComponent" : "{slot_name} の {component_type} を破棄",
         "Undo.Transform" : "{name} を移動",        
         "Undo.Translate" : "平行移動",
