@@ -873,7 +873,7 @@
         "Inspector.Mesh.ReverseWinding" : "逆巻き",
         "Inspector.Mesh.MakeDualSided" : "両面設定にする",
         "Inspector.Mesh.ConvertToFlatShading" : "フラットシェーディングにする",
-        "Inspector.Mesh.ConvertToConvexHull" : "凸包に変換",
+        "Inspector.Mesh.ConvertToConvexHull" : "Convex Hullに変換",
         "Inspector.Mesh.MergeDoubles" : "頂点の結合",
         "Inspector.Mesh.StripEmptyBlendshapes" : "空のブレンドシェイプを取り除く",
         "Inspector.Mesh.StripBlendshapeNormals" : "ブレンドシェイプのノーマルを取り除く",

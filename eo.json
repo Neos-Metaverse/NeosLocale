@@ -669,11 +669,11 @@
         "FullBody.CalibrationRedoInstructions": "Se la kalibrado estas malŝaltita aŭ vi volas kalibri pli da avataroj, vi povas fari pli da ĝustigoj. Vi ankaŭ povas remalfermi ĉi tiun kalibrilon iam ajn estonte por fari agordojn. \n Se vi nur ŝanĝis viajn spurilojn, vi ne bezonas kalibri viajn avatarojn denove. ",
         "FullBody.ReturnToTrackerCalibration": "Reveni al kalibrado de spurilo",
 
-        "FullBody.Hips": "Koksoj",
-        "FullBody.Feet": "Piedoj",
-        "FullBody.Chest": "Kesto",
-        "FullBody.Elbows": "Kubutoj",
-        "FullBody.Knees": "genuoj",
+        "FullBody.Hips" : "Hips",
+        "FullBody.Feet" : "Feet",
+        "FullBody.Chest" : "Chest",
+        "FullBody.Elbows" : "Elbows",
+        "FullBody.Knees" : "Knees",
 
         "FullBody.TrackerMapped": "Spuristo Mapita",
         "FullBody.NotTracking": "Ne Spuranta ...",
