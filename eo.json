@@ -82,8 +82,8 @@
         "World.HostIsStarting": "Gastiganto komencas kunsidon",
         "World.Loading": "Ŝarĝante ...",
         "World.LoadingFailed": "Malsukcesis",
-        "World.LoadedAssets": "Ŝarĝitaj {aktivoj} de {total_assets}",
-        "World.Downloading": "Elŝutado de {bajtoj} de {total_bytes}",
+        "World.LoadedAssets": "Ŝarĝitaj {assets} de {total_assets}",
+        "World.Downloading": "Elŝutado de {bytes} de {total_bytes}",
 
         "World.Connection.EstablishingConnection": "Establante konekton",
         "World.Connection.RequestingJoin": "Petanta Aliĝon",
