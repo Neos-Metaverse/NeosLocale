@@ -273,7 +273,7 @@
         "Account.Password" : "Heslo:",
         "Account.RepeatPassword" : "Znova Heslo:",
         "Account.RecoverPassword" : "Zapomenuté heslo?",
-        "Account.MicrosoftEmailWarning" : "<color=#f00>VAROVÁNÍ:</color> live.com, hotmail.com, outlook.com a další emailové služby od Microsoftu mohou dorazit až za 1-2 dní.",
+        "Account.LiveEmailWarning" : "<color=#f00>VAROVÁNÍ:</color> live.com, hotmail.com, outlook.com a další emailové služby od Microsoftu mohou dorazit až za 1-2 dní.",
         "Account.PasswordRules" : "(alespoň 8 znaků, 1 číslice, 1 malé písmeno, 1 velké)",
         "Account.AgeConfirm" : "Je mi 13 let nebo výše",
         "Account.LostPasswordHeader" : "Zapomenuté heslo",
