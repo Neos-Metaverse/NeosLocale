@@ -191,6 +191,7 @@
         "World.Category.PublishedWorlds" : "Published Worlds",
         "World.Category.ActiveSessions" : "Active Sessions",
         "World.Category.FriendSessions" : "Friend Sessions",
+        "World.Category.HeadlessSessions" : "Headless Sessions",
         "World.Category.Social" : "Social",
         "World.Category.Games" : "Games",
         "World.Category.Art" : "Art",
