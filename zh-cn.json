@@ -933,6 +933,17 @@
         "Exiting.Exiting" : "正在退出中...",
         "Exiting.LoggingOut" : "正在注销...",
 
+        "Temporary.MMC.Voting UI": "MMC投票界面",
+        "Temporary.MMC.Vote": "投票",
+        "Temporary.MMC.Categories.Name": "分类目录",
+        "Temporary.MMC.Categories.Worlds": "世界",
+        "Temporary.MMC.Categories.Other": "小工具/工具+",
+        "Temporary.MMC.Categories.Avatars": "阿凡达",
+        "Temporary.MMC.VoteSuccess": "为{voteTarget}在类别{category}中投了票。",
+        "Temporary.MMC.VoteFailure": "投票失败，您的投票尚未注册，请重试。",
+        "Temporary.MMC.VotedAlready": "您已经在{category}中投票。",
+        "Temporary.MMC.VoteInvalid": "投票无效，请重试。",
+
         "Dummy" : "假"
     }
 }

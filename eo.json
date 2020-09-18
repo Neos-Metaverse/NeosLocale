@@ -931,6 +931,17 @@
         "Exiting.Exiting" : "Elirante ...",
         "Exiting.LoggingOut" : "Elŝalti ...",
 
+        "Temporary.MMC.Voting UI": "MMC Voĉdonado UI",
+        "Temporary.MMC.Vote": "Voĉdonu",
+        "Temporary.MMC.Categories.Name": "Kategorioj",
+        "Temporary.MMC.Categories.Worlds": "Mondoj",
+        "Temporary.MMC.Categories.Other": "Aparatoj / Iloj +",
+        "Temporary.MMC.Categories.Avatars": "Avataroj",
+        "Temporary.MMC.VoteSuccess": "Voĉdonu en kategorio {category}  por {voteTarget}.",
+        "Temporary.MMC.VoteFailure": "Voĉdono malsukcesis, via voĉdono ne estis registrita bonvolu provi denove.",
+        "Temporary.MMC.VotedAlready": "Vi jam voĉdonis en {category} .",
+        "Temporary.MMC.VoteInvalid": "Voĉdono nevalidas, bonvolu reprovi.",
+        
         "Dummy" : "Dummy"
     }
 }
