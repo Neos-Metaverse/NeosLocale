@@ -3,8 +3,8 @@
     "authors" : ["Nammi"],
     "messages" : 
     {
-    	"Undo.ChangeColor" : "Change Colour",
-        "Tooltip.Color.Picker" : "Colour Picker",
+	"Undo.ChangeColor" : "Change Colour",
+	"Tooltip.Color.Picker" : "Colour Picker",
 	"Importer.Model.VertexColorModel" : "Vertex Coloured Model",
 	"Importer.Model.Advanced.VertexColors" : "Import Vertex Colours",
 	"Importer.Model.Advanced.AlbedoColor" : "Import Albedo Colour",
