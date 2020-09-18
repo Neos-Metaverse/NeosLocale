@@ -5,12 +5,12 @@
     {
     	"Undo.ChangeColor" : "Change Colour",
         "Tooltip.Color.Picker" : "Colour Picker",
-	"Importer.Model.VertexColorModel" : "Vertex Coloured Model",
-	"Importer.Model.Advanced.VertexColors" : "Import Vertex Colours",
-	"Importer.Model.Advanced.AlbedoColor" : "Import Albedo Colour",
-	"Importer.Model.Advanced.RandomColors" : "Generate Random Colours",
-	"Inspector.Mesh.ChannelStats" : "Normals: {normals}, Tangents: {tangents}, Colours: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
-	"Inspector.Texture.ColorToAlphaWhite" : "Colour to Alpha (white)",
+		"Importer.Model.VertexColorModel" : "Vertex Coloured Model",
+		"Importer.Model.Advanced.VertexColors" : "Import Vertex Colours",
+		"Importer.Model.Advanced.AlbedoColor" : "Import Albedo Colour",
+		"Importer.Model.Advanced.RandomColors" : "Generate Random Colours",
+		"Inspector.Mesh.ChannelStats" : "Normals: {normals}, Tangents: {tangents}, Colours: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
+		"Inspector.Texture.ColorToAlphaWhite" : "Colour to Alpha (white)",
         "Inspector.Texture.ColorToAlphaBlack" : "Colour to Alpha (black)"
     }
 }
