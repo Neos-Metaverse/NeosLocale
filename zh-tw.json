@@ -932,6 +932,17 @@
         "Exiting.Exiting" : "正在退出中...",
         "Exiting.LoggingOut" : "正在註銷...",
 
+        "Temporary.MMC.Voting UI": "MMC投票界面",
+        "Temporary.MMC.Vote": "投票",
+        "Temporary.MMC.Categories.Name": "分類目錄",
+        "Temporary.MMC.Categories.Worlds": "世界",
+        "Temporary.MMC.Categories.Other": "小工具/工具+",
+        "Temporary.MMC.Categories.Avatars": "阿凡達",
+        "Temporary.MMC.VoteSuccess": "為{voteTarget}在類別{category}中投了票。",
+        "Temporary.MMC.VoteFailure": "投票失敗，您的投票尚未註冊，請重試。",
+        "Temporary.MMC.VotedAlready": "您已經在{category}中投票。",
+        "Temporary.MMC.VoteInvalid": "投票無效，請重試。",
+        
         "Dummy" : "Dummy"
     }
 }

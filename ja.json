@@ -927,6 +927,17 @@
         "Exiting.Exiting" : "終了中...",
         "Exiting.LoggingOut" : "ログアウト中...",
 
+        "Temporary.MMC.Voting UI": "MMC投票UI",
+        "Temporary.MMC.Vote": "投票",
+        "Temporary.MMC.Categories.Name": "カテゴリー",
+        "Temporary.MMC.Categories.Worlds": "ワールド",
+        "Temporary.MMC.Categories.Other": "ガジェット/ツールズ+",
+        "Temporary.MMC.Categories.Avatars": "アバター",
+        "Temporary.MMC.VoteSuccess": " {voteTarget}のカテゴリ{category}に投票します。",
+        "Temporary.MMC.VoteFailure": "投票失敗。あなたの表は登録されていません。もう一度やりなおしてください。",
+        "Temporary.MMC.VotedAlready": "あなたはすでに{category}で投票しています",
+        "Temporary.MMC.VoteInvalid": "投票が無効になりました。もう一度やりなおしてください。",
+
         "Dummy" : "ダミー"
     }
 }
