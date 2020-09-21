@@ -4,6 +4,11 @@ This repository contains the locale assets for the core UI of Neos VR (www.neos.
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
 
+# Do's and don'ts
+- Make sure the .json locale file is UTF8 encoded
+- Always keep the "Dummy" : "Dummy" entry at the bottom of the file. This way you don't have to remember to remove the comma at the end of the last entry every time
+- Copy & Paste the whole content of the file into this online validator to ensure you don't have any syntax errors: https://jsonformatter.curiousconcept.com/
+
 # If you're contributing a new language
 1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
 
