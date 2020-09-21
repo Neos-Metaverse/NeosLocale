@@ -1,0 +1,88 @@
+{
+    "localeCode" : "fi",
+    "authors" : ["AdmiralSoap"],
+    "messages" : 
+    {
+        "General.OK" : "OK",
+        "General.Cancel" : "Peruuta",
+        "General.Continue" : "Jatka",
+        "General.Next" : "Seuraava",
+        "General.Back" : "Takaisin",
+        "General.Confirm" : "Really?",
+        "General.Loading" : "Ladataan...",
+        "General.Processing" : "Käsitellään...",
+        "General.FAILED" : "EPÄONNISTUI",
+        "General.Reset" : "Nollaa",
+        "General.WorldOpenConfirm" : "Oletko varma?",
+        "General.Saved" : "Tallennettu!",
+        "General.CopiedToClipboard" : "Kopioitu!",
+        "General.CopiedToClipboardLong" : "Kopioitu leikepöydälle!",
+
+        "General.UI.SearchPrompt" : "Etsi...",
+        "General.UI.SearchPromptLong" : "Kirjoita etsiäksesi...",
+
+        "General.Sort.Ascending" : "Nousevasti",
+        "General.Sort.Descending" : "Laskevasti",
+
+        "Interaction.Destroy" : "Tuhoa",
+        "Interaction.Duplicate" : "Kopioi",
+        "Interaction.Undo" : "Peruuta",
+        "Interaction.Redo" : "Toista",
+        "Interaction.EquipTool" : "Ota käteen",
+        "Interaction.DequipTool" : "Irrota kädestä",
+        "Interaction.ScalingEnabled" : "Skaalaus päällä",
+        "Interaction.ScalingDisabled" : "Skaalaus pois päältä",
+        "Interaction.ResetScale" : "Resetoi skaala",
+        "Interaction.LaserEnabled" : "Laaseri päällä",
+        "Interaction.LaserDisabled" : "Laaseri pois päältä",
+        "Interaction.Locomotion" : "Liikkumistila",
+        "Interaction.Locomotion.None" : "Ei mitään",
+
+        "Dash.Screens.Home" : "Koti",
+        "Dash.Screens.Worlds" : "Maailmoja",
+        "Dash.Screens.Contacts" : "Kontaktit",
+        "Dash.Screens.Inventory" : "Inventaario",
+        "Dash.Screens.Session" : "Sessio",
+        "Dash.Screens.FileBrowser" : "<nobr>Tiedostojen selain",
+        "Dash.Screens.Settings" : "Asetukset",
+        "Dash.Screens.Exit" : "Poistu",
+
+        "Dash.Actions.PasteFromClipboard" : "Liitä sisältöä leikkauspöydältä",
+
+        "Dash.Exit.Header" : "Poistu Neoksesta",
+        "Dash.Exit.ExitAndSave" : "Poistu & tallenna kodit",
+        "Dash.Exit.ExitAndDiscard" : "Poistu & hylkää kodit",
+        "Dash.Exit.ThankYou" : "Kiitos kun käytät Neosta!",
+        "Dash.Exit.SubmittedBy" : "Kääntäjä: {name}",
+
+        "World.Waiting" : "Odotetaan...",
+        "World.HostIsStarting" : "Isäntä aloittaa sessiota...",
+        "World.Loading" : "Ladataan...",
+        "World.LoadingFailed" : "Epäonnistui",
+
+
+        "World.Connection.EstablishingConnection" : "Luodaan yhteyttä",
+        "World.Connection.RequestingJoin" : "Pyydetään liittyä",
+        "World.Connection.Authenticating" : "Todennetaan",
+        "World.Connection.Connected" : "Yhdistetty",
+        "World.Connection.SyncingInitialState" : "Synkronoidaan",
+
+         "Profile.Status.Online" : "Online",
+        "Profile.Status.Away" : "Poissa",
+        "Profile.Status.Busy" : "Kiireinen",
+        "Profile.Status.Invisible" : "Näkymätön",
+        "Profile.Status.Offline" : "Offline",
+
+        "Session.Tab.Settings" : "Asetukset",
+        "Session.Tab.Users" : "Käyttäjät",
+        "Session.Tab.Permissions" : "Käyttöoikeudet",
+
+        "Session.Permission.Anonymous" : "Oletus tuntematon:",
+        "Session.Permission.Vistor" : "Oletus vierailija:",
+        "Session.Permission.Contact" : "Oletus kontakti:",
+        "Session.Permission.Host" : "Oletus isäntä:",
+
+
+        "Dummy" : "Dummy"
+    }
+}
