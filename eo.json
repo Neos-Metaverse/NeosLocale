@@ -78,7 +78,7 @@
         "Dash.Exit.SubmittedBy": "Submetita de: {name}",
 
         "World.Waiting": "Atendante ...",
-        "World.HostIsStarting": "Gastiganto komencas kunsidon",
+        "World.HostIsStarting": "Gastiganto komencas sesiojn",
         "World.Loading": "Ŝarĝante ...",
         "World.LoadingFailed": "Malsukcesis",
         "World.LoadedAssets": "Ŝarĝitaj {assets} de {total_assets}",
@@ -94,7 +94,7 @@
         "World.Error.SecurityViolation": "Sekureca Malobservo",
         "World.Error.OnlyRegisteredUsers": "Nur registritaj uzantoj rajtas aliĝi",
         "World.Error.OnlyContacts": "Nur kontaktoj de la gastiganto rajtas aliĝi",
-        "World.Error.Private": "Ĉi tiu kunsido estas privata",
+        "World.Error.Private": "Ĉi sesio estas privata",
         "World.Error.SessionEnded": "Sesio Finiĝis",
         "World.Error.UserLimitReached": "Sesio atingis uzantlimon",
         "World.Error.FailedAuthentication": "Malsukcesa aŭtentokontrolo",
@@ -162,7 +162,7 @@
         "World.Indicator.Author": "De: {name}",
         "World.Indicator.Host": "Gastiganto: {name}",
         "World.Indicator.Hosting": "Gastigado",
-        "World.Indicator.Sessions" : "{n,plural, one {# session} other {# sessions}}",
+        "World.Indicator.Sessions" : "{n,plural, one {# sesio} other {# sesioj}}",
         "World.Indicator.Users": "Uzantoj",
         "World.Indicator.Users.None": "(neniuj aktivaj sesioj troviĝis)",
         "World.Indicator.Description": "Priskribo",
@@ -250,10 +250,10 @@
         "Options.SeatedMode.Off": "Sidita reĝimo: Malŝaltita",
 
         "Indicator.OnlineUsers" : "Enretaj uzantoj: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus" : "<color=#fff>Servila stato:</color> {status, select, Good {Good} Slow {Slow} Down {Down} NoInternet {No Internet}} ({response_ms} ms)",
+        "Indicator.ServerStatus" : "<color=#fff>Servila stato:</color> {status, select, Good {Bona} Slow {Malrapida} Down {Malsupre} NoInternet {Neniu interreto}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Ĉiuj sinkronigitaj",
-        "Indicator.Sync.SyncingItems" : "Sinkronigante {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
+        "Indicator.Sync.SyncingItems" : "Sinkronigante {item_count,plural, one {# ero} other {# erojn}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants" : "Alŝutado de {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError" : "Eraro de sinkronigo! <size=50%>Check log for details</size>",
         "Indicator.Sync.OutOfSpace" : "Ekstere de spaco! <size=50%>Cannot sync</size>",
@@ -599,7 +599,7 @@
         "Credits.NCR.Description" : "Ethereum-signo kun reala monda valoro",
         "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "La sablokesto de Neos sen reala valoro.",
-        "Credits.AmountPrompt" : "{action,select, send {How much do you want to send?} withdraw {How much do you want to withdraw?} tip {How much do you want to tip?}}",
+        "Credits.AmountPrompt" : "{action,select, send {Kiom vi volas sendi?} withdraw {Kiom vi volas retiri?} tip {Kiom vi volas doni trinkmonon?}}",
         "Credits.Amount" : "Kvanto: ",
         "Credits.Balance" : "Ekvilibro:",
         "Credits.WithdrawalAddress": "Larĝtira Adreso:",
@@ -888,7 +888,7 @@
         "Inspector.Mesh.GetBoneData" : "Akiru Ostajn Datumojn",
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo" : "Tranĉi Verteksajn Ostajn Pezojn al:",
-        "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bone} other {# Bones}}",
+        "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Osto} other {# Ostoj}}",
         "Inspector.Mesh.UV_Multiplicator" : "Multiplikilo:",
         "Inspector.Mesh.ScaleUVs" : "Skali UV-ojn",
 
@@ -926,7 +926,7 @@
         "Inspector.Texture.InvalidFloats" : "Diagnozo: Nevalidaj flosiloj",
         "Inspector.Texture.GenerateMetadata" : "Diagnozo: Generi Bitmapajn Metadatenojn",
 
-        "Exiting.SavingItems" : "Konservante {n, plural, one {# item} other {# items}}...",
+        "Exiting.SavingItems" : "Konservante {n, plural, one {# ero} other {# erojn}}...",
         "Exiting.SavingChanges" : "Konservi Ŝanĝojn ...",
         "Exiting.Exiting" : "Elirante ...",
         "Exiting.LoggingOut" : "Elŝalti ...",
