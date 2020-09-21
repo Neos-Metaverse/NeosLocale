@@ -291,7 +291,7 @@
         "Account.Requesting" : "Requesting...",
         "Account.ErrorPasswordMismatch" : "Passwords do not match!",
         "Account.ErrorEmailMismatch" : "Emails do not match!",
-        "Account.ErrorLoginError" : "Loging Error:",
+        "Account.ErrorLoginError" : "Login Error:",
         "Account.RegistrationSuccess" : "Success! An email has been sent with verification link. Once you open this link you'll be able to login.",
 
         "Profile.Status.Online" : "Online",
