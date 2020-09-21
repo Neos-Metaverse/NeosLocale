@@ -200,6 +200,6 @@
         "World.AccessLevel.LAN" : "En réseau",
         "World.AccessLevel.Private" : "Privé (sur invitation seulement)",
 
-        "Dummy" : "Vide"
+        "Dummy" : "Dummy"
     }
 }
