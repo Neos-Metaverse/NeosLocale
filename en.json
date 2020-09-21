@@ -1,6 +1,6 @@
 {
     "localeCode" : "en",
-    "authors" : ["Frooxius"],
+    "authors" : ["Frooxius", "Enverex"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -250,7 +250,7 @@
         "Options.SeatedMode.Off" : "Seated Mode: Off",
 
         "Indicator.OnlineUsers" : "Online Users: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {Good} Slow {Slow} Down {Down} NoInternet {No Internet}} ({response_ms} ms)",
+        "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {Good} Slow {Slow} Down {Down} No Internet {No Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "All Synced",
         "Indicator.Sync.SyncingItems" : "Syncing {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
@@ -258,7 +258,7 @@
         "Indicator.Sync.SyncError" : "Sync Error! <size=50%>Check log for details</size>",
         "Indicator.Sync.OutOfSpace" : "Out of Space! <size=50%>Cannot sync</size>",
 
-        "Indicator.LiveHiddenMessage" : "(information hidden while Live)",
+        "Indicator.LiveHiddenMessage" : "(information hidden while live)",
 
         "Account.Login" : "Login",
         "Account.Logout" : "Logout",
@@ -291,8 +291,8 @@
         "Account.Requesting" : "Requesting...",
         "Account.ErrorPasswordMismatch" : "Passwords do not match!",
         "Account.ErrorEmailMismatch" : "Emails do not match!",
-        "Account.ErrorLoginError" : "Loging Error:",
-        "Account.RegistrationSuccess" : "Success! An email has been sent with verification link. Once you open this link you'll be able to login.",
+        "Account.ErrorLoginError" : "Login Error:",
+        "Account.RegistrationSuccess" : "Success! An email has been sent with a verification link. Once you open this link you'll be able to login.",
 
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Away",
@@ -377,7 +377,7 @@
         "Undo.BakeMeshes" : "Bake {name}",
         "Undo.ChangeMesh" : "Change Mesh",
         "Undo.InsertParent" : "Insert Parent for {name}",
-        "Undo.Wiggler" : "Evil Stuff",
+        "Undo.Wiggler" : "Wiggler",
 
         "Tooltips.Dev.CreateNew" : "Create New...",
         "Tooltips.Dev.Selection" : "Selection: {mode}",
@@ -535,7 +535,7 @@
         "Importer.Model.SeparableKind" : "Separable with snappable pieces",
         "Importer.Model.UnitsPrompt" : "What units is it in?",
         "Importer.Model.AutoScale" : "Auto Scale (unknown scale)",
-        "Importer.Model.AutoHumanoid" : "Auto Humandoid Height",
+        "Importer.Model.AutoHumanoid" : "Auto Humanoid Height",
         "Importer.Model.Meters" : "Meters (m)",
         "Importer.Model.Millimeters" : "Millimeters (mm)",
         "Importer.Model.Centimeters" : "Centimeters (cm)",
@@ -629,7 +629,7 @@
         "FullBody.Title" : "Full Body Calibration",
         "FullBody.SetHeight" : "1) Set your height",
         "FullBody.HeightInstructions" : "Make sure this is your actual height, otherwise calibration won't work correctly. The mannequin should fit the headset and controllers.",
-        "FullBody.HeightWarning" : "This seems incorrect. Make sure it's yor actual height.",
+        "FullBody.HeightWarning" : "This seems incorrect. Make sure it's your actual height.",
         "FullBody.ConfirmMapping" : "2) Confirm tracker mapping",
         "FullBody.MappingInstructions" : "Stand in upright position and ensure the trackers are tracking and detected correctly.",
         "FullBody.StartCalibration" : "Start Tracker Calibration",
@@ -667,7 +667,7 @@
         "FullBody.FinishAvatarCalibration" : "Finish Avatar Calibration",
         "FullBody.CalibrationFinishedInstructions" : "If you're satisfied with the calibration, you can save your avatar now and exit.",
         "FullBody.CloseCalibrator" : "Close Calibrator",
-        "FullBody.CalibrationRedoInstructions" : "If the calibration is off or you want to calibrate more avatars you can make more adjustments. You can also reopen this calibrator any time in the future to make adjusments.\nIf you've only changed your trackers, you don't need to calibrate your avatars again.",
+        "FullBody.CalibrationRedoInstructions" : "If the calibration is off or you want to calibrate more avatars you can make more adjustments. You can also reopen this calibrator any time in the future to make adjustments.\nIf you've only changed your trackers, you don't need to calibrate your avatars again.",
         "FullBody.ReturnToTrackerCalibration" : "Return to tracker calibration",
 
         "FullBody.Hips" : "Hips",
@@ -699,7 +699,7 @@
 
         "CameraControl.Settings.AvoidOcclusion" : "Avoid Occlusion",
         "CameraControl.Settings.KeepInWorldspace" : "Keep In Worldspace",
-        "CameraControl.Settings.MovementWobble" : "Movement Wobbble",
+        "CameraControl.Settings.MovementWobble" : "Movement Wobble",
         "CameraControl.Settings.AimInFrontOfHead" : "Aim In Front of Head",
         "CameraControl.Settings.HideCamera" : "Hide Camera",
         "CameraControl.Settings.ForceEyesOnCamera" : "Force Eyes On Camera",
@@ -751,7 +751,7 @@
         "CameraControl.OBS.AuthFailure" : "Authentication Failure!",
         "CameraControl.OBS.ConnectionFailed" : "Connection failed: ",
         "CameraControl.OBS.ConnectionTimeout" : "Connection timeout. Is OBS running with websocket plugin installed?",
-        "CameraControl.OBS.UnexpectedConnectionError" : "Unexpected connection errror:",
+        "CameraControl.OBS.UnexpectedConnectionError" : "Unexpected connection error:",
         "CameraControl.OBS.DisconnectedPage" : "OBS Disconnected",
         "CameraControl.OBS.ReturnToConnect" : "Return to connect page",
         "CameraControl.OBS.AutoMirror" : "Auto Mirror on Record/Stream",
