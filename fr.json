@@ -53,7 +53,7 @@
 
         "Dash.Screens.Home" : "Maison",
         "Dash.Screens.Worlds" : "WMondes",
-        "Dash.Screens.Contacts" : "Liste des amis",
+        "Dash.Screens.Contacts" : "<nobr>Liste des amis",
         "Dash.Screens.Inventory" : "Inventaire",
         "Dash.Screens.Session" : "Session",
         "Dash.Screens.FileBrowser" : "<nobr>Explorateur de fichiers",
@@ -199,5 +199,7 @@
         "World.AccessLevel.Friends" : "Amis",
         "World.AccessLevel.LAN" : "En réseau",
         "World.AccessLevel.Private" : "Privé (sur invitation seulement)",
+
+        "Dummy" : "Dummy"
     }
 }
