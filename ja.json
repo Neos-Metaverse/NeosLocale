@@ -442,9 +442,9 @@
         "CreateNew.Object.Facet" : "Facet",
 
         "CreateNew.Object.FogVolume" : "フォグの量",
-        "CreateNew.Object.FogVolume.Additive" : "添加",
+        "CreateNew.Object.FogVolume.Additive" : "加算(Additive)",
         "CreateNew.Object.FogVolume.Alpha" : "アルファ",
-        "CreateNew.Object.FogVolume.Multiplicative" : "乗法",
+        "CreateNew.Object.FogVolume.Multiplicative" : "乗算(Multiplicative)",
         "CreateNew.Object.FogVolume.Gradient" : "勾配",
 
         "CreateNew.Text" : "テキスト",
@@ -590,7 +590,6 @@
         "Importer.Video.Stereo180" : "ステレオ 180 ビデオ",
         "Importer.Video.Depth.Prompt" : "深度プリセット",
         "Importer.Video.Depth.Default" : "デフォルト",
-
 
         "Credits.Title" : "クレジットを送る",
         "Credits.TokenPrompt" : "どのトークンを送信しますか?",
@@ -767,10 +766,10 @@
         "CameraControl.OBS.Recording.Stopping" : "録画停止中...",
 
         "Settings.Height" : "身長:",
-        "Settings.Metric" : "メトリック (cm)",
-        "Settings.Imperial" : "インペリアル (ft)",
+        "Settings.Metric" : "センチメートル (cm)",
+        "Settings.Imperial" : "フィート (ft)",
 
-        "Settings.OverrideLocale" : "ロケール上書き:",
+        "Settings.OverrideLocale" : "言語環境(ロケール上書き):",
         "Settings.HideAllTutorials" : "全チュートリアルを非表示",
         "Settings.ShowInteractionHints" : "インタラクションヒントを表示",
         "Settings.PrimaryController" : "プライマリーコントローラー",
@@ -884,7 +883,7 @@
         "Inspector.Mesh.GetBoneData" : "ボーンデータを取得",
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo" : "頂点ボーンウェイトをかりとる:",
-        "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bone} other {# Bones}}",
+        "Inspector.Mesh.BoneTrimCount" : "{n,plural, other {# ボーン}}",
         "Inspector.Mesh.UV_Multiplicator" : "乗数:",
         "Inspector.Mesh.ScaleUVs" : "UVのスケール",
 

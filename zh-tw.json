@@ -162,7 +162,7 @@
         "World.Indicator.Author" : "作者: {name}",
         "World.Indicator.Host" : "主持人: {name}",
         "World.Indicator.Hosting" : "託管",
-        "World.Indicator.Sessions" : "{n,plural, one {# session} other {# sessions}}",
+        "World.Indicator.Sessions" : "{n,plural, other {# 會議}}",
         "World.Indicator.Users" : "用戶",
         "World.Indicator.Users.None" : "(找不到活動的會議)",
         "World.Indicator.Description" : "描述",
@@ -250,10 +250,10 @@
         "Options.SeatedMode.Off" : "座位模式：關閉",
 
         "Indicator.OnlineUsers" : "在線用戶: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus" : "<color=#fff>服務器狀態:</color> {status, select, Good {Good} Slow {Slow} Down {Down} NoInternet {No Internet}} ({response_ms} ms)",
+        "Indicator.ServerStatus" : "<color=#fff>服務器狀態:</color> {status, select, Good {良好} Slow {緩慢} Down {為關閉} NoInternet {沒有互聯網}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "全部同步",
-        "Indicator.Sync.SyncingItems" : "正在同步 {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
+        "Indicator.Sync.SyncingItems" : "正在同步 {item_count,plural, other {# 項目}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants" : "正在上載中 {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError" : "同步錯誤！ <size=50%>Check log for details</size>",
         "Indicator.Sync.OutOfSpace" : "空間不足！ <size=50%>Cannot sync</size>",
@@ -600,7 +600,7 @@
         "Credits.NCR.Description" : "具有真實價值的以太坊代幣",
         "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "Neos的沙盒令牌，沒有實際價值。",
-        "Credits.AmountPrompt" : "{action,select, send {How much do you want to send?} withdraw {How much do you want to withdraw?} tip {How much do you want to tip?}}",
+        "Credits.AmountPrompt" : "{action,select, send {您要寄多少？} withdraw {您要提取多少？} tip {你想給小費多少？}}",
         "Credits.Amount" : "合計: ",
         "Credits.Balance" : "餘額: ",
         "Credits.WithdrawalAddress" : "提款地址: ",
@@ -885,10 +885,10 @@
         "Inspector.Mesh.StripBlendshapeNormals" : "條Blendshape法線",
         "Inspector.Mesh.StripBlendshapeTangents" : "條Blendshape切線",
 
-        "Inspector.Mesh.GetBoneList" : "獲取骨骼列表",
-        "Inspector.Mesh.GetBoneData" : "獲取骨骼數據",
+        "Inspector.Mesh.GetBoneList" : "獲取Bone列表",
+        "Inspector.Mesh.GetBoneData" : "獲取Bone數據",
 
-        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "修剪頂點骨骼權重:",
+        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "修剪頂點Bone權重:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bone} other {# Bones}}",
         "Inspector.Mesh.UV_Multiplicator" : "乘數:",
         "Inspector.Mesh.ScaleUVs" : "UV的規模",
@@ -927,7 +927,7 @@
         "Inspector.Texture.InvalidFloats" : "診斷：無效的浮點數",
         "Inspector.Texture.GenerateMetadata" : "診斷：生成位圖元數據",
 
-        "Exiting.SavingItems" : "正在保存 {n, plural, one {# item} other {# items}}...",
+        "Exiting.SavingItems" : "正在保存 {n, plural, other {# 項目}}...",
         "Exiting.SavingChanges" : "正在保存更改...",
         "Exiting.Exiting" : "正在退出中...",
         "Exiting.LoggingOut" : "正在註銷...",
