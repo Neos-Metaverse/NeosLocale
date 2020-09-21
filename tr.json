@@ -931,6 +931,17 @@
         "Exiting.Exiting" : "Çıkılıyor...",
         "Exiting.LoggingOut" : "Çıkış yapılıyor...",
 
+        "Temporary.MMC.Voting UI" : "MMC Oylama Arayüzü",
+        "Temporary.MMC.Vote" : "Oy Ver",
+        "Temporary.MMC.Categories.Name" : "Kategoriler",
+        "Temporary.MMC.Categories.Worlds" : "Dünyalar",
+        "Temporary.MMC.Categories.Other" : "Gadgetlar/Araçlar+",
+        "Temporary.MMC.Categories.Avatars" : "Avatarlar",
+        "Temporary.MMC.VoteSuccess" : "{voteTarget} için {category} kategorisinde oy verin.",
+        "Temporary.MMC.VoteFailure" : "Oy verilemedi, oyunuz kaydedilmedi. Lütfen tekrar deneyin.",
+        "Temporary.MMC.VotedAlready" : "Zaten {category} için oy verdiniz.",
+        "Temporary.MMC.VoteInvalid" : "Oy geçersiz, lütfen tekrar deneyin.",
+        
         "Dummy" : "Dummy"
     }
 }
