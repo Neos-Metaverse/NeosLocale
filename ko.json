@@ -837,7 +837,7 @@
 		"Exiting.SavingItems": "{n, plural, one {# 항목} other {# 항목}} 저장 중 ...",
 		"Exiting.SavingChanges": "변경 사항 저장 중 입니다.",
 		"Exiting.Exiting": "종료하는 중입니다.",
-		"Exiting.LoggingOut": "로그아웃을 진행 중입니다.",
+		"Exiting.LoggingOut": "로그아웃 중...",
 
 		"Dummy": "더미"
 	}
