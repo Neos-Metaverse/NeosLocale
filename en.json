@@ -284,7 +284,7 @@
         "Account.LostPassword" : "Lost Password",
         "Account.SendRecoveryCode" : "Send Recovery Code",
         "Account.ResetPasswordHeader" : "Reset Your Password",
-        "Account.ResetPasswordInstructions" : "A recovery code has been sent to your email. Copy it to the field blow:",
+        "Account.ResetPasswordInstructions" : "A recovery code has been sent to your email. Copy it to the field below:",
         "Account.RecoveryCode" : "Recovery Code:",
         "Account.NewPassword" : "New Password:",
         "Account.ResetPassword" : "Set New Password",
