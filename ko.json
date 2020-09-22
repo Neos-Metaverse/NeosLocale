@@ -439,7 +439,7 @@
 		"CreateNew.Object.FogVolume.Additive": "추가사항",
 		"CreateNew.Object.FogVolume.Alpha": "투명도",
 		"CreateNew.Object.FogVolume.Multiplicative": "곱셈(Multiplicative)",
-		"CreateNew.Object.FogVolume.Gradient": "구배(Gradient)",
+		"CreateNew.Object.FogVolume.Gradient": "경사(Gradient)",
 
 		"CreateNew.Text": "텍스트",
 		"CreateNew.Text.Basic": "기본",
@@ -551,7 +551,7 @@
 		"Importer.Model.Advanced.AlbedoColor": "알비도 색 불러오기",
 		"Importer.Model.Advanced.ImportEmissive": "발광(Emissive) 불러오기",
 
-		"Importer.Model.Advanced.Colliders": "충돌체(Collider) 생성",
+		"Importer.Model.Advanced.Colliders": "콜라이더 생성",
 		"Importer.Model.Advanced.Animations": "애니메이션 가져오기",
 		"Importer.Model.Advanced.SetupSnappable": "스냅(Snappable) 가능하게 설정",
 		"Importer.Model.Advanced.SetupTimelapse": "타입랩스로 설정",
@@ -591,7 +591,7 @@
 		"Credits.TokenPrompt": "어떤 화폐를 이용하시겠습니까?",
 		"Credits.NCR.Title": "Neos Credits (<b>NCR:이더리움</b>)",
 		"Credits.NCR.Description": "실가치가 존재하는 이더리움 화폐",
-		"Credits.KFC.Title": "Kompletely Fake Credits (<b>KFC:게임화폐 개념</b>)",
+		"Credits.KFC.Title": "Kompletely(환전히) Fake(가짜) Credits(크레딧) (<b>KFC</b>)",
 		"Credits.KFC.Description": "NEOS 내에서 사용되는 비가치성 화폐",
 		"Credits.AmountPrompt": "{action,select, send {송금액을 지정하세요.} withdraw {출금할 금액을 지정하세요.} tip {덤으로 추가할 금액이 있으면 입력하세요.}}",
 		"Credits.Amount": "금액: ",
@@ -688,7 +688,7 @@
 		"CameraControl.Mode.ThirdPerson": "3인칭",
 		"CameraControl.Mode.Group": "그룹",
 		"CameraControl.Mode.World": "월드",
-		"CameraControl.Mode.Manual": "수동 설정",
+		"CameraControl.Mode.Manual": "사용자 지정",
 
 		"CameraControl.Settings.AvoidOcclusion": "오클루젼(Occlusion) 피하기",
 		"CameraControl.Settings.KeepInWorldspace": "월드 공간에 고정",
