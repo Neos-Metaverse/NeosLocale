@@ -114,7 +114,7 @@
         "Account.LoggingIn" : "Kirjaudutaan sisään...",
         "Account.LoggingOut" : "Kirjaudutaan ulos...",
         "Account.Registering" : "Rekisteröidään...",
-        "Account.Anonymous" : "Tuntematon",
+        "Account.Anonymous" : "Anonyymi",
         "Account.PatreonSupporter" : "Patreon Tukija",
         "Account.Username" : "Käyttäjänimi:",
         "Account.Email" : "Sähköposti:",
