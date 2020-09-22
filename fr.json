@@ -57,10 +57,10 @@
 
         "Dash.Screens.Home" : "Maison",
         "Dash.Screens.Worlds" : "Mondes",
-        "Dash.Screens.Contacts" : "<nobr>Liste des amis",
+        "Dash.Screens.Contacts" : "Amis",
         "Dash.Screens.Inventory" : "Inventaire",
         "Dash.Screens.Session" : "Session",
-        "Dash.Screens.FileBrowser" : "<nobr>Explorateur de fichiers",
+        "Dash.Screens.FileBrowser" : "Fichiers",
         "Dash.Screens.Settings" : "Paramètres",
         "Dash.Screens.Exit" : "Quitter",
 
@@ -249,7 +249,7 @@
         "Options.SeatedMode.Off" : "Mode assis: Inactif",
         
         "Indicator.OnlineUsers" : "Utilisateurs en ligne: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus" : "<color=#fff>Statut du serveur:</color> {status, select, Bon {Good} Lent {Slow} Inaccessible {Down} Sans Internet {No Internet}} ({response_ms} ms)",
+        "Indicator.ServerStatus" : "<color=#fff>Statut du serveur:</color> {status, select, Good {Bon} Slow {Lent} Down {Inaccessible} NoInternet {Sans Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Synchronization complèté",
         "Indicator.Sync.SyncingItems" : "Synchronization: {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
@@ -312,9 +312,9 @@
 
         "User.Actions.Mute" : "Sourdine",
         "User.Actions.Jump" : "Saut",
-        "User.Actions.Respawn" : "Se rematérialiser",
+        "User.Actions.Respawn" : "Rematérialiser",
         "User.Actions.Kick" : "Éjecter",
-        "User.Actions.Ban" : "Interdire l'accès",
+        "User.Actions.Ban" : "Bannir",
         
         "Contacts.Add" : "Ajouter comme ami",
         "Contacts.Remove" : "Retirer des amis",
