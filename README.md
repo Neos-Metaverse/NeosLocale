@@ -18,7 +18,7 @@ If you can't find your language code in this file, please make a Issue either on
 
 Alternatively you can implement the pluralizer yourself based on the reference from the Unicode CLDR repository: https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml and make a pull request for it to be merged with our fork or MessageFormat.NET
 
-3) Add a new [lang-code].json file to your fork. We highly recommend creating a skeleton file first wihout any translation strings, just containing the Locale and Authors and creating a pull request, so it's clearer to other contributors that translations are being worked on by someone.
+3) Add a new [lang-code].json file to your fork. We highly recommend creating a skeleton file first without any translation strings, just containing the Locale and Authors and creating a pull request, so it's clearer to other contributors that translations are being worked on by someone.
 
 # Contributing translations to a language
 If you'd like to contribute translations for existing language file (or one you have just created), we recommend the following:
@@ -39,7 +39,7 @@ To test the translation, find folder where Neos.exe is installed (on Steam, you 
 By default, Neos uses your system locale to determine which file to load. You can override this by going to Settings and changing the "Override Locale" to a different language code.
 
 - You can edit the translation file on the fly without shutting down Neos. To force it to reload, change the locale to "en" and then back to your own.
-- Note that while most UI will change language immediatelly, not all of it would. Simply close and reopen the UI dialog to load the translated strings
+- Note that while most UI will change language immediately, not all of it would. Simply close and reopen the UI dialog to load the translated strings
 - If the string is showing in English, you probably have a typo in the string key. It needs to match exactly
 - If the translation isn't loading in Neos, it is likely JSON syntax error preventing it from being loaded
 - If you see "ERROR!!!" instead of your translated string, you have a syntax error in the particular string. Check Neos' log file, which will contain details.
@@ -76,7 +76,7 @@ We recommend putting most translations into the general language file (single tw
 Any strings you don't translate at all will also fall back into their English variants, so you don't have to worry about missing some of them, they can be translated later (or by another contributor). This also ensures that newly added strings in the English will show up and can be gradually translated as they come.
 
 # What if I find string that cannot be translated?
-While majority of Neos' UI has been converted to the localizatoin system, there are likely a few stragglers and some parts that aren't translatable right now. If you encounter such place, create an Issue on this repository, ideally with screenshot of the non-translatable part, so we can convert it as well.
+While majority of Neos' UI has been converted to the localization system, there are likely a few stragglers and some parts that aren't translatable right now. If you encounter such place, create an Issue on this repository, ideally with screenshot of the non-translatable part, so we can convert it as well.
 
 Currently there are a few known parts that cannot be translated, but are planned to:
 - Enumerations (e.g. certain tool options that cycle through several options)
