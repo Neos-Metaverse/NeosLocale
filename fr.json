@@ -317,7 +317,7 @@
         "User.Actions.Ban" : "Interdire l'accès",
         
         "Contacts.Add" : "Ajouter comme ami",
-        "Contacts.Remove" : "Enlever des amis",
+        "Contacts.Remove" : "Retirer des amis",
         "Contacts.ConfirmRemove" : "Confirmer?",
         "Contacts.AcceptRequest" : "Accepter la requète",
         "Contacts.IgnoreRequest" : "Ignorer la requète",
@@ -385,6 +385,13 @@
         "Tooltips.Dev.OpenInspector" : "Ouvrir l'inspecteur",
         "Tooltips.Dev.DeselectAll" : "Désélectionner tout",
         "Tooltips.Dev.DestroySelected" : "Détruire la sélection",
+        
+        "Tooltip.Logix.NodeBrowser" : "Explorateur de noeuds",
+        "Tooltip.Logix.UnpackChildren" : "Déballer les enfants et les noeuds connectés",
+        "Tooltip.Logix.SetPackingRoot" : "Définir la racine d'emballement",
+        "Tooltip.Logix.ClearPackingRoot" : "Nettoyer la racine d'emballement",
+
+        "Tooltip.Color.Picker" : "Pipette à couleurs",
         
         "Dummy" : "Dummy"
     }
