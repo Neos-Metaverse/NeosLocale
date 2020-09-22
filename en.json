@@ -250,7 +250,7 @@
         "Options.SeatedMode.Off" : "Seated Mode: Off",
 
         "Indicator.OnlineUsers" : "Online Users: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {Good} Slow {Slow} Down {Down} No Internet {No Internet}} ({response_ms} ms)",
+        "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {Good} Slow {Slow} Down {Down} NoInternet {No Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "All Synced",
         "Indicator.Sync.SyncingItems" : "Syncing {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
@@ -377,7 +377,7 @@
         "Undo.BakeMeshes" : "Bake {name}",
         "Undo.ChangeMesh" : "Change Mesh",
         "Undo.InsertParent" : "Insert Parent for {name}",
-        "Undo.Wiggler" : "Wiggler",
+        "Undo.Wiggler" : "Evil Stuff",
 
         "Tooltips.Dev.CreateNew" : "Create New...",
         "Tooltips.Dev.Selection" : "Selection: {mode}",
