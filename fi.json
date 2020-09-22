@@ -69,7 +69,7 @@
         "Dash.Actions.CoreWorldsHeader" : "Ydinmaailmat",
         "Dash.Actions.ContentHub" : "Sisältökeskus",
         "Dash.Actions.MTC" : "Metaverse Koulutuskeskus <size=75%>(oppaat)</size>",
-        "Dash.Actions.CloudHome" : "Minun Pilvi Koti",
+        "Dash.Actions.CloudHome" : "Pilvikoti",
 
         "Dash.Exit.Header" : "Poistu Neoksesta",
         "Dash.Exit.ExitAndSave" : "Poistu & tallenna kodit",
@@ -82,7 +82,7 @@
         "World.Loading" : "Ladataan...",
         "World.LoadingFailed" : "Epäonnistui",
         "World.LoadedAssets" : "Yhteensä {assets} ladattu {total_assets}",
-        "World.Downloading" : "Ladataan {bytes} yhteensä {total_bytes}",
+        "World.Downloading" : "Yhteensä {bytes} ladattu {total_bytes}",
 
         "World.Connection.EstablishingConnection" : "Luodaan yhteyttä",
         "World.Connection.RequestingJoin" : "Pyydetään liittyä",
