@@ -167,7 +167,24 @@
         "World.Indicator.Users.None" : "(Aktiivisia sessioita ei löytynyt)",
         "World.Indicator.Description" : "Kuvaus",
         "World.Indicator.Description.None" : "(Kuvausta ei ole)",
-		
+        
+        "World.Detail.ActiveSessions" : "Aktiiviset sessiot:",
+        "World.Detail.ActiveUsers" : "Aktiiviset käyttäjät:",
+        "World.Detail.NewSession" : "<Uusi sessio>",
+        "World.Detail.DescriptionHeader" : "Kuvaus: ",
+        "World.Detail.SessionInformationHeader" : "Session tiedot",
+        "World.Detail.Uptime" : "Käyntiaika",
+        "World.Detail.AccessLevel" : "Näkyvyys",
+        "World.Detail.Users" : "Käyttäjät",
+
+        "World.Detail.WorldInformationHeader" : "Maailman tiedot",
+        "World.Detail.PublishDate" : "Julkaistu",
+        "World.Detail.ModifyDate" : "Viimeksi päivitetty",
+        "World.Detail.Visits" : "Vierailut",
+
+        "World.Detail.Tags" : "Tunnisteet",
+        "World.Detail.ActionsHeader" : "Toiminnot:",
+        
 		"World.Category.Everything" : "Kaikki",
         "World.Category.Featured" : "Esittelyssä",
         "World.Category.PublishedWorlds" : "Julkaistut maailmat",
