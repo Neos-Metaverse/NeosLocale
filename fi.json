@@ -199,6 +199,12 @@
         "World.Category.Educational" : "Opettavaiset",
         "World.Category.MyWorlds" : "Omat maailmani",
         "World.Category.Custom" : "Mukauta hakua",
+
+        "World.AccessLevel.Anyone" : "Kuka tahansa",
+        "World.AccessLevel.RegisteredUsers" : "Rekisteröityneet käyttäjät",
+        "World.AccessLevel.Friends" : "Kontaktit",
+        "World.AccessLevel.LAN" : "LAN",
+        "World.AccessLevel.Private" : "Yksityinen (Ainoastaan kutsutut)",
 		
         "Account.Login" : "Kirjaudu sisään",
         "Account.Logout" : "Kirjaudu ulos",
