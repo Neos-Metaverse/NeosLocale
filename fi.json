@@ -248,6 +248,12 @@
         "Session.Permission.Contact" : "Oletus kontakti:",
         "Session.Permission.Host" : "Oletus isäntä:",
 
+		"User.Actions.Mute" : "Hiljennä",
+        "User.Actions.Jump" : "Hyppää",
+        "User.Actions.Respawn" : "Uudelleen synnytä",
+        "User.Actions.Kick" : "Potki",
+        "User.Actions.Ban" : "Estä sessiosta",
+		
         "Contacts.Add" : "Lisää kontakti",
         "Contacts.Remove" : "Poista kontakti",
         "Contacts.ConfirmRemove" : "Haluatko varmasti poistaa?",
@@ -259,6 +265,25 @@
         "Contacts.UnbanFromAllSessions" : "Poista esto KAIKISTA minun sessioistani",
         "Contacts.BanFromCurrentWorld" : "Estä nykyisestä maailmasta",
         "Contacts.UnbanFromCurrentWorld" : "Poista esto nykyisestä maailmasta",
+		
+		"Contacts.InSession" : "Maailmassa {name}",
+        "Contacts.InPrivate" : "Yksityisessä maailmassa",
+        "Contacts.UsingDifferentVersion" : "Käyttää versiota {version}",
+        "Contacts.RequestSent" : "Pyyntö lähetetty",
+        "Contacts.RequestReceived" : "Kontaktipyyntö",
+        "Contacts.RequestIgnored" : "Hylätty",
+        "Contacts.Blocked" : "Estetty",
+        "Contacts.SearchResult" : "Etsinnän tulos",
+		
+        "Notifications.IsOnline" : "On nyt paikalla",
+        "Notifications.IsOnlineOnDifferentVersion" : "On nyt paikalla <size=75%>(käyttää versiota: {version})</size>",
+        "Notifications.ReceivedContactRequest" : "Lähetti kontaktipyynnön",
+        "Notifications.ReceivedInvite" : "Kutsuu sinut maailmaan:",
+        "Notifications.ReceivedItem" : "Lähetti sinulle tavaran:",
+        "Notifications.ReceivedCredits" : "Lähetti {amount} {token}",
+        "Notifications.TransferedCredits" : "Siirretty {amount} {token}",
+        "Notifications.ReceivedTip" : "Vastaanotettu tippi {amount} {token}",
+        "Notifications.SentTip" : "Lähetty tippi {amount} {token}"		
 
         "Dummy" : "Dummy"
     }
