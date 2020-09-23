@@ -311,6 +311,7 @@
         "Session.Permission.PermissionOverrideCount" : "Permission Overrides: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Clear User Overrides",
 
+        "User.Actions.Silence" : "Silence",
         "User.Actions.Mute" : "Mute",
         "User.Actions.Jump" : "Jump",
         "User.Actions.Respawn" : "Respawn",
