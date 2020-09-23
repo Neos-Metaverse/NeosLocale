@@ -176,6 +176,7 @@
         "World.Detail.Uptime" : "Käyntiaika",
         "World.Detail.AccessLevel" : "Näkyvyys",
         "World.Detail.Users" : "Käyttäjät",
+        
 
         "World.Detail.WorldInformationHeader" : "Maailman tiedot",
         "World.Detail.PublishDate" : "Julkaistu",
@@ -283,7 +284,34 @@
         "Notifications.ReceivedCredits" : "Lähetti {amount} {token}",
         "Notifications.TransferedCredits" : "Siirretty {amount} {token}",
         "Notifications.ReceivedTip" : "Vastaanotettu tippi {amount} {token}",
-        "Notifications.SentTip" : "Lähetty tippi {amount} {token}"		
+        "Notifications.SentTip" : "Lähetty tippi {amount} {token}",
+
+        "Settings.Height" : "Pituus:",
+        "Settings.Metric" : "Senttimetri (cm)",
+        "Settings.Imperial" : "Tuuma (ft)",
+
+        "Settings.OverrideLocale" : "Kieli vaihdos:",
+        "Settings.HideAllTutorials" : "Piilota kaikki oppaat",
+        "Settings.ShowInteractionHints" : "Näytä vihjeitä",
+        "Settings.PrimaryController" : "Ensisijainen ohjain",
+        "Settings.AllowStrafing" : "Salli sivuttain liikkuminen",
+        "Settings.UseHeadDirectionForMovement" : "Käytä pään suuntaa liikkumiseen",
+        "Settings.SmoothTurn" : "Pehmeä käänntyminen",
+        "Settings.SmoothTurnExclusiveMode" : "Pehmeän kääntymisen eksklusiivinen tila",
+        "Settings.SmoothTurnSpeed" : "Pehmeän kääntymisen nopeus",
+        "Settings.SnapTurnAngle" : "Napsautus kulman aste",
+        "Settings.NoclipSpeed" : "Lento nopeus",
+        "Settings.SpeedExponent" : "Nopeus eksponentti",
+        "Settings.MoveThreshold" : "Liikkumisen kynnys",
+        "Settings.ControllerVibration" : "Ohjain tärinä",
+        "Settings.DisablePhysicalInteractions" : "Poista fyysiset vuorovaikutukset käytöstä",
+        "Settings.EnableGestures" : "Ota ohjain eleet käyttöön",
+        "Settings.DoubleClickInterval" : "Kaksoisnapsautus viive",
+        "Settings.ResetAllTutorials" : "Nollaa kaikki oppaat",
+        "Settings.PreferSteamNetworking" : "Suosi Steam verkkoliitäntää",
+        "Settings.LegacyGripEquip" : "Ota vanha Double Grip käyttöön",
+        "Settings.LegacyWorldSwitcher" : "Ota vanha maailma vaihdos käyttöön",
+        "Settings.FetchIncompatibleSessions" : "Näytä yhteensopimattomat istunnot",
 
         "Dummy" : "Dummy"
     }
