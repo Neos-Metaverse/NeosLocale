@@ -846,7 +846,7 @@
         "Settings.LinuxIntegration" : "Linux Integration",
         
         "Settings.System.KeepOriginalScreenshotFormat" : "Behalte das ursprüngliche Screenshot-Format bei",
-        "Settings.System.KeepOriginalScreenshotFormat.Description" : "Wenn diese Option aktiviert ist, werden Screenshots beim Speichern im Ordner "Dokumente" nicht ins JPG Format konvertiert",
+        "Settings.System.KeepOriginalScreenshotFormat.Description" : "Wenn diese Option aktiviert ist, werden Screenshots beim Speichern im Ordner \"Dokumente\" nicht ins JPG Format konvertiert",
 
         "Security.Hyperlink.Warning" : "<b><size=125%>Warnung: Externer Hyperlink</size></b>\nSie haben auf einen externen Link geklickt. Möchten Sie diesen öffnen? Dies öffnet Ihren Desktop Web Browser.",
         "Security.Hyperlink.Open" : "Öffnen",
