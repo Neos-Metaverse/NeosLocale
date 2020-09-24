@@ -190,7 +190,7 @@
         "World.Category.Featured" : "Featured",
         "World.Category.PublishedWorlds" : "Published Worlds",
         "World.Category.ActiveSessions" : "Active Sessions",
-        "World.Category.FriendSessions" : "Friend Sessions",
+        "World.Category.FriendSessions" : "Contacts Sessions",
         "World.Category.HeadlessSessions" : "Headless Sessions",
         "World.Category.Social" : "Social",
         "World.Category.Games" : "Games",
@@ -202,7 +202,7 @@
 
         "World.AccessLevel.Anyone" : "Anyone",
         "World.AccessLevel.RegisteredUsers" : "Registered Users",
-        "World.AccessLevel.Friends" : "Friends",
+        "World.AccessLevel.Friends" : "Contacts",
         "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "Private (invite only)",
 
