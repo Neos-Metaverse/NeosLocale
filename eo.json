@@ -311,6 +311,7 @@
         "Session.Permission.PermissionOverrideCount" : "Permesaj Superregoj: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Forigi uzantajn anstataŭigojn",
 
+        "User.Actions.Silence" : "Tutmonda mutulo",
         "User.Actions.Mute": "Mutigi",
         "User.Actions.Jump": "Saltu",
         "User.Actions.Respawn": "Respawn",

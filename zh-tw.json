@@ -311,6 +311,7 @@
         "Session.Permission.PermissionOverrideCount" : "權限覆蓋: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "清除用戶替代",
 
+        "User.Actions.Silence" : "全局靜音",
         "User.Actions.Mute" : "靜音",
         "User.Actions.Jump" : "跳躍",
         "User.Actions.Respawn" : "重生",
