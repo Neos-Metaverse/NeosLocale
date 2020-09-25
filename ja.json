@@ -310,6 +310,7 @@
         "Session.Permission.PermissionOverrideCount" : "権限オーバーライド: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "ユーザーオーバーライドを消去",
 
+        "User.Actions.Silence" : "全体ミュート",
         "User.Actions.Mute" : "ミュート",
         "User.Actions.Jump" : "ジャンプ",
         "User.Actions.Respawn" : "リスポーン",
