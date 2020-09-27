@@ -894,6 +894,24 @@
         "Inspector.Mesh.UV_Multiplicator" : "Multiplicator:",
         "Inspector.Mesh.ScaleUVs" : "Scale UV's",
 
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Strip Empty Blendshapes",
+        "Inspector.SkinnedMesh.StripBlendshapesResult" : "Done! Stripped: {n,plural, one {# blendshape} other {# blendshapes}}",
+        "Inspector.SkinnedMesh.StripEmptyBones" : "Strip Empty Bones",
+        "Inspector.SkinnedMesh.StripBonesResult" : "Done! Stripped: {n,plural, one {# bone} other {# bones}}",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Visualize bone bounding boxes",
+        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Visualize approximate merged bone sphere bounds",
+        "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Remove bone bounding box visuals",
+
+        "Inspector.BipedRig.GetDiagnosticInfo" : "Get rig diagnostic info",
+        "Inspector.BipedRig.GenerateDebugVisuals" : "Generate Debug Visuals",
+        "Inspector.BipedRig.ClearDebugVisuals" : "Clear Debug Visuals",
+        "Inspector.BipedRig.DetectHands" : "Detect Hand Rigs",
+        "Inspector.BipedRig.DetectLeftHand" : "Detect Left Hand Rig",
+        "Inspector.BipedRig.DetectRightHand" : "Detect Right Hand Rig",
+        "Inspector.BipedRig.HandRigResult" : "Done! Has Left: {left}, Has Right: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "Done! Detected left: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "Done! Detected right: {detected}",
+
         "Inspector.Texture.Size" : "Size: {width} x {height}",
         "Inspector.Texture.Format" : "Format: {format}, Memory: <nobr>{memory}</nobr>",
 
