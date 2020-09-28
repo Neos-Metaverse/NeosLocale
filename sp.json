@@ -53,7 +53,7 @@
         "Interaction.LaserEnabled" : "Láser Prendido",
         "Interaction.LaserDisabled" : "Láser Apagado",
         "Interaction.Locomotion" : "Locomoción",
-        "Interaction.Locomotion.None" : "Ninguna",
+        "Interaction.Locomotion.None" : "Ninguno",
       
       "Dummy" : "Dummy"
     }
