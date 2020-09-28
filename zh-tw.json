@@ -384,7 +384,7 @@
         "Tooltips.Dev.Selection" : "選拔: {mode}",
         "Tooltips.Dev.DevMode.Off" : "開發人員模式：關閉",
         "Tooltips.Dev.DevMode.On" : "開發人員模式：開",
-        "Tooltips.Dev.OpenInspector" : "開放檢查器",
+        "Tooltips.Dev.OpenInspector" : "開放Inspector",
         "Tooltips.Dev.DeselectAll" : "全部取消選擇",
         "Tooltips.Dev.DestroySelected" : "銷毀所選",
 
@@ -454,7 +454,7 @@
         "CreateNew.Text.Outline" : "輪廓",
 
         "CreateNew.Editor" : "編輯",
-        "CreateNew.Editor.UserInspector" : "用戶檢查器",
+        "CreateNew.Editor.UserInspector" : "用戶Inspector",
         "CreateNew.Editor.LightSourcesWizard" : "世界光源設置嚮導",
         "CreateNew.Editor.AssetOptimizationWizard" : "資產優化設置嚮導",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX傳輸設置嚮導",
