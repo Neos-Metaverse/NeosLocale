@@ -25,11 +25,11 @@
         "General.Sort.Descending" : "Descendiendo",
         
         "Locomotion.Noclip.Name" : "Fantasma",
-        "Locomotion.Noclip.Description" : "Modo de locomocion Fantasma, ideal para editar el mundo.",
+        "Locomotion.Noclip.Description" : "Modo de locomoción Fantasma, ideal para editar el mundo.",
         "Locomotion.Teleport.Name" : "Teletransportar",
-        "Locomotion.Teleport.Description" : "Modo de locomocion Teletransporte, para movimiento comodo.",
+        "Locomotion.Teleport.Description" : "Modo de locomoción Teletransporte, para movimiento cómodo.",
         "Locomotion.Fly.Name" : "Volar",
-        "Locomotion.Fly.Description" : "Modo de locomocion de vuelo",
+        "Locomotion.Fly.Description" : "Modo de locomoción de vuelo",
         "Locomotion.WalkRun.Name" : "Caminar/Correr",
         "Locomotion.WalkRun.Description" : "Para caminar, correr y brincar",
         "Locomotion.WalkRunGripping.Name" : "Caminar, Correr y Escalar",
@@ -39,7 +39,21 @@
         "Locomotion.GrabWorld.Name" : "Agarrar el Mundo",
         "Locomotion.GrabWorld.Description" : "Crea una ancla mundial con referencia y mueve al usuario con respecto a ella.",
         "Locomotion.Slide.Name" : "Deslizar",
-        "Locomotion.Slide.Description" : "Simple modo de locomocion de deslizo que se pega a una superficie presente, o vuela si no esta presente.",
+        "Locomotion.Slide.Description" : "Simple modo de locomoción de deslizo que se pega a una superficie si presente, o vuela si no esta presente.",
+        
+        "Interaction.Destroy" : "Destruir",
+        "Interaction.Duplicate" : "Duplicar",
+        "Interaction.Undo" : "Deshacer",
+        "Interaction.Redo" : "Rehacer",
+        "Interaction.EquipTool" : "Equipar",
+        "Interaction.DequipTool" : "Desequipar",
+        "Interaction.ScalingEnabled" : "Tamaño Prendido",
+        "Interaction.ScalingDisabled" : "Tamaño Apagado",
+        "Interaction.ResetScale" : "Tamaño Normal",
+        "Interaction.LaserEnabled" : "Láser Prendido",
+        "Interaction.LaserDisabled" : "Láser Apagado",
+        "Interaction.Locomotion" : "Locomoción",
+        "Interaction.Locomotion.None" : "Ninguna",
       
       "Dummy" : "Dummy"
     }
