@@ -309,6 +309,7 @@
         "User.Actions.Mute" : "Zlutmit",
         "User.Actions.Jump" : "Skočit",
         "User.Actions.Respawn" : "Resetovat",
+        "User.Actions.Silence" : "Ztišit",
         "User.Actions.Kick" : "Odpojit",
         "User.Actions.Ban" : "Zabanovat",
 

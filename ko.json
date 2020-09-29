@@ -435,11 +435,11 @@
 		"CreateNew.Object.UIXCanvas": "UIX 캔버스",
 		"CreateNew.Object.Facet": "Facet",
 
-		"CreateNew.Object.FogVolume": "Fog Volume",
-		"CreateNew.Object.FogVolume.Additive": "Additive",
-		"CreateNew.Object.FogVolume.Alpha": "알파",
-		"CreateNew.Object.FogVolume.Multiplicative": "Multiplicative",
-		"CreateNew.Object.FogVolume.Gradient": "Gradient",
+		"CreateNew.Object.FogVolume": "안개 크기",
+		"CreateNew.Object.FogVolume.Additive": "추가사항",
+		"CreateNew.Object.FogVolume.Alpha": "투명도",
+		"CreateNew.Object.FogVolume.Multiplicative": "곱셈(Multiplicative)",
+		"CreateNew.Object.FogVolume.Gradient": "경사(Gradient)",
 
 		"CreateNew.Text": "텍스트",
 		"CreateNew.Text.Basic": "기본",
@@ -551,7 +551,7 @@
 		"Importer.Model.Advanced.AlbedoColor": "알비도 색 불러오기",
 		"Importer.Model.Advanced.ImportEmissive": "발광(Emissive) 불러오기",
 
-		"Importer.Model.Advanced.Colliders": "콜라이더(Collider) 생성",
+		"Importer.Model.Advanced.Colliders": "콜라이더 생성",
 		"Importer.Model.Advanced.Animations": "애니메이션 가져오기",
 		"Importer.Model.Advanced.SetupSnappable": "스냅(Snappable) 가능하게 설정",
 		"Importer.Model.Advanced.SetupTimelapse": "타입랩스로 설정",
@@ -581,7 +581,7 @@
 		"Importer.Video.360": "360 비디오",
 		"Importer.Video.Stereo": "스테레오  비디오",
 		"Importer.Video.Stereo360": "스테레오 360 비디오",
-		"Importer.Video.Depth": "Depth Video",
+		"Importer.Video.Depth": "심도(Depth) 영상",
 		"Importer.Video.180": "180 비디오",
 		"Importer.Video.Stereo180": "스테레오 180 비디오",
 		"Importer.Video.Depth.Prompt": "깊이 프리셋(Depth Preset)",
@@ -589,11 +589,11 @@
 
 		"Credits.Title": "송금",
 		"Credits.TokenPrompt": "어떤 화폐를 이용하시겠습니까?",
-		"Credits.NCR.Title": "Neos Credits(네오스 크레딧) (<b>NCR</b>)",
+		"Credits.NCR.Title": "Neos Credits (<b>NCR:이더리움</b>)",
 		"Credits.NCR.Description": "실가치가 존재하는 이더리움 화폐",
 		"Credits.KFC.Title": "Kompletely(환전히) Fake(가짜) Credits(크레딧) (<b>KFC</b>)",
 		"Credits.KFC.Description": "NEOS 내에서 사용되는 비가치성 화폐",
-		"Credits.AmountPrompt": "{action,select, send {송금액을 지정하세요.} withdraw {출금할 금액을 지정하세요.} tip {팁을 얼마나 얹습니까?}}",
+		"Credits.AmountPrompt": "{action,select, send {송금액을 지정하세요.} withdraw {출금할 금액을 지정하세요.} tip {덤으로 추가할 금액이 있으면 입력하세요.}}",
 		"Credits.Amount": "금액: ",
 		"Credits.Balance": "잔액: ",
 		"Credits.WithdrawalAddress": "출금전자지갑 주소: ",
@@ -625,7 +625,7 @@
 		"FullBody.HeightWarning": "아무래도 잘못된 설정같습니다. 실제 당신의 키를 지정하세요.",
 		"FullBody.ConfirmMapping": "2) 트래커 맵핑을 확인합니다.",
 		"FullBody.MappingInstructions": "바르게 서서 트래커가 제대로 작동 중인지 확인하세요.",
-		"FullBody.StartCalibration": "VIVE Tracker 조정 시작",
+		"FullBody.StartCalibration": "추적장치(e.g. Tracker) 조정 시작",
 		"FullBody.JustCalibrateAvatar": "아바타를 조정합니다.",
 		"FullBody.JustCalibrateAvatarDescription": "풀 바디 조정을 건너 뛰고, 바로 아바타 조정에 들어갑니다.",
 		"FullBody.SkipAndAdjustAvatar": "건너 뛰고 아바타 조정",
@@ -688,7 +688,7 @@
 		"CameraControl.Mode.ThirdPerson": "3인칭",
 		"CameraControl.Mode.Group": "그룹",
 		"CameraControl.Mode.World": "월드",
-		"CameraControl.Mode.Manual": "수동 설정",
+		"CameraControl.Mode.Manual": "사용자 지정",
 
 		"CameraControl.Settings.AvoidOcclusion": "오클루젼(Occlusion) 피하기",
 		"CameraControl.Settings.KeepInWorldspace": "월드 공간에 고정",
@@ -768,7 +768,7 @@
 		"Settings.Metric": "미터법 (cm)",
 		"Settings.Imperial": "파운드법 (ft)",
 
-		"Settings.OverrideLocale": "로케일(Locale) 설정 무시:",
+		"Settings.OverrideLocale": "언어(Locale) 수동 설정:",
 		"Settings.HideAllTutorials": "모든 튜토리얼 숨기기",
 		"Settings.ShowInteractionHints": "상호 작용 도움말 보이기",
 		"Settings.PrimaryController": "주 컨트롤러",
@@ -805,9 +805,9 @@
 		"Settings.Audio.Multimedia": "멀티미디어: {n,number,percent}",
 		"Settings.Audio.Voice": "음성: {n,number,percent}",
 		"Settings.Audio.UI": "사용자 인터페이스: {n,number,percent}",
-		"Settings.Audio.DisableVoiceNormalization": "음성 노멀라이제이션 비활성화",
+		"Settings.Audio.DisableVoiceNormalization": "음성 정규화(음량 평탄화) 끄기",
 		"Settings.Audio.NoiseGateThreshold": "Noise Gate 한계점: {n}",
-		"Settings.Audio.NormzliationThreshold": "노멀라이제이션 한계점: {n}",
+		"Settings.Audio.NormzliationThreshold": "음성 정규화 기준값: {n}",
 		"Settings.Audio.InputDevice": "오디오 입력 장치:",
 
 		"Settings.Save": "설정 저장",
@@ -822,7 +822,7 @@
 		"Settings.Dash.Curvature": "회전률",
 		"Settings.Dash.OpenCloseSpeed": "열기/닫기 속도",
 
-		"Security.Hyperlink.Warning": "<b><size=125%>경고: Outgoing hyperlink</size></b>\n월드에 있는 링크를 클릭하셨습니다.  링크를 여시겠습니까? 이 링크는 데스크탑 웹 브라우저를 열 것입니다.",
+		"Security.Hyperlink.Warning": "<b><size=125%>경고: 외부로 연결된 웹링크</size></b>\n월드에 있는 링크를 클릭하셨습니다.  링크를 여시겠습니까? 이 링크는 데스크탑 웹 브라우저를 열 것입니다.",
 		"Security.Hyperlink.Open": "열기",
 		"Security.Hyperlink.Cancel": "취소",
 
@@ -835,8 +835,8 @@
 		"Security.HostAccess.Deny": "거절",
 
 		"Exiting.SavingItems": "{n, plural, one {# 항목} other {# 항목}} 저장 중 ...",
-		"Exiting.SavingChanges": "변경 사항 저장 중...",
-		"Exiting.Exiting": "나가는 중...",
+		"Exiting.SavingChanges": "변경 사항 저장 중 입니다.",
+		"Exiting.Exiting": "종료하는 중입니다.",
 		"Exiting.LoggingOut": "로그아웃 중...",
 
 		"Dummy": "더미"

@@ -310,6 +310,7 @@
         "Session.Permission.PermissionOverrideCount" : "権限オーバーライド: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "ユーザーオーバーライドを消去",
 
+        "User.Actions.Silence" : "全体ミュート",
         "User.Actions.Mute" : "ミュート",
         "User.Actions.Jump" : "ジャンプ",
         "User.Actions.Respawn" : "リスポーン",
@@ -886,6 +887,25 @@
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, other {# ボーン}}",
         "Inspector.Mesh.UV_Multiplicator" : "乗数:",
         "Inspector.Mesh.ScaleUVs" : "UVのスケール",
+
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "空のブレンドシェイプの除去",
+        "Inspector.SkinnedMesh.StripBlendshapesResult" : "除去完了: {n,plural, other {# ブレンドシェイプ}}",
+        "Inspector.SkinnedMesh.StripEmptyBones" : "空のボーンの除去",
+        "Inspector.SkinnedMesh.StripBonesResult" : "除去完了: {n,plural, other {# ボーン}}",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds" : "ボーンのバウンディングボックスの可視化",
+        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "マージされたボーンのスフェアバウンディングボックスの可視化",
+        "Inspector.SkinnedMesh.ClearBoundsVisuals" : "ボーンのバウンディングボックスを取り除く",
+
+        "Inspector.BipedRig.GetDiagnosticInfo" : "リグ診断情報取得",
+        "Inspector.BipedRig.GenerateDebugVisuals" : "デバッグビジュアル生成",
+        "Inspector.BipedRig.ClearDebugVisuals" : "デバックビジュアル除去",
+        "Inspector.BipedRig.DetectHands" : "手のリグ検知",
+        "Inspector.BipedRig.DetectLeftHand" : "左手のリグ検知",
+        "Inspector.BipedRig.DetectRightHand" : "右手のリグ検知",
+        "Inspector.BipedRig.HandRigResult" : "完了! 左: {left}, 右: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "検知完了！　左手: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "検知完了！　右手: {detected}",
+
 
         "Inspector.Texture.Size" : "サイズ: {width} x {height}",
         "Inspector.Texture.Format" : "フォーマット: {format}, メモリー: <nobr>{memory}</nobr>",

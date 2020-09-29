@@ -311,6 +311,7 @@
         "Session.Permission.PermissionOverrideCount" : "權限覆蓋: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "清除用戶替代",
 
+        "User.Actions.Silence" : "全局靜音",
         "User.Actions.Mute" : "靜音",
         "User.Actions.Jump" : "跳躍",
         "User.Actions.Respawn" : "重生",
@@ -383,7 +384,7 @@
         "Tooltips.Dev.Selection" : "選拔: {mode}",
         "Tooltips.Dev.DevMode.Off" : "開發人員模式：關閉",
         "Tooltips.Dev.DevMode.On" : "開發人員模式：開",
-        "Tooltips.Dev.OpenInspector" : "開放檢查器",
+        "Tooltips.Dev.OpenInspector" : "開放Inspector",
         "Tooltips.Dev.DeselectAll" : "全部取消選擇",
         "Tooltips.Dev.DestroySelected" : "銷毀所選",
 
@@ -453,7 +454,7 @@
         "CreateNew.Text.Outline" : "輪廓",
 
         "CreateNew.Editor" : "編輯",
-        "CreateNew.Editor.UserInspector" : "用戶檢查器",
+        "CreateNew.Editor.UserInspector" : "用戶Inspector",
         "CreateNew.Editor.LightSourcesWizard" : "世界光源設置嚮導",
         "CreateNew.Editor.AssetOptimizationWizard" : "資產優化設置嚮導",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX傳輸設置嚮導",
@@ -892,6 +893,24 @@
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bone} other {# Bones}}",
         "Inspector.Mesh.UV_Multiplicator" : "乘數:",
         "Inspector.Mesh.ScaleUVs" : "UV的規模",
+
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "去除 Empty Blendshapes",
+        "Inspector.SkinnedMesh.StripBlendshapesResult" : "做完了！ 刪除: {n,plural, one {# blendshape} other {# blendshapes}}",
+        "Inspector.SkinnedMesh.StripEmptyBones" : "去除 Empty Bones",
+        "Inspector.SkinnedMesh.StripBonesResult" : "做完了！ 刪除: {n,plural, one {# bone} other {# bones}}",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds" : "可視化Bone邊界框",
+        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "可視化近似的合併Bone Sphere邊界",
+        "Inspector.SkinnedMesh.ClearBoundsVisuals" : "刪除Bone邊界框的視覺效果",
+
+        "Inspector.BipedRig.GetDiagnosticInfo" : "獲取rig診斷信息",
+        "Inspector.BipedRig.GenerateDebugVisuals" : "生成 Debug Visuals",
+        "Inspector.BipedRig.ClearDebugVisuals" : "清除 Debug Visuals",
+        "Inspector.BipedRig.DetectHands" : "檢測 Hand Rigs",
+        "Inspector.BipedRig.DetectLeftHand" : "檢測 Left Hand Rig",
+        "Inspector.BipedRig.DetectRightHand" : "檢測 Right Hand Rig",
+        "Inspector.BipedRig.HandRigResult" : "做完了！ 左手: {left}, 右手: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "做完了！ 檢測到左手: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "做完了！ 檢測到右手: {detected}",
 
         "Inspector.Texture.Size" : "尺寸: {width} x {height}",
         "Inspector.Texture.Format" : "格式: {format}, 記憶: <nobr>{memory}</nobr>",
