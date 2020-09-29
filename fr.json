@@ -252,7 +252,7 @@
         
         "Indicator.OnlineUsers" : "Utilisateurs en ligne: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Statut du serveur :</color> {status, select, Good {Bon} Slow {Lent} Down {Inaccessible} NoInternet {Sans Internet}} ({response_ms} ms)",
-
+		
         "Indicator.Sync.AllSynced" : "Synchronization complèté",
         "Indicator.Sync.SyncingItems" : "Synchronization: {item_count,plural, one {# élément} other {# éléments}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants" : "Chargement {variant_count,plural, one {# asset variant} other {# asset variants}}",
@@ -265,19 +265,19 @@
         "Account.Logout" : "Déconnexion",
         "Account.Register" : "Enregistrement",
         "Account.LoginOrRegister" : "Connexion / Enregistrement",
-        "Account.LogoutConfirm" : "Confirmer la déconnexion ?",
+        "Account.LogoutConfirm" : "Confirmer la déconnexion?",
         "Account.LoggingIn" : "Connexion en cours...",
         "Account.LoggingOut" : "Déconnexion en cours...",
         "Account.Registering" : "Enregistrement...",
         "Account.Anonymous" : "Anonyme",
         "Account.PatreonSupporter" : "Membre Patreon",
-        "Account.Username" : "Nom d'utilisateur :",
-        "Account.Email" : "Courriel :",
-        "Account.RememberMe" : "Se rappeler de moi :",
-        "Account.RepeatEmail" : "Confirmer le courriel :",
-        "Account.UsernameOrEmail" : "Nom d'utilisateur ou courriel :",
-        "Account.Password" : "Mot de passe :",
-        "Account.RepeatPassword" : "Confirmer le mot de passe :",
+        "Account.Username" : "Nom d'utilisateur:",
+        "Account.Email" : "Courriel:",
+        "Account.RememberMe" : "Se rappeler de moi:",
+        "Account.RepeatEmail" : "Confirmer le courriel:",
+        "Account.UsernameOrEmail" : "Nom d'utilisateur ou courriel:",
+        "Account.Password" : "Mot de passe:",
+        "Account.RepeatPassword" : "Confirmer le mot de passe:",
         "Account.RecoverPassword" : "Mot de passe perdu ?",
         "Account.LiveEmailWarning" : "<color=#f00>ATTENTION :</color> les domaines suivants peuvent prendre jusqu'à deux jours avant d'afficher le courriel d'enregistrement: live.com, hotmail.com, outlook.com, et quelques autres services hébergés par Microsoft.",
         "Account.PasswordRules" : "(au moin 8 caractères, un numéro, une majuscule, et une minuscule)",
@@ -312,7 +312,8 @@
         "Session.Permission.PermissionOverrideCount" : "Permissions spéciales: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Effacer les permissions spéciales",
 
-        "User.Actions.Mute" : "Sourdine",
+        "User.Actions.Silence" : "Silence",
+		"User.Actions.Mute" : "Sourdine",
         "User.Actions.Jump" : "Saut",
         "User.Actions.Respawn" : "Rematérialiser",
         "User.Actions.Kick" : "Éjecter",
@@ -737,6 +738,7 @@
         "CameraControl.Control.AngleSmoothSpeed" : "Angle Vitesse fluide: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Encadrement à vitesse fluide: {n}",
 
+		
         "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBS Mot de passe (facultatif):",
         "CameraControl.OBS.Connect" : "Connecter",
@@ -893,6 +895,10 @@
         "Inspector.Mesh.UV_Multiplicator" : "Multiplicateur:",
         "Inspector.Mesh.ScaleUVs" : "Échelle des UVs",
 
+        "Inspector.MeshRenderer.MergeByMaterial" : "Combiner les modèles ayant le même matériel",
+        "Inspector.MeshRenderer.SplitByMaterial" : "Séparer le modèle par matériaux",
+
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Séparer les parties du modèle qui ne sont pas affectés par les Blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Retirer les Blendshapes vides",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "C'est fait! Retiré: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Retirer les os vides",
