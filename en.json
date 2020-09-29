@@ -15,6 +15,7 @@
         "General.Reset" : "Reset",
         "General.WorldOpenConfirm" : "Really open?",
         "General.Saved" : "Saved!",
+        "General.Done" : "Done!",
         "General.CopiedToClipboard" : "Copied!",
         "General.CopiedToClipboardLong" : "Copied to clipboard!",
 
@@ -894,6 +895,10 @@
         "Inspector.Mesh.UV_Multiplicator" : "Multiplicator:",
         "Inspector.Mesh.ScaleUVs" : "Scale UV's",
 
+        "Inspector.MeshRenderer.MergeByMaterial" : "Merge submeshes with same material",
+        "Inspector.MeshRenderer.SplitByMaterial" : "Split into separate meshes by material",
+
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Separate parts of mesh unaffected by blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Strip Empty Blendshapes",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Done! Stripped: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Strip Empty Bones",
