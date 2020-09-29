@@ -1,0 +1,61 @@
+{
+    "localeCode" : "sp",
+    "authors" : ["Skywind Kitsune"],
+    "messages" : 
+    {
+        "General.OK" : "OK",
+        "General.Cancel" : "Cancelar",
+        "General.Continue" : "Continuar",
+        "General.Next" : "Siguiente",
+        "General.Back" : "Anterior",
+        "General.Confirm" : "¿Seguro?",
+        "General.Loading" : "Cargando...",
+        "General.Processing" : "Procesando...",
+        "General.FAILED" : "HA FALLADO",
+        "General.Reset" : "REINICIAR",
+        "General.WorldOpenConfirm" : "¿Realmente abrir?",
+        "General.Saved" : "¡Guardado!",
+        "General.CopiedToClipboard" : "¡Copiado!",
+        "General.CopiedToClipboardLong" : "¡Copiado al portapapeles!",
+        
+        "General.UI.SearchPrompt" : "Buscar...",
+        "General.UI.SearchPromptLong" : "Escriba para buscar...",
+        
+        "General.Sort.Ascending" : "Ascendiendo",
+        "General.Sort.Descending" : "Descendiendo",
+        
+        "Locomotion.Noclip.Name" : "Fantasma",
+        "Locomotion.Noclip.Description" : "Modo de locomoción Fantasma, ideal para editar el mundo.",
+        "Locomotion.Teleport.Name" : "Teletransportar",
+        "Locomotion.Teleport.Description" : "Modo de locomoción Teletransporte, para movimiento cómodo.",
+        "Locomotion.Fly.Name" : "Volar",
+        "Locomotion.Fly.Description" : "Modo de locomoción de vuelo",
+        "Locomotion.WalkRun.Name" : "Caminar/Correr",
+        "Locomotion.WalkRun.Description" : "Para caminar, correr y brincar",
+        "Locomotion.WalkRunGripping.Name" : "Caminar, Correr y Escalar",
+        "Locomotion.WalkRunGripping.Description" : "Para caminar, correr, brincar y escalar objectos.",
+        "Locomotion.ZeroG.Name" : "Cero Gravedad",
+        "Locomotion.ZeroG.Description" : "Modo de cero gravedad para flotar como en el espacio.",
+        "Locomotion.GrabWorld.Name" : "Agarrar el Mundo",
+        "Locomotion.GrabWorld.Description" : "Crea una ancla mundial con referencia y mueve al usuario con respecto a ella.",
+        "Locomotion.Slide.Name" : "Deslizar",
+        "Locomotion.Slide.Description" : "Simple modo de locomoción de deslizo que se pega a una superficie si presente, o vuela si no esta presente.",
+        
+        "Interaction.Destroy" : "Destruir",
+        "Interaction.Duplicate" : "Duplicar",
+        "Interaction.Undo" : "Deshacer",
+        "Interaction.Redo" : "Rehacer",
+        "Interaction.EquipTool" : "Equipar",
+        "Interaction.DequipTool" : "Desequipar",
+        "Interaction.ScalingEnabled" : "Tamaño Prendido",
+        "Interaction.ScalingDisabled" : "Tamaño Apagado",
+        "Interaction.ResetScale" : "Tamaño Normal",
+        "Interaction.LaserEnabled" : "Láser Prendido",
+        "Interaction.LaserDisabled" : "Láser Apagado",
+        "Interaction.Locomotion" : "Locomoción",
+        "Interaction.Locomotion.None" : "Ninguno",
+      
+      "Dummy" : "Dummy"
+       
+    }
+}
