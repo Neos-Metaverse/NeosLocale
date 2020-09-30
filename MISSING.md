@@ -27,13 +27,6 @@ Inspector.BipedRig.HandRigResult
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
 
-# German [de]
-General.Done  
-World.Category.HeadlessSessions  
-Inspector.MeshRenderer.MergeByMaterial  
-Inspector.MeshRenderer.SplitByMaterial  
-Inspector.SkinnedMesh.SeparateOutBlendshapes  
-
 # English (United Kingdom) [en-gb]
 General.OK  
 General.Cancel  
