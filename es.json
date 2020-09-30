@@ -54,7 +54,58 @@
         "Interaction.LaserDisabled" : "Láser Apagado",
         "Interaction.Locomotion" : "Locomoción",
         "Interaction.Locomotion.None" : "Ninguno",
-      
+        
+        "Dash.Screens.Home" : "Casa",
+        "Dash.Screens.Worlds" : "Mundos",
+        "Dash.Screens.Contacts" : "Contactos",
+        "Dash.Screens.Inventory" : "Almacén",
+        "Dash.Screens.Session" : "Sesión",
+        "Dash.Screens.FileBrowser" : "<nobr>Buscador de Archivos",
+        "Dash.Screens.Settings" : "Ajustes",
+        "Dash.Screens.Exit" : "Salir",
+        
+        "Dash.Actions.PasteFromClipboard" : "Pegar contenido del portapapeles",
+
+        "Dash.Actions.CoreWorldsHeader" : "Mundos Centrales",
+        "Dash.Actions.ContentHub" : "Central del Contenido",
+        "Dash.Actions.MTC" : "Centro de Entrenamiento Virtual <size=75%>(tutorials)</size>",
+        "Dash.Actions.CloudHome" : "Mi casa virtual",
+
+        "Dash.Exit.Header" : "Salir de Neos",
+        "Dash.Exit.ExitAndSave" : "Salir y Guardar Casas",
+        "Dash.Exit.ExitAndDiscard" : "Salir y Descartar Casas",
+        "Dash.Exit.ThankYou" : "¡Gracias por usar a Neos!",
+        "Dash.Exit.SubmittedBy" : "Presentado por: {name}",
+        
+        "World.Waiting" : "Esperando...",
+        "World.HostIsStarting" : "El anfitrión esta empezando la sesión",
+        "World.Loading" : "Cargando...",
+        "World.LoadingFailed" : "Ha Fallado",
+        "World.LoadedAssets" : "Cargando {assets} de {total_assets}",
+        "World.Downloading" : "Descargando {bytes} de {total_bytes}",
+        
+        "World.Connection.EstablishingConnection" : "Estableciendo conexión",
+        "World.Connection.RequestingJoin" : "Solicitando unirse a la sesión",
+        "World.Connection.Authenticating" : "Autenticando",
+        "World.Connection.Connected" : "Conectado",
+        "World.Connection.SyncingInitialState" : "Sincronizando al estado mundial inicial",
+        
+        "World.Error.AccessDenied" : "Acceso negado",
+        "World.Error.SecurityViolation" : "Violación de seguridad",
+        "World.Error.OnlyRegisteredUsers" : "Solo usuarios registrados pueden unirse a la sesión",
+        "World.Error.OnlyContacts" : "Solo contactos del anfitrión pueden unirse a la sesión",
+        "World.Error.Private" : "Esta sesión es privada",
+        "World.Error.SessionEnded" : "La sesión ha terminado",
+        "World.Error.UserLimitReached" : "La sesión ha llegado al limite de usuarios",
+        "World.Error.FailedAuthentication" : "Autenticación fallida",
+        "World.Error.FailedUserID" : "No se pudo autenticar la credencial de usuario",
+        "World.Error.FailedFetchingAuthentication" : "No se pudo recuperar la información de autenticación",
+        "World.Error.JoinAlreadyRequested" : "Ya se ha solicitado unirse",
+        "World.Error.FailedConnectToRelay" : "No se pudo conectar al relévo",
+        "World.Error.NoPort" : "Ningún puerto fue especificado",
+        "World.Error.IncompatibleVersion" : "Esta versión de Neos es incompatible",
+        "World.Error.Unknown" : "Error desconocido",
+        
       "Dummy" : "Dummy"
        
     }
