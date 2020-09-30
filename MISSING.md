@@ -2741,13 +2741,6 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
-# Japanese [ja]
-Importer.Image.LUT  
-Importer.Model.Advanced.PositionAtOrigin  
-Credits.NCR.Title  
-FullBody.CalibrationRedoInstructions  
-CameraControl.Positioning.FieldOfView  
-
 # Korean [ko]
 General.Processing  
 General.Done  
