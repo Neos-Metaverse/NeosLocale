@@ -15,6 +15,7 @@
         "General.Reset" : "リセット",
         "General.WorldOpenConfirm" : "本当に開きますか?",
         "General.Saved" : "セーブ完了!",  
+        "General.Done" : "完了!",
         "General.CopiedToClipboard" : "コピー完了!",
         "General.CopiedToClipboardLong" : "クリップボードにコピー完了!",
              
@@ -888,6 +889,10 @@
         "Inspector.Mesh.UV_Multiplicator" : "乗数:",
         "Inspector.Mesh.ScaleUVs" : "UVのスケール",
 
+        "Inspector.MeshRenderer.MergeByMaterial" : "同じマテリアル同士で結合",
+        "Inspector.MeshRenderer.SplitByMaterial" : "マテリアルでメッシュを分ける",
+
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "ブレンドシェイプの影響を受けないメッシュのパーツを分離",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "空のブレンドシェイプの除去",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "除去完了: {n,plural, other {# ブレンドシェイプ}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "空のボーンの除去",
