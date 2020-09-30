@@ -893,6 +893,24 @@
         "Inspector.Mesh.UV_Multiplicator" : "Multiplikator:",
         "Inspector.Mesh.ScaleUVs" : "Skaliere UV's",
 
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Entferne leere Blendshapes",
+        "Inspector.SkinnedMesh.StripBlendshapesResult" : "Erledigt! entfernte: {n,plural, one {# blendshape} other {# blendshapes}}",
+        "Inspector.SkinnedMesh.StripEmptyBones" : "Entferne leere Knochen",
+        "Inspector.SkinnedMesh.StripBonesResult" : "Erledigt! entfernte: {n,plural, one {# Knochen} other {# Knochen}}",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Zeige Knochen Begrenzungsboxen an",
+        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Zeige ungefähre Begrenzungskugeln von zusammengeführten Knochen an",
+        "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Entferne Darstellung von Knochen Begrenzungsboxen",
+
+        "Inspector.BipedRig.GetDiagnosticInfo" : "Sammel Informationen zur Rig-Diagnose",
+        "Inspector.BipedRig.GenerateDebugVisuals" : "Erzeuge Debug Darstellung",
+        "Inspector.BipedRig.ClearDebugVisuals" : "Entferne Debug Darstellung",
+        "Inspector.BipedRig.DetectHands" : "Erkenne Hand Rigs",
+        "Inspector.BipedRig.DetectLeftHand" : "Erkenne Linkes Hand Rig",
+        "Inspector.BipedRig.DetectRightHand" : "Erkenne Rechtes Hand Rig",
+        "Inspector.BipedRig.HandRigResult" : "Erledigt! Hat Links: {left}, Hat Rechts: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "Erledigt! Links gefunden: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "Erledigt! Rechts gefunden: {detected}",
+        
         "Inspector.Texture.Size" : "Abmessung: {width} x {height}",
         "Inspector.Texture.Format" : "Format: {format}, Speicher: <nobr>{memory}</nobr>",
 

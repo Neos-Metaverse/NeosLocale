@@ -14,7 +14,8 @@
         "General.FAILED":"失败",
         "General.Reset":"重置",
         "General.WorldOpenConfirm":"真的开放吗？",
-        "General.Saved":"已保存！",
+        "General.Saved":"保存了！",
+        "General.Done" : "做完了!",
         "General.CopiedToClipboard":"已复制！",
         "General.CopiedToClipboardLong":"已复制到剪贴板！",
 
@@ -384,7 +385,7 @@
         "Tooltips.Dev.Selection" : "选拔: {mode}",
         "Tooltips.Dev.DevMode.Off" : "开发人员模式：关闭",
         "Tooltips.Dev.DevMode.On" : "开发人员模式：开",
-        "Tooltips.Dev.OpenInspector" : "开放检查器",
+        "Tooltips.Dev.OpenInspector" : "开放Inspector",
         "Tooltips.Dev.DeselectAll" : "全部取消选择",
         "Tooltips.Dev.DestroySelected" : "销毁所选",
 
@@ -454,7 +455,7 @@
         "CreateNew.Text.Outline" : "轮廓",
 
         "CreateNew.Editor" : "编辑",
-        "CreateNew.Editor.UserInspector" : "用户检查器",
+        "CreateNew.Editor.UserInspector" : "用户Inspector",
         "CreateNew.Editor.LightSourcesWizard" : "世界光源设置向导",
         "CreateNew.Editor.AssetOptimizationWizard" : "资产优化设置向导",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX传输设置向导",
@@ -883,9 +884,9 @@
         "Inspector.Mesh.ConvertToFlatShading" : "转换为平面着色",
         "Inspector.Mesh.ConvertToConvexHull" : "转换为Convex Hull",
         "Inspector.Mesh.MergeDoubles" : "合并双打",
-        "Inspector.Mesh.StripEmptyBlendshapes" : "条空Blendshapes",
-        "Inspector.Mesh.StripBlendshapeNormals" : "条Blendshape法线",
-        "Inspector.Mesh.StripBlendshapeTangents" : "条Blendshape切线",
+        "Inspector.Mesh.StripEmptyBlendshapes" : "去除空Blendshapes",
+        "Inspector.Mesh.StripBlendshapeNormals" : "去除Blendshape法线",
+        "Inspector.Mesh.StripBlendshapeTangents" : "去除Blendshape切线",
 
         "Inspector.Mesh.GetBoneList" : "获取Bone列表",
         "Inspector.Mesh.GetBoneData" : "获取Bone数据",
@@ -894,6 +895,29 @@
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bone} other {# Bones}}",
         "Inspector.Mesh.UV_Multiplicator" : "乘数:",
         "Inspector.Mesh.ScaleUVs" : "UV的规模",
+
+        "Inspector.MeshRenderer.MergeByMaterial" : "合并具有相同材质的子网格",
+        "Inspector.MeshRenderer.SplitByMaterial" : "分离每种材质的网格",
+
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "将不受Blendshapes影响的网格分离为零件",
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "去除 Empty Blendshapes",
+        "Inspector.SkinnedMesh.StripBlendshapesResult" : "做完了！ 删除: {n,plural, one {# blendshape} other {# blendshapes}}",
+        "Inspector.SkinnedMesh.StripEmptyBones" : "去除 Empty Bones",
+        "Inspector.SkinnedMesh.StripBonesResult" : "做完了！ 删除: {n,plural, one {# bone} other {# bones}}",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds" : "可视化Bone边界框",
+        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "可视化近似的合并Bone Sphere边界",
+        "Inspector.SkinnedMesh.ClearBoundsVisuals" : "删除Bone边界框的视觉效果",
+
+        "Inspector.BipedRig.GetDiagnosticInfo" : "获取rig诊断信息",
+        "Inspector.BipedRig.GenerateDebugVisuals" : "生成 Debug Visuals",
+        "Inspector.BipedRig.ClearDebugVisuals" : "清除 Debug Visuals",
+        "Inspector.BipedRig.DetectHands" : "检测 Hand Rigs",
+        "Inspector.BipedRig.DetectLeftHand" : "检测 Left Hand Rig",
+        "Inspector.BipedRig.DetectRightHand" : "检测 Right Hand Rig",
+        "Inspector.BipedRig.HandRigResult" : "做完了！ 左手: {left}, 右手: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "做完了！ 检测到左手: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "做完了！ 检测到右手: {detected}",
+
 
         "Inspector.Texture.Size" : "尺寸: {width} x {height}",
         "Inspector.Texture.Format" : "格式: {format}, 记忆: <nobr>{memory}</nobr>",
