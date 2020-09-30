@@ -15,6 +15,7 @@
         "General.Reset" : "Restarigi",
         "General.WorldOpenConfirm" : "Ĉu vere malfermita?",
         "General.Saved" : "Konservita!",
+        "General.Done" : "Finita!",
         "General.CopiedToClipboard" : "Kopiita!",
         "General.CopiedToClipboardLong" : "Kopiita al tondejo!",
 
@@ -893,6 +894,10 @@
         "Inspector.Mesh.UV_Multiplicator" : "Multiplikilo:",
         "Inspector.Mesh.ScaleUVs" : "Skali UV-ojn",
 
+        "Inspector.MeshRenderer.MergeByMaterial" : "Kunfandi submaŝojn kun sama materialo",
+        "Inspector.MeshRenderer.SplitByMaterial" : "Disigi en apartajn maŝojn laŭ materialo",
+
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Apartigi partoj de maŝo netuŝitaj de miksaĵformoj",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Nudigi Malplenajn nudigi malplenajn miksaĵformojn",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Finita! Senvestigita: {n,plural, one {# Miksaĵformo} other {#  Miksaĵformojn}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Nudigu Malplenajn ostojn",
