@@ -14,6 +14,8 @@
         "General.FAILED" : "CHYBA",
         "General.Reset" : "Resetovat",
         "General.WorldOpenConfirm" : "Opravdu vstoupit?",
+        "General.Saved" : "Uloženo!",
+        "General.Done" : "Hotovo!",
         "General.CopiedToClipboard" : "Zkopírováno!",
         "General.CopiedToClipboardLong" : "Zkopírováno do schránky!",
 
@@ -277,7 +279,7 @@
         "Account.LiveEmailWarning" : "<color=#f00>VAROVÁNÍ:</color> live.com, hotmail.com, outlook.com a další emailové služby od Microsoftu mohou dorazit až za 1-2 dní.",
         "Account.PasswordRules" : "(alespoň 8 znaků, 1 číslice, 1 malé písmeno, 1 velké)",
         "Account.AgeConfirm" : "Je mi 13 let nebo výše",
-        "Account.LostPasswordHeader" : "Zapomenuté heslo",
+        "Account.LostPassword" : "Zapomenuté heslo",
         "Account.SendRecoveryCode" : "Poslat obnovovací kód",
         "Account.ResetPasswordHeader" : "Resetování hesla",
         "Account.ResetPasswordInstructions" : "Obnovovací kód byl poslán na Váš email, zkopírujte jej sem:",
@@ -927,6 +929,17 @@
         "Exiting.SavingChanges" : "Ukládám změny...",
         "Exiting.Exiting" : "Ukončuji...",
         "Exiting.LoggingOut" : "Odhlašuji...",
+
+        "Temporary.MMC.Voting UI": "MMC Hlasovací rozhraní",
+        "Temporary.MMC.Vote": "Hlasovat",
+        "Temporary.MMC.Categories.Name": "Kategorie",
+        "Temporary.MMC.Categories.Worlds": "Světy",
+        "Temporary.MMC.Categories.Other": "Věcičky/Nástroje",
+        "Temporary.MMC.Categories.Avatars": "Avatary",
+        "Temporary.MMC.VoteSuccess": "Úspěšně jste hlasovali pro {voteTarget} v kategorii {category}.",
+        "Temporary.MMC.VoteFailure": "Hlasování selhalo, Váš hlas nebyl zaznamenán. Zkuste to prosím znova.",
+        "Temporary.MMC.VotedAlready": "Již jste v kategorii {category} hlasovali.",
+        "Temporary.MMC.VoteInvalid": "Špatný hlas, zkuste to znova.",
 
         "Dummy" : "Dummy"
     }
