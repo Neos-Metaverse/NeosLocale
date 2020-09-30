@@ -47,8 +47,8 @@
         "Interaction.Redo" : "Rehacer",
         "Interaction.EquipTool" : "Equipar",
         "Interaction.DequipTool" : "Desequipar",
-        "Interaction.ScalingEnabled" : "Tamaño Prendido",
-        "Interaction.ScalingDisabled" : "Tamaño Apagado",
+        "Interaction.ScalingEnabled" : "Cambiar Tamaño: Si",
+        "Interaction.ScalingDisabled" : "Cambiar Tamaño: No",
         "Interaction.ResetScale" : "Tamaño Normal",
         "Interaction.LaserEnabled" : "Láser Prendido",
         "Interaction.LaserDisabled" : "Láser Apagado",
@@ -200,7 +200,57 @@
         "World.Category.MyWorlds" : "Mis Mundos",
         "World.Category.Custom" : "Mundos Personalizados",
         
-      "Dummy" : "Dummy"
+        "World.AccessLevel.Anyone" : "Cualquier Persona",
+        "World.AccessLevel.RegisteredUsers" : "Usuarios Registrados",
+        "World.AccessLevel.Friends" : "Contactos",
+        "World.AccessLevel.LAN" : "Red local",
+        "World.AccessLevel.Private" : "Privado (sólo invitados)",
+        
+        "World.SortParameter.SearchScore" : "Puntuación de búsqueda",
+        "World.SortParameter.Name" : "Nombre",
+        "World.SortParameter.OpenedWorldCount" : "Mundos Abiertos",
+        "World.SortParameter.TotalSessionCount" : "Total de Sesiones",
+        "World.SortParameter.TotalUserCount" : "Total de Usuarios",
+        "World.SortParameter.CreationDate" : "Fecha de creación",
+        "World.SortParameter.LastUpdateDate" : "Fecha de modificación",
+        "World.SortParameter.FirstPublishTime" : "Fecha de Publicación",
+        "World.SortParameter.TotalVisits" : "Total de visitas",
+        
+        
+        "World.Filter.DataSources" : "Fuentes de Datos:",
+        "World.Filter.OpenedWorlds" : "Mundos Abiertos",
+        "World.Filter.ActiveSessions" : "Sesiónes Activas",
+        "World.Filter.PublishedWorlds" : "Mundos Publicados",
+        "World.Filter.LocalWorlds" : "Mundos Locales",
+        "World.Filter.BaseSearch" : "Búsqueda de base:",
+        "World.Filter.ByOwner" : "Por Dueño:",
+        "World.Filter.UserOwner" : "Dueño es usuario",
+        "World.Filter.GroupOwner" : "Dueño es un grupo",
+        "World.Filter.SubmittedToGroup" : "Enviado al grupo:",
+        "World.Filter.Featured" : "Solo Mundos Destacados",
+        "World.Filter.MyWorlds" : "Mis Mundos",
+        "World.Filter.SessionFiltering" : "Filtros de Sesión:",
+        "World.Filter.MinimumUsers" : "Usuarios mínimos: <b>{n}</b>",
+        "World.Filter.MinimumFriends" : "Contactos mínimos: <b>{n}</b>",
+        "World.Filter.OnlyHeadless" : "Solo Mundos sin Anfitrión",
+        "World.Filter.MaxAccessLevel" : "Nivel de acceso máximo:",
+        "World.Filter.MinimumUptime" : "Tiempo de actividad mínimo:",
+        "World.Filter.Sorting" : "Clasificación:",
+        
+        "Tools.AvatarCreator" : "Creador de Avatar",
+        "Tools.FullBodyCalibrator" : "Calibrador de sensores corporales",
+        "Tools.CameraStreaming" : "Camara / Streaming",
+        "Tools.CreateNewWorld" : "Crear Un Mundo Nuevo",
+        "Tools.DepositNCR" : "Depositar NCR",
+        "Tools.WithdrawNCR" : "Retirar NCR",
+        "Tools.Debug" : "Depurar",
+
+        "Options.FreeformDash.On" : "Tablero de forma libre: Si",
+        "Options.FreeformDash.Off" : "Tablero de forma libre: No",
+        "Options.SeatedMode.On" : "¿Esta Sentado?: Si",
+        "Options.SeatedMode.Off" : "¿Esta Sentado?: No",
+        
+        "Dummy" : "Dummy"
        
     }
 }
