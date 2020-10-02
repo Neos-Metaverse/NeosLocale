@@ -15,6 +15,7 @@
         "General.Reset" : "重啟",
         "General.WorldOpenConfirm" : "真的開嗎？",
         "General.Saved" : "保存了！",
+        "General.Done" : "做完了!",
         "General.CopiedToClipboard" : "複製！",
         "General.CopiedToClipboardLong" : "複製到剪貼板！",
 
@@ -894,6 +895,10 @@
         "Inspector.Mesh.UV_Multiplicator" : "乘數:",
         "Inspector.Mesh.ScaleUVs" : "UV的規模",
 
+        "Inspector.MeshRenderer.MergeByMaterial" : "合併具有相同材質的子網格",
+        "Inspector.MeshRenderer.SplitByMaterial" : "分離每種材質的網格",
+
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "將不受Blendshapes影響的網格分離為零件",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "去除 Empty Blendshapes",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "做完了！ 刪除: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "去除 Empty Bones",

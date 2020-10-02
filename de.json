@@ -15,6 +15,7 @@
         "General.Reset" : "Zurücksetzen",
         "General.WorldOpenConfirm" : "Wirklich öffnen?",
         "General.Saved" : "Gespeichert!",
+        "General.Done" : "Erledigt!",
         "General.CopiedToClipboard" : "Kopiert!",
         "General.CopiedToClipboardLong" : "In Zwischenablage kopiert!",
 
@@ -191,6 +192,7 @@
         "World.Category.PublishedWorlds" : "Veröffentlichte Welten",
         "World.Category.ActiveSessions" : "Aktive Sitzungen",
         "World.Category.FriendSessions" : "Sitzungen von Freunden",
+        "World.Category.HeadlessSessions" : "\"Kopflose\" Sitzungen",
         "World.Category.Social" : "Sozial",
         "World.Category.Games" : "Spiele",
         "World.Category.Art" : "Kunst",
@@ -893,6 +895,10 @@
         "Inspector.Mesh.UV_Multiplicator" : "Multiplikator:",
         "Inspector.Mesh.ScaleUVs" : "Skaliere UV's",
 
+        "Inspector.MeshRenderer.MergeByMaterial" : "Submeshes mit demselben Material zusammenführen",
+        "Inspector.MeshRenderer.SplitByMaterial" : "Nach Material in separate Meshes aufteilen",
+        
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Trenne Teile des Meshes, welche nicht von Blendshapes betroffen sind",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Entferne leere Blendshapes",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Erledigt! entfernte: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Entferne leere Knochen",

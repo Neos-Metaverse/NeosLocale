@@ -15,6 +15,7 @@
         "General.Reset" : "リセット",
         "General.WorldOpenConfirm" : "本当に開きますか?",
         "General.Saved" : "セーブ完了!",  
+        "General.Done" : "完了!",
         "General.CopiedToClipboard" : "コピー完了!",
         "General.CopiedToClipboardLong" : "クリップボードにコピー完了!",
              
@@ -83,6 +84,7 @@
         "World.LoadingFailed" : "失敗",
         "World.LoadedAssets" : "ロード済み {assets} / {total_assets}",
         "World.Downloading" : "ダウンロード中 {bytes} / {total_bytes}",
+
         "World.Connection.EstablishingConnection" : "接続を確立しています",
         "World.Connection.RequestingJoin" : "参加をリクエストしています",
         "World.Connection.Authenticating" : "認証中",
@@ -514,6 +516,7 @@
         "Importer.Image.Stereo360" : "ステレオ 360 フォト",
         "Importer.Image.180" : "180 フォト",
         "Importer.Image.Stereo180" : "ステレオ 180 フォト",
+        "Importer.Image.LUT" : "ルックアップテクスチャ(LUT)",
         
         "Importer.ImageVideo.LayoutPrompt" : "どのレイアウトを使用していますか?",
         "Importer.ImageVideo.LayoutHorizontalLR" : "LR 平行にする",
@@ -578,6 +581,7 @@
 
         "Importer.Model.Advanced.Grabbable" : "Grabbableをつける",
         "Importer.Model.Advanced.Scalable" : "Scalableにする",
+        "Importer.Model.Advanced.PositionAtOrigin" : "原点位置",
         "Importer.Model.Advanced.AssetsOnObject" : "Assetsをオブジェクト内に入れる",
 
         "Importer.Video.Title" : "動画インポーター",
@@ -594,7 +598,8 @@
 
         "Credits.Title" : "クレジットを送る",
         "Credits.TokenPrompt" : "どのトークンを送信しますか?",
-        "Credits.NCR.Description" : "実際に価値のあるEthereumトークン",
+        "Credits.NCR.Title" : "ネオスクレジット(<b>NCR</b>)",
+        "Credits.NCR.Description" : "実際に価値のあるイーサリアムトークン",
         "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "実際には価値のないサンドボックストークン",
         "Credits.AmountPrompt" : "{action,select, send {いくら送りますか?} withdraw {いくら引き出しますか?} tip {いくらチップを送りますか?}}",
@@ -664,6 +669,7 @@
         "FullBody.FinishAvatarCalibration" : "アバターキャリブレーション完了",
         "FullBody.CalibrationFinishedInstructions" : "調整ができたら、\nアバターを保存してください。",
         "FullBody.CloseCalibrator" : "キャリブレーターを閉じる",
+        "FullBody.CalibrationRedoInstructions" : "キャリブレーションがオフの場合、またはより多くのアバターをキャリブレーションする場合は、さらに調整を行うことができます。将来いつでもこのキャリブレーターを再度開いて調整を行うことができます。\nトラッカーのみを変更した場合は、 アバターを再度調整する必要はありません。",
         "FullBody.ReturnToTrackerCalibration" : "トラッカーキャリブレーションに戻る",
 
         "FullBody.Hips" : "Hips",
@@ -712,6 +718,7 @@
         "CameraControl.Anchors.InterpolationSpeed" : "アンカー間の補完速度:",
         "CameraControl.Anchors.NoAnchors" : "ワールドにカメラアンカーがありません。",
 
+        "CameraControl.Positioning.FieldOfView" : "画角(FOV)",
         "CameraControl.Positioning.AngleOffset" : "角度オフセット",
         "CameraControl.Positioning.Distance" : "距離",
         "CameraControl.Positioning.Height" : "高さ",
@@ -888,6 +895,10 @@
         "Inspector.Mesh.UV_Multiplicator" : "乗数:",
         "Inspector.Mesh.ScaleUVs" : "UVのスケール",
 
+        "Inspector.MeshRenderer.MergeByMaterial" : "同じマテリアル同士で結合",
+        "Inspector.MeshRenderer.SplitByMaterial" : "マテリアルでメッシュを分ける",
+
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "ブレンドシェイプの影響を受けないメッシュのパーツを分離",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "空のブレンドシェイプの除去",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "除去完了: {n,plural, other {# ブレンドシェイプ}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "空のボーンの除去",
@@ -905,7 +916,6 @@
         "Inspector.BipedRig.HandRigResult" : "完了! 左: {left}, 右: {right}",
         "Inspector.BipedRig.LeftHandRigResult" : "検知完了！　左手: {detected}",
         "Inspector.BipedRig.RightHandRigResult" : "検知完了！　右手: {detected}",
-
 
         "Inspector.Texture.Size" : "サイズ: {width} x {height}",
         "Inspector.Texture.Format" : "フォーマット: {format}, メモリー: <nobr>{memory}</nobr>",
