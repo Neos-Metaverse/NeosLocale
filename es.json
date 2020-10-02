@@ -545,6 +545,57 @@
         "Importer.Model.FinalizePrompt" : "¿Todo Listo?",
         "Importer.Model.RunImport" : "¡Ejecutar importación!",        
         
+        "Importer.Model.Advanced.Scale" : "Escala: ",
+        "Importer.Model.Advanced.AutoScale" : "Escala Automática",
+        "Importer.Model.Advanced.MaxTexSize" : "Tamaño máximo de textura",
+        "Importer.Model.Advanced.ImageFormat" : "Formato de imagen: ",
+        "Importer.Model.Advanced.Material" : "Material: ",
+        "Importer.Model.Advanced.AlignAxis" : "Alinear eje: ",        
+        
+        "Importer.Model.Advanced.Normals" : "Calcular normales",
+        "Importer.Model.Advanced.Tangents" : "Calcular tangentes",
+        "Importer.Model.Advanced.VertexColors" : "Importar colores de vértice",
+        "Importer.Model.Advanced.Bones" : "Importar huesos",
+        "Importer.Model.Advanced.TextureAlpha" : "Calcular textura alfa",
+        "Importer.Model.Advanced.AlbedoColor" : "Importar color de albedo",
+        "Importer.Model.Advanced.ImportEmissive" : "Importar emisivo",
+        
+        "Importer.Model.Advanced.Colliders" : "Generar colisionadores",
+        "Importer.Model.Advanced.Animations" : "Importar animaciones",
+        "Importer.Model.Advanced.SetupSnappable" : "Configurar como chasquidable",
+        "Importer.Model.Advanced.SetupTimelapse" : "Configurar como lapso de tiempo",
+        "Importer.Model.Advanced.ImportExternalTextures" : "Importar texturas externas",
+        "Importer.Model.Advanced.SkinnedMeshes" : "Importar mallas (skinned)",
+        "Importer.Model.Advanced.SetupIK" : "Establecer IK",
+        "Importer.Model.Advanced.VisualizeRig" : "Visualizar Armadura",
+        "Importer.Model.Advanced.ForceTpose" : "Forzar Postura T",
+        "Importer.Model.Advanced.ForcePointCloud" : "Como una Nuve de Puntos",        
+        
+        "Importer.Model.Advanced.DualSided" : "Hacer bilateral",
+        "Importer.Model.Advanced.FlatShaded" : "Hacer sombreado plano",
+        "Importer.Model.Advanced.DeduplicateInstances" : "Instancias de deduplicación (lento)",
+        "Importer.Model.Advanced.Optimize" : "Optimizar modelo / escena",
+        "Importer.Model.Advanced.RandomColors" : "Generar colores aleatorios",
+        "Importer.Model.Advanced.SpawnMaterialOrbs" : "Aparecer Esferas de Materiales",
+        "Importer.Model.Advanced.ImagesByName" : "Importar imágenes por nombre",
+
+        "Importer.Model.Advanced.Grabbable" : "Hacer agarrarable",
+        "Importer.Model.Advanced.Scalable" : "Hacer escalable",
+        "Importer.Model.Advanced.PositionAtOrigin" : "Posiciónar en origen",
+        "Importer.Model.Advanced.AssetsOnObject" : "Colocar activos en objeto",
+
+        "Importer.Video.Title" : "Importador de videos",
+        "Importer.Video.Prompt" : "¿Qué está importando?",
+        "Importer.Video.Regular" : "Video",
+        "Importer.Video.360" : "Video 360",
+        "Importer.Video.Stereo" : "Video Estéreo",
+        "Importer.Video.Stereo360" : "Video Estéreo 360",
+        "Importer.Video.Depth" : "Video De Fondo",
+        "Importer.Video.180" : "Video 180",
+        "Importer.Video.Stereo180" : "Video Estéreo 180",
+        "Importer.Video.Depth.Prompt" : "Profundidad preestablecida",
+        "Importer.Video.Depth.Default" : "Normal",
+        
         "Dummy" : "Dummy"
        
     }
