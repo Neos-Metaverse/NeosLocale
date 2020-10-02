@@ -369,6 +369,122 @@
         "Undo.DestroyGrabbed" : "Destruir Objetos Agarrados",
         "Undo.DuplicateGrabbed" : "Duplicar Objectos Agarrados",
         
+        "Undo.ChangeBoxSize" : "Cambiar el tamaño de la caja",
+        "Undo.BrushStroke" : "Trazo de pincel",
+        "Undo.ChangeColor" : "Cambiar el color",
+        "Undo.CloneComponent" : "Clonar Componente",
+        "Undo.MoveIKBone" : "Mover Hueso IK",
+        "Undo.MoveSun" : "Mover el Sol",
+        "Undo.ApplyMaterial" : "Aplicar Material",
+        "Undo.BakeMeshes" : "Hornear {name}",
+        "Undo.ChangeMesh" : "Cambiar Malla",
+        "Undo.InsertParent" : "Insertar padre para {name}",
+        "Undo.Wiggler" : "Cosas malvadas",
+        
+        "Tooltips.Dev.CreateNew" : "Crear Nuevo...",
+        "Tooltips.Dev.Selection" : "Selection: {mode}",
+        "Tooltips.Dev.DevMode.Off" : "Developer Mode: Off",
+        "Tooltips.Dev.DevMode.On" : "Developer Mode: On",
+        "Tooltips.Dev.OpenInspector" : "Open Inspector",
+        "Tooltips.Dev.DeselectAll" : "Deselect All",
+        "Tooltips.Dev.DestroySelected" : "Destroy Selected",
+        
+        "Tooltip.Logix.NodeBrowser" : "Navegador de nodos",
+        "Tooltip.Logix.UnpackChildren" : "Desempaquetar niños y nodos conectados",
+        "Tooltip.Logix.SetPackingRoot" : "Establecer raíz de paquete",
+        "Tooltip.Logix.ClearPackingRoot" : "Limpiar raíz de paquete",
+        
+        "Tooltip.Color.Picker" : "Selector de color",
+        
+        "Tooltip.GrabbableSetter.Scalable" : "Establecer Escalables",
+        "Tooltip.GrabbableSetter.NonScalable" : "Establecer No Escalables",
+
+        "Tooltip.CharacterCollider.MarkGrippable" : "Marcar como agarrable",
+        "Tooltip.CharacterCollider.DontMarkGrippable" : "Marcar como no agarrable",
+        "Tooltip.CharacterCollider.EnsureWalkRun" : "Asegurar locomoción Caminar/Correr",
+        "Tooltip.CharacterCollider.EnsureZeroG" : "Asegurar locomoción de Zero Gravedad",
+        "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Asegurar la locomoción de vuelo",
+        
+        "Tooltip.Light.Point" : "Punto",
+        "Tooltip.Light.Spot" : "Illuminación",
+        "Tooltip.Light.Sun" : "Sol",
+        
+        "Tooltip.MeshVisibility.KeepShadow" : "Guardar Sombra",
+        "Tooltip.MeshVisibility.ShadowOff" : "Desactivar Sombra",
+        "Tooltip.MeshVisibility.ShadowOn" : "Activar Sombra",
+        "Tooltip.MeshVisibility.OnlyShadow" : "Establecer a solo Sombra",
+        "Tooltip.MeshVisibility.DoubleSidedShadow" : "Establecer como Sombra bi-lateral",
+        
+        "Tooltip.Slicer.Add" : "Agregar rebanador",
+        "Tooltip.Slicer.Clear" : "Borrar configuración",
+        
+        "Tooltip.Material.RayMode" : "Modo de Rayo",
+        "Tooltip.Material.AreaMode" : "Modo de Zona",
+        "Tooltip.Material.ObjectMode" : "Modo de Objecto Global",
+        "Tooltip.Material.SceneMode" : "Modo global de escena",
+        "Tooltip.Material.CreateCopy" : "Crear Copia",
+        "Tooltip.Material.Edit" : "Editar Material",
+        "Tooltip.Material.Convert" : "Convertir a...",
+        "Tooltip.Material.CreateNew" : "Crear Nuevo",
+        
+        "Tooltip.Mesh.Edit" : "Editar malla",
+        
+        "CreateNew.Back" : "<<< <i>atrás</i>",
+        "CreateNew.EmptyObject" : "Objeto vacío",
+        "CreateNew.ParticleSystem" : "Sístema de partículas",
+        
+        "CreateNew.Object" : "Objecto",
+        "CreateNew.Object.AvatarCreator" : "Creador de Avatar",
+        "CreateNew.Object.Camera" : "Camara",
+        "CreateNew.Object.Mirror" : "Espejo",
+        "CreateNew.Object.Portal" : "Portal",
+        "CreateNew.Object.VideoPlayer" : "Reproductor de video",
+        "CreateNew.Object.SpawnArea" : "Área de aparición",
+        "CreateNew.Object.SpawnPoint" : "Punto de aparición",
+        "CreateNew.Object.UIXCanvas" : "Lienzo UIX",
+        "CreateNew.Object.Facet" : "Faceta",
+        
+        "CreateNew.Object.FogVolume" : "Volumen de niebla",
+        "CreateNew.Object.FogVolume.Additive" : "Aditivo",
+        "CreateNew.Object.FogVolume.Alpha" : "Alfa",
+        "CreateNew.Object.FogVolume.Multiplicative" : "Multiplicativo",
+        "CreateNew.Object.FogVolume.Gradient" : "Degradado",
+        
+        "CreateNew.Text" : "Texto",
+        "CreateNew.Text.Basic" : "Basico",
+        "CreateNew.Text.Outline" : "Contorno",
+        
+        "CreateNew.Editor" : "Editor",
+        "CreateNew.Editor.UserInspector" : "Inspector de usuarios",
+        "CreateNew.Editor.LightSourcesWizard" : "Asistente de fuentes de luz mundial",
+        "CreateNew.Editor.AssetOptimizationWizard" : "Asistente de optimización de activos",
+        "CreateNew.Editor.LogixTransferWizard" : "Asistente de transferencia LogiX",
+        
+        "CreateNew.3DModel" : "Modelo 3D",
+        "CreateNew.3DModel.Box" : "Cubo",
+        "CreateNew.3DModel.Sphere" : "Esfera",
+        "CreateNew.3DModel.Capsule" : "Capsula",
+        "CreateNew.3DModel.Cone" : "Cono",
+        "CreateNew.3DModel.Cylinder" : "Cylindro",
+        "CreateNew.3DModel.Quad" : "Quadrilatero",
+        "CreateNew.3DModel.Grid" : "Red",
+        "CreateNew.3DModel.Torus" : "Torus",        
+        
+        "CreateNew.Collider" : "Colisionador",
+        "CreateNew.Collider.Box" : "Cubo",
+        "CreateNew.Collider.Sphere" : "Esfera",
+        "CreateNew.Collider.Capsule" : "Capsula",
+        "CreateNew.Collider.Cylinder" : "Cylindro",
+        "CreateNew.Collider.Cone" : "Cono",
+        "CreateNew.Collider.Mesh" : "Malla",        
+        
+        "CreateNew.Light" : "Luz",
+        "CreateNew.Light.Point" : "Punto",
+        "CreateNew.Light.Spot" : "Illuminación",
+        "CreateNew.Light.Directional" : "Direccional",
+        
+        
+        
         "Dummy" : "Dummy"
        
     }
