@@ -65,7 +65,7 @@
         "Dash.Screens.Settings" : "Einstellungen",
         "Dash.Screens.Exit" : "Beenden",
 
-        "Dash.Actions.PasteFromClipboard" : "Einfügen von Inhalten aus der Zwischenablage",
+        "Dash.Actions.PasteFromClipboard" : "Zwischenablage einfügen",
 
         "Dash.Actions.CoreWorldsHeader" : "Zentrale Welten",
         "Dash.Actions.ContentHub" : "Lobby",
@@ -151,12 +151,12 @@
         "World.Actions.HostingWarning" : "Sie sind Host dieser Welt. Alle Nutzer werden getrennt, wenn Sie die Welt schließen.",
 
         "World.Actions.GetWorldOrb" : "Welt-Orb erzeugen",
-        "World.Actions.CopyWorldURL" : "World-URL in Zwischenablage kopieren",
-        "World.Actions.CopyRecordURL" : "Aufzeichnungs-URL in Zwischenablage kopieren",
-        "World.Actions.StartCustomSession" : "Starte benutzerdefinierte Sitzung",
+        "World.Actions.CopyWorldURL" : "World-URL kopieren",
+        "World.Actions.CopyRecordURL" : "Aufzeichnungs-URL kopieren",
+        "World.Actions.StartCustomSession" : "Benutzerdefinierte Sitzung starten",
         "World.Actions.ModifyMetadata" : "Metadaten editieren",
         "World.Actions.GetSessionOrb" : "Sitzungs-Orb erzeugen",
-        "World.Actions.CopySessionURL" : "Sitzungs-URL in Zwischenablage kopieren",
+        "World.Actions.CopySessionURL" : "Sitzungs-URL kopieren",
 
         "World.Indicator.NoData" : "Keine Daten",
         "World.Indicator.LocalWorld" : "Lokale Welt",
@@ -251,8 +251,8 @@
         "Options.SeatedMode.On" : "Sitzend-Modus: An",
         "Options.SeatedMode.Off" : "Sitzend-Modus: Aus",
 
-        "Indicator.OnlineUsers" : "Online Nutzer: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {OK} Slow {Langsam} Down {Außer Betrieb} NoInternet {Kein Internet}} ({response_ms} ms)",
+        "Indicator.OnlineUsers" : "Online-Nutzer: ~{num_total} ({num_registered})",
+        "Indicator.ServerStatus" : "<color=#fff>Server-Status:</color> {status, select, Good {OK} Slow {Langsam} Down {Außer Betrieb} NoInternet {Kein Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Alles synchronisiert",
         "Indicator.Sync.SyncingItems" : "Synchronisiere {item_count,plural, one {# Objekt} other {# Objekten}} <nobr>({item_percent} %)",
