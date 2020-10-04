@@ -4,10 +4,11 @@ This repository contains the locale assets for the core UI of Neos VR (www.neos.
 # Localization Status
 Czech [cs] - 97.2% - Missing keys: 24  
 German [de] - 100.0% - Missing keys: 0  
-English (United Kingdom) [en-gb] - 1.9% - Missing keys: 834  
+English (United Kingdom) [en-gb] - 2.1% - Missing keys: 832  
 English [en] - 100.0% - Missing keys: 0  
 Esperanto [eo] - 100.0% - Missing keys: 0  
-Spanish [es] - 38.5% - Missing keys: 523  
+Spanish [es] - 61.5% - Missing keys: 327  
+Estonian [et] - 100.0% - Missing keys: 0  
 Finnish [fi] - 33.4% - Missing keys: 566  
 French [fr] - 100.0% - Missing keys: 0  
 Icelandic [is] - 41.5% - Missing keys: 497  
@@ -19,7 +20,6 @@ Russian [ru] - 97.6% - Missing keys: 20
 Turkish [tr] - 97.4% - Missing keys: 22  
 Chinese (Simplified, China) [zh-cn] - 100.0% - Missing keys: 0  
 Chinese (Traditional, Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
-Estonian [et] - 100% - Missing keys: 0
 
 Total keys: 850
 
@@ -30,6 +30,8 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - Make sure the .json locale file is UTF8 encoded
 - Always keep the "Dummy" : "Dummy" entry at the bottom of the file. This way you don't have to remember to remove the comma at the end of the last entry every time
 - Copy & Paste the whole content of the file into this online validator to ensure you don't have any syntax errors: https://jsonformatter.curiousconcept.com/
+
+- DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
 
 # If you're contributing a new language
 1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
