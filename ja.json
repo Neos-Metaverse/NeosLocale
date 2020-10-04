@@ -951,6 +951,15 @@
         "Inspector.Texture.InvalidFloats" : "診断：フロートが無効です",
         "Inspector.Texture.GenerateMetadata" : "診断：ビットマップメタデータを生成します",
 
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "子にしたものをセットアップします",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "子にしたものを“強制的にすべて”セットアップします",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "子にしたものを“リグのみ”セットアップします",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "子のスムーズトランスフォームを置き換えます",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "子のスムーズトランスフォームを消去します",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- コライダー＆グラッビング -------",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "（オブジェクトルートを使用して）ヒエラルキーから固定コライダーを追加します",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "常に最後のボーンを掴めるようにします",
+
         "Exiting.SavingItems" : "{n, plural, other {# 個のアイテムを}} セーブ中...",
         "Exiting.SavingChanges" : "変更をセーブ中...",
         "Exiting.Exiting" : "終了中...",

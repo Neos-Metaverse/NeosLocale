@@ -888,22 +888,7 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Esperanto [eo]
-CameraControl.Positioning.FieldOfView  
-CameraControl.Positioning.AngleOffset  
-CameraControl.Positioning.Distance  
-CameraControl.Positioning.Height  
-CameraControl.Positioning.FirstPersonPitch  
-CameraControl.Positioning.FirstPersonRoll  
-CameraControl.Positioning.FirstPersonOffset  
-CameraControl.Positioning.Reset  
-Inspector.DynamicBoneChain.SetupFromChildren  
-Inspector.DynamicBoneChain.SetupFromChildrenAll  
-Inspector.DynamicBoneChain.SetupFromChildrenRig  
-Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
-Inspector.DynamicBoneChain.ClearSmoothTransforms  
-Inspector.DynamicBoneChain.CollidersGrabbingHeader  
-Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
-Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+
 
 # Spanish [es]
 General.Done  
@@ -2348,14 +2333,7 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Japanese [ja]
-Inspector.DynamicBoneChain.SetupFromChildren  
-Inspector.DynamicBoneChain.SetupFromChildrenAll  
-Inspector.DynamicBoneChain.SetupFromChildrenRig  
-Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
-Inspector.DynamicBoneChain.ClearSmoothTransforms  
-Inspector.DynamicBoneChain.CollidersGrabbingHeader  
-Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
-Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+
 
 # Korean [ko]
 General.Processing  
@@ -2696,22 +2674,8 @@ Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
 # Chinese (Simplified, China) [zh-cn]
-Inspector.DynamicBoneChain.SetupFromChildren  
-Inspector.DynamicBoneChain.SetupFromChildrenAll  
-Inspector.DynamicBoneChain.SetupFromChildrenRig  
-Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
-Inspector.DynamicBoneChain.ClearSmoothTransforms  
-Inspector.DynamicBoneChain.CollidersGrabbingHeader  
-Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
-Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+
 
 # Chinese (Traditional, Taiwan) [zh-tw]
-Inspector.DynamicBoneChain.SetupFromChildren  
-Inspector.DynamicBoneChain.SetupFromChildrenAll  
-Inspector.DynamicBoneChain.SetupFromChildrenRig  
-Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
-Inspector.DynamicBoneChain.ClearSmoothTransforms  
-Inspector.DynamicBoneChain.CollidersGrabbingHeader  
-Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
-Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+
 
