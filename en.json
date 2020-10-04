@@ -951,6 +951,15 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnostic: Generate Bitmap Metadata",
 
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "Setup From Children",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Setup From Children (force all)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Setup From Children (rig only)",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Replace Smooth Transforms in children",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Clear Smooth Transforms in children",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Colliders & Grabbing -------",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Add fixed colliders from hierarchy (using object root)",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Always grab last bone",
+
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
         "Exiting.Exiting" : "Exiting...",

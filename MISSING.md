@@ -26,6 +26,24 @@ Inspector.BipedRig.DetectRightHand
 Inspector.BipedRig.HandRigResult  
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+
+# German [de]
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
 # English (United Kingdom) [en-gb]
 General.OK  
@@ -846,6 +864,14 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 Exiting.SavingItems  
 Exiting.SavingChanges  
 Exiting.Exiting  
@@ -860,6 +886,24 @@ Temporary.MMC.VoteSuccess
 Temporary.MMC.VoteFailure  
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
+
+# Esperanto [eo]
+CameraControl.Positioning.FieldOfView  
+CameraControl.Positioning.AngleOffset  
+CameraControl.Positioning.Distance  
+CameraControl.Positioning.Height  
+CameraControl.Positioning.FirstPersonPitch  
+CameraControl.Positioning.FirstPersonRoll  
+CameraControl.Positioning.FirstPersonOffset  
+CameraControl.Positioning.Reset  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
 # Spanish [es]
 General.Done  
@@ -1175,6 +1219,14 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 Exiting.SavingItems  
 Exiting.SavingChanges  
 Exiting.Exiting  
@@ -1189,6 +1241,16 @@ Temporary.MMC.VoteSuccess
 Temporary.MMC.VoteFailure  
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
+
+# Estonian [et]
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
 # Finnish [fi]
 General.Done  
@@ -1743,6 +1805,14 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 Exiting.SavingItems  
 Exiting.SavingChanges  
 Exiting.Exiting  
@@ -1757,6 +1827,18 @@ Temporary.MMC.VoteSuccess
 Temporary.MMC.VoteFailure  
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
+
+# French [fr]
+Interaction.ResetScale  
+World.Actions.GetWorldOrb  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
 # Icelandic [is]
 General.Processing  
@@ -2245,6 +2327,14 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 Exiting.SavingItems  
 Temporary.MMC.Voting UI  
 Temporary.MMC.Vote  
@@ -2256,6 +2346,16 @@ Temporary.MMC.VoteSuccess
 Temporary.MMC.VoteFailure  
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
+
+# Japanese [ja]
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
 # Korean [ko]
 General.Processing  
@@ -2360,6 +2460,14 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 Temporary.MMC.Voting UI  
 Temporary.MMC.Vote  
 Temporary.MMC.Categories.Name  
@@ -2473,6 +2581,14 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 Temporary.MMC.Voting UI  
 Temporary.MMC.Vote  
 Temporary.MMC.Categories.Name  
@@ -2506,6 +2622,14 @@ Inspector.BipedRig.DetectRightHand
 Inspector.BipedRig.HandRigResult  
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
 # Russian [ru]
 General.Done  
@@ -2528,6 +2652,14 @@ Inspector.BipedRig.DetectRightHand
 Inspector.BipedRig.HandRigResult  
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
 # Turkish [tr]
 General.Done  
@@ -2554,4 +2686,32 @@ Inspector.BipedRig.DetectRightHand
 Inspector.BipedRig.HandRigResult  
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+
+# Chinese (Simplified, China) [zh-cn]
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+
+# Chinese (Traditional, Taiwan) [zh-tw]
+Inspector.DynamicBoneChain.SetupFromChildren  
+Inspector.DynamicBoneChain.SetupFromChildrenAll  
+Inspector.DynamicBoneChain.SetupFromChildrenRig  
+Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
+Inspector.DynamicBoneChain.ClearSmoothTransforms  
+Inspector.DynamicBoneChain.CollidersGrabbingHeader  
+Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
