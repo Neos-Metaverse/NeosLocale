@@ -368,6 +368,7 @@
         "Undo.GrabObjects": "Ekpreni Objektojn",
         "Undo.DestroyGrabbed": "Detruu Kaptitajn Objektojn",
         "Undo.DuplicateGrabbed": "Duplikataj Kaptitaj Objektoj",
+
         "Undo.ChangeBoxSize": "Ŝanĝi Kestograndecon",
         "Undo.BrushStroke": "Penika Streko",
         "Undo.ChangeColor": "Ŝanĝi Koloron",
@@ -427,6 +428,7 @@
         "Tooltip.Material.CreateNew": "Krei novan",
 
         "Tooltip.Mesh.Edit": "Redakti maŝon",
+
         "CreateNew.Back": "<<< <i> Reen </i>",
         "CreateNew.EmptyObject": "Malplena objekto",
         "CreateNew.ParticleSystem": "Partikla Sistemo",
@@ -481,8 +483,7 @@
         "CreateNew.Light.Spot": "Makulo",
         "CreateNew.Light.Directional": "Unudirekta",
 
-        "CreateNew.Materials": "Materialoj",
-        
+        "CreateNew.Materials": "Materialoj",        
 
         "AvatarCreator.Title": "Kreanto de Avataro",
         "AvatarCreator.Instructions": "Vicigu avatarajn objektojn kun la aŭdilaj kaj regilaj referencoj (laŭvola) kaj premu Krei por konverti ilin al avataro",
@@ -717,14 +718,15 @@
         "CameraControl.Anchors.InterpolationSpeed": "Ankora Interpola Rapido:",
         "CameraControl.Anchors.NoAnchors": "Neniuj ĉambraj ankroj en ĉi tiu mondo",
 
-        "CameraControl.Position.FieldOfView": "Vidkampo",
-        "CameraControl.Position.AngleOffset": "Angula ofseto",
-        "CameraControl.Position.Distance": "Distanco",
-        "CameraControl.Position.Height": "Alteco",
-        "CameraControl.Position.FirstPersonPitch": "Unua Persona Tonalto",
-        "CameraControl.Position.FirstPersonRoll": "Unua Persona Rulo",
-        "CameraControl.Position.FirstPersonOffset": "Unua Persona Ofseto",
-        "CameraControl.Position.Reset": "Restarigi",
+        "CameraControl.Positioning.FieldOfView": "Vidkampo(FOV)",
+        "CameraControl.Positioning.AngleOffset": "Angula ofseto",
+        "CameraControl.Positioning.Distance": "Distanco",
+        "CameraControl.Positioning.Height": "Alteco",
+        "CameraControl.Positioning.FirstPersonPitch": "Unua Persona Tonalto",
+        "CameraControl.Positioning.FirstPersonRoll": "Unua Persona Rulo",
+        "CameraControl.Positioning.FirstPersonOffset": "Unua Persona Ofseto",
+        "CameraControl.Positioning.Reset": "Restarigi",
+
         "CameraControl.Control.AnyoneCanInteract": "Ĉiu Povas Interagi",
         "CameraControl.Control.RenderPreviewForEveryone": "Redonu Antaŭrigardon Por Ĉiuj",
         "CameraControl.Control.RenderPrivateUI": "Redonu Privatan UI",
@@ -848,7 +850,6 @@
         "Settings.System.KeepOriginalScreenshotFormat" : "Konservu originalan ekranfoton",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Se ebligita, ekrankopioj ne konvertiĝos al JPG se konservitaj en la dosierujo Dokumentoj",
 
-
         "Security.Hyperlink.Warning": "<b> <size = 125%> Averto: Eliranta hiperligo </size> </b> \n Vi alklakis ligon en mondo. Ĉu vi volas malfermi ĝin? Ĉi tio faros malfermu en via labortabla retumilo. ",
         "Security.Hyperlink.Open": "Malfermi",
         "Security.Hyperlink.Cancel": "Nuligi",
@@ -949,6 +950,15 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnozo: Nevalidaj flosiloj",
         "Inspector.Texture.GenerateMetadata" : "Diagnozo: Generi Bitmapajn Metadatenojn",
+
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "Agordi De Infanoj",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Agordi De Infanoj (devigi ĉiujn)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Agordi De Infanoj (nur Rigilaro)",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Replace Smooth Transforms in children",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Klara Glata Transformo en infanoj",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Koliziantoj & Kaptado -------",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Aldoni fiksajn koliziantojn de hierarkio (uzante objektan radikon)",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Ĉiam kaptu lastan oston",
 
         "Exiting.SavingItems" : "Konservante {n, plural, one {# ero} other {# erojn}}...",
         "Exiting.SavingChanges" : "Konservi Ŝanĝojn ...",

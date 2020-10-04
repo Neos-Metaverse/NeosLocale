@@ -953,6 +953,15 @@
         "Inspector.Texture.InvalidFloats" : "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata" : "诊断：生成位图元数据",
 
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "从Children设置",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "从Children设置 (强制全部)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "从Children设置 (只有rig)",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "替换children中的Smooth Transforms",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "清除children中的Smooth Transforms",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- 撞机和抓斗(Colliders & Grabbing) -------",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "从层次结构添加固定对撞机（使用对象根）",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "总是抓last bone",
+
         "Exiting.SavingItems" : "正在保存 {n, plural, other {# 项目}}...",
         "Exiting.SavingChanges" : "正在保存更改...",
         "Exiting.Exiting" : "正在退出中...",
