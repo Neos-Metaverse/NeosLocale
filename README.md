@@ -6,20 +6,21 @@ Czech [cs] - 96.3% - Missing keys: 32
 German [de] - 99.1% - Missing keys: 8  
 English (United Kingdom) [en-gb] - 2.1% - Missing keys: 840  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 99.1% - Missing keys: 8  
+Esperanto [eo] - 100.0% - Missing keys: 0  
 Spanish [es] - 61.0% - Missing keys: 335  
 Estonian [et] - 99.1% - Missing keys: 8  
 Finnish [fi] - 33.1% - Missing keys: 574  
 French [fr] - 99.1% - Missing keys: 8  
 Icelandic [is] - 41.1% - Missing keys: 505  
-Japanese [ja] - 99.1% - Missing keys: 8  
+Japanese [ja] - 100.0% - Missing keys: 0  
 Korean [ko] - 86.0% - Missing keys: 120  
 Dutch [nl] - 86.1% - Missing keys: 119  
 Norwegian [no] - 96.6% - Missing keys: 29  
+Polish [pl] - 99.9% - Missing keys: 1  
 Russian [ru] - 96.7% - Missing keys: 28  
 Turkish [tr] - 96.5% - Missing keys: 30  
-Chinese (Simplified, China) [zh-cn] - 99.1% - Missing keys: 8  
-Chinese (Traditional, Taiwan) [zh-tw] - 99.1% - Missing keys: 8  
+Chinese (Simplified, China) [zh-cn] - 100.0% - Missing keys: 0  
+Chinese (Traditional, Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
 
 Total keys: 858
 
@@ -32,6 +33,7 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - Copy & Paste the whole content of the file into this online validator to ensure you don't have any syntax errors: https://jsonformatter.curiousconcept.com/
 
 - DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
+- DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
 
 # If you're contributing a new language
 1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.

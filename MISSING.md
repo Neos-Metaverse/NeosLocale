@@ -887,9 +887,6 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
-# Esperanto [eo]
-
-
 # Spanish [es]
 General.Done  
 Credits.Title  
@@ -2332,9 +2329,6 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
-# Japanese [ja]
-
-
 # Korean [ko]
 General.Processing  
 General.Done  
@@ -2609,6 +2603,9 @@ Inspector.DynamicBoneChain.CollidersGrabbingHeader
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
+# Polish [pl]
+Inspector.DynamicBoneChain.SetupFromChildren  
+
 # Russian [ru]
 General.Done  
 Inspector.MeshRenderer.MergeByMaterial  
@@ -2672,10 +2669,4 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.CollidersGrabbingHeader  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
-
-# Chinese (Simplified, China) [zh-cn]
-
-
-# Chinese (Traditional, Taiwan) [zh-tw]
-
 
