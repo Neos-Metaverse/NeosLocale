@@ -19,6 +19,7 @@ Russian [ru] - 97.6% - Missing keys: 20
 Turkish [tr] - 97.4% - Missing keys: 22  
 Chinese (Simplified, China) [zh-cn] - 100.0% - Missing keys: 0  
 Chinese (Traditional, Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
+Estonian [et] - 100% - Missing keys: 0
 
 Total keys: 850
 
