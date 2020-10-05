@@ -56,6 +56,14 @@
         "Interaction.Locomotion": "Movado",
         "Interaction.Locomotion.None": "Neniu",
 
+        "Interaction.NamedEquipTool" : "Ekipi {name}",
+        "Interaction.NamedEquipTool.Default" : "Ilo",
+
+        "Interaction.EnterAnchor" : "Eniri Ankron",
+        "Interaction.ExitAnchor" : "Eliri Ankron",
+
+        "Interaction.EquipAvatar" : "Ekipi Avataron",
+
         "Dash.Screens.Home": "Hejmo",
         "Dash.Screens.Worlds": "Mondoj",
         "Dash.Screens.Contacts": "Kontaktoj",

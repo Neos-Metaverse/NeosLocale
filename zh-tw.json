@@ -56,6 +56,14 @@
         "Interaction.Locomotion" : "運動",
         "Interaction.Locomotion.None" : "沒有",
 
+        "Interaction.NamedEquipTool" : "裝備{name}",
+        "Interaction.NamedEquipTool.Default" : "工具",
+
+        "Interaction.EnterAnchor" : "輸入Anchor",
+        "Interaction.ExitAnchor" : "退出Anchor",
+
+        "Interaction.EquipAvatar" : "裝備阿凡達",
+        
         "Dash.Screens.Home" : "家",
         "Dash.Screens.Worlds" : "世界",
         "Dash.Screens.Contacts" : "聯絡人",
