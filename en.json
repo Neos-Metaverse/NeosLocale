@@ -56,6 +56,14 @@
         "Interaction.Locomotion" : "Locomotion",
         "Interaction.Locomotion.None" : "None",
 
+        "Interaction.NamedEquipTool" : "Equip {name}",
+        "Interaction.NamedEquipTool.Default" : "Tool",
+
+        "Interaction.EnterAnchor" : "Enter Anchor",
+        "Interaction.ExitAnchor" : "Exit Anchor",
+
+        "Interaction.EquipAvatar" : "Equip Avatar",
+
         "Dash.Screens.Home" : "Home",
         "Dash.Screens.Worlds" : "Worlds",
         "Dash.Screens.Contacts" : "Contacts",

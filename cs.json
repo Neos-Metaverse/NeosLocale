@@ -53,6 +53,14 @@
         "Interaction.Locomotion" : "Metoda pohybu",
         "Interaction.Locomotion.None" : "Žádná",
 
+        "Interaction.NamedEquipTool" : "Nasadit {name}",
+        "Interaction.NamedEquipTool.Default" : "Nástroj",
+
+        "Interaction.EnterAnchor" : "Vstoupit",
+        "Interaction.ExitAnchor" : "Vystoupit",
+
+        "Interaction.EquipAvatar" : "Převtělit se do avatara",
+
         "Dash.Screens.Home" : "Hlavní",
         "Dash.Screens.Worlds" : "Světy",
         "Dash.Screens.Contacts" : "Kontakty",
@@ -296,6 +304,7 @@
         "Profile.Status.Away" : "Pryč",
         "Profile.Status.Busy" : "Nerušit",
         "Profile.Status.Invisible" : "Neviditelný",
+        "Profile.Status.Offline" : "Offline",
 
         "Session.Tab.Settings" : "Nastavení",
         "Session.Tab.Users" : "Uživatelé",
