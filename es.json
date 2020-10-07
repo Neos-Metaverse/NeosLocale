@@ -657,6 +657,36 @@
         "FullBody.FinishPrompt" : "¿Todo bien?",
         "FullBody.FinishCalibration" : "Finalizar la calibración de cuerpo completo",
         
+        "FullBody.CalibrateAvatarTitle" : "Calibrar avatar",
+        "FullBody.CalibrateAvatarInstructions" : "Asegúrese de que todas las partes del cuerpo estén mapeadas y luego arrastre las esferas azules para que el avatar coincida mejor con la referencia del cuerpo.",
+        "FullBody.ShowReferenceOverlay" : "Mostrar superposición de referencia",
+        "FullBody.ResetAvatarPrompt" : "¿Avatar destrozado o no rastreando?",
+        "FullBody.ResetAvatar" : "Restablecer mapeo",
+        "FullBody.AvatarHeightCompensationInstructions" : "Si el avatar es demasiado alto (termina encorvado) o demasiado corto para ti, ajusta aquí la compensación de altura para que se ajuste mejor a tu altura.",
+        "FullBody.AvatarHeightCompensation" : "Compensación de altura de avatar: {n, number, percent}",
+        "FullBody.ResetAvatarHeightCompensation" : "Restablecer compensación de altura",
+        "FullBody.AvatarSaveWarning" : "¡No olvide guardar su avatar una vez que haya terminado de calibrarlo!",
+        "FullBody.FinishAvatarCalibration" : "Finalizar la calibración del avatar",
+        "FullBody.CalibrationFinishedInstructions" : "Si está satisfecho con la calibración, puede guardar su avatar ahora y salir.",
+        "FullBody.CloseCalibrator" : "Cerrar el calibrador",
+        "FullBody.CalibrationRedoInstructions" : "Si la calibración está desactivada o si desea calibrar más avatares, puede realizar más ajustes. También puede volver a abrir este calibrador en cualquier momento en el futuro para realizar ajustes. \n Si solo ha cambiado sus rastreadores, no es necesario que vuelva a calibrar sus avatares.",
+        "FullBody.ReturnToTrackerCalibration" : "Volver a la calibración del rastreador",
+
+        "FullBody.Hips" : "Cadera",
+        "FullBody.Feet" : "Pies",
+        "FullBody.Chest" : "Pecho",
+        "FullBody.Elbows" : "Codos",
+        "FullBody.Knees" : "Rodillas",
+
+        "FullBody.TrackerMapped" : "Rastreador Rastreando",
+        "FullBody.NotTracking" : "No esta Rastreando...",
+        "FullBody.NoTracker" : "No Hay Rastreador",
+        "FullBody.FeetNotTracking" : "Los Pies no etan rastreados...",
+
+        "FullBody.AvatarPointMapped" : "Mapeado",
+        "FullBody.AvatarPointNotMapped" : "No mapeado",
+        "FullBody.AvatarPointNoTracker" : "No Rastreador",
+        
         "Dummy" : "Dummy"
        
     }
