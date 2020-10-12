@@ -56,6 +56,14 @@
         "Interaction.Locomotion" : "移動方法",
         "Interaction.Locomotion.None" : "なし",
 
+        "Interaction.NamedEquipTool" : "{name}を装備",
+        "Interaction.NamedEquipTool.Default" : "ツール",
+
+        "Interaction.EnterAnchor" : "アンカーを入力",
+        "Interaction.ExitAnchor" : "アンカーを終了",
+
+        "Interaction.EquipAvatar" : "アバターを着る",
+
         "Dash.Screens.Home" : "ホーム",
         "Dash.Screens.Worlds" : "ワールド",
         "Dash.Screens.Contacts" : "コンタクト",
