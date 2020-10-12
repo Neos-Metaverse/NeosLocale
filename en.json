@@ -56,6 +56,14 @@
         "Interaction.Locomotion" : "Locomotion",
         "Interaction.Locomotion.None" : "None",
 
+        "Interaction.NamedEquipTool" : "Equip {name}",
+        "Interaction.NamedEquipTool.Default" : "Tool",
+
+        "Interaction.EnterAnchor" : "Enter Anchor",
+        "Interaction.ExitAnchor" : "Exit Anchor",
+
+        "Interaction.EquipAvatar" : "Equip Avatar",
+
         "Dash.Screens.Home" : "Home",
         "Dash.Screens.Worlds" : "Worlds",
         "Dash.Screens.Contacts" : "Contacts",
@@ -662,7 +670,7 @@
         "FullBody.ShowReferenceOverlay" : "Show Reference Overlay",
         "FullBody.ResetAvatarPrompt" : "Avatar mangled or not tracking?",
         "FullBody.ResetAvatar" : "Reset Mapping",
-        "FullBody.AvatarHeightCompensationInstructions" : "If the avatar is too tall (ends up hunched up) or too short for you adjust its height compensation here so it better fits your height.",
+        "FullBody.AvatarHeightCompensationInstructions" : "If the avatar is too tall (ends up hunched up) or too short for you, adjust its height compensation here so it better fits your height.",
         "FullBody.AvatarHeightCompensation" : "Avatar Height Compensation: {n, number, percent}",
         "FullBody.ResetAvatarHeightCompensation" : "Reset Height Compensation",
         "FullBody.AvatarSaveWarning" : "Don't forget to save your avatar after you're finished calibrating it!",
@@ -855,7 +863,7 @@
         "Security.Hyperlink.Cancel" : "Cancel",
 
         "Security.HostAccess.Title" : "Host Access",
-        "Security.HostAccess.Warning" : "<b><size=125%>Warning: World is trying to access 3rd party host</size></b>\nAllowing access can allow the third party to gather some personal information, like your IP and geographical location.",
+        "Security.HostAccess.Warning" : "<b><size=125%>Warning: World is trying to access 3rd party host</size></b>\nGranting access can allow the third party to gather personal information, such as your IP and geographical location.",
         "Security.HostAccess.TargetHost" : "Target Host: <b>{host}</b>",
         "Security.HostAccess.Reason" : "Reason: {reason}",
         "Security.HostAccess.NoReason" : "<i>No reason provided</i>",
@@ -893,7 +901,7 @@
         "Inspector.Mesh.TrimVertexBoneWeightsTo" : "Trim Vertex Bone Weights To:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bone} other {# Bones}}",
         "Inspector.Mesh.UV_Multiplicator" : "Multiplicator:",
-        "Inspector.Mesh.ScaleUVs" : "Scale UV's",
+        "Inspector.Mesh.ScaleUVs" : "Scale UVs",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Merge submeshes with same material",
         "Inspector.MeshRenderer.SplitByMaterial" : "Split into separate meshes by material",
@@ -950,6 +958,15 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnostic: Generate Bitmap Metadata",
+
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "Setup From Children",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Setup From Children (force all)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Setup From Children (rig only)",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Replace Smooth Transforms in children",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Clear Smooth Transforms in children",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Colliders & Grabbing -------",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Add fixed colliders from hierarchy (using object root)",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Always grab last bone",
 
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
