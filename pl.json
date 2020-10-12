@@ -56,6 +56,14 @@
         "Interaction.Locomotion" : "Lokomocja",
         "Interaction.Locomotion.None" : "Żadna",
 
+        "Interaction.NamedEquipTool" : "Ekwipuj {name}",
+        "Interaction.NamedEquipTool.Default" : "Narzędzie",
+        
+        "Interaction.EnterAnchor" : "Usiądź",
+        "Interaction.ExitAnchor" : "Wstań",
+
+        "Interaction.EquipAvatar" : "Ekwipuj Awatar",
+        
         "Dash.Screens.Home" : "Dom",
         "Dash.Screens.Worlds" : "Światy",
         "Dash.Screens.Contacts" : "Kontakty",
@@ -952,6 +960,7 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostyka: Niewłaściwe ",
         "Inspector.Texture.GenerateMetadata" : "Diagnostyka: Generuj Metadane Bitmapy",
 
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "Ustaw z dzieci",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Ustaw z dzieci (wymuś wszystkie)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Ustaw z dzieci (tylko szkielet)",
         "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Zamień Płynne Transformacje  w dzieciach",
