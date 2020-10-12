@@ -6,21 +6,21 @@ Czech [cs] - 96.4% - Missing keys: 31
 German [de] - 98.5% - Missing keys: 13  
 English (United Kingdom) [en-gb] - 2.1% - Missing keys: 845  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 99.4% - Missing keys: 5  
-Spanish [es] - 60.6% - Missing keys: 340  
+Esperanto [eo] - 100.0% - Missing keys: 0  
+Spanish [es] - 70.8% - Missing keys: 252  
 Estonian [et] - 98.5% - Missing keys: 13  
 Finnish [fi] - 32.9% - Missing keys: 579  
 French [fr] - 98.5% - Missing keys: 13  
 Icelandic [is] - 40.9% - Missing keys: 510  
-Japanese [ja] - 99.4% - Missing keys: 5  
+Japanese [ja] - 100.0% - Missing keys: 0  
 Korean [ko] - 85.5% - Missing keys: 125  
 Dutch [nl] - 85.6% - Missing keys: 124  
 Norwegian [no] - 96.1% - Missing keys: 34  
-Polish [pl] - 99.3% - Missing keys: 6  
+Polish [pl] - 100.0% - Missing keys: 0  
 Russian [ru] - 96.2% - Missing keys: 33  
 Turkish [tr] - 95.9% - Missing keys: 35  
-Chinese (Simplified, China) [zh-cn] - 99.4% - Missing keys: 5  
-Chinese (Traditional, Taiwan) [zh-tw] - 99.4% - Missing keys: 5  
+Chinese (Simplified, China) [zh-cn] - 100.0% - Missing keys: 0  
+Chinese (Traditional, Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
 
 Total keys: 863
 
@@ -31,9 +31,12 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - Make sure the .json locale file is UTF8 encoded
 - Always keep the "Dummy" : "Dummy" entry at the bottom of the file. This way you don't have to remember to remove the comma at the end of the last entry every time
 - Copy & Paste the whole content of the file into this online validator to ensure you don't have any syntax errors: https://jsonformatter.curiousconcept.com/
+- DO use spaces instead of tabs to keep the formatting of all documents consistent
+- DO check if other users are making modifications to the same locale as you are in Issues and coordinate. If you send changes that conflict with other users, it's hard to resolve them on our end since we don't understand the language.
 
 - DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
 - DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
+- DON'T convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
 
 # If you're contributing a new language
 1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.

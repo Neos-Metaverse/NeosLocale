@@ -896,102 +896,7 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
-# Esperanto [eo]
-Interaction.NamedEquipTool  
-Interaction.NamedEquipTool.Default  
-Interaction.EnterAnchor  
-Interaction.ExitAnchor  
-Interaction.EquipAvatar  
-
 # Spanish [es]
-General.Done  
-Interaction.NamedEquipTool  
-Interaction.NamedEquipTool.Default  
-Interaction.EnterAnchor  
-Interaction.ExitAnchor  
-Interaction.EquipAvatar  
-Credits.Title  
-Credits.TokenPrompt  
-Credits.NCR.Title  
-Credits.NCR.Description  
-Credits.KFC.Title  
-Credits.KFC.Description  
-Credits.AmountPrompt  
-Credits.Amount  
-Credits.Balance  
-Credits.WithdrawalAddress  
-Credits.AnonymousTip  
-Credits.TipMessage  
-Credits.TransactionComment  
-Credits.ConfirmHeader  
-Credits.Recipient  
-Credits.Conversion  
-Credits.Comment  
-Credits.SendWarning  
-Credits.Send  
-Credits.Sending  
-Credits.Success  
-Credits.BlockchainWarning  
-NewWorld.Title  
-NewWorld.Template  
-NewWorld.CustomPreset  
-NewWorld.SessionSettings  
-NewWorld.UnsafeMode  
-NewWorld.Port  
-NewWorld.AutoPort  
-NewWorld.DefaultName  
-FullBody.Title  
-FullBody.SetHeight  
-FullBody.HeightInstructions  
-FullBody.HeightWarning  
-FullBody.ConfirmMapping  
-FullBody.MappingInstructions  
-FullBody.StartCalibration  
-FullBody.JustCalibrateAvatar  
-FullBody.JustCalibrateAvatarDescription  
-FullBody.SkipAndAdjustAvatar  
-FullBody.CalibrateInstructions  
-FullBody.BeforeCalibrationInstructions  
-FullBody.CalibratingPoseInstructions  
-FullBody.AdjustAvatarInstructions  
-FullBody.FineTuneCalibrationInstructions  
-FullBody.CalibrateTrackersHeader  
-FullBody.CalibrateTrackersInstructions  
-FullBody.UseSymmetry  
-FullBody.ShowBodyOverlay  
-FullBody.HeightCompensationInstructions  
-FullBody.RecalibratePrompt  
-FullBody.Recalibrate  
-FullBody.CalibrateAvatarPrompt  
-FullBody.CalibrateAvatar  
-FullBody.FinishPrompt  
-FullBody.FinishCalibration  
-FullBody.CalibrateAvatarTitle  
-FullBody.CalibrateAvatarInstructions  
-FullBody.ShowReferenceOverlay  
-FullBody.ResetAvatarPrompt  
-FullBody.ResetAvatar  
-FullBody.AvatarHeightCompensationInstructions  
-FullBody.AvatarHeightCompensation  
-FullBody.ResetAvatarHeightCompensation  
-FullBody.AvatarSaveWarning  
-FullBody.FinishAvatarCalibration  
-FullBody.CalibrationFinishedInstructions  
-FullBody.CloseCalibrator  
-FullBody.CalibrationRedoInstructions  
-FullBody.ReturnToTrackerCalibration  
-FullBody.Hips  
-FullBody.Feet  
-FullBody.Chest  
-FullBody.Elbows  
-FullBody.Knees  
-FullBody.TrackerMapped  
-FullBody.NotTracking  
-FullBody.NoTracker  
-FullBody.FeetNotTracking  
-FullBody.AvatarPointMapped  
-FullBody.AvatarPointNotMapped  
-FullBody.AvatarPointNoTracker  
 CameraControl.Title  
 CameraControl.MirroringOffWarning  
 CameraControl.MirrorToDisplay  
@@ -2370,13 +2275,6 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
-# Japanese [ja]
-Interaction.NamedEquipTool  
-Interaction.NamedEquipTool.Default  
-Interaction.EnterAnchor  
-Interaction.ExitAnchor  
-Interaction.EquipAvatar  
-
 # Korean [ko]
 General.Processing  
 General.Done  
@@ -2666,14 +2564,6 @@ Inspector.DynamicBoneChain.CollidersGrabbingHeader
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
 
-# Polish [pl]
-Interaction.NamedEquipTool  
-Interaction.NamedEquipTool.Default  
-Interaction.EnterAnchor  
-Interaction.ExitAnchor  
-Interaction.EquipAvatar  
-Inspector.DynamicBoneChain.SetupFromChildren  
-
 # Russian [ru]
 General.Done  
 Interaction.NamedEquipTool  
@@ -2747,18 +2637,4 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.CollidersGrabbingHeader  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
-
-# Chinese (Simplified, China) [zh-cn]
-Interaction.NamedEquipTool  
-Interaction.NamedEquipTool.Default  
-Interaction.EnterAnchor  
-Interaction.ExitAnchor  
-Interaction.EquipAvatar  
-
-# Chinese (Traditional, Taiwan) [zh-tw]
-Interaction.NamedEquipTool  
-Interaction.NamedEquipTool.Default  
-Interaction.EnterAnchor  
-Interaction.ExitAnchor  
-Interaction.EquipAvatar  
 
