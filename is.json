@@ -11,7 +11,7 @@
         "General.Confirm" : "Ertu viss?",
         "General.Loading" : "Hlaða...",
         "General.Processing" : "Í vinnslu...",
-        "General.FAILED" : "MISTÓKST",
+        "Gene	ral.FAILED" : "MISTÓKST",
         "General.Reset" : "Endurstilla",
         "General.WorldOpenConfirm" : "Opna virkilega?",
         "General.Saved" : "Vistað!",
@@ -779,7 +779,7 @@
 
         "Settings.OverrideLocale" : "Yfirskrifa Locale:",
         "Settings.HideAllTutorials" : "Fela öll Tutorial",
-        "Settings.ShowInteractionHints" : "Sýna Interaction Hints",        
+        "Settings.ShowInteractionHints" : "Sýna Interaction Hints",
         "Settings.PrimaryController" : "Aðalfjarstýring",
         "Settings.AllowStrafing" : "Leyfa streifing",
         "Settings.UseHeadDirectionForMovement" : "Nota stýring miðað við haus",
@@ -791,7 +791,7 @@
         
         
         "Settings.ControllerVibration" : "Titring í fjastýringu",
-        "Settings.DisablePhysicalInteractions" : "Slökkva á Physical Interactions",        
+        "Settings.DisablePhysicalInteractions" : "Slökkva á Physical Interactions",
         "Settings.EnableGestures" : "Kveikja á Gestures",
         "Settings.DoubleClickInterval" : "Double Click tímabil",
         "Settings.ResetAllTutorials" : "Endurstilla öll Tutorial",
@@ -817,7 +817,7 @@
         
         
         
-        "Settings.Save" : "Vista breytingar",        
+        "Settings.Save" : "Vista breytingar",
         
         "Settings.FullBody.Header" : "Full Body græja dæmi:",
         "Settings.FullBody.FeetPositionSmoothing" : "Fót Position Smoothing",
@@ -840,10 +840,10 @@
         "Settings.ViveHandTracking.Name" : "Vive puttaskynjunagaldur",
         "Settings.ViveHandTracking.Enabled" : "Vive handskynjun virk",
         "Settings.ViveHandTracking.SnapDistance" : "Vive handskynjunar Snap Distance",
-        "Settings.ViveHandTracking.UseFingersWhenSnapped" : "Nota Vive putta þegar það er Snapped",    
+        "Settings.ViveHandTracking.UseFingersWhenSnapped" : "Nota Vive putta þegar það er Snapped",
         
         "Settings.WindowsIntegration" : "Windows samþætting",
-        "Settings.LinuxIntegration" : "GNU/Linux samþætting",    
+        "Settings.LinuxIntegration" : "GNU/Linux samþætting",
 
         "Settings.System.KeepOriginalScreenshotFormat" : "Halda upprunaleg screenshot snið",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Með kveikt, screenshottar verða ekki breyttar í JPG þegar flutt út í skjalasaft á tölvunni",
