@@ -59,8 +59,8 @@
         "Interaction.NamedEquipTool" : "{name}を装備",
         "Interaction.NamedEquipTool.Default" : "ツール",
 
-        "Interaction.EnterAnchor" : "アンカーを入力",
-        "Interaction.ExitAnchor" : "アンカーを終了",
+        "Interaction.EnterAnchor" : "アンカーに入る",
+        "Interaction.ExitAnchor" : "アンカーから出る",
 
         "Interaction.EquipAvatar" : "アバターを着る",
 
@@ -452,7 +452,7 @@
         "CreateNew.Object.UIXCanvas" : "UIX キャンバス",
         "CreateNew.Object.Facet" : "Facet",
 
-        "CreateNew.Object.FogVolume" : "フォグの量",
+        "CreateNew.Object.FogVolume" : "フォグ",
         "CreateNew.Object.FogVolume.Additive" : "加算(Additive)",
         "CreateNew.Object.FogVolume.Alpha" : "アルファ",
         "CreateNew.Object.FogVolume.Multiplicative" : "乗算(Multiplicative)",
@@ -464,13 +464,13 @@
 
         "CreateNew.Editor" : "エディタ",
         "CreateNew.Editor.UserInspector" : "ユーザインスペクタ",
-        "CreateNew.Editor.LightSourcesWizard" : "世界の光源ウィザード",
+        "CreateNew.Editor.LightSourcesWizard" : "ワールド光源ウィザード",
         "CreateNew.Editor.AssetOptimizationWizard" : "アセット最適化ウィザード",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX 転送ウィザード",
 
         "CreateNew.3DModel" : "3Dモデル",
         "CreateNew.3DModel.Box" : "ボックス",
-        "CreateNew.3DModel.Sphere" : "スフェア",
+        "CreateNew.3DModel.Sphere" : "スフィア",
         "CreateNew.3DModel.Capsule" : "カプセル",
         "CreateNew.3DModel.Cone" : "コーン",
         "CreateNew.3DModel.Cylinder" : "シリンダー",
@@ -480,7 +480,7 @@
 
         "CreateNew.Collider" : "コライダー",
         "CreateNew.Collider.Box" : "ボックス",
-        "CreateNew.Collider.Sphere" : "スフェア",
+        "CreateNew.Collider.Sphere" : "スフィア",
         "CreateNew.Collider.Capsule" : "カプセル",
         "CreateNew.Collider.Cylinder" : "シリンダー",
         "CreateNew.Collider.Cone" : "コーン",
@@ -495,7 +495,7 @@
 
         "AvatarCreator.Title" : "アバタークリエイター",
         "AvatarCreator.Instructions" : "ヘッドセットとコントローラーの位置を指定し、 「作成」を押してアバターにします。",
-        "AvatarCreator.UseSymmetry" : "対象モード",
+        "AvatarCreator.UseSymmetry" : "対称モード",
         "AvatarCreator.ShowToolAnchors" : "ツールアンカーを表示",
         "AvatarCreator.SetupVolumeMeter" : "Volume Meterをセットアップ",
         "AvatarCreator.SetupEyes" : "目をセットアップ",
@@ -524,7 +524,7 @@
         "Importer.Image.Stereo360" : "ステレオ 360 フォト",
         "Importer.Image.180" : "180 フォト",
         "Importer.Image.Stereo180" : "ステレオ 180 フォト",
-        "Importer.Image.LUT" : "ルックアップテクスチャ(LUT)",
+        "Importer.Image.LUT" : "ルックアップテーブル(LUT)",
         
         "Importer.ImageVideo.LayoutPrompt" : "どのレイアウトを使用していますか?",
         "Importer.ImageVideo.LayoutHorizontalLR" : "LR 平行にする",
@@ -545,7 +545,7 @@
         "Importer.Model.SeparableKind" : "スナップ可能な部分で分離可能",
         "Importer.Model.UnitsPrompt" : "単位は何ですか?",
         "Importer.Model.AutoScale" : "自動スケール（不明なスケール）",
-        "Importer.Model.AutoHumanoid" : "ヒューマノイドの身長に自動設定",
+        "Importer.Model.AutoHumanoid" : "ヒューマノイドの\n身長に自動設定",
         "Importer.Model.Meters" : "メートル (m)",
         "Importer.Model.Millimeters" : "ミリメートル (mm)",
         "Importer.Model.Centimeters" : "センチメートル(cm)",
