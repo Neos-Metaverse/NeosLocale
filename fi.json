@@ -292,6 +292,22 @@
         "Notifications.ReceivedTip" : "Vastaanotettu tippi {amount} {token}",
         "Notifications.SentTip" : "Lähetty tippi {amount} {token}",
 
+        "FullBody.Hips" : "Lanne",
+        "FullBody.Feet" : "Jalat",
+        "FullBody.Chest" : "Rinta",
+        "FullBody.Elbows" : "Kyynärpäät",
+        "FullBody.Knees" : "Polvet",
+
+        "CameraControl.OBS.Streaming.Start" : "Aloita suoratoisto",
+        "CameraControl.OBS.Streaming.Starting" : "Aloitetaan suoratoistoa...",
+        "CameraControl.OBS.Streaming.Stop" : "Lopeta suoratoisto",
+        "CameraControl.OBS.Streaming.Stopping" : "Lopetetaan suoratoistoa",
+
+        "CameraControl.OBS.Recording.Start" : "Aloita nauhottaminen",
+        "CameraControl.OBS.Recording.Starting" : "Aloitetaan nauhoittaminen...",
+        "CameraControl.OBS.Recording.Stop" : "Lopeta nauhoitus",
+        "CameraControl.OBS.Recording.Stopping" : "Lopetetaan nauhoitus",
+
         "Settings.Height" : "Pituus:",
         "Settings.Metric" : "Senttimetri (cm)",
         "Settings.Imperial" : "Tuuma (ft)",
@@ -318,6 +334,27 @@
         "Settings.LegacyGripEquip" : "Ota vanha Double Grip käyttöön",
         "Settings.LegacyWorldSwitcher" : "Ota vanha maailma vaihdos käyttöön",
         "Settings.FetchIncompatibleSessions" : "Näytä yhteensopimattomat istunnot",
+
+        "Settings.LaserSmoothing.Header" : "Laaserin tasoitus",
+        "Settings.LaserSmoothing.Speed" : "Tasoituksen nopeus",
+        "Settings.LaserSmoothing.ModulateStartAngle" : "Tarrauksen aloitus kulma",
+        "Settings.LaserSmoothing.ModulateEndAngle" : "Tarrauksen lopetus kulma",
+        "Settings.LaserSmoothing.ModulateExponent" : "Tarrauksen eksponentti",
+        "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "Tarrauksen nopeus kerroin",
+        "Settings.LaserSmoothing.StickThreshold" : "Kiinnityksen kynnys",
+        "Settings.LaserSmoothing.Reset" : "Nollaa laaserin asetukset",
+
+
+        "Settings.Audio.SoundEffects" : "Ääniefektit: {n,number,percent}",
+
+        "Settings.Audio.Voice" : "Ääni: {n,number,percent}",
+        "Settings.Audio.UI" : "Käyttöliittymä: {n,number,percent}",
+        "Settings.Audio.DisableVoiceNormalization" : "Poista äänen normalisointi",
+        "Settings.Audio.NoiseGateThreshold" : "Äänenvoimakkuuden kynnys: {n}",
+        "Settings.Audio.NormzliationThreshold" : "Normalisoinnin kynnys: {n}",
+        "Settings.Audio.InputDevice" : "Äänitulolaite:",
+
+        "Settings.Save" : "Tallenna asetukset",
 
         "Dummy" : "Dummy"
     }
