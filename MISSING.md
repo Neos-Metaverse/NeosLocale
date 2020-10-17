@@ -6,7 +6,7 @@ Locomotion.GrabWorld.Name
 Locomotion.GrabWorld.Description  
 Locomotion.Slide.Name  
 Locomotion.Slide.Description  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Inspector.MeshRenderer.MergeByMaterial  
@@ -77,7 +77,7 @@ Interaction.NamedEquipTool.Default
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Inspector.DynamicBoneChain.SetupFromChildren  
@@ -423,7 +423,7 @@ Contacts.BanFromCurrentWorld
 Contacts.UnbanFromCurrentWorld  
 Contacts.InSession  
 Contacts.InPrivate  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Contacts.UsingDifferentVersion  
@@ -1008,7 +1008,7 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Esperanto [eo]
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
@@ -1047,7 +1047,7 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Spanish [es]
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 CameraControl.Title  
@@ -1343,7 +1343,7 @@ Interaction.NamedEquipTool.Default
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Inspector.DynamicBoneChain.SetupFromChildren  
@@ -1447,7 +1447,7 @@ Indicator.LiveHiddenMessage
 Session.Permission.PermissionOverrideCount  
 Session.Permission.ClearOverrides  
 User.Actions.Silence  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Undo.SetField  
@@ -2015,7 +2015,7 @@ Interaction.EnterAnchor
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
 World.Actions.GetWorldOrb  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Inspector.DynamicBoneChain.SetupFromChildren  
@@ -2079,7 +2079,7 @@ Indicator.Sync.SyncingItems
 Indicator.Sync.UploadingVariants  
 Session.Permission.PermissionOverrideCount  
 User.Actions.Silence  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Undo.Translate  
@@ -2611,7 +2611,7 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Japanese [ja]
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
@@ -2663,7 +2663,7 @@ Interaction.ExitAnchor
 Interaction.EquipAvatar  
 World.Category.HeadlessSessions  
 User.Actions.Silence  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Settings.LeapMotion.Name  
@@ -2826,7 +2826,7 @@ Interaction.EnterAnchor
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
 World.Category.HeadlessSessions  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Settings.LeapMotion.Name  
@@ -2984,7 +2984,7 @@ Interaction.EnterAnchor
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
 User.Actions.Silence  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Inspector.MeshRenderer.MergeByMaterial  
@@ -3050,7 +3050,7 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
@@ -3095,7 +3095,7 @@ Interaction.NamedEquipTool.Default
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Inspector.MeshRenderer.MergeByMaterial  
@@ -3169,7 +3169,7 @@ Interaction.ExitAnchor
 Interaction.EquipAvatar  
 World.Category.HeadlessSessions  
 User.Actions.Silence  
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Settings.LeapMotion.UseFingersWhenSnapped  
@@ -3237,7 +3237,7 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Chinese (Simplified, China) [zh-cn]
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
@@ -3276,7 +3276,7 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Chinese (Traditional, Taiwan) [zh-tw]
-Contacts.InFriendOnly  
+Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
