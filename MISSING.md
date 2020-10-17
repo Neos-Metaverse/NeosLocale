@@ -6,6 +6,9 @@ Locomotion.GrabWorld.Name
 Locomotion.GrabWorld.Description  
 Locomotion.Slide.Name  
 Locomotion.Slide.Description  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Inspector.MeshRenderer.MergeByMaterial  
 Inspector.MeshRenderer.SplitByMaterial  
 Inspector.SkinnedMesh.SeparateOutBlendshapes  
@@ -74,6 +77,9 @@ Interaction.NamedEquipTool.Default
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -417,6 +423,9 @@ Contacts.BanFromCurrentWorld
 Contacts.UnbanFromCurrentWorld  
 Contacts.InSession  
 Contacts.InPrivate  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Contacts.UsingDifferentVersion  
 Contacts.RequestSent  
 Contacts.RequestReceived  
@@ -999,6 +1008,9 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Esperanto [eo]
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -1035,6 +1047,9 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Spanish [es]
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 CameraControl.Title  
 CameraControl.MirroringOffWarning  
 CameraControl.MirrorToDisplay  
@@ -1328,6 +1343,9 @@ Interaction.NamedEquipTool.Default
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -1429,6 +1447,9 @@ Indicator.LiveHiddenMessage
 Session.Permission.PermissionOverrideCount  
 Session.Permission.ClearOverrides  
 User.Actions.Silence  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Undo.SetField  
 Undo.SetReference  
 Undo.Spawn  
@@ -1994,6 +2015,9 @@ Interaction.EnterAnchor
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
 World.Actions.GetWorldOrb  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -2055,6 +2079,9 @@ Indicator.Sync.SyncingItems
 Indicator.Sync.UploadingVariants  
 Session.Permission.PermissionOverrideCount  
 User.Actions.Silence  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Undo.Translate  
 Undo.TranslateAlongAxis  
 Undo.RotateAroundAxis  
@@ -2584,6 +2611,9 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Japanese [ja]
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -2633,6 +2663,9 @@ Interaction.ExitAnchor
 Interaction.EquipAvatar  
 World.Category.HeadlessSessions  
 User.Actions.Silence  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Settings.LeapMotion.Name  
 Settings.LeapMotion.Enabled  
 Settings.LeapMotion.HorizontalOffset  
@@ -2793,6 +2826,9 @@ Interaction.EnterAnchor
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
 World.Category.HeadlessSessions  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Settings.LeapMotion.Name  
 Settings.LeapMotion.Enabled  
 Settings.LeapMotion.HorizontalOffset  
@@ -2948,6 +2984,9 @@ Interaction.EnterAnchor
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
 User.Actions.Silence  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Inspector.MeshRenderer.MergeByMaterial  
 Inspector.MeshRenderer.SplitByMaterial  
 Inspector.SkinnedMesh.SeparateOutBlendshapes  
@@ -3011,6 +3050,9 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -3053,6 +3095,9 @@ Interaction.NamedEquipTool.Default
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Inspector.MeshRenderer.MergeByMaterial  
 Inspector.MeshRenderer.SplitByMaterial  
 Inspector.SkinnedMesh.SeparateOutBlendshapes  
@@ -3124,6 +3169,9 @@ Interaction.ExitAnchor
 Interaction.EquipAvatar  
 World.Category.HeadlessSessions  
 User.Actions.Silence  
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Settings.LeapMotion.UseFingersWhenSnapped  
 Settings.ViveHandTracking.UseFingersWhenSnapped  
 Inspector.MeshRenderer.MergeByMaterial  
@@ -3189,6 +3237,9 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Chinese (Simplified, China) [zh-cn]
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -3225,6 +3276,9 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Chinese (Traditional, Taiwan) [zh-tw]
+Contacts.InFriendOnly  
+Contacts.InHidden  
+Contacts.InLAN  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
