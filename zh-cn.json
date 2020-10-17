@@ -341,6 +341,9 @@
 
         "Contacts.InSession" : "在 {name}",
         "Contacts.InPrivate" : "在私人世界",
+        "Contacts.InFriendOnly" : "在只有朋友的世界",
+        "Contacts.InHidden" : "私人的",
+        "Contacts.InLAN" : "在局域网世界",
         "Contacts.UsingDifferentVersion" : "使用版本： {version}",
         "Contacts.RequestSent" : "请求已发送",
         "Contacts.RequestReceived" : "联络请求",
@@ -797,7 +800,7 @@
         "Settings.SnapTurnAngle" : "急转角",
         "Settings.NoclipSpeed" : "无夹速度",
         "Settings.SpeedExponent" : "速度指数",
-        "Settings.MoveThreshold" : "运动死区",
+        "Settings.MoveThreshold" : "移动阈值",
         "Settings.ControllerVibration" : "控制器振动",
         "Settings.DisablePhysicalInteractions" : "禁用身体互动",
         "Settings.EnableGestures" : "启用手势",
@@ -870,7 +873,6 @@
         "Security.HostAccess.Allow" : "允许",
         "Security.HostAccess.Deny" : "否认",
 
-
         "Inspector.Mesh.StatsHeader" : "网格统计",
         "Inspector.Mesh.VertexCount" : "顶点数: {n}",
         "Inspector.Mesh.TriangleCount" : "三角数: {n}",
@@ -926,7 +928,6 @@
         "Inspector.BipedRig.LeftHandRigResult" : "做完了！ 检测到左手: {detected}",
         "Inspector.BipedRig.RightHandRigResult" : "做完了！ 检测到右手: {detected}",
 
-
         "Inspector.Texture.Size" : "尺寸: {width} x {height}",
         "Inspector.Texture.Format" : "格式: {format}, 记忆: <nobr>{memory}</nobr>",
 
@@ -970,6 +971,43 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "从层次结构添加固定对撞机（使用对象根）",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "总是抓last bone",
 
+        "Tutorial.Grab.MoveRotate" : "移动/旋转保留的物体",
+        "Tutorial.Grab.Scale" : "与其他控制器缩放以进行缩放",
+        "Tutorial.Grab.PullToEquip" : "向您拉来装备",
+        "Tutorial.Grab.UseHeld" : "使用主要动作（不需要装备）",
+        "Tutorial.Grab.ContextEquip" : "使用上下文菜单来装备或访问选项",
+        "Tutorial.Grab.EquipForFullUse" : "使用所有功能的设备",
+
+        "Tutorial.WorldOrb.Click" : " 点击世界宝珠",
+        "Tutorial.WorldOrb.Info" : " <b>世界宝珠</ b> \n<size = 80％>代表一个世界或一个会话\n双击-进入\n单击-上下文菜单",
+
+        "Tutorial.Tooltip.GeneralPrimary" : "使用",
+        "Tutorial.Tooltip.GeneralSecondary" : "第二动作",
+        "Tutorial.Tooltip.DevPrimary" : "与Gizmo交互（保持）",
+        "Tutorial.Tooltip.DevSecondary" : "选择（显示Gizmo）",
+        "Tutorial.Tooltip.Duplicator" : "复制（保留的物体）",
+        "Tutorial.Tooltip.GluePrimary" : "应用胶水（保持）",
+        "Tutorial.Tooltip.GlueSecondary" : "强制胶干",
+        "Tutorial.Tooltip.ColorPrimary" : "应用颜色",
+        "Tutorial.Tooltip.ColorSecondary" : "选择颜色",
+        "Tutorial.Tooltip.Brush" : "绘制",
+        "Tutorial.Tooltip.MaterialPrimary" : "应用材质\n <size = 75％>（将材质球放入枪中）</ size>",
+        "Tutorial.Tooltip.MaterialSecondary" : "提取材质\n <size = 75％>（确保没有材质球优先）</ size>",
+        "Tutorial.Tooltip.MeshPrimary" : "替换网格",
+        "Tutorial.Tooltip.MeshSecondary" : "提取网格",
+        "Tutorial.Tooltip.CharacterColliderPrimary" : "添加角色对撞机",
+        "Tutorial.Tooltip.CharacterColliderSecondary" : "删除字符对撞机",
+        "Tutorial.Tooltip.GrabbableSetterPrimary" : "使可抓取",
+        "Tutorial.Tooltip.GrabbableSetterSecondary" : "设为不可抓取",
+        "Tutorial.Tooltip.LightPrimary" : "创建光源（保持）",
+        "Tutorial.Tooltip.LightSecondary" : "更改颜色",
+        "Tutorial.Tooltip.MeshVisibilityPrimary" : "设为可见",
+        "Tutorial.Tooltip.MeshVisibilitySecondary" : "设为不可见",
+        "Tutorial.Tooltip.ShapePrimary" : "创建形状",
+        "Tutorial.Tooltip.ShapeSecondary" : "更改形状",
+        "Tutorial.Tooltip.WigglerPrimary" : "在世界范围内释放出不言而喻的邪恶",
+        "Tutorial.Tooltip.WigglerSecondary" : "稍微赎回你的灵魂",
+        
         "Exiting.SavingItems" : "正在保存 {n, plural, other {# 项目}}...",
         "Exiting.SavingChanges" : "正在保存更改...",
         "Exiting.Exiting" : "正在退出中...",
