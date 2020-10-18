@@ -341,7 +341,7 @@
 
         "Contacts.InSession" : "In {name}",
         "Contacts.InPrivate" : "In Private World",
-        "Contacts.InFriendOnly" : "In Contacts Only World",
+        "Contacts.InFriendsOnly" : "In Contacts Only World",
         "Contacts.InHidden" : "In Hidden World",
         "Contacts.InLAN" : "In LAN World",
         "Contacts.UsingDifferentVersion" : "Using version {version}",
