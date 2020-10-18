@@ -339,12 +339,12 @@
         "Contacts.BanFromCurrentWorld" : "現在のワールドからBAN",
         "Contacts.UnbanFromCurrentWorld" : "現在のワールドからBAN解除",
 
-        "Contacts.InSession" : "{name}",
+        "Contacts.InSession" : "{name}にいます",
         "Contacts.InPrivate" : "プライベートワールドにいます",
         "Contacts.InFriendsOnly" : "フレンドオンリーにいます",
         "Contacts.InHidden" : "非公開",
         "Contacts.InLAN" : "LAN内ワールドにいます",
-        "Contacts.UsingDifferentVersion" : "使用バージョン {version}",
+        "Contacts.UsingDifferentVersion" : "使用バージョン: {version}",
         "Contacts.RequestSent" : "リクエスト送信済み",
         "Contacts.RequestReceived" : "フレンドリクエスト",
         "Contacts.RequestIgnored" : "無視済み",
@@ -356,10 +356,10 @@
         "Notifications.ReceivedContactRequest" : "フレンドリクエストを送りました",
         "Notifications.ReceivedInvite" : "招待を受けました:",
         "Notifications.ReceivedItem" : "アイテムが届きました:",
-        "Notifications.ReceivedCredits" : "{token}が{amount}枚送られてきました ",
-        "Notifications.TransferedCredits" : " {token}を{amount}枚送りました",
+        "Notifications.ReceivedCredits" : "{token}が{amount}NCR送られてきました ",
+        "Notifications.TransferedCredits" : " {token}を{amount}NCR送りました",
         "Notifications.ReceivedTip" : "チップ:{token}が{amount}枚送られてきました ",
-        "Notifications.SentTip" : "チップ{token}を{amount}枚送りました ",
+        "Notifications.SentTip" : "チップ:{token}を{amount}枚送りました ",
 
         "Undo.SetField" : "フィールド {field_name} に {value} をセット",
         "Undo.SetReference" : "フィールド {ref_name} に {ref_target} をセット",
@@ -418,7 +418,7 @@
 
         "Tooltip.Light.Point" : "ポイントライト",
         "Tooltip.Light.Spot" : "スポットライト",
-        "Tooltip.Light.Sun" : "太陽光",
+        "Tooltip.Light.Sun" : "サンライト",
 
         "Tooltip.MeshVisibility.KeepShadow" : "影を残す",
         "Tooltip.MeshVisibility.ShadowOff" : "影を無効にする",
@@ -452,7 +452,7 @@
         "CreateNew.Object.VideoPlayer" : "ビデオプレイヤー",
         "CreateNew.Object.SpawnArea" : "スポーンエリア",
         "CreateNew.Object.SpawnPoint" : "スポーン地点",
-        "CreateNew.Object.UIXCanvas" : "UIX キャンバス",
+        "CreateNew.Object.UIXCanvas" : "UIXキャンバス",
         "CreateNew.Object.Facet" : "Facet",
 
         "CreateNew.Object.FogVolume" : "フォグ",
@@ -469,7 +469,7 @@
         "CreateNew.Editor.UserInspector" : "ユーザインスペクタ",
         "CreateNew.Editor.LightSourcesWizard" : "ワールド光源ウィザード",
         "CreateNew.Editor.AssetOptimizationWizard" : "アセット最適化ウィザード",
-        "CreateNew.Editor.LogixTransferWizard" : "LogiX 転送ウィザード",
+        "CreateNew.Editor.LogixTransferWizard" : "LogiX転送ウィザード",
 
         "CreateNew.3DModel" : "3Dモデル",
         "CreateNew.3DModel.Box" : "ボックス",
@@ -563,8 +563,8 @@
         "Importer.Model.Advanced.Material" : "マテリアル: ",
         "Importer.Model.Advanced.AlignAxis" : "軸を揃える: ",
 
-        "Importer.Model.Advanced.Normals" : "ノーマル計算",
-        "Importer.Model.Advanced.Tangents" : "接線計算",
+        "Importer.Model.Advanced.Normals" : "ノーマルを計算",
+        "Importer.Model.Advanced.Tangents" : "接線(タンジェント)を計算",
         "Importer.Model.Advanced.VertexColors" : "頂点カラーをインポート",
         "Importer.Model.Advanced.Bones" : "ボーンをインポート",
         "Importer.Model.Advanced.TextureAlpha" : "テクスチャのアルファを計算",
