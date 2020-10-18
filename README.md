@@ -1,8 +1,42 @@
 # Neos Locale
 This repository contains the locale assets for the core UI of Neos VR (www.neos.com) and allow anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (https://store.steampowered.com/app/740250/Neos_VR/) and other platforms.
 
+# Localization Status
+Czech [cs] - 92.4% - Missing keys: 68  
+German [de] - 94.4% - Missing keys: 50  
+English (United Kingdom) [en-gb] - 2.0% - Missing keys: 882  
+English [en] - 100.0% - Missing keys: 0  
+Esperanto [eo] - 95.9% - Missing keys: 37  
+Spanish [es] - 67.9% - Missing keys: 289  
+Estonian [et] - 94.4% - Missing keys: 50  
+Finnish [fi] - 31.6% - Missing keys: 616  
+French [fr] - 94.4% - Missing keys: 50  
+Icelandic [is] - 39.2% - Missing keys: 547  
+Japanese [ja] - 95.9% - Missing keys: 37  
+Korean [ko] - 82.0% - Missing keys: 162  
+Dutch [nl] - 82.1% - Missing keys: 161  
+Norwegian [no] - 92.1% - Missing keys: 71  
+Polish [pl] - 95.9% - Missing keys: 37  
+Russian [ru] - 92.2% - Missing keys: 70  
+Turkish [tr] - 92.0% - Missing keys: 72  
+Chinese (Simplified, China) [zh-cn] - 95.9% - Missing keys: 37  
+Chinese (Traditional, Taiwan) [zh-tw] - 95.9% - Missing keys: 37  
+
+Total keys: 900
+
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
+
+# Do's and don'ts
+- Make sure the .json locale file is UTF8 encoded
+- Always keep the "Dummy" : "Dummy" entry at the bottom of the file. This way you don't have to remember to remove the comma at the end of the last entry every time
+- Copy & Paste the whole content of the file into this online validator to ensure you don't have any syntax errors: https://jsonformatter.curiousconcept.com/
+- DO use spaces instead of tabs to keep the formatting of all documents consistent
+- DO check if other users are making modifications to the same locale as you are in Issues and coordinate. If you send changes that conflict with other users, it's hard to resolve them on our end since we don't understand the language.
+
+- DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
+- DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
+- DON'T convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
 
 # If you're contributing a new language
 1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
@@ -13,7 +47,7 @@ If you can't find your language code in this file, please make a Issue either on
 
 Alternatively you can implement the pluralizer yourself based on the reference from the Unicode CLDR repository: https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml and make a pull request for it to be merged with our fork or MessageFormat.NET
 
-3) Add a new [lang-code].json file to your fork. We highly recommend creating a skeleton file first wihout any translation strings, just containing the Locale and Authors and creating a pull request, so it's clearer to other contributors that translations are being worked on by someone.
+3) Add a new [lang-code].json file to your fork. We highly recommend creating a skeleton file first without any translation strings, just containing the Locale and Authors and creating a pull request, so it's clearer to other contributors that translations are being worked on by someone.
 
 # Contributing translations to a language
 If you'd like to contribute translations for existing language file (or one you have just created), we recommend the following:
@@ -34,7 +68,7 @@ To test the translation, find folder where Neos.exe is installed (on Steam, you 
 By default, Neos uses your system locale to determine which file to load. You can override this by going to Settings and changing the "Override Locale" to a different language code.
 
 - You can edit the translation file on the fly without shutting down Neos. To force it to reload, change the locale to "en" and then back to your own.
-- Note that while most UI will change language immediatelly, not all of it would. Simply close and reopen the UI dialog to load the translated strings
+- Note that while most UI will change language immediately, not all of it would. Simply close and reopen the UI dialog to load the translated strings
 - If the string is showing in English, you probably have a typo in the string key. It needs to match exactly
 - If the translation isn't loading in Neos, it is likely JSON syntax error preventing it from being loaded
 - If you see "ERROR!!!" instead of your translated string, you have a syntax error in the particular string. Check Neos' log file, which will contain details.
@@ -71,7 +105,7 @@ We recommend putting most translations into the general language file (single tw
 Any strings you don't translate at all will also fall back into their English variants, so you don't have to worry about missing some of them, they can be translated later (or by another contributor). This also ensures that newly added strings in the English will show up and can be gradually translated as they come.
 
 # What if I find string that cannot be translated?
-While majority of Neos' UI has been converted to the localizatoin system, there are likely a few stragglers and some parts that aren't translatable right now. If you encounter such place, create an Issue on this repository, ideally with screenshot of the non-translatable part, so we can convert it as well.
+While majority of Neos' UI has been converted to the localization system, there are likely a few stragglers and some parts that aren't translatable right now. If you encounter such place, create an Issue on this repository, ideally with screenshot of the non-translatable part, so we can convert it as well.
 
 Currently there are a few known parts that cannot be translated, but are planned to:
 - Enumerations (e.g. certain tool options that cycle through several options)
