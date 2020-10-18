@@ -983,6 +983,7 @@
 
         "Tutorial.Tooltip.GeneralPrimary" : "使用",
         "Tutorial.Tooltip.GeneralSecondary" : "セカンダリーアクション",
+        "Tutorial.Tooltip.ContextMenu" : "ツールメニューへのアクセスとオプションの装備解除を行います",
         "Tutorial.Tooltip.DevPrimary" : "（長押し）ギズモにインタラクト",
         "Tutorial.Tooltip.DevSecondary" : "（ギズモを表示）選択",
         "Tutorial.Tooltip.Duplicator" : "（アイテムを持ちながら）複製",

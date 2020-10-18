@@ -983,6 +983,7 @@
 
         "Tutorial.Tooltip.GeneralPrimary": "Uzu",
         "Tutorial.Tooltip.GeneralSecondary": "Malĉefa Ago",
+        "Tutorial.Tooltip.ContextMenu" : "Aliri ilmenuo kaj malekipa opcion",
         "Tutorial.Tooltip.DevPrimary": "Interagi kun aparatoj (teni)",
         "Tutorial.Tooltip.DevSecondary": "Elektu (montras aparatojn)",
         "Tutorial.Tooltip.Duplicator": "Duplikato (dum tenado de ero)",

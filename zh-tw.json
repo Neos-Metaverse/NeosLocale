@@ -983,6 +983,7 @@
 
         "Tutorial.Tooltip.GeneralPrimary" : "使用",
         "Tutorial.Tooltip.GeneralSecondary" : "第二動作",
+        "Tutorial.Tooltip.ContextMenu" : "執行訪問工具菜單和取消裝備選項",
         "Tutorial.Tooltip.DevPrimary" : "與Gizmo交互（保持）",
         "Tutorial.Tooltip.DevSecondary" : "選擇（顯示Gizmo）",
         "Tutorial.Tooltip.Duplicator" : "複製（保留的物體）",
