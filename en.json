@@ -983,6 +983,7 @@
 
         "Tutorial.Tooltip.GeneralPrimary" : "Use",
         "Tutorial.Tooltip.GeneralSecondary" : "Secondary Action",
+        "Tutorial.Tooltip.ContextMenu" : "Access tool menu and dequip option",
         "Tutorial.Tooltip.DevPrimary" : "Interact with gizmos (hold)",
         "Tutorial.Tooltip.DevSecondary" : "Select (shows gizmos)",
         "Tutorial.Tooltip.Duplicator" : "Duplicate (while holding an item)",
