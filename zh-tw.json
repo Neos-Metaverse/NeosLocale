@@ -341,7 +341,7 @@
 
         "Contacts.InSession" : "在 {name}",
         "Contacts.InPrivate" : "在私人世界",
-        "Contacts.InFriendOnly" : "在只有朋友的世界",
+        "Contacts.InFriendsOnly" : "在只有朋友的世界",
         "Contacts.InHidden" : "私人的",
         "Contacts.InLAN" : "在局域網世界",
         "Contacts.UsingDifferentVersion" : "使用版本: {version}",

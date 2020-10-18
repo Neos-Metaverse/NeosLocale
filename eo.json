@@ -341,7 +341,7 @@
 
         "Contacts.InSession": "En {name}",
         "Contacts.InPrivate": "En privata mondo",
-        "Contacts.InFriendOnly": "En Kontaktoj Nur Mondo",
+        "Contacts.InFriendsOnly": "En Kontaktoj Nur Mondo",
         "Contacts.InHidden": "En Kaŝita Mondo",
         "Contacts.InLAN": "En LAN-Mondo",
         "Contacts.UsingDifferentVersion": "Uzante version {version}",

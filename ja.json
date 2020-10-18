@@ -341,7 +341,7 @@
 
         "Contacts.InSession" : "{name}",
         "Contacts.InPrivate" : "プライベートワールドにいます",
-        "Contacts.InFriendOnly" : "フレンドオンリーにいます",
+        "Contacts.InFriendsOnly" : "フレンドオンリーにいます",
         "Contacts.InHidden" : "非公開",
         "Contacts.InLAN" : "LAN内ワールドにいます",
         "Contacts.UsingDifferentVersion" : "使用バージョン {version}",
