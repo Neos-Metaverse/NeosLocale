@@ -58,12 +58,12 @@
 
         "Interaction.NamedEquipTool" : "Ekwipuj {name}",
         "Interaction.NamedEquipTool.Default" : "Narzędzie",
-        
+
         "Interaction.EnterAnchor" : "Usiądź",
         "Interaction.ExitAnchor" : "Wstań",
 
         "Interaction.EquipAvatar" : "Załóż Awatar",
-        
+
         "Dash.Screens.Home" : "Dom",
         "Dash.Screens.Worlds" : "Światy",
         "Dash.Screens.Contacts" : "Kontakty",
@@ -341,9 +341,9 @@
 
         "Contacts.InSession" : "W {name}",
         "Contacts.InPrivate" : "W Prywatnym Świecie",
-		"Contacts.InFriendsOnly" : "W Świecie Tylko dla Kontaktów",
-		"Contacts.InHidden" : "W Ukrytym Świecie",
-		"Contacts.InLAN" : "W Świecie LAN",
+        "Contacts.InFriendsOnly" : "W Świecie Tylko dla Kontaktów",
+        "Contacts.InHidden" : "W Ukrytym Świecie",
+        "Contacts.InLAN" : "W Świecie LAN",
         "Contacts.UsingDifferentVersion" : "Używa Wersji {version}",
         "Contacts.RequestSent" : "Wysłano Zaproszenie",
         "Contacts.RequestReceived" : "Zaproszenie",
@@ -857,10 +857,10 @@
 
         "Settings.WindowsIntegration" : "Integracja Windows",
         "Settings.LinuxIntegration" : "Integracja Linux",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Zachowaj oryginalny format zrzutu ekranu",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Po włączeniu zrzuty ekranu nie będą konwertowane do formatu JPG po zapisaniu w folderze Dokumenty",
-		
+
         "Security.Hyperlink.Warning" : "<b><size=125%>Ostrzeżenie: hiperłącze wychodzące</size></b>\nKliknąłeś łącze w świecie. Chcesz je otworzyć? Otworzy się w przeglądarce internetowej na komputerze.",
         "Security.Hyperlink.Open" : "Otwórz",
         "Security.Hyperlink.Cancel" : "Anuluj",
@@ -905,10 +905,10 @@
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Kość} few {# Kości} many {# Kości}}",
         "Inspector.Mesh.UV_Multiplicator" : "Mnożnik:",
         "Inspector.Mesh.ScaleUVs" : "Skaluj UV",
-        
+
         "Inspector.MeshRenderer.MergeByMaterial" : "Połącz submeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial" : "Rozdziel mesh na części z takimi samymi materiałami",
-        
+
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Separuj części meshu nie doknięte przez blendshapy",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Usuń Puste Blendshapy",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Gotowe! Usunięto: {n,plural, one {# blendshape} few {# blendshapy} many {# blendshapeów}}",
@@ -917,7 +917,7 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Wizualizuj obszary kości",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Wizualizuj przybliżone obszary kości",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Usuń wizualizacje obszarów kości",
-        
+
         "Inspector.BipedRig.GetDiagnosticInfo" : "Pobierz informacje diagnostyczne szkieletu",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Generuj wizualizacje debugowania",
         "Inspector.BipedRig.ClearDebugVisuals" : "Usuń wizualizacje debugowania",
@@ -970,8 +970,8 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Obszary i Chwytanie -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Dodaj obszary do punktów centralnych obiektów w hierarchii",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Zawsze chwytaj ostatnią kość",
-		
-		"Tutorial.Grab.MoveRotate" : "Przenieś/Obróć chwycone przedmioty",
+
+        "Tutorial.Grab.MoveRotate" : "Przenieś/Obróć chwycone przedmioty",
         "Tutorial.Grab.Scale" : "Chwyć drugim kontrolerem aby skalować",
         "Tutorial.Grab.PullToEquip" : "Przyciągnij do siebie aby ekwipować",
         "Tutorial.Grab.UseHeld" : "Użyj głównej akcji (nie wymaga ekwipowania)",
@@ -1008,22 +1008,22 @@
         "Tutorial.Tooltip.ShapeSecondary" : "Zmień Kształt",
         "Tutorial.Tooltip.WigglerPrimary" : "Wypuść Niewypowiedziane Zła Na Świat",
         "Tutorial.Tooltip.WigglerSecondary" : "Częściowo odzyskaj swoją duszę",
-		
+
         "Exiting.SavingItems" : "Zapisywanie {n, plural, one {# przedmiotu} few {# przedmiotów} many {# przedmiotów}}...",
         "Exiting.SavingChanges" : "Zapisywanie Zmian...",
         "Exiting.Exiting" : "Wychodzenie...",
         "Exiting.LoggingOut" : "Wylogowywanie...",
-        
-        "Temporary.MMC.Voting UI": "Interfejs Głosowania MMC",
-        "Temporary.MMC.Vote": "Głosuj",
-        "Temporary.MMC.Categories.Name": "Kategorie",
-        "Temporary.MMC.Categories.Worlds": "Światy",
-        "Temporary.MMC.Categories.Other": "Gadżety/Narzędzia+",
-        "Temporary.MMC.Categories.Avatars": "Awatary",
-        "Temporary.MMC.VoteSuccess": "Zagłosowano w kategorii {category} na {voteTarget}.",
-        "Temporary.MMC.VoteFailure": "Głosowanie nie powiodło się, twój głos nie został zarejestrowany, proszę spróbować ponownie.",
-        "Temporary.MMC.VotedAlready": "Zagłosowałeś już na {category}.",
-        "Temporary.MMC.VoteInvalid": "Głos jest niewłaściwy, proszę spróbować ponownie.",
+
+        "Temporary.MMC.Voting UI" : "Interfejs Głosowania MMC",
+        "Temporary.MMC.Vote" : "Głosuj",
+        "Temporary.MMC.Categories.Name" : "Kategorie",
+        "Temporary.MMC.Categories.Worlds" : "Światy",
+        "Temporary.MMC.Categories.Other" : "Gadżety/Narzędzia+",
+        "Temporary.MMC.Categories.Avatars" : "Awatary",
+        "Temporary.MMC.VoteSuccess" : "Zagłosowano w kategorii {category} na {voteTarget}.",
+        "Temporary.MMC.VoteFailure" : "Głosowanie nie powiodło się, twój głos nie został zarejestrowany, proszę spróbować ponownie.",
+        "Temporary.MMC.VotedAlready" : "Zagłosowałeś już na {category}.",
+        "Temporary.MMC.VoteInvalid" : "Głos jest niewłaściwy, proszę spróbować ponownie.",
 
         "Dummy" : "Dummy"
     }
