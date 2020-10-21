@@ -15,6 +15,7 @@
         "General.Reset" : "Nollaa",
         "General.WorldOpenConfirm" : "Vahvista?",
         "General.Saved" : "Tallennettu!",
+        "General.Done" : "Valmis!",
         "General.CopiedToClipboard" : "Kopioitu!",
         "General.CopiedToClipboardLong" : "Kopioitu leikepöydälle!",
 
@@ -54,6 +55,14 @@
         "Interaction.LaserDisabled" : "Laaseri pois päältä",
         "Interaction.Locomotion" : "Liikkumistila",
         "Interaction.Locomotion.None" : "Ei mitään",
+
+        "Interaction.NamedEquipTool" : "Ota käteen {name}",
+        "Interaction.NamedEquipTool.Default" : "Työkalu",
+
+        "Interaction.EnterAnchor" : "Käytä istuinta",
+        "Interaction.ExitAnchor" : "Poistu istuimesta",
+
+        "Interaction.EquipAvatar" : "Vaihda avatar",
 
         "Dash.Screens.Home" : "Koti",
         "Dash.Screens.Worlds" : "Maailmoja",
