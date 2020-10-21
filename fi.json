@@ -292,7 +292,7 @@
         "Notifications.ReceivedTip" : "Vastaanotettu tippi {amount} {token}",
         "Notifications.SentTip" : "Lähetty tippi {amount} {token}",
 
-        "FullBody.Hips" : "Lanne",
+        "FullBody.Hips" : "Vyötärö",
         "FullBody.Feet" : "Jalat",
         "FullBody.Chest" : "Rinta",
         "FullBody.Elbows" : "Kyynärpäät",
@@ -355,6 +355,23 @@
         "Settings.Audio.InputDevice" : "Äänitulolaite:",
 
         "Settings.Save" : "Tallenna asetukset",
+
+        "Settings.FullBody.Header" : "Kehon jäljitys:",
+        "Settings.FullBody.FeetPositionSmoothing" : "Jalan sijainnin tasoitus",
+        "Settings.FullBody.FeetRotationSmoothing" : "Jalan rotaatio tasoitus",
+        "Settings.FullBody.HipsPositionSmoothing" : "Vyötärön sijainnin tasoitus",
+        "Settings.FullBody.HipsRotationSmoothing" : "Vyötärön rotaatio tasoitus",
+
+        "Settings.Dash.Header" : "Valikko",
+        "Settings.Dash.Curvature" : "Kaarevuus",
+        "Settings.Dash.OpenCloseSpeed" : "Aavaamisen/Sulkemisen nopeus",
+
+        "Settings.LeapMotion.Name" : "Leap Motion",
+        "Settings.LeapMotion.Enabled" : "Käytä Leap jäljitystä",
+        "Settings.LeapMotion.HorizontalOffset" : "Vaakasuuntainen siirto",
+        "Settings.LeapMotion.VerticalOffset" : "Vertikaalinen siirto",
+        "Settings.LeapMotion.ForwardOffset" : "Eteenpäin siirto",
+        "Settings.LeapMotion.SnapDistance" : "Käsiohjain napsautusetäisyys",,
 
         "Dummy" : "Dummy"
     }
