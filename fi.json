@@ -246,12 +246,28 @@
         "World.Filter.Sorting" : "Lajittelu:",
 
         "Tools.AvatarCreator" : "Avatarin luominen",
-        "Tools.FullBodyCalibrator" : "Full Body Kalibrointi",
+        "Tools.FullBodyCalibrator" : "Full-Body kalibrointi",
         "Tools.CameraStreaming" : "Kamera / Suoratoisto",
         "Tools.CreateNewWorld" : "Tee uusi maailma",
-        "Tools.DepositNCR" : "Talletta NCR",
+        "Tools.DepositNCR" : "Talleta NCR",
         "Tools.WithdrawNCR" : "Nosta NCR",
 
+
+        "Options.FreeformDash.On" : "Vapaa valikko: On",
+        "Options.FreeformDash.Off" : "Vapaa valikko: Off",
+        "Options.SeatedMode.On" : "Istuva tila: On",
+        "Options.SeatedMode.Off" : "Istuva tila: Off",
+
+        "Indicator.OnlineUsers" : "Online-käyttäjät: ~{num_total} ({num_registered})",
+        "Indicator.ServerStatus" : "<color=#fff>Palvelimen tila:</color> {status, select, Hyvä {Good} Hidas {Slow} Alhaalla {Down} Ei yhteyttä {No Internet}} ({response_ms} ms)",
+
+        "Indicator.Sync.AllSynced" : "All Synced",
+        "Indicator.Sync.SyncingItems" : "Synkronoidaan {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
+        "Indicator.Sync.UploadingVariants" : "Lähetetään {variant_count,plural, one {# asset variant} other {# asset variants}}",
+        "Indicator.Sync.SyncError" : "Synkronointivirhe! <size=50%>Tarkista loki</size>",
+        "Indicator.Sync.OutOfSpace" : "Tila lopussa! <size=50%>Ei voi synkronoida</size>",
+
+        "Indicator.LiveHiddenMessage" : "(tiedot on piilotettu suoratoiston aikana)",
 		
         "Account.Login" : "Kirjaudu sisään",
         "Account.Logout" : "Kirjaudu ulos",
@@ -403,7 +419,7 @@
 
         "Settings.Save" : "Tallenna asetukset",
 
-        "Settings.FullBody.Header" : "Kehon jäljitys:",
+        "Settings.FullBody.Header" : "Full-Body kalibrointi:",
         "Settings.FullBody.FeetPositionSmoothing" : "Jalan sijainnin tasoitus",
         "Settings.FullBody.FeetRotationSmoothing" : "Jalan rotaatio tasoitus",
         "Settings.FullBody.HipsPositionSmoothing" : "Vyötärön sijainnin tasoitus",
