@@ -115,7 +115,7 @@
         "World.Error.IncompatibleVersion" : "Yhteensopimaton Neos Versio",
         "World.Error.Unknown" : "Tuntematon virhe",
 
-		"World.Config.Name" : "Maailman nimi:",
+        "World.Config.Name" : "Maailman nimi:",
         "World.Config.Description" : "Kuvaus:",
         "World.Config.MaxUsers" : "Maksimi käyttäjiä:",
         "World.Config.MobileFriendly" : "Mobiiliystävällinen",
@@ -129,8 +129,8 @@
         "World.Config.AutosaveInterval" : "Autotallennuksen aikaväli (minuuttia):",
         "World.Config.CleanupAssets" : "Siivoa käyttämättömät resurssit:",
         "World.Config.CleanupInterval" : "Siivouksen aikaväli (sekuntia):",
-		
-		"World.Actions.StartSession" : "Aloita sessio",
+
+        "World.Actions.StartSession" : "Aloita sessio",
         "World.Actions.Join" : "Liity",
         "World.Actions.Focus" : "Vaihda",
         "World.Actions.Close" : "Sulje maailma",
@@ -149,7 +149,7 @@
         "World.Actions.Overwrite" : "Korvaa nimellä {name}",
         "World.Actions.ConfirmOverwrite" : "Varmista KORVAUS",
         "World.Actions.Overwriting" : "Korvataan...",
-		
+
         "World.Actions.ClosePrompt" : "Sulje maailma?",
         "World.Actions.LeavePrompt" : "Poistu maailmasta?",
         "World.Actions.CloseConfirm" : "Sulje",
@@ -157,7 +157,7 @@
         "World.Actions.CannotClose" : "(Ei pysty sulkemaan tätä maailmaa)",
         "World.Actions.GuestWarning" : "",
         "World.Actions.HostingWarning" : "Isännöit tätä maailmaa. Kaikkien käyttäjien yhteys katkaistaan.",	
-		
+
         "World.Actions.GetWorldOrb" : "Tuo maailman pallo",
         "World.Actions.CopyWorldURL" : "Kopioi maailman URL",
         "World.Actions.CopyRecordURL" : "Copy Record URL",
@@ -165,7 +165,7 @@
         "World.Actions.ModifyMetadata" : "Muokkaa Metadataa",
         "World.Actions.GetSessionOrb" : "Tuo session pallo",
         "World.Actions.CopySessionURL" : "Kopioi session URL",
-		
+
         "World.Indicator.NoData" : "Ei dataa",
         "World.Indicator.LocalWorld" : "Lokaali sessio",
         "World.Indicator.Author" : "Tehnyt: {name}",
@@ -194,8 +194,8 @@
 
         "World.Detail.Tags" : "Tunnisteet",
         "World.Detail.ActionsHeader" : "Toiminnot:",
-        
-		"World.Category.Everything" : "Kaikki",
+
+        "World.Category.Everything" : "Kaikki",
         "World.Category.Featured" : "Esittelyssä",
         "World.Category.PublishedWorlds" : "Julkaistut maailmat",
         "World.Category.ActiveSessions" : "Aktiiviset sessiot",
@@ -268,7 +268,7 @@
         "Indicator.Sync.OutOfSpace" : "Tila lopussa! <size=50%>Ei voi synkronoida</size>",
 
         "Indicator.LiveHiddenMessage" : "(tiedot on piilotettu suoratoiston aikana)",
-		
+
         "Account.Login" : "Kirjaudu sisään",
         "Account.Logout" : "Kirjaudu ulos",
         "Account.Register" : "Rekisteröidy",
@@ -321,12 +321,12 @@
         "Session.Permission.ClearOverrides" : "Poista käyttäjän ohitukset",
 
         "User.Actions.Silence" : "Hiljennä",
-		"User.Actions.Mute" : "Hiljennä",
+        "User.Actions.Mute" : "Hiljennä",
         "User.Actions.Jump" : "Hyppää",
         "User.Actions.Respawn" : "Uudelleen synnytä",
         "User.Actions.Kick" : "Potki",
         "User.Actions.Ban" : "Estä sessiosta",
-		
+
         "Contacts.Add" : "Lisää kontakti",
         "Contacts.Remove" : "Poista kontakti",
         "Contacts.ConfirmRemove" : "Haluatko varmasti poistaa?",
@@ -338,8 +338,8 @@
         "Contacts.UnbanFromAllSessions" : "Poista esto KAIKISTA minun sessioistani",
         "Contacts.BanFromCurrentWorld" : "Estä nykyisestä maailmasta",
         "Contacts.UnbanFromCurrentWorld" : "Poista esto nykyisestä maailmasta",
-		
-		"Contacts.InSession" : "Maailmassa {name}",
+
+        "Contacts.InSession" : "Maailmassa {name}",
         "Contacts.InPrivate" : "Yksityisessä maailmassa",
         "Contacts.UsingDifferentVersion" : "Käyttää versiota {version}",
         "Contacts.RequestSent" : "Pyyntö lähetetty",
@@ -347,7 +347,7 @@
         "Contacts.RequestIgnored" : "Hylätty",
         "Contacts.Blocked" : "Estetty",
         "Contacts.SearchResult" : "Etsinnän tulos",
-		
+
         "Notifications.IsOnline" : "On nyt paikalla",
         "Notifications.IsOnlineOnDifferentVersion" : "On nyt paikalla <size=75%>(käyttää versiota: {version})</size>",
         "Notifications.ReceivedContactRequest" : "Lähetti kontaktipyynnön",
