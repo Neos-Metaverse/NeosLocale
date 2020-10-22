@@ -73,7 +73,7 @@
         "Dash.Screens.Settings" : "Asetukset",
         "Dash.Screens.Exit" : "Poistu",
 
-        "Dash.Actions.PasteFromClipboard" : "Liitä sisältöä leikepöydältä",
+        "Dash.Actions.PasteFromClipboard" : "Liitä leikepöydältä",
 
         "Dash.Actions.CoreWorldsHeader" : "Ydinmaailmat",
         "Dash.Actions.ContentHub" : "Sisältökeskus",
@@ -117,7 +117,7 @@
 
         "World.Config.Name" : "Maailman nimi:",
         "World.Config.Description" : "Kuvaus:",
-        "World.Config.MaxUsers" : "Maksimi käyttäjiä:",
+        "World.Config.MaxUsers" : "Maksimimäärä käyttäjiä:",
         "World.Config.MobileFriendly" : "Mobiiliystävällinen",
         "World.Config.SaveOptionsHeader" : "Maailman tallennusasetukset:",
         "World.Config.EditMode" : "Muokkaustila:",
@@ -126,7 +126,7 @@
         "World.Config.AutoKickAFKMinutes" : "Max AFK Minuutit:",
         "World.Config.HideFromListing" : "Älä näytä sessiolistoissa",
         "World.Config.Autosave" : "Automaattinen tallennus (Korvaa viimeisimmän tallennuksen):",
-        "World.Config.AutosaveInterval" : "Autotallennuksen aikaväli (minuuttia):",
+        "World.Config.AutosaveInterval" : "Automaattisen tallennuksen aikaväli (minuuttia):",
         "World.Config.CleanupAssets" : "Siivoa käyttämättömät resurssit:",
         "World.Config.CleanupInterval" : "Siivouksen aikaväli (sekuntia):",
 
@@ -202,7 +202,7 @@
         "World.Category.FriendSessions" : "Kontaktien sessiot",
         "World.Category.HeadlessSessions" : "Palvelin sessiot",
         "World.Category.Social" : "Sosiaalinen",
-        "World.Category.Games" : "pelit",
+        "World.Category.Games" : "Pelit",
         "World.Category.Art" : "Taide",
         "World.Category.Tutorials" : "Harjoitukset",
         "World.Category.Educational" : "Opettavaiset",
@@ -253,8 +253,8 @@
         "Tools.WithdrawNCR" : "Nosta NCR",
 
 
-        "Options.FreeformDash.On" : "Vapaa valikko: Päällä",
-        "Options.FreeformDash.Off" : "Vapaa valikko: Pois",
+        "Options.FreeformDash.On" : "Liikkuva valikko: Päällä",
+        "Options.FreeformDash.Off" : "Liikkuva valikko: Pois",
         "Options.SeatedMode.On" : "Istuva tila: Päällä",
         "Options.SeatedMode.Off" : "Istuva tila: Pois",
 
@@ -317,7 +317,7 @@
         "Session.Permission.Vistor" : "Oletus vierailija:",
         "Session.Permission.Contact" : "Oletus kontakti:",
         "Session.Permission.Host" : "Oletus isäntä:",
-        "Session.Permission.PermissionOverrideCount" : "Luvan ohitukset: {n,select, -1 {---} muut {{n}}}",
+        "Session.Permission.PermissionOverrideCount" : "Luvan ohitukset: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Poista käyttäjän ohitukset",
 
         "User.Actions.Silence" : "Hiljennä",
@@ -348,8 +348,8 @@
         "Contacts.Blocked" : "Estetty",
         "Contacts.SearchResult" : "Etsinnän tulos",
 
-        "Notifications.IsOnline" : "On nyt paikalla",
-        "Notifications.IsOnlineOnDifferentVersion" : "On nyt paikalla <size=75%>(käyttää versiota: {version})</size>",
+        "Notifications.IsOnline" : "On nyt online",
+        "Notifications.IsOnlineOnDifferentVersion" : "On nyt online <size=75%>(käyttää versiota: {version})</size>",
         "Notifications.ReceivedContactRequest" : "Lähetti kontaktipyynnön",
         "Notifications.ReceivedInvite" : "Kutsuu sinut maailmaan:",
         "Notifications.ReceivedItem" : "Lähetti sinulle tavaran:",
@@ -373,8 +373,8 @@
         "Undo.ResetRotation" : "Nollaa kierto",
         "Undo.ResetScale" : "Nollaa koko",
 
-        "Undo.GrabObjects" : "Tartu esineeseen",
-        "Undo.DestroyGrabbed" : "Tuhoa napatut esineet",
+        "Undo.GrabObjects" : "Tarttuminen",
+        "Undo.DestroyGrabbed" : "Tuhoaminen",
         "Undo.DuplicateGrabbed" : "Kopioi napatut objektit",
 
         "Tooltips.Dev.CreateNew" : "Tee uusi...",
