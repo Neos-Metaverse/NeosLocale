@@ -253,17 +253,17 @@
         "Tools.WithdrawNCR" : "Nosta NCR",
 
 
-        "Options.FreeformDash.On" : "Vapaa valikko: On",
-        "Options.FreeformDash.Off" : "Vapaa valikko: Off",
-        "Options.SeatedMode.On" : "Istuva tila: On",
-        "Options.SeatedMode.Off" : "Istuva tila: Off",
+        "Options.FreeformDash.On" : "Vapaa valikko: Päällä",
+        "Options.FreeformDash.Off" : "Vapaa valikko: Pois",
+        "Options.SeatedMode.On" : "Istuva tila: Päällä",
+        "Options.SeatedMode.Off" : "Istuva tila: Pois",
 
-        "Indicator.OnlineUsers" : "Online-käyttäjät: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "Online-käyttäjämäärä: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Palvelimen tila:</color> {status, select, Hyvä {Good} Hidas {Slow} Alhaalla {Down} Ei yhteyttä {No Internet}} ({response_ms} ms)",
 
-        "Indicator.Sync.AllSynced" : "All Synced",
-        "Indicator.Sync.SyncingItems" : "Synkronoidaan {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants" : "Lähetetään {variant_count,plural, one {# asset variant} other {# asset variants}}",
+        "Indicator.Sync.AllSynced" : "Kaikki synkronoitu",
+        "Indicator.Sync.SyncingItems" : "Synkronoidaan {item_count,plural, yksi {# item} muut {# items}} <nobr>({item_percent} %)",
+        "Indicator.Sync.UploadingVariants" : "Lähetetään {variant_count,plural, yksi {# asset variant} muut {# asset variants}}",
         "Indicator.Sync.SyncError" : "Synkronointivirhe! <size=50%>Tarkista loki</size>",
         "Indicator.Sync.OutOfSpace" : "Tila lopussa! <size=50%>Ei voi synkronoida</size>",
 
@@ -317,7 +317,7 @@
         "Session.Permission.Vistor" : "Oletus vierailija:",
         "Session.Permission.Contact" : "Oletus kontakti:",
         "Session.Permission.Host" : "Oletus isäntä:",
-        "Session.Permission.PermissionOverrideCount" : "Luvan ohitukset: {n,select, -1 {---} other {{n}}}",
+        "Session.Permission.PermissionOverrideCount" : "Luvan ohitukset: {n,select, -1 {---} muut {{n}}}",
         "Session.Permission.ClearOverrides" : "Poista käyttäjän ohitukset",
 
         "User.Actions.Silence" : "Hiljennä",
@@ -379,8 +379,8 @@
 
         "Tooltips.Dev.CreateNew" : "Tee uusi...",
         "Tooltips.Dev.Selection" : "Valintatila: {mode}",
-        "Tooltips.Dev.DevMode.Off" : "Kehittäjätila: Off",
-        "Tooltips.Dev.DevMode.On" : "Kehittäjätila: On",
+        "Tooltips.Dev.DevMode.Off" : "Kehittäjätila: Pois",
+        "Tooltips.Dev.DevMode.On" : "Kehittäjätila: Päällä",
         "Tooltips.Dev.OpenInspector" : "Avaa valintaikkuna",
         "Tooltips.Dev.DeselectAll" : "Lopeta valinta",
         "Tooltips.Dev.DestroySelected" : "Poista valitut",
@@ -457,7 +457,7 @@
 
         "Settings.Dash.Header" : "Valikko",
         "Settings.Dash.Curvature" : "Kaarevuus",
-        "Settings.Dash.OpenCloseSpeed" : "Aavaamisen/Sulkemisen nopeus",
+        "Settings.Dash.OpenCloseSpeed" : "Avaamisen/Sulkemisen nopeus",
 
         "Settings.LeapMotion.Name" : "Leap Motion",
         "Settings.LeapMotion.Enabled" : "Käytä Leap jäljitystä",
