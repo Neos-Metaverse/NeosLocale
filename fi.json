@@ -258,12 +258,12 @@
         "Options.SeatedMode.On" : "Istuva tila: Päällä",
         "Options.SeatedMode.Off" : "Istuva tila: Pois",
 
-        "Indicator.OnlineUsers" : "Online-käyttäjämäärä: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus" : "<color=#fff>Palvelimen tila:</color> {status, select, Hyvä {Good} Hidas {Slow} Alhaalla {Down} Ei yhteyttä {No Internet}} ({response_ms} ms)",
+        "Indicator.OnlineUsers" : "Online-käyttäjät: ~{num_total} ({num_registered})",
+        "Indicator.ServerStatus" : "<color=#fff>Palvelimen tila:</color> {status, select, Good {Hyvä} Slow {Hidas} Down {Alhaalla} NoInternet {Ei yhteyttä}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Kaikki synkronoitu",
-        "Indicator.Sync.SyncingItems" : "Synkronoidaan {item_count,plural, yksi {# item} muut {# items}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants" : "Lähetetään {variant_count,plural, yksi {# asset variant} muut {# asset variants}}",
+        "Indicator.Sync.SyncingItems" : "Synkronoidaan {item_count,plural, one {# kohde} other {# kohdetta}} <nobr>({item_percent} %)",
+        "Indicator.Sync.UploadingVariants" : "Lähetetään {variant_count,plural, one {# muutos} other {# muutosta}}",
         "Indicator.Sync.SyncError" : "Synkronointivirhe! <size=50%>Tarkista loki</size>",
         "Indicator.Sync.OutOfSpace" : "Tila lopussa! <size=50%>Ei voi synkronoida</size>",
 
