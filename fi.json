@@ -1,6 +1,6 @@
 {
     "localeCode" : "fi",
-    "authors" : ["AdmiralSoap", "Napo"],
+    "authors" : ["AdmiralSoap", "Napo", "Hexdigest"],
     "messages" : 
     {
         "General.OK" : "OK",
