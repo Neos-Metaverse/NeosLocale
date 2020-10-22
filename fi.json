@@ -317,8 +317,8 @@
         "Session.Permission.Vistor" : "Oletus vierailija:",
         "Session.Permission.Contact" : "Oletus kontakti:",
         "Session.Permission.Host" : "Oletus isäntä:",
-        "Session.Permission.PermissionOverrideCount" : "Luvan ohitukset: {n,select, -1 {---} other {{n}}}",
-        "Session.Permission.ClearOverrides" : "Poista käyttäjän ohitukset",
+        "Session.Permission.PermissionOverrideCount" : "Käyttäjä lupia: {n,select, -1 {---} other {{n}}}",
+        "Session.Permission.ClearOverrides" : "Poista oletus käyttöoikeudet",
 
         "User.Actions.Silence" : "Hiljennä",
         "User.Actions.Mute" : "Hiljennä",
