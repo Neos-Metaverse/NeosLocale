@@ -380,7 +380,7 @@
         "Settings.LeapMotion.HorizontalOffset" : "Vaakasuuntainen siirto",
         "Settings.LeapMotion.VerticalOffset" : "Vertikaalinen siirto",
         "Settings.LeapMotion.ForwardOffset" : "Eteenpäin siirto",
-        "Settings.LeapMotion.SnapDistance" : "Käsiohjain napsautusetäisyys",,
+        "Settings.LeapMotion.SnapDistance" : "Käsiohjain napsautusetäisyys",
 
         "Dummy" : "Dummy"
     }
