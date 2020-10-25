@@ -440,12 +440,12 @@
 
         "Tooltip.Mesh.Edit": "Redakti maŝon",
 
-        "Tooltip.Microphone.Format.WAV" : "WAV",
-        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
-        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.Format.WAV" : "WAV dosiero",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis dosiero",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC dosiero",
         "Tooltip.Microphone.ModeHold" : "Premi por registri sonon",
         "Tooltip.Microphone.ModePress" : "Premi por komenci/halti registri sonon",
-        "Tooltip.Microphone.SourceRaw" : "Raw",
+        "Tooltip.Microphone.SourceRaw" : "Raw dosiero",
         "Tooltip.Microphone.SourceFiltered" : "Filtrita kaj Normigita",
 
         "CreateNew.Back": "<<< <i> Reen </i>",
