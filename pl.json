@@ -440,6 +440,14 @@
 
         "Tooltip.Mesh.Edit" : "Edytuj Mesh",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Trzymaj aby nagrywać",
+        "Tooltip.Microphone.ModePress" : "Kliknij aby zacząć/zakończyć nagrywanie",
+        "Tooltip.Microphone.SourceRaw" : "Surowe",
+        "Tooltip.Microphone.SourceFiltered" : "Filtrowane i Normalizowane",
+
         "CreateNew.Back" : "<<< <i>Wstecz</i>",
         "CreateNew.EmptyObject" : "Pusty Obiekt",
         "CreateNew.ParticleSystem" : "System Cząsteczek",
@@ -961,6 +969,18 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnostyka: Niewłaściwe ",
         "Inspector.Texture.GenerateMetadata" : "Diagnostyka: Generuj Metadane Bitmapy",
+
+        "Inspector.Audio.FormatInfo" : "Częstotliwość: {rate} Hz, Kanały: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Długość: {duration}",
+        "Inspector.Audio.EncodingInfo" : "Zdekodowano: {decoded}, Rozszerzenie Pliku: {ext}",
+        "Inspector.Audio.Normalize" : "Normalizuj",
+        "Inspector.Audio.AmplitudeThreshold" : "Próg Amplitudy:",
+        "Inspector.Audio.TrimSilence" : "Wytnij Ciszę",
+        "Inspector.Audio.TrimStartSilence" : "Początek Wycięcia Ciszy",
+        "Inspector.Audio.TrimEndSilence" : "Koniec Wycięcia Ciszy",
+        "Inspector.Audio.PositionDuration" : "Pozycja/Długość (w sekundach):",
+        "Inspector.Audio.TrimStart" : "Początek Przycięcia",
+        "Inspector.Audio.TrimEnd" : "Koniec Przycięcia",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Ustaw z dzieci",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Ustaw z dzieci (wymuś wszystkie)",
