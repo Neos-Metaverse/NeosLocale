@@ -439,6 +439,14 @@
         "Tooltip.Material.CreateNew" : "創建新的",
 
         "Tooltip.Mesh.Edit" : "編輯網格",
+        
+        "Tooltip.Microphone.Format.WAV" : "WAV文件",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG文件",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC文件",
+        "Tooltip.Microphone.ModeHold" : "按住以錄製聲音",
+        "Tooltip.Microphone.ModePress" : "按下以開始/停止錄製聲音",
+        "Tooltip.Microphone.SourceRaw" : "Raw文件",
+        "Tooltip.Microphone.SourceFiltered" : "過濾並歸一化",
 
         "CreateNew.Back" : "<<< <i>回去</i>",
         "CreateNew.EmptyObject" : "空對象",
@@ -962,6 +970,24 @@
         "Inspector.Texture.InvalidFloats" : "診斷：無效的浮點數",
         "Inspector.Texture.GenerateMetadata" : "診斷：生成位圖元數據",
 
+        "Inspector.Audio.FormatInfo" : "採樣率: {rate} Hz, 頻道: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "持續時間: {duration}",
+        "Inspector.Audio.EncodingInfo" : "完全解碼: {decoded}, 文件擴展名: {ext}",
+
+        "Inspector.Audio.Normalize" : "歸一化音量",
+        "Inspector.Audio.AmplitudeThreshold" : "幅度閾值:",
+        "Inspector.Audio.TrimSilence" : "修剪無音",
+        "Inspector.Audio.TrimStartSilence" : "修剪開始無音",
+        "Inspector.Audio.TrimEndSilence" : "修剪結束無音",
+        "Inspector.Audio.PositionDuration" : "位置/持續時間（以秒為單位）:",
+        "Inspector.Audio.TrimStart" : "修剪開始",
+        "Inspector.Audio.TrimEnd" : "修剪結束",
+        "Inspector.Audio.FadeIn" : "添加淡入",
+        "Inspector.Audio.FadeOut" : "添加淡出",
+        "Inspector.Audio.ToWAV" : "轉換為WAV",
+        "Inspector.Audio.ToVorbis" : "轉換為OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "轉換為FLAC",
+        
         "Inspector.DynamicBoneChain.SetupFromChildren" : "從Children設置",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "從Children設置 (強制全部)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "從Children設置 (只有rig)",

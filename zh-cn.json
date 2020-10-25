@@ -440,6 +440,14 @@
 
         "Tooltip.Mesh.Edit" : "编辑网格",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV文件",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG 文件",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC文件",
+        "Tooltip.Microphone.ModeHold" : "按住以录制声音",
+        "Tooltip.Microphone.ModePress" : "按下以开始/停止录制声音",
+        "Tooltip.Microphone.SourceRaw" : "Raw文件",
+        "Tooltip.Microphone.SourceFiltered" : "过滤并归一化",
+
         "CreateNew.Back" : "<<< <i>回去</i>",
         "CreateNew.EmptyObject" : "空物体",
         "CreateNew.ParticleSystem" : "粒子系统",
@@ -962,6 +970,24 @@
         "Inspector.Texture.InvalidFloats" : "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata" : "诊断：生成位图元数据",
 
+        "Inspector.Audio.FormatInfo" : "采样率: {rate} Hz, 频道: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "持续时间: {duration}",
+        "Inspector.Audio.EncodingInfo" : "完全解码: {decoded}, 文件扩展名: {ext}",
+
+        "Inspector.Audio.Normalize" : "归一化音量",
+        "Inspector.Audio.AmplitudeThreshold" : "幅度阈值:",
+        "Inspector.Audio.TrimSilence" : "修剪无音",
+        "Inspector.Audio.TrimStartSilence" : "修剪开始无音",
+        "Inspector.Audio.TrimEndSilence" : "修剪结束无音",
+        "Inspector.Audio.PositionDuration" : "位置/持续时间（以秒为单位）:",
+        "Inspector.Audio.TrimStart" : "修剪开始",
+        "Inspector.Audio.TrimEnd" : "修剪结束",
+        "Inspector.Audio.FadeIn" : "添加淡入",
+        "Inspector.Audio.FadeOut" : "添加淡出",
+        "Inspector.Audio.ToWAV" : "转换为WAV",
+        "Inspector.Audio.ToVorbis" : "转换为OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "转换为FLAC",
+        
         "Inspector.DynamicBoneChain.SetupFromChildren" : "从Children设置",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "从Children设置 (强制全部)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "从Children设置 (只有rig)",

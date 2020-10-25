@@ -440,6 +440,14 @@
 
         "Tooltip.Mesh.Edit" : "メッシュの編集",
 
+        "Tooltip.Microphone.Format.WAV" : "WAVファイル",
+        "Tooltip.Microphone.Format.Vorbis" : "OGGファイル",
+        "Tooltip.Microphone.Format.FLAC" : "FLACファイル",
+        "Tooltip.Microphone.ModeHold" : "長押しで録音",
+        "Tooltip.Microphone.ModePress" : "録画 開始/停止",
+        "Tooltip.Microphone.SourceRaw" : "RAWファイル",
+        "Tooltip.Microphone.SourceFiltered" : "フィルタリングおよび正規化",
+
         "CreateNew.Back" : "<<< <i>戻る</i>",
         "CreateNew.EmptyObject" : "空オブジェクト",
         "CreateNew.ParticleSystem" : "パーティクルシステム",
@@ -962,6 +970,24 @@
         "Inspector.Texture.InvalidFloats" : "診断：フロートが無効です",
         "Inspector.Texture.GenerateMetadata" : "診断：ビットマップメタデータを生成します",
 
+        "Inspector.Audio.FormatInfo" : "サンプルレート: {rate} Hz, チャンネル: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "デュレーション: {duration}",
+        "Inspector.Audio.EncodingInfo" : "完全複合済み: {decoded}, ファイル拡張子: {ext}",
+
+        "Inspector.Audio.Normalize" : "ボリューム正規化",
+        "Inspector.Audio.AmplitudeThreshold" : "振幅しきい値:",
+        "Inspector.Audio.TrimSilence" : "トリム(無音)",
+        "Inspector.Audio.TrimStartSilence" : "トリム開始(無音)",
+        "Inspector.Audio.TrimEndSilence" : "トリム終了(無音)",
+        "Inspector.Audio.PositionDuration" : "位置/期間（秒単位）:",
+        "Inspector.Audio.TrimStart" : "トリム開始",
+        "Inspector.Audio.TrimEnd" : "トリム終了",
+        "Inspector.Audio.FadeIn" : "フェードイン追加",
+        "Inspector.Audio.FadeOut" : "フェードアウト追加",
+        "Inspector.Audio.ToWAV" : "WAVに変換",
+        "Inspector.Audio.ToVorbis" : "OGG Vorbisに変換",
+        "Inspector.Audio.ToFLAC" : "FLACに変換",
+        
         "Inspector.DynamicBoneChain.SetupFromChildren" : "子にしたものをセットアップします",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "子にしたものを“強制的にすべて”セットアップします",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "子にしたものを“リグのみ”セットアップします",
