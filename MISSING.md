@@ -43,6 +43,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -79,6 +84,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -968,6 +978,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -1045,6 +1060,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 
 # Spanish [es]
 Tooltip.Microphone.Format.WAV  
@@ -1065,6 +1085,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Temporary.MMC.Voting UI  
 Temporary.MMC.Vote  
 Temporary.MMC.Categories.Name  
@@ -1103,6 +1128,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -1604,6 +1634,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -1691,6 +1726,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -2248,6 +2288,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -2322,6 +2367,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 
 # Korean [ko]
 General.Processing  
@@ -2452,6 +2502,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -2525,6 +2580,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Temporary.MMC.Voting UI  
 Temporary.MMC.Vote  
 Temporary.MMC.Categories.Name  
@@ -2584,6 +2644,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -2647,6 +2712,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 
 # Russian [ru]
 General.Done  
@@ -2695,6 +2765,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -3586,6 +3661,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -3695,6 +3775,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -3758,6 +3843,11 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 
 # Chinese (Traditional, Taiwan) [zh-tw]
 Tooltip.Microphone.Format.WAV  
@@ -3778,4 +3868,9 @@ Inspector.Audio.TrimEndSilence
 Inspector.Audio.PositionDuration  
 Inspector.Audio.TrimStart  
 Inspector.Audio.TrimEnd  
+Inspector.Audio.FadeIn  
+Inspector.Audio.FadeOut  
+Inspector.Audio.ToWAV  
+Inspector.Audio.ToVorbis  
+Inspector.Audio.ToFLAC  
 

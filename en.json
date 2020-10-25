@@ -972,7 +972,7 @@
 
         "Inspector.Audio.FormatInfo" : "Sample Rate: {rate} Hz, Channels: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Duration: {duration}",
-        "Inspector.Audio.EncodingInfo" : "Fully Decoded: {decoded}, File Extension: {ext}",
+        "Inspector.Audio.EncodingInfo" : "Codec info: {info}, Fully Decoded: {decoded}",
 
         "Inspector.Audio.Normalize" : "Normalize Volume",
         "Inspector.Audio.AmplitudeThreshold" : "Amplitude Threshold:",
@@ -982,6 +982,11 @@
         "Inspector.Audio.PositionDuration" : "Position/Duration (in seconds):",
         "Inspector.Audio.TrimStart" : "Trim Start",
         "Inspector.Audio.TrimEnd" : "Trim End",
+        "Inspector.Audio.FadeIn" : "Add Fade In",
+        "Inspector.Audio.FadeOut" : "Add Fade Out",
+        "Inspector.Audio.ToWAV" : "Convert to WAV",
+        "Inspector.Audio.ToVorbis" : "Convert to OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Convert to FLAC",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Setup From Children",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Setup From Children (force all)",
