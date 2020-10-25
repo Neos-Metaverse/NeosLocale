@@ -440,6 +440,14 @@
 
         "Tooltip.Mesh.Edit" : "Edit Mesh",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Hold to record",
+        "Tooltip.Microphone.ModePress" : "Press to start/stop recording",
+        "Tooltip.Microphone.SourceRaw" : "Raw",
+        "Tooltip.Microphone.SourceFiltered" : "Filtered & Normalized",
+
         "CreateNew.Back" : "<<< <i>Back</i>",
         "CreateNew.EmptyObject" : "Empty Object",
         "CreateNew.ParticleSystem" : "Particle System",
@@ -961,6 +969,19 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnostic: Generate Bitmap Metadata",
+
+        "Inspector.Audio.FormatInfo" : "Sample Rate: {rate} Hz, Channels: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Duration: {duration}",
+        "Inspector.Audio.EncodingInfo" : "Fully Decoded: {decoded}, File Extension: {ext}",
+
+        "Inspector.Audio.Normalize" : "Normalize Volume",
+        "Inspector.Audio.AmplitudeThreshold" : "Amplitude Threshold:",
+        "Inspector.Audio.TrimSilence" : "Trim Silence",
+        "Inspector.Audio.TrimStartSilence" : "Trim Start Silence",
+        "Inspector.Audio.TrimEndSilence" : "Trim End Silence",
+        "Inspector.Audio.PositionDuration" : "Position/Duration (in seconds):",
+        "Inspector.Audio.TrimStart" : "Trim Start",
+        "Inspector.Audio.TrimEnd" : "Trim End",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Setup From Children",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Setup From Children (force all)",
