@@ -1,0 +1,25 @@
+{
+    "localeCode" : "sv",
+    "authors" : ["Coffee", "Swingly", "Rulle"],
+    "messages" : 
+    {
+        "General.OK" : "OK",
+        "General.Cancel" : "Avbryt",
+        "General.Continue" : "Fortsätt",
+        "General.Next" : "Nästa",
+        "General.Back" : "Tillbaka",
+        "General.Confirm" : "Säkert?",
+        "General.Loading" : "Läser in...",
+        "General.Processing" : "Bearbetar...",
+        "General.FAILED" : "Misslyckades",
+        "General.Reset" : "Återställ",
+        "General.WorldOpenConfirm" : "Öppna värld?",
+        "General.Saved" : "Sparad!",
+        "General.Done" : "Klar!",
+        "General.CopiedToClipboard" : "Kopierad!",
+        "General.CopiedToClipboardLong" : "Kopierad till urklipp!",
+
+        
+        "Dummy" : "Dummy"
+    }
+}
