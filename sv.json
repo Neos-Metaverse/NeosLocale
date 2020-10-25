@@ -19,7 +19,43 @@
         "General.CopiedToClipboard" : "Kopierad!",
         "General.CopiedToClipboardLong" : "Kopierad till urklipp!",
 
+        "General.UI.SearchPrompt" : "Sök...",
+        "General.UI.SearchPromptLong" : "Skriv för att söka...",
+
+        "General.Sort.Ascending" : "Uppåtgående",
+        "General.Sort.Descending" : "Nedåtgående",
         
+        "Locomotion.Noclip.Name" : "Noclip",
+        "Locomotion.Noclip.Description" : "Simpelt no-clip flygläge, idealt för redigering.",
+        "Locomotion.Teleport.Name" : "Teleport",
+        "Locomotion.Teleport.Description" : "Teleportering efter båge, för bekväm rörelse.",
+        "Locomotion.Fly.Name" : "Flyg",
+        "Locomotion.Fly.Description" : "Fysiskt Flygläge",
+        "Locomotion.WalkRun.Name" : "Gå/Spring",
+        "Locomotion.WalkRun.Description" : "Fysiskt gående, springande och hoppande.",
+        "Locomotion.WalkRunGripping.Name" : "Gå/Spring (med klättring)",
+        "Locomotion.WalkRunGripping.Description" : "Fysiskt gående, springande och hoppande och klättring.",
+        "Locomotion.ZeroG.Name" : "Zero-G",
+        "Locomotion.ZeroG.Description" : "Viktlös fysisk förflyttning",
+        "Locomotion.GrabWorld.Name" : "Greppa Värld",
+        "Locomotion.GrabWorld.Description" : "Skapar ett världsankare med referensen och flyttar användaren relativt till det.",
+        "Locomotion.Slide.Name" : "Glid",
+        "Locomotion.Slide.Description" : "Simpelt glidförflyttningsläge som snäpper till yta om närvarande, flyger annars.",
+
+        "Interaction.Destroy" : "Förstör",
+        "Interaction.Duplicate" : "Duplicera",
+        "Interaction.Undo" : "Ångra",
+        "Interaction.Redo" : "Gör Om",
+        "Interaction.EquipTool" : "Montera",
+        "Interaction.DequipTool" : "Avmontera",
+        "Interaction.ScalingEnabled" : "Skalning På",
+        "Interaction.ScalingDisabled" : "Skalning Av",
+        "Interaction.ResetScale" : "Återställ Skala",
+        "Interaction.LaserEnabled" : "Laser På",
+        "Interaction.LaserDisabled" : "Laser Av",
+        "Interaction.Locomotion" : "Förflyttning",
+        "Interaction.Locomotion.None" : "Ingen",
+
         "Dummy" : "Dummy"
     }
 }
