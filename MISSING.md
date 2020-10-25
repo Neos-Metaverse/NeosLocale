@@ -1041,31 +1041,6 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
-# Esperanto [eo]
-Tooltip.Microphone.Format.WAV  
-Tooltip.Microphone.Format.Vorbis  
-Tooltip.Microphone.Format.FLAC  
-Tooltip.Microphone.ModeHold  
-Tooltip.Microphone.ModePress  
-Tooltip.Microphone.SourceRaw  
-Tooltip.Microphone.SourceFiltered  
-Inspector.Audio.FormatInfo  
-Inspector.Audio.Duration  
-Inspector.Audio.EncodingInfo  
-Inspector.Audio.Normalize  
-Inspector.Audio.AmplitudeThreshold  
-Inspector.Audio.TrimSilence  
-Inspector.Audio.TrimStartSilence  
-Inspector.Audio.TrimEndSilence  
-Inspector.Audio.PositionDuration  
-Inspector.Audio.TrimStart  
-Inspector.Audio.TrimEnd  
-Inspector.Audio.FadeIn  
-Inspector.Audio.FadeOut  
-Inspector.Audio.ToWAV  
-Inspector.Audio.ToVorbis  
-Inspector.Audio.ToFLAC  
-
 # Spanish [es]
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
@@ -2347,31 +2322,6 @@ Temporary.MMC.VoteSuccess
 Temporary.MMC.VoteFailure  
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
-
-# Japanese [ja]
-Tooltip.Microphone.Format.WAV  
-Tooltip.Microphone.Format.Vorbis  
-Tooltip.Microphone.Format.FLAC  
-Tooltip.Microphone.ModeHold  
-Tooltip.Microphone.ModePress  
-Tooltip.Microphone.SourceRaw  
-Tooltip.Microphone.SourceFiltered  
-Inspector.Audio.FormatInfo  
-Inspector.Audio.Duration  
-Inspector.Audio.EncodingInfo  
-Inspector.Audio.Normalize  
-Inspector.Audio.AmplitudeThreshold  
-Inspector.Audio.TrimSilence  
-Inspector.Audio.TrimStartSilence  
-Inspector.Audio.TrimEndSilence  
-Inspector.Audio.PositionDuration  
-Inspector.Audio.TrimStart  
-Inspector.Audio.TrimEnd  
-Inspector.Audio.FadeIn  
-Inspector.Audio.FadeOut  
-Inspector.Audio.ToWAV  
-Inspector.Audio.ToVorbis  
-Inspector.Audio.ToFLAC  
 
 # Korean [ko]
 General.Processing  
@@ -3823,54 +3773,4 @@ Tutorial.Tooltip.ShapePrimary
 Tutorial.Tooltip.ShapeSecondary  
 Tutorial.Tooltip.WigglerPrimary  
 Tutorial.Tooltip.WigglerSecondary  
-
-# Chinese (Simplified, China) [zh-cn]
-Tooltip.Microphone.Format.WAV  
-Tooltip.Microphone.Format.Vorbis  
-Tooltip.Microphone.Format.FLAC  
-Tooltip.Microphone.ModeHold  
-Tooltip.Microphone.ModePress  
-Tooltip.Microphone.SourceRaw  
-Tooltip.Microphone.SourceFiltered  
-Inspector.Audio.FormatInfo  
-Inspector.Audio.Duration  
-Inspector.Audio.EncodingInfo  
-Inspector.Audio.Normalize  
-Inspector.Audio.AmplitudeThreshold  
-Inspector.Audio.TrimSilence  
-Inspector.Audio.TrimStartSilence  
-Inspector.Audio.TrimEndSilence  
-Inspector.Audio.PositionDuration  
-Inspector.Audio.TrimStart  
-Inspector.Audio.TrimEnd  
-Inspector.Audio.FadeIn  
-Inspector.Audio.FadeOut  
-Inspector.Audio.ToWAV  
-Inspector.Audio.ToVorbis  
-Inspector.Audio.ToFLAC  
-
-# Chinese (Traditional, Taiwan) [zh-tw]
-Tooltip.Microphone.Format.WAV  
-Tooltip.Microphone.Format.Vorbis  
-Tooltip.Microphone.Format.FLAC  
-Tooltip.Microphone.ModeHold  
-Tooltip.Microphone.ModePress  
-Tooltip.Microphone.SourceRaw  
-Tooltip.Microphone.SourceFiltered  
-Inspector.Audio.FormatInfo  
-Inspector.Audio.Duration  
-Inspector.Audio.EncodingInfo  
-Inspector.Audio.Normalize  
-Inspector.Audio.AmplitudeThreshold  
-Inspector.Audio.TrimSilence  
-Inspector.Audio.TrimStartSilence  
-Inspector.Audio.TrimEndSilence  
-Inspector.Audio.PositionDuration  
-Inspector.Audio.TrimStart  
-Inspector.Audio.TrimEnd  
-Inspector.Audio.FadeIn  
-Inspector.Audio.FadeOut  
-Inspector.Audio.ToWAV  
-Inspector.Audio.ToVorbis  
-Inspector.Audio.ToFLAC  
 
