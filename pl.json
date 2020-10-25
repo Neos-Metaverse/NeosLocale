@@ -972,7 +972,7 @@
 
         "Inspector.Audio.FormatInfo" : "Częstotliwość: {rate} Hz, Kanały: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Długość: {duration}",
-        "Inspector.Audio.EncodingInfo" : "Zdekodowano: {decoded}, Rozszerzenie Pliku: {ext}",
+        "Inspector.Audio.EncodingInfo" : "Info o Kodeku: {info}, Zdekodowano: {decoded}",
         "Inspector.Audio.Normalize" : "Normalizuj",
         "Inspector.Audio.AmplitudeThreshold" : "Próg Amplitudy:",
         "Inspector.Audio.TrimSilence" : "Wytnij Ciszę",
@@ -981,6 +981,11 @@
         "Inspector.Audio.PositionDuration" : "Pozycja/Długość (w sekundach):",
         "Inspector.Audio.TrimStart" : "Początek Przycięcia",
         "Inspector.Audio.TrimEnd" : "Koniec Przycięcia",
+        "Inspector.Audio.FadeIn" : "Dodaj Efekt Fade In",
+        "Inspector.Audio.FadeOut" : "Dodaj Efekt Fade Out",
+        "Inspector.Audio.ToWAV" : "Konwertuj na WAV",
+        "Inspector.Audio.ToVorbis" : "Konwertuj na OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Konwertuj na FLAC",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Ustaw z dzieci",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Ustaw z dzieci (wymuś wszystkie)",
