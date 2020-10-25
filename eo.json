@@ -440,6 +440,14 @@
 
         "Tooltip.Mesh.Edit": "Redakti maŝon",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Premi por registri sonon",
+        "Tooltip.Microphone.ModePress" : "Premi por komenci/halti registri sonon",
+        "Tooltip.Microphone.SourceRaw" : "Raw",
+        "Tooltip.Microphone.SourceFiltered" : "Filtrita kaj Normigita",
+
         "CreateNew.Back": "<<< <i> Reen </i>",
         "CreateNew.EmptyObject": "Malplena objekto",
         "CreateNew.ParticleSystem": "Partikla Sistemo",
@@ -961,6 +969,24 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnozo: Nevalidaj flosiloj",
         "Inspector.Texture.GenerateMetadata" : "Diagnozo: Generi Bitmapajn Metadatenojn",
+
+        "Inspector.Audio.FormatInfo" : "Prova Specifo: {rate} Hz, Kanaloj: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Daŭro: {duration}",
+        "Inspector.Audio.EncodingInfo" : "Plene Deĉifrita: {decoded}, Dosiera Etendaĵo: {ext}",
+
+        "Inspector.Audio.Normalize" : "Normaligi Volumon",
+        "Inspector.Audio.AmplitudeThreshold" : "Ampleksa Sojlo:",
+        "Inspector.Audio.TrimSilence" : "Tajli Silenton",
+        "Inspector.Audio.TrimStartSilence" : "Tajli Komencu Silenton",
+        "Inspector.Audio.TrimEndSilence" : "Tajli Fino Silenton",
+        "Inspector.Audio.PositionDuration" : "Position/Duration (in seconds):",
+        "Inspector.Audio.TrimStart" : "Tajli Komencu",
+        "Inspector.Audio.TrimEnd" : "Tajli Fino",
+        "Inspector.Audio.FadeIn" : "Aldoni Fade In",
+        "Inspector.Audio.FadeOut" : "Aldoni Fade Out",
+        "Inspector.Audio.ToWAV" : "Konverti al WAV",
+        "Inspector.Audio.ToVorbis" : "Konverti al OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Konverti al FLAC",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Agordi De Infanoj",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Agordi De Infanoj (devigi ĉiujn)",
