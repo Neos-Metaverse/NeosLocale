@@ -45,6 +45,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -86,6 +87,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -980,6 +982,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -1041,6 +1044,9 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
+# Esperanto [eo]
+Inspector.Audio.MakeLoopable  
+
 # Spanish [es]
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
@@ -1062,6 +1068,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -1105,6 +1112,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -1611,6 +1619,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -1703,6 +1712,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -2265,6 +2275,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -2322,6 +2333,9 @@ Temporary.MMC.VoteSuccess
 Temporary.MMC.VoteFailure  
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
+
+# Japanese [ja]
+Inspector.Audio.MakeLoopable  
 
 # Korean [ko]
 General.Processing  
@@ -2454,6 +2468,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -2532,6 +2547,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -2596,6 +2612,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -2644,125 +2661,12 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
-Tooltip.Microphone.Format.WAV  
-Tooltip.Microphone.Format.Vorbis  
-Tooltip.Microphone.Format.FLAC  
-Tooltip.Microphone.ModeHold  
-Tooltip.Microphone.ModePress  
-Tooltip.Microphone.SourceRaw  
-Tooltip.Microphone.SourceFiltered  
-Inspector.Audio.FormatInfo  
-Inspector.Audio.Duration  
-Inspector.Audio.EncodingInfo  
-Inspector.Audio.Normalize  
-Inspector.Audio.AmplitudeThreshold  
-Inspector.Audio.TrimSilence  
-Inspector.Audio.TrimStartSilence  
-Inspector.Audio.TrimEndSilence  
-Inspector.Audio.PositionDuration  
-Inspector.Audio.TrimStart  
-Inspector.Audio.TrimEnd  
-Inspector.Audio.FadeIn  
-Inspector.Audio.FadeOut  
-Inspector.Audio.ToWAV  
-Inspector.Audio.ToVorbis  
-Inspector.Audio.ToFLAC  
+Inspector.Audio.MakeLoopable  
 
 # Russian [ru]
-General.Done  
-Interaction.NamedEquipTool  
-Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
-Interaction.EquipAvatar  
-Contacts.InFriendsOnly  
-Contacts.InHidden  
-Contacts.InLAN  
-Tooltip.Microphone.Format.WAV  
-Tooltip.Microphone.Format.Vorbis  
-Tooltip.Microphone.Format.FLAC  
-Tooltip.Microphone.ModeHold  
-Tooltip.Microphone.ModePress  
-Tooltip.Microphone.SourceRaw  
-Tooltip.Microphone.SourceFiltered  
-Inspector.MeshRenderer.MergeByMaterial  
-Inspector.MeshRenderer.SplitByMaterial  
-Inspector.SkinnedMesh.SeparateOutBlendshapes  
-Inspector.SkinnedMesh.StripEmptyBlendshapes  
-Inspector.SkinnedMesh.StripBlendshapesResult  
-Inspector.SkinnedMesh.StripEmptyBones  
-Inspector.SkinnedMesh.StripBonesResult  
-Inspector.SkinnedMesh.VisualizeBoneBounds  
-Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
-Inspector.SkinnedMesh.ClearBoundsVisuals  
-Inspector.BipedRig.GetDiagnosticInfo  
-Inspector.BipedRig.GenerateDebugVisuals  
-Inspector.BipedRig.ClearDebugVisuals  
-Inspector.BipedRig.DetectHands  
-Inspector.BipedRig.DetectLeftHand  
-Inspector.BipedRig.DetectRightHand  
-Inspector.BipedRig.HandRigResult  
-Inspector.BipedRig.LeftHandRigResult  
-Inspector.BipedRig.RightHandRigResult  
-Inspector.Audio.FormatInfo  
-Inspector.Audio.Duration  
-Inspector.Audio.EncodingInfo  
-Inspector.Audio.Normalize  
-Inspector.Audio.AmplitudeThreshold  
-Inspector.Audio.TrimSilence  
-Inspector.Audio.TrimStartSilence  
-Inspector.Audio.TrimEndSilence  
-Inspector.Audio.PositionDuration  
-Inspector.Audio.TrimStart  
-Inspector.Audio.TrimEnd  
-Inspector.Audio.FadeIn  
-Inspector.Audio.FadeOut  
-Inspector.Audio.ToWAV  
-Inspector.Audio.ToVorbis  
-Inspector.Audio.ToFLAC  
-Inspector.DynamicBoneChain.SetupFromChildren  
-Inspector.DynamicBoneChain.SetupFromChildrenAll  
-Inspector.DynamicBoneChain.SetupFromChildrenRig  
-Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
-Inspector.DynamicBoneChain.ClearSmoothTransforms  
-Inspector.DynamicBoneChain.CollidersGrabbingHeader  
-Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
-Inspector.DynamicBoneChain.AlwaysGrabLastBone  
-Tutorial.Grab.MoveRotate  
-Tutorial.Grab.Scale  
-Tutorial.Grab.PullToEquip  
-Tutorial.Grab.UseHeld  
-Tutorial.Grab.ContextEquip  
-Tutorial.Grab.EquipForFullUse  
-Tutorial.WorldOrb.Click  
-Tutorial.WorldOrb.Info  
-Tutorial.Tooltip.GeneralPrimary  
-Tutorial.Tooltip.GeneralSecondary  
-Tutorial.Tooltip.ContextMenu  
-Tutorial.Tooltip.DevPrimary  
-Tutorial.Tooltip.DevSecondary  
-Tutorial.Tooltip.Duplicator  
-Tutorial.Tooltip.GluePrimary  
-Tutorial.Tooltip.GlueSecondary  
-Tutorial.Tooltip.ColorPrimary  
-Tutorial.Tooltip.ColorSecondary  
-Tutorial.Tooltip.Brush  
-Tutorial.Tooltip.MaterialPrimary  
-Tutorial.Tooltip.MaterialSecondary  
-Tutorial.Tooltip.MeshPrimary  
-Tutorial.Tooltip.MeshSecondary  
-Tutorial.Tooltip.CharacterColliderPrimary  
-Tutorial.Tooltip.CharacterColliderSecondary  
-Tutorial.Tooltip.GrabbableSetterPrimary  
-Tutorial.Tooltip.GrabbableSetterSecondary  
-Tutorial.Tooltip.LightPrimary  
-Tutorial.Tooltip.LightSecondary  
-Tutorial.Tooltip.MeshVisibilityPrimary  
-Tutorial.Tooltip.MeshVisibilitySecondary  
-Tutorial.Tooltip.ShapePrimary  
-Tutorial.Tooltip.ShapeSecondary  
-Tutorial.Tooltip.WigglerPrimary  
-Tutorial.Tooltip.WigglerSecondary  
+Inspector.Audio.MakeLoopable  
 
 # Swedish [sv]
 General.UI.SearchPrompt  
@@ -3613,6 +3517,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -3727,6 +3632,7 @@ Inspector.Audio.TrimStart
 Inspector.Audio.TrimEnd  
 Inspector.Audio.FadeIn  
 Inspector.Audio.FadeOut  
+Inspector.Audio.MakeLoopable  
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
@@ -3773,4 +3679,10 @@ Tutorial.Tooltip.ShapePrimary
 Tutorial.Tooltip.ShapeSecondary  
 Tutorial.Tooltip.WigglerPrimary  
 Tutorial.Tooltip.WigglerSecondary  
+
+# Chinese (Simplified, China) [zh-cn]
+Inspector.Audio.MakeLoopable  
+
+# Chinese (Traditional, Taiwan) [zh-tw]
+Inspector.Audio.MakeLoopable  
 

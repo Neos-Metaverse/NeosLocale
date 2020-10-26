@@ -971,7 +971,7 @@
         "Inspector.Texture.GenerateMetadata" : "Diagnostic: Generate Bitmap Metadata",
 
         "Inspector.Audio.FormatInfo" : "Sample Rate: {rate} Hz, Channels: {channels} ({channel_count})",
-        "Inspector.Audio.Duration" : "Duration: {duration}",
+        "Inspector.Audio.Duration" : "Duration: {duration}, SampleCount: {samples}",
         "Inspector.Audio.EncodingInfo" : "Codec info: {info}, Fully Decoded: {decoded}",
 
         "Inspector.Audio.Normalize" : "Normalize Volume",
@@ -984,6 +984,7 @@
         "Inspector.Audio.TrimEnd" : "Trim End",
         "Inspector.Audio.FadeIn" : "Add Fade In",
         "Inspector.Audio.FadeOut" : "Add Fade Out",
+        "Inspector.Audio.MakeLoopable" : "Make Loopable (using crossfade)",
         "Inspector.Audio.ToWAV" : "Convert to WAV",
         "Inspector.Audio.ToVorbis" : "Convert to OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Convert to FLAC",
