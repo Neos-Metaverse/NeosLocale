@@ -185,7 +185,7 @@
         "World.Detail.Uptime" : "Tiempo de actividad",
         "World.Detail.AccessLevel" : "Visibilidad",
         "World.Detail.Users" : "Usuarios",
-        "World.Detail.Users.Count" : "{active}{away, select, 0 {} other { (+{away} away)}} out of {max}",
+        "World.Detail.Users.Count" : "{active}{away, select, 0 {} other { (+{away} away)}} de {max}",
 
         "World.Detail.WorldInformationHeader" : "Información del Mundo",
         "World.Detail.PublishDate" : "Publicado",
@@ -207,7 +207,7 @@
         "World.Category.Tutorials" : "Tutoriales",
         "World.Category.Educational" : "Mundos Educativos",
         "World.Category.MyWorlds" : "Mis Mundos",
-        "World.Category.Custom" : "Mundos Personalizados",
+        "World.Category.Custom" : "Personalizar",
 
         "World.AccessLevel.Anyone" : "Cualquier Persona",
         "World.AccessLevel.RegisteredUsers" : "Usuarios Registrados",
@@ -440,6 +440,14 @@
 
         "Tooltip.Mesh.Edit" : "Editar malla",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Presionar y mantener para grabar",
+        "Tooltip.Microphone.ModePress" : "Presionar para iniciar/detener grabación",
+        "Tooltip.Microphone.SourceRaw" : "Cruda",
+        "Tooltip.Microphone.SourceFiltered" : "Filtrada y Normalizada",
+
         "CreateNew.Back" : "<<< <i>Atrás</i>",
         "CreateNew.EmptyObject" : "Objeto vacío",
         "CreateNew.ParticleSystem" : "Sístema de partículas",
@@ -544,7 +552,7 @@
         "Importer.Model.VertexColorModel" : "Modelo con Vértices Coloreados",
         "Importer.Model.AdvancedSettings" : "Ajustes Avanzados",
         "Importer.Model.ModelKindPrompt" : "¿Qué tipo de modelo 3D?",
-        "Importer.Model.RegularKind" : "Regular / Avatar",
+        "Importer.Model.RegularKind" : "Normal / Avatar",
         "Importer.Model.SeparableKind" : "Separable con piezas autoajustables",
         "Importer.Model.UnitsPrompt" : "¿En qué unidades está?",
         "Importer.Model.AutoScale" : "Escala automática (escala desconocida)",
@@ -641,7 +649,7 @@
 
         "FullBody.Title" : "<nobr>Calibración de cuerpo completo</nobr>",
         "FullBody.SetHeight" : "1) Establezca su altura",
-        "FullBody.HeightInstructions" : "Asegúrese de que esta sea su altura real; de lo contrario, la calibración no funcionará correctamente. El casco y los controles deben de quedarle bien al maniquí.",
+        "FullBody.HeightInstructions" : "Asegúrese de que ésta sea su altura real; de lo contrario, la calibración no funcionará correctamente. El casco y los controles deben de quedarle bien al maniquí.",
         "FullBody.HeightWarning" : "Esto parece incorrecto. Asegúrese de que esa sea su altura real.",
         "FullBody.ConfirmMapping" : "2) Confirme el mapeo del rastreador",
         "FullBody.MappingInstructions" : "Párese en posición vertical y asegure que los rastreadores estén rastreando y que estén siendo detectados correctamente.",
@@ -866,7 +874,7 @@
         "Security.Hyperlink.Cancel" : "Cancelar",
 
         "Security.HostAccess.Title" : "Acceso de Anfitrión",
-        "Security.HostAccess.Warning" : "<b><size=125%>Advertencia: El mundo está tratando de acceder a un anfitrión externo</size></b>\nHabilitar el acceso podría permitir a la tercera parte recopilar información tales como tu IP y ubicación geográfica.",
+        "Security.HostAccess.Warning" : "<b><size=125%>Advertencia: Un mundo está tratando de acceder a un anfitrión externo</size></b>\nHabilitar el acceso podría permitir a la tercera parte recopilar información tal como tu IP y ubicación geográfica.",
         "Security.HostAccess.TargetHost" : "Anfitrión Objetivo: <b>{host}</b>",
         "Security.HostAccess.Reason" : "Razón: {reason}",
         "Security.HostAccess.NoReason" : "<i>Sin razón proporcionada</i>",
@@ -962,6 +970,25 @@
         "Inspector.Texture.InvalidFloats" : "Diagnóstico: Flotantes inválidos",
         "Inspector.Texture.GenerateMetadata" : "Diagnóstico: Generar Metadatos del Mapa de Bits",
 
+        "Inspector.Audio.FormatInfo" : "Frecuencia de Muestreo: {rate} Hz, Canales: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Duración: {duration}",
+        "Inspector.Audio.EncodingInfo" : "Información del códec: {info}, Desencodeado: {decoded}",
+
+        "Inspector.Audio.Normalize" : "Normalizar Volumen",
+        "Inspector.Audio.AmplitudeThreshold" : "Umbral de Amplitud:",
+        "Inspector.Audio.TrimSilence" : "Truncar Silencio",
+        "Inspector.Audio.TrimStartSilence" : "Truncar Silencio Inicial",
+        "Inspector.Audio.TrimEndSilence" : "Truncar Silencio Final",
+        "Inspector.Audio.PositionDuration" : "Posición/Duración (en segundos):",
+        "Inspector.Audio.TrimStart" : "Truncar Inicio",
+        "Inspector.Audio.TrimEnd" : "Truncar Final",
+        "Inspector.Audio.FadeIn" : "Aparecer Progresivamente",
+        "Inspector.Audio.FadeOut" : "Desvanecer Progresivamente",
+        "Inspector.Audio.MakeLoopable" : "Preparar para Bucle (usando crossfade)",
+        "Inspector.Audio.ToWAV" : "Convertir a WAV",
+        "Inspector.Audio.ToVorbis" : "Convertir a OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Convertir a FLAC",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Configurar Según Hijos",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Configurar Según Hijos (forzar todos)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Configurar Según Hijos (sólo armazón)",
@@ -1013,8 +1040,18 @@
         "Exiting.SavingChanges" : "Guardando Cambios...",
         "Exiting.Exiting" : "Saliendo...",
         "Exiting.LoggingOut" : "Cerrando sesión...",
+        
+        "Temporary.MMC.Voting UI": "Interfaz de Votación del MMC",
+        "Temporary.MMC.Vote": "Votar",
+        "Temporary.MMC.Categories.Name": "Categorías",
+        "Temporary.MMC.Categories.Worlds": "Mundos",
+        "Temporary.MMC.Categories.Other": "Gadgets/Herramientas+",
+        "Temporary.MMC.Categories.Avatars": "Avatares",
+        "Temporary.MMC.VoteSuccess": "Ha votado en la categoría {category} a favor de {voteTarget}.",
+        "Temporary.MMC.VoteFailure": "Voto fallido, su voto no ha sido registrado. Por favor intente nuevamente.",
+        "Temporary.MMC.VotedAlready": "Ya ha votado en la categoría {category} previamente.",
+        "Temporary.MMC.VoteInvalid": "El voto es inválido, intente nuevamente.",
 
         "Dummy" : "Dummy"
-
     }
 }
