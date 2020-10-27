@@ -6,6 +6,8 @@ Locomotion.GrabWorld.Name
 Locomotion.GrabWorld.Description  
 Locomotion.Slide.Name  
 Locomotion.Slide.Description  
+Contacts.RecordingVoiceMessage  
+Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
@@ -32,6 +34,7 @@ Inspector.BipedRig.DetectRightHand
 Inspector.BipedRig.HandRigResult  
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -64,9 +67,11 @@ Interaction.NamedEquipTool.Default
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
+Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
+Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
@@ -74,6 +79,7 @@ Tooltip.Microphone.ModeHold
 Tooltip.Microphone.ModePress  
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -433,6 +439,7 @@ Contacts.BanFromAllSessions
 Contacts.UnbanFromAllSessions  
 Contacts.BanFromCurrentWorld  
 Contacts.UnbanFromCurrentWorld  
+Contacts.RecordingVoiceMessage  
 Contacts.InSession  
 Contacts.InPrivate  
 Contacts.InFriendsOnly  
@@ -453,6 +460,7 @@ Notifications.ReceivedCredits
 Notifications.TransferedCredits  
 Notifications.ReceivedTip  
 Notifications.SentTip  
+Notifications.VoiceMessage  
 Undo.SetField  
 Undo.SetReference  
 Undo.Spawn  
@@ -969,6 +977,7 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -1045,43 +1054,14 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Esperanto [eo]
-Inspector.Audio.MakeLoopable  
+Contacts.RecordingVoiceMessage  
+Notifications.VoiceMessage  
+Inspector.Audio.BakeAudio  
 
 # Spanish [es]
-Tooltip.Microphone.Format.WAV  
-Tooltip.Microphone.Format.Vorbis  
-Tooltip.Microphone.Format.FLAC  
-Tooltip.Microphone.ModeHold  
-Tooltip.Microphone.ModePress  
-Tooltip.Microphone.SourceRaw  
-Tooltip.Microphone.SourceFiltered  
-Inspector.Audio.FormatInfo  
-Inspector.Audio.Duration  
-Inspector.Audio.EncodingInfo  
-Inspector.Audio.Normalize  
-Inspector.Audio.AmplitudeThreshold  
-Inspector.Audio.TrimSilence  
-Inspector.Audio.TrimStartSilence  
-Inspector.Audio.TrimEndSilence  
-Inspector.Audio.PositionDuration  
-Inspector.Audio.TrimStart  
-Inspector.Audio.TrimEnd  
-Inspector.Audio.FadeIn  
-Inspector.Audio.FadeOut  
-Inspector.Audio.MakeLoopable  
-Inspector.Audio.ToWAV  
-Inspector.Audio.ToVorbis  
-Inspector.Audio.ToFLAC  
-Temporary.MMC.Voting UI  
-Temporary.MMC.Vote  
-Temporary.MMC.Categories.Name  
-Temporary.MMC.Categories.Worlds  
-Temporary.MMC.Categories.Other  
-Temporary.MMC.Categories.Avatars  
-Temporary.MMC.VoteSuccess  
-Temporary.MMC.VoteFailure  
-Temporary.MMC.VotedAlready  
-Temporary.MMC.VoteInvalid  
+Contacts.RecordingVoiceMessage  
+Notifications.VoiceMessage  
+Inspector.Audio.BakeAudio  
 
 # Estonian [et]
 Interaction.NamedEquipTool  
@@ -1089,9 +1069,11 @@ Interaction.NamedEquipTool.Default
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
+Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
+Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
@@ -1099,6 +1081,7 @@ Tooltip.Microphone.ModeHold
 Tooltip.Microphone.ModePress  
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -1163,9 +1146,11 @@ Tutorial.Tooltip.WigglerSecondary
 # Finnish [fi]
 World.Detail.Users.Count  
 Tools.Debug  
+Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
+Notifications.VoiceMessage  
 Undo.ChangeBoxSize  
 Undo.BrushStroke  
 Undo.ChangeColor  
@@ -1606,6 +1591,7 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -1689,9 +1675,11 @@ Interaction.EnterAnchor
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
 World.Actions.GetWorldOrb  
+Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
+Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
@@ -1699,6 +1687,7 @@ Tooltip.Microphone.ModeHold
 Tooltip.Microphone.ModePress  
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -1778,9 +1767,11 @@ Indicator.Sync.SyncingItems
 Indicator.Sync.UploadingVariants  
 Session.Permission.PermissionOverrideCount  
 User.Actions.Silence  
+Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
+Notifications.VoiceMessage  
 Undo.Translate  
 Undo.TranslateAlongAxis  
 Undo.RotateAroundAxis  
@@ -2262,6 +2253,7 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -2335,7 +2327,9 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Japanese [ja]
-Inspector.Audio.MakeLoopable  
+Contacts.RecordingVoiceMessage  
+Notifications.VoiceMessage  
+Inspector.Audio.BakeAudio  
 
 # Korean [ko]
 General.Processing  
@@ -2351,9 +2345,11 @@ Interaction.ExitAnchor
 Interaction.EquipAvatar  
 World.Category.HeadlessSessions  
 User.Actions.Silence  
+Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
+Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
@@ -2455,6 +2451,7 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -2527,6 +2524,8 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Dutch [nl]
+Contacts.RecordingVoiceMessage  
+Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
@@ -2534,6 +2533,7 @@ Tooltip.Microphone.ModeHold
 Tooltip.Microphone.ModePress  
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -2570,9 +2570,11 @@ Interaction.EnterAnchor
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
 User.Actions.Silence  
+Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
+Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
@@ -2599,6 +2601,7 @@ Inspector.BipedRig.DetectRightHand
 Inspector.BipedRig.HandRigResult  
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -2661,47 +2664,20 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
+Contacts.RecordingVoiceMessage  
+Notifications.VoiceMessage  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.MakeLoopable  
 
 # Russian [ru]
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
+Contacts.RecordingVoiceMessage  
+Notifications.VoiceMessage  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.MakeLoopable  
 
 # Swedish [sv]
-General.UI.SearchPrompt  
-General.UI.SearchPromptLong  
-General.Sort.Ascending  
-General.Sort.Descending  
-Locomotion.Noclip.Name  
-Locomotion.Noclip.Description  
-Locomotion.Teleport.Name  
-Locomotion.Teleport.Description  
-Locomotion.Fly.Name  
-Locomotion.Fly.Description  
-Locomotion.WalkRun.Name  
-Locomotion.WalkRun.Description  
-Locomotion.WalkRunGripping.Name  
-Locomotion.WalkRunGripping.Description  
-Locomotion.ZeroG.Name  
-Locomotion.ZeroG.Description  
-Locomotion.GrabWorld.Name  
-Locomotion.GrabWorld.Description  
-Locomotion.Slide.Name  
-Locomotion.Slide.Description  
-Interaction.Destroy  
-Interaction.Duplicate  
-Interaction.Undo  
-Interaction.Redo  
-Interaction.EquipTool  
-Interaction.DequipTool  
-Interaction.ScalingEnabled  
-Interaction.ScalingDisabled  
-Interaction.ResetScale  
-Interaction.LaserEnabled  
-Interaction.LaserDisabled  
-Interaction.Locomotion  
-Interaction.Locomotion.None  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  
@@ -2952,6 +2928,7 @@ Contacts.BanFromAllSessions
 Contacts.UnbanFromAllSessions  
 Contacts.BanFromCurrentWorld  
 Contacts.UnbanFromCurrentWorld  
+Contacts.RecordingVoiceMessage  
 Contacts.InSession  
 Contacts.InPrivate  
 Contacts.InFriendsOnly  
@@ -2972,6 +2949,7 @@ Notifications.ReceivedCredits
 Notifications.TransferedCredits  
 Notifications.ReceivedTip  
 Notifications.SentTip  
+Notifications.VoiceMessage  
 Undo.SetField  
 Undo.SetReference  
 Undo.Spawn  
@@ -3504,6 +3482,7 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -3588,9 +3567,11 @@ Interaction.ExitAnchor
 Interaction.EquipAvatar  
 World.Category.HeadlessSessions  
 User.Actions.Silence  
+Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InLAN  
+Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
@@ -3619,6 +3600,7 @@ Inspector.BipedRig.DetectRightHand
 Inspector.BipedRig.HandRigResult  
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
+Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
@@ -3681,8 +3663,12 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Chinese (Simplified, China) [zh-cn]
-Inspector.Audio.MakeLoopable  
+Contacts.RecordingVoiceMessage  
+Notifications.VoiceMessage  
+Inspector.Audio.BakeAudio  
 
 # Chinese (Traditional, Taiwan) [zh-tw]
-Inspector.Audio.MakeLoopable  
+Contacts.RecordingVoiceMessage  
+Notifications.VoiceMessage  
+Inspector.Audio.BakeAudio  
 

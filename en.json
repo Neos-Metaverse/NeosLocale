@@ -338,6 +338,7 @@
         "Contacts.UnbanFromAllSessions" : "Unban from ALL my sessions",
         "Contacts.BanFromCurrentWorld" : "Ban from current world",
         "Contacts.UnbanFromCurrentWorld" : "Unban form current world",
+        "Contacts.RecordingVoiceMessage" : "Recording voice...",
 
         "Contacts.InSession" : "In {name}",
         "Contacts.InPrivate" : "In Private World",
@@ -360,6 +361,7 @@
         "Notifications.TransferedCredits" : "Transferred {amount} {token}",
         "Notifications.ReceivedTip" : "Received tip {amount} {token}",
         "Notifications.SentTip" : "Sent tip {amount} {token}",
+        "Notifications.VoiceMessage" : "Sent a voice message",
 
         "Undo.SetField" : "Set field {field_name} to {value}",
         "Undo.SetReference" : "Set reference {ref_name} to {ref_target}",
@@ -970,6 +972,7 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnostic: Generate Bitmap Metadata",
 
+        "Inspector.Audio.BakeAudio" : "Bake Audio Clip",
         "Inspector.Audio.FormatInfo" : "Sample Rate: {rate} Hz, Channels: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Duration: {duration}, SampleCount: {samples}",
         "Inspector.Audio.EncodingInfo" : "Codec info: {info}, Fully Decoded: {decoded}",
