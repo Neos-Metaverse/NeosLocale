@@ -984,6 +984,7 @@
         "Inspector.Audio.TrimEnd" : "Tajli Fino",
         "Inspector.Audio.FadeIn" : "Aldoni Fade In",
         "Inspector.Audio.FadeOut" : "Aldoni Fade Out",
+        "Inspector.Audio.MakeLoopable" : "Fari Loopable (uzante krucfadadon)",
         "Inspector.Audio.ToWAV" : "Konverti al WAV",
         "Inspector.Audio.ToVorbis" : "Konverti al OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konverti al FLAC",

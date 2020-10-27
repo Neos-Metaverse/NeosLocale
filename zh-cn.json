@@ -984,6 +984,7 @@
         "Inspector.Audio.TrimEnd" : "修剪结束",
         "Inspector.Audio.FadeIn" : "添加淡入",
         "Inspector.Audio.FadeOut" : "添加淡出",
+        "Inspector.Audio.MakeLoopable" : "使Loopable（使用交叉淡入淡出）",
         "Inspector.Audio.ToWAV" : "转换为WAV",
         "Inspector.Audio.ToVorbis" : "转换为OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "转换为FLAC",

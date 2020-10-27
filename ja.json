@@ -984,6 +984,7 @@
         "Inspector.Audio.TrimEnd" : "トリム終了",
         "Inspector.Audio.FadeIn" : "フェードイン追加",
         "Inspector.Audio.FadeOut" : "フェードアウト追加",
+        "Inspector.Audio.MakeLoopable" : "ループできるようにする（クロスフェード使用）",
         "Inspector.Audio.ToWAV" : "WAVに変換",
         "Inspector.Audio.ToVorbis" : "OGG Vorbisに変換",
         "Inspector.Audio.ToFLAC" : "FLACに変換",
