@@ -338,6 +338,7 @@
         "Contacts.UnbanFromAllSessions" : "取消禁止我所有的會議",
         "Contacts.BanFromCurrentWorld" : "禁止進入目前的世界",
         "Contacts.UnbanFromCurrentWorld" : "取消禁止進入目前的世界",
+        "Contacts.RecordingVoiceMessage" : "現在正在錄音...",
 
         "Contacts.InSession" : "在 {name}",
         "Contacts.InPrivate" : "在私人世界",
@@ -360,6 +361,7 @@
         "Notifications.TransferedCredits" : "已轉移 {amount} {token}",
         "Notifications.ReceivedTip" : "收到小費 {amount} {token}",
         "Notifications.SentTip" : "已發送小費 {amount} {token}",
+        "Notifications.VoiceMessage" : "發送語音留言",
 
         "Undo.SetField" : "將字段 {field_name} 設置為 {value}",
         "Undo.SetReference" : "將引用 {ref_name} 設置為 {ref_target}",
@@ -970,6 +972,7 @@
         "Inspector.Texture.InvalidFloats" : "診斷：無效的浮點數",
         "Inspector.Texture.GenerateMetadata" : "診斷：生成位圖元數據",
 
+        "Inspector.Audio.BakeAudio" : "烘焙音頻剪輯",
         "Inspector.Audio.FormatInfo" : "採樣率: {rate} Hz, 頻道: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "持續時間: {duration}",
         "Inspector.Audio.EncodingInfo" : "完全解碼: {decoded}, 文件擴展名: {ext}",
