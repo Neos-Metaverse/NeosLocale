@@ -6,22 +6,22 @@ Czech [cs] - 93.8% - Missing keys: 58
 German [de] - 91.6% - Missing keys: 78  
 English (United Kingdom) [en-gb] - 1.9% - Missing keys: 910  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 99.7% - Missing keys: 3  
+Esperanto [eo] - 100.0% - Missing keys: 0  
 Spanish [es] - 99.7% - Missing keys: 3  
 Estonian [et] - 91.6% - Missing keys: 78  
 Finnish [fi] - 43.8% - Missing keys: 522  
 French [fr] - 91.6% - Missing keys: 78  
 Icelandic [is] - 38.0% - Missing keys: 575  
-Japanese [ja] - 99.7% - Missing keys: 3  
+Japanese [ja] - 100.0% - Missing keys: 0  
 Korean [ko] - 79.5% - Missing keys: 190  
 Dutch [nl] - 96.0% - Missing keys: 37  
 Norwegian [no] - 89.3% - Missing keys: 99  
 Polish [pl] - 99.6% - Missing keys: 4  
-Russian [ru] - 99.4% - Missing keys: 6  
+Russian [ru] - 100.0% - Missing keys: 0  
 Swedish [sv] - 5.3% - Missing keys: 879  
 Turkish [tr] - 89.2% - Missing keys: 100  
-Chinese (Simplified, China) [zh-cn] - 99.7% - Missing keys: 3  
-Chinese (Traditional, Taiwan) [zh-tw] - 99.7% - Missing keys: 3  
+Chinese (Simplified, China) [zh-cn] - 100.0% - Missing keys: 0  
+Chinese (Traditional, Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
 
 Total keys: 928
 

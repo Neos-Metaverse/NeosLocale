@@ -1053,11 +1053,6 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
-# Esperanto [eo]
-Contacts.RecordingVoiceMessage  
-Notifications.VoiceMessage  
-Inspector.Audio.BakeAudio  
-
 # Spanish [es]
 Contacts.RecordingVoiceMessage  
 Notifications.VoiceMessage  
@@ -2326,11 +2321,6 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
-# Japanese [ja]
-Contacts.RecordingVoiceMessage  
-Notifications.VoiceMessage  
-Inspector.Audio.BakeAudio  
-
 # Korean [ko]
 General.Processing  
 General.Done  
@@ -2664,14 +2654,6 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
-Contacts.RecordingVoiceMessage  
-Notifications.VoiceMessage  
-Inspector.Audio.BakeAudio  
-Inspector.Audio.MakeLoopable  
-
-# Russian [ru]
-Interaction.EnterAnchor  
-Interaction.ExitAnchor  
 Contacts.RecordingVoiceMessage  
 Notifications.VoiceMessage  
 Inspector.Audio.BakeAudio  
@@ -3661,14 +3643,4 @@ Tutorial.Tooltip.ShapePrimary
 Tutorial.Tooltip.ShapeSecondary  
 Tutorial.Tooltip.WigglerPrimary  
 Tutorial.Tooltip.WigglerSecondary  
-
-# Chinese (Simplified, China) [zh-cn]
-Contacts.RecordingVoiceMessage  
-Notifications.VoiceMessage  
-Inspector.Audio.BakeAudio  
-
-# Chinese (Traditional, Taiwan) [zh-tw]
-Contacts.RecordingVoiceMessage  
-Notifications.VoiceMessage  
-Inspector.Audio.BakeAudio  
 
