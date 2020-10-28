@@ -59,6 +59,9 @@
         "Interaction.NamedEquipTool" : "Взять {name}",
         "Interaction.NamedEquipTool.Default" : "Инструмент",
 
+        "Interaction.EnterAnchor" : "Сесть",
+        "Interaction.ExitAnchor" : "Встать",
+
         "Interaction.EquipAvatar" : "Надеть Аватар",
 
         "Dash.Screens.Home" : "Дом",
@@ -335,6 +338,7 @@
         "Contacts.UnbanFromAllSessions" : "Разблокировать во ВСЕХ моих сессиях",
         "Contacts.BanFromCurrentWorld" : "Заблокировать в этом мире",
         "Contacts.UnbanFromCurrentWorld" : "Разблокировать в этом мире",
+        "Contacts.RecordingVoiceMessage" : "Записывает голосовое сообщение...",
 
         "Contacts.InSession" : "В {name}",
         "Contacts.InPrivate" : "В приватном мире",
@@ -357,6 +361,7 @@
         "Notifications.TransferedCredits" : "Перевел(-ла) {amount} {token}",
         "Notifications.ReceivedTip" : "Получил(-ла) чаевые {amount} {token}",
         "Notifications.SentTip" : "Отправил чаевые {amount} {token}",
+        "Notifications.VoiceMessage" : "Отправил голосовое сообщение",
 
         "Undo.SetField" : "Установ. {field_name} в {value}",
         "Undo.SetReference" : "Установ. ссылки {ref_name} в {ref_target}",
@@ -384,7 +389,7 @@
         "Undo.MoveIKBone" : "Перемещение IK кости",
         "Undo.MoveSun" : "Перемещение Солнца",
         "Undo.ApplyMaterial" : "Применение Материала",
-        "Undo.BakeMeshes" : "Заготовка {name}",
+        "Undo.BakeMeshes" : "Запекание {name}",
         "Undo.ChangeMesh" : "Изменение Меша",
         "Undo.InsertParent" : "Вставка родителя для {name}",
         "Undo.Wiggler" : "Виглер",
@@ -887,7 +892,7 @@
         "Inspector.Mesh.BlendshapeCount" : "Кол-во Шейп-Ключей: {n}",
         "Inspector.Mesh.ChannelStats" : "Нормали: {normals}, Тангенты: {tangents}, Цвета: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
-        "Inspector.Mesh.BakeMesh" : "Заготовить Меш",
+        "Inspector.Mesh.BakeMesh" : "Запечь Меш",
         "Inspector.Mesh.ResaveMesh" : "Пересохранить Меш",
         "Inspector.Mesh.RecalculateNormals" : "Перерасчитать Нормали",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Перерасчитать Нормали (сглаж. шейдинг)",
@@ -967,7 +972,7 @@
         "Inspector.Texture.InvalidFloats" : "Диагностика: Не действительные float числа",
         "Inspector.Texture.GenerateMetadata" : "Диагностика: Генерация Bitmap Метаданных",
 
-
+        "Inspector.Audio.BakeAudio" : "Запечь аудио",
         "Inspector.Audio.FormatInfo" : "Частота дискретизации: {rate} Hz, Каналы: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Длительность: {duration}",
         "Inspector.Audio.EncodingInfo" : "Кодек: {info}, Полностью раскодировано: {decoded}",
@@ -982,6 +987,7 @@
         "Inspector.Audio.TrimEnd" : "Обрезать с конца",
         "Inspector.Audio.FadeIn" : "Добавить нарастание",
         "Inspector.Audio.FadeOut" : "Добавить затухание",
+        "Inspector.Audio.MakeLoopable" : "Сделать зацикленным (с кроссфейдом)",
         "Inspector.Audio.ToWAV" : "Конвертировать в WAV",
         "Inspector.Audio.ToVorbis" : "Конвертировать в OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Конвертировать в FLAC",
