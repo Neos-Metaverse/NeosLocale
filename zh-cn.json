@@ -338,6 +338,7 @@
         "Contacts.UnbanFromAllSessions" : "取消禁止我所有的会议",
         "Contacts.BanFromCurrentWorld" : "禁止进入目前的世界",
         "Contacts.UnbanFromCurrentWorld" : "取消禁止进入目前的世界",
+        "Contacts.RecordingVoiceMessage" : "现在正在录音...",
 
         "Contacts.InSession" : "在 {name}",
         "Contacts.InPrivate" : "在私人世界",
@@ -360,6 +361,7 @@
         "Notifications.TransferedCredits" : "已转移 {amount} {token}",
         "Notifications.ReceivedTip" : "收到小费 {amount} {token}",
         "Notifications.SentTip" : "已发送小费  {amount} {token}",
+        "Notifications.VoiceMessage" : "发送语音留言",
 
         "Undo.SetField" : "将字段 {field_name} 设置为 {value}",
         "Undo.SetReference" : "将引用 {ref_name} 设置为 {ref_target}",
@@ -970,6 +972,7 @@
         "Inspector.Texture.InvalidFloats" : "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata" : "诊断：生成位图元数据",
 
+        "Inspector.Audio.BakeAudio" : "烘焙音频剪辑",
         "Inspector.Audio.FormatInfo" : "采样率: {rate} Hz, 频道: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "持续时间: {duration}",
         "Inspector.Audio.EncodingInfo" : "完全解码: {decoded}, 文件扩展名: {ext}",

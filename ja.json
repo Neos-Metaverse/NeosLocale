@@ -338,6 +338,7 @@
         "Contacts.UnbanFromAllSessions" : "自分のすべての セッションからBAN解除",
         "Contacts.BanFromCurrentWorld" : "現在のワールドからBAN",
         "Contacts.UnbanFromCurrentWorld" : "現在のワールドからBAN解除",
+        "Contacts.RecordingVoiceMessage" : "録音中...",
 
         "Contacts.InSession" : "{name}にいます",
         "Contacts.InPrivate" : "プライベートワールドにいます",
@@ -360,6 +361,7 @@
         "Notifications.TransferedCredits" : " {token}を{amount}NCR送りました",
         "Notifications.ReceivedTip" : "チップ:{token}が{amount}枚送られてきました ",
         "Notifications.SentTip" : "チップ:{token}を{amount}枚送りました ",
+        "Notifications.VoiceMessage" : "ボイスメッセージを送りました",
 
         "Undo.SetField" : "フィールド {field_name} に {value} をセット",
         "Undo.SetReference" : "フィールド {ref_name} に {ref_target} をセット",
@@ -970,6 +972,7 @@
         "Inspector.Texture.InvalidFloats" : "診断：フロートが無効です",
         "Inspector.Texture.GenerateMetadata" : "診断：ビットマップメタデータを生成します",
 
+        "Inspector.Audio.BakeAudio" : "オーディオクリップをベイク",
         "Inspector.Audio.FormatInfo" : "サンプルレート: {rate} Hz, チャンネル: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "デュレーション: {duration}",
         "Inspector.Audio.EncodingInfo" : "完全複合済み: {decoded}, ファイル拡張子: {ext}",

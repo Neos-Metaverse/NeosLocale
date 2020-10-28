@@ -338,6 +338,7 @@
         "Contacts.UnbanFromAllSessions": "Malpermesi de ĈIUJ miaj sesioj",
         "Contacts.BanFromCurrentWorld": "Malpermesi de nuna mondo",
         "Contacts.UnbanFromCurrentWorld": "Malbenita formas nunan mondon",
+        "Contacts.RecordingVoiceMessage" : "Registrante voĉon...",
 
         "Contacts.InSession": "En {name}",
         "Contacts.InPrivate": "En privata mondo",
@@ -360,6 +361,7 @@
         "Notifications.TransferedCredits" : "Transdonita {amount} {token}",
         "Notifications.ReceivedTip" : "Ricevita konsileto {amount} {token}",
         "Notifications.SentTip" : "Sendita konsileto {amount} {token}",
+        "Notifications.VoiceMessage" : "Sendis voĉan mesaĝon",
 
         "Undo.SetField" : "Agordi kampon {field_name} al {value}",
         "Undo.SetReference" : "Agordi referencon {ref_name} al {ref_target}",
@@ -970,6 +972,7 @@
         "Inspector.Texture.InvalidFloats" : "Diagnozo: Nevalidaj flosiloj",
         "Inspector.Texture.GenerateMetadata" : "Diagnozo: Generi Bitmapajn Metadatenojn",
 
+        "Inspector.Audio.BakeAudio" : "Baku Aŭdion",
         "Inspector.Audio.FormatInfo" : "Prova Specifo: {rate} Hz, Kanaloj: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Daŭro: {duration}",
         "Inspector.Audio.EncodingInfo" : "Plene Deĉifrita: {decoded}, Dosiera Etendaĵo: {ext}",
