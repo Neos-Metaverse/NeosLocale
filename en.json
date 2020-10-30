@@ -64,6 +64,10 @@
 
         "Interaction.EquipAvatar" : "Equip Avatar",
 
+        "Interaction.SaveAsScreenshot" : "Save as screenshot",
+        "Interaction.ImportFile" : "Import File",
+        "Interaction.ExportFile" : "Export File",
+
         "Dash.Screens.Home" : "Home",
         "Dash.Screens.Worlds" : "Worlds",
         "Dash.Screens.Contacts" : "Contacts",
@@ -522,6 +526,8 @@
         "AvatarCreator.TryAlignHands" : "Try Align Hands",
         "AvatarCreator.AlignToolAnchors" : "Align Tool Anchors",
         "AvatarCreator.Create" : "Create",
+
+        "Importer.General.AsRawFile" : "Raw File",
 
         "Importer.Folder.Title" : "Folder Importer",
         "Importer.Folder.Individual" : "Individual import",
@@ -1000,6 +1006,22 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Colliders & Grabbing -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Add fixed colliders from hierarchy (using object root)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Always grab last bone",
+
+        "Wizard.General.ProcessRoot" : "Process Root:",
+        "Wizard.General.Result" : "Result:",
+        "Wizard.General.ErrorNoRoot" : "No Root Selected",
+        "Wizard.General.RemovedResult" : "Removed {n}",
+
+        "Wizard.AssetOptimization.Title" : "Asset Optimization Wizard",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Cleanup Unused Assets",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Cleanup Empty Slots",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Cleanup Disabled Mesh Renderers",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "Deduplicate Materials",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Cleanup File Items",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Set Max Texture Resolution",
+        "Wizard.AssetOptimization.RecompressTextures" : "Recompress Textures",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Recalculate All Tangents (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Resized {n}",
 
         "Tutorial.Grab.MoveRotate" : "Move/Rotate held items",
         "Tutorial.Grab.Scale" : "Grab with other controller to scale",
