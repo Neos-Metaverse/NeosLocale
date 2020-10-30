@@ -338,6 +338,7 @@
         "Contacts.UnbanFromAllSessions" : "Ontban van AL mijn sessies",
         "Contacts.BanFromCurrentWorld" : "Verban uit huidige wereld",
         "Contacts.UnbanFromCurrentWorld" : "Ontban uit huidige wereld",
+        "Contacts.RecordingVoiceMessage" : "Neemt Stem Op...",
 
         "Contacts.InSession" : "In {name}",
         "Contacts.InPrivate" : "In privéwereld",
@@ -360,6 +361,7 @@
         "Notifications.TransferedCredits" : "{amount} {token} Overgedragen",
         "Notifications.ReceivedTip" : "Fooi Ontvangen {amount} {token}",
         "Notifications.SentTip" : "Verzonden Fooi {amount} {token}",
+        "Notifications.VoiceMessage" : "Stembericht Verstuurd ",
 
         "Undo.SetField" : "Veld instellen {field_name} naar {value}",
         "Undo.SetReference" : "Referentie instellen {ref_name} naar {ref_target}",
@@ -439,6 +441,14 @@
         "Tooltip.Material.CreateNew" : "Maak nieuw",
 
         "Tooltip.Mesh.Edit" : "Bewerk Mesh",
+        
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Houd Vast Voor Opnamen",
+        "Tooltip.Microphone.ModePress" : "Druk om te starten/stoppen met opnemen",
+        "Tooltip.Microphone.SourceRaw" : "Rauw",
+        "Tooltip.Microphone.SourceFiltered" : "Gefilterd & Genormaliseerd",
 
         "CreateNew.Back" : "<<< <i>Terug</i>",
         "CreateNew.EmptyObject" : "Leeg Object",
@@ -962,6 +972,26 @@
         "Inspector.Texture.InvalidFloats" : "Diagnose: ongeldige floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnose: Genereer Bitmap Metadata",
 
+        "Inspector.Audio.BakeAudio" : "Bak Geluids Clip",
+        "Inspector.Audio.FormatInfo" : "Voorbeeldssnelheid: {rate} Hz, Kanalen: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Duur: {duration}, VoorbeeldsAantal: {samples}",
+        "Inspector.Audio.EncodingInfo" : "Codec informatie: {info}, Volledig Gedecodeerd: {decoded}",
+
+        "Inspector.Audio.Normalize" : "Normaliseer Volume",
+        "Inspector.Audio.AmplitudeThreshold" : "Amplitude Drempel:",
+        "Inspector.Audio.TrimSilence" : "Trim Stilte",
+        "Inspector.Audio.TrimStartSilence" : "Trim Start Stilte",
+        "Inspector.Audio.TrimEndSilence" : "Trim Einde Stilte",
+        "Inspector.Audio.PositionDuration" : "Positie/Duur (in seconden):",
+        "Inspector.Audio.TrimStart" : "Trim Start",
+        "Inspector.Audio.TrimEnd" : "Trim Einde",
+        "Inspector.Audio.FadeIn" : "Voeg Fade In toe",
+        "Inspector.Audio.FadeOut" : "Voeg Fade Out toe",
+        "Inspector.Audio.MakeLoopable" : "Maak oneindig (gebruikt crossfade)",
+        "Inspector.Audio.ToWAV" : "Converteer naar WAV",
+        "Inspector.Audio.ToVorbis" : "Converteer naar OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Converteer naar FLAC",
+        
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Stel op van Children",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Stel op van Children (forceer alle)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Stel op van Children (alleen rig)",
