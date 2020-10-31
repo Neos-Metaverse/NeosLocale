@@ -64,6 +64,10 @@
 
         "Interaction.EquipAvatar" : "アバターを着る",
 
+        "Interaction.SaveAsScreenshot" : "スクリーンショットとして保存",
+        "Interaction.ImportFile" : "インポート",
+        "Interaction.ExportFile" : "エクスポート",
+
         "Dash.Screens.Home" : "ホーム",
         "Dash.Screens.Worlds" : "ワールド",
         "Dash.Screens.Contacts" : "コンタクト",
@@ -522,6 +526,8 @@
         "AvatarCreator.TryAlignHands" : "手の位置をあわせる",
         "AvatarCreator.AlignToolAnchors" : "ツールアンカーの位置を揃える",
         "AvatarCreator.Create" : "作成",
+
+        "Importer.General.AsRawFile" : "Rawファイル",
 
         "Importer.Folder.Title" : "フォルダインポーター",
         "Importer.Folder.Individual" : "個別インポート",
@@ -1000,6 +1006,22 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- コライダー＆グラッビング -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "（オブジェクトルートを使用して）ヒエラルキーから固定コライダーを追加します",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "常に最後のボーンを掴めるようにします",
+
+        "Wizard.General.ProcessRoot" : "プロセスルート:",
+        "Wizard.General.Result" : "結果:",
+        "Wizard.General.ErrorNoRoot" : "ルートが選択されていません",
+        "Wizard.General.RemovedResult" : "削除完了 {n}",
+
+        "Wizard.AssetOptimization.Title" : "アセット最適化ウィザード",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "使われていないアセットを削除",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "空スロットを削除",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "非表示のメッシュレンダラを削除",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "マテリアルの重複排除",
+        "Wizard.AssetOptimization.CleanupFileItems" : "ファイルアイテムの削除",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "テクスチャ解像度を最大に設定",
+        "Wizard.AssetOptimization.RecompressTextures" : "テクスチャの再圧縮",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "全タンジェント(Mikktspace)の再計算",
+        "Wizard.AssetOptimization.ResizedResult" : "変換完了 {n}",
 
         "Tutorial.Grab.MoveRotate" : "持っているアイテムの移動/展開",
         "Tutorial.Grab.Scale" : "他のコントローラーでつかんでスケール",
