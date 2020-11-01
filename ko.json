@@ -60,6 +60,10 @@
 		"Interaction.EnterAnchor" : "연결하기",
 		"Interaction.ExitAnchor" : "연결해제",
 		"Interaction.EquipAvatar" : "아바타 장착",
+		
+		"Interaction.SaveAsScreenshot" : "스크린샷으로 저장",
+		"Interaction.ImportFile" : "파일 가져오기",
+		"Interaction.ExportFile" : "파일 내보내기",
 
 		"Dash.Screens.Home": "홈",
 		"Dash.Screens.Worlds": "월드",
@@ -519,6 +523,8 @@
 		"AvatarCreator.TryAlignHands": "손 위치 재정렬 시도",
 		"AvatarCreator.AlignToolAnchors": "도구 앵커 위치 재정렬",
 		"AvatarCreator.Create": "만들기",
+		
+		"Importer.General.AsRawFile" : "원시(Raw) 파일,
 
 		"Importer.Folder.Title": "폴더 가져오기 마법사",
 		"Importer.Folder.Individual": "개별로 가져오기",
@@ -998,6 +1004,22 @@
 		"Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "부모로부터 상속된 고정 콜라이더를 추가",
 		"Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "항상 마지막 본을 잡도록 함",
 
+		"Wizard.General.ProcessRoot" : "프로세스 루트:",
+		"Wizard.General.Result" : "결과:",
+		"Wizard.General.ErrorNoRoot" : "루트를 지정하세요.",
+		"Wizard.General.RemovedResult" : "{n}개가 삭제됨.",
+
+		"Wizard.AssetOptimization.Title" : "에셋 최적화 마법사",
+		"Wizard.AssetOptimization.CleanupUnusedAssets" : "사용하지 않는 에셋 정리",
+		"Wizard.AssetOptimization.CleanupEmptySlots" : "비어있는 에셋 정리",
+		"Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "비활성 상태인 메쉬 렌더러 정리",
+		"Wizard.AssetOptimization.DeduplicateMaterials" : "중복되어 있는 머리티럴 병합",
+		"Wizard.AssetOptimization.CleanupFileItems" : "파일 아이템 정리",
+		"Wizard.AssetOptimization.MaxTextureResolution" : "텍스쳐 최대 해상도 지정",
+		"Wizard.AssetOptimization.RecompressTextures" : "텍스쳐 다시압축",
+		"Wizard.AssetOptimization.RecalculateAllTangents" : "모든 접선 재계산(Mikktspace)",
+		"Wizard.AssetOptimization.ResizedResult" : "크기가 {n}(으)로 변경됨.",
+		
 		"Tutorial.Grab.MoveRotate" : "잡고있는 객체를 이동하거나 회전하기",
 		"Tutorial.Grab.Scale" : "양손으로 크기 조정하기",
 		"Tutorial.Grab.PullToEquip" : "당겨서 장착하기",
