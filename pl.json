@@ -64,6 +64,10 @@
 
         "Interaction.EquipAvatar" : "Załóż Awatar",
 
+        "Interaction.SaveAsScreenshot" : "Zapisz jako zrzut ekranu",
+        "Interaction.ImportFile" : "Importuj Plik",
+        "Interaction.ExportFile" : "Eksportuj Plik",
+
         "Dash.Screens.Home" : "Dom",
         "Dash.Screens.Worlds" : "Światy",
         "Dash.Screens.Contacts" : "Kontakty",
@@ -522,6 +526,8 @@
         "AvatarCreator.TryAlignHands" : "Spróbuj Wyrównać Ręce",
         "AvatarCreator.AlignToolAnchors" : "Wyrównaj Narzędzia",
         "AvatarCreator.Create" : "Utwórz",
+
+        "Importer.General.AsRawFile" : "Plik",
 
         "Importer.Folder.Title" : "Importer Folderów",
         "Importer.Folder.Individual" : "Indywidualny import",
@@ -1000,6 +1006,22 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Obszary i Chwytanie -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Dodaj obszary do punktów centralnych obiektów w hierarchii",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Zawsze chwytaj ostatnią kość",
+
+        "Wizard.General.ProcessRoot" : "Miejsce Procesu:",
+        "Wizard.General.Result" : "Rezultat:",
+        "Wizard.General.ErrorNoRoot" : "Brak Miejsca Procesu",
+        "Wizard.General.RemovedResult" : "Usunięto {n}",
+
+        "Wizard.AssetOptimization.Title" : "Kreator Optymizacji Zasobów",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Usuń Nieużywane Zasoby",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Usuń Puste Obiekty",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Wyczyść Wyłączone MeshRendery",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "Deduplikuj Materiały",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Usuń Przedmioty Plików",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Ustaw Maksymalną Rozdzielczość Tekstur",
+        "Wizard.AssetOptimization.RecompressTextures" : "Rekompresuj Tekstury",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Przelicz Wszystkie Styczne (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Przeskalowano {n}",
 
         "Tutorial.Grab.MoveRotate" : "Przenieś/Obróć chwycone przedmioty",
         "Tutorial.Grab.Scale" : "Chwyć drugim kontrolerem aby skalować",
