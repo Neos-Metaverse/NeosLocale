@@ -64,6 +64,10 @@
 
         "Interaction.EquipAvatar" : "裝備阿凡達",
         
+        "Interaction.SaveAsScreenshot" : "另存為屏幕截圖",
+        "Interaction.ImportFile" : "導入文件",
+        "Interaction.ExportFile" : "匯出檔案",
+
         "Dash.Screens.Home" : "家",
         "Dash.Screens.Worlds" : "世界",
         "Dash.Screens.Contacts" : "聯絡人",
@@ -522,6 +526,8 @@
         "AvatarCreator.TryAlignHands" : "嘗試對齊手",
         "AvatarCreator.AlignToolAnchors" : "對齊工具錨",
         "AvatarCreator.Create" : "創造",
+
+        "Importer.General.AsRawFile" : "Raw文件",
 
         "Importer.Folder.Title" : "文件夾導入器",
         "Importer.Folder.Individual" : "個人進口",
@@ -1001,6 +1007,22 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "從層次結構添加固定對撞機（使用對像根）",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "總是抓last bone",
 
+        "Wizard.General.ProcessRoot" : "進程根:",
+        "Wizard.General.Result" : "結果:",
+        "Wizard.General.ErrorNoRoot" : "未選擇根",
+        "Wizard.General.RemovedResult" : "已刪除 {n}",
+
+        "Wizard.AssetOptimization.Title" : "資產優化設置嚮導",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "清理未使用的資產",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "清理空插槽",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "清理禁用的網格渲染器",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "重複材質球刪除",
+        "Wizard.AssetOptimization.CleanupFileItems" : "清理文件項",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "設置最大紋理分辨率",
+        "Wizard.AssetOptimization.RecompressTextures" : "重新壓縮紋理",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "重新計算所有切線（Mikktspace）",
+        "Wizard.AssetOptimization.ResizedResult" : "調整大小 {n}",
+        
         "Tutorial.Grab.MoveRotate" : "移動/旋轉保留的物體",
         "Tutorial.Grab.Scale" : "與其他控制器縮放以進行縮放",
         "Tutorial.Grab.PullToEquip" : "向您拉來裝備",

@@ -64,6 +64,10 @@
 
         "Interaction.EquipAvatar" : "Ekipi Avataron",
 
+        "Interaction.SaveAsScreenshot" : "Konservu kiel ekrankopion",
+        "Interaction.ImportFile" : "Importi dosieron",
+        "Interaction.ExportFile" : "Eksporti dosieron",
+
         "Dash.Screens.Home": "Hejmo",
         "Dash.Screens.Worlds": "Mondoj",
         "Dash.Screens.Contacts": "Kontaktoj",
@@ -523,6 +527,8 @@
         "AvatarCreator.AlignToolAnchors": "Vicigi Ilajn Ankrojn",
         "AvatarCreator.Create": "Krei",
         
+        "Importer.General.AsRawFile" : "Raw Dosiero",
+
         "Importer.Folder.Title": "Dosierujo.",
         "Importer.Folder.Individual": "Individua importado",
         "Importer.Folder.Individual.Description": "Kreas apartan importan dialogon por ĉiu subtenata dosiero en la dosierujo",
@@ -1000,6 +1006,22 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Koliziantoj & Kaptado -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Aldoni fiksajn koliziantojn de hierarkio (uzante objektan radikon)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Ĉiam kaptu lastan oston",
+
+        "Wizard.General.ProcessRoot": "Procezo enradikiĝas:",
+        "Wizard.General.Result": "Rezulto:",
+        "Wizard.General.ErrorNoRoot": "Neniu Radiko Elektita",
+        "Wizard.General.RemovedResult": "Forigita {n}",
+
+        "Wizard.AssetOptimization.Title": "Sorĉisto de Aktiva Optimumigo",
+        "Wizard.AssetOptimization.CleanupUnusedAssets": "Purigi Neuzitajn Aktivaĵojn",
+        "Wizard.AssetOptimization.CleanupEmptySlots": "Purigi malplenajn fendojn",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Purigado de malebligitaj retaj bildigiloj",
+        "Wizard.AssetOptimization.DeduplicateMaterials": "Malplenigitaj materialoj",
+        "Wizard.AssetOptimization.CleanupFileItems": "Purigaj dosieraj eroj",
+        "Wizard.AssetOptimization.MaxTextureResolution": "Agordi Maksimuman Teksturan Rezolucion",
+        "Wizard.AssetOptimization.RecompressTextures": "Rekompremi teksturojn",
+        "Wizard.AssetOptimization.RecalculateAllTangents": "Rekalkuli ĉiujn tangentojn (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult": "Grandigita {n}",
 
         "Tutorial.Grab.MoveRotate": "Movi / Rotacii tenitajn erojn",
         "Tutorial.Grab.Scale": "Ekprenu kun alia regilo por skali",

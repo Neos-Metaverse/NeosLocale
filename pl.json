@@ -64,6 +64,10 @@
 
         "Interaction.EquipAvatar" : "Załóż Awatar",
 
+        "Interaction.SaveAsScreenshot" : "Zapisz jako zrzut ekranu",
+        "Interaction.ImportFile" : "Importuj Plik",
+        "Interaction.ExportFile" : "Eksportuj Plik",
+
         "Dash.Screens.Home" : "Dom",
         "Dash.Screens.Worlds" : "Światy",
         "Dash.Screens.Contacts" : "Kontakty",
@@ -338,6 +342,7 @@
         "Contacts.UnbanFromAllSessions" : "Odbanuj we WSZYSTKICH moich sesjach",
         "Contacts.BanFromCurrentWorld" : "Zbanuj z bieżącego świata",
         "Contacts.UnbanFromCurrentWorld" : "Odbanuj z bieżącego świata",
+        "Contacts.RecordingVoiceMessage" : "Nagrywanie głosu...",
 
         "Contacts.InSession" : "W {name}",
         "Contacts.InPrivate" : "W Prywatnym Świecie",
@@ -360,6 +365,7 @@
         "Notifications.TransferedCredits" : "Przetransferowano {amount} {token}",
         "Notifications.ReceivedTip" : "Otrzymano Napiwek {amount} {token}",
         "Notifications.SentTip" : "Wysłano Napiwek {amount} {token}",
+        "Notifications.VoiceMessage" : "Wysłano wiadomość głosową",
 
         "Undo.SetField" : "Ustawienie pola {field_name} na {value}",
         "Undo.SetReference" : "Ustawienie odniesienia {ref_name} na {ref_target}",
@@ -520,6 +526,8 @@
         "AvatarCreator.TryAlignHands" : "Spróbuj Wyrównać Ręce",
         "AvatarCreator.AlignToolAnchors" : "Wyrównaj Narzędzia",
         "AvatarCreator.Create" : "Utwórz",
+
+        "Importer.General.AsRawFile" : "Plik",
 
         "Importer.Folder.Title" : "Importer Folderów",
         "Importer.Folder.Individual" : "Indywidualny import",
@@ -970,19 +978,22 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostyka: Niewłaściwe ",
         "Inspector.Texture.GenerateMetadata" : "Diagnostyka: Generuj Metadane Bitmapy",
 
+        "Inspector.Audio.BakeAudio" : "Wypal Dźwięk",
         "Inspector.Audio.FormatInfo" : "Częstotliwość: {rate} Hz, Kanały: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Długość: {duration}",
         "Inspector.Audio.EncodingInfo" : "Info o Kodeku: {info}, Zdekodowano: {decoded}",
+
         "Inspector.Audio.Normalize" : "Normalizuj",
         "Inspector.Audio.AmplitudeThreshold" : "Próg Amplitudy:",
         "Inspector.Audio.TrimSilence" : "Wytnij Ciszę",
-        "Inspector.Audio.TrimStartSilence" : "Początek Wycięcia Ciszy",
-        "Inspector.Audio.TrimEndSilence" : "Koniec Wycięcia Ciszy",
+        "Inspector.Audio.TrimStartSilence" : "Wytnij Początkową Ciszę",
+        "Inspector.Audio.TrimEndSilence" : "Wytnij Końcową Ciszę",
         "Inspector.Audio.PositionDuration" : "Pozycja/Długość (w sekundach):",
-        "Inspector.Audio.TrimStart" : "Początek Przycięcia",
-        "Inspector.Audio.TrimEnd" : "Koniec Przycięcia",
+        "Inspector.Audio.TrimStart" : "Wytnij Przed",
+        "Inspector.Audio.TrimEnd" : "Wytnij Po",
         "Inspector.Audio.FadeIn" : "Dodaj Efekt Fade In",
         "Inspector.Audio.FadeOut" : "Dodaj Efekt Fade Out",
+        "Inspector.Audio.MakeLoopable" : "Pozwól na zapętlanie (używając crossfade)",
         "Inspector.Audio.ToWAV" : "Konwertuj na WAV",
         "Inspector.Audio.ToVorbis" : "Konwertuj na OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konwertuj na FLAC",
@@ -995,6 +1006,22 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Obszary i Chwytanie -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Dodaj obszary do punktów centralnych obiektów w hierarchii",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Zawsze chwytaj ostatnią kość",
+
+        "Wizard.General.ProcessRoot" : "Miejsce Procesu:",
+        "Wizard.General.Result" : "Rezultat:",
+        "Wizard.General.ErrorNoRoot" : "Brak Miejsca Procesu",
+        "Wizard.General.RemovedResult" : "Usunięto {n}",
+
+        "Wizard.AssetOptimization.Title" : "Kreator Optymizacji Zasobów",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Usuń Nieużywane Zasoby",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Usuń Puste Obiekty",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Wyczyść Wyłączone MeshRendery",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "Deduplikuj Materiały",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Usuń Przedmioty Plików",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Ustaw Maksymalną Rozdzielczość Tekstur",
+        "Wizard.AssetOptimization.RecompressTextures" : "Rekompresuj Tekstury",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Przelicz Wszystkie Styczne (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Przeskalowano {n}",
 
         "Tutorial.Grab.MoveRotate" : "Przenieś/Obróć chwycone przedmioty",
         "Tutorial.Grab.Scale" : "Chwyć drugim kontrolerem aby skalować",
