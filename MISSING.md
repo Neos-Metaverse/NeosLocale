@@ -2614,26 +2614,6 @@ Tutorial.Tooltip.ShapeSecondary
 Tutorial.Tooltip.WigglerPrimary  
 Tutorial.Tooltip.WigglerSecondary  
 
-# Polish [pl]
-Interaction.SaveAsScreenshot  
-Interaction.ImportFile  
-Interaction.ExportFile  
-Importer.General.AsRawFile  
-Wizard.General.ProcessRoot  
-Wizard.General.Result  
-Wizard.General.ErrorNoRoot  
-Wizard.General.RemovedResult  
-Wizard.AssetOptimization.Title  
-Wizard.AssetOptimization.CleanupUnusedAssets  
-Wizard.AssetOptimization.CleanupEmptySlots  
-Wizard.AssetOptimization.CleanupDisabledMeshRenderers  
-Wizard.AssetOptimization.DeduplicateMaterials  
-Wizard.AssetOptimization.CleanupFileItems  
-Wizard.AssetOptimization.MaxTextureResolution  
-Wizard.AssetOptimization.RecompressTextures  
-Wizard.AssetOptimization.RecalculateAllTangents  
-Wizard.AssetOptimization.ResizedResult  
-
 # Russian [ru]
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  

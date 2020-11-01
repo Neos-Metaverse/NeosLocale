@@ -16,7 +16,7 @@ Japanese [ja] - 100.0% - Missing keys: 0
 Korean [ko] - 100.0% - Missing keys: 0  
 Dutch [nl] - 97.0% - Missing keys: 28  
 Norwegian [no] - 87.6% - Missing keys: 117  
-Polish [pl] - 98.1% - Missing keys: 18  
+Polish [pl] - 100.0% - Missing keys: 0  
 Russian [ru] - 98.1% - Missing keys: 18  
 Swedish [sv] - 5.2% - Missing keys: 897  
 Turkish [tr] - 87.5% - Missing keys: 118  
