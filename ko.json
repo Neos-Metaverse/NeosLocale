@@ -567,7 +567,7 @@
 		"Importer.Model.Advanced.AutoScale": "자동 크기 설정",
 		"Importer.Model.Advanced.MaxTexSize": "최대 텍스쳐 크기",
 		"Importer.Model.Advanced.ImageFormat": "이미지 형식: ",
-		"Importer.Model.Advanced.Material": "마테리얼: ",
+		"Importer.Model.Advanced.Material": "머티리얼: ",
 		"Importer.Model.Advanced.AlignAxis": "축에 정렬: ",
 
 		"Importer.Model.Advanced.Normals": "노말(Normals) 계산",
@@ -594,7 +594,7 @@
 		"Importer.Model.Advanced.DeduplicateInstances": "인스턴스 두 배로 복제 (성능이 안 좋음)",
 		"Importer.Model.Advanced.Optimize": "모델/씬(Scene) 최적화",
 		"Importer.Model.Advanced.RandomColors": "랜덤 색상 자동생성",
-		"Importer.Model.Advanced.SpawnMaterialOrbs": "마테리얼 오브 생성",
+		"Importer.Model.Advanced.SpawnMaterialOrbs": "머티리얼 오브 생성",
 		"Importer.Model.Advanced.ImagesByName": "이름으로 이미지 가져오기",
 
 		"Importer.Model.Advanced.Grabbable": "잡기(Grab) 허용",
@@ -913,8 +913,8 @@
 		"Inspector.Mesh.UV_Multiplicator" : "Multiplicator:",
 		"Inspector.Mesh.ScaleUVs" : "스케일 UVs",
 
-		"Inspector.MeshRenderer.MergeByMaterial" : "동일 메터리얼을 사용하는 서브메쉬 병합",
-		"Inspector.MeshRenderer.SplitByMaterial" : "메쉬를 메터리얼별로 분리",
+		"Inspector.MeshRenderer.MergeByMaterial" : "동일 머티리얼을 사용하는 서브메쉬 병합",
+		"Inspector.MeshRenderer.SplitByMaterial" : "메쉬를 머티리얼별로 분리",
 
 		"Inspector.SkinnedMesh.SeparateOutBlendshapes" : "블렌드셰이프의 영향을 받지 않는 메쉬를 분리",
 		"Inspector.SkinnedMesh.StripEmptyBlendshapes" : "빈 블렌드셰이프 제거",
@@ -1019,8 +1019,8 @@
 		"Tutorial.Tooltip.ColorPrimary" : "색상 적용",
 		"Tutorial.Tooltip.ColorSecondary" : "색상 선택",
 		"Tutorial.Tooltip.Brush" : "그리기",
-		"Tutorial.Tooltip.MaterialPrimary" : "메터리얼 적용\n<size=75%>(메터리얼 건에 메터리얼 오브를 장착하세요.)</size>",
-		"Tutorial.Tooltip.MaterialSecondary" : "메러리얼 추출\n<size=75%>(현재 장착된 메터리얼이 없어야 합니다.)</size>",
+		"Tutorial.Tooltip.MaterialPrimary" : "머티리얼 적용\n<size=75%>(머티리얼 건에 머티리얼 오브를 장착하세요.)</size>",
+		"Tutorial.Tooltip.MaterialSecondary" : "머티리얼 추출\n<size=75%>(현재 장착된 머티리얼이 없어야 합니다.)</size>",
 		"Tutorial.Tooltip.MeshPrimary" : "메쉬 교체",
 		"Tutorial.Tooltip.MeshSecondary" : "메쉬 추출",
 		"Tutorial.Tooltip.CharacterColliderPrimary" : "캐릭터 콜라이더 추가",
