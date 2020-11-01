@@ -1,6 +1,6 @@
 {
     "localeCode" : "cs",
-    "authors" : ["Frooxius"],
+    "authors" : ["Frooxius", "rampa_3"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -25,7 +25,6 @@
         "General.Sort.Ascending" : "Vzestupně",
         "General.Sort.Descending" : "Sestupně",
 
-        
         "Locomotion.Noclip.Name" : "Noclip",
         "Locomotion.Noclip.Description" : "Umožňuje volný pohyb skrze objekty, vhodný pro editování",
         "Locomotion.Teleport.Name" : "Teleportace",
@@ -38,6 +37,10 @@
         "Locomotion.WalkRunGripping.Description" : "Fyzický pohyb včetně skákání a šplhání",
         "Locomotion.ZeroG.Name" : "Beztíže",
         "Locomotion.ZeroG.Description" : "Fyzikální pohyb bez gravitace",
+        "Locomotion.GrabWorld.Name" : "Zachytávání se světa",
+        "Locomotion.GrabWorld.Description" : "Vytvoří kotvu světa s referencí a přesouvá uživatele relativně k ní.",
+        "Locomotion.Slide.Name" : "Posun",
+        "Locomotion.Slide.Description" : "Jednoduchý posuvný pohyb, který se zachytává povrchu, pokud je přítomen, jinak létá.",
        
         "Interaction.Destroy" : "Odstranit",
         "Interaction.Duplicate" : "Duplikovat",
@@ -317,7 +320,7 @@
         "Session.Permission.PermissionOverrideCount" : "Počet uživatelů s individuálními právy: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Smazat individuální práva",
 
-        "User.Actions.Mute" : "Zlutmit",
+        "User.Actions.Mute" : "Ztlumit",
         "User.Actions.Jump" : "Skočit",
         "User.Actions.Respawn" : "Resetovat",
         "User.Actions.Silence" : "Ztišit",
@@ -335,6 +338,7 @@
         "Contacts.UnbanFromAllSessions" : "Odbanovat ze VŠECH mých světů",
         "Contacts.BanFromCurrentWorld" : "Zabanovat z aktuálního světa",
         "Contacts.UnbanFromCurrentWorld" : "Odbanovat z aktuálního světa",
+        "Contacts.RecordingVoiceMessage" : "Nahrávám hlas...",
 
         "Contacts.InSession" : "Ve {name}",
         "Contacts.InPrivate" : "V privátním světě",
@@ -357,6 +361,7 @@
         "Notifications.TransferedCredits" : "Přesunul {amount} {token}",
         "Notifications.ReceivedTip" : "Poslal tip {amount} {token}",
         "Notifications.SentTip" : "Poslal tip {amount} {token}",
+        "Notifications.VoiceMessage" : "Poslal hlasovou zprávu",
 
         "Undo.SetField" : "Nastavit hodnotu {field_name} na {value}",
         "Undo.SetReference" : "Nastavit referenci {ref_name} na {ref_target}",
@@ -436,6 +441,14 @@
         "Tooltip.Material.CreateNew" : "Vytvořit nový",
 
         "Tooltip.Mesh.Edit" : "Editovat mesh",
+
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Držet pro nahrávání",
+        "Tooltip.Microphone.ModePress" : "Stisknout pro spuštění/zastavení nahrávání",
+        "Tooltip.Microphone.SourceRaw" : "Raw",
+        "Tooltip.Microphone.SourceFiltered" : "Filtrovaný & Normalizovaný",
 
         "CreateNew.Back" : "<<< <i>Zpět</i>",
         "CreateNew.EmptyObject" : "Prázdný objekt",
@@ -903,6 +916,28 @@
         "Inspector.Mesh.UV_Multiplicator" : "Násobič:",
         "Inspector.Mesh.ScaleUVs" : "Škálovat UV",
 
+        "Inspector.MeshRenderer.MergeByMaterial" : "Sloučit submeshe se stejným materiálem",
+        "Inspector.MeshRenderer.SplitByMaterial" : "Rozdělit do samostatných meshů dle materiálu",
+
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Oddělit části meshe neovlivněné blendshapes",
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Strhnout Prázdné Blendshapes",
+        "Inspector.SkinnedMesh.StripBlendshapesResult" : "Hotovo! Strženo: {n,plural, one {# blendshape} other {# blendshapes}}",
+        "Inspector.SkinnedMesh.StripEmptyBones" : "Strhnout Prázdné Bones",
+        "Inspector.SkinnedMesh.StripBonesResult" : "Hotovo! Strženo: {n,plural, one {# bone} other {# bones}}",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Vizualizovat bone bounding box",
+        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Vizualizovat přibližné merged bone sphere bounds",
+        "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Odstranit bone bounding box vizuály",
+
+        "Inspector.BipedRig.GetDiagnosticInfo" : "Získat diagnostické info rigu",
+        "Inspector.BipedRig.GenerateDebugVisuals" : "Generovat Ladicí Vizuály",
+        "Inspector.BipedRig.ClearDebugVisuals" : "Vyčistit Ladicí Vizuály",
+        "Inspector.BipedRig.DetectHands" : "Detekovat Rigy Dlaní",
+        "Inspector.BipedRig.DetectLeftHand" : "Detekovat Rig Levé Dlaně",
+        "Inspector.BipedRig.DetectRightHand" : "Detekovat Rig Pravé Dlaně",
+        "Inspector.BipedRig.HandRigResult" : "Hotovo! Levá: {left}, Pravá: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "Hotovo! Detekováno - levá: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "Hotovo! Detekováno - pravá: {detected}",
+
         "Inspector.Texture.Size" : "Rozlišení: {width} x {height}",
         "Inspector.Texture.Format" : "Formát: {format}, Využití VRAM: <nobr>{memory}</nobr>",
 
@@ -937,6 +972,34 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostika: Nesprávné floating point hodnoty",
         "Inspector.Texture.GenerateMetadata" : "Diagnostika: Vygenerovat metadata",
 
+        "Inspector.Audio.BakeAudio" : "Zapéct Audio Klip",
+        "Inspector.Audio.FormatInfo" : "Vzorkovací Frekvence: {rate} Hz, Kanálů: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Délka: {duration}, Počet vzorků: {samples}",
+        "Inspector.Audio.EncodingInfo" : "Informace kodeku: {info}, Plně Dekódováno: {decoded}",
+
+        "Inspector.Audio.Normalize" : "Normalizovat Hlasitost",
+        "Inspector.Audio.AmplitudeThreshold" : "Prah Amplitudy:",
+        "Inspector.Audio.TrimSilence" : "Oříznout Ticho",
+        "Inspector.Audio.TrimStartSilence" : "Oříznout Ticho na Začátku",
+        "Inspector.Audio.TrimEndSilence" : "Oříznout Ticho na Konci",
+        "Inspector.Audio.PositionDuration" : "Pozice/Délka (v sekundách):",
+        "Inspector.Audio.TrimStart" : "Oříznout Začátek",
+        "Inspector.Audio.TrimEnd" : "Oříznout Konec",
+        "Inspector.Audio.FadeIn" : "Přidat Fade In",
+        "Inspector.Audio.FadeOut" : "Přidat Fade Out",
+        "Inspector.Audio.MakeLoopable" : "Učinit Opakovatelným (pomocí crossfade)",
+        "Inspector.Audio.ToWAV" : "Konvertovat na WAV",
+        "Inspector.Audio.ToVorbis" : "Konvertovat na OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Konvertovat na FLAC",
+
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "Nastavit z Potomků",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Nastavit z Potomků (vynutit všude)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Nastavit z Potomků (pouze rig)",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Nahradit Plynulé Transformace v potomcích",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Vyčistit Plynulé Transformace v potomcích",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Collidery & Uchopení -------",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Přidat pevné collidery z hierarchie (použitím rootu objektu)",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Vždy uchopit poslední bone",
         
         "Tutorial.Grab.MoveRotate" : "Posouvat/Rotovat chycené objekty",
         "Tutorial.Grab.Scale" : "Chytněte druhou rukou pro škálování",
