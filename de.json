@@ -1,7 +1,7 @@
 {
     "localeCode" : "de",
     "authors" : ["Avunia", "Elektrospy", "MR-Alex", "Schwefelhexafluorid", "Blaze", "Tillikum"],
-    "messages" : 
+    "messages" :
     {
         "General.OK" : "OK",
         "General.Cancel" : "Abbrechen",
@@ -55,6 +55,15 @@
         "Interaction.LaserDisabled" : "Laser aus",
         "Interaction.Locomotion" : "Fortbewegung",
         "Interaction.Locomotion.None" : "Keine",
+
+        "Interaction.NamedEquipTool" : "{name} ausrüsten",
+        "Interaction.NamedEquipTool.Default" : "Werkzeug",
+
+        "Interaction.EquipAvatar" : "Avatar ausrüsten",
+
+        "Interaction.SaveAsScreenshot" : "Als Bildschirmfoto speichern",
+        "Interaction.ImportFile" : "Datei importieren",
+        "Interaction.ExportFile" : "Datei exportieren",
 
         "Dash.Screens.Home" : "Home",
         "Dash.Screens.Worlds" : "Welten",
@@ -196,7 +205,6 @@
         "World.Category.Social" : "Sozial",
         "World.Category.Games" : "Spiele",
         "World.Category.Art" : "Kunst",
-
         "World.Category.Tutorials" : "Tutorials",
         "World.Category.Educational" : "Bildung",
         "World.Category.MyWorlds" : "Meine Welten",
@@ -331,9 +339,13 @@
         "Contacts.UnbanFromAllSessions" : "Für ALLE meine Sitzungen erlauben",
         "Contacts.BanFromCurrentWorld" : "Verbannen aus aktueller Welt",
         "Contacts.UnbanFromCurrentWorld" : "Entbannen für aktuelle Welt",
+        "Contacts.RecordingVoiceMessage" : "Aufnahme läuft...",
 
         "Contacts.InSession" : "In {name}",
         "Contacts.InPrivate" : "In privater Welt",
+        "Contacts.InFriendsOnly" : "In Freunde-exklusiver Welt",
+        "Contacts.InHidden" : "In versteckter Welt",
+        "Contacts.InLAN" : "In LAN-Welt",
         "Contacts.UsingDifferentVersion" : "Verwendet Version {version}",
         "Contacts.RequestSent" : "Anfrage gesendet",
         "Contacts.RequestReceived" : "Kontaktanfrage",
@@ -350,6 +362,7 @@
         "Notifications.TransferedCredits" : "Hat {amount} {token} überwiesen",
         "Notifications.ReceivedTip" : "Hat {amount} {token} empfangen",
         "Notifications.SentTip" : "Hat {amount} {token} gesendet",
+        "Notifications.VoiceMessage" : "Hat eine Sprachnachricht gesendet",
 
         "Undo.SetField" : "Setze Feld {field_name} auf {value}",
         "Undo.SetReference" : "Setze Referenz {ref_name} auf {ref_target}",
@@ -430,6 +443,14 @@
 
         "Tooltip.Mesh.Edit" : "Mesh bearbeiten",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Zum Aufnehmen gedrückt halten",
+        "Tooltip.Microphone.ModePress" : "Drücken zum Starten/Stoppen der Aufnahme",
+        "Tooltip.Microphone.SourceRaw" : "Ungefiltert",
+        "Tooltip.Microphone.SourceFiltered" : "Gefiltert & Normalisiert",
+
         "CreateNew.Back" : "<<< <i>Zurück</i>",
         "CreateNew.EmptyObject" : "Leeres Objekt",
         "CreateNew.ParticleSystem" : "Partikelsystem",
@@ -456,7 +477,7 @@
         "CreateNew.Text.Outline" : "Kontur",
 
         "CreateNew.Editor" : "Editor",
-        "CreateNew.Editor.UserInspector" : "User Inspektor",
+        "CreateNew.Editor.UserInspector" : "User-Inspektor",
         "CreateNew.Editor.LightSourcesWizard" : "Welt-Lichtquellen-Assistent",
         "CreateNew.Editor.AssetOptimizationWizard" : "Asset-Optimierungs-Assistent",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX-Transfer-Assistent",
@@ -503,6 +524,8 @@
         "AvatarCreator.AlignToolAnchors" : "Werkzeug-Ankerpunkte ausrichten",
         "AvatarCreator.Create" : "Erstellen",
 
+        "Importer.General.AsRawFile" : "Raw-Datei",
+
         "Importer.Folder.Title" : "Ordner-Import",
         "Importer.Folder.Individual" : "Separater Import",
         "Importer.Folder.Individual.Description" : "Erstellt einen separaten Import-Dialog für jede unterstützte Datei im Ordner",
@@ -530,7 +553,7 @@
         "Importer.Model.Regular" : "3D-Modell",
         "Importer.Model.3DScan" : "3D-Scan",
         "Importer.Model.CAD" : "CAD-Modell",
-        "Importer.Model.PointCloud" : "Punkte Wolke",
+        "Importer.Model.PointCloud" : "Punktwolke",
         "Importer.Model.VertexColorModel" : "Vertex-Farben-Modell",
         "Importer.Model.AdvancedSettings" : "Erweiterte Einstellungen",
         "Importer.Model.ModelKindPrompt" : "Was für eine Art von 3D-Modell?",
@@ -585,7 +608,7 @@
         "Importer.Model.Advanced.PositionAtOrigin" : "Positionierung am Urspungspunkt",
         "Importer.Model.Advanced.AssetsOnObject" : "Platziere Assets auf Objekt",
 
-        "Importer.Video.Title" : "Video Importer",
+        "Importer.Video.Title" : "Video-Importer",
         "Importer.Video.Prompt" : "Was möchten Sie importieren?",
         "Importer.Video.Regular" : "Video",
         "Importer.Video.360" : "360-Video",
@@ -844,9 +867,9 @@
         "Settings.ViveHandTracking.SnapDistance" : "Vive Hand Tracking Einrast Distanz",
         "Settings.ViveHandTracking.UseFingersWhenSnapped" : "Benutze Finger wenn Eingerastet",
 
-        "Settings.WindowsIntegration" : "Windows Integration",
-        "Settings.LinuxIntegration" : "Linux Integration",
-        
+        "Settings.WindowsIntegration" : "Windows-Integration",
+        "Settings.LinuxIntegration" : "Linux-Integration",
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Behalte das ursprüngliche Screenshot-Format bei",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Wenn diese Option aktiviert ist, werden Screenshots beim Speichern im Ordner \"Dokumente\" nicht ins JPG Format konvertiert",
 
@@ -887,17 +910,17 @@
         "Inspector.Mesh.StripBlendshapeNormals" : "Entferne Blendshape Normalen",
         "Inspector.Mesh.StripBlendshapeTangents" : "Entferne Blendshape Tangenten",
 
-        "Inspector.Mesh.GetBoneList" : "Hole Bone Liste",
-        "Inspector.Mesh.GetBoneData" : "Hole Bone Daten",
+        "Inspector.Mesh.GetBoneList" : "Hole Bone-Liste",
+        "Inspector.Mesh.GetBoneData" : "Hole Bone-Daten",
 
-        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "Trim Vertex Bone Weights To:",
+        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "Vertex-Bone-Gewichte kürzen auf:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Knochen} other {# Knochen}}",
         "Inspector.Mesh.UV_Multiplicator" : "Multiplikator:",
-        "Inspector.Mesh.ScaleUVs" : "Skaliere UV's",
+        "Inspector.Mesh.ScaleUVs" : "Skaliere UVs",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Submeshes mit dem selben Material zusammenführen",
         "Inspector.MeshRenderer.SplitByMaterial" : "Nach Material in separate Meshes aufteilen",
-        
+
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Trenne Teile des Meshes, welche nicht von Blendshapes betroffen sind",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Entferne leere Blendshapes",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Erledigt! entfernte: {n,plural, one {# blendshape} other {# blendshapes}}",
@@ -907,7 +930,7 @@
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Zeige ungefähre Begrenzungskugeln von zusammengeführten Knochen an",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Entferne Darstellung von Knochen Begrenzungsboxen",
 
-        "Inspector.BipedRig.GetDiagnosticInfo" : "Sammel Informationen zur Rig-Diagnose",
+        "Inspector.BipedRig.GetDiagnosticInfo" : "Sammle Informationen zur Rig-Diagnose",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Erzeuge Debug Darstellung",
         "Inspector.BipedRig.ClearDebugVisuals" : "Entferne Debug Darstellung",
         "Inspector.BipedRig.DetectHands" : "Erkenne Hand Rigs",
@@ -916,7 +939,7 @@
         "Inspector.BipedRig.HandRigResult" : "Erledigt! Hat Links: {left}, Hat Rechts: {right}",
         "Inspector.BipedRig.LeftHandRigResult" : "Erledigt! Links gefunden: {detected}",
         "Inspector.BipedRig.RightHandRigResult" : "Erledigt! Rechts gefunden: {detected}",
-        
+
         "Inspector.Texture.Size" : "Abmessung: {width} x {height}",
         "Inspector.Texture.Format" : "Format: {format}, Speicher: <nobr>{memory}</nobr>",
 
@@ -937,7 +960,7 @@
         "Inspector.Texture.Hue" : "Farbton:",
         "Inspector.Texture.ShiftHue" : "Farbton verschieben",
         "Inspector.Texture.Gamma" : "Gamma:",
-        "Inspector.Texture.AdjustGamma" : "Gamma Anpassen",
+        "Inspector.Texture.AdjustGamma" : "Gamma anpassen",
         "Inspector.Texture.LongestSide" : "Längste Seite:",
         "Inspector.Texture.Resize" : "Größe ändern",
         "Inspector.Texture.FlipHorizontal" : "Horizontal spiegeln",
@@ -951,12 +974,86 @@
         "Inspector.Texture.InvalidFloats" : "Diagnose: Ungültige floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnose: Generiere Bitmap-Metadaten",
 
+        "Inspector.Audio.BakeAudio" : "Audio-Clip zusammenfügen",
+        "Inspector.Audio.FormatInfo" : "Sample-Rate: {rate} Hz, Kanäle: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Dauer: {duration}, SampleCount: {samples}",
+        "Inspector.Audio.EncodingInfo" : "Codec-Info: {info}, Dekodiert: {decoded}",
+
+        "Inspector.Audio.Normalize" : "Lautstärke normalisieren",
+        "Inspector.Audio.AmplitudeThreshold" : "Amplituden-Grenzwert:",
+        "Inspector.Audio.TrimSilence" : "Stille trimmen",
+        "Inspector.Audio.TrimStartSilence" : "Stille am Anfang trimmen",
+        "Inspector.Audio.TrimEndSilence" : "Stille am Ende trimmen",
+        "Inspector.Audio.PositionDuration" : "Position/Dauer (in Sekunden):",
+        "Inspector.Audio.TrimStart" : "Anfang trimmen",
+        "Inspector.Audio.TrimEnd" : "Ende trimmen",
+        "Inspector.Audio.FadeIn" : "Fade-In hinzufügen",
+        "Inspector.Audio.FadeOut" : "Fade-Out hinzufügen",
+        "Inspector.Audio.MakeLoopable" : "Wiederholbar machen (durch crossfade)",
+        "Inspector.Audio.ToWAV" : "Konvertiere zu WAV",
+        "Inspector.Audio.ToVorbis" : "Konvertiere zu OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Konvertiere zu FLAC",
+
+        "Wizard.General.ProcessRoot" : "Root verarbeiten:",
+        "Wizard.General.Result" : "Ergebnis:",
+        "Wizard.General.ErrorNoRoot" : "Kein Root ausgewählt",
+        "Wizard.General.RemovedResult" : "{n} entfernt",
+
+        "Wizard.AssetOptimization.Title" : "Asset-Optimierungs-Wizard",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Ungenutzte Assets aufräumen",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Leere Slots aufräumen",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Deaktivierte Mesh Renderer aufräumen",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "Material-Duplikate aufräumen",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Datei-Items aufräumen",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Maximale Texturauflösung festlegen",
+        "Wizard.AssetOptimization.RecompressTextures" : "Texturen neu komprimieren",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Alle Tangenten neu berechnen (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Größe von {n} geändert",
+
+        "Tutorial.Grab.MoveRotate" : "Bewege/Rotiere gehaltene Items",
+        "Tutorial.Grab.Scale" : "Mit zweitem Controller greifen um zu skalieren",
+        "Tutorial.Grab.PullToEquip" : "Heranziehen um auszurüsten",
+        "Tutorial.Grab.UseHeld" : "Benutze primäre Aktion (ohne vorher auszurüsten)",
+        "Tutorial.Grab.ContextEquip" : "Kontextmenü nutzen, um auszurüsten oder auf Optionen zuzugreifen",
+        "Tutorial.Grab.EquipForFullUse" : "Ausrüsten, um alle Funktionen nutzen zu können",
+
+        "Tutorial.WorldOrb.Click" : "Klick World Orb",
+        "Tutorial.WorldOrb.Info" : "<b>World Orb</b>\n<size=80%>Repräsentiert eine Welt oder Sitzung\nDoppelklick - Betreten\nClick - Kontextmenü",
+
+        "Tutorial.Tooltip.GeneralPrimary" : "Benutzen",
+        "Tutorial.Tooltip.GeneralSecondary" : "Sekundäre Aktion",
+        "Tutorial.Tooltip.ContextMenu" : "Zugriff auf Werkzeugmenü und Ablege-Option",
+        "Tutorial.Tooltip.DevPrimary" : "Interagiere mit Gizmos (halten)",
+        "Tutorial.Tooltip.DevSecondary" : "Auswählen (zeigt Gizmos an)",
+        "Tutorial.Tooltip.Duplicator" : "Duplizieren (bei gehaltenem Item)",
+        "Tutorial.Tooltip.GluePrimary" : "Klebstoff auftragen (halten)",
+        "Tutorial.Tooltip.GlueSecondary" : "Klebstoff härten",
+        "Tutorial.Tooltip.ColorPrimary" : "Farbe auftragen",
+        "Tutorial.Tooltip.ColorSecondary" : "Farbe auswählen",
+        "Tutorial.Tooltip.Brush" : "Malen",
+        "Tutorial.Tooltip.MaterialPrimary" : "Material anwenden\n<size=75%>(Platziere Material-Kugel in der Pistole)</size>",
+        "Tutorial.Tooltip.MaterialSecondary" : "Material extrahieren\n<size=75%>(Stelle zunächst sicher, dass keine Material-Kugel vorliegt)</size>",
+        "Tutorial.Tooltip.MeshPrimary" : "Mesh ersetzen",
+        "Tutorial.Tooltip.MeshSecondary" : "Mesh extrahieren",
+        "Tutorial.Tooltip.CharacterColliderPrimary" : "Character Collider hinzufügen",
+        "Tutorial.Tooltip.CharacterColliderSecondary" : "Character Collider entfernen",
+        "Tutorial.Tooltip.GrabbableSetterPrimary" : "Greifbar machen",
+        "Tutorial.Tooltip.GrabbableSetterSecondary" : "Nicht-greifbar machen",
+        "Tutorial.Tooltip.LightPrimary" : "Licht erstellen (halten)",
+        "Tutorial.Tooltip.LightSecondary" : "Farbe ändern",
+        "Tutorial.Tooltip.MeshVisibilityPrimary" : "Sichtbar machen",
+        "Tutorial.Tooltip.MeshVisibilitySecondary" : "Unsichtbar machen",
+        "Tutorial.Tooltip.ShapePrimary" : "Form erstellen",
+        "Tutorial.Tooltip.ShapeSecondary" : "Form ändern",
+        "Tutorial.Tooltip.WigglerPrimary" : "Lasse unaussprechliches Übel auf die Welt los",
+        "Tutorial.Tooltip.WigglerSecondary" : "Erlöse deine Seele ein wenig",
+
         "Exiting.SavingItems" : "Speichere {n, plural, one {# Objekt} other {# Objekten}}...",
         "Exiting.SavingChanges" : "Speichere Änderungen...",
         "Exiting.Exiting" : "Beenden...",
         "Exiting.LoggingOut" : "Abmelden...",
 
-        "Temporary.MMC.Voting UI": "MMC Abstimm Oberfläche",
+        "Temporary.MMC.Voting UI": "MMC Abstimm-Oberfläche",
         "Temporary.MMC.Vote": "Abstimmen",
         "Temporary.MMC.Categories.Name": "Kategorien",
         "Temporary.MMC.Categories.Worlds": "Welten",
