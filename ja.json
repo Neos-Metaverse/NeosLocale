@@ -917,10 +917,10 @@
         "Inspector.Mesh.GetBoneList" : "ボーンのリストを取得",
         "Inspector.Mesh.GetBoneData" : "ボーンデータを取得",
 
-        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "頂点ボーンウェイトをかりとる:",
+        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "頂点に影響を与えるボーン数を制限:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, other {# ボーン}}",
         "Inspector.Mesh.UV_Multiplicator" : "乗数:",
-        "Inspector.Mesh.ScaleUVs" : "UVのスケール",
+        "Inspector.Mesh.ScaleUVs" : "UVをスケールする",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "同じマテリアル同士で結合",
         "Inspector.MeshRenderer.SplitByMaterial" : "マテリアルでメッシュを分ける",
