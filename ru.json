@@ -1,7 +1,7 @@
 {
     "localeCode" : "ru",
     "authors" : ["GhostZ36", "BrotiwkA", "Shadow Panther"],
-    "messages" : 
+    "messages" :
     {
         "General.OK" : "OK",
         "General.Cancel" : "Отмена",
@@ -63,6 +63,10 @@
         "Interaction.ExitAnchor" : "Встать",
 
         "Interaction.EquipAvatar" : "Надеть Аватар",
+
+        "Interaction.SaveAsScreenshot" : "Сохранить как скриншот",
+        "Interaction.ImportFile" : "Импортировать файл",
+        "Interaction.ExportFile" : "Экспортировать файл",
 
         "Dash.Screens.Home" : "Дом",
         "Dash.Screens.Worlds" : "Миры",
@@ -523,6 +527,8 @@
         "AvatarCreator.AlignToolAnchors" : "Свести точки Инструментов",
         "AvatarCreator.Create" : "Создать",
 
+        "Importer.General.AsRawFile" : "Сырой файл",
+
         "Importer.Folder.Title" : "Импорт Папки",
         "Importer.Folder.Individual" : "Индивидуальный импорт",
         "Importer.Folder.Individual.Description" : "Создаёт отдельный диалог импорта на каждый файл в папке",
@@ -867,7 +873,7 @@
 
         "Settings.WindowsIntegration" : "Интеграция с Windows",
         "Settings.LinuxIntegration" : "Интеграция с Linux",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Оставить оригинальный формат скриншота",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Когда включена эта настройка, скриншоты при сохранении в Документы не будут конвертированы в формат JPG",
 
@@ -1001,6 +1007,22 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Добавить фиксированные коллайдеры от иерархии (от корневого слота)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Всегда хватать последнюю кость",
 
+        "Wizard.General.ProcessRoot" : "Обработать Корень:",
+        "Wizard.General.Result" : "Результат:",
+        "Wizard.General.ErrorNoRoot" : "Корень не выбран",
+        "Wizard.General.RemovedResult" : "Убрано {n}",
+
+        "Wizard.AssetOptimization.Title" : "Мастер оптимизации ассетов",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Очистить неиспользуемые ассеты",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Очистить пустые слоты",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Очистить отключенные Mesh Renderer'ы",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "Дедуплицировать материалы",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Очистить файлы",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Установить максимальное разрешение текстур",
+        "Wizard.AssetOptimization.RecompressTextures" : "Пересжать текстуры",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Пересчитать все касательные (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Масштабировано {n}",
+
         "Tutorial.Grab.MoveRotate" : "Двигайте/Поворачивайте удерживаемые предметы",
         "Tutorial.Grab.Scale" : "Схватите другим контроллером для масштабирования",
         "Tutorial.Grab.PullToEquip" : "Подтяните к себе чтобы надеть",
@@ -1043,7 +1065,7 @@
         "Exiting.SavingChanges" : "Сохранение Изменений...",
         "Exiting.Exiting" : "Выход...",
         "Exiting.LoggingOut" : "Выход с аккаунта...",
-        
+
         "Temporary.MMC.Voting UI": "MMC Voting UI",
         "Temporary.MMC.Vote": "Голосование",
         "Temporary.MMC.Categories.Name": "Категории",
