@@ -34,7 +34,7 @@
         "Locomotion.WalkRun.Name" : "Gå/Spring",
         "Locomotion.WalkRun.Description" : "Fysiskt gående, springande och hoppande.",
         "Locomotion.WalkRunGripping.Name" : "Gå/Spring (med klättring)",
-        "Locomotion.WalkRunGripping.Description" : "Fysiskt gående, springande och hoppande och klättring.",
+        "Locomotion.WalkRunGripping.Description" : "Fysiskt gående, springande, hoppande samt klättring.",
         "Locomotion.ZeroG.Name" : "Zero-G",
         "Locomotion.ZeroG.Description" : "Viktlös fysisk förflyttning",
         "Locomotion.GrabWorld.Name" : "Greppa Värld",
