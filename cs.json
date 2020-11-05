@@ -826,6 +826,7 @@
         "Settings.LegacyGripEquip" : "Povolit dvoj-klik gripu pro nasazení nástrojů",
         "Settings.LegacyWorldSwitcher" : "Povolit starý přepínač světů",
         "Settings.FetchIncompatibleSessions" : "Zobrazit nekompatibilní relace",
+        "Settings.MaxConcurrentAssetTransfers" : "Maximální souběžné přenosy assetů",
 
         "Settings.LaserSmoothing.Header" : "Vyhlazování laseru",
         "Settings.LaserSmoothing.Speed" : "Rychlost vyhlazování",
@@ -1020,6 +1021,8 @@
         "Wizard.AssetOptimization.CleanupFileItems" : "Vyčistit předměty typu Soubor",
         "Wizard.AssetOptimization.MaxTextureResolution" : "Nastavit maximální rozlišení textury",
         "Wizard.AssetOptimization.RecompressTextures" : "Rekomprimovat textury",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Rekalkulovat všechny normály",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Rekalkulovat všechny normály (sloučené)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Rekalkulovat všechny tangenty (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Změněna velikost {n} položek",
         
