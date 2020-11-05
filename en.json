@@ -826,6 +826,7 @@
         "Settings.LegacyGripEquip" : "Enable Legacy Double Grip Equip",
         "Settings.LegacyWorldSwitcher" : "Enable Legacy World Switcher",
         "Settings.FetchIncompatibleSessions" : "Show Incompatible Sessions",
+        "Settings.MaxConcurrentAssetTransfers" : "Max Concurrent Asset Transfers",
 
         "Settings.LaserSmoothing.Header" : "Laser Smoothing",
         "Settings.LaserSmoothing.Speed" : "Smooth Speed",
@@ -1020,6 +1021,8 @@
         "Wizard.AssetOptimization.CleanupFileItems" : "Cleanup File Items",
         "Wizard.AssetOptimization.MaxTextureResolution" : "Set Max Texture Resolution",
         "Wizard.AssetOptimization.RecompressTextures" : "Recompress Textures",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Recalculate All Normals",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Recalculate All Normals (merged)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Recalculate All Tangents (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Resized {n}",
 

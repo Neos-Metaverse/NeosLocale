@@ -2,82 +2,9 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Czech [cs]
-Locomotion.GrabWorld.Name  
-Locomotion.GrabWorld.Description  
-Locomotion.Slide.Name  
-Locomotion.Slide.Description  
-Interaction.SaveAsScreenshot  
-Interaction.ImportFile  
-Interaction.ExportFile  
-Contacts.RecordingVoiceMessage  
-Notifications.VoiceMessage  
-Tooltip.Microphone.Format.WAV  
-Tooltip.Microphone.Format.Vorbis  
-Tooltip.Microphone.Format.FLAC  
-Tooltip.Microphone.ModeHold  
-Tooltip.Microphone.ModePress  
-Tooltip.Microphone.SourceRaw  
-Tooltip.Microphone.SourceFiltered  
-Importer.General.AsRawFile  
-Inspector.MeshRenderer.MergeByMaterial  
-Inspector.MeshRenderer.SplitByMaterial  
-Inspector.SkinnedMesh.SeparateOutBlendshapes  
-Inspector.SkinnedMesh.StripEmptyBlendshapes  
-Inspector.SkinnedMesh.StripBlendshapesResult  
-Inspector.SkinnedMesh.StripEmptyBones  
-Inspector.SkinnedMesh.StripBonesResult  
-Inspector.SkinnedMesh.VisualizeBoneBounds  
-Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
-Inspector.SkinnedMesh.ClearBoundsVisuals  
-Inspector.BipedRig.GetDiagnosticInfo  
-Inspector.BipedRig.GenerateDebugVisuals  
-Inspector.BipedRig.ClearDebugVisuals  
-Inspector.BipedRig.DetectHands  
-Inspector.BipedRig.DetectLeftHand  
-Inspector.BipedRig.DetectRightHand  
-Inspector.BipedRig.HandRigResult  
-Inspector.BipedRig.LeftHandRigResult  
-Inspector.BipedRig.RightHandRigResult  
-Inspector.Audio.BakeAudio  
-Inspector.Audio.FormatInfo  
-Inspector.Audio.Duration  
-Inspector.Audio.EncodingInfo  
-Inspector.Audio.Normalize  
-Inspector.Audio.AmplitudeThreshold  
-Inspector.Audio.TrimSilence  
-Inspector.Audio.TrimStartSilence  
-Inspector.Audio.TrimEndSilence  
-Inspector.Audio.PositionDuration  
-Inspector.Audio.TrimStart  
-Inspector.Audio.TrimEnd  
-Inspector.Audio.FadeIn  
-Inspector.Audio.FadeOut  
-Inspector.Audio.MakeLoopable  
-Inspector.Audio.ToWAV  
-Inspector.Audio.ToVorbis  
-Inspector.Audio.ToFLAC  
-Inspector.DynamicBoneChain.SetupFromChildren  
-Inspector.DynamicBoneChain.SetupFromChildrenAll  
-Inspector.DynamicBoneChain.SetupFromChildrenRig  
-Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
-Inspector.DynamicBoneChain.ClearSmoothTransforms  
-Inspector.DynamicBoneChain.CollidersGrabbingHeader  
-Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
-Inspector.DynamicBoneChain.AlwaysGrabLastBone  
-Wizard.General.ProcessRoot  
-Wizard.General.Result  
-Wizard.General.ErrorNoRoot  
-Wizard.General.RemovedResult  
-Wizard.AssetOptimization.Title  
-Wizard.AssetOptimization.CleanupUnusedAssets  
-Wizard.AssetOptimization.CleanupEmptySlots  
-Wizard.AssetOptimization.CleanupDisabledMeshRenderers  
-Wizard.AssetOptimization.DeduplicateMaterials  
-Wizard.AssetOptimization.CleanupFileItems  
-Wizard.AssetOptimization.MaxTextureResolution  
-Wizard.AssetOptimization.RecompressTextures  
-Wizard.AssetOptimization.RecalculateAllTangents  
-Wizard.AssetOptimization.ResizedResult  
+Settings.MaxConcurrentAssetTransfers  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 
 # German [de]
 Interaction.NamedEquipTool  
@@ -101,6 +28,7 @@ Tooltip.Microphone.ModePress
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
 Importer.General.AsRawFile  
+Settings.MaxConcurrentAssetTransfers  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
@@ -139,6 +67,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Tutorial.Grab.MoveRotate  
@@ -893,6 +823,7 @@ Settings.PreferSteamNetworking
 Settings.LegacyGripEquip  
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
+Settings.MaxConcurrentAssetTransfers  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -1055,6 +986,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Tutorial.Grab.MoveRotate  
@@ -1107,6 +1040,11 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
+# Esperanto [eo]
+Settings.MaxConcurrentAssetTransfers  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
+
 # Spanish [es]
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
@@ -1114,6 +1052,7 @@ Interaction.ExportFile
 Contacts.RecordingVoiceMessage  
 Notifications.VoiceMessage  
 Importer.General.AsRawFile  
+Settings.MaxConcurrentAssetTransfers  
 Inspector.Audio.BakeAudio  
 Wizard.General.ProcessRoot  
 Wizard.General.Result  
@@ -1127,6 +1066,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 
@@ -1152,6 +1093,7 @@ Tooltip.Microphone.ModePress
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
 Importer.General.AsRawFile  
+Settings.MaxConcurrentAssetTransfers  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
@@ -1190,6 +1132,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Tutorial.Grab.MoveRotate  
@@ -1580,6 +1524,7 @@ CameraControl.OBS.FPS
 CameraControl.OBS.DroppedFrames  
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
+Settings.MaxConcurrentAssetTransfers  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
 Settings.LeapMotion.UseFingersWhenSnapped  
@@ -1718,6 +1663,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Tutorial.Grab.MoveRotate  
@@ -1794,6 +1741,7 @@ Tooltip.Microphone.ModePress
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
 Importer.General.AsRawFile  
+Settings.MaxConcurrentAssetTransfers  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
@@ -1832,6 +1780,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Tutorial.Grab.MoveRotate  
@@ -2266,6 +2216,7 @@ Settings.PreferSteamNetworking
 Settings.LegacyGripEquip  
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
+Settings.MaxConcurrentAssetTransfers  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -2416,6 +2367,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Tutorial.Grab.MoveRotate  
@@ -2465,11 +2418,22 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
+# Japanese [ja]
+Settings.MaxConcurrentAssetTransfers  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
+
+# Korean [ko]
+Settings.MaxConcurrentAssetTransfers  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
+
 # Dutch [nl]
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
 Importer.General.AsRawFile  
+Settings.MaxConcurrentAssetTransfers  
 Wizard.General.ProcessRoot  
 Wizard.General.Result  
 Wizard.General.ErrorNoRoot  
@@ -2482,6 +2446,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Temporary.MMC.Voting UI  
@@ -2519,6 +2485,7 @@ Tooltip.Microphone.ModePress
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
 Importer.General.AsRawFile  
+Settings.MaxConcurrentAssetTransfers  
 Inspector.MeshRenderer.MergeByMaterial  
 Inspector.MeshRenderer.SplitByMaterial  
 Inspector.SkinnedMesh.SeparateOutBlendshapes  
@@ -2576,6 +2543,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Tutorial.Grab.MoveRotate  
@@ -2614,25 +2583,15 @@ Tutorial.Tooltip.ShapeSecondary
 Tutorial.Tooltip.WigglerPrimary  
 Tutorial.Tooltip.WigglerSecondary  
 
+# Polish [pl]
+Settings.MaxConcurrentAssetTransfers  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
+
 # Russian [ru]
-Interaction.SaveAsScreenshot  
-Interaction.ImportFile  
-Interaction.ExportFile  
-Importer.General.AsRawFile  
-Wizard.General.ProcessRoot  
-Wizard.General.Result  
-Wizard.General.ErrorNoRoot  
-Wizard.General.RemovedResult  
-Wizard.AssetOptimization.Title  
-Wizard.AssetOptimization.CleanupUnusedAssets  
-Wizard.AssetOptimization.CleanupEmptySlots  
-Wizard.AssetOptimization.CleanupDisabledMeshRenderers  
-Wizard.AssetOptimization.DeduplicateMaterials  
-Wizard.AssetOptimization.CleanupFileItems  
-Wizard.AssetOptimization.MaxTextureResolution  
-Wizard.AssetOptimization.RecompressTextures  
-Wizard.AssetOptimization.RecalculateAllTangents  
-Wizard.AssetOptimization.ResizedResult  
+Settings.MaxConcurrentAssetTransfers  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 
 # Swedish [sv]
 Interaction.NamedEquipTool  
@@ -3313,6 +3272,7 @@ Settings.PreferSteamNetworking
 Settings.LegacyGripEquip  
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
+Settings.MaxConcurrentAssetTransfers  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -3481,6 +3441,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Tutorial.Grab.MoveRotate  
@@ -3558,6 +3520,7 @@ Tooltip.Microphone.ModePress
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
 Importer.General.AsRawFile  
+Settings.MaxConcurrentAssetTransfers  
 Settings.LeapMotion.UseFingersWhenSnapped  
 Settings.ViveHandTracking.UseFingersWhenSnapped  
 Inspector.MeshRenderer.MergeByMaterial  
@@ -3617,6 +3580,8 @@ Wizard.AssetOptimization.DeduplicateMaterials
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.AssetOptimization.MaxTextureResolution  
 Wizard.AssetOptimization.RecompressTextures  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
 Tutorial.Grab.MoveRotate  
@@ -3654,4 +3619,14 @@ Tutorial.Tooltip.ShapePrimary
 Tutorial.Tooltip.ShapeSecondary  
 Tutorial.Tooltip.WigglerPrimary  
 Tutorial.Tooltip.WigglerSecondary  
+
+# Chinese (Simplified, China) [zh-cn]
+Settings.MaxConcurrentAssetTransfers  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
+
+# Chinese (Traditional, Taiwan) [zh-tw]
+Settings.MaxConcurrentAssetTransfers  
+Wizard.AssetOptimization.RecalculateAllNormals  
+Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 
