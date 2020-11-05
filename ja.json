@@ -1,7 +1,7 @@
 {
     "localeCode" : "ja",
-    "authors" : ["orange" , "Melnus"],
-    "messages" : 
+    "authors" : ["orange" , "Melnus" , "Aesc"],
+    "messages" :
     {
         "General.OK" : "OK",
         "General.Cancel" : "キャンセル",
@@ -14,11 +14,11 @@
         "General.FAILED" : "失敗",
         "General.Reset" : "リセット",
         "General.WorldOpenConfirm" : "本当に開きますか?",
-        "General.Saved" : "セーブ完了!",  
+        "General.Saved" : "セーブ完了!",
         "General.Done" : "完了!",
         "General.CopiedToClipboard" : "コピー完了!",
         "General.CopiedToClipboardLong" : "クリップボードにコピー完了!",
-             
+
         "General.UI.SearchPrompt" : "検索...",
         "General.UI.SearchPromptLong" : "入力して検索...",
 
@@ -101,7 +101,7 @@
         "World.Connection.RequestingJoin" : "参加をリクエストしています",
         "World.Connection.Authenticating" : "認証中",
         "World.Connection.Connected" : "接続完了",
-        "World.Connection.SyncingInitialState" : "世界の初期状態を同期",
+        "World.Connection.SyncingInitialState" : "ワールドの初期状態を同期中",
 
         "World.Error.AccessDenied" : "アクセスが拒否されました",
         "World.Error.SecurityViolation" : "セキュリティ違反",
@@ -121,7 +121,7 @@
 
         "World.Config.Name" : "ワールド名:",
         "World.Config.Description" : "説明:",
-        "World.Config.MaxUsers" : "最大ユーザ:",
+        "World.Config.MaxUsers" : "最大ユーザー数:",
         "World.Config.MobileFriendly" : "モバイルフレンドリー",
         "World.Config.SaveOptionsHeader" : "ワールド保存:",
         "World.Config.EditMode" : "エディットモード:",
@@ -212,7 +212,7 @@
         "World.Category.Educational" : "教育",
         "World.Category.MyWorlds" : "自分のワールド",
         "World.Category.Custom" : "カスタム",
- 
+
         "World.AccessLevel.Anyone" : "誰でも",
         "World.AccessLevel.RegisteredUsers" : "登録ユーザー",
         "World.AccessLevel.Friends" : "フレンド",
@@ -374,7 +374,7 @@
         "Undo.SpawnComponent" : "{slot_name} に {component_type} をアタッチ",
         "Undo.DuplicateComponent" : "コンポーネントを複製",
         "Undo.DestroyComponent" : "{slot_name} の {component_type} を破棄",
-        "Undo.Transform" : "{name} を移動",        
+        "Undo.Transform" : "{name} を移動",
         "Undo.Translate" : "平行移動",
         "Undo.TranslateAlongAxis" : "軸に沿って平行移動",
         "Undo.RotateAroundAxis" : "軸を中心に回転",
@@ -430,7 +430,7 @@
         "Tooltip.MeshVisibility.ShadowOff" : "影を無効にする",
         "Tooltip.MeshVisibility.ShadowOn" : "影を有効にする",
         "Tooltip.MeshVisibility.OnlyShadow" : "影のみに設定",
-        "Tooltip.MeshVisibility.DoubleSidedShadow" : "両面の影に設定する",
+        "Tooltip.MeshVisibility.DoubleSidedShadow" : "影を両面に設定",
 
         "Tooltip.Slicer.Add" : "スライサーを追加",
         "Tooltip.Slicer.Clear" : "設定をクリア",
@@ -459,7 +459,7 @@
         "CreateNew.ParticleSystem" : "パーティクルシステム",
 
         "CreateNew.Object" : "オブジェクト",
-        "CreateNew.Object.AvatarCreator" : "アバタークリエイタ",
+        "CreateNew.Object.AvatarCreator" : "アバタークリエイター",
         "CreateNew.Object.Camera" : "カメラ",
         "CreateNew.Object.Mirror" : "ミラー",
         "CreateNew.Object.Portal" : "ポータル",
@@ -473,14 +473,14 @@
         "CreateNew.Object.FogVolume.Additive" : "加算(Additive)",
         "CreateNew.Object.FogVolume.Alpha" : "アルファ",
         "CreateNew.Object.FogVolume.Multiplicative" : "乗算(Multiplicative)",
-        "CreateNew.Object.FogVolume.Gradient" : "勾配",
+        "CreateNew.Object.FogVolume.Gradient" : "グラデーション",
 
         "CreateNew.Text" : "テキスト",
         "CreateNew.Text.Basic" : "ベーシック",
         "CreateNew.Text.Outline" : "アウトライン",
 
         "CreateNew.Editor" : "エディタ",
-        "CreateNew.Editor.UserInspector" : "ユーザインスペクタ",
+        "CreateNew.Editor.UserInspector" : "ユーザインスペクター",
         "CreateNew.Editor.LightSourcesWizard" : "ワールド光源ウィザード",
         "CreateNew.Editor.AssetOptimizationWizard" : "アセット最適化ウィザード",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX転送ウィザード",
@@ -544,12 +544,12 @@
         "Importer.Image.180" : "180 フォト",
         "Importer.Image.Stereo180" : "ステレオ 180 フォト",
         "Importer.Image.LUT" : "ルックアップテーブル(LUT)",
-        
+
         "Importer.ImageVideo.LayoutPrompt" : "どのレイアウトを使用していますか?",
-        "Importer.ImageVideo.LayoutHorizontalLR" : "LR 平行にする",
-        "Importer.ImageVideo.LayoutHorizontalRL" : "RL 平行にする",
-        "Importer.ImageVideo.LayoutVerticalLR" : "LR 上下にする",
-        "Importer.ImageVideo.LayoutVerticalRL" : "RL 上下にする",
+        "Importer.ImageVideo.LayoutHorizontalLR" : "サイドバイサイド LR",
+        "Importer.ImageVideo.LayoutHorizontalRL" : "サイドバイサイド RL",
+        "Importer.ImageVideo.LayoutVerticalLR" : "トップアンドボトム LR",
+        "Importer.ImageVideo.LayoutVerticalRL" : "トップアンドボトム RL",
 
         "Importer.Model.Title" : "モデルインポーター",
         "Importer.Model.Prompt" : "インポートしようとしているものはなんですか?",
@@ -570,8 +570,8 @@
         "Importer.Model.Centimeters" : "センチメートル(cm)",
         "Importer.Model.Inches" : "インチ",
         "Importer.Model.FinalizePrompt" : "これでよろしいですか?",
-        "Importer.Model.RunImport" : "インポート実行",       
-        
+        "Importer.Model.RunImport" : "インポート実行",
+
         "Importer.Model.Advanced.Scale" : "スケール: ",
         "Importer.Model.Advanced.AutoScale" : "自動スケール",
         "Importer.Model.Advanced.MaxTexSize" : "最大テクスチャサイズ",
@@ -873,7 +873,7 @@
 
         "Settings.WindowsIntegration" : "Windows Integration",
         "Settings.LinuxIntegration" : "Linux Integration",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "元のスクリーンショット形式を維持する",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "有効にすると、ドキュメントフォルダーに保存したときにスクリーンショットがJPGに変換されません。",
 
@@ -917,10 +917,10 @@
         "Inspector.Mesh.GetBoneList" : "ボーンのリストを取得",
         "Inspector.Mesh.GetBoneData" : "ボーンデータを取得",
 
-        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "頂点ボーンウェイトをかりとる:",
+        "Inspector.Mesh.TrimVertexBoneWeightsTo" : "頂点に影響を与えるボーン数を制限:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, other {# ボーン}}",
         "Inspector.Mesh.UV_Multiplicator" : "乗数:",
-        "Inspector.Mesh.ScaleUVs" : "UVのスケール",
+        "Inspector.Mesh.ScaleUVs" : "UVをスケールする",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "同じマテリアル同士で結合",
         "Inspector.MeshRenderer.SplitByMaterial" : "マテリアルでメッシュを分ける",
@@ -997,7 +997,7 @@
         "Inspector.Audio.ToWAV" : "WAVに変換",
         "Inspector.Audio.ToVorbis" : "OGG Vorbisに変換",
         "Inspector.Audio.ToFLAC" : "FLACに変換",
-        
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "子にしたものをセットアップします",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "子にしたものを“強制的にすべて”セットアップします",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "子にしたものを“リグのみ”セットアップします",
@@ -1018,9 +1018,9 @@
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "非表示のメッシュレンダラを削除",
         "Wizard.AssetOptimization.DeduplicateMaterials" : "マテリアルの重複排除",
         "Wizard.AssetOptimization.CleanupFileItems" : "ファイルアイテムの削除",
-        "Wizard.AssetOptimization.MaxTextureResolution" : "テクスチャ解像度を最大に設定",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "最大テクスチャ解像度を設定",
         "Wizard.AssetOptimization.RecompressTextures" : "テクスチャの再圧縮",
-        "Wizard.AssetOptimization.RecalculateAllTangents" : "全タンジェント(Mikktspace)の再計算",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "全タンジェントの再計算(Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "変換完了 {n}",
 
         "Tutorial.Grab.MoveRotate" : "持っているアイテムの移動/展開",
