@@ -826,6 +826,7 @@
         "Settings.LegacyGripEquip": "Ebligi Heredaĵan Duoblan Grip-Ekipaĵon",
         "Settings.LegacyWorldSwitcher": "Ebligi Legacy World Switcher",
         "Settings.FetchIncompatibleSessions": "Montri Nekongruajn Sesiojn",
+        "Settings.MaxConcurrentAssetTransfers" : "Maksimumaj Samtempaj Aktaj Translokigoj",
 
         "Settings.LaserSmoothing.Header": "Lasera Glatigado",
         "Settings.LaserSmoothing.Speed": "Glata Rapido",
@@ -1020,6 +1021,8 @@
         "Wizard.AssetOptimization.CleanupFileItems": "Purigaj dosieraj eroj",
         "Wizard.AssetOptimization.MaxTextureResolution": "Agordi Maksimuman Teksturan Rezolucion",
         "Wizard.AssetOptimization.RecompressTextures": "Rekompremi teksturojn",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Rekalkuli Ĉiujn Normalaĵojn",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Rekalkuli Ĉiujn Normalaĵojn (kunfanditajn)",
         "Wizard.AssetOptimization.RecalculateAllTangents": "Rekalkuli ĉiujn tangentojn (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult": "Grandigita {n}",
 
