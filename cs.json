@@ -1,6 +1,6 @@
 {
     "localeCode" : "cs",
-    "authors" : ["Frooxius"],
+    "authors" : ["Frooxius", "rampa_3"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -8,7 +8,7 @@
         "General.Continue" : "Pokračovat",
         "General.Next" : "Další",
         "General.Back" : "Zpět",
-        "General.Confirm" : "Potvrdit?",
+        "General.Confirm" : "Opravdu?",
         "General.Loading" : "Nahrávám...",
         "General.Processing" : "Zpracovávám...",
         "General.FAILED" : "CHYBA",
@@ -25,7 +25,6 @@
         "General.Sort.Ascending" : "Vzestupně",
         "General.Sort.Descending" : "Sestupně",
 
-        
         "Locomotion.Noclip.Name" : "Noclip",
         "Locomotion.Noclip.Description" : "Umožňuje volný pohyb skrze objekty, vhodný pro editování",
         "Locomotion.Teleport.Name" : "Teleportace",
@@ -36,8 +35,12 @@
         "Locomotion.WalkRun.Description" : "Fyzický pohyb včetně skákání",
         "Locomotion.WalkRunGripping.Name" : "Chůze/Běh (se šplháním)",
         "Locomotion.WalkRunGripping.Description" : "Fyzický pohyb včetně skákání a šplhání",
-        "Locomotion.ZeroG.Name" : "Beztíže",
+        "Locomotion.ZeroG.Name" : "Stav Beztíže",
         "Locomotion.ZeroG.Description" : "Fyzikální pohyb bez gravitace",
+        "Locomotion.GrabWorld.Name" : "Zachytávání se světa",
+        "Locomotion.GrabWorld.Description" : "Vytvoří kotvu světa s referencí a přesouvá uživatele relativně k ní.",
+        "Locomotion.Slide.Name" : "Posun",
+        "Locomotion.Slide.Description" : "Jednoduchý posuvný pohyb, který se zachytává povrchu, pokud je přítomen, jinak létá.",
        
         "Interaction.Destroy" : "Odstranit",
         "Interaction.Duplicate" : "Duplikovat",
@@ -60,6 +63,10 @@
         "Interaction.ExitAnchor" : "Vystoupit",
 
         "Interaction.EquipAvatar" : "Převtělit se do avatara",
+
+        "Interaction.SaveAsScreenshot" : "Uložit jako Screenshot",
+        "Interaction.ImportFile" : "Importovat Soubor",
+        "Interaction.ExportFile" : "Exportovat Soubor",
 
         "Dash.Screens.Home" : "Hlavní",
         "Dash.Screens.Worlds" : "Světy",
@@ -252,8 +259,8 @@
 
         "Options.FreeformDash.On" : "Nakláněcí dash: Zapnutý",
         "Options.FreeformDash.Off" : "Nakláněcí dash: Vypnutý",
-        "Options.SeatedMode.On" : "Sedící režim: Zapnutý",
-        "Options.SeatedMode.Off" : "Sedící režim: Vypnutý",
+        "Options.SeatedMode.On" : "Režim v sedě: Zapnutý",
+        "Options.SeatedMode.Off" : "Režim v sedě: Vypnutý",
 
         "Indicator.OnlineUsers" : "Online uživatelé: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Server:</color> {status, select, Good {Dobrý} Slow {Pomalý} Down {Spadl} NoInternet {Bez internetu}} ({response_ms} ms)",
@@ -317,9 +324,9 @@
         "Session.Permission.PermissionOverrideCount" : "Počet uživatelů s individuálními právy: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Smazat individuální práva",
 
-        "User.Actions.Mute" : "Zlutmit",
+        "User.Actions.Mute" : "Ztlumit",
         "User.Actions.Jump" : "Skočit",
-        "User.Actions.Respawn" : "Resetovat",
+        "User.Actions.Respawn" : "Respawnovat",
         "User.Actions.Silence" : "Ztišit",
         "User.Actions.Kick" : "Odpojit",
         "User.Actions.Ban" : "Zabanovat",
@@ -331,10 +338,11 @@
         "Contacts.IgnoreRequest" : "Ignorovat kontakt",
         "Contacts.Invite" : "Pozvat do světa",
         "Contacts.SendCredits" : "Poslat kredity",
-        "Contacts.BanFromAllSessions" : "Zabanovat ze VŠECH mých světů",
-        "Contacts.UnbanFromAllSessions" : "Odbanovat ze VŠECH mých světů",
+        "Contacts.BanFromAllSessions" : "Zabanovat ze VŠECH mých relací",
+        "Contacts.UnbanFromAllSessions" : "Odbanovat ze VŠECH mých relací",
         "Contacts.BanFromCurrentWorld" : "Zabanovat z aktuálního světa",
         "Contacts.UnbanFromCurrentWorld" : "Odbanovat z aktuálního světa",
+        "Contacts.RecordingVoiceMessage" : "Nahrávám hlasovou zprávu...",
 
         "Contacts.InSession" : "Ve {name}",
         "Contacts.InPrivate" : "V privátním světě",
@@ -357,6 +365,7 @@
         "Notifications.TransferedCredits" : "Přesunul {amount} {token}",
         "Notifications.ReceivedTip" : "Poslal tip {amount} {token}",
         "Notifications.SentTip" : "Poslal tip {amount} {token}",
+        "Notifications.VoiceMessage" : "Poslal hlasovou zprávu",
 
         "Undo.SetField" : "Nastavit hodnotu {field_name} na {value}",
         "Undo.SetReference" : "Nastavit referenci {ref_name} na {ref_target}",
@@ -410,17 +419,17 @@
         "Tooltip.CharacterCollider.MarkGrippable" : "Nastavit jako úchyt",
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Nenastatovat jako úchyt",
         "Tooltip.CharacterCollider.EnsureWalkRun" : "Nainstalovat Chůzi/Běh",
-        "Tooltip.CharacterCollider.EnsureZeroG" : "Nainstalovat mód beztíže",
+        "Tooltip.CharacterCollider.EnsureZeroG" : "Nainstalovat mód stavu beztíže",
         "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Nainstalovat fyzikální létání",
 
         "Tooltip.Light.Point" : "Bodové",
         "Tooltip.Light.Spot" : "Kůželové",
         "Tooltip.Light.Sun" : "Pohyb Slunce",
 
-        "Tooltip.MeshVisibility.KeepShadow" : "Neměnit stín",
+        "Tooltip.MeshVisibility.KeepShadow" : "Zachovat stín",
         "Tooltip.MeshVisibility.ShadowOff" : "Vypnout stín",
         "Tooltip.MeshVisibility.ShadowOn" : "Zapnout stín",
-        "Tooltip.MeshVisibility.OnlyShadow" : "Nastavít na jenom stín",
+        "Tooltip.MeshVisibility.OnlyShadow" : "Nastavít pouze na stín",
         "Tooltip.MeshVisibility.DoubleSidedShadow" : "Nastavit oboustraný stín",
 
         "Tooltip.Slicer.Add" : "Přidat řez",
@@ -436,6 +445,14 @@
         "Tooltip.Material.CreateNew" : "Vytvořit nový",
 
         "Tooltip.Mesh.Edit" : "Editovat mesh",
+
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Držet pro nahrávání",
+        "Tooltip.Microphone.ModePress" : "Stisknout pro spuštění/zastavení nahrávání",
+        "Tooltip.Microphone.SourceRaw" : "Nezpracovaný",
+        "Tooltip.Microphone.SourceFiltered" : "Filtrovaný & Normalizovaný",
 
         "CreateNew.Back" : "<<< <i>Zpět</i>",
         "CreateNew.EmptyObject" : "Prázdný objekt",
@@ -510,6 +527,8 @@
         "AvatarCreator.AlignToolAnchors" : "Zarovat reference nástrojů",
         "AvatarCreator.Create" : "Vytvořit",
 
+        "Importer.General.AsRawFile" : "Nezpracovaný Soubor",
+
         "Importer.Folder.Title" : "Import složky",
         "Importer.Folder.Individual" : "Individuální import",
         "Importer.Folder.Individual.Description" : "Vytvoří individuální dialog pro každý soubor v složce",
@@ -563,7 +582,7 @@
         "Importer.Model.Advanced.Normals" : "Spočítat Normály",
         "Importer.Model.Advanced.Tangents" : "Spočítat Tangenty",
         "Importer.Model.Advanced.VertexColors" : "Importovat barvy vertexů",
-        "Importer.Model.Advanced.Bones" : "Imporotovat kosti",
+        "Importer.Model.Advanced.Bones" : "Importovat kosti",
         "Importer.Model.Advanced.TextureAlpha" : "Detekovat průhlednost textur",
         "Importer.Model.Advanced.AlbedoColor" : "Importovat albedo barvy",
         "Importer.Model.Advanced.ImportEmissive" : "Importovat emisivní barvy",
@@ -575,7 +594,7 @@
         "Importer.Model.Advanced.ImportExternalTextures" : "Importovat externí textury",
         "Importer.Model.Advanced.SkinnedMeshes" : "Importovat skinované meshe",
         "Importer.Model.Advanced.SetupIK" : "Nastavit IK",
-        "Importer.Model.Advanced.VisualizeRig" : "Viziualizovat kostru",
+        "Importer.Model.Advanced.VisualizeRig" : "Vizualizovat kostru",
         "Importer.Model.Advanced.ForceTpose" : "Vynutit T-pózu",
         "Importer.Model.Advanced.ForcePointCloud" : "Jako mračno bodů",
 
@@ -722,12 +741,12 @@
         "CameraControl.OpenCloseUsers" : "Uživatelé",
         "CameraControl.CreateCameraAnchor" : "Vytvořit kotvu",
 
-        "CameraControl.Anchors.Interpolate" : "Plynule animovat mezi kotvami",
+        "CameraControl.Anchors.Interpolate" : "Plynule interpolovat mezi kotvami",
         "CameraControl.Anchors.InterpolationSpeed" : "Rychlost interpolace:",
         "CameraControl.Anchors.NoAnchors" : "Nenalezeny žádné kotvy pro kameru",
 
         "CameraControl.Positioning.FieldOfView" : "Úhel pohledu",
-        "CameraControl.Positioning.AngleOffset" : "Offset kolem cíle",
+        "CameraControl.Positioning.AngleOffset" : "Offset úhlu kolem cíle",
         "CameraControl.Positioning.Distance" : "Vzdálenost",
         "CameraControl.Positioning.Height" : "Výška",
         "CameraControl.Positioning.FirstPersonPitch" : "Vertikální náklon pohledu",
@@ -747,7 +766,7 @@
         "CameraControl.Control.FramingSmoothSpeed" : "Rychlost vyhlazování rámování: {n}",
 
 
-        "CameraControl.OBS.IP" : "IP Adresa OBS:",
+        "CameraControl.OBS.IP" : "IP Adresa rozhraní OBS:",
         "CameraControl.OBS.Password" : "Heslo (není povinné):",
         "CameraControl.OBS.Connect" : "Připojit k OBS",
         "CameraControl.OBS.Instructions" : "Ujistětě se že OBS je spuštěný a máte nainstalovaný Websocket rozšíření",
@@ -785,7 +804,7 @@
         "Settings.Metric" : "Metrická (cm)",
         "Settings.Imperial" : "Imperiální (ft)",
 
-        "Settings.OverrideLocale" : "Použít lokalizaci/jazyk:",
+        "Settings.OverrideLocale" : "Vynutit lokalizaci/jazyk:",
         "Settings.HideAllTutorials" : "Skrýt všechny tutoriály",
         "Settings.ShowInteractionHints" : "Zobrazit popisky interakcí",
         "Settings.PrimaryController" : "Primární ovladač",
@@ -903,6 +922,28 @@
         "Inspector.Mesh.UV_Multiplicator" : "Násobič:",
         "Inspector.Mesh.ScaleUVs" : "Škálovat UV",
 
+        "Inspector.MeshRenderer.MergeByMaterial" : "Sloučit submeshe se stejným materiálem",
+        "Inspector.MeshRenderer.SplitByMaterial" : "Rozdělit do samostatných meshů dle materiálu",
+
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Oddělit části meshe neovlivněné blendshapes",
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Odstranit přebytečné prázdné blendshapes",
+        "Inspector.SkinnedMesh.StripBlendshapesResult" : "Hotovo! Odstraněno: {n,plural, one {# blendshape} other {# blendshapes}}",
+        "Inspector.SkinnedMesh.StripEmptyBones" : "Odstranit přebytečné prázdné bones",
+        "Inspector.SkinnedMesh.StripBonesResult" : "Hotovo! Odstraněno: {n,plural, one {# bone} other {# bones}}",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Vizualizovat bone bounding box",
+        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Vizualizovat přibližné merged bone sphere bounds",
+        "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Odstranit bone bounding box vizuály",
+
+        "Inspector.BipedRig.GetDiagnosticInfo" : "Získat diagnostické info rigu",
+        "Inspector.BipedRig.GenerateDebugVisuals" : "Generovat Ladicí Vizuály",
+        "Inspector.BipedRig.ClearDebugVisuals" : "Vyčistit Ladicí Vizuály",
+        "Inspector.BipedRig.DetectHands" : "Detekovat Rigy Dlaní",
+        "Inspector.BipedRig.DetectLeftHand" : "Detekovat Rig Levé Dlaně",
+        "Inspector.BipedRig.DetectRightHand" : "Detekovat Rig Pravé Dlaně",
+        "Inspector.BipedRig.HandRigResult" : "Hotovo! Detekováno - Levá: {left}, Pravá: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "Hotovo! Detekováno - levá: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "Hotovo! Detekováno - pravá: {detected}",
+
         "Inspector.Texture.Size" : "Rozlišení: {width} x {height}",
         "Inspector.Texture.Format" : "Formát: {format}, Využití VRAM: <nobr>{memory}</nobr>",
 
@@ -937,6 +978,50 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostika: Nesprávné floating point hodnoty",
         "Inspector.Texture.GenerateMetadata" : "Diagnostika: Vygenerovat metadata",
 
+        "Inspector.Audio.BakeAudio" : "Zapéct Audio Klip",
+        "Inspector.Audio.FormatInfo" : "Vzorkovací Frekvence: {rate} Hz, Kanálů: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Délka: {duration}, Počet vzorků: {samples}",
+        "Inspector.Audio.EncodingInfo" : "Informace kodeku: {info}, Plně Dekódováno: {decoded}",
+
+        "Inspector.Audio.Normalize" : "Normalizovat Hlasitost",
+        "Inspector.Audio.AmplitudeThreshold" : "Prah Amplitudy:",
+        "Inspector.Audio.TrimSilence" : "Oříznout Ticho",
+        "Inspector.Audio.TrimStartSilence" : "Oříznout Ticho na Začátku",
+        "Inspector.Audio.TrimEndSilence" : "Oříznout Ticho na Konci",
+        "Inspector.Audio.PositionDuration" : "Pozice/Délka (v sekundách):",
+        "Inspector.Audio.TrimStart" : "Oříznout Začátek",
+        "Inspector.Audio.TrimEnd" : "Oříznout Konec",
+        "Inspector.Audio.FadeIn" : "Přidat Fade In",
+        "Inspector.Audio.FadeOut" : "Přidat Fade Out",
+        "Inspector.Audio.MakeLoopable" : "Učinit Opakovatelným (pomocí crossfade)",
+        "Inspector.Audio.ToWAV" : "Konvertovat na WAV",
+        "Inspector.Audio.ToVorbis" : "Konvertovat na OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Konvertovat na FLAC",
+
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "Nastavit z Potomků",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Nastavit z Potomků (vynutit všude)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Nastavit z Potomků (pouze rig)",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Nahradit Plynulé Transformace v potomcích",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Vyčistit Plynulé Transformace v potomcích",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Collidery & Uchopení -------",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Přidat pevné collidery z hierarchie (použitím rootu objektu)",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Vždy uchopit poslední bone",
+
+        "Wizard.General.ProcessRoot" : "Zpracovat Root:",
+        "Wizard.General.Result" : "Výsledek:",
+        "Wizard.General.ErrorNoRoot" : "Nebyl vybrán žádný Root",
+        "Wizard.General.RemovedResult" : "Odstraněno {n} položek",
+
+        "Wizard.AssetOptimization.Title" : "Průvodce optimalizací assetů",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Vyčistit nepoužívané assety",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Vyčistit prázdné sloty",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Vyčistit zakázané mesh rendery",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "Deduplikovat materiály",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Vyčistit předměty typu Soubor",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Nastavit maximální rozlišení textury",
+        "Wizard.AssetOptimization.RecompressTextures" : "Rekomprimovat textury",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Rekalkulovat všechny tangenty (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Změněna velikost {n} položek",
         
         "Tutorial.Grab.MoveRotate" : "Posouvat/Rotovat chycené objekty",
         "Tutorial.Grab.Scale" : "Chytněte druhou rukou pro škálování",
