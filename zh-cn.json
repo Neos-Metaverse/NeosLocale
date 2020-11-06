@@ -826,6 +826,7 @@
         "Settings.LegacyGripEquip" : "启用旧版双握把装备",
         "Settings.LegacyWorldSwitcher" : "启用旧版世界切换器",
         "Settings.FetchIncompatibleSessions" : "显示不兼容的会议",
+        "Settings.MaxConcurrentAssetTransfers" : "最大同时资产转移",
 
         "Settings.LaserSmoothing.Header" : "激光平滑",
         "Settings.LaserSmoothing.Speed" : "平稳速度",
@@ -1020,6 +1021,8 @@
         "Wizard.AssetOptimization.CleanupFileItems" : "清理文件项",
         "Wizard.AssetOptimization.MaxTextureResolution" : "设置最大纹理分辨率",
         "Wizard.AssetOptimization.RecompressTextures" : "重新压缩纹理",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "重新计算所有法线",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "重新计算所有法线（合并）",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "重新计算所有切线（Mikktspace）",
         "Wizard.AssetOptimization.ResizedResult" : "调整大小 {n}",
 

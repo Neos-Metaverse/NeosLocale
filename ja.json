@@ -826,6 +826,7 @@
         "Settings.LegacyGripEquip" : "ダブルグリップ装備(レガシー)を有効化",
         "Settings.LegacyWorldSwitcher" : "ワールドスイッチャー(レガシー)を有効化",
         "Settings.FetchIncompatibleSessions" : "互換性のないセッションを表示",
+        "Settings.MaxConcurrentAssetTransfers" : "アセットの最多同時転送量",
 
         "Settings.LaserSmoothing.Header" : "レーザースムージング",
         "Settings.LaserSmoothing.Speed" : "スムーズスピード",
@@ -1020,6 +1021,8 @@
         "Wizard.AssetOptimization.CleanupFileItems" : "ファイルアイテムの削除",
         "Wizard.AssetOptimization.MaxTextureResolution" : "最大テクスチャ解像度を設定",
         "Wizard.AssetOptimization.RecompressTextures" : "テクスチャの再圧縮",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "全ノーマルの再計算",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "マージされた全ノーマルの再計算",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "全タンジェントの再計算(Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "変換完了 {n}",
 
