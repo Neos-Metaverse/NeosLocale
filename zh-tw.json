@@ -765,7 +765,6 @@
         "CameraControl.Control.AngleSmoothSpeed" : "角度平滑速度: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "構圖平滑速度: {n}",
 
-
         "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBS密碼（可選）:",
         "CameraControl.OBS.Connect" : "連接",
