@@ -765,7 +765,6 @@
         "CameraControl.Control.AngleSmoothSpeed" : "角度のスムーズスピード: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "フレーミングのスムーズスピード: {n}",
 
-
         "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBSパスワード (オプション):",
         "CameraControl.OBS.Connect" : "接続",

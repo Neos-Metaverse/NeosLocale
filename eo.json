@@ -765,7 +765,6 @@
         "CameraControl.Control.AngleSmoothSpeed": "Angla Glata Rapido: {n}",
         "CameraControl.Control.FramingSmoothSpeed": "Enkadra Glata Rapido: {n}",
 
-
         "CameraControl.OBS.IP": "OBS-reteja IP:",
         "CameraControl.OBS.Password": "Pasvorto de OBS (nedeviga):",
         "CameraControl.OBS.Connect": "Konekti",
