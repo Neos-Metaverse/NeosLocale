@@ -825,6 +825,7 @@
         "Settings.LegacyGripEquip" : "Aktiviere altes Doppel-Greifen-Ausrüsten",
         "Settings.LegacyWorldSwitcher" : "Aktiviere alten Welten-Wechseler",
         "Settings.FetchIncompatibleSessions" : "Zeige inkompatible Sitzungen",
+        "Settings.MaxConcurrentAssetTransfers" : "Max. gleichzeitige Asset-Übertragungen",
 
         "Settings.LaserSmoothing.Header" : "Laser-Glättung",
         "Settings.LaserSmoothing.Speed" : "Glättungsgeschwindigkeit",
@@ -1010,6 +1011,8 @@
         "Wizard.AssetOptimization.CleanupFileItems" : "Datei-Items aufräumen",
         "Wizard.AssetOptimization.MaxTextureResolution" : "Maximale Texturauflösung festlegen",
         "Wizard.AssetOptimization.RecompressTextures" : "Texturen neu komprimieren",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Alle Normalen neu berechnen",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Alle Normalen neu berechnen (verbunden)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Alle Tangenten neu berechnen (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Größe von {n} geändert",
 
