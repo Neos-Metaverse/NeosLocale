@@ -1,11 +1,6 @@
 # Missing Keys per locale
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
-# Czech [cs]
-Settings.MaxConcurrentAssetTransfers  
-Wizard.AssetOptimization.RecalculateAllNormals  
-Wizard.AssetOptimization.RecalculateAllNormalsMerged  
-
 # German [de]
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
@@ -1039,11 +1034,6 @@ Temporary.MMC.VoteSuccess
 Temporary.MMC.VoteFailure  
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
-
-# Esperanto [eo]
-Settings.MaxConcurrentAssetTransfers  
-Wizard.AssetOptimization.RecalculateAllNormals  
-Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 
 # Spanish [es]
 Interaction.SaveAsScreenshot  
@@ -2418,11 +2408,6 @@ Temporary.MMC.VoteFailure
 Temporary.MMC.VotedAlready  
 Temporary.MMC.VoteInvalid  
 
-# Japanese [ja]
-Settings.MaxConcurrentAssetTransfers  
-Wizard.AssetOptimization.RecalculateAllNormals  
-Wizard.AssetOptimization.RecalculateAllNormalsMerged  
-
 # Korean [ko]
 Settings.MaxConcurrentAssetTransfers  
 Wizard.AssetOptimization.RecalculateAllNormals  
@@ -3619,14 +3604,4 @@ Tutorial.Tooltip.ShapePrimary
 Tutorial.Tooltip.ShapeSecondary  
 Tutorial.Tooltip.WigglerPrimary  
 Tutorial.Tooltip.WigglerSecondary  
-
-# Chinese (Simplified, China) [zh-cn]
-Settings.MaxConcurrentAssetTransfers  
-Wizard.AssetOptimization.RecalculateAllNormals  
-Wizard.AssetOptimization.RecalculateAllNormalsMerged  
-
-# Chinese (Traditional, Taiwan) [zh-tw]
-Settings.MaxConcurrentAssetTransfers  
-Wizard.AssetOptimization.RecalculateAllNormals  
-Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 
