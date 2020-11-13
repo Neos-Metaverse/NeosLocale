@@ -2,31 +2,6 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Czech [cs]
-Contacts.InHiddenFriendsOnly  
-Settings.Audio.SelectInputDevice  
-Settings.Audio.TestInput  
-Settings.Audio.TestDescription  
-Settings.Audio.StartTest  
-Settings.Audio.StopTest  
-Settings.Audio.Monitoring  
-Settings.Locale.ChangeLanguage  
-Settings.Locale.SelectLanguageHeader  
-Tutorial.Welcome.WelcomeTo  
-Tutorial.Welcome.LetsStart  
-Tutorial.Welcome.ScreenWarning  
-Tutorial.Welcome.ScreenUnderstand  
-Tutorial.Welcome.AccountHeader  
-Tutorial.Welcome.AccountDescription  
-Tutorial.Welcome.AccountCreate  
-Tutorial.Welcome.AccountLogin  
-Tutorial.Welcome.AccountSkip  
-Tutorial.Welcome.AccountSkipHeader  
-Tutorial.Welcome.AccountSkipDescription  
-Tutorial.Welcome.AccountSkipConfirm  
-Tutorial.Welcome.StartTutorialHeader  
-Tutorial.Welcome.StartTutorialDescription  
-Tutorial.Welcome.StartTutorialPublic  
-Tutorial.Welcome.StartTutorialPrivate  
 Tutorial.Welcome.PrivateTutorialHeader  
 Tutorial.Welcome.PrivateTutorialDescription  
 Tutorial.Welcome.PrivateTutorialConfirm  
@@ -1031,31 +1006,6 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Esperanto [eo]
-Contacts.InHiddenFriendsOnly  
-Settings.Audio.SelectInputDevice  
-Settings.Audio.TestInput  
-Settings.Audio.TestDescription  
-Settings.Audio.StartTest  
-Settings.Audio.StopTest  
-Settings.Audio.Monitoring  
-Settings.Locale.ChangeLanguage  
-Settings.Locale.SelectLanguageHeader  
-Tutorial.Welcome.WelcomeTo  
-Tutorial.Welcome.LetsStart  
-Tutorial.Welcome.ScreenWarning  
-Tutorial.Welcome.ScreenUnderstand  
-Tutorial.Welcome.AccountHeader  
-Tutorial.Welcome.AccountDescription  
-Tutorial.Welcome.AccountCreate  
-Tutorial.Welcome.AccountLogin  
-Tutorial.Welcome.AccountSkip  
-Tutorial.Welcome.AccountSkipHeader  
-Tutorial.Welcome.AccountSkipDescription  
-Tutorial.Welcome.AccountSkipConfirm  
-Tutorial.Welcome.StartTutorialHeader  
-Tutorial.Welcome.StartTutorialDescription  
-Tutorial.Welcome.StartTutorialPublic  
-Tutorial.Welcome.StartTutorialPrivate  
 Tutorial.Welcome.PrivateTutorialHeader  
 Tutorial.Welcome.PrivateTutorialDescription  
 Tutorial.Welcome.PrivateTutorialConfirm  
@@ -2574,31 +2524,6 @@ Temporary.MMC.VotedAlready
 Temporary.MMC.VoteInvalid  
 
 # Japanese [ja]
-Contacts.InHiddenFriendsOnly  
-Settings.Audio.SelectInputDevice  
-Settings.Audio.TestInput  
-Settings.Audio.TestDescription  
-Settings.Audio.StartTest  
-Settings.Audio.StopTest  
-Settings.Audio.Monitoring  
-Settings.Locale.ChangeLanguage  
-Settings.Locale.SelectLanguageHeader  
-Tutorial.Welcome.WelcomeTo  
-Tutorial.Welcome.LetsStart  
-Tutorial.Welcome.ScreenWarning  
-Tutorial.Welcome.ScreenUnderstand  
-Tutorial.Welcome.AccountHeader  
-Tutorial.Welcome.AccountDescription  
-Tutorial.Welcome.AccountCreate  
-Tutorial.Welcome.AccountLogin  
-Tutorial.Welcome.AccountSkip  
-Tutorial.Welcome.AccountSkipHeader  
-Tutorial.Welcome.AccountSkipDescription  
-Tutorial.Welcome.AccountSkipConfirm  
-Tutorial.Welcome.StartTutorialHeader  
-Tutorial.Welcome.StartTutorialDescription  
-Tutorial.Welcome.StartTutorialPublic  
-Tutorial.Welcome.StartTutorialPrivate  
 Tutorial.Welcome.PrivateTutorialHeader  
 Tutorial.Welcome.PrivateTutorialDescription  
 Tutorial.Welcome.PrivateTutorialConfirm  
@@ -3994,61 +3919,11 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Chinese (China) [zh-cn]
-Contacts.InHiddenFriendsOnly  
-Settings.Audio.SelectInputDevice  
-Settings.Audio.TestInput  
-Settings.Audio.TestDescription  
-Settings.Audio.StartTest  
-Settings.Audio.StopTest  
-Settings.Audio.Monitoring  
-Settings.Locale.ChangeLanguage  
-Settings.Locale.SelectLanguageHeader  
-Tutorial.Welcome.WelcomeTo  
-Tutorial.Welcome.LetsStart  
-Tutorial.Welcome.ScreenWarning  
-Tutorial.Welcome.ScreenUnderstand  
-Tutorial.Welcome.AccountHeader  
-Tutorial.Welcome.AccountDescription  
-Tutorial.Welcome.AccountCreate  
-Tutorial.Welcome.AccountLogin  
-Tutorial.Welcome.AccountSkip  
-Tutorial.Welcome.AccountSkipHeader  
-Tutorial.Welcome.AccountSkipDescription  
-Tutorial.Welcome.AccountSkipConfirm  
-Tutorial.Welcome.StartTutorialHeader  
-Tutorial.Welcome.StartTutorialDescription  
-Tutorial.Welcome.StartTutorialPublic  
-Tutorial.Welcome.StartTutorialPrivate  
 Tutorial.Welcome.PrivateTutorialHeader  
 Tutorial.Welcome.PrivateTutorialDescription  
 Tutorial.Welcome.PrivateTutorialConfirm  
 
 # Chinese (Taiwan) [zh-tw]
-Contacts.InHiddenFriendsOnly  
-Settings.Audio.SelectInputDevice  
-Settings.Audio.TestInput  
-Settings.Audio.TestDescription  
-Settings.Audio.StartTest  
-Settings.Audio.StopTest  
-Settings.Audio.Monitoring  
-Settings.Locale.ChangeLanguage  
-Settings.Locale.SelectLanguageHeader  
-Tutorial.Welcome.WelcomeTo  
-Tutorial.Welcome.LetsStart  
-Tutorial.Welcome.ScreenWarning  
-Tutorial.Welcome.ScreenUnderstand  
-Tutorial.Welcome.AccountHeader  
-Tutorial.Welcome.AccountDescription  
-Tutorial.Welcome.AccountCreate  
-Tutorial.Welcome.AccountLogin  
-Tutorial.Welcome.AccountSkip  
-Tutorial.Welcome.AccountSkipHeader  
-Tutorial.Welcome.AccountSkipDescription  
-Tutorial.Welcome.AccountSkipConfirm  
-Tutorial.Welcome.StartTutorialHeader  
-Tutorial.Welcome.StartTutorialDescription  
-Tutorial.Welcome.StartTutorialPublic  
-Tutorial.Welcome.StartTutorialPrivate  
 Tutorial.Welcome.PrivateTutorialHeader  
 Tutorial.Welcome.PrivateTutorialDescription  
 Tutorial.Welcome.PrivateTutorialConfirm  
