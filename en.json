@@ -1,6 +1,6 @@
 {
     "localeCode" : "en",
-    "authors" : ["Frooxius", "Enverex"],
+    "authors" : ["Frooxius", "Enverex", "rampa_3"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -1045,7 +1045,7 @@
         "Tutorial.Welcome.AccountLogin" : "I already have an account",
         "Tutorial.Welcome.AccountSkip" : "Continue without an account",
         "Tutorial.Welcome.AccountSkipHeader" : "Skip creating an account?",
-        "Tutorial.Welcome.AccountSkipDescription" : "Some functionality like saving items to inventory, favoriting avatar of adding contacts won't be accessible.",
+        "Tutorial.Welcome.AccountSkipDescription" : "Some functionality like saving items to inventory, favoriting avatar or adding contacts won't be accessible.",
         "Tutorial.Welcome.AccountSkipConfirm" : "Really skip",
         "Tutorial.Welcome.StartTutorialHeader" : "Begin Tutorial",
         "Tutorial.Welcome.StartTutorialDescription" : "We'll transfer you to a basic tutorial world to help you get started with Neos. You can choose to have the tutorial world public, allowing Neos community to join and help you or learn on your own.",
