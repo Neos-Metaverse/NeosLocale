@@ -348,7 +348,7 @@
         "Contacts.InPrivate" : "プライベートワールドにいます",
         "Contacts.InFriendsOnly" : "フレンドオンリーにいます",
         "Contacts.InHidden" : "非公開",
-        "Contacts.InHiddenFriendsOnly" : "非公開, フレンドオンリー",
+        "Contacts.InHiddenFriendsOnly" : "非公開, フレンドオンリーにいます",
         "Contacts.InLAN" : "LAN内ワールドにいます",
         "Contacts.UsingDifferentVersion" : "使用バージョン: {version}",
         "Contacts.RequestSent" : "リクエスト送信済み",
@@ -357,7 +357,7 @@
         "Contacts.Blocked" : "ブロック済み",
         "Contacts.SearchResult" : "検索結果",
 
-        "Notifications.IsOnline" : "がオンラインになりました",
+        "Notifications.IsOnline" : "さんがオンラインになりました",
         "Notifications.IsOnlineOnDifferentVersion" : " <size=75%>(using version: {version})</size>さんがオンラインになりました",
         "Notifications.ReceivedContactRequest" : "フレンドリクエストを送りました",
         "Notifications.ReceivedInvite" : "招待を受けました:",
