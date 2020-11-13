@@ -1049,8 +1049,8 @@
         "Tutorial.Welcome.AccountSkipConfirm" : "スキップします",
         "Tutorial.Welcome.StartTutorialHeader" : "チュートリアル開始",
         "Tutorial.Welcome.StartTutorialDescription" : "Neosを始めるのに役立つチュートリアルのワールドに移動します。 チュートリアルのワールドを公開して、他の人が参加して支援したり、自分で学習したりできるようにすることができます",
-        "Tutorial.Welcome.StartTutorialPublic" : "みんなで助け合いながらしたい(パブリック)",
-        "Tutorial.Welcome.StartTutorialPrivate" : "ひとりでしたい(プライベート)",
+        "Tutorial.Welcome.StartTutorialPublic" : "みんなで助け合いながらプレイ(パブリック)",
+        "Tutorial.Welcome.StartTutorialPrivate" : "ひとりでプレイ(プライベート)",
 
         "Tutorial.Grab.MoveRotate" : "持っているアイテムの移動/展開",
         "Tutorial.Grab.Scale" : "他のコントローラーでつかんでスケール",
