@@ -305,7 +305,7 @@
         "Account.ErrorPasswordMismatch" : "Passwords do not match!",
         "Account.ErrorEmailMismatch" : "Emails do not match!",
         "Account.ErrorLoginError" : "Login Error:",
-        "Account.RegistrationSuccess" : "Success! An email has been sent with a verification link. Once you open this link you'll be able to login.",
+        "Account.RegistrationSuccess" : "<size=120%>Success!</size><br><br>An email has been sent to {email} with a verification link.<br><br>Once you click on this link, we'll automatically log you in as long as this dialog is open.<br><br>If you run into problems, reach us at hello@neos.com or discord.gg/neosvr",
 
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Away",
@@ -1049,8 +1049,11 @@
         "Tutorial.Welcome.AccountSkipConfirm" : "Really skip",
         "Tutorial.Welcome.StartTutorialHeader" : "Begin Tutorial",
         "Tutorial.Welcome.StartTutorialDescription" : "We'll transfer you to a basic tutorial world to help you get started with Neos. You can choose to have the tutorial world public, allowing Neos community to join and help you or learn on your own.",
-        "Tutorial.Welcome.StartTutorialPublic" : "I want people to join and help me",
+        "Tutorial.Welcome.StartTutorialPublic" : "I want people to be able to join and help me",
         "Tutorial.Welcome.StartTutorialPrivate" : "I want to learn alone",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Really start as private?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Community members can help you get setup easier and faster, really proceed alone?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Start Private",
 
         "Tutorial.Grab.MoveRotate" : "Move/Rotate held items",
         "Tutorial.Grab.Scale" : "Grab with other controller to scale",

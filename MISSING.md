@@ -27,6 +27,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
 # German [de]
 Contacts.InHiddenFriendsOnly  
@@ -62,6 +65,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
 # English (United Kingdom) [en-gb]
 General.OK  
@@ -971,6 +977,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -1047,6 +1056,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
 # Spanish [es]
 Interaction.SaveAsScreenshot  
@@ -1098,6 +1110,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
 # Estonian [et]
 Interaction.NamedEquipTool  
@@ -1189,6 +1204,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -1745,6 +1763,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -1887,6 +1908,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -2499,6 +2523,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -2572,6 +2599,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
 # Korean [ko]
 Contacts.InHiddenFriendsOnly  
@@ -2602,6 +2632,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
 # Dutch [nl]
 Interaction.SaveAsScreenshot  
@@ -2650,6 +2683,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 Temporary.MMC.Voting UI  
 Temporary.MMC.Vote  
 Temporary.MMC.Categories.Name  
@@ -2772,6 +2808,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -2834,6 +2873,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
 # Russian [ru]
 Contacts.InHiddenFriendsOnly  
@@ -2864,6 +2906,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
 # Swedish [sv]
 Interaction.NamedEquipTool  
@@ -3742,6 +3787,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -3906,6 +3954,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
@@ -3968,6 +4019,9 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
 # Chinese (Taiwan) [zh-tw]
 Contacts.InHiddenFriendsOnly  
@@ -3995,4 +4049,7 @@ Tutorial.Welcome.StartTutorialHeader
 Tutorial.Welcome.StartTutorialDescription  
 Tutorial.Welcome.StartTutorialPublic  
 Tutorial.Welcome.StartTutorialPrivate  
+Tutorial.Welcome.PrivateTutorialHeader  
+Tutorial.Welcome.PrivateTutorialDescription  
+Tutorial.Welcome.PrivateTutorialConfirm  
 
