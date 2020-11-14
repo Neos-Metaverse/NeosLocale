@@ -305,7 +305,7 @@
         "Account.ErrorPasswordMismatch" : "パスワードが一致しません!",
         "Account.ErrorEmailMismatch" : "Eメールが一致しません!",
         "Account.ErrorLoginError" : "ログインエラー:",
-        "Account.RegistrationSuccess" : "<size=120%>成功!</size><br><br>確認リンクを記載されたメールを{email}宛に送信されました。 <br><br>このリンクを開くと、自動的にログに記録されます。 このダイアログが開いている限り、自動的にログインします。<br><br>問題が発生した場合は、hello@neos.comまたはdiscord.gg/neosvrまでご連絡ください。",
+        "Account.RegistrationSuccess" : "<size=120%>成功!</size><br><br>確認リンクを記載されたメールを{email}宛に送信しました。 <br><br>このリンクを開くと、自動的にログに記録されます。 このダイアログが開いている限り、自動的にログインします。<br><br>問題が発生した場合は、hello@neos.comまたはdiscord.gg/neosvrまでご連絡ください。",
 
         "Profile.Status.Online" : "オンライン",
         "Profile.Status.Away" : "退席中",
