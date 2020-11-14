@@ -1051,6 +1051,9 @@
         "Tutorial.Welcome.StartTutorialDescription" : "Přeneseme vás do základního tutorial světa, abychom vám pomohli začít s Neosem. Můžete si vybrat, zda bude svět veřejný, čímž umožníte komunitě Neosu do něj vstoupit a pomoci vám, nebo se můžete z tutoriálu učit sami.",
         "Tutorial.Welcome.StartTutorialPublic" : "Chci aby lidé mohli vstoupit a pomoct mi",
         "Tutorial.Welcome.StartTutorialPrivate" : "Chci se to naučit sám/sama",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Opravdu zahájit tutorial jako neveřejný?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Členové komunity vám mohou pomoci se učit rychleji a jednodušeji. Opravdu chcete pokračovat sami?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Spustit jako neveřejný",
 
         "Tutorial.Grab.MoveRotate" : "Posouvat/Rotovat chycené objekty",
         "Tutorial.Grab.Scale" : "Chytněte druhou rukou pro škálování",
