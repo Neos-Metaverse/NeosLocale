@@ -305,7 +305,7 @@
         "Account.ErrorPasswordMismatch" : "Пароли не совпадают!",
         "Account.ErrorEmailMismatch" : "Email-ы не совпадают!",
         "Account.ErrorLoginError" : "Ошибка Входа в аккаунт:",
-        "Account.RegistrationSuccess" : "Успех! Email был отправлен на вашу почту с ссылкой подтверждения. Как только активируете эту ссылку - вы можете войти в аккаунт.",
+        "Account.RegistrationSuccess" : "<size=120%>Успех!</size><br><br>На {email} было отправлено письмо с ссылкой подтверждения.<br><br>Когда Вы активируете эту ссылку - мы автоматически залогиним Вас, если этот диалог будет открыт.<br><br>Если Вы столкнетесь с любыми проблемами, напишите нам на hello@neos.com или discord.gg/neosvr",
 
         "Profile.Status.Online" : "Онлайн",
         "Profile.Status.Away" : "Отошёл",
@@ -348,6 +348,7 @@
         "Contacts.InPrivate" : "В приватном мире",
         "Contacts.InFriendsOnly" : "В Мире Только Для Контактов",
         "Contacts.InHidden" : "В Скрытом Мире",
+        "Contacts.InHiddenFriendsOnly" : "В Скрытом Мире Только Для Контактов",
         "Contacts.InLAN" : "В Мире в Локальной Сети",
         "Contacts.UsingDifferentVersion" : "Использует версию {version}",
         "Contacts.RequestSent" : "Запрос отправлен",
@@ -765,7 +766,6 @@
         "CameraControl.Control.AngleSmoothSpeed" : "Скорость Сглаживания Поворота: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Скорость Сглаживания Обрамления: {n}",
 
-
         "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBS Пароль (Не обяз.):",
         "CameraControl.OBS.Connect" : "Подключиться",
@@ -846,6 +846,15 @@
         "Settings.Audio.NoiseGateThreshold" : "Порог шумодава: {n}",
         "Settings.Audio.NormzliationThreshold" : "Порог нормализации: {n}",
         "Settings.Audio.InputDevice" : "Устройство Аудио Захвата:",
+        "Settings.Audio.SelectInputDevice" : "Выберите устройство аудио захвата",
+        "Settings.Audio.TestInput" : "Протестируйте ваш звук:",
+        "Settings.Audio.TestDescription" : "Мы проиграем звук с выбранного устройства обратно к Вам чтобы проверить, что всё работает.",
+        "Settings.Audio.StartTest" : "Проверить микрофон",
+        "Settings.Audio.StopTest" : "Остановить проверку",
+        "Settings.Audio.Monitoring" : "Монитор микрофона:",
+
+        "Settings.Locale.ChangeLanguage" : "Сменить язык",
+        "Settings.Locale.SelectLanguageHeader" : "Выберите ваш язык:",
 
         "Settings.Save" : "Сохранить Настройки",
 
@@ -1025,6 +1034,26 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Пересчитать все нормали (слияние)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Пересчитать все касательные (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Масштабировано {n}",
+
+        "Tutorial.Welcome.WelcomeTo" : "Добро пожаловать в",
+        "Tutorial.Welcome.LetsStart" : "Поехали!",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>ВНИМАНИЕ:</b></color> Сейчас Вы играете в экранном режиме, который в настоящее время не поддерживается официально так как предназначен в основном для отладки.<br><br>Вы можете играть, но что-то может не работать и управдение будет довольно сложным.<br><br><b>Сейчас Neos предназначен для игры в VR.</b><br><br>Полноценный экранный режим будет добавлен в будущем.",
+        "Tutorial.Welcome.ScreenUnderstand" : "Я понял",
+        "Tutorial.Welcome.AccountHeader" : "Аккаунт Neos",
+        "Tutorial.Welcome.AccountDescription" : "Создание аккаунта даст Вам 1Гб бесплатного хранилища и доступ к сохранению предметов, установке постоянного аватара, добавлению контактов и переписке.",
+        "Tutorial.Welcome.AccountCreate" : "Создать аккаунт",
+        "Tutorial.Welcome.AccountLogin" : "У меня уже есть аккаунт",
+        "Tutorial.Welcome.AccountSkip" : "Продолжить без аккаунта",
+        "Tutorial.Welcome.AccountSkipHeader" : "Пропустить создание аккаунта?",
+        "Tutorial.Welcome.AccountSkipDescription" : "Некоторый функционал, такой как сохранение предметов в инвентарь, установка постоянного аватара или добавление контактов, будет недоступен.",
+        "Tutorial.Welcome.AccountSkipConfirm" : "Точно пропустить",
+        "Tutorial.Welcome.StartTutorialHeader" : "Начать обучение",
+        "Tutorial.Welcome.StartTutorialDescription" : "Мы переместим Вас в мир базового обучения чтобы помочь Вам сделать первые шаги в Neos. Вы можете сделать обучающий мир публичным, тем самым разрешая сообществу Neos присоединиться и помочь Вам, или учиться самому.",
+        "Tutorial.Welcome.StartTutorialPublic" : "Я хочу чтобы другие игроки могли присоединиться и помочь мне",
+        "Tutorial.Welcome.StartTutorialPrivate" : "Я хочу пройти обучение в одиночку",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Точно начать в приватном режиме?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Члены сообщества могут помочь Вам начать играть быстрее и проще, точно продолжить в одиночку?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Начать в приватном режиме",
 
         "Tutorial.Grab.MoveRotate" : "Двигайте/Поворачивайте удерживаемые предметы",
         "Tutorial.Grab.Scale" : "Схватите другим контроллером для масштабирования",
