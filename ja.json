@@ -1070,9 +1070,9 @@
         "Tutorial.Welcome.SettingsSmoothTurnDescription" : "徐々に向きを変えます。吐き気を引き起こす可能性があります。",
         "Tutorial.Welcome.SettingsPrimaryController" : "プライマリーコントローラー",
         "Tutorial.Welcome.SettingsPrimaryLeft" : "左",
-        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Left:</b> ターン, <b>Right:</b> ストライフ移動",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Left:</b> ターン, <b>Right:</b> 平行移動",
         "Tutorial.Welcome.SettingsPrimaryRight" : "右",
-        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Left:</b> ストライフ移動, <b>Right:</b> ターン",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Left:</b> 平行移動, <b>Right:</b> ターン",
         "Tutorial.Welcome.SettingsHeight" : "身長",
         "Tutorial.Welcome.SettingsHeightExamples" : "例: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
 
