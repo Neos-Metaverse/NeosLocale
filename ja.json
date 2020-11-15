@@ -256,7 +256,7 @@
         "World.Edit.Description" : "説明:",
         "World.Edit.Tags" : "タグ (コンマで分けてください):",
         "World.Edit.Path" : "ワールドパス:",
-        "World.Edit.AccessLevelHeader" : "このワールドはどの役が開けますか？(入室制限)",
+        "World.Edit.AccessLevelHeader" : "このワールドは誰が開けますか？(入室制限)",
         "World.Edit.AccessPrivate" : "私のみ",
         "World.Edit.AccessPatreon" : "パトロンサポーター",
         "World.Edit.AccessPublic" : "誰でも(パブリック)",
