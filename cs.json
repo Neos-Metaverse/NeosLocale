@@ -317,7 +317,7 @@
         "Account.ErrorPasswordMismatch" : "Hesla nesouhlasí!",
         "Account.ErrorEmailMismatch" : "Emaily nesouhlasí!",
         "Account.ErrorLoginError" : "Chyba přihlášení:",
-        "Account.RegistrationSuccess" : "Úspěch! Odeslali jsme email s ověřovacím odkazem. Po potvrzení emailu se budete moci přihlásit.",
+        "Account.RegistrationSuccess" : "<size=120%>Registrace byla úspěšná!</size><br><br>Na adresu {email} byl odeslán email s ověřovacím odkazem.<br><br>Jakmile na tento odkaz kliknete, automaticky vás přihlásíme (pouze pokud nezavřete tento dialog).<br><br>Pokud jste narazili na problémy, spojte se s námi na hello@neos.com nebo discord.gg/neosvr.",
 
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Pryč",
