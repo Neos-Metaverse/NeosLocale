@@ -1065,7 +1065,7 @@
         "Tutorial.Welcome.SettingsDescription" : "Zde můžete nastavit základní pohybová a uživatelská nastavení. Všechna tato nastavení lze změnit později.",
         "Tutorial.Welcome.SettingsTurning" : "Styl otáčení",
         "Tutorial.Welcome.SettingsSnapTurn" : "Okamžité",
-        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Okamžité otočení vybraným směrem, ideální pro nové uživatele.",
+        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Okamžité otočení zvoleným směrem, ideální pro nové uživatele.",
         "Tutorial.Welcome.SettingsSmoothTurn" : "Plynulé",
         "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Pozvolné otáčení zvoleným směrem, může způsobit nevolnost.",
         "Tutorial.Welcome.SettingsPrimaryController" : "Primární ovladač",
