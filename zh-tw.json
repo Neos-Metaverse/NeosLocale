@@ -305,7 +305,7 @@
         "Account.ErrorPasswordMismatch" : "密碼不匹配！",
         "Account.ErrorEmailMismatch" : "電子郵件內容不符！",
         "Account.ErrorLoginError" : "記錄錯誤:",
-        "Account.RegistrationSuccess" : "成功！已發送帶有驗證鏈接的電子郵件。打開此鏈接後，您將可以登錄。",
+        "Account.RegistrationSuccess" : "<size=120％>成功！</size><br><br>已通過驗證鏈接將電子郵件發送到{email}。<br><br>單擊此鏈接後，我們將自動記錄只要打開此對話框即可。<br><br>如果遇到問題，請通過hello@neos.com或discord.gg/neosvr與我們聯繫。",
 
         "Profile.Status.Online" : "線上",
         "Profile.Status.Away" : "離去",
@@ -1051,6 +1051,9 @@
         "Tutorial.Welcome.StartTutorialDescription" : "我們將帶您進入基礎教程世界，以幫助您開始使用Neos。 您可以選擇公開教程世界，讓Neos社區加入並為您提供幫助或自己學習。",
         "Tutorial.Welcome.StartTutorialPublic" : "我希望人們加入並幫助我",
         "Tutorial.Welcome.StartTutorialPrivate" : "我想一個人學",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "真的是從私人世界開始的嗎？",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "社區成員可以幫助您更輕鬆快捷地進行設置，真的可以單獨進行嗎？",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "從私人世界開始",
 
         "Tutorial.Grab.MoveRotate" : "移動/旋轉保留的物體",
         "Tutorial.Grab.Scale" : "與其他控制器縮放以進行縮放",

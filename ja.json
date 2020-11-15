@@ -305,7 +305,7 @@
         "Account.ErrorPasswordMismatch" : "パスワードが一致しません!",
         "Account.ErrorEmailMismatch" : "Eメールが一致しません!",
         "Account.ErrorLoginError" : "ログインエラー:",
-        "Account.RegistrationSuccess" : "成功! 確認リンクが記載されたメールが送信されました。 このリンクを開くと、ログインできるようになります。",
+        "Account.RegistrationSuccess" : "<size=120%>成功!</size><br><br>確認リンクを記載されたメールを{email}宛に送信しました。 <br><br>このリンクを開くと、自動的にログに記録されます。 このダイアログが開いている限り、自動的にログインします。<br><br>問題が発生した場合は、hello@neos.comまたはdiscord.gg/neosvrまでご連絡ください。",
 
         "Profile.Status.Online" : "オンライン",
         "Profile.Status.Away" : "退席中",
@@ -1041,7 +1041,7 @@
         "Tutorial.Welcome.ScreenUnderstand" : "了解",
         "Tutorial.Welcome.AccountHeader" : "Neosアカウント",
         "Tutorial.Welcome.AccountDescription" : "アカウントを作成すると、1 GBの無料ストレージと、アイテムの保存、アバターのお気に入り設定、フレンド登録の追加、メッセージへのアクセスが提供されます。",
-        "Tutorial.Welcome.AccountCreate" : "アカウント",
+        "Tutorial.Welcome.AccountCreate" : "アカウント作成",
         "Tutorial.Welcome.AccountLogin" : "アカウントを持っています",
         "Tutorial.Welcome.AccountSkip" : "アカウントなしで続行",
         "Tutorial.Welcome.AccountSkipHeader" : "スキップしますか?",
@@ -1051,6 +1051,9 @@
         "Tutorial.Welcome.StartTutorialDescription" : "Neosを始めるのに役立つチュートリアルのワールドに移動します。 チュートリアルのワールドを公開して、他の人が参加して支援したり、自分で学習したりできるようにすることができます",
         "Tutorial.Welcome.StartTutorialPublic" : "みんなで助け合いながらプレイ(パブリック)",
         "Tutorial.Welcome.StartTutorialPrivate" : "ひとりでプレイ(プライベート)",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "プライベートで始めますか？",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "コミュニティのメンバーは、セットアップをより簡単かつ迅速に行うのに役立ちます。本当に一人で進めますか？",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "プライベートで開始します",
 
         "Tutorial.Grab.MoveRotate" : "持っているアイテムの移動/展開",
         "Tutorial.Grab.Scale" : "他のコントローラーでつかんでスケール",
