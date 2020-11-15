@@ -305,7 +305,7 @@
         "Account.ErrorPasswordMismatch": "Pasvortoj ne kongruas!",
         "Account.ErrorEmailMismatch": "Retpoŝtoj ne kongruas!",
         "Account.ErrorLoginError": "Ensaluta Eraro:",
-        "Account.RegistrationSuccess": "Sukceso! Retpoŝto estis sendita kun kontrola ligilo. Post kiam vi malfermos ĉi tiun ligon, vi povos ensaluti.",
+        "Account.RegistrationSuccess": "<size=120%> Sukceso!</size><br><br> Retpoŝto estis sendita al {email} kun kontrola ligilo. <br><br> Post kiam vi alklakos ĉi tiun ligon, ni aŭtomate ensalutos. vin dum ĉi tiu dialogo estos malfermita. <br><br> Se vi havas problemojn, kontaktu nin ĉe hello@neos.com aŭ discord.gg/neosvr",
 
         "Profile.Status.Online": "Rete",
         "Profile.Status.Away": "For",
@@ -1051,6 +1051,9 @@
         "Tutorial.Welcome.StartTutorialDescription" : "Ni translokigos vin al baza lernila mondo por helpi vin komenci kun Neos. Vi povas elekti havi la tutmondan mondan publikon, permesante al Neos-komunumo aliĝi kaj helpi vin aŭ lerni memstare.",
         "Tutorial.Welcome.StartTutorialPublic" : "Mi volas, ke homoj aliĝu kaj helpu min",
         "Tutorial.Welcome.StartTutorialPrivate" : "Mi volas lerni sola",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Ĉu vere komenci kiel privata?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Komunumanoj povas helpi vin pli facile kaj pli rapide aranĝi vin, ĉu vi devas iri sola?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Komenci Privata",
 
         "Tutorial.Grab.MoveRotate": "Movi / Rotacii tenitajn erojn",
         "Tutorial.Grab.Scale": "Ekprenu kun alia regilo por skali",
