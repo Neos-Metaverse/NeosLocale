@@ -353,7 +353,7 @@
         "Contacts.BanFromAllSessions" : "Ban from ALL my sessions",
         "Contacts.UnbanFromAllSessions" : "Unban from ALL my sessions",
         "Contacts.BanFromCurrentWorld" : "Ban from current world",
-        "Contacts.UnbanFromCurrentWorld" : "Unban form current world",
+        "Contacts.UnbanFromCurrentWorld" : "Unban from current world",
         "Contacts.RecordingVoiceMessage" : "Recording voice...",
 
         "Contacts.InSession" : "In {name}",
