@@ -1092,8 +1092,8 @@
         "Tutorial.Intro.GrabbingScreen" : "オブジェクトを持つには<color=#77ff77><b>右マウスボタン</b></color>で<color=#ffdd77><b>グラブ</b></color>します。",
 
         "Tutorial.Intro.ScalingTitle" : "スケール",
-        "Tutorial.Intro.ScalingVR" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>スケールするには、 グラブし両手で<color=#77ddff><b>近づけたり遠ざけたり</b></color>します。また、レーザーでも同様に行えます。",
-        "Tutorial.Intro.ScalingScreen" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>スケールするには、<color=#77ff77><b>右マウスボタン</b></color>で持ち、<color=#77ff77><b>シフトキー(Shift)</b></color>を押しながら、<color=#77ff77><b>マウスホイール</b></color>で<color=#77ddff><b>スクロール</b></color>します。",
+        "Tutorial.Intro.ScalingVR" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>するには、 グラブし両手で<color=#77ddff><b>近づけたり遠ざけたり</b></color>します。また、レーザーでも同様に行えます。",
+        "Tutorial.Intro.ScalingScreen" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>するには、<color=#77ff77><b>右マウスボタン</b></color>で持ち、<color=#77ff77><b>シフトキー(Shift)</b></color>を押しながら、<color=#77ff77><b>マウスホイール</b></color>で<color=#77ddff><b>スクロール</b></color>します。",
 
         "Tutorial.Intro.ContextMenuTitle" : "コンテキストメニュー",
         "Tutorial.Intro.ContextMenuDescription" : "<color=#ffdd77><b>コンテキストメニュー</b></color> はすばやくアクションを起こせます。<br><color=#77ff77><b>{button}</b></color>で開閉します。",
@@ -1107,8 +1107,8 @@
         "Tutorial.Intro.DestroyingDuplicatingScreen" : "オブジェクトを持ちながら、コンテキストメニューで<color=#77ff77><b>Delete</b></color>を押すと<b><color=#ffdd77>破棄</color></b>、<color=#77ff77><b>F</b></color>で<color=#ffdd77><b>複製</b></color>します。",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "自分をスケールする",
-        "Tutorial.Intro.ScalingYourselfVR" : "<color=#ffdd77><b>自分をスケールする</b></color>には、両手の<color=#77ff77><b>グリップボタン</b></color>を押しながら<color=#77ddff><b>近づけたり遠ざけたりし</b></color>両手を動かすことによりコンテキストメニューからスケールすることができます。",
-        "Tutorial.Intro.ScalingYourselfScreen" : "<color=#ffdd77><b>自分をスケールする</b></color>には、<color=#77ff77><b>Ctrl</b></color>と <color=#77ff77><b>マウスホイール</b></color>で<color=#77ddff><b>スクロール</b></color>します。",
+        "Tutorial.Intro.ScalingYourselfVR" : "<color=#ffdd77><b>自分をスケールする</b></color>には、コンテキストメニューでスケーリングを有効にしてから、両手の<color=#77ff77><b>グリップボタン</b></color>を押しながら手を<color=#77ddff><b>近づけたり遠ざけたり</b></color>します。",
+        "Tutorial.Intro.ScalingYourselfScreen" : "<color=#ffdd77><b>自分をスケールする</b></color>には、<color=#77ff77><b>Ctrl</b></color>を押しながら<color=#77ff77><b>マウスホイール</b></color>で<color=#77ddff><b>スクロール</b></color>します。",
 
         "Tutorial.Intro.LocomotionTitle" : "移動方法",
         "Tutorial.Intro.LocomotionDescription" : "Neosには様々な移動方法があります。<br>移動オプションは<color=#ffdd77>コンテキストメニュー</color>から利用できます。",
