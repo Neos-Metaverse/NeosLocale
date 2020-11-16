@@ -1104,7 +1104,7 @@
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "破棄と複製",
         "Tutorial.Intro.DestroyingDuplicatingVR" : "オブジェクトを持ちながら、コンテキストメニューで<color=#77ff77><b>クリック</b></color>すると<b><color=#ffdd77>破棄か複製</color></b>をすることができます。",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "オブジェクトを持ちながら、コンテキストメニューで<color=#77ff77><b>Delete</b></color>を押すと<b><color=#ffdd77>破棄</color></b>、<color=#77ff77><b>Ctrl + D</b></color>で<color=#ffdd77><b>複製</b></color>します。",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "オブジェクトを持ちながら、コンテキストメニューで<color=#77ff77><b>Delete</b></color>を押すと<b><color=#ffdd77>破棄</color></b>、<color=#77ff77><b>F</b></color>で<color=#ffdd77><b>複製</b></color>します。",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "自分をスケールする",
         "Tutorial.Intro.ScalingYourselfVR" : "<color=#ffdd77><b>自分をスケールする</b></color>には、両手の<color=#77ff77><b>グリップボタン</b></color>を押しながら<color=#77ddff><b>近づけたり遠ざけたりし</b></color>両手を動かすことによりコンテキストメニューからスケールすることができます。",

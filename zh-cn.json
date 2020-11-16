@@ -1104,7 +1104,7 @@
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "销毁和复制",
         "Tutorial.Intro.DestroyingDuplicatingVR" : "在持有对象的同时，<b><color=#ffdd77>销毁或复制</color></b>通过<color=#77ff77><b>点击</b></color>上下文菜单中的操作。",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "在拿着对象的同时，按<color=#77ff77><b>删除</b><b><color=#ffdd77>销毁</color></b>。<color=#ffdd77><b>重复</b></color>，方法是按<color=#77ff77><b>Ctrl + D</b></color>。",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "在拿着对象的同时，按<color=#77ff77><b>删除</b><b><color=#ffdd77>销毁</color></b>。<color=#ffdd77><b>重复</b></color>，方法是按<color=#77ff77><b>F</b></color>。",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "缩放自己",
         "Tutorial.Intro.ScalingYourselfVR" : "要<color=#ffdd77><b>自行缩放</b></color>，请在上下文菜单中启用缩放，然后同时按住<color=#77ff77><b>Grip按钮</b></color>，然后将手<color=#77ddff><b>更近或更远</b></color>分开。",

@@ -1104,7 +1104,7 @@
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "Destroying and Duplicating",
         "Tutorial.Intro.DestroyingDuplicatingVR" : "While holding an object, <b><color=#ffdd77>Destroy or Duplicate</color></b> it by <color=#77ff77><b>Clicking</b></color> the action in the context menu.",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "While holding an object, <b><color=#ffdd77>Destroy</color></b> it by pressing <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Duplicate</b></color> it by pressing <color=#77ff77><b>Ctrl + D</b></color>.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "While holding an object, <b><color=#ffdd77>Destroy</color></b> it by pressing <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Duplicate</b></color> it by pressing <color=#77ff77><b>F</b></color>.",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "Scaling Yourself",
         "Tutorial.Intro.ScalingYourselfVR" : "To <color=#ffdd77><b>Scale Yourself</b></color>, enable scaling in your context menu, then hold both <color=#77ff77><b>Grip Buttons</b></color> and move your hands <color=#77ddff><b>closer or further</b></color> apart.",
