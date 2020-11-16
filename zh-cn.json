@@ -1084,6 +1084,64 @@
         "Tutorial.Welcome.PrivateTutorialDescription" : "社区成员可以帮助您更轻松快捷地进行设置，真的可以单独进行吗？",
         "Tutorial.Welcome.PrivateTutorialConfirm" : "从私人世界开始",
 
+        "Tutorial.Intro.WelcomeTitle" : "欢迎使用Neos",
+        "Tutorial.Intro.WelcomeDescription" : "您的体验元节的指南。",
+
+        "Tutorial.Intro.GrabbingTitle" : "Grabbing",
+        "Tutorial.Intro.GrabbingVR" : "通过<color=#ffff77><b>抓取</b></color>通过<color=#77ff77><b>抓握按钮</b></p>拾取对象color>。<br>用激光远距离抓取。",
+        "Tutorial.Intro.GrabbingScreen" : "“通过<color=#ffff77><b>Grabbing </b></color>用<color=#77ff77><b>鼠标右键</b></color>。",
+
+        "Tutorial.Intro.ScalingTitle" : "缩放",
+        "Tutorial.Intro.ScalingVR" : "要<color=#ffdd77><b>缩放</b></color>对象，请用双手抓住它并将其移动<color=#77ddff><b>距离更近或更远</b></color>分开-您也可以用激光器来完成。",
+        "Tutorial.Intro.ScalingScreen" : "要<color=#ffdd77><b>缩放</b></color>对象，请使用<color=#77ff77><b>鼠标右键</b></color>，按住<color=#77ff77><b>Shift</b></color>和<color=#77ddff><b>滚动</b></color>并使用您的<color=#77ff77><b>滚轮</b></color>。",
+
+        "Tutorial.Intro.ContextMenuTitle" : "上下文菜单",
+        "Tutorial.Intro.ContextMenuDescription" : "您的<color=#ffdd77><b>上下文菜单</b></color>提供了快速操作。<br>使用打开或关闭它<color=#77ff77><b>{button}</b></color>。",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B按钮",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B或Y按钮",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "菜单按钮",
+        "Tutorial.Intro.ContextMenu_Screen" : " R键",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "销毁和复制",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "在持有对象的同时，<b><color=#ffdd77>销毁或复制</color></b>通过<color=#77ff77><b>点击</b></color>上下文菜单中的操作。",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "在拿着对象的同时，按<color=#77ff77><b>删除</b><b><color=#ffdd77>销毁</color></b>。<color=#ffdd77><b>重复</b></color>，方法是按<color=#77ff77><b>Ctrl + D</b></color>。",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "缩放自己",
+        "Tutorial.Intro.ScalingYourselfVR" : "要<color=#ffdd77><b>自行缩放</b></color>，请在上下文菜单中启用缩放，然后同时按住<color=#77ff77><b>Grip按钮</b></color>，然后将手<color=#77ddff><b>更近或更远</b></color>分开。",
+        "Tutorial.Intro.ScalingYourselfScreen" : "要<color=#ffdd77><b>自行缩放</b></color>，请按住<color=#77ff77><b>Ctrl</b></color>并<color=#77ddff><b>滚动</b></color>您的<color=#77ff77><b>滚轮</b></#color>。",
+      
+        "Tutorial.Intro.LocomotionTitle" : "运动",
+        "Tutorial.Intro.LocomotionDescription" : "Neos包含许多不同的运动方法。<br>这些运动选项在您的<color=#ffdd77>上下文菜单</color>中可用。",
+
+        "Tutorial.Intro.DashboardTitle" : "Neos仪表板",
+        "Tutorial.Intro.DashboardDescription" : " <color=#ffdd77><b>仪表板</b></color>是您的主菜单。<br>您可以使用<color=#77ff77><b>{button}</b></color>。",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>仪表板</b></color>是您的主菜单。<br>您可以通过按住来打开和关闭它<color=#77ff77><b>{button}</b></color>，直到圆圈已满，然后<color=#77ddff><b>释放</b></color>。",
+        "Tutorial.Intro.Dashboard_ButtonA" : "一个按钮",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A或X按钮",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "菜单按钮",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl +空格键组合",
+
+        "Tutorial.Intro.InventoryVR" : "您的<color=#ffdd77><b>库存</b></color>位于仪表板上。<br>要<color=#77ddff><b>生成</b></color>对象，<color=#77ff77><b>双击</b></color>库存中的项目。<br>要<color=#77ddff><b>保存</b></color>一个对象，<color=#77ddff><b>按住</b></color>该项目，然后按右上角的<sprite name=inv-add>。",
+        "Tutorial.Intro.InventoryScreen" : "您的<color=#ffdd77><b>库存</b></color>位于Neos仪表板上。<br>要<color=#77ddff><b>生成<</b></color>对象，<color=#77ff77> <b>双击</b></color>库存中的项目。<br>要保存<color=#77ddff><b>保存</b></color>一个对象，按住该项目并按<color=#77ff77><b>Ctrl + S</b></color>。",
+
+        "Tutorial.Intro.HomeScreenTitle" : "您的主屏幕",
+        "Tutorial.Intro.HomeScreenDescription" : "您的<color=#ffdd77><b>主屏幕</b></color>包含具有许多功能的方面。<br>其中包括阿凡达创建机器，全身校准器，相机/流媒体，创造新世界。",
+        "Tutorial.Intro.ContactsDescription" : "您的<color=#ffdd77> <b>联系人</b></color>位于仪表板上。<br>使用聊天框向联系人发送消息，语音消息或对象。在右下角。<br>使用左上角的搜索栏添加联系人。",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>导入</b></color>文件，3D模型，图像，音频，视频或字体直接导入Neos！<br><color=#77ddff><b>将</b></color>文件拖放到Neos窗口中，或使用<color=#ffdd77><b>文件浏览器</b></color>查找它们。",
+        "Tutorial.Intro.SessionTitle" : "会话设置",
+        "Tutorial.Intro.SessionDescription" : "可以在<color=#ffdd77><b>会议</b></color>面板中找到与世界上其他用户有关的会话设置，权限级别和设置。",
+        "Tutorial.Intro.SettingsDescription" : "在<color=#ffdd77><b>设定</b></color>选项卡中调整了高度，音量，舒适度设定，语言选择等。",
+        "Tutorial.Intro.WorldsTitle" : "世界菜单",
+        "Tutorial.Intro.WorldsDescription" : "使用<color=#ffdd77><b>世界</b></color>菜单浏览metaverse。<br>在这里完成操作后，请参加一个活跃的会议以开会社区！",
+
+        "Tutorial.Intro.OutroTop" : "在这个世界上还有更多的教程。<br><br>祝你好运，享受元节！",
+        "Tutorial.Intro.Website" : "网站",
+        "Tutorial.Intro.OutroEnd" : "要支持该项目，请加入我们的Patreon。<br><br>加入Discord以获取状态更新，网络或技术支持。",
+
+        "Tutorial.MTC.Avatars" : "阿凡达",
+        "Tutorial.MTC.Creation" : "创作",
+        "Tutorial.MTC.RecordingStreaming" : "记录<br>和流式传输",
+
         "Tutorial.Grab.MoveRotate" : "移动/旋转保留的物体",
         "Tutorial.Grab.Scale" : "与其他控制器缩放以进行缩放",
         "Tutorial.Grab.PullToEquip" : "向您拉来装备",
@@ -1092,7 +1150,7 @@
         "Tutorial.Grab.EquipForFullUse" : "使用所有功能的设备",
 
         "Tutorial.WorldOrb.Click" : " 点击世界宝珠",
-        "Tutorial.WorldOrb.Info" : " <b>世界宝珠</ b> \n<size = 80％>代表一个世界或一个会话\n双击-进入\n单击-上下文菜单",
+        "Tutorial.WorldOrb.Info" : " <b>世界宝珠</b>\n<size=80％>代表一个世界或一个会话</size>\n双击-进入\n单击-上下文菜单",
 
         "Tutorial.Tooltip.GeneralPrimary" : "使用",
         "Tutorial.Tooltip.GeneralSecondary" : "第二动作",
@@ -1105,8 +1163,8 @@
         "Tutorial.Tooltip.ColorPrimary" : "应用颜色",
         "Tutorial.Tooltip.ColorSecondary" : "选择颜色",
         "Tutorial.Tooltip.Brush" : "绘制",
-        "Tutorial.Tooltip.MaterialPrimary" : "应用材质\n <size = 75％>（将材质球放入枪中）</ size>",
-        "Tutorial.Tooltip.MaterialSecondary" : "提取材质\n <size = 75％>（确保没有材质球优先）</ size>",
+        "Tutorial.Tooltip.MaterialPrimary" : "应用材质\n<size=75％>（将材质球放入枪中）</size>",
+        "Tutorial.Tooltip.MaterialSecondary" : "提取材质\n<size=75％>（确保没有材质球优先）</size>",
         "Tutorial.Tooltip.MeshPrimary" : "替换网格",
         "Tutorial.Tooltip.MeshSecondary" : "提取网格",
         "Tutorial.Tooltip.CharacterColliderPrimary" : "添加角色对撞机",
@@ -1123,20 +1181,9 @@
         "Tutorial.Tooltip.WigglerSecondary" : "稍微赎回你的灵魂",
         
         "Exiting.SavingItems" : "正在保存 {n, plural, other {# 项目}}...",
-        "Exiting.SavingChanges" : "正在保存更改...",
+        "Exiting.SavingChanges" : "正在保存更改中...",
         "Exiting.Exiting" : "正在退出中...",
         "Exiting.LoggingOut" : "正在注销...",
-
-        "Temporary.MMC.Voting UI": "MMC投票界面",
-        "Temporary.MMC.Vote": "投票",
-        "Temporary.MMC.Categories.Name": "分类目录",
-        "Temporary.MMC.Categories.Worlds": "世界",
-        "Temporary.MMC.Categories.Other": "小工具/工具+",
-        "Temporary.MMC.Categories.Avatars": "阿凡达",
-        "Temporary.MMC.VoteSuccess": "为{voteTarget}在类别{category}中投了票。",
-        "Temporary.MMC.VoteFailure": "投票失败，您的投票尚未注册，请重试。",
-        "Temporary.MMC.VotedAlready": "您已经在{category}中投票。",
-        "Temporary.MMC.VoteInvalid": "投票无效，请重试。",
 
         "Dummy" : "假"
     }

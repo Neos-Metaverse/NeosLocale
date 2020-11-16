@@ -899,7 +899,7 @@
         "Settings.System.KeepOriginalScreenshotFormat" : "保留原始屏幕截圖格式",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "啟用後，將截圖保存到“文檔”文件夾後將不會轉換為JPG",
 
-        "Security.Hyperlink.Warning" : "<b> <size = 125％>警告：傳出超鏈接</ size> </ b> \n您進入了一個世界中的鏈接。您要打開嗎？這將在您的桌面網絡瀏覽器中 ：。",
+        "Security.Hyperlink.Warning" : "<b><size=125％>警告：傳出超鏈接</size></b> \n您進入了一個世界中的鏈接。您要打開嗎？這將在您的桌面網絡瀏覽器中 ：。",
         "Security.Hyperlink.Open" : "打開",
         "Security.Hyperlink.Cancel" : "取消",
 
@@ -1084,6 +1084,64 @@
         "Tutorial.Welcome.PrivateTutorialDescription" : "社區成員可以幫助您更輕鬆快捷地進行設置，真的可以單獨進行嗎？",
         "Tutorial.Welcome.PrivateTutorialConfirm" : "從私人世界開始",
 
+        "Tutorial.Intro.WelcomeTitle" : "歡迎使用Neos",
+        "Tutorial.Intro.WelcomeDescription" : "您的體驗元節的指南。",
+
+        "Tutorial.Intro.GrabbingTitle" : "Grabbing",
+        "Tutorial.Intro.GrabbingVR" : "通過<color=#ffff77><b>抓取</b></color>通過<color=#77ff77><b>抓握按鈕</b></p>拾取對象color>。<br>用激光遠距離抓取。",
+        "Tutorial.Intro.GrabbingScreen" : "“通過<color=#ffff77><b>Grabbing</b></color>用<color=#77ff77><b>鼠標右鍵</b></color>。",
+
+        "Tutorial.Intro.ScalingTitle" : "縮放",
+        "Tutorial.Intro.ScalingVR" : "要<color=#ffdd77><b>縮放</b></color>對象，請用雙手抓住它並將其移動<color=#77ddff><b>距離更近或更遠</b></color>分開-您也可以用激光器來完成。",
+        "Tutorial.Intro.ScalingScreen" : "要<color=#ffdd77><b>縮放</b></color>對象，請使用<color=#77ff77><b>鼠標右鍵</b></color>，按住<color=#77ff77><b>Shift</b></color>和<color=#77ddff><b>滾動</b></color>並使用您的<color=#77ff77><b>滾輪</b></color>。",
+
+        "Tutorial.Intro.ContextMenuTitle" : "上下文菜單",
+        "Tutorial.Intro.ContextMenuDescription" : "您的<color=#ffdd77><b>上下文菜單</b></color>提供了快速操作。<br>使用打開或關閉它<color=#77ff77><b>{button}</b></color>。",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B按鈕",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B或Y按鈕",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "菜單按鈕",
+        "Tutorial.Intro.ContextMenu_Screen" : " R鍵",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "銷毀和復制",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "在持有對象的同時，<b><color=#ffdd77>銷毀或複制</color></b>通過<color=#77ff77><b>點擊</b></color>上下文菜單中的操作。",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "在拿著對象的同時，按<color=#77ff77><b>刪除</b><b><color=#ffdd77>銷毀</color></b>。<color=#ffdd77><b>重複</b></color>，方法是按<color=#77ff77><b>Ctrl + D</b></color>。",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "縮放自己",
+        "Tutorial.Intro.ScalingYourselfVR" : "要<color=#ffdd77><b>自行縮放</b></color>，請在上下文菜單中啟用縮放，然後同時按住<color=#77ff77><b>Grip按鈕</b></color>，然後將手<color=#77ddff><b>更近或更遠</b></color>分開。",
+        "Tutorial.Intro.ScalingYourselfScreen" : "要<color=#ffdd77><b>自行縮放</b></color>，請按住<color=#77ff77><b>Ctrl</b></color>並<color=#77ddff><b>滾動</b></color>您的<color=#77ff77><b>滾輪</b></#color>。",
+      
+        "Tutorial.Intro.LocomotionTitle" : "運動",
+        "Tutorial.Intro.LocomotionDescription" : "Neos包含許多不同的運動方法。<br>這些運動選項在您的<color=#ffdd77>上下文菜單</color>中可用。",
+
+        "Tutorial.Intro.DashboardTitle" : "Neos儀表板",
+        "Tutorial.Intro.DashboardDescription" : " <color=#ffdd77><b>儀表板</b></color>是您的主菜單。<br>您可以使用<color=#77ff77><b>{button}</b></color>。",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>儀表板</b></color>是您的主菜單。<br>您可以通過按住來打開和關閉它<color=#77ff77><b>{button}</b></color>，直到圓圈已滿，然後<color=#77ddff><b>釋放</b></color>。",
+        "Tutorial.Intro.Dashboard_ButtonA" : "一個按鈕",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A或X按鈕",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "菜單按鈕",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl +空格鍵組合",
+
+        "Tutorial.Intro.InventoryVR" : "您的<color=#ffdd77><b>庫存</b></color>位於儀表板上。<br>要<color=#77ddff><b>生成</b></color>對象，<color=#77ff77><b>雙擊</b></color>庫存中的項目。<br>要<color=#77ddff><b>保存</b></color>一個對象，<color=#77ddff><b>按住</b></color>該項目，然後按右上角的<sprite name=inv-add>。",
+        "Tutorial.Intro.InventoryScreen" : "您的<color=#ffdd77><b>庫存</b></color>位於Neos儀表板上。<br>要<color=#77ddff><b>生成</b></color>對象，<color=#77ff77><b>雙擊</b></color>庫存中的項目。<br>要保存<color=#77ddff><b>保存</b></color>一個對象，按住該項目並按<color=#77ff77><b>Ctrl + S</b></color>。",
+
+        "Tutorial.Intro.HomeScreenTitle" : "您的主屏幕",
+        "Tutorial.Intro.HomeScreenDescription" : "您的<color=#ffdd77><b>主屏幕</b></color>包含具有許多功能的方面。<br>其中包括阿凡達創建機器，全身校準器，相機/流媒體，創造新世界。",
+        "Tutorial.Intro.ContactsDescription" : "您的<color=#ffdd77><b>聯繫人</b></color>位於儀表板上。<br>使用聊天框向聯繫人發送消息，語音消息或對象。在右下角。<br>使用左上角的搜索欄添加聯繫人。",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>導入</b></color>文件，3D模型，圖像，音頻，視頻或字體直接導入Neos！<br><color=#77ddff><b>將</b></color>文件拖放到Neos窗口中，或使用<color=#ffdd77><b>文件瀏覽器</b></color>查找它們。",
+        "Tutorial.Intro.SessionTitle" : "會話設置",
+        "Tutorial.Intro.SessionDescription" : "可以在<color=#ffdd77><b>會議</b></color>面板中找到與世界上其他用戶有關的會話設置，權限級別和設置。",
+        "Tutorial.Intro.SettingsDescription" : "在<color=#ffdd77><b>設定</b></color>選項卡中調整了高度，音量，舒適度設定，語言選擇等。",
+        "Tutorial.Intro.WorldsTitle" : "世界菜單",
+        "Tutorial.Intro.WorldsDescription" : "使用<color=#ffdd77><b>世界</b></color>菜單瀏覽metaverse。<br>在這裡完成操作後，請參加一個活躍的會議以開會社區！",
+
+        "Tutorial.Intro.OutroTop" : "在這個世界上還有更多的教程。<br><br>祝你好運，享受元節！",
+        "Tutorial.Intro.Website" : "網站",
+        "Tutorial.Intro.OutroEnd" : "要支持該項目，請加入我們的Patreon。<br><br>加入Discord以獲取狀態更新，網絡或技術支持。",
+
+        "Tutorial.MTC.Avatars" : "阿凡達",
+        "Tutorial.MTC.Creation" : "創作",
+        "Tutorial.MTC.RecordingStreaming" : "記錄<br>和流式傳輸",
+
         "Tutorial.Grab.MoveRotate" : "移動/旋轉保留的物體",
         "Tutorial.Grab.Scale" : "與其他控制器縮放以進行縮放",
         "Tutorial.Grab.PullToEquip" : "向您拉來裝備",
@@ -1092,7 +1150,7 @@
         "Tutorial.Grab.EquipForFullUse" : "使用所有功能的設備",
 
         "Tutorial.WorldOrb.Click" : " 點擊世界寶珠",
-        "Tutorial.WorldOrb.Info" : " <b>世界寶珠</ b> \n<size = 80％>代表一個世界或一個會話\n雙擊-進入\n單擊-上下文菜單",
+        "Tutorial.WorldOrb.Info" : " <b>世界寶珠</b>\n<size=80％>代表一個世界或一個會話</size>\n雙擊-進入\n單擊-上下文菜單",
 
         "Tutorial.Tooltip.GeneralPrimary" : "使用",
         "Tutorial.Tooltip.GeneralSecondary" : "第二動作",
@@ -1105,8 +1163,8 @@
         "Tutorial.Tooltip.ColorPrimary" : "應用顏色",
         "Tutorial.Tooltip.ColorSecondary" : "選擇顏色",
         "Tutorial.Tooltip.Brush" : "繪製",
-        "Tutorial.Tooltip.MaterialPrimary" : "應用材質\n <size = 75％>（將材質球放入槍中）</ size>",
-        "Tutorial.Tooltip.MaterialSecondary" : "提取材質\n <size = 75％>（確保沒有材質球優先）</ size>",
+        "Tutorial.Tooltip.MaterialPrimary" : "應用材質\n <size=75％>（將材質球放入槍中）</size>",
+        "Tutorial.Tooltip.MaterialSecondary" : "提取材質\n <size=75％>（確保沒有材質球優先）</size>",
         "Tutorial.Tooltip.MeshPrimary" : "替換網格",
         "Tutorial.Tooltip.MeshSecondary" : "提取網格",
         "Tutorial.Tooltip.CharacterColliderPrimary" : "添加角色對撞機",
@@ -1126,18 +1184,7 @@
         "Exiting.SavingChanges" : "正在保存更改...",
         "Exiting.Exiting" : "正在退出中...",
         "Exiting.LoggingOut" : "正在註銷...",
-
-        "Temporary.MMC.Voting UI": "MMC投票界面",
-        "Temporary.MMC.Vote": "投票",
-        "Temporary.MMC.Categories.Name": "分類目錄",
-        "Temporary.MMC.Categories.Worlds": "世界",
-        "Temporary.MMC.Categories.Other": "小工具/工具+",
-        "Temporary.MMC.Categories.Avatars": "阿凡達",
-        "Temporary.MMC.VoteSuccess": "為{voteTarget}在類別{category}中投了票。",
-        "Temporary.MMC.VoteFailure": "投票失敗，您的投票尚未註冊，請重試。",
-        "Temporary.MMC.VotedAlready": "您已經在{category}中投票。",
-        "Temporary.MMC.VoteInvalid": "投票無效，請重試。",
-        
+   
         "Dummy" : "Dummy"
     }
 }
