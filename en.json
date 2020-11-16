@@ -36,7 +36,7 @@
         "Locomotion.WalkRun.Name" : "Walk/Run",
         "Locomotion.WalkRun.Description" : "Physical walking, running and jumping.",
         "Locomotion.WalkRunGripping.Name" : "Walk/Run (with climbing)",
-        "Locomotion.WalkRunGripping.Description" : "Physical walking, running and jumping and climbing.",
+        "Locomotion.WalkRunGripping.Description" : "Physical walking, running, jumping and climbing.",
         "Locomotion.ZeroG.Name" : "Zero-G",
         "Locomotion.ZeroG.Description" : "Weightless physical locomotion",
         "Locomotion.GrabWorld.Name" : "Grab World",
