@@ -1,6 +1,6 @@
 {
     "localeCode" : "en",
-    "authors" : ["Frooxius", "Enverex", "rampa_3"],
+    "authors" : ["Frooxius", "Enverex", "rampa_3", "Melnus"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -1150,7 +1150,7 @@
         "Tutorial.Grab.EquipForFullUse" : "Equip to use all functionality",
 
         "Tutorial.WorldOrb.Click" : "Click World Orb",
-        "Tutorial.WorldOrb.Info" : "<b>World Orb</b>\n<size=80%>Represents a world or a session\nDouble Click - Enter\nSingle Click - Context Menu",
+        "Tutorial.WorldOrb.Info" : "<b>World Orb</b>\n<size=80%>Represents a world or a session</size>\nDouble Click - Enter\nSingle Click - Context Menu",
 
         "Tutorial.Tooltip.GeneralPrimary" : "Use",
         "Tutorial.Tooltip.GeneralSecondary" : "Secondary Action",

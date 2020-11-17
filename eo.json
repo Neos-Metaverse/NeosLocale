@@ -83,7 +83,7 @@
 
         "Dash.Actions.CoreWorldsHeader": "Kernaj Mondoj",
         "Dash.Actions.ContentHub": "Enhava Nabo",
-        "Dash.Actions.MTC": "Metaversa Trejncentro <size = 75%> (lerniloj) </size>",
+        "Dash.Actions.MTC": "Metaversa Trejncentro <size=75%> (lerniloj) </size>",
         "Dash.Actions.CloudHome": "Mia Nuba Hejmo",
 
         "Dash.Exit.Header": "Eliri Neos",
@@ -899,7 +899,7 @@
         "Settings.System.KeepOriginalScreenshotFormat" : "Konservu originalan ekranfoton",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Se ebligita, ekrankopioj ne konvertiĝos al JPG se konservitaj en la dosierujo Dokumentoj",
 
-        "Security.Hyperlink.Warning": "<b> <size = 125%> Averto: Eliranta hiperligo </size> </b> \n Vi alklakis ligon en mondo. Ĉu vi volas malfermi ĝin? Ĉi tio faros malfermu en via labortabla retumilo. ",
+        "Security.Hyperlink.Warning": "<b> <size=125%> Averto: Eliranta hiperligo </size> </b> \n Vi alklakis ligon en mondo. Ĉu vi volas malfermi ĝin? Ĉi tio faros malfermu en via labortabla retumilo. ",
         "Security.Hyperlink.Open": "Malfermi",
         "Security.Hyperlink.Cancel": "Nuligi",
 
@@ -1084,6 +1084,64 @@
         "Tutorial.Welcome.PrivateTutorialDescription" : "Komunumanoj povas helpi vin pli facile kaj pli rapide aranĝi vin, ĉu vi devas iri sola?",
         "Tutorial.Welcome.PrivateTutorialConfirm" : "Komenci Privata",
 
+        "Tutorial.Intro.WelcomeTitle": "Bonvenon al Neos!",
+        "Tutorial.Intro.WelcomeDescription": "Via gvidilo por sperti la metaverson.",
+
+        "Tutorial.Intro.GrabbingTitle": "Grabbing",
+        "Tutorial.Intro.GrabbingVR": "Elektu objektojn per <color=#ffdd77><b>Grabbing</b></color> per la <color=#77ff77><b>Grip-butono</b></color>. <br>Ekprenu malproksime per via lasero. ",
+        "Tutorial.Intro.GrabbingScreen": "Elektu objektojn per <color=#ffdd77><b>Grabbing</b></color> per la <color=#77ff77><b>Dekstra musbutono</b></color>. ",
+
+        "Tutorial.Intro.ScalingTitle": "Skalo",
+        "Tutorial.Intro.ScalingVR": "Por <color=#ffdd77><b>Skali</b></color> objekton, kaptu ĝin per ambaŭ manoj kaj movu ilin <color=#77ddff><b>pli proksime aŭ plu</b></color>aparte - ĉi tio povas esti farita ankaŭ per viaj laseroj. ",
+        "Tutorial.Intro.ScalingScreen": "Al <color=#ffdd77><b>Skali</b></color> objekton, ekprenu ĝin per <color=#77ff77><b>Dekstra Muso</b></color>, tenu <color=#77ff77><b>Shift</b></color>, kaj <color=#77ddff><b>skroll</b></color> kun via <color=#77ff77><b>Ruluma Rado</b></color>. ",
+
+        "Tutorial.Intro.ContextMenuTitle": "Kunteksta Menuo",
+        "Tutorial.Intro.ContextMenuDescription": "Via <color=#ffdd77><b>Kunteksta menuo</b></color> donas rapidajn agojn. <br>Malfermu aŭ fermu ĝin per la <color=#77ff77><b>{button}</b></color>. ",
+        "Tutorial.Intro.ContextMenu_ButtonB": "B-butono",
+        "Tutorial.Intro.ContextMenu_ButtonBY": "Butono B aŭ Y",
+        "Tutorial.Intro.ContextMenu_ButtonMenu": "Menuo-butono",
+        "Tutorial.Intro.ContextMenu_Screen": "R-ŝlosilo",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle": "Detrui kaj Kopii",
+        "Tutorial.Intro.DestroyingDuplicatingVR": "Dum vi tenas objekton, <b><color=#ffdd77>Detruu aŭ Kopiu</color></b> ĝin per <color=#77ff77> <b> Alklakante </b> </color> la ago en la kunteksta menuo. ",
+        "Tutorial.Intro.DestroyingDuplicatingScreen": "Tenante objekton, <b><color=#ffdd77>Detruu</color></b> ĝin premante <color=#77ff77><b>Forigi</b></color>. <color=#ffdd77><b>Dupliku</b></color> ĝin premante <color=#77ff77><b>F</b></color>. ",
+
+        "Tutorial.Intro.ScalingYourselfTitle": "Skali vin mem",
+        "Tutorial.Intro.ScalingYourselfVR": "Por <color=#ffdd77><b> Skali vin mem </b></color>, ebligu skalon en via kunteksta menuo, tiam tenu ambaŭ <color=#77ff77><b> Grip Butonoj</b></color> kaj movu viajn manojn <color=#77ddff><b> pli proksime aŭ plu </b></color>aparte. ",
+        "Tutorial.Intro.ScalingYourselfScreen": "Por <color=#ffdd77><b> Skali vin mem </b></color>, tenu <color=#77ff77><b>Ctrl</b></color> kaj <color=#77ddff><b>skroll</b></color> via <color=#77ff77><b> Scroll-rado </b></color>. ",
+
+        "Tutorial.Intro.LocomotionTitle": "Movado",
+        "Tutorial.Intro.LocomotionDescription": "Neos enhavas multajn malsamajn metodojn de movado. <br> Ĉi tiuj lokomotivaj opcioj disponeblas ene de via <color=#ffdd77> Kunteksta Menuo </color>.",
+
+        "Tutorial.Intro.DashboardTitle": "Neos-Panelo",
+        "Tutorial.Intro.DashboardDescription": "La <color=#ffdd77><b>Panestraro</b></color> estas via ĉefa menuo. <br>Vi malfermas kaj fermas ĝin per la <color=#77ff77><b> {button} </b></color>. ",
+        "Tutorial.Intro.DashboardDescriptionCircle": "La <color=#ffdd77><b>Panestraro</b></color> estas via ĉefa menuo. <br> Vi malfermas kaj fermas ĝin tenante la <color=#77ff77><b>{button}</b></color> ĝis la cirklo pleniĝos, tiam <color=#77ddff><b>liberigo</b></color>. ",
+        "Tutorial.Intro.Dashboard_ButtonA": "Butono",
+        "Tutorial.Intro.Dashboard_ButtonAX": "Butono A aŭ X",
+        "Tutorial.Intro.Dashboard_ButtonMenu": "Menuo-butono",
+        "Tutorial.Intro.Dashboard_ButtonScreen": "Ctrl + Spaca klavkombino",
+
+        "Tutorial.Intro.InventoryVR": "Via <color=#ffdd77><b>Inventaro</b></color> troviĝas sur via Panelo. <br> Al <color=#77ddff><b> Generas </b></color> objekto, <color=#77ff77><b>Duobla-Alklaku</b></color> la eron en via inventaro. <br>Al <color=#77ddff><b> Konservu </b></color> objekto, <color=#77ddff><b> tenu</b></color> la eron kaj premu <sprite name=inv-add> supre dekstre. ",
+        "Tutorial.Intro.InventoryScreen": "Via <color=#ffdd77><b>Inventaro</b></color> troviĝas sur via Neos-Panelo. <br>Al <color=#77ddff><b> Generas </b></color> objekto, <color=#77ff77><b>Duoble-Alklaku</b></color> la eron en via inventaro. <br>Por <color=#77ddff><b>konservi</b></color> objekto, tenu la eron kaj premu <color=#77ff77> <b> Ctrl + S </b> </color>. ",
+
+        "Tutorial.Intro.HomeScreenTitle": "Via Hejma Ekrano",
+        "Tutorial.Intro.HomeScreenDescription": "Via <color=#ffdd77><b> Hejmekrano </b></color> enhavas facetojn kun multaj funkcioj. <br> Ĉi tiuj inkluzivas Avatar-Kreinton, Korpan Kalibrilon, Fotilon / Streaming, kaj Krei Novan Mondon. ",
+        "Tutorial.Intro.ContactsDescription": "Viaj <color=#ffdd77><b> Kontaktoj</b></color> troviĝas sur la Panelo. <br> Sendu mesaĝojn, voĉajn mesaĝojn aŭ objektojn al kontaktoj kun la babilejo dekstre malsupre. <br> Aldoni kontaktojn kun la serĉobreto, trovita en la supra maldekstra angulo. ",
+        "Tutorial.Intro.FilesDescription": "<color=#ffdd77><b> Importi </b></color> dosierojn, 3D-modelojn, bildojn, aŭdojn, filmetojn aŭ tiparojn rekte en Neos! <br> Aŭ <color=#77ddff><b> treni kaj faligi </b></color> dosierojn sur la Neos-fenestron, aŭ trovu ilin per la <color=#ffdd77><b> Dosierfoliumilo </b></color>. " ,
+        "Tutorial.Intro.SessionTitle": "Agordoj de Sesio",
+        "Tutorial.Intro.SessionDescription": "Sesiaj agordoj, permesaj niveloj kaj agordoj pri aliaj uzantoj en la mondo troveblas en la panelo <color=#ffdd77><b>Sessions</b></color>." ,
+        "Tutorial.Intro.SettingsDescription": "Alteco, volumo, komfortaj agordoj, lingva elekto kaj pli estas ĝustigitaj en la langeto <color=#ffdd77><b>Settings</b></color>.",
+        "Tutorial.Intro.WorldsTitle": "Menuo de Mondoj",
+        "Tutorial.Intro.WorldsDescription": "Esploru la metaverson per la menuo <color=#ffdd77><b>Mondoj</b></color>. <br> Kiam vi finos ĉi tie, aliĝu al aktiva sesio por renkontiĝi la komunumo! ",
+
+        "Tutorial.Intro.OutroTop": "Pliaj lerniloj haveblas tra ĉi tiu mondo. <br> <br> Bonŝancon kaj ĝuu la metaverson!",
+        "Tutorial.Intro.Website": "Retejo",
+        "Tutorial.Intro.OutroEnd": "Por subteni la projekton, aliĝu al nia Patreon. <br><br> Aliĝu al la Malakordo por statusaj ĝisdatigoj, retoj aŭ teknika subteno.",
+
+        "Tutorial.MTC.Avatars": "Avataroj",
+        "Tutorial.MTC.Creation": "Kreo",
+        "Tutorial.MTC.RecordingStreaming": "Registrante <br> kaj elsendante",
+
         "Tutorial.Grab.MoveRotate": "Movi / Rotacii tenitajn erojn",
         "Tutorial.Grab.Scale": "Ekprenu kun alia regilo por skali",
         "Tutorial.Grab.PullToEquip": "Tiru al vi por ekipi",
@@ -1092,7 +1150,7 @@
         "Tutorial.Grab.EquipForFullUse": "Ekipu uzi ĉiujn funkciojn",
 
         "Tutorial.WorldOrb.Click": "Alklaku World Orb",
-        "Tutorial.WorldOrb.Info": "<b> Monda Okulkavo </b> \n<size = 80%> Reprezentas mondon aŭ sesion \nDuobla Alklako - Eniri \nSola Klako - Kunteksta Menuo",
+        "Tutorial.WorldOrb.Info": "<b> Monda Okulkavo </b> \n<size=80%> Reprezentas mondon aŭ sesion</size>\nDuobla Alklako - Eniri \nSola Klako - Kunteksta Menuo",
 
         "Tutorial.Tooltip.GeneralPrimary": "Uzu",
         "Tutorial.Tooltip.GeneralSecondary": "Malĉefa Ago",
@@ -1105,8 +1163,8 @@
         "Tutorial.Tooltip.ColorPrimary": "Apliki koloron",
         "Tutorial.Tooltip.ColorSecondary": "Elektu Koloron",
         "Tutorial.Tooltip.Brush": "Desegni",
-        "Tutorial.Tooltip.MaterialPrimary": "Apliki Materialon \n<size = 75%> (Metu materialan okulkavon en la pafilon) </size>",
-        "Tutorial.Tooltip.MaterialSecondary": "Ĉerpu Materialon \n<size = 75%> (Certigu, ke unue ne ekzistas materiala okulkavo) </size>",
+        "Tutorial.Tooltip.MaterialPrimary": "Apliki Materialon \n<size=75%> (Metu materialan okulkavon en la pafilon) </size>",
+        "Tutorial.Tooltip.MaterialSecondary": "Ĉerpu Materialon \n<size=75%> (Certigu, ke unue ne ekzistas materiala okulkavo) </size>",
         "Tutorial.Tooltip.MeshPrimary": "Anstataŭigi Mesh",
         "Tutorial.Tooltip.MeshSecondary": "Ĉerpi Mesh",
         "Tutorial.Tooltip.CharacterColliderPrimary": "Aldoni Karakteran Kolizion",
@@ -1126,18 +1184,7 @@
         "Exiting.SavingChanges" : "Konservi Ŝanĝojn ...",
         "Exiting.Exiting" : "Elirante ...",
         "Exiting.LoggingOut" : "Elŝalti ...",
-
-        "Temporary.MMC.Voting UI": "MMC Voĉdonado UI",
-        "Temporary.MMC.Vote": "Voĉdonu",
-        "Temporary.MMC.Categories.Name": "Kategorioj",
-        "Temporary.MMC.Categories.Worlds": "Mondoj",
-        "Temporary.MMC.Categories.Other": "Aparatoj / Iloj +",
-        "Temporary.MMC.Categories.Avatars": "Avataroj",
-        "Temporary.MMC.VoteSuccess": "Voĉdonu en kategorio {category}  por {voteTarget}.",
-        "Temporary.MMC.VoteFailure": "Voĉdono malsukcesis, via voĉdono ne estis registrita bonvolu provi denove.",
-        "Temporary.MMC.VotedAlready": "Vi jam voĉdonis en {category} .",
-        "Temporary.MMC.VoteInvalid": "Voĉdono nevalidas, bonvolu reprovi.",
-        
+ 
         "Dummy" : "Dummy"
     }
 }

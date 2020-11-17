@@ -1081,8 +1081,66 @@
         "Tutorial.Welcome.StartTutorialPublic" : "みんなで助け合いながらプレイ(パブリック)",
         "Tutorial.Welcome.StartTutorialPrivate" : "ひとりでプレイ(プライベート)",
         "Tutorial.Welcome.PrivateTutorialHeader" : "プライベートで始めますか？",
-        "Tutorial.Welcome.PrivateTutorialDescription" : "コミュニティのメンバーは、セットアップをより簡単かつ迅速に行うのに役立ちます。本当に一人で進めますか？",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "コミュニティのメンバーは、セットアップをより簡単かつ迅速に行うのに役立ちます。<br>本当に一人で進めますか？",
         "Tutorial.Welcome.PrivateTutorialConfirm" : "プライベートで開始します",
+
+        "Tutorial.Intro.WelcomeTitle" : "Neosにようこそ",
+        "Tutorial.Intro.WelcomeDescription" : "メタバースを体験するためのガイドを行います。",
+
+        "Tutorial.Intro.GrabbingTitle" : "グラブ",
+        "Tutorial.Intro.GrabbingVR" : "オブジェクトを持つには<color=#77ff77><b>グリップボタン</b></color>で<color=#ffdd77><b>グラブ</b></color>します。<br>離れた物もレーザーを使用してつかめます。",
+        "Tutorial.Intro.GrabbingScreen" : "オブジェクトを持つには<color=#77ff77><b>右マウスボタン</b></color>で<color=#ffdd77><b>グラブ</b></color>します。",
+
+        "Tutorial.Intro.ScalingTitle" : "スケール",
+        "Tutorial.Intro.ScalingVR" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>するには、両手でグラブし<color=#77ddff><b>近づけたり遠ざけたり</b></color>します。また、レーザーでも同様に行えます。",
+        "Tutorial.Intro.ScalingScreen" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>するには、<color=#77ff77><b>右マウスボタン</b></color>で持ち、<color=#77ff77><b>シフトキー(Shift)</b></color>を押しながら、<color=#77ff77><b>マウスホイール</b></color>を<color=#77ddff><b>スクロール</b></color>します。",
+
+        "Tutorial.Intro.ContextMenuTitle" : "コンテキストメニュー",
+        "Tutorial.Intro.ContextMenuDescription" : "<color=#ffdd77><b>コンテキストメニュー</b></color> はすばやくアクションを起こせます。<br><color=#77ff77><b>{button}</b></color>で開閉します。",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B ボタン",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B または Y ボタン",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "メニューボタン",
+        "Tutorial.Intro.ContextMenu_Screen" : "R キー",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "破棄と複製",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "オブジェクトを持ちながら、コンテキストメニューを開き<color=#77ff77><b>クリック</b></color>すると<b><color=#ffdd77>破棄か複製</color></b>をすることができます。",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "オブジェクトを持ちながら、コンテキストメニューで<color=#77ff77><b>Delete</b></color>を押すと<b><color=#ffdd77>破棄</color></b>、<color=#77ff77><b>F</b></color>で<color=#ffdd77><b>複製</b></color>します。",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "自分をスケールする",
+        "Tutorial.Intro.ScalingYourselfVR" : "<color=#ffdd77><b>自分をスケールする</b></color>には、コンテキストメニューでスケーリングを有効にしてから、両手の<color=#77ff77><b>グリップボタン</b></color>を押しながら手を<color=#77ddff><b>近づけたり遠ざけたり</b></color>します。",
+        "Tutorial.Intro.ScalingYourselfScreen" : "<color=#ffdd77><b>自分をスケールする</b></color>には、<color=#77ff77><b>Ctrl</b></color>を押しながら<color=#77ff77><b>マウスホイール</b></color>を<color=#77ddff><b>スクロール</b></color>します。",
+
+        "Tutorial.Intro.LocomotionTitle" : "移動方法",
+        "Tutorial.Intro.LocomotionDescription" : "Neosには様々な移動方法があります。<br>移動オプションは<color=#ffdd77>コンテキストメニュー</color>から利用できます。",
+
+        "Tutorial.Intro.DashboardTitle" : "ダッシュボード",
+        "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>ダッシュボード</b></color>はあなたのメインメニューです。<br><color=#77ff77><b>{button}</b></color>で開閉できます。",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>ダッシュボード</b></color>はあなたのメインメニューです。<br><color=#77ff77><b>{button}</b></color> を押し続けサークルマークが満ちたら、<color=#77ddff><b>離す</b></color>ことで開閉できます。",
+        "Tutorial.Intro.Dashboard_ButtonA" : "A ボタン",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A または X ボタン",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "メニューボタン",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl + スペースキー両方押し",
+
+        "Tutorial.Intro.InventoryVR" : "ダッシュボードには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムを<color=#77ddff><b>持ちながら</b></color>右上の<sprite name=inv-add>を押します。",
+        "Tutorial.Intro.InventoryScreen" : "ダッシュボードには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムを持ちながら<color=#77ff77><b>Ctrl + Sキー</b></color>を押します。",
+
+        "Tutorial.Intro.HomeScreenTitle" : "ホームスクリーン",
+        "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>ホームスクリーン</b></color>には、多くの機能を備えたfacetが含まれています。これらには、アバタークリエイター、全身キャリブレーター、カメラ、新しいワールドの作成などがあります。",
+        "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>コンタクト</b></color>はダッシュボードにあります。メッセージ、音声メッセージ、またはオブジェクトを右下のチャットボックスからフレンドに送信できます。左上隅にある検索バーでフレンドを追加できます。",
+        "Tutorial.Intro.FilesDescription" : "ファイル、3Dモデル、画像、オーディオ、ビデオ、またはフォントを直接Neosに<color=#ffdd77><b>インポート</b></color>できます！ファイルをNeosウィンドウに<color=#77ddff><b>ドラッグアンドドロップ</b></color>するか、<color=#ffdd77><b>ファイルブラウザ</b></color>からファイルを検索します。",
+        "Tutorial.Intro.SessionTitle" : "Session Settings",
+        "Tutorial.Intro.SessionDescription" : "セッション設定、権限レベル、およびワールド内の他のユーザーを扱う設定は、<color=#ffdd77><b>セッション</b></color>パネルにあります。",
+        "Tutorial.Intro.SettingsDescription" : "身長、音量、快適さの設定、言語の選択などは、<color=#ffdd77><b>設定</b></color>タブで調整できます。",
+        "Tutorial.Intro.WorldsTitle" : "ワールドメニュー",
+        "Tutorial.Intro.WorldsDescription" : "<color=#ffdd77><b>ワールド</b></color> メニューでメタバースを巡ることができます。アク<br>ティブなセッションに参加してみんなに会いに行きましょう！",
+
+        "Tutorial.Intro.OutroTop" : "このワールド全体でさらにチュートリアルが利用可能です。<br><br>ぜひメタバースを楽しんでいってください！",
+        "Tutorial.Intro.Website" : "ウェブサイト",
+        "Tutorial.Intro.OutroEnd" : "プロジェクトをサポートするには、Patreonに参加してください。<br><br>ステータスの更新、ネットワーキング、またはテクニカルサポートのためにDiscordに参加してください。",
+
+        "Tutorial.MTC.Avatars" : "アバター",
+        "Tutorial.MTC.Creation" : "クリエーション",
+        "Tutorial.MTC.RecordingStreaming" : "レコーディング<br>＆ストリーミング",
 
         "Tutorial.Grab.MoveRotate" : "持っているアイテムの移動/展開",
         "Tutorial.Grab.Scale" : "他のコントローラーでつかんでスケール",
@@ -1092,7 +1150,7 @@
         "Tutorial.Grab.EquipForFullUse" : "すべての機能を使用するために装備します",
 
         "Tutorial.WorldOrb.Click" : "ワールドオーブをクリック",
-        "Tutorial.WorldOrb.Info" : "<b>ワールドオーブ</b>\n<size=80%>ワールドまたはセッションを表示します\nダブルクリック-参加\nシングルクリック-コンテキストメニュー",
+        "Tutorial.WorldOrb.Info" : "<b>ワールドオーブ</b>\n<size=80%>ワールドまたはセッションを表示します</size>\nダブルクリック-参加\nシングルクリック-コンテキストメニュー",
 
         "Tutorial.Tooltip.GeneralPrimary" : "使用",
         "Tutorial.Tooltip.GeneralSecondary" : "セカンダリーアクション",
@@ -1126,17 +1184,6 @@
         "Exiting.SavingChanges" : "変更をセーブ中...",
         "Exiting.Exiting" : "終了中...",
         "Exiting.LoggingOut" : "ログアウト中...",
-
-        "Temporary.MMC.Voting UI": "MMC投票UI",
-        "Temporary.MMC.Vote": "投票",
-        "Temporary.MMC.Categories.Name": "カテゴリー",
-        "Temporary.MMC.Categories.Worlds": "ワールド",
-        "Temporary.MMC.Categories.Other": "ガジェット/ツールズ+",
-        "Temporary.MMC.Categories.Avatars": "アバター",
-        "Temporary.MMC.VoteSuccess": " {voteTarget}の{category}カテゴリーに投票します。",
-        "Temporary.MMC.VoteFailure": "投票失敗。あなたの票は登録されていません。もう一度やりなおしてください。",
-        "Temporary.MMC.VotedAlready": "あなたはすでに{category}カテゴリーで投票しています。",
-        "Temporary.MMC.VoteInvalid": "投票が無効になりました。もう一度やりなおしてください。",
 
         "Dummy" : "ダミー"
     }

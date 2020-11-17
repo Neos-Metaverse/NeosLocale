@@ -1084,6 +1084,64 @@
         "Tutorial.Welcome.PrivateTutorialDescription" : "Члены сообщества могут помочь Вам начать играть быстрее и проще, точно продолжить в одиночку?",
         "Tutorial.Welcome.PrivateTutorialConfirm" : "Начать в приватном режиме",
 
+        "Tutorial.Intro.WelcomeTitle" : "Добро пожаловать в Neos",
+        "Tutorial.Intro.WelcomeDescription" : "Ваш проводник в Метаверс.",
+
+        "Tutorial.Intro.GrabbingTitle" : "Хватание",
+        "Tutorial.Intro.GrabbingVR" : "Подбирайте объекты, <color=#ffdd77><b>хватая</b></color> их <color=#77ff77><b>кнопкой хвата</b></color>.<br>Хватайте на расстоянии с помощью лазера.",
+        "Tutorial.Intro.GrabbingScreen" : "Подбирайте объекты, <color=#ffdd77><b>хватая</b></color> их <color=#77ff77><b>правой кнопкой мыши</b></color>.",
+
+        "Tutorial.Intro.ScalingTitle" : "Масштаб",
+        "Tutorial.Intro.ScalingVR" : "Чтобы <color=#ffdd77><b>масштабировать</b></color> объект, схватите его двумя руками и <color=#77ddff><b>сдвигайте или раздвигайте</b></color> их. Это также можно сделать лазерами.",
+        "Tutorial.Intro.ScalingScreen" : "Чтобы <color=#ffdd77><b>масштабировать</b></color> объект, схватите его <color=#77ff77><b>правой кнопкой мыши</b></color>, зажмите <color=#77ff77><b>Shift</b></color>, и <color=#77ddff><b>прокручивайте</b></color> <color=#77ff77><b>колесико мыши</b></color>.",
+
+        "Tutorial.Intro.ContextMenuTitle" : "Контекстное меню",
+        "Tutorial.Intro.ContextMenuDescription" : "Ваше <color=#ffdd77><b>контекстное меню</b></color> содержит быстрые действия.<br>Открывайте и закрывайте его с помощью <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "кнопки B",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "кнопки B или Y",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "кнопки Меню",
+        "Tutorial.Intro.ContextMenu_Screen" : "клавиши R",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Удаление и копирование",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Удерживая объект, <b><color=#ffdd77>удалите или копируйте</color></b> его, <color=#77ff77><b>щелкнув</b></color> по пункту в контекстном меню.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Удерживая объект, <b><color=#ffdd77>удалите</color></b> его, нажав <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Копируйте</b></color> с помощью <color=#77ff77><b>Ctrl + D</b></color>.",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "Масштабирование себя",
+        "Tutorial.Intro.ScalingYourselfVR" : "Чтобы <color=#ffdd77><b>масштабировать себя</b></color>, включите масштабирование в контекстном меню, затем зажмите обе <color=#77ff77><b>кнопки хвата</b></color> и <color=#77ddff><b>сдвигайте или раздвигайте</b></color> руки.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Чтобы <color=#ffdd77><b>масштабировать себя</b></color>, зажмите <color=#77ff77><b>Ctrl</b></color> и <color=#77ddff><b>прокручивайте</b></color> <color=#77ff77><b>колесико мыши</b></color>.",
+
+        "Tutorial.Intro.LocomotionTitle" : "Перемещение",
+        "Tutorial.Intro.LocomotionDescription" : "Neos поддерживает много разных режимов перемещения.<br>Эти режимы перемещения доступны в вашем <color=#ffdd77>контекстном меню</color>.",
+
+        "Tutorial.Intro.DashboardTitle" : "Neos Dashboard (главное меню)",
+        "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>Dashboard</b></color> - это ваше главное меню.<br>Открывайте и закрывайте его используя <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>Dashboard</b></color> - это ваше главное меню.<br>Открывайте и закрывайте его удерживая <color=#77ff77><b>{button}</b></color> пока не заполнится круг, потом <color=#77ddff><b>отпустите</b></color>.",
+        "Tutorial.Intro.Dashboard_ButtonA" : "кнопку A",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "кнопку A или X",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "кнопку Меню",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "комбинацию Ctrl + Space",
+
+        "Tutorial.Intro.InventoryVR" : "Ваш <color=#ffdd77><b>инвентарь</b></color> находится в вашем Dashboard.<br>Чтобы <color=#77ddff><b>вызвать</b></color> объект, <color=#77ff77><b>щелкните дважды</b></color> по нему в инвентаре.<br>Чтобы <color=#77ddff><b>сохранить</b></color> объект, <color=#77ddff><b>держите</b></color> его в руке и нажмите <sprite name=inv-add> в верхнем правом углу.",
+        "Tutorial.Intro.InventoryScreen" : "Ваш <color=#ffdd77><b>инвентарь</b></color> находится в вашем Dashboard.<br>Чтобы <color=#77ddff><b>вызвать</b></color> объект, <color=#77ff77><b>щелкните дважды</b></color> по нему в инвентаре.<br>Чтобы <color=#77ddff><b>сохранить</b></color> объект, держите его и нажмите <color=#77ff77><b>Ctrl + S</b></color>.",
+
+        "Tutorial.Intro.HomeScreenTitle" : "Ваш домашний экран",
+        "Tutorial.Intro.HomeScreenDescription" : "Ваш <color=#ffdd77><b>домашний экран</b></color> содержит фасеты (facets) с разными функциями.<br>Они включают Создатель Аватаров, Калибровщик Full body, Камеру/Трансляцию, и Создание Нового Мира.",
+        "Tutorial.Intro.ContactsDescription" : "Ваши <color=#ffdd77><b>Контакты</b></color> расположены на Dashboard.<br>Отправляйте текстовые и голосовые сообщения или объекты контактам используя поле ввода справа внизу.<br>Добавляйте контакты с помощью строки поиска, расположенной в левом верхнем углу.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Импортируйте</b></color> файлы, 3D модели, картинки, аудио, видео, или шрифты прямо в Neos!<br><color=#77ddff><b>Перетащите</b></color> файлы на окно Neos, или найдите их в <color=#ffdd77><b>Браузере файлов</b></color>.",
+        "Tutorial.Intro.SessionTitle" : "Настройки сессии",
+        "Tutorial.Intro.SessionDescription" : "Настройки сессии, уровни доступа, и настройки относительно других пользователей в мире можно найти в панели <color=#ffdd77><b>Сессия</b></color>.",
+        "Tutorial.Intro.SettingsDescription" : "Рост, громкость, настройки комфорта, выбор языка, и многое другое можно настроить в панели <color=#ffdd77><b>Настройки</b></color>.",
+        "Tutorial.Intro.WorldsTitle" : "Меню миров",
+        "Tutorial.Intro.WorldsDescription" : "Исследуйте Метаверс с помощью меню <color=#ffdd77><b>Миры</b></color>.<br>Когда Вы закончите здесь, зайдите в активную сессию чтобы познакомиться с сообществом!",
+
+        "Tutorial.Intro.OutroTop" : "В этом мире доступны и другие туториалы.<br><br>Удачи и приятного путешествия по Метаверсу!",
+        "Tutorial.Intro.Website" : "Вебсайт",
+        "Tutorial.Intro.OutroEnd" : "Чтобы поддержать наш проект, присоединитесь к нашему Patreon.<br><br>Зайдите в Discord чтобы видеть свежие обновления, общаться и обращаться за помощью.",
+
+        "Tutorial.MTC.Avatars" : "Аватары",
+        "Tutorial.MTC.Creation" : "Творчество",
+        "Tutorial.MTC.RecordingStreaming" : "Запись и<br>Трансляция",
+
         "Tutorial.Grab.MoveRotate" : "Двигайте/Поворачивайте удерживаемые предметы",
         "Tutorial.Grab.Scale" : "Схватите другим контроллером для масштабирования",
         "Tutorial.Grab.PullToEquip" : "Подтяните к себе чтобы надеть",
@@ -1126,17 +1184,6 @@
         "Exiting.SavingChanges" : "Сохранение Изменений...",
         "Exiting.Exiting" : "Выход...",
         "Exiting.LoggingOut" : "Выход с аккаунта...",
-
-        "Temporary.MMC.Voting UI": "MMC Voting UI",
-        "Temporary.MMC.Vote": "Голосование",
-        "Temporary.MMC.Categories.Name": "Категории",
-        "Temporary.MMC.Categories.Worlds": "Миры",
-        "Temporary.MMC.Categories.Other": "Гаджеты/Инструменты+",
-        "Temporary.MMC.Categories.Avatars": "Аватары",
-        "Temporary.MMC.VoteSuccess": "Проголосовали в категории {category} за {voteTarget}.",
-        "Temporary.MMC.VoteFailure": "Ошибка голосования, Ваш голос не зарегистрирован. Попытайтесь еще раз.",
-        "Temporary.MMC.VotedAlready": "Вы уже проголосовали в категории {category}.",
-        "Temporary.MMC.VoteInvalid": "Голос не действителен. Попытайтесь еще раз.",
 
         "Dummy" : "Dummy"
     }
