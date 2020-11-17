@@ -2,27 +2,28 @@
 This repository contains the locale assets for the core UI of Neos VR (www.neos.com) and allow anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (https://store.steampowered.com/app/740250/Neos_VR/) and other platforms.
 
 # Localization Status
-Czech [cs] - 96.6% - Missing keys: 31  
-German [de] - 94.3% - Missing keys: 51  
-English (United Kingdom) [en-gb] - 2.0% - Missing keys: 883  
+Czech [cs] - 101.0% - Missing keys: -10  
+German [de] - 95.8% - Missing keys: 44  
+English (United Kingdom) [en-gb] - 1.7% - Missing keys: 1020  
 English [en] - 100.0% - Missing keys: 0  
 Esperanto [eo] - 100.0% - Missing keys: 0  
-Spanish [es] - 67.8% - Missing keys: 290  
-Estonian [et] - 94.3% - Missing keys: 51  
-Finnish [fi] - 31.5% - Missing keys: 617  
-French [fr] - 94.3% - Missing keys: 51  
-Icelandic [is] - 39.2% - Missing keys: 548  
+Spanish [es] - 89.1% - Missing keys: 113  
+Estonian [et] - 81.9% - Missing keys: 188  
+Finnish [fi] - 39.1% - Missing keys: 632  
+French [fr] - 81.9% - Missing keys: 188  
+Icelandic [is] - 34.0% - Missing keys: 685  
 Japanese [ja] - 100.0% - Missing keys: 0  
-Korean [ko] - 81.9% - Missing keys: 163  
-Dutch [nl] - 98.9% - Missing keys: 10  
-Norwegian [no] - 92.0% - Missing keys: 72  
-Polish [pl] - 100.0% - Missing keys: 0  
-Russian [ru] - 92.1% - Missing keys: 71  
-Turkish [tr] - 91.9% - Missing keys: 73  
-Chinese (Simplified, China) [zh-cn] - 100.0% - Missing keys: 0  
-Chinese (Traditional, Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
+Korean [ko] - 101.0% - Missing keys: -10  
+Dutch [nl] - 95.5% - Missing keys: 47  
+Norwegian [no] - 79.9% - Missing keys: 209  
+Polish [pl] - 94.1% - Missing keys: 61  
+Russian [ru] - 100.0% - Missing keys: 0  
+Swedish [sv] - 4.7% - Missing keys: 989  
+Turkish [tr] - 94.3% - Missing keys: 59  
+Chinese (China) [zh-cn] - 100.0% - Missing keys: 0  
+Chinese (Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
 
-Total keys: 901
+Total keys: 1038
 
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.

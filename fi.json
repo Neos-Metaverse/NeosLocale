@@ -1,6 +1,6 @@
 {
     "localeCode" : "fi",
-    "authors" : ["AdmiralSoap", "Napo"],
+    "authors" : ["AdmiralSoap", "Napo", "Hexdigest"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -15,6 +15,7 @@
         "General.Reset" : "Nollaa",
         "General.WorldOpenConfirm" : "Vahvista?",
         "General.Saved" : "Tallennettu!",
+        "General.Done" : "Valmis!",
         "General.CopiedToClipboard" : "Kopioitu!",
         "General.CopiedToClipboardLong" : "Kopioitu leikepöydälle!",
 
@@ -55,6 +56,14 @@
         "Interaction.Locomotion" : "Liikkumistila",
         "Interaction.Locomotion.None" : "Ei mitään",
 
+        "Interaction.NamedEquipTool" : "Ota käteen {name}",
+        "Interaction.NamedEquipTool.Default" : "Työkalu",
+
+        "Interaction.EnterAnchor" : "Käytä istuinta",
+        "Interaction.ExitAnchor" : "Poistu istuimesta",
+
+        "Interaction.EquipAvatar" : "Vaihda avatar",
+
         "Dash.Screens.Home" : "Koti",
         "Dash.Screens.Worlds" : "Maailmoja",
         "Dash.Screens.Contacts" : "Kontaktit",
@@ -64,7 +73,7 @@
         "Dash.Screens.Settings" : "Asetukset",
         "Dash.Screens.Exit" : "Poistu",
 
-        "Dash.Actions.PasteFromClipboard" : "Liitä sisältöä leikepöydältä",
+        "Dash.Actions.PasteFromClipboard" : "Liitä leikepöydältä",
 
         "Dash.Actions.CoreWorldsHeader" : "Ydinmaailmat",
         "Dash.Actions.ContentHub" : "Sisältökeskus",
@@ -106,9 +115,9 @@
         "World.Error.IncompatibleVersion" : "Yhteensopimaton Neos Versio",
         "World.Error.Unknown" : "Tuntematon virhe",
 
-		"World.Config.Name" : "Maailman nimi:",
+        "World.Config.Name" : "Maailman nimi:",
         "World.Config.Description" : "Kuvaus:",
-        "World.Config.MaxUsers" : "Maksimi käyttäjiä:",
+        "World.Config.MaxUsers" : "Maksimimäärä käyttäjiä:",
         "World.Config.MobileFriendly" : "Mobiiliystävällinen",
         "World.Config.SaveOptionsHeader" : "Maailman tallennusasetukset:",
         "World.Config.EditMode" : "Muokkaustila:",
@@ -117,11 +126,11 @@
         "World.Config.AutoKickAFKMinutes" : "Max AFK Minuutit:",
         "World.Config.HideFromListing" : "Älä näytä sessiolistoissa",
         "World.Config.Autosave" : "Automaattinen tallennus (Korvaa viimeisimmän tallennuksen):",
-        "World.Config.AutosaveInterval" : "Autotallennuksen aikaväli (minuuttia):",
+        "World.Config.AutosaveInterval" : "Automaattisen tallennuksen aikaväli (minuuttia):",
         "World.Config.CleanupAssets" : "Siivoa käyttämättömät resurssit:",
         "World.Config.CleanupInterval" : "Siivouksen aikaväli (sekuntia):",
-		
-		"World.Actions.StartSession" : "Aloita sessio",
+
+        "World.Actions.StartSession" : "Aloita sessio",
         "World.Actions.Join" : "Liity",
         "World.Actions.Focus" : "Vaihda",
         "World.Actions.Close" : "Sulje maailma",
@@ -140,7 +149,7 @@
         "World.Actions.Overwrite" : "Korvaa nimellä {name}",
         "World.Actions.ConfirmOverwrite" : "Varmista KORVAUS",
         "World.Actions.Overwriting" : "Korvataan...",
-		
+
         "World.Actions.ClosePrompt" : "Sulje maailma?",
         "World.Actions.LeavePrompt" : "Poistu maailmasta?",
         "World.Actions.CloseConfirm" : "Sulje",
@@ -148,7 +157,7 @@
         "World.Actions.CannotClose" : "(Ei pysty sulkemaan tätä maailmaa)",
         "World.Actions.GuestWarning" : "",
         "World.Actions.HostingWarning" : "Isännöit tätä maailmaa. Kaikkien käyttäjien yhteys katkaistaan.",	
-		
+
         "World.Actions.GetWorldOrb" : "Tuo maailman pallo",
         "World.Actions.CopyWorldURL" : "Kopioi maailman URL",
         "World.Actions.CopyRecordURL" : "Copy Record URL",
@@ -156,7 +165,7 @@
         "World.Actions.ModifyMetadata" : "Muokkaa Metadataa",
         "World.Actions.GetSessionOrb" : "Tuo session pallo",
         "World.Actions.CopySessionURL" : "Kopioi session URL",
-		
+
         "World.Indicator.NoData" : "Ei dataa",
         "World.Indicator.LocalWorld" : "Lokaali sessio",
         "World.Indicator.Author" : "Tehnyt: {name}",
@@ -185,15 +194,15 @@
 
         "World.Detail.Tags" : "Tunnisteet",
         "World.Detail.ActionsHeader" : "Toiminnot:",
-        
-		"World.Category.Everything" : "Kaikki",
+
+        "World.Category.Everything" : "Kaikki",
         "World.Category.Featured" : "Esittelyssä",
         "World.Category.PublishedWorlds" : "Julkaistut maailmat",
         "World.Category.ActiveSessions" : "Aktiiviset sessiot",
         "World.Category.FriendSessions" : "Kontaktien sessiot",
         "World.Category.HeadlessSessions" : "Palvelin sessiot",
         "World.Category.Social" : "Sosiaalinen",
-        "World.Category.Games" : "pelit",
+        "World.Category.Games" : "Pelit",
         "World.Category.Art" : "Taide",
         "World.Category.Tutorials" : "Harjoitukset",
         "World.Category.Educational" : "Opettavaiset",
@@ -205,7 +214,61 @@
         "World.AccessLevel.Friends" : "Kontaktit",
         "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "Yksityinen (Ainoastaan kutsutut)",
-		
+
+        "World.SortParameter.SearchScore" : "Hakupisteet",
+        "World.SortParameter.Name" : "Nimi",
+        "World.SortParameter.OpenedWorldCount" : "Avatut maailmat",
+        "World.SortParameter.TotalSessionCount" : "Istuntoja yhteensä",
+        "World.SortParameter.TotalUserCount" : "Käyttäjiä yhteensä",
+        "World.SortParameter.CreationDate" : "Luomispäivä",
+        "World.SortParameter.LastUpdateDate" : "Viimeksi päivitetty",
+        "World.SortParameter.FirstPublishTime" : "Julkaisupäivä",
+        "World.SortParameter.TotalVisits" : "Vierailuja yhteensä",
+
+        "World.Filter.DataSources" : "Tietolähteet:",
+        "World.Filter.OpenedWorlds" : "Avatut maailmat",
+        "World.Filter.ActiveSessions" : "Aktiiviset istunnot",
+        "World.Filter.PublishedWorlds" : "Julkisia maailmoja",
+        "World.Filter.LocalWorlds" : "Paikalliset istunnot",
+        "World.Filter.BaseSearch" : "Haku:",
+        "World.Filter.ByOwner" : "Omistajan mukaan:",
+        "World.Filter.UserOwner" : "Omistaja on käyttäjä",
+        "World.Filter.GroupOwner" : "Omistaja on ryhmä",
+        "World.Filter.SubmittedToGroup" : "Ryhmän julkaisema:",
+        "World.Filter.Featured" : "Vain esitelyssä olevat",
+        "World.Filter.MyWorlds" : "Minun maailmani",
+        "World.Filter.SessionFiltering" : "Istunnon suodatus:",
+        "World.Filter.MinimumUsers" : "Minimi käyttäjämäärä: <b>{n}</b>",
+        "World.Filter.MinimumFriends" : "Minimi kontaktimäärä: <b>{n}</b>",
+        "World.Filter.OnlyHeadless" : "Vain palvelin istunnot",
+        "World.Filter.MaxAccessLevel" : "Maksimi käyttöoikeustaso:",
+        "World.Filter.MinimumUptime" : "Minimi käyntiaika:",
+        "World.Filter.Sorting" : "Lajittelu:",
+
+        "Tools.AvatarCreator" : "Avatarin luominen",
+        "Tools.FullBodyCalibrator" : "Full-Body kalibrointi",
+        "Tools.CameraStreaming" : "Kamera / Suoratoisto",
+        "Tools.CreateNewWorld" : "Tee uusi maailma",
+        "Tools.DepositNCR" : "Talleta NCR",
+        "Tools.WithdrawNCR" : "Nosta NCR",
+
+
+        "Options.FreeformDash.On" : "Liikkuva valikko: Päällä",
+        "Options.FreeformDash.Off" : "Liikkuva valikko: Pois",
+        "Options.SeatedMode.On" : "Istuva tila: Päällä",
+        "Options.SeatedMode.Off" : "Istuva tila: Pois",
+
+        "Indicator.OnlineUsers" : "Online-käyttäjät: ~{num_total} ({num_registered})",
+        "Indicator.ServerStatus" : "<color=#fff>Palvelimen tila:</color> {status, select, Good {Hyvä} Slow {Hidas} Down {Alhaalla} NoInternet {Ei yhteyttä}} ({response_ms} ms)",
+
+        "Indicator.Sync.AllSynced" : "Kaikki synkronoitu",
+        "Indicator.Sync.SyncingItems" : "Synkronoidaan {item_count,plural, one {# kohde} other {# kohdetta}} <nobr>({item_percent} %)",
+        "Indicator.Sync.UploadingVariants" : "Lähetetään {variant_count,plural, one {# muutos} other {# muutosta}}",
+        "Indicator.Sync.SyncError" : "Synkronointivirhe! <size=50%>Tarkista loki</size>",
+        "Indicator.Sync.OutOfSpace" : "Tila lopussa! <size=50%>Ei voi synkronoida</size>",
+
+        "Indicator.LiveHiddenMessage" : "(tiedot on piilotettu suoratoiston aikana)",
+
         "Account.Login" : "Kirjaudu sisään",
         "Account.Logout" : "Kirjaudu ulos",
         "Account.Register" : "Rekisteröidy",
@@ -254,13 +317,16 @@
         "Session.Permission.Vistor" : "Oletus vierailija:",
         "Session.Permission.Contact" : "Oletus kontakti:",
         "Session.Permission.Host" : "Oletus isäntä:",
+        "Session.Permission.PermissionOverrideCount" : "Käyttäjä lupia: {n,select, -1 {---} other {{n}}}",
+        "Session.Permission.ClearOverrides" : "Poista oletus käyttöoikeudet",
 
-		"User.Actions.Mute" : "Hiljennä",
+        "User.Actions.Silence" : "Hiljennä",
+        "User.Actions.Mute" : "Hiljennä",
         "User.Actions.Jump" : "Hyppää",
         "User.Actions.Respawn" : "Uudelleen synnytä",
         "User.Actions.Kick" : "Potki",
         "User.Actions.Ban" : "Estä sessiosta",
-		
+
         "Contacts.Add" : "Lisää kontakti",
         "Contacts.Remove" : "Poista kontakti",
         "Contacts.ConfirmRemove" : "Haluatko varmasti poistaa?",
@@ -272,8 +338,8 @@
         "Contacts.UnbanFromAllSessions" : "Poista esto KAIKISTA minun sessioistani",
         "Contacts.BanFromCurrentWorld" : "Estä nykyisestä maailmasta",
         "Contacts.UnbanFromCurrentWorld" : "Poista esto nykyisestä maailmasta",
-		
-		"Contacts.InSession" : "Maailmassa {name}",
+
+        "Contacts.InSession" : "Maailmassa {name}",
         "Contacts.InPrivate" : "Yksityisessä maailmassa",
         "Contacts.UsingDifferentVersion" : "Käyttää versiota {version}",
         "Contacts.RequestSent" : "Pyyntö lähetetty",
@@ -281,9 +347,9 @@
         "Contacts.RequestIgnored" : "Hylätty",
         "Contacts.Blocked" : "Estetty",
         "Contacts.SearchResult" : "Etsinnän tulos",
-		
-        "Notifications.IsOnline" : "On nyt paikalla",
-        "Notifications.IsOnlineOnDifferentVersion" : "On nyt paikalla <size=75%>(käyttää versiota: {version})</size>",
+
+        "Notifications.IsOnline" : "On nyt online",
+        "Notifications.IsOnlineOnDifferentVersion" : "On nyt online <size=75%>(käyttää versiota: {version})</size>",
         "Notifications.ReceivedContactRequest" : "Lähetti kontaktipyynnön",
         "Notifications.ReceivedInvite" : "Kutsuu sinut maailmaan:",
         "Notifications.ReceivedItem" : "Lähetti sinulle tavaran:",
@@ -291,6 +357,49 @@
         "Notifications.TransferedCredits" : "Siirretty {amount} {token}",
         "Notifications.ReceivedTip" : "Vastaanotettu tippi {amount} {token}",
         "Notifications.SentTip" : "Lähetty tippi {amount} {token}",
+
+        "Undo.SetField" : "Aseta kenttä {field_name} tähän {value}",
+        "Undo.SetReference" : "Aseta viite {ref_name} tähän {ref_target}",
+        "Undo.Spawn" : "Spawnaa {name}",
+        "Undo.Destroy" : "Poista {name}",
+        "Undo.SpawnComponent" : "Kiinnitä {component_type} tähän {slot_name}",
+        "Undo.DuplicateComponent" : "Kopioi komponentti",
+        "Undo.DestroyComponent" : "Poista {component_type} tästä {slot_name}",
+        "Undo.Transform" : "Siirretty {name}",
+        "Undo.Translate" : "Liikuta",
+        "Undo.TranslateAlongAxis" : "Liikuta pitkin akselia",
+        "Undo.RotateAroundAxis" : "Kierrä akselin ympäri",
+        "Undo.ResetPosition" : "Nollaa sijainti",
+        "Undo.ResetRotation" : "Nollaa kierto",
+        "Undo.ResetScale" : "Nollaa koko",
+
+        "Undo.GrabObjects" : "Tarttuminen",
+        "Undo.DestroyGrabbed" : "Tuhoaminen",
+        "Undo.DuplicateGrabbed" : "Kopioi napatut objektit",
+
+        "Tooltips.Dev.CreateNew" : "Tee uusi...",
+        "Tooltips.Dev.Selection" : "Valintatila: {mode}",
+        "Tooltips.Dev.DevMode.Off" : "Kehittäjätila: Pois",
+        "Tooltips.Dev.DevMode.On" : "Kehittäjätila: Päällä",
+        "Tooltips.Dev.OpenInspector" : "Avaa valintaikkuna",
+        "Tooltips.Dev.DeselectAll" : "Lopeta valinta",
+        "Tooltips.Dev.DestroySelected" : "Poista valitut",
+
+        "FullBody.Hips" : "Vyötärö",
+        "FullBody.Feet" : "Jalat",
+        "FullBody.Chest" : "Rinta",
+        "FullBody.Elbows" : "Kyynärpäät",
+        "FullBody.Knees" : "Polvet",
+
+        "CameraControl.OBS.Streaming.Start" : "Aloita suoratoisto",
+        "CameraControl.OBS.Streaming.Starting" : "Aloitetaan suoratoistoa...",
+        "CameraControl.OBS.Streaming.Stop" : "Lopeta suoratoisto",
+        "CameraControl.OBS.Streaming.Stopping" : "Lopetetaan suoratoistoa",
+
+        "CameraControl.OBS.Recording.Start" : "Aloita nauhottaminen",
+        "CameraControl.OBS.Recording.Starting" : "Aloitetaan nauhoittaminen...",
+        "CameraControl.OBS.Recording.Stop" : "Lopeta nauhoitus",
+        "CameraControl.OBS.Recording.Stopping" : "Lopetetaan nauhoitus",
 
         "Settings.Height" : "Pituus:",
         "Settings.Metric" : "Senttimetri (cm)",
@@ -318,6 +427,44 @@
         "Settings.LegacyGripEquip" : "Ota vanha Double Grip käyttöön",
         "Settings.LegacyWorldSwitcher" : "Ota vanha maailma vaihdos käyttöön",
         "Settings.FetchIncompatibleSessions" : "Näytä yhteensopimattomat istunnot",
+
+        "Settings.LaserSmoothing.Header" : "Laaserin tasoitus",
+        "Settings.LaserSmoothing.Speed" : "Tasoituksen nopeus",
+        "Settings.LaserSmoothing.ModulateStartAngle" : "Tarrauksen aloitus kulma",
+        "Settings.LaserSmoothing.ModulateEndAngle" : "Tarrauksen lopetus kulma",
+        "Settings.LaserSmoothing.ModulateExponent" : "Tarrauksen eksponentti",
+        "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "Tarrauksen nopeus kerroin",
+        "Settings.LaserSmoothing.StickThreshold" : "Kiinnityksen kynnys",
+        "Settings.LaserSmoothing.Reset" : "Nollaa laaserin asetukset",
+
+
+        "Settings.Audio.SoundEffects" : "Ääniefektit: {n,number,percent}",
+
+        "Settings.Audio.Voice" : "Ääni: {n,number,percent}",
+        "Settings.Audio.UI" : "Käyttöliittymä: {n,number,percent}",
+        "Settings.Audio.DisableVoiceNormalization" : "Poista äänen normalisointi",
+        "Settings.Audio.NoiseGateThreshold" : "Äänenvoimakkuuden kynnys: {n}",
+        "Settings.Audio.NormzliationThreshold" : "Normalisoinnin kynnys: {n}",
+        "Settings.Audio.InputDevice" : "Äänitulolaite:",
+
+        "Settings.Save" : "Tallenna asetukset",
+
+        "Settings.FullBody.Header" : "Full-Body kalibrointi:",
+        "Settings.FullBody.FeetPositionSmoothing" : "Jalan sijainnin tasoitus",
+        "Settings.FullBody.FeetRotationSmoothing" : "Jalan rotaatio tasoitus",
+        "Settings.FullBody.HipsPositionSmoothing" : "Vyötärön sijainnin tasoitus",
+        "Settings.FullBody.HipsRotationSmoothing" : "Vyötärön rotaatio tasoitus",
+
+        "Settings.Dash.Header" : "Valikko",
+        "Settings.Dash.Curvature" : "Kaarevuus",
+        "Settings.Dash.OpenCloseSpeed" : "Avaamisen/Sulkemisen nopeus",
+
+        "Settings.LeapMotion.Name" : "Leap Motion",
+        "Settings.LeapMotion.Enabled" : "Käytä Leap jäljitystä",
+        "Settings.LeapMotion.HorizontalOffset" : "Vaakasuuntainen siirto",
+        "Settings.LeapMotion.VerticalOffset" : "Vertikaalinen siirto",
+        "Settings.LeapMotion.ForwardOffset" : "Eteenpäin siirto",
+        "Settings.LeapMotion.SnapDistance" : "Käsiohjain napsautusetäisyys",
 
         "Dummy" : "Dummy"
     }

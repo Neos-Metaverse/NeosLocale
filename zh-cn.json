@@ -14,6 +14,8 @@
         "General.FAILED":"失败",
         "General.Reset":"重置",
         "General.WorldOpenConfirm":"真的开放吗？",
+        "General.Save" : "保存",
+        "General.Saving" : "正在保存中...",
         "General.Saved":"保存了！",
         "General.Done" : "做完了!",
         "General.CopiedToClipboard":"已复制！",
@@ -63,6 +65,10 @@
         "Interaction.ExitAnchor" : "退出Anchor",
 
         "Interaction.EquipAvatar" : "装备阿凡达",
+
+        "Interaction.SaveAsScreenshot" : "另存为屏幕截图",
+        "Interaction.ImportFile" : "导入文件",
+        "Interaction.ExportFile" : "汇出档案",
 
         "Dash.Screens.Home" : "家",
         "Dash.Screens.Worlds" : "世界",
@@ -245,6 +251,16 @@
         "World.Filter.MinimumUptime" : "最小正常运行时间:",
         "World.Filter.Sorting" : "排序:",
 
+        "World.Edit.Title" : "编辑世界元数据",
+        "World.Edit.Name" : "世界名:",
+        "World.Edit.Description" : "描述:",
+        "World.Edit.Tags" : "标签（以逗号分隔）:",
+        "World.Edit.Path" : "世界之路:",
+        "World.Edit.AccessLevelHeader" : "谁可以打开这个世界？",
+        "World.Edit.AccessPrivate" : "只有我",
+        "World.Edit.AccessPatreon" : "Patreon的支持者",
+        "World.Edit.AccessPublic" : "任何人（公开）",
+
         "Tools.AvatarCreator" : "阿凡达造物主",
         "Tools.FullBodyCalibrator" : "全身校准器",
         "Tools.CameraStreaming" : "相机/流媒体",
@@ -301,7 +317,7 @@
         "Account.ErrorPasswordMismatch" : "密码不匹配！",
         "Account.ErrorEmailMismatch" : "电子邮件内容不符！",
         "Account.ErrorLoginError" : "记录错误:",
-        "Account.RegistrationSuccess" : "成功！ 已发送带有验证链接的电子邮件。 打开此链接后，您将可以登录。",
+        "Account.RegistrationSuccess" : "<size=120％>成功！</size><br><br>已通过验证链接将电子邮件发送到{email}。<br><br>单击此链接后，我们将自动记录 只要打开此对话框即可。<br><br>如果遇到问题，请通过hello@neos.com或discord.gg/neosvr与我们联系。",
 
         "Profile.Status.Online" : "线上",
         "Profile.Status.Away" : "离去",
@@ -338,11 +354,13 @@
         "Contacts.UnbanFromAllSessions" : "取消禁止我所有的会议",
         "Contacts.BanFromCurrentWorld" : "禁止进入目前的世界",
         "Contacts.UnbanFromCurrentWorld" : "取消禁止进入目前的世界",
+        "Contacts.RecordingVoiceMessage" : "现在正在录音...",
 
         "Contacts.InSession" : "在 {name}",
         "Contacts.InPrivate" : "在私人世界",
         "Contacts.InFriendsOnly" : "在只有朋友的世界",
         "Contacts.InHidden" : "私人的",
+        "Contacts.InHiddenFriendsOnly" : "在只有朋友的私人世界",
         "Contacts.InLAN" : "在局域网世界",
         "Contacts.UsingDifferentVersion" : "使用版本： {version}",
         "Contacts.RequestSent" : "请求已发送",
@@ -360,6 +378,7 @@
         "Notifications.TransferedCredits" : "已转移 {amount} {token}",
         "Notifications.ReceivedTip" : "收到小费 {amount} {token}",
         "Notifications.SentTip" : "已发送小费  {amount} {token}",
+        "Notifications.VoiceMessage" : "发送语音留言",
 
         "Undo.SetField" : "将字段 {field_name} 设置为 {value}",
         "Undo.SetReference" : "将引用 {ref_name} 设置为 {ref_target}",
@@ -440,6 +459,14 @@
 
         "Tooltip.Mesh.Edit" : "编辑网格",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV文件",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG 文件",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC文件",
+        "Tooltip.Microphone.ModeHold" : "按住以录制声音",
+        "Tooltip.Microphone.ModePress" : "按下以开始/停止录制声音",
+        "Tooltip.Microphone.SourceRaw" : "Raw文件",
+        "Tooltip.Microphone.SourceFiltered" : "过滤并归一化",
+
         "CreateNew.Back" : "<<< <i>回去</i>",
         "CreateNew.EmptyObject" : "空物体",
         "CreateNew.ParticleSystem" : "粒子系统",
@@ -512,6 +539,8 @@
         "AvatarCreator.TryAlignHands" : "尝试对齐手",
         "AvatarCreator.AlignToolAnchors" : "对齐工具锚",
         "AvatarCreator.Create" : "创造",
+
+        "Importer.General.AsRawFile" : "Raw文件",
 
         "Importer.Folder.Title" : "文件夹导入器",
         "Importer.Folder.Individual" : "个人进口",
@@ -749,7 +778,6 @@
         "CameraControl.Control.AngleSmoothSpeed" : "角度平滑速度: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "构图平滑速度: {n}",
 
-
         "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBS密码（可选）:",
         "CameraControl.OBS.Connect" : "连接",
@@ -810,6 +838,7 @@
         "Settings.LegacyGripEquip" : "启用旧版双握把装备",
         "Settings.LegacyWorldSwitcher" : "启用旧版世界切换器",
         "Settings.FetchIncompatibleSessions" : "显示不兼容的会议",
+        "Settings.MaxConcurrentAssetTransfers" : "最大同时资产转移",
 
         "Settings.LaserSmoothing.Header" : "激光平滑",
         "Settings.LaserSmoothing.Speed" : "平稳速度",
@@ -829,6 +858,15 @@
         "Settings.Audio.NoiseGateThreshold" : "噪声门阈值: {n}",
         "Settings.Audio.NormzliationThreshold" : "标准化阈值: {n}",
         "Settings.Audio.InputDevice" : "音频输入装置:",
+        "Settings.Audio.SelectInputDevice" : "选择音频输入设备",
+        "Settings.Audio.TestInput" : "测试您的音频输入:",
+        "Settings.Audio.TestDescription" : "我们将向您播放来自所选音频设备的声音，以便您确认它是正确的。",
+        "Settings.Audio.StartTest" : "检查麦克风",
+        "Settings.Audio.StopTest" : "停止测试",
+        "Settings.Audio.Monitoring" : "麦克风监听:",
+
+        "Settings.Locale.ChangeLanguage" : "改变语言",
+        "Settings.Locale.SelectLanguageHeader" : "选择你的语言:",
 
         "Settings.Save" : "保存设置",
 
@@ -962,6 +1000,26 @@
         "Inspector.Texture.InvalidFloats" : "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata" : "诊断：生成位图元数据",
 
+        "Inspector.Audio.BakeAudio" : "烘焙音频剪辑",
+        "Inspector.Audio.FormatInfo" : "采样率: {rate} Hz, 频道: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "持续时间: {duration}",
+        "Inspector.Audio.EncodingInfo" : "完全解码: {decoded}, 文件扩展名: {ext}",
+
+        "Inspector.Audio.Normalize" : "归一化音量",
+        "Inspector.Audio.AmplitudeThreshold" : "幅度阈值:",
+        "Inspector.Audio.TrimSilence" : "修剪无音",
+        "Inspector.Audio.TrimStartSilence" : "修剪开始无音",
+        "Inspector.Audio.TrimEndSilence" : "修剪结束无音",
+        "Inspector.Audio.PositionDuration" : "位置/持续时间（以秒为单位）:",
+        "Inspector.Audio.TrimStart" : "修剪开始",
+        "Inspector.Audio.TrimEnd" : "修剪结束",
+        "Inspector.Audio.FadeIn" : "添加淡入",
+        "Inspector.Audio.FadeOut" : "添加淡出",
+        "Inspector.Audio.MakeLoopable" : "使Loopable（使用交叉淡入淡出）",
+        "Inspector.Audio.ToWAV" : "转换为WAV",
+        "Inspector.Audio.ToVorbis" : "转换为OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "转换为FLAC",
+        
         "Inspector.DynamicBoneChain.SetupFromChildren" : "从Children设置",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "从Children设置 (强制全部)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "从Children设置 (只有rig)",
@@ -971,6 +1029,119 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "从层次结构添加固定对撞机（使用对象根）",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "总是抓last bone",
 
+        "Wizard.General.ProcessRoot" : "进程根:",
+        "Wizard.General.Result" : "结果:",
+        "Wizard.General.ErrorNoRoot" : "未选择根",
+        "Wizard.General.RemovedResult" : "已删除 {n}",
+
+        "Wizard.AssetOptimization.Title" : "资产优化设置向导",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "清理未使用的资产",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "清理空插槽",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "清理禁用的网格渲染器",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "重复材质球删除",
+        "Wizard.AssetOptimization.CleanupFileItems" : "清理文件项",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "设置最大纹理分辨率",
+        "Wizard.AssetOptimization.RecompressTextures" : "重新压缩纹理",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "重新计算所有法线",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "重新计算所有法线（合并）",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "重新计算所有切线（Mikktspace）",
+        "Wizard.AssetOptimization.ResizedResult" : "调整大小 {n}",
+
+        "Tutorial.Welcome.WelcomeTo" : "欢迎来到",
+        "Tutorial.Welcome.LetsStart" : "开始吧！",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>警告:</b></color>您当前正在屏幕模式下播放，该屏幕模式目前不被正式支持，因为它主要是为调试而设计的。<br><br>它可以 可以玩，某些东西将无法使用，并且控件可能很难使用。<br><br><b>Neos当前应在VR中玩。</b><br><br>适当的选择 桌面模式计划在将来实现。",
+        "Tutorial.Welcome.ScreenUnderstand" : "我明白",
+
+        "Tutorial.Welcome.AccountHeader" : "Neos帐户",
+        "Tutorial.Welcome.AccountDescription" : "创建帐户可为您提供1GB的免费存储空间，并可以访问保存项目，使其成为最喜欢的阿凡达，添加联系人和消息传递。",
+        "Tutorial.Welcome.AccountCreate" : "创建帐户",
+        "Tutorial.Welcome.AccountLogin" : "我已经有一个帐户",
+        "Tutorial.Welcome.AccountSkip" : "没有帐户继续",
+        "Tutorial.Welcome.AccountSkipHeader" : "跳过创建帐户？",
+        "Tutorial.Welcome.AccountSkipDescription" : "无法将某些功能（例如，将项目保存到库存，使其成为最喜欢的阿凡达）访问。",
+        "Tutorial.Welcome.AccountSkipConfirm" : "真的跳过",
+        
+        "Tutorial.Welcome.SettingsHeader" : "基本配置",
+        "Tutorial.Welcome.SettingsDescription" : "你可以配置基本动作和用户首选项。 所有这些都可以在以后更改。",
+        "Tutorial.Welcome.SettingsTurning" : "车削风格",
+        "Tutorial.Welcome.SettingsSnapTurn" : "对齐",
+        "Tutorial.Welcome.SettingsSnapTurnDescription" : "立即转向新的角度。对于新用户。",
+        "Tutorial.Welcome.SettingsSmoothTurn" : "平滑",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "逐渐转弯，但会引起恶心。",
+        "Tutorial.Welcome.SettingsPrimaryController" : "主控制器",
+        "Tutorial.Welcome.SettingsPrimaryLeft" : "左",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>左:</b> 转弯, <b>右:</b> 側身走",
+        "Tutorial.Welcome.SettingsPrimaryRight" : "右",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>左:</b> 側身走, <b>右:</b> 转弯",
+        "Tutorial.Welcome.SettingsHeight" : "你的身高",
+        "Tutorial.Welcome.SettingsHeightExamples" : "例子: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+
+        "Tutorial.Welcome.StartTutorialHeader" : "开始教程",
+        "Tutorial.Welcome.StartTutorialDescription" : "我们将带您进入基础教程世界，以帮助您开始使用Neos。 您可以选择公开教程世界，让Neos社区加入并为您提供帮助或自己学习。",
+        "Tutorial.Welcome.StartTutorialPublic" : "我希望人们加入并帮助我",
+        "Tutorial.Welcome.StartTutorialPrivate" : "我想一个人学",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "真的是从私人世界开始的吗？",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "社区成员可以帮助您更轻松快捷地进行设置，真的可以单独进行吗？",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "从私人世界开始",
+
+        "Tutorial.Intro.WelcomeTitle" : "欢迎使用Neos",
+        "Tutorial.Intro.WelcomeDescription" : "您的体验元节的指南。",
+
+        "Tutorial.Intro.GrabbingTitle" : "Grabbing",
+        "Tutorial.Intro.GrabbingVR" : "通过<color=#ffff77><b>抓取</b></color>通过<color=#77ff77><b>抓握按钮</b></p>拾取对象color>。<br>用激光远距离抓取。",
+        "Tutorial.Intro.GrabbingScreen" : "“通过<color=#ffff77><b>Grabbing </b></color>用<color=#77ff77><b>鼠标右键</b></color>。",
+
+        "Tutorial.Intro.ScalingTitle" : "缩放",
+        "Tutorial.Intro.ScalingVR" : "要<color=#ffdd77><b>缩放</b></color>对象，请用双手抓住它并将其移动<color=#77ddff><b>距离更近或更远</b></color>分开-您也可以用激光器来完成。",
+        "Tutorial.Intro.ScalingScreen" : "要<color=#ffdd77><b>缩放</b></color>对象，请使用<color=#77ff77><b>鼠标右键</b></color>，按住<color=#77ff77><b>Shift</b></color>和<color=#77ddff><b>滚动</b></color>并使用您的<color=#77ff77><b>滚轮</b></color>。",
+
+        "Tutorial.Intro.ContextMenuTitle" : "上下文菜单",
+        "Tutorial.Intro.ContextMenuDescription" : "您的<color=#ffdd77><b>上下文菜单</b></color>提供了快速操作。<br>使用打开或关闭它<color=#77ff77><b>{button}</b></color>。",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B按钮",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B或Y按钮",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "菜单按钮",
+        "Tutorial.Intro.ContextMenu_Screen" : " R键",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "销毁和复制",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "在持有对象的同时，<b><color=#ffdd77>销毁或复制</color></b>通过<color=#77ff77><b>点击</b></color>上下文菜单中的操作。",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "在拿着对象的同时，按<color=#77ff77><b>删除</b><b><color=#ffdd77>销毁</color></b>。<color=#ffdd77><b>重复</b></color>，方法是按<color=#77ff77><b>F</b></color>。",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "缩放自己",
+        "Tutorial.Intro.ScalingYourselfVR" : "要<color=#ffdd77><b>自行缩放</b></color>，请在上下文菜单中启用缩放，然后同时按住<color=#77ff77><b>Grip按钮</b></color>，然后将手<color=#77ddff><b>更近或更远</b></color>分开。",
+        "Tutorial.Intro.ScalingYourselfScreen" : "要<color=#ffdd77><b>自行缩放</b></color>，请按住<color=#77ff77><b>Ctrl</b></color>并<color=#77ddff><b>滚动</b></color>您的<color=#77ff77><b>滚轮</b></#color>。",
+      
+        "Tutorial.Intro.LocomotionTitle" : "运动",
+        "Tutorial.Intro.LocomotionDescription" : "Neos包含许多不同的运动方法。<br>这些运动选项在您的<color=#ffdd77>上下文菜单</color>中可用。",
+
+        "Tutorial.Intro.DashboardTitle" : "Neos仪表板",
+        "Tutorial.Intro.DashboardDescription" : " <color=#ffdd77><b>仪表板</b></color>是您的主菜单。<br>您可以使用<color=#77ff77><b>{button}</b></color>。",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>仪表板</b></color>是您的主菜单。<br>您可以通过按住来打开和关闭它<color=#77ff77><b>{button}</b></color>，直到圆圈已满，然后<color=#77ddff><b>释放</b></color>。",
+        "Tutorial.Intro.Dashboard_ButtonA" : "一个按钮",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A或X按钮",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "菜单按钮",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl +空格键组合",
+
+        "Tutorial.Intro.InventoryVR" : "您的<color=#ffdd77><b>库存</b></color>位于仪表板上。<br>要<color=#77ddff><b>生成</b></color>对象，<color=#77ff77><b>双击</b></color>库存中的项目。<br>要<color=#77ddff><b>保存</b></color>一个对象，<color=#77ddff><b>按住</b></color>该项目，然后按右上角的<sprite name=inv-add>。",
+        "Tutorial.Intro.InventoryScreen" : "您的<color=#ffdd77><b>库存</b></color>位于Neos仪表板上。<br>要<color=#77ddff><b>生成<</b></color>对象，<color=#77ff77> <b>双击</b></color>库存中的项目。<br>要保存<color=#77ddff><b>保存</b></color>一个对象，按住该项目并按<color=#77ff77><b>Ctrl + S</b></color>。",
+
+        "Tutorial.Intro.HomeScreenTitle" : "您的主屏幕",
+        "Tutorial.Intro.HomeScreenDescription" : "您的<color=#ffdd77><b>主屏幕</b></color>包含具有许多功能的方面。<br>其中包括阿凡达创建机器，全身校准器，相机/流媒体，创造新世界。",
+        "Tutorial.Intro.ContactsDescription" : "您的<color=#ffdd77> <b>联系人</b></color>位于仪表板上。<br>使用聊天框向联系人发送消息，语音消息或对象。在右下角。<br>使用左上角的搜索栏添加联系人。",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>导入</b></color>文件，3D模型，图像，音频，视频或字体直接导入Neos！<br><color=#77ddff><b>将</b></color>文件拖放到Neos窗口中，或使用<color=#ffdd77><b>文件浏览器</b></color>查找它们。",
+        "Tutorial.Intro.SessionTitle" : "会话设置",
+        "Tutorial.Intro.SessionDescription" : "可以在<color=#ffdd77><b>会议</b></color>面板中找到与世界上其他用户有关的会话设置，权限级别和设置。",
+        "Tutorial.Intro.SettingsDescription" : "在<color=#ffdd77><b>设定</b></color>选项卡中调整了高度，音量，舒适度设定，语言选择等。",
+        "Tutorial.Intro.WorldsTitle" : "世界菜单",
+        "Tutorial.Intro.WorldsDescription" : "使用<color=#ffdd77><b>世界</b></color>菜单浏览metaverse。<br>在这里完成操作后，请参加一个活跃的会议以开会社区！",
+
+        "Tutorial.Intro.OutroTop" : "在这个世界上还有更多的教程。<br><br>祝你好运，享受元节！",
+        "Tutorial.Intro.Website" : "网站",
+        "Tutorial.Intro.OutroEnd" : "要支持该项目，请加入我们的Patreon。<br><br>加入Discord以获取状态更新，网络或技术支持。",
+
+        "Tutorial.MTC.Avatars" : "阿凡达",
+        "Tutorial.MTC.Creation" : "创作",
+        "Tutorial.MTC.RecordingStreaming" : "记录<br>和流式传输",
+
         "Tutorial.Grab.MoveRotate" : "移动/旋转保留的物体",
         "Tutorial.Grab.Scale" : "与其他控制器缩放以进行缩放",
         "Tutorial.Grab.PullToEquip" : "向您拉来装备",
@@ -979,7 +1150,7 @@
         "Tutorial.Grab.EquipForFullUse" : "使用所有功能的设备",
 
         "Tutorial.WorldOrb.Click" : " 点击世界宝珠",
-        "Tutorial.WorldOrb.Info" : " <b>世界宝珠</ b> \n<size = 80％>代表一个世界或一个会话\n双击-进入\n单击-上下文菜单",
+        "Tutorial.WorldOrb.Info" : " <b>世界宝珠</b>\n<size=80％>代表一个世界或一个会话</size>\n双击-进入\n单击-上下文菜单",
 
         "Tutorial.Tooltip.GeneralPrimary" : "使用",
         "Tutorial.Tooltip.GeneralSecondary" : "第二动作",
@@ -992,8 +1163,8 @@
         "Tutorial.Tooltip.ColorPrimary" : "应用颜色",
         "Tutorial.Tooltip.ColorSecondary" : "选择颜色",
         "Tutorial.Tooltip.Brush" : "绘制",
-        "Tutorial.Tooltip.MaterialPrimary" : "应用材质\n <size = 75％>（将材质球放入枪中）</ size>",
-        "Tutorial.Tooltip.MaterialSecondary" : "提取材质\n <size = 75％>（确保没有材质球优先）</ size>",
+        "Tutorial.Tooltip.MaterialPrimary" : "应用材质\n<size=75％>（将材质球放入枪中）</size>",
+        "Tutorial.Tooltip.MaterialSecondary" : "提取材质\n<size=75％>（确保没有材质球优先）</size>",
         "Tutorial.Tooltip.MeshPrimary" : "替换网格",
         "Tutorial.Tooltip.MeshSecondary" : "提取网格",
         "Tutorial.Tooltip.CharacterColliderPrimary" : "添加角色对撞机",
@@ -1010,20 +1181,9 @@
         "Tutorial.Tooltip.WigglerSecondary" : "稍微赎回你的灵魂",
         
         "Exiting.SavingItems" : "正在保存 {n, plural, other {# 项目}}...",
-        "Exiting.SavingChanges" : "正在保存更改...",
+        "Exiting.SavingChanges" : "正在保存更改中...",
         "Exiting.Exiting" : "正在退出中...",
         "Exiting.LoggingOut" : "正在注销...",
-
-        "Temporary.MMC.Voting UI": "MMC投票界面",
-        "Temporary.MMC.Vote": "投票",
-        "Temporary.MMC.Categories.Name": "分类目录",
-        "Temporary.MMC.Categories.Worlds": "世界",
-        "Temporary.MMC.Categories.Other": "小工具/工具+",
-        "Temporary.MMC.Categories.Avatars": "阿凡达",
-        "Temporary.MMC.VoteSuccess": "为{voteTarget}在类别{category}中投了票。",
-        "Temporary.MMC.VoteFailure": "投票失败，您的投票尚未注册，请重试。",
-        "Temporary.MMC.VotedAlready": "您已经在{category}中投票。",
-        "Temporary.MMC.VoteInvalid": "投票无效，请重试。",
 
         "Dummy" : "假"
     }

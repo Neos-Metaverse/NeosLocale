@@ -14,6 +14,8 @@
         "General.FAILED" : "FALIS",
         "General.Reset" : "Restarigi",
         "General.WorldOpenConfirm" : "Ĉu vere malfermita?",
+        "General.Save" : "Savi",
+        "General.Saving" : "Ŝparante...",
         "General.Saved" : "Konservita!",
         "General.Done" : "Finita!",
         "General.CopiedToClipboard" : "Kopiita!",
@@ -64,6 +66,10 @@
 
         "Interaction.EquipAvatar" : "Ekipi Avataron",
 
+        "Interaction.SaveAsScreenshot" : "Konservu kiel ekrankopion",
+        "Interaction.ImportFile" : "Importi dosieron",
+        "Interaction.ExportFile" : "Eksporti dosieron",
+
         "Dash.Screens.Home": "Hejmo",
         "Dash.Screens.Worlds": "Mondoj",
         "Dash.Screens.Contacts": "Kontaktoj",
@@ -77,7 +83,7 @@
 
         "Dash.Actions.CoreWorldsHeader": "Kernaj Mondoj",
         "Dash.Actions.ContentHub": "Enhava Nabo",
-        "Dash.Actions.MTC": "Metaversa Trejncentro <size = 75%> (lerniloj) </size>",
+        "Dash.Actions.MTC": "Metaversa Trejncentro <size=75%> (lerniloj) </size>",
         "Dash.Actions.CloudHome": "Mia Nuba Hejmo",
 
         "Dash.Exit.Header": "Eliri Neos",
@@ -245,6 +251,16 @@
         "World.Filter.MinimumUptime": "Minimuma Uptime:",
         "World.Filter.Sorting": "Ordigo:",
 
+        "World.Edit.Title" : "Redaktu Mondajn Metadatenojn",
+        "World.Edit.Name" : "Monda Nomo:",
+        "World.Edit.Description" : "Priskribo:",
+        "World.Edit.Tags" : "Etikedoj (komaj apartigitaj):",
+        "World.Edit.Path" : "Monda Vojo:",
+        "World.Edit.AccessLevelHeader" : "Kiu povas malfermi ĉi tiun mondon?",
+        "World.Edit.AccessPrivate" : "Nur mi",
+        "World.Edit.AccessPatreon" : "Subtenantoj de Patreon",
+        "World.Edit.AccessPublic" : "Iu ajn (publika)",
+
         "Tools.AvatarCreator": "Avatar-Kreinto",
         "Tools.FullBodyCalibrator": "Plena Korpa Kalibrilo",
         "Tools.CameraStreaming": "Fotilo / Streaming",
@@ -301,7 +317,7 @@
         "Account.ErrorPasswordMismatch": "Pasvortoj ne kongruas!",
         "Account.ErrorEmailMismatch": "Retpoŝtoj ne kongruas!",
         "Account.ErrorLoginError": "Ensaluta Eraro:",
-        "Account.RegistrationSuccess": "Sukceso! Retpoŝto estis sendita kun kontrola ligilo. Post kiam vi malfermos ĉi tiun ligon, vi povos ensaluti.",
+        "Account.RegistrationSuccess": "<size=120%> Sukceso!</size><br><br> Retpoŝto estis sendita al {email} kun kontrola ligilo. <br><br> Post kiam vi alklakos ĉi tiun ligon, ni aŭtomate ensalutos. vin dum ĉi tiu dialogo estos malfermita. <br><br> Se vi havas problemojn, kontaktu nin ĉe hello@neos.com aŭ discord.gg/neosvr",
 
         "Profile.Status.Online": "Rete",
         "Profile.Status.Away": "For",
@@ -338,11 +354,13 @@
         "Contacts.UnbanFromAllSessions": "Malpermesi de ĈIUJ miaj sesioj",
         "Contacts.BanFromCurrentWorld": "Malpermesi de nuna mondo",
         "Contacts.UnbanFromCurrentWorld": "Malbenita formas nunan mondon",
+        "Contacts.RecordingVoiceMessage" : "Registrante voĉon...",
 
         "Contacts.InSession": "En {name}",
         "Contacts.InPrivate": "En privata mondo",
         "Contacts.InFriendsOnly": "En Kontaktoj Nur Mondo",
         "Contacts.InHidden": "En Kaŝita Mondo",
+        "Contacts.InHiddenFriendsOnly" : "En Kaŝita kaj kontakta nur mondo",
         "Contacts.InLAN": "En LAN-Mondo",
         "Contacts.UsingDifferentVersion": "Uzante version {version}",
         "Contacts.RequestSent": "Peto sendita",
@@ -360,6 +378,7 @@
         "Notifications.TransferedCredits" : "Transdonita {amount} {token}",
         "Notifications.ReceivedTip" : "Ricevita konsileto {amount} {token}",
         "Notifications.SentTip" : "Sendita konsileto {amount} {token}",
+        "Notifications.VoiceMessage" : "Sendis voĉan mesaĝon",
 
         "Undo.SetField" : "Agordi kampon {field_name} al {value}",
         "Undo.SetReference" : "Agordi referencon {ref_name} al {ref_target}",
@@ -440,6 +459,14 @@
 
         "Tooltip.Mesh.Edit": "Redakti maŝon",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV dosiero",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis dosiero",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC dosiero",
+        "Tooltip.Microphone.ModeHold" : "Premi por registri sonon",
+        "Tooltip.Microphone.ModePress" : "Premi por komenci/halti registri sonon",
+        "Tooltip.Microphone.SourceRaw" : "Raw dosiero",
+        "Tooltip.Microphone.SourceFiltered" : "Filtrita kaj Normigita",
+
         "CreateNew.Back": "<<< <i> Reen </i>",
         "CreateNew.EmptyObject": "Malplena objekto",
         "CreateNew.ParticleSystem": "Partikla Sistemo",
@@ -513,6 +540,8 @@
         "AvatarCreator.AlignToolAnchors": "Vicigi Ilajn Ankrojn",
         "AvatarCreator.Create": "Krei",
         
+        "Importer.General.AsRawFile" : "Raw Dosiero",
+
         "Importer.Folder.Title": "Dosierujo.",
         "Importer.Folder.Individual": "Individua importado",
         "Importer.Folder.Individual.Description": "Kreas apartan importan dialogon por ĉiu subtenata dosiero en la dosierujo",
@@ -749,7 +778,6 @@
         "CameraControl.Control.AngleSmoothSpeed": "Angla Glata Rapido: {n}",
         "CameraControl.Control.FramingSmoothSpeed": "Enkadra Glata Rapido: {n}",
 
-
         "CameraControl.OBS.IP": "OBS-reteja IP:",
         "CameraControl.OBS.Password": "Pasvorto de OBS (nedeviga):",
         "CameraControl.OBS.Connect": "Konekti",
@@ -810,6 +838,7 @@
         "Settings.LegacyGripEquip": "Ebligi Heredaĵan Duoblan Grip-Ekipaĵon",
         "Settings.LegacyWorldSwitcher": "Ebligi Legacy World Switcher",
         "Settings.FetchIncompatibleSessions": "Montri Nekongruajn Sesiojn",
+        "Settings.MaxConcurrentAssetTransfers" : "Maksimumaj Samtempaj Aktaj Translokigoj",
 
         "Settings.LaserSmoothing.Header": "Lasera Glatigado",
         "Settings.LaserSmoothing.Speed": "Glata Rapido",
@@ -829,6 +858,15 @@
         "Settings.Audio.NoiseGateThreshold": "Brua Pordega Sojlo: {n}",
         "Settings.Audio.NormzliationThreshold": "Normaliga Sojlo: {n}",
         "Settings.Audio.InputDevice": "Aŭd-Eniga Aparato:",
+        "Settings.Audio.SelectInputDevice" : "Elektu Aŭd-Eniga Aparato",
+        "Settings.Audio.TestInput" : "Provo Aŭd-Eniga Aparato:",
+        "Settings.Audio.TestDescription" : "Ni ludos la sonon de la elektita sonsistemo kun vi, por ke vi kontrolu, ke ĝi estas ĝusta.",
+        "Settings.Audio.StartTest" : "Kontrolu Mikrofonon",
+        "Settings.Audio.StopTest" : "Ĉesu Provi",
+        "Settings.Audio.Monitoring" : "Mikrofona Monitoreo:",
+
+        "Settings.Locale.ChangeLanguage" : "Ŝanĝi Lingvon",
+        "Settings.Locale.SelectLanguageHeader" : "Elektu vian lingvon:",
 
         "Settings.Save": "Konservi Agordojn",
 
@@ -861,7 +899,7 @@
         "Settings.System.KeepOriginalScreenshotFormat" : "Konservu originalan ekranfoton",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Se ebligita, ekrankopioj ne konvertiĝos al JPG se konservitaj en la dosierujo Dokumentoj",
 
-        "Security.Hyperlink.Warning": "<b> <size = 125%> Averto: Eliranta hiperligo </size> </b> \n Vi alklakis ligon en mondo. Ĉu vi volas malfermi ĝin? Ĉi tio faros malfermu en via labortabla retumilo. ",
+        "Security.Hyperlink.Warning": "<b> <size=125%> Averto: Eliranta hiperligo </size> </b> \n Vi alklakis ligon en mondo. Ĉu vi volas malfermi ĝin? Ĉi tio faros malfermu en via labortabla retumilo. ",
         "Security.Hyperlink.Open": "Malfermi",
         "Security.Hyperlink.Cancel": "Nuligi",
 
@@ -962,6 +1000,26 @@
         "Inspector.Texture.InvalidFloats" : "Diagnozo: Nevalidaj flosiloj",
         "Inspector.Texture.GenerateMetadata" : "Diagnozo: Generi Bitmapajn Metadatenojn",
 
+        "Inspector.Audio.BakeAudio" : "Baku Aŭdion",
+        "Inspector.Audio.FormatInfo" : "Prova Specifo: {rate} Hz, Kanaloj: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Daŭro: {duration}",
+        "Inspector.Audio.EncodingInfo" : "Plene Deĉifrita: {decoded}, Dosiera Etendaĵo: {ext}",
+
+        "Inspector.Audio.Normalize" : "Normaligi Volumon",
+        "Inspector.Audio.AmplitudeThreshold" : "Ampleksa Sojlo:",
+        "Inspector.Audio.TrimSilence" : "Tajli Silenton",
+        "Inspector.Audio.TrimStartSilence" : "Tajli Komencu Silenton",
+        "Inspector.Audio.TrimEndSilence" : "Tajli Fino Silenton",
+        "Inspector.Audio.PositionDuration" : "Position/Duration (in seconds):",
+        "Inspector.Audio.TrimStart" : "Tajli Komencu",
+        "Inspector.Audio.TrimEnd" : "Tajli Fino",
+        "Inspector.Audio.FadeIn" : "Aldoni Fade In",
+        "Inspector.Audio.FadeOut" : "Aldoni Fade Out",
+        "Inspector.Audio.MakeLoopable" : "Fari Loopable (uzante krucfadadon)",
+        "Inspector.Audio.ToWAV" : "Konverti al WAV",
+        "Inspector.Audio.ToVorbis" : "Konverti al OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Konverti al FLAC",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Agordi De Infanoj",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Agordi De Infanoj (devigi ĉiujn)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Agordi De Infanoj (nur Rigilaro)",
@@ -971,6 +1029,119 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Aldoni fiksajn koliziantojn de hierarkio (uzante objektan radikon)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Ĉiam kaptu lastan oston",
 
+        "Wizard.General.ProcessRoot": "Procezo enradikiĝas:",
+        "Wizard.General.Result": "Rezulto:",
+        "Wizard.General.ErrorNoRoot": "Neniu Radiko Elektita",
+        "Wizard.General.RemovedResult": "Forigita {n}",
+
+        "Wizard.AssetOptimization.Title": "Sorĉisto de Aktiva Optimumigo",
+        "Wizard.AssetOptimization.CleanupUnusedAssets": "Purigi Neuzitajn Aktivaĵojn",
+        "Wizard.AssetOptimization.CleanupEmptySlots": "Purigi malplenajn fendojn",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Purigado de malebligitaj retaj bildigiloj",
+        "Wizard.AssetOptimization.DeduplicateMaterials": "Malplenigitaj materialoj",
+        "Wizard.AssetOptimization.CleanupFileItems": "Purigaj dosieraj eroj",
+        "Wizard.AssetOptimization.MaxTextureResolution": "Agordi Maksimuman Teksturan Rezolucion",
+        "Wizard.AssetOptimization.RecompressTextures": "Rekompremi teksturojn",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Rekalkuli Ĉiujn Normalaĵojn",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Rekalkuli Ĉiujn Normalaĵojn (kunfanditajn)",
+        "Wizard.AssetOptimization.RecalculateAllTangents": "Rekalkuli ĉiujn tangentojn (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult": "Grandigita {n}",
+
+        "Tutorial.Welcome.WelcomeTo" : "Bonvenon al",
+        "Tutorial.Welcome.LetsStart" : "Ni Komencu!",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>ATENTO:</b></color> Vi nuntempe ludas en ekrana reĝimo, kiu nuntempe ne estas oficiale subtenata, kiel estas ĉefe desegnita por elpurigado. <br><br> Dum ĝi povas estu uzata por ludi, iuj aferoj ne funkcios kaj kontroloj povus esti malfacile uzeblaj. <br><br><b> Neos estas nuntempe ludota en VR. </b><br><br> labortabla reĝimo estas planita por esti efektivigita en la estonteco. ",
+        "Tutorial.Welcome.ScreenUnderstand" : "Mi komprenas",
+
+        "Tutorial.Welcome.AccountHeader" : "Neos-konto",
+        "Tutorial.Welcome.AccountDescription" : "Krei konton donas al vi 1GB senpagan stokadon kaj aliron al konservado de artikoloj, favoraj avataroj, aldono de kontaktoj kaj mesaĝoj.",
+        "Tutorial.Welcome.AccountCreate" : "Krei konton",
+        "Tutorial.Welcome.AccountLogin" : "Mi jam havas konton",
+        "Tutorial.Welcome.AccountSkip" : "Daŭrigu sen konto",
+        "Tutorial.Welcome.AccountSkipHeader" : "Ĉu preterlasi krei konton?",
+        "Tutorial.Welcome.AccountSkipDescription" : "Iuj funkcioj kiel konservi artikolojn por stokado, favorante avataron pri aldono de kontaktoj ne estos alireblaj.",
+        "Tutorial.Welcome.AccountSkipConfirm" : "Vere saltu",
+        
+        "Tutorial.Welcome.SettingsHeader" : "Bazaj Preferoj",
+        "Tutorial.Welcome.SettingsDescription" : "Vi povas agordi bazajn movajn kaj uzantajn preferojn. Ĉiuj ĉi tiuj povas esti ŝanĝitaj poste.",
+        "Tutorial.Welcome.SettingsTurning" : "Turnanta Stilo",
+        "Tutorial.Welcome.SettingsSnapTurn" : "Klaki",
+        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Tuj klakas al nova angulo, ideala por novaj uzantoj",
+        "Tutorial.Welcome.SettingsSmoothTurn" : "Glata",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Iom post iom turniĝas, sed povas kaŭzi naŭzon.",
+        "Tutorial.Welcome.SettingsPrimaryController" : "Ĉefa Regilo",
+        "Tutorial.Welcome.SettingsPrimaryLeft" : "Maldekstre",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Maldekstre:</b> Turnu, <b>Dekstre:</b> Flankenpaŝi",
+        "Tutorial.Welcome.SettingsPrimaryRight" : "Dekstre",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Maldekstret:</b> Flankenpaŝi, <b>Dekstre:</b> Turnu",
+        "Tutorial.Welcome.SettingsHeight" : "Via alteco",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Ekzemploj: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+
+        "Tutorial.Welcome.StartTutorialHeader" : "Komencu Lernilon",
+        "Tutorial.Welcome.StartTutorialDescription" : "Ni translokigos vin al baza lernila mondo por helpi vin komenci kun Neos. Vi povas elekti havi la tutmondan mondan publikon, permesante al Neos-komunumo aliĝi kaj helpi vin aŭ lerni memstare.",
+        "Tutorial.Welcome.StartTutorialPublic" : "Mi volas, ke homoj aliĝu kaj helpu min",
+        "Tutorial.Welcome.StartTutorialPrivate" : "Mi volas lerni sola",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Ĉu vere komenci kiel privata?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Komunumanoj povas helpi vin pli facile kaj pli rapide aranĝi vin, ĉu vi devas iri sola?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Komenci Privata",
+
+        "Tutorial.Intro.WelcomeTitle": "Bonvenon al Neos!",
+        "Tutorial.Intro.WelcomeDescription": "Via gvidilo por sperti la metaverson.",
+
+        "Tutorial.Intro.GrabbingTitle": "Grabbing",
+        "Tutorial.Intro.GrabbingVR": "Elektu objektojn per <color=#ffdd77><b>Grabbing</b></color> per la <color=#77ff77><b>Grip-butono</b></color>. <br>Ekprenu malproksime per via lasero. ",
+        "Tutorial.Intro.GrabbingScreen": "Elektu objektojn per <color=#ffdd77><b>Grabbing</b></color> per la <color=#77ff77><b>Dekstra musbutono</b></color>. ",
+
+        "Tutorial.Intro.ScalingTitle": "Skalo",
+        "Tutorial.Intro.ScalingVR": "Por <color=#ffdd77><b>Skali</b></color> objekton, kaptu ĝin per ambaŭ manoj kaj movu ilin <color=#77ddff><b>pli proksime aŭ plu</b></color>aparte - ĉi tio povas esti farita ankaŭ per viaj laseroj. ",
+        "Tutorial.Intro.ScalingScreen": "Al <color=#ffdd77><b>Skali</b></color> objekton, ekprenu ĝin per <color=#77ff77><b>Dekstra Muso</b></color>, tenu <color=#77ff77><b>Shift</b></color>, kaj <color=#77ddff><b>skroll</b></color> kun via <color=#77ff77><b>Ruluma Rado</b></color>. ",
+
+        "Tutorial.Intro.ContextMenuTitle": "Kunteksta Menuo",
+        "Tutorial.Intro.ContextMenuDescription": "Via <color=#ffdd77><b>Kunteksta menuo</b></color> donas rapidajn agojn. <br>Malfermu aŭ fermu ĝin per la <color=#77ff77><b>{button}</b></color>. ",
+        "Tutorial.Intro.ContextMenu_ButtonB": "B-butono",
+        "Tutorial.Intro.ContextMenu_ButtonBY": "Butono B aŭ Y",
+        "Tutorial.Intro.ContextMenu_ButtonMenu": "Menuo-butono",
+        "Tutorial.Intro.ContextMenu_Screen": "R-ŝlosilo",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle": "Detrui kaj Kopii",
+        "Tutorial.Intro.DestroyingDuplicatingVR": "Dum vi tenas objekton, <b><color=#ffdd77>Detruu aŭ Kopiu</color></b> ĝin per <color=#77ff77> <b> Alklakante </b> </color> la ago en la kunteksta menuo. ",
+        "Tutorial.Intro.DestroyingDuplicatingScreen": "Tenante objekton, <b><color=#ffdd77>Detruu</color></b> ĝin premante <color=#77ff77><b>Forigi</b></color>. <color=#ffdd77><b>Dupliku</b></color> ĝin premante <color=#77ff77><b>F</b></color>. ",
+
+        "Tutorial.Intro.ScalingYourselfTitle": "Skali vin mem",
+        "Tutorial.Intro.ScalingYourselfVR": "Por <color=#ffdd77><b> Skali vin mem </b></color>, ebligu skalon en via kunteksta menuo, tiam tenu ambaŭ <color=#77ff77><b> Grip Butonoj</b></color> kaj movu viajn manojn <color=#77ddff><b> pli proksime aŭ plu </b></color>aparte. ",
+        "Tutorial.Intro.ScalingYourselfScreen": "Por <color=#ffdd77><b> Skali vin mem </b></color>, tenu <color=#77ff77><b>Ctrl</b></color> kaj <color=#77ddff><b>skroll</b></color> via <color=#77ff77><b> Scroll-rado </b></color>. ",
+
+        "Tutorial.Intro.LocomotionTitle": "Movado",
+        "Tutorial.Intro.LocomotionDescription": "Neos enhavas multajn malsamajn metodojn de movado. <br> Ĉi tiuj lokomotivaj opcioj disponeblas ene de via <color=#ffdd77> Kunteksta Menuo </color>.",
+
+        "Tutorial.Intro.DashboardTitle": "Neos-Panelo",
+        "Tutorial.Intro.DashboardDescription": "La <color=#ffdd77><b>Panestraro</b></color> estas via ĉefa menuo. <br>Vi malfermas kaj fermas ĝin per la <color=#77ff77><b> {button} </b></color>. ",
+        "Tutorial.Intro.DashboardDescriptionCircle": "La <color=#ffdd77><b>Panestraro</b></color> estas via ĉefa menuo. <br> Vi malfermas kaj fermas ĝin tenante la <color=#77ff77><b>{button}</b></color> ĝis la cirklo pleniĝos, tiam <color=#77ddff><b>liberigo</b></color>. ",
+        "Tutorial.Intro.Dashboard_ButtonA": "Butono",
+        "Tutorial.Intro.Dashboard_ButtonAX": "Butono A aŭ X",
+        "Tutorial.Intro.Dashboard_ButtonMenu": "Menuo-butono",
+        "Tutorial.Intro.Dashboard_ButtonScreen": "Ctrl + Spaca klavkombino",
+
+        "Tutorial.Intro.InventoryVR": "Via <color=#ffdd77><b>Inventaro</b></color> troviĝas sur via Panelo. <br> Al <color=#77ddff><b> Generas </b></color> objekto, <color=#77ff77><b>Duobla-Alklaku</b></color> la eron en via inventaro. <br>Al <color=#77ddff><b> Konservu </b></color> objekto, <color=#77ddff><b> tenu</b></color> la eron kaj premu <sprite name=inv-add> supre dekstre. ",
+        "Tutorial.Intro.InventoryScreen": "Via <color=#ffdd77><b>Inventaro</b></color> troviĝas sur via Neos-Panelo. <br>Al <color=#77ddff><b> Generas </b></color> objekto, <color=#77ff77><b>Duoble-Alklaku</b></color> la eron en via inventaro. <br>Por <color=#77ddff><b>konservi</b></color> objekto, tenu la eron kaj premu <color=#77ff77> <b> Ctrl + S </b> </color>. ",
+
+        "Tutorial.Intro.HomeScreenTitle": "Via Hejma Ekrano",
+        "Tutorial.Intro.HomeScreenDescription": "Via <color=#ffdd77><b> Hejmekrano </b></color> enhavas facetojn kun multaj funkcioj. <br> Ĉi tiuj inkluzivas Avatar-Kreinton, Korpan Kalibrilon, Fotilon / Streaming, kaj Krei Novan Mondon. ",
+        "Tutorial.Intro.ContactsDescription": "Viaj <color=#ffdd77><b> Kontaktoj</b></color> troviĝas sur la Panelo. <br> Sendu mesaĝojn, voĉajn mesaĝojn aŭ objektojn al kontaktoj kun la babilejo dekstre malsupre. <br> Aldoni kontaktojn kun la serĉobreto, trovita en la supra maldekstra angulo. ",
+        "Tutorial.Intro.FilesDescription": "<color=#ffdd77><b> Importi </b></color> dosierojn, 3D-modelojn, bildojn, aŭdojn, filmetojn aŭ tiparojn rekte en Neos! <br> Aŭ <color=#77ddff><b> treni kaj faligi </b></color> dosierojn sur la Neos-fenestron, aŭ trovu ilin per la <color=#ffdd77><b> Dosierfoliumilo </b></color>. " ,
+        "Tutorial.Intro.SessionTitle": "Agordoj de Sesio",
+        "Tutorial.Intro.SessionDescription": "Sesiaj agordoj, permesaj niveloj kaj agordoj pri aliaj uzantoj en la mondo troveblas en la panelo <color=#ffdd77><b>Sessions</b></color>." ,
+        "Tutorial.Intro.SettingsDescription": "Alteco, volumo, komfortaj agordoj, lingva elekto kaj pli estas ĝustigitaj en la langeto <color=#ffdd77><b>Settings</b></color>.",
+        "Tutorial.Intro.WorldsTitle": "Menuo de Mondoj",
+        "Tutorial.Intro.WorldsDescription": "Esploru la metaverson per la menuo <color=#ffdd77><b>Mondoj</b></color>. <br> Kiam vi finos ĉi tie, aliĝu al aktiva sesio por renkontiĝi la komunumo! ",
+
+        "Tutorial.Intro.OutroTop": "Pliaj lerniloj haveblas tra ĉi tiu mondo. <br> <br> Bonŝancon kaj ĝuu la metaverson!",
+        "Tutorial.Intro.Website": "Retejo",
+        "Tutorial.Intro.OutroEnd": "Por subteni la projekton, aliĝu al nia Patreon. <br><br> Aliĝu al la Malakordo por statusaj ĝisdatigoj, retoj aŭ teknika subteno.",
+
+        "Tutorial.MTC.Avatars": "Avataroj",
+        "Tutorial.MTC.Creation": "Kreo",
+        "Tutorial.MTC.RecordingStreaming": "Registrante <br> kaj elsendante",
+
         "Tutorial.Grab.MoveRotate": "Movi / Rotacii tenitajn erojn",
         "Tutorial.Grab.Scale": "Ekprenu kun alia regilo por skali",
         "Tutorial.Grab.PullToEquip": "Tiru al vi por ekipi",
@@ -979,7 +1150,7 @@
         "Tutorial.Grab.EquipForFullUse": "Ekipu uzi ĉiujn funkciojn",
 
         "Tutorial.WorldOrb.Click": "Alklaku World Orb",
-        "Tutorial.WorldOrb.Info": "<b> Monda Okulkavo </b> \n<size = 80%> Reprezentas mondon aŭ sesion \nDuobla Alklako - Eniri \nSola Klako - Kunteksta Menuo",
+        "Tutorial.WorldOrb.Info": "<b> Monda Okulkavo </b> \n<size=80%> Reprezentas mondon aŭ sesion</size>\nDuobla Alklako - Eniri \nSola Klako - Kunteksta Menuo",
 
         "Tutorial.Tooltip.GeneralPrimary": "Uzu",
         "Tutorial.Tooltip.GeneralSecondary": "Malĉefa Ago",
@@ -992,8 +1163,8 @@
         "Tutorial.Tooltip.ColorPrimary": "Apliki koloron",
         "Tutorial.Tooltip.ColorSecondary": "Elektu Koloron",
         "Tutorial.Tooltip.Brush": "Desegni",
-        "Tutorial.Tooltip.MaterialPrimary": "Apliki Materialon \n<size = 75%> (Metu materialan okulkavon en la pafilon) </size>",
-        "Tutorial.Tooltip.MaterialSecondary": "Ĉerpu Materialon \n<size = 75%> (Certigu, ke unue ne ekzistas materiala okulkavo) </size>",
+        "Tutorial.Tooltip.MaterialPrimary": "Apliki Materialon \n<size=75%> (Metu materialan okulkavon en la pafilon) </size>",
+        "Tutorial.Tooltip.MaterialSecondary": "Ĉerpu Materialon \n<size=75%> (Certigu, ke unue ne ekzistas materiala okulkavo) </size>",
         "Tutorial.Tooltip.MeshPrimary": "Anstataŭigi Mesh",
         "Tutorial.Tooltip.MeshSecondary": "Ĉerpi Mesh",
         "Tutorial.Tooltip.CharacterColliderPrimary": "Aldoni Karakteran Kolizion",
@@ -1013,18 +1184,7 @@
         "Exiting.SavingChanges" : "Konservi Ŝanĝojn ...",
         "Exiting.Exiting" : "Elirante ...",
         "Exiting.LoggingOut" : "Elŝalti ...",
-
-        "Temporary.MMC.Voting UI": "MMC Voĉdonado UI",
-        "Temporary.MMC.Vote": "Voĉdonu",
-        "Temporary.MMC.Categories.Name": "Kategorioj",
-        "Temporary.MMC.Categories.Worlds": "Mondoj",
-        "Temporary.MMC.Categories.Other": "Aparatoj / Iloj +",
-        "Temporary.MMC.Categories.Avatars": "Avataroj",
-        "Temporary.MMC.VoteSuccess": "Voĉdonu en kategorio {category}  por {voteTarget}.",
-        "Temporary.MMC.VoteFailure": "Voĉdono malsukcesis, via voĉdono ne estis registrita bonvolu provi denove.",
-        "Temporary.MMC.VotedAlready": "Vi jam voĉdonis en {category} .",
-        "Temporary.MMC.VoteInvalid": "Voĉdono nevalidas, bonvolu reprovi.",
-        
+ 
         "Dummy" : "Dummy"
     }
 }
