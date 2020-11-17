@@ -6,7 +6,7 @@
         "General.OK" : "OK",
         "General.Cancel" : "Abbrechen",
         "General.Continue" : "Weiter",
-        "General.Next" : "Vor",
+        "General.Next" : "Weiter",
         "General.Back" : "Zurück",
         "General.Confirm" : "Bestätigen",
         "General.Loading" : "Lade...",
@@ -34,7 +34,7 @@
         "Locomotion.Fly.Name" : "Fliegen",
         "Locomotion.Fly.Description" : "Physikalischer Flug-Modus",
         "Locomotion.WalkRun.Name" : "Gehen/Rennen",
-        "Locomotion.WalkRun.Description" : "Physikalisches Gehen, Rennen und Springen.",
+        "Locomotion.WalkRun.Description" : "Physikalisches Gehen, Rennen, Springen und Klettern.",
         "Locomotion.WalkRunGripping.Name" : "Gehen/Rennen (mit Klettern)",
         "Locomotion.WalkRunGripping.Description" : "Physikalisches Gehen, Rennen, Springen und Klettern.",
         "Locomotion.ZeroG.Name" : "Schwerelos",
@@ -75,8 +75,8 @@
         "Dash.Screens.Contacts" : "Kontakte",
         "Dash.Screens.Inventory" : "Inventar",
         "Dash.Screens.Session" : "Sitzung",
-        "Dash.Screens.FileBrowser" : "<nobr>Dateien",
-        "Dash.Screens.Settings" : "Einstellungen",
+        "Dash.Screens.FileBrowser" : "Dateien",
+        "Dash.Screens.Settings" : "Optionen",
         "Dash.Screens.Exit" : "Beenden",
 
         "Dash.Actions.PasteFromClipboard" : "Zwischenablage einfügen",
@@ -165,7 +165,7 @@
         "World.Actions.HostingWarning" : "Sie sind Host dieser Welt. Alle Nutzer werden getrennt, wenn Sie die Welt schließen.",
 
         "World.Actions.GetWorldOrb" : "Welt-Orb erzeugen",
-        "World.Actions.CopyWorldURL" : "World-URL kopieren",
+        "World.Actions.CopyWorldURL" : "Welt-URL kopieren",
         "World.Actions.CopyRecordURL" : "Aufzeichnungs-URL kopieren",
         "World.Actions.StartCustomSession" : "Benutzerdefinierte Sitzung starten",
         "World.Actions.ModifyMetadata" : "Metadaten editieren",
@@ -867,7 +867,7 @@
 
         "Settings.Locale.ChangeLanguage" : "Sprache ändern",
         "Settings.Locale.SelectLanguageHeader" : "Wählen Sie Ihre Sprache:",
-        
+
         "Settings.Save" : "Einstellungen speichern",
 
         "Settings.FullBody.Header" : "Ganzkörper-Tracking:",
@@ -1044,7 +1044,7 @@
         "Tutorial.Welcome.ScreenUnderstand" : "Ich verstehe",
 
         "Tutorial.Welcome.AccountHeader" : "Neos-Account",
-        "Tutorial.Welcome.AccountDescription" : "Mit der Erstellung eines Accounts erhalten Sie 1 GB kostenlosen Speicher und die Fähigkeiten Objekte zu speichern, Avatare zu favorisieren, Kontakte hinzuzufügen und Nachrichten zu versenden.",
+        "Tutorial.Welcome.AccountDescription" : "Mit der Erstellung eines Accounts erhalten Sie 1 GB kostenlosen Speicher und die Fähigkeiten, Objekte zu speichern, Avatare zu favorisieren, Kontakte hinzuzufügen und Nachrichten zu versenden.",
         "Tutorial.Welcome.AccountCreate" : "Account erstellen",
         "Tutorial.Welcome.AccountLogin" : "Ich bin bereits registriert",
         "Tutorial.Welcome.AccountSkip" : "Ohne Account fortfahrten",
@@ -1052,13 +1052,13 @@
         "Tutorial.Welcome.AccountSkipDescription" : "Einige Funktionen wie das Speichern von Objekten im Inventar, Favorisieren von Avataren oder die Kontaktliste werden nicht zur Verfügung stehen.",
         "Tutorial.Welcome.AccountSkipConfirm" : "Wirklich überspringen",
 
-        "Tutorial.Welcome.SettingsHeader" : "Basis-Präferenzen",
+        "Tutorial.Welcome.SettingsHeader" : "Präferenzen",
         "Tutorial.Welcome.SettingsDescription" : "Hier können Sie grundlegende Bewegungs- und Nutzer-Präferenzen einstellen. Diese Einstellungen können später geändert werden.",
         "Tutorial.Welcome.SettingsTurning" : "Dreh-Stil",
         "Tutorial.Welcome.SettingsSnapTurn" : "Einrasten",
         "Tutorial.Welcome.SettingsSnapTurnDescription" : "Dreht in konstanten Winkel-Intervallen.",
         "Tutorial.Welcome.SettingsSmoothTurn" : "Graduell",
-        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Dreht in gleitender Bewegung. Kann Schwindel verursachen.",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Dreht in gleitender Bewegung.<br>Kann Schwindel verursachen.",
         "Tutorial.Welcome.SettingsPrimaryController" : "Primärer Controller",
         "Tutorial.Welcome.SettingsPrimaryLeft" : "Links",
         "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Links:</b> Drehen, <b>Rechts:</b> Seitlich bewegen",
@@ -1069,7 +1069,7 @@
 
         "Tutorial.Welcome.StartTutorialHeader" : "Tutorial beginnen",
         "Tutorial.Welcome.StartTutorialDescription" : "Wir senden Sie in eine Tutorial-Welt, die Ihnen helfen wird, in Neos zurechtzukommen. Sie können wählen, ob diese Welt öffentlich sein soll, so dass andere Community-Mitglieder Ihnen beitreten und helfen können; oder privat, um alleine zu lernen.",
-        "Tutorial.Welcome.StartTutorialPublic" : "Ich möchte, dass Andere beitreten und mir helfen können",
+        "Tutorial.Welcome.StartTutorialPublic" : "Ich möchte andere beitreten und mir helfen lassen",
         "Tutorial.Welcome.StartTutorialPrivate" : "Ich möchte lieber alleine lernen",
         "Tutorial.Welcome.PrivateTutorialHeader" : "Wirklich privat starten?",
         "Tutorial.Welcome.PrivateTutorialDescription" : "Community-Mitglieder können Ihnen helfen, schneller und leichter in Neos einzusteigen. Trotzdem alleine fortfahren?",
@@ -1141,7 +1141,7 @@
         "Tutorial.Grab.EquipForFullUse" : "Ausrüsten, um alle Funktionen nutzen zu können",
 
         "Tutorial.WorldOrb.Click" : "Klick World Orb",
-        "Tutorial.WorldOrb.Info" : "<b>World Orb</b>\n<size=80%>Repräsentiert eine Welt oder Sitzung\nDoppelklick - Betreten\nClick - Kontextmenü",
+        "Tutorial.WorldOrb.Info" : "<b>World Orb</b>\n<size=80%>Repräsentiert eine Welt oder Sitzung</size>\nDoppelklick - Betreten\nClick - Kontextmenü",
 
         "Tutorial.Tooltip.GeneralPrimary" : "Benutzen",
         "Tutorial.Tooltip.GeneralSecondary" : "Sekundäre Aktion",
