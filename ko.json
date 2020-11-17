@@ -263,8 +263,8 @@
 		"Indicator.ServerStatus": "<color=#fff>서버상태:</color> {status, select, Good {좋음} Slow {느림} Down {다운} NoInternet {인터넷 연결 없음}} ({response_ms} ms)",
 
 		"Indicator.Sync.AllSynced": "모든 항목의 동기화가 완료되었습니다",
-		"Indicator.Sync.SyncingItems": "동기화 중 {item_count,plural, one {# 항목} other {# 항목들}} <nobr>({item_percent} %)",
-		"Indicator.Sync.UploadingVariants": "업로드 중 {variant_count,plural, one {# 에셋(asset)} other {# 에셋들(asset)}}",
+		"Indicator.Sync.SyncingItems": "동기화 : {item_count,plural, one {# 항목} other {# 항목}} <nobr>({item_percent} %)",
+		"Indicator.Sync.UploadingVariants": "업로드 : {variant_count,plural, one {# 에셋(asset)} other {# 에셋(asset)}}",
 		"Indicator.Sync.SyncError": "동기화 오류가 발생하였습니다.<size=50%>자세한 내용은 로그를 확인하세요.</size>",
 		"Indicator.Sync.OutOfSpace": "저장소 공간이 부족합니다.<size=50%>동기화가 불가능합니다</size>",
 
@@ -629,7 +629,7 @@
 		"Credits.AmountPrompt": "{action,select, send {송금액을 지정하세요.} withdraw {출금할 금액을 지정하세요.} tip {덤으로 추가할 금액이 있으면 입력하세요.}}",
 		"Credits.Amount": "금액: ",
 		"Credits.Balance": "잔액: ",
-		"Credits.WithdrawalAddress": "출금전자지갑 주소: ",
+		"Credits.WithdrawalAddress": "입금 전자지갑 주소: ",
 		"Credits.AnonymousTip": "익명 팁: ",
 		"Credits.TipMessage": "유용한 정보: ",
 		"Credits.TransactionComment": "거래 메세지: ",
@@ -1061,7 +1061,7 @@
 		"Exiting.SavingItems": "{n, plural, one {# 항목} other {# 항목}} 저장 중 ...",
 		"Exiting.SavingChanges": "변경 사항 저장 중 입니다.",
 		"Exiting.Exiting": "종료하는 중입니다.",
-		"Exiting.LoggingOut": "로그아웃 중...",
+		"Exiting.LoggingOut": "로그아웃을 진행하고 있습니다.",
 
 		"Temporary.MMC.Voting UI": "MMC 투표 화면",
 		"Temporary.MMC.Vote": "투표",
