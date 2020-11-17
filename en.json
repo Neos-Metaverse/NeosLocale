@@ -36,7 +36,7 @@
         "Locomotion.WalkRun.Name" : "Walk/Run",
         "Locomotion.WalkRun.Description" : "Physical walking, running and jumping.",
         "Locomotion.WalkRunGripping.Name" : "Walk/Run (with climbing)",
-        "Locomotion.WalkRunGripping.Description" : "Physical walking, running and jumping and climbing.",
+        "Locomotion.WalkRunGripping.Description" : "Physical walking, running, jumping and climbing.",
         "Locomotion.ZeroG.Name" : "Zero-G",
         "Locomotion.ZeroG.Description" : "Weightless physical locomotion",
         "Locomotion.GrabWorld.Name" : "Grab World",
@@ -353,7 +353,7 @@
         "Contacts.BanFromAllSessions" : "Ban from ALL my sessions",
         "Contacts.UnbanFromAllSessions" : "Unban from ALL my sessions",
         "Contacts.BanFromCurrentWorld" : "Ban from current world",
-        "Contacts.UnbanFromCurrentWorld" : "Unban form current world",
+        "Contacts.UnbanFromCurrentWorld" : "Unban from current world",
         "Contacts.RecordingVoiceMessage" : "Recording voice...",
 
         "Contacts.InSession" : "In {name}",
@@ -1093,7 +1093,7 @@
 
         "Tutorial.Intro.ScalingTitle" : "Scaling",
         "Tutorial.Intro.ScalingVR" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with both hands and move them <color=#77ddff><b>closer or further</b></color> apart - this can also be done with your lasers.",
-        "Tutorial.Intro.ScalingScreen" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with <color=#77ff77><b>Right Mouse</b></color>, hold <color=#77ff77><b>Shift</b></color>, and <color=#77ddff><b>scroll</b></color> with your <color=#77ff77><b>Scroll Wheel</b></color>.",
+        "Tutorial.Intro.ScalingScreen" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with <color=#77ff77><b>Right Mouse button</b></color> and <color=#77ddff><b>scroll</b></color> with your <color=#77ff77><b>Scroll Wheel</b></color>.",
 
         "Tutorial.Intro.ContextMenuTitle" : "Context Menu",
         "Tutorial.Intro.ContextMenuDescription" : "Your <color=#ffdd77><b>Context Menu</b></color> provides quick actions.<br>Open or close it using the <color=#77ff77><b>{button}</b></color>.",
@@ -1104,7 +1104,7 @@
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "Destroying and Duplicating",
         "Tutorial.Intro.DestroyingDuplicatingVR" : "While holding an object, <b><color=#ffdd77>Destroy or Duplicate</color></b> it by <color=#77ff77><b>Clicking</b></color> the action in the context menu.",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "While holding an object, <b><color=#ffdd77>Destroy</color></b> it by pressing <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Duplicate</b></color> it by pressing <color=#77ff77><b>F</b></color>.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "While holding an object, <b><color=#ffdd77>Destroy</color></b> it by pressing <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Duplicate</b></color> it by pressing <color=#77ff77><b>F key</b></color>.",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "Scaling Yourself",
         "Tutorial.Intro.ScalingYourselfVR" : "To <color=#ffdd77><b>Scale Yourself</b></color>, enable scaling in your context menu, then hold both <color=#77ff77><b>Grip Buttons</b></color> and move your hands <color=#77ddff><b>closer or further</b></color> apart.",
@@ -1129,7 +1129,7 @@
         "Tutorial.Intro.ContactsDescription" : "Your <color=#ffdd77><b>Contacts</b></color> are located on the Dashboard.<br>Send messages, voice messages, or objects to contacts with the chatbox on the bottom right.<br>Add contacts with the search bar, found in the top left corner.",
         "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Import</b></color> files, 3D models, images, audio, videos, or fonts directly into Neos!<br>Either <color=#77ddff><b>drag and drop</b></color> files onto the Neos window, or find them using the <color=#ffdd77><b>File Browser</b></color>.",
         "Tutorial.Intro.SessionTitle" : "Session Settings",
-        "Tutorial.Intro.SessionDescription" : "Session settings, permission levels, and settings dealing with other users in the world can be found in the <color=#ffdd77><b>Sessions</b></color> panel.",
+        "Tutorial.Intro.SessionDescription" : "Session settings, permission levels, and settings dealing with other users in the world can be found in the <color=#ffdd77><b>Session</b></color> panel.",
         "Tutorial.Intro.SettingsDescription" : "Height, volume, comfort settings, langauge choice, and more are adjusted in the <color=#ffdd77><b>Settings</b></color> tab.",
         "Tutorial.Intro.WorldsTitle" : "Worlds Menu",
         "Tutorial.Intro.WorldsDescription" : "Explore the metaverse using the <color=#ffdd77><b>Worlds</b></color> menu.<br>When you're done here, join an active session to meet the community!",

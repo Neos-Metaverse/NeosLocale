@@ -1039,7 +1039,7 @@
         "Wizard.AssetOptimization.CleanupEmptySlots" : "Vyčistit prázdné sloty",
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Vyčistit zakázané mesh rendery",
         "Wizard.AssetOptimization.DeduplicateMaterials" : "Deduplikovat materiály",
-        "Wizard.AssetOptimization.CleanupFileItems" : "Vyčistit předměty typu Soubor",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Vyčistit objekty typu Soubor",
         "Wizard.AssetOptimization.MaxTextureResolution" : "Nastavit maximální rozlišení textury",
         "Wizard.AssetOptimization.RecompressTextures" : "Rekomprimovat textury",
         "Wizard.AssetOptimization.RecalculateAllNormals" : "Rekalkulovat všechny normály",
@@ -1053,12 +1053,12 @@
         "Tutorial.Welcome.ScreenUnderstand" : "Rozumím",
 
         "Tutorial.Welcome.AccountHeader" : "Účet Neos",
-        "Tutorial.Welcome.AccountDescription" : "Vytvořením účtu získáte 1 GB uložiště zdarma, možnost ukládat předměty, nastavit si oblíbený avatar, přidávat kontakty a chatovat s nimi.",
+        "Tutorial.Welcome.AccountDescription" : "Vytvořením účtu získáte 1 GB uložiště zdarma, možnost ukládat objekty, nastavit si oblíbený avatar, přidávat kontakty a chatovat s nimi.",
         "Tutorial.Welcome.AccountCreate" : "Vytvořit účet",
         "Tutorial.Welcome.AccountLogin" : "Již mám účet",
         "Tutorial.Welcome.AccountSkip" : "Pokračovat bez účtu",
         "Tutorial.Welcome.AccountSkipHeader" : "Přeskočit vytvoření účtu?",
-        "Tutorial.Welcome.AccountSkipDescription" : "Některé funkce, jako je ukládání předmětů do inventáře, nastavení oblíbeného avatara nebo přidávání kontaktů nebudou dostupné.",
+        "Tutorial.Welcome.AccountSkipDescription" : "Některé funkce, jako je ukládání objektů do inventáře, nastavení oblíbeného avatara nebo přidávání kontaktů nebudou dostupné.",
         "Tutorial.Welcome.AccountSkipConfirm" : "Opravdu přeskočit",
 
         "Tutorial.Welcome.SettingsHeader" : "Základní nastavení",
@@ -1084,6 +1084,64 @@
         "Tutorial.Welcome.PrivateTutorialDescription" : "Členové komunity vám mohou pomoci se učit rychleji a jednodušeji. Opravdu chcete pokračovat sami?",
         "Tutorial.Welcome.PrivateTutorialConfirm" : "Spustit jako neveřejný",
 
+        "Tutorial.Intro.WelcomeTitle" : "Vítejte v Neosu",
+        "Tutorial.Intro.WelcomeDescription" : "Vaše příručka k poznávání metaversu.",
+
+        "Tutorial.Intro.GrabbingTitle" : "Uchopení objektů",
+        "Tutorial.Intro.GrabbingVR" : "Objekty můžete vzít do ruky <color=#ffdd77><b>uchopením</b></color> pomocí <color=#77ff77><b>tlačítka uchopení(tlačítko na gripu ovladače/stisknutí gripu na Index ovladači)</b></color>.<br>Uchopit na dálku můžete pomocí vašeho laseru.",
+        "Tutorial.Intro.GrabbingScreen" : "Objekty vezmete do ruky <color=#ffdd77><b>uchopením</b></color> pomocí <color=#77ff77><b>pravého tlačítka myši</b></color>.",
+
+        "Tutorial.Intro.ScalingTitle" : "Škálování objektů",
+        "Tutorial.Intro.ScalingVR" : "Pro <color=#ffdd77><b>škálování</b></color> objektu jej uchopte objema rukama a pohybujte jimi <color=#77ddff><b>k sobě/od sebe</b></color> - toto lze také dělat pomocí vašich laserů.",
+        "Tutorial.Intro.ScalingScreen" : "Pro <color=#ffdd77><b>škálování</b></color> objektu jej uchopte pomocí <color=#77ff77><b>pravého tlačítka myši</b></color> a <color=#77ddff><b>scrollujte</b></color> <color=#77ff77><b>kolečkem myši</b></color>.",
+
+        "Tutorial.Intro.ContextMenuTitle" : "Kontextové menu",
+        "Tutorial.Intro.ContextMenuDescription" : "Vaše <color=#ffdd77><b>kontextové menu</b></color> poskytuje rychlý přístup k akcím.<br>Můžete jej otevřít/zavřít pomocí <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "tlačítka B",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "tlačítka B nebo Y",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "tlačítka Menu",
+        "Tutorial.Intro.ContextMenu_Screen" : "klávesy R",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Ničení a duplikace objektů",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Když držíte objekt, můžete jej <b><color=#ffdd77>zničit nebo duplikovat</color></b> <color=#77ff77><b>kliknutím</b></color> na akci v kontextovém menu.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Když držíte objekt, můžete jej <b><color=#ffdd77>zničit</color></b> stiskem <color=#77ff77><b>klávesy Delete</b></color>. <color=#ffdd77><b>Duplikovat</b></color> jej můžete stisknutím <color=#77ff77><b>klávesy F</b></color>.",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "Škálování sebe sama",
+        "Tutorial.Intro.ScalingYourselfVR" : "Pro <color=#ffdd77><b>škálování sebe sama</b></color>, povolte škálování ve vašem kontextovém menu, stiskněte <color=#77ff77><b>obě tlačítka uchopení</b></color> a pohybujte svými rukami <color=#77ddff><b>k sobě/od sebe</b></color>.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Pro <color=#ffdd77><b>škálování sebe sama</b></color>, přidržte <color=#77ff77><b>klávesu Ctrl</b></color> a <color=#77ddff><b>scrollujte</b></color> <color=#77ff77><b>kolečkem myši</b></color>.",
+
+        "Tutorial.Intro.LocomotionTitle" : "Pohyb",
+        "Tutorial.Intro.LocomotionDescription" : "Neos obsahuje mnoho různých metod pohybu.<br>Tyto možnosti pohybu jsou k dispozici ve vašem <color=#ffdd77>kontextovém menu</color>.",
+
+        "Tutorial.Intro.DashboardTitle" : "Dashboard Neosu",
+        "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>Dashboard</b></color> je vaše hlavní menu.<br>Můžete jej otevřít/zavřít pomocí <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>Dashboard</b></color> je vaše hlavní menu.<br>Můžete jej otevří/zavřít pomocí držení <color=#77ff77><b>{button}</b></color> než se zobrazený kruh naplní. Po naplnění kruhu <color=#77ddff><b>uvolněte tlačítko</b></color>.",
+        "Tutorial.Intro.Dashboard_ButtonA" : "tlačítko A",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "tlačítko A nebo X",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "tlačítko Menu",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "kombinace kláves Ctrl + Space",
+
+        "Tutorial.Intro.InventoryVR" : "Váš <color=#ffdd77><b>inventář</b></color> se nachází na vašem Dashboardu.<br>Pro <color=#77ddff><b>spawnování (vložení objektu do světa)</b></color> objektu <color=#77ff77><b>2x klikněte</b></color> na požadovanou položku ve vašem inventáři.<br>Pro <color=#77ddff><b>uložení</b></color> objektu jej <col0or=#77ddff><b>držte v ruce</b></color> a stiskněte <sprite name=inv-add> v pravém horním rohu obrazovky inventáře.",
+        "Tutorial.Intro.InventoryScreen" : "Váš <color=#ffdd77><b>inventář</b></color> se nachází na vašem Dashboardu.<br>Pro <color=#77ddff><b>spawnování (vložení objektu do světa)</b></color> objektu <color=#77ff77><b>2x klikněte</b></color> na požadovanou položku ve vašem inventáři.<br>Pro <color=#77ddff><b>uložení</b></color> objektu jej uchopte a stiskněte <color=#77ff77><b>klávesovou kombinaci Ctrl + S</b></color>.",
+
+        "Tutorial.Intro.HomeScreenTitle" : "Vaše domovská obrazovka",
+        "Tutorial.Intro.HomeScreenDescription" : "Vaše <color=#ffdd77><b>domovská obrazovka</b></color> obsahuje facety s mnoha funkcemi.<br>Funkce obsahují nástroj pro tvorbu avatarů, kalibrátor trackování celého těla, ovládání kamery/streamování, a vytvoření nového světa.",
+        "Tutorial.Intro.ContactsDescription" : "Vaše <color=#ffdd77><b>obrazovka s kontakty</b></color> se nachází na Dashboardu.<br>Posílejte zprávy, hlasové zprávy, nebo objekty vašim kontaktům pomocí chatboxu vpravo dole.<br>Kontakty lze přidat pomocí vyhledávacího pole vlevo nahoře.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Importujte</b></color> soubory, 3D modely, obrázky, audio, videa, nebo fonty přímo do Neosu!<br>Buď <color=#77ddff><b>přetáhněte soubory</b></color> soubory na okno Neosu, nebo je vyhledejte pomocí panelu <color=#ffdd77><b>Soubory</b></color>.",
+        "Tutorial.Intro.SessionTitle" : "Nastavení relace",
+        "Tutorial.Intro.SessionDescription" : "Nastavení relace, úrovně oprávnění, a nastavení týkající se ostatních uživatelů ve světě lze nalézt v panelu <color=#ffdd77><b>Relace</b></color>.",
+        "Tutorial.Intro.SettingsDescription" : "Výška, hlasitost, nastavení pohodlí, volba jazyka, atd. je nastavováno v panelu <color=#ffdd77><b>Nastavení</b></color>.",
+        "Tutorial.Intro.WorldsTitle" : "Menu světy",
+        "Tutorial.Intro.WorldsDescription" : "Objevujte metaverse pomocí menu <color=#ffdd77><b>Světy</b></color>.<br>Až budete zde hotovi, vstupte do aktivní relace aby jste se setkali s komunitou Neosu!",
+
+        "Tutorial.Intro.OutroTop" : "Další tutoriály jsou dostupné skrze tento svět.<br><br>Hodně štěstí a užijte si metaverse!",
+        "Tutorial.Intro.Website" : "Web",
+        "Tutorial.Intro.OutroEnd" : "Pro podpoření projektu se můžete stát naším Patreon patronem.<br><br>Připojte se na náš Discord pro stavové aktualizace, síťování, nebo technickou podporu.",
+
+        "Tutorial.MTC.Avatars" : "Avataři",
+        "Tutorial.MTC.Creation" : "Tvorba",
+        "Tutorial.MTC.RecordingStreaming" : "Nahrávání<br>a streamování",
+        
         "Tutorial.Grab.MoveRotate" : "Posouvat/Rotovat chycené objekty",
         "Tutorial.Grab.Scale" : "Chytněte druhou rukou pro škálování",
         "Tutorial.Grab.PullToEquip" : "Přitáhněte k sobě pro nasazení",
