@@ -968,6 +968,7 @@
 
         "Inspector.Texture.Size" : "Grandeco: {width} x {height}",
         "Inspector.Texture.Format" : "Formato: {format}, Memoro: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "VariantoID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Inversigi RGB",
         "Inspector.Texture.InvertR" : "Inversigi R",
