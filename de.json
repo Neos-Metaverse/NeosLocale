@@ -6,7 +6,7 @@
         "General.OK" : "OK",
         "General.Cancel" : "Abbrechen",
         "General.Continue" : "Weiter",
-        "General.Next" : "Vor",
+        "General.Next" : "Weiter",
         "General.Back" : "Zurück",
         "General.Confirm" : "Bestätigen",
         "General.Loading" : "Lade...",
@@ -34,7 +34,7 @@
         "Locomotion.Fly.Name" : "Fliegen",
         "Locomotion.Fly.Description" : "Physikalischer Flug-Modus",
         "Locomotion.WalkRun.Name" : "Gehen/Rennen",
-        "Locomotion.WalkRun.Description" : "Physikalisches Gehen, Rennen und Springen.",
+        "Locomotion.WalkRun.Description" : "Physikalisches Gehen, Rennen, Springen und Klettern.",
         "Locomotion.WalkRunGripping.Name" : "Gehen/Rennen (mit Klettern)",
         "Locomotion.WalkRunGripping.Description" : "Physikalisches Gehen, Rennen, Springen und Klettern.",
         "Locomotion.ZeroG.Name" : "Schwerelos",
@@ -75,8 +75,8 @@
         "Dash.Screens.Contacts" : "Kontakte",
         "Dash.Screens.Inventory" : "Inventar",
         "Dash.Screens.Session" : "Sitzung",
-        "Dash.Screens.FileBrowser" : "<nobr>Dateien",
-        "Dash.Screens.Settings" : "Einstellungen",
+        "Dash.Screens.FileBrowser" : "Dateien",
+        "Dash.Screens.Settings" : "Optionen",
         "Dash.Screens.Exit" : "Beenden",
 
         "Dash.Actions.PasteFromClipboard" : "Zwischenablage einfügen",
@@ -165,7 +165,7 @@
         "World.Actions.HostingWarning" : "Sie sind Host dieser Welt. Alle Nutzer werden getrennt, wenn Sie die Welt schließen.",
 
         "World.Actions.GetWorldOrb" : "Welt-Orb erzeugen",
-        "World.Actions.CopyWorldURL" : "World-URL kopieren",
+        "World.Actions.CopyWorldURL" : "Welt-URL kopieren",
         "World.Actions.CopyRecordURL" : "Aufzeichnungs-URL kopieren",
         "World.Actions.StartCustomSession" : "Benutzerdefinierte Sitzung starten",
         "World.Actions.ModifyMetadata" : "Metadaten editieren",
@@ -867,6 +867,7 @@
 
         "Settings.Locale.ChangeLanguage" : "Sprache ändern",
         "Settings.Locale.SelectLanguageHeader" : "Wählen Sie Ihre Sprache:",
+
         "Settings.Save" : "Einstellungen speichern",
 
         "Settings.FullBody.Header" : "Ganzkörper-Tracking:",
@@ -1043,7 +1044,7 @@
         "Tutorial.Welcome.ScreenUnderstand" : "Ich verstehe",
 
         "Tutorial.Welcome.AccountHeader" : "Neos-Account",
-        "Tutorial.Welcome.AccountDescription" : "Mit der Erstellung eines Accounts erhalten Sie 1 GB kostenlosen Speicher und die Fähigkeiten Objekte zu speichern, Avatare zu favorisieren, Kontakte hinzuzufügen und Nachrichten zu versenden.",
+        "Tutorial.Welcome.AccountDescription" : "Mit der Erstellung eines Accounts erhalten Sie 1 GB kostenlosen Speicher und die Fähigkeiten, Objekte zu speichern, Avatare zu favorisieren, Kontakte hinzuzufügen und Nachrichten zu versenden.",
         "Tutorial.Welcome.AccountCreate" : "Account erstellen",
         "Tutorial.Welcome.AccountLogin" : "Ich bin bereits registriert",
         "Tutorial.Welcome.AccountSkip" : "Ohne Account fortfahrten",
@@ -1051,13 +1052,13 @@
         "Tutorial.Welcome.AccountSkipDescription" : "Einige Funktionen wie das Speichern von Objekten im Inventar, Favorisieren von Avataren oder die Kontaktliste werden nicht zur Verfügung stehen.",
         "Tutorial.Welcome.AccountSkipConfirm" : "Wirklich überspringen",
 
-        "Tutorial.Welcome.SettingsHeader" : "Basis-Präferenzen",
+        "Tutorial.Welcome.SettingsHeader" : "Präferenzen",
         "Tutorial.Welcome.SettingsDescription" : "Hier können Sie grundlegende Bewegungs- und Nutzer-Präferenzen einstellen. Diese Einstellungen können später geändert werden.",
         "Tutorial.Welcome.SettingsTurning" : "Dreh-Stil",
         "Tutorial.Welcome.SettingsSnapTurn" : "Einrasten",
         "Tutorial.Welcome.SettingsSnapTurnDescription" : "Dreht in konstanten Winkel-Intervallen.",
         "Tutorial.Welcome.SettingsSmoothTurn" : "Graduell",
-        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Dreht in gleitender Bewegung. Kann Schwindel verursachen.",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Dreht in gleitender Bewegung.<br>Kann Schwindel verursachen.",
         "Tutorial.Welcome.SettingsPrimaryController" : "Primärer Controller",
         "Tutorial.Welcome.SettingsPrimaryLeft" : "Links",
         "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Links:</b> Drehen, <b>Rechts:</b> Seitlich bewegen",
@@ -1068,11 +1069,69 @@
 
         "Tutorial.Welcome.StartTutorialHeader" : "Tutorial beginnen",
         "Tutorial.Welcome.StartTutorialDescription" : "Wir senden Sie in eine Tutorial-Welt, die Ihnen helfen wird, in Neos zurechtzukommen. Sie können wählen, ob diese Welt öffentlich sein soll, so dass andere Community-Mitglieder Ihnen beitreten und helfen können; oder privat, um alleine zu lernen.",
-        "Tutorial.Welcome.StartTutorialPublic" : "Ich möchte, dass Andere beitreten und mir helfen können",
+        "Tutorial.Welcome.StartTutorialPublic" : "Ich möchte andere beitreten und mir helfen lassen",
         "Tutorial.Welcome.StartTutorialPrivate" : "Ich möchte lieber alleine lernen",
         "Tutorial.Welcome.PrivateTutorialHeader" : "Wirklich privat starten?",
         "Tutorial.Welcome.PrivateTutorialDescription" : "Community-Mitglieder können Ihnen helfen, schneller und leichter in Neos einzusteigen. Trotzdem alleine fortfahren?",
         "Tutorial.Welcome.PrivateTutorialConfirm" : "Privat starten",
+
+        "Tutorial.Intro.WelcomeTitle" : "Willkommen bei Neos",
+        "Tutorial.Intro.WelcomeDescription" : "Ihr Wegbegleiter im Metaverse.",
+
+        "Tutorial.Intro.GrabbingTitle" : "Greifen",
+        "Tutorial.Intro.GrabbingVR" : "<color=#ffdd77><b>Greifen</b></color> Sie Objekte mit dem <color=#77ff77><b>Grip-Button</b></color>.<br>Greifen Sie entfernte Dinge mithilfe des Lasers.",
+        "Tutorial.Intro.GrabbingScreen" : "<color=#ffdd77><b>Greifen</b></color> Sie Objekte mit der <color=#77ff77><b>Rechten Maustaste</b></color>.",
+
+        "Tutorial.Intro.ScalingTitle" : "Skalieren",
+        "Tutorial.Intro.ScalingVR" : "Um ein Objekt zu <color=#ffdd77><b>Skalieren</b></color>, Greifen Sie es mit beiden Händen und bewegen Sie sie <color=#77ddff><b>zueinander oder voneinander weg</b></color> - dies können Sie auch mit den Lasern tun.",
+        "Tutorial.Intro.ScalingScreen" : "Um ein Objekt zu <color=#ffdd77><b>Skalieren</b></color>, Greifen Sie es mit der <color=#77ff77><b>Rechten Maustaste</b></color> und <color=#77ddff><b>scrollen</b></color> Sie mit dem <color=#77ff77><b>Mausrad</b></color>.",
+
+        "Tutorial.Intro.ContextMenuTitle" : "Kontextmenü",
+        "Tutorial.Intro.ContextMenuDescription" : "Ihr <color=#ffdd77><b>Kontextmenü</b></color> zeigt Ihnen kontextabhängige Aktionen.<br>Öffnen oder schließen Sie es mit <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B oder Y",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "der Menü-Taste",
+        "Tutorial.Intro.ContextMenu_Screen" : "R",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Löschen und Duplizieren",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Während Sie ein Objekt halten, <b><color=#ffdd77>Löschen oder Duplizieren</color></b> Sie es, indem Sie auf die Aktion im Kontextmenü <color=#77ff77><b>Klicken</b></color>.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Während Sie ein Objekt halten, <b><color=#ffdd77>Löschen</color></b> Sie es mit der <color=#77ff77><b>Entfernen</b></color>-Taste oder <color=#ffdd77><b>Duplizieren</b></color> Sie es mit <color=#77ff77><b>F</b></color>.",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "Selbst Skalieren",
+        "Tutorial.Intro.ScalingYourselfVR" : "Um sich <color=#ffdd77><b>selbst zu Skalieren</b></color>, aktivieren Sie Skalierung in Ihrem Kontextmenü, halten <color=#77ff77><b>Grip</b></color> auf beiden Controllern und bewegen Ihre Hände <color=#77ddff><b>zueinander oder voneinander weg</b></color>.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Um sich <color=#ffdd77><b>selbst zu Skalieren</b></color>, halten Sie <color=#77ff77><b>Strg</b></color> und <color=#77ddff><b>scrollen</b></color> Sie mit dem <color=#77ff77><b>Mausrad</b></color>.",
+
+        "Tutorial.Intro.LocomotionTitle" : "Fortbewegung",
+        "Tutorial.Intro.LocomotionDescription" : "Neos enthält verschiedene Fortbewegungsarten.<br>Zwischen diesen können Sie im <color=#ffdd77>Kontextmenü</color> wählen.",
+
+        "Tutorial.Intro.DashboardTitle" : "Neos-Dashboard",
+        "Tutorial.Intro.DashboardDescription" : "Das <color=#ffdd77><b>Dashboard</b></color> ist Ihr Hauptmenü.<br>Sie öffnen und schließen es mit <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "Das <color=#ffdd77><b>Dashboard</b></color> ist Ihr Hauptmenü.<br>Sie öffnen und schließen es, indem Sie <color=#77ff77><b>{button}</b></color> halten, bis der Kreis voll ist, und dann <color=#77ddff><b>loslassen</b></color>.",
+        "Tutorial.Intro.Dashboard_ButtonA" : "A",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A oder X",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "Menü-Taste",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Strg + Space",
+
+        "Tutorial.Intro.InventoryVR" : "Sie erreichen Ihr <color=#ffdd77><b>Inventar</b></color> über das Dashboard.<br>Um ein Objekt zu <color=#77ddff><b>Spawnen</b></color>, <color=#77ff77><b>Doppel-Klicken</b></color> Sie es in Ihrem Inventar.<br>Um ein Objekt zu <color=#77ddff><b>Speichern</b></color>, <color=#77ddff><b>halten</b></color> Sie es in einer Hand und drücken <sprite name=inv-add> in der oberen rechten Ecke des Inventars.",
+        "Tutorial.Intro.InventoryScreen" : "Sie erreichen Ihr <color=#ffdd77><b>Inventar</b></color> über das Dashboard.<br>Um ein Objekt zu <color=#77ddff><b>Spawnen</b></color>, <color=#77ff77><b>Doppel-Klicken</b></color> Sie es in Ihrem Inventar.<br>Um ein Objekt zu <color=#77ddff><b>Speichern</b></color>, <color=#77ddff><b>halten</b></color> Sie es in einer Hand und drücken <color=#77ff77><b>Strg + S</b></color>.",
+
+        "Tutorial.Intro.HomeScreenTitle" : "Home-Bildschirm",
+        "Tutorial.Intro.HomeScreenDescription" : "Ihr <color=#ffdd77><b>Home-Bildschirm</b></color> enthält eine Liste hilfreicher Funktionen.<br>Dies umfasst den Avatar-Ersteller, Ganzkörper-Kalibrierung, Kamera/Streaming, und Erstellen einer neuen Welt.",
+        "Tutorial.Intro.ContactsDescription" : "Sie erreichen Ihre <color=#ffdd77><b>Kontakte</b></color> über das Dashboard.<br>Senden Sie Nachrichten, Sprachaufnahmen oder Objekte and Kontakte mithilfe der Chatbox unten rechts.<br>Suchen und fügen Sie neue Kontakte hinzu mit der Suchleiste oben links.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Importieren</b></color> Sie Dateien, 3D-Modelle, Bilder, Audio, Videos oder Schriftarten direkt nach Neos!<br>Ziehen Sie Dateien per <color=#77ddff><b>Drag-and-drop</b></color> in das Neos-Fenster oder öffnen Sie sie über den <color=#ffdd77><b>Datei-Browser</b></color>.",
+        "Tutorial.Intro.SessionTitle" : "Sitzungseinstellungen",
+        "Tutorial.Intro.SessionDescription" : "Sitzungseinstellugnen, Berechtigungsstufen und Einstellungen bezüglich anderer Nutzer in der Welt befinden sich auf dem Tab <color=#ffdd77><b>Sitzung</b></color>.",
+        "Tutorial.Intro.SettingsDescription" : "Einstellungen zu Körpergröße, Lautstärke, Komfort, Sprache und mehr befinden sich auf dem Tab <color=#ffdd77><b>Optionen</b></color>.",
+        "Tutorial.Intro.WorldsTitle" : "Welten",
+        "Tutorial.Intro.WorldsDescription" : "Erkunden Sie das Metaverse mithilfe des Tabs <color=#ffdd77><b>Welten</b></color>.<br>Wenn Sie hier fertig sind, treten Sie doch einer aktiven Sitzung bei und treffen die Community!",
+
+        "Tutorial.Intro.OutroTop" : "Weitere Tutorials finden Sie über diese Welt verteilt.<br><br>Viel Glück und genießen Sie das Metaverse!",
+        "Tutorial.Intro.Website" : "Website",
+        "Tutorial.Intro.OutroEnd" : "Wenn Sie uns helfen wollen, unterstützen Sie uns doch auf Patreon.<br><br>Treten Sie dem Discord bei für Status-Updates, Networking oder technischen Support.",
+
+        "Tutorial.MTC.Avatars" : "Avatare",
+        "Tutorial.MTC.Creation" : "Kreation",
+        "Tutorial.MTC.RecordingStreaming" : "Aufnahmen<br>& Streaming",
 
         "Tutorial.Grab.MoveRotate" : "Bewege/Rotiere gehaltene Items",
         "Tutorial.Grab.Scale" : "Mit zweitem Controller greifen um zu skalieren",
@@ -1082,7 +1141,7 @@
         "Tutorial.Grab.EquipForFullUse" : "Ausrüsten, um alle Funktionen nutzen zu können",
 
         "Tutorial.WorldOrb.Click" : "Klick World Orb",
-        "Tutorial.WorldOrb.Info" : "<b>World Orb</b>\n<size=80%>Repräsentiert eine Welt oder Sitzung\nDoppelklick - Betreten\nClick - Kontextmenü",
+        "Tutorial.WorldOrb.Info" : "<b>World Orb</b>\n<size=80%>Repräsentiert eine Welt oder Sitzung</size>\nDoppelklick - Betreten\nClick - Kontextmenü",
 
         "Tutorial.Tooltip.GeneralPrimary" : "Benutzen",
         "Tutorial.Tooltip.GeneralSecondary" : "Sekundäre Aktion",
@@ -1116,17 +1175,6 @@
         "Exiting.SavingChanges" : "Speichere Änderungen...",
         "Exiting.Exiting" : "Beenden...",
         "Exiting.LoggingOut" : "Abmelden...",
-
-        "Temporary.MMC.Voting UI": "MMC Abstimm-Oberfläche",
-        "Temporary.MMC.Vote": "Abstimmen",
-        "Temporary.MMC.Categories.Name": "Kategorien",
-        "Temporary.MMC.Categories.Worlds": "Welten",
-        "Temporary.MMC.Categories.Other": "Gadgets/Tools+",
-        "Temporary.MMC.Categories.Avatars": "Avatare",
-        "Temporary.MMC.VoteSuccess": "Stimme in Kategorie {category} für {voteTarget} abgegeben.",
-        "Temporary.MMC.VoteFailure": "Abstimmung fehlgeschlagen, Ihre Stimme wurde nicht registriert. Bitte versuchen Sie es erneut.",
-        "Temporary.MMC.VotedAlready": "Sie haben bereits abgestimmt für {category}.",
-        "Temporary.MMC.VoteInvalid": "Die Abstimmung ist ungültig, bitte versuchen Sie es erneut.",
 
         "Dummy" : "Dummy"
     }
