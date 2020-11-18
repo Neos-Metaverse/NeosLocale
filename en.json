@@ -1138,9 +1138,9 @@
         "Tutorial.Intro.Website" : "Website",
         "Tutorial.Intro.OutroEnd" : "To support the project, join our Patreon.<br><br>Join the Discord for status updates, networking, or technical support.",
 
-        "Tutorial.MTC.Avatars" : "Avatars",
-        "Tutorial.MTC.Creation" : "Creation",
-        "Tutorial.MTC.RecordingStreaming" : "Recording<br>& Streaming",
+        "Tutorial.MTC.Avatars" : "Avatars & Social",
+        "Tutorial.MTC.Creation" : "Creation & Utility",
+        "Tutorial.MTC.RecordingStreaming" : "Recording & Streaming",
 
         "Tutorial.Grab.MoveRotate" : "Move/Rotate held items",
         "Tutorial.Grab.Scale" : "Grab with other controller to scale",
