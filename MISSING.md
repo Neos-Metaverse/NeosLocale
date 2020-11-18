@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # German [de]
+Inspector.Texture.Variant  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -892,6 +893,7 @@ Inspector.BipedRig.LeftHandRigResult
 Inspector.BipedRig.RightHandRigResult  
 Inspector.Texture.Size  
 Inspector.Texture.Format  
+Inspector.Texture.Variant  
 Inspector.Texture.InvertRGB  
 Inspector.Texture.InvertR  
 Inspector.Texture.InvertG  
@@ -1079,6 +1081,9 @@ Exiting.SavingChanges
 Exiting.Exiting  
 Exiting.LoggingOut  
 
+# Esperanto [eo]
+Inspector.Texture.Variant  
+
 # Spanish [es]
 General.Save  
 General.Saving  
@@ -1107,6 +1112,7 @@ Settings.Audio.StopTest
 Settings.Audio.Monitoring  
 Settings.Locale.ChangeLanguage  
 Settings.Locale.SelectLanguageHeader  
+Inspector.Texture.Variant  
 Inspector.Audio.BakeAudio  
 Wizard.General.ProcessRoot  
 Wizard.General.Result  
@@ -1247,6 +1253,7 @@ Settings.Audio.StopTest
 Settings.Audio.Monitoring  
 Settings.Locale.ChangeLanguage  
 Settings.Locale.SelectLanguageHeader  
+Inspector.Texture.Variant  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
@@ -1848,6 +1855,7 @@ Inspector.BipedRig.LeftHandRigResult
 Inspector.BipedRig.RightHandRigResult  
 Inspector.Texture.Size  
 Inspector.Texture.Format  
+Inspector.Texture.Variant  
 Inspector.Texture.InvertRGB  
 Inspector.Texture.InvertR  
 Inspector.Texture.InvertG  
@@ -2083,6 +2091,7 @@ Settings.Audio.StopTest
 Settings.Audio.Monitoring  
 Settings.Locale.ChangeLanguage  
 Settings.Locale.SelectLanguageHeader  
+Inspector.Texture.Variant  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
@@ -2740,6 +2749,7 @@ Inspector.BipedRig.LeftHandRigResult
 Inspector.BipedRig.RightHandRigResult  
 Inspector.Texture.Size  
 Inspector.Texture.Format  
+Inspector.Texture.Variant  
 Inspector.Texture.InvertRGB  
 Inspector.Texture.InvertR  
 Inspector.Texture.InvertG  
@@ -2927,8 +2937,12 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
+# Japanese [ja]
+Inspector.Texture.Variant  
+
 # Dutch [nl]
 Settings.MaxConcurrentAssetTransfers  
+Inspector.Texture.Variant  
 Tutorial.Intro.WelcomeTitle  
 Tutorial.Intro.WelcomeDescription  
 Tutorial.Intro.GrabbingTitle  
@@ -3040,6 +3054,7 @@ Inspector.BipedRig.DetectRightHand
 Inspector.BipedRig.HandRigResult  
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
+Inspector.Texture.Variant  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
@@ -3209,6 +3224,7 @@ World.Edit.AccessLevelHeader
 World.Edit.AccessPrivate  
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
+Inspector.Texture.Variant  
 Tutorial.Welcome.SettingsHeader  
 Tutorial.Welcome.SettingsDescription  
 Tutorial.Welcome.SettingsTurning  
@@ -3269,6 +3285,9 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
+
+# Russian [ru]
+Inspector.Texture.Variant  
 
 # Swedish [sv]
 General.Save  
@@ -4071,6 +4090,7 @@ Inspector.BipedRig.LeftHandRigResult
 Inspector.BipedRig.RightHandRigResult  
 Inspector.Texture.Size  
 Inspector.Texture.Format  
+Inspector.Texture.Variant  
 Inspector.Texture.InvertRGB  
 Inspector.Texture.InvertR  
 Inspector.Texture.InvertG  
@@ -4274,6 +4294,7 @@ World.Edit.AccessPrivate
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
 Settings.MaxConcurrentAssetTransfers  
+Inspector.Texture.Variant  
 Wizard.AssetOptimization.CleanupUnusedAssets  
 Tutorial.Welcome.SettingsHeader  
 Tutorial.Welcome.SettingsDescription  
@@ -4335,4 +4356,10 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
+
+# Chinese (China) [zh-cn]
+Inspector.Texture.Variant  
+
+# Chinese (Taiwan) [zh-tw]
+Inspector.Texture.Variant  
 

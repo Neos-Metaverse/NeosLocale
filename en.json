@@ -968,6 +968,7 @@
 
         "Inspector.Texture.Size" : "Size: {width} x {height}",
         "Inspector.Texture.Format" : "Format: {format}, Memory: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "VariantID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Invert RGB",
         "Inspector.Texture.InvertR" : "Invert R",
