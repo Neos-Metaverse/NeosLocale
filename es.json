@@ -14,6 +14,8 @@
         "General.FAILED" : "FALLIDO",
         "General.Reset" : "Reiniciar",
         "General.WorldOpenConfirm" : "¿Realmente abrir?",
+        "General.Save" : "Guardar",
+        "General.Saving" : "Guardando...",
         "General.Saved" : "¡Guardado!",
         "General.Done" : "Listo!",
         "General.CopiedToClipboard" : "¡Copiado!",
@@ -63,6 +65,10 @@
         "Interaction.ExitAnchor" : "Salir de anclado",
 
         "Interaction.EquipAvatar" : "Equipar Avatar",
+
+        "Interaction.SaveAsScreenshot" : "Guardar captura de pantalla",
+        "Interaction.ImportFile" : "Importar Archivo",
+        "Interaction.ExportFile" : "Exportar Archivo",
 
         "Dash.Screens.Home" : "Inicio",
         "Dash.Screens.Worlds" : "Mundos",
@@ -115,7 +121,7 @@
         "World.Error.IncompatibleVersion" : "Ésta versión de Neos es incompatible",
         "World.Error.Unknown" : "Error desconocido",
 
-        "World.Config.Name" : "Nombre del mundo:",
+        "World.Config.Name" : "Nombre del Mundo:",
         "World.Config.Description" : "Descripción:",
         "World.Config.MaxUsers" : "Límite de usuarios:",
         "World.Config.MobileFriendly" : "Apto para móviles",
@@ -245,6 +251,16 @@
         "World.Filter.MinimumUptime" : "Tiempo de actividad mínimo:",
         "World.Filter.Sorting" : "Ordenamiento:",
 
+        "World.Edit.Title" : "Editar Metadatos del Mundo",
+        "World.Edit.Name" : "Nombre del Mundo:",
+        "World.Edit.Description" : "Descripción:",
+        "World.Edit.Tags" : "Etiquetas (separadas por comas):",
+        "World.Edit.Path" : "Localización del Mundo:",
+        "World.Edit.AccessLevelHeader" : "Quién puede abrir este mundo?",
+        "World.Edit.AccessPrivate" : "Sólo Yo",
+        "World.Edit.AccessPatreon" : "Partidarios de Patreon",
+        "World.Edit.AccessPublic" : "Cualquiera (público)",
+
         "Tools.AvatarCreator" : "Creador de Avatares",
         "Tools.FullBodyCalibrator" : "Calibrador de Rastreadores",
         "Tools.CameraStreaming" : "Cámara / Transmisión",
@@ -280,7 +296,7 @@
         "Account.Anonymous" : "Anónimo",
         "Account.PatreonSupporter" : "Partidario de Patreon",
         "Account.Username" : "Nombre de Usuario:",
-        "Account.Email" : "Correo Electronico (E-mail):",
+        "Account.Email" : "Correo Electrónico (E-mail):",
         "Account.RememberMe" : "Recuérdame:",
         "Account.RepeatEmail" : "Repetir E-mail:",
         "Account.UsernameOrEmail" : "Nombre de usuario o E-mail:",
@@ -301,7 +317,7 @@
         "Account.ErrorPasswordMismatch" : "¡Las contraseñas no coinciden!",
         "Account.ErrorEmailMismatch" : "¡Los E-mails no coinciden!",
         "Account.ErrorLoginError" : "Error al iniciar la sesión:",
-        "Account.RegistrationSuccess" : "¡Éxito! Se le ha enviado un correo electrónico con un enlace de verificación. Una vez que abra este enlace, podrá iniciar la sesión.",
+        "Account.RegistrationSuccess" : "<size=120%>¡Éxito!</size><br><br>Se ha enviado un correo electrónico a {email} con un enlace de verificación.<br><br>Una vez abra ese enlace, iniciará sesión automáticamente siempre y cuando éste diálogo siga abierto.<br><br>Si encuentras un error, contáctanos: hello@neos.com o discord.gg/neosvr",
 
         "Profile.Status.Online" : "En línea",
         "Profile.Status.Away" : "Ausente",
@@ -338,11 +354,13 @@
         "Contacts.UnbanFromAllSessions" : "Desbanear de todas mis sesiones",
         "Contacts.BanFromCurrentWorld" : "Banear del mundo actual",
         "Contacts.UnbanFromCurrentWorld" : "Desbanear del mundo actual",
+        "Contacts.RecordingVoiceMessage" : "Grabando mensaje...",
 
         "Contacts.InSession" : "En {name}",
         "Contacts.InPrivate" : "En Mundo Privado",
         "Contacts.InFriendsOnly" : "En Mundo de Sólo Contactos",
         "Contacts.InHidden" : "En Mundo Oculto",
+        "Contacts.InHiddenFriendsOnly" : "En Mundo Oculto, de Sólo Contactos",
         "Contacts.InLAN" : "En Mundo de Red Local",
         "Contacts.UsingDifferentVersion" : "Usando versión {version}",
         "Contacts.RequestSent" : "Solicitud enviada",
@@ -360,6 +378,7 @@
         "Notifications.TransferedCredits" : "Transfirió {amount} {token}",
         "Notifications.ReceivedTip" : "Recibió una donación de {amount} {token}",
         "Notifications.SentTip" : "Envió una donación de {amount} {token}",
+        "Notifications.VoiceMessage" : "Envió un mensaje de voz",
 
         "Undo.SetField" : "Establecer campo {field_name} a {value}",
         "Undo.SetReference" : "Establecer referencia {ref_name} a {ref_target}",
@@ -521,6 +540,8 @@
         "AvatarCreator.AlignToolAnchors" : "Alinear anclajes de herramientas",
         "AvatarCreator.Create" : "Crear",
 
+        "Importer.General.AsRawFile" : "Archivo",
+
         "Importer.Folder.Title" : "Importador de carpetas",
         "Importer.Folder.Individual" : "Importación individual",
         "Importer.Folder.Individual.Description" : "Crea un cuadro de diálogo de importación independiente para cada archivo admitido en la carpeta",
@@ -532,9 +553,9 @@
         "Importer.Image.Regular" : "Imagen / Textura",
         "Importer.Image.360" : "Foto 360 / caja de cielo",
         "Importer.Image.StereoPhoto" : "Foto estéreo",
-        "Importer.Image.Stereo360" : "Foto estéreo 360",
+        "Importer.Image.Stereo360" : "Foto 360 estéreo",
         "Importer.Image.180" : "Foto 180",
-        "Importer.Image.Stereo180" : "Foto estéreo 180",
+        "Importer.Image.Stereo180" : "Foto 180 estéreo",
         "Importer.Image.LUT" : "LUT",
 
         "Importer.ImageVideo.LayoutPrompt" : "¿Qué diseño utiliza?",
@@ -757,7 +778,6 @@
         "CameraControl.Control.AngleSmoothSpeed" : "Velocidad de Suavizado de Ángulo: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Velocidad de Suavizado de Encuadre: {n}",
 
-
         "CameraControl.OBS.IP" : "IP del Websocket de OBS:",
         "CameraControl.OBS.Password" : "Contraseña de OBS (opcional)",
         "CameraControl.OBS.Connect" : "Conectar",
@@ -818,6 +838,7 @@
         "Settings.LegacyGripEquip" : "Habilitar Equipar con Agarre Doble Tradicional",
         "Settings.LegacyWorldSwitcher" : "Habilitar Traslado entre Mundos Tradicional",
         "Settings.FetchIncompatibleSessions" : "Mostrar Sesiones Incompatibles",
+        "Settings.MaxConcurrentAssetTransfers" : "Máximas Transferencias de Recursos Simultáneas",
 
         "Settings.LaserSmoothing.Header" : "Suavizado del Láser",
         "Settings.LaserSmoothing.Speed" : "Velocidad del Suavizado",
@@ -837,6 +858,15 @@
         "Settings.Audio.NoiseGateThreshold" : "Umbral de Puerta de Ruido: {n}",
         "Settings.Audio.NormzliationThreshold" : "Umbral de Normalización: {n}",
         "Settings.Audio.InputDevice" : "Dispositivo de Entrada de Audio:",
+        "Settings.Audio.SelectInputDevice" : "Seleccionar Dispositivo de Entrada de Audio",
+        "Settings.Audio.TestInput" : "Probar entrada de audio:",
+        "Settings.Audio.TestDescription" : "Reproduciremos el sonido entrando al dispositivo de entrada de audio seleccionado, para que verifique si es el correcto.",
+        "Settings.Audio.StartTest" : "Probar Micrófono",
+        "Settings.Audio.StopTest" : "Dejar de Probar",
+        "Settings.Audio.Monitoring" : "Monitoreo de Micrófono:",
+
+        "Settings.Locale.ChangeLanguage" : "Cambiar Idioma",
+        "Settings.Locale.SelectLanguageHeader" : "Selecciona tu idioma:",
 
         "Settings.Save" : "Guardar Ajustes",
 
@@ -970,6 +1000,7 @@
         "Inspector.Texture.InvalidFloats" : "Diagnóstico: Flotantes inválidos",
         "Inspector.Texture.GenerateMetadata" : "Diagnóstico: Generar Metadatos del Mapa de Bits",
 
+        "Inspector.Audio.BakeAudio" : "Renderizar Clip de Audio",
         "Inspector.Audio.FormatInfo" : "Frecuencia de Muestreo: {rate} Hz, Canales: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Duración: {duration}",
         "Inspector.Audio.EncodingInfo" : "Información del códec: {info}, Desencodeado: {decoded}",
@@ -998,12 +1029,125 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Añadir colisionadores fijos según jerarquía (usando raíz del objeto)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Siempre agarrar el último hueso",
 
+        "Wizard.General.ProcessRoot" : "Raíz del Procesado:",
+        "Wizard.General.Result" : "Resultado:",
+        "Wizard.General.ErrorNoRoot" : "Raíz No Seleccionada",
+        "Wizard.General.RemovedResult" : "{n,plural, one {# removido} other {# removidos}}",
+
+        "Wizard.AssetOptimization.Title" : "Asistente de Optimización de Recursos",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Limpiar Recursos No Usados",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Limpiar Ranuras Vacías",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Limpiar Renderizadores de Mallas Deshablitados",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "Desduplicar Materiales",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Limpiar Objetos de Archivo",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Establecer Resolución Máxima de Texturas",
+        "Wizard.AssetOptimization.RecompressTextures" : "Recomprimir Texturas",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Recalcular Normales",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Recalcular Normales (unidos)",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Recalcular Tangentes (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "{n,plural, one {# redimensionado} other {# redimensionados}}",
+
+        "Tutorial.Welcome.WelcomeTo" : "Bienvenido a",
+        "Tutorial.Welcome.LetsStart" : "¡Empezemos!",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>ADVERTENCIA:</b></color> Está usando el modo Pantalla, el cual no está oficialmente soportado dado que está diseñado principalmente para depuración.<br><br>Aunque puede ser usado normalmente, algunas cosas no funcionarán y los controles pueden ser difíciles de manejar.<br><br><b>Actualmente Neos está pensado para usarse en RV.</b><br><br>Se planea implementar un modo de escritorio propiamente dicho algún tiempo en el futuro.",
+        "Tutorial.Welcome.ScreenUnderstand" : "Entiendo",
+
+        "Tutorial.Welcome.AccountHeader" : "Cuenta Neos",
+        "Tutorial.Welcome.AccountDescription" : "Crear una Cuenta le proporciona 1 GB de almacenamiento gratuito y el acceso a guardar objetos, marcar avatars como favoritos, añadir contactos y el sistema de mensajería.",
+        "Tutorial.Welcome.AccountCreate" : "Crear Cuenta",
+        "Tutorial.Welcome.AccountLogin" : "Ya poseo una cuenta",
+        "Tutorial.Welcome.AccountSkip" : "Continuar sin una cuenta",
+        "Tutorial.Welcome.AccountSkipHeader" : "¿Saltarse la creación de cuenta?",
+        "Tutorial.Welcome.AccountSkipDescription" : "Algunas funcionalidades como guardar objetos al inventario, avatars favoritos o agregar contactos no serán accesibles.",
+        "Tutorial.Welcome.AccountSkipConfirm" : "¿Seguro desea Saltar?",
+
+        "Tutorial.Welcome.SettingsHeader" : "Preferencias básicas",
+        "Tutorial.Welcome.SettingsDescription" : "Puedes establecer las opciones de movimiento y las preferencias de usuario. Todas éstas pueden cambiarse luego.",
+        "Tutorial.Welcome.SettingsTurning" : "Estilo de Giro",
+        "Tutorial.Welcome.SettingsSnapTurn" : "Instantáneo",
+        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Gira instantáneamente un cierto ángulo, ideal para nuevos usuarios",
+        "Tutorial.Welcome.SettingsSmoothTurn" : "Continuo",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Gira gradualmente, pero podría causar mareos.",
+        "Tutorial.Welcome.SettingsPrimaryController" : "Controlador Primario",
+        "Tutorial.Welcome.SettingsPrimaryLeft" : "Izquierdo",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Izquierdo:</b> Girar, <b>Derecho:</b> Desplazarse",
+        "Tutorial.Welcome.SettingsPrimaryRight" : "Derecho",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Izquierdo:</b> Desplazarse, <b>Derecho:</b> Girar",
+        "Tutorial.Welcome.SettingsHeight" : "Tu altura",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Ejemplos: 1.85 m, 185 cm, 6\" 1', 6 pies 1 pulgada",
+
+        "Tutorial.Welcome.StartTutorialHeader" : "Iniciar Tutorial",
+        "Tutorial.Welcome.StartTutorialDescription" : "Lo transferiremos a un mundo tutorial para enseñarle lo básico para comenzar en Neos. Puede elegir tener el mundo tutorial en modo público, permitiendo a la comunidad de Neos unírsele y ayudarle o puede aprender por su cuenta.",
+        "Tutorial.Welcome.StartTutorialPublic" : "Quiero que puedan unirse otras personas y ayudarme",
+        "Tutorial.Welcome.StartTutorialPrivate" : "Quiero aprender solo.",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "¿Seguro desea comenzar en forma privada?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Miembros de la comunidad podrían ayudarle a empezar de forma más fácil y rápida, ¿Seguro desea proceder solo?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Empezar en Privado",
+
+        "Tutorial.Intro.WelcomeTitle" : "Bienvenido a Neos",
+        "Tutorial.Intro.WelcomeDescription" : "Su guía para explorar el metaverso.",
+
+        "Tutorial.Intro.GrabbingTitle" : "Agarrar",
+        "Tutorial.Intro.GrabbingVR" : "Toma objetos <color=#ffdd77><b>Agarrándolos</b></color> con el <color=#77ff77><b>Botón de Agarre</b></color>.<br>Toma objetos desde una distancia usando el láser.",
+        "Tutorial.Intro.GrabbingScreen" : "Toma objetos <color=#ffdd77><b>Agarrándolos</b></color> con el <color=#77ff77><b>Botón Derecho</b></color> del ratón.",
+
+        "Tutorial.Intro.ScalingTitle" : "Redimensionar",
+        "Tutorial.Intro.ScalingVR" : "Para <color=#ffdd77><b>Redimensionar</b></color> un objeto, agárrelo con ambas manos y muévalas <color=#77ddff><b>acercándolas o alejándolas</b></color> entre sí - esto también puede realizarse con el láser.",
+        "Tutorial.Intro.ScalingScreen" : "Para <color=#ffdd77><b>Redimensionar</b></color> un objeto, agárrelo con el <color=#77ff77><b>Botón Derecho</b></color> del ratón y <color=#77ddff><b>Gire</b></color> la <color=#77ff77><b>Rueda</b></color> del ratón.",
+
+        "Tutorial.Intro.ContextMenuTitle" : "Menú Contextual",
+        "Tutorial.Intro.ContextMenuDescription" : "Su <color=#ffdd77><b>Menú Contextual</b></color> ofrece acciones rápidas.<br>Ábralo o ciérrelo usando <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "Botón B",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "Botón B o Y",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "Botón de Menú",
+        "Tutorial.Intro.ContextMenu_Screen" : "Tecla R",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Destruir y Duplicar",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Mientras agarra un objeto, <b><color=#ffdd77>Destrúyalo o Duplíquelo</color></b><color=#77ff77><b>Presionando</b></color> la acción en el Menú Contextual.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Mientras agarra un objeto, <b><color=#ffdd77>Destrúyalo</color></b> presionando <color=#77ff77><b>Suprimir</b></color>. <color=#ffdd77><b>Duplíquelo</b></color> presionando <color=#77ff77><b>Tecla F</b></color>.",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "Redimensionarse",
+        "Tutorial.Intro.ScalingYourselfVR" : "Para <color=#ffdd77><b>Cambiar su Tamaño</b></color>, habilite el redimensionado en su menú contextual, y luego mantenga ambos <color=#77ff77><b>Botones de Agarre</b></color> y mueva sus manos <color=#77ddff><b>acercándolas o alejándolas</b></color> entre sí.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Para <color=#ffdd77><b>Cambiar su Tamaño</b></color>, mantenga presionado <color=#77ff77><b>Control</b></color> mientras <color=#77ddff><b>gira</b></color> la <color=#77ff77><b>Rueda</b></color> del ratón.",
+
+        "Tutorial.Intro.LocomotionTitle" : "Locomoción",
+        "Tutorial.Intro.LocomotionDescription" : "Neos contiene múltiples métodos de movimiento diferentes.<br>Éstas opciones de movimiento están disponibles en su <color=#ffdd77>Menú Contextual</color>.",
+
+        "Tutorial.Intro.DashboardTitle" : "Tablero de Neos",
+        "Tutorial.Intro.DashboardDescription" : "El <color=#ffdd77><b>Tablero</b></color> es su menú principal.<br>Puede abrirlo y cerrarlo presionando <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "El <color=#ffdd77><b>Tablero</b></color> es su menú principal.<br>Puede abrirlo y cerrarlo manteniendo presionado <color=#77ff77><b>{button}</b></color> hasta que el círculo esté completo, luego <color=#77ddff><b>libere</b></color> el botón.",
+        "Tutorial.Intro.Dashboard_ButtonA" : "Botón A",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "Botón A o X",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "Botón de Menú",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Control + Barra espaciadora",
+
+        "Tutorial.Intro.InventoryVR" : "Su <color=#ffdd77><b>Inventario</b></color> se encuentra en el Tablero.<br>Para hacer <color=#77ddff><b>Aparecer</b></color> un objeto, haga <color=#77ff77><b>Doble Click</b></color> sobre el ítem de su inventario.<br>Para <color=#77ddff><b>Guardar</b></color> un objeto, <color=#77ddff><b>agárrelo</b></color> y presione <sprite name=inv-add> en la esquina superior derecha.",
+        "Tutorial.Intro.InventoryScreen" : "Su <color=#ffdd77><b>Inventario</b></color> se encuentra en el Tablero.<br>Para hacer <color=#77ddff><b>Aparecer</b></color> un objeto, haga <color=#77ff77><b>Doble Click</b></color> sobre el ítem de su inventario.<br>Para <color=#77ddff><b>Guardar</b></color> un objeto, <color=#77ddff><b>agárrelo</b></color> y presione <color=#77ff77><b>Control + S</b></color>.",
+
+        "Tutorial.Intro.HomeScreenTitle" : "Pantalla de Inicio",
+        "Tutorial.Intro.HomeScreenDescription" : "Su <color=#ffdd77><b>Pantalla de Inicio</b></color> contiene Facetas con muchas funciones.<br>Incluidas están el Creador de Avatares, Calibrador de Rastreadores, Cámara / Transmisión, y Crear Nuevo Mundo.",
+        "Tutorial.Intro.ContactsDescription" : "Sus <color=#ffdd77><b>Contactos</b></color> están ubicados en el Tablero.<br>Envíe mensajes, mensajes de voz o objetos a sus contactos usando la caja de chat en la esquina inferior derecha.<br>Agregue contactos mediante la barra de búsqueda, situada en la esquina superior izquierda.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Importe</b></color> archivos, modelos 3D, imágenes, audio, videos, o fuentes directo desde Neos!<br>Ya sea <color=#77ddff><b>arrastrando y soltando</b></color> archivos en la ventana de Neos, o buscándolos en el <color=#ffdd77><b>Explorador</b></color>.",
+        "Tutorial.Intro.SessionTitle" : "Opciones de Sesión",
+        "Tutorial.Intro.SessionDescription" : "Las opciones de la sesión, niveles de permisos, y configuraciones respecto a otros usuarios en el mundo pueden ser encontradas en el panel de <color=#ffdd77><b>Sesión</b></color>.",
+        "Tutorial.Intro.SettingsDescription" : "La altura, volumen, configuraciones de confort, elección de idioma y más son configuradas en la pestaña de <color=#ffdd77><b>Ajustes</b></color>.",
+        "Tutorial.Intro.WorldsTitle" : "Menú de Mundos",
+        "Tutorial.Intro.WorldsDescription" : "Explore el metaverso usando el menú de <color=#ffdd77><b>Mundos</b></color>.<br>Cuando finalize el tutorial, únase a una sesión activa para conocer la comunidad!",
+
+        "Tutorial.Intro.OutroTop" : "Si desea, hay disponibles más tutoriales en éste mundo.<br><br>Buena suerte y disfrute el metaverso!",
+        "Tutorial.Intro.Website" : "Sitio Web",
+        "Tutorial.Intro.OutroEnd" : "Para apoyar el proyecto, únase a nuestro Patreon.<br><br>Únase al servidor de Discord para ver actualizaciones, hacer contactos, u obtener soporte técnico.",
+
+        "Tutorial.MTC.Avatars" : "Avatares",
+        "Tutorial.MTC.Creation" : "Creación",
+        "Tutorial.MTC.RecordingStreaming" : "Grabar y<br>Transmitir",
+
         "Tutorial.Grab.MoveRotate" : "Mover/Rotar objetos sujetados",
-        "Tutorial.Grab.Scale" : "Agarrar con el otro mando para redimensionar",
-        "Tutorial.Grab.PullToEquip" : "Tirar hacia usted para equipar",
-        "Tutorial.Grab.UseHeld" : "Usar acción primaria (no requiere equipar)",
-        "Tutorial.Grab.ContextEquip" : "Usar Menú Contextual para Equipar o Ver Opciones",
-        "Tutorial.Grab.EquipForFullUse" : "Equipar para tener funcionalidad completa",
+        "Tutorial.Grab.Scale" : "Agarre con el otro mando para redimensionar",
+        "Tutorial.Grab.PullToEquip" : "Tire hacia usted para equipar",
+        "Tutorial.Grab.UseHeld" : "Use la acción primaria (no requiere equipar)",
+        "Tutorial.Grab.ContextEquip" : "Use el Menú Contextual para Equipar o Ver Opciones",
+        "Tutorial.Grab.EquipForFullUse" : "Equipe para disponer de la funcionalidad completa",
 
         "Tutorial.WorldOrb.Click" : "Click en el Orbe de Mundo",
         "Tutorial.WorldOrb.Info" : "<b>Orbe de Mundo</b>\n<size=80%>Representa un mundo o sesión\nDoble Click - Entrar\nClick simple - Menú Contextual",
@@ -1040,17 +1184,6 @@
         "Exiting.SavingChanges" : "Guardando Cambios...",
         "Exiting.Exiting" : "Saliendo...",
         "Exiting.LoggingOut" : "Cerrando sesión...",
-        
-        "Temporary.MMC.Voting UI": "Interfaz de Votación del MMC",
-        "Temporary.MMC.Vote": "Votar",
-        "Temporary.MMC.Categories.Name": "Categorías",
-        "Temporary.MMC.Categories.Worlds": "Mundos",
-        "Temporary.MMC.Categories.Other": "Gadgets/Herramientas+",
-        "Temporary.MMC.Categories.Avatars": "Avatares",
-        "Temporary.MMC.VoteSuccess": "Ha votado en la categoría {category} a favor de {voteTarget}.",
-        "Temporary.MMC.VoteFailure": "Voto fallido, su voto no ha sido registrado. Por favor intente nuevamente.",
-        "Temporary.MMC.VotedAlready": "Ya ha votado en la categoría {category} previamente.",
-        "Temporary.MMC.VoteInvalid": "El voto es inválido, intente nuevamente.",
 
         "Dummy" : "Dummy"
     }
