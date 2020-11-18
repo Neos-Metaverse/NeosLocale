@@ -1,6 +1,9 @@
 # Missing Keys per locale
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
+# Czech [cs]
+Inspector.Texture.Variant  
+
 # German [de]
 Inspector.Texture.Variant  
 Inspector.DynamicBoneChain.SetupFromChildren  
@@ -11,52 +14,6 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.CollidersGrabbingHeader  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
-Tutorial.Intro.WelcomeTitle  
-Tutorial.Intro.WelcomeDescription  
-Tutorial.Intro.GrabbingTitle  
-Tutorial.Intro.GrabbingVR  
-Tutorial.Intro.GrabbingScreen  
-Tutorial.Intro.ScalingTitle  
-Tutorial.Intro.ScalingVR  
-Tutorial.Intro.ScalingScreen  
-Tutorial.Intro.ContextMenuTitle  
-Tutorial.Intro.ContextMenuDescription  
-Tutorial.Intro.ContextMenu_ButtonB  
-Tutorial.Intro.ContextMenu_ButtonBY  
-Tutorial.Intro.ContextMenu_ButtonMenu  
-Tutorial.Intro.ContextMenu_Screen  
-Tutorial.Intro.DestroyingDuplicatingTitle  
-Tutorial.Intro.DestroyingDuplicatingVR  
-Tutorial.Intro.DestroyingDuplicatingScreen  
-Tutorial.Intro.ScalingYourselfTitle  
-Tutorial.Intro.ScalingYourselfVR  
-Tutorial.Intro.ScalingYourselfScreen  
-Tutorial.Intro.LocomotionTitle  
-Tutorial.Intro.LocomotionDescription  
-Tutorial.Intro.DashboardTitle  
-Tutorial.Intro.DashboardDescription  
-Tutorial.Intro.DashboardDescriptionCircle  
-Tutorial.Intro.Dashboard_ButtonA  
-Tutorial.Intro.Dashboard_ButtonAX  
-Tutorial.Intro.Dashboard_ButtonMenu  
-Tutorial.Intro.Dashboard_ButtonScreen  
-Tutorial.Intro.InventoryVR  
-Tutorial.Intro.InventoryScreen  
-Tutorial.Intro.HomeScreenTitle  
-Tutorial.Intro.HomeScreenDescription  
-Tutorial.Intro.ContactsDescription  
-Tutorial.Intro.FilesDescription  
-Tutorial.Intro.SessionTitle  
-Tutorial.Intro.SessionDescription  
-Tutorial.Intro.SettingsDescription  
-Tutorial.Intro.WorldsTitle  
-Tutorial.Intro.WorldsDescription  
-Tutorial.Intro.OutroTop  
-Tutorial.Intro.Website  
-Tutorial.Intro.OutroEnd  
-Tutorial.MTC.Avatars  
-Tutorial.MTC.Creation  
-Tutorial.MTC.RecordingStreaming  
 
 # English (United Kingdom) [en-gb]
 General.OK  
@@ -1085,130 +1042,7 @@ Exiting.LoggingOut
 Inspector.Texture.Variant  
 
 # Spanish [es]
-General.Save  
-General.Saving  
-Interaction.SaveAsScreenshot  
-Interaction.ImportFile  
-Interaction.ExportFile  
-World.Edit.Title  
-World.Edit.Name  
-World.Edit.Description  
-World.Edit.Tags  
-World.Edit.Path  
-World.Edit.AccessLevelHeader  
-World.Edit.AccessPrivate  
-World.Edit.AccessPatreon  
-World.Edit.AccessPublic  
-Contacts.RecordingVoiceMessage  
-Contacts.InHiddenFriendsOnly  
-Notifications.VoiceMessage  
-Importer.General.AsRawFile  
-Settings.MaxConcurrentAssetTransfers  
-Settings.Audio.SelectInputDevice  
-Settings.Audio.TestInput  
-Settings.Audio.TestDescription  
-Settings.Audio.StartTest  
-Settings.Audio.StopTest  
-Settings.Audio.Monitoring  
-Settings.Locale.ChangeLanguage  
-Settings.Locale.SelectLanguageHeader  
 Inspector.Texture.Variant  
-Inspector.Audio.BakeAudio  
-Wizard.General.ProcessRoot  
-Wizard.General.Result  
-Wizard.General.ErrorNoRoot  
-Wizard.General.RemovedResult  
-Wizard.AssetOptimization.Title  
-Wizard.AssetOptimization.CleanupUnusedAssets  
-Wizard.AssetOptimization.CleanupEmptySlots  
-Wizard.AssetOptimization.CleanupDisabledMeshRenderers  
-Wizard.AssetOptimization.DeduplicateMaterials  
-Wizard.AssetOptimization.CleanupFileItems  
-Wizard.AssetOptimization.MaxTextureResolution  
-Wizard.AssetOptimization.RecompressTextures  
-Wizard.AssetOptimization.RecalculateAllNormals  
-Wizard.AssetOptimization.RecalculateAllNormalsMerged  
-Wizard.AssetOptimization.RecalculateAllTangents  
-Wizard.AssetOptimization.ResizedResult  
-Tutorial.Welcome.WelcomeTo  
-Tutorial.Welcome.LetsStart  
-Tutorial.Welcome.ScreenWarning  
-Tutorial.Welcome.ScreenUnderstand  
-Tutorial.Welcome.AccountHeader  
-Tutorial.Welcome.AccountDescription  
-Tutorial.Welcome.AccountCreate  
-Tutorial.Welcome.AccountLogin  
-Tutorial.Welcome.AccountSkip  
-Tutorial.Welcome.AccountSkipHeader  
-Tutorial.Welcome.AccountSkipDescription  
-Tutorial.Welcome.AccountSkipConfirm  
-Tutorial.Welcome.SettingsHeader  
-Tutorial.Welcome.SettingsDescription  
-Tutorial.Welcome.SettingsTurning  
-Tutorial.Welcome.SettingsSnapTurn  
-Tutorial.Welcome.SettingsSnapTurnDescription  
-Tutorial.Welcome.SettingsSmoothTurn  
-Tutorial.Welcome.SettingsSmoothTurnDescription  
-Tutorial.Welcome.SettingsPrimaryController  
-Tutorial.Welcome.SettingsPrimaryLeft  
-Tutorial.Welcome.SettingsPrimaryLeftDescription  
-Tutorial.Welcome.SettingsPrimaryRight  
-Tutorial.Welcome.SettingsPrimaryRightDescription  
-Tutorial.Welcome.SettingsHeight  
-Tutorial.Welcome.SettingsHeightExamples  
-Tutorial.Welcome.StartTutorialHeader  
-Tutorial.Welcome.StartTutorialDescription  
-Tutorial.Welcome.StartTutorialPublic  
-Tutorial.Welcome.StartTutorialPrivate  
-Tutorial.Welcome.PrivateTutorialHeader  
-Tutorial.Welcome.PrivateTutorialDescription  
-Tutorial.Welcome.PrivateTutorialConfirm  
-Tutorial.Intro.WelcomeTitle  
-Tutorial.Intro.WelcomeDescription  
-Tutorial.Intro.GrabbingTitle  
-Tutorial.Intro.GrabbingVR  
-Tutorial.Intro.GrabbingScreen  
-Tutorial.Intro.ScalingTitle  
-Tutorial.Intro.ScalingVR  
-Tutorial.Intro.ScalingScreen  
-Tutorial.Intro.ContextMenuTitle  
-Tutorial.Intro.ContextMenuDescription  
-Tutorial.Intro.ContextMenu_ButtonB  
-Tutorial.Intro.ContextMenu_ButtonBY  
-Tutorial.Intro.ContextMenu_ButtonMenu  
-Tutorial.Intro.ContextMenu_Screen  
-Tutorial.Intro.DestroyingDuplicatingTitle  
-Tutorial.Intro.DestroyingDuplicatingVR  
-Tutorial.Intro.DestroyingDuplicatingScreen  
-Tutorial.Intro.ScalingYourselfTitle  
-Tutorial.Intro.ScalingYourselfVR  
-Tutorial.Intro.ScalingYourselfScreen  
-Tutorial.Intro.LocomotionTitle  
-Tutorial.Intro.LocomotionDescription  
-Tutorial.Intro.DashboardTitle  
-Tutorial.Intro.DashboardDescription  
-Tutorial.Intro.DashboardDescriptionCircle  
-Tutorial.Intro.Dashboard_ButtonA  
-Tutorial.Intro.Dashboard_ButtonAX  
-Tutorial.Intro.Dashboard_ButtonMenu  
-Tutorial.Intro.Dashboard_ButtonScreen  
-Tutorial.Intro.InventoryVR  
-Tutorial.Intro.InventoryScreen  
-Tutorial.Intro.HomeScreenTitle  
-Tutorial.Intro.HomeScreenDescription  
-Tutorial.Intro.ContactsDescription  
-Tutorial.Intro.FilesDescription  
-Tutorial.Intro.SessionTitle  
-Tutorial.Intro.SessionDescription  
-Tutorial.Intro.SettingsDescription  
-Tutorial.Intro.WorldsTitle  
-Tutorial.Intro.WorldsDescription  
-Tutorial.Intro.OutroTop  
-Tutorial.Intro.Website  
-Tutorial.Intro.OutroEnd  
-Tutorial.MTC.Avatars  
-Tutorial.MTC.Creation  
-Tutorial.MTC.RecordingStreaming  
 
 # Estonian [et]
 General.Save  
@@ -2938,6 +2772,9 @@ Tutorial.Tooltip.WigglerSecondary
 Exiting.SavingItems  
 
 # Japanese [ja]
+Inspector.Texture.Variant  
+
+# Korean [ko]
 Inspector.Texture.Variant  
 
 # Dutch [nl]
