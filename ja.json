@@ -968,7 +968,7 @@
 
         "Inspector.Texture.Size" : "サイズ: {width} x {height}",
         "Inspector.Texture.Format" : "フォーマット: {format}, メモリー: <nobr>{memory}</nobr>",
-        "Inspector.Texture.Variant" : "バリエントID: {variant}",
+        "Inspector.Texture.Variant" : "バリアントID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "RGBを反転",
         "Inspector.Texture.InvertR" : "Rを反転",
