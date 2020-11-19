@@ -5,7 +5,6 @@ Note that this file updates only during Neos build process and doesn't necessari
 Inspector.Texture.Variant  
 
 # German [de]
-Inspector.Texture.Variant  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -1037,9 +1036,6 @@ Exiting.SavingItems
 Exiting.SavingChanges  
 Exiting.Exiting  
 Exiting.LoggingOut  
-
-# Esperanto [eo]
-Inspector.Texture.Variant  
 
 # Spanish [es]
 Inspector.Texture.Variant  
@@ -2771,9 +2767,6 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
-# Japanese [ja]
-Inspector.Texture.Variant  
-
 # Korean [ko]
 Inspector.Texture.Variant  
 
@@ -3122,9 +3115,6 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
-
-# Russian [ru]
-Inspector.Texture.Variant  
 
 # Swedish [sv]
 General.Save  
@@ -4193,10 +4183,4 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
-
-# Chinese (China) [zh-cn]
-Inspector.Texture.Variant  
-
-# Chinese (Taiwan) [zh-tw]
-Inspector.Texture.Variant  
 
