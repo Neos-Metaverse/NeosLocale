@@ -967,7 +967,8 @@
         "Inspector.BipedRig.RightHandRigResult" : "做完了！ 检测到右手: {detected}",
 
         "Inspector.Texture.Size" : "尺寸: {width} x {height}",
-        "Inspector.Texture.Format" : "格式: {format}, 记忆: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Format" : "格式: {format}, 存储器: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "变体ID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "倒置 RGB",
         "Inspector.Texture.InvertR" : "倒置 R",
