@@ -968,6 +968,7 @@
 
         "Inspector.Texture.Size" : "Размер: {width} x {height}",
         "Inspector.Texture.Format" : "Формат: {format}, Память: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "VariantID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Инвертировать RGB",
         "Inspector.Texture.InvertR" : "Инвертировать R",
@@ -1125,7 +1126,7 @@
         "Tutorial.Intro.InventoryScreen" : "Ваш <color=#ffdd77><b>инвентарь</b></color> находится в вашем Dashboard.<br>Чтобы <color=#77ddff><b>вызвать</b></color> объект, <color=#77ff77><b>щелкните дважды</b></color> по нему в инвентаре.<br>Чтобы <color=#77ddff><b>сохранить</b></color> объект, держите его и нажмите <color=#77ff77><b>Ctrl + S</b></color>.",
 
         "Tutorial.Intro.HomeScreenTitle" : "Ваш домашний экран",
-        "Tutorial.Intro.HomeScreenDescription" : "Ваш <color=#ffdd77><b>домашний экран</b></color> содержит фасеты (facets) с разными функциями.<br>Они включают Создатель Аватаров, Калибровщик Full body, Камеру/Трансляцию, и Создание Нового Мира.",
+        "Tutorial.Intro.HomeScreenDescription" : "Ваш <color=#ffdd77><b>Домашний экран</b></color> содержит фасетки (facets) с разными функциями.<br>Они включают Создатель Аватаров, Калибровщик Full body, Камеру/Трансляцию, и Создание Нового Мира.",
         "Tutorial.Intro.ContactsDescription" : "Ваши <color=#ffdd77><b>Контакты</b></color> расположены на Dashboard.<br>Отправляйте текстовые и голосовые сообщения или объекты контактам используя поле ввода справа внизу.<br>Добавляйте контакты с помощью строки поиска, расположенной в левом верхнем углу.",
         "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Импортируйте</b></color> файлы, 3D модели, картинки, аудио, видео, или шрифты прямо в Neos!<br><color=#77ddff><b>Перетащите</b></color> файлы на окно Neos, или найдите их в <color=#ffdd77><b>Браузере файлов</b></color>.",
         "Tutorial.Intro.SessionTitle" : "Настройки сессии",
@@ -1138,9 +1139,9 @@
         "Tutorial.Intro.Website" : "Вебсайт",
         "Tutorial.Intro.OutroEnd" : "Чтобы поддержать наш проект, присоединитесь к нашему Patreon.<br><br>Зайдите в Discord чтобы видеть свежие обновления, общаться и обращаться за помощью.",
 
-        "Tutorial.MTC.Avatars" : "Аватары",
-        "Tutorial.MTC.Creation" : "Творчество",
-        "Tutorial.MTC.RecordingStreaming" : "Запись и<br>Трансляция",
+        "Tutorial.MTC.Avatars" : "Аватары и Общение",
+        "Tutorial.MTC.Creation" : "Творчество и Утилиты",
+        "Tutorial.MTC.RecordingStreaming" : "Запись и Трансляция",
 
         "Tutorial.Grab.MoveRotate" : "Двигайте/Поворачивайте удерживаемые предметы",
         "Tutorial.Grab.Scale" : "Схватите другим контроллером для масштабирования",
@@ -1150,7 +1151,7 @@
         "Tutorial.Grab.EquipForFullUse" : "Наденьте для использования полного функционала",
 
         "Tutorial.WorldOrb.Click" : "Нажмите на мировую сферу",
-        "Tutorial.WorldOrb.Info" : "<b>Мировая Сфера</b>\n<size=80%>Представляет мир или сессию\nДвойное нажатие - войти\nОдиночное нажатие - контекстное меню",
+        "Tutorial.WorldOrb.Info" : "<b>Мировая Сфера</b>\n<size=80%>Представляет мир или сессию</size>\nДвойное нажатие - войти\nОдиночное нажатие - контекстное меню",
 
         "Tutorial.Tooltip.GeneralPrimary" : "Использовать",
         "Tutorial.Tooltip.GeneralSecondary" : "Вторичное действие",
