@@ -1075,7 +1075,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "Right",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Left:</b> Strafe, <b>Right:</b> Turn",
         "Tutorial.Welcome.SettingsHeight" : "Your height",
-        "Tutorial.Welcome.SettingsHeightExamples" : "Examples: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Examples: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader" : "Begin Tutorial",
         "Tutorial.Welcome.StartTutorialDescription" : "We'll transfer you to a basic tutorial world to help you get started with Neos. You can choose to have the tutorial world public, allowing Neos community to join and help you, or learn on your own.",
@@ -1131,7 +1131,7 @@
         "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Import</b></color> files, 3D models, images, audio, videos, or fonts directly into Neos!<br>Either <color=#77ddff><b>drag and drop</b></color> files onto the Neos window, or find them using the <color=#ffdd77><b>File Browser</b></color>.",
         "Tutorial.Intro.SessionTitle" : "Session Settings",
         "Tutorial.Intro.SessionDescription" : "Session settings, permission levels, and settings dealing with other users in the world can be found in the <color=#ffdd77><b>Session</b></color> panel.",
-        "Tutorial.Intro.SettingsDescription" : "Height, volume, comfort settings, langauge choice, and more are adjusted in the <color=#ffdd77><b>Settings</b></color> tab.",
+        "Tutorial.Intro.SettingsDescription" : "Height, volume, comfort settings, language choice, and more are adjusted in the <color=#ffdd77><b>Settings</b></color> tab.",
         "Tutorial.Intro.WorldsTitle" : "Worlds Menu",
         "Tutorial.Intro.WorldsDescription" : "Explore the metaverse using the <color=#ffdd77><b>Worlds</b></color> menu.<br>When you're done here, join an active session to meet the community!",
 

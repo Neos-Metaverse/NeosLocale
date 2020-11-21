@@ -1075,7 +1075,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "右",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Left:</b> 平行移動, <b>Right:</b> ターン",
         "Tutorial.Welcome.SettingsHeight" : "身長",
-        "Tutorial.Welcome.SettingsHeightExamples" : "例: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+        "Tutorial.Welcome.SettingsHeightExamples" : "例: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader" : "チュートリアル開始",
         "Tutorial.Welcome.StartTutorialDescription" : "Neosを始めるのに役立つチュートリアルのワールドに移動します。 チュートリアルのワールドを公開して、他の人が参加して支援したり、自分で学習したりできるようにすることができます",
