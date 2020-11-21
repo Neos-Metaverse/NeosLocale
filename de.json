@@ -968,6 +968,7 @@
 
         "Inspector.Texture.Size" : "Maße: {width} x {height}",
         "Inspector.Texture.Format" : "Format: {format}, Speicher: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "Variante: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Invertiere RGB",
         "Inspector.Texture.InvertR" : "Invertiere R",
@@ -1065,7 +1066,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "Rechts",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Links:</b> Seitlich bewegen, <b>Rechts:</b> Drehen",
         "Tutorial.Welcome.SettingsHeight" : "Ihre Größe",
-        "Tutorial.Welcome.SettingsHeightExamples" : "Beispiel: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Beispiel: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader" : "Tutorial beginnen",
         "Tutorial.Welcome.StartTutorialDescription" : "Wir senden Sie in eine Tutorial-Welt, die Ihnen helfen wird, in Neos zurechtzukommen. Sie können wählen, ob diese Welt öffentlich sein soll, so dass andere Community-Mitglieder Ihnen beitreten und helfen können; oder privat, um alleine zu lernen.",

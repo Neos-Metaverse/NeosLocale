@@ -967,7 +967,8 @@
         "Inspector.BipedRig.RightHandRigResult" : "做完了！ 檢測到右手: {detected}",
 
         "Inspector.Texture.Size" : "尺寸: {width} x {height}",
-        "Inspector.Texture.Format" : "格式: {format}, 記憶: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Format" : "格式: {format}, 存儲器: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "變體ID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "倒置 RGB",
         "Inspector.Texture.InvertR" : "倒置 R",
@@ -1074,7 +1075,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "右",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>左:</b> 側身走, <b>右:</b> 轉彎",
         "Tutorial.Welcome.SettingsHeight" : "你的身高",
-        "Tutorial.Welcome.SettingsHeightExamples" : "例子: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+        "Tutorial.Welcome.SettingsHeightExamples" : "例子: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
         
         "Tutorial.Welcome.StartTutorialHeader" : "開始教程",
         "Tutorial.Welcome.StartTutorialDescription" : "我們將帶您進入基礎教程世界，以幫助您開始使用Neos。 您可以選擇公開教程世界，讓Neos社區加入並為您提供幫助或自己學習。",

@@ -1074,7 +1074,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "Derecho",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Izquierdo:</b> Desplazarse, <b>Derecho:</b> Girar",
         "Tutorial.Welcome.SettingsHeight" : "Tu altura",
-        "Tutorial.Welcome.SettingsHeightExamples" : "Ejemplos: 1.85 m, 185 cm, 6\" 1', 6 pies 1 pulgada",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Ejemplos: 1.85 m, 185 cm, 6' 1\", 6 pies 1 pulgada",
 
         "Tutorial.Welcome.StartTutorialHeader" : "Iniciar Tutorial",
         "Tutorial.Welcome.StartTutorialDescription" : "Lo transferiremos a un mundo tutorial para enseñarle lo básico para comenzar en Neos. Puede elegir tener el mundo tutorial en modo público, permitiendo a la comunidad de Neos unírsele y ayudarle o puede aprender por su cuenta.",

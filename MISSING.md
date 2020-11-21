@@ -2,10 +2,25 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Czech [cs]
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
 Inspector.Texture.Variant  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 
 # German [de]
-Inspector.Texture.Variant  
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -14,6 +29,16 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.CollidersGrabbingHeader  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 
 # English (United Kingdom) [en-gb]
 General.OK  
@@ -33,6 +58,8 @@ General.Saved
 General.Done  
 General.CopiedToClipboard  
 General.CopiedToClipboardLong  
+General.Create  
+General.Creating  
 General.UI.SearchPrompt  
 General.UI.SearchPromptLong  
 General.Sort.Ascending  
@@ -447,6 +474,7 @@ CreateNew.Editor.UserInspector
 CreateNew.Editor.LightSourcesWizard  
 CreateNew.Editor.AssetOptimizationWizard  
 CreateNew.Editor.LogixTransferWizard  
+CreateNew.Editor.CubemapCreator  
 CreateNew.3DModel  
 CreateNew.3DModel.Box  
 CreateNew.3DModel.Sphere  
@@ -919,6 +947,16 @@ Wizard.AssetOptimization.RecalculateAllNormals
 Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 Tutorial.Welcome.WelcomeTo  
 Tutorial.Welcome.LetsStart  
 Tutorial.Welcome.ScreenWarning  
@@ -1039,14 +1077,41 @@ Exiting.Exiting
 Exiting.LoggingOut  
 
 # Esperanto [eo]
-Inspector.Texture.Variant  
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 
 # Spanish [es]
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
 Inspector.Texture.Variant  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 
 # Estonian [et]
 General.Save  
 General.Saving  
+General.Create  
+General.Creating  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  
@@ -1077,6 +1142,7 @@ Tooltip.Microphone.ModeHold
 Tooltip.Microphone.ModePress  
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
+CreateNew.Editor.CubemapCreator  
 Importer.General.AsRawFile  
 Settings.MaxConcurrentAssetTransfers  
 Settings.Audio.SelectInputDevice  
@@ -1130,6 +1196,16 @@ Wizard.AssetOptimization.RecalculateAllNormals
 Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 Tutorial.Welcome.WelcomeTo  
 Tutorial.Welcome.LetsStart  
 Tutorial.Welcome.ScreenWarning  
@@ -1248,6 +1324,8 @@ Tutorial.Tooltip.WigglerSecondary
 # Finnish [fi]
 General.Save  
 General.Saving  
+General.Create  
+General.Creating  
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
@@ -1343,6 +1421,7 @@ CreateNew.Editor.UserInspector
 CreateNew.Editor.LightSourcesWizard  
 CreateNew.Editor.AssetOptimizationWizard  
 CreateNew.Editor.LogixTransferWizard  
+CreateNew.Editor.CubemapCreator  
 CreateNew.3DModel  
 CreateNew.3DModel.Box  
 CreateNew.3DModel.Sphere  
@@ -1761,6 +1840,16 @@ Wizard.AssetOptimization.RecalculateAllNormals
 Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 Tutorial.Welcome.WelcomeTo  
 Tutorial.Welcome.LetsStart  
 Tutorial.Welcome.ScreenWarning  
@@ -1883,6 +1972,8 @@ Exiting.LoggingOut
 # French [fr]
 General.Save  
 General.Saving  
+General.Create  
+General.Creating  
 Interaction.ResetScale  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
@@ -1915,6 +2006,7 @@ Tooltip.Microphone.ModeHold
 Tooltip.Microphone.ModePress  
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
+CreateNew.Editor.CubemapCreator  
 Importer.General.AsRawFile  
 Settings.MaxConcurrentAssetTransfers  
 Settings.Audio.SelectInputDevice  
@@ -1968,6 +2060,16 @@ Wizard.AssetOptimization.RecalculateAllNormals
 Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 Tutorial.Welcome.WelcomeTo  
 Tutorial.Welcome.LetsStart  
 Tutorial.Welcome.ScreenWarning  
@@ -2088,6 +2190,8 @@ General.Processing
 General.Save  
 General.Saving  
 General.Done  
+General.Create  
+General.Creating  
 Locomotion.GrabWorld.Name  
 Locomotion.GrabWorld.Description  
 Locomotion.Slide.Name  
@@ -2204,6 +2308,7 @@ CreateNew.Editor.UserInspector
 CreateNew.Editor.LightSourcesWizard  
 CreateNew.Editor.AssetOptimizationWizard  
 CreateNew.Editor.LogixTransferWizard  
+CreateNew.Editor.CubemapCreator  
 CreateNew.3DModel  
 CreateNew.3DModel.Box  
 CreateNew.3DModel.Sphere  
@@ -2655,6 +2760,16 @@ Wizard.AssetOptimization.RecalculateAllNormals
 Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 Tutorial.Welcome.WelcomeTo  
 Tutorial.Welcome.LetsStart  
 Tutorial.Welcome.ScreenWarning  
@@ -2772,14 +2887,39 @@ Tutorial.Tooltip.WigglerSecondary
 Exiting.SavingItems  
 
 # Japanese [ja]
-Inspector.Texture.Variant  
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 
 # Korean [ko]
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
 Inspector.Texture.Variant  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 
 # Dutch [nl]
+CreateNew.Editor.CubemapCreator  
 Settings.MaxConcurrentAssetTransfers  
-Inspector.Texture.Variant  
 Tutorial.Intro.WelcomeTitle  
 Tutorial.Intro.WelcomeDescription  
 Tutorial.Intro.GrabbingTitle  
@@ -2831,6 +2971,8 @@ Tutorial.MTC.RecordingStreaming
 General.Save  
 General.Saving  
 General.Done  
+General.Create  
+General.Creating  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  
@@ -2862,6 +3004,7 @@ Tooltip.Microphone.ModeHold
 Tooltip.Microphone.ModePress  
 Tooltip.Microphone.SourceRaw  
 Tooltip.Microphone.SourceFiltered  
+CreateNew.Editor.CubemapCreator  
 Importer.General.AsRawFile  
 Settings.MaxConcurrentAssetTransfers  
 Settings.Audio.SelectInputDevice  
@@ -2934,6 +3077,16 @@ Wizard.AssetOptimization.RecalculateAllNormals
 Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 Tutorial.Welcome.WelcomeTo  
 Tutorial.Welcome.LetsStart  
 Tutorial.Welcome.ScreenWarning  
@@ -3050,85 +3203,40 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
-General.Save  
-General.Saving  
-World.Edit.Title  
-World.Edit.Name  
-World.Edit.Description  
-World.Edit.Tags  
-World.Edit.Path  
-World.Edit.AccessLevelHeader  
-World.Edit.AccessPrivate  
-World.Edit.AccessPatreon  
-World.Edit.AccessPublic  
-Inspector.Texture.Variant  
-Tutorial.Welcome.SettingsHeader  
-Tutorial.Welcome.SettingsDescription  
-Tutorial.Welcome.SettingsTurning  
-Tutorial.Welcome.SettingsSnapTurn  
-Tutorial.Welcome.SettingsSnapTurnDescription  
-Tutorial.Welcome.SettingsSmoothTurn  
-Tutorial.Welcome.SettingsSmoothTurnDescription  
-Tutorial.Welcome.SettingsPrimaryController  
-Tutorial.Welcome.SettingsPrimaryLeft  
-Tutorial.Welcome.SettingsPrimaryLeftDescription  
-Tutorial.Welcome.SettingsPrimaryRight  
-Tutorial.Welcome.SettingsPrimaryRightDescription  
-Tutorial.Welcome.SettingsHeight  
-Tutorial.Welcome.SettingsHeightExamples  
-Tutorial.Intro.WelcomeTitle  
-Tutorial.Intro.WelcomeDescription  
-Tutorial.Intro.GrabbingTitle  
-Tutorial.Intro.GrabbingVR  
-Tutorial.Intro.GrabbingScreen  
-Tutorial.Intro.ScalingTitle  
-Tutorial.Intro.ScalingVR  
-Tutorial.Intro.ScalingScreen  
-Tutorial.Intro.ContextMenuTitle  
-Tutorial.Intro.ContextMenuDescription  
-Tutorial.Intro.ContextMenu_ButtonB  
-Tutorial.Intro.ContextMenu_ButtonBY  
-Tutorial.Intro.ContextMenu_ButtonMenu  
-Tutorial.Intro.ContextMenu_Screen  
-Tutorial.Intro.DestroyingDuplicatingTitle  
-Tutorial.Intro.DestroyingDuplicatingVR  
-Tutorial.Intro.DestroyingDuplicatingScreen  
-Tutorial.Intro.ScalingYourselfTitle  
-Tutorial.Intro.ScalingYourselfVR  
-Tutorial.Intro.ScalingYourselfScreen  
-Tutorial.Intro.LocomotionTitle  
-Tutorial.Intro.LocomotionDescription  
-Tutorial.Intro.DashboardTitle  
-Tutorial.Intro.DashboardDescription  
-Tutorial.Intro.DashboardDescriptionCircle  
-Tutorial.Intro.Dashboard_ButtonA  
-Tutorial.Intro.Dashboard_ButtonAX  
-Tutorial.Intro.Dashboard_ButtonMenu  
-Tutorial.Intro.Dashboard_ButtonScreen  
-Tutorial.Intro.InventoryVR  
-Tutorial.Intro.InventoryScreen  
-Tutorial.Intro.HomeScreenTitle  
-Tutorial.Intro.HomeScreenDescription  
-Tutorial.Intro.ContactsDescription  
-Tutorial.Intro.FilesDescription  
-Tutorial.Intro.SessionTitle  
-Tutorial.Intro.SessionDescription  
-Tutorial.Intro.SettingsDescription  
-Tutorial.Intro.WorldsTitle  
-Tutorial.Intro.WorldsDescription  
-Tutorial.Intro.OutroTop  
-Tutorial.Intro.Website  
-Tutorial.Intro.OutroEnd  
-Tutorial.MTC.Avatars  
-Tutorial.MTC.Creation  
-Tutorial.MTC.RecordingStreaming  
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 
 # Russian [ru]
-Inspector.Texture.Variant  
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 
 # Swedish [sv]
 General.Save  
 General.Saving  
+General.Create  
+General.Creating  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  
@@ -3513,6 +3621,7 @@ CreateNew.Editor.UserInspector
 CreateNew.Editor.LightSourcesWizard  
 CreateNew.Editor.AssetOptimizationWizard  
 CreateNew.Editor.LogixTransferWizard  
+CreateNew.Editor.CubemapCreator  
 CreateNew.3DModel  
 CreateNew.3DModel.Box  
 CreateNew.3DModel.Sphere  
@@ -3999,6 +4108,16 @@ Wizard.AssetOptimization.RecalculateAllNormals
 Wizard.AssetOptimization.RecalculateAllNormalsMerged  
 Wizard.AssetOptimization.RecalculateAllTangents  
 Wizard.AssetOptimization.ResizedResult  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 Tutorial.Welcome.WelcomeTo  
 Tutorial.Welcome.LetsStart  
 Tutorial.Welcome.ScreenWarning  
@@ -4121,6 +4240,8 @@ Exiting.LoggingOut
 # Turkish [tr]
 General.Save  
 General.Saving  
+General.Create  
+General.Creating  
 World.Edit.Title  
 World.Edit.Name  
 World.Edit.Description  
@@ -4130,9 +4251,20 @@ World.Edit.AccessLevelHeader
 World.Edit.AccessPrivate  
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
+CreateNew.Editor.CubemapCreator  
 Settings.MaxConcurrentAssetTransfers  
 Inspector.Texture.Variant  
 Wizard.AssetOptimization.CleanupUnusedAssets  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 Tutorial.Welcome.SettingsHeader  
 Tutorial.Welcome.SettingsDescription  
 Tutorial.Welcome.SettingsTurning  
@@ -4195,8 +4327,32 @@ Tutorial.MTC.Creation
 Tutorial.MTC.RecordingStreaming  
 
 # Chinese (China) [zh-cn]
-Inspector.Texture.Variant  
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 
 # Chinese (Taiwan) [zh-tw]
-Inspector.Texture.Variant  
+General.Create  
+General.Creating  
+CreateNew.Editor.CubemapCreator  
+Wizard.CubemapCreator.Title  
+Wizard.CubemapCreator.Textures  
+Wizard.CubemapCreator.TexturesNote  
+Wizard.CubemapCreator.PosX  
+Wizard.CubemapCreator.NegX  
+Wizard.CubemapCreator.PosY  
+Wizard.CubemapCreator.NegY  
+Wizard.CubemapCreator.PosZ  
+Wizard.CubemapCreator.NegZ  
+Wizard.CubemapCreator.TopBottomRotation  
 

@@ -20,6 +20,8 @@
         "General.Done" : "Done!",
         "General.CopiedToClipboard" : "Copied!",
         "General.CopiedToClipboardLong" : "Copied to clipboard!",
+        "General.Create" : "Create",
+        "General.Creating" : "Creating...",
 
         "General.UI.SearchPrompt" : "Search...",
         "General.UI.SearchPromptLong" : "Type to search...",
@@ -262,7 +264,7 @@
         "World.Edit.AccessPublic" : "Anyone (public)",
 
         "Tools.AvatarCreator" : "Avatar Creator",
-        "Tools.FullBodyCalibrator" : "Full Body Calibrator",
+        "Tools.FullBodyCalibrator" : "Full Body / Avatar Calibrator",
         "Tools.CameraStreaming" : "Camera / Streaming",
         "Tools.CreateNewWorld" : "Create New World",
         "Tools.DepositNCR" : "Deposit NCR",
@@ -497,6 +499,7 @@
         "CreateNew.Editor.LightSourcesWizard" : "World Light Sources Wizard",
         "CreateNew.Editor.AssetOptimizationWizard" : "Asset Optimization Wizard",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX Transfer Wizard",
+        "CreateNew.Editor.CubemapCreator" : "Cubemap Creator",
 
         "CreateNew.3DModel" : "3D Model",
         "CreateNew.3DModel.Box" : "Box",
@@ -668,7 +671,7 @@
         "NewWorld.AutoPort" : "Auto:",
         "NewWorld.DefaultName" : "{name} World",
 
-        "FullBody.Title" : "Full Body Calibration",
+        "FullBody.Title" : "Full Body / Avatar Calibration",
         "FullBody.SetHeight" : "1) Set your height",
         "FullBody.HeightInstructions" : "Make sure this is your actual height, otherwise calibration won't work correctly. The mannequin should fit the headset and controllers.",
         "FullBody.HeightWarning" : "This seems incorrect. Make sure it's your actual height.",
@@ -1048,6 +1051,17 @@
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Recalculate All Tangents (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Resized {n}",
 
+        "Wizard.CubemapCreator.Title" : "Cubemap Creator",
+        "Wizard.CubemapCreator.Textures" : "Source Textures:",
+        "Wizard.CubemapCreator.TexturesNote" : "Note that some conventions have left and right swapped. If the resulting cubemap is incorrect, try swapping the left and right textures.",
+        "Wizard.CubemapCreator.PosX" : "Positive X (right)",
+        "Wizard.CubemapCreator.NegX" : "Negative X (left)",
+        "Wizard.CubemapCreator.PosY" : "Positive Y (top)",
+        "Wizard.CubemapCreator.NegY" : "Negative Y (bottom)",
+        "Wizard.CubemapCreator.PosZ" : "Positive Z (front)",
+        "Wizard.CubemapCreator.NegZ" : "Negative Z (back)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Top/Bottom Rotation:",
+
         "Tutorial.Welcome.WelcomeTo" : "Welcome to",
         "Tutorial.Welcome.LetsStart" : "Let's Start!",
         "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>WARNING:</b></color> You are currently playing in screen mode, which isn't currently officially supported and is primarily designed for debugging.<br><br>While it can be used to play, some things won't work and controls might be difficult to use.<br><br><b>Neos is currently meant to be played in VR.</b><br><br>A proper desktop mode is planned to be implemented in the future.",
@@ -1075,7 +1089,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "Right",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Left:</b> Strafe, <b>Right:</b> Turn",
         "Tutorial.Welcome.SettingsHeight" : "Your height",
-        "Tutorial.Welcome.SettingsHeightExamples" : "Examples: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Examples: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader" : "Begin Tutorial",
         "Tutorial.Welcome.StartTutorialDescription" : "We'll transfer you to a basic tutorial world to help you get started with Neos. You can choose to have the tutorial world public, allowing Neos community to join and help you, or learn on your own.",
@@ -1131,7 +1145,7 @@
         "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Import</b></color> files, 3D models, images, audio, videos, or fonts directly into Neos!<br>Either <color=#77ddff><b>drag and drop</b></color> files onto the Neos window, or find them using the <color=#ffdd77><b>File Browser</b></color>.",
         "Tutorial.Intro.SessionTitle" : "Session Settings",
         "Tutorial.Intro.SessionDescription" : "Session settings, permission levels, and settings dealing with other users in the world can be found in the <color=#ffdd77><b>Session</b></color> panel.",
-        "Tutorial.Intro.SettingsDescription" : "Height, volume, comfort settings, langauge choice, and more are adjusted in the <color=#ffdd77><b>Settings</b></color> tab.",
+        "Tutorial.Intro.SettingsDescription" : "Height, volume, comfort settings, language choice, and more are adjusted in the <color=#ffdd77><b>Settings</b></color> tab.",
         "Tutorial.Intro.WorldsTitle" : "Worlds Menu",
         "Tutorial.Intro.WorldsDescription" : "Explore the metaverse using the <color=#ffdd77><b>Worlds</b></color> menu.<br>When you're done here, join an active session to meet the community!",
 
