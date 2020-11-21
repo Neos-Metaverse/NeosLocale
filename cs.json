@@ -968,6 +968,7 @@
 
         "Inspector.Texture.Size" : "Rozlišení: {width} x {height}",
         "Inspector.Texture.Format" : "Formát: {format}, Využití VRAM: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "ID varianty: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Invertovat barvy",
         "Inspector.Texture.InvertR" : "Invertovat červený kanál",
@@ -1140,7 +1141,7 @@
 
         "Tutorial.MTC.Avatars" : "Avataři",
         "Tutorial.MTC.Creation" : "Tvorba",
-        "Tutorial.MTC.RecordingStreaming" : "Nahrávání<br>a streamování",
+        "Tutorial.MTC.RecordingStreaming" : "Nahrávání a streamování",
         
         "Tutorial.Grab.MoveRotate" : "Posouvat/Rotovat chycené objekty",
         "Tutorial.Grab.Scale" : "Chytněte druhou rukou pro škálování",
@@ -1184,17 +1185,6 @@
         "Exiting.SavingChanges" : "Ukládám změny...",
         "Exiting.Exiting" : "Ukončuji...",
         "Exiting.LoggingOut" : "Odhlašuji...",
-
-        "Temporary.MMC.Voting UI": "MMC Hlasovací rozhraní",
-        "Temporary.MMC.Vote": "Hlasovat",
-        "Temporary.MMC.Categories.Name": "Kategorie",
-        "Temporary.MMC.Categories.Worlds": "Světy",
-        "Temporary.MMC.Categories.Other": "Věcičky/Nástroje",
-        "Temporary.MMC.Categories.Avatars": "Avatary",
-        "Temporary.MMC.VoteSuccess": "Úspěšně jste hlasovali pro {voteTarget} v kategorii {category}.",
-        "Temporary.MMC.VoteFailure": "Hlasování selhalo, Váš hlas nebyl zaznamenán. Zkuste to prosím znova.",
-        "Temporary.MMC.VotedAlready": "Již jste v kategorii {category} hlasovali.",
-        "Temporary.MMC.VoteInvalid": "Špatný hlas, zkuste to znova.",
 
         "Dummy" : "Dummy"
     }
