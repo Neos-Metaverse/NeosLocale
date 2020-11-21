@@ -20,6 +20,8 @@
         "General.Done" : "Done!",
         "General.CopiedToClipboard" : "Copied!",
         "General.CopiedToClipboardLong" : "Copied to clipboard!",
+        "General.Create" : "Create",
+        "General.Creating" : "Creating...",
 
         "General.UI.SearchPrompt" : "Search...",
         "General.UI.SearchPromptLong" : "Type to search...",
@@ -262,7 +264,7 @@
         "World.Edit.AccessPublic" : "Anyone (public)",
 
         "Tools.AvatarCreator" : "Avatar Creator",
-        "Tools.FullBodyCalibrator" : "Full Body Calibrator",
+        "Tools.FullBodyCalibrator" : "Full Body / Avatar Calibrator",
         "Tools.CameraStreaming" : "Camera / Streaming",
         "Tools.CreateNewWorld" : "Create New World",
         "Tools.DepositNCR" : "Deposit NCR",
@@ -497,6 +499,7 @@
         "CreateNew.Editor.LightSourcesWizard" : "World Light Sources Wizard",
         "CreateNew.Editor.AssetOptimizationWizard" : "Asset Optimization Wizard",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX Transfer Wizard",
+        "CreateNew.Editor.CubemapCreator" : "Cubemap Creator",
 
         "CreateNew.3DModel" : "3D Model",
         "CreateNew.3DModel.Box" : "Box",
@@ -668,7 +671,7 @@
         "NewWorld.AutoPort" : "Auto:",
         "NewWorld.DefaultName" : "{name} World",
 
-        "FullBody.Title" : "Full Body Calibration",
+        "FullBody.Title" : "Full Body / Avatar Calibration",
         "FullBody.SetHeight" : "1) Set your height",
         "FullBody.HeightInstructions" : "Make sure this is your actual height, otherwise calibration won't work correctly. The mannequin should fit the headset and controllers.",
         "FullBody.HeightWarning" : "This seems incorrect. Make sure it's your actual height.",
@@ -1047,6 +1050,17 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Recalculate All Normals (merged)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Recalculate All Tangents (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Resized {n}",
+
+        "Wizard.CubemapCreator.Title" : "Cubemap Creator",
+        "Wizard.CubemapCreator.Textures" : "Source Textures:",
+        "Wizard.CubemapCreator.TexturesNote" : "Note that some conventions have left and right swapped. If the resulting cubemap is incorrect, try swapping the left and right textures.",
+        "Wizard.CubemapCreator.PosX" : "Positive X (right)",
+        "Wizard.CubemapCreator.NegX" : "Negative X (left)",
+        "Wizard.CubemapCreator.PosY" : "Positive Y (top)",
+        "Wizard.CubemapCreator.NegY" : "Negative Y (bottom)",
+        "Wizard.CubemapCreator.PosZ" : "Positive Z (front)",
+        "Wizard.CubemapCreator.NegZ" : "Negative Z (back)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Top/Bottom Rotation:",
 
         "Tutorial.Welcome.WelcomeTo" : "Welcome to",
         "Tutorial.Welcome.LetsStart" : "Let's Start!",
