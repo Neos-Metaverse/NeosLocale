@@ -1075,7 +1075,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "Prawy",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Lewy:</b> Poruszanie, <b>Prawy:</b> Obracanie",
         "Tutorial.Welcome.SettingsHeight" : "Twój wzrost",
-        "Tutorial.Welcome.SettingsHeightExamples" : "Przykłady: 1.85 m, 185 cm, 6\" 1', 6 stóp 1 cal",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Przykłady: 1.85 m, 185 cm, 6' 1\", 6 stóp 1 cal",
 
         "Tutorial.Welcome.StartTutorialHeader" : "Rozpocznij Samouczek",
         "Tutorial.Welcome.StartTutorialDescription" : "Przeniesiemy cię do prostego świata samouczkowego aby pomóc ci zacząć z Neos. Możesz wybrać czy chcesz aby świat był publiczny, pozwalając społeczności Neos na dołączanie i pomaganie tobie lub uczyć się samemu.",
@@ -1139,8 +1139,8 @@
         "Tutorial.Intro.Website" : "Witryna",
         "Tutorial.Intro.OutroEnd" : "Aby wspierać projekt, dołącz do naszego Patreona.<br><br>Dołącz do naszego Discorda aby dostawać nowości lub wsparcie techniczne.",
 
-        "Tutorial.MTC.Avatars" : "Avatars & Social",
-        "Tutorial.MTC.Creation" : "Creation & Utility",
+        "Tutorial.MTC.Avatars" : "Awatary i Społeczność",
+        "Tutorial.MTC.Creation" : "Kreacja i Użytkowość",
         "Tutorial.MTC.RecordingStreaming" : "Nagrywanie i Transmisja",
 
         "Tutorial.Grab.MoveRotate" : "Przenieś/Obróć chwycone przedmioty",
