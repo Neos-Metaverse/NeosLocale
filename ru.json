@@ -1075,7 +1075,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "Правый",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Левый:</b> Перемещение, <b>Правый:</b> Поворот",
         "Tutorial.Welcome.SettingsHeight" : "Ваш рост",
-        "Tutorial.Welcome.SettingsHeightExamples" : "Например: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Например: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader" : "Начать обучение",
         "Tutorial.Welcome.StartTutorialDescription" : "Мы переместим Вас в мир базового обучения чтобы помочь Вам сделать первые шаги в Neos. Вы можете сделать обучающий мир публичным, тем самым разрешая сообществу Neos присоединиться и помочь Вам, или учиться самому.",

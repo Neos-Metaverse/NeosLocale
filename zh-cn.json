@@ -1075,7 +1075,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "右",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>左:</b> 側身走, <b>右:</b> 转弯",
         "Tutorial.Welcome.SettingsHeight" : "你的身高",
-        "Tutorial.Welcome.SettingsHeightExamples" : "例子: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+        "Tutorial.Welcome.SettingsHeightExamples" : "例子: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader" : "开始教程",
         "Tutorial.Welcome.StartTutorialDescription" : "我们将带您进入基础教程世界，以帮助您开始使用Neos。 您可以选择公开教程世界，让Neos社区加入并为您提供帮助或自己学习。",
