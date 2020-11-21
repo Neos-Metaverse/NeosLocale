@@ -20,6 +20,9 @@
         "General.Done" : "Klaar!",
         "General.CopiedToClipboard" : "Gekopieerd!",
         "General.CopiedToClipboardLong" : "Gekopieerd naar klembord!",
+        "General.Create" : "Creer",
+        "General.Creating" : "Creeeren...",
+
 
         "General.UI.SearchPrompt" : "Zoeken...",
         "General.UI.SearchPromptLong" : "Hier typen...",
@@ -921,13 +924,13 @@
         "Inspector.Mesh.ChannelStats" : "Normals: {normals}, Tangents: {tangents}, kleuren: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "Bak Mesh",
-        "Inspector.Mesh.ResaveMesh" : "Mesh Heropslaan",
+        "Inspector.Mesh.ResaveMesh" : "Mesh opnieuw opslaan",
         "Inspector.Mesh.RecalculateNormals" : "Hercalculeer Normals",
-        "Inspector.Mesh.RecalculateNormalsSmooth" : "Hercalculeer Normals (smooth shading)",
-        "Inspector.Mesh.RecalculateTangentsMikkt" : "Hercalculeer Tangents (Mikktspace)",
-        "Inspector.Mesh.RecalculateTangentsSimple" : "Hercalculeer Tangents (simpel)",
-        "Inspector.Mesh.FlipNormals" : "Keer Normals om",
-        "Inspector.Mesh.ReverseWinding" : "Omgekeerde Winding",
+        "Inspector.Mesh.RecalculateNormalsSmooth" : "Normals opnieuw berekenen (smooth shading)",
+        "Inspector.Mesh.RecalculateTangentsMikkt" : "Tangents opnieuw berekenen (Mikktspace)",
+        "Inspector.Mesh.RecalculateTangentsSimple" : "Tangents opnieuw berekenen (simpel)",
+        "Inspector.Mesh.FlipNormals" : "Normals Omkeren",
+        "Inspector.Mesh.ReverseWinding" : "vertex volgorde omkeren",
         "Inspector.Mesh.MakeDualSided" : "Maak dubbelzijdig",
         "Inspector.Mesh.ConvertToFlatShading" : "Converteer naar vlakke Shading",
         "Inspector.Mesh.ConvertToConvexHull" : "Converteer naar Convex Hull",
@@ -968,6 +971,7 @@
 
         "Inspector.Texture.Size" : "formaat: {width} x {height}",
         "Inspector.Texture.Format" : "Formaat: {format}, Memory: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "VariantID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Keer RGB om",
         "Inspector.Texture.InvertR" : "Keer R om",
@@ -1046,6 +1050,17 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Hercalculeer Alle Normals (samengevoegd)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Hercalculeer Alle Raaklijnen (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Gewijzigd Formaat {n}",
+        
+        "Wizard.CubemapCreator.Title" : "Cubemap Creator",
+        "Wizard.CubemapCreator.Textures" : "Bron Textures:",
+        "Wizard.CubemapCreator.TexturesNote" : "Let op! sommige conventies hebben links en rechts verwisseld. Als de cubemap resultaat incorrect is, Probeer dan links en rechts te verwsselen.",
+        "Wizard.CubemapCreator.PosX" : "Positief X (right)",
+        "Wizard.CubemapCreator.NegX" : "Negatief X (left)",
+        "Wizard.CubemapCreator.PosY" : "Positief Y (top)",
+        "Wizard.CubemapCreator.NegY" : "Negatief Y (bottom)",
+        "Wizard.CubemapCreator.PosZ" : "Positief Z (front)",
+        "Wizard.CubemapCreator.NegZ" : "Negatief Z (back)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Boven/Beneden Draaien:",
 
         "Tutorial.Welcome.WelcomeTo" : "Welkom Bij",
         "Tutorial.Welcome.LetsStart" : "Laten We Beginnen!",
