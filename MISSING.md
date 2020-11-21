@@ -2918,21 +2918,8 @@ Wizard.CubemapCreator.NegZ
 Wizard.CubemapCreator.TopBottomRotation  
 
 # Dutch [nl]
-General.Create  
-General.Creating  
 CreateNew.Editor.CubemapCreator  
 Settings.MaxConcurrentAssetTransfers  
-Inspector.Texture.Variant  
-Wizard.CubemapCreator.Title  
-Wizard.CubemapCreator.Textures  
-Wizard.CubemapCreator.TexturesNote  
-Wizard.CubemapCreator.PosX  
-Wizard.CubemapCreator.NegX  
-Wizard.CubemapCreator.PosY  
-Wizard.CubemapCreator.NegY  
-Wizard.CubemapCreator.PosZ  
-Wizard.CubemapCreator.NegZ  
-Wizard.CubemapCreator.TopBottomRotation  
 Tutorial.Intro.WelcomeTitle  
 Tutorial.Intro.WelcomeDescription  
 Tutorial.Intro.GrabbingTitle  
