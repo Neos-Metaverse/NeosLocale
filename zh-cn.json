@@ -20,6 +20,8 @@
         "General.Done" : "做完了!",
         "General.CopiedToClipboard":"已复制！",
         "General.CopiedToClipboardLong":"已复制到剪贴板！",
+        "General.Create" : "创建",
+        "General.Creating" : "正在创建中...",
 
         "General.UI.SearchPrompt" : "搜索..",
         "General.UI.SearchPromptLong" : "键入搜索内容...",
@@ -262,7 +264,7 @@
         "World.Edit.AccessPublic" : "任何人（公开）",
 
         "Tools.AvatarCreator" : "阿凡达造物主",
-        "Tools.FullBodyCalibrator" : "全身校准器",
+        "Tools.FullBodyCalibrator" : "全身/阿凡达校准器",
         "Tools.CameraStreaming" : "相机/流媒体",
         "Tools.CreateNewWorld" : "创造新世界",
         "Tools.DepositNCR" : "存款NCR",
@@ -497,6 +499,7 @@
         "CreateNew.Editor.LightSourcesWizard" : "世界光源设置向导",
         "CreateNew.Editor.AssetOptimizationWizard" : "资产优化设置向导",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX传输设置向导",
+        "CreateNew.Editor.CubemapCreator" : "立方体贴图创建机器",
 
         "CreateNew.3DModel" : "3D模型",
         "CreateNew.3DModel.Box" : "盒型",
@@ -668,7 +671,7 @@
         "NewWorld.AutoPort" : "自动:",
         "NewWorld.DefaultName" : "{name} 世界",
 
-        "FullBody.Title" : "全身校准",
+        "FullBody.Title" : "全身/阿凡达校准",
         "FullBody.SetHeight" : "1) 设定身高",
         "FullBody.HeightInstructions" : "确保这是您的实际身高，否则校准将无法正常进行。人体模型应适合耳机和控制器。",
         "FullBody.HeightWarning" : "这似乎不正确。确保它是您的实际身高。",
@@ -1047,6 +1050,17 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "重新计算所有法线（合并）",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "重新计算所有切线（Mikktspace）",
         "Wizard.AssetOptimization.ResizedResult" : "调整大小 {n}",
+
+        "Wizard.CubemapCreator.Title" : "立方体贴图创建机器",
+        "Wizard.CubemapCreator.Textures" : "源纹理：",
+        "Wizard.CubemapCreator.TexturesNote" : "请注意，某些约定已左右互换。如果生成的立方体图不正确，请尝试左右互换纹理。",
+        "Wizard.CubemapCreator.PosX" : "正X（右）",
+        "Wizard.CubemapCreator.NegX" : "负X（左）",
+        "Wizard.CubemapCreator.PosY" : "正Y（顶部）",
+        "Wizard.CubemapCreator.NegY" : "负Y（底部）",
+        "Wizard.CubemapCreator.PosZ" : "正Z（前）",
+        "Wizard.CubemapCreator.NegZ" : "负Z（后退）",
+        "Wizard.CubemapCreator.TopBottomRotation" : "顶部/底部旋转：",
 
         "Tutorial.Welcome.WelcomeTo" : "欢迎来到",
         "Tutorial.Welcome.LetsStart" : "开始吧！",
