@@ -20,6 +20,8 @@
         "General.Done" : "完了!",
         "General.CopiedToClipboard" : "コピー完了!",
         "General.CopiedToClipboardLong" : "クリップボードにコピー完了!",
+        "General.Create" : "作成",
+        "General.Creating" : "作成中...",
 
         "General.UI.SearchPrompt" : "検索...",
         "General.UI.SearchPromptLong" : "入力して検索...",
@@ -262,7 +264,7 @@
         "World.Edit.AccessPublic" : "誰でも(パブリック)",
 
         "Tools.AvatarCreator" : "アバタークリエイター",
-        "Tools.FullBodyCalibrator" : "フルボディキャリブレーター",
+        "Tools.FullBodyCalibrator" : "フルボディ/アバターキャリブレーター",
         "Tools.CameraStreaming" : "カメラ",
         "Tools.CreateNewWorld" : "新規ワールド作成",
         "Tools.DepositNCR" : "NCR入金",
@@ -497,6 +499,7 @@
         "CreateNew.Editor.LightSourcesWizard" : "ワールド光源ウィザード",
         "CreateNew.Editor.AssetOptimizationWizard" : "アセット最適化ウィザード",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX転送ウィザード",
+        "CreateNew.Editor.CubemapCreator" : "キューブマップクリエイター",
 
         "CreateNew.3DModel" : "3Dモデル",
         "CreateNew.3DModel.Box" : "ボックス",
@@ -668,7 +671,7 @@
         "NewWorld.AutoPort" : "Auto:",
         "NewWorld.DefaultName" : "{name} World",
 
-        "FullBody.Title" : "フルボディキャリブレーション",
+        "FullBody.Title" : "フルボディ/アバターキャリブレーション",
         "FullBody.SetHeight" : "1) 身長を入力",
         "FullBody.HeightInstructions" : "実際の身長になっていますか？\n異なっている場合と正しくキャリブレーションできません。\nガイドとヘッドセット・コントローラーの位置が合うようにしてください。",
         "FullBody.HeightWarning" : "間違っているようです。\n実際の身長になっているか確認してください。",
@@ -1048,6 +1051,17 @@
         "Wizard.AssetOptimization.RecalculateAllTangents" : "すべての接線(タンジェント)を再計算(Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "変換完了 {n}",
 
+        "Wizard.CubemapCreator.Title" : "キューブマップクリエイター",
+        "Wizard.CubemapCreator.Textures" : "ソーステクスチャ:",
+        "Wizard.CubemapCreator.TexturesNote" : "一部の慣例では、左右が入れ替わっていることに注意してください。 キューブマップが正しく表示されない場合は、左右のテクスチャを交換してみてください。",
+        "Wizard.CubemapCreator.PosX" : "+X軸 (右面)",
+        "Wizard.CubemapCreator.NegX" : "-X軸 (左面)",
+        "Wizard.CubemapCreator.PosY" : "+Y軸 (上面)",
+        "Wizard.CubemapCreator.NegY" : "-Y軸 (下面)",
+        "Wizard.CubemapCreator.PosZ" : "+Z軸 (正面)",
+        "Wizard.CubemapCreator.NegZ" : "-Z軸 (後面)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "上/下回転:",
+
         "Tutorial.Welcome.WelcomeTo" : "ようこそ",
         "Tutorial.Welcome.LetsStart" : "始めましょう!",
         "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>警告:</b></color>現在、デスクトップモードでプレイしていますが、主にデバッグ用に設計されているため、現在公式にはサポートされていません。<br><br>プレイはできますが、機能しないものやコントロールが使いにくい場合があります。<br><br><b>現在、NeosはVRでプレイすることを目的としています。</b><br><br>適切なデスクトップモードは将来実装される予定です。",
@@ -1061,7 +1075,7 @@
         "Tutorial.Welcome.AccountSkipHeader" : "スキップしますか?",
         "Tutorial.Welcome.AccountSkipDescription" : "アイテムをインベントリに保存したり、フレンドを追加する、アバターをお気に入りしたりするなど、一部の機能にはアクセスできません。",
         "Tutorial.Welcome.AccountSkipConfirm" : "スキップします",
-        
+
         "Tutorial.Welcome.SettingsHeader" : "基本設定",
         "Tutorial.Welcome.SettingsDescription" : "基本的なモーションとユーザー設定ができます。 これらはすべて、後で変更できます。",
         "Tutorial.Welcome.SettingsTurning" : "ターンの方式",
