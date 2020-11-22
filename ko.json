@@ -1110,7 +1110,7 @@
 		"Tutorial.Welcome.AccountSkipDescription": "아이템이나 아바타의 저장같은 일부 기능은 계정없이 사용하실 수 없습니다.",
 		"Tutorial.Welcome.AccountSkipConfirm": "진행하기",
 		"Tutorial.Welcome.SettingsHeader": "기본 환경설정",
-		"Tutorial.Welcome.SettingsDescription": "기본 모션 및 사용자 환경설정을 수행합니다. 이런 설정은 언제라도 다시 설정하실 수 있습니다.",
+		"Tutorial.Welcome.SettingsDescription": "기본 모션 및 사용자 환경설정을 수행합니다. 추후 언제라도 <color=#77ff77><b>재설정이 가능</b></color>합니다.",
 		"Tutorial.Welcome.SettingsTurning": "회전방식",
 		"Tutorial.Welcome.SettingsSnapTurn": "스냅턴",
 		"Tutorial.Welcome.SettingsSnapTurnDescription": "특정 각도로 즉시 회전하는 방식입니다. 멀미가 없습니다.",
@@ -1176,7 +1176,22 @@
 		"Tutorial.MTC.Avatars": "아바타",
 		"Tutorial.MTC.Creation": "제작",
 		"Tutorial.MTC.RecordingStreaming": "녹화<br>및 스트리밍",
-
+		
+		"General.Create": "생성",
+		"General.Creating": "생성하는 중 입니다.",
+		"CreateNew.Editor.CubemapCreator": "큐브맵 생성기",
+		"Inspector.Texture.Variant": "텍스쳐 식별자: {variant}",
+		"Wizard.CubemapCreator.Title": "큐브맵 생성기",
+		"Wizard.CubemapCreator.Textures": "텍스쳐 원본",
+		"Wizard.CubemapCreator.TexturesNote": "경우에 따라 좌/우가 역전되는 경우가 있습니다. 이 경우 좌/우의 텍스쳐를 반대로 지정하는것도 방법입니다.",
+		"Wizard.CubemapCreator.PosX": "양수 X축 (오른쪽)",
+		"Wizard.CubemapCreator.NegX": "음수 X축 (왼쪽)",
+		"Wizard.CubemapCreator.PosY": "양수 Y축 (위쪽)",
+		"Wizard.CubemapCreator.NegY": "음수 Y축 (아래쪽)",
+		"Wizard.CubemapCreator.PosZ": "양수 Z축 (앞쪽)",
+		"Wizard.CubemapCreator.NegZ": "음수 Z축 (뒷쪽)",
+		"Wizard.CubemapCreator.TopBottomRotation": "상하회전:",
+		
 		"Dummy": "더미"
 	}
 }
