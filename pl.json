@@ -20,6 +20,8 @@
         "General.Done" : "Gotowe!",
         "General.CopiedToClipboard" : "Skopiowano!",
         "General.CopiedToClipboardLong" : "Skopiowano do schowka!",
+        "General.Create" : "Stwórz",
+        "General.Creating" : "Tworzenie...",
 
         "General.UI.SearchPrompt" : "Wyszukaj...",
         "General.UI.SearchPromptLong" : "Pisz aby wyszukać...",
@@ -83,7 +85,7 @@
 
         "Dash.Actions.CoreWorldsHeader" : "Główne Światy",
         "Dash.Actions.ContentHub" : "Centrum Treści",
-        "Dash.Actions.MTC" : "Centrum Trenowania Metawrzeświatu <size=75%>(poradniki)</size>",
+        "Dash.Actions.MTC" : "Centrum Trenowania Metawrzechświatu <size=75%>(poradniki)</size>",
         "Dash.Actions.CloudHome" : "Mój Dom w Chmurze",
 
         "Dash.Exit.Header" : "Wyjdź z Neos",
@@ -160,7 +162,7 @@
         "World.Actions.LeavePrompt" : "Opuścić Świat?",
         "World.Actions.CloseConfirm" : "Zamknij",
         "World.Actions.LeaveConfirm" : "Opuść",
-        "World.Actions.CannotClose" : "(nie może zamknąć tego świata)",
+        "World.Actions.CannotClose" : "(nie można zamknąć tego świata)",
         "World.Actions.GuestWarning" : "",
         "World.Actions.HostingWarning" : "Jesteś gospodarzem tego świata. Wszyscy użytkownicy zostaną odłączeni.",
 
@@ -262,7 +264,7 @@
         "World.Edit.AccessPublic" : "Wszyscy (publiczny)",
 
         "Tools.AvatarCreator" : "Kreator Awatarów",
-        "Tools.FullBodyCalibrator" : "Kalibrator Full Body",
+        "Tools.FullBodyCalibrator" : "Kalibrator Awatarów / Full Body",
         "Tools.CameraStreaming" : "Kamera / Transmisja",
         "Tools.CreateNewWorld" : "Stwórz Nowy Świat",
         "Tools.DepositNCR" : "Wpłać NCR",
@@ -497,6 +499,7 @@
         "CreateNew.Editor.LightSourcesWizard" : "Kreator Źródeł Światła Świata",
         "CreateNew.Editor.AssetOptimizationWizard" : "Kreator Optymizacji Zasobów",
         "CreateNew.Editor.LogixTransferWizard" : "Kreator Transferu LogiX",
+        "CreateNew.Editor.CubemapCreator" : "Kreator Cubemap",
 
         "CreateNew.3DModel" : "Model 3D",
         "CreateNew.3DModel.Box" : "Pudełko",
@@ -668,7 +671,7 @@
         "NewWorld.AutoPort" : "Auto:",
         "NewWorld.DefaultName" : "Świat {name}",
 
-        "FullBody.Title" : "Kalibracja Full Body",
+        "FullBody.Title" : "Kalibracja Awatarów / Full Body",
         "FullBody.SetHeight" : "1) Ustaw Swój Wzrost",
         "FullBody.HeightInstructions" : "Upewnij się, że to Twój rzeczywisty wzrost, w przeciwnym razie kalibracja nie będzie działać poprawnie. Manekin powinien pasować do gogli i kontrolerów.",
         "FullBody.HeightWarning" : "Coś nie pasuje. Upewnij się, że to Twój rzeczywisty wzrost.",
@@ -1047,6 +1050,17 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Przelicz Wszystkie Normalne (połączone)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Przelicz Wszystkie Styczne (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Przeskalowano {n}",
+
+        "Wizard.CubemapCreator.Title" : "Kreator Cubemap",
+        "Wizard.CubemapCreator.Textures" : "Tekstury Źródłowe:",
+        "Wizard.CubemapCreator.TexturesNote" : "Pamiętaj że niektóre standardy zamieniają lewą i prawą stronę. Jeśli stworzona Cubemapa jest nieprawdiłowa, spróbuj zamienić lewą i prawą stronę.",
+        "Wizard.CubemapCreator.PosX" : "Pozytywny X (prawo)",
+        "Wizard.CubemapCreator.NegX" : "Negatywny X (lewo)",
+        "Wizard.CubemapCreator.PosY" : "Pozytywny Y (góra)",
+        "Wizard.CubemapCreator.NegY" : "Negatywny Y (dół)",
+        "Wizard.CubemapCreator.PosZ" : "Pozytywny Z (przód)",
+        "Wizard.CubemapCreator.NegZ" : "Negatywny Z (tył)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Obrót Góry i Dołu:",
 
         "Tutorial.Welcome.WelcomeTo" : "Witaj w",
         "Tutorial.Welcome.LetsStart" : "Zacznijmy!",
