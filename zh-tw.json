@@ -20,6 +20,8 @@
         "General.Done" : "做完了!",
         "General.CopiedToClipboard" : "複製！",
         "General.CopiedToClipboardLong" : "複製到剪貼板！",
+        "General.Create" : "創建",
+        "General.Creating" : "正在創建中...",
 
         "General.UI.SearchPrompt" : "搜索...",
         "General.UI.SearchPromptLong" : "輸入搜索",
@@ -262,7 +264,7 @@
         "World.Edit.AccessPublic" : "任何人（公開）",
 
         "Tools.AvatarCreator" : "阿凡達造物主",
-        "Tools.FullBodyCalibrator" : "全身校準器",
+        "Tools.FullBodyCalibrator" : "全身/阿凡達校準器",
         "Tools.CameraStreaming" : "相機/流媒體",
         "Tools.CreateNewWorld" : "創造新世界",
         "Tools.DepositNCR" : "存款NCR",
@@ -497,6 +499,7 @@
         "CreateNew.Editor.LightSourcesWizard" : "世界光源設置嚮導",
         "CreateNew.Editor.AssetOptimizationWizard" : "資產優化設置嚮導",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX傳輸設置嚮導",
+        "CreateNew.Editor.CubemapCreator" : "立方體貼圖創建機器",
 
         "CreateNew.3DModel" : "3D模型",
         "CreateNew.3DModel.Box" : "盒型",
@@ -668,7 +671,7 @@
         "NewWorld.AutoPort" : "自動:",
         "NewWorld.DefaultName" : "{name} 世界",
 
-        "FullBody.Title" : "全身校準",
+        "FullBody.Title" : "全身/阿凡達校準",
         "FullBody.SetHeight" : "1) 設定身高",
         "FullBody.HeightInstructions" : "確保這是您的實際身高，否則校準將無法正常進行。人體模型應適合耳機和控制器。",
         "FullBody.HeightWarning" : "這似乎不正確。確保它是您的實際身高。",
@@ -1047,6 +1050,17 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "重新計算所有法線（合併）",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "重新計算所有切線（Mikktspace）",
         "Wizard.AssetOptimization.ResizedResult" : "調整大小 {n}",
+
+        "Wizard.CubemapCreator.Title" : "立方體貼圖創建機器",
+        "Wizard.CubemapCreator.Textures" : "源紋理：",
+        "Wizard.CubemapCreator.TexturesNote" : "請注意，某些約定已左右互換。如果生成的立方體圖不正確，請嘗試左右互換紋理。",
+        "Wizard.CubemapCreator.PosX" : "正X（右）",
+        "Wizard.CubemapCreator.NegX" : "負X（左）",
+        "Wizard.CubemapCreator.PosY" : "正Y（頂部）",
+        "Wizard.CubemapCreator.NegY" : "負Y（底部）",
+        "Wizard.CubemapCreator.PosZ" : "正Z（前）",
+        "Wizard.CubemapCreator.NegZ" : "負Z（後退）",
+        "Wizard.CubemapCreator.TopBottomRotation" : "頂部/底部旋轉：",
         
         "Tutorial.Welcome.WelcomeTo" : "歡迎來到",
         "Tutorial.Welcome.LetsStart" : "開始吧！",
