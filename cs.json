@@ -1059,7 +1059,7 @@
         "Wizard.LightSources.Title" : "Průvodce zdroji světla",
         "Wizard.LightSources.Header" : "Zdroje světla scény",
         "Wizard.LightSources.ProcessRoot" : "Zpracovat Root:",
-        "Wizard.LightSources.PointLights" : "Světla z bodu (jako žárovka):",
+        "Wizard.LightSources.PointLights" : "Světla z bodu (jako slunce):",
         "Wizard.LightSources.SpotLights" : "Bodová světla:",
         "Wizard.LightSources.DirectionalLights" : "Směrová světla:",
         "Wizard.LightSources.DisabledLights" : "Zakázaná světla:",
@@ -1184,8 +1184,8 @@
         "Tutorial.Intro.Website" : "Web",
         "Tutorial.Intro.OutroEnd" : "Pro podpoření projektu se můžete stát naším Patreon patronem.<br><br>Připojte se na náš Discord pro stavové aktualizace, síťování, nebo technickou podporu.",
 
-        "Tutorial.MTC.Avatars" : "Avataři",
-        "Tutorial.MTC.Creation" : "Tvorba",
+        "Tutorial.MTC.Avatars" : "Avataři a komunikace",
+        "Tutorial.MTC.Creation" : "Tvorba a užitečnost",
         "Tutorial.MTC.RecordingStreaming" : "Nahrávání a streamování",
         
         "Tutorial.Grab.MoveRotate" : "Posouvat/Rotovat chycené objekty",
