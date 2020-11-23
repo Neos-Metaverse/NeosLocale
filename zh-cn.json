@@ -1057,7 +1057,7 @@
         "Wizard.AssetOptimization.ResizedResult" : "调整大小 {n}",
 
         "Wizard.LightSources.Title" : "光源向导",
-        "Wizard.LightSources.Header" : "现场光源",
+        "Wizard.LightSources.Header" : "场景光源",
         "Wizard.LightSources.ProcessRoot" : "进程根:",
         "Wizard.LightSources.PointLights" : "点光源:",
         "Wizard.LightSources.SpotLights" : "聚光灯:",
