@@ -20,6 +20,8 @@
         "General.Done" : "Hotovo!",
         "General.CopiedToClipboard" : "Zkopírováno!",
         "General.CopiedToClipboardLong" : "Zkopírováno do schránky!",
+        "General.Create" : "Vytvořit",
+        "General.Creating" : "Vytvářím...",
 
         "General.UI.SearchPrompt" : "Hledat...",
         "General.UI.SearchPromptLong" : "Zadejte vyhledávání...",
@@ -497,6 +499,7 @@
         "CreateNew.Editor.LightSourcesWizard" : "Průvodce nastavením světel",
         "CreateNew.Editor.AssetOptimizationWizard" : "Průvodce optimalizací assetů",
         "CreateNew.Editor.LogixTransferWizard" : "Průvodce přesunu LogiXu",
+        "CreateNew.Editor.CubemapCreator" : "Tvůrce Cubemap",
 
         "CreateNew.3DModel" : "3D Model",
         "CreateNew.3DModel.Box" : "Kvádr",
@@ -1047,6 +1050,17 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Rekalkulovat všechny normály (sloučené)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Rekalkulovat všechny tangenty (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Změněna velikost {n} položek",
+        
+        "Wizard.CubemapCreator.Title" : "Tvůrce Cubemap",
+        "Wizard.CubemapCreator.Textures" : "Zdrojové textury:",
+        "Wizard.CubemapCreator.TexturesNote" : "Všimněte si, že některé konvence mají prohozeny levou a pravou stranu. Pokud vytvořená cubemapa je špatná, zkuste zamněnit levou a pravou texturu.",
+        "Wizard.CubemapCreator.PosX" : "Pozitivní X (pravá)",
+        "Wizard.CubemapCreator.NegX" : "Negativní X (levá)",
+        "Wizard.CubemapCreator.PosY" : "Pozitivní Y (vršek)",
+        "Wizard.CubemapCreator.NegY" : "Negativní Y (spodek)",
+        "Wizard.CubemapCreator.PosZ" : "Pozitivní Z (předek)",
+        "Wizard.CubemapCreator.NegZ" : "Negativní Z (zadek)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Rotace vršek/spodek:",
         
         "Tutorial.Welcome.WelcomeTo" : "Vítejte v",
         "Tutorial.Welcome.LetsStart" : "Pojďme začít!",
