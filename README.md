@@ -6,22 +6,22 @@ Czech [cs] - 96.1% - Missing keys: 42
 German [de] - 95.5% - Missing keys: 49  
 English (United Kingdom) [en-gb] - 1.7% - Missing keys: 1062  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 97.4% - Missing keys: 28  
+Esperanto [eo] - 100.0% - Missing keys: 0  
 Spanish [es] - 96.1% - Missing keys: 42  
 Estonian [et] - 77.8% - Missing keys: 240  
 Finnish [fi] - 37.6% - Missing keys: 674  
 French [fr] - 77.6% - Missing keys: 242  
 Icelandic [is] - 32.7% - Missing keys: 727  
-Japanese [ja] - 97.4% - Missing keys: 28  
-Korean [ko] - 97.4% - Missing keys: 28  
+Japanese [ja] - 100.0% - Missing keys: 0  
+Korean [ko] - 100.0% - Missing keys: 0  
 Dutch [nl] - 93.0% - Missing keys: 76  
 Norwegian [no] - 75.8% - Missing keys: 261  
 Polish [pl] - 97.4% - Missing keys: 28  
-Russian [ru] - 96.2% - Missing keys: 41  
+Russian [ru] - 100.0% - Missing keys: 0  
 Swedish [sv] - 4.5% - Missing keys: 1031  
 Turkish [tr] - 89.4% - Missing keys: 115  
-Chinese (China) [zh-cn] - 97.4% - Missing keys: 28  
-Chinese (Taiwan) [zh-tw] - 97.4% - Missing keys: 28  
+Chinese (China) [zh-cn] - 100.0% - Missing keys: 0  
+Chinese (Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
 
 Total keys: 1080
 
@@ -38,6 +38,7 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
 - DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
 - DON'T convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
+- DON'T correct mistakes in the string keys, only report them. They will be fixed by a script, which will apply the correction to all locales at once.
 
 # If you're contributing a new language
 1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
