@@ -20,6 +20,8 @@
         "General.Done" : "Finita!",
         "General.CopiedToClipboard" : "Kopiita!",
         "General.CopiedToClipboardLong" : "Kopiita al tondejo!",
+        "General.Create" : "Krei",
+        "General.Creating" : "Kreante ...",
 
         "General.UI.SearchPrompt": "Serĉi ...",
         "General.UI.SearchPromptLong": "Tajpu serĉi ...",
@@ -262,7 +264,7 @@
         "World.Edit.AccessPublic" : "Iu ajn (publika)",
 
         "Tools.AvatarCreator": "Avatar-Kreinto",
-        "Tools.FullBodyCalibrator": "Plena Korpa Kalibrilo",
+        "Tools.FullBodyCalibrator": "Plena Korpa /Avatar-Kalibrilo",
         "Tools.CameraStreaming": "Fotilo / Streaming",
         "Tools.CreateNewWorld": "Krei Novan Mondon",
         "Tools.DepositNCR": "Deponejo NCR",
@@ -497,6 +499,7 @@
         "CreateNew.Editor.LightSourcesWizard": "Sorĉisto de Lumaj Fontoj",
         "CreateNew.Editor.AssetOptimizationWizard": "Sorĉisto pri Aktivigo",
         "CreateNew.Editor.LogixTransferWizard": "Transiga Sorĉisto LogiX",
+        "CreateNew.Editor.CubemapCreator" : "Cubemap-Kreinto",
 
         "CreateNew.3DModel": "3D-modelo",
         "CreateNew.3DModel.Box": "Skatolo",
@@ -668,7 +671,7 @@
         "NewWorld.AutoPort": "Aŭtomata:",
         "NewWorld.DefaultName": "{name} Mondo",
 
-        "FullBody.Title": "Plena Korpa Kalibrado",
+        "FullBody.Title": "Plena Korpa / Avatar-Kalibrado",
         "FullBody.SetHeight": "1) Agordu vian altecon",
         "FullBody.HeightInstructions": "Certigu, ke ĉi tio estas via reala alteco, alie la kalibrado ne funkcios ĝuste. La manekeno devas kongrui kun la aŭdilo kaj regiloj.",
         "FullBody.HeightWarning": "Ĉi tio ŝajnas malĝusta. Certigu, ke ĝi estas via reala alteco.",
@@ -1047,6 +1050,17 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Rekalkuli Ĉiujn Normalaĵojn (kunfanditajn)",
         "Wizard.AssetOptimization.RecalculateAllTangents": "Rekalkuli ĉiujn tangentojn (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult": "Grandigita {n}",
+
+        "Wizard.CubemapCreator.Title": "Cubemap-Kreinto",
+        "Wizard.CubemapCreator.Textures": "Fontaj Teksturoj:",
+        "Wizard.CubemapCreator.TexturesNote": "Notu, ke iuj konvencioj interŝanĝis maldekstren kaj dekstren. Se la rezulta kubmapo malĝustas, provu interŝanĝi la maldekstran kaj dekstran teksturojn.",
+        "Wizard.CubemapCreator.PosX": "Pozitiva X (dekstre)",
+        "Wizard.CubemapCreator.NegX": "Negativa X (maldekstre)",
+        "Wizard.CubemapCreator.PosY": "Pozitiva Y (supre)",
+        "Wizard.CubemapCreator.NegY": "Negativa Y (malsupre)",
+        "Wizard.CubemapCreator.PosZ": "Pozitiva Z (antaŭa)",
+        "Wizard.CubemapCreator.NegZ": "Negativa Z (malantaŭa)",
+        "Wizard.CubemapCreator.TopBottomRotation": "Supra / Malsupra Rotacio:",
 
         "Tutorial.Welcome.WelcomeTo" : "Bonvenon al",
         "Tutorial.Welcome.LetsStart" : "Ni Komencu!",
