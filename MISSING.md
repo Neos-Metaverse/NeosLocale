@@ -2,55 +2,21 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Czech [cs]
-General.Create  
-General.Creating  
-CreateNew.Object.ReflectionProbe  
-CreateNew.Editor.CubemapCreator  
-CreateNew.Editor.ReflectionProbes  
-Inspector.ReflectionProbe.Bake  
-Inspector.ReflectionProbe.Baking  
-Inspector.Texture.Variant  
-Wizard.LightSources.Title  
-Wizard.LightSources.Header  
-Wizard.LightSources.ProcessRoot  
-Wizard.LightSources.PointLights  
-Wizard.LightSources.SpotLights  
-Wizard.LightSources.DirectionalLights  
-Wizard.LightSources.DisabledLights  
-Wizard.LightSources.WithTag  
-Wizard.LightSources.SetShadowType  
-Wizard.LightSources.ChangeIntensity  
-Wizard.LightSources.ChangeRange  
-Wizard.LightSources.Enable  
-Wizard.LightSources.Disable  
-Wizard.LightSources.Destroy  
-Wizard.CubemapCreator.Title  
-Wizard.CubemapCreator.Textures  
-Wizard.CubemapCreator.TexturesNote  
-Wizard.CubemapCreator.PosX  
-Wizard.CubemapCreator.NegX  
-Wizard.CubemapCreator.PosY  
-Wizard.CubemapCreator.NegY  
-Wizard.CubemapCreator.PosZ  
-Wizard.CubemapCreator.NegZ  
-Wizard.CubemapCreator.TopBottomRotation  
-Wizard.ReflectionProbes.Title  
-Wizard.ReflectionProbes.ProcessRoot  
-Wizard.ReflectionProbes.ProcessDisabled  
-Wizard.ReflectionProbes.WithTag  
-Wizard.ReflectionProbes.TeleportUserToProbe  
-Wizard.ReflectionProbes.DelayBetweenProbes  
-Wizard.ReflectionProbes.ShowDebugVisuals  
-Wizard.ReflectionProbes.HideDebugVisuals  
-Wizard.ReflectionProbes.BakeProbes  
-Wizard.ReflectionProbes.Baking  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
+Settings.HideContactNameplates  
 
 # German [de]
 General.Create  
 General.Creating  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+Settings.HideContactNameplates  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.DynamicBoneChain.SetupFromChildren  
@@ -338,6 +304,9 @@ Options.FreeformDash.On
 Options.FreeformDash.Off  
 Options.SeatedMode.On  
 Options.SeatedMode.Off  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 Indicator.OnlineUsers  
 Indicator.ServerStatus  
 Indicator.Sync.AllSynced  
@@ -830,6 +799,7 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
+Settings.HideContactNameplates  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -1160,12 +1130,22 @@ Exiting.SavingChanges
 Exiting.Exiting  
 Exiting.LoggingOut  
 
+# Esperanto [eo]
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
+Settings.HideContactNameplates  
+
 # Spanish [es]
 General.Create  
 General.Creating  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+Settings.HideContactNameplates  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
@@ -1226,6 +1206,9 @@ World.Edit.AccessLevelHeader
 World.Edit.AccessPrivate  
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
@@ -1244,6 +1227,7 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
 Settings.MaxConcurrentAssetTransfers  
+Settings.HideContactNameplates  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -1465,6 +1449,9 @@ World.Edit.AccessPrivate
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
 Tools.Debug  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
@@ -1816,6 +1803,7 @@ CameraControl.OBS.DroppedFrames
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
 Settings.MaxConcurrentAssetTransfers  
+Settings.HideContactNameplates  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
 Settings.Audio.SelectInputDevice  
@@ -2146,6 +2134,9 @@ World.Edit.AccessLevelHeader
 World.Edit.AccessPrivate  
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
@@ -2164,6 +2155,7 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
 Settings.MaxConcurrentAssetTransfers  
+Settings.HideContactNameplates  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -2396,6 +2388,9 @@ World.Edit.AccessLevelHeader
 World.Edit.AccessPrivate  
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 Indicator.Sync.SyncingItems  
 Indicator.Sync.UploadingVariants  
 Session.Permission.PermissionOverrideCount  
@@ -2780,6 +2775,7 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
+Settings.HideContactNameplates  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -3095,11 +3091,27 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
+# Japanese [ja]
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
+Settings.HideContactNameplates  
+
+# Korean [ko]
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
+Settings.HideContactNameplates  
+
 # Dutch [nl]
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Settings.MaxConcurrentAssetTransfers  
+Settings.HideContactNameplates  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Wizard.LightSources.Title  
@@ -3196,6 +3208,9 @@ World.Edit.AccessLevelHeader
 World.Edit.AccessPrivate  
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 User.Actions.Silence  
 Contacts.RecordingVoiceMessage  
 Contacts.InFriendsOnly  
@@ -3215,6 +3230,7 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
 Settings.MaxConcurrentAssetTransfers  
+Settings.HideContactNameplates  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -3437,34 +3453,16 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
-CreateNew.Object.ReflectionProbe  
-CreateNew.Editor.ReflectionProbes  
-Inspector.ReflectionProbe.Bake  
-Inspector.ReflectionProbe.Baking  
-Wizard.LightSources.Title  
-Wizard.LightSources.Header  
-Wizard.LightSources.ProcessRoot  
-Wizard.LightSources.PointLights  
-Wizard.LightSources.SpotLights  
-Wizard.LightSources.DirectionalLights  
-Wizard.LightSources.DisabledLights  
-Wizard.LightSources.WithTag  
-Wizard.LightSources.SetShadowType  
-Wizard.LightSources.ChangeIntensity  
-Wizard.LightSources.ChangeRange  
-Wizard.LightSources.Enable  
-Wizard.LightSources.Disable  
-Wizard.LightSources.Destroy  
-Wizard.ReflectionProbes.Title  
-Wizard.ReflectionProbes.ProcessRoot  
-Wizard.ReflectionProbes.ProcessDisabled  
-Wizard.ReflectionProbes.WithTag  
-Wizard.ReflectionProbes.TeleportUserToProbe  
-Wizard.ReflectionProbes.DelayBetweenProbes  
-Wizard.ReflectionProbes.ShowDebugVisuals  
-Wizard.ReflectionProbes.HideDebugVisuals  
-Wizard.ReflectionProbes.BakeProbes  
-Wizard.ReflectionProbes.Baking  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
+Settings.HideContactNameplates  
+
+# Russian [ru]
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
+Settings.HideContactNameplates  
 
 # Swedish [sv]
 General.Save  
@@ -3661,6 +3659,9 @@ Options.FreeformDash.On
 Options.FreeformDash.Off  
 Options.SeatedMode.On  
 Options.SeatedMode.Off  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 Indicator.OnlineUsers  
 Indicator.ServerStatus  
 Indicator.Sync.AllSynced  
@@ -4163,6 +4164,7 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
+Settings.HideContactNameplates  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -4513,10 +4515,14 @@ World.Edit.AccessLevelHeader
 World.Edit.AccessPrivate  
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Settings.MaxConcurrentAssetTransfers  
+Settings.HideContactNameplates  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
@@ -4615,4 +4621,16 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
+
+# Chinese (China) [zh-cn]
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
+Settings.HideContactNameplates  
+
+# Chinese (Taiwan) [zh-tw]
+Options.Nameplates.All  
+Options.Nameplates.NonContacts  
+Options.Nameplates.Hide  
+Settings.HideContactNameplates  
 

@@ -275,6 +275,9 @@
         "Options.FreeformDash.Off" : "Freeform Dash: Off",
         "Options.SeatedMode.On" : "Seated Mode: On",
         "Options.SeatedMode.Off" : "Seated Mode: Off",
+        "Options.Nameplates.All" : "Nameplates: All",
+        "Options.Nameplates.NonContacts" : "Nameplates: Non-contacts",
+        "Options.Nameplates.Hide" : "Nameplates: Hide",
 
         "Indicator.OnlineUsers" : "Online Users: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {Good} Slow {Slow} Down {Down} NoInternet {No Internet}} ({response_ms} ms)",
