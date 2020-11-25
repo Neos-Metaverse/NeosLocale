@@ -476,6 +476,7 @@
         "CreateNew.Object" : "Obiekt",
         "CreateNew.Object.AvatarCreator" : "Kreator Awatarów",
         "CreateNew.Object.Camera" : "Kamera",
+        "CreateNew.Object.ReflectionProbe" : "Próbka Odbić",
         "CreateNew.Object.Mirror" : "Lustro",
         "CreateNew.Object.Portal" : "Portal",
         "CreateNew.Object.VideoPlayer" : "Wyświetlacz Filmów",
@@ -500,6 +501,7 @@
         "CreateNew.Editor.AssetOptimizationWizard" : "Kreator Optymizacji Zasobów",
         "CreateNew.Editor.LogixTransferWizard" : "Kreator Transferu LogiX",
         "CreateNew.Editor.CubemapCreator" : "Kreator Cubemap",
+        "CreateNew.Editor.ReflectionProbes" : "Próbki Odbicia",
 
         "CreateNew.3DModel" : "Model 3D",
         "CreateNew.3DModel.Box" : "Pudełko",
@@ -914,7 +916,7 @@
         "Security.HostAccess.Allow" : "Zezwól",
         "Security.HostAccess.Deny" : "Zabroń",
 
-        "Inspector.Mesh.StatsHeader" : "Mesh Statistics",
+        "Inspector.Mesh.StatsHeader" : "Statystyki Meshu",
         "Inspector.Mesh.VertexCount" : "Liczba Wierzchołków: {n}",
         "Inspector.Mesh.TriangleCount" : "Liczba Trójkątów: {n}",
         "Inspector.Mesh.PointCount" : "Liczba Punktów: {n}",
@@ -949,6 +951,9 @@
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Połącz submeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial" : "Rozdziel mesh na części z takimi samymi materiałami",
+
+        "Inspector.ReflectionProbe.Bake" : "Wypal Odbicia",
+        "Inspector.ReflectionProbe.Baking" : "Wypalanie...",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Separuj części meshu nie doknięte przez blendshapy",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Usuń Puste Blendshapy",
@@ -1033,9 +1038,9 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Dodaj obszary do punktów centralnych obiektów w hierarchii",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Zawsze chwytaj ostatnią kość",
 
-        "Wizard.General.ProcessRoot" : "Miejsce Procesu:",
+        "Wizard.General.ProcessRoot" : "Miejsce Operacji:",
         "Wizard.General.Result" : "Rezultat:",
-        "Wizard.General.ErrorNoRoot" : "Brak Miejsca Procesu",
+        "Wizard.General.ErrorNoRoot" : "Brak Miejsca Operacji",
         "Wizard.General.RemovedResult" : "Usunięto {n}",
 
         "Wizard.AssetOptimization.Title" : "Kreator Optymizacji Zasobów",
@@ -1051,6 +1056,21 @@
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Przelicz Wszystkie Styczne (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Przeskalowano {n}",
 
+        "Wizard.LightSources.Title" : "Kreator Źródeł Światła",
+        "Wizard.LightSources.Header" : "Źródła Światła Sceny",
+        "Wizard.LightSources.ProcessRoot" : "Miejsce Operacji:",
+        "Wizard.LightSources.PointLights" : "Światła Punktowe:",
+        "Wizard.LightSources.SpotLights" : "Światła Stożkowe:",
+        "Wizard.LightSources.DirectionalLights" : "Śłońca:",
+        "Wizard.LightSources.DisabledLights" : "Wyłączone Światła:",
+        "Wizard.LightSources.WithTag" : "Z Tagiem:",
+        "Wizard.LightSources.SetShadowType" : "Ustaw Typ Cieni",
+        "Wizard.LightSources.ChangeIntensity" : "Zmień Siłę",
+        "Wizard.LightSources.ChangeRange" : "Zmień Zasięg",
+        "Wizard.LightSources.Enable" : "Włacz",
+        "Wizard.LightSources.Disable" : "Wyłącz",
+        "Wizard.LightSources.Destroy" : "Zniszcz",
+
         "Wizard.CubemapCreator.Title" : "Kreator Cubemap",
         "Wizard.CubemapCreator.Textures" : "Tekstury Źródłowe:",
         "Wizard.CubemapCreator.TexturesNote" : "Pamiętaj że niektóre standardy zamieniają lewą i prawą stronę. Jeśli stworzona Cubemapa jest nieprawdiłowa, spróbuj zamienić lewą i prawą stronę.",
@@ -1061,6 +1081,17 @@
         "Wizard.CubemapCreator.PosZ" : "Pozytywny Z (przód)",
         "Wizard.CubemapCreator.NegZ" : "Negatywny Z (tył)",
         "Wizard.CubemapCreator.TopBottomRotation" : "Obrót Góry i Dołu:",
+
+        "Wizard.ReflectionProbes.Title" : "Próbki Odbicia",
+        "Wizard.ReflectionProbes.ProcessRoot" : "Miejsce Operacji:",
+        "Wizard.ReflectionProbes.ProcessDisabled" : "Proces Wyłączony",
+        "Wizard.ReflectionProbes.WithTag" : "Z Tagiem:",
+        "Wizard.ReflectionProbes.TeleportUserToProbe" : "Teleportój mnie do każdej próbki",
+        "Wizard.ReflectionProbes.DelayBetweenProbes" : "Odsęp czasowy między próbkami",
+        "Wizard.ReflectionProbes.ShowDebugVisuals" : "Wyświetl Wizualizacje",
+        "Wizard.ReflectionProbes.HideDebugVisuals" : "Schowaj Wizualizacje",
+        "Wizard.ReflectionProbes.BakeProbes" : "Wypal Próbki",
+        "Wizard.ReflectionProbes.Baking" : "Wypalanie: {index} na {count}...",
 
         "Tutorial.Welcome.WelcomeTo" : "Witaj w",
         "Tutorial.Welcome.LetsStart" : "Zacznijmy!",
