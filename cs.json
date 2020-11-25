@@ -20,6 +20,8 @@
         "General.Done" : "Hotovo!",
         "General.CopiedToClipboard" : "Zkopírováno!",
         "General.CopiedToClipboardLong" : "Zkopírováno do schránky!",
+        "General.Create" : "Vytvořit",
+        "General.Creating" : "Vytvářím...",
 
         "General.UI.SearchPrompt" : "Hledat...",
         "General.UI.SearchPromptLong" : "Zadejte vyhledávání...",
@@ -474,6 +476,7 @@
         "CreateNew.Object" : "Objekt",
         "CreateNew.Object.AvatarCreator" : "Nástroj na tvorbu avatarů",
         "CreateNew.Object.Camera" : "Kamera",
+        "CreateNew.Object.ReflectionProbe" : "Reflection Probe",
         "CreateNew.Object.Mirror" : "Zrcadlo",
         "CreateNew.Object.Portal" : "Portál",
         "CreateNew.Object.VideoPlayer" : "Video přehrávač",
@@ -497,6 +500,8 @@
         "CreateNew.Editor.LightSourcesWizard" : "Průvodce nastavením světel",
         "CreateNew.Editor.AssetOptimizationWizard" : "Průvodce optimalizací assetů",
         "CreateNew.Editor.LogixTransferWizard" : "Průvodce přesunu LogiXu",
+        "CreateNew.Editor.CubemapCreator" : "Tvůrce Cubemap",
+        "CreateNew.Editor.ReflectionProbes" : "Reflection Probes",
 
         "CreateNew.3DModel" : "3D Model",
         "CreateNew.3DModel.Box" : "Kvádr",
@@ -947,6 +952,9 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Sloučit submeshe se stejným materiálem",
         "Inspector.MeshRenderer.SplitByMaterial" : "Rozdělit do samostatných meshů dle materiálu",
 
+        "Inspector.ReflectionProbe.Bake" : "Zapéct odrazy",
+        "Inspector.ReflectionProbe.Baking" : "Zapékám...",
+
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Oddělit části meshe neovlivněné blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Odstranit přebytečné prázdné blendshapes",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Hotovo! Odstraněno: {n,plural, one {# blendshape} other {# blendshapes}}",
@@ -968,6 +976,7 @@
 
         "Inspector.Texture.Size" : "Rozlišení: {width} x {height}",
         "Inspector.Texture.Format" : "Formát: {format}, Využití VRAM: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "ID varianty: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Invertovat barvy",
         "Inspector.Texture.InvertR" : "Invertovat červený kanál",
@@ -1046,6 +1055,43 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Rekalkulovat všechny normály (sloučené)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Rekalkulovat všechny tangenty (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Změněna velikost {n} položek",
+        
+        "Wizard.LightSources.Title" : "Průvodce zdroji světla",
+        "Wizard.LightSources.Header" : "Zdroje světla scény",
+        "Wizard.LightSources.ProcessRoot" : "Zpracovat Root:",
+        "Wizard.LightSources.PointLights" : "Světla z bodu (jako slunce):",
+        "Wizard.LightSources.SpotLights" : "Bodová světla:",
+        "Wizard.LightSources.DirectionalLights" : "Směrová světla:",
+        "Wizard.LightSources.DisabledLights" : "Zakázaná světla:",
+        "Wizard.LightSources.WithTag" : "S tagem:",
+        "Wizard.LightSources.SetShadowType" : "Nastavit typ stínu",
+        "Wizard.LightSources.ChangeIntensity" : "Změnit intenzitu",
+        "Wizard.LightSources.ChangeRange" : "Změnit rozsah šíření",
+        "Wizard.LightSources.Enable" : "Povolit",
+        "Wizard.LightSources.Disable" : "Zakázat",
+        "Wizard.LightSources.Destroy" : "Zničit",
+
+        "Wizard.CubemapCreator.Title" : "Tvůrce Cubemap",
+        "Wizard.CubemapCreator.Textures" : "Zdrojové textury:",
+        "Wizard.CubemapCreator.TexturesNote" : "Všimněte si, že některé konvence mají prohozeny levou a pravou stranu. Pokud vytvořená cubemapa je špatná, zkuste zamněnit levou a pravou texturu.",
+        "Wizard.CubemapCreator.PosX" : "Pozitivní X (pravá)",
+        "Wizard.CubemapCreator.NegX" : "Negativní X (levá)",
+        "Wizard.CubemapCreator.PosY" : "Pozitivní Y (vršek)",
+        "Wizard.CubemapCreator.NegY" : "Negativní Y (spodek)",
+        "Wizard.CubemapCreator.PosZ" : "Pozitivní Z (předek)",
+        "Wizard.CubemapCreator.NegZ" : "Negativní Z (zadek)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Rotace vršek/spodek:",
+
+        "Wizard.ReflectionProbes.Title" : "Reflection Probes",
+        "Wizard.ReflectionProbes.ProcessRoot" : "Zpracovat Root:",
+        "Wizard.ReflectionProbes.ProcessDisabled" : "Zpracování zakázáno",
+        "Wizard.ReflectionProbes.WithTag" : "S tagem:",
+        "Wizard.ReflectionProbes.TeleportUserToProbe" : "Teleportuj mě ke každé probe",
+        "Wizard.ReflectionProbes.DelayBetweenProbes" : "Zpoždění mezi probes",
+        "Wizard.ReflectionProbes.ShowDebugVisuals" : "Zobrazit ladící vizuály",
+        "Wizard.ReflectionProbes.HideDebugVisuals" : "Skrýt ladící vizuály",
+        "Wizard.ReflectionProbes.BakeProbes" : "Zapéct probes",
+        "Wizard.ReflectionProbes.Baking" : "Zapékám {index} z {count}...",
         
         "Tutorial.Welcome.WelcomeTo" : "Vítejte v",
         "Tutorial.Welcome.LetsStart" : "Pojďme začít!",
@@ -1138,9 +1184,9 @@
         "Tutorial.Intro.Website" : "Web",
         "Tutorial.Intro.OutroEnd" : "Pro podpoření projektu se můžete stát naším Patreon patronem.<br><br>Připojte se na náš Discord pro stavové aktualizace, síťování, nebo technickou podporu.",
 
-        "Tutorial.MTC.Avatars" : "Avataři",
-        "Tutorial.MTC.Creation" : "Tvorba",
-        "Tutorial.MTC.RecordingStreaming" : "Nahrávání<br>a streamování",
+        "Tutorial.MTC.Avatars" : "Avataři a komunikace",
+        "Tutorial.MTC.Creation" : "Tvorba a užitečnost",
+        "Tutorial.MTC.RecordingStreaming" : "Nahrávání a streamování",
         
         "Tutorial.Grab.MoveRotate" : "Posouvat/Rotovat chycené objekty",
         "Tutorial.Grab.Scale" : "Chytněte druhou rukou pro škálování",
@@ -1184,17 +1230,6 @@
         "Exiting.SavingChanges" : "Ukládám změny...",
         "Exiting.Exiting" : "Ukončuji...",
         "Exiting.LoggingOut" : "Odhlašuji...",
-
-        "Temporary.MMC.Voting UI": "MMC Hlasovací rozhraní",
-        "Temporary.MMC.Vote": "Hlasovat",
-        "Temporary.MMC.Categories.Name": "Kategorie",
-        "Temporary.MMC.Categories.Worlds": "Světy",
-        "Temporary.MMC.Categories.Other": "Věcičky/Nástroje",
-        "Temporary.MMC.Categories.Avatars": "Avatary",
-        "Temporary.MMC.VoteSuccess": "Úspěšně jste hlasovali pro {voteTarget} v kategorii {category}.",
-        "Temporary.MMC.VoteFailure": "Hlasování selhalo, Váš hlas nebyl zaznamenán. Zkuste to prosím znova.",
-        "Temporary.MMC.VotedAlready": "Již jste v kategorii {category} hlasovali.",
-        "Temporary.MMC.VoteInvalid": "Špatný hlas, zkuste to znova.",
 
         "Dummy" : "Dummy"
     }
