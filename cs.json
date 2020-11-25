@@ -275,9 +275,9 @@
         "Options.FreeformDash.Off" : "Nakláněcí dash: Vypnutý",
         "Options.SeatedMode.On" : "Režim v sedě: Zapnutý",
         "Options.SeatedMode.Off" : "Režim v sedě: Vypnutý",
-        "Options.Nameplates.All" : "Jmenovky: Všechny",
-        "Options.Nameplates.NonContacts" : "Jmenovky: Vyjma kontaktů",
-        "Options.Nameplates.Hide" : "Jmenovky: Skrýt",
+        "Options.Nameplates.All" : "Zobrazit jmenovky: Všechny",
+        "Options.Nameplates.NonContacts" : "Zobrazit jmenovky: Vyjma kontaktů",
+        "Options.Nameplates.Hide" : "Zobrazit jmenovky: Žádné",
 
         "Indicator.OnlineUsers" : "Online uživatelé: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Server:</color> {status, select, Good {Dobrý} Slow {Pomalý} Down {Spadl} NoInternet {Bez internetu}} ({response_ms} ms)",
