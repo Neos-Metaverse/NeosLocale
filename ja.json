@@ -275,6 +275,9 @@
         "Options.FreeformDash.Off" : "フリーフォームダッシュ: Off",
         "Options.SeatedMode.On" : "着席モード: On",
         "Options.SeatedMode.Off" : "着席モード: Off",
+        "Options.Nameplates.All" : "ネームプレート: すべての名前を表示",
+        "Options.Nameplates.NonContacts" : "ネームプレート: フレンドの名前を非表示",
+        "Options.Nameplates.Hide" : "ネームプレート: すべての名前を非表示",
 
         "Indicator.OnlineUsers" : "オンラインユーザー数: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>サーバーステータス:</color> {status, select, Good {良好} Slow {遅い} Down {ダウン} NoInternet {インターネットなし}} ({response_ms} ms)",

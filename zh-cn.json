@@ -74,7 +74,7 @@
 
         "Dash.Screens.Home" : "家",
         "Dash.Screens.Worlds" : "世界",
-        "Dash.Screens.Contacts" : "联络人",
+        "Dash.Screens.Contacts" : "朋友",
         "Dash.Screens.Inventory" : "库存",
         "Dash.Screens.Session" : "会议",
         "Dash.Screens.FileBrowser" : "<nobr>文件浏览器",
@@ -110,7 +110,7 @@
         "World.Error.AccessDenied" : "拒绝访问",
         "World.Error.SecurityViolation" : "安全违规",
         "World.Error.OnlyRegisteredUsers" : "只允许注册用户加入",
-        "World.Error.OnlyContacts" : "仅允许主持人的联系人加入",
+        "World.Error.OnlyContacts" : "仅允许主持人的朋友加入",
         "World.Error.Private" : "本次会议是私人的",
         "World.Error.SessionEnded" : "会议已结束",
         "World.Error.UserLimitReached" : "会议达到了用户限制",
@@ -219,7 +219,7 @@
 
         "World.AccessLevel.Anyone" : "任何人",
         "World.AccessLevel.RegisteredUsers" : "注册用户",
-        "World.AccessLevel.Friends" : "友人",
+        "World.AccessLevel.Friends" : "朋友",
         "World.AccessLevel.LAN" : "局域网",
         "World.AccessLevel.Private" : "私人（仅邀请）",
 
@@ -247,7 +247,7 @@
         "World.Filter.MyWorlds" : "我的世界",
         "World.Filter.SessionFiltering" : "会议过滤:",
         "World.Filter.MinimumUsers" : "最低人数: <b>{n}</b>",
-        "World.Filter.MinimumFriends" : "最少联络人: <b>{n}</b>",
+        "World.Filter.MinimumFriends" : "最少朋友数: <b>{n}</b>",
         "World.Filter.OnlyHeadless" : "仅无头主机",
         "World.Filter.MaxAccessLevel" : "最大访问权限:",
         "World.Filter.MinimumUptime" : "最小正常运行时间:",
@@ -275,6 +275,9 @@
         "Options.FreeformDash.Off" : "自由格式破折号：关闭",
         "Options.SeatedMode.On" : "座位模式：开启",
         "Options.SeatedMode.Off" : "座位模式：关闭",
+        "Options.Nameplates.All" : "铭牌: 显示所有铭牌",
+        "Options.Nameplates.NonContacts" : "铭牌: 隐藏朋友的铭牌",
+        "Options.Nameplates.Hide" : "铭牌: 隐藏所有铭牌",
 
         "Indicator.OnlineUsers" : "在线用户: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>服务器状态:</color> {status, select, Good {良好} Slow {缓慢} Down {为关闭} NoInternet {没有互联网}} ({response_ms} ms)",
@@ -333,7 +336,7 @@
 
         "Session.Permission.Anonymous" : "默认匿名:",
         "Session.Permission.Vistor" : "默认访问者:",
-        "Session.Permission.Contact" : "默认联系人:",
+        "Session.Permission.Contact" : "默认朋友:",
         "Session.Permission.Host" : "默认主机:",
         "Session.Permission.PermissionOverrideCount" : "权限覆盖: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "清除用户替代",
@@ -345,8 +348,8 @@
         "User.Actions.Kick" : "踢",
         "User.Actions.Ban" : "禁止",
 
-        "Contacts.Add" : "添加联系人",
-        "Contacts.Remove" : "移除联系人",
+        "Contacts.Add" : "添加朋友",
+        "Contacts.Remove" : "移除朋友",
         "Contacts.ConfirmRemove" : "真的要删除吗？",
         "Contacts.AcceptRequest" : "接受请求",
         "Contacts.IgnoreRequest" : "忽略要求",
@@ -1099,7 +1102,7 @@
         "Tutorial.Welcome.ScreenUnderstand" : "我明白",
 
         "Tutorial.Welcome.AccountHeader" : "Neos帐户",
-        "Tutorial.Welcome.AccountDescription" : "创建帐户可为您提供1GB的免费存储空间，并可以访问保存项目，使其成为最喜欢的阿凡达，添加联系人和消息传递。",
+        "Tutorial.Welcome.AccountDescription" : "创建帐户可为您提供1GB的免费存储空间，并可以访问保存项目，使其成为最喜欢的阿凡达，添加朋友和消息传递。",
         "Tutorial.Welcome.AccountCreate" : "创建帐户",
         "Tutorial.Welcome.AccountLogin" : "我已经有一个帐户",
         "Tutorial.Welcome.AccountSkip" : "没有帐户继续",
@@ -1172,7 +1175,7 @@
 
         "Tutorial.Intro.HomeScreenTitle" : "您的主屏幕",
         "Tutorial.Intro.HomeScreenDescription" : "您的<color=#ffdd77><b>主屏幕</b></color>包含具有许多功能的方面。<br>其中包括阿凡达创建机器，全身校准器，相机/流媒体，创造新世界。",
-        "Tutorial.Intro.ContactsDescription" : "您的<color=#ffdd77> <b>联系人</b></color>位于仪表板上。<br>使用聊天框向联系人发送消息，语音消息或对象。在右下角。<br>使用左上角的搜索栏添加联系人。",
+        "Tutorial.Intro.ContactsDescription" : "您的<color=#ffdd77> <b>朋友</b></color>位于仪表板上。<br>使用聊天框向朋友发送消息，语音消息或对象。在右下角。<br>使用左上角的搜索栏添加朋友。",
         "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>导入</b></color>文件，3D模型，图像，音频，视频或字体直接导入Neos！<br><color=#77ddff><b>将</b></color>文件拖放到Neos窗口中，或使用<color=#ffdd77><b>文件浏览器</b></color>查找它们。",
         "Tutorial.Intro.SessionTitle" : "会话设置",
         "Tutorial.Intro.SessionDescription" : "可以在<color=#ffdd77><b>会议</b></color>面板中找到与世界上其他用户有关的会话设置，权限级别和设置。",
