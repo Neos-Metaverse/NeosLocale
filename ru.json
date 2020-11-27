@@ -275,6 +275,9 @@
         "Options.FreeformDash.Off" : "Свободное Меню: Выкл",
         "Options.SeatedMode.On" : "Режим сидя: Вкл",
         "Options.SeatedMode.Off" : "Режим сидя: Выкл",
+        "Options.Nameplates.All" : "Имена: Все",
+        "Options.Nameplates.NonContacts" : "Имена: Не-контакты",
+        "Options.Nameplates.Hide" : "Имена: Спрятать",
 
         "Indicator.OnlineUsers" : "Пользователи Онлайн: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Статус Сервера:</color> {status, select, Good{Хорошо} Slow {Медл.} Down {Упал} NoInternet {Нет Интернета}} ({response_ms} мс)",
