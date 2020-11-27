@@ -1,12 +1,6 @@
 # Missing Keys per locale
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
-# Czech [cs]
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-Settings.HideContactNameplates  
-
 # German [de]
 General.Create  
 General.Creating  
@@ -16,7 +10,6 @@ Options.Nameplates.Hide
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
-Settings.HideContactNameplates  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.DynamicBoneChain.SetupFromChildren  
@@ -799,7 +792,6 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
-Settings.HideContactNameplates  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -1130,12 +1122,6 @@ Exiting.SavingChanges
 Exiting.Exiting  
 Exiting.LoggingOut  
 
-# Esperanto [eo]
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-Settings.HideContactNameplates  
-
 # Spanish [es]
 General.Create  
 General.Creating  
@@ -1145,7 +1131,6 @@ Options.Nameplates.Hide
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
-Settings.HideContactNameplates  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
@@ -1227,7 +1212,6 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
 Settings.MaxConcurrentAssetTransfers  
-Settings.HideContactNameplates  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -1803,7 +1787,6 @@ CameraControl.OBS.DroppedFrames
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
 Settings.MaxConcurrentAssetTransfers  
-Settings.HideContactNameplates  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
 Settings.Audio.SelectInputDevice  
@@ -2155,7 +2138,6 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
 Settings.MaxConcurrentAssetTransfers  
-Settings.HideContactNameplates  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -2775,7 +2757,6 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
-Settings.HideContactNameplates  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -3091,18 +3072,6 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
-# Japanese [ja]
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-Settings.HideContactNameplates  
-
-# Korean [ko]
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-Settings.HideContactNameplates  
-
 # Dutch [nl]
 Options.Nameplates.All  
 Options.Nameplates.NonContacts  
@@ -3111,7 +3080,6 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Settings.MaxConcurrentAssetTransfers  
-Settings.HideContactNameplates  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Wizard.LightSources.Title  
@@ -3230,7 +3198,6 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
 Settings.MaxConcurrentAssetTransfers  
-Settings.HideContactNameplates  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -3456,13 +3423,6 @@ Tutorial.Tooltip.WigglerSecondary
 Options.Nameplates.All  
 Options.Nameplates.NonContacts  
 Options.Nameplates.Hide  
-Settings.HideContactNameplates  
-
-# Russian [ru]
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-Settings.HideContactNameplates  
 
 # Swedish [sv]
 General.Save  
@@ -4164,7 +4124,6 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
-Settings.HideContactNameplates  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -4522,7 +4481,6 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Settings.MaxConcurrentAssetTransfers  
-Settings.HideContactNameplates  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
@@ -4621,16 +4579,4 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
-
-# Chinese (China) [zh-cn]
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-Settings.HideContactNameplates  
-
-# Chinese (Taiwan) [zh-tw]
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-Settings.HideContactNameplates  
 
