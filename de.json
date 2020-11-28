@@ -1,6 +1,6 @@
 {
     "localeCode" : "de",
-    "authors" : ["Avunia", "Elektrospy", "MR-Alex", "Schwefelhexafluorid", "Blaze", "Tillikum", "Bluigi"],
+    "authors" : ["Avunia", "Elektrospy", "MR-Alex", "Schwefelhexafluorid", "Blaze", "Tillikum", "Bluigi", "Ardes"],
     "messages" :
     {
         "General.OK" : "OK",
@@ -20,6 +20,8 @@
         "General.Done" : "Erledigt!",
         "General.CopiedToClipboard" : "Kopiert!",
         "General.CopiedToClipboardLong" : "In Zwischenablage kopiert!",
+        "General.Create" : "Erstellen",
+        "General.Creating" : "wird erstellt...",
 
         "General.UI.SearchPrompt" : "Suchen...",
         "General.UI.SearchPromptLong" : "Tippen zum Suchen...",
@@ -273,6 +275,9 @@
         "Options.FreeformDash.Off" : "Freiform-Dash: Aus",
         "Options.SeatedMode.On" : "Modus: Sitzend",
         "Options.SeatedMode.Off" : "Modus: Stehend",
+        "Options.Nameplates.All" : "Namensschild: Alle",
+        "Options.Nameplates.NonContacts" : "Namensschild: nicht Kontakte",
+        "Options.Nameplates.Hide" : "Namensschild: verbergen",
 
         "Indicator.OnlineUsers" : "Nutzer online: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Server-Status:</color> {status, select, Good {OK} Slow {Langsam} Down {Außer Betrieb} NoInternet {Kein Internet}} ({response_ms} ms)",
@@ -474,6 +479,7 @@
         "CreateNew.Object" : "Objekt",
         "CreateNew.Object.AvatarCreator" : "Avatar-Assistent",
         "CreateNew.Object.Camera" : "Kamera",
+        "CreateNew.Object.ReflectionProbe" : "Reflexions-Sonde",
         "CreateNew.Object.Mirror" : "Spiegel",
         "CreateNew.Object.Portal" : "Portal",
         "CreateNew.Object.VideoPlayer" : "Video-Player",
@@ -497,6 +503,8 @@
         "CreateNew.Editor.LightSourcesWizard" : "Welt-Lichtquellen-Assistent",
         "CreateNew.Editor.AssetOptimizationWizard" : "Asset-Optimierungs-Assistent",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX-Transfer-Assistent",
+        "CreateNew.Editor.CubemapCreator" : "Cubemap-Assistent",
+        "CreateNew.Editor.ReflectionProbes" : "Reflexions-Sonden",
 
         "CreateNew.3DModel" : "3D-Modell",
         "CreateNew.3DModel.Box" : "Quader",
@@ -946,6 +954,9 @@
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Submeshes mit demselben Material zusammenführen",
         "Inspector.MeshRenderer.SplitByMaterial" : "Nach Material in separate Meshes aufteilen",
+                
+        "Inspector.ReflectionProbe.Bake" : "Reflektionen berechnen",
+        "Inspector.ReflectionProbe.Baking" : "berechnung...",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Trenne Teile des Meshes, welche nicht von Blendshapes betroffen sind",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Entferne leere Blendshapes",
@@ -1019,8 +1030,8 @@
         "Inspector.Audio.MakeLoopable" : "Wiederholbar machen (durch crossfade)",
         "Inspector.Audio.ToWAV" : "Konvertiere zu WAV",
         "Inspector.Audio.ToVorbis" : "Konvertiere zu OGG Vorbis",
-        "Inspector.Audio.ToFLAC" : "Konvertiere zu FLAC",
-
+        "Inspector.Audio.ToFLAC" : "Konvertiere zu FLAC",      
+        
         "Wizard.General.ProcessRoot" : "Root verarbeiten:",
         "Wizard.General.Result" : "Ergebnis:",
         "Wizard.General.ErrorNoRoot" : "Kein Root ausgewählt",
