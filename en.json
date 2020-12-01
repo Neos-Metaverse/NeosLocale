@@ -504,7 +504,7 @@
         "CreateNew.Editor.AssetOptimizationWizard" : "Asset Optimization Wizard",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX Transfer Wizard",
         "CreateNew.Editor.CubemapCreator" : "Cubemap Creator",
-        "CreateNew.Editor.ReflectionProbes" : "Reflection Probes",
+        "CreateNew.Editor.ReflectionProbes" : "Reflection Probe Wizard",
 
         "CreateNew.3DModel" : "3D Model",
         "CreateNew.3DModel.Box" : "Box",
@@ -1085,7 +1085,7 @@
         "Wizard.CubemapCreator.NegZ" : "Negative Z (back)",
         "Wizard.CubemapCreator.TopBottomRotation" : "Top/Bottom Rotation:",
 
-        "Wizard.ReflectionProbes.Title" : "Reflection Probes",
+        "Wizard.ReflectionProbes.Title" : "Reflection Probe Wizard",
         "Wizard.ReflectionProbes.ProcessRoot" : "Process Root:",
         "Wizard.ReflectionProbes.ProcessDisabled" : "Process Disabled",
         "Wizard.ReflectionProbes.WithTag" : "With Tag:",

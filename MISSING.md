@@ -2,16 +2,6 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # German [de]
-General.Create  
-General.Creating  
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-CreateNew.Object.ReflectionProbe  
-CreateNew.Editor.CubemapCreator  
-CreateNew.Editor.ReflectionProbes  
-Inspector.ReflectionProbe.Bake  
-Inspector.ReflectionProbe.Baking  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -1121,53 +1111,6 @@ Exiting.SavingItems
 Exiting.SavingChanges  
 Exiting.Exiting  
 Exiting.LoggingOut  
-
-# Spanish [es]
-General.Create  
-General.Creating  
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-CreateNew.Object.ReflectionProbe  
-CreateNew.Editor.CubemapCreator  
-CreateNew.Editor.ReflectionProbes  
-Inspector.ReflectionProbe.Bake  
-Inspector.ReflectionProbe.Baking  
-Inspector.Texture.Variant  
-Wizard.LightSources.Title  
-Wizard.LightSources.Header  
-Wizard.LightSources.ProcessRoot  
-Wizard.LightSources.PointLights  
-Wizard.LightSources.SpotLights  
-Wizard.LightSources.DirectionalLights  
-Wizard.LightSources.DisabledLights  
-Wizard.LightSources.WithTag  
-Wizard.LightSources.SetShadowType  
-Wizard.LightSources.ChangeIntensity  
-Wizard.LightSources.ChangeRange  
-Wizard.LightSources.Enable  
-Wizard.LightSources.Disable  
-Wizard.LightSources.Destroy  
-Wizard.CubemapCreator.Title  
-Wizard.CubemapCreator.Textures  
-Wizard.CubemapCreator.TexturesNote  
-Wizard.CubemapCreator.PosX  
-Wizard.CubemapCreator.NegX  
-Wizard.CubemapCreator.PosY  
-Wizard.CubemapCreator.NegY  
-Wizard.CubemapCreator.PosZ  
-Wizard.CubemapCreator.NegZ  
-Wizard.CubemapCreator.TopBottomRotation  
-Wizard.ReflectionProbes.Title  
-Wizard.ReflectionProbes.ProcessRoot  
-Wizard.ReflectionProbes.ProcessDisabled  
-Wizard.ReflectionProbes.WithTag  
-Wizard.ReflectionProbes.TeleportUserToProbe  
-Wizard.ReflectionProbes.DelayBetweenProbes  
-Wizard.ReflectionProbes.ShowDebugVisuals  
-Wizard.ReflectionProbes.HideDebugVisuals  
-Wizard.ReflectionProbes.BakeProbes  
-Wizard.ReflectionProbes.Baking  
 
 # Estonian [et]
 General.Save  
