@@ -504,7 +504,7 @@
         "CreateNew.Editor.AssetOptimizationWizard" : "资产优化设置向导",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX传输设置向导",
         "CreateNew.Editor.CubemapCreator" : "立方体贴图创建机器",
-        "CreateNew.Editor.ReflectionProbes" : "反射探针",
+        "CreateNew.Editor.ReflectionProbes" : "反射探针设置向导",
 
         "CreateNew.3DModel" : "3D模型",
         "CreateNew.3DModel.Box" : "盒型",
@@ -1085,7 +1085,7 @@
         "Wizard.CubemapCreator.NegZ" : "负Z（后退）",
         "Wizard.CubemapCreator.TopBottomRotation" : "顶部/底部旋转：",
 
-        "Wizard.ReflectionProbes.Title" : "反射探针",
+        "Wizard.ReflectionProbes.Title" : "反射探针设置向导",
         "Wizard.ReflectionProbes.ProcessRoot" : "进程根:",
         "Wizard.ReflectionProbes.ProcessDisabled" : "进程已禁用",
         "Wizard.ReflectionProbes.WithTag" : "带标签:",

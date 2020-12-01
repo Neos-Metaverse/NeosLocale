@@ -504,7 +504,7 @@
         "CreateNew.Editor.AssetOptimizationWizard" : "アセット最適化ウィザード",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX転送ウィザード",
         "CreateNew.Editor.CubemapCreator" : "キューブマップクリエイター",
-        "CreateNew.Editor.ReflectionProbes" : "リフレクションプローブ",
+        "CreateNew.Editor.ReflectionProbes" : "リフレクションプローブウィザード",
 
         "CreateNew.3DModel" : "3Dモデル",
         "CreateNew.3DModel.Box" : "ボックス",
@@ -1085,7 +1085,7 @@
         "Wizard.CubemapCreator.NegZ" : "-Z軸 (後面)",
         "Wizard.CubemapCreator.TopBottomRotation" : "上/下回転:",
 
-        "Wizard.ReflectionProbes.Title" : "リフレクションプローブ",
+        "Wizard.ReflectionProbes.Title" : "リフレクションプローブウィザード",
         "Wizard.ReflectionProbes.ProcessRoot" : "プロセスルート:",
         "Wizard.ReflectionProbes.ProcessDisabled" : "無効化されたプローブ",
         "Wizard.ReflectionProbes.WithTag" : "タグで設定:",

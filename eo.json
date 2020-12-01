@@ -502,9 +502,9 @@
         "CreateNew.Editor.UserInspector": "Inspektisto de uzantoj",
         "CreateNew.Editor.LightSourcesWizard": "Sorĉisto de Lumaj Fontoj",
         "CreateNew.Editor.AssetOptimizationWizard": "Sorĉisto pri Aktivigo",
-        "CreateNew.Editor.LogixTransferWizard": "Transiga Sorĉisto LogiX",
+        "CreateNew.Editor.LogixTransferWizard": "Transiga Sorĉisto de LogiX",
         "CreateNew.Editor.CubemapCreator" : "Cubemap-Kreinto",
-        "CreateNew.Editor.ReflectionProbes" : "Reflekta Sondo",
+        "CreateNew.Editor.ReflectionProbes" : "Sorĉisto de Reflekta Sondo",
 
         "CreateNew.3DModel": "3D-modelo",
         "CreateNew.3DModel.Box": "Skatolo",
@@ -1085,7 +1085,7 @@
         "Wizard.CubemapCreator.NegZ": "Negativa Z (malantaŭa)",
         "Wizard.CubemapCreator.TopBottomRotation": "Supra / Malsupra Rotacio:",
 
-        "Wizard.ReflectionProbes.Title": "Reflekta Sondo",
+        "Wizard.ReflectionProbes.Title": "Sorĉisto de Reflekta Sondo",
         "Wizard.ReflectionProbes.ProcessRoot": "Procesi Radiko:",
         "Wizard.ReflectionProbes.ProcessDisabled": "Procezo malebligita",
         "Wizard.ReflectionProbes.WithTag": "Kun Etikedo:",

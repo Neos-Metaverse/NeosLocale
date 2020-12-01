@@ -504,7 +504,7 @@
         "CreateNew.Editor.AssetOptimizationWizard" : "資產優化設置嚮導",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX傳輸設置嚮導",
         "CreateNew.Editor.CubemapCreator" : "立方體貼圖創建機器",
-        "CreateNew.Editor.ReflectionProbes" : "反射探針",
+        "CreateNew.Editor.ReflectionProbes" : "反射探針設置嚮導",
 
         "CreateNew.3DModel" : "3D模型",
         "CreateNew.3DModel.Box" : "盒型",
@@ -1085,7 +1085,7 @@
         "Wizard.CubemapCreator.NegZ" : "負Z（後退）",
         "Wizard.CubemapCreator.TopBottomRotation" : "頂部/底部旋轉：",
         
-        "Wizard.ReflectionProbes.Title" : "反射探針",
+        "Wizard.ReflectionProbes.Title" : "反射探針設置嚮導",
         "Wizard.ReflectionProbes.ProcessRoot" : "進程根:",
         "Wizard.ReflectionProbes.ProcessDisabled" : "進程已禁用",
         "Wizard.ReflectionProbes.WithTag" : "帶標籤:",
