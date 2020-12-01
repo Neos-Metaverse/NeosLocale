@@ -504,7 +504,7 @@
         "CreateNew.Editor.AssetOptimizationWizard" : "Kreator Optymizacji Zasobów",
         "CreateNew.Editor.LogixTransferWizard" : "Kreator Transferu LogiX",
         "CreateNew.Editor.CubemapCreator" : "Kreator Cubemap",
-        "CreateNew.Editor.ReflectionProbes" : "Próbki Odbicia",
+        "CreateNew.Editor.ReflectionProbes" : "Kreator Próbek Odbicia",
 
         "CreateNew.3DModel" : "Model 3D",
         "CreateNew.3DModel.Box" : "Pudełko",
@@ -1085,7 +1085,7 @@
         "Wizard.CubemapCreator.NegZ" : "Negatywny Z (tył)",
         "Wizard.CubemapCreator.TopBottomRotation" : "Obrót Góry i Dołu:",
 
-        "Wizard.ReflectionProbes.Title" : "Próbki Odbicia",
+        "Wizard.ReflectionProbes.Title" : "Kreator Próbek Odbicia",
         "Wizard.ReflectionProbes.ProcessRoot" : "Miejsce Operacji:",
         "Wizard.ReflectionProbes.ProcessDisabled" : "Proces Wyłączony",
         "Wizard.ReflectionProbes.WithTag" : "Z Tagiem:",
