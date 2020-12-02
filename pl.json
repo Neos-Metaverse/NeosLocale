@@ -275,6 +275,9 @@
         "Options.FreeformDash.Off" : "Swobodna Tablica: Nie",
         "Options.SeatedMode.On" : "Tryb Siedzący: Tak",
         "Options.SeatedMode.Off" : "Tryb Siedzący: Nie",
+        "Options.Nameplates.All" : "Nazwy Graczy: Wszystkie",
+        "Options.Nameplates.NonContacts" : "Nazwy Graczy: Nie Kontakty",
+        "Options.Nameplates.Hide" : "Nazwy Graczy: Ukryte",
 
         "Indicator.OnlineUsers" : "Użytkownicy Online: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Status Serwera:</color> {status, select, Good {Dobry} Slow {Wolny} Down {Awaria} NoInternet {Brak Internetu}} ({response_ms} ms)",
@@ -501,7 +504,7 @@
         "CreateNew.Editor.AssetOptimizationWizard" : "Kreator Optymizacji Zasobów",
         "CreateNew.Editor.LogixTransferWizard" : "Kreator Transferu LogiX",
         "CreateNew.Editor.CubemapCreator" : "Kreator Cubemap",
-        "CreateNew.Editor.ReflectionProbes" : "Próbki Odbicia",
+        "CreateNew.Editor.ReflectionProbes" : "Kreator Próbek Odbicia",
 
         "CreateNew.3DModel" : "Model 3D",
         "CreateNew.3DModel.Box" : "Pudełko",
@@ -1082,7 +1085,7 @@
         "Wizard.CubemapCreator.NegZ" : "Negatywny Z (tył)",
         "Wizard.CubemapCreator.TopBottomRotation" : "Obrót Góry i Dołu:",
 
-        "Wizard.ReflectionProbes.Title" : "Próbki Odbicia",
+        "Wizard.ReflectionProbes.Title" : "Kreator Próbek Odbicia",
         "Wizard.ReflectionProbes.ProcessRoot" : "Miejsce Operacji:",
         "Wizard.ReflectionProbes.ProcessDisabled" : "Proces Wyłączony",
         "Wizard.ReflectionProbes.WithTag" : "Z Tagiem:",
