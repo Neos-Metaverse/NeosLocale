@@ -499,12 +499,12 @@
         "CreateNew.Text.Outline" : "Выделенный",
 
         "CreateNew.Editor" : "Редактор",
-        "CreateNew.Editor.UserInspector" : "Обозреватель Пользователей",
-        "CreateNew.Editor.LightSourcesWizard" : "Мастер Источников Света",
-        "CreateNew.Editor.AssetOptimizationWizard" : "Мастер Оптимизации Ассетов",
+        "CreateNew.Editor.UserInspector" : "Обозреватель пользователей",
+        "CreateNew.Editor.LightSourcesWizard" : "Мастер источников света",
+        "CreateNew.Editor.AssetOptimizationWizard" : "Мастер оптимизации ассетов",
         "CreateNew.Editor.LogixTransferWizard" : "Мастер переноса LogiX",
-        "CreateNew.Editor.CubemapCreator" : "Создание Cubemap",
-        "CreateNew.Editor.ReflectionProbes" : "Reflection Probes",
+        "CreateNew.Editor.CubemapCreator" : "Мастер создания Cubemap",
+        "CreateNew.Editor.ReflectionProbes" : "Мастер Reflection Probes",
 
         "CreateNew.3DModel" : "3D Модель",
         "CreateNew.3DModel.Box" : "Куб",
@@ -1074,7 +1074,7 @@
         "Wizard.LightSources.Disable" : "Выключить",
         "Wizard.LightSources.Destroy" : "Удалить",
 
-        "Wizard.CubemapCreator.Title" : "Создание кубической панорамы",
+        "Wizard.CubemapCreator.Title" : "Мастер создания Cubemap",
         "Wizard.CubemapCreator.Textures" : "Исходные текстуры:",
         "Wizard.CubemapCreator.TexturesNote" : "Учтите, что некоторые стандарты меняют местами левую и правую стороны. Если полученная панорама выглядит неправильно, поменяйте текстуры местами.",
         "Wizard.CubemapCreator.PosX" : "Положительный X (правая)",
@@ -1085,7 +1085,7 @@
         "Wizard.CubemapCreator.NegZ" : "Отрицательный Z (задняя)",
         "Wizard.CubemapCreator.TopBottomRotation" : "Поворот верхней/нижней граней:",
 
-        "Wizard.ReflectionProbes.Title" : "Reflection Probes",
+        "Wizard.ReflectionProbes.Title" : "Мастер Reflection Probes",
         "Wizard.ReflectionProbes.ProcessRoot" : "Корень обработки:",
         "Wizard.ReflectionProbes.ProcessDisabled" : "Обрабатывать выключенные",
         "Wizard.ReflectionProbes.WithTag" : "С тэгом:",
