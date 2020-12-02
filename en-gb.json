@@ -1,6 +1,6 @@
 {
     "localeCode" : "en-gb",
-    "authors" : ["Nammi", "Enverex"],
+    "authors" : ["Nammi", "Enverex", "atomicwave", "CyberZott"],
     "messages" : 
     {
         "Dash.Actions.MTC" : "Metaverse Training Centre <size=75%>(tutorials)</size>",
@@ -11,13 +11,25 @@
 
         "AvatarCreator.CenterHead" : "Centre Head Position",
 
+        "Tooltip.Microphone.SourceFiltered" : "Filtered & Normalised",
+
+        "CreateNew.Editor.AssetOptimizationWizard" : "Asset Optimisation Wizard",
+
+        "AvatarCreator.AlignHeadForward" : "Align Head Forwards",
+
         "Importer.Folder.Individual.Description" : "Creates a separate import dialogue for each supported file in the folder",
         "Importer.Model.VertexColorModel" : "Vertex Coloured Model",
+        "Importer.Model.Meters" : "Metres (m)",
         "Importer.Model.Millimeters" : "Millimetres (mm)",
         "Importer.Model.Centimeters" : "Centimetres (cm)",
         "Importer.Model.Advanced.VertexColors" : "Import Vertex Colours",
         "Importer.Model.Advanced.AlbedoColor" : "Import Albedo Colour",
+        "Importer.Model.Advanced.VisualizeRig" : "Visualise Rig",
+        "Importer.Model.Advanced.Optimize" : "Optimise Model/Scene",
         "Importer.Model.Advanced.RandomColors" : "Generate Random Colours",
+
+        "Settings.Audio.DisableVoiceNormalization" : "Disable Voice Normalisation",
+        "Settings.Audio.NormzliationThreshold" : "Normalisation Threshold: {n}",
 
         "Inspector.Mesh.ChannelStats" : "Normals: {normals}, Tangents: {tangents}, Colours: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Visualise bone bounding boxes",
@@ -25,6 +37,14 @@
         "Inspector.Texture.ColorToAlphaWhite" : "Colour to Alpha (white)",
         "Inspector.Texture.ColorToAlphaBlack" : "Colour to Alpha (black)",
         "Inspector.Texture.ConvertToGrayscaleAverage" : "Convert to greyscale (average)",
+
+        "Inspector.Audio.Normalize" : "Normalise Volume",
+
+        "Wizard.AssetOptimization.Title" : "Asset Optimisation Wizard",
+
+        "Tutorial.Tooltip.ColorPrimary" : "Apply Colour",
+        "Tutorial.Tooltip.ColorSecondary" : "Pick Colour",
+        "Tutorial.Tooltip.LightSecondary" : "Change Colour",
 
         "Dummy" : "Dummy"
     }
