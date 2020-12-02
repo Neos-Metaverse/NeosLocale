@@ -838,6 +838,7 @@
         "Settings.SpeedExponent" : "Exponent Rychlosti",
         "Settings.MoveThreshold" : "Mrtvá zóna pro pohyb",
         "Settings.ControllerVibration" : "Použít vibrace ovladače",
+        "Settings.Haptics" : "Haptická odezva",
         "Settings.DisablePhysicalInteractions" : "Zakázat fyzické interakce",
         "Settings.EnableGestures" : "Zapnout Gesta",
         "Settings.DoubleClickInterval" : "Interval dvojkliku",
