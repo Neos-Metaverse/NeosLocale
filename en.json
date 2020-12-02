@@ -134,7 +134,7 @@
         "World.Config.AutoKickAFKMinutes" : "Max AFK Minutes:",
         "World.Config.HideFromListing" : "Don't show in session lists",
         "World.Config.Autosave" : "Autosave (will overwrite last save):",
-        "World.Config.AutosaveInterval" : "Autosave every minutes:",
+        "World.Config.AutosaveInterval" : "Autosave interval (minutes):",
         "World.Config.CleanupAssets" : "Cleanup Unused Assets:",
         "World.Config.CleanupInterval" : "Cleanup interval (seconds):",
 
@@ -838,6 +838,7 @@
         "Settings.SpeedExponent" : "Speed Exponent",
         "Settings.MoveThreshold" : "Movement Deadzone",
         "Settings.ControllerVibration" : "Controller Vibration",
+        "Settings.Haptics" : "Haptics Feedback",
         "Settings.DisablePhysicalInteractions" : "Disable Physical Interactions",
         "Settings.EnableGestures" : "Enable Gestures",
         "Settings.DoubleClickInterval" : "Double Click Interval",

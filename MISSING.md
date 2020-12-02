@@ -1,7 +1,11 @@
 # Missing Keys per locale
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
+# Czech [cs]
+Settings.Haptics  
+
 # German [de]
+Settings.Haptics  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -455,7 +459,6 @@ Tooltip.Microphone.Format.FLAC
 Tooltip.Microphone.ModeHold  
 Tooltip.Microphone.ModePress  
 Tooltip.Microphone.SourceRaw  
-Tooltip.Microphone.SourceFiltered  
 CreateNew.Back  
 CreateNew.EmptyObject  
 CreateNew.ParticleSystem  
@@ -481,7 +484,6 @@ CreateNew.Text.Outline
 CreateNew.Editor  
 CreateNew.Editor.UserInspector  
 CreateNew.Editor.LightSourcesWizard  
-CreateNew.Editor.AssetOptimizationWizard  
 CreateNew.Editor.LogixTransferWizard  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
@@ -515,7 +517,6 @@ AvatarCreator.SetupEyes
 AvatarCreator.ProtectAvatar  
 AvatarCreator.CalibrateFeet  
 AvatarCreator.CalibrateHips  
-AvatarCreator.AlignHeadForward  
 AvatarCreator.AlignHeadUp  
 AvatarCreator.AlignHeadRight  
 AvatarCreator.TryAlignHands  
@@ -553,7 +554,6 @@ Importer.Model.SeparableKind
 Importer.Model.UnitsPrompt  
 Importer.Model.AutoScale  
 Importer.Model.AutoHumanoid  
-Importer.Model.Meters  
 Importer.Model.Inches  
 Importer.Model.FinalizePrompt  
 Importer.Model.RunImport  
@@ -575,13 +575,11 @@ Importer.Model.Advanced.SetupTimelapse
 Importer.Model.Advanced.ImportExternalTextures  
 Importer.Model.Advanced.SkinnedMeshes  
 Importer.Model.Advanced.SetupIK  
-Importer.Model.Advanced.VisualizeRig  
 Importer.Model.Advanced.ForceTpose  
 Importer.Model.Advanced.ForcePointCloud  
 Importer.Model.Advanced.DualSided  
 Importer.Model.Advanced.FlatShaded  
 Importer.Model.Advanced.DeduplicateInstances  
-Importer.Model.Advanced.Optimize  
 Importer.Model.Advanced.SpawnMaterialOrbs  
 Importer.Model.Advanced.ImagesByName  
 Importer.Model.Advanced.Grabbable  
@@ -773,6 +771,7 @@ Settings.NoclipSpeed
 Settings.SpeedExponent  
 Settings.MoveThreshold  
 Settings.ControllerVibration  
+Settings.Haptics  
 Settings.DisablePhysicalInteractions  
 Settings.EnableGestures  
 Settings.DoubleClickInterval  
@@ -795,9 +794,7 @@ Settings.Audio.SoundEffects
 Settings.Audio.Multimedia  
 Settings.Audio.Voice  
 Settings.Audio.UI  
-Settings.Audio.DisableVoiceNormalization  
 Settings.Audio.NoiseGateThreshold  
-Settings.Audio.NormzliationThreshold  
 Settings.Audio.InputDevice  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
@@ -921,7 +918,6 @@ Inspector.Audio.BakeAudio
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
 Inspector.Audio.EncodingInfo  
-Inspector.Audio.Normalize  
 Inspector.Audio.AmplitudeThreshold  
 Inspector.Audio.TrimSilence  
 Inspector.Audio.TrimStartSilence  
@@ -947,7 +943,6 @@ Wizard.General.ProcessRoot
 Wizard.General.Result  
 Wizard.General.ErrorNoRoot  
 Wizard.General.RemovedResult  
-Wizard.AssetOptimization.Title  
 Wizard.AssetOptimization.CleanupUnusedAssets  
 Wizard.AssetOptimization.CleanupEmptySlots  
 Wizard.AssetOptimization.CleanupDisabledMeshRenderers  
@@ -1088,8 +1083,6 @@ Tutorial.Tooltip.DevSecondary
 Tutorial.Tooltip.Duplicator  
 Tutorial.Tooltip.GluePrimary  
 Tutorial.Tooltip.GlueSecondary  
-Tutorial.Tooltip.ColorPrimary  
-Tutorial.Tooltip.ColorSecondary  
 Tutorial.Tooltip.Brush  
 Tutorial.Tooltip.MaterialPrimary  
 Tutorial.Tooltip.MaterialSecondary  
@@ -1100,7 +1093,6 @@ Tutorial.Tooltip.CharacterColliderSecondary
 Tutorial.Tooltip.GrabbableSetterPrimary  
 Tutorial.Tooltip.GrabbableSetterSecondary  
 Tutorial.Tooltip.LightPrimary  
-Tutorial.Tooltip.LightSecondary  
 Tutorial.Tooltip.MeshVisibilityPrimary  
 Tutorial.Tooltip.MeshVisibilitySecondary  
 Tutorial.Tooltip.ShapePrimary  
@@ -1111,6 +1103,12 @@ Exiting.SavingItems
 Exiting.SavingChanges  
 Exiting.Exiting  
 Exiting.LoggingOut  
+
+# Esperanto [eo]
+Settings.Haptics  
+
+# Spanish [es]
+Settings.Haptics  
 
 # Estonian [et]
 General.Save  
@@ -1154,6 +1152,7 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
+Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
@@ -1729,6 +1728,7 @@ CameraControl.OBS.FPS
 CameraControl.OBS.DroppedFrames  
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
+Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
@@ -2080,6 +2080,7 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
+Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
@@ -2691,6 +2692,7 @@ Settings.HideAllTutorials
 Settings.ShowInteractionHints  
 Settings.SpeedExponent  
 Settings.MoveThreshold  
+Settings.Haptics  
 Settings.DisablePhysicalInteractions  
 Settings.EnableGestures  
 Settings.DoubleClickInterval  
@@ -3015,6 +3017,12 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
+# Japanese [ja]
+Settings.Haptics  
+
+# Korean [ko]
+Settings.Haptics  
+
 # Dutch [nl]
 Options.Nameplates.All  
 Options.Nameplates.NonContacts  
@@ -3022,6 +3030,7 @@ Options.Nameplates.Hide
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
@@ -3140,6 +3149,7 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
+Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
@@ -3363,9 +3373,10 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
+Settings.Haptics  
+
+# Russian [ru]
+Settings.Haptics  
 
 # Swedish [sv]
 General.Save  
@@ -4058,6 +4069,7 @@ Settings.NoclipSpeed
 Settings.SpeedExponent  
 Settings.MoveThreshold  
 Settings.ControllerVibration  
+Settings.Haptics  
 Settings.DisablePhysicalInteractions  
 Settings.EnableGestures  
 Settings.DoubleClickInterval  
@@ -4423,6 +4435,7 @@ Options.Nameplates.Hide
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
@@ -4522,4 +4535,10 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
+
+# Chinese (China) [zh-cn]
+Settings.Haptics  
+
+# Chinese (Taiwan) [zh-tw]
+Settings.Haptics  
 
