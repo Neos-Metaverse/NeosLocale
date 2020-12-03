@@ -838,6 +838,7 @@
         "Settings.SpeedExponent": "Rapida Eksponento",
         "Settings.MoveThreshold": "Movada Mortzono",
         "Settings.ControllerVibration": "Vibrado de Regilo",
+        "Settings.Haptics": "Tuŝ-retrokuplado",
         "Settings.DisablePhysicalInteractions": "Malŝalti fizikajn interagojn",
         "Settings.EnableGestures": "Ebligi Gestojn",
         "Settings.DoubleClickInterval": "Duobla Alklako-Intervalo",
