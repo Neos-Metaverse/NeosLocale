@@ -1,9 +1,6 @@
 # Missing Keys per locale
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
-# Czech [cs]
-Settings.Haptics  
-
 # German [de]
 Settings.Haptics  
 Inspector.DynamicBoneChain.SetupFromChildren  
@@ -1103,9 +1100,6 @@ Exiting.SavingItems
 Exiting.SavingChanges  
 Exiting.Exiting  
 Exiting.LoggingOut  
-
-# Esperanto [eo]
-Settings.Haptics  
 
 # Spanish [es]
 Settings.Haptics  
@@ -3017,12 +3011,6 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
-# Japanese [ja]
-Settings.Haptics  
-
-# Korean [ko]
-Settings.Haptics  
-
 # Dutch [nl]
 Options.Nameplates.All  
 Options.Nameplates.NonContacts  
@@ -3375,40 +3363,14 @@ Tutorial.Tooltip.WigglerSecondary
 # Polish [pl]
 Settings.Haptics  
 
-# Russian [ru]
-Settings.Haptics  
-
 # Swedish [sv]
 General.Save  
 General.Saving  
 General.Create  
 General.Creating  
-Interaction.NamedEquipTool  
-Interaction.NamedEquipTool.Default  
-Interaction.EnterAnchor  
-Interaction.ExitAnchor  
-Interaction.EquipAvatar  
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
-Dash.Screens.Home  
-Dash.Screens.Worlds  
-Dash.Screens.Contacts  
-Dash.Screens.Inventory  
-Dash.Screens.Session  
-Dash.Screens.FileBrowser  
-Dash.Screens.Settings  
-Dash.Screens.Exit  
-Dash.Actions.PasteFromClipboard  
-Dash.Actions.CoreWorldsHeader  
-Dash.Actions.ContentHub  
-Dash.Actions.MTC  
-Dash.Actions.CloudHome  
-Dash.Exit.Header  
-Dash.Exit.ExitAndSave  
-Dash.Exit.ExitAndDiscard  
-Dash.Exit.ThankYou  
-Dash.Exit.SubmittedBy  
 World.Waiting  
 World.HostIsStarting  
 World.Loading  
@@ -4535,10 +4497,4 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
-
-# Chinese (China) [zh-cn]
-Settings.Haptics  
-
-# Chinese (Taiwan) [zh-tw]
-Settings.Haptics  
 
