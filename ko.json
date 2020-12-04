@@ -1225,6 +1225,8 @@
 		"Options.Nameplates.NonContacts": "명판: 연락처에 없는 사람",
 		"Options.Nameplates.Hide": "명판: 숨김",
 		
+		"Settings.Haptics": "햅틱(터치진동) 반응 활성화",
+		
 		"Dummy": "더미"
 	}
 }
