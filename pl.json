@@ -838,6 +838,7 @@
         "Settings.SpeedExponent" : "Wykładnik Prędkości",
         "Settings.MoveThreshold" : "Martwa Strefa Poruszania",
         "Settings.ControllerVibration" : "Wibracje Kontrolera",
+        "Settings.Haptics" : "Wibracje Zwrotne",
         "Settings.DisablePhysicalInteractions" : "Wyłącz Interakcje Fizyczne",
         "Settings.EnableGestures" : "Włącz Gesty",
         "Settings.DoubleClickInterval" : "Interwał Dwukrotnego Kliknięcia",
