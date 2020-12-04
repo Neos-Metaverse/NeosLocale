@@ -1,6 +1,6 @@
 {
     "localeCode" : "en",
-    "authors" : ["Frooxius", "Enverex"],
+    "authors" : ["Frooxius", "Enverex", "rampa_3", "Melnus"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -14,10 +14,14 @@
         "General.FAILED" : "FAILED",
         "General.Reset" : "Reset",
         "General.WorldOpenConfirm" : "Really open?",
+        "General.Save" : "Save",
+        "General.Saving" : "Saving...",
         "General.Saved" : "Saved!",
         "General.Done" : "Done!",
         "General.CopiedToClipboard" : "Copied!",
         "General.CopiedToClipboardLong" : "Copied to clipboard!",
+        "General.Create" : "Create",
+        "General.Creating" : "Creating...",
 
         "General.UI.SearchPrompt" : "Search...",
         "General.UI.SearchPromptLong" : "Type to search...",
@@ -34,7 +38,7 @@
         "Locomotion.WalkRun.Name" : "Walk/Run",
         "Locomotion.WalkRun.Description" : "Physical walking, running and jumping.",
         "Locomotion.WalkRunGripping.Name" : "Walk/Run (with climbing)",
-        "Locomotion.WalkRunGripping.Description" : "Physical walking, running and jumping and climbing.",
+        "Locomotion.WalkRunGripping.Description" : "Physical walking, running, jumping and climbing.",
         "Locomotion.ZeroG.Name" : "Zero-G",
         "Locomotion.ZeroG.Description" : "Weightless physical locomotion",
         "Locomotion.GrabWorld.Name" : "Grab World",
@@ -63,6 +67,10 @@
         "Interaction.ExitAnchor" : "Exit Anchor",
 
         "Interaction.EquipAvatar" : "Equip Avatar",
+
+        "Interaction.SaveAsScreenshot" : "Save as screenshot",
+        "Interaction.ImportFile" : "Import File",
+        "Interaction.ExportFile" : "Export File",
 
         "Dash.Screens.Home" : "Home",
         "Dash.Screens.Worlds" : "Worlds",
@@ -126,7 +134,7 @@
         "World.Config.AutoKickAFKMinutes" : "Max AFK Minutes:",
         "World.Config.HideFromListing" : "Don't show in session lists",
         "World.Config.Autosave" : "Autosave (will overwrite last save):",
-        "World.Config.AutosaveInterval" : "Autosave every minutes:",
+        "World.Config.AutosaveInterval" : "Autosave interval (minutes):",
         "World.Config.CleanupAssets" : "Cleanup Unused Assets:",
         "World.Config.CleanupInterval" : "Cleanup interval (seconds):",
 
@@ -245,8 +253,18 @@
         "World.Filter.MinimumUptime" : "Minimum Uptime:",
         "World.Filter.Sorting" : "Sorting:",
 
+        "World.Edit.Title" : "Edit World Metadata",
+        "World.Edit.Name" : "World Name:",
+        "World.Edit.Description" : "Description:",
+        "World.Edit.Tags" : "Tags (comma separated):",
+        "World.Edit.Path" : "World Path:",
+        "World.Edit.AccessLevelHeader" : "Who can open this world?",
+        "World.Edit.AccessPrivate" : "Only Me",
+        "World.Edit.AccessPatreon" : "Patreon Supporters",
+        "World.Edit.AccessPublic" : "Anyone (public)",
+
         "Tools.AvatarCreator" : "Avatar Creator",
-        "Tools.FullBodyCalibrator" : "Full Body Calibrator",
+        "Tools.FullBodyCalibrator" : "Full Body / Avatar Calibrator",
         "Tools.CameraStreaming" : "Camera / Streaming",
         "Tools.CreateNewWorld" : "Create New World",
         "Tools.DepositNCR" : "Deposit NCR",
@@ -257,6 +275,9 @@
         "Options.FreeformDash.Off" : "Freeform Dash: Off",
         "Options.SeatedMode.On" : "Seated Mode: On",
         "Options.SeatedMode.Off" : "Seated Mode: Off",
+        "Options.Nameplates.All" : "Nameplates: All",
+        "Options.Nameplates.NonContacts" : "Nameplates: Non-contacts",
+        "Options.Nameplates.Hide" : "Nameplates: Hide",
 
         "Indicator.OnlineUsers" : "Online Users: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {Good} Slow {Slow} Down {Down} NoInternet {No Internet}} ({response_ms} ms)",
@@ -301,7 +322,7 @@
         "Account.ErrorPasswordMismatch" : "Passwords do not match!",
         "Account.ErrorEmailMismatch" : "Emails do not match!",
         "Account.ErrorLoginError" : "Login Error:",
-        "Account.RegistrationSuccess" : "Success! An email has been sent with a verification link. Once you open this link you'll be able to login.",
+        "Account.RegistrationSuccess" : "<size=120%>Success!</size><br><br>An email has been sent to {email} with a verification link.<br><br>Once you click on this link, we'll automatically log you in as long as this dialog is open.<br><br>If you run into problems, reach us at hello@neos.com or discord.gg/neosvr",
 
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Away",
@@ -337,12 +358,14 @@
         "Contacts.BanFromAllSessions" : "Ban from ALL my sessions",
         "Contacts.UnbanFromAllSessions" : "Unban from ALL my sessions",
         "Contacts.BanFromCurrentWorld" : "Ban from current world",
-        "Contacts.UnbanFromCurrentWorld" : "Unban form current world",
+        "Contacts.UnbanFromCurrentWorld" : "Unban from current world",
+        "Contacts.RecordingVoiceMessage" : "Recording voice...",
 
         "Contacts.InSession" : "In {name}",
         "Contacts.InPrivate" : "In Private World",
         "Contacts.InFriendsOnly" : "In Contacts Only World",
         "Contacts.InHidden" : "In Hidden World",
+        "Contacts.InHiddenFriendsOnly" : "In Hidden, Contacts Only World",
         "Contacts.InLAN" : "In LAN World",
         "Contacts.UsingDifferentVersion" : "Using version {version}",
         "Contacts.RequestSent" : "Request sent",
@@ -360,6 +383,7 @@
         "Notifications.TransferedCredits" : "Transferred {amount} {token}",
         "Notifications.ReceivedTip" : "Received tip {amount} {token}",
         "Notifications.SentTip" : "Sent tip {amount} {token}",
+        "Notifications.VoiceMessage" : "Sent a voice message",
 
         "Undo.SetField" : "Set field {field_name} to {value}",
         "Undo.SetReference" : "Set reference {ref_name} to {ref_target}",
@@ -455,6 +479,7 @@
         "CreateNew.Object" : "Object",
         "CreateNew.Object.AvatarCreator" : "Avatar Creator",
         "CreateNew.Object.Camera" : "Camera",
+        "CreateNew.Object.ReflectionProbe" : "Reflection Probe",
         "CreateNew.Object.Mirror" : "Mirror",
         "CreateNew.Object.Portal" : "Portal",
         "CreateNew.Object.VideoPlayer" : "Video Player",
@@ -478,6 +503,8 @@
         "CreateNew.Editor.LightSourcesWizard" : "World Light Sources Wizard",
         "CreateNew.Editor.AssetOptimizationWizard" : "Asset Optimization Wizard",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX Transfer Wizard",
+        "CreateNew.Editor.CubemapCreator" : "Cubemap Creator",
+        "CreateNew.Editor.ReflectionProbes" : "Reflection Probe Wizard",
 
         "CreateNew.3DModel" : "3D Model",
         "CreateNew.3DModel.Box" : "Box",
@@ -520,6 +547,8 @@
         "AvatarCreator.TryAlignHands" : "Try Align Hands",
         "AvatarCreator.AlignToolAnchors" : "Align Tool Anchors",
         "AvatarCreator.Create" : "Create",
+
+        "Importer.General.AsRawFile" : "Raw File",
 
         "Importer.Folder.Title" : "Folder Importer",
         "Importer.Folder.Individual" : "Individual import",
@@ -647,7 +676,7 @@
         "NewWorld.AutoPort" : "Auto:",
         "NewWorld.DefaultName" : "{name} World",
 
-        "FullBody.Title" : "Full Body Calibration",
+        "FullBody.Title" : "Full Body / Avatar Calibration",
         "FullBody.SetHeight" : "1) Set your height",
         "FullBody.HeightInstructions" : "Make sure this is your actual height, otherwise calibration won't work correctly. The mannequin should fit the headset and controllers.",
         "FullBody.HeightWarning" : "This seems incorrect. Make sure it's your actual height.",
@@ -757,7 +786,6 @@
         "CameraControl.Control.AngleSmoothSpeed" : "Angle Smooth Speed: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Framing Smooth Speed: {n}",
 
-
         "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBS Password (optional):",
         "CameraControl.OBS.Connect" : "Connect",
@@ -810,6 +838,7 @@
         "Settings.SpeedExponent" : "Speed Exponent",
         "Settings.MoveThreshold" : "Movement Deadzone",
         "Settings.ControllerVibration" : "Controller Vibration",
+        "Settings.Haptics" : "Haptics Feedback",
         "Settings.DisablePhysicalInteractions" : "Disable Physical Interactions",
         "Settings.EnableGestures" : "Enable Gestures",
         "Settings.DoubleClickInterval" : "Double Click Interval",
@@ -818,6 +847,7 @@
         "Settings.LegacyGripEquip" : "Enable Legacy Double Grip Equip",
         "Settings.LegacyWorldSwitcher" : "Enable Legacy World Switcher",
         "Settings.FetchIncompatibleSessions" : "Show Incompatible Sessions",
+        "Settings.MaxConcurrentAssetTransfers" : "Max Concurrent Asset Transfers",
 
         "Settings.LaserSmoothing.Header" : "Laser Smoothing",
         "Settings.LaserSmoothing.Speed" : "Smooth Speed",
@@ -837,6 +867,15 @@
         "Settings.Audio.NoiseGateThreshold" : "Noise Gate Threshold: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalization Threshold: {n}",
         "Settings.Audio.InputDevice" : "Audio Input Device:",
+        "Settings.Audio.SelectInputDevice" : "Select Audio Input Device",
+        "Settings.Audio.TestInput" : "Test your audio input:",
+        "Settings.Audio.TestDescription" : "We'll play the sound from the selected audio device back at you, so you can verify it's correct.",
+        "Settings.Audio.StartTest" : "Check Microphone",
+        "Settings.Audio.StopTest" : "Stop Testing",
+        "Settings.Audio.Monitoring" : "Microphone Monitoring:",
+
+        "Settings.Locale.ChangeLanguage" : "Change Language",
+        "Settings.Locale.SelectLanguageHeader" : "Select your language:",
 
         "Settings.Save" : "Save Settings",
 
@@ -917,6 +956,9 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Merge submeshes with same material",
         "Inspector.MeshRenderer.SplitByMaterial" : "Split into separate meshes by material",
 
+        "Inspector.ReflectionProbe.Bake" : "Bake Reflections",
+        "Inspector.ReflectionProbe.Baking" : "Baking...",
+
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Separate parts of mesh unaffected by blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Strip Empty Blendshapes",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Done! Stripped: {n,plural, one {# blendshape} other {# blendshapes}}",
@@ -938,6 +980,7 @@
 
         "Inspector.Texture.Size" : "Size: {width} x {height}",
         "Inspector.Texture.Format" : "Format: {format}, Memory: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "VariantID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Invert RGB",
         "Inspector.Texture.InvertR" : "Invert R",
@@ -970,6 +1013,7 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnostic: Generate Bitmap Metadata",
 
+        "Inspector.Audio.BakeAudio" : "Bake Audio Clip",
         "Inspector.Audio.FormatInfo" : "Sample Rate: {rate} Hz, Channels: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Duration: {duration}, SampleCount: {samples}",
         "Inspector.Audio.EncodingInfo" : "Codec info: {info}, Fully Decoded: {decoded}",
@@ -998,6 +1042,156 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Add fixed colliders from hierarchy (using object root)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Always grab last bone",
 
+        "Wizard.General.ProcessRoot" : "Process Root:",
+        "Wizard.General.Result" : "Result:",
+        "Wizard.General.ErrorNoRoot" : "No Root Selected",
+        "Wizard.General.RemovedResult" : "Removed {n}",
+
+        "Wizard.AssetOptimization.Title" : "Asset Optimization Wizard",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Cleanup Unused Assets",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Cleanup Empty Slots",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Cleanup Disabled Mesh Renderers",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "Deduplicate Materials",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Cleanup File Items",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Set Max Texture Resolution",
+        "Wizard.AssetOptimization.RecompressTextures" : "Recompress Textures",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Recalculate All Normals",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Recalculate All Normals (merged)",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Recalculate All Tangents (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Resized {n}",
+
+        "Wizard.LightSources.Title" : "Light Sources Wizard",
+        "Wizard.LightSources.Header" : "Scene Light Sources",
+        "Wizard.LightSources.ProcessRoot" : "Process Root:",
+        "Wizard.LightSources.PointLights" : "Point Lights:",
+        "Wizard.LightSources.SpotLights" : "Spot Lights:",
+        "Wizard.LightSources.DirectionalLights" : "Directional Lights:",
+        "Wizard.LightSources.DisabledLights" : "Disabled Lights:",
+        "Wizard.LightSources.WithTag" : "With Tag:",
+        "Wizard.LightSources.SetShadowType" : "Set Shadow Type",
+        "Wizard.LightSources.ChangeIntensity" : "Change Intensity",
+        "Wizard.LightSources.ChangeRange" : "Change Range",
+        "Wizard.LightSources.Enable" : "Enable",
+        "Wizard.LightSources.Disable" : "Disable",
+        "Wizard.LightSources.Destroy" : "Destroy",
+
+        "Wizard.CubemapCreator.Title" : "Cubemap Creator",
+        "Wizard.CubemapCreator.Textures" : "Source Textures:",
+        "Wizard.CubemapCreator.TexturesNote" : "Note that some conventions have left and right swapped. If the resulting cubemap is incorrect, try swapping the left and right textures.",
+        "Wizard.CubemapCreator.PosX" : "Positive X (right)",
+        "Wizard.CubemapCreator.NegX" : "Negative X (left)",
+        "Wizard.CubemapCreator.PosY" : "Positive Y (top)",
+        "Wizard.CubemapCreator.NegY" : "Negative Y (bottom)",
+        "Wizard.CubemapCreator.PosZ" : "Positive Z (front)",
+        "Wizard.CubemapCreator.NegZ" : "Negative Z (back)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Top/Bottom Rotation:",
+
+        "Wizard.ReflectionProbes.Title" : "Reflection Probe Wizard",
+        "Wizard.ReflectionProbes.ProcessRoot" : "Process Root:",
+        "Wizard.ReflectionProbes.ProcessDisabled" : "Process Disabled",
+        "Wizard.ReflectionProbes.WithTag" : "With Tag:",
+        "Wizard.ReflectionProbes.TeleportUserToProbe" : "Teleport me to each probe",
+        "Wizard.ReflectionProbes.DelayBetweenProbes" : "Delay between probes",
+        "Wizard.ReflectionProbes.ShowDebugVisuals" : "Show Debug Visuals",
+        "Wizard.ReflectionProbes.HideDebugVisuals" : "Hide Debug Visuals",
+        "Wizard.ReflectionProbes.BakeProbes" : "Bake Probes",
+        "Wizard.ReflectionProbes.Baking" : "Baking {index} of {count}...",
+
+        "Tutorial.Welcome.WelcomeTo" : "Welcome to",
+        "Tutorial.Welcome.LetsStart" : "Let's Start!",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>WARNING:</b></color> You are currently playing in screen mode, which isn't currently officially supported and is primarily designed for debugging.<br><br>While it can be used to play, some things won't work and controls might be difficult to use.<br><br><b>Neos is currently meant to be played in VR.</b><br><br>A proper desktop mode is planned to be implemented in the future.",
+        "Tutorial.Welcome.ScreenUnderstand" : "I Understand",
+
+        "Tutorial.Welcome.AccountHeader" : "Neos account",
+        "Tutorial.Welcome.AccountDescription" : "Creating an Account gives you 1 GB free storage and access to saving items, favoriting avatars, adding contacts and messaging.",
+        "Tutorial.Welcome.AccountCreate" : "Create Account",
+        "Tutorial.Welcome.AccountLogin" : "I already have an account",
+        "Tutorial.Welcome.AccountSkip" : "Continue without an account",
+        "Tutorial.Welcome.AccountSkipHeader" : "Skip creating an account?",
+        "Tutorial.Welcome.AccountSkipDescription" : "Some functionality like saving items to inventory, favoriting avatar or adding contacts won't be accessible.",
+        "Tutorial.Welcome.AccountSkipConfirm" : "Really skip",
+
+        "Tutorial.Welcome.SettingsHeader" : "Basic Preferences",
+        "Tutorial.Welcome.SettingsDescription" : "You can configure basic motion and user preferences. All of these can be changed at later point.",
+        "Tutorial.Welcome.SettingsTurning" : "Turning Style",
+        "Tutorial.Welcome.SettingsSnapTurn" : "Snap",
+        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Instantly snaps to new angle, ideal for new users",
+        "Tutorial.Welcome.SettingsSmoothTurn" : "Smooth",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Gradually turns, but can cause nausea.",
+        "Tutorial.Welcome.SettingsPrimaryController" : "Primary Controller",
+        "Tutorial.Welcome.SettingsPrimaryLeft" : "Left",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Left:</b> Turn, <b>Right:</b> Strafe",
+        "Tutorial.Welcome.SettingsPrimaryRight" : "Right",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Left:</b> Strafe, <b>Right:</b> Turn",
+        "Tutorial.Welcome.SettingsHeight" : "Your height",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Examples: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
+
+        "Tutorial.Welcome.StartTutorialHeader" : "Begin Tutorial",
+        "Tutorial.Welcome.StartTutorialDescription" : "We'll transfer you to a basic tutorial world to help you get started with Neos. You can choose to have the tutorial world public, allowing Neos community to join and help you, or learn on your own.",
+        "Tutorial.Welcome.StartTutorialPublic" : "I want people to be able to join and help me",
+        "Tutorial.Welcome.StartTutorialPrivate" : "I want to learn alone",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Really start as private?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Community members can help you get set up easier and faster, really proceed alone?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Start Private",
+
+        "Tutorial.Intro.WelcomeTitle" : "Welcome to Neos",
+        "Tutorial.Intro.WelcomeDescription" : "Your guide to experiencing the metaverse.",
+
+        "Tutorial.Intro.GrabbingTitle" : "Grabbing",
+        "Tutorial.Intro.GrabbingVR" : "Pick up objects by <color=#ffdd77><b>Grabbing</b></color> with the <color=#77ff77><b>Grip button</b></color>.<br>Grab at a distance using your laser.",
+        "Tutorial.Intro.GrabbingScreen" : "Pick up objects by <color=#ffdd77><b>Grabbing</b></color> with the <color=#77ff77><b>Right Mouse button</b></color>.",
+
+        "Tutorial.Intro.ScalingTitle" : "Scaling",
+        "Tutorial.Intro.ScalingVR" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with both hands and move them <color=#77ddff><b>closer or further</b></color> apart - this can also be done with your lasers.",
+        "Tutorial.Intro.ScalingScreen" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with <color=#77ff77><b>Right Mouse button</b></color> and <color=#77ddff><b>scroll</b></color> with your <color=#77ff77><b>Scroll Wheel</b></color>.",
+
+        "Tutorial.Intro.ContextMenuTitle" : "Context Menu",
+        "Tutorial.Intro.ContextMenuDescription" : "Your <color=#ffdd77><b>Context Menu</b></color> provides quick actions.<br>Open or close it using the <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B button",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B or Y button",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "Menu button",
+        "Tutorial.Intro.ContextMenu_Screen" : "R key",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Destroying and Duplicating",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "While holding an object, <b><color=#ffdd77>Destroy or Duplicate</color></b> it by <color=#77ff77><b>Clicking</b></color> the action in the context menu.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "While holding an object, <b><color=#ffdd77>Destroy</color></b> it by pressing <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Duplicate</b></color> it by pressing <color=#77ff77><b>F key</b></color>.",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "Scaling Yourself",
+        "Tutorial.Intro.ScalingYourselfVR" : "To <color=#ffdd77><b>Scale Yourself</b></color>, enable scaling in your context menu, then hold both <color=#77ff77><b>Grip Buttons</b></color> and move your hands <color=#77ddff><b>closer or further</b></color> apart.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "To <color=#ffdd77><b>Scale Yourself</b></color>, hold <color=#77ff77><b>Ctrl</b></color> and <color=#77ddff><b>scroll</b></color> your <color=#77ff77><b>Scroll wheel</b></color>.",
+
+        "Tutorial.Intro.LocomotionTitle" : "Locomotion",
+        "Tutorial.Intro.LocomotionDescription" : "Neos contains many different methods of movement.<br>These locomotion options are available within your <color=#ffdd77>Context Menu</color>.",
+
+        "Tutorial.Intro.DashboardTitle" : "Neos Dashboard",
+        "Tutorial.Intro.DashboardDescription" : "The <color=#ffdd77><b>Dashboard</b></color> is your main menu.<br>You open and close it using the <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "The <color=#ffdd77><b>Dashboard</b></color> is your main menu.<br>You open and close it by holding the <color=#77ff77><b>{button}</b></color> until the circle is full, then <color=#77ddff><b>release</b></color>.",
+        "Tutorial.Intro.Dashboard_ButtonA" : "A button",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A or X button",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "Menu button",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl + Space key combination",
+
+        "Tutorial.Intro.InventoryVR" : "Your <color=#ffdd77><b>Inventory</b></color> is located on your Dashboard.<br>To <color=#77ddff><b>Spawn</b></color> an object, <color=#77ff77><b>Double-Click</b></color> the item in your inventory.<br>To <color=#77ddff><b>Save</b></color> an object, <color=#77ddff><b>hold</b></color> the item and press <sprite name=inv-add> on the top right corner.",
+        "Tutorial.Intro.InventoryScreen" : "Your <color=#ffdd77><b>Inventory</b></color> is located on your Neos Dashboard.<br>To <color=#77ddff><b>spawn</b></color> an object, <color=#77ff77><b>Double-Click</b></color> the item in your inventory.<br>To <color=#77ddff><b>save</b></color> an object, hold the item and press <color=#77ff77><b>Ctrl + S</b></color>.",
+
+        "Tutorial.Intro.HomeScreenTitle" : "Your Home Screen",
+        "Tutorial.Intro.HomeScreenDescription" : "Your <color=#ffdd77><b>Home Screen</b></color> contains facets with many features.<br>These include the Avatar Creator, Full body Calibrator, Camera/Streaming, and Create New World.",
+        "Tutorial.Intro.ContactsDescription" : "Your <color=#ffdd77><b>Contacts</b></color> are located on the Dashboard.<br>Send messages, voice messages, or objects to contacts with the chatbox on the bottom right.<br>Add contacts with the search bar, found in the top left corner.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Import</b></color> files, 3D models, images, audio, videos, or fonts directly into Neos!<br>Either <color=#77ddff><b>drag and drop</b></color> files onto the Neos window, or find them using the <color=#ffdd77><b>File Browser</b></color>.",
+        "Tutorial.Intro.SessionTitle" : "Session Settings",
+        "Tutorial.Intro.SessionDescription" : "Session settings, permission levels, and settings dealing with other users in the world can be found in the <color=#ffdd77><b>Session</b></color> panel.",
+        "Tutorial.Intro.SettingsDescription" : "Height, volume, comfort settings, language choice, and more are adjusted in the <color=#ffdd77><b>Settings</b></color> tab.",
+        "Tutorial.Intro.WorldsTitle" : "Worlds Menu",
+        "Tutorial.Intro.WorldsDescription" : "Explore the metaverse using the <color=#ffdd77><b>Worlds</b></color> menu.<br>When you're done here, join an active session to meet the community!",
+
+        "Tutorial.Intro.OutroTop" : "Further tutorials are available throughout this world.<br><br>Good luck and enjoy the metaverse!",
+        "Tutorial.Intro.Website" : "Website",
+        "Tutorial.Intro.OutroEnd" : "To support the project, join our Patreon.<br><br>Join the Discord for status updates, networking, or technical support.",
+
+        "Tutorial.MTC.Avatars" : "Avatars & Social",
+        "Tutorial.MTC.Creation" : "Creation & Utility",
+        "Tutorial.MTC.RecordingStreaming" : "Recording & Streaming",
+
         "Tutorial.Grab.MoveRotate" : "Move/Rotate held items",
         "Tutorial.Grab.Scale" : "Grab with other controller to scale",
         "Tutorial.Grab.PullToEquip" : "Pull towards you to equip",
@@ -1006,7 +1200,7 @@
         "Tutorial.Grab.EquipForFullUse" : "Equip to use all functionality",
 
         "Tutorial.WorldOrb.Click" : "Click World Orb",
-        "Tutorial.WorldOrb.Info" : "<b>World Orb</b>\n<size=80%>Represents a world or a session\nDouble Click - Enter\nSingle Click - Context Menu",
+        "Tutorial.WorldOrb.Info" : "<b>World Orb</b>\n<size=80%>Represents a world or a session</size>\nDouble Click - Enter\nSingle Click - Context Menu",
 
         "Tutorial.Tooltip.GeneralPrimary" : "Use",
         "Tutorial.Tooltip.GeneralSecondary" : "Secondary Action",
@@ -1040,17 +1234,6 @@
         "Exiting.SavingChanges" : "Saving Changes...",
         "Exiting.Exiting" : "Exiting...",
         "Exiting.LoggingOut" : "Logging out...",
-        
-        "Temporary.MMC.Voting UI": "MMC Voting UI",
-        "Temporary.MMC.Vote": "Vote",
-        "Temporary.MMC.Categories.Name": "Categories",
-        "Temporary.MMC.Categories.Worlds": "Worlds",
-        "Temporary.MMC.Categories.Other": "Gadgets/Tools+",
-        "Temporary.MMC.Categories.Avatars": "Avatars",
-        "Temporary.MMC.VoteSuccess": "Vote cast in category {category} for {voteTarget}.",
-        "Temporary.MMC.VoteFailure": "Vote failed, your vote has not been registered please try again.",
-        "Temporary.MMC.VotedAlready": "You have already voted in {category}.",
-        "Temporary.MMC.VoteInvalid": "Vote is invalid, please try again.",
 
         "Dummy" : "Dummy"
     }

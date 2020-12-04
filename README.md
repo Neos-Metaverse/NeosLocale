@@ -2,28 +2,28 @@
 This repository contains the locale assets for the core UI of Neos VR (www.neos.com) and allow anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (https://store.steampowered.com/app/740250/Neos_VR/) and other platforms.
 
 # Localization Status
-Czech [cs] - 94.1% - Missing keys: 55  
-German [de] - 91.9% - Missing keys: 75  
-English (United Kingdom) [en-gb] - 1.9% - Missing keys: 907  
+Czech [cs] - 99.9% - Missing keys: 1  
+German [de] - 96.0% - Missing keys: 43  
+English (United Kingdom) [en-gb] - 2.9% - Missing keys: 1053  
 English [en] - 100.0% - Missing keys: 0  
 Esperanto [eo] - 99.9% - Missing keys: 1  
-Spanish [es] - 96.3% - Missing keys: 34  
-Estonian [et] - 91.9% - Missing keys: 75  
-Finnish [fi] - 43.9% - Missing keys: 519  
-French [fr] - 91.9% - Missing keys: 75  
-Icelandic [is] - 38.2% - Missing keys: 572  
+Spanish [es] - 99.9% - Missing keys: 1  
+Estonian [et] - 77.5% - Missing keys: 244  
+Finnish [fi] - 37.5% - Missing keys: 678  
+French [fr] - 77.3% - Missing keys: 246  
+Icelandic [is] - 32.6% - Missing keys: 731  
 Japanese [ja] - 99.9% - Missing keys: 1  
-Korean [ko] - 79.8% - Missing keys: 187  
-Dutch [nl] - 96.3% - Missing keys: 34  
-Norwegian [no] - 89.6% - Missing keys: 96  
+Korean [ko] - 99.9% - Missing keys: 1  
+Dutch [nl] - 92.6% - Missing keys: 80  
+Norwegian [no] - 75.6% - Missing keys: 265  
 Polish [pl] - 99.9% - Missing keys: 1  
-Russian [ru] - 99.7% - Missing keys: 3  
-Swedish [sv] - 1.7% - Missing keys: 909  
-Turkish [tr] - 89.5% - Missing keys: 97  
-Chinese (Simplified, China) [zh-cn] - 99.9% - Missing keys: 1  
-Chinese (Traditional, Taiwan) [zh-tw] - 99.9% - Missing keys: 1  
+Russian [ru] - 99.9% - Missing keys: 1  
+Swedish [sv] - 4.5% - Missing keys: 1035  
+Turkish [tr] - 89.0% - Missing keys: 119  
+Chinese (China) [zh-cn] - 99.9% - Missing keys: 1  
+Chinese (Taiwan) [zh-tw] - 99.9% - Missing keys: 1  
 
-Total keys: 925
+Total keys: 1084
 
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
@@ -38,6 +38,7 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
 - DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
 - DON'T convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
+- DON'T correct mistakes in the string keys, only report them. They will be fixed by a script, which will apply the correction to all locales at once.
 
 # If you're contributing a new language
 1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
