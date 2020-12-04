@@ -134,7 +134,7 @@
         "World.Config.AutoKickAFKMinutes": "Max AFK Minutes:",
         "World.Config.HideFromListing": "Ne montriĝu en sesiaj listoj",
         "World.Config.Autosave": "Aŭtomate konservi (anstataŭigos lastan konservon):",
-        "World.Config.AutosaveInterval": "Aŭtomate konservi ĉiun minuton:",
+        "World.Config.AutosaveInterval": "Aŭtokonserva intervalo (minutoj):",
         "World.Config.CleanupAssets": "Purigi Neuzitajn Aktivaĵojn:",
         "World.Config.CleanupInterval": "Intervalo de purigado (sekundoj):",
 
@@ -838,6 +838,7 @@
         "Settings.SpeedExponent": "Rapida Eksponento",
         "Settings.MoveThreshold": "Movada Mortzono",
         "Settings.ControllerVibration": "Vibrado de Regilo",
+        "Settings.Haptics" : "Reagoj pri Haptics",
         "Settings.DisablePhysicalInteractions": "Malŝalti fizikajn interagojn",
         "Settings.EnableGestures": "Ebligi Gestojn",
         "Settings.DoubleClickInterval": "Duobla Alklako-Intervalo",
