@@ -134,7 +134,7 @@
         "World.Config.AutoKickAFKMinutes" : "最长AFK分钟:",
         "World.Config.HideFromListing" : "不显示在会议列表中",
         "World.Config.Autosave" : "自动保存（将覆盖上一次保存):",
-        "World.Config.AutosaveInterval" : "每分钟自动保存:",
+        "World.Config.AutosaveInterval" : "自动保存间隔（分钟）:",
         "World.Config.CleanupAssets" : "清理未使用的资产:",
         "World.Config.CleanupInterval" : "清理间隔（秒）:",
 
@@ -838,6 +838,7 @@
         "Settings.SpeedExponent" : "速度指数",
         "Settings.MoveThreshold" : "移动阈值",
         "Settings.ControllerVibration" : "控制器振动",
+        "Settings.Haptics" : "触觉反馈",
         "Settings.DisablePhysicalInteractions" : "禁用身体互动",
         "Settings.EnableGestures" : "启用手势",
         "Settings.DoubleClickInterval" : "双击间隔",

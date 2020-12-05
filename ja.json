@@ -838,6 +838,7 @@
         "Settings.SpeedExponent" : "速度指数",
         "Settings.MoveThreshold" : "移動のデッドゾーン",
         "Settings.ControllerVibration" : "コントローラーの振動",
+        "Settings.Haptics" : "触覚(Haptics)フィードバック",
         "Settings.DisablePhysicalInteractions" : "物理的なインタラクションを無効化",
         "Settings.EnableGestures" : "ジェスチャーを使用",
         "Settings.DoubleClickInterval" : "ダブルクリックの間隔",

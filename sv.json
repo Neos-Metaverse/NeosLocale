@@ -34,7 +34,7 @@
         "Locomotion.WalkRun.Name" : "Gå/Spring",
         "Locomotion.WalkRun.Description" : "Fysiskt gående, springande och hoppande.",
         "Locomotion.WalkRunGripping.Name" : "Gå/Spring (med klättring)",
-        "Locomotion.WalkRunGripping.Description" : "Fysiskt gående, springande och hoppande och klättring.",
+        "Locomotion.WalkRunGripping.Description" : "Fysiskt gående, springande, hoppande samt klättring.",
         "Locomotion.ZeroG.Name" : "Zero-G",
         "Locomotion.ZeroG.Description" : "Viktlös fysisk förflyttning",
         "Locomotion.GrabWorld.Name" : "Greppa Värld",
@@ -55,6 +55,36 @@
         "Interaction.LaserDisabled" : "Laser Av",
         "Interaction.Locomotion" : "Förflyttning",
         "Interaction.Locomotion.None" : "Ingen",
+
+        "Interaction.NamedEquipTool" : "Montera {name}",
+        "Interaction.NamedEquipTool.Default" : "Verktyg",
+
+        "Interaction.EnterAnchor" : "Stig På Ankare",
+        "Interaction.ExitAnchor" : "Stig Av Ankare",
+
+        "Interaction.EquipAvatar" : "Använd Avatar",
+
+        "Dash.Screens.Home" : "Hem",
+        "Dash.Screens.Worlds" : "Världar",
+        "Dash.Screens.Contacts" : "Kontakter",
+        "Dash.Screens.Inventory" : "Inventarie",
+        "Dash.Screens.Session" : "Session",
+        "Dash.Screens.FileBrowser" : "<nobr>Filhanterare",
+        "Dash.Screens.Settings" : "Inställningar",
+        "Dash.Screens.Exit" : "Gå Ut",
+
+        "Dash.Actions.PasteFromClipboard" : "Klistra in från urklipp",
+
+        "Dash.Actions.CoreWorldsHeader" : "Kärnvärldar",
+        "Dash.Actions.ContentHub" : "Innehållshubb",
+        "Dash.Actions.MTC" : "Metaverse Träningscenter. <size=75%>(Guider)</size>",
+        "Dash.Actions.CloudHome" : "Mitt Moln Hem",
+
+        "Dash.Exit.Header" : "Lämna Neos",
+        "Dash.Exit.ExitAndSave" : "Lämna och Spara Hem",
+        "Dash.Exit.ExitAndDiscard" : "Lämna och Avskeda Hem",
+        "Dash.Exit.ThankYou" : "Tack för att du använder Neos!",
+        "Dash.Exit.SubmittedBy" : "Framlagt av: {name}",
 
         "Dummy" : "Dummy"
     }
