@@ -220,8 +220,8 @@
 
         "World.AccessLevel.Anyone": "Iu ajn",
         "World.AccessLevel.RegisteredUsers": "Registritaj Uzantoj",
-        "World.AccessLevel.Friends": "Kontakta",
-        "World.AccessLevel.FriendsOfFriends" : "Kontakta+",
+        "World.AccessLevel.Friends": "Kontaktoj",
+        "World.AccessLevel.FriendsOfFriends" : "Kontaktoj+",
         "World.AccessLevel.LAN": "LAN",
         "World.AccessLevel.Private": "Privata (nur invito)",
 
@@ -367,8 +367,8 @@
         "Contacts.InPrivate": "En privata mondo",
         "Contacts.InFriendsOnly": "En Kontaktoj Nur Mondo",
         "Contacts.InHidden": "En Kaŝita Mondo",
-        "Contacts.InHiddenFriendsOnly" : "En Kaŝita kaj kontakta nur mondo",
-        "Contacts.InHiddenFriendsOfFriends" : "En Kaŝita kaj kontakta+ mondo",
+        "Contacts.InHiddenFriendsOnly" : "En Kaŝita kaj Kontaktoj nur mondo",
+        "Contacts.InHiddenFriendsOfFriends" : "En Kaŝita kaj Kontaktoj+ mondo",
         "Contacts.InLAN": "En LAN-Mondo",
         "Contacts.UsingDifferentVersion": "Uzante version {version}",
         "Contacts.RequestSent": "Peto sendita",
