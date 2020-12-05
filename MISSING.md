@@ -1077,11 +1077,6 @@ Exiting.SavingChanges
 Exiting.Exiting  
 Exiting.LoggingOut  
 
-# Esperanto [eo]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Contacts.InHiddenFriendsOfFriends  
-
 # Spanish [es]
 World.Error.OnlyContactsOfContacts  
 World.AccessLevel.FriendsOfFriends  
@@ -3007,11 +3002,6 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
-# Japanese [ja]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Contacts.InHiddenFriendsOfFriends  
-
 # Korean [ko]
 World.Error.OnlyContactsOfContacts  
 World.AccessLevel.FriendsOfFriends  
@@ -4522,14 +4512,4 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
-
-# Chinese (China) [zh-cn]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Contacts.InHiddenFriendsOfFriends  
-
-# Chinese (Taiwan) [zh-tw]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Contacts.InHiddenFriendsOfFriends  
 
