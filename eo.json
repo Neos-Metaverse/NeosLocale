@@ -111,6 +111,7 @@
         "World.Error.SecurityViolation": "Sekureca Malobservo",
         "World.Error.OnlyRegisteredUsers": "Nur registritaj uzantoj rajtas aliĝi",
         "World.Error.OnlyContacts": "Nur kontaktoj de la gastiganto rajtas aliĝi",
+        "World.Error.OnlyContactsOfContacts" : "Nur kontaktoj de uzantoj en la kunsido rajtas aliĝi",
         "World.Error.Private": "Ĉi sesio estas privata",
         "World.Error.SessionEnded": "Sesio Finiĝis",
         "World.Error.UserLimitReached": "Sesio atingis uzantlimon",
@@ -219,7 +220,8 @@
 
         "World.AccessLevel.Anyone": "Iu ajn",
         "World.AccessLevel.RegisteredUsers": "Registritaj Uzantoj",
-        "World.AccessLevel.Friends": "Amikoj",
+        "World.AccessLevel.Friends": "Kontakta",
+        "World.AccessLevel.FriendsOfFriends" : "Kontakta+",
         "World.AccessLevel.LAN": "LAN",
         "World.AccessLevel.Private": "Privata (nur invito)",
 
@@ -366,6 +368,7 @@
         "Contacts.InFriendsOnly": "En Kontaktoj Nur Mondo",
         "Contacts.InHidden": "En Kaŝita Mondo",
         "Contacts.InHiddenFriendsOnly" : "En Kaŝita kaj kontakta nur mondo",
+        "Contacts.InHiddenFriendsOfFriends" : "En Kaŝita kaj kontakta+ mondo",
         "Contacts.InLAN": "En LAN-Mondo",
         "Contacts.UsingDifferentVersion": "Uzante version {version}",
         "Contacts.RequestSent": "Peto sendita",

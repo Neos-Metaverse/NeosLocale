@@ -111,6 +111,7 @@
         "World.Error.SecurityViolation" : "安全违规",
         "World.Error.OnlyRegisteredUsers" : "只允许注册用户加入",
         "World.Error.OnlyContacts" : "仅允许主持人的朋友加入",
+        "World.Error.OnlyContactsOfContacts" : "僅允許會話中用戶的朋友加入",
         "World.Error.Private" : "本次会议是私人的",
         "World.Error.SessionEnded" : "会议已结束",
         "World.Error.UserLimitReached" : "会议达到了用户限制",
@@ -220,6 +221,7 @@
         "World.AccessLevel.Anyone" : "任何人",
         "World.AccessLevel.RegisteredUsers" : "注册用户",
         "World.AccessLevel.Friends" : "朋友",
+        "World.AccessLevel.FriendsOfFriends" : "朋友+",
         "World.AccessLevel.LAN" : "局域网",
         "World.AccessLevel.Private" : "私人（仅邀请）",
 
@@ -366,6 +368,7 @@
         "Contacts.InFriendsOnly" : "在只有朋友的世界",
         "Contacts.InHidden" : "私人的",
         "Contacts.InHiddenFriendsOnly" : "在只有朋友的私人世界",
+        "Contacts.InHiddenFriendsOfFriends" : "在只有朋友+的私人世界",
         "Contacts.InLAN" : "在局域网世界",
         "Contacts.UsingDifferentVersion" : "使用版本： {version}",
         "Contacts.RequestSent" : "请求已发送",

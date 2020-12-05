@@ -111,6 +111,7 @@
         "World.Error.SecurityViolation" : "セキュリティ違反",
         "World.Error.OnlyRegisteredUsers" : "登録されたユーザーのみが入室できます",
         "World.Error.OnlyContacts" : "ホストのフレンドのみが入室できます",
+        "World.Error.OnlyContactsOfContacts" : "セッションにいるユーザーのフレンドに登録されている人まで入室できます",
         "World.Error.Private" : "このセッションはプライベートです",
         "World.Error.SessionEnded" : "セッションは終了しました",
         "World.Error.UserLimitReached" : "セッションはユーザー制限に達しました",
@@ -220,6 +221,7 @@
         "World.AccessLevel.Anyone" : "誰でも",
         "World.AccessLevel.RegisteredUsers" : "登録ユーザー",
         "World.AccessLevel.Friends" : "フレンド",
+        "World.AccessLevel.FriendsOfFriends" : "フレンド+",
         "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "プライベート(招待のみ)",
 
@@ -366,6 +368,7 @@
         "Contacts.InFriendsOnly" : "フレンドオンリーにいます",
         "Contacts.InHidden" : "非公開",
         "Contacts.InHiddenFriendsOnly" : "非公開, フレンドオンリーにいます",
+        "Contacts.InHiddenFriendsOfFriends" : "非公開,フレンド+にいます",
         "Contacts.InLAN" : "LAN内ワールドにいます",
         "Contacts.UsingDifferentVersion" : "使用バージョン: {version}",
         "Contacts.RequestSent" : "リクエスト送信済み",
