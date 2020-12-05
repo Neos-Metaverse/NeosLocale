@@ -1,8 +1,15 @@
 # Missing Keys per locale
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
+# Czech [cs]
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
+
 # German [de]
-Settings.Haptics  
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -11,40 +18,6 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.CollidersGrabbingHeader  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
-Wizard.LightSources.Title  
-Wizard.LightSources.Header  
-Wizard.LightSources.ProcessRoot  
-Wizard.LightSources.PointLights  
-Wizard.LightSources.SpotLights  
-Wizard.LightSources.DirectionalLights  
-Wizard.LightSources.DisabledLights  
-Wizard.LightSources.WithTag  
-Wizard.LightSources.SetShadowType  
-Wizard.LightSources.ChangeIntensity  
-Wizard.LightSources.ChangeRange  
-Wizard.LightSources.Enable  
-Wizard.LightSources.Disable  
-Wizard.LightSources.Destroy  
-Wizard.CubemapCreator.Title  
-Wizard.CubemapCreator.Textures  
-Wizard.CubemapCreator.TexturesNote  
-Wizard.CubemapCreator.PosX  
-Wizard.CubemapCreator.NegX  
-Wizard.CubemapCreator.PosY  
-Wizard.CubemapCreator.NegY  
-Wizard.CubemapCreator.PosZ  
-Wizard.CubemapCreator.NegZ  
-Wizard.CubemapCreator.TopBottomRotation  
-Wizard.ReflectionProbes.Title  
-Wizard.ReflectionProbes.ProcessRoot  
-Wizard.ReflectionProbes.ProcessDisabled  
-Wizard.ReflectionProbes.WithTag  
-Wizard.ReflectionProbes.TeleportUserToProbe  
-Wizard.ReflectionProbes.DelayBetweenProbes  
-Wizard.ReflectionProbes.ShowDebugVisuals  
-Wizard.ReflectionProbes.HideDebugVisuals  
-Wizard.ReflectionProbes.BakeProbes  
-Wizard.ReflectionProbes.Baking  
 
 # English (United Kingdom) [en-gb]
 General.OK  
@@ -139,6 +112,7 @@ World.Error.AccessDenied
 World.Error.SecurityViolation  
 World.Error.OnlyRegisteredUsers  
 World.Error.OnlyContacts  
+World.Error.OnlyContactsOfContacts  
 World.Error.Private  
 World.Error.SessionEnded  
 World.Error.UserLimitReached  
@@ -238,6 +212,7 @@ World.Category.Custom
 World.AccessLevel.Anyone  
 World.AccessLevel.RegisteredUsers  
 World.AccessLevel.Friends  
+World.AccessLevel.FriendsOfFriends  
 World.AccessLevel.LAN  
 World.AccessLevel.Private  
 World.SortParameter.SearchScore  
@@ -369,6 +344,7 @@ Contacts.InPrivate
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InHiddenFriendsOnly  
+Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
 Contacts.UsingDifferentVersion  
 Contacts.RequestSent  
@@ -1101,7 +1077,15 @@ Exiting.SavingChanges
 Exiting.Exiting  
 Exiting.LoggingOut  
 
+# Esperanto [eo]
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
+
 # Spanish [es]
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
 Settings.Haptics  
 
 # Estonian [et]
@@ -1117,6 +1101,8 @@ Interaction.EquipAvatar
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
 World.Edit.Title  
 World.Edit.Name  
 World.Edit.Description  
@@ -1133,6 +1119,7 @@ Contacts.RecordingVoiceMessage
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InHiddenFriendsOnly  
+Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
 Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
@@ -1358,7 +1345,9 @@ General.Creating
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
+World.Error.OnlyContactsOfContacts  
 World.Detail.Users.Count  
+World.AccessLevel.FriendsOfFriends  
 World.Edit.Title  
 World.Edit.Name  
 World.Edit.Description  
@@ -1376,6 +1365,7 @@ Contacts.RecordingVoiceMessage
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InHiddenFriendsOnly  
+Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
 Notifications.VoiceMessage  
 Undo.ChangeBoxSize  
@@ -2044,7 +2034,9 @@ Interaction.EquipAvatar
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
+World.Error.OnlyContactsOfContacts  
 World.Actions.GetWorldOrb  
+World.AccessLevel.FriendsOfFriends  
 World.Edit.Title  
 World.Edit.Name  
 World.Edit.Description  
@@ -2061,6 +2053,7 @@ Contacts.RecordingVoiceMessage
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InHiddenFriendsOnly  
+Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
 Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
@@ -2297,8 +2290,10 @@ Interaction.EquipAvatar
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
+World.Error.OnlyContactsOfContacts  
 World.Indicator.Sessions  
 World.Category.HeadlessSessions  
+World.AccessLevel.FriendsOfFriends  
 World.Edit.Title  
 World.Edit.Name  
 World.Edit.Description  
@@ -2319,6 +2314,7 @@ Contacts.RecordingVoiceMessage
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InHiddenFriendsOnly  
+Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
 Notifications.VoiceMessage  
 Undo.Translate  
@@ -3011,10 +3007,23 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
+# Japanese [ja]
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
+
+# Korean [ko]
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
+
 # Dutch [nl]
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
 Options.Nameplates.All  
 Options.Nameplates.NonContacts  
 Options.Nameplates.Hide  
+Contacts.InHiddenFriendsOfFriends  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
@@ -3107,6 +3116,8 @@ Interaction.EquipAvatar
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
 World.Edit.Title  
 World.Edit.Name  
 World.Edit.Description  
@@ -3124,6 +3135,7 @@ Contacts.RecordingVoiceMessage
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InHiddenFriendsOnly  
+Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
 Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
@@ -3361,7 +3373,14 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
-Settings.Haptics  
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
+
+# Russian [ru]
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
 
 # Swedish [sv]
 General.Save  
@@ -3386,6 +3405,7 @@ World.Error.AccessDenied
 World.Error.SecurityViolation  
 World.Error.OnlyRegisteredUsers  
 World.Error.OnlyContacts  
+World.Error.OnlyContactsOfContacts  
 World.Error.Private  
 World.Error.SessionEnded  
 World.Error.UserLimitReached  
@@ -3485,6 +3505,7 @@ World.Category.Custom
 World.AccessLevel.Anyone  
 World.AccessLevel.RegisteredUsers  
 World.AccessLevel.Friends  
+World.AccessLevel.FriendsOfFriends  
 World.AccessLevel.LAN  
 World.AccessLevel.Private  
 World.SortParameter.SearchScore  
@@ -3616,6 +3637,7 @@ Contacts.InPrivate
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InHiddenFriendsOnly  
+Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
 Contacts.UsingDifferentVersion  
 Contacts.RequestSent  
@@ -4382,6 +4404,8 @@ General.Save
 General.Saving  
 General.Create  
 General.Creating  
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
 World.Edit.Title  
 World.Edit.Name  
 World.Edit.Description  
@@ -4394,6 +4418,7 @@ World.Edit.AccessPublic
 Options.Nameplates.All  
 Options.Nameplates.NonContacts  
 Options.Nameplates.Hide  
+Contacts.InHiddenFriendsOfFriends  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
@@ -4497,4 +4522,14 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
+
+# Chinese (China) [zh-cn]
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
+
+# Chinese (Taiwan) [zh-tw]
+World.Error.OnlyContactsOfContacts  
+World.AccessLevel.FriendsOfFriends  
+Contacts.InHiddenFriendsOfFriends  
 

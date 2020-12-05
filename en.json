@@ -111,6 +111,7 @@
         "World.Error.SecurityViolation" : "Security Violation",
         "World.Error.OnlyRegisteredUsers" : "Only registered users are allowed to join",
         "World.Error.OnlyContacts" : "Only contacts of the host are allowed to join",
+        "World.Error.OnlyContactsOfContacts" : "Only contacts of users in the session are allowed to join",
         "World.Error.Private" : "This session is private",
         "World.Error.SessionEnded" : "Session Has Ended",
         "World.Error.UserLimitReached" : "Session has reached user limit",
@@ -220,6 +221,7 @@
         "World.AccessLevel.Anyone" : "Anyone",
         "World.AccessLevel.RegisteredUsers" : "Registered Users",
         "World.AccessLevel.Friends" : "Contacts",
+        "World.AccessLevel.FriendsOfFriends" : "Contacts+",
         "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "Private (invite only)",
 
@@ -366,6 +368,7 @@
         "Contacts.InFriendsOnly" : "In Contacts Only World",
         "Contacts.InHidden" : "In Hidden World",
         "Contacts.InHiddenFriendsOnly" : "In Hidden, Contacts Only World",
+        "Contacts.InHiddenFriendsOfFriends" : "In Hidden, Contacts+ World",
         "Contacts.InLAN" : "In LAN World",
         "Contacts.UsingDifferentVersion" : "Using version {version}",
         "Contacts.RequestSent" : "Request sent",
