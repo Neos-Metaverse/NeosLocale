@@ -431,12 +431,12 @@
 
         "Tooltip.Color.Picker" : "カラーピッカー",
 
-        "Tooltip.GrabbableSetter.Scalable" : "拡縮可能にする",
-        "Tooltip.GrabbableSetter.NonScalable" : "拡縮不可能にする",
+        "Tooltip.GrabbableSetter.Scalable" : "スケール可能にする",
+        "Tooltip.GrabbableSetter.NonScalable" : "スケール不可能にする",
 
-        "Tooltip.CharacterCollider.MarkGrippable" : "つかめるようにする",
-        "Tooltip.CharacterCollider.DontMarkGrippable" : "つかめないようにする",
-        "Tooltip.CharacterCollider.EnsureWalkRun" : "走行を追加",
+        "Tooltip.CharacterCollider.MarkGrippable" : "グラブ可能にする",
+        "Tooltip.CharacterCollider.DontMarkGrippable" : "グラブ不可能にする",
+        "Tooltip.CharacterCollider.EnsureWalkRun" : "歩行を追加",
         "Tooltip.CharacterCollider.EnsureZeroG" : "ゼロGを追加",
         "Tooltip.CharacterCollider.EnsurePhysicalFly" : "フライを追加",
 
@@ -931,19 +931,19 @@
 
         "Inspector.Mesh.BakeMesh" : "メッシュをベイクする",
         "Inspector.Mesh.ResaveMesh" : "メッシュの再保存",
-        "Inspector.Mesh.RecalculateNormals" : "法線(ノーマル)の再計算",
-        "Inspector.Mesh.RecalculateNormalsSmooth" : "法線(ノーマル)の再計算(スムーズシェーディング)",
-        "Inspector.Mesh.RecalculateTangentsMikkt" : "接線(タンジェント)の再計算 (Mikktspace)",
-        "Inspector.Mesh.RecalculateTangentsSimple" : "接線(タンジェント)の再計算 (simple)",
-        "Inspector.Mesh.FlipNormals" : "法線(ノーマル)を反転",
+        "Inspector.Mesh.RecalculateNormals" : "法線の再計算",
+        "Inspector.Mesh.RecalculateNormalsSmooth" : "法線の再計算(スムーズシェーディング)",
+        "Inspector.Mesh.RecalculateTangentsMikkt" : "接線の再計算 (Mikktspace)",
+        "Inspector.Mesh.RecalculateTangentsSimple" : "接線の再計算 (simple)",
+        "Inspector.Mesh.FlipNormals" : "法線を反転",
         "Inspector.Mesh.ReverseWinding" : "逆巻き(面を反転)",
         "Inspector.Mesh.MakeDualSided" : "両面設定にする",
         "Inspector.Mesh.ConvertToFlatShading" : "フラットシェーディングにする",
         "Inspector.Mesh.ConvertToConvexHull" : "Convex Hull(凸多面体)に変換",
         "Inspector.Mesh.MergeDoubles" : "重複頂点の結合",
         "Inspector.Mesh.StripEmptyBlendshapes" : "空のブレンドシェイプを取り除く",
-        "Inspector.Mesh.StripBlendshapeNormals" : "ブレンドシェイプの法線(ノーマル)を取り除く",
-        "Inspector.Mesh.StripBlendshapeTangents" : "ブレンドシェイプの接線(タンジェント)を取り除く",
+        "Inspector.Mesh.StripBlendshapeNormals" : "ブレンドシェイプの法線を取り除く",
+        "Inspector.Mesh.StripBlendshapeTangents" : "ブレンドシェイプの接線を取り除く",
 
         "Inspector.Mesh.GetBoneList" : "ボーンのリストを取得",
         "Inspector.Mesh.GetBoneData" : "ボーンデータを取得",
@@ -1056,7 +1056,7 @@
         "Wizard.AssetOptimization.MaxTextureResolution" : "最大テクスチャ解像度を設定",
         "Wizard.AssetOptimization.RecompressTextures" : "テクスチャの再圧縮",
         "Wizard.AssetOptimization.RecalculateAllNormals" : "すべての法線(ノーマル)を再計算",
-        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "すべての法線(ノーマル)を再計算(マージ)",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "すべての法線を再計算(マージ)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "すべての接線(タンジェント)を再計算(Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "変換完了 {n}",
 
@@ -1138,12 +1138,12 @@
         "Tutorial.Intro.WelcomeDescription" : "メタバースを体験するためのガイドを行います。",
 
         "Tutorial.Intro.GrabbingTitle" : "グラブ",
-        "Tutorial.Intro.GrabbingVR" : "オブジェクトを持つには<color=#77ff77><b>グリップボタン</b></color>で<color=#ffdd77><b>グラブ</b></color>します。<br>離れた物もレーザーを使用してつかめます。",
+        "Tutorial.Intro.GrabbingVR" : "オブジェクトを持つには<color=#77ff77><b>グリップボタン</b></color>で<color=#ffdd77><b>グラブ</b></color>します。<br>離れた物もレーザーを使用してグラブできます。",
         "Tutorial.Intro.GrabbingScreen" : "オブジェクトを持つには<color=#77ff77><b>右マウスボタン</b></color>で<color=#ffdd77><b>グラブ</b></color>します。",
 
         "Tutorial.Intro.ScalingTitle" : "スケール",
         "Tutorial.Intro.ScalingVR" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>するには、両手でグラブし<color=#77ddff><b>近づけたり遠ざけたり</b></color>します。また、レーザーでも同様に行えます。",
-        "Tutorial.Intro.ScalingScreen" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>するには、<color=#77ff77><b>右マウスボタン</b></color>で持ち、<color=#77ff77><b>シフトキー(Shift)</b></color>を押しながら、<color=#77ff77><b>マウスホイール</b></color>を<color=#77ddff><b>スクロール</b></color>します。",
+        "Tutorial.Intro.ScalingScreen" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>するには、<color=#77ff77><b>右マウスボタン</b></color>でグラブし、<color=#77ff77><b>シフトキー(Shift)</b></color>を押しながら、<color=#77ff77><b>マウスホイール</b></color>を<color=#77ddff><b>スクロール</b></color>します。",
 
         "Tutorial.Intro.ContextMenuTitle" : "コンテキストメニュー",
         "Tutorial.Intro.ContextMenuDescription" : "<color=#ffdd77><b>コンテキストメニュー</b></color> はすばやくアクションを起こせます。<br><color=#77ff77><b>{button}</b></color>で開閉します。",
@@ -1153,8 +1153,8 @@
         "Tutorial.Intro.ContextMenu_Screen" : "R キー",
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "破棄と複製",
-        "Tutorial.Intro.DestroyingDuplicatingVR" : "オブジェクトを持ちながら、コンテキストメニューを開き<color=#77ff77><b>クリック</b></color>すると<b><color=#ffdd77>破棄か複製</color></b>をすることができます。",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "オブジェクトを持ちながら、コンテキストメニューで<color=#77ff77><b>Delete</b></color>を押すと<b><color=#ffdd77>破棄</color></b>、<color=#77ff77><b>F</b></color>で<color=#ffdd77><b>複製</b></color>します。",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "オブジェクトをグラブしながら、コンテキストメニューを開き<color=#77ff77><b>クリック</b></color>すると<b><color=#ffdd77>破棄か複製</color></b>をすることができます。",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "オブジェクトをグラブしながら、コンテキストメニューで<color=#77ff77><b>Delete</b></color>を押すと<b><color=#ffdd77>破棄</color></b>、<color=#77ff77><b>F</b></color>で<color=#ffdd77><b>複製</b></color>します。",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "自分をスケールする",
         "Tutorial.Intro.ScalingYourselfVR" : "<color=#ffdd77><b>自分をスケールする</b></color>には、コンテキストメニューでスケーリングを有効にしてから、両手の<color=#77ff77><b>グリップボタン</b></color>を押しながら手を<color=#77ddff><b>近づけたり遠ざけたり</b></color>します。",
@@ -1171,8 +1171,8 @@
         "Tutorial.Intro.Dashboard_ButtonMenu" : "メニューボタン",
         "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl + スペースキー両方押し",
 
-        "Tutorial.Intro.InventoryVR" : "ダッシュボードには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムを<color=#77ddff><b>持ちながら</b></color>右上の<sprite name=inv-add>を押します。",
-        "Tutorial.Intro.InventoryScreen" : "ダッシュボードには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムを持ちながら<color=#77ff77><b>Ctrl + Sキー</b></color>を押します。",
+        "Tutorial.Intro.InventoryVR" : "ダッシュボードには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムを<color=#77ddff><b>グラブ</b></color>しながら右上の<sprite name=inv-add>を押します。",
+        "Tutorial.Intro.InventoryScreen" : "ダッシュボードには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムをグラブ<color=#77ff77>しながら<b>Ctrl + Sキー</b></color>を押します。",
 
         "Tutorial.Intro.HomeScreenTitle" : "ホームスクリーン",
         "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>ホームスクリーン</b></color>には、多くの機能を備えたfacetが含まれています。これらには、アバタークリエイター、全身キャリブレーター、カメラ、新しいワールドの作成などがあります。",
@@ -1192,9 +1192,9 @@
         "Tutorial.MTC.Creation" : "クリエーション",
         "Tutorial.MTC.RecordingStreaming" : "レコーディング<br>＆ストリーミング",
 
-        "Tutorial.Grab.MoveRotate" : "持っているアイテムの移動/展開",
-        "Tutorial.Grab.Scale" : "他のコントローラーでつかんでスケール",
-        "Tutorial.Grab.PullToEquip" : "つかんで装備",
+        "Tutorial.Grab.MoveRotate" : "グラブしているアイテムの移動/展開",
+        "Tutorial.Grab.Scale" : "他のコントローラーでグラブしてスケール",
+        "Tutorial.Grab.PullToEquip" : "グラブして装備",
         "Tutorial.Grab.UseHeld" : "プライマリアクションを使用（装備は必要ありません）",
         "Tutorial.Grab.ContextEquip" : "コンテキストメニューを使用して、オプションを装備またはアクセスします",
         "Tutorial.Grab.EquipForFullUse" : "すべての機能を使用するために装備します",
@@ -1207,7 +1207,7 @@
         "Tutorial.Tooltip.ContextMenu" : "ツールメニューへのアクセスとオプションの装備解除を行います",
         "Tutorial.Tooltip.DevPrimary" : "（長押し）ギズモにインタラクト",
         "Tutorial.Tooltip.DevSecondary" : "（ギズモを表示）選択",
-        "Tutorial.Tooltip.Duplicator" : "（アイテムを持ちながら）複製",
+        "Tutorial.Tooltip.Duplicator" : "（アイテムをグラブしながら）複製",
         "Tutorial.Tooltip.GluePrimary" : "（長押し）接着剤を塗る",
         "Tutorial.Tooltip.GlueSecondary" : "接着剤を乾かします",
         "Tutorial.Tooltip.ColorPrimary" : "カラーを適用",
@@ -1219,8 +1219,8 @@
         "Tutorial.Tooltip.MeshSecondary" : "メッシュを抽出",
         "Tutorial.Tooltip.CharacterColliderPrimary" : "キャラクターコライダーを追加",
         "Tutorial.Tooltip.CharacterColliderSecondary" : "キャラクターコライダーを削除",
-        "Tutorial.Tooltip.GrabbableSetterPrimary" : "掴めるようにします",
-        "Tutorial.Tooltip.GrabbableSetterSecondary" : "掴めないようにします",
+        "Tutorial.Tooltip.GrabbableSetterPrimary" : "グラブ可能にします",
+        "Tutorial.Tooltip.GrabbableSetterSecondary" : "グラブ不可能にします",
         "Tutorial.Tooltip.LightPrimary" : "ライトを作成(長押し)",
         "Tutorial.Tooltip.LightSecondary" : "色を変えます",
         "Tutorial.Tooltip.MeshVisibilityPrimary" : "見えるようにする",
