@@ -1108,6 +1108,7 @@
 		"World.SortParameter.TotalSessionCount": "Total des sessions",
 		"World.SortParameter.TotalUserCount": "Total des utilisateurs",
 		"World.SortParameter.TotalVisits": "Total des visites",
-		"World.Waiting": "En attente..."
+		"World.Waiting": "En attente...",
+		"Dummy" : "Dummy"
 	}
 }
