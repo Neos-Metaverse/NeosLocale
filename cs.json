@@ -111,6 +111,7 @@
         "World.Error.SecurityViolation" : "Narušení bezpečnosti",
         "World.Error.OnlyRegisteredUsers" : "Pouze pro registrované uživatele",
         "World.Error.OnlyContacts" : "Pouze pro kontakty hostujícího",
+        "World.Error.OnlyContactsOfContacts" : "Pouze kontakty uživatelů uvnitř relace mohou vstoupit",
         "World.Error.Private" : "Privátní relace",
         "World.Error.SessionEnded" : "Relace skončila",
         "World.Error.UserLimitReached" : "Byl dosažen limit počtu uživatelů",
@@ -220,6 +221,7 @@
         "World.AccessLevel.Anyone" : "Veřejný",
         "World.AccessLevel.RegisteredUsers" : "Registrovaní uživatelé",
         "World.AccessLevel.Friends" : "Kontakty",
+        "World.AccessLevel.FriendsOfFriends" : "Kontakty+",
         "World.AccessLevel.LAN" : "LAN (lokální síť)",
         "World.AccessLevel.Private" : "Privátní (pouze pozvánky)",
 
@@ -366,6 +368,7 @@
         "Contacts.InFriendsOnly" : "Ve světě jen pro kontakty",
         "Contacts.InHidden" : "Ve skrytém světě",
         "Contacts.InHiddenFriendsOnly" : "Ve skrytém světě jen pro kontakty",
+        "Contacts.InHiddenFriendsOfFriends" : "Ve skrytém světě Kontakty+",
         "Contacts.InLAN" : "Ve světě jen pro LAN",
         "Contacts.UsingDifferentVersion" : "Jiná verze: {version}",
         "Contacts.RequestSent" : "Požadavek odeslán",
