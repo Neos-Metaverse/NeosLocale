@@ -76,10 +76,10 @@
 
 		"Dash.Actions.PasteFromClipboard": "클립보드에서 붙여넣기",
 
-		"Dash.Actions.CoreWorldsHeader": "코어 월드",
+		"Dash.Actions.CoreWorldsHeader": "중요한 월드",
 		"Dash.Actions.ContentHub": "컨텐트 허브",
 		"Dash.Actions.MTC": "메타버스 교육센터 <size=75%>(튜토리얼)</size>",
-		"Dash.Actions.CloudHome": "나의 클라우드 월드",
+		"Dash.Actions.CloudHome": "나의 홈(클라우드)",
 
 		"Dash.Exit.Header": "NEOS 종료",
 		"Dash.Exit.ExitAndSave": "저장 후 종료",
@@ -102,7 +102,7 @@
 
 		"World.Error.AccessDenied": "접근이 거부되었습니다.",
 		"World.Error.SecurityViolation": "보안사항의 위반이 발생하였습니다.",
-		"World.Error.OnlyRegisteredUsers": "등록된 사용자만 참여할 수 있습니다.",
+		"World.Error.OnlyRegisteredUsers": "Neos 가입자만 참여할 수 있습니다.",
 		"World.Error.OnlyContacts": "방장의 친구만 참여할 수 있습니다.",
 		"World.Error.Private": "초대를 통해서만 참여할 수 있습니다.",
 		"World.Error.SessionEnded": "세션이 만료되어 더 이상 존재하지 않습니다.",
@@ -211,9 +211,9 @@
 		"World.Category.Custom": "사용자 설정 월드",
 
 		"World.AccessLevel.Anyone": "누구나",
-		"World.AccessLevel.RegisteredUsers": "등록된 사용자",
+		"World.AccessLevel.RegisteredUsers": "Neos 가입자",
 		"World.AccessLevel.Friends": "친구",
-		"World.AccessLevel.LAN": "같은 네트워크(LAN) 인원",
+		"World.AccessLevel.LAN": "로컬망(LAN) 인원",
 		"World.AccessLevel.Private": "비공개 (호스트의 초대로만 참여 가능)",
 
 		"World.SortParameter.SearchScore": "검색 점수",
@@ -230,11 +230,11 @@
 		"World.Filter.OpenedWorlds": "열려있는 월드",
 		"World.Filter.ActiveSessions": "활성화된 세션",
 		"World.Filter.PublishedWorlds": "등록된 월드",
-		"World.Filter.LocalWorlds": "로컬 월드",
+		"World.Filter.LocalWorlds": "로컬망(LAN) 월드",
 		"World.Filter.BaseSearch": "검색:",
 		"World.Filter.ByOwner": "제작자로 검색:",
-		"World.Filter.UserOwner": "사용자가 제작",
-		"World.Filter.GroupOwner": "그룹이 제작",
+		"World.Filter.UserOwner": "개인소유",
+		"World.Filter.GroupOwner": "그룹소유",
 		"World.Filter.SubmittedToGroup": "그룹에 제출:",
 		"World.Filter.Featured": "추천 월드만",
 		"World.Filter.MyWorlds": "내 월드",
@@ -272,12 +272,12 @@
 
 		"Account.Login": "로그인",
 		"Account.Logout": "로그아웃",
-		"Account.Register": "등록",
-		"Account.LoginOrRegister": "로그인 / 등록",
+		"Account.Register": "가입",
+		"Account.LoginOrRegister": "로그인 / 가입",
 		"Account.LogoutConfirm": "정말로 로그아웃 하시나요?",
 		"Account.LoggingIn": "로그인 하는 중",
 		"Account.LoggingOut": "로그아웃 하는 중",
-		"Account.Registering": "계정 등록중",
+		"Account.Registering": "계정을 생성하고 있습니다.",
 		"Account.Anonymous": "익명 사용자",
 		"Account.PatreonSupporter": "페트리온 서포터",
 		"Account.Username": "사용자명:",
@@ -294,7 +294,7 @@
 		"Account.LostPassword": "암호 분실",
 		"Account.SendRecoveryCode": "복원코드 발송",
 		"Account.ResetPasswordHeader": "암호 초기화",
-		"Account.ResetPasswordInstructions": "등록된 전자메일로 복구 코드가 발송되었습니다. 코드 확인 후 아래에 입력하세요:",
+		"Account.ResetPasswordInstructions": "가입시 등록하신 전자메일로 복구 코드가 발송되었습니다. 코드 확인 후 아래에 입력하세요:",
 		"Account.RecoveryCode": "복구 코드:",
 		"Account.NewPassword": "새 암호:",
 		"Account.ResetPassword": "새 암호 적용",
@@ -302,7 +302,7 @@
 		"Account.ErrorPasswordMismatch": "암호가 일치하지 않습니다.",
 		"Account.ErrorEmailMismatch": "전자메일 주소가 일치하지 않습니다.",
 		"Account.ErrorLoginError": "로그인 오류:",
-		"Account.RegistrationSuccess": "성공! 검증용 링크가 담긴 이메일이 발송되었습니다. 링크를 클릭하시면 로그인이 가능합니다.",
+		"Account.RegistrationSuccess": "성공! 가입신청을 검증하기 위한 링크가 포함된 이메일이 발송되었습니다. 링크를 클릭하시면 로그인이 가능합니다.",
 
 		"Profile.Status.Online": "온라인",
 		"Profile.Status.Away": "자리비움",
@@ -315,7 +315,7 @@
 		"Session.Tab.Permissions": "권한",
 
 		"Session.Permission.Anonymous": "익명 사용자의 기본 설정:",
-		"Session.Permission.Vistor": "등록된 사용자의 기본 설정:",
+		"Session.Permission.Vistor": "가입자의 기본 설정:",
 		"Session.Permission.Contact": "친구의 기본 설정:",
 		"Session.Permission.Host": "호스트의 기본 설정:",
 		"Session.Permission.PermissionOverrideCount": "권한승계: {n,select, -1 {---} other {{n}}}",
@@ -342,10 +342,10 @@
 		"Contacts.RecordingVoiceMessage" : "녹음중",
 
 		"Contacts.InSession": "{name}에 있음",
-		"Contacts.InPrivate": "비공개 월드",
-		"Contacts.InFriendsOnly" : "친구전용 월드",
-		"Contacts.InHidden" : "숨겨진 월드",
-		"Contacts.InLAN" : "로컬망 월드",
+		"Contacts.InPrivate": "비공개 월드에 있음",
+		"Contacts.InFriendsOnly" : "친구전용 세션에 있음",
+		"Contacts.InHidden" : "숨겨진 월드에 있음",
+		"Contacts.InLAN" : "로컬망(LAN) 월드에 있음",
 		"Contacts.UsingDifferentVersion": "{version} 사용중",
 		"Contacts.RequestSent": "친구추가 요청함",
 		"Contacts.RequestReceived": "친구추가 요청됨",
@@ -1085,7 +1085,7 @@
 		"World.Edit.AccessPrivate": "본인",
 		"World.Edit.AccessPatreon": "페트레온 서포터",
 		"World.Edit.AccessPublic": "모든 사용자(공개)",
-		"Contacts.InHiddenFriendsOnly": "숨겨진 월드의 친구만",
+		"Contacts.InHiddenFriendsOnly": "숨겨진 월드(친구전용)에 있음",
 		"Settings.MaxConcurrentAssetTransfers": "에셋의 동시 전송량",
 		"Settings.Audio.SelectInputDevice": "오디오 장치를 선택하세요.",
 		"Settings.Audio.TestInput": "오디오 장치를 시험해 보세요.",
@@ -1226,6 +1226,10 @@
 		"Options.Nameplates.Hide": "명판: 숨김",
 		
 		"Settings.Haptics": "햅틱(터치진동) 반응 활성화",
+		
+		"World.Error.OnlyContactsOfContacts": "현재 세션에 참여중인 사용자의 친구(연락처)만 초대가 가능합니다.",
+		"World.AccessLevel.FriendsOfFriends": "친구의 친구(연락처+)",
+		"Contacts.InHiddenFriendsOfFriends": "숨겨진 월드(친구의 친구만 허용)에 있음",
 		
 		"Dummy": "더미"
 	}
