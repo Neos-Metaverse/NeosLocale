@@ -40,6 +40,23 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - DON'T convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
 - DON'T correct mistakes in the string keys, only report them. They will be fixed by a script, which will apply the correction to all locales at once.
 
+# If you use an external tool to do the translation and the JSON structure is mangled
+You can use the python script in this repository: CleanJSON.py
+
+For example to clean the french json, `./CleanJSON.py --en en.json --lang fr.json --out fr.json.cleaned`
+
+```usage: CleanJSON.py [-h] [--en en_path] [--lang lang_path] [--out out_path]
+
+This script will reformat a Babel style JSON for locales to match the en.json
+baseline formating for git changes purposes.
+
+optional arguments:
+  -h, --help        show this help message and exit
+  --en en_path      The path to the en.json Neos locale.
+  --lang lang_path  The path to the LANG.json Neos locale to clean.
+  --out out_path    The path to save the formated file.
+```
+
 # If you're contributing a new language
 1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
 
