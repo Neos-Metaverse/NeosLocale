@@ -1,6 +1,6 @@
 {
     "localeCode" : "fr",
-    "authors" : ["Archer", "FreakyWaves"],
+    "authors" : ["Archer", "FreakyWaves", "Xqua"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -14,10 +14,14 @@
         "General.FAILED" : "ÉCHEC",
         "General.Reset" : "Réinitialiser",
         "General.WorldOpenConfirm" : "Confirmer l'ouverture?",
+        "General.Save" : "Sauvegarder",
+        "General.Saving" : "Enregistrement...",
         "General.Saved" : "Enregistré",
         "General.Done" : "Terminé!",
         "General.CopiedToClipboard" : "Copié",
         "General.CopiedToClipboardLong" : "Copié dans le presse-papier",
+        "General.Create" : "Créer",
+        "General.Creating" : "En cours de création...",
 
         "General.UI.SearchPrompt" : "Recherche...",
         "General.UI.SearchPromptLong" : "Taper ici pour rechercher...",
@@ -26,11 +30,11 @@
         "General.Sort.Descending" : "Descendant",
 
         "Locomotion.Noclip.Name" : "Sans collisions",
-        "Locomotion.Noclip.Description" : "Mode volant sans collisions, idéal pour l'édition.",
+        "Locomotion.Noclip.Description" : "Locomotion de vol sans collisions, idéal pour l'édition.",
         "Locomotion.Teleport.Name" : "Téléportation",
         "Locomotion.Teleport.Description" : "Utilisation d'un pointeur pour la téléportation, pour un mouvement comfortable.",
         "Locomotion.Fly.Name" : "Voler",
-        "Locomotion.Fly.Description" : "Mode volant",
+        "Locomotion.Fly.Description" : "Locomotion de vol",
         "Locomotion.WalkRun.Name" : "Marche/course",
         "Locomotion.WalkRun.Description" : "Marche, course et saut, affecté par la physique.",
         "Locomotion.WalkRunGripping.Name" : "Marche/course (avec grimpe)",
@@ -41,7 +45,7 @@
         "Locomotion.GrabWorld.Description" : "Aucune idée en fait.",
         "Locomotion.Slide.Name" : "Glissade",
         "Locomotion.Slide.Description" : "Un mode de locomotion qui vous fait glisser sur les surfaces présentes, ou vous fait voler s'il n'y en a pas.",
-        
+
         "Interaction.Destroy" : "Détruire",
         "Interaction.Duplicate" : "Dupliquer",
         "Interaction.Undo" : "Défaire",
@@ -50,11 +54,23 @@
         "Interaction.DequipTool" : "Déséquiper",
         "Interaction.ScalingEnabled" : "Modification de la taille activée",
         "Interaction.ScalingDisabled" : "Modification de la taille désactivée ",
-        "Interaction.Reset" : "Réinitialiser sa taille",
+        "Interaction.ResetScale" : "Réinitialiser sa taille",
         "Interaction.LaserEnabled" : "Laser activé",
         "Interaction.LaserDisabled" : "Laser désactivé",
         "Interaction.Locomotion" : "Mouvement",
         "Interaction.Locomotion.None" : "Aucun",
+
+        "Interaction.NamedEquipTool" : "Equiper {name}",
+        "Interaction.NamedEquipTool.Default" : "Outil",
+
+        "Interaction.EnterAnchor" : "Entrer dans l'ancre",
+        "Interaction.ExitAnchor" : "Sortir de l'ancre",
+
+        "Interaction.EquipAvatar" : "Equiper Avatar",
+
+        "Interaction.SaveAsScreenshot" : "Sauvegarder en tant que capture d'écran",
+        "Interaction.ImportFile" : "Importer le fichier",
+        "Interaction.ExportFile" : "Exporter le fichier",
 
         "Dash.Screens.Home" : "Maison",
         "Dash.Screens.Worlds" : "Mondes",
@@ -95,6 +111,7 @@
         "World.Error.SecurityViolation" : "Violation de sécurité",
         "World.Error.OnlyRegisteredUsers" : "Seul les utilisateurs enregistrés peuvent joindre cette session",
         "World.Error.OnlyContacts" : "Seul les amis de l'hôte peuvent joindre cette session",
+        "World.Error.OnlyContactsOfContacts" : "Seul les amis des utilisateurs dans la session sont autoriser a rejoindre",
         "World.Error.Private" : "Cette session est privée",
         "World.Error.SessionEnded" : "La session s'est terminée",
         "World.Error.UserLimitReached" : "Limite des utilisateurs présents atteinte",
@@ -150,7 +167,7 @@
         "World.Actions.GuestWarning" : "Vous êtes un invité",
         "World.Actions.HostingWarning" : "Vous êtes l'hôte de ce monde. Les autres utilisateurs seront déconnectés.",
 
-        "World.Actions.GetWorld" : "Obtenir une orbe-portail",
+        "World.Actions.GetWorldOrb" : "Obtenir une orbe-portail",
         "World.Actions.CopyWorldURL" : "Copier le lien vers ce monde",
         "World.Actions.CopyRecordURL" : "Copier le lien vers cette entrée",
         "World.Actions.StartCustomSession" : "Démarré une session sur mesure",
@@ -163,8 +180,8 @@
         "World.Indicator.Author" : "Auteur: {name}",
         "World.Indicator.Host" : "Hôte: {name}",
         "World.Indicator.Hosting" : "Hébergement",
-        "World.Indicator.Users" : "Utilisateurs",
         "World.Indicator.Sessions" : "{n,plural, one {# session} other {# sessions}}",
+        "World.Indicator.Users" : "Utilisateurs",
         "World.Indicator.Users.None" : "(aucune session active)",
         "World.Indicator.Description" : "Description",
         "World.Indicator.Description.None" : "(une description n'a pas été donnée)",
@@ -203,7 +220,8 @@
 
         "World.AccessLevel.Anyone" : "N'importe qui",
         "World.AccessLevel.RegisteredUsers" : "Utilisateurs enregistés",
-        "World.AccessLevel.Friends" : "Amis",
+        "World.AccessLevel.Friends" : "Ami(e)s",
+        "World.AccessLevel.FriendsOfFriends" : "Ami(e)s et leurs ami(e)s",
         "World.AccessLevel.LAN" : "En réseau",
         "World.AccessLevel.Private" : "Privé (sur invitation seulement)",
 
@@ -236,23 +254,36 @@
         "World.Filter.MaxAccessLevel" : "Niveau d'accès maximal:",
         "World.Filter.MinimumUptime" : "Durée de fonctionnement minimal:",
         "World.Filter.Sorting" : "Ordre:",
-        
+
+        "World.Edit.Title" : "Éditer les Métadonnées du Monde",
+        "World.Edit.Name" : "Nom du Monde:",
+        "World.Edit.Description" : "Description:",
+        "World.Edit.Tags" : "Étiquettes (séparer par une virgule):",
+        "World.Edit.Path" : "Localisation du Monde:",
+        "World.Edit.AccessLevelHeader" : "Qui peux ouvrir ce monde?",
+        "World.Edit.AccessPrivate" : "Seulement Moi",
+        "World.Edit.AccessPatreon" : "Patron sur Patreon",
+        "World.Edit.AccessPublic" : "N'importe qui (publique)",
+
         "Tools.AvatarCreator" : "Créateur d'avatars",
-        "Tools.FullBodyCalibrator" : "Calibrateur de corps",
+        "Tools.FullBodyCalibrator" : "Calibrateur de corps / avatar",
         "Tools.CameraStreaming" : "Caméra / Diffusion",
         "Tools.CreateNewWorld" : "Créer un nouveau monde",
         "Tools.DepositNCR" : "Deposer des NCR",
         "Tools.WithdrawNCR" : "Retirer des NCR",
         "Tools.Debug" : "Déboguer",
-        
+
         "Options.FreeformDash.On" : "Tableau de bord libre: Actif",
         "Options.FreeformDash.Off" : "Tableau de bord libre: Inactif",
         "Options.SeatedMode.On" : "Mode assis: Actif",
         "Options.SeatedMode.Off" : "Mode assis: Inactif",
-        
+        "Options.Nameplates.All" : "Noms: Visibles",
+        "Options.Nameplates.NonContacts" : "Noms: Cacher les contacts",
+        "Options.Nameplates.Hide" : "Noms: Cacher",
+
         "Indicator.OnlineUsers" : "Utilisateurs en ligne: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Statut du serveur :</color> {status, select, Good {Bon} Slow {Lent} Down {Inaccessible} NoInternet {Sans Internet}} ({response_ms} ms)",
-		
+
         "Indicator.Sync.AllSynced" : "Synchronization complèté",
         "Indicator.Sync.SyncingItems" : "Synchronization: {item_count,plural, one {# élément} other {# éléments}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants" : "Chargement {variant_count,plural, one {# asset variant} other {# asset variants}}",
@@ -260,7 +291,7 @@
         "Indicator.Sync.OutOfSpace" : "Manque d'espace! <size=50%>Impossible de synchroniser</size>",
 
         "Indicator.LiveHiddenMessage" : "(Vos informations sont cachées pendant que vous diffuser)",
-        
+
         "Account.Login" : "Connexion",
         "Account.Logout" : "Déconnexion",
         "Account.Register" : "Enregistrement",
@@ -300,11 +331,11 @@
         "Profile.Status.Busy" : "Occupé",
         "Profile.Status.Invisible" : "Invisible",
         "Profile.Status.Offline" : "Hors ligne",
-        
+
         "Session.Tab.Settings" : "Paramètres",
         "Session.Tab.Users" : "Utilisateurs",
         "Session.Tab.Permissions" : "Permissions",
-        
+
         "Session.Permission.Anonymous" : "Anonyme, par défaut:",
         "Session.Permission.Vistor" : "Visiteur, par défaut:",
         "Session.Permission.Contact" : "Ami, par défaut:",
@@ -313,33 +344,39 @@
         "Session.Permission.ClearOverrides" : "Effacer les permissions spéciales",
 
         "User.Actions.Silence" : "Mettre en sourdine",
-	"User.Actions.Mute" : "Sourdine",
+        "User.Actions.Mute" : "Sourdine",
         "User.Actions.Jump" : "Saut",
         "User.Actions.Respawn" : "Rematérialiser",
         "User.Actions.Kick" : "Éjecter",
         "User.Actions.Ban" : "Bannir",
-        
+
         "Contacts.Add" : "Ajouter comme ami",
         "Contacts.Remove" : "Retirer des amis",
         "Contacts.ConfirmRemove" : "Confirmer la suppression?",
         "Contacts.AcceptRequest" : "Accepter la requète",
         "Contacts.IgnoreRequest" : "Ignorer la requète",
         "Contacts.Invite" : "Inviter ici",
-        "Contacts.SendCredits" : "Envoyer du credit",
+        "Contacts.SendCredits" : "Envoyer des crédits",
         "Contacts.BanFromAllSessions" : "Interdire l'accès à TOUTES mes sessions",
-        "Contacts.UnbanFromAllSessions" : "Lever l'interdiction",
+        "Contacts.UnbanFromAllSessions" : "Lever l'interdiction dans toutes mes sessions",
         "Contacts.BanFromCurrentWorld" : "Interdire l'accès à ce monde",
         "Contacts.UnbanFromCurrentWorld" : "Lever l'interdiction d'accès à ce monde",
+        "Contacts.RecordingVoiceMessage" : "Enregistrement du message...",
 
         "Contacts.InSession" : "Dans {name}",
         "Contacts.InPrivate" : "Dans un monde privé",
+        "Contacts.InFriendsOnly" : "Dans un monde acceptant seulement les contacts",
+        "Contacts.InHidden" : "Dans un monde invisible",
+        "Contacts.InHiddenFriendsOnly" : "Dans un monde visible pour vos contacts et leurs contacts",
+        "Contacts.InHiddenFriendsOfFriends" : "Dans un monde visible par les contacts et leurs contacts",
+        "Contacts.InLAN" : "Dans un monde pour LAN locale",
         "Contacts.UsingDifferentVersion" : "Utilise la version {version}",
         "Contacts.RequestSent" : "Requête envoyée",
         "Contacts.RequestReceived" : "Demande d'ami",
         "Contacts.RequestIgnored" : "Ignoré",
         "Contacts.Blocked" : "Bloqué",
         "Contacts.SearchResult" : "Résultats de recherche",
-        
+
         "Notifications.IsOnline" : "est maintenant en ligne",
         "Notifications.IsOnlineOnDifferentVersion" : "est maintenant en ligne <size=75%>(sur la version: {version})</size>",
         "Notifications.ReceivedContactRequest" : "à envoyé une demande d'ami",
@@ -349,6 +386,7 @@
         "Notifications.TransferedCredits" : "A transféré {amount} {token}",
         "Notifications.ReceivedTip" : "Pourboire reçu: {amount} {token}",
         "Notifications.SentTip" : "Pourboire envoyé: {amount} {token}",
+        "Notifications.VoiceMessage" : "Envoyé un message vocale",
 
         "Undo.SetField" : "Remettre {field_name} à {value}",
         "Undo.SetReference" : "Définir {ref_name} en référence à {ref_target}",
@@ -388,7 +426,7 @@
         "Tooltips.Dev.OpenInspector" : "Ouvrir l'inspecteur",
         "Tooltips.Dev.DeselectAll" : "Désélectionner tout",
         "Tooltips.Dev.DestroySelected" : "Détruire la sélection",
-        
+
         "Tooltip.Logix.NodeBrowser" : "Explorateur de noeuds",
         "Tooltip.Logix.UnpackChildren" : "Déballer les enfants et les noeuds connectés",
         "Tooltip.Logix.SetPackingRoot" : "Définir la racine de regroupement",
@@ -408,7 +446,7 @@
         "Tooltip.Light.Point" : "Point",
         "Tooltip.Light.Spot" : "Projecteur",
         "Tooltip.Light.Sun" : "Soleil",
-        
+
         "Tooltip.MeshVisibility.KeepShadow" : "Garder l'ombre",
         "Tooltip.MeshVisibility.ShadowOff" : "Désactiver l'ombre",
         "Tooltip.MeshVisibility.ShadowOn" : "Activer l'ombre",
@@ -429,6 +467,14 @@
 
         "Tooltip.Mesh.Edit" : "Modifier le Maillage",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Maintenez pour enregistrer",
+        "Tooltip.Microphone.ModePress" : "Appuyez pour démarrer/arrêter l'enregistrement",
+        "Tooltip.Microphone.SourceRaw" : "RAW",
+        "Tooltip.Microphone.SourceFiltered" : "Filtré et normalisé",
+
         "CreateNew.Back" : "<<< <i>Retour</i>",
         "CreateNew.EmptyObject" : "Objet vide",
         "CreateNew.ParticleSystem" : "Système de particules",
@@ -436,6 +482,7 @@
         "CreateNew.Object" : "Objet",
         "CreateNew.Object.AvatarCreator" : "Créateur d'avatar",
         "CreateNew.Object.Camera" : "Caméra",
+        "CreateNew.Object.ReflectionProbe" : "Sonde de réflexion",
         "CreateNew.Object.Mirror" : "Miroir",
         "CreateNew.Object.Portal" : "Portail",
         "CreateNew.Object.VideoPlayer" : "Lecteur vidéo",
@@ -459,6 +506,8 @@
         "CreateNew.Editor.LightSourcesWizard" : "Assistant des sources de lumière du monde",
         "CreateNew.Editor.AssetOptimizationWizard" : "Assistant d'optimisation des ressources",
         "CreateNew.Editor.LogixTransferWizard" : "Assistant de transfert LogiX",
+        "CreateNew.Editor.CubemapCreator" : "Createur de Cubemaps",
+        "CreateNew.Editor.ReflectionProbes" : "Assistant pour les sondes de réflexion",
 
         "CreateNew.3DModel" : "Modèle 3D",
         "CreateNew.3DModel.Box" : "Boîte",
@@ -481,7 +530,7 @@
         "CreateNew.Light" : "Lumière",
         "CreateNew.Light.Point" : "Point",
         "CreateNew.Light.Spot" : "Spot",
-        "CreateNew.Light.Directional" : "Directionnel",
+        "CreateNew.Light.Directional" : "Directionnelle",
 
         "CreateNew.Materials" : "Matériaux",
 
@@ -501,6 +550,8 @@
         "AvatarCreator.TryAlignHands" : "Essayer d'aligner les mains",
         "AvatarCreator.AlignToolAnchors" : "Aligner les ancres des outils",
         "AvatarCreator.Create" : "Creér",
+
+        "Importer.General.AsRawFile" : "Fichier brut",
 
         "Importer.Folder.Title" : "Importateur de dossier",
         "Importer.Folder.Individual" : "Importateur individuel",
@@ -627,7 +678,7 @@
         "NewWorld.Port" : "Port:",
         "NewWorld.AutoPort" : "Auto:",
         "NewWorld.DefaultName" : "{name} Monde",
-    
+
         "FullBody.Title" : "Calibration du corps",
         "FullBody.SetHeight" : "1) Définissez votre taille",
         "FullBody.HeightInstructions" : "Assurez-vous qu'il s'agit bien de votre taille réelle, sinon le calibrage ne fonctionnera pas correctement. Le mannequin doit s'adapter au casque et aux contrôleurs.",
@@ -738,7 +789,6 @@
         "CameraControl.Control.AngleSmoothSpeed" : "Angle Vitesse fluide: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Encadrement à vitesse fluide: {n}",
 
-		
         "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBS Mot de passe (facultatif):",
         "CameraControl.OBS.Connect" : "Connecter",
@@ -791,6 +841,7 @@
         "Settings.SpeedExponent" : "Exposant de la vitesse",
         "Settings.MoveThreshold" : "Zone morte de mouvements",
         "Settings.ControllerVibration" : "Vibration des contrôleurs",
+        "Settings.Haptics" : "Retour haptiques",
         "Settings.DisablePhysicalInteractions" : "Désactiver les interactions physiques",
         "Settings.EnableGestures" : "Activer les gestes",
         "Settings.DoubleClickInterval" : "Intervalle de double clic",
@@ -799,6 +850,7 @@
         "Settings.LegacyGripEquip" : "Permettre l'équipement de la double prise en main Legacy",
         "Settings.LegacyWorldSwitcher" : "Activer le sélecteur de monde Legacy",
         "Settings.FetchIncompatibleSessions" : "Afficher les sessions incompatibles",
+        "Settings.MaxConcurrentAssetTransfers" : "Transferts d'actifs simultanés maximum",
 
         "Settings.LaserSmoothing.Header" : "Lissage du laser",
         "Settings.LaserSmoothing.Speed" : "Vitesse fluide",
@@ -814,10 +866,19 @@
         "Settings.Audio.Multimedia" : "Multimédia: {n,number,percent}",
         "Settings.Audio.Voice" : "Voix : {n,number,percent}",
         "Settings.Audio.UI" : "Interface utilisateur: {n,number,percent}",
-        "Settings.Audio.DisableVoiceNormalization": "Désactiver la normalisation de la voix",
+        "Settings.Audio.DisableVoiceNormalization" : "Désactiver la normalisation de la voix",
         "Settings.Audio.NoiseGateThreshold" : "Seuil antibruit: {n}",
         "Settings.Audio.NormzliationThreshold" : "Seuil de normalisation: {n}",
         "Settings.Audio.InputDevice" : "Dispositif d'entrée audio:",
+        "Settings.Audio.SelectInputDevice" : "Sélectionner le périphérique audio d'entrée",
+        "Settings.Audio.TestInput" : "Testez votre entrée audio:",
+        "Settings.Audio.TestDescription" : "Nous vous rejouerons le son du périphérique audio sélectionné afin que vous puissiez vérifier qu'il est correct.",
+        "Settings.Audio.StartTest" : "Tester le microphone",
+        "Settings.Audio.StopTest" : "Arrêt du test",
+        "Settings.Audio.Monitoring" : "Moniteur du microphone",
+
+        "Settings.Locale.ChangeLanguage" : "Changer la langue",
+        "Settings.Locale.SelectLanguageHeader" : "Choisissez votre langue:",
 
         "Settings.Save" : "Sauvegarder les paramètres",
 
@@ -846,7 +907,7 @@
 
         "Settings.WindowsIntegration" : "Intégration à Windows",
         "Settings.LinuxIntegration" : "Intégration à Linux",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Conserver le format original de la capture d'écran",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Si cette option est activée, les captures d'écran ne seront pas converties en JPG lorsqu'elles seront enregistrées dans le dossier Documents",
 
@@ -870,7 +931,7 @@
         "Inspector.Mesh.BoneCount" : "Nombre d'os: {n}",
         "Inspector.Mesh.BlendshapeCount" : "Nombre de Blendshapes: {n}",
         "Inspector.Mesh.ChannelStats" : "Normales: {normals}, Tangentes: {tangents}, Couleurs: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
-        
+
         "Inspector.Mesh.BakeMesh" : "Précalculer le modèle",
         "Inspector.Mesh.ResaveMesh" : "Sauvegarder le modèle à nouveau",
         "Inspector.Mesh.RecalculateNormals" : "Recalculer les normales",
@@ -898,6 +959,9 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Combiner les modèles ayant le même matériel",
         "Inspector.MeshRenderer.SplitByMaterial" : "Séparer le modèle par matériaux",
 
+        "Inspector.ReflectionProbe.Bake" : "Précalculer les réflexions",
+        "Inspector.ReflectionProbe.Baking" : "Précalcule...",
+
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Séparer les parties du modèle qui ne sont pas affectés par les Blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Retirer les Blendshapes vides",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "C'est fait! Retiré: {n,plural, one {# blendshape} other {# blendshapes}}",
@@ -919,6 +983,7 @@
 
         "Inspector.Texture.Size" : "Dimensions: {width} x {height}",
         "Inspector.Texture.Format" : "Format: {format}, Mémoire: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "ID de variant: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Inverser le RGB",
         "Inspector.Texture.InvertR" : "Inverser le rouge",
@@ -951,22 +1016,228 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostique: Variables numériques invalides",
         "Inspector.Texture.GenerateMetadata" : "Diagnostique: Générer les metadonnées des Bitmaps",
 
+        "Inspector.Audio.BakeAudio" : "Précalcul du clip audio",
+        "Inspector.Audio.FormatInfo" : "Fréquence d'échantillonnage: {rate} Hz, Canaux: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Durée: {duration}, Nombre de samples: {samples}",
+        "Inspector.Audio.EncodingInfo" : "Information du codec: {info},  Décodage complet: {decoded}",
+
+        "Inspector.Audio.Normalize" : "Normaliser le volume",
+        "Inspector.Audio.AmplitudeThreshold" : "Seuil d'amplitude",
+        "Inspector.Audio.TrimSilence" : "Couper les silences",
+        "Inspector.Audio.TrimStartSilence" : "Couper le silence du début",
+        "Inspector.Audio.TrimEndSilence" : "Couper le silence final",
+        "Inspector.Audio.PositionDuration" : "Position/Durée (en secondes):",
+        "Inspector.Audio.TrimStart" : "Couper le début",
+        "Inspector.Audio.TrimEnd" : "Couper la fin",
+        "Inspector.Audio.FadeIn" : "Ajouter un fondu (Fade-in)",
+        "Inspector.Audio.FadeOut" : "Ajouter un fondu (Fade-out)",
+        "Inspector.Audio.MakeLoopable" : "Créer une boucle (utilisant un fondu enchaîné)",
+        "Inspector.Audio.ToWAV" : "Convertir en WAV",
+        "Inspector.Audio.ToVorbis" : "Convertir en OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Convertir en FLAC",
+
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "Configurer depuis les enfants",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Configurer depuis les enfants (force tous)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Configurer depuis les enfants (seulement l'armature)",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Remplacer les transitions douces des enfants",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Enlever les transitions douces des enfants",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Collisionneurs et Attraper -------",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Ajouter des collisionneurs fixes depuis la hiérarchie (utilisant la racine de l'objet)",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Toujours attraper le dernier os",
+
+        "Wizard.General.ProcessRoot" : "Racine du Processus:",
+        "Wizard.General.Result" : "Résultat:",
+        "Wizard.General.ErrorNoRoot" : "Pas de Racine sélectionné",
+        "Wizard.General.RemovedResult" : "{n,plural, one {# Enlevé} other {# Enlevés}}",
+
+        "Wizard.AssetOptimization.Title" : "Assistant d'optimisation des objets",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Nettoyer les objets non utilisé",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Netoyer les objets Vides",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Nettoyage des Rendus des Maillages Désactiver",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "De-dupliquer les matériaux",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Nettoyer les objects fichier",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Définir la résolution maximale des textures.",
+        "Wizard.AssetOptimization.RecompressTextures" : "Recompresser les Textures",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Recalculer les normales",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Recalculer les normales (unifie)",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Recalculer les tangentes (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "{n,plural, one {# redimensionné} other {# redimensionnés}}",
+
+        "Wizard.LightSources.Title" : "Assistant de Source Lumineuse",
+        "Wizard.LightSources.Header" : "Sources de Lumière de la Scène",
+        "Wizard.LightSources.ProcessRoot" : "Racine du Processus:",
+        "Wizard.LightSources.PointLights" : "Lumières Ponctuelles:",
+        "Wizard.LightSources.SpotLights" : "Lumière de Zone:",
+        "Wizard.LightSources.DirectionalLights" : "Lumières Directionnelles:",
+        "Wizard.LightSources.DisabledLights" : "Lumières Désactivées:",
+        "Wizard.LightSources.WithTag" : "Avec Étiquette:",
+        "Wizard.LightSources.SetShadowType" : "Définir le type d'Ombre",
+        "Wizard.LightSources.ChangeIntensity" : "Changer l'Intensité",
+        "Wizard.LightSources.ChangeRange" : "Changer l'Intervalle",
+        "Wizard.LightSources.Enable" : "Activer",
+        "Wizard.LightSources.Disable" : "Désactiver",
+        "Wizard.LightSources.Destroy" : "Détruire",
+
+        "Wizard.CubemapCreator.Title" : "Créateur de Cubemap",
+        "Wizard.CubemapCreator.Textures" : "Sources des Textures:",
+        "Wizard.CubemapCreator.TexturesNote" : "Notez que certaines conventions ont permuté la gauche et la droite. Si le cubemap résultant est incorrect, essayez de permuter les textures gauche et droite.",
+        "Wizard.CubemapCreator.PosX" : "X positif (droite)",
+        "Wizard.CubemapCreator.NegX" : "X Négatif (gauche)",
+        "Wizard.CubemapCreator.PosY" : "Y Positif (haut)",
+        "Wizard.CubemapCreator.NegY" : "Y Négatif (en bas)",
+        "Wizard.CubemapCreator.PosZ" : "Z Positif (en face)",
+        "Wizard.CubemapCreator.NegZ" : "Z Négatif (arrière)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Rotation Haut/Bas:",
+
+        "Wizard.ReflectionProbes.Title" : "Sondes de Réflexions",
+        "Wizard.ReflectionProbes.ProcessRoot" : "Racine du Processus:",
+        "Wizard.ReflectionProbes.ProcessDisabled" : "Processus désactivé",
+        "Wizard.ReflectionProbes.WithTag" : "Avec Étiquette:",
+        "Wizard.ReflectionProbes.TeleportUserToProbe" : "Téléporte moi a chaque sonde",
+        "Wizard.ReflectionProbes.DelayBetweenProbes" : "Délais entre les sondes",
+        "Wizard.ReflectionProbes.ShowDebugVisuals" : "Montrer les Visuels de Débogage",
+        "Wizard.ReflectionProbes.HideDebugVisuals" : "Cacher les Visuels de Débogage",
+        "Wizard.ReflectionProbes.BakeProbes" : "Pre-Calculer les Sondes",
+        "Wizard.ReflectionProbes.Baking" : "Pre-calcul {index} sur {count}...",
+
+        "Tutorial.Welcome.WelcomeTo" : "Bienvenue a",
+        "Tutorial.Welcome.LetsStart" : "C'est partie!",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>WARNING:</b> </color> Vous jouez actuellement en mode écran, qui n'est actuellement pas officiellement pris en charge et est principalement conçu pour le débogage. <br> <br> Bien qu'il puisse être utilisé pour jouer, certaines choses ne fonctionneront pas et les commandes peuvent être difficiles à utiliser. <br> <br> <b> Neos est actuellement conçu pour être joué en RV. </b> <br> <br> Un mode bureau fonctionnel devrait être implémenté à l’avenir.",
+        "Tutorial.Welcome.ScreenUnderstand" : "Je comprend",
+
+        "Tutorial.Welcome.AccountHeader" : "Compte Neos",
+        "Tutorial.Welcome.AccountDescription" : "La création d'un compte vous donne 1 Go de stockage gratuit et l'accès aux éléments de sauvegarde, aux avatars favoris, à l'ajout de contacts et de messagerie.",
+        "Tutorial.Welcome.AccountCreate" : "Créer un compte",
+        "Tutorial.Welcome.AccountLogin" : "J'ai déjà un compte",
+        "Tutorial.Welcome.AccountSkip" : "Continuer sans compte",
+        "Tutorial.Welcome.AccountSkipHeader" : "Sauter la création de compte?",
+        "Tutorial.Welcome.AccountSkipDescription" : "Certaines fonctionnalités telles que l'enregistrement des éléments dans l'inventaire, la mise en favoris d'un avatar ou l'ajout de contacts ne seront pas accessibles.",
+        "Tutorial.Welcome.AccountSkipConfirm" : "Voulez vous vraiment sauter?",
+
+        "Tutorial.Welcome.SettingsHeader" : "Préférences de base",
+        "Tutorial.Welcome.SettingsDescription" : "Vous pouvez configurer le mouvement de base et les préférences utilisateur. Tous ces éléments peuvent être modifiés ultérieurement.",
+        "Tutorial.Welcome.SettingsTurning" : "Style de rotation",
+        "Tutorial.Welcome.SettingsSnapTurn" : "Instantané",
+        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Tourne instantanément vers un nouvel angle, idéal pour les nouveaux utilisateurs",
+        "Tutorial.Welcome.SettingsSmoothTurn" : "Continue",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Tourne progressivement, mais peut provoquer des nausées.",
+        "Tutorial.Welcome.SettingsPrimaryController" : "Contrôleur Primaire",
+        "Tutorial.Welcome.SettingsPrimaryLeft" : "Gauche",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b> Gauche: </b> Tourner, <b> Droite: </b> Strafe",
+        "Tutorial.Welcome.SettingsPrimaryRight" : "Droite",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b> Gauche: </b> Strafe, <b> Droite: </b> Tourner",
+        "Tutorial.Welcome.SettingsHeight" : "Votre taille",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Exemples: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
+
+        "Tutorial.Welcome.StartTutorialHeader" : "Commencer le Tutoriel",
+        "Tutorial.Welcome.StartTutorialDescription" : "Nous vous transférerons dans un monde de tutoriels pour vous aider à démarrer avec Neos. Vous pouvez choisir de rendre public le monde du tutoriel, permettant à la communauté Neos de se joindre et de vous aider, ou d'apprendre par vous-même.",
+        "Tutorial.Welcome.StartTutorialPublic" : "Je veux que les gens puissent me rejoindre et m'aider",
+        "Tutorial.Welcome.StartTutorialPrivate" : "Je veux apprendre seul.",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Commencer vraiment en privé?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Les membres de la communauté peuvent vous aider à vous installer plus facilement et plus rapidement, vraiment procéder seuls?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Créer en Privée",
+
+        "Tutorial.Intro.WelcomeTitle" : "Bienvenue dans Neos",
+        "Tutorial.Intro.WelcomeDescription" : "Votre guide pour explorer le metaverse.",
+
+        "Tutorial.Intro.GrabbingTitle" : "Agripper",
+        "Tutorial.Intro.GrabbingVR" : "Prenez des objets en <color=#ffdd77><b>Agrippant</b> </color> avec le <color=#77ff77> <b> bouton d'agrippage </b> </color>. <br> Attrapez un distance à l'aide de votre laser.",
+        "Tutorial.Intro.GrabbingScreen" : "Récupérez les objets en <color=#ffdd77><b>Grabbing</b> </color> avec le <color=#77ff77> <b> bouton droit de la souris </b> </color>.",
+
+        "Tutorial.Intro.ScalingTitle" : "Redimensioner",
+        "Tutorial.Intro.ScalingVR" : "Pour <color=#ffdd77><b>Redimensioner</b> </color> un objet, saisissez-le à deux mains et déplacez-les <color=#77ddff> <b> plus près ou plus loin </b> </color> à part - cela peut également être fait avec vos lasers.",
+        "Tutorial.Intro.ScalingScreen" : "Pour <color=#ffdd77><b>Redimensioner</b> </color> un objet, saisissez-le avec le <color=#77ff77> <b> bouton droit de la souris </b> </color> et <color = # 77ddff> <b> faites défiler </b> </color> avec votre <color=#77ff77> <b> molette de défilement </b> </color>.",
+
+        "Tutorial.Intro.ContextMenuTitle" : "Menu Contextuel",
+        "Tutorial.Intro.ContextMenuDescription" : "Votre <color=#ffdd77> <b> Menu contextuel </b> </color> propose des actions rapides. <br> Ouvrez ou fermez-le à l'aide du <color=#77ff77> <b> {button} </b> < / couleur>.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "Bouton B",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "Bouton B ou Y",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "Bouton Menu",
+        "Tutorial.Intro.ContextMenu_Screen" : "Touche R",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Détruire et dupliquer",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Tout en tenant un objet, <b> <color = # ffdd77> Détruisez ou Dupliquez </color> </b> en <color=#77ff77><b>Cliquant</b> </color> l’action dans le contexte menu.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Tout en tenant un objet, <b><color=#ffdd77> Détruisez</color> </b> en appuyant sur <color=#77ff77><b>Supprimer</b> </color>. <color=#ffdd77><b>Dupliquez</b> </color> en appuyant sur <color=#77ff77> <b> touche F </b> </color>.",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "Se redimensioner",
+        "Tutorial.Intro.ScalingYourselfVR" : "Pour <color=#ffdd77> <b> Changer votre taille </b> </color>, activez la mise à l'échelle dans votre menu contextuel, puis maintenez les deux <color=#77ff77> <b> Boutons de d'attrapage </b> </color> et écartez vos mains <color=#77ddff> <b> plus près ou plus </b> </color>.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Pour <color=#ffdd77> <b> votre taille </b> </color>, maintenez <color=#77ff77><b>Ctrl</b> </color> et <color=#77ddff> <b> faites défiler </b> </color> votre <color=#77ff77> <b> Molette de défilement </b> </color>.",
+
+        "Tutorial.Intro.LocomotionTitle" : "Locomotion",
+        "Tutorial.Intro.LocomotionDescription" : "Neos contient de nombreuses méthodes de mouvement. <br> Ces options de locomotion sont disponibles dans votre <color = # ffdd77> Menu contextuel </color>.",
+
+        "Tutorial.Intro.DashboardTitle" : "Tableau de bord Neos",
+        "Tutorial.Intro.DashboardDescription" : "Le <color=#ffdd77><b>Tableau de bord</b> </color> est votre menu principal. <br> Vous l'ouvrez et le fermez à l'aide du <color=#77ff77> <b> {button} </b> </color>.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "Le <color=#ffdd77><b>Tableau de bord</b> </color> est votre menu principal. <br> Vous l'ouvrez et le fermez en maintenant le <color=#77ff77> <b> {bouton} </ b > </color> jusqu'à ce que le cercle soit plein, puis <color=#77ddff><b>release</b> </color>.",
+        "Tutorial.Intro.Dashboard_ButtonA" : "Bouton A",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "Bouton A ou X",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "Bouton Menu",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl + Espace",
+
+        "Tutorial.Intro.InventoryVR" : "Votre <color=#ffdd77><b>Inventaire</b> </color> se trouve sur votre tableau de bord. <br> Pour <color=#77ddff><b> générer</b> </color> un objet, <color=#77ff77><b>Double-Cliquez</b> </color> sur l'élément de votre inventaire. <br> Pour <color=#77ddff><b>Enregistrer</b> </color> un objet , <color=#77ddff><b> tenez</b> </color> l'élément et appuyez sur <sprite name = inv-add> dans le coin supérieur droit.",
+        "Tutorial.Intro.InventoryScreen" : "Votre <color=#ffdd77><b>Inventaire</b> </color> se trouve sur votre tableau de bord Neos. <br> Pour <color=#77ddff><b>spawn</b> </color> un objet , <color=#77ff77><b>Double-Cliquez</b> </color> sur l'article de votre inventaire. <br> Pour <color=#77ddff><b>sauver</b> </color> an objet, maintenez l'élément et appuyez sur <color=#77ff77> <b> Ctrl + S </b> </color>.",
+
+        "Tutorial.Intro.HomeScreenTitle" : "Votre écran d'acceuil",
+        "Tutorial.Intro.HomeScreenDescription" : "Votre <color=#ffdd77> <b> Écran d'accueil </b> </color> contient des facettes avec de nombreuses fonctionnalités. <br> Il s'agit notamment du Créateur d'Avatar, du Calibrateur de Corps, de l'Appareil Photo / de la diffusion en continu et de Création de nouveau Mondes.",
+        "Tutorial.Intro.ContactsDescription" : "Vos <color=#ffdd77><b>Contacts</b> </color> se trouvent sur le tableau de bord. <br> Envoyez des messages, des messages vocaux ou des objets aux contacts avec la boîte de discussion en bas à droite. <br> Ajouter des contacts avec la barre de recherche, située dans le coin supérieur gauche.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Importez</b> </color> des fichiers, des modèles 3D, des images, de l'audio, des vidéos ou des polices directement dans Neos! <br> Soit <color=#77ddff> <b> faites glisser et déposez les fichiers </b> </color> dans la fenêtre Neos, ou trouvez-les en utilisant le <color=#ffdd77> <b> Navigateur de fichiers </b> </color>.",
+        "Tutorial.Intro.SessionTitle" : "Paramètres de la session",
+        "Tutorial.Intro.SessionDescription" : "Les paramètres de session, les niveaux d'autorisation et les paramètres relatifs aux autres utilisateurs dans le monde se trouvent dans le panneau <color=#ffdd77><b>Session</b> </color>.",
+        "Tutorial.Intro.SettingsDescription" : "La hauteur, le volume, les paramètres de confort, le choix de la langue, etc. sont ajustés dans l'onglet <color=#ffdd77><b> Paramètres</b> </color>.",
+        "Tutorial.Intro.WorldsTitle" : "Menu des Mondes",
+        "Tutorial.Intro.WorldsDescription" : "Explorez le métaverse en utilisant le menu <color=#ffdd77><b>Mondes</b> </color>. <br> Lorsque vous avez terminé ici, rejoignez une session active pour rencontrer la communauté!",
+
+        "Tutorial.Intro.OutroTop" : "D'autres tutoriels sont disponibles dans ce monde. <br> <br> Bonne chance et profitez du métaverse!",
+        "Tutorial.Intro.Website" : "Site web",
+        "Tutorial.Intro.OutroEnd" : "Pour soutenir le projet, rejoignez notre Patreon. <br> <br> Rejoignez le Discord pour les mises à jour de statut, l'état des serveurs ou le support technique.",
+
+        "Tutorial.MTC.Avatars" : "Avatars & Sociales",
+        "Tutorial.MTC.Creation" : "Création et Utilitaires",
+        "Tutorial.MTC.RecordingStreaming" : "Enregistrer & Streamer",
+
+        "Tutorial.Grab.MoveRotate" : "Déplacer/faire pivoter les éléments agrippé",
+        "Tutorial.Grab.Scale" : "Agripper avec un autre contrôleur pour redimensionner",
+        "Tutorial.Grab.PullToEquip" : "Tirez vers vous pour équiper",
+        "Tutorial.Grab.UseHeld" : "Utiliser l'action principale (ne nécessite pas d'équipement)",
+        "Tutorial.Grab.ContextEquip" : "Utiliser le menu contextuel pour équiper ou accéder aux options",
+        "Tutorial.Grab.EquipForFullUse" : "Équipe pour utiliser toutes les fonctionnalités",
+
+        "Tutorial.WorldOrb.Click" : "Cliquez sur l'Orbe de Monde",
+        "Tutorial.WorldOrb.Info" : "<b> Orbe de Monde </b>\n<size = 80%> Représente un monde ou une session </size>\nDouble-cliquez - Entrée\nUn seul clic - Menu contextuel\n\n",
+
+        "Tutorial.Tooltip.GeneralPrimary" : "Utiliser",
+        "Tutorial.Tooltip.GeneralSecondary" : "Action secondaire",
+        "Tutorial.Tooltip.ContextMenu" : "Accéder au menu d'outils et à l'option de deséquipement",
+        "Tutorial.Tooltip.DevPrimary" : "Interagir avec les gizmos (maintenir)",
+        "Tutorial.Tooltip.DevSecondary" : "Sélectionner (Montre les gizmos)",
+        "Tutorial.Tooltip.Duplicator" : "Dupliquer (En maintenant un objet)",
+        "Tutorial.Tooltip.GluePrimary" : "Appliquer la colle (maintenir)",
+        "Tutorial.Tooltip.GlueSecondary" : "Forcer le séchage de la colle",
+        "Tutorial.Tooltip.ColorPrimary" : "Appliquer la Couleur",
+        "Tutorial.Tooltip.ColorSecondary" : "Sélectionner la Couleur",
+        "Tutorial.Tooltip.Brush" : "Déssiner",
+        "Tutorial.Tooltip.MaterialPrimary" : "Appliquer le matériau\n<size = 75%> (Placez l'orbe de matière dans le canon) </size>",
+        "Tutorial.Tooltip.MaterialSecondary" : "Extraire le matériau\n<size = 75%> (Assurez-vous qu'il n'y a pas d'orbe matériel en premier) </size>",
+        "Tutorial.Tooltip.MeshPrimary" : "Remplacer le maillage",
+        "Tutorial.Tooltip.MeshSecondary" : "Extraire le maillage",
+        "Tutorial.Tooltip.CharacterColliderPrimary" : "Ajouter un collisioneur de personnage",
+        "Tutorial.Tooltip.CharacterColliderSecondary" : "Enlever un collisioneur de personnage",
+        "Tutorial.Tooltip.GrabbableSetterPrimary" : "Appliquer Aggripable",
+        "Tutorial.Tooltip.GrabbableSetterSecondary" : "Enlever Aggripable",
+        "Tutorial.Tooltip.LightPrimary" : "Créer une lumière (maintenir)",
+        "Tutorial.Tooltip.LightSecondary" : "Changer la couleur",
+        "Tutorial.Tooltip.MeshVisibilityPrimary" : "Rendre Visible",
+        "Tutorial.Tooltip.MeshVisibilitySecondary" : "Rendre Invisible",
+        "Tutorial.Tooltip.ShapePrimary" : "Creer une forme",
+        "Tutorial.Tooltip.ShapeSecondary" : "Changer la forme",
+        "Tutorial.Tooltip.WigglerPrimary" : "Ouvrir la boite de pandore",
+        "Tutorial.Tooltip.WigglerSecondary" : "Racheter légèrement votre âme",
+
         "Exiting.SavingItems" : "Sauvegarde {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Sauvegarde en cours...",
         "Exiting.Exiting" : "Au revoir!",
         "Exiting.LoggingOut" : "En déconnexion",
-        
-        "Temporary.MMC.Voting UI": "Interface de vote MMC",
-        "Temporary.MMC.Vote": "Vote",
-        "Temporary.MMC.Categories.Name": "Catégories",
-        "Temporary.MMC.Categories.Worlds": "Mondes",
-        "Temporary.MMC.Categories.Other": "Gadgets/Outils+",
-        "Temporary.MMC.Categories.Avatars": "Avatars",
-        "Temporary.MMC.VoteSuccess": "Vote lancé pour {voteTarget} dans la catégorie {category}.",
-        "Temporary.MMC.VoteFailure": "Échec du vote. Veuillez essayer de nouveau.",
-        "Temporary.MMC.VotedAlready": "Vous avez déjà voté pour la catégorie {category}.",
-        "Temporary.MMC.VoteInvalid": "Vote invalide. Veuillez essayer de nouveau.",
-        
+
         "Dummy" : "Dummy"
     }
 }

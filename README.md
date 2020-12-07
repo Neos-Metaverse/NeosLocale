@@ -120,5 +120,22 @@ Currently there are a few known parts that cannot be translated, but are planned
 - LogiX node names and categories (same as above)
 - Component fields (those will only show optional translated names on hover once tooltip system is implemented)
 
+# If you use an external tool to do the translation and the JSON structure is mangled
+You can use the python script in this repository: CleanJSON.py
+
+For example to clean the french json, `./CleanJSON.py --en en.json --lang fr.json --out fr.json.cleaned`
+
+```usage: CleanJSON.py [-h] [--en en_path] [--lang lang_path] [--out out_path]
+
+This script will reformat a Babel style JSON for locales to match the en.json
+baseline formating for git changes purposes.
+
+optional arguments:
+  -h, --help        show this help message and exit
+  --en en_path      The path to the en.json Neos locale.
+  --lang lang_path  The path to the LANG.json Neos locale to clean.
+  --out out_path    The path to save the formated file.
+```
+
 # Any questions?
 If you have questions or are unsure about something, you can create an Issue on this repository or reach out to our team on the official Discord: https://discord.gg/neosvr
