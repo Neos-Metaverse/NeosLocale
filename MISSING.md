@@ -1,11 +1,6 @@
 # Missing Keys per locale
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
-# Czech [cs]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Contacts.InHiddenFriendsOfFriends  
-
 # German [de]
 World.Error.OnlyContactsOfContacts  
 World.AccessLevel.FriendsOfFriends  
@@ -3002,11 +2997,6 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
-# Korean [ko]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Contacts.InHiddenFriendsOfFriends  
-
 # Dutch [nl]
 World.Error.OnlyContactsOfContacts  
 World.AccessLevel.FriendsOfFriends  
@@ -3361,16 +3351,6 @@ Tutorial.Tooltip.ShapePrimary
 Tutorial.Tooltip.ShapeSecondary  
 Tutorial.Tooltip.WigglerPrimary  
 Tutorial.Tooltip.WigglerSecondary  
-
-# Polish [pl]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Contacts.InHiddenFriendsOfFriends  
-
-# Russian [ru]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Contacts.InHiddenFriendsOfFriends  
 
 # Swedish [sv]
 General.Save  
