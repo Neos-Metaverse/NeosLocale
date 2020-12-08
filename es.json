@@ -111,7 +111,7 @@
         "World.Error.SecurityViolation" : "Violación de Seguridad",
         "World.Error.OnlyRegisteredUsers" : "Sólo usuarios registrados pueden unirse a la sesión",
         "World.Error.OnlyContacts" : "Sólo contactos del anfitrión pueden unirse a la sesión",
-        "World.Error.OnlyContactsOfContacts" : "Sólo contactos y contactos de usuarios en la sesión pueden unirse",
+        "World.Error.OnlyContactsOfContacts" : "Sólo contactos de usuarios en la sesión pueden unirse",
         "World.Error.Private" : "Esta sesión es privada",
         "World.Error.SessionEnded" : "La sesión ha terminado",
         "World.Error.UserLimitReached" : "La sesión ha llegado al límite de usuarios",
