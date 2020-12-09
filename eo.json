@@ -1035,6 +1035,9 @@
         "Inspector.Audio.ToWAV" : "Konverti al WAV",
         "Inspector.Audio.ToVorbis" : "Konverti al OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konverti al FLAC",
+        
+        "Inspector.AudioStream.BufferState" : "Haveblaj specimenoj: {samples}, Maltrafita: {missed}, Longo: {length}, Tutmonda Indekso: {index}",
+        "Inspector.AudioStream.EncodeState" : "Disponebla por kodi: {samples}, Kadro Grandeco: {frame} (Maksimumo: {max_frame}), Specimeno-kurzo: {rate}",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Agordi De Infanoj",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Agordi De Infanoj (devigi ĉiujn)",

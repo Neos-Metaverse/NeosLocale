@@ -1036,6 +1036,9 @@
         "Inspector.Audio.ToVorbis" : "OGG Vorbisに変換",
         "Inspector.Audio.ToFLAC" : "FLACに変換",
 
+        "Inspector.AudioStream.BufferState" : "使用可能なサンプル: {samples}, 欠落: {missed}, 長さ: {length}, グローバルインデックス: {index}",
+        "Inspector.AudioStream.EncodeState" : "エンコード可能なサンプル: {samples}, フレームサイズ: {frame} (最大: {max_frame}), サンプルレート: {rate}",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "子にしたものをセットアップします",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "子にしたものを“強制的にすべて”セットアップします",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "子にしたものを“リグのみ”セットアップします",
