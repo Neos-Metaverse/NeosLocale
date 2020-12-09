@@ -1,10 +1,16 @@
 # Missing Keys per locale
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
+# Czech [cs]
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
+
 # German [de]
 World.Error.OnlyContactsOfContacts  
 World.AccessLevel.FriendsOfFriends  
 Contacts.InHiddenFriendsOfFriends  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -899,6 +905,8 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -1072,11 +1080,13 @@ Exiting.SavingChanges
 Exiting.Exiting  
 Exiting.LoggingOut  
 
+# Esperanto [eo]
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
+
 # Spanish [es]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Contacts.InHiddenFriendsOfFriends  
-Settings.Haptics  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 
 # Estonian [et]
 General.Save  
@@ -1154,6 +1164,8 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -1833,6 +1845,8 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -2009,6 +2023,10 @@ Exiting.SavingItems
 Exiting.SavingChanges  
 Exiting.Exiting  
 Exiting.LoggingOut  
+
+# French [fr]
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 
 # Icelandic [is]
 General.Processing  
@@ -2572,6 +2590,8 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -2746,90 +2766,17 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
+# Japanese [ja]
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
+
+# Korean [ko]
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
+
 # Dutch [nl]
-World.Error.OnlyContactsOfContacts  
-World.AccessLevel.FriendsOfFriends  
-Options.Nameplates.All  
-Options.Nameplates.NonContacts  
-Options.Nameplates.Hide  
-Contacts.InHiddenFriendsOfFriends  
-CreateNew.Object.ReflectionProbe  
-CreateNew.Editor.CubemapCreator  
-CreateNew.Editor.ReflectionProbes  
-Settings.Haptics  
-Settings.MaxConcurrentAssetTransfers  
-Inspector.ReflectionProbe.Bake  
-Inspector.ReflectionProbe.Baking  
-Wizard.LightSources.Title  
-Wizard.LightSources.Header  
-Wizard.LightSources.ProcessRoot  
-Wizard.LightSources.PointLights  
-Wizard.LightSources.SpotLights  
-Wizard.LightSources.DirectionalLights  
-Wizard.LightSources.DisabledLights  
-Wizard.LightSources.WithTag  
-Wizard.LightSources.SetShadowType  
-Wizard.LightSources.ChangeIntensity  
-Wizard.LightSources.ChangeRange  
-Wizard.LightSources.Enable  
-Wizard.LightSources.Disable  
-Wizard.LightSources.Destroy  
-Wizard.ReflectionProbes.Title  
-Wizard.ReflectionProbes.ProcessRoot  
-Wizard.ReflectionProbes.ProcessDisabled  
-Wizard.ReflectionProbes.WithTag  
-Wizard.ReflectionProbes.TeleportUserToProbe  
-Wizard.ReflectionProbes.DelayBetweenProbes  
-Wizard.ReflectionProbes.ShowDebugVisuals  
-Wizard.ReflectionProbes.HideDebugVisuals  
-Wizard.ReflectionProbes.BakeProbes  
-Wizard.ReflectionProbes.Baking  
-Tutorial.Intro.WelcomeTitle  
-Tutorial.Intro.WelcomeDescription  
-Tutorial.Intro.GrabbingTitle  
-Tutorial.Intro.GrabbingVR  
-Tutorial.Intro.GrabbingScreen  
-Tutorial.Intro.ScalingTitle  
-Tutorial.Intro.ScalingVR  
-Tutorial.Intro.ScalingScreen  
-Tutorial.Intro.ContextMenuTitle  
-Tutorial.Intro.ContextMenuDescription  
-Tutorial.Intro.ContextMenu_ButtonB  
-Tutorial.Intro.ContextMenu_ButtonBY  
-Tutorial.Intro.ContextMenu_ButtonMenu  
-Tutorial.Intro.ContextMenu_Screen  
-Tutorial.Intro.DestroyingDuplicatingTitle  
-Tutorial.Intro.DestroyingDuplicatingVR  
-Tutorial.Intro.DestroyingDuplicatingScreen  
-Tutorial.Intro.ScalingYourselfTitle  
-Tutorial.Intro.ScalingYourselfVR  
-Tutorial.Intro.ScalingYourselfScreen  
-Tutorial.Intro.LocomotionTitle  
-Tutorial.Intro.LocomotionDescription  
-Tutorial.Intro.DashboardTitle  
-Tutorial.Intro.DashboardDescription  
-Tutorial.Intro.DashboardDescriptionCircle  
-Tutorial.Intro.Dashboard_ButtonA  
-Tutorial.Intro.Dashboard_ButtonAX  
-Tutorial.Intro.Dashboard_ButtonMenu  
-Tutorial.Intro.Dashboard_ButtonScreen  
-Tutorial.Intro.InventoryVR  
-Tutorial.Intro.InventoryScreen  
-Tutorial.Intro.HomeScreenTitle  
-Tutorial.Intro.HomeScreenDescription  
-Tutorial.Intro.ContactsDescription  
-Tutorial.Intro.FilesDescription  
-Tutorial.Intro.SessionTitle  
-Tutorial.Intro.SessionDescription  
-Tutorial.Intro.SettingsDescription  
-Tutorial.Intro.WorldsTitle  
-Tutorial.Intro.WorldsDescription  
-Tutorial.Intro.OutroTop  
-Tutorial.Intro.Website  
-Tutorial.Intro.OutroEnd  
-Tutorial.MTC.Avatars  
-Tutorial.MTC.Creation  
-Tutorial.MTC.RecordingStreaming  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 
 # Norwegian [no]
 General.Save  
@@ -2928,6 +2875,8 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -3100,6 +3049,14 @@ Tutorial.Tooltip.ShapePrimary
 Tutorial.Tooltip.ShapeSecondary  
 Tutorial.Tooltip.WigglerPrimary  
 Tutorial.Tooltip.WigglerSecondary  
+
+# Polish [pl]
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
+
+# Russian [ru]
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 
 # Swedish [sv]
 General.Save  
@@ -3941,6 +3898,8 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
@@ -4146,6 +4105,8 @@ Settings.MaxConcurrentAssetTransfers
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 Wizard.AssetOptimization.CleanupUnusedAssets  
 Wizard.LightSources.Title  
 Wizard.LightSources.Header  
@@ -4241,4 +4202,12 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
+
+# Chinese (China) [zh-cn]
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
+
+# Chinese (Taiwan) [zh-tw]
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
 
