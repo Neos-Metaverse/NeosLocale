@@ -159,13 +159,13 @@
 		"World.Actions.GuestWarning": "",
 		"World.Actions.HostingWarning": "당신이 호스트입니다. 다른 접속중인 사용자의 연결이 끊어집니다.",
 
-		"World.Actions.GetWorldOrb": "월드 오브를 생성",
-		"World.Actions.CopyWorldURL": "월드 주소를 복사",
-		"World.Actions.CopyRecordURL": "녹화주소 복사",
+		"World.Actions.GetWorldOrb": "월드 오브 생성",
+		"World.Actions.CopyWorldURL": "월드 경로 복사",
+		"World.Actions.CopyRecordURL": "참조 경로(Record URL) 복사",
 		"World.Actions.StartCustomSession": "맞춤형 세션 시작",
 		"World.Actions.ModifyMetadata": "메타데이터 수정",
-		"World.Actions.GetSessionOrb": "세션 오브를 생성",
-		"World.Actions.CopySessionURL": "세션 주소를 복사",
+		"World.Actions.GetSessionOrb": "세션 오브 생성",
+		"World.Actions.CopySessionURL": "세션 주소 복사",
 
 		"World.Indicator.NoData": "자료없음",
 		"World.Indicator.LocalWorld": "로컬 머신",
