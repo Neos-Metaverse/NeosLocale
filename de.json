@@ -109,8 +109,9 @@
 
         "World.Error.AccessDenied" : "Zugriff verweigert",
         "World.Error.SecurityViolation" : "Sicherheitsalarm",
-        "World.Error.OnlyRegisteredUsers" : "Nur registierte Nutzer dürfen beitreten.",
-        "World.Error.OnlyContacts" : "Nur Kontakte des Hosts dürfen beitreten.",
+        "World.Error.OnlyRegisteredUsers" : "Nur registierte Nutzer dürfen beitreten",
+        "World.Error.OnlyContacts" : "Nur Kontakte des Hosts dürfen beitreten",
+        "World.Error.OnlyContactsOfContacts" : "Nur Kontakte von Nutzern in der Sitzung dürfen beitreten",
         "World.Error.Private" : "Dies ist eine private Sitzung",
         "World.Error.SessionEnded" : "Sitzung ist beendet",
         "World.Error.UserLimitReached" : "Sitzung hat das Nutzerlimit erreicht",
@@ -118,7 +119,7 @@
         "World.Error.FailedUserID" : "Konnte die UserID nicht authentifizieren",
         "World.Error.FailedFetchingAuthentication" : "Zugriff auf Authentifizierungsinfo fehlgeschlagen",
         "World.Error.JoinAlreadyRequested" : "Der Beitritt wurde bereits angefordert",
-        "World.Error.FailedConnectToRelay" : "Verbindung zum Relay-Server konnte nicht hergestellt werden.",
+        "World.Error.FailedConnectToRelay" : "Verbindung zum Relay-Server konnte nicht hergestellt werden",
         "World.Error.NoPort" : "Kein Port angegeben",
         "World.Error.IncompatibleVersion" : "Inkompatible Neos-Version",
         "World.Error.Unknown" : "Unbekannter Fehler",
@@ -220,6 +221,7 @@
         "World.AccessLevel.Anyone" : "Jeder",
         "World.AccessLevel.RegisteredUsers" : "Registrierte Nutzer",
         "World.AccessLevel.Friends" : "Kontakte",
+        "World.AccessLevel.FriendsOfFriends" : "Kontakte+",
         "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "Privat (nur über Einladung)",
 
@@ -366,6 +368,7 @@
         "Contacts.InFriendsOnly" : "In Kontakte-exklusiver Welt",
         "Contacts.InHidden" : "In versteckter Welt",
         "Contacts.InHiddenFriendsOnly" : "In versteckter, Kontakte-exklusiver Welt",
+        "Contacts.InHiddenFriendsOfFriends" : "In versteckter, \"Kontakte+\"-Welt",
         "Contacts.InLAN" : "In LAN-Welt",
         "Contacts.UsingDifferentVersion" : "Verwendet Version {version}",
         "Contacts.RequestSent" : "Anfrage gesendet",
@@ -1032,6 +1035,9 @@
         "Inspector.Audio.ToWAV" : "Konvertiere zu WAV",
         "Inspector.Audio.ToVorbis" : "Konvertiere zu OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konvertiere zu FLAC",
+
+        "Inspector.AudioStream.BufferState" : "Verfügbare Samples: {samples}, Verloren: {missed}, Länge: {length}, Globaler Index: {index}",
+        "Inspector.AudioStream.EncodeState" : "Bereit zum Kodieren: {samples}, Frame-Größe: {frame} (Max: {max_frame}), Sample-Rate: {rate}",
 
         "Wizard.General.ProcessRoot" : "Root verarbeiten:",
         "Wizard.General.Result" : "Ergebnis:",
