@@ -1,0 +1,12 @@
+# Missing Keys
+Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
+
+# Dutch [nl]
+Dash.Screens.Desktop  
+Inspector.AudioStream.BufferState  
+Inspector.AudioStream.EncodeState  
+Inspector.AudioStream.DecodeState  
+Desktop.OpenKeyboard  
+Desktop.FollowCursor.On  
+Desktop.FollowCursor.Off  
+

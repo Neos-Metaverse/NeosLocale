@@ -2,28 +2,28 @@
 This repository contains the locale assets for the core UI of Neos VR (www.neos.com) and allow anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (https://store.steampowered.com/app/740250/Neos_VR/) and other platforms.
 
 # Localization Status
-Czech [cs] - 99.8% - Missing keys: 2  
+Czech [cs] - 99.5% - Missing keys: 5  
 German [de] - 98.8% - Missing keys: 13  
-English (United Kingdom) [en-gb] - 2.8% - Missing keys: 1058  
+English (United Kingdom) [en-gb] - 2.8% - Missing keys: 1063  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 99.8% - Missing keys: 2  
-Spanish [es] - 99.8% - Missing keys: 2  
-Estonian [et] - 77.1% - Missing keys: 249  
-Finnish [fi] - 37.3% - Missing keys: 683  
-French [fr] - 99.8% - Missing keys: 2  
-Icelandic [is] - 32.4% - Missing keys: 736  
-Japanese [ja] - 99.8% - Missing keys: 2  
-Korean [ko] - 99.8% - Missing keys: 2  
-Dutch [nl] - 99.8% - Missing keys: 2  
-Norwegian [no] - 75.2% - Missing keys: 270  
-Polish [pl] - 99.8% - Missing keys: 2  
-Russian [ru] - 99.8% - Missing keys: 2  
-Swedish [sv] - 6.6% - Missing keys: 1017  
-Turkish [tr] - 88.6% - Missing keys: 124  
-Chinese (China) [zh-cn] - 99.8% - Missing keys: 2  
-Chinese (Taiwan) [zh-tw] - 99.8% - Missing keys: 2  
+Esperanto [eo] - 99.5% - Missing keys: 5  
+Spanish [es] - 99.5% - Missing keys: 5  
+Estonian [et] - 76.8% - Missing keys: 254  
+Finnish [fi] - 37.1% - Missing keys: 688  
+French [fr] - 99.4% - Missing keys: 7  
+Icelandic [is] - 32.3% - Missing keys: 741  
+Japanese [ja] - 99.5% - Missing keys: 5  
+Korean [ko] - 99.5% - Missing keys: 5  
+Dutch [nl] - 99.4% - Missing keys: 7  
+Norwegian [no] - 74.9% - Missing keys: 275  
+Polish [pl] - 99.5% - Missing keys: 5  
+Russian [ru] - 99.5% - Missing keys: 5  
+Swedish [sv] - 6.6% - Missing keys: 1022  
+Turkish [tr] - 88.2% - Missing keys: 129  
+Chinese (China) [zh-cn] - 99.5% - Missing keys: 5  
+Chinese (Taiwan) [zh-tw] - 99.5% - Missing keys: 5  
 
-Total keys: 1089
+Total keys: 1094
 
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.

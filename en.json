@@ -76,6 +76,7 @@
         "Dash.Screens.Worlds" : "Worlds",
         "Dash.Screens.Contacts" : "Contacts",
         "Dash.Screens.Inventory" : "Inventory",
+        "Dash.Screens.Desktop" : "Desktop",
         "Dash.Screens.Session" : "Session",
         "Dash.Screens.FileBrowser" : "<nobr>File Browser",
         "Dash.Screens.Settings" : "Settings",
@@ -1038,6 +1039,7 @@
 
         "Inspector.AudioStream.BufferState" : "Available samples: {samples}, Missed: {missed}, Length: {length}, Global Index: {index}",
         "Inspector.AudioStream.EncodeState" : "Available to encode: {samples}, Frame Size: {frame} (Max: {max_frame}), Sample Rate: {rate}",
+        "Inspector.AudioStream.DecodeState" : "Total Packets: {total}, Total Lost Packets: {lost}, Packet Loss: {loss, number, percent}",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Setup From Children",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Setup From Children (force all)",
@@ -1102,6 +1104,10 @@
         "Wizard.ReflectionProbes.HideDebugVisuals" : "Hide Debug Visuals",
         "Wizard.ReflectionProbes.BakeProbes" : "Bake Probes",
         "Wizard.ReflectionProbes.Baking" : "Baking {index} of {count}...",
+
+        "Desktop.OpenKeyboard" : "Open Keyboard",
+        "Desktop.FollowCursor.On" : "Follow Cursor: On",
+        "Desktop.FollowCursor.Off" : "Follow Cursor: Off",
 
         "Tutorial.Welcome.WelcomeTo" : "Welcome to",
         "Tutorial.Welcome.LetsStart" : "Let's Start!",
