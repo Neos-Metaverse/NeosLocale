@@ -1036,6 +1036,9 @@
         "Inspector.Audio.ToVorbis" : "Konvertovat na OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konvertovat na FLAC",
 
+        "Inspector.AudioStream.BufferState" : "Dostupné vzorky: {samples}, Ztracené: {missed}, Délka: {length}, Globální index: {index}",
+        "Inspector.AudioStream.EncodeState" : "Dostupné k encodování: {samples}, Velikost snímku: {frame} (Max: {max_frame}), Vzorkovací frekvence: {rate}",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Nastavit z Potomků",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Nastavit z Potomků (vynutit všude)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Nastavit z Potomků (pouze rig)",
