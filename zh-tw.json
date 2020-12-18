@@ -1036,6 +1036,9 @@
         "Inspector.Audio.ToVorbis" : "轉換為OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "轉換為FLAC",
         
+        "Inspector.AudioStream.BufferState" : "可用樣本: {samples}, 丟失: {missed}, 長度: {length}, 全局索引: {index}",
+        "Inspector.AudioStream.EncodeState" : "可編碼: {samples}, 幀大小: {frame} (最大值: {max_frame}), 採樣率: {rate}",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "從Children設置",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "從Children設置 (強制全部)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "從Children設置 (只有rig)",
