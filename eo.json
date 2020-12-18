@@ -76,6 +76,7 @@
         "Dash.Screens.Worlds": "Mondoj",
         "Dash.Screens.Contacts": "Kontaktoj",
         "Dash.Screens.Inventory": "Inventaro",
+        "Dash.Screens.Desktop" : "Surtabla",
         "Dash.Screens.Session": "Sesio",
         "Dash.Screens.FileBrowser": "<nobr> Dosierfoliumilo",
         "Dash.Screens.Settings": "Agordoj",
@@ -1038,6 +1039,7 @@
         
         "Inspector.AudioStream.BufferState" : "Haveblaj specimenoj: {samples}, Maltrafita: {missed}, Longo: {length}, Tutmonda Indekso: {index}",
         "Inspector.AudioStream.EncodeState" : "Disponebla por kodi: {samples}, Kadro Grandeco: {frame} (Maksimumo: {max_frame}), Specimeno-kurzo: {rate}",
+        "Inspector.AudioStream.DecodeState" : "Entute pakoj: {total}, Entute Perditaj Paketoj: {lost}, Pakaĵa Perdo: {loss, number, percent}",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Agordi De Infanoj",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Agordi De Infanoj (devigi ĉiujn)",
@@ -1103,6 +1105,10 @@
         "Wizard.ReflectionProbes.BakeProbes": "Baki Sondojn",
         "Wizard.ReflectionProbes.Baking": "Bakado {index} de {count} ...",
         
+        "Desktop.OpenKeyboard" : "Malfermu Klavaron",
+        "Desktop.FollowCursor.On" : "Sekvu Kursoron: On",
+        "Desktop.FollowCursor.Off" : "Sekvu Kursoron: Off",
+
         "Tutorial.Welcome.WelcomeTo" : "Bonvenon al",
         "Tutorial.Welcome.LetsStart" : "Ni Komencu!",
         "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>ATENTO:</b></color> Vi nuntempe ludas en ekrana reĝimo, kiu nuntempe ne estas oficiale subtenata, kiel estas ĉefe desegnita por elpurigado. <br><br> Dum ĝi povas estu uzata por ludi, iuj aferoj ne funkcios kaj kontroloj povus esti malfacile uzeblaj. <br><br><b> Neos estas nuntempe ludota en VR. </b><br><br> labortabla reĝimo estas planita por esti efektivigita en la estonteco. ",
