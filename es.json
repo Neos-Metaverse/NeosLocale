@@ -1036,11 +1036,14 @@
         "Inspector.Audio.ToVorbis" : "Convertir a OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Convertir a FLAC",
 
+        "Inspector.AudioStream.BufferState" : "Muestras disponibles: {samples}, Perdidas: {missed}, Longitud: {length}, Índice Global: {index}",
+        "Inspector.AudioStream.EncodeState" : "Muestras a codificar: {samples}, Tamaño de Marco: {frame} (Máx: {max_frame}), Frecuencia de Muestreo: {rate}",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Configurar Según Hijos",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Configurar Según Hijos (forzar todos)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Configurar Según Hijos (sólo armazón)",
-        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Recolocar transformaciones suaves en hijos",
-        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Quitar transformaciones suaves en hijos",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Reemplazar Transformadores Suaves en hijos",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Quitar Transformadores Suaves en hijos",
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Colisionadores y Agarres -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Añadir colisionadores fijos según jerarquía (usando raíz del objeto)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Siempre agarrar el último hueso",
