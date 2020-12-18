@@ -1036,6 +1036,9 @@
         "Inspector.Audio.ToVorbis" : "Konwertuj na OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konwertuj na FLAC",
 
+        "Inspector.AudioStream.BufferState" : "Dostępne sample: {samples}, Pominięte: {missed}, Długość: {length}, Indeks Globalny: {index}",
+        "Inspector.AudioStream.EncodeState" : "Dostępne do kodowania: {samples}, Wielkość Klatek: {frame} (Maks: {max_frame}), Częstotliwość Sampli: {rate}",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Ustaw z dzieci",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Ustaw z dzieci (wymuś wszystkie)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Ustaw z dzieci (tylko szkielet)",
