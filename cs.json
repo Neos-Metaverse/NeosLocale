@@ -76,6 +76,7 @@
         "Dash.Screens.Worlds" : "Světy",
         "Dash.Screens.Contacts" : "Kontakty",
         "Dash.Screens.Inventory" : "Inventář",
+        "Dash.Screens.Desktop" : "Plocha",
         "Dash.Screens.Session" : "Relace",
         "Dash.Screens.FileBrowser" : "Soubory",
         "Dash.Screens.Settings" : "Nastavení",
@@ -1038,6 +1039,7 @@
 
         "Inspector.AudioStream.BufferState" : "Dostupné vzorky: {samples}, Ztracené: {missed}, Délka: {length}, Globální index: {index}",
         "Inspector.AudioStream.EncodeState" : "Dostupné k encodování: {samples}, Velikost snímku: {frame} (Max: {max_frame}), Vzorkovací frekvence: {rate}",
+        "Inspector.AudioStream.DecodeState" : "Celkem paketů: {total}, Celkový počet ztracených paketů: {lost}, Ztráta paketů: {loss, number, percent}",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Nastavit z Potomků",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Nastavit z Potomků (vynutit všude)",
@@ -1102,6 +1104,10 @@
         "Wizard.ReflectionProbes.HideDebugVisuals" : "Skrýt ladící vizuály",
         "Wizard.ReflectionProbes.BakeProbes" : "Zapéct probes",
         "Wizard.ReflectionProbes.Baking" : "Zapékám {index} z {count}...",
+
+        "Desktop.OpenKeyboard" : "Otevřít klávesnici",
+        "Desktop.FollowCursor.On" : "Následovat kurzor: Zapnuto",
+        "Desktop.FollowCursor.Off" : "Následovat kurzor: Vypnuto",
         
         "Tutorial.Welcome.WelcomeTo" : "Vítejte v",
         "Tutorial.Welcome.LetsStart" : "Pojďme začít!",
