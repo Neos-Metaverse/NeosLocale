@@ -1237,8 +1237,8 @@
 		"Dash.Screens.Desktop": "데스크탑",
 		"Inspector.AudioStream.DecodeState": "전체 패킷량: {total}, 손실된 전체 패킷량: {lost}, 패킷 손실률: {loss, number, percent}",
 		"Desktop.OpenKeyboard": "키보드 꺼내기",
-		"Desktop.FollowCursor.On": "추적커서 켜짐",
-		"Desktop.FollowCursor.Off": "추적커서 꺼짐",
+		"Desktop.FollowCursor.On": "추적커서 켜기",
+		"Desktop.FollowCursor.Off": "추적커서 끄기",
 		
 		"Dummy": "더미"
 	}
