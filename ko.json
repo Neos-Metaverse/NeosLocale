@@ -1221,9 +1221,9 @@
 		"Wizard.ReflectionProbes.BakeProbes": "프로브 베이크",
 		"Wizard.ReflectionProbes.Baking": "프로브를 베이크하는 중입니다.",
 		
-		"Options.Nameplates.All": "명판: 전체",
-		"Options.Nameplates.NonContacts": "명판: 연락처에 없는 사람",
-		"Options.Nameplates.Hide": "명판: 숨김",
+		"Options.Nameplates.All": "이름표 보기",
+		"Options.Nameplates.NonContacts": "친구 이름표 숨기기",
+		"Options.Nameplates.Hide": "이름표 숨기기",
 		
 		"Settings.Haptics": "햅틱(터치진동) 반응 활성화",
 		
@@ -1233,6 +1233,12 @@
 		
 		"Inspector.AudioStream.BufferState": "가용 샘플: {samples}, 손실: {missed}, 길이: {length}, 글로벌 인덱스: {index}",
 		"Inspector.AudioStream.EncodeState": "인코딩 가능: {samples}, 프레임 크기: {frame} (최대: {max_frame}), 초당 샘플수(Sample rate): {rate}",
+		
+		"Dash.Screens.Desktop": "데스크탑",
+		"Inspector.AudioStream.DecodeState": "전체 패킷량: {total}, 손실된 전체 패킷량: {lost}, 패킷 손실률: {loss, number, percent}",
+		"Desktop.OpenKeyboard": "키보드 꺼내기",
+		"Desktop.FollowCursor.On": "추적커서 켜짐",
+		"Desktop.FollowCursor.Off": "추적커서 꺼짐",
 		
 		"Dummy": "더미"
 	}
