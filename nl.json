@@ -76,6 +76,7 @@
         "Dash.Screens.Worlds" : "Werelden",
         "Dash.Screens.Contacts" : "Contacten",
         "Dash.Screens.Inventory" : "Inventaris",
+        "Dash.Screens.Desktop" : "Bureaublad",
         "Dash.Screens.Session" : "Sessie",
         "Dash.Screens.FileBrowser" : "<nobr>Verkenner",
         "Dash.Screens.Settings" : "Instellingen",
@@ -1036,6 +1037,10 @@
         "Inspector.Audio.ToVorbis" : "Converteer naar OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Converteer naar FLAC",
 
+        "Inspector.AudioStream.BufferState" : "Beschikbare samples: {samples}, gemist: {gemist}, lengte: {length}, globale index: {index}",
+        "Inspector.AudioStream.EncodeState" : "Beschikbaar voor encoding: {samples}, framegrootte: {frame} (max: {max_frame}), samplefrequentie: {rate}",
+        "Inspector.AudioStream.DecodeState" : "Totaal pakketten: {total}, Totaal verloren pakketten: {lost}, Pakketverlies: {loss, number, percent}",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Stel op van Children",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Stel op van Children (forceer alle)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Stel op van Children (alleen rig)",
@@ -1099,6 +1104,10 @@
         "Wizard.ReflectionProbes.HideDebugVisuals" : "Debug-visuals verbergen",
         "Wizard.ReflectionProbes.BakeProbes" : "Bak probes",
         "Wizard.ReflectionProbes.Baking" : "Bakken {index} van {count}...",
+
+        "Desktop.OpenKeyboard" : "Open Toetsenbord",
+        "Desktop.FollowCursor.On" : "Volg Cursor: Aan",
+        "Desktop.FollowCursor.Off" : "Volg Cursor: Uit",
 
         "Tutorial.Welcome.WelcomeTo" : "Welkom Bij",
         "Tutorial.Welcome.LetsStart" : "Laten We Beginnen!",
