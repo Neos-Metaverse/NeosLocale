@@ -76,6 +76,7 @@
         "Dash.Screens.Worlds" : "世界",
         "Dash.Screens.Contacts" : "朋友",
         "Dash.Screens.Inventory" : "庫存",
+        "Dash.Screens.Desktop" : "桌面",
         "Dash.Screens.Session" : "會議",
         "Dash.Screens.FileBrowser" : "<nobr>文件瀏覽器",
         "Dash.Screens.Settings" : "設定",
@@ -1038,6 +1039,7 @@
         
         "Inspector.AudioStream.BufferState" : "可用樣本: {samples}, 丟失: {missed}, 長度: {length}, 全局索引: {index}",
         "Inspector.AudioStream.EncodeState" : "可編碼: {samples}, 幀大小: {frame} (最大值: {max_frame}), 採樣率: {rate}",
+        "Inspector.AudioStream.DecodeState" : "包總數: {total}, 丟包總數: {lost}, 數據包丟失: {loss, number, percent}",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "從Children設置",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "從Children設置 (強制全部)",
@@ -1102,6 +1104,10 @@
         "Wizard.ReflectionProbes.HideDebugVisuals" : "隱藏調試圖像",
         "Wizard.ReflectionProbes.BakeProbes" : "烘烤探針",
         "Wizard.ReflectionProbes.Baking" : "正在烘焙{count}的{index}...",
+
+        "Desktop.OpenKeyboard" : "打開鍵盤",
+        "Desktop.FollowCursor.On" : "關注游標: On",
+        "Desktop.FollowCursor.Off" : "關注游標: Off",
 
         "Tutorial.Welcome.WelcomeTo" : "歡迎來到",
         "Tutorial.Welcome.LetsStart" : "開始吧！",

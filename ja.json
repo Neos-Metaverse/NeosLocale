@@ -76,7 +76,7 @@
         "Dash.Screens.Worlds" : "ワールド",
         "Dash.Screens.Contacts" : "コンタクト",
         "Dash.Screens.Inventory" : "インベントリー",
-        "Dash.Screens.Desktop": "デスクトップ", 
+        "Dash.Screens.Desktop" : "デスクトップ",
         "Dash.Screens.Session" : "セッション",
         "Dash.Screens.FileBrowser" : "<nobr>ファイルブラウザ",
         "Dash.Screens.Settings" : "設定",
@@ -1105,7 +1105,7 @@
         "Wizard.ReflectionProbes.BakeProbes" : "プローブをベイク",
         "Wizard.ReflectionProbes.Baking" : "{count}の{index}をベイク中...",
 
-        "Desktop.OpenKeyboard" : "キーボードを開く",
+        "Desktop.OpenKeyboard" : "キーボードを表示",
         "Desktop.FollowCursor.On" : "カーソルに追従: オン",
         "Desktop.FollowCursor.Off" : "カーソルに追従: オフ",
 

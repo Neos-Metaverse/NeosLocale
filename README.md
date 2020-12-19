@@ -2,26 +2,26 @@
 This repository contains the locale assets for the core UI of Neos VR (www.neos.com) and allow anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (https://store.steampowered.com/app/740250/Neos_VR/) and other platforms.
 
 # Localization Status
-Czech [cs] - 99.5% - Missing keys: 5  
+Czech [cs] - 100.0% - Missing keys: 0  
 German [de] - 98.8% - Missing keys: 13  
 English (United Kingdom) [en-gb] - 2.8% - Missing keys: 1063  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 99.5% - Missing keys: 5  
+Esperanto [eo] - 100.0% - Missing keys: 0  
 Spanish [es] - 99.5% - Missing keys: 5  
 Estonian [et] - 76.8% - Missing keys: 254  
 Finnish [fi] - 37.1% - Missing keys: 688  
 French [fr] - 99.4% - Missing keys: 7  
 Icelandic [is] - 32.3% - Missing keys: 741  
-Japanese [ja] - 99.5% - Missing keys: 5  
-Korean [ko] - 99.5% - Missing keys: 5  
+Japanese [ja] - 100.0% - Missing keys: 0  
+Korean [ko] - 100.0% - Missing keys: 0  
 Dutch [nl] - 99.4% - Missing keys: 7  
 Norwegian [no] - 74.9% - Missing keys: 275  
 Polish [pl] - 99.5% - Missing keys: 5  
 Russian [ru] - 99.5% - Missing keys: 5  
 Swedish [sv] - 6.6% - Missing keys: 1022  
 Turkish [tr] - 88.2% - Missing keys: 129  
-Chinese (China) [zh-cn] - 99.5% - Missing keys: 5  
-Chinese (Taiwan) [zh-tw] - 99.5% - Missing keys: 5  
+Chinese (China) [zh-cn] - 100.0% - Missing keys: 0  
+Chinese (Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
 
 Total keys: 1094
 
