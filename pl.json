@@ -76,6 +76,7 @@
         "Dash.Screens.Worlds" : "Światy",
         "Dash.Screens.Contacts" : "Kontakty",
         "Dash.Screens.Inventory" : "Ekwipunek",
+        "Dash.Screens.Desktop" : "Pulpit",
         "Dash.Screens.Session" : "Sesja",
         "Dash.Screens.FileBrowser" : "<nobr>Przeglądarka Plików",
         "Dash.Screens.Settings" : "Ustawienia",
@@ -1038,6 +1039,7 @@
 
         "Inspector.AudioStream.BufferState" : "Dostępne sample: {samples}, Pominięte: {missed}, Długość: {length}, Indeks Globalny: {index}",
         "Inspector.AudioStream.EncodeState" : "Dostępne do kodowania: {samples}, Wielkość Klatek: {frame} (Maks: {max_frame}), Częstotliwość Sampli: {rate}",
+        "Inspector.AudioStream.DecodeState" : "Suma Pakietów: {total}, Suma Straconych Pakietów: {lost}, Strata Pakietów: {loss, number, percent}",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Ustaw z dzieci",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Ustaw z dzieci (wymuś wszystkie)",
@@ -1102,6 +1104,10 @@
         "Wizard.ReflectionProbes.HideDebugVisuals" : "Schowaj Wizualizacje",
         "Wizard.ReflectionProbes.BakeProbes" : "Wypal Próbki",
         "Wizard.ReflectionProbes.Baking" : "Wypalanie: {index} na {count}...",
+
+        "Desktop.OpenKeyboard" : "Otwórz Klawiaturę",
+        "Desktop.FollowCursor.On" : "Podążaj za Kursorem: Tak",
+        "Desktop.FollowCursor.Off" : "Podążaj za Kursorem: Nie",
 
         "Tutorial.Welcome.WelcomeTo" : "Witaj w",
         "Tutorial.Welcome.LetsStart" : "Zacznijmy!",
