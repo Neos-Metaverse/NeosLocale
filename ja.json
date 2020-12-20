@@ -1039,7 +1039,7 @@
 
         "Inspector.AudioStream.BufferState" : "使用可能なサンプル: {samples}, 欠落: {missed}, 長さ: {length}, グローバルインデックス: {index}",
         "Inspector.AudioStream.EncodeState" : "エンコード可能なサンプル: {samples}, フレームサイズ: {frame} (最大: {max_frame}), サンプルレート: {rate}",
-        "Inspector.AudioStream.DecodeState" : "総パケット: {total}, 総損失パケット: {lost}, パケットロス: {loss, number, percent}",
+        "Inspector.AudioStream.DecodeState" : "全パケット: {total}, 全損失パケット数: {lost}, パケット損失: {loss, number, percent}",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "子にしたものをセットアップします",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "子にしたものを“強制的にすべて”セットアップします",
@@ -1106,8 +1106,8 @@
         "Wizard.ReflectionProbes.Baking" : "{count}の{index}をベイク中...",
 
         "Desktop.OpenKeyboard" : "キーボードを表示",
-        "Desktop.FollowCursor.On" : "カーソル追従: オン",
-        "Desktop.FollowCursor.Off" : "カーソル追従: オフ",
+        "Desktop.FollowCursor.On" : "カーソルに追従: オン",
+        "Desktop.FollowCursor.Off" : "カーソルに追従: オフ",
 
         "Tutorial.Welcome.WelcomeTo" : "ようこそ",
         "Tutorial.Welcome.LetsStart" : "始めましょう!",
