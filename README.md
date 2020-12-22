@@ -7,7 +7,7 @@ German [de] - 98.8% - Missing keys: 13
 English (United Kingdom) [en-gb] - 2.8% - Missing keys: 1063  
 English [en] - 100.0% - Missing keys: 0  
 Esperanto [eo] - 100.0% - Missing keys: 0  
-Spanish [es] - 99.5% - Missing keys: 5  
+Spanish [es] - 100.0% - Missing keys: 0  
 Estonian [et] - 76.8% - Missing keys: 254  
 Finnish [fi] - 37.1% - Missing keys: 688  
 French [fr] - 99.4% - Missing keys: 7  
@@ -16,8 +16,8 @@ Japanese [ja] - 100.0% - Missing keys: 0
 Korean [ko] - 100.0% - Missing keys: 0  
 Dutch [nl] - 100.0% - Missing keys: 0  
 Norwegian [no] - 74.9% - Missing keys: 275  
-Polish [pl] - 99.5% - Missing keys: 5  
-Russian [ru] - 99.5% - Missing keys: 5  
+Polish [pl] - 100.0% - Missing keys: 0  
+Russian [ru] - 100.0% - Missing keys: 0  
 Swedish [sv] - 6.6% - Missing keys: 1022  
 Turkish [tr] - 88.2% - Missing keys: 129  
 Chinese (China) [zh-cn] - 100.0% - Missing keys: 0  
