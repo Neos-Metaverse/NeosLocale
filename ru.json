@@ -76,6 +76,7 @@
         "Dash.Screens.Worlds" : "Миры",
         "Dash.Screens.Contacts" : "Контакты",
         "Dash.Screens.Inventory" : "Инвентарь",
+        "Dash.Screens.Desktop" : "Рабочий стол",
         "Dash.Screens.Session" : "Сессия",
         "Dash.Screens.FileBrowser" : "<nobr>Файл-Браузер",
         "Dash.Screens.Settings" : "Настройки",
@@ -1038,6 +1039,7 @@
 
         "Inspector.AudioStream.BufferState" : "Доступно сэмплов: {samples}, Пропущено: {missed}, Длина: {length}, Глобальный индекс: {index}",
         "Inspector.AudioStream.EncodeState" : "Доступно к кодированию: {samples}, Размер фрейма: {frame} (Max: {max_frame}), Частота дискретизации: {rate}",
+        "Inspector.AudioStream.DecodeState" : "Всего пакетов: {total}, Всего потеряно пакетов: {lost}, Потеря пакетов: {loss, number, percent}",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Настроить по потомкам",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Настроить по потомкам (принудительно для всех)",
@@ -1102,6 +1104,10 @@
         "Wizard.ReflectionProbes.HideDebugVisuals" : "Спрятать отладочную визуализацию",
         "Wizard.ReflectionProbes.BakeProbes" : "Запечь пробы",
         "Wizard.ReflectionProbes.Baking" : "Запекание {index} из {count}...",
+
+        "Desktop.OpenKeyboard" : "Показать клавиатуру",
+        "Desktop.FollowCursor.On" : "Следовать за курсором: Вкл",
+        "Desktop.FollowCursor.Off" : "Следовать за курсором: Выкл",
 
         "Tutorial.Welcome.WelcomeTo" : "Добро пожаловать в",
         "Tutorial.Welcome.LetsStart" : "Поехали!",
