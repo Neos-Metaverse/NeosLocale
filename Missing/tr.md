@@ -71,6 +71,8 @@ Wizard.ReflectionProbes.Baking
 Desktop.OpenKeyboard  
 Desktop.FollowCursor.On  
 Desktop.FollowCursor.Off  
+Desktop.Brightness  
+Desktop.Opacity  
 Tutorial.Welcome.SettingsHeader  
 Tutorial.Welcome.SettingsDescription  
 Tutorial.Welcome.SettingsTurning  

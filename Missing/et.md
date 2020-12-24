@@ -142,6 +142,8 @@ Wizard.ReflectionProbes.Baking
 Desktop.OpenKeyboard  
 Desktop.FollowCursor.On  
 Desktop.FollowCursor.Off  
+Desktop.Brightness  
+Desktop.Opacity  
 Tutorial.Welcome.WelcomeTo  
 Tutorial.Welcome.LetsStart  
 Tutorial.Welcome.ScreenWarning  

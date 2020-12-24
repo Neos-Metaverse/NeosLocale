@@ -9,4 +9,6 @@ Inspector.AudioStream.DecodeState
 Desktop.OpenKeyboard  
 Desktop.FollowCursor.On  
 Desktop.FollowCursor.Off  
+Desktop.Brightness  
+Desktop.Opacity  
 

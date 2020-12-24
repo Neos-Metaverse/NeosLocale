@@ -1108,6 +1108,8 @@
         "Desktop.OpenKeyboard" : "Open Keyboard",
         "Desktop.FollowCursor.On" : "Follow Cursor: On",
         "Desktop.FollowCursor.Off" : "Follow Cursor: Off",
+        "Desktop.Brightness" : "Brightness: {n,number,percent}",
+        "Desktop.Opacity" : "Opacity: {n,number,percent}",
 
         "Tutorial.Welcome.WelcomeTo" : "Welcome to",
         "Tutorial.Welcome.LetsStart" : "Let's Start!",
