@@ -285,11 +285,11 @@
         "Indicator.OnlineUsers" : "オンラインユーザー数: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>サーバーステータス:</color> {status, select, Good {良好} Slow {遅い} Down {ダウン} NoInternet {インターネットなし}} ({response_ms} ms)",
 
-        "Indicator.Sync.AllSynced" : "同期完了",
-        "Indicator.Sync.SyncingItems" : "{item_count,plural, other {# 個のアイテムを}}同期中<nobr>({item_percent} %)",
+        "Indicator.Sync.AllSynced" : "シンク完了",
+        "Indicator.Sync.SyncingItems" : "{item_count,plural, other {# 個のアイテムを}}シンク中<nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants" : "{variant_count,plural, other {# 個のアセットバリアントを}} アップロード中",
-        "Indicator.Sync.SyncError" : "同期エラー! <size=50%>ログをチェックしてください</size>",
-        "Indicator.Sync.OutOfSpace" : "空き容量が足りません! <size=50%>同期できません</size>",
+        "Indicator.Sync.SyncError" : "シンクエラー! <size=50%>ログをチェックしてください</size>",
+        "Indicator.Sync.OutOfSpace" : "空き容量が足りません! <size=50%>シンクできません</size>",
 
         "Indicator.LiveHiddenMessage" : "(ライブ中は非表示)",
 
