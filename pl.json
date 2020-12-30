@@ -1183,7 +1183,7 @@
         "Tutorial.Intro.Dashboard_ButtonMenu" : "przycisk Menu",
         "Tutorial.Intro.Dashboard_ButtonScreen" : "kombinację przycisków Ctrl + Spacja",
 
-        "Tutorial.Intro.InventoryVR" : "Twój <color=#ffdd77><b>Ekwipunek</b></color> znajduje się na {{redacted menu}}.<br>Aby <color=#77ddff><b>Stworyć</b></color> obiekt, <color=#77ff77><b>Kliknij Dwukrotnie</b></color> przedmiot w ekwipunku.<br>Aby <color=#77ddff><b>Zapisać</b></color> obiekt, <color=#77ddff><b>trzymaj</b></color> go i kliknij <sprite name=inv-add> w prawym górnym rogu.",
+        "Tutorial.Intro.InventoryVR" : "Twój <color=#ffdd77><b>Ekwipunek</b></color> znajduje się na pulpicie nawigacyjnym.<br>Aby <color=#77ddff><b>Stworyć</b></color> obiekt, <color=#77ff77><b>Kliknij Dwukrotnie</b></color> przedmiot w ekwipunku.<br>Aby <color=#77ddff><b>Zapisać</b></color> obiekt, <color=#77ddff><b>trzymaj</b></color> go i kliknij <sprite name=inv-add> w prawym górnym rogu.",
         "Tutorial.Intro.InventoryScreen" : "Twój <color=#ffdd77><b>Ekwipunek</b></color> znajduje się na Tablicy Neos.<br>Aby <color=#77ddff><b>Stworzyć</b></color> obiekt, <color=#77ff77><b>Kliknij Dwukrotnie</b></color> przedmiot w ekwipunku.<br>Aby <color=#77ddff><b>zapisać</b></color> obiekt, trzymaj go i kliknij <color=#77ff77><b>Ctrl + S</b></color>.",
 
         "Tutorial.Intro.HomeScreenTitle" : "Twój Ekran Domowy",
