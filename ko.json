@@ -1239,6 +1239,8 @@
 		"Desktop.OpenKeyboard": "키보드 꺼내기",
 		"Desktop.FollowCursor.On": "추적커서 켜기",
 		"Desktop.FollowCursor.Off": "추적커서 끄기",
+		"Desktop.Brightness" : "밝기: {n,number,percent}",
+		"Desktop.Opacity" : "불투명도: {n,number,percent}",
 		
 		"Dummy": "더미"
 	}
