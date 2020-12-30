@@ -1108,6 +1108,8 @@
         "Desktop.OpenKeyboard" : "キーボードを表示",
         "Desktop.FollowCursor.On" : "カーソルに追従: オン",
         "Desktop.FollowCursor.Off" : "カーソルに追従: オフ",
+        "Desktop.Brightness" : "明るさ: {n,number,percent}",
+        "Desktop.Opacity" : "不透明度: {n,number,percent}",
 
         "Tutorial.Welcome.WelcomeTo" : "ようこそ",
         "Tutorial.Welcome.LetsStart" : "始めましょう!",
