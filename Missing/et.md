@@ -142,6 +142,8 @@ Wizard.ReflectionProbes.Baking
 Desktop.OpenKeyboard  
 Desktop.FollowCursor.On  
 Desktop.FollowCursor.Off  
+Desktop.LegacyInputMode.On  
+Desktop.LegacyInputMode.Off  
 Desktop.Brightness  
 Desktop.Opacity  
 Tutorial.Welcome.WelcomeTo  
