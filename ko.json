@@ -743,12 +743,12 @@
 		"CameraControl.Anchors.NoAnchors": "이 월드에는 생성된 촬영위치가 없습니다.",
 
 		"CameraControl.Positioning.FieldOfView": "시야각",
-		"CameraControl.Positioning.AngleOffset": "각도 오프셋",
-		"CameraControl.Positioning.Distance": "거리",
-		"CameraControl.Positioning.Height": "높이",
-		"CameraControl.Positioning.FirstPersonPitch": "1인칭 높이(Pitch)",
-		"CameraControl.Positioning.FirstPersonRoll": "1인칭 회전(Roll)",
-		"CameraControl.Positioning.FirstPersonOffset": "1인칭 오프셋",
+		"CameraControl.Positioning.AngleOffset": "3인칭/그룹 수평위치 설정",
+		"CameraControl.Positioning.Distance": "3인칭/그룹 거리 설정",
+		"CameraControl.Positioning.Height": "3인칭/그룹 높이 설정",
+		"CameraControl.Positioning.FirstPersonPitch": "POV(1인칭 시점) 상/하 시점 설정",
+		"CameraControl.Positioning.FirstPersonRoll": "POV(1인칭 시점) 수평 기울기 설정",
+		"CameraControl.Positioning.FirstPersonOffset": "POV(1인칭 시점) 전방 위치 설정",
 		"CameraControl.Positioning.Reset": "초기화",
 
 		"CameraControl.Control.AnyoneCanInteract": "누구나 조작가능",
@@ -759,8 +759,8 @@
 		"CameraControl.Control.GroupDetectionRadius": "그룹 탐지 반경: {n} m",
 		"CameraControl.Control.GroupExcludeBoundary": "그룹 제외 반경: {n} m",
 		"CameraControl.Control.PositionSmoothSpeed": "위치 스무딩 속도: {n}",
-		"CameraControl.Control.AngleSmoothSpeed": "각도 스무딩 속도: {n}",
-		"CameraControl.Control.FramingSmoothSpeed": "프레이밍 스무딩 속도: {n}",
+		"CameraControl.Control.AngleSmoothSpeed": "3인칭/그룹 수평 이동속도: {n}",
+		"CameraControl.Control.FramingSmoothSpeed": "3인칭/그룹 초점간 이동속도: {n}",
 
 
 		"CameraControl.OBS.IP": "OBS 웹소켓 IP:",
