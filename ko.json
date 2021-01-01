@@ -725,7 +725,7 @@
 
 		"CameraControl.Settings.AvoidOcclusion": "촬영 장애물 피하기",
 		"CameraControl.Settings.KeepInWorldspace": "월드 공간에 고정",
-		"CameraControl.Settings.MovementWobble": "카메라 흔들림 효과 주기",
+		"CameraControl.Settings.MovementWobble": "흔들림 효과 주기",
 		"CameraControl.Settings.AimInFrontOfHead": "머리 앞으로 정렬",
 		"CameraControl.Settings.HideCamera": "카메라 숨기기",
 		"CameraControl.Settings.ForceEyesOnCamera": "카메라 중심 고정",
