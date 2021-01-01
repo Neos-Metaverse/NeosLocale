@@ -1,6 +1,6 @@
 {
     "localeCode" : "fr",
-    "authors" : ["Archer", "FreakyWaves", "Xqua"],
+    "authors" : ["Archer", "FreakyWaves", "Xqua", "brodokk"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -76,6 +76,7 @@
         "Dash.Screens.Worlds" : "Mondes",
         "Dash.Screens.Contacts" : "Amis",
         "Dash.Screens.Inventory" : "Inventaire",
+        "Dash.Screens.Desktop" : "Bureau",
         "Dash.Screens.Session" : "Session",
         "Dash.Screens.FileBrowser" : "Fichiers",
         "Dash.Screens.Settings" : "Paramètres",
@@ -1036,6 +1037,10 @@
         "Inspector.Audio.ToVorbis" : "Convertir en OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Convertir en FLAC",
 
+        "Inspector.AudioStream.BufferState" : "Échantillons disponibles: {samples}, Manqués: {missed}, Longueur: {length}, Index Global: {index}",
+        "Inspector.AudioStream.EncodeState" : "Disponible à encoder: {samples}, Taille de la trame: {frame} (Max: {max_frame}), Fréquence d'échantillonnage: {rate}",
+        "Inspector.AudioStream.DecodeState" : "Paquets total: {total}, Paquets total perdus: {lost},  Paquets perdus: {loss, number, percent}",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Configurer depuis les enfants",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Configurer depuis les enfants (force tous)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Configurer depuis les enfants (seulement l'armature)",
@@ -1099,6 +1104,14 @@
         "Wizard.ReflectionProbes.HideDebugVisuals" : "Cacher les Visuels de Débogage",
         "Wizard.ReflectionProbes.BakeProbes" : "Pre-Calculer les Sondes",
         "Wizard.ReflectionProbes.Baking" : "Pre-calcul {index} sur {count}...",
+
+        "Desktop.OpenKeyboard" : "Ouvrir le clavier",
+        "Desktop.FollowCursor.On" : "Suivre le curseur : Actif",
+        "Desktop.FollowCursor.Off" : "Suivre le curseur : Inactif",
+        "Desktop.LegacyInputMode.On" : "Ancien mode d'entrée : Actif",
+        "Desktop.LegacyInputMode.Off" : "Ancien mode d'entrée : Inactif",
+        "Desktop.Brightness" : "Luminosité : {n,nombre,pourcentage}",
+        "Desktop.Opacity" : "Opacité : {n,nombre,pourcentage}",
 
         "Tutorial.Welcome.WelcomeTo" : "Bienvenue a",
         "Tutorial.Welcome.LetsStart" : "C'est partie!",
