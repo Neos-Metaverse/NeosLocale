@@ -74,7 +74,7 @@
 
         "Dash.Screens.Home" : "ホーム",
         "Dash.Screens.Worlds" : "ワールド",
-        "Dash.Screens.Contacts" : "コンタクト",
+        "Dash.Screens.Contacts" : "フレンド",
         "Dash.Screens.Inventory" : "インベントリー",
         "Dash.Screens.Desktop" : "デスクトップ",
         "Dash.Screens.Session" : "セッション",
@@ -1190,7 +1190,7 @@
 
         "Tutorial.Intro.HomeScreenTitle" : "ホームスクリーン",
         "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>ホームスクリーン</b></color>には、多くの機能を備えたfacetが含まれています。これらには、アバタークリエイター、全身キャリブレーター、カメラ、新しいワールドの作成などがあります。",
-        "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>コンタクト</b></color>はダッシュボードにあります。メッセージ、音声メッセージ、またはオブジェクトを右下のチャットボックスからフレンドに送信できます。左上隅にある検索バーでフレンドを追加できます。",
+        "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>フレンド</b></color>の一覧はダッシュボードにあります。メッセージ、音声メッセージ、またはオブジェクトを右下のチャットボックスからフレンドに送信できます。左上隅にある検索バーでフレンドを追加できます。",
         "Tutorial.Intro.FilesDescription" : "ファイル、3Dモデル、画像、オーディオ、ビデオ、またはフォントを直接Neosに<color=#ffdd77><b>インポート</b></color>できます！ファイルをNeosウィンドウに<color=#77ddff><b>ドラッグアンドドロップ</b></color>するか、<color=#ffdd77><b>ファイルブラウザ</b></color>からファイルを検索します。",
         "Tutorial.Intro.SessionTitle" : "Session Settings",
         "Tutorial.Intro.SessionDescription" : "セッション設定、権限レベル、およびワールド内の他のユーザーを扱う設定は、<color=#ffdd77><b>セッション</b></color>パネルにあります。",
