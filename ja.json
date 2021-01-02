@@ -1,6 +1,6 @@
 {
     "localeCode" : "ja",
-    "authors" : ["orange" , "Melnus" , "Aesc"],
+    "authors" : ["orange" , "Melnus" , "Aesc", "kazu"],
     "messages" :
     {
         "General.OK" : "OK",
