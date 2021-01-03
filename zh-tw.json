@@ -1108,6 +1108,8 @@
         "Desktop.OpenKeyboard" : "打開鍵盤",
         "Desktop.FollowCursor.On" : "關注游標: On",
         "Desktop.FollowCursor.Off" : "關注游標: Off",
+        "Desktop.LegacyInputMode.On" : "舊版輸入模式: On",
+        "Desktop.LegacyInputMode.Off" : "舊版輸入模式: Off",
         "Desktop.Brightness" : "亮度: {n,number,percent}",
         "Desktop.Opacity" : "不透明度: {n,number,percent}",
 
