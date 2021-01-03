@@ -473,8 +473,8 @@
         "Tooltip.Microphone.Format.FLAC" : "FLACファイル",
         "Tooltip.Microphone.ModeHold" : "長押しで録音",
         "Tooltip.Microphone.ModePress" : "録音 開始/停止",
-        "Tooltip.Microphone.SourceRaw" : "RAWファイル",
-        "Tooltip.Microphone.SourceFiltered" : "フィルタリングおよび正規化",
+        "Tooltip.Microphone.SourceRaw" : "フィルタリング・正規化を行わない",
+        "Tooltip.Microphone.SourceFiltered" : "フィルタリング・正規化を行う",
 
         "CreateNew.Back" : "<<< <i>戻る</i>",
         "CreateNew.EmptyObject" : "空オブジェクト",
@@ -552,7 +552,7 @@
         "AvatarCreator.AlignToolAnchors" : "ツールアンカーの位置を揃える",
         "AvatarCreator.Create" : "作成",
 
-        "Importer.General.AsRawFile" : "Rawファイル",
+        "Importer.General.AsRawFile" : "ファイルアイテム",
 
         "Importer.Folder.Title" : "フォルダインポーター",
         "Importer.Folder.Individual" : "個別インポート",
