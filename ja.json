@@ -274,8 +274,8 @@
         "Tools.WithdrawNCR" : "NCR引き出し",
         "Tools.Debug" : "デバッグ",
 
-        "Options.FreeformDash.On" : "フリーフォームダッシュ: On",
-        "Options.FreeformDash.Off" : "フリーフォームダッシュ: Off",
+        "Options.FreeformDash.On" : "ダッシュメニューの傾き: On",
+        "Options.FreeformDash.Off" : "ダッシュメニューの傾き: Off",
         "Options.SeatedMode.On" : "着席モード: On",
         "Options.SeatedMode.Off" : "着席モード: Off",
         "Options.Nameplates.All" : "ネームプレート: すべての名前を表示",
