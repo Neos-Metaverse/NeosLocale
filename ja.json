@@ -889,7 +889,7 @@
         "Settings.FullBody.HipsPositionSmoothing" : "腰の位置のスムージング",
         "Settings.FullBody.HipsRotationSmoothing" : "腰の回転のスムージング",
 
-        "Settings.Dash.Header" : "ダッシュ",
+        "Settings.Dash.Header" : "ダッシュメニュー",
         "Settings.Dash.Curvature" : "曲がり具合",
         "Settings.Dash.OpenCloseSpeed" : "開閉スピード",
 
@@ -1179,20 +1179,20 @@
         "Tutorial.Intro.LocomotionTitle" : "移動方法",
         "Tutorial.Intro.LocomotionDescription" : "Neosには様々な移動方法があります。<br>移動オプションは<color=#ffdd77>コンテキストメニュー</color>から利用できます。",
 
-        "Tutorial.Intro.DashboardTitle" : "ダッシュボード",
-        "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>ダッシュボード</b></color>はあなたのメインメニューです。<br><color=#77ff77><b>{button}</b></color>で開閉できます。",
-        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>ダッシュボード</b></color>はあなたのメインメニューです。<br><color=#77ff77><b>{button}</b></color> を押し続けサークルマークが満ちたら、<color=#77ddff><b>離す</b></color>ことで開閉できます。",
+        "Tutorial.Intro.DashboardTitle" : "ダッシュメニュー",
+        "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>ダッシュメニュー</b></color>はあなたのメインメニューです。<br><color=#77ff77><b>{button}</b></color>で開閉できます。",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>ダッシュメニュー</b></color>はあなたのメインメニューです。<br><color=#77ff77><b>{button}</b></color> を押し続けサークルマークが満ちたら、<color=#77ddff><b>離す</b></color>ことで開閉できます。",
         "Tutorial.Intro.Dashboard_ButtonA" : "A ボタン",
         "Tutorial.Intro.Dashboard_ButtonAX" : "A または X ボタン",
         "Tutorial.Intro.Dashboard_ButtonMenu" : "メニューボタン",
         "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl + スペースキー両方押し",
 
-        "Tutorial.Intro.InventoryVR" : "ダッシュボードには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムを<color=#77ddff><b>グラブ</b></color>しながら右上の<sprite name=inv-add>を押します。",
-        "Tutorial.Intro.InventoryScreen" : "ダッシュボードには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムをグラブ<color=#77ff77>しながら<b>Ctrl + Sキー</b></color>を押します。",
+        "Tutorial.Intro.InventoryVR" : "ダッシュメニューには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムを<color=#77ddff><b>グラブ</b></color>しながら右上の<sprite name=inv-add>を押します。",
+        "Tutorial.Intro.InventoryScreen" : "ダッシュメニューには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムをグラブ<color=#77ff77>しながら<b>Ctrl + Sキー</b></color>を押します。",
 
         "Tutorial.Intro.HomeScreenTitle" : "ホームスクリーン",
         "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>ホームスクリーン</b></color>には、多くの機能を備えたfacetが含まれています。これらには、アバタークリエイター、全身キャリブレーター、カメラ、新しいワールドの作成などがあります。",
-        "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>コンタクト</b></color>はダッシュボードにあります。メッセージ、音声メッセージ、またはオブジェクトを右下のチャットボックスからフレンドに送信できます。左上隅にある検索バーでフレンドを追加できます。",
+        "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>コンタクト</b></color>はダッシュメニューにあります。メッセージ、音声メッセージ、またはオブジェクトを右下のチャットボックスからフレンドに送信できます。左上隅にある検索バーでフレンドを追加できます。",
         "Tutorial.Intro.FilesDescription" : "ファイル、3Dモデル、画像、オーディオ、ビデオ、またはフォントを直接Neosに<color=#ffdd77><b>インポート</b></color>できます！ファイルをNeosウィンドウに<color=#77ddff><b>ドラッグアンドドロップ</b></color>するか、<color=#ffdd77><b>ファイルブラウザ</b></color>からファイルを検索します。",
         "Tutorial.Intro.SessionTitle" : "Session Settings",
         "Tutorial.Intro.SessionDescription" : "セッション設定、権限レベル、およびワールド内の他のユーザーを扱う設定は、<color=#ffdd77><b>セッション</b></color>パネルにあります。",
