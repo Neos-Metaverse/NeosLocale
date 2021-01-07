@@ -758,7 +758,7 @@
 		"CameraControl.Control.FlipPreview": "수평반전",
 		"CameraControl.Control.GroupDetectionRadius": "그룹 탐지 반경: {n} m",
 		"CameraControl.Control.GroupExcludeBoundary": "그룹 제외 반경: {n} m",
-		"CameraControl.Control.PositionSmoothSpeed": "위치 스무딩 속도: {n}",
+		"CameraControl.Control.PositionSmoothSpeed": "위치 이동 속도: {n}",
 		"CameraControl.Control.AngleSmoothSpeed": "3인칭/그룹 수평 이동속도: {n}",
 		"CameraControl.Control.FramingSmoothSpeed": "3인칭/그룹 초점간 이동속도: {n}",
 
