@@ -839,7 +839,7 @@
 		"Settings.Audio.Voice": "음성볼륨: {n,number,percent}",
 		"Settings.Audio.UI": "UI 볼륨: {n,number,percent}",
 		"Settings.Audio.NoiseGateThreshold": "잡음 식별(Noise gate) 기준값: {n}",
-		"Settings.Audio.NormzliationThreshold": "음량 정규화 기준값: {n}",
+		"Settings.Audio.NormzliationThreshold": "음량 평탄화(노멀라이즈) 기준값: {n}",
 		"Settings.Audio.InputDevice": "오디오 입력 장치:",
 
 		"Settings.Save": "설정 저장",
