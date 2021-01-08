@@ -372,9 +372,9 @@
         "Contacts.InHiddenFriendsOfFriends" : "Ve skrytém světě Kontakty+",
         "Contacts.InLAN" : "Ve světě jen pro LAN",
         "Contacts.UsingDifferentVersion" : "Jiná verze: {version}",
-        "Contacts.RequestSent" : "Požadavek odeslán",
+        "Contacts.RequestSent" : "Požadavek o kontakt odeslán",
         "Contacts.RequestReceived" : "Si vás chce přidat",
-        "Contacts.RequestIgnored" : "Požadavek ignorován",
+        "Contacts.RequestIgnored" : "Požadavek o kontakt ignorován",
         "Contacts.Blocked" : "Zablokován(a)",
         "Contacts.SearchResult" : "Výsledek vyhledávání",
 
