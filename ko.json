@@ -831,7 +831,7 @@
 		"Settings.LaserSmoothing.ModulateExponent": "조정 계수",
 		"Settings.LaserSmoothing.ModulateSpeedMultiplier": "조정 속도 계수",
 		"Settings.LaserSmoothing.StickThreshold": "접점을 유지하는 한계치",
-		"Settings.LaserSmoothing.Reset": "지시선 설정을 초기화"
+		"Settings.LaserSmoothing.Reset": "지시선 설정을 초기화",
 
 		"Settings.Audio.Header": "음향",
 		"Settings.Audio.SoundEffects": "음향효과: {n,number,percent}",
