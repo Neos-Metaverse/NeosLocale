@@ -48,7 +48,7 @@ Pojďte se připojit do naší rozmanité a kreativní komunity a přineste svoj
 
 [h2]Mocný pracovní nástroj[/h2]
 
-[list][*][b] - rozřežte jakýkoliv importovaný 3D model[/b] pro pomoc s vizualizací
+[list][*][b]Rozřežte jakýkoliv importovaný 3D model[/b] pro pomoc s vizualizací
 [*][b]Vizualizace volumetrických dat[/b] (např. CT or MRI) s možností řezů a filtrace
 [*][b]Exportujte cokoliv co jste vytvořili[/b] nebo modifikovali jako 3D model a učiňte Neos součástí vaší pipeline
 [*][b]Základní zpracování textur a meshů ve hře[/b] pro běžné modifikace
