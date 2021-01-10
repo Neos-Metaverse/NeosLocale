@@ -835,8 +835,8 @@
 
 		"Settings.Audio.Header": "음향",
 		"Settings.Audio.SoundEffects": "음향효과: {n,number,percent}",
-		"Settings.Audio.Multimedia": "월드볼륨: {n,number,percent}",
-		"Settings.Audio.Voice": "음성볼륨: {n,number,percent}",
+		"Settings.Audio.Multimedia": "미디어 볼륨: {n,number,percent}",
+		"Settings.Audio.Voice": "음성 볼륨: {n,number,percent}",
 		"Settings.Audio.UI": "UI 볼륨: {n,number,percent}",
 		"Settings.Audio.NoiseGateThreshold": "잡음 식별(Noise gate) 기준값: {n}",
 		"Settings.Audio.NormzliationThreshold": "음량 평탄화(노멀라이즈) 기준값: {n}",
@@ -850,8 +850,8 @@
 		"Settings.FullBody.HipsPositionSmoothing": "허리/골반 위치 스무딩",
 		"Settings.FullBody.HipsRotationSmoothing": "허리/골반 회전 스무딩",
 
-		"Settings.Dash.Header": "달리기",
-		"Settings.Dash.Curvature": "회전률",
+		"Settings.Dash.Header": "대시보드",
+		"Settings.Dash.Curvature": "곡률",
 		"Settings.Dash.OpenCloseSpeed": "열기/닫기 속도",
 
 		"Settings.LeapMotion.Name" : "Leap Motion",
