@@ -558,7 +558,7 @@
         "Importer.Folder.Individual" : "Individual import",
         "Importer.Folder.Individual.Description" : "Creates a separate import dialog for each supported file in the folder",
         "Importer.Folder.Batch" : "Batch import",
-        "Importer.Folder.Batch.Description" : "Created a single importer for each type, using same settings for each file",
+        "Importer.Folder.Batch.Description" : "Creates a single importer for each type, using same settings for each file",
 
         "Importer.Image.Title" : "Image Importer",
         "Importer.Image.Prompt" : "What are you importing?",
