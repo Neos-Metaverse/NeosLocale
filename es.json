@@ -848,8 +848,8 @@
         "Settings.DoubleClickInterval" : "Intervalo de Doble-Click",
         "Settings.ResetAllTutorials" : "Restablecer Tutoriales",
         "Settings.PreferSteamNetworking" : "Preferir Sockets de Steam",
-        "Settings.LegacyGripEquip" : "Habilitar Equipar con Agarre Doble Tradicional",
-        "Settings.LegacyWorldSwitcher" : "Habilitar Traslado entre Mundos Tradicional",
+        "Settings.LegacyGripEquip" : "Habilitar Equipar con Agarre Doble de Legado",
+        "Settings.LegacyWorldSwitcher" : "Habilitar Traslado entre Mundos de Legado",
         "Settings.FetchIncompatibleSessions" : "Mostrar Sesiones Incompatibles",
         "Settings.MaxConcurrentAssetTransfers" : "Máximas Transferencias de Recursos Simultáneas",
 
@@ -1108,6 +1108,8 @@
         "Desktop.OpenKeyboard" : "Abrir Teclado",
         "Desktop.FollowCursor.On" : "Seguir Cursor: Habilitado",
         "Desktop.FollowCursor.Off" : "Seguir Cursor: Deshabilitado",
+        "Desktop.LegacyInputMode.On" : "Entrada de Legado: On",
+        "Desktop.LegacyInputMode.Off" : "Entrada de Legado: Off",
         "Desktop.Brightness" : "Brillo: {n,number,percent}",
         "Desktop.Opacity" : "Opacidad: {n,number,percent}",
 
