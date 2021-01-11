@@ -27,6 +27,7 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  

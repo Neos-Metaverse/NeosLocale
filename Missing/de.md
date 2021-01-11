@@ -3,6 +3,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # German [de]
 Dash.Screens.Desktop  
+Settings.AutosaveScreenshotPath  
 Inspector.AudioStream.DecodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  

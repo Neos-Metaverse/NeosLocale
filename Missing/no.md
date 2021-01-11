@@ -51,6 +51,7 @@ CreateNew.Editor.ReflectionProbes
 Importer.General.AsRawFile  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
