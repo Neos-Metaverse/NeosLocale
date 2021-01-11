@@ -823,6 +823,7 @@
 		"Settings.LegacyGripEquip": "기존 더블 그립 장착 활성화",
 		"Settings.LegacyWorldSwitcher": "기존 월드 스위처 활성화",
 		"Settings.FetchIncompatibleSessions": "호환되지 않는 세션 보이기",
+		"Settings.AutosaveScreenshotPath" : "스크린샷 자동 저장 경로",
 
 		"Settings.LaserSmoothing.Header": "지시선 설정",
 		"Settings.LaserSmoothing.Speed": "커서 이동 속도",
@@ -838,6 +839,7 @@
 		"Settings.Audio.Multimedia": "미디어 볼륨: {n,number,percent}",
 		"Settings.Audio.Voice": "음성 볼륨: {n,number,percent}",
 		"Settings.Audio.UI": "UI 볼륨: {n,number,percent}",
+		"Settings.Audio.DisableVoiceNormalization" : "음성 평탄화(노멀라이즈) 비활성화",
 		"Settings.Audio.NoiseGateThreshold": "잡음 식별(Noise gate) 기준값: {n}",
 		"Settings.Audio.NormzliationThreshold": "음량 평탄화(노멀라이즈) 기준값: {n}",
 		"Settings.Audio.InputDevice": "오디오 입력 장치:",
@@ -1242,6 +1244,7 @@
 		"Desktop.Opacity" : "불투명도: {n,number,percent}",
 		"Desktop.LegacyInputMode.On" : "물리적 입력모드 켜기",
 		"Desktop.LegacyInputMode.Off" : "물리적 입력모드 끄기",
+		
 		
 		"Dummy": "더미"
 	}
