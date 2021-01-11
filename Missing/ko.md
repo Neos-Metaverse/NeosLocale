@@ -3,4 +3,5 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Korean [ko]
 Settings.AutosaveScreenshotPath  
+Settings.Audio.DisableVoiceNormalization  
 

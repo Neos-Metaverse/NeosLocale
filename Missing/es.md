@@ -3,6 +3,4 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Spanish [es]
 Settings.AutosaveScreenshotPath  
-Desktop.LegacyInputMode.On  
-Desktop.LegacyInputMode.Off  
 
