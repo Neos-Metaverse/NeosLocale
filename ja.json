@@ -282,7 +282,7 @@
         "Options.Nameplates.NonContacts" : "ネームプレート: フレンドの名前を非表示",
         "Options.Nameplates.Hide" : "ネームプレート: すべての名前を非表示",
 
-        "Indicator.OnlineUsers" : "オンラインユーザー数: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "オンラインユーザー数: {num_registered} (~{num_total})",
         "Indicator.ServerStatus" : "<color=#fff>サーバーステータス:</color> {status, select, Good {良好} Slow {遅い} Down {ダウン} NoInternet {インターネットなし}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "シンク完了",
@@ -852,6 +852,7 @@
         "Settings.LegacyWorldSwitcher" : "ワールドスイッチャー(レガシー)を有効化",
         "Settings.FetchIncompatibleSessions" : "互換性のないセッションを表示",
         "Settings.MaxConcurrentAssetTransfers" : "アセットの最多同時転送量",
+        "Settings.AutosaveScreenshotPath" : "スクリーンショット自動保存パス",
 
         "Settings.LaserSmoothing.Header" : "レーザースムージング",
         "Settings.LaserSmoothing.Speed" : "スムーズスピード",

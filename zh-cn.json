@@ -282,7 +282,7 @@
         "Options.Nameplates.NonContacts" : "铭牌: 隐藏朋友的铭牌",
         "Options.Nameplates.Hide" : "铭牌: 隐藏所有铭牌",
 
-        "Indicator.OnlineUsers" : "在线用户: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "在线用户: {num_registered} (~{num_total})",
         "Indicator.ServerStatus" : "<color=#fff>服务器状态:</color> {status, select, Good {良好} Slow {缓慢} Down {为关闭} NoInternet {没有互联网}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "全部同步",
@@ -852,6 +852,7 @@
         "Settings.LegacyWorldSwitcher" : "启用旧版世界切换器",
         "Settings.FetchIncompatibleSessions" : "显示不兼容的会议",
         "Settings.MaxConcurrentAssetTransfers" : "最大同时资产转移",
+        "Settings.AutosaveScreenshotPath" : "自动保存截图路径",
 
         "Settings.LaserSmoothing.Header" : "激光平滑",
         "Settings.LaserSmoothing.Speed" : "平稳速度",
