@@ -282,7 +282,7 @@
         "Options.Nameplates.NonContacts" : "Naamplaten: niet-contacten",
         "Options.Nameplates.Hide" : "Naamplaten: Verborgen",
 
-        "Indicator.OnlineUsers" : "Online Gebruikers: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "Online Gebruikers: {num_registered} (~{num_total})",
         "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {Goed} Slow {Traag} Down {Down} NoInternet {Geen Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Alles gesynchroniseerd",
@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored" : "Genegeerd",
         "Contacts.Blocked" : "Geblokkeerd",
         "Contacts.SearchResult" : "Zoekresultaat",
+        "Contacts.Bot" : "Bot-account",
 
         "Notifications.IsOnline" : "Is nu online",
         "Notifications.IsOnlineOnDifferentVersion" : "Is nu online <size=75%>(Met versie: {version})</size>",
@@ -558,7 +559,7 @@
         "Importer.Folder.Individual" : "Individuele import",
         "Importer.Folder.Individual.Description" : "Creëert een apart importdialoogvenster voor elk ondersteund bestand in de map",
         "Importer.Folder.Batch" : "Batch importeren",
-        "Importer.Folder.Batch.Description" : "Maak een enkele importer voor elk type, met dezelfde instellingen voor elk bestand",
+        "Importer.Folder.Batch.Description" : "Creëert een enkele importer voor elk type, met dezelfde instellingen voor elk bestand",
 
         "Importer.Image.Title" : "Afbeelding Importer",
         "Importer.Image.Prompt" : "Wat importeert u?",
@@ -852,6 +853,7 @@
         "Settings.LegacyWorldSwitcher" : "Schakel Legacy Wereld Switcher in",
         "Settings.FetchIncompatibleSessions" : "Incompatibele sessies weergeven",
         "Settings.MaxConcurrentAssetTransfers" : "Max. gelijktijdige asset overdrachten",
+        "Settings.AutosaveScreenshotPath" : "Pad voor het automatisch opslaan van screenshots",
 
         "Settings.LaserSmoothing.Header" : "Laser Smoothing",
         "Settings.LaserSmoothing.Speed" : "Smooth Snelheid",
@@ -870,6 +872,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "Schakel Stemnormalisatie Uit",
         "Settings.Audio.NoiseGateThreshold" : "Noise Gate Drempel: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalisatiedrempel: {n}",
+        "Settings.Audio.NoiseSupression" : "Ruisonderdrukkingsfilter (RNNoise)",
         "Settings.Audio.InputDevice" : "Audio-invoerapparaat:",
         "Settings.Audio.SelectInputDevice" : "Selecteer Audio Invoer Apparaat",
         "Settings.Audio.TestInput" : "Test je Audio Invoer:",
@@ -1036,6 +1039,7 @@
         "Inspector.Audio.ToWAV" : "Converteer naar WAV",
         "Inspector.Audio.ToVorbis" : "Converteer naar OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Converteer naar FLAC",
+        "Inspector.Audio.DenoiseRNNoise" : "Ruisonderdrukking (RNNoise, geoptimaliseerd voor spraak op 48 kHz)",
 
         "Inspector.AudioStream.BufferState" : "Beschikbare samples: {samples}, gemist: {gemist}, lengte: {length}, globale index: {index}",
         "Inspector.AudioStream.EncodeState" : "Beschikbaar voor encoding: {samples}, framegrootte: {frame} (max: {max_frame}), samplefrequentie: {rate}",
