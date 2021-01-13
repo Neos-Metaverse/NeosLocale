@@ -471,8 +471,8 @@
         "Tooltip.Microphone.Format.WAV" : "WAVファイル",
         "Tooltip.Microphone.Format.Vorbis" : "OGGファイル",
         "Tooltip.Microphone.Format.FLAC" : "FLACファイル",
-        "Tooltip.Microphone.ModeHold" : "長押しで録音",
-        "Tooltip.Microphone.ModePress" : "録音 開始/停止",
+        "Tooltip.Microphone.ModeHold" : "録音モード: 長押し",
+        "Tooltip.Microphone.ModePress" : "録音モード: <nobr>開始/停止 切り替え",
         "Tooltip.Microphone.SourceRaw" : "フィルタリング・正規化を行わない",
         "Tooltip.Microphone.SourceFiltered" : "フィルタリング・正規化を行う",
 
