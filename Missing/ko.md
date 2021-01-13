@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Korean [ko]
-Settings.AutosaveScreenshotPath  
-Settings.Audio.DisableVoiceNormalization  
+Contacts.Bot  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 

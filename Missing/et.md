@@ -35,6 +35,7 @@ Contacts.InHidden
 Contacts.InHiddenFriendsOnly  
 Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
+Contacts.Bot  
 Notifications.VoiceMessage  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
@@ -50,6 +51,7 @@ Importer.General.AsRawFile
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -79,6 +81,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  

@@ -335,6 +335,7 @@ Contacts.RequestReceived
 Contacts.RequestIgnored  
 Contacts.Blocked  
 Contacts.SearchResult  
+Contacts.Bot  
 Notifications.IsOnline  
 Notifications.IsOnlineOnDifferentVersion  
 Notifications.ReceivedContactRequest  
@@ -752,6 +753,7 @@ Settings.Audio.Multimedia
 Settings.Audio.Voice  
 Settings.Audio.UI  
 Settings.Audio.NoiseGateThreshold  
+Settings.Audio.NoiseSupression  
 Settings.Audio.InputDevice  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
@@ -888,6 +890,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  

@@ -3,7 +3,10 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # German [de]
 Dash.Screens.Desktop  
+Contacts.Bot  
 Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.DecodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  

@@ -2,5 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Chinese (Taiwan) [zh-tw]
-Settings.AutosaveScreenshotPath  
+Contacts.Bot  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 

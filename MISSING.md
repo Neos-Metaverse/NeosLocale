@@ -1,8 +1,16 @@
 # Missing Keys per locale
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
+# Czech [cs]
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
+
 # German [de]
 Dash.Screens.Desktop  
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.DecodeState  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
@@ -756,6 +764,7 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -770,6 +779,7 @@ Settings.Audio.Multimedia
 Settings.Audio.Voice  
 Settings.Audio.UI  
 Settings.Audio.NoiseGateThreshold  
+Settings.Audio.NoiseSupression  
 Settings.Audio.InputDevice  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
@@ -906,6 +916,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
@@ -1089,9 +1100,15 @@ Exiting.SavingChanges
 Exiting.Exiting  
 Exiting.LoggingOut  
 
+# Esperanto [eo]
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
+
 # Spanish [es]
-Desktop.LegacyInputMode.On  
-Desktop.LegacyInputMode.Off  
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 
 # Estonian [et]
 General.Save  
@@ -1141,6 +1158,8 @@ CreateNew.Editor.ReflectionProbes
 Importer.General.AsRawFile  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -1170,6 +1189,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
@@ -1731,8 +1751,10 @@ CameraCOntrol.OBS.Live
 CameraCOntrol.OBS.Recording  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
+Settings.Audio.NoiseSupression  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -1860,6 +1882,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
@@ -2046,6 +2069,11 @@ Exiting.SavingItems
 Exiting.SavingChanges  
 Exiting.Exiting  
 Exiting.LoggingOut  
+
+# French [fr]
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 
 # Icelandic [is]
 General.Processing  
@@ -2469,6 +2497,7 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -2485,6 +2514,7 @@ Settings.Audio.UI
 Settings.Audio.DisableVoiceNormalization  
 Settings.Audio.NoiseGateThreshold  
 Settings.Audio.NormzliationThreshold  
+Settings.Audio.NoiseSupression  
 Settings.Audio.InputDevice  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
@@ -2610,6 +2640,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
@@ -2794,11 +2825,15 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 Exiting.SavingItems  
 
+# Japanese [ja]
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
+
 # Dutch [nl]
-Desktop.LegacyInputMode.On  
-Desktop.LegacyInputMode.Off  
-Desktop.Brightness  
-Desktop.Opacity  
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 
 # Norwegian [no]
 General.Save  
@@ -2850,6 +2885,8 @@ CreateNew.Editor.ReflectionProbes
 Importer.General.AsRawFile  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -2898,6 +2935,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
@@ -3082,12 +3120,18 @@ Tutorial.Tooltip.WigglerPrimary
 Tutorial.Tooltip.WigglerSecondary  
 
 # Polish [pl]
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 Desktop.LegacyInputMode.On  
 Desktop.LegacyInputMode.Off  
 Desktop.Brightness  
 Desktop.Opacity  
 
 # Russian [ru]
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 Desktop.LegacyInputMode.On  
 Desktop.LegacyInputMode.Off  
 Desktop.Brightness  
@@ -3775,6 +3819,7 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -3791,6 +3836,7 @@ Settings.Audio.UI
 Settings.Audio.DisableVoiceNormalization  
 Settings.Audio.NoiseGateThreshold  
 Settings.Audio.NormzliationThreshold  
+Settings.Audio.NoiseSupression  
 Settings.Audio.InputDevice  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
@@ -3934,6 +3980,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
@@ -4147,9 +4194,12 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
@@ -4255,4 +4305,14 @@ Tutorial.Intro.OutroEnd
 Tutorial.MTC.Avatars  
 Tutorial.MTC.Creation  
 Tutorial.MTC.RecordingStreaming  
+
+# Chinese (China) [zh-cn]
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
+
+# Chinese (Taiwan) [zh-tw]
+Settings.AutosaveScreenshotPath  
+Settings.Audio.NoiseSupression  
+Inspector.Audio.DenoiseRNNoise  
 

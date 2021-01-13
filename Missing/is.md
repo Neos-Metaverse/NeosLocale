@@ -47,6 +47,7 @@ Contacts.InHidden
 Contacts.InHiddenFriendsOnly  
 Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
+Contacts.Bot  
 Notifications.VoiceMessage  
 Undo.Translate  
 Undo.TranslateAlongAxis  
@@ -440,6 +441,7 @@ Settings.Audio.UI
 Settings.Audio.DisableVoiceNormalization  
 Settings.Audio.NoiseGateThreshold  
 Settings.Audio.NormzliationThreshold  
+Settings.Audio.NoiseSupression  
 Settings.Audio.InputDevice  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
@@ -565,6 +567,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  

@@ -32,6 +32,7 @@ Contacts.InHidden
 Contacts.InHiddenFriendsOnly  
 Contacts.InHiddenFriendsOfFriends  
 Contacts.InLAN  
+Contacts.Bot  
 Notifications.VoiceMessage  
 Undo.ChangeBoxSize  
 Undo.BrushStroke  
@@ -382,6 +383,7 @@ Settings.MaxConcurrentAssetTransfers
 Settings.AutosaveScreenshotPath  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
+Settings.Audio.NoiseSupression  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
@@ -509,6 +511,7 @@ Inspector.Audio.MakeLoopable
 Inspector.Audio.ToWAV  
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
+Inspector.Audio.DenoiseRNNoise  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  

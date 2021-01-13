@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored" : "Ignored",
         "Contacts.Blocked" : "Blocked",
         "Contacts.SearchResult" : "Search Result",
+        "Contacts.Bot" : "Bot account",
 
         "Notifications.IsOnline" : "Is now Online",
         "Notifications.IsOnlineOnDifferentVersion" : "Is now Online <size=75%>(using version: {version})</size>",
@@ -871,6 +872,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "Disable Voice Normalization",
         "Settings.Audio.NoiseGateThreshold" : "Noise Gate Threshold: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalization Threshold: {n}",
+        "Settings.Audio.NoiseSupression" : "Noise Supression Filter (RNNoise)",
         "Settings.Audio.InputDevice" : "Audio Input Device:",
         "Settings.Audio.SelectInputDevice" : "Select Audio Input Device",
         "Settings.Audio.TestInput" : "Test your audio input:",
@@ -1037,6 +1039,7 @@
         "Inspector.Audio.ToWAV" : "Convert to WAV",
         "Inspector.Audio.ToVorbis" : "Convert to OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Convert to FLAC",
+        "Inspector.Audio.DenoiseRNNoise" : "Denoise (RNNoise, optimized for voice at 48 kHz)",
 
         "Inspector.AudioStream.BufferState" : "Available samples: {samples}, Missed: {missed}, Length: {length}, Global Index: {index}",
         "Inspector.AudioStream.EncodeState" : "Available to encode: {samples}, Frame Size: {frame} (Max: {max_frame}), Sample Rate: {rate}",
