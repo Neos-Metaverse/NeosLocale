@@ -282,7 +282,7 @@
         "Options.Nameplates.NonContacts" : "Nomplatoj: Kaŝas nomplatojn de viaj kontaktoj",
         "Options.Nameplates.Hide" : "Nomplatoj: Kaŝas ĉiujn nomplatojn",
 
-        "Indicator.OnlineUsers" : "Enretaj uzantoj: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "Enretaj uzantoj: {num_registered} (~{num_total})",
         "Indicator.ServerStatus" : "<color=#fff>Servila stato:</color> {status, select, Good {Bona} Slow {Malrapida} Down {Malsupre} NoInternet {Neniu interreto}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Ĉiuj sinkronigitaj",
@@ -852,6 +852,7 @@
         "Settings.LegacyWorldSwitcher": "Ebligi Malnovan Mondo-ŝanĝilon",
         "Settings.FetchIncompatibleSessions": "Montri Nekongruajn Sesiojn",
         "Settings.MaxConcurrentAssetTransfers" : "Maksimumaj Samtempaj Aktaj Translokigoj",
+        "Settings.AutosaveScreenshotPath" : "Aŭtomate konservi ekranpadon",
 
         "Settings.LaserSmoothing.Header": "Lasera Glatigado",
         "Settings.LaserSmoothing.Speed": "Glata Rapido",
