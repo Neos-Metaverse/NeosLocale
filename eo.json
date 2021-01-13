@@ -1108,6 +1108,8 @@
         "Desktop.OpenKeyboard" : "Malfermu Klavaron",
         "Desktop.FollowCursor.On" : "Sekvu Kursoron: On",
         "Desktop.FollowCursor.Off" : "Sekvu Kursoron: Off",
+        "Desktop.LegacyInputMode.On" : "Enigo de malnovaj funkcioj : On",
+        "Desktop.LegacyInputMode.Off" : "Enigo de malnovaj funkcioj : Off",
         "Desktop.Brightness" : "Brilo: {n,number,percent}",
         "Desktop.Opacity" : "Maldiafaneco: {n,number,percent}",
 

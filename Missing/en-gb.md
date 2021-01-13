@@ -737,6 +737,7 @@ Settings.LegacyGripEquip
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  

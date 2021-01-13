@@ -282,7 +282,7 @@
         "Options.Nameplates.NonContacts" : "Nameplates: Non-contacts",
         "Options.Nameplates.Hide" : "Nameplates: Hide",
 
-        "Indicator.OnlineUsers" : "Online Users: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "Online Users: {num_registered} (~{num_total})",
         "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {Good} Slow {Slow} Down {Down} NoInternet {No Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "All Synced",
@@ -558,7 +558,7 @@
         "Importer.Folder.Individual" : "Individual import",
         "Importer.Folder.Individual.Description" : "Creates a separate import dialog for each supported file in the folder",
         "Importer.Folder.Batch" : "Batch import",
-        "Importer.Folder.Batch.Description" : "Created a single importer for each type, using same settings for each file",
+        "Importer.Folder.Batch.Description" : "Creates a single importer for each type, using same settings for each file",
 
         "Importer.Image.Title" : "Image Importer",
         "Importer.Image.Prompt" : "What are you importing?",
@@ -852,6 +852,7 @@
         "Settings.LegacyWorldSwitcher" : "Enable Legacy World Switcher",
         "Settings.FetchIncompatibleSessions" : "Show Incompatible Sessions",
         "Settings.MaxConcurrentAssetTransfers" : "Max Concurrent Asset Transfers",
+        "Settings.AutosaveScreenshotPath" : "Auto-save screenshot path",
 
         "Settings.LaserSmoothing.Header" : "Laser Smoothing",
         "Settings.LaserSmoothing.Speed" : "Smooth Speed",
