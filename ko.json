@@ -352,6 +352,7 @@
 		"Contacts.RequestIgnored": "요청 거부됨",
 		"Contacts.Blocked": "차단됨",
 		"Contacts.SearchResult": "검색 결과",
+		"Contacts.Bot" : "봇 계정",
 
 		"Notifications.IsOnline": "온라인 상태가 되었습니다.",
 		"Notifications.IsOnlineOnDifferentVersion": "온라인 상태가 되었습니다. <size=75%>(버전: {version})</size>",
@@ -842,6 +843,7 @@
 		"Settings.Audio.DisableVoiceNormalization" : "음성 평탄화(노멀라이즈) 비활성화",
 		"Settings.Audio.NoiseGateThreshold": "잡음 식별(Noise gate) 기준값: {n}",
 		"Settings.Audio.NormzliationThreshold": "음량 평탄화(노멀라이즈) 기준값: {n}",
+		"Settings.Audio.NoiseSupression" : "노이즈 제거 필터 (RNNoise)",
 		"Settings.Audio.InputDevice": "오디오 입력 장치:",
 
 		"Settings.Save": "설정 저장",
@@ -995,6 +997,7 @@
 		"Inspector.Audio.ToWAV" : "WAV로 변환",
 		"Inspector.Audio.ToVorbis" : "OGG Vorbis로 변환",
 		"Inspector.Audio.ToFLAC" : "FLAC으로 변환",
+		"Inspector.Audio.DenoiseRNNoise" : "디노이즈 (RNNoise, 48 kHz의 음성에 최적화)",
 
 		"Inspector.DynamicBoneChain.SetupFromChildren" : "자식으로부터 설정",
 		"Inspector.DynamicBoneChain.SetupFromChildrenAll" : "자식으로부터 설정(모두)",
