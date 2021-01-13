@@ -1108,6 +1108,10 @@
         "Desktop.OpenKeyboard" : "Open Toetsenbord",
         "Desktop.FollowCursor.On" : "Volg Cursor: Aan",
         "Desktop.FollowCursor.Off" : "Volg Cursor: Uit",
+        "Desktop.LegacyInputMode.On" : "Legacy-invoer: Aan",
+        "Desktop.LegacyInputMode.Off" : "Legacy-invoer: Uit",
+        "Desktop.Brightness" : "Helderheid: {n,number,percent}",
+        "Desktop.Opacity" : "Ondoorzichtigheid: {n,number,percent}",
 
         "Tutorial.Welcome.WelcomeTo" : "Welkom Bij",
         "Tutorial.Welcome.LetsStart" : "Laten We Beginnen!",

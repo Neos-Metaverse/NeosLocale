@@ -379,6 +379,7 @@ CameraCOntrol.OBS.Live
 CameraCOntrol.OBS.Recording  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
+Settings.AutosaveScreenshotPath  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
 Settings.Audio.SelectInputDevice  
