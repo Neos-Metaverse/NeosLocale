@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored" : "Ignoré",
         "Contacts.Blocked" : "Bloqué",
         "Contacts.SearchResult" : "Résultats de recherche",
+        "Contacts.Bot" : "Compte de bot",
 
         "Notifications.IsOnline" : "est maintenant en ligne",
         "Notifications.IsOnlineOnDifferentVersion" : "est maintenant en ligne <size=75%>(sur la version: {version})</size>",
@@ -852,6 +853,7 @@
         "Settings.LegacyWorldSwitcher" : "Activer le sélecteur de monde Legacy",
         "Settings.FetchIncompatibleSessions" : "Afficher les sessions incompatibles",
         "Settings.MaxConcurrentAssetTransfers" : "Transferts d'actifs simultanés maximum",
+        "Settings.AutosaveScreenshotPath" : "Chemin de sauvegarde automatique des captures d'écran",
 
         "Settings.LaserSmoothing.Header" : "Lissage du laser",
         "Settings.LaserSmoothing.Speed" : "Vitesse fluide",
@@ -870,6 +872,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "Désactiver la normalisation de la voix",
         "Settings.Audio.NoiseGateThreshold" : "Seuil antibruit: {n}",
         "Settings.Audio.NormzliationThreshold" : "Seuil de normalisation: {n}",
+        "Settings.Audio.NoiseSupression" : "Filtre de suppression du bruit (RNNoise)",
         "Settings.Audio.InputDevice" : "Dispositif d'entrée audio:",
         "Settings.Audio.SelectInputDevice" : "Sélectionner le périphérique audio d'entrée",
         "Settings.Audio.TestInput" : "Testez votre entrée audio:",
@@ -1036,6 +1039,7 @@
         "Inspector.Audio.ToWAV" : "Convertir en WAV",
         "Inspector.Audio.ToVorbis" : "Convertir en OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Convertir en FLAC",
+        "Inspector.Audio.DenoiseRNNoise" : "Denoise (RNNoise, optimisé pour la voix à 48 kHz)",
 
         "Inspector.AudioStream.BufferState" : "Échantillons disponibles: {samples}, Manqués: {missed}, Longueur: {length}, Index Global: {index}",
         "Inspector.AudioStream.EncodeState" : "Disponible à encoder: {samples}, Taille de la trame: {frame} (Max: {max_frame}), Fréquence d'échantillonnage: {rate}",
