@@ -282,7 +282,7 @@
         "Options.Nameplates.NonContacts" : "Имена: Не-контакты",
         "Options.Nameplates.Hide" : "Имена: Спрятать",
 
-        "Indicator.OnlineUsers" : "Пользователи Онлайн: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "Пользователи Онлайн: {num_registered} (~{num_total})",
         "Indicator.ServerStatus" : "<color=#fff>Статус Сервера:</color> {status, select, Good{Хорошо} Slow {Медл.} Down {Упал} NoInternet {Нет Интернета}} ({response_ms} мс)",
 
         "Indicator.Sync.AllSynced" : "Все Синхронизировано",
@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored" : "Игнорирован",
         "Contacts.Blocked" : "Заблокирован",
         "Contacts.SearchResult" : "Результат поиска",
+        "Contacts.Bot" : "Бот",
 
         "Notifications.IsOnline" : "Сейчас Онлайн",
         "Notifications.IsOnlineOnDifferentVersion" : "Сейчас Онлайн <size=75%>(использует версию: {version})</size>",
@@ -558,7 +559,7 @@
         "Importer.Folder.Individual" : "Индивидуальный импорт",
         "Importer.Folder.Individual.Description" : "Создаёт отдельный диалог импорта на каждый файл в папке",
         "Importer.Folder.Batch" : "Пакетный импорт",
-        "Importer.Folder.Batch.Description" : "Создаёт один импорт на каждый тип, используя те же настройки для каждого файла",
+        "Importer.Folder.Batch.Description" : "Создаёт один импорт на каждый тип, используя одинаковые настройки для каждого файла",
 
         "Importer.Image.Title" : "Импорт Изображения",
         "Importer.Image.Prompt" : "Что вы импортируете?",
@@ -852,6 +853,7 @@
         "Settings.LegacyWorldSwitcher" : "Включить старый переключатель миров",
         "Settings.FetchIncompatibleSessions" : "Показать несовместимые сессии",
         "Settings.MaxConcurrentAssetTransfers" : "Максимальное количество передач ресурсов",
+        "Settings.AutosaveScreenshotPath" : "Путь авто-сохранения скриншотов",
 
         "Settings.LaserSmoothing.Header" : "Сглаживание Лазера",
         "Settings.LaserSmoothing.Speed" : "Скорость Сглаживания",
@@ -870,6 +872,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "Отключить Нормализацию Голосового Чата",
         "Settings.Audio.NoiseGateThreshold" : "Порог шумодава: {n}",
         "Settings.Audio.NormzliationThreshold" : "Порог нормализации: {n}",
+        "Settings.Audio.NoiseSupression" : "Фильтр подавления шума (RNNoise)",
         "Settings.Audio.InputDevice" : "Устройство Аудио Захвата:",
         "Settings.Audio.SelectInputDevice" : "Выберите устройство аудио захвата",
         "Settings.Audio.TestInput" : "Протестируйте ваш звук:",
@@ -1036,6 +1039,7 @@
         "Inspector.Audio.ToWAV" : "Конвертировать в WAV",
         "Inspector.Audio.ToVorbis" : "Конвертировать в OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Конвертировать в FLAC",
+        "Inspector.Audio.DenoiseRNNoise" : "Антишум (RNNoise, оптимизирован для голоса на 48 кГц)",
 
         "Inspector.AudioStream.BufferState" : "Доступно сэмплов: {samples}, Пропущено: {missed}, Длина: {length}, Глобальный индекс: {index}",
         "Inspector.AudioStream.EncodeState" : "Доступно к кодированию: {samples}, Размер фрейма: {frame} (Max: {max_frame}), Частота дискретизации: {rate}",
@@ -1108,6 +1112,10 @@
         "Desktop.OpenKeyboard" : "Показать клавиатуру",
         "Desktop.FollowCursor.On" : "Следовать за курсором: Вкл",
         "Desktop.FollowCursor.Off" : "Следовать за курсором: Выкл",
+        "Desktop.LegacyInputMode.On" : "Legacy ввод: Вкл",
+        "Desktop.LegacyInputMode.Off" : "Legacy ввод: Выкл",
+        "Desktop.Brightness" : "Яркость: {n,number,percent}",
+        "Desktop.Opacity" : "Непрозрачность: {n,number,percent}",
 
         "Tutorial.Welcome.WelcomeTo" : "Добро пожаловать в",
         "Tutorial.Welcome.LetsStart" : "Поехали!",
