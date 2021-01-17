@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored" : "無視済み",
         "Contacts.Blocked" : "ブロック済み",
         "Contacts.SearchResult" : "検索結果",
+        "Contacts.Bot" : "ボットアカウント",
 
         "Notifications.IsOnline" : "さんがオンラインになりました",
         "Notifications.IsOnlineOnDifferentVersion" : " <size=75%>(using version: {version})</size>さんがオンラインになりました",
@@ -871,6 +872,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "ボイスノーマライゼーションを無効化",
         "Settings.Audio.NoiseGateThreshold" : "ノイズゲートの閾値: {n}",
         "Settings.Audio.NormzliationThreshold" : "ノーマライゼーションの閾値: {n}",
+        "Settings.Audio.NoiseSupression" : "ノイズ抑制フィルター（RNNoise）",
         "Settings.Audio.InputDevice" : "音声入力デバイス:",
         "Settings.Audio.SelectInputDevice" : "音声入力デバイスを選択",
         "Settings.Audio.TestInput" : "音声入力デバイスのテスト:",
@@ -1037,6 +1039,7 @@
         "Inspector.Audio.ToWAV" : "WAVに変換",
         "Inspector.Audio.ToVorbis" : "OGG Vorbisに変換",
         "Inspector.Audio.ToFLAC" : "FLACに変換",
+        "Inspector.Audio.DenoiseRNNoise" : "ノイズ除去（RNNoise、48 kHzの音声用に最適化）",
 
         "Inspector.AudioStream.BufferState" : "使用可能なサンプル: {samples}, 欠落: {missed}, 長さ: {length}, グローバルインデックス: {index}",
         "Inspector.AudioStream.EncodeState" : "エンコード可能なサンプル: {samples}, フレームサイズ: {frame} (最大: {max_frame}), サンプルレート: {rate}",

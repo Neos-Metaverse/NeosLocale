@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored": "Ignorita",
         "Contacts.Blocked": "Blokita",
         "Contacts.SearchResult": "Serĉrezulto",
+        "Contacts.Bot" : "Bot-konto",
 
         "Notifications.IsOnline": "Estas nun Interrete",
         "Notifications.IsOnlineOnDifferentVersion" : "Estas nun Interreta <size=75%>(using version: {version})</size>",
@@ -871,6 +872,7 @@
         "Settings.Audio.DisableVoiceNormalization": "Malŝalti Voĉan Normaligon",
         "Settings.Audio.NoiseGateThreshold": "Brua Pordega Sojlo: {n}",
         "Settings.Audio.NormzliationThreshold": "Normaliga Sojlo: {n}",
+        "Settings.Audio.NoiseSupression" : "Filtrilo pri Subpremado de Bruo (RNNoise)",
         "Settings.Audio.InputDevice": "Aŭd-Eniga Aparato:",
         "Settings.Audio.SelectInputDevice" : "Elektu Aŭd-Eniga Aparato",
         "Settings.Audio.TestInput" : "Provo Aŭd-Eniga Aparato:",
@@ -1037,7 +1039,8 @@
         "Inspector.Audio.ToWAV" : "Konverti al WAV",
         "Inspector.Audio.ToVorbis" : "Konverti al OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konverti al FLAC",
-        
+        "Inspector.Audio.DenoiseRNNoise" : "Denoise (RNNoise, optimumigita por voĉo je 48 kHz)",
+
         "Inspector.AudioStream.BufferState" : "Haveblaj specimenoj: {samples}, Maltrafita: {missed}, Longo: {length}, Tutmonda Indekso: {index}",
         "Inspector.AudioStream.EncodeState" : "Disponebla por kodi: {samples}, Kadro Grandeco: {frame} (Maksimumo: {max_frame}), Specimeno-kurzo: {rate}",
         "Inspector.AudioStream.DecodeState" : "Entute pakoj: {total}, Entute Perditaj Paketoj: {lost}, Pakaĵa Perdo: {loss, number, percent}",

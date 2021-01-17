@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored" : "被忽略",
         "Contacts.Blocked" : "受阻",
         "Contacts.SearchResult" : "搜索结果",
+        "Contacts.Bot" : "Bot帐户",
 
         "Notifications.IsOnline" : "现在在线",
         "Notifications.IsOnlineOnDifferentVersion" : "现在在线 <size=75%>(使用版本: {version})</size>",
@@ -871,6 +872,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "禁用语音标准化",
         "Settings.Audio.NoiseGateThreshold" : "噪声门阈值: {n}",
         "Settings.Audio.NormzliationThreshold" : "标准化阈值: {n}",
+        "Settings.Audio.NoiseSupression" : "噪声抑制滤波器（RNNoise）",
         "Settings.Audio.InputDevice" : "音频输入装置:",
         "Settings.Audio.SelectInputDevice" : "选择音频输入设备",
         "Settings.Audio.TestInput" : "测试您的音频输入:",
@@ -1037,7 +1039,8 @@
         "Inspector.Audio.ToWAV" : "转换为WAV",
         "Inspector.Audio.ToVorbis" : "转换为OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "转换为FLAC",
-        
+        "Inspector.Audio.DenoiseRNNoise" : "降噪（RNNoise，针对48 kHz语音进行了优化）",
+
         "Inspector.AudioStream.BufferState" : "可用样本: {samples}, 丢失: {missed}, 长度: {length}, 全局索引: {index}",
         "Inspector.AudioStream.EncodeState" : "可编码: {samples}, 帧大小: {frame} (最大值: {max_frame}), 采样率: {rate}",
         "Inspector.AudioStream.DecodeState" : "包总数: {total}, 丢包总数: {lost}, 数据包丢失: {loss, number, percent}",

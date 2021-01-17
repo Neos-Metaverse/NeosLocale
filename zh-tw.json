@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored" : "被忽略",
         "Contacts.Blocked" : "受阻",
         "Contacts.SearchResult" : "搜索結果",
+        "Contacts.Bot" : "Bot帳戶",
 
         "Notifications.IsOnline" : "現在在線",
         "Notifications.IsOnlineOnDifferentVersion" : "現在在線 <size=75%>(使用版本: {version})</size>",
@@ -871,6 +872,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "禁用語音標準化",
         "Settings.Audio.NoiseGateThreshold" : "噪聲門閾值: {n}",
         "Settings.Audio.NormzliationThreshold" : "標準化閾值: {n}",
+        "Settings.Audio.NoiseSupression" : "噪聲抑制濾波器（RNNoise）",
         "Settings.Audio.InputDevice" : "音頻輸入裝置:",
         "Settings.Audio.SelectInputDevice" : "選擇音頻輸入設備",
         "Settings.Audio.TestInput" : "測試您的音頻輸入:",
@@ -1037,7 +1039,8 @@
         "Inspector.Audio.ToWAV" : "轉換為WAV",
         "Inspector.Audio.ToVorbis" : "轉換為OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "轉換為FLAC",
-        
+        "Inspector.Audio.DenoiseRNNoise" : "降噪（RNNoise，針對48 kHz語音進行了優化）",
+
         "Inspector.AudioStream.BufferState" : "可用樣本: {samples}, 丟失: {missed}, 長度: {length}, 全局索引: {index}",
         "Inspector.AudioStream.EncodeState" : "可編碼: {samples}, 幀大小: {frame} (最大值: {max_frame}), 採樣率: {rate}",
         "Inspector.AudioStream.DecodeState" : "包總數: {total}, 丟包總數: {lost}, 數據包丟失: {loss, number, percent}",
