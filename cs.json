@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored" : "Požadavek o kontakt ignorován",
         "Contacts.Blocked" : "Zablokován(a)",
         "Contacts.SearchResult" : "Výsledek vyhledávání",
+        "Contacts.Bot" : "Bot účet",
 
         "Notifications.IsOnline" : "Je nyní online",
         "Notifications.IsOnlineOnDifferentVersion" : "Je nyní online <size=75%>(používá verzi: {version})</size>",
@@ -852,6 +853,7 @@
         "Settings.LegacyWorldSwitcher" : "Povolit starý přepínač světů",
         "Settings.FetchIncompatibleSessions" : "Zobrazit nekompatibilní relace",
         "Settings.MaxConcurrentAssetTransfers" : "Maximální souběžné přenosy assetů",
+        "Settings.AutosaveScreenshotPath" : "Cesta autom. ulož. screenshotů",
 
         "Settings.LaserSmoothing.Header" : "Vyhlazování laseru",
         "Settings.LaserSmoothing.Speed" : "Rychlost vyhlazování",
@@ -870,6 +872,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "Vypnout normalizaci hlasu",
         "Settings.Audio.NoiseGateThreshold" : "Hranice pro potlačení šumu: {n}",
         "Settings.Audio.NormzliationThreshold" : "Hranice pro normalizaci: {n}",
+        "Settings.Audio.NoiseSupression" : "Filtr pro potlačení okolního hluku (RNNoise)",
         "Settings.Audio.InputDevice" : "Mikrofon:",
         "Settings.Audio.SelectInputDevice" : "Vyberte vstupní zvukové zařízení",
         "Settings.Audio.TestInput" : "Otestujte vaše vstupní zvukové zařízení:",
@@ -1036,6 +1039,7 @@
         "Inspector.Audio.ToWAV" : "Konvertovat na WAV",
         "Inspector.Audio.ToVorbis" : "Konvertovat na OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konvertovat na FLAC",
+        "Inspector.Audio.DenoiseRNNoise" : "Odstranit okolní hluk (RNNoise, optimalizováno pro hlas se samplerate 48 kHz)",
 
         "Inspector.AudioStream.BufferState" : "Dostupné vzorky: {samples}, Ztracené: {missed}, Délka: {length}, Globální index: {index}",
         "Inspector.AudioStream.EncodeState" : "Dostupné k encodování: {samples}, Velikost snímku: {frame} (Max: {max_frame}), Vzorkovací frekvence: {rate}",
