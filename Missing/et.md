@@ -48,6 +48,7 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
+Importer.Model.Advanced.PreferSpecular  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
@@ -82,6 +83,7 @@ Inspector.Audio.ToWAV
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
 Inspector.Audio.DenoiseRNNoise  
+Inspector.Audio.ExtractSides  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  

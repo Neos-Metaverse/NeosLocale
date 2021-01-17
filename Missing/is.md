@@ -212,6 +212,7 @@ Importer.Model.Advanced.AutoScale
 Importer.Model.Advanced.MaxTexSize  
 Importer.Model.Advanced.ImageFormat  
 Importer.Model.Advanced.Material  
+Importer.Model.Advanced.PreferSpecular  
 Importer.Model.Advanced.AlignAxis  
 Importer.Model.Advanced.Normals  
 Importer.Model.Advanced.Tangents  
@@ -568,6 +569,7 @@ Inspector.Audio.ToWAV
 Inspector.Audio.ToVorbis  
 Inspector.Audio.ToFLAC  
 Inspector.Audio.DenoiseRNNoise  
+Inspector.Audio.ExtractSides  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  

@@ -26,6 +26,7 @@ Contacts.Bot
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+Importer.Model.Advanced.PreferSpecular  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
@@ -34,6 +35,7 @@ Inspector.ReflectionProbe.Bake
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
 Inspector.Audio.DenoiseRNNoise  
+Inspector.Audio.ExtractSides  
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  

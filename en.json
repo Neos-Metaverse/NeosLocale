@@ -603,6 +603,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "Max Texture Size",
         "Importer.Model.Advanced.ImageFormat" : "Image Format: ",
         "Importer.Model.Advanced.Material" : "Material: ",
+        "Importer.Model.Advanced.PreferSpecular" : "Prefer Specular",
         "Importer.Model.Advanced.AlignAxis" : "Align Axis: ",
 
         "Importer.Model.Advanced.Normals" : "Calculate Normals",
@@ -1040,6 +1041,7 @@
         "Inspector.Audio.ToVorbis" : "Convert to OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Convert to FLAC",
         "Inspector.Audio.DenoiseRNNoise" : "Denoise (RNNoise, optimized for voice at 48 kHz)",
+        "Inspector.Audio.ExtractSides" : "Extract Sides (can remove vocals on stereo tracks)",
 
         "Inspector.AudioStream.BufferState" : "Available samples: {samples}, Missed: {missed}, Length: {length}, Global Index: {index}",
         "Inspector.AudioStream.EncodeState" : "Available to encode: {samples}, Frame Size: {frame} (Max: {max_frame}), Sample Rate: {rate}",

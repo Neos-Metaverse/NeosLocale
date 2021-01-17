@@ -3,9 +3,11 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Polish [pl]
 Contacts.Bot  
+Importer.Model.Advanced.PreferSpecular  
 Settings.AutosaveScreenshotPath  
 Settings.Audio.NoiseSupression  
 Inspector.Audio.DenoiseRNNoise  
+Inspector.Audio.ExtractSides  
 Desktop.LegacyInputMode.On  
 Desktop.LegacyInputMode.Off  
 Desktop.Brightness  
