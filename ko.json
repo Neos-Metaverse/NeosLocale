@@ -575,6 +575,7 @@
 		"Importer.Model.Advanced.MaxTexSize": "최대 텍스쳐 크기",
 		"Importer.Model.Advanced.ImageFormat": "이미지 형식: ",
 		"Importer.Model.Advanced.Material": "머티리얼: ",
+		"Importer.Model.Advanced.PreferSpecular" : "스페큘러(specular) 선호",
 		"Importer.Model.Advanced.AlignAxis": "축에 정렬: ",
 
 		"Importer.Model.Advanced.Normals": "노말(Normals) 계산",
@@ -735,6 +736,7 @@
 		"CameraControl.Settings.ShowFrustum": "투사 안내선 보이기",
 		"CameraControl.Settings.PhotoTimer": "촬영 타이머 활성화",
 		"CameraControl.Settings.ShowLiveBadge": "방송뱃지(LIVE) 보이기",
+		"CameraControl.Settings.AudioFromCameraViewpoint" : "카메라 뷰포트에서의 소리",
 
 		"CameraControl.OpenCloseUsers": "유저",
 		"CameraControl.CreateCameraAnchor": "촬영위치 생성",
@@ -998,6 +1000,7 @@
 		"Inspector.Audio.ToVorbis" : "OGG Vorbis로 변환",
 		"Inspector.Audio.ToFLAC" : "FLAC으로 변환",
 		"Inspector.Audio.DenoiseRNNoise" : "디노이즈 (RNNoise, 48 kHz의 음성에 최적화)",
+ 		"Inspector.Audio.ExtractSides" : "사이드(Sides) 추출 (스테레오 트랙의 음성 제거 가능)",
 
 		"Inspector.DynamicBoneChain.SetupFromChildren" : "자식으로부터 설정",
 		"Inspector.DynamicBoneChain.SetupFromChildrenAll" : "자식으로부터 설정(모두)",
