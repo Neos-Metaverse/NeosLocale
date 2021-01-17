@@ -603,6 +603,7 @@
         "Importer.Model.Advanced.MaxTexSize": "Maksimuma tekstura grandeco",
         "Importer.Model.Advanced.ImageFormat": "Bildformato:",
         "Importer.Model.Advanced.Material": "Materialo:",
+        "Importer.Model.Advanced.PreferSpecular" : "preferi Specular",
         "Importer.Model.Advanced.AlignAxis": "Vicigi Akson:",
 
         "Importer.Model.Advanced.Normals": "Kalkuli Normalaĵojn",
@@ -763,6 +764,7 @@
         "CameraControl.Settings.ShowFrustum": "Montri Frustum",
         "CameraControl.Settings.PhotoTimer": "Foto-Tempigilo",
         "CameraControl.Settings.ShowLiveBadge": "Montri Vivan Insignon",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Aŭdio de fotila vidpunkto",
 
         "CameraControl.OpenCloseUsers": "Uzantoj",
         "CameraControl.CreateCameraAnchor": "Krei Ĉambran Ankron",
@@ -1040,6 +1042,7 @@
         "Inspector.Audio.ToVorbis" : "Konverti al OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konverti al FLAC",
         "Inspector.Audio.DenoiseRNNoise" : "Denoise (RNNoise, optimumigita por voĉo je 48 kHz)",
+        "Inspector.Audio.ExtractSides" : "Ĉerpu Flankojn (povas forigi voĉojn sur stereovojoj)",
 
         "Inspector.AudioStream.BufferState" : "Haveblaj specimenoj: {samples}, Maltrafita: {missed}, Longo: {length}, Tutmonda Indekso: {index}",
         "Inspector.AudioStream.EncodeState" : "Disponebla por kodi: {samples}, Kadro Grandeco: {frame} (Maksimumo: {max_frame}), Specimeno-kurzo: {rate}",

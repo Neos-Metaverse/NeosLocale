@@ -603,6 +603,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "最大テクスチャサイズ",
         "Importer.Model.Advanced.ImageFormat" : "画像形式: ",
         "Importer.Model.Advanced.Material" : "マテリアル: ",
+        "Importer.Model.Advanced.PreferSpecular" : "鏡面反射(スペキュラー)を優先",
         "Importer.Model.Advanced.AlignAxis" : "軸を揃える: ",
 
         "Importer.Model.Advanced.Normals" : "法線(ノーマル)を計算",
@@ -763,6 +764,7 @@
         "CameraControl.Settings.ShowFrustum" : "画角の錐台を表示",
         "CameraControl.Settings.PhotoTimer" : "セルフタイマー",
         "CameraControl.Settings.ShowLiveBadge" : "Liveバッジを表示",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "カメラビューからのオーディオ",
 
         "CameraControl.OpenCloseUsers" : "ユーザー",
         "CameraControl.CreateCameraAnchor" : "カメラアンカー配置",
@@ -1040,6 +1042,7 @@
         "Inspector.Audio.ToVorbis" : "OGG Vorbisに変換",
         "Inspector.Audio.ToFLAC" : "FLACに変換",
         "Inspector.Audio.DenoiseRNNoise" : "ノイズ除去（RNNoise、48 kHzの音声用に最適化）",
+        "Inspector.Audio.ExtractSides" : "サイドの抽出（ステレオトラックのボーカルを削除できます）",
 
         "Inspector.AudioStream.BufferState" : "使用可能なサンプル: {samples}, 欠落: {missed}, 長さ: {length}, グローバルインデックス: {index}",
         "Inspector.AudioStream.EncodeState" : "エンコード可能なサンプル: {samples}, フレームサイズ: {frame} (最大: {max_frame}), サンプルレート: {rate}",
