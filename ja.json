@@ -1201,7 +1201,7 @@
         "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>ホームスクリーン</b></color>には、多くの機能を備えたfacetが含まれています。これらには、アバタークリエイター、全身キャリブレーター、カメラ、新しいワールドの作成などがあります。",
         "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>フレンド</b></color>の一覧はダッシュメニューにあります。メッセージ、音声メッセージ、またはオブジェクトを右下のチャットボックスからフレンドに送信できます。左上隅にある検索バーでフレンドを追加できます。",
         "Tutorial.Intro.FilesDescription" : "ファイル、3Dモデル、画像、オーディオ、ビデオ、またはフォントを直接Neosに<color=#ffdd77><b>インポート</b></color>できます！ファイルをNeosウィンドウに<color=#77ddff><b>ドラッグアンドドロップ</b></color>するか、<color=#ffdd77><b>ファイルブラウザ</b></color>からファイルを検索します。",
-        "Tutorial.Intro.SessionTitle" : "Session Settings",
+        "Tutorial.Intro.SessionTitle" : "セッション設定",
         "Tutorial.Intro.SessionDescription" : "セッション設定、権限レベル、およびワールド内の他のユーザーを扱う設定は、<color=#ffdd77><b>セッション</b></color>パネルにあります。",
         "Tutorial.Intro.SettingsDescription" : "身長、音量、快適さの設定、言語の選択などは、<color=#ffdd77><b>設定</b></color>タブで調整できます。",
         "Tutorial.Intro.WorldsTitle" : "ワールドメニュー",
