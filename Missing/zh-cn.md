@@ -3,5 +3,6 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Chinese (China) [zh-cn]
 Importer.Model.Advanced.PreferSpecular  
+CameraControl.Settings.AudioFromCameraViewpoint  
 Inspector.Audio.ExtractSides  
 

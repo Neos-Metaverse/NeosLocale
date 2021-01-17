@@ -658,6 +658,7 @@ CameraControl.Settings.HideLasers
 CameraControl.Settings.ShowFrustum  
 CameraControl.Settings.PhotoTimer  
 CameraControl.Settings.ShowLiveBadge  
+CameraControl.Settings.AudioFromCameraViewpoint  
 CameraControl.OpenCloseUsers  
 CameraControl.CreateCameraAnchor  
 CameraControl.Anchors.Interpolate  

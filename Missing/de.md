@@ -5,6 +5,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 Dash.Screens.Desktop  
 Contacts.Bot  
 Importer.Model.Advanced.PreferSpecular  
+CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.AutosaveScreenshotPath  
 Settings.Audio.NoiseSupression  
 Inspector.Audio.DenoiseRNNoise  

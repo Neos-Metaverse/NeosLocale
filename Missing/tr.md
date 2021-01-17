@@ -27,6 +27,7 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Importer.Model.Advanced.PreferSpecular  
+CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  

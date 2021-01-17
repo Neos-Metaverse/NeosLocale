@@ -49,6 +49,7 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
 Importer.Model.Advanced.PreferSpecular  
+CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.Haptics  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  

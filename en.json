@@ -764,6 +764,7 @@
         "CameraControl.Settings.ShowFrustum" : "Show Frustum",
         "CameraControl.Settings.PhotoTimer" : "Photo Timer",
         "CameraControl.Settings.ShowLiveBadge" : "Show Live Badge",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Audio from camera viewpoint",
 
         "CameraControl.OpenCloseUsers" : "Users",
         "CameraControl.CreateCameraAnchor" : "Create Camera Anchor",
