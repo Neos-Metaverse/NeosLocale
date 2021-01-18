@@ -71,6 +71,7 @@
         "Interaction.SaveAsScreenshot" : "Sauvegarder en tant que capture d'écran",
         "Interaction.ImportFile" : "Importer le fichier",
         "Interaction.ExportFile" : "Exporter le fichier",
+        "Interaction.CopyLink" : "Copier le lien",
 
         "Dash.Screens.Home" : "Maison",
         "Dash.Screens.Worlds" : "Mondes",
@@ -603,6 +604,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "Taille maximale de la texture",
         "Importer.Model.Advanced.ImageFormat" : "Format d'image:",
         "Importer.Model.Advanced.Material" : "Matériel:",
+        "Importer.Model.Advanced.PreferSpecular" : "Préférer le spéculaire",
         "Importer.Model.Advanced.AlignAxis" : "Aligner l'axe:",
 
         "Importer.Model.Advanced.Normals" : "Calculer les normales",
@@ -763,6 +765,7 @@
         "CameraControl.Settings.ShowFrustum" : "Montrez Frustum",
         "CameraControl.Settings.PhotoTimer" : "Minuteur photo",
         "CameraControl.Settings.ShowLiveBadge" : "Afficher le badge en direct",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Audio du point de vue de la caméra",
 
         "CameraControl.OpenCloseUsers" : "Utilisateurs",
         "CameraControl.CreateCameraAnchor" : "Créer un ancrage de caméra",
@@ -1020,6 +1023,9 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostique: Variables numériques invalides",
         "Inspector.Texture.GenerateMetadata" : "Diagnostique: Générer les metadonnées des Bitmaps",
 
+        "Inspector.Material.VariantInfo" : "Variant: {variantID} (Brute: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "En attente de l'application: {waiting}",
+
         "Inspector.Audio.BakeAudio" : "Précalcul du clip audio",
         "Inspector.Audio.FormatInfo" : "Fréquence d'échantillonnage: {rate} Hz, Canaux: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Durée: {duration}, Nombre de samples: {samples}",
@@ -1040,6 +1046,7 @@
         "Inspector.Audio.ToVorbis" : "Convertir en OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Convertir en FLAC",
         "Inspector.Audio.DenoiseRNNoise" : "Denoise (RNNoise, optimisé pour la voix à 48 kHz)",
+        "Inspector.Audio.ExtractSides" : "Extraire les Sides (peut supprimer les voix sur les pistes stéréo)",
 
         "Inspector.AudioStream.BufferState" : "Échantillons disponibles: {samples}, Manqués: {missed}, Longueur: {length}, Index Global: {index}",
         "Inspector.AudioStream.EncodeState" : "Disponible à encoder: {samples}, Taille de la trame: {frame} (Max: {max_frame}), Fréquence d'échantillonnage: {rate}",
@@ -1053,6 +1060,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Collisionneurs et Attraper -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Ajouter des collisionneurs fixes depuis la hiérarchie (utilisant la racine de l'objet)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Toujours attraper le dernier os",
+
+        "Inspector.Rig.CleanupBoneColliders" : "Nettoyer les collisions osseuses",
+        "Inspector.Rig.GenerateDebugVisuals" : "Générer des visuels de débogage",
+        "Inspector.Rig.ClearDebugVisuals" : "Effacer les visuels de débogage",
 
         "Wizard.General.ProcessRoot" : "Racine du Processus:",
         "Wizard.General.Result" : "Résultat:",
