@@ -603,6 +603,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "Max rozlišení textur",
         "Importer.Model.Advanced.ImageFormat" : "Formát textur: ",
         "Importer.Model.Advanced.Material" : "Materiál : ",
+        "Importer.Model.Advanced.PreferSpecular" : "Preferovat Specular materiály",
         "Importer.Model.Advanced.AlignAxis" : "Zarovnat osu: ",
 
         "Importer.Model.Advanced.Normals" : "Spočítat Normály",
@@ -763,6 +764,7 @@
         "CameraControl.Settings.ShowFrustum" : "Zobrazit Frustum",
         "CameraControl.Settings.PhotoTimer" : "Časovač pro foto",
         "CameraControl.Settings.ShowLiveBadge" : "Zobrazit odznak ŽIVĚ",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Audio z viewpointu kamery",
 
         "CameraControl.OpenCloseUsers" : "Uživatelé",
         "CameraControl.CreateCameraAnchor" : "Vytvořit kotvu",
@@ -1040,6 +1042,7 @@
         "Inspector.Audio.ToVorbis" : "Konvertovat na OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konvertovat na FLAC",
         "Inspector.Audio.DenoiseRNNoise" : "Odstranit okolní hluk (RNNoise, optimalizováno pro hlas se samplerate 48 kHz)",
+        "Inspector.Audio.ExtractSides" : "Extrahovat strany (může, ale nemusí odstranit vokály u stereo skladeb)",
 
         "Inspector.AudioStream.BufferState" : "Dostupné vzorky: {samples}, Ztracené: {missed}, Délka: {length}, Globální index: {index}",
         "Inspector.AudioStream.EncodeState" : "Dostupné k encodování: {samples}, Velikost snímku: {frame} (Max: {max_frame}), Vzorkovací frekvence: {rate}",
