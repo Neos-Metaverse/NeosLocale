@@ -603,6 +603,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "Максимальный Размер Текстур",
         "Importer.Model.Advanced.ImageFormat" : "Формат Изображений: ",
         "Importer.Model.Advanced.Material" : "Материал: ",
+        "Importer.Model.Advanced.PreferSpecular" : "Предпочитать зеркальный (specular) материал",
         "Importer.Model.Advanced.AlignAxis" : "Свести к Оси: ",
 
         "Importer.Model.Advanced.Normals" : "Расчитать Нормали",
@@ -763,6 +764,7 @@
         "CameraControl.Settings.ShowFrustum" : "Показать поле зрения",
         "CameraControl.Settings.PhotoTimer" : "Таймер Фото",
         "CameraControl.Settings.ShowLiveBadge" : "Показать LIVE Бэйдж",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Звук с позиции камеры",
 
         "CameraControl.OpenCloseUsers" : "Пользователи",
         "CameraControl.CreateCameraAnchor" : "Создать Анкер Камеры",
@@ -1040,6 +1042,7 @@
         "Inspector.Audio.ToVorbis" : "Конвертировать в OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Конвертировать в FLAC",
         "Inspector.Audio.DenoiseRNNoise" : "Антишум (RNNoise, оптимизирован для голоса на 48 кГц)",
+        "Inspector.Audio.ExtractSides" : "Извлечь боковые каналы (может убрать голос со стерео треков)",
 
         "Inspector.AudioStream.BufferState" : "Доступно сэмплов: {samples}, Пропущено: {missed}, Длина: {length}, Глобальный индекс: {index}",
         "Inspector.AudioStream.EncodeState" : "Доступно к кодированию: {samples}, Размер фрейма: {frame} (Max: {max_frame}), Частота дискретизации: {rate}",
