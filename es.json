@@ -282,7 +282,7 @@
         "Options.Nameplates.NonContacts" : "Nombres: Ocultar Contactos",
         "Options.Nameplates.Hide" : "Nombres: Ocultar",
 
-        "Indicator.OnlineUsers" : "Usuarios en línea: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "Usuarios en línea: ({num_registered}) ~{num_total}",
         "Indicator.ServerStatus" : "<color=#fff>Estado del Servidor:</color><br>{status, select, Good {Bueno} Slow {Lento} Down {Caído} NoInternet {Sin internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Todo Sincronizado",
@@ -377,6 +377,7 @@
         "Contacts.RequestIgnored" : "Solicitud ignorada",
         "Contacts.Blocked" : "Bloqueado",
         "Contacts.SearchResult" : "Resultado de búsqueda",
+        "Contacts.Bot" : "Cuenta Bot",
 
         "Notifications.IsOnline" : "Está en línea",
         "Notifications.IsOnlineOnDifferentVersion" : "Está en línea <size=75%>(pero usando versión: {version})</size>",
@@ -558,7 +559,7 @@
         "Importer.Folder.Individual" : "Importación individual",
         "Importer.Folder.Individual.Description" : "Crea un cuadro de diálogo de importación independiente para cada archivo admitido en la carpeta",
         "Importer.Folder.Batch" : "Importación por lotes",
-        "Importer.Folder.Batch.Description" : "Crear un sólo importador para cada tipo, usando la misma configuración para cada archivo",
+        "Importer.Folder.Batch.Description" : "Crea un sólo importador para cada tipo, usando la misma configuración para cada archivo",
 
         "Importer.Image.Title" : "Importar imagen",
         "Importer.Image.Prompt" : "¿Qué está importando?",
@@ -602,6 +603,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "<size=65%>Tamaño máx. de texturas</size>",
         "Importer.Model.Advanced.ImageFormat" : "<size=65%>Formato de imagen: </size>",
         "Importer.Model.Advanced.Material" : "Material: ",
+        "Importer.Model.Advanced.PreferSpecular" : "Preferir Especular",
         "Importer.Model.Advanced.AlignAxis" : "Alinear eje: ",
 
         "Importer.Model.Advanced.Normals" : "Calcular Normales",
@@ -762,6 +764,7 @@
         "CameraControl.Settings.ShowFrustum" : "Mostrar Área",
         "CameraControl.Settings.PhotoTimer" : "Temporizador de Foto",
         "CameraControl.Settings.ShowLiveBadge" : "Mostrar Insignia de \"En Vivo\"",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Audio desde vista de cámara",
 
         "CameraControl.OpenCloseUsers" : "Usuarios",
         "CameraControl.CreateCameraAnchor" : "Crear Anclaje de Cámara",
@@ -852,6 +855,7 @@
         "Settings.LegacyWorldSwitcher" : "Habilitar Traslado entre Mundos de Legado",
         "Settings.FetchIncompatibleSessions" : "Mostrar Sesiones Incompatibles",
         "Settings.MaxConcurrentAssetTransfers" : "Máximas Transferencias de Recursos Simultáneas",
+        "Settings.AutosaveScreenshotPath" : "Destino de auto-guardado de capturas",
 
         "Settings.LaserSmoothing.Header" : "Suavizado del Láser",
         "Settings.LaserSmoothing.Speed" : "Velocidad del Suavizado",
@@ -870,10 +874,11 @@
         "Settings.Audio.DisableVoiceNormalization" : "Deshabilitar Normalización de Voz",
         "Settings.Audio.NoiseGateThreshold" : "Umbral de Puerta de Ruido: {n}",
         "Settings.Audio.NormzliationThreshold" : "Umbral de Normalización: {n}",
+        "Settings.Audio.NoiseSupression" : "Filtro de Supresión de Ruido (RNNoise)",
         "Settings.Audio.InputDevice" : "Dispositivo de Entrada de Audio:",
         "Settings.Audio.SelectInputDevice" : "Seleccionar Dispositivo de Entrada de Audio",
         "Settings.Audio.TestInput" : "Probar entrada de audio:",
-        "Settings.Audio.TestDescription" : "Reproduciremos el sonido entrando al dispositivo de entrada de audio seleccionado, para que verifique si es el correcto.",
+        "Settings.Audio.TestDescription" : "Reproduciremos el sonido que ingresa al dispositivo de entrada de audio seleccionado, para que verifique si es el correcto.",
         "Settings.Audio.StartTest" : "Probar Micrófono",
         "Settings.Audio.StopTest" : "Dejar de Probar",
         "Settings.Audio.Monitoring" : "Monitoreo de Micrófono:",
@@ -1036,6 +1041,8 @@
         "Inspector.Audio.ToWAV" : "Convertir a WAV",
         "Inspector.Audio.ToVorbis" : "Convertir a OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Convertir a FLAC",
+        "Inspector.Audio.DenoiseRNNoise" : "Eliminar Ruido (RNNoise, optimizado para voz a 48 kHz)",
+        "Inspector.Audio.ExtractSides" : "Extraer Lados (puede quitar voces en pistas estéreo)",
 
         "Inspector.AudioStream.BufferState" : "Muestras disponibles: {samples}, Perdidas: {missed}, Longitud: {length}, Índice Global: {index}",
         "Inspector.AudioStream.EncodeState" : "Muestras a codificar: {samples}, Tamaño de Marco: {frame} (Máx: {max_frame}), Frecuencia de Muestreo: {rate}",
