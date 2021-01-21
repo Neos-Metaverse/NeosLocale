@@ -14,6 +14,7 @@ Interaction.EquipAvatar
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
+Interaction.CopyLink  
 Dash.Screens.Desktop  
 World.Error.OnlyContactsOfContacts  
 World.AccessLevel.FriendsOfFriends  
@@ -65,6 +66,8 @@ Settings.Locale.SelectLanguageHeader
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
+Inspector.Material.VariantInfo  
+Inspector.Material.WaitingForApply  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  

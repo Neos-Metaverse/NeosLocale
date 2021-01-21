@@ -3,27 +3,27 @@ This repository contains the locale assets for the core UI of Neos VR (www.neos.
 
 # Localization Status
 Czech [cs] - 99.7% - Missing keys: 3  
-German [de] - 97.8% - Missing keys: 24  
-English (United Kingdom) [en-gb] - 2.8% - Missing keys: 1074  
+German [de] - 97.6% - Missing keys: 27  
+English (United Kingdom) [en-gb] - 2.8% - Missing keys: 1077  
 English [en] - 100.0% - Missing keys: 0  
 Esperanto [eo] - 99.7% - Missing keys: 3  
-Spanish [es] - 99.4% - Missing keys: 7  
-Estonian [et] - 76.0% - Missing keys: 265  
-Finnish [fi] - 36.7% - Missing keys: 699  
-French [fr] - 99.7% - Missing keys: 3  
-Icelandic [is] - 31.9% - Missing keys: 752  
+Spanish [es] - 99.7% - Missing keys: 3  
+Estonian [et] - 75.8% - Missing keys: 268  
+Finnish [fi] - 36.6% - Missing keys: 702  
+French [fr] - 99.5% - Missing keys: 6  
+Icelandic [is] - 39.0% - Missing keys: 676  
 Japanese [ja] - 99.7% - Missing keys: 3  
 Korean [ko] - 99.7% - Missing keys: 3  
-Dutch [nl] - 99.7% - Missing keys: 3  
-Norwegian [no] - 74.1% - Missing keys: 286  
-Polish [pl] - 99.0% - Missing keys: 11  
+Dutch [nl] - 99.5% - Missing keys: 6  
+Norwegian [no] - 73.9% - Missing keys: 289  
+Polish [pl] - 98.7% - Missing keys: 14  
 Russian [ru] - 99.7% - Missing keys: 3  
-Swedish [sv] - 6.5% - Missing keys: 1033  
-Turkish [tr] - 87.3% - Missing keys: 140  
+Swedish [sv] - 6.5% - Missing keys: 1036  
+Turkish [tr] - 87.1% - Missing keys: 143  
 Chinese (China) [zh-cn] - 99.7% - Missing keys: 3  
 Chinese (Taiwan) [zh-tw] - 99.7% - Missing keys: 3  
 
-Total keys: 1105
+Total keys: 1108
 
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.

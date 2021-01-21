@@ -15,6 +15,7 @@ Interaction.EquipAvatar
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
+Interaction.CopyLink  
 Dash.Screens.Desktop  
 World.Error.OnlyContactsOfContacts  
 World.AccessLevel.FriendsOfFriends  
@@ -86,6 +87,8 @@ Inspector.BipedRig.HandRigResult
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
 Inspector.Texture.Variant  
+Inspector.Material.VariantInfo  
+Inspector.Material.WaitingForApply  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  

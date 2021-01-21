@@ -71,6 +71,7 @@
         "Interaction.SaveAsScreenshot" : "Save as screenshot",
         "Interaction.ImportFile" : "Import File",
         "Interaction.ExportFile" : "Export File",
+        "Interaction.CopyLink" : "Copy Link",
 
         "Dash.Screens.Home" : "Home",
         "Dash.Screens.Worlds" : "Worlds",
@@ -879,9 +880,9 @@
         "Settings.Audio.SelectInputDevice" : "Select Audio Input Device",
         "Settings.Audio.TestInput" : "Test your audio input:",
         "Settings.Audio.TestDescription" : "We'll play the sound from the selected audio device back at you, so you can verify it's correct.",
-        "Settings.Audio.StartTest" : "Check Microphone",
+        "Settings.Audio.StartTest" : "Listen to device\n<size=50%>(check microphone / audio in)</size>",
         "Settings.Audio.StopTest" : "Stop Testing",
-        "Settings.Audio.Monitoring" : "Microphone Monitoring:",
+        "Settings.Audio.Monitoring" : "Audio Input Monitoring:",
 
         "Settings.Locale.ChangeLanguage" : "Change Language",
         "Settings.Locale.SelectLanguageHeader" : "Select your language:",
@@ -1021,6 +1022,9 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnostic: Generate Bitmap Metadata",
+
+        "Inspector.Material.VariantInfo" : "Variant: {variantID} (Raw: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "Waiting for apply: {waiting}",
 
         "Inspector.Audio.BakeAudio" : "Bake Audio Clip",
         "Inspector.Audio.FormatInfo" : "Sample Rate: {rate} Hz, Channels: {channels} ({channel_count})",

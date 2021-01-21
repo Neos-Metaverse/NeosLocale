@@ -6,6 +6,7 @@ General.Save
 General.Saving  
 General.Create  
 General.Creating  
+Interaction.CopyLink  
 Dash.Screens.Desktop  
 World.Error.OnlyContactsOfContacts  
 World.AccessLevel.FriendsOfFriends  
@@ -35,6 +36,8 @@ Settings.Audio.NoiseSupression
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
+Inspector.Material.VariantInfo  
+Inspector.Material.WaitingForApply  
 Inspector.Audio.DenoiseRNNoise  
 Inspector.Audio.ExtractSides  
 Inspector.AudioStream.BufferState  

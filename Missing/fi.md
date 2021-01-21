@@ -9,6 +9,7 @@ General.Creating
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
+Interaction.CopyLink  
 Dash.Screens.Desktop  
 World.Error.OnlyContactsOfContacts  
 World.Detail.Users.Count  
@@ -495,6 +496,8 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.Material.VariantInfo  
+Inspector.Material.WaitingForApply  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  

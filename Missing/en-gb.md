@@ -62,6 +62,7 @@ Interaction.EquipAvatar
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
+Interaction.CopyLink  
 Dash.Screens.Home  
 Dash.Screens.Worlds  
 Dash.Screens.Contacts  
@@ -875,6 +876,8 @@ Inspector.Texture.MakeSquare
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
+Inspector.Material.VariantInfo  
+Inspector.Material.WaitingForApply  
 Inspector.Audio.BakeAudio  
 Inspector.Audio.FormatInfo  
 Inspector.Audio.Duration  
