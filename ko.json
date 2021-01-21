@@ -136,7 +136,7 @@
 		"World.Actions.Focus": "이동",
 		"World.Actions.Close": "월드 닫기",
 		"World.Actions.Leave": "퇴장",
-		"World.Actions.Save": "변경점 저장",
+		"World.Actions.Save": "저장",
 		"World.Actions.SaveAs": "새 이름으로 저장",
 		"World.Actions.SaveCopy": "복사본 저장...",
 		"World.Actions.SaveHere": "여기에 저장",
@@ -146,9 +146,9 @@
 		"World.Actions.Clone": "월드 복제",
 		"World.Actions.Delete": "월드 삭제",
 		"World.Actions.ConfirmDelete": "삭제 승인",
-		"World.Actions.ReallyConfirmDelete": "완전히 삭제 (되돌릴 수 없습니다)",
+		"World.Actions.ReallyConfirmDelete": "완전히 삭제 (복원 불가)",
 		"World.Actions.Overwrite": "{name}으로 덮어 쓰기",
-		"World.Actions.ConfirmOverwrite": "덮어 쓰기 (되돌릴 수 없습니다)",
+		"World.Actions.ConfirmOverwrite": "덮어 쓰기 (복원 불가)",
 		"World.Actions.Overwriting": "덮어 쓰는 중",
 
 		"World.Actions.ClosePrompt": "월드를 닫을까요?",
@@ -157,7 +157,7 @@
 		"World.Actions.LeaveConfirm": "퇴장",
 		"World.Actions.CannotClose": "(월드를 닫을 수 없습니다)",
 		"World.Actions.GuestWarning": "",
-		"World.Actions.HostingWarning": "당신이 호스트입니다. 다른 접속중인 사용자의 연결이 끊어집니다.",
+		"World.Actions.HostingWarning": "당신이 월드 세션을 유지 중이므로, 퇴장시 월드에 있는 다른 사용자들 또한 자동으로 퇴장됩니다.",
 
 		"World.Actions.GetWorldOrb": "월드 오브 생성",
 		"World.Actions.CopyWorldURL": "월드 경로 복사",
@@ -172,7 +172,7 @@
 		"World.Indicator.Author": "작성자: {name}",
 		"World.Indicator.Host": "호스트: {name}",
 		"World.Indicator.Hosting": "호스팅",
-		"World.Indicator.Sessions": "{n,plural, one {# 세션} other {# 세션들}}",
+		"World.Indicator.Sessions": "{n,plural, other {# 세션}}",
 		"World.Indicator.Users": "사용자",
 		"World.Indicator.Users.None": "(활성화된 세션을 찾을 수 없습니다.)",
 		"World.Indicator.Description": "설명",
@@ -184,7 +184,7 @@
 		"World.Detail.DescriptionHeader": "설명: ",
 		"World.Detail.SessionInformationHeader": "세션정보",
 		"World.Detail.Uptime": "가동시간",
-		"World.Detail.AccessLevel": "가시성",
+		"World.Detail.AccessLevel": "참여 가능한 계정 유형",
 		"World.Detail.Users": "사용자",
 		"World.Detail.Users.Count": "{active}{away, select, 0 {} other { (+{away} away)}} out of {max}",
 
@@ -263,8 +263,8 @@
 		"Indicator.ServerStatus": "<color=#fff>서버상태:</color> {status, select, Good {좋음} Slow {느림} Down {다운} NoInternet {인터넷 연결 없음}} ({response_ms} ms)",
 
 		"Indicator.Sync.AllSynced": "모든 항목의 동기화가 완료되었습니다",
-		"Indicator.Sync.SyncingItems": "동기화 : {item_count,plural, one {# 항목} other {# 항목}} <nobr>({item_percent} %)",
-		"Indicator.Sync.UploadingVariants": "업로드 : {variant_count,plural, one {# 에셋(asset)} other {# 에셋(asset)}}",
+		"Indicator.Sync.SyncingItems": "동기화 : {item_count,plural, other {# 항목}} <nobr>({item_percent} %)",
+		"Indicator.Sync.UploadingVariants": "업로드 : {variant_count,plural, other {# 에셋(asset)}}",
 		"Indicator.Sync.SyncError": "동기화 오류가 발생하였습니다.<size=50%>자세한 내용은 로그를 확인하세요.</size>",
 		"Indicator.Sync.OutOfSpace": "저장소 공간이 부족합니다.<size=50%>동기화가 불가능합니다</size>",
 
@@ -575,6 +575,7 @@
 		"Importer.Model.Advanced.MaxTexSize": "최대 텍스쳐 크기",
 		"Importer.Model.Advanced.ImageFormat": "이미지 형식: ",
 		"Importer.Model.Advanced.Material": "머티리얼: ",
+		"Importer.Model.Advanced.PreferSpecular" : "스페큘러(Specular) 선호",
 		"Importer.Model.Advanced.AlignAxis": "축에 정렬: ",
 
 		"Importer.Model.Advanced.Normals": "노말(Normals) 계산",
@@ -735,6 +736,7 @@
 		"CameraControl.Settings.ShowFrustum": "투사 안내선 보이기",
 		"CameraControl.Settings.PhotoTimer": "촬영 타이머 활성화",
 		"CameraControl.Settings.ShowLiveBadge": "방송뱃지(LIVE) 보이기",
+		"CameraControl.Settings.AudioFromCameraViewpoint" : "카메라 뷰포트에서의 소리",
 
 		"CameraControl.OpenCloseUsers": "유저",
 		"CameraControl.CreateCameraAnchor": "촬영위치 생성",
@@ -998,6 +1000,7 @@
 		"Inspector.Audio.ToVorbis" : "OGG Vorbis로 변환",
 		"Inspector.Audio.ToFLAC" : "FLAC으로 변환",
 		"Inspector.Audio.DenoiseRNNoise" : "디노이즈 (RNNoise, 48 kHz의 음성에 최적화)",
+ 		"Inspector.Audio.ExtractSides" : "사이드(Sides) 추출 (스테레오 트랙의 음성 제거 가능)",
 
 		"Inspector.DynamicBoneChain.SetupFromChildren" : "자식으로부터 설정",
 		"Inspector.DynamicBoneChain.SetupFromChildrenAll" : "자식으로부터 설정(모두)",
