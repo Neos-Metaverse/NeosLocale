@@ -603,6 +603,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "最大紋理大小",
         "Importer.Model.Advanced.ImageFormat" : "圖片格式: ",
         "Importer.Model.Advanced.Material" : "材質: ",
+        "Importer.Model.Advanced.PreferSpecular" : "首選鏡面",
         "Importer.Model.Advanced.AlignAxis" : "對齊軸: ",
 
         "Importer.Model.Advanced.Normals" : "計算法線",
@@ -763,6 +764,7 @@
         "CameraControl.Settings.ShowFrustum" : "顯示平截頭體",
         "CameraControl.Settings.PhotoTimer" : "拍照計時器",
         "CameraControl.Settings.ShowLiveBadge" : "顯示現場徽章",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "相機視角的音頻",
 
         "CameraControl.OpenCloseUsers" : "用戶",
         "CameraControl.CreateCameraAnchor" : "創建相機錨",
@@ -1040,6 +1042,7 @@
         "Inspector.Audio.ToVorbis" : "轉換為OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "轉換為FLAC",
         "Inspector.Audio.DenoiseRNNoise" : "降噪（RNNoise，針對48 kHz語音進行了優化）",
+        "Inspector.Audio.ExtractSides" : "提取側面（可以刪除立體聲軌道上的人聲）",
 
         "Inspector.AudioStream.BufferState" : "可用樣本: {samples}, 丟失: {missed}, 長度: {length}, 全局索引: {index}",
         "Inspector.AudioStream.EncodeState" : "可編碼: {samples}, 幀大小: {frame} (最大值: {max_frame}), 採樣率: {rate}",

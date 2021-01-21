@@ -603,6 +603,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "最大テクスチャサイズ",
         "Importer.Model.Advanced.ImageFormat" : "画像形式: ",
         "Importer.Model.Advanced.Material" : "マテリアル: ",
+        "Importer.Model.Advanced.PreferSpecular" : "鏡面反射(スペキュラー)を優先",
         "Importer.Model.Advanced.AlignAxis" : "軸を揃える: ",
 
         "Importer.Model.Advanced.Normals" : "法線(ノーマル)を計算",
@@ -763,6 +764,7 @@
         "CameraControl.Settings.ShowFrustum" : "画角の錐台を表示",
         "CameraControl.Settings.PhotoTimer" : "セルフタイマー",
         "CameraControl.Settings.ShowLiveBadge" : "Liveバッジを表示",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "カメラビューからのオーディオ",
 
         "CameraControl.OpenCloseUsers" : "ユーザー",
         "CameraControl.CreateCameraAnchor" : "カメラアンカー配置",
@@ -1040,6 +1042,7 @@
         "Inspector.Audio.ToVorbis" : "OGG Vorbisに変換",
         "Inspector.Audio.ToFLAC" : "FLACに変換",
         "Inspector.Audio.DenoiseRNNoise" : "ノイズ除去（RNNoise、48 kHzの音声用に最適化）",
+        "Inspector.Audio.ExtractSides" : "サイドの抽出（ステレオトラックのボーカルを削除できます）",
 
         "Inspector.AudioStream.BufferState" : "使用可能なサンプル: {samples}, 欠落: {missed}, 長さ: {length}, グローバルインデックス: {index}",
         "Inspector.AudioStream.EncodeState" : "エンコード可能なサンプル: {samples}, フレームサイズ: {frame} (最大: {max_frame}), サンプルレート: {rate}",
@@ -1198,7 +1201,7 @@
         "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>ホームスクリーン</b></color>には、多くの機能を備えたfacetが含まれています。これらには、アバタークリエイター、全身キャリブレーター、カメラ、新しいワールドの作成などがあります。",
         "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>フレンド</b></color>の一覧はダッシュメニューにあります。メッセージ、音声メッセージ、またはオブジェクトを右下のチャットボックスからフレンドに送信できます。左上隅にある検索バーでフレンドを追加できます。",
         "Tutorial.Intro.FilesDescription" : "ファイル、3Dモデル、画像、オーディオ、ビデオ、またはフォントを直接Neosに<color=#ffdd77><b>インポート</b></color>できます！ファイルをNeosウィンドウに<color=#77ddff><b>ドラッグアンドドロップ</b></color>するか、<color=#ffdd77><b>ファイルブラウザ</b></color>からファイルを検索します。",
-        "Tutorial.Intro.SessionTitle" : "Session Settings",
+        "Tutorial.Intro.SessionTitle" : "セッション設定",
         "Tutorial.Intro.SessionDescription" : "セッション設定、権限レベル、およびワールド内の他のユーザーを扱う設定は、<color=#ffdd77><b>セッション</b></color>パネルにあります。",
         "Tutorial.Intro.SettingsDescription" : "身長、音量、快適さの設定、言語の選択などは、<color=#ffdd77><b>設定</b></color>タブで調整できます。",
         "Tutorial.Intro.WorldsTitle" : "ワールドメニュー",
