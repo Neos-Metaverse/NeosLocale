@@ -101,7 +101,7 @@
 		"World.Connection.SyncingInitialState": "동기화가 진행중입니다.",
 
 		"World.Error.AccessDenied": "접근이 거부되었습니다.",
-		"World.Error.SecurityViolation": "보안사항의 위반이 발생하였습니다.",
+		"World.Error.SecurityViolation": "보안 위반이 발생하였습니다.",
 		"World.Error.OnlyRegisteredUsers": "Neos 가입자만 참여할 수 있습니다.",
 		"World.Error.OnlyContacts": "방장의 친구만 참여할 수 있습니다.",
 		"World.Error.Private": "초대를 통해서만 참여할 수 있습니다.",
@@ -1128,7 +1128,7 @@
 		"Tutorial.Welcome.SettingsPrimaryLeftDescription": "<b>왼쪽:</b> 회전, <b>오른쪽:</b> 이동",
 		"Tutorial.Welcome.SettingsPrimaryRight": "오른쪽",
 		"Tutorial.Welcome.SettingsPrimaryRightDescription": "<b>왼쪽:</b> 이동, <b>오른쪽:</b> 회전",
-		"Tutorial.Welcome.SettingsHeight": "사용자 키를 입력",
+		"Tutorial.Welcome.SettingsHeight": "사용자의 키를 입력",
 		"Tutorial.Welcome.SettingsHeightExamples": "예제: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 		"Tutorial.Welcome.StartTutorialHeader": "튜토리얼(자습서)을 진행합니다.",
 		"Tutorial.Welcome.StartTutorialDescription": "기본 튜토리얼 월드로 이동합니다. 공개 월드를 선택하여 다른 사람의 도움을 받거나, 비공개로 스스로 배울 수 도 있습니다.",
@@ -1250,6 +1250,10 @@
 		"Desktop.Opacity" : "불투명도: {n,number,percent}",
 		"Desktop.LegacyInputMode.On" : "물리적 입력모드 켜기",
 		"Desktop.LegacyInputMode.Off" : "물리적 입력모드 끄기",
+		
+		"Interaction.CopyLink" : "링크 복사",
+		"Inspector.Material.VariantInfo" : "변수정보: {variantID} (Raw: {rawVariantID})",
+		"Inspector.Material.WaitingForApply" : "적용 대기중: {waiting}",
 		
 		"Dummy": "더미"
 	}
