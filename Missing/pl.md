@@ -12,6 +12,9 @@ Inspector.Material.VariantInfo
 Inspector.Material.WaitingForApply  
 Inspector.Audio.DenoiseRNNoise  
 Inspector.Audio.ExtractSides  
+Inspector.Rig.CleanupBoneColliders  
+Inspector.Rig.GenerateDebugVisuals  
+Inspector.Rig.ClearDebugVisuals  
 Desktop.LegacyInputMode.On  
 Desktop.LegacyInputMode.Off  
 Desktop.Brightness  

@@ -43,6 +43,9 @@ Inspector.Audio.ExtractSides
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
+Inspector.Rig.CleanupBoneColliders  
+Inspector.Rig.GenerateDebugVisuals  
+Inspector.Rig.ClearDebugVisuals  
 Wizard.AssetOptimization.CleanupUnusedAssets  
 Wizard.LightSources.Title  
 Wizard.LightSources.Header  

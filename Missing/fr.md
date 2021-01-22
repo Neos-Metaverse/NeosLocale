@@ -8,4 +8,7 @@ CameraControl.Settings.AudioFromCameraViewpoint
 Inspector.Material.VariantInfo  
 Inspector.Material.WaitingForApply  
 Inspector.Audio.ExtractSides  
+Inspector.Rig.CleanupBoneColliders  
+Inspector.Rig.GenerateDebugVisuals  
+Inspector.Rig.ClearDebugVisuals  
 

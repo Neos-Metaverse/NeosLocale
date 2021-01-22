@@ -1061,6 +1061,10 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Add fixed colliders from hierarchy (using object root)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Always grab last bone",
 
+        "Inspector.Rig.CleanupBoneColliders" : "Cleanup bone colliders",
+        "Inspector.Rig.GenerateDebugVisuals" : "Generate debug visuals",
+        "Inspector.Rig.ClearDebugVisuals" : "Clear debug visuals",
+
         "Wizard.General.ProcessRoot" : "Process Root:",
         "Wizard.General.Result" : "Result:",
         "Wizard.General.ErrorNoRoot" : "No Root Selected",

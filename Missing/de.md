@@ -22,6 +22,9 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.CollidersGrabbingHeader  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+Inspector.Rig.CleanupBoneColliders  
+Inspector.Rig.GenerateDebugVisuals  
+Inspector.Rig.ClearDebugVisuals  
 Desktop.OpenKeyboard  
 Desktop.FollowCursor.On  
 Desktop.FollowCursor.Off  

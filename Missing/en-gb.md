@@ -908,6 +908,9 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.CollidersGrabbingHeader  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+Inspector.Rig.CleanupBoneColliders  
+Inspector.Rig.GenerateDebugVisuals  
+Inspector.Rig.ClearDebugVisuals  
 Wizard.General.ProcessRoot  
 Wizard.General.Result  
 Wizard.General.ErrorNoRoot  
