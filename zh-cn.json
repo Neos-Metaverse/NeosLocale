@@ -71,6 +71,7 @@
         "Interaction.SaveAsScreenshot" : "另存为屏幕截图",
         "Interaction.ImportFile" : "导入文件",
         "Interaction.ExportFile" : "汇出档案",
+        "Interaction.CopyLink" : "复制链接",
 
         "Dash.Screens.Home" : "家",
         "Dash.Screens.Worlds" : "世界",
@@ -879,9 +880,9 @@
         "Settings.Audio.SelectInputDevice" : "选择音频输入设备",
         "Settings.Audio.TestInput" : "测试您的音频输入:",
         "Settings.Audio.TestDescription" : "我们将向您播放来自所选音频设备的声音，以便您确认它是正确的。",
-        "Settings.Audio.StartTest" : "检查麦克风",
+        "Settings.Audio.StartTest" : "听设备\n<size=50％>(检查麦克风/音频输入)</size>",
         "Settings.Audio.StopTest" : "停止测试",
-        "Settings.Audio.Monitoring" : "麦克风监听:",
+        "Settings.Audio.Monitoring" : "音频输入监控:",
 
         "Settings.Locale.ChangeLanguage" : "改变语言",
         "Settings.Locale.SelectLanguageHeader" : "选择你的语言:",
@@ -989,7 +990,7 @@
 
         "Inspector.Texture.Size" : "尺寸: {width} x {height}",
         "Inspector.Texture.Format" : "格式: {format}, 存储器: <nobr>{memory}</nobr>",
-        "Inspector.Texture.Variant" : "变体ID: {variant}",
+        "Inspector.Texture.Variant" : "变种ID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "倒置 RGB",
         "Inspector.Texture.InvertR" : "倒置 R",
@@ -1021,6 +1022,9 @@
 
         "Inspector.Texture.InvalidFloats" : "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata" : "诊断：生成位图元数据",
+
+        "Inspector.Material.VariantInfo" : "变种: {variantID} (Raw: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "等待申请: {waiting}",
 
         "Inspector.Audio.BakeAudio" : "烘焙音频剪辑",
         "Inspector.Audio.FormatInfo" : "采样率: {rate} Hz, 频道: {channels} ({channel_count})",
