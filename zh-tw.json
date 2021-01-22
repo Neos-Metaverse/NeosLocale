@@ -1024,7 +1024,7 @@
         "Inspector.Texture.GenerateMetadata" : "診斷：生成位圖元數據",
 
         "Inspector.Material.VariantInfo" : "變種ID: {variantID} (Raw變種ID: {rawVariantID})",
-        "Inspector.Material.WaitingForApply" : "等待申請: {waiting}",
+        "Inspector.Material.WaitingForApply" : "應用變種(WaitingForApply): {waiting,select,True{等候} False{已應用}}",
 
         "Inspector.Audio.BakeAudio" : "烘焙音頻剪輯",
         "Inspector.Audio.FormatInfo" : "採樣率: {rate} Hz, 頻道: {channels} ({channel_count})",

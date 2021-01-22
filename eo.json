@@ -1024,7 +1024,7 @@
         "Inspector.Texture.GenerateMetadata" : "Diagnozo: Generi Bitmapajn Metadatenojn",
 
         "Inspector.Material.VariantInfo" : "VariantaID: {variantID} (RawVariantaID: {rawVariantID})",
-        "Inspector.Material.WaitingForApply" : "Atendante apliki: {waiting}",
+        "Inspector.Material.WaitingForApply" : "apliki varianton(WaitingForApply): {waiting,select,True{Atendante} False{jam kandidatiĝis}}",
 
         "Inspector.Audio.BakeAudio" : "Baku Aŭdion",
         "Inspector.Audio.FormatInfo" : "Prova Specifo: {rate} Hz, Kanaloj: {channels} ({channel_count})",

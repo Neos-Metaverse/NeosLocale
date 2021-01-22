@@ -1024,7 +1024,7 @@
         "Inspector.Texture.GenerateMetadata" : "診断：ビットマップメタデータを生成します",
 
         "Inspector.Material.VariantInfo" : "バリアントID: {variantID} (RawバリアントID: {rawVariantID})",
-        "Inspector.Material.WaitingForApply" : "適用を待っています: {waiting}",
+        "Inspector.Material.WaitingForApply" : "バリアントの適用(WaitingForApply): {waiting,select,True{待機中です} False{適用済みです}}",
 
         "Inspector.Audio.BakeAudio" : "オーディオクリップをベイク",
         "Inspector.Audio.FormatInfo" : "サンプルレート: {rate} Hz, チャンネル: {channels} ({channel_count})",
