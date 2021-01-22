@@ -1023,7 +1023,7 @@
         "Inspector.Texture.InvalidFloats" : "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata" : "诊断：生成位图元数据",
 
-        "Inspector.Material.VariantInfo" : "变种: {variantID} (Raw: {rawVariantID})",
+        "Inspector.Material.VariantInfo" : "变种ID: {variantID} (Raw变种ID: {rawVariantID})",
         "Inspector.Material.WaitingForApply" : "等待申请: {waiting}",
 
         "Inspector.Audio.BakeAudio" : "烘焙音频剪辑",

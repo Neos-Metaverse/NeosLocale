@@ -1023,7 +1023,7 @@
         "Inspector.Texture.InvalidFloats" : "Diagnozo: Nevalidaj flosiloj",
         "Inspector.Texture.GenerateMetadata" : "Diagnozo: Generi Bitmapajn Metadatenojn",
 
-        "Inspector.Material.VariantInfo" : "Variant: {variantID} (Raw: {rawVariantID})",
+        "Inspector.Material.VariantInfo" : "VariantaID: {variantID} (RawVariantaID: {rawVariantID})",
         "Inspector.Material.WaitingForApply" : "Atendante apliki: {waiting}",
 
         "Inspector.Audio.BakeAudio" : "Baku Aŭdion",

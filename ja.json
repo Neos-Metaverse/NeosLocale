@@ -879,8 +879,8 @@
         "Settings.Audio.InputDevice" : "音声入力デバイス:",
         "Settings.Audio.SelectInputDevice" : "音声入力デバイスを選択",
         "Settings.Audio.TestInput" : "音声入力デバイスのテスト:",
-        "Settings.Audio.TestDescription" : "選択したオーディオデバイスからのサウンドが再生されるので、正しいことを確認できます。",
-        "Settings.Audio.StartTest" : "テスト開始\n<size=50%>(マイク/オーディオ入力を確認してください)</size>",
+        "Settings.Audio.TestDescription" : "選択したオーディオデバイスからのサウンドが再生され、入力した音声を確認できます。",
+        "Settings.Audio.StartTest" : "入力した音声を聴く\n<size=50%>(マイク/オーディオ入力を確認してください)</size>",
         "Settings.Audio.StopTest" : "テスト終了",
         "Settings.Audio.Monitoring" : "音声入力のモニタリング:",
 
@@ -1023,7 +1023,7 @@
         "Inspector.Texture.InvalidFloats" : "診断：フロートが無効です",
         "Inspector.Texture.GenerateMetadata" : "診断：ビットマップメタデータを生成します",
 
-        "Inspector.Material.VariantInfo" : "バリアント: {variantID} (Raw: {rawVariantID})",
+        "Inspector.Material.VariantInfo" : "バリアントID: {variantID} (RawバリアントID: {rawVariantID})",
         "Inspector.Material.WaitingForApply" : "適用を待っています: {waiting}",
 
         "Inspector.Audio.BakeAudio" : "オーディオクリップをベイク",
