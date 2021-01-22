@@ -71,6 +71,7 @@
         "Interaction.SaveAsScreenshot" : "スクリーンショットとして保存",
         "Interaction.ImportFile" : "インポート",
         "Interaction.ExportFile" : "エクスポート",
+        "Interaction.CopyLink" : "リンクをコピー",
 
         "Dash.Screens.Home" : "ホーム",
         "Dash.Screens.Worlds" : "ワールド",
@@ -878,10 +879,10 @@
         "Settings.Audio.InputDevice" : "音声入力デバイス:",
         "Settings.Audio.SelectInputDevice" : "音声入力デバイスを選択",
         "Settings.Audio.TestInput" : "音声入力デバイスのテスト:",
-        "Settings.Audio.TestDescription" : "選択したオーディオデバイスからのサウンドが再生されるので、正しいことを確認できます。",
-        "Settings.Audio.StartTest" : "マイクのテスト",
+        "Settings.Audio.TestDescription" : "選択したオーディオデバイスからのサウンドが再生され、入力した音声を確認できます。",
+        "Settings.Audio.StartTest" : "入力した音声を聴く\n<size=50%>(マイク/オーディオ入力を確認してください)</size>",
         "Settings.Audio.StopTest" : "テスト終了",
-        "Settings.Audio.Monitoring" : "マイクのモニタリング:",
+        "Settings.Audio.Monitoring" : "音声入力のモニタリング:",
 
         "Settings.Locale.ChangeLanguage" : "言語設定",
         "Settings.Locale.SelectLanguageHeader" : "言語を選択:",
@@ -1021,6 +1022,9 @@
 
         "Inspector.Texture.InvalidFloats" : "診断：フロートが無効です",
         "Inspector.Texture.GenerateMetadata" : "診断：ビットマップメタデータを生成します",
+
+        "Inspector.Material.VariantInfo" : "バリアントID: {variantID} (RawバリアントID: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "バリアントの適用(WaitingForApply): {waiting,select,True{待機中です} False{適用済みです}}",
 
         "Inspector.Audio.BakeAudio" : "オーディオクリップをベイク",
         "Inspector.Audio.FormatInfo" : "サンプルレート: {rate} Hz, チャンネル: {channels} ({channel_count})",

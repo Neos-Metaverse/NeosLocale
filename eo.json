@@ -33,7 +33,7 @@
         "Locomotion.Noclip.Description": "Simpla flug-reĝimo simpla, ideala por redaktado.",
         "Locomotion.Teleport.Name": "Teletransporti",
         "Locomotion.Teleport.Description": "Uzas balistikan vojan teletransportadon, por komforta movado.",
-        "Locomotion.Fly.Name": "Flugu",
+        "Locomotion.Fly.Name": "Flugi",
         "Locomotion.Fly.Description": "Fizika Muŝa Reĝimo",
         "Locomotion.WalkRun.Name": "Piediro / Kuro",
         "Locomotion.WalkRun.Description": "Fizika marŝado, kurado kaj saltado.",
@@ -68,9 +68,10 @@
 
         "Interaction.EquipAvatar" : "Ekipi Avataron",
 
-        "Interaction.SaveAsScreenshot" : "Konservu kiel ekrankopion",
+        "Interaction.SaveAsScreenshot" : "Konservi kiel ekrankopion",
         "Interaction.ImportFile" : "Importi dosieron",
         "Interaction.ExportFile" : "Eksporti dosieron",
+        "Interaction.CopyLink" : "Kopii Ligilon",
 
         "Dash.Screens.Home": "Hejmo",
         "Dash.Screens.Worlds": "Mondoj",
@@ -879,9 +880,9 @@
         "Settings.Audio.SelectInputDevice" : "Elektu Aŭd-Eniga Aparato",
         "Settings.Audio.TestInput" : "Provo Aŭd-Eniga Aparato:",
         "Settings.Audio.TestDescription" : "Ni ludos la sonon de la elektita sonsistemo kun vi, por ke vi kontrolu, ke ĝi estas ĝusta.",
-        "Settings.Audio.StartTest" : "Kontrolu Mikrofonon",
+        "Settings.Audio.StartTest" : "Aŭskultu aparaton\n<size=50%>(kontrolu mikrofonon/sonon)</size>",
         "Settings.Audio.StopTest" : "Ĉesu Provi",
-        "Settings.Audio.Monitoring" : "Mikrofona Monitoreo:",
+        "Settings.Audio.Monitoring" : "Aŭdiga Eniga Monitoraĵo:",
 
         "Settings.Locale.ChangeLanguage" : "Ŝanĝi Lingvon",
         "Settings.Locale.SelectLanguageHeader" : "Elektu vian lingvon:",
@@ -1021,6 +1022,9 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnozo: Nevalidaj flosiloj",
         "Inspector.Texture.GenerateMetadata" : "Diagnozo: Generi Bitmapajn Metadatenojn",
+
+        "Inspector.Material.VariantInfo" : "VariantaID: {variantID} (RawVariantaID: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "apliki varianton(WaitingForApply): {waiting,select,True{Atendante} False{jam kandidatiĝis}}",
 
         "Inspector.Audio.BakeAudio" : "Baku Aŭdion",
         "Inspector.Audio.FormatInfo" : "Prova Specifo: {rate} Hz, Kanaloj: {channels} ({channel_count})",

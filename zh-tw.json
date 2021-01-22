@@ -71,6 +71,7 @@
         "Interaction.SaveAsScreenshot" : "另存為屏幕截圖",
         "Interaction.ImportFile" : "導入文件",
         "Interaction.ExportFile" : "匯出檔案",
+        "Interaction.CopyLink" : "複製鏈接",
 
         "Dash.Screens.Home" : "家",
         "Dash.Screens.Worlds" : "世界",
@@ -879,9 +880,9 @@
         "Settings.Audio.SelectInputDevice" : "選擇音頻輸入設備",
         "Settings.Audio.TestInput" : "測試您的音頻輸入:",
         "Settings.Audio.TestDescription" : "我們將向您播放來自所選音頻設備的聲音，以便您確認它是正確的。",
-        "Settings.Audio.StartTest" : "檢查麥克風",
+        "Settings.Audio.StartTest" : "聽設備\n<size=50％>(檢查麥克風/音頻輸入)</size>",
         "Settings.Audio.StopTest" : "停止測試",
-        "Settings.Audio.Monitoring" : "麥克風監聽:",
+        "Settings.Audio.Monitoring" : "音頻輸入監控:",
 
         "Settings.Locale.ChangeLanguage" : "改變語言",
         "Settings.Locale.SelectLanguageHeader" : "選擇你的語言:",
@@ -989,7 +990,7 @@
 
         "Inspector.Texture.Size" : "尺寸: {width} x {height}",
         "Inspector.Texture.Format" : "格式: {format}, 存儲器: <nobr>{memory}</nobr>",
-        "Inspector.Texture.Variant" : "變體ID: {variant}",
+        "Inspector.Texture.Variant" : "變種ID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "倒置 RGB",
         "Inspector.Texture.InvertR" : "倒置 R",
@@ -1021,6 +1022,9 @@
 
         "Inspector.Texture.InvalidFloats" : "診斷：無效的浮點數",
         "Inspector.Texture.GenerateMetadata" : "診斷：生成位圖元數據",
+
+        "Inspector.Material.VariantInfo" : "變種ID: {variantID} (Raw變種ID: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "應用變種(WaitingForApply): {waiting,select,True{等候} False{已應用}}",
 
         "Inspector.Audio.BakeAudio" : "烘焙音頻剪輯",
         "Inspector.Audio.FormatInfo" : "採樣率: {rate} Hz, 頻道: {channels} ({channel_count})",
