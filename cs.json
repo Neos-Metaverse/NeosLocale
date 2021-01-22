@@ -71,6 +71,7 @@
         "Interaction.SaveAsScreenshot" : "Uložit jako Screenshot",
         "Interaction.ImportFile" : "Importovat Soubor",
         "Interaction.ExportFile" : "Exportovat Soubor",
+        "Interaction.CopyLink" : "Kopírovat odkaz",
 
         "Dash.Screens.Home" : "Domů",
         "Dash.Screens.Worlds" : "Světy",
@@ -1022,6 +1023,9 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostika: Nesprávné floating point hodnoty",
         "Inspector.Texture.GenerateMetadata" : "Diagnostika: Vygenerovat metadata",
 
+        "Inspector.Material.VariantInfo" : "Varianta: {variantID} (Raw: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "Čekám na aplikaci: {waiting}",
+        
         "Inspector.Audio.BakeAudio" : "Zapéct Audio Klip",
         "Inspector.Audio.FormatInfo" : "Vzorkovací Frekvence: {rate} Hz, Kanálů: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Délka: {duration}, Počet vzorků: {samples}",
