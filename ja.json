@@ -634,10 +634,10 @@
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "マテリアルオーブを生成",
         "Importer.Model.Advanced.ImagesByName" : "名前で画像をインポート",
 
-        "Importer.Model.Advanced.Grabbable" : "Grabbableにする",
-        "Importer.Model.Advanced.Scalable" : "Scalableにする",
+        "Importer.Model.Advanced.Grabbable" : "グラブ可能にする",
+        "Importer.Model.Advanced.Scalable" : "スケール可能にする",
         "Importer.Model.Advanced.PositionAtOrigin" : "原点位置",
-        "Importer.Model.Advanced.AssetsOnObject" : "Assetsをオブジェクト内に入れる",
+        "Importer.Model.Advanced.AssetsOnObject" : "アセットをオブジェクト内に入れる",
 
         "Importer.Video.Title" : "動画インポーター",
         "Importer.Video.Prompt" : "インポートしようとしているものはなんですか?",
@@ -727,11 +727,11 @@
         "FullBody.CalibrationRedoInstructions" : "キャリブレーションができていない場合<br>や、別のアバターのキャリブレーション<br>を行いたい場合は、さらに調整できます<br>。いつでもこのキャリブレーターを開い<br>て再調整できます。トラッカーだけを変<br>更した場合は、アバターキャリブレーシ<br>ョンする必要はありません。",
         "FullBody.ReturnToTrackerCalibration" : "トラッカーキャリブレーションに戻る",
 
-        "FullBody.Hips" : "Hips",
-        "FullBody.Feet" : "Feet",
-        "FullBody.Chest" : "Chest",
-        "FullBody.Elbows" : "Elbows",
-        "FullBody.Knees" : "Knees",
+        "FullBody.Hips" : "腰(Hips)",
+        "FullBody.Feet" : "足(Feet)",
+        "FullBody.Chest" : "胸(Chest)",
+        "FullBody.Elbows" : "肘(Elbows)",
+        "FullBody.Knees" : "膝(Knees)",
 
         "FullBody.TrackerMapped" : "トラッキングされています",
         "FullBody.NotTracking" : "トラッキングされていません...",
@@ -980,7 +980,7 @@
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "リグ診断情報取得",
         "Inspector.BipedRig.GenerateDebugVisuals" : "デバッグビジュアル生成",
-        "Inspector.BipedRig.ClearDebugVisuals" : "デバックビジュアル除去",
+        "Inspector.BipedRig.ClearDebugVisuals" : "デバッグビジュアル除去",
         "Inspector.BipedRig.DetectHands" : "手のリグ検知",
         "Inspector.BipedRig.DetectLeftHand" : "左手のリグ検知",
         "Inspector.BipedRig.DetectRightHand" : "右手のリグ検知",
@@ -1060,6 +1060,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- コライダー＆グラッビング -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "（オブジェクトルートを使用して）ヒエラルキーから固定コライダーを追加します",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "常に最後のボーンを掴めるようにします",
+
+        "Inspector.Rig.CleanupBoneColliders" : "ボーンコライダーをクリーンアップする",
+        "Inspector.Rig.GenerateDebugVisuals" : "デバッグビジュアル生成",
+        "Inspector.Rig.ClearDebugVisuals" : "デバッグビジュアル除去",
 
         "Wizard.General.ProcessRoot" : "プロセスルート:",
         "Wizard.General.Result" : "結果:",
@@ -1164,11 +1168,11 @@
         "Tutorial.Intro.WelcomeTitle" : "Neosにようこそ",
         "Tutorial.Intro.WelcomeDescription" : "メタバースを体験するためのガイドを行います。",
 
-        "Tutorial.Intro.GrabbingTitle" : "グラブ",
+        "Tutorial.Intro.GrabbingTitle" : "グラブ(掴む)",
         "Tutorial.Intro.GrabbingVR" : "オブジェクトを持つには<color=#77ff77><b>グリップボタン</b></color>で<color=#ffdd77><b>グラブ</b></color>します。<br>離れた物もレーザーを使用してグラブできます。",
         "Tutorial.Intro.GrabbingScreen" : "オブジェクトを持つには<color=#77ff77><b>右マウスボタン</b></color>で<color=#ffdd77><b>グラブ</b></color>します。",
 
-        "Tutorial.Intro.ScalingTitle" : "スケール",
+        "Tutorial.Intro.ScalingTitle" : "スケール(拡大縮小)",
         "Tutorial.Intro.ScalingVR" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>するには、両手でグラブし<color=#77ddff><b>近づけたり遠ざけたり</b></color>します。また、レーザーでも同様に行えます。",
         "Tutorial.Intro.ScalingScreen" : "オブジェクトを<color=#ffdd77><b>スケール</b></color>するには、<color=#77ff77><b>右マウスボタン</b></color>でグラブし、<color=#77ff77><b>シフトキー(Shift)</b></color>を押しながら、<color=#77ff77><b>マウスホイール</b></color>を<color=#77ddff><b>スクロール</b></color>します。",
 
