@@ -1061,6 +1061,10 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "从层次结构添加固定对撞机（使用对象根）",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "总是抓last bone",
 
+        "Inspector.Rig.CleanupBoneColliders" : "清理骨对撞机",
+        "Inspector.Rig.GenerateDebugVisuals" : "生成调试视觉效果",
+        "Inspector.Rig.ClearDebugVisuals" : "清除调试视觉效果",
+
         "Wizard.General.ProcessRoot" : "进程根:",
         "Wizard.General.Result" : "结果:",
         "Wizard.General.ErrorNoRoot" : "未选择根",
