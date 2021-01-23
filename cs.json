@@ -1061,6 +1061,10 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Přidat pevné collidery z hierarchie (použitím rootu objektu)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Vždy uchopit poslední bone",
 
+        "Inspector.Rig.CleanupBoneColliders" : "Vyčistit bone collidery",
+        "Inspector.Rig.GenerateDebugVisuals" : "Generovat debug visuály",
+        "Inspector.Rig.ClearDebugVisuals" : "Vyčistit debug visuály",
+
         "Wizard.General.ProcessRoot" : "Zpracovat Root:",
         "Wizard.General.Result" : "Výsledek:",
         "Wizard.General.ErrorNoRoot" : "Nebyl vybrán žádný Root",
