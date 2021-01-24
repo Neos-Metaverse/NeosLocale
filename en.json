@@ -274,6 +274,15 @@
         "Tools.DepositNCR" : "Deposit NCR",
         "Tools.WithdrawNCR" : "Withdraw NCR",
         "Tools.Debug" : "Debug",
+        "Tools.StreamAudio" : "Stream Audio",
+
+        "Tools.StreamAudio.Start" : "Start Streaming",
+        "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "{username} Audio Stream",
+        "Tools.StreamAudio.Spatialized" : "Spatialized",
+        "Tools.StreamAudio.Broadcast" : "Broadcast",
+        "Tools.StreamAudio.PlayForOwner.Off" : "Play for owner: Off",
+        "Tools.StreamAudio.PlayForOwner.On" : "Play for owner: On",
 
         "Options.FreeformDash.On" : "Freeform Dash: On",
         "Options.FreeformDash.Off" : "Freeform Dash: Off",
@@ -344,6 +353,10 @@
         "Session.Permission.Host" : "Default Host:",
         "Session.Permission.PermissionOverrideCount" : "Permission Overrides: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Clear User Overrides",
+
+        "Permissions.NotAllowedToSpawn" : "You are not allowed to spawn things here",
+        "Permissions.NotAllowedToSave" : "You are not allowed to save items in this world.",
+        "Permissions.NotAllowedToSwapAvatar" : "You are not allowed to swap to custom avatar here.",
 
         "User.Actions.Silence" : "Silence",
         "User.Actions.Mute" : "Mute",
@@ -1051,6 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "Available samples: {samples}, Missed: {missed}, Length: {length}, Global Index: {index}",
         "Inspector.AudioStream.EncodeState" : "Available to encode: {samples}, Frame Size: {frame} (Max: {max_frame}), Sample Rate: {rate}",
         "Inspector.AudioStream.DecodeState" : "Total Packets: {total}, Total Lost Packets: {lost}, Packet Loss: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "Avg codec: {avgCodec}/s, Avg read: {avgRead}/s, Avg written: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Setup From Children",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Setup From Children (force all)",

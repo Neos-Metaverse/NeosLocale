@@ -243,6 +243,14 @@ Tools.CreateNewWorld
 Tools.DepositNCR  
 Tools.WithdrawNCR  
 Tools.Debug  
+Tools.StreamAudio  
+Tools.StreamAudio.Start  
+Tools.StreamAudio.Bitrate  
+Tools.StreamAudio.Title  
+Tools.StreamAudio.Spatialized  
+Tools.StreamAudio.Broadcast  
+Tools.StreamAudio.PlayForOwner.Off  
+Tools.StreamAudio.PlayForOwner.On  
 Options.FreeformDash.On  
 Options.FreeformDash.Off  
 Options.SeatedMode.On  
@@ -305,6 +313,9 @@ Session.Permission.Contact
 Session.Permission.Host  
 Session.Permission.PermissionOverrideCount  
 Session.Permission.ClearOverrides  
+Permissions.NotAllowedToSpawn  
+Permissions.NotAllowedToSave  
+Permissions.NotAllowedToSwapAvatar  
 User.Actions.Silence  
 User.Actions.Mute  
 User.Actions.Jump  
@@ -900,6 +911,7 @@ Inspector.Audio.ExtractSides
 Inspector.AudioStream.BufferState  
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
+Inspector.AudioStream.BufferStats  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
