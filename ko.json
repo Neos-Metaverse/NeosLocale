@@ -826,7 +826,7 @@
 		"Settings.LegacyGripEquip": "기존 더블 그립 장착 활성화",
 		"Settings.LegacyWorldSwitcher": "기존 월드 스위처 활성화",
 		"Settings.FetchIncompatibleSessions": "호환되지 않는 세션 보이기",
-		"Settings.AutosaveScreenshotPath" : "스크린샷 자동 저장 경로",
+		"Settings.AutosaveScreenshotPath" : "스크린샷 자동 저장 경로(=보관함)",
 
 		"Settings.LaserSmoothing.Header": "지시선 설정",
 		"Settings.LaserSmoothing.Speed": "커서 이동 속도",
@@ -1254,6 +1254,10 @@
 		"Interaction.CopyLink" : "링크 복사",
 		"Inspector.Material.VariantInfo" : "변수정보: {variantID} (Raw: {rawVariantID})",
 		"Inspector.Material.WaitingForApply" : "적용 대기중: {waiting}",
+		
+		"Inspector.Rig.CleanupBoneColliders" : "본(Bone) 콜라이더 삭제",
+        	"Inspector.Rig.GenerateDebugVisuals" : "디버그 시각화 생성",
+		"Inspector.Rig.ClearDebugVisuals" : "디버그 시각화 삭제",
 		
 		"Dummy": "더미"
 	}
