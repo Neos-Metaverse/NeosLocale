@@ -972,7 +972,7 @@
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Apartigi partoj de maŝo netuŝitaj de miksaĵformoj",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Nudigi Malplenajn nudigi malplenajn miksaĵformojn",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Finita! Senvestigita: {n,plural, one {# Miksaĵformo} other {#  Miksaĵformojn}}",
-        "Inspector.SkinnedMesh.StripEmptyBones" : "Nudigu Malplenajn ostojn",
+        "Inspector.SkinnedMesh.StripEmptyBones" : "Nudigi Malplenajn ostojn",
         "Inspector.SkinnedMesh.StripBonesResult" : "Finita! Senvestigita: {n,plural, one {# Osto} other {# Ostoj}}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Bildigu ostajn limigajn skatolojn",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Bildigu proksimumajn kunfanditajn ostajn sferajn limojn",
@@ -1061,6 +1061,10 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Aldoni fiksajn koliziantojn de hierarkio (uzante objektan radikon)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Ĉiam kaptu lastan oston",
 
+        "Inspector.Rig.CleanupBoneColliders" : "Purigi ostkolizioj",
+        "Inspector.Rig.GenerateDebugVisuals" : "Generi senararigajn bildojn",
+        "Inspector.Rig.ClearDebugVisuals" : "Klari vida elpurigado",
+
         "Wizard.General.ProcessRoot": "Procezo enradikiĝas:",
         "Wizard.General.Result": "Rezulto:",
         "Wizard.General.ErrorNoRoot": "Neniu Radiko Elektita",
@@ -1116,7 +1120,7 @@
         "Wizard.ReflectionProbes.BakeProbes": "Baki Sondojn",
         "Wizard.ReflectionProbes.Baking": "Bakado {index} de {count} ...",
         
-        "Desktop.OpenKeyboard" : "Malfermu Klavaron",
+        "Desktop.OpenKeyboard" : "Malfermi Klavaron",
         "Desktop.FollowCursor.On" : "Sekvu Kursoron: On",
         "Desktop.FollowCursor.Off" : "Sekvu Kursoron: Off",
         "Desktop.LegacyInputMode.On" : "Enigo de malnovaj funkcioj : On",
