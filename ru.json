@@ -71,6 +71,7 @@
         "Interaction.SaveAsScreenshot" : "Сохранить как скриншот",
         "Interaction.ImportFile" : "Импортировать файл",
         "Interaction.ExportFile" : "Экспортировать файл",
+        "Interaction.CopyLink" : "Копировать ссылку",
 
         "Dash.Screens.Home" : "Дом",
         "Dash.Screens.Worlds" : "Миры",
@@ -879,9 +880,9 @@
         "Settings.Audio.SelectInputDevice" : "Выберите устройство аудио захвата",
         "Settings.Audio.TestInput" : "Протестируйте ваш звук:",
         "Settings.Audio.TestDescription" : "Мы проиграем звук с выбранного устройства обратно к Вам чтобы проверить, что всё работает.",
-        "Settings.Audio.StartTest" : "Проверить микрофон",
+        "Settings.Audio.StartTest" : "Прослушать устройство\n<size=50%>(проверить микрофон / аудио вход)</size>",
         "Settings.Audio.StopTest" : "Остановить проверку",
-        "Settings.Audio.Monitoring" : "Монитор микрофона:",
+        "Settings.Audio.Monitoring" : "Монитор аудио входа:",
 
         "Settings.Locale.ChangeLanguage" : "Сменить язык",
         "Settings.Locale.SelectLanguageHeader" : "Выберите ваш язык:",
@@ -1022,6 +1023,9 @@
         "Inspector.Texture.InvalidFloats" : "Диагностика: Не действительные float числа",
         "Inspector.Texture.GenerateMetadata" : "Диагностика: Генерация Bitmap Метаданных",
 
+        "Inspector.Material.VariantInfo" : "Вариант: {variantID} (Raw: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "Ожидание применения: {waiting}",
+
         "Inspector.Audio.BakeAudio" : "Запечь аудио",
         "Inspector.Audio.FormatInfo" : "Частота дискретизации: {rate} Hz, Каналы: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Длительность: {duration}",
@@ -1056,6 +1060,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Коллайдеры & Захватывание -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Добавить фиксированные коллайдеры от иерархии (от корневого слота)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Всегда хватать последнюю кость",
+
+        "Inspector.Rig.CleanupBoneColliders" : "Очистить коллайдеры костей",
+        "Inspector.Rig.GenerateDebugVisuals" : "Генерировать отладочную визуализацию",
+        "Inspector.Rig.ClearDebugVisuals" : "Очистить отладочную визуализацию",
 
         "Wizard.General.ProcessRoot" : "Начиная с корня:",
         "Wizard.General.Result" : "Результат:",
