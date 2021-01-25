@@ -274,6 +274,15 @@
         "Tools.DepositNCR" : "NCR入金",
         "Tools.WithdrawNCR" : "NCR引き出し",
         "Tools.Debug" : "デバッグ",
+        "Tools.StreamAudio" : "オーディオ配信",
+
+        "Tools.StreamAudio.Start" : "配信開始",
+        "Tools.StreamAudio.Bitrate" : "ビットレート: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "{username} オーディオ配信",
+        "Tools.StreamAudio.Spatialized" : "立体化",
+        "Tools.StreamAudio.Broadcast" : "ブロードキャスト",
+        "Tools.StreamAudio.PlayForOwner.Off" : "配信者に再生: オフ",
+        "Tools.StreamAudio.PlayForOwner.On" : "配信者に再生: オン",
 
         "Options.FreeformDash.On" : "ダッシュメニューの傾き: On",
         "Options.FreeformDash.Off" : "ダッシュメニューの傾き: Off",
@@ -344,6 +353,10 @@
         "Session.Permission.Host" : "ホストの初期値:",
         "Session.Permission.PermissionOverrideCount" : "権限オーバーライド: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "ユーザーオーバーライドを消去",
+
+        "Permissions.NotAllowedToSpawn" : "ここでは物をスポーンすることは許可されていません。",
+        "Permissions.NotAllowedToSave" : "このワールドではアイテムのセーブは許可されていません。",
+        "Permissions.NotAllowedToSwapAvatar" : "ここではカスタムアバターの仕様は許可されていません。",
 
         "User.Actions.Silence" : "全体ミュート",
         "User.Actions.Mute" : "ミュート",
@@ -1051,6 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "使用可能なサンプル: {samples}, 欠落: {missed}, 長さ: {length}, グローバルインデックス: {index}",
         "Inspector.AudioStream.EncodeState" : "エンコード可能なサンプル: {samples}, フレームサイズ: {frame} (最大: {max_frame}), サンプルレート: {rate}",
         "Inspector.AudioStream.DecodeState" : "全パケット: {total}, 総損失パケット数: {lost}, パケット損失: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "平均コーデック: {avgCodec}/s, 平均読込み: {avgRead}/s, 平均書込み: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "子にしたものをセットアップします",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "子にしたものを“強制的にすべて”セットアップします",
