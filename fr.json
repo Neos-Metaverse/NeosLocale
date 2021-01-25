@@ -274,6 +274,15 @@
         "Tools.DepositNCR" : "Deposer des NCR",
         "Tools.WithdrawNCR" : "Retirer des NCR",
         "Tools.Debug" : "Déboguer",
+        "Tools.StreamAudio" : "Stream audio",
+
+        "Tools.StreamAudio.Start" : "Démarrer le streaming",
+        "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "Flux audio de {username}",
+        "Tools.StreamAudio.Spatialized" : "Spatialisé",
+        "Tools.StreamAudio.Broadcast" : "Broadcast",
+        "Tools.StreamAudio.PlayForOwner.Off" : "Jouer pour le propriétaire: Inactif",
+        "Tools.StreamAudio.PlayForOwner.On" : "Jouer pour le propriétaire: Actif",
 
         "Options.FreeformDash.On" : "Tableau de bord libre: Actif",
         "Options.FreeformDash.Off" : "Tableau de bord libre: Inactif",
@@ -344,6 +353,10 @@
         "Session.Permission.Host" : "Hôte, par défaut:",
         "Session.Permission.PermissionOverrideCount" : "Permissions spéciales: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Effacer les permissions spéciales",
+
+        "Permissions.NotAllowedToSpawn" : "Vous n'êtes pas autorisé à matérialiser des choses ici.",
+        "Permissions.NotAllowedToSave" : "Vous n'êtes pas autorisé à sauvegarder des objets dans ce monde.",
+        "Permissions.NotAllowedToSwapAvatar" : "Vous n'êtes pas autorisé à permuter vers un avatar personnalisé ici.",
 
         "User.Actions.Silence" : "Mettre en sourdine",
         "User.Actions.Mute" : "Sourdine",
@@ -1051,6 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "Échantillons disponibles: {samples}, Manqués: {missed}, Longueur: {length}, Index Global: {index}",
         "Inspector.AudioStream.EncodeState" : "Disponible à encoder: {samples}, Taille de la trame: {frame} (Max: {max_frame}), Fréquence d'échantillonnage: {rate}",
         "Inspector.AudioStream.DecodeState" : "Paquets total: {total}, Paquets total perdus: {lost},  Paquets perdus: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "Moyenne codec: {avgCodec}/s, Moyenne lecture: {avgRead}/s, Moyenne écriture: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Configurer depuis les enfants",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Configurer depuis les enfants (force tous)",
