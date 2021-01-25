@@ -1,7 +1,7 @@
 {
     "localeCode" : "et",
-    "authors" : ["pineappledreams (Erik Loide)"],
-    "messages" : 
+    "authors" : ["pineappledreams (Erik Loide)", "Meron (Merli L)"],
+    "messages" :
     {
         "General.OK" : "OK",
         "General.Cancel" : "Tühista",
@@ -14,10 +14,14 @@
         "General.FAILED" : "VIGA",
         "General.Reset" : "Lähtesta",
         "General.WorldOpenConfirm" : "Tõesti ava?",
+        "General.Save": "Salvesta",
+        "General.Saving": "Salvestan...",
         "General.Saved" : "Salvestatud!",
         "General.Done" : "Tehtud!",
         "General.CopiedToClipboard" : "Kopeeritud!",
         "General.CopiedToClipboardLong" : "Puhvrisse kopeeritud!",
+        "General.Create": "Loo uus",
+        "General.Creating": "Loomine...",
 
         "General.UI.SearchPrompt" : "Otsi...",
         "General.UI.SearchPromptLong" : "Trüki siia, et otsida...",
@@ -60,6 +64,7 @@
         "Dash.Screens.Worlds" : "Maailmad",
         "Dash.Screens.Contacts" : "Kontaktid",
         "Dash.Screens.Inventory" : "Varustus",
+        "Dash.Screens.Desktop": "Töölaud",
         "Dash.Screens.Session" : "Sessioon",
         "Dash.Screens.FileBrowser" : "<nobr>Failibrauser",
         "Dash.Screens.Settings" : "Sätted",
@@ -146,7 +151,7 @@
         "World.Actions.LeavePrompt" : "Lahku maailmast?",
         "World.Actions.CloseConfirm" : "Sulge",
         "World.Actions.LeaveConfirm" : "Lahku",
-        "World.Actions.CannotClose" : "(Ei saa sulgeda maailma)",
+        "World.Actions.CannotClose" : "(Ei saa maailma sulgeda)",
         "World.Actions.GuestWarning" : "",
         "World.Actions.HostingWarning" : "Sina oled selle maailma peremees. Teised kasutajad kaotavad ühenduse.",
 
@@ -249,6 +254,9 @@
         "Options.FreeformDash.Off" : "Vaba menüü: Väljas",
         "Options.SeatedMode.On" : "Istumisrežiim: Sees",
         "Options.SeatedMode.Off" : "Istumisrežiim: Väljas",
+        "Options.Nameplates.All": "Nimesilt: Kõigil nähtav",
+        "Options.Nameplates.NonContacts": "Nimesilt: Mitte-kontaktidel",
+        "Options.Nameplates.Hide": "Nimesilt: Peida kõigil",
 
         "Indicator.OnlineUsers" : "Ühendatud kasutajad: ~{num_total} ({num_registered})",
         "Indicator.ServerStatus" : "<color=#fff>Serveristaatus:</color> {status, select, Good {Hea} Slow {Halb} Down {Maas} NoInternet {Pole interneti}} ({response_ms} ms)",
@@ -295,15 +303,15 @@
         "Account.ErrorLoginError" : "Loginiviga:",
         "Account.RegistrationSuccess" : "OK! Email tõendamislingiga on saadetud teie emailile. Peale lingi klõpsamist saate loginida.",
 
-        "Profile.Status.Online" : "Onlain",
+        "Profile.Status.Online" : "Aktiivne",
         "Profile.Status.Away" : "Eemal",
         "Profile.Status.Busy" : "Hõivatud",
         "Profile.Status.Invisible" : "Nähtamatu",
-        "Profile.Status.Offline" : "Offlain",
+        "Profile.Status.Offline" : "Väljas",
 
         "Session.Tab.Settings" : "Sätted",
         "Session.Tab.Users" : "Kasutajad",
-        "Session.Tab.Permissions" : "Load",
+        "Session.Tab.Permissions" : "Load (Pääsud)",
 
         "Session.Permission.Anonymous" : "Vaikimisi anonüümne:",
         "Session.Permission.Vistor" : "Vaikimisi külaline:",
@@ -321,9 +329,9 @@
 
         "Contacts.Add" : "Lisa kontakt",
         "Contacts.Remove" : "Eemalda kontakt",
-        "Contacts.ConfirmRemove" : "Tõesti eemalda?",
-        "Contacts.AcceptRequest" : "Võta palve vastu",
-        "Contacts.IgnoreRequest" : "Ignoreeri palve",
+        "Contacts.ConfirmRemove" : "Kas tõesti eemaldada?",
+        "Contacts.AcceptRequest" : "Võta kontaktikutse vastu",
+        "Contacts.IgnoreRequest" : "Ignoreeri kontaktikutse",
         "Contacts.Invite" : "Kutsu siia",
         "Contacts.SendCredits" : "Saada krediiti",
         "Contacts.BanFromAllSessions" : "Bänni KÕIGI mu sessioonidest",
@@ -349,6 +357,7 @@
         "Notifications.TransferedCredits" : "Kanti üle {amount} {token}",
         "Notifications.ReceivedTip" : "Said tippi {amount} {token}",
         "Notifications.SentTip" : "Saatsid tippi {amount} {token}",
+        "Notifications.VoiceMessage": "Häälsõnum saadetud",
 
         "Undo.SetField" : "Säti väli {field_name} väärtus {value}",
         "Undo.SetReference" : "Säti viide {ref_name} väärtus {ref_target}",
@@ -361,9 +370,9 @@
         "Undo.Translate" : "Tõlgenda",
         "Undo.TranslateAlongAxis" : "Tõlgi teljejoonel",
         "Undo.RotateAroundAxis" : "Pööramine teljejoonel",
-        "Undo.ResetPosition" : "Reseti Positsioon",
-        "Undo.ResetRotation" : "Reseti pööramine",
-        "Undo.ResetScale" : "Reseti skaala",
+        "Undo.ResetPosition" : "Alglähtesta positsioon",
+        "Undo.ResetRotation" : "Alglähtesta pööramine",
+        "Undo.ResetScale" : "Alglähtesta suurus",
 
         "Undo.GrabObjects" : "Haara objektid",
         "Undo.DestroyGrabbed" : "Hävita haaratud objektid",
@@ -563,7 +572,7 @@
         "Importer.Model.Advanced.Colliders" : "Tekita Kollaiderid",
         "Importer.Model.Advanced.Animations" : "Impordi animatsioonid",
         "Importer.Model.Advanced.SetupSnappable" : "Säti napsatavaks",
-        "Importer.Model.Advanced.SetupTimelapse" : "Säti timelapse'iks",
+        "Importer.Model.Advanced.SetupTimelapse" : "Säti üles intervallvõttena",
         "Importer.Model.Advanced.ImportExternalTextures" : "Impordi välised tekstuurid",
         "Importer.Model.Advanced.SkinnedMeshes" : "Impordi nahaga silmvõrgud",
         "Importer.Model.Advanced.SetupIK" : "Säti IK",
@@ -712,7 +721,7 @@
         "CameraControl.Settings.ShowLiveBadge" : "Näita laivi märki",
 
         "CameraControl.OpenCloseUsers" : "Kasutajad",
-        "CameraControl.CreateCameraAnchor" : "Loo kaamera ankur",
+        "CameraControl.CreateCameraAnchor" : "Loo pidepunkt kaamerale",
 
         "CameraControl.Anchors.Interpolate" : "Interpoleeri ankrute vahel",
         "CameraControl.Anchors.InterpolationSpeed" : "Ankru interpolatsiooni kiirus:",
@@ -736,7 +745,7 @@
         "CameraControl.Control.GroupExcludeBoundary" : "Grupi eraldamispiir: {n} m",
         "CameraControl.Control.PositionSmoothSpeed" : "Positsiooni sujuv kiirus: {n}",
         "CameraControl.Control.AngleSmoothSpeed" : "Nurga sujuv kiirus: {n}",
-        "CameraControl.Control.FramingSmoothSpeed" : "Raami sujuv kiirus: {n}",
+        "CameraControl.Control.FramingSmoothSpeed" : "Raami (Frame) sujuv kiirus: {n}",
 
 
         "CameraControl.OBS.IP" : "OBS Websocket IP:",
@@ -846,7 +855,7 @@
 
         "Settings.WindowsIntegration" : "Windowsi integratsioon",
         "Settings.LinuxIntegration" : "Linuxi integratsioon",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Jäta alles originaalse kuvatõmmise formaat",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Kui sees, siis kuvatõmmiseid ei muudeta JPG-i formaati Dokumentide kaustas",
 
@@ -914,8 +923,8 @@
         "Inspector.BipedRig.DetectLeftHand" : "Otsi vasakut käe tellingut",
         "Inspector.BipedRig.DetectRightHand" : "Otsi parema käe tellingut",
         "Inspector.BipedRig.HandRigResult" : "Tehtud! Vasak: {left}, Parem: {right}",
-        "Inspector.BipedRig.LeftHandRigResult" : "Done! Leitud vasak: {detected}",
-        "Inspector.BipedRig.RightHandRigResult" : "Done! Leitud parem: {detected}",
+        "Inspector.BipedRig.LeftHandRigResult" : "Tehtud! Leitud vasak: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "Tehtud! Leitud parem: {detected}",
 
         "Inspector.Texture.Size" : "Suurus: {width} x {height}",
         "Inspector.Texture.Format" : "Formaat: {format}, Mälu: <nobr>{memory}</nobr>",
@@ -928,7 +937,7 @@
         "Inspector.Texture.ColorToAlphaWhite" : "Värv Alfaks (valge)",
         "Inspector.Texture.ColorToAlphaBlack" : "Värv Alfaks (must)",
         "Inspector.Texture.AlphaFromIntensity" : "Alfa intensiivsusest",
-        "Inspector.Texture.AlphaToMask" : "Alfa Maski",
+        "Inspector.Texture.AlphaToMask" : "Tee alfa maskiks",
         "Inspector.Texture.RemoveAlpha" : "Eemalda alfa",
         "Inspector.Texture.ConvertToGrayscaleAverage" : "Muuda mustvalgeks (keskmine)",
         "Inspector.Texture.SwapRG" : "Vaheta R ja G",
@@ -955,7 +964,7 @@
         "Exiting.SavingChanges" : "Salvestan muudatusi...",
         "Exiting.Exiting" : "Väljun...",
         "Exiting.LoggingOut" : "Login välja...",
-        
+
         "Temporary.MMC.Voting UI": "MMC hääletamise UI",
         "Temporary.MMC.Vote": "Hääleta",
         "Temporary.MMC.Categories.Name": "Kategooriad",
@@ -966,6 +975,127 @@
         "Temporary.MMC.VoteFailure": "Hääl ei läinud läbi, proovige uuesti.",
         "Temporary.MMC.VotedAlready": "Te olete juba selles {category} kategoorias hääletanud.",
         "Temporary.MMC.VoteInvalid": "Hääl ei sobi, proovige uuesti.",
+
+        "Interaction.NamedEquipTool": "Kasuta {name}",
+        "Interaction.NamedEquipTool.Default": "Tööriist",
+        "Interaction.EnterAnchor": "Lisa pidepunkt",
+        "Interaction.ExitAnchor": "Eemalda pidepunkt",
+        "Interaction.EquipAvatar": "Vali enda avatariks",
+        "Interaction.SaveAsScreenshot": "Salvesta ekraanitõmmisena",
+        "Interaction.ImportFile": "Impordi Fail",
+        "Interaction.ExportFile": "Ekspordi Fail",
+        "Interaction.CopyLink": "Kopeeri veebilink",
+
+        "World.Error.OnlyContactsOfContacts": "Ainult sessioonisviibijate sõpradel on lubatud liituda",
+        "World.AccessLevel.FriendsOfFriends": "Kontaktid+",
+        "World.Edit.Title": "Muuda maailma metaandmeid",
+        "World.Edit.Name": "Maailma nimi:",
+        "World.Edit.Description": "Kirjeldus:",
+        "World.Edit.Tags": "Märksõnad (eralda komadega):",
+        "World.Edit.Path": "Maailma 'Path':",
+        "World.Edit.AccessLevelHeader": "Kes saab seda maailma külastada?",
+        "World.Edit.AccessPrivate": "Ainult mina",
+        "World.Edit.AccessPatreon": "Patreon toetajad",
+        "World.Edit.AccessPublic": "Kõik (avalik maailm)",
+
+        "Contacts.RecordingVoiceMessage": "Salvestan häält...",
+        "Contacts.InFriendsOnly": "Ainult kontaktidele mõeldud maailmas",
+        "Contacts.InHidden": "Avalikkusele peidetud maailmas",
+        "Contacts.InHiddenFriendsOnly": "Peidetud ja ainult kontaktidele mõeldud maailmas",
+        "Contacts.InHiddenFriendsOfFriends": "Peidetud ja ainult kontaktidele ning nende sõpradele mõeldud maailmas",
+        "Contacts.InLAN": "LAN maailmas",
+        "Contacts.Bot": "Bot konto",
+
+        "Desktop.OpenKeyboard": "Ava virtuaalne klaviatuur",
+        "Desktop.FollowCursor.On": "Jälita kursorit: Sees",
+        "Desktop.FollowCursor.Off": "Jälita kursorit: Väljas",
+        "Desktop.LegacyInputMode.On": "'Legacy' sisend: Sees",
+        "Desktop.LegacyInputMode.Off": "'Legacy' sisend: Väljas",
+        "Desktop.Brightness": "Heledus: {n,number,percent}",
+        "Desktop.Opacity": "Läbipaistvus: {n,number,percent}",
+
+        "Tutorial.Welcome.WelcomeTo" : "Tere tulemast metaversumisse",
+        "Tutorial.Welcome.LetsStart" : "Alustame!",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>HOIATUS:</b></color> Kasutad ekraanivaadet, mis pole hetkeseisul ametlikult toetatud ning on eeskätt mõeldud rakenduse silumiseks. <br><br>Seda vaadet võib mängimiseks kasutada, aga mõned tegevused võivad olla keerukad või ei pruugi töötada.<br><br><b>Neos on hetkel mõeldud virtuaalreaalsuses mängimiseks.</b><br><br>Töötava ekraanivaate teostamine on planeeritud järgnevates versioonides.",
+        "Tutorial.Welcome.ScreenUnderstand" : "Ma mõistan",
+        "Tutorial.Welcome.AccountHeader" : "Neos konto",
+        "Tutorial.Welcome.AccountDescription" : "Konto loomine annab sulle 1 GB tasuta andmeruumi ja võimaluse salvestada virtuaalseid esemeid, valida endale lemmik-avatare, lisada kontakte ja vahendada sõnumeid.",
+        "Tutorial.Welcome.AccountCreate" : "Konto loomine",
+        "Tutorial.Welcome.AccountLogin" : "Mul on juba konto olemas",
+        "Tutorial.Welcome.AccountSkip" : "Jätka ilma kontota",
+        "Tutorial.Welcome.AccountSkipHeader" : "Jäta konto loomine vahele?",
+        "Tutorial.Welcome.AccountSkipDescription" : "Osa funktsionaalsust nagu esemete salvestamine oma kogumikku, lemmik-avataride valimine ja kontaktide lisamine pole siis võimalik.",
+        "Tutorial.Welcome.AccountSkipConfirm" : "Tõesti jätan vahele",
+
+        "Tutorial.Welcome.SettingsHeader" : "Põhilised eelistused",
+        "Tutorial.Welcome.SettingsDescription" : "Saad valida virtuaalreaalsuses liikumise stiili ja enda eelistusi. Kõiki valikuid saab hiljem uuesti muuta.",
+        "Tutorial.Welcome.SettingsTurning" : "Virtuaalreaalsuses pööramise stiil",
+        "Tutorial.Welcome.SettingsSnapTurn" : "Katkendlik",
+        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Pöörab vaadet katkendlikult teatud kraadide järgi, ideaalne uutele VR kasutajatele",
+        "Tutorial.Welcome.SettingsSmoothTurn" : "Sujuv",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Naturaalne sujuv pööramine, aga võib tekitada küberiiveldust.",
+        "Tutorial.Welcome.SettingsPrimaryController" : "Põhiline mängukontroller",
+        "Tutorial.Welcome.SettingsPrimaryLeft" : "Vasak",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Vasak:</b> Pööra, <b>Parem:</b> Liigu",
+        "Tutorial.Welcome.SettingsPrimaryRight" : "Parem",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Vasak:</b> Liigu, <b>Parem:</b> Pööra",
+        "Tutorial.Welcome.SettingsHeight" : "Sinu pikkus",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Näited: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
+
+        "Tutorial.Welcome.StartTutorialHeader" : "Soovin õppida Neosi kasutama",
+        "Tutorial.Welcome.StartTutorialDescription" : "Suuname Sind maailma, mis õpetab Neos'i paremini sisse elama. Võid õppemaailma teha avalikuks, et Neos'i liikmed saaksid liituda ja Sind aidata. Võid valida ka üksi õppimise kasuks.",
+        "Tutorial.Welcome.StartTutorialPublic" : "Soovin, et maailm kuhu lähen, on avalik ja teised saavad ka võimaluse korral liituda ja aidata",
+        "Tutorial.Welcome.StartTutorialPrivate" : "Tahan üksi õppida",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Kas tõesti tahad üksi privaatses maailmas õppida?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Neosi kogukonna liikmed saaksid sind vajaduse korral aidata. Kas soovid tõesti üksi jätkata?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Alusta privaatset õppemaailma",
+
+        "Tutorial.Intro.WelcomeTitle" : "Tere tulemast Neosi",
+        "Tutorial.Intro.WelcomeDescription" : "Õpetame sind metaversumit kogema ja kasutama",
+
+        "Tutorial.Intro.GrabbingTitle" : "Haaramine",
+        "Tutorial.Intro.GrabbingVR" : "Korja ning haara esemeid vajutades 'Grip'(Haaramine) nupule. Kaugel olevaid esemeid saad haarata ka laserit kasutades.",
+        "Tutorial.Intro.GrabbingScreen" : "Korja esemeid vajutades paremat hiireklahvi.",
+
+        "Tutorial.Intro.ScalingTitle" : "Suurendamine ja vähendamine (skaleerimine)",
+        "Tutorial.Intro.ScalingVR" : "Eseme skaleerimiseks <color=#77ff77><b>haara esemest mõlema käega kinni</b></color> ning eset hoides <color=#77ff77><b>liiguta käsi laiali või too lähemale</b></color>. Laserit kasutades saab sama teha.",
+        "Tutorial.Intro.ScalingScreen" : "Eseme skaleerimiseks võta sellest parema hiireklahviga kinni, ning keskmise hiirenupuga keri üles või alla.",
+
+        "Tutorial.Intro.ContextMenuTitle" : "Sisumenüü (Context Menu)",
+        "Tutorial.Intro.ContextMenuDescription" : "Sinu <color=#ffdd77><b>Sisumenüü</b></color> pakub erinevaid tegevusi, mida saad virtuaalmaailmas teha. Seda saad <br>avada või sulgeda<color=#77ff77><b>{button}</b></color> nupuga.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B või Y",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "Menüü (Menu Button)",
+        "Tutorial.Intro.ContextMenu_Screen" : "R",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Hävitamine ja duplikeerimine",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Haara esemest kinni. Saad eseme <color=#77ff77><b>hävitada või duplikeerida</b></color> kui valid selle tegevuse Sisumenüüst (Context Menu).",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Haara esemest kinni. Saad selle <color=#77ff77><b>hävitada</b></color> kasutades <color=#77ff77><b>Delete</b></color> klahvi klaviatuuril. Saad seda <color=#77ff77><b>duplikeerida</b></color> kasutades <color=#77ff77><b>F</b></color> klahvi klaviatuuril.",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "Iseenda suurendamine või vähendamine (skaleerimine)",
+        "Tutorial.Intro.ScalingYourselfVR" : "<color=#ffdd77><b>Iseenda skaleerimiseks</b></color>, ava Sisumenüü(Context Menu), vali mida teha soovid, hoia mõlemat<color=#77ff77><b>Grip</b></color> (Haaramine) nuppu all ning <color=#77ddff><b>too oma käed kokku või aja käed laiali</b></color>",
+        "Tutorial.Intro.ScalingYourselfScreen" : "<color=#ffdd77><b>Iseenda skaleerimiseks</b></color>, hoia all <color=#77ff77><b>Ctrl</b></color> nuppu ja <color=#77ddff><b>keri</b></color> <color=#77ff77><b>hiireratast</b></color> üles või alla.",
+
+        "Tutorial.Intro.LocomotionTitle" : "Virtuaalmaailmas liikumine (Locomotion)",
+        "Tutorial.Intro.LocomotionDescription" : "Neosis on mitu erinevat võimalust virtuaalmaailmas liikumiseks. <br>Kui avad Sisumenüü (Context Menu), leiad erinevaid võimalusi.",
+
+        "Tutorial.Intro.DashboardTitle" : "Neosi Kiirmenüü (Dashboard)",
+        "Tutorial.Intro.DashboardDescription" : "Neosi <color=#ffdd77><b>Kiirmenüü</b></color>(Dashboard) on põhiline menüü, mida kasutama hakkad. Saad selle avada ja sulgeda kasutades <color=#77ff77><b>{button}</b></color> nuppu.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "Neosi <color=#ffdd77><b>Kiirmenüü</b></color>(Dashboard) on põhiline menüü, mida kasutama hakkad. <br>Saad selle avada ja sulgeda kui hoiad all <color=#77ff77><b>{button}</b></color> nuppu, kuni ring on täitunud ning siis selle lahti lasta",
+        "Tutorial.Intro.Dashboard_ButtonA" : "A",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A või X",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "Menüü (Menu Button)",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl + Tühikuklahvi (kombinatsioon)",
+
+        "Tutorial.Intro.InventoryVR" : "Sinu <color=#ffdd77><b>Varustus</b></color>(Inventory) asub Kiirmenüü (Dashboard) ribal.<br>Kui tahad esemeid varustusest välja võtta, <color=#77ddff><b>tee topeltklikk</b></color> eseme peal, mis sinu varustuse nimekirjas on.<br>Kui tahad uut eset salvestada enda varustusse, võta esemest kinni, ava menüü, vajuta <sprite name=inv-add> üleval paremas nurgas.",
+        "Tutorial.Intro.InventoryScreen" : "Sinu <color=#ffdd77><b>Varustus</b></color>(Inventory) asub Kiirmenüü (Dashboard) ribal.<br>Kui tahad esemeid varustusest välja võtta, <color=#77ddff><b>tee topeltklikk</b></color> eseme peal, mis sinu varustuse nimekirjas on.<br>Kui tahad uut eset salvestada enda varustusse, võta esemest kinni ja vajuta <color=#77ff77><b>Ctrl + S</b></color>.",
+
+        "Tutorial.Grab.MoveRotate" : "Liiguta/Pööra eset käes",
+        "Tutorial.Grab.Scale" : "Haara teise kontrolleriga, et skaleerida",
+        "Tutorial.Grab.PullToEquip" : "Tõmba enda suunas, et ese endale võtta",
+        "Tutorial.Grab.UseHeld" : "Kasuta põhilist funktsionaalsust (primary action)",
+        "Tutorial.Grab.ContextEquip" : "Kasuta Sisumenüüd (Context Menu), et ese endale võtta või eseme valikute nägemiseks",
+        "Tutorial.Grab.EquipForFullUse" : "Võta ese endale, et kõiki funktsionaalsusi kasutada",
 
         "Dummy" : "Dummy"
     }
