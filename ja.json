@@ -274,7 +274,7 @@
         "Tools.DepositNCR" : "NCR入金",
         "Tools.WithdrawNCR" : "NCR引き出し",
         "Tools.Debug" : "デバッグ",
-        "Tools.StreamAudio" : "オーディオストリーム",
+        "Tools.StreamAudio" : "ストリームオーディオ",
 
         "Tools.StreamAudio.Start" : "ストリーミング開始",
         "Tools.StreamAudio.Bitrate" : "ビットレート: {bitrate} kbps",
