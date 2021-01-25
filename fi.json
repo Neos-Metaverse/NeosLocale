@@ -420,6 +420,7 @@
         "Undo.ChangeMesh" : "Vaihda tahkoverkko",
         "Undo.InsertParent" : "Lisää yliluokka {name}",
 
+
         "Tooltips.Dev.CreateNew" : "Tee uusi...",
         "Tooltips.Dev.Selection" : "Valintatila: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Kehittäjätila: Pois",
@@ -428,10 +429,53 @@
         "Tooltips.Dev.DeselectAll" : "Lopeta valinta",
         "Tooltips.Dev.DestroySelected" : "Poista valitut",
 
+        "Tooltip.Logix.NodeBrowser" : "Solmuhakemisto",
+        "Tooltip.Logix.UnpackChildren" : "Pura valinta & yhdistetyt solmut",
+        "Tooltip.Logix.SetPackingRoot" : "Aseta paketointi valinta",
+        "Tooltip.Logix.ClearPackingRoot" : "Poista paketointi valinta",
+
         "Tooltip.Color.Picker" : "Värinvalitsija",
 
         "Tooltip.GrabbableSetter.Scalable" : "Aseta skaalautuva",
         "Tooltip.GrabbableSetter.NonScalable" : "Aseta ei skaalautuva",
+
+        "Tooltip.CharacterCollider.MarkGrippable" : "Aseta tarttuva pinta",
+        "Tooltip.CharacterCollider.DontMarkGrippable" : "Poista tarttuva pinta",
+        "Tooltip.CharacterCollider.EnsureWalkRun" : "Varmsita kävely/juoksu tila",
+        "Tooltip.CharacterCollider.EnsureZeroG" : "Varmista painovoimaton tila",
+        "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Varmista fyysinen lentotila",
+
+        "Tooltip.Light.Point" : "Piste",
+        "Tooltip.Light.Spot" : "Spotti",
+        "Tooltip.Light.Sun" : "Aurinko",
+
+        "Tooltip.MeshVisibility.KeepShadow" : "Pidä varjot",
+        "Tooltip.MeshVisibility.ShadowOff" : "Poista käytöstä varjot",
+        "Tooltip.MeshVisibility.ShadowOn" : "Ota varjot käyttöön",
+        "Tooltip.MeshVisibility.OnlyShadow" : "Aseta vain varjo",
+        "Tooltip.MeshVisibility.DoubleSidedShadow" : "Aseta kaksipuoliseksi varjoksi",
+
+        "Tooltip.Slicer.Add" : "Lisää Slicer",
+        "Tooltip.Slicer.Clear" : "Tyhjennä asetus",
+
+        "Tooltip.Material.RayMode" : "Ray tila",
+        "Tooltip.Material.AreaMode" : "Alue tila",
+        "Tooltip.Material.ObjectMode" : "Globaali objekti tila",
+        "Tooltip.Material.SceneMode" : "Globaali näkymä tila",
+        "Tooltip.Material.CreateCopy" : "Tee kopio",
+        "Tooltip.Material.Edit" : "Muokkaa materiaalia",
+        "Tooltip.Material.Convert" : "Muunna...",
+        "Tooltip.Material.CreateNew" : "Luo uusi",
+
+        "Tooltip.Mesh.Edit" : "Muokkaa verkkoa",
+
+
+
+
+        "Tooltip.Microphone.ModeHold" : "Paina nauhoittaaksesi",
+        "Tooltip.Microphone.ModePress" : "Paina aloittaaksesi/lopettaaksesi nauhoituksen",
+
+        "Tooltip.Microphone.SourceFiltered" : "Filteröity ja normalisoitu",
 
         "FullBody.Hips" : "Vyötärö",
         "FullBody.Feet" : "Jalat",
