@@ -1064,7 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "可用樣本: {samples}, 丟失: {missed}, 長度: {length}, 全局索引: {index}",
         "Inspector.AudioStream.EncodeState" : "可編碼: {samples}, 幀大小: {frame} (最大值: {max_frame}), 採樣率: {rate}",
         "Inspector.AudioStream.DecodeState" : "包總數: {total}, 丟包總數: {lost}, 數據包丟失: {loss, number, percent}",
-        "Inspector.AudioStream.BufferStats" : "Avg codec: {avgCodec}/s, Avg 讀: {avgRead}/s, Avg 書面: {avgWritten}/s",
+        "Inspector.AudioStream.BufferStats" : "平均編解碼器: {avgCodec}/s, 平均閱讀: {avgRead}/s, 平均寫作: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "從Children設置",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "從Children設置 (強制全部)",

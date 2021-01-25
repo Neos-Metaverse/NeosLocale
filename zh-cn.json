@@ -1064,7 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "可用样本: {samples}, 丢失: {missed}, 长度: {length}, 全局索引: {index}",
         "Inspector.AudioStream.EncodeState" : "可编码: {samples}, 帧大小: {frame} (最大值: {max_frame}), 采样率: {rate}",
         "Inspector.AudioStream.DecodeState" : "包总数: {total}, 丢包总数: {lost}, 数据包丢失: {loss, number, percent}",
-        "Inspector.AudioStream.BufferStats" : "Avg codec: {avgCodec}/s, Avg 读: {avgRead}/s, Avg 书面: {avgWritten}/s",
+        "Inspector.AudioStream.BufferStats" : "平均编解码器: {avgCodec}/s, 平均阅读: {avgRead}/s, 平均写作: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "从Children设置",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "从Children设置 (强制全部)",

@@ -1064,7 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "Haveblaj specimenoj: {samples}, Maltrafita: {missed}, Longo: {length}, Tutmonda Indekso: {index}",
         "Inspector.AudioStream.EncodeState" : "Disponebla por kodi: {samples}, Kadro Grandeco: {frame} (Maksimumo: {max_frame}), Specimeno-kurzo: {rate}",
         "Inspector.AudioStream.DecodeState" : "Entute pakoj: {total}, Entute Perditaj Paketoj: {lost}, Pakaĵa Perdo: {loss, number, percent}",
-        "Inspector.AudioStream.BufferStats" : "Avg codec: {avgCodec}/s, Avg legi: {avgRead}/s, Avg skribita: {avgWritten}/s",
+        "Inspector.AudioStream.BufferStats" : "Averaĝa kodekon: {avgCodec}/s, Averaĝa legi: {avgRead}/s, Averaĝa skribita: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Agordi De Infanoj",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Agordi De Infanoj (devigi ĉiujn)",
