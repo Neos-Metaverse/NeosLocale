@@ -336,7 +336,7 @@
 
         "Session.Tab.Settings" : "Sätted",
         "Session.Tab.Users" : "Kasutajad",
-        "Session.Tab.Permissions" : "Load (Pääsud)",
+        "Session.Tab.Permissions" : "Load (Permissions)",
 
         "Session.Permission.Anonymous" : "Vaikimisi anonüümne:",
         "Session.Permission.Vistor" : "Vaikimisi külaline:",
@@ -350,7 +350,7 @@
         "User.Actions.Jump" : "Hüppa",
         "User.Actions.Respawn" : "Alusta uuesti",
         "User.Actions.Kick" : "Löö välja",
-        "User.Actions.Ban" : "Keela suhtlemine (Ban)",
+        "User.Actions.Ban" : "Keela suhtlemine (Bänni)",
 
         "Contacts.Add" : "Lisa kontakt",
         "Contacts.Remove" : "Eemalda kontakt",
@@ -359,9 +359,9 @@
         "Contacts.IgnoreRequest" : "Ignoreeri kontaktikutse",
         "Contacts.Invite" : "Kutsu siia",
         "Contacts.SendCredits" : "Saada krediiti",
-        "Contacts.BanFromAllSessions" : "Keela suhtlus KÕIGIST mu sessioonidest",
+        "Contacts.BanFromAllSessions" : "Keela suhtlemine (bänni) KÕIGIST mu sessioonidest",
         "Contacts.UnbanFromAllSessions" : "Võta suhtluskeeld maha KÕIGIST mu sessioonidest",
-        "Contacts.BanFromCurrentWorld" : "Keela suhtlus selles maailmas",
+        "Contacts.BanFromCurrentWorld" : "Keela suhtlemine (bänni) selles maailmas",
         "Contacts.UnbanFromCurrentWorld" : "Võta suhtluskeeld maha sellest maailmast",
         "Contacts.RecordingVoiceMessage": "Salvestan häält...",
 
@@ -992,11 +992,6 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostik: Ebasobiv murdarv",
         "Inspector.Texture.GenerateMetadata" : "Diagnostik: Tekita uus bitmappi metaandmeid",
 
-        "Exiting.SavingItems" : "Salvestan {n, plural, one {# asja} other {# asju}}...",
-        "Exiting.SavingChanges" : "Salvestan muudatusi...",
-        "Exiting.Exiting" : "Väljun...",
-        "Exiting.LoggingOut" : "Login välja...",
-
         "Temporary.MMC.Voting UI": "MMC hääletamise UI",
         "Temporary.MMC.Vote": "Hääleta",
         "Temporary.MMC.Categories.Name": "Kategooriad",
@@ -1092,12 +1087,64 @@
         "Tutorial.Intro.InventoryVR" : "Sinu <color=#ffdd77><b>Varustus</b></color>(Inventory) asub Kiirmenüü (Dashboard) ribal.<br>Kui tahad esemeid varustusest välja võtta, <color=#77ddff><b>tee topeltklikk</b></color> eseme peal, mis sinu varustuse nimekirjas on.<br>Kui tahad uut eset salvestada enda varustusse, võta esemest kinni, ava menüü, vajuta <sprite name=inv-add> üleval paremas nurgas.",
         "Tutorial.Intro.InventoryScreen" : "Sinu <color=#ffdd77><b>Varustus</b></color>(Inventory) asub Kiirmenüü (Dashboard) ribal.<br>Kui tahad esemeid varustusest välja võtta, <color=#77ddff><b>tee topeltklikk</b></color> eseme peal, mis sinu varustuse nimekirjas on.<br>Kui tahad uut eset salvestada enda varustusse, võta esemest kinni ja vajuta <color=#77ff77><b>Ctrl + S</b></color>.",
 
+        "Tutorial.Intro.HomeScreenTitle" : "Sinu koduaken (Home Screen)",
+        "Tutorial.Intro.HomeScreenDescription" : "Oma <color=#ffdd77><b>Koduaknal</b></color>(Home Screen) näed palju erinevaid võimalusi, mida Neosis teha saad.<br>Näiteks on siin Avatari loomine (Avatar Creator), oma keha kalibreerimine avatariga (Full Body Calibrator), kaamera/striimimine, uue maailma loomine.",
+        "Tutorial.Intro.ContactsDescription" : "Sinu <color=#ffdd77><b>Kontaktid</b></color> kasuvad Kiirmenüül (Dashboard).<br> Saada tekstisõnumeid, häälsõnumeid, või esemeid oma kontaktidele kasutades jutuakent (chatbox) paremal allpool.<br>Lisa uusi kontakte kasutades otsinguriba, mis on üleval vasakus nurgas.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Impordi</b></color> faile, 3D mudeleid, pilte, heli, videoid, või fonte otse Neosi!<br>Seda saad teha kui <color=#77ddff><b>lohistad</b></color>(drag and drop) oma failid Neosi aknasse, või otsi neid <color=#ffdd77><b>Failibrauserist</b></color> (File Browser).",
+
+        "Tutorial.Intro.SessionTitle" : "Sessiooniseaded",
+        "Tutorial.Intro.SessionDescription" : "Sessiooniga seotud seaded ning seaded, mis tegelevad teiste kasutajatega selles maailmas, nagu näiteks load (permissions), leiab <color=#ffdd77><b>Sessioon</b></color>i paneelilt.",
+        "Tutorial.Intro.SettingsDescription" : "Pikkus, heliseaded, keelevalik, ja paljud teised seaded on muudetavad <color=#ffdd77><b>Seaded</b></color> paneelilt.",
+        "Tutorial.Intro.WorldsTitle" : "Maailmate Menüü (Worlds Menu)",
+        "Tutorial.Intro.WorldsDescription" : "Rända Neosi metaversumis ringi kasutades <color=#ffdd77><b>Maailmad</b></color> menüüd.<br>Kui oled siin õppemaailmas lõpetanud, liitu aktiivse sessiooniga ja kohtu Neosi kogukonnaga!",
+
+        "Tutorial.Intro.OutroTop" : "Edasised juhendid on saadaval üle selle maailma.<br><br>Soovime edu ja et Sulle siin metaversumis meeldiks!",
+        "Tutorial.Intro.Website" : "Veebilehekülg",
+        "Tutorial.Intro.OutroEnd" : "Kui soovid Neosi projekti toetada, liitu meie Patreon lehega.<br><br>Liitu Discordi grupiga, et saada informatsiooni uuenduste kohta, teiste huvilistega tutvumiseks ja kui vajad tehnilist abi.",
+
+        "Tutorial.MTC.Avatars" : "Avatarid & Suhtlus",
+        "Tutorial.MTC.Creation" : "Looming & Vahendid",
+        "Tutorial.MTC.RecordingStreaming" : "Salvestamine & Striimimine",
+
         "Tutorial.Grab.MoveRotate" : "Liiguta/Pööra eset käes",
         "Tutorial.Grab.Scale" : "Haara teise kontrolleriga, et skaleerida",
         "Tutorial.Grab.PullToEquip" : "Tõmba enda suunas, et ese endale võtta",
         "Tutorial.Grab.UseHeld" : "Kasuta põhilist funktsionaalsust (primary action)",
         "Tutorial.Grab.ContextEquip" : "Kasuta Sisumenüüd (Context Menu), et ese endale võtta või eseme valikute nägemiseks",
-        "Tutorial.Grab.EquipForFullUse" : "Võta ese endale, et kõiki funktsionaalsusi kasutada",
+        "Tutorial.Grab.EquipForFullUse" : "Võta enda kätte, et kõiki funktsionaalsusi kasutada",
+
+        "Tutorial.WorldOrb.Click" : "Vajuta Maailmakera peale",
+        "Tutorial.WorldOrb.Info" : "<b>Maailmakera</b>\n<size=80%>esindab maailma või sessiooni</size>\nTopeltkliki - Sisene\nÜks klikk - Sisumenüü (Context Menu)",
+
+        "Tutorial.Tooltip.GeneralPrimary" : "Kasuta",
+        "Tutorial.Tooltip.GeneralSecondary" : "Teine kasutusvõimalus",
+        "Tutorial.Tooltip.ContextMenu" : "Saa ligipääs tööriistamenüüle ja valikutele",
+
+        "Tutorial.Tooltip.Duplicator" : "Duplikeeri (hoia samal ajal eset)",
+        "Tutorial.Tooltip.GluePrimary" : "Lisa Liimi (hoia all)",
+        "Tutorial.Tooltip.GlueSecondary" : "Sunni Liim kuivama",
+        "Tutorial.Tooltip.ColorPrimary" : "Lisa Värv",
+        "Tutorial.Tooltip.ColorSecondary" : "Vali Värv",
+        "Tutorial.Tooltip.Brush" : "Joonista",
+
+        "Tutorial.Tooltip.MeshPrimary" : "Asenda Mesh",
+        "Tutorial.Tooltip.MeshSecondary" : "Eralda Mesh",
+
+        "Tutorial.Tooltip.GrabbableSetterPrimary" : "Muuda haaratavaks",
+        "Tutorial.Tooltip.GrabbableSetterSecondary" : "Muuda mittehaaratavaks",
+        "Tutorial.Tooltip.LightPrimary" : "Tekita Valgus (hoia all)",
+        "Tutorial.Tooltip.LightSecondary" : "Muuda Värvi",
+        "Tutorial.Tooltip.MeshVisibilityPrimary" : "Muuda nähtavaks",
+        "Tutorial.Tooltip.MeshVisibilitySecondary" : "Muuda mittenähtavaks",
+        "Tutorial.Tooltip.ShapePrimary" : "Tekita Kujund",
+        "Tutorial.Tooltip.ShapeSecondary" : "Muuda Kujundit",
+        "Tutorial.Tooltip.WigglerPrimary" : "Lase välja salakavalad kurjad jõud siia maailma",
+        "Tutorial.Tooltip.WigglerSecondary" : "Lunasta oma hinge mingil määral",
+
+        "Exiting.SavingItems" : "Salvestan {n, plural, one {# asja} other {# asju}}...",
+        "Exiting.SavingChanges" : "Salvestan muudatusi...",
+        "Exiting.Exiting" : "Väljun...",
+        "Exiting.LoggingOut" : "Login välja...",
 
         "Dummy" : "Dummy"
     }
