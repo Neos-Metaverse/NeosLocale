@@ -269,11 +269,20 @@
 
         "Tools.AvatarCreator": "Avatar-Kreinto",
         "Tools.FullBodyCalibrator": "Plena Korpa /Avatar-Kalibrilo",
-        "Tools.CameraStreaming": "Fotilo / Streaming",
+        "Tools.CameraStreaming": "Fotilo / Elsendfluo",
         "Tools.CreateNewWorld": "Krei Novan Mondon",
         "Tools.DepositNCR": "Deponejo NCR",
         "Tools.WithdrawNCR": "Retiri NCR",
         "Tools.Debug": "Elpurigi",
+        "Tools.StreamAudio" : "Aŭdio de Elsendfluo",
+
+        "Tools.StreamAudio.Start" : "Komenci Elsendfluo",
+        "Tools.StreamAudio.Bitrate" : "Bitkvanto: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "{username} transsendata aŭdio",
+        "Tools.StreamAudio.Spatialized" : "Spacigita(Spatialized)",
+        "Tools.StreamAudio.Broadcast" : "Elsendo",
+        "Tools.StreamAudio.PlayForOwner.Off" : "Ludi por posedanto: Off",
+        "Tools.StreamAudio.PlayForOwner.On" : "Ludi por posedanto: On",
 
         "Options.FreeformDash.On": "Libera formo Dash: Enŝaltita",
         "Options.FreeformDash.Off": "Libera formo Dash: Malŝaltita",
@@ -344,6 +353,10 @@
         "Session.Permission.Host": "Defaŭlta Gastiganto:",
         "Session.Permission.PermissionOverrideCount" : "Permesaj Superregoj: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Forigi uzantajn anstataŭigojn",
+
+        "Permissions.NotAllowedToSpawn" : "Vi ne rajtas krei aferojn ĉi tie",
+        "Permissions.NotAllowedToSave" : "Vi ne rajtas konservi aĵojn en ĉi tiu mondo.",
+        "Permissions.NotAllowedToSwapAvatar" : "Vi ne rajtas interŝanĝi al kutima avataro ĉi tie.",
 
         "User.Actions.Silence" : "Tutmonda mutulo",
         "User.Actions.Mute": "Mutigi",
@@ -818,10 +831,10 @@
         "CameraCOntrol.OBS.Live": "LIVE",
         "CameraCOntrol.OBS.Recording": "REC",
 
-        "CameraControl.OBS.Streaming.Start": "Ekfluigi",
-        "CameraControl.OBS.Streaming.Starting": "Ekfluado ...",
-        "CameraControl.OBS.Streaming.Stop": "Ĉesigi Fluadon",
-        "CameraControl.OBS.Streaming.Stopping": "Fluado Ĉesas",
+        "CameraControl.OBS.Streaming.Start": "Komenci Elsendfluo",
+        "CameraControl.OBS.Streaming.Starting": "Komencante Elsendfluo...",
+        "CameraControl.OBS.Streaming.Stop": "Halti Elsendfluo",
+        "CameraControl.OBS.Streaming.Stopping": "Haltante Elsendfluo...",
 
         "CameraControl.OBS.Recording.Start": "Komenci Registradon",
         "CameraControl.OBS.Recording.Starting": "Komenci Registradon ...",
@@ -1051,6 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "Haveblaj specimenoj: {samples}, Maltrafita: {missed}, Longo: {length}, Tutmonda Indekso: {index}",
         "Inspector.AudioStream.EncodeState" : "Disponebla por kodi: {samples}, Kadro Grandeco: {frame} (Maksimumo: {max_frame}), Specimeno-kurzo: {rate}",
         "Inspector.AudioStream.DecodeState" : "Entute pakoj: {total}, Entute Perditaj Paketoj: {lost}, Pakaĵa Perdo: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "Averaĝa kodekon: {avgCodec}/s, Averaĝa legi: {avgRead}/s, Averaĝa skribita: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Agordi De Infanoj",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Agordi De Infanoj (devigi ĉiujn)",
@@ -1206,7 +1220,7 @@
         "Tutorial.Intro.InventoryScreen": "Via <color=#ffdd77><b>Inventaro</b></color> troviĝas sur via Neos-Panelo. <br>Al <color=#77ddff><b> Generas </b></color> objekto, <color=#77ff77><b>Duoble-Alklaku</b></color> la eron en via inventaro. <br>Por <color=#77ddff><b>konservi</b></color> objekto, tenu la eron kaj premu <color=#77ff77> <b> Ctrl + S </b> </color>. ",
 
         "Tutorial.Intro.HomeScreenTitle": "Via Hejma Ekrano",
-        "Tutorial.Intro.HomeScreenDescription": "Via <color=#ffdd77><b> Hejmekrano </b></color> enhavas facetojn kun multaj funkcioj. <br> Ĉi tiuj inkluzivas Avatar-Kreinton, Korpan Kalibrilon, Fotilon / Streaming, kaj Krei Novan Mondon. ",
+        "Tutorial.Intro.HomeScreenDescription": "Via <color=#ffdd77><b> Hejmekrano </b></color> enhavas facetojn kun multaj funkcioj. <br> Ĉi tiuj inkluzivas Avatar-Kreinton, Korpan Kalibrilon, Fotilon / Elsendfluo, kaj Krei Novan Mondon. ",
         "Tutorial.Intro.ContactsDescription": "Viaj <color=#ffdd77><b> Kontaktoj</b></color> troviĝas sur la Panelo. <br> Sendu mesaĝojn, voĉajn mesaĝojn aŭ objektojn al kontaktoj kun la babilejo dekstre malsupre. <br> Aldoni kontaktojn kun la serĉobreto, trovita en la supra maldekstra angulo. ",
         "Tutorial.Intro.FilesDescription": "<color=#ffdd77><b> Importi </b></color> dosierojn, 3D-modelojn, bildojn, aŭdojn, filmetojn aŭ tiparojn rekte en Neos! <br> Aŭ <color=#77ddff><b> treni kaj faligi </b></color> dosierojn sur la Neos-fenestron, aŭ trovu ilin per la <color=#ffdd77><b> Dosierfoliumilo </b></color>. " ,
         "Tutorial.Intro.SessionTitle": "Agordoj de Sesio",
