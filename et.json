@@ -359,18 +359,18 @@
         "Contacts.IgnoreRequest" : "Ignoreeri kontaktikutse",
         "Contacts.Invite" : "Kutsu siia",
         "Contacts.SendCredits" : "Saada krediiti",
-        "Contacts.BanFromAllSessions" : "Keela suhtlemine (bänni) KÕIGIST mu sessioonidest",
-        "Contacts.UnbanFromAllSessions" : "Võta suhtluskeeld maha KÕIGIST mu sessioonidest",
-        "Contacts.BanFromCurrentWorld" : "Keela suhtlemine (bänni) selles maailmas",
-        "Contacts.UnbanFromCurrentWorld" : "Võta suhtluskeeld maha sellest maailmast",
+        "Contacts.BanFromAllSessions" : "Bänni KÕIGIST mu sessioonidest",
+        "Contacts.UnbanFromAllSessions" : "Eemalda suhtluskeeld KÕIGIST mu sessioonidest",
+        "Contacts.BanFromCurrentWorld" : "Bänni selles maailmas",
+        "Contacts.UnbanFromCurrentWorld" : "Eemalda suhtluskeeld sellest maailmast",
         "Contacts.RecordingVoiceMessage": "Salvestan häält...",
 
         "Contacts.InSession" : "Sees {name}",
         "Contacts.InPrivate" : "Privaatse maailma sees",
         "Contacts.InFriendsOnly": "Ainult kontaktidele mõeldud maailmas",
         "Contacts.InHidden": "Avalikkusele peidetud maailmas",
-        "Contacts.InHiddenFriendsOnly": "Peidetud ja ainult kontaktidele mõeldud maailmas",
-        "Contacts.InHiddenFriendsOfFriends": "Peidetud ja ainult kontaktidele ning nende sõpradele mõeldud maailmas",
+        "Contacts.InHiddenFriendsOnly": "Peidetud, ainult kontaktidele mõeldud maailmas",
+        "Contacts.InHiddenFriendsOfFriends": "Peidetud, ainult kontaktidele ning nende sõpradele mõeldud maailmas",
         "Contacts.InLAN": "LAN maailmas",
         "Contacts.UsingDifferentVersion" : "Kasutab versiooni {version}",
         "Contacts.RequestSent" : "Kutse saadetud",
@@ -1103,7 +1103,7 @@
         "Tutorial.Intro.OutroEnd" : "Kui soovid Neosi projekti toetada, liitu meie Patreon lehega.<br><br>Liitu Discordi grupiga, et saada informatsiooni uuenduste kohta, tutvuda teiste huvilistega või kui vajad tehnilist abi.",
 
         "Tutorial.MTC.Avatars" : "Avatarid & Suhtlus",
-        "Tutorial.MTC.Creation" : "Looming & Tööriistad",
+        "Tutorial.MTC.Creation" : "Looming & Töövahendid",
         "Tutorial.MTC.RecordingStreaming" : "Filmimine & Striimimine",
 
         "Tutorial.Grab.MoveRotate" : "Liiguta/Pööra",
@@ -1118,7 +1118,7 @@
 
         "Tutorial.Tooltip.GeneralPrimary" : "Kasuta",
         "Tutorial.Tooltip.GeneralSecondary" : "Teine kasutusvõimalus",
-        "Tutorial.Tooltip.ContextMenu" : "Saa ligipääs tööriistamenüüle ja valikutele",
+        "Tutorial.Tooltip.ContextMenu" : "Ligipääs valikutele",
 
         "Tutorial.Tooltip.Duplicator" : "Paljunda (hoia eset)",
         "Tutorial.Tooltip.GluePrimary" : "Lisa Liimi (hoia all)",
