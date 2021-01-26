@@ -274,6 +274,15 @@
         "Tools.DepositNCR" : "存款NCR",
         "Tools.WithdrawNCR" : "提取NCR",
         "Tools.Debug" : "Debug",
+        "Tools.StreamAudio" : "流音频",
+
+        "Tools.StreamAudio.Start" : "开始流式传输",
+        "Tools.StreamAudio.Bitrate" : "比特率: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "{username} 音频流",
+        "Tools.StreamAudio.Spatialized" : "空间化",
+        "Tools.StreamAudio.Broadcast" : "广播",
+        "Tools.StreamAudio.PlayForOwner.Off" : "为主人玩: Off",
+        "Tools.StreamAudio.PlayForOwner.On" : "为主人玩: On",
 
         "Options.FreeformDash.On" : "自由格式破折号：开启",
         "Options.FreeformDash.Off" : "自由格式破折号：关闭",
@@ -344,6 +353,10 @@
         "Session.Permission.Host" : "默认主机:",
         "Session.Permission.PermissionOverrideCount" : "权限覆盖: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "清除用户替代",
+
+        "Permissions.NotAllowedToSpawn" : "您不可以在此处生成事物",
+        "Permissions.NotAllowedToSave" : "您无权在这个世界上保存项目。",
+        "Permissions.NotAllowedToSwapAvatar" : "您不允许在此处交换到自定阿凡达。",
 
         "User.Actions.Silence" : "全局静音",
         "User.Actions.Mute" : "静音",
@@ -1051,6 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "可用样本: {samples}, 丢失: {missed}, 长度: {length}, 全局索引: {index}",
         "Inspector.AudioStream.EncodeState" : "可编码: {samples}, 帧大小: {frame} (最大值: {max_frame}), 采样率: {rate}",
         "Inspector.AudioStream.DecodeState" : "包总数: {total}, 丢包总数: {lost}, 数据包丢失: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "平均编解码器: {avgCodec}/s, 平均阅读: {avgRead}/s, 平均写作: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "从Children设置",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "从Children设置 (强制全部)",
