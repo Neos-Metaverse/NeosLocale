@@ -354,7 +354,7 @@
         "Session.Permission.PermissionOverrideCount" : "Permission Overrides: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Clear User Overrides",
 
-        "Permissions.NotAllowedToSpawn" : "You are not allowed to spawn things here",
+        "Permissions.NotAllowedToSpawn" : "You are not allowed to spawn things here.",
         "Permissions.NotAllowedToSave" : "You are not allowed to save items in this world.",
         "Permissions.NotAllowedToSwapAvatar" : "You are not allowed to swap to custom avatar here.",
 
