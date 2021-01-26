@@ -784,7 +784,7 @@
 		"CameraControl.OBS.DisconnectedPage": "OBS 연결 끊김",
 		"CameraControl.OBS.ReturnToConnect": "연결 페이지로 돌아가기",
 		"CameraControl.OBS.AutoMirror": "수평반전",
-		"CameraControl.OBS.Bitrate": "비트 전송률: {n}/s",
+		"CameraControl.OBS.Bitrate": "전송량: {n}/s",
 		"CameraControl.OBS.FPS": "FPS: {n}",
 		"CameraControl.OBS.DroppedFrames": "무시된 프레임 수: {n}",
 		"CameraCOntrol.OBS.Live": "LIVE",
@@ -1243,13 +1243,13 @@
 		
 		"Dash.Screens.Desktop": "데스크탑",
 		"Inspector.AudioStream.DecodeState": "전체 패킷량: {total}, 손실된 전체 패킷량: {lost}, 패킷 손실률: {loss, number, percent}",
-		"Desktop.OpenKeyboard": "키보드 꺼내기",
-		"Desktop.FollowCursor.On": "추적커서 켜기",
-		"Desktop.FollowCursor.Off": "추적커서 끄기",
+		"Desktop.OpenKeyboard": "가상키보드",
+		"Desktop.FollowCursor.On": "커서추적 켜기",
+		"Desktop.FollowCursor.Off": "커서추적 끄기",
 		"Desktop.Brightness" : "밝기: {n,number,percent}",
 		"Desktop.Opacity" : "불투명도: {n,number,percent}",
-		"Desktop.LegacyInputMode.On" : "물리적 입력모드 켜기",
-		"Desktop.LegacyInputMode.Off" : "물리적 입력모드 끄기",
+		"Desktop.LegacyInputMode.On" : "키코드 입력모드",
+		"Desktop.LegacyInputMode.Off" : "간접 입력모드",
 		
 		"Interaction.CopyLink" : "링크 복사",
 		"Inspector.Material.VariantInfo" : "변수정보: {variantID} (Raw: {rawVariantID})",
@@ -1258,6 +1258,20 @@
 		"Inspector.Rig.CleanupBoneColliders" : "본(Bone) 콜라이더 삭제",
         	"Inspector.Rig.GenerateDebugVisuals" : "디버그 시각화 생성",
 		"Inspector.Rig.ClearDebugVisuals" : "디버그 시각화 삭제",
+		
+		"Tools.StreamAudio" : "음향송출기",
+		"Tools.StreamAudio.Start" : "송출시작",
+		"Tools.StreamAudio.Bitrate" : "전송량: {bitrate} kbps",
+		"Tools.StreamAudio.Title" : "{username}의 음향송출",
+		"Tools.StreamAudio.Spatialized" : "국지송출",
+		"Tools.StreamAudio.Broadcast" : "송출",
+		"Tools.StreamAudio.PlayForOwner.Off" : "혼자듣기",
+		"Tools.StreamAudio.PlayForOwner.On" : "같이듣기",
+		
+		"Permissions.NotAllowedToSpawn" : "생성 작업이 금지된 월드입니다.",
+		"Permissions.NotAllowedToSave" : "저장(Save) 작업이 금지된 월드입니다.",
+		"Permissions.NotAllowedToSwapAvatar" : "지정된 아바타만 사용가능한 월드입니다.",
+		"Inspector.AudioStream.BufferStats" : "평균코딩속도: {avgCodec}/s, 평균읽기속도: {avgRead}/s, 평균쓰기속도: {avgWritten}/s",
 		
 		"Dummy": "더미"
 	}
