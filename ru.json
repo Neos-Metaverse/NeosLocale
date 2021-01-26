@@ -274,6 +274,15 @@
         "Tools.DepositNCR" : "Вложить NCR",
         "Tools.WithdrawNCR" : "Изъять NCR",
         "Tools.Debug" : "Отладка",
+        "Tools.StreamAudio" : "Стриминг аудио",
+
+        "Tools.StreamAudio.Start" : "Начать трансляцию",
+        "Tools.StreamAudio.Bitrate" : "Битрейт: {bitrate} кбит/с",
+        "Tools.StreamAudio.Title" : "Аудио поток {username}",
+        "Tools.StreamAudio.Spatialized" : "Пространственный",
+        "Tools.StreamAudio.Broadcast" : "Широковещательный",
+        "Tools.StreamAudio.PlayForOwner.Off" : "Проигрывать для владельца: Выкл",
+        "Tools.StreamAudio.PlayForOwner.On" : "Проигрывать для владельца: Вкл",
 
         "Options.FreeformDash.On" : "Свободное Меню: Вкл",
         "Options.FreeformDash.Off" : "Свободное Меню: Выкл",
@@ -344,6 +353,10 @@
         "Session.Permission.Host" : "По умолчанию Хост:",
         "Session.Permission.PermissionOverrideCount" : "Переопределения разрешений: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Отменить пользовательские переопределения",
+
+        "Permissions.NotAllowedToSpawn" : "Вам запрещено создавать здесь предметы",
+        "Permissions.NotAllowedToSave" : "Вам запрещено сохранять объекты из этого мира",
+        "Permissions.NotAllowedToSwapAvatar" : "Вам запрещено использовать здесь свой аватар",
 
         "User.Actions.Silence" : "Заглушить в мире",
         "User.Actions.Mute" : "Заглушить",
@@ -1051,6 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "Доступно сэмплов: {samples}, Пропущено: {missed}, Длина: {length}, Глобальный индекс: {index}",
         "Inspector.AudioStream.EncodeState" : "Доступно к кодированию: {samples}, Размер фрейма: {frame} (Max: {max_frame}), Частота дискретизации: {rate}",
         "Inspector.AudioStream.DecodeState" : "Всего пакетов: {total}, Всего потеряно пакетов: {lost}, Потеря пакетов: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "Срд кодек: {avgCodec}/с, Срд чтение: {avgRead}/с, Срд запись: {avgWritten}/с",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Настроить по потомкам",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Настроить по потомкам (принудительно для всех)",
