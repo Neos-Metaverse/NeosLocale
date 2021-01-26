@@ -13,5 +13,9 @@ Tools.StreamAudio.PlayForOwner.On
 Permissions.NotAllowedToSpawn  
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
+Inspector.Texture.Saturation  
+Inspector.Texture.AdjustSaturation  
+Inspector.Texture.Value  
+Inspector.Texture.AdjustValue  
 Inspector.AudioStream.BufferStats  
 

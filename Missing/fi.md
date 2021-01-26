@@ -494,6 +494,10 @@ Inspector.Texture.SwapRB
 Inspector.Texture.SwapGB  
 Inspector.Texture.Hue  
 Inspector.Texture.ShiftHue  
+Inspector.Texture.Saturation  
+Inspector.Texture.AdjustSaturation  
+Inspector.Texture.Value  
+Inspector.Texture.AdjustValue  
 Inspector.Texture.Gamma  
 Inspector.Texture.AdjustGamma  
 Inspector.Texture.LongestSide  

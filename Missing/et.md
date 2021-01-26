@@ -77,6 +77,10 @@ Settings.Locale.SelectLanguageHeader
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
+Inspector.Texture.Saturation  
+Inspector.Texture.AdjustSaturation  
+Inspector.Texture.Value  
+Inspector.Texture.AdjustValue  
 Inspector.Material.VariantInfo  
 Inspector.Material.WaitingForApply  
 Inspector.Audio.BakeAudio  

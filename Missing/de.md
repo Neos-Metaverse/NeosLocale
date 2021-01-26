@@ -20,6 +20,10 @@ Importer.Model.Advanced.PreferSpecular
 CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.AutosaveScreenshotPath  
 Settings.Audio.NoiseSupression  
+Inspector.Texture.Saturation  
+Inspector.Texture.AdjustSaturation  
+Inspector.Texture.Value  
+Inspector.Texture.AdjustValue  
 Inspector.Material.VariantInfo  
 Inspector.Material.WaitingForApply  
 Inspector.Audio.DenoiseRNNoise  
