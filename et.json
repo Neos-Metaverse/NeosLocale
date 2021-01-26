@@ -155,7 +155,7 @@
         "World.Actions.Discard" : "Tühista muudatused",
         "World.Actions.Clone" : "Kloneeri maailma",
         "World.Actions.Delete" : "Kustuta maailma",
-        "World.Actions.ConfirmDelete" : "Kinnita kustutamist",
+        "World.Actions.ConfirmDelete" : "Kinnita kustutamine",
         "World.Actions.ReallyConfirmDelete" : "KUSTUTA IGAVESTI",
         "World.Actions.Overwrite" : "Kirjuta üle kui {name}",
         "World.Actions.ConfirmOverwrite" : "Kinnita ÜLEKIRJUTAMINE",
