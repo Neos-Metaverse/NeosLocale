@@ -274,6 +274,15 @@
         "Tools.DepositNCR" : "Vložit NCR",
         "Tools.WithdrawNCR" : "Vyzvednout NCR",
         "Tools.Debug" : "Diagnostika",
+        "Tools.StreamAudio" : "Streamovat audio",
+
+        "Tools.StreamAudio.Start" : "Spustit streamování",
+        "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "Audio stream uživatele {username}",
+        "Tools.StreamAudio.Spatialized" : "Spatializace: Zapnuta",
+        "Tools.StreamAudio.Broadcast" : "Spatializace: Vypnuta",
+        "Tools.StreamAudio.PlayForOwner.Off" : "Přehrávat pro vlastníka: Vypnuto",
+        "Tools.StreamAudio.PlayForOwner.On" : "Přehrávat pro vlastníka: Zapnuto",
 
         "Options.FreeformDash.On" : "Nakláněcí dash: Zapnutý",
         "Options.FreeformDash.Off" : "Nakláněcí dash: Vypnutý",
@@ -344,6 +353,10 @@
         "Session.Permission.Host" : "Výchozí host:",
         "Session.Permission.PermissionOverrideCount" : "Počet uživatelů s individuálními právy: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Smazat individuální práva",
+
+        "Permissions.NotAllowedToSpawn" : "Zde vám není dovoleno spawnovat objekty.",
+        "Permissions.NotAllowedToSave" : "Není vám dovoleno ukládat objekty v tomto světě.",
+        "Permissions.NotAllowedToSwapAvatar" : "Zde vám není dovoleno použít vlastního avatara.",
 
         "User.Actions.Mute" : "Ztlumit",
         "User.Actions.Jump" : "Skočit",
@@ -1051,6 +1064,7 @@
         "Inspector.AudioStream.BufferState" : "Dostupné vzorky: {samples}, Ztracené: {missed}, Délka: {length}, Globální index: {index}",
         "Inspector.AudioStream.EncodeState" : "Dostupné k encodování: {samples}, Velikost snímku: {frame} (Max: {max_frame}), Vzorkovací frekvence: {rate}",
         "Inspector.AudioStream.DecodeState" : "Celkem paketů: {total}, Celkový počet ztracených paketů: {lost}, Ztráta paketů: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "Prům. kodek: {avgCodec}/s, Prům. čtení: {avgRead}/s, Prům. zápis: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Nastavit z Potomků",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Nastavit z Potomků (vynutit všude)",
