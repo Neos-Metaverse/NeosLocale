@@ -1273,6 +1273,11 @@
 		"Permissions.NotAllowedToSwapAvatar" : "지정된 아바타만 사용가능한 월드입니다.",
 		"Inspector.AudioStream.BufferStats" : "평균코딩속도: {avgCodec}/s, 평균읽기속도: {avgRead}/s, 평균쓰기속도: {avgWritten}/s",
 		
+		"Inspector.Texture.Saturation" : "채도:",
+        	"Inspector.Texture.AdjustSaturation" : "채도 조정",
+        	"Inspector.Texture.Value" : "값:",
+        	"Inspector.Texture.AdjustValue" : "값 조정",
+		
 		"Dummy": "더미"
 	}
 }
