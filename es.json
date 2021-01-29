@@ -71,6 +71,7 @@
         "Interaction.SaveAsScreenshot" : "Guardar captura de pantalla",
         "Interaction.ImportFile" : "Importar Archivo",
         "Interaction.ExportFile" : "Exportar Archivo",
+        "Interaction.CopyLink" : "Copiar Enlace",
 
         "Dash.Screens.Home" : "Inicio",
         "Dash.Screens.Worlds" : "Mundos",
@@ -273,6 +274,15 @@
         "Tools.DepositNCR" : "Depositar NCR",
         "Tools.WithdrawNCR" : "Retirar NCR",
         "Tools.Debug" : "Depurar",
+        "Tools.StreamAudio" : "Transmitir Audio",
+
+        "Tools.StreamAudio.Start" : "Iniciar Transmisión",
+        "Tools.StreamAudio.Bitrate" : "Tasa de bits: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "Transmisión de audio de {username}",
+        "Tools.StreamAudio.Spatialized" : "Espacializado",
+        "Tools.StreamAudio.Broadcast" : "Global",
+        "Tools.StreamAudio.PlayForOwner.Off" : "Reproducir para dueño: Desactivado",
+        "Tools.StreamAudio.PlayForOwner.On" : "Reproducir para dueño: Activado",
 
         "Options.FreeformDash.On" : "Tablero Libre: Sí",
         "Options.FreeformDash.Off" : "Tablero Libre: No",
@@ -343,6 +353,10 @@
         "Session.Permission.Host" : "Anfitrión:",
         "Session.Permission.PermissionOverrideCount" : "Permisos Sobreescritos: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Borrar permisos sobreescritos",
+
+        "Permissions.NotAllowedToSpawn" : "No posee permisos para crear objetos de su inventario aquí.",
+        "Permissions.NotAllowedToSave" : "No posee permisos para guardar objetos en este mundo.",
+        "Permissions.NotAllowedToSwapAvatar" : "No posee permisos para usar un avatar personalizado aquí.",
 
         "User.Actions.Silence" : "Silenciar",
         "User.Actions.Mute" : "Enmudecer",
@@ -879,9 +893,9 @@
         "Settings.Audio.SelectInputDevice" : "Seleccionar Dispositivo de Entrada de Audio",
         "Settings.Audio.TestInput" : "Probar entrada de audio:",
         "Settings.Audio.TestDescription" : "Reproduciremos el sonido que ingresa al dispositivo de entrada de audio seleccionado, para que verifique si es el correcto.",
-        "Settings.Audio.StartTest" : "Probar Micrófono",
+        "Settings.Audio.StartTest" : "Escuchar dispositivo\n<size=50%>(probar micrófono / entrada de audio)</size>",
         "Settings.Audio.StopTest" : "Dejar de Probar",
-        "Settings.Audio.Monitoring" : "Monitoreo de Micrófono:",
+        "Settings.Audio.Monitoring" : "Monitoreo de Entrada de Audio:",
 
         "Settings.Locale.ChangeLanguage" : "Cambiar Idioma",
         "Settings.Locale.SelectLanguageHeader" : "Selecciona tu idioma:",
@@ -1007,6 +1021,10 @@
         "Inspector.Texture.SwapGB" : "Intercambiar G y B",
         "Inspector.Texture.Hue" : "Tono:",
         "Inspector.Texture.ShiftHue" : "Desplazar Tono",
+        "Inspector.Texture.Saturation" : "Saturación:",
+        "Inspector.Texture.AdjustSaturation" : "Ajustar Saturación",
+        "Inspector.Texture.Value" : "Valor:",
+        "Inspector.Texture.AdjustValue" : "Ajustar Valor",
         "Inspector.Texture.Gamma" : "Gamma:",
         "Inspector.Texture.AdjustGamma" : "Ajustar Gamma",
         "Inspector.Texture.LongestSide" : "Lado Más Largo:",
@@ -1021,6 +1039,9 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnóstico: Flotantes inválidos",
         "Inspector.Texture.GenerateMetadata" : "Diagnóstico: Generar Metadatos del Mapa de Bits",
+
+        "Inspector.Material.VariantInfo" : "Variante: {variantID} (Original: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "Esperando aplicación: {waiting}",
 
         "Inspector.Audio.BakeAudio" : "Renderizar Clip de Audio",
         "Inspector.Audio.FormatInfo" : "Frecuencia de Muestreo: {rate} Hz, Canales: {channels} ({channel_count})",
@@ -1047,6 +1068,7 @@
         "Inspector.AudioStream.BufferState" : "Muestras disponibles: {samples}, Perdidas: {missed}, Longitud: {length}, Índice Global: {index}",
         "Inspector.AudioStream.EncodeState" : "Muestras a codificar: {samples}, Tamaño de Marco: {frame} (Máx: {max_frame}), Frecuencia de Muestreo: {rate}",
         "Inspector.AudioStream.DecodeState" : "Paquetes Totales: {total}, Paquetes Perdidos: {lost}, Pérdida de Paquetes: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "Promedio Codec: {avgCodec}/s, Promedio Leídos: {avgRead}/s, Promedio Escritos: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Configurar Según Hijos",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Configurar Según Hijos (forzar todos)",
@@ -1056,6 +1078,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Colisionadores y Agarres -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Añadir colisionadores fijos según jerarquía (usando raíz del objeto)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Siempre agarrar el último hueso",
+
+        "Inspector.Rig.CleanupBoneColliders" : "Limpiar colisionadores de huesos",
+        "Inspector.Rig.GenerateDebugVisuals" : "Generar visualización para depurar",
+        "Inspector.Rig.ClearDebugVisuals" : "Quitar visualización para depurar",
 
         "Wizard.General.ProcessRoot" : "Raíz del Procesado:",
         "Wizard.General.Result" : "Resultado:",
