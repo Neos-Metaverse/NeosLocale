@@ -1,0 +1,94 @@
+Neos VR is a metaverse engineered for the unknown! It’s one of the most versatile and feature rich metaverses for virtual reality, designed so everybody can find something interesting or useful to do in a social setting.
+
+It serves as a casual hangout experience with multimedia and games, creator, builder and developer sandbox, professional work tool, educational experience and much more!
+
+We believe that social VR should be part of everyone’s life, no matter what they do and it should enhance how they communicate and share their ideas and lives with others. We have built Neos to give your mind superpowers.
+
+Come join our diverse and creative community and bring your own uniqueness to the shared universe! Here are some of the major features that Neos VR offers:
+
+[h2]State of the art avatar system[/h2]
+
+[list][*]Import, build and [b]setup your avatar completely in-game[/b]
+[*]Fully configurable [b]full body IK with up to 11 tracking points[/b] (head, hands, hips, feet, chest, elbows and knees)
+[*][b]Blendshape[/b] support with automatic viseme setup
+[*][b]Interactive dynamic bones[/b] with collisions and grabbing
+[*]Quickly [b]add accessories[/b] or modify in-game - adding a hat is as simple as putting it on your head
+[*][b]Visual scripting[/b] to add unique customizations and behaviors[/list]
+
+[h2]Social Features[/h2]
+
+[list][*][b]Virtual camera[b] - captures photos, stereo, 360 or even object cutouts, with configurable resolution
+[*]Easy media sharing - [b]copy and paste video files[b] (including YouTube links), music, pictures and 3D models instantly into any world for free. Everything is fully synchronized
+[*][b]Friend system[b] - see when your friends are online and which worlds are they in
+[*]Messaging system - [b]send messages, invites and even arbitrary objects[b] in-game
+[*][b]Twitch integration[/b] for next level interaction with audience - chat with custom emote support and visual scripting access for interactive worlds[/list]
+
+[h2]Advanced locomotion system[/h2]
+
+[list][*][b]Walking, sliding, zero-G[/b], spherical gravity and more
+[*][b]Climbing[/b] both environment and other players
+[*][b]Teleporters, force fields, springs, portals[/b] and custom coordinate spaces
+[*]Quick in-game scaling - [b]shrink or grow to any scale![/b]
+[*][b]Highly configurable and scriptable[/b] - build jet packs, swinging ropes, gravity lifts and more completely in-game[/list]
+
+[h2]Dynamic & unique experience every day[/h2]
+
+[list][*][b]Inventory system[/b] - save and spawn anything anywhere! You’re not limited by what the creator of the world has included with it
+[*][b]Everything is editable![/b] Unless the world owner has locked things down, any world and item can be modified, remixed and extended
+[*]Multi-instancing - you can be connected [b]in multiple worlds at the same time[/b] and instantly switch between them like tabs in a web-browser
+[*][b]Fixes and edits[/b] can be done [b]within seconds/minutes in-game[/b] - no complex and time consuming upload process to go through[/list]
+
+[h2]Creator’s playground[/h2]
+
+[list][*][b]Build everything collaboratively in real time[/b] with your friends without taking your headset off
+[*][b]Simple creative tools[/b] - brushes, material guns, shape tools
+[*][b]Advanced building tools[/b] - scene / component inspector, editing gizmos
+[*][b]Powerful visual scripting language[/b] (LogiX) capable of easily adding custom interactions to literally anything, to building complex systems, games and simulations
+[*][b]Import game assets[/b] as you work - over 40 3D model formats (including FBX, Blend, OBJ), textures/images, audio[/list]
+
+[h2]Powerful work tool[/h2]
+
+[list][*][b]Slice any imported 3D model[/b] to aid with visualization
+[*][b]Volumetric data visualization[/b] (e.g. CT or MRI) with slicing and filtering
+[*][b]Export anything you’ve created[/b] or modified as 3D model and make Neos part of your pipeline
+[*][b]Basic in-game texture & mesh processing[/b] for common modifications
+[*][b]Advanced in-game camera with control panel[/b], anchors allows to easily get good shots for video clips or live streams[/list]
+
+[h2]You are in control of your own experience[/h2]
+
+[list][*][b]Permission system[/b] to restrict what others can do in your worlds
+[*][b]Private sessions[/b] - with P2P hosting and secure authentication
+[*]Effortless self hosted sessions 
+[*][b]Headless server[/b] for setting up custom [b]dedicated servers[/b] (currently in private beta)[/list]
+
+[h2]Wide hardware support[/h2]
+
+[list][*][b]PCVR & Mobile VR[/b] with crossplay
+[*]Full Index Controller support with [b]finger tracking[/b]
+[*][b]Leap Motion support[/b] with full body avatars
+[*][b]Eye tracking support[/b] (Vive Pro Eye) - look direction, eye closing, pupil dilation
+[*][b]Lip tracking support[/b] (HTC Lip Tracking module) - track your mouth, cheeks and tongue on  your avatar or utilize the raw data[/list]
+
+[h2]Rapid Development[/h2]
+
+[list][*]The [b]fastest growing social VR platform[/b]
+[*][b]New major features every month[/b]
+[*][b]Updates and bug fixes (usually) every day[/b] - many minor issues are fixed within a day
+[*][b]Community driven[/b] - your feedback and support shapes the development of this project![/list]
+
+Neos VR is a labour of love for us and our goal is to build a metaverse the way we imagine it should be, without influences of large corporations. We’re a very small and nimble team, but we have gotten this far thanks to our amazing community and Patreon supporters, who keep this project going.
+
+If you enjoy what we do, please enjoy supporting the development. Here are some of the things you’d be contributing to:
+
+[h2]What’s coming in the future?[/h2]
+
+[list][*]UI/UX redesign 
+[*]Full rigidbody physics
+[*]Terrain system
+[*]Timeline animation system
+[*]Screenshare
+[*]Advanced optimizations
+[*]New building tools
+[*]AR support
+[*]Proper Desktop support
+[*]And more![/list]

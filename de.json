@@ -888,7 +888,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "Keine Sprachlautstärke-Normalisierung",
         "Settings.Audio.NoiseGateThreshold" : "Hintergrundlautstärke-Grenzwert: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalisierungs-Grenzwert: {n}",
-        "Settings.Audio.NoiseSupression" : "Noise Supression Filter (RNNoise)",
+        "Settings.Audio.NoiseSupression" : "Noise Supression Filter (RNNoise)
         "Settings.Audio.InputDevice" : "Aufnahmegerät:",
         "Settings.Audio.SelectInputDevice" : "Aufnahmegerät wählen",
         "Settings.Audio.TestInput" : "Testen Sie Ihr Mikrofon:",
@@ -1082,6 +1082,8 @@
         "Inspector.Rig.CleanupBoneColliders" : "Bereinige Knochen kollisionen",
         "Inspector.Rig.GenerateDebugVisuals" : "Generiere Debug Darstellung",
         "Inspector.Rig.ClearDebugVisuals" : "Entferne Debug Darstellung",
+        "Inspector.AudioStream.BufferState" : "Verfügbare Samples: {samples}, Verloren: {missed}, Länge: {length}, Globaler Index: {index}",
+        "Inspector.AudioStream.EncodeState" : "Bereit zum Kodieren: {samples}, Frame-Größe: {frame} (Max: {max_frame}), Sample-Rate: {rate}",
 
         "Wizard.General.ProcessRoot" : "Root verarbeiten:",
         "Wizard.General.Result" : "Ergebnis:",
@@ -1145,7 +1147,7 @@
         "Desktop.LegacyInputMode.Off" : "Abwärstkompatible Eingabe: Aus",
         "Desktop.Brightness" : "Helligkeit: {n,number,percent}",
         "Desktop.Opacity" : "Sichtbarkeit: {n,number,percent}",
-
+      
         "Tutorial.Welcome.WelcomeTo" : "Willkommen bei",
         "Tutorial.Welcome.LetsStart" : "Los gehts!",
         "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>ACHTUNG:</b></color> Sie spielen im Bildschirm-Modus. Dieser wird derzeit nicht offiziell unterstützt und dient hauptsächlich Entwicklungszwecken.<br><br>Einiges wird eventuell nicht funktionieren oder schwer zu bedienen sein.<br><br><b>Neos ist derzeit nur für VR vorgesehen.</b><br><br>Ein echter Desktopmodus ist für die Zukunft geplant.",

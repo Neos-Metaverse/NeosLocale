@@ -1,0 +1,91 @@
+{
+    "localeCode" : "sv",
+    "authors" : ["Coffee", "Swingly", "Rulle"],
+    "messages" : 
+    {
+        "General.OK" : "OK",
+        "General.Cancel" : "Avbryt",
+        "General.Continue" : "Fortsätt",
+        "General.Next" : "Nästa",
+        "General.Back" : "Tillbaka",
+        "General.Confirm" : "Säkert?",
+        "General.Loading" : "Läser in...",
+        "General.Processing" : "Bearbetar...",
+        "General.FAILED" : "Misslyckades",
+        "General.Reset" : "Återställ",
+        "General.WorldOpenConfirm" : "Öppna värld?",
+        "General.Saved" : "Sparad!",
+        "General.Done" : "Klar!",
+        "General.CopiedToClipboard" : "Kopierad!",
+        "General.CopiedToClipboardLong" : "Kopierad till urklipp!",
+
+        "General.UI.SearchPrompt" : "Sök...",
+        "General.UI.SearchPromptLong" : "Skriv för att söka...",
+
+        "General.Sort.Ascending" : "Uppåtgående",
+        "General.Sort.Descending" : "Nedåtgående",
+        
+        "Locomotion.Noclip.Name" : "Noclip",
+        "Locomotion.Noclip.Description" : "Simpelt no-clip flygläge, idealt för redigering.",
+        "Locomotion.Teleport.Name" : "Teleport",
+        "Locomotion.Teleport.Description" : "Teleportering efter båge, för bekväm rörelse.",
+        "Locomotion.Fly.Name" : "Flyg",
+        "Locomotion.Fly.Description" : "Fysiskt Flygläge",
+        "Locomotion.WalkRun.Name" : "Gå/Spring",
+        "Locomotion.WalkRun.Description" : "Fysiskt gående, springande och hoppande.",
+        "Locomotion.WalkRunGripping.Name" : "Gå/Spring (med klättring)",
+        "Locomotion.WalkRunGripping.Description" : "Fysiskt gående, springande, hoppande samt klättring.",
+        "Locomotion.ZeroG.Name" : "Zero-G",
+        "Locomotion.ZeroG.Description" : "Viktlös fysisk förflyttning",
+        "Locomotion.GrabWorld.Name" : "Greppa Värld",
+        "Locomotion.GrabWorld.Description" : "Skapar ett världsankare med referensen och flyttar användaren relativt till det.",
+        "Locomotion.Slide.Name" : "Glid",
+        "Locomotion.Slide.Description" : "Simpelt glidförflyttningsläge som snäpper till yta om närvarande, flyger annars.",
+
+        "Interaction.Destroy" : "Förstör",
+        "Interaction.Duplicate" : "Duplicera",
+        "Interaction.Undo" : "Ångra",
+        "Interaction.Redo" : "Gör Om",
+        "Interaction.EquipTool" : "Montera",
+        "Interaction.DequipTool" : "Avmontera",
+        "Interaction.ScalingEnabled" : "Skalning På",
+        "Interaction.ScalingDisabled" : "Skalning Av",
+        "Interaction.ResetScale" : "Återställ Skala",
+        "Interaction.LaserEnabled" : "Laser På",
+        "Interaction.LaserDisabled" : "Laser Av",
+        "Interaction.Locomotion" : "Förflyttning",
+        "Interaction.Locomotion.None" : "Ingen",
+
+        "Interaction.NamedEquipTool" : "Montera {name}",
+        "Interaction.NamedEquipTool.Default" : "Verktyg",
+
+        "Interaction.EnterAnchor" : "Stig På Ankare",
+        "Interaction.ExitAnchor" : "Stig Av Ankare",
+
+        "Interaction.EquipAvatar" : "Använd Avatar",
+
+        "Dash.Screens.Home" : "Hem",
+        "Dash.Screens.Worlds" : "Världar",
+        "Dash.Screens.Contacts" : "Kontakter",
+        "Dash.Screens.Inventory" : "Inventarie",
+        "Dash.Screens.Session" : "Session",
+        "Dash.Screens.FileBrowser" : "<nobr>Filhanterare",
+        "Dash.Screens.Settings" : "Inställningar",
+        "Dash.Screens.Exit" : "Gå Ut",
+
+        "Dash.Actions.PasteFromClipboard" : "Klistra in från urklipp",
+
+        "Dash.Actions.CoreWorldsHeader" : "Kärnvärldar",
+        "Dash.Actions.ContentHub" : "Innehållshubb",
+        "Dash.Actions.MTC" : "Metaverse Träningscenter. <size=75%>(Guider)</size>",
+        "Dash.Actions.CloudHome" : "Mitt Moln Hem",
+
+        "Dash.Exit.Header" : "Lämna Neos",
+        "Dash.Exit.ExitAndSave" : "Lämna och Spara Hem",
+        "Dash.Exit.ExitAndDiscard" : "Lämna och Avskeda Hem",
+        "Dash.Exit.ThankYou" : "Tack för att du använder Neos!",
+        "Dash.Exit.SubmittedBy" : "Framlagt av: {name}",
+
+        "Dummy" : "Dummy"
+    }
+}
