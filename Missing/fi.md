@@ -17,6 +17,7 @@ Permissions.NotAllowedToSpawn
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
 Undo.Wiggler  
+Tooltips.Dev.ConfirmDestroySelected  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  

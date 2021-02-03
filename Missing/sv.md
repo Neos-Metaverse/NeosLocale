@@ -323,6 +323,7 @@ Tooltips.Dev.DevMode.On
 Tooltips.Dev.OpenInspector  
 Tooltips.Dev.DeselectAll  
 Tooltips.Dev.DestroySelected  
+Tooltips.Dev.ConfirmDestroySelected  
 Tooltip.Logix.NodeBrowser  
 Tooltip.Logix.UnpackChildren  
 Tooltip.Logix.SetPackingRoot  

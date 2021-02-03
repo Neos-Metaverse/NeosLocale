@@ -15,6 +15,7 @@ Permissions.NotAllowedToSpawn
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
 Contacts.Bot  
+Tooltips.Dev.ConfirmDestroySelected  
 Importer.Model.Advanced.PreferSpecular  
 CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.AutosaveScreenshotPath  

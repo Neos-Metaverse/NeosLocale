@@ -13,6 +13,7 @@ Tools.StreamAudio.PlayForOwner.On
 Permissions.NotAllowedToSpawn  
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
+Tooltips.Dev.ConfirmDestroySelected  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  

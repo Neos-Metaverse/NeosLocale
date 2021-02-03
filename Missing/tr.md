@@ -35,6 +35,7 @@ Permissions.NotAllowedToSave
 Permissions.NotAllowedToSwapAvatar  
 Contacts.InHiddenFriendsOfFriends  
 Contacts.Bot  
+Tooltips.Dev.ConfirmDestroySelected  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  

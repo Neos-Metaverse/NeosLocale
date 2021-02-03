@@ -51,6 +51,7 @@ Contacts.InHiddenFriendsOfFriends
 Contacts.InLAN  
 Contacts.Bot  
 Notifications.VoiceMessage  
+Tooltips.Dev.ConfirmDestroySelected  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  

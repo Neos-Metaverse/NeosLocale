@@ -54,6 +54,7 @@ Contacts.InHiddenFriendsOfFriends
 Contacts.InLAN  
 Contacts.Bot  
 Notifications.VoiceMessage  
+Tooltips.Dev.ConfirmDestroySelected  
 Tooltip.Logix.NodeBrowser  
 Tooltip.Logix.UnpackChildren  
 Tooltip.Logix.SetPackingRoot  

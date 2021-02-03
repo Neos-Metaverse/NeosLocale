@@ -442,6 +442,7 @@
         "Tooltips.Dev.OpenInspector" : "Open Inspector",
         "Tooltips.Dev.DeselectAll" : "Deselect All",
         "Tooltips.Dev.DestroySelected" : "Destroy Selected",
+        "Tooltips.Dev.ConfirmDestroySelected" : "REALLY Destroy Selected",
 
         "Tooltip.Logix.NodeBrowser" : "Node Browser",
         "Tooltip.Logix.UnpackChildren" : "Unpack children & connected nodes",
