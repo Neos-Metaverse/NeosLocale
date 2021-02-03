@@ -715,7 +715,7 @@
 
         "FullBody.CalibrateTrackersHeader" : "キャリブレート トラッカー",
         "FullBody.CalibrateTrackersInstructions" : "トラッカーに対して青いボディパーツを<br>掴んで配置し、オフセットを調整します。<br>体のトラッカーの位置と一致するようにしてください。<br>このツールを開くといつでも<br>キャリブレーションを調整できます。",
-        "FullBody.UseSymmetry" : "対象モード",
+        "FullBody.UseSymmetry" : "対称モード",
         "FullBody.ShowBodyOverlay" : "ボディオーバーレイを表示",
         "FullBody.HeightCompensationInstructions" : "マネキンの身長が高すぎるか、低すぎる場合は、<br>身長を調整してください",
         "FullBody.RecalibratePrompt" : "トラッカーが見つかりませんか?",
