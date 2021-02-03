@@ -442,6 +442,7 @@
         "Tooltips.Dev.OpenInspector": "Malfermu inspektiston",
         "Tooltips.Dev.DeselectAll": "Malelekti ĉiujn",
         "Tooltips.Dev.DestroySelected": "Detrui elektitajn",
+        "Tooltips.Dev.ConfirmDestroySelected" : "VERE Detruu Elektitajn",
 
         "Tooltip.Logix.NodeBrowser": "Noda Foliumilo",
         "Tooltip.Logix.UnpackChildren": "Malpaki infanojn kaj konektitajn nodojn",
