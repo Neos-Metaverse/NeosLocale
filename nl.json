@@ -71,6 +71,7 @@
         "Interaction.SaveAsScreenshot" : "Sla op als screenshot",
         "Interaction.ImportFile" : "Importeer Bestand",
         "Interaction.ExportFile" : "Exporteer Bestand",
+        "Interaction.CopyLink" : "Kopieer link",
 
         "Dash.Screens.Home" : "Thuis",
         "Dash.Screens.Worlds" : "Werelden",
@@ -273,6 +274,15 @@
         "Tools.DepositNCR" : "Stort NCR",
         "Tools.WithdrawNCR" : "NCR Opnemen",
         "Tools.Debug" : "Debug",
+        "Tools.StreamAudio" : "Stream Audio",
+
+        "Tools.StreamAudio.Start" : "Begin met streamen",
+        "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "{username} Audio Stream",
+
+
+        "Tools.StreamAudio.PlayForOwner.Off" : "Afspelen voor eigenaar: Uit",
+        "Tools.StreamAudio.PlayForOwner.On" : "Afspelen voor eigenaar: Aan",
 
         "Options.FreeformDash.On" : "Freeform Dash: Aan",
         "Options.FreeformDash.Off" : "Freeform Dash: Uit",
@@ -343,6 +353,10 @@
         "Session.Permission.Host" : "Standaard Host:",
         "Session.Permission.PermissionOverrideCount" : "Rechten Overschrijven: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Wis Gebruikersoverschrijvingen",
+
+        "Permissions.NotAllowedToSpawn" : "Je mag hier geen dingen spawnen.",
+        "Permissions.NotAllowedToSave" : "Je mag in deze wereld geen voorwerpen opslaan.",
+        "Permissions.NotAllowedToSwapAvatar" : "Je mag hier niet wisselen naar een aangepaste avatar.",
 
         "User.Actions.Silence" : "Silence",
         "User.Actions.Mute" : "Dempen",
@@ -603,6 +617,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "Max Textuurgrootte",
         "Importer.Model.Advanced.ImageFormat" : "Afbeelding Formaat: ",
         "Importer.Model.Advanced.Material" : "Materiaal: ",
+        "Importer.Model.Advanced.PreferSpecular" : "Geef de voorkeur aan Speculair",
         "Importer.Model.Advanced.AlignAxis" : "Lijn as uit: ",
 
         "Importer.Model.Advanced.Normals" : "Bereken Normals",
@@ -763,6 +778,7 @@
         "CameraControl.Settings.ShowFrustum" : "Laat Frustum Zien",
         "CameraControl.Settings.PhotoTimer" : "Foto Timer",
         "CameraControl.Settings.ShowLiveBadge" : "Laat Live Badge Zien",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Audio vanuit het camera standpunt",
 
         "CameraControl.OpenCloseUsers" : "Gebruikers",
         "CameraControl.CreateCameraAnchor" : "Maak Camera Anker",
@@ -877,9 +893,9 @@
         "Settings.Audio.SelectInputDevice" : "Selecteer Audio Invoer Apparaat",
         "Settings.Audio.TestInput" : "Test je Audio Invoer:",
         "Settings.Audio.TestDescription" : "We spelen het geluid van het geselecteerde audioapparaat naar u terug, zodat u kunt controleren of het correct is.",
-        "Settings.Audio.StartTest" : "Check Microfoon",
+        "Settings.Audio.StartTest" : "Luister naar het apparaat\n<size=50%>(controleer microfoon / audio in)</size>",
         "Settings.Audio.StopTest" : "Stoppen met Testen",
-        "Settings.Audio.Monitoring" : "Microfoon Controleren:",
+        "Settings.Audio.Monitoring" : "Audio-ingang Controleren:",
 
         "Settings.Locale.ChangeLanguage" : "Taal Veranderen",
         "Settings.Locale.SelectLanguageHeader" : "Selecteer je Taal:",
@@ -1005,6 +1021,10 @@
         "Inspector.Texture.SwapGB" : "Verwissel G en B",
         "Inspector.Texture.Hue" : "Tint:",
         "Inspector.Texture.ShiftHue" : "Verschuif tint",
+        "Inspector.Texture.Saturation" : "Saturatie:",
+        "Inspector.Texture.AdjustSaturation" : "Saturatie aanpassen",
+        "Inspector.Texture.Value" : "Waarde:",
+        "Inspector.Texture.AdjustValue" : "Waarde aanpassen",
         "Inspector.Texture.Gamma" : "Gamma:",
         "Inspector.Texture.AdjustGamma" : "Pas gamma aan",
         "Inspector.Texture.LongestSide" : "Langste zijde:",
@@ -1019,6 +1039,9 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnose: ongeldige floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnose: Genereer Bitmap Metadata",
+
+        "Inspector.Material.VariantInfo" : "Variant: {variantID} (Raw: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "Wachten op toepassing: {waiting}",
 
         "Inspector.Audio.BakeAudio" : "Bak Geluids Clip",
         "Inspector.Audio.FormatInfo" : "Voorbeeldssnelheid: {rate} Hz, Kanalen: {channels} ({channel_count})",
@@ -1040,10 +1063,12 @@
         "Inspector.Audio.ToVorbis" : "Converteer naar OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Converteer naar FLAC",
         "Inspector.Audio.DenoiseRNNoise" : "Ruisonderdrukking (RNNoise, geoptimaliseerd voor spraak op 48 kHz)",
+        "Inspector.Audio.ExtractSides" : "Extract Zijkanten (kan vocalen op stereosporen verwijderen)",
 
         "Inspector.AudioStream.BufferState" : "Beschikbare samples: {samples}, gemist: {gemist}, lengte: {length}, globale index: {index}",
         "Inspector.AudioStream.EncodeState" : "Beschikbaar voor encoding: {samples}, framegrootte: {frame} (max: {max_frame}), samplefrequentie: {rate}",
         "Inspector.AudioStream.DecodeState" : "Totaal pakketten: {total}, Totaal verloren pakketten: {lost}, Pakketverlies: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "Gem. Codec: {avgCodec}/s, Gem. gelezen: {avgRead}/s, Gem geschreven: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Stel op van Children",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Stel op van Children (forceer alle)",
@@ -1053,6 +1078,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Colliders & Grijpen -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Voeg vaste colliders toe van de hierarchy (gebruikt object root)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Grijp altijd het laatste bot",
+
+        "Inspector.Rig.CleanupBoneColliders" : "Bone colliders opruimen",
+        "Inspector.Rig.GenerateDebugVisuals" : "Genereer debug visuals",
+        "Inspector.Rig.ClearDebugVisuals" : "Verwijder debug visuals",
 
         "Wizard.General.ProcessRoot" : "Process Root:",
         "Wizard.General.Result" : "Resultaat:",
