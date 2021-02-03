@@ -442,7 +442,7 @@
         "Tooltips.Dev.OpenInspector" : "インスペクターを開く",
         "Tooltips.Dev.DeselectAll" : "すべて選択解除",
         "Tooltips.Dev.DestroySelected" : "選択したものを破棄",
-        "Tooltips.Dev.ConfirmDestroySelected" : "本当に選択したものを破棄します",
+        "Tooltips.Dev.ConfirmDestroySelected" : "本当に破棄しますか？",
 
         "Tooltip.Logix.NodeBrowser" : "ノードブラウザ",
         "Tooltip.Logix.UnpackChildren" : "子と繋がったノードをアンパック",
