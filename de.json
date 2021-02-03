@@ -71,11 +71,13 @@
         "Interaction.SaveAsScreenshot" : "Als Bildschirmfoto speichern",
         "Interaction.ImportFile" : "Datei importieren",
         "Interaction.ExportFile" : "Datei exportieren",
+        "Interaction.CopyLink" : "Link kopieren",
 
         "Dash.Screens.Home" : "Home",
         "Dash.Screens.Worlds" : "Welten",
         "Dash.Screens.Contacts" : "Kontakte",
         "Dash.Screens.Inventory" : "Inventar",
+        "Dash.Screens.Desktop" : "Desktop",
         "Dash.Screens.Session" : "Sitzung",
         "Dash.Screens.FileBrowser" : "Dateien",
         "Dash.Screens.Settings" : "Optionen",
@@ -272,6 +274,15 @@
         "Tools.DepositNCR" : "NCR einzahlen",
         "Tools.WithdrawNCR" : "NCR abheben",
         "Tools.Debug" : "Debuggen",
+        "Tools.StreamAudio" : "Stream Audio",
+
+        "Tools.StreamAudio.Start" : "Starte Streaming",
+        "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "{username} Audio Stream",
+        "Tools.StreamAudio.Spatialized" : "Räumlich",
+        "Tools.StreamAudio.Broadcast" : "Broadcast",
+        "Tools.StreamAudio.PlayForOwner.Off" : "Abspielen für Besitzer: Aus",
+        "Tools.StreamAudio.PlayForOwner.On" : "Abspielen für Besitzer: An",
 
         "Options.FreeformDash.On" : "Freiform-Dash: An",
         "Options.FreeformDash.Off" : "Freiform-Dash: Aus",
@@ -343,6 +354,10 @@
         "Session.Permission.PermissionOverrideCount" : "Rechte-Übersteuerung: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Rechte-Übersteuerung entfernen",
 
+        "Permissions.NotAllowedToSpawn" : "Du bist nicht berechtigt Gegenstände hier zu erstellen.",
+        "Permissions.NotAllowedToSave" : "Du bist nicht berechtigt Gegenstände aus dieser Welt zu speichern.",
+        "Permissions.NotAllowedToSwapAvatar" : "Du bist nicht berechtigt einen personalisierten Avatar zu nutzen.",
+
         "User.Actions.Silence" : "Verstummen",
         "User.Actions.Mute" : "Stummschalten",
         "User.Actions.Jump" : "Springen",
@@ -376,6 +391,7 @@
         "Contacts.RequestIgnored" : "Ignoriert",
         "Contacts.Blocked" : "Blockiert",
         "Contacts.SearchResult" : "Suchergebnis",
+        "Contacts.Bot" : "Bot Konto",
 
         "Notifications.IsOnline" : "Ist jetzt online",
         "Notifications.IsOnlineOnDifferentVersion" : "Ist jetzt online <size=75%>(mit Version: {version})</size>",
@@ -601,6 +617,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "Maximale Texturgröße",
         "Importer.Model.Advanced.ImageFormat" : "Bildformat: ",
         "Importer.Model.Advanced.Material" : "Material: ",
+        "Importer.Model.Advanced.PreferSpecular" : "Bevorzuge spiegelnd (Specular)",
         "Importer.Model.Advanced.AlignAxis" : "Achsenausrichtung: ",
 
         "Importer.Model.Advanced.Normals" : "Normalen berechnen",
@@ -761,6 +778,7 @@
         "CameraControl.Settings.ShowFrustum" : "Zeige Frustum",
         "CameraControl.Settings.PhotoTimer" : "Selbstauslöser",
         "CameraControl.Settings.ShowLiveBadge" : "Zeige Live-Badge",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Ton aus Kamera Perspektive",
 
         "CameraControl.OpenCloseUsers" : "Nutzer",
         "CameraControl.CreateCameraAnchor" : "Ankerpunkt erstellen",
@@ -851,6 +869,7 @@
         "Settings.LegacyWorldSwitcher" : "Aktiviere alten Welten-Wechseler",
         "Settings.FetchIncompatibleSessions" : "Zeige inkompatible Sitzungen",
         "Settings.MaxConcurrentAssetTransfers" : "Max. gleichzeitige Asset-Übertragungen",
+        "Settings.AutosaveScreenshotPath" : "Pfad für Automatisch gespeicherte Screenshots",
 
         "Settings.LaserSmoothing.Header" : "Laser-Glättung",
         "Settings.LaserSmoothing.Speed" : "Glättungsgeschwindigkeit",
@@ -869,6 +888,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "Keine Sprachlautstärke-Normalisierung",
         "Settings.Audio.NoiseGateThreshold" : "Hintergrundlautstärke-Grenzwert: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalisierungs-Grenzwert: {n}",
+        "Settings.Audio.NoiseSupression" : "Noise Supression Filter (RNNoise)",
         "Settings.Audio.InputDevice" : "Aufnahmegerät:",
         "Settings.Audio.SelectInputDevice" : "Aufnahmegerät wählen",
         "Settings.Audio.TestInput" : "Testen Sie Ihr Mikrofon:",
@@ -1001,6 +1021,10 @@
         "Inspector.Texture.SwapGB" : "Tausche G und B",
         "Inspector.Texture.Hue" : "Farbton:",
         "Inspector.Texture.ShiftHue" : "Farbton verschieben",
+        "Inspector.Texture.Saturation" : "Sättigung:",
+        "Inspector.Texture.AdjustSaturation" : "Sättigung Anpassen",
+        "Inspector.Texture.Value" : "Wert:",
+        "Inspector.Texture.AdjustValue" : "Wert Anpassen",
         "Inspector.Texture.Gamma" : "Gamma:",
         "Inspector.Texture.AdjustGamma" : "Gamma anpassen",
         "Inspector.Texture.LongestSide" : "Längste Seite:",
@@ -1016,11 +1040,13 @@
         "Inspector.Texture.InvalidFloats" : "Diagnose: Ungültige floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnose: Generiere Bitmap-Metadaten",
 
+        "Inspector.Material.VariantInfo" : "Variante: {variantID} (Rohwert: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "Warte auf Anwendung: {waiting}",
+
         "Inspector.Audio.BakeAudio" : "Audio-Clip zusammenfügen",
         "Inspector.Audio.FormatInfo" : "Sample-Rate: {rate} Hz, Kanäle: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "Dauer: {duration}, SampleCount: {samples}",
         "Inspector.Audio.EncodingInfo" : "Codec-Info: {info}, Dekodiert: {decoded}",
-
         "Inspector.Audio.Normalize" : "Lautstärke normalisieren",
         "Inspector.Audio.AmplitudeThreshold" : "Amplituden-Grenzwert:",
         "Inspector.Audio.TrimSilence" : "Stille trimmen",
@@ -1035,7 +1061,26 @@
         "Inspector.Audio.ToWAV" : "Konvertiere zu WAV",
         "Inspector.Audio.ToVorbis" : "Konvertiere zu OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konvertiere zu FLAC",
+        "Inspector.Audio.DenoiseRNNoise" : "Entrauschen (RNNoise, optimiert für Stimmen um 48 kHz)",
+        "Inspector.Audio.ExtractSides" : "Extrahiere Seiten (kann Stimmen aus Stereospur entfernen)",
 
+        "Inspector.AudioStream.BufferState" : "Verfügbare Samples: {samples}, Verloren: {missed}, Länge: {length}, Globaler Index: {index}",
+        "Inspector.AudioStream.EncodeState" : "Bereit zum Kodieren: {samples}, Frame-Größe: {frame} (Max: {max_frame}), Sample-Rate: {rate}",
+        "Inspector.AudioStream.DecodeState" : "Alle Pakete: {total}, Alle verlorenen Pakete: {lost}, Paketverlust: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "Durchschnitt codec: {avgCodec}/s, Durchschnitt lesend: {avgRead}/s, Durchschnitt schreibend: {avgWritten}/s",
+
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "Erzeuge auf Basis von untergeordneten Objekten",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Erzeuge auf Basis von untergeordneten Objekten (erzwinge auf alle)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Erzeuge auf Basis von untergeordneten Objekten (nur Rigg)",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Ersetze Glatte Transformationen in untergeordneten Objekten",
+        "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Lösche Glatte Transformationen in untergeordneten Objekten",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Kollisionen & Greifen -------",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Erzeuge fixierte Kollisionsobjekte (verwende Objektursprung)",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Immer den letzten Knochen auswählen",
+
+        "Inspector.Rig.CleanupBoneColliders" : "Bereinige Knochen kollisionen",
+        "Inspector.Rig.GenerateDebugVisuals" : "Generiere Debug Darstellung",
+        "Inspector.Rig.ClearDebugVisuals" : "Entferne Debug Darstellung",
         "Inspector.AudioStream.BufferState" : "Verfügbare Samples: {samples}, Verloren: {missed}, Länge: {length}, Globaler Index: {index}",
         "Inspector.AudioStream.EncodeState" : "Bereit zum Kodieren: {samples}, Frame-Größe: {frame} (Max: {max_frame}), Sample-Rate: {rate}",
 
@@ -1094,6 +1139,14 @@
         "Wizard.ReflectionProbes.BakeProbes" : "Reflexionen fixieren",
         "Wizard.ReflectionProbes.Baking" : "Berechne {index} von {count}...",
 
+        "Desktop.OpenKeyboard" : "Öffne Tastatur",
+        "Desktop.FollowCursor.On" : "Cursor folgen: An",
+        "Desktop.FollowCursor.Off" : "Cursor folgen: Aus",
+        "Desktop.LegacyInputMode.On" : "Abwärstkompatible Eingabe: An",
+        "Desktop.LegacyInputMode.Off" : "Abwärstkompatible Eingabe: Aus",
+        "Desktop.Brightness" : "Helligkeit: {n,number,percent}",
+        "Desktop.Opacity" : "Sichtbarkeit: {n,number,percent}",
+      
         "Tutorial.Welcome.WelcomeTo" : "Willkommen bei",
         "Tutorial.Welcome.LetsStart" : "Los gehts!",
         "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>ACHTUNG:</b></color> Sie spielen im Bildschirm-Modus. Dieser wird derzeit nicht offiziell unterstützt und dient hauptsächlich Entwicklungszwecken.<br><br>Einiges wird eventuell nicht funktionieren oder schwer zu bedienen sein.<br><br><b>Neos ist derzeit nur für VR vorgesehen.</b><br><br>Ein echter Desktopmodus ist für die Zukunft geplant.",
@@ -1182,7 +1235,7 @@
         "Tutorial.Intro.WorldsDescription" : "Erkunden Sie das Metaverse mithilfe des Tabs <color=#ffdd77><b>Welten</b></color>.<br>Wenn Sie hier fertig sind, treten Sie doch einer aktiven Sitzung bei und treffen die Community!",
 
         "Tutorial.Intro.OutroTop" : "Weitere Tutorials finden Sie über diese Welt verteilt.<br><br>Viel Glück und genießen Sie das Metaverse!",
-        "Tutorial.Intro.Website" : "Website",
+        "Tutorial.Intro.Website" : "Webseite",
         "Tutorial.Intro.OutroEnd" : "Wenn Sie uns helfen wollen, unterstützen Sie uns doch auf Patreon.<br><br>Treten Sie dem Discord bei für Status-Updates, Networking oder technischen Support.",
 
         "Tutorial.MTC.Avatars" : "Avatare",
