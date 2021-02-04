@@ -442,6 +442,7 @@
         "Tooltips.Dev.OpenInspector" : "Otevřít inspektor",
         "Tooltips.Dev.DeselectAll" : "Zrušit výběr",
         "Tooltips.Dev.DestroySelected" : "Ostranit vybrané",
+        "Tooltips.Dev.ConfirmDestroySelected" : "OPRAVDU odstranit vybrané",
 
         "Tooltip.Logix.NodeBrowser" : "Katalog nodů",
         "Tooltip.Logix.UnpackChildren" : "Rozbalit nody v hierarchii",
