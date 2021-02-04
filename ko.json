@@ -906,9 +906,9 @@
 		"Inspector.Mesh.RecalculateNormalsSmooth" : "방향(Normal) 재계산(스무스 셰이딩)",
 		"Inspector.Mesh.RecalculateTangentsMikkt" : "접선(Tangents) 재계산(Mikktspace)",
 		"Inspector.Mesh.RecalculateTangentsSimple" : "접선(Tangents) 재계산(단순)",
-		"Inspector.Mesh.FlipNormals" : "방향 반전",
-		"Inspector.Mesh.ReverseWinding" : "Reverse Winding",
-		"Inspector.Mesh.MakeDualSided" : "Make Dual Sided",
+		"Inspector.Mesh.FlipNormals" : "면 뒤집기",
+		"Inspector.Mesh.ReverseWinding" : "앞뒤역전(Reverse Winding)",
+		"Inspector.Mesh.MakeDualSided" : "양면으로 만들기",
 		"Inspector.Mesh.ConvertToFlatShading" : "플렛 셰이딩으로 변환",
 		"Inspector.Mesh.ConvertToConvexHull" : "컨벡스 헐로 변환",
 		"Inspector.Mesh.MergeDoubles" : "중첩 병합",
@@ -1256,7 +1256,7 @@
 		"Inspector.Material.WaitingForApply" : "적용 대기중: {waiting}",
 		
 		"Inspector.Rig.CleanupBoneColliders" : "본(Bone) 콜라이더 삭제",
-        	"Inspector.Rig.GenerateDebugVisuals" : "디버그 시각화 생성",
+		"Inspector.Rig.GenerateDebugVisuals" : "디버그 시각화 생성",
 		"Inspector.Rig.ClearDebugVisuals" : "디버그 시각화 삭제",
 		
 		"Tools.StreamAudio" : "음향송출기",
@@ -1274,9 +1274,11 @@
 		"Inspector.AudioStream.BufferStats" : "평균코딩속도: {avgCodec}/s, 평균읽기속도: {avgRead}/s, 평균쓰기속도: {avgWritten}/s",
 		
 		"Inspector.Texture.Saturation" : "채도:",
-        	"Inspector.Texture.AdjustSaturation" : "채도 조정",
-        	"Inspector.Texture.Value" : "값:",
-        	"Inspector.Texture.AdjustValue" : "값 조정",
+		"Inspector.Texture.AdjustSaturation" : "채도 조정",
+		"Inspector.Texture.Value" : "값:",
+		"Inspector.Texture.AdjustValue" : "값 조정",
+		
+		"Tooltips.Dev.ConfirmDestroySelected" : "선택된 대상을 삭제합니다",
 		
 		"Dummy": "더미"
 	}
