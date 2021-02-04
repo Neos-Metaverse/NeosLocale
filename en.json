@@ -889,7 +889,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "Disable Voice Normalization",
         "Settings.Audio.NoiseGateThreshold" : "Noise Gate Threshold: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalization Threshold: {n}",
-        "Settings.Audio.NoiseSupression" : "Noise Supression Filter (RNNoise)",
+        "Settings.Audio.NoiseSupression" : "Noise Suppression Filter (RNNoise)",
         "Settings.Audio.InputDevice" : "Audio Input Device:",
         "Settings.Audio.SelectInputDevice" : "Select Audio Input Device",
         "Settings.Audio.TestInput" : "Test your audio input:",
