@@ -888,7 +888,7 @@
         "Settings.Audio.DisableVoiceNormalization" : "Keine Sprachlautstärke-Normalisierung",
         "Settings.Audio.NoiseGateThreshold" : "Hintergrundlautstärke-Grenzwert: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalisierungs-Grenzwert: {n}",
-        "Settings.Audio.NoiseSupression" : "Noise Supression Filter (RNNoise)",
+        "Settings.Audio.NoiseSupression" : "Noise Suppression Filter (RNNoise)",
         "Settings.Audio.InputDevice" : "Aufnahmegerät:",
         "Settings.Audio.SelectInputDevice" : "Aufnahmegerät wählen",
         "Settings.Audio.TestInput" : "Testen Sie Ihr Mikrofon:",
