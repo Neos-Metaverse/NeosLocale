@@ -442,6 +442,7 @@
         "Tooltips.Dev.OpenInspector" : "開放Inspector",
         "Tooltips.Dev.DeselectAll" : "全部取消選擇",
         "Tooltips.Dev.DestroySelected" : "銷毀所選",
+        "Tooltips.Dev.ConfirmDestroySelected" : "真的銷毀了",
 
         "Tooltip.Logix.NodeBrowser" : "節點瀏覽器",
         "Tooltip.Logix.UnpackChildren" : "解壓子級和連接的節點",
