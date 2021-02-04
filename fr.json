@@ -442,6 +442,7 @@
         "Tooltips.Dev.OpenInspector" : "Ouvrir l'inspecteur",
         "Tooltips.Dev.DeselectAll" : "Désélectionner tout",
         "Tooltips.Dev.DestroySelected" : "Détruire la sélection",
+        "Tooltips.Dev.ConfirmDestroySelected" : "VRAIMENT détruire la sélection",
 
         "Tooltip.Logix.NodeBrowser" : "Explorateur de noeuds",
         "Tooltip.Logix.UnpackChildren" : "Déballer les enfants et les noeuds connectés",
