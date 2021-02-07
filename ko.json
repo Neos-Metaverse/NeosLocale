@@ -1280,6 +1280,9 @@
 		
 		"Tooltips.Dev.ConfirmDestroySelected" : "선택된 대상을 삭제합니다",
 		
+		"Settings.DisableLAN" : "로컬망(LAN) 비활성",
+		"Settings.Audio.Master" : "전체음량: {n,number,percent}",
+		
 		"Dummy": "더미"
 	}
 }
