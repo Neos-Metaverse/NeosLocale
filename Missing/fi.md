@@ -320,9 +320,11 @@ CameraControl.OBS.DroppedFrames
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
 Settings.Haptics  
+Settings.DisableLAN  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
 Settings.Audio.Header  
+Settings.Audio.Master  
 Settings.Audio.Multimedia  
 Settings.Audio.NoiseSupression  
 Settings.Audio.SelectInputDevice  

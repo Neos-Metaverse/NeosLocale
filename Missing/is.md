@@ -376,6 +376,7 @@ CameraControl.OBS.Recording.Stopping
 Settings.SpeedExponent  
 Settings.MoveThreshold  
 Settings.Haptics  
+Settings.DisableLAN  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
 Settings.LaserSmoothing.Header  
@@ -387,6 +388,7 @@ Settings.LaserSmoothing.ModulateSpeedMultiplier
 Settings.LaserSmoothing.StickThreshold  
 Settings.LaserSmoothing.Reset  
 Settings.Audio.Header  
+Settings.Audio.Master  
 Settings.Audio.SoundEffects  
 Settings.Audio.Multimedia  
 Settings.Audio.Voice  

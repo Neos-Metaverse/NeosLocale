@@ -866,6 +866,7 @@
         "Settings.DoubleClickInterval" : "Double Click Interval",
         "Settings.ResetAllTutorials" : "Reset All Tutorials",
         "Settings.PreferSteamNetworking" : "Prefer Steam Networking Sockets",
+        "Settings.DisableLAN" : "Disable LAN",
         "Settings.LegacyGripEquip" : "Enable Legacy Double Grip Equip",
         "Settings.LegacyWorldSwitcher" : "Enable Legacy World Switcher",
         "Settings.FetchIncompatibleSessions" : "Show Incompatible Sessions",
@@ -882,6 +883,7 @@
         "Settings.LaserSmoothing.Reset" : "Reset Laser Settings",
 
         "Settings.Audio.Header" : "Audio",
+        "Settings.Audio.Master" : "Master Volume: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "Sound Effects: {n,number,percent}",
         "Settings.Audio.Multimedia" : "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice" : "Voice: {n,number,percent}",

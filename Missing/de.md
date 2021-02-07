@@ -3,4 +3,6 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # German [de]
 Tooltips.Dev.ConfirmDestroySelected  
+Settings.DisableLAN  
+Settings.Audio.Master  
 

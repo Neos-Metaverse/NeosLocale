@@ -28,8 +28,10 @@ Importer.General.AsRawFile
 Importer.Model.Advanced.PreferSpecular  
 CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.Haptics  
+Settings.DisableLAN  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
+Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.TestInput  

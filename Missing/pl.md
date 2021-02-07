@@ -18,7 +18,9 @@ Contacts.Bot
 Tooltips.Dev.ConfirmDestroySelected  
 Importer.Model.Advanced.PreferSpecular  
 CameraControl.Settings.AudioFromCameraViewpoint  
+Settings.DisableLAN  
 Settings.AutosaveScreenshotPath  
+Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
 Inspector.Texture.Saturation  
 Inspector.Texture.AdjustSaturation  

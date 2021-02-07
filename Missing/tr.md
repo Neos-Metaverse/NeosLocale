@@ -42,8 +42,10 @@ CreateNew.Editor.ReflectionProbes
 Importer.Model.Advanced.PreferSpecular  
 CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.Haptics  
+Settings.DisableLAN  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
+Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  

@@ -5,4 +5,6 @@ Note that this file updates only during Neos build process and doesn't necessari
 Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
 Tooltips.Dev.ConfirmDestroySelected  
+Settings.DisableLAN  
+Settings.Audio.Master  
 

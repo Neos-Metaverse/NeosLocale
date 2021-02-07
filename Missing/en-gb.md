@@ -749,6 +749,7 @@ Settings.EnableGestures
 Settings.DoubleClickInterval  
 Settings.ResetAllTutorials  
 Settings.PreferSteamNetworking  
+Settings.DisableLAN  
 Settings.LegacyGripEquip  
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
@@ -763,6 +764,7 @@ Settings.LaserSmoothing.ModulateSpeedMultiplier
 Settings.LaserSmoothing.StickThreshold  
 Settings.LaserSmoothing.Reset  
 Settings.Audio.Header  
+Settings.Audio.Master  
 Settings.Audio.SoundEffects  
 Settings.Audio.Multimedia  
 Settings.Audio.Voice  
