@@ -1144,8 +1144,8 @@
         "Desktop.FollowCursor.Off" : "Suivre le curseur : Inactif",
         "Desktop.LegacyInputMode.On" : "Ancien mode d'entrée : Actif",
         "Desktop.LegacyInputMode.Off" : "Ancien mode d'entrée : Inactif",
-        "Desktop.Brightness" : "Luminosité : {n,nombre,pourcentage}",
-        "Desktop.Opacity" : "Opacité : {n,nombre,pourcentage}",
+        "Desktop.Brightness" : "Luminosité : {n,number,percent}",
+        "Desktop.Opacity" : "Opacité : {n,number,percent}",
 
         "Tutorial.Welcome.WelcomeTo" : "Bienvenue à",
         "Tutorial.Welcome.LetsStart" : "C'est parti!",
