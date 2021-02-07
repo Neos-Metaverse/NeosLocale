@@ -442,6 +442,7 @@
         "Tooltips.Dev.OpenInspector" : "Открыть обозреватель",
         "Tooltips.Dev.DeselectAll" : "Убрать выделение",
         "Tooltips.Dev.DestroySelected" : "Удалить выделенные",
+        "Tooltips.Dev.ConfirmDestroySelected" : "ТОЧНО удалить выделенное",
 
         "Tooltip.Logix.NodeBrowser" : "Браузер Нод",
         "Tooltip.Logix.UnpackChildren" : "Распаковать дочерние и соединенные Ноды",
