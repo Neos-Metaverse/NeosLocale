@@ -866,6 +866,7 @@
         "Settings.DoubleClickInterval" : "ダブルクリックの間隔",
         "Settings.ResetAllTutorials" : "全チュートリアルをリセット",
         "Settings.PreferSteamNetworking" : "Steam Networking Socketsを優先",
+        "Settings.DisableLAN" : "LANセッションを無効にする",
         "Settings.LegacyGripEquip" : "ダブルグリップ装備(レガシー)を有効化",
         "Settings.LegacyWorldSwitcher" : "ワールドスイッチャー(レガシー)を有効化",
         "Settings.FetchIncompatibleSessions" : "互換性のないセッションを表示",
@@ -882,6 +883,7 @@
         "Settings.LaserSmoothing.Reset" : "レーザーの設定をリセット",
 
         "Settings.Audio.Header" : "オーディオ",
+         "Settings.Audio.Master" : "マスターボリューム: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "サウンドエフェクト: {n,number,percent}",
         "Settings.Audio.Multimedia" : "マルチメディア: {n,number,percent}",
         "Settings.Audio.Voice" : "ボイス: {n,number,percent}",
