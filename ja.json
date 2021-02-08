@@ -866,7 +866,7 @@
         "Settings.DoubleClickInterval" : "ダブルクリックの間隔",
         "Settings.ResetAllTutorials" : "全チュートリアルをリセット",
         "Settings.PreferSteamNetworking" : "Steam Networking Socketsを優先",
-        "Settings.DisableLAN" : "LANセッションを無効にする",
+        "Settings.DisableLAN" : "LANセッションを無効化",
         "Settings.LegacyGripEquip" : "ダブルグリップ装備(レガシー)を有効化",
         "Settings.LegacyWorldSwitcher" : "ワールドスイッチャー(レガシー)を有効化",
         "Settings.FetchIncompatibleSessions" : "互換性のないセッションを表示",
