@@ -866,6 +866,7 @@
         "Settings.DoubleClickInterval" : "Interval dvojkliku",
         "Settings.ResetAllTutorials" : "Vyresetovat všechny tutoriály",
         "Settings.PreferSteamNetworking" : "Preferovat Steam Networking Sockets",
+        "Settings.DisableLAN" : "Zakázat LAN",
         "Settings.LegacyGripEquip" : "Povolit dvoj-klik gripu pro nasazení nástrojů",
         "Settings.LegacyWorldSwitcher" : "Povolit starý přepínač světů",
         "Settings.FetchIncompatibleSessions" : "Zobrazit nekompatibilní relace",
@@ -882,6 +883,7 @@
         "Settings.LaserSmoothing.Reset" : "Resetovat nastavení laseru",
 
         "Settings.Audio.Header" : "Zvuk",
+        "Settings.Audio.Master" : "Celková hlasitost: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "Zvukové efekty: {n,number,percent}",
         "Settings.Audio.Multimedia" : "Multimédia: {n,number,percent}",
         "Settings.Audio.Voice" : "Hlas: {n,number,percent}",
