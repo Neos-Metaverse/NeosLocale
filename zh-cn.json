@@ -866,6 +866,7 @@
         "Settings.DoubleClickInterval" : "双击间隔",
         "Settings.ResetAllTutorials" : "重置所有教程",
         "Settings.PreferSteamNetworking" : "首选Steam网络插座",
+        "Settings.DisableLAN" : "禁用局域网",
         "Settings.LegacyGripEquip" : "启用旧版双握把装备",
         "Settings.LegacyWorldSwitcher" : "启用旧版世界切换器",
         "Settings.FetchIncompatibleSessions" : "显示不兼容的会议",
@@ -882,6 +883,7 @@
         "Settings.LaserSmoothing.Reset" : "重置激光设置",
 
         "Settings.Audio.Header" : "音讯",
+        "Settings.Audio.Master" : "主音量: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "声音特效: {n,number,percent}",
         "Settings.Audio.Multimedia" : "多媒体: {n,number,percent}",
         "Settings.Audio.Voice" : "语音: {n,number,percent}",

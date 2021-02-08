@@ -866,6 +866,7 @@
         "Settings.DoubleClickInterval": "Duobla Alklako-Intervalo",
         "Settings.ResetAllTutorials": "Restarigi ĉiujn lernilojn",
         "Settings.PreferSteamNetworking": "Preferu Steam-retajn ingojn",
+        "Settings.DisableLAN" : "Malŝalti LAN",
         "Settings.LegacyGripEquip": "Ebligi Heredaĵan Duoblan Teni-Ekipaĵon",
         "Settings.LegacyWorldSwitcher": "Ebligi Malnovan Mondo-ŝanĝilon",
         "Settings.FetchIncompatibleSessions": "Montri Nekongruajn Sesiojn",
@@ -882,6 +883,7 @@
         "Settings.LaserSmoothing.Reset": "Restarigi laseron-agordojn",
 
         "Settings.Audio.Header": "Aŭdio",
+        "Settings.Audio.Master" : "Majstra Volumo: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Sonefikoj: {n, number, percent}",
         "Settings.Audio.Multimedia": "Plurmedio: {n, number, percent}",
         "Settings.Audio.Voice": "Voĉo: {n, number, percent}",
