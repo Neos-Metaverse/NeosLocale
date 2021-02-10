@@ -883,7 +883,7 @@
         "Settings.LaserSmoothing.Reset" : "レーザーの設定をリセット",
 
         "Settings.Audio.Header" : "オーディオ",
-         "Settings.Audio.Master" : "マスターボリューム: {n,number,percent}",
+        "Settings.Audio.Master" : "マスターボリューム: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "サウンドエフェクト: {n,number,percent}",
         "Settings.Audio.Multimedia" : "マルチメディア: {n,number,percent}",
         "Settings.Audio.Voice" : "ボイス: {n,number,percent}",
