@@ -72,7 +72,7 @@
 		"Dash.Screens.Session": "세션",
 		"Dash.Screens.FileBrowser": "<nobr>파일탐색기",
 		"Dash.Screens.Settings": "설정",
-		"Dash.Screens.Exit": "닫기",
+		"Dash.Screens.Exit": "종료",
 
 		"Dash.Actions.PasteFromClipboard": "클립보드에서 붙여넣기",
 
