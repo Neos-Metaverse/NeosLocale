@@ -111,8 +111,8 @@
 
         "World.Error.AccessDenied" : "Přístup odepřen",
         "World.Error.SecurityViolation" : "Narušení bezpečnosti",
-        "World.Error.OnlyRegisteredUsers" : "Pouze pro registrované uživatele",
-        "World.Error.OnlyContacts" : "Pouze pro kontakty hostujícího",
+        "World.Error.OnlyRegisteredUsers" : "Pouze registrovaní uživatelé mohou vstoupit",
+        "World.Error.OnlyContacts" : "Pouze kontakty hostujícího mohou vstoupit",
         "World.Error.OnlyContactsOfContacts" : "Pouze kontakty uživatelů uvnitř relace mohou vstoupit",
         "World.Error.Private" : "Privátní relace",
         "World.Error.SessionEnded" : "Relace skončila",
