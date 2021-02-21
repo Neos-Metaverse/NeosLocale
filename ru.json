@@ -695,7 +695,7 @@
         "NewWorld.UnsafeMode" : "Небезопасный Режим:",
         "NewWorld.Port" : "Порт:",
         "NewWorld.AutoPort" : "Авто-порт:",
-        "NewWorld.DefaultName" : "{name} Мир",
+        "NewWorld.DefaultName" : "Мир {name}",
 
         "FullBody.Title" : "Калибровка Full Body и Аватара",
         "FullBody.SetHeight" : "1) Установите свой рост",
