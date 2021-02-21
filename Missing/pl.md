@@ -17,11 +17,14 @@ Permissions.NotAllowedToSwapAvatar
 Contacts.Bot  
 Tooltips.Dev.ConfirmDestroySelected  
 Importer.Model.Advanced.PreferSpecular  
+Importer.Model.Advanced.SplitSubmeshes  
 CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.DisableLAN  
 Settings.AutosaveScreenshotPath  
+Settings.DebugInputBinding  
 Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
+Inspector.Mesh.ConvertToPointCloud  
 Inspector.Texture.Saturation  
 Inspector.Texture.AdjustSaturation  
 Inspector.Texture.Value  

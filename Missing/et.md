@@ -26,11 +26,13 @@ CreateNew.Editor.CubemapCreator
 CreateNew.Editor.ReflectionProbes  
 Importer.General.AsRawFile  
 Importer.Model.Advanced.PreferSpecular  
+Importer.Model.Advanced.SplitSubmeshes  
 CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.Haptics  
 Settings.DisableLAN  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
+Settings.DebugInputBinding  
 Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
 Settings.Audio.SelectInputDevice  
@@ -41,6 +43,7 @@ Settings.Audio.StopTest
 Settings.Audio.Monitoring  
 Settings.Locale.ChangeLanguage  
 Settings.Locale.SelectLanguageHeader  
+Inspector.Mesh.ConvertToPointCloud  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  

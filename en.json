@@ -644,6 +644,7 @@
         "Importer.Model.Advanced.FlatShaded" : "Make Flat Shaded",
         "Importer.Model.Advanced.DeduplicateInstances" : "Deduplicate Instances (slow)",
         "Importer.Model.Advanced.Optimize" : "Optimize Model/Scene",
+        "Importer.Model.Advanced.SplitSubmeshes" : "Split Submeshes",
         "Importer.Model.Advanced.RandomColors" : "Generate Random Colors",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Spawn Material Orbs",
         "Importer.Model.Advanced.ImagesByName" : "Import Images by Name",
@@ -872,6 +873,7 @@
         "Settings.FetchIncompatibleSessions" : "Show Incompatible Sessions",
         "Settings.MaxConcurrentAssetTransfers" : "Max Concurrent Asset Transfers",
         "Settings.AutosaveScreenshotPath" : "Auto-save screenshot path",
+        "Settings.DebugInputBinding" : "Debug Input Bindings",
 
         "Settings.LaserSmoothing.Header" : "Laser Smoothing",
         "Settings.LaserSmoothing.Speed" : "Smooth Speed",
@@ -966,6 +968,7 @@
         "Inspector.Mesh.MakeDualSided" : "Make Dual Sided",
         "Inspector.Mesh.ConvertToFlatShading" : "Convert To Flat Shading",
         "Inspector.Mesh.ConvertToConvexHull" : "Convert To Convex Hull",
+        "Inspector.Mesh.ConvertToPointCloud" : "Convert To Point Cloud",
         "Inspector.Mesh.MergeDoubles" : "Merge Doubles",
         "Inspector.Mesh.StripEmptyBlendshapes" : "Strip Empty Blendshapes",
         "Inspector.Mesh.StripBlendshapeNormals" : "Strip Blendshape Normals",

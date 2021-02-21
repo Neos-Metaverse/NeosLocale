@@ -197,6 +197,7 @@ Importer.Model.Advanced.DualSided
 Importer.Model.Advanced.FlatShaded  
 Importer.Model.Advanced.DeduplicateInstances  
 Importer.Model.Advanced.Optimize  
+Importer.Model.Advanced.SplitSubmeshes  
 Importer.Model.Advanced.RandomColors  
 Importer.Model.Advanced.SpawnMaterialOrbs  
 Importer.Model.Advanced.ImagesByName  
@@ -379,6 +380,7 @@ Settings.Haptics
 Settings.DisableLAN  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
+Settings.DebugInputBinding  
 Settings.LaserSmoothing.Header  
 Settings.LaserSmoothing.Speed  
 Settings.LaserSmoothing.ModulateStartAngle  
@@ -425,6 +427,7 @@ Inspector.Mesh.ReverseWinding
 Inspector.Mesh.MakeDualSided  
 Inspector.Mesh.ConvertToFlatShading  
 Inspector.Mesh.ConvertToConvexHull  
+Inspector.Mesh.ConvertToPointCloud  
 Inspector.Mesh.MergeDoubles  
 Inspector.Mesh.StripEmptyBlendshapes  
 Inspector.Mesh.StripBlendshapeNormals  

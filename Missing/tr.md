@@ -40,13 +40,16 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Importer.Model.Advanced.PreferSpecular  
+Importer.Model.Advanced.SplitSubmeshes  
 CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.Haptics  
 Settings.DisableLAN  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
+Settings.DebugInputBinding  
 Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
+Inspector.Mesh.ConvertToPointCloud  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
