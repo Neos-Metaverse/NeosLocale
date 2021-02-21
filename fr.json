@@ -866,6 +866,7 @@
         "Settings.DoubleClickInterval" : "Intervalle de double clic",
         "Settings.ResetAllTutorials" : "Réinitialiser tous les tutoriels",
         "Settings.PreferSteamNetworking" : "Préférer les sockets réseau de Steam",
+        "Settings.DisableLAN" : "Désactiver le LAN",
         "Settings.LegacyGripEquip" : "Permettre l'équipement de la double prise en main Legacy",
         "Settings.LegacyWorldSwitcher" : "Activer le sélecteur de monde Legacy",
         "Settings.FetchIncompatibleSessions" : "Afficher les sessions incompatibles",
@@ -882,6 +883,7 @@
         "Settings.LaserSmoothing.Reset" : "Réinitialisation des paramètres du laser",
 
         "Settings.Audio.Header" : "Audio",
+        "Settings.Audio.Master" : "Volume principale: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "Effets sonores: {n,number,percent}",
         "Settings.Audio.Multimedia" : "Multimédia: {n,number,percent}",
         "Settings.Audio.Voice" : "Voix : {n,number,percent}",
