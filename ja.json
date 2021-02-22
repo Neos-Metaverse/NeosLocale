@@ -644,6 +644,7 @@
         "Importer.Model.Advanced.FlatShaded" : "フラットシェーディング",
         "Importer.Model.Advanced.DeduplicateInstances" : "インスタンスの重複排除（遅い）",
         "Importer.Model.Advanced.Optimize" : "モデル/シーンの最適化",
+        "Importer.Model.Advanced.SplitSubmeshes" : "サブメッシュを分割する",
         "Importer.Model.Advanced.RandomColors" : "ランダムな色を生成する",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "マテリアルオーブを生成",
         "Importer.Model.Advanced.ImagesByName" : "名前で画像をインポート",
@@ -872,6 +873,7 @@
         "Settings.FetchIncompatibleSessions" : "互換性のないセッションを表示",
         "Settings.MaxConcurrentAssetTransfers" : "アセットの最多同時転送量",
         "Settings.AutosaveScreenshotPath" : "スクリーンショット自動保存パス",
+        "Settings.DebugInputBinding" : "入力バインディングのデバッグ",
 
         "Settings.LaserSmoothing.Header" : "レーザースムージング",
         "Settings.LaserSmoothing.Speed" : "スムーズスピード",
@@ -966,6 +968,7 @@
         "Inspector.Mesh.MakeDualSided" : "両面設定にする",
         "Inspector.Mesh.ConvertToFlatShading" : "フラットシェーディングにする",
         "Inspector.Mesh.ConvertToConvexHull" : "Convex Hull(凸多面体)に変換",
+        "Inspector.Mesh.ConvertToPointCloud" : "点群に変換",
         "Inspector.Mesh.MergeDoubles" : "重複頂点の結合",
         "Inspector.Mesh.StripEmptyBlendshapes" : "空のブレンドシェイプを取り除く",
         "Inspector.Mesh.StripBlendshapeNormals" : "ブレンドシェイプの法線を取り除く",
