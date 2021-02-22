@@ -1025,6 +1025,8 @@
         "Inspector.Texture.SwapRG" : "Échanger le rouge et le vert",
         "Inspector.Texture.SwapRB" : "Échanger le rouge et le bleu",
         "Inspector.Texture.SwapGB" : "Échanger le vert et le rouge",
+        "Inspector.Texture.AddWhiteBackground" : "Ajouter un fond blanc",
+        "Inspector.Texture.AddBlackBackground" : "Ajouter un fond noir",
         "Inspector.Texture.Hue" : "Teinte:",
         "Inspector.Texture.ShiftHue" : "Modifier la teinte",
         "Inspector.Texture.Saturation" : "Saturation:",
