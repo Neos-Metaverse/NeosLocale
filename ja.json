@@ -644,7 +644,7 @@
         "Importer.Model.Advanced.FlatShaded" : "フラットシェーディング",
         "Importer.Model.Advanced.DeduplicateInstances" : "インスタンスの重複排除（遅い）",
         "Importer.Model.Advanced.Optimize" : "モデル/シーンの最適化",
-        "Importer.Model.Advanced.SplitSubmeshes" : "サブメッシュを分割する",
+        "Importer.Model.Advanced.SplitSubmeshes" : "サブメッシュを分離する",
         "Importer.Model.Advanced.RandomColors" : "ランダムな色を生成する",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "マテリアルオーブを生成",
         "Importer.Model.Advanced.ImagesByName" : "名前で画像をインポート",
