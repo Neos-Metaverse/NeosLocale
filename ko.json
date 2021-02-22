@@ -1283,6 +1283,10 @@
 		"Settings.DisableLAN" : "로컬망(LAN) 비활성",
 		"Settings.Audio.Master" : "전체음량: {n,number,percent}",
 		
+		"Importer.Model.Advanced.SplitSubmeshes" : "메쉬별로 나누기",
+		"Settings.DebugInputBinding" : "입력정보 확인(Debug input binding)",
+		"Inspector.Mesh.ConvertToPointCloud" : "점(Point Cloud)들로 변환",
+		
 		"Dummy": "더미"
 	}
 }
