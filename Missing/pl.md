@@ -25,6 +25,8 @@ Settings.DebugInputBinding
 Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
 Inspector.Mesh.ConvertToPointCloud  
+Inspector.Texture.AddWhiteBackground  
+Inspector.Texture.AddBlackBackground  
 Inspector.Texture.Saturation  
 Inspector.Texture.AdjustSaturation  
 Inspector.Texture.Value  

@@ -878,6 +878,8 @@ Inspector.Texture.RemoveAlpha
 Inspector.Texture.SwapRG  
 Inspector.Texture.SwapRB  
 Inspector.Texture.SwapGB  
+Inspector.Texture.AddWhiteBackground  
+Inspector.Texture.AddBlackBackground  
 Inspector.Texture.Hue  
 Inspector.Texture.ShiftHue  
 Inspector.Texture.Saturation  

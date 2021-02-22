@@ -5,4 +5,6 @@ Note that this file updates only during Neos build process and doesn't necessari
 Importer.Model.Advanced.SplitSubmeshes  
 Settings.DebugInputBinding  
 Inspector.Mesh.ConvertToPointCloud  
+Inspector.Texture.AddWhiteBackground  
+Inspector.Texture.AddBlackBackground  
 

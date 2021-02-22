@@ -1025,6 +1025,8 @@
         "Inspector.Texture.SwapRG" : "Swap R and G",
         "Inspector.Texture.SwapRB" : "Swap R and B",
         "Inspector.Texture.SwapGB" : "Swap G and B",
+        "Inspector.Texture.AddWhiteBackground" : "Add White Background",
+        "Inspector.Texture.AddBlackBackground" : "Add Black Background",
         "Inspector.Texture.Hue" : "Hue:",
         "Inspector.Texture.ShiftHue" : "Shift Hue",
         "Inspector.Texture.Saturation" : "Saturation:",

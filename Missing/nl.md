@@ -10,4 +10,6 @@ Settings.DisableLAN
 Settings.DebugInputBinding  
 Settings.Audio.Master  
 Inspector.Mesh.ConvertToPointCloud  
+Inspector.Texture.AddWhiteBackground  
+Inspector.Texture.AddBlackBackground  
 

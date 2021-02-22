@@ -104,6 +104,8 @@ Inspector.BipedRig.HandRigResult
 Inspector.BipedRig.LeftHandRigResult  
 Inspector.BipedRig.RightHandRigResult  
 Inspector.Texture.Variant  
+Inspector.Texture.AddWhiteBackground  
+Inspector.Texture.AddBlackBackground  
 Inspector.Texture.Saturation  
 Inspector.Texture.AdjustSaturation  
 Inspector.Texture.Value  

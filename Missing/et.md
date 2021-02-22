@@ -47,6 +47,8 @@ Inspector.Mesh.ConvertToPointCloud
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
 Inspector.Texture.Variant  
+Inspector.Texture.AddWhiteBackground  
+Inspector.Texture.AddBlackBackground  
 Inspector.Texture.Saturation  
 Inspector.Texture.AdjustSaturation  
 Inspector.Texture.Value  
