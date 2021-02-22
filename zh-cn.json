@@ -644,6 +644,7 @@
         "Importer.Model.Advanced.FlatShaded" : "制作平面阴影",
         "Importer.Model.Advanced.DeduplicateInstances" : "重复数据删除实例（慢）",
         "Importer.Model.Advanced.Optimize" : "优化模型/场景",
+        "Importer.Model.Advanced.SplitSubmeshes" : "分割子网格",
         "Importer.Model.Advanced.RandomColors" : "产生随机颜色",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "产生材质球",
         "Importer.Model.Advanced.ImagesByName" : "按名称导入图像",
@@ -872,6 +873,7 @@
         "Settings.FetchIncompatibleSessions" : "显示不兼容的会议",
         "Settings.MaxConcurrentAssetTransfers" : "最大同时资产转移",
         "Settings.AutosaveScreenshotPath" : "自动保存截图路径",
+        "Settings.DebugInputBinding" : "调试输入绑定",
 
         "Settings.LaserSmoothing.Header" : "激光平滑",
         "Settings.LaserSmoothing.Speed" : "平稳速度",
@@ -966,6 +968,7 @@
         "Inspector.Mesh.MakeDualSided" : "使双面",
         "Inspector.Mesh.ConvertToFlatShading" : "转换为平面着色",
         "Inspector.Mesh.ConvertToConvexHull" : "转换为Convex Hull",
+        "Inspector.Mesh.ConvertToPointCloud" : "转换为点云",
         "Inspector.Mesh.MergeDoubles" : "合并双打",
         "Inspector.Mesh.StripEmptyBlendshapes" : "去除空Blendshapes",
         "Inspector.Mesh.StripBlendshapeNormals" : "去除Blendshape法线",
