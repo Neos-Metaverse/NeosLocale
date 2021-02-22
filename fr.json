@@ -644,6 +644,7 @@
         "Importer.Model.Advanced.FlatShaded" : "Rendre 'Flat Shaded'",
         "Importer.Model.Advanced.DeduplicateInstances" : "Dédupliquer les instances (lent)",
         "Importer.Model.Advanced.Optimize" : "Optimiser le modèle/la scène",
+        "Importer.Model.Advanced.SplitSubmeshes" : "Séparer les modèles",
         "Importer.Model.Advanced.RandomColors" : "Générer des couleurs aléatoires",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Matérialiser les orbes de matériel",
         "Importer.Model.Advanced.ImagesByName" : "Importer les images par leur nom",
@@ -872,6 +873,7 @@
         "Settings.FetchIncompatibleSessions" : "Afficher les sessions incompatibles",
         "Settings.MaxConcurrentAssetTransfers" : "Transferts d'actifs simultanés maximum",
         "Settings.AutosaveScreenshotPath" : "Chemin de sauvegarde automatique des captures d'écran",
+        "Settings.DebugInputBinding" : "Déboguer l'assignation des entrées",
 
         "Settings.LaserSmoothing.Header" : "Lissage du laser",
         "Settings.LaserSmoothing.Speed" : "Vitesse fluide",
@@ -966,6 +968,7 @@
         "Inspector.Mesh.MakeDualSided" : "Rendre à double-coté",
         "Inspector.Mesh.ConvertToFlatShading" : "Convertire à l'ombrage plat",
         "Inspector.Mesh.ConvertToConvexHull" : "Coquille convexe",
+        "Inspector.Mesh.ConvertToPointCloud" : "Convertire en nuage de point",
         "Inspector.Mesh.MergeDoubles" : "Réduire les doublons",
         "Inspector.Mesh.StripEmptyBlendshapes" : "Enlever les Blendshapes vides",
         "Inspector.Mesh.StripBlendshapeNormals" : "Enlever les normales des Blendshapes",
