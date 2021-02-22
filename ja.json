@@ -145,7 +145,7 @@
         "World.Actions.Join" : "参加",
         "World.Actions.Focus" : "フォーカス",
         "World.Actions.Close" : "セッションを閉じる",
-        "World.Actions.Leave" : "セッションから抜ける",
+        "World.Actions.Leave" : "セッションから離れる",
         "World.Actions.Save" : "変更を保存",
         "World.Actions.SaveAs" : "名前をつけて保存...",
         "World.Actions.SaveCopy" : "コピーを保存...",
