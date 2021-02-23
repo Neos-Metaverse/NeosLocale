@@ -4,6 +4,8 @@
     "messages" : 
     {
         "General.OK" : "OK",
+        "General.Start" : "Begin",
+        "General.Finish" : "Einde",
         "General.Cancel" : "Annuleer",
         "General.Continue" : "Doorgaan",
         "General.Next" : "Volgende",
@@ -48,6 +50,7 @@
 
         "Interaction.Destroy" : "Verwijderen",
         "Interaction.Duplicate" : "Dupliceren",
+        "Interaction.SaveToInventory" : "Opslaan in inventaris",
         "Interaction.Undo" : "Ongedaan maken",
         "Interaction.Redo" : "Herdoen",
         "Interaction.EquipTool" : "Vastgrijpen",
@@ -109,6 +112,11 @@
         "World.Connection.Connected" : "Verbonden",
         "World.Connection.SyncingInitialState" : "Initiële wereldstatus synchroniseren",
 
+
+
+
+
+
         "World.Error.AccessDenied" : "Toegang geweigerd",
         "World.Error.SecurityViolation" : "Veiligheidsovertreding",
         "World.Error.OnlyRegisteredUsers" : "Alleen geregistreerde gebruikers krijgen toegang",
@@ -122,6 +130,7 @@
         "World.Error.FailedFetchingAuthentication" : "Verificatiegegevens kunnen niet worden opgehaald",
         "World.Error.JoinAlreadyRequested" : "Toegang is al aangevraagd",
         "World.Error.FailedConnectToRelay" : "Kan geen verbinding maken met Relay",
+        "World.Error.FailedToConnect" : "Kan geen verbinding maken",
         "World.Error.NoPort" : "Geen poort gespecificeerd",
         "World.Error.IncompatibleVersion" : "Incompatibele Neos-versie",
         "World.Error.Unknown" : "Onbekende fout",
@@ -315,7 +324,7 @@
         "Account.PatreonSupporter" : "Patreon Supporter",
         "Account.Username" : "Gebruikersnaam:",
         "Account.Email" : "E-mail:",
-        "Account.RememberMe" : "Onthoud mij:",
+        "Account.RememberMe" : "Onthoud mij (voor 7 dagen):",
         "Account.RepeatEmail" : "Herhaal email:",
         "Account.UsernameOrEmail" : "Gebruikersnaam of email:",
         "Account.Password" : "Wachtwoord:",
@@ -372,8 +381,8 @@
         "Contacts.IgnoreRequest" : "Negeer Verzoek",
         "Contacts.Invite" : "Nodig Hier Uit",
         "Contacts.SendCredits" : "Krediet Verzenden",
-        "Contacts.BanFromAllSessions" : "Verban van AL mijn sessies",
-        "Contacts.UnbanFromAllSessions" : "Ontban van AL mijn sessies",
+        "Contacts.BanFromAllSessions" : "Verban van mijn gehoste sessies",
+        "Contacts.UnbanFromAllSessions" : "Ontban van mijn gehoste sessies",
         "Contacts.BanFromCurrentWorld" : "Verban uit huidige wereld",
         "Contacts.UnbanFromCurrentWorld" : "Ontban uit huidige wereld",
         "Contacts.RecordingVoiceMessage" : "Neemt Stem Op...",
@@ -442,6 +451,7 @@
         "Tooltips.Dev.OpenInspector" : "Open Inspector",
         "Tooltips.Dev.DeselectAll" : "Deselecteer alles",
         "Tooltips.Dev.DestroySelected" : "Verwijder geselecteerde",
+        "Tooltips.Dev.ConfirmDestroySelected" : "ECHT Geselecteerde Vernietigen",
 
         "Tooltip.Logix.NodeBrowser" : "Node Browser",
         "Tooltip.Logix.UnpackChildren" : "Pak Childeren en verbonden nodes uit",
@@ -556,6 +566,7 @@
         "AvatarCreator.ShowToolAnchors" : "Toon gereedschapsankers",
         "AvatarCreator.SetupVolumeMeter" : "Stel volumemeter in",
         "AvatarCreator.SetupEyes" : "Stel ogen in",
+        "AvatarCreator.SetupFaceTracking" : "Face Tracking instellen",
         "AvatarCreator.ProtectAvatar" : "Bescherm Avatar",
         "AvatarCreator.CalibrateFeet" : "Kalibreer voeten",
         "AvatarCreator.CalibrateHips" : "Kalibreer bekken/heupen",
@@ -624,6 +635,7 @@
         "Importer.Model.Advanced.Tangents" : "Bereken Tangent",
         "Importer.Model.Advanced.VertexColors" : "Importeer Vertex Kleuren",
         "Importer.Model.Advanced.Bones" : "Importeer Botten",
+        "Importer.Model.Advanced.Lights" : "Lichten importeren",
         "Importer.Model.Advanced.TextureAlpha" : "Bereken Textuur Alpha",
         "Importer.Model.Advanced.AlbedoColor" : "Importeer Albedo Kleur",
         "Importer.Model.Advanced.ImportEmissive" : "Importeer Emissief",
@@ -643,6 +655,7 @@
         "Importer.Model.Advanced.FlatShaded" : "Maak Flat Shaded",
         "Importer.Model.Advanced.DeduplicateInstances" : "Dedupliceer Instancies (Traag)",
         "Importer.Model.Advanced.Optimize" : "Optimaliseer Model/Scène",
+        "Importer.Model.Advanced.SplitSubmeshes" : "Splits Submeshes",
         "Importer.Model.Advanced.RandomColors" : "Genereer Willekeurige Kleuren",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Spawn materiaal Orbs",
         "Importer.Model.Advanced.ImagesByName" : "Importeer Afbeeldingen Op Naam",
@@ -799,6 +812,8 @@
         "CameraControl.Control.AnyoneCanInteract" : "Iedereen kan Bedienen",
         "CameraControl.Control.RenderPreviewForEveryone" : "Render Preview Voor Iedereen",
         "CameraControl.Control.RenderPrivateUI" : "Render Privé UI",
+        "CameraControl.Control.MotionBlur" : "Bewegingsonscherpte",
+
         "CameraControl.Control.SpawnPhotoInWorld" : "Spawn Foto in De wereld",
         "CameraControl.Control.FlipPreview" : "Flip Preview",
         "CameraControl.Control.GroupDetectionRadius" : "Groepsdetectieradius: {n} m",
@@ -865,11 +880,13 @@
         "Settings.DoubleClickInterval" : "DubbelKlikInterval",
         "Settings.ResetAllTutorials" : "Reset Alle Tutorials",
         "Settings.PreferSteamNetworking" : "Geef Voorkeur aan Steam Netwerk Sockets",
+        "Settings.DisableLAN" : "LAN uitschakelen",
         "Settings.LegacyGripEquip" : "Schakel Legacy Double Grip Equip in",
         "Settings.LegacyWorldSwitcher" : "Schakel Legacy Wereld Switcher in",
         "Settings.FetchIncompatibleSessions" : "Incompatibele sessies weergeven",
         "Settings.MaxConcurrentAssetTransfers" : "Max. gelijktijdige asset overdrachten",
         "Settings.AutosaveScreenshotPath" : "Pad voor het automatisch opslaan van screenshots",
+        "Settings.DebugInputBinding" : "Debug Invoer Bindingen",
 
         "Settings.LaserSmoothing.Header" : "Laser Smoothing",
         "Settings.LaserSmoothing.Speed" : "Smooth Snelheid",
@@ -878,9 +895,11 @@
         "Settings.LaserSmoothing.ModulateExponent" : "Moduleer Exponent",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "Moduleer SnelheidsVermenigvuldiger",
         "Settings.LaserSmoothing.StickThreshold" : "KleefDrempel",
+        "Settings.Laser.ShowInDesktop" : "Laser weergeven in bureaubladmodus",
         "Settings.LaserSmoothing.Reset" : "Reset LaserInstellingen",
 
         "Settings.Audio.Header" : "Audio",
+        "Settings.Audio.Master" : "Hoofdvolume: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "Geluidseffecten: {n,number,percent}",
         "Settings.Audio.Multimedia" : "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice" : "Stem: {n,number,percent}",
@@ -889,13 +908,19 @@
         "Settings.Audio.NoiseGateThreshold" : "Noise Gate Drempel: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalisatiedrempel: {n}",
         "Settings.Audio.NoiseSupression" : "Ruisonderdrukkingsfilter (RNNoise)",
+        "Settings.Audio.WhisperVoiceVolume" : "Fluisterstemvolume (buiten de bubble): {n,number,percent}",
         "Settings.Audio.InputDevice" : "Audio-invoerapparaat:",
+        "Settings.Audio.OutputDevice" : "Audio Uitgang:",
         "Settings.Audio.SelectInputDevice" : "Selecteer Audio Invoer Apparaat",
+        "Settings.Audio.SelectOutputDevice" : "Selecteer audio-uitvoerapparaat",
         "Settings.Audio.TestInput" : "Test je Audio Invoer:",
         "Settings.Audio.TestDescription" : "We spelen het geluid van het geselecteerde audioapparaat naar u terug, zodat u kunt controleren of het correct is.",
         "Settings.Audio.StartTest" : "Luister naar het apparaat\n<size=50%>(controleer microfoon / audio in)</size>",
         "Settings.Audio.StopTest" : "Stoppen met Testen",
         "Settings.Audio.Monitoring" : "Audio-ingang Controleren:",
+        "Settings.Audio.SystemDefaultOutput" : "Gebruik Systeemstandaard",
+
+        "Settings.Graphics.DesktopFOV" : "Desktop FOV",
 
         "Settings.Locale.ChangeLanguage" : "Taal Veranderen",
         "Settings.Locale.SelectLanguageHeader" : "Selecteer je Taal:",
@@ -963,6 +988,7 @@
         "Inspector.Mesh.MakeDualSided" : "Maak dubbelzijdig",
         "Inspector.Mesh.ConvertToFlatShading" : "Converteer naar vlakke Shading",
         "Inspector.Mesh.ConvertToConvexHull" : "Converteer naar Convex Hull",
+        "Inspector.Mesh.ConvertToPointCloud" : "Converteren naar puntenwolk",
         "Inspector.Mesh.MergeDoubles" : "Dubbelen samenvoegen",
         "Inspector.Mesh.StripEmptyBlendshapes" : "Strip Lege Blendshapes",
         "Inspector.Mesh.StripBlendshapeNormals" : "Strip Blendshape Normals",
@@ -1019,6 +1045,8 @@
         "Inspector.Texture.SwapRG" : "Verwissel R en G",
         "Inspector.Texture.SwapRB" : "Verwissel R en B",
         "Inspector.Texture.SwapGB" : "Verwissel G en B",
+        "Inspector.Texture.AddWhiteBackground" : "Witte achtergrond toevoegen",
+        "Inspector.Texture.AddBlackBackground" : "Zwarte achtergrond toevoegen",
         "Inspector.Texture.Hue" : "Tint:",
         "Inspector.Texture.ShiftHue" : "Verschuif tint",
         "Inspector.Texture.Saturation" : "Saturatie:",
@@ -1036,6 +1064,9 @@
         "Inspector.Texture.Rotate180" : "Draai 180°",
         "Inspector.Texture.MakeSquare" : "Maak vierkant",
         "Inspector.Texture.ToNearestPOT" : "Tot de dichtsbijzijnde macht van twee",
+        "Inspector.Texture.MakeTileable" : "Tileable maken (overgangsratio):",
+
+
 
         "Inspector.Texture.InvalidFloats" : "Diagnose: ongeldige floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnose: Genereer Bitmap Metadata",
@@ -1082,6 +1113,8 @@
         "Inspector.Rig.CleanupBoneColliders" : "Bone colliders opruimen",
         "Inspector.Rig.GenerateDebugVisuals" : "Genereer debug visuals",
         "Inspector.Rig.ClearDebugVisuals" : "Verwijder debug visuals",
+
+        "Inspector.AvatarExpression.AutoAssign" : "Automatisch Blendshapes toewijzen (met behulp van heuristiek)",
 
         "Wizard.General.ProcessRoot" : "Process Root:",
         "Wizard.General.Result" : "Resultaat:",
@@ -1187,27 +1220,27 @@
         "Tutorial.Intro.WelcomeDescription" : "Uw gids om de metaverse te ervaren.",
 
         "Tutorial.Intro.GrabbingTitle" : "Grijpen",
-        "Tutorial.Intro.GrabbingVR" : "Pick up objects by <color=#ffdd77><b>Grabbing</b></color> with the <color=#77ff77><b>Grip button</b></color>.<br>Grab at a distance using your laser.",
+        "Tutorial.Intro.GrabbingVR" : "Pak nabije voorwerpen op door ze <color=#ffdd77><b>vast te grijpen</b></color> met de <color=#77ff77><b>Grijptoets</b></color>.<br>Om verre voorwerpen op te pakken, druk je eerst op <b><color=#77ff77>Trigger</color></b> om je laser aan te zetten, dan <color=#ffdd77><b>grijp</b></color> je het voorwerp met de <color=#77ff77><b>Grijptoets</b></color>.",
         "Tutorial.Intro.GrabbingScreen" : "Pak objecten op door te <color=#ffdd77><b>Grijpen</b></color> met de <color=#77ff77><b>rechtermuisknop</b></color>.",
 
         "Tutorial.Intro.ScalingTitle" : "Schalen",
         "Tutorial.Intro.ScalingVR" : "Om een object te <color=#ffdd77><b>Schalen</b></color>, pakt u het met beide handen vast en beweegt ze<color=#77ddff><b>dichter of verder</b></color> uit elkaar - dit kan ook met uw lasers.",
-        "Tutorial.Intro.ScalingScreen" : "Om een object te <color=#ffdd77><b>Schalen</b></color>, pakt u het met de <color=#77ff77><b>rechtermuisknop</b></color> en <color=#77ddff><b>scrolt</b></color> u met uw <color=#77ff77><b>scrollwiel</b></color>.",
+        "Tutorial.Intro.ScalingScreen" : "Om een object te <color=#ffdd77><b>schalen</b></color>, pak je het vast met de <color=#77ff77><b>rechter muisknop</b></color> terwijl je <color=#77ddff><b>Shift</b></color> ingedrukt houdt, scroll je met je <color=#77ff77><b>scrollwiel</b></color>.",
 
         "Tutorial.Intro.ContextMenuTitle" : "Contextmenu",
         "Tutorial.Intro.ContextMenuDescription" : "Uw <color=#ffdd77><b>Contextmenu</b></color> biedt snelle acties.<br>Open of sluit het met <color=#77ff77><b>{button}</b></color>.",
         "Tutorial.Intro.ContextMenu_ButtonB" : "B",
         "Tutorial.Intro.ContextMenu_ButtonBY" : "B of Y",
         "Tutorial.Intro.ContextMenu_ButtonMenu" : "Menuknop",
-        "Tutorial.Intro.ContextMenu_Screen" : "R",
+        "Tutorial.Intro.ContextMenu_Screen" : "Middelste muisknop",
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "Verwijderen en dupliceren",
         "Tutorial.Intro.DestroyingDuplicatingVR" : "Terwijl u een object vasthoudt, kunt u het <b><color=#ffdd77>Verwijderen of dupliceren</color></b> door op de actie in het contextmenu te <color=#77ff77><b>klikken</b></color>.",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Terwijl je een object vasthoudt, <b><color=#ffdd77>Verwijder</color></b> het door op <color=#77ff77><b>Delete</b></color> te drukken. <color=#ffdd77><b>Dupliceer</b></color> het door op de <color=#77ff77><b>F-toets</b></color> te drukken.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Terwijl u een object vasthoudt, <b><color=#ffdd77>vernietigt</color></b> u het met de actie in het <color=#ffdd77><b>Context Menu</b></color> of door op de toets <color=#77ff77><b>Delete</b></color> te drukken. <color=#ffdd77><b>Dupliceer</b></color> het met de actie in het <color=#ffdd77><b>Context Menu</b></color>.",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "Jezelf Schalen",
         "Tutorial.Intro.ScalingYourselfVR" : "Om uzelf te <color=#ffdd77><b>Schalen</b></color>, schakelt u schalen in uw contextmenu in, houdt u beide <color=#77ff77><b>handgreepknoppen</b></color> ingedrukt en beweegt u uw handen <color=#77ddff><b>dichterbij of verder</b></color> uit elkaar.",
-        "Tutorial.Intro.ScalingYourselfScreen" : "Om jezelf te <color=#ffdd77><b>Schalen</b></color>, houd <color=#77ff77><b>Ctrl</b></color> ingedrukt en <color=#77ddff><b>scrol</b></color> met je <color=#77ff77><b>scrollwiel</b></color>.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Om <color=#ffdd77><b>jezelf te schalen</b></color> open het <color=#ffdd77><b>Context Menu</b></color> en schakel Scaling in, houd dan <color=#77ff77><b>Ctrl</b></color> ingedrukt en <color=#77ddff><b>scroll</b></color> met je <color=#77ff77><b>scrollwiel</b></color>.",
 
         "Tutorial.Intro.LocomotionTitle" : "Voortbeweging",
         "Tutorial.Intro.LocomotionDescription" : "Neos bevat veel verschillende bewegingsmethoden.<br>Deze voortbewegingsopties zijn beschikbaar in uw <color=#ffdd77>Contextmenu</color>.",
@@ -1218,10 +1251,10 @@
         "Tutorial.Intro.Dashboard_ButtonA" : "A",
         "Tutorial.Intro.Dashboard_ButtonAX" : "A of X",
         "Tutorial.Intro.Dashboard_ButtonMenu" : "Menuknop",
-        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl + spatiebalk",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Escape toets",
 
         "Tutorial.Intro.InventoryVR" : "Uw <color=#ffdd77><b>Inventaris</b></color> bevindt zich op uw dashboard.<br><color=#77ff77><b>Dubbelklik</b></color> op het item in je inventaris om een object te <br>To <color=#77ddff><b>Spawnen</b></color>.<br>Om een object <color=#77ddff><b>op te slaan</b></color>, <color=#77ddff><b>houdt</b></color> u het item vast en drukt u op <sprite name=inv-add> in de rechterbovenhoek.",
-        "Tutorial.Intro.InventoryScreen" : "Uw <color=#ffdd77><b>Inventaris</b></color> bevindt zich op uw Neos Dashboard.<br> <color=#77ff77><b>Dubbelklik</b></color> op het item in je inventaris om een object te <color=#77ddff><b>spawnen</b></color>.<br> Om een object <color=#77ddff><b>op te slaan</b></color>, houdt u het item ingedrukt en drukt u op <color=#77ddff><b>Ctrl + S</b></color>.",
+        "Tutorial.Intro.InventoryScreen" : "Je <color=#ffdd77><b>inventaris</b></color> bevindt zich op je Neos Dashboard.<br>Om een object te <color=#77ddff><b>spawnen</b></color>, <color=#77ff77><b>dubbel-klik</b></color> op het item in je inventaris.<br>Om een object <color=#77ddff><b>op te slaan</b></color>, hou het item vast en sla op via het <color=#ffdd77><b>Context Menu</b></color>.",
 
         "Tutorial.Intro.HomeScreenTitle" : "Uw startscherm",
         "Tutorial.Intro.HomeScreenDescription" : "Uw <color=#ffdd77><b>startscherm</b></color> bevat een lijst met handige functies.<br> Deze bevatten onder andere de Avatar Creator, Full body Calibrator, Camera/streaming en het Creëren van een nieuwe wereld.",
@@ -1278,6 +1311,70 @@
         "Tutorial.Tooltip.ShapeSecondary" : "Verander Vorm",
         "Tutorial.Tooltip.WigglerPrimary" : "Laat ongesproken kwaadaardigeheden los op de wereld",
         "Tutorial.Tooltip.WigglerSecondary" : "Red je ziel een beetje",
+
+        "Tutorial.BotDesigner.Start" : "Begin",
+
+        "Tutorial.BotDesigner.Intro.Title" : "Neos Bot Ontwerper",
+        "Tutorial.BotDesigner.Intro.Description" : "Ontwerp een aangepaste Neos Bot!",
+        "Tutorial.BotDesigner.List.Models" : "Modellen",
+        "Tutorial.BotDesigner.List.Colors" : "Kleuren",
+        "Tutorial.BotDesigner.ModelOptions.Genders.Male" : "Mannelijk",
+        "Tutorial.BotDesigner.ModelOptions.Genders.Female" : "Vrouwelijk",
+        "Tutorial.BotDesigner.ModelOptions.Cloak" : "Mantel",
+        "Tutorial.BotDesigner.ColorOptions.Metal" : "Metaal",
+        "Tutorial.BotDesigner.ColorOptions.Secondary" : "Secundaire",
+        "Tutorial.BotDesigner.ColorOptions.Underbody" : "Onderkant",
+        "Tutorial.BotDesigner.ColorOptions.Emission" : "Emissie",
+        "Tutorial.BotDesigner.ColorOptions.PickColor" : "Kies kleur",
+
+        "Tutorial.AvatarTutorial.Start" : "Begin",
+        "Tutorial.AvatarTutorial.OpenWorld" : "Open wereld",
+        "Tutorial.AvatarTutorial.AvatarWorlds" : "Avatar Werelden",
+        "Tutorial.AvatarTutorial.Intro.Title" : "Neos Avatars",
+        "Tutorial.AvatarTutorial.Intro.Description" : "Leer hoe u avatars kunt vinden en gebruiken!",
+
+        "Tutorial.AvatarTutorial.FindingAvatars.Title" : "Avatars vinden",
+        "Tutorial.AvatarTutorial.EquippingAndFavoriting.Title" : "Uitrusten & Favoriet maken",
+        "Tutorial.AvatarTutorial.AvatarCreation.Title" : "Avatar Creatie",
+        "Tutorial.AvatarTutorial.AvatarWorlds.Title" : "Avatar Werelden",
+        "Tutorial.AvatarTutorial.AvatarWorlds.Description" : "Selecteer een avatarwereld waar je naartoe wilt en klik op <color=#77ff77>Open wereld</color>.",
+        "Tutorial.AvatarTutorial.Avatars.Description" : "Avatars zijn een manier om jezelf uit te drukken. <br> Je kunt avatars vinden of maken binnen de metaverse.",
+        "Tutorial.AvatarTutorial.FindingAvatars.Description" : "Veel voorkomende avatars bevinden zich in de<br>Neos Essentials-map in je inventaris.<br>Door de Community gemaakte avatars zijn te vinden in openbare mappen of gepubliceerde werelden.",
+        "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Zodra je een avatar hebt, rust je deze uit door erop te klikken<br>en Equip Avatar te kiezen.<br><br>Sla uw huidig uitgeruste avatar op door op <sprite name=Download> te klikken.<br><br>U kunt uw avatar favoriet maken door deze <br>te selecteren in uw inventaris en op <sprite name=Favorite> te klikken.",
+        "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Om een aangepaste avatar te importeren en in te stellen, raadpleegt u<br>de Neos Avatar Creation-tutorial.",
+
+
+        "Tutorial.AvatarCreator.Intro.Description" : "Leer hoe u uw avatar kunt importeren en instellen!",
+        "Tutorial.AvatarCreator.Options.Start" : "Begin",
+        "Tutorial.AvatarCreator.ImportingAssets.Title" : "Assets Importeren",
+
+        "Tutorial.AvatarCreator.SettingUpMaterials.Title" : "Materialen Instellen",
+        "Tutorial.AvatarCreator.DynamicBones.Title" : "Dynamisch Bones",
+        "Tutorial.AvatarCreator.Saving&Favoriting.Title" : "Opslaan & Favoriet maken",
+        "Tutorial.AvatarCreator.ImportingAssets.Description" : "Aangepaste avatar-items, inclusief het model, texturen, normal maps en meer, kunnen allemaal rechtstreeks vanuit de in-app-bestandsbrowser worden geïmporteerd, of door de bestanden vanaf uw bureaublad naar het Neos-venster te slepen en neer te zetten.",
+        "Tutorial.AvatarCreator.AvatarCreator.Description" : "Open na het importeren van het model de <color=#77ccff><b>Avatar Creator</b></color> op het dashboard en plaats de kop, handen en gereedschapankers zoals gewenst.",
+        "Tutorial.AvatarCreator.SettingUpMaterials.Description" : "Gebruik de <color=#77ccff><b>Developer Tooltip</b></color> <sprite name=DevTip> en druk op <color=#77ff77><b>Secondary</b></color> om de avatar te selecteren en de hiërarchie te openen.<br>Navigeer naar de root van de avatar, en met de <color=#77ccff><b>Material Tooltip</b></color> <sprite name=MatTip> uitgerust, <color=#77ff77><b>Grijp</b></color> de CenteredRoot-slot en druk op <color=#77ff77><b>Secondary</b></color> om het materiaal van de avatar te extraheren.<br>Texturen en maps die niet rechtstreeks in de avatar zijn geïmporteerd, kunnen worden toegevoegd door het materiaal te bewerken, de textuur vast te pakken en op het doelveld te klikken.",
+        "Tutorial.AvatarCreator.DynamicBones.Description" : "Dynamic bones kunnen leven en interactiviteit toevoegen aan een anders statische rig.<br>Voeg de DynamicBoneChain-component toe aan het begin van de doel bone chain, scrol naar beneden en klik op <color=#77ccff><b>Setup van Children (Alleen Rig)</b></color>. Dit creëert een standaard dynamische botketen. U kunt de eigenschappen ervan bewerken met de inspector.",
+        "Tutorial.AvatarCreator.SavingFavoriting.Description" : "Nadat je klaar bent met de eerste instellingen, rust je de avatar uit en navigeer je naar een map in je inventaris waar je hem wilt opslaan, en druk je op <sprite name=Download> .<br><br>Klik op je avatar in de inventaris om hem te selecteren, en druk je op <sprite name=Favorite> om hem als favoriete avatar in te stellen.",
+        "Tutorial.AvatarCreator.Outro.Title" : "Meer informatie & hulp",
+        "Tutorial.AvatarCreator.Outro.Button.Wiki" : "Wiki",
+        "Tutorial.AvatarCreator.Outro.Description" : "Extra bronnen voor het maken van avatars, set-up, en andere tutorials zijn te vinden op de community-wiki, de Neos Discord, en op YouTube.",
+
+        "Tutorial.CommunityYouTube.Title" : "Community YouTube Kanalen",
+
+        "Tutorial.UserResources.UserResourcesTitle" : "Hulpmiddelen",
+        "Tutorial.UserResources.SupportTitle" : "Hoe kan ik Neos ondersteunen",
+
+
+
+
+
+        "Tutorial.Intro.BadgesDisabilityHearing" : "Slechthorend",
+        "Tutorial.Intro.BadgesDisabilityVision" : "Slechtziend",
+        "Tutorial.Intro.BadgesDisabilitySpeech" : "Spraakmoeilijkheden",
+
+        "Tutorial.Intro.BadgesDescription" : "Badges zijn kleine icoontjes die aspecten van een gebruiker laten zien. Hier zijn een paar belangrijke badges om te onthouden. De handicap badges kunnen zelf worden toegewezen via de Neos bot.",
+        "Tutorial.Intro.HelpSite" : "Help",
 
         "Exiting.SavingItems" : "Opslaan Van {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Wijzigingen opslaan...",
