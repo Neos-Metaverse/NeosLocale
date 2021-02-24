@@ -1025,6 +1025,8 @@
         "Inspector.Texture.SwapRG" : "Interŝanĝi R kaj G",
         "Inspector.Texture.SwapRB" : "Interŝanĝi R kaj B",
         "Inspector.Texture.SwapGB" : "Interŝanĝi G kaj B",
+        "Inspector.Texture.AddWhiteBackground" : "Aldoni Blankan Fonon",
+        "Inspector.Texture.AddBlackBackground" : "Aldoni Nigran Fonon",
         "Inspector.Texture.Hue" : "Kolortono:",
         "Inspector.Texture.ShiftHue" : "Ŝovi Kolortonon",
         "Inspector.Texture.Saturation" : "Saturado:",
