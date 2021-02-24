@@ -1025,6 +1025,8 @@
         "Inspector.Texture.SwapRG" : "RとGを入れ替え",
         "Inspector.Texture.SwapRB" : "RとBを入れ替え",
         "Inspector.Texture.SwapGB" : "GとBを入れ替え",
+        "Inspector.Texture.AddWhiteBackground" : "透過部分に白背景を追加",
+        "Inspector.Texture.AddBlackBackground" : "透過部分に黒背景を追加",
         "Inspector.Texture.Hue" : "色相:",
         "Inspector.Texture.ShiftHue" : "色相シフト",
         "Inspector.Texture.Saturation" : "彩度:",
