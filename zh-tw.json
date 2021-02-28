@@ -1025,6 +1025,8 @@
         "Inspector.Texture.SwapRG" : "交換R和G",
         "Inspector.Texture.SwapRB" : "交換R和B",
         "Inspector.Texture.SwapGB" : "交換G和B",
+        "Inspector.Texture.AddWhiteBackground" : "添加白色背景",
+        "Inspector.Texture.AddBlackBackground" : "添加黑色背景",
         "Inspector.Texture.Hue" : "色調:",
         "Inspector.Texture.ShiftHue" : "轉變色相",
         "Inspector.Texture.Saturation" : "飽和:",
