@@ -1025,6 +1025,8 @@
         "Inspector.Texture.SwapRG" : "Échanger le rouge et le vert",
         "Inspector.Texture.SwapRB" : "Échanger le rouge et le bleu",
         "Inspector.Texture.SwapGB" : "Échanger le vert et le rouge",
+        "Inspector.Texture.AddWhiteBackground" : "Ajouter un fond blanc",
+        "Inspector.Texture.AddBlackBackground" : "Ajouter un fond noir",
         "Inspector.Texture.Hue" : "Teinte:",
         "Inspector.Texture.ShiftHue" : "Modifier la teinte",
         "Inspector.Texture.Saturation" : "Saturation:",
@@ -1155,7 +1157,7 @@
         "Tutorial.Welcome.WelcomeTo" : "Bienvenue à",
         "Tutorial.Welcome.LetsStart" : "C'est parti!",
 
-        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>WARNING:</b> </color> Vous jouez actuellement en mode écran, qui n'est actuellement pas officiellement pris en charge et est principalement conçu pour le débogage. <br> <br> Bien qu'il puisse être utilisé pour jouer, certaines choses ne fonctionneront pas et les commandes peuvent être difficiles à utiliser. <br> <br> <b> Neos est actuellement conçu pour être joué en RV. </b> <br> <br> Un mode bureau fonctionnel devrait être implémenté à l’avenir.",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>WARNING:</b> </color> Vous jouez actuellement en mode écran, qui n'est actuellement pas officiellement pris en charge et est principalement conçu pour le débogage. <br> <br> Bien qu'il puisse être utilisé pour jouer, certaines choses ne fonctionneront pas et les commandes peuvent être difficiles à utiliser. <br> <br> <b> Neos est actuellement conçu pour être joué en réalité virtuelle (VR). </b> <br> <br> Un mode bureau fonctionnel devrait être implémenté à l’avenir.",
         "Tutorial.Welcome.ScreenUnderstand" : "Je comprends",
 
         "Tutorial.Welcome.AccountHeader" : "Compte Neos",
