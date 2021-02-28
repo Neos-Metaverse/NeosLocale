@@ -722,12 +722,15 @@ Settings.Audio.NoiseGateThreshold
 Settings.Audio.NormzliationThreshold  
 Settings.Audio.NoiseSupression  
 Settings.Audio.InputDevice  
+Settings.Audio.OutputDevice  
 Settings.Audio.SelectInputDevice  
+Settings.Audio.SelectOutputDevice  
 Settings.Audio.TestInput  
 Settings.Audio.TestDescription  
 Settings.Audio.StartTest  
 Settings.Audio.StopTest  
 Settings.Audio.Monitoring  
+Settings.Audio.SystemDefaultOutput  
 Settings.Locale.ChangeLanguage  
 Settings.Locale.SelectLanguageHeader  
 Settings.Save  
@@ -851,6 +854,9 @@ Inspector.Texture.RotateCCW
 Inspector.Texture.Rotate180  
 Inspector.Texture.MakeSquare  
 Inspector.Texture.ToNearestPOT  
+Inspector.Texture.MakeTileable  
+Inspector.Texture.TileLoop  
+Inspector.Texture.TileMirror  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
 Inspector.Material.VariantInfo  
@@ -890,6 +896,7 @@ Inspector.DynamicBoneChain.AlwaysGrabLastBone
 Inspector.Rig.CleanupBoneColliders  
 Inspector.Rig.GenerateDebugVisuals  
 Inspector.Rig.ClearDebugVisuals  
+Inspector.AvatarExpression.AutoAssign  
 Wizard.General.ProcessRoot  
 Wizard.General.Result  
 Wizard.General.ErrorNoRoot  

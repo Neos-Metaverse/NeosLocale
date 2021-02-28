@@ -9,7 +9,14 @@ Importer.Model.Advanced.SplitSubmeshes
 Settings.DisableLAN  
 Settings.DebugInputBinding  
 Settings.Audio.Master  
+Settings.Audio.OutputDevice  
+Settings.Audio.SelectOutputDevice  
+Settings.Audio.SystemDefaultOutput  
 Inspector.Mesh.ConvertToPointCloud  
 Inspector.Texture.AddWhiteBackground  
 Inspector.Texture.AddBlackBackground  
+Inspector.Texture.MakeTileable  
+Inspector.Texture.TileLoop  
+Inspector.Texture.TileMirror  
+Inspector.AvatarExpression.AutoAssign  
 

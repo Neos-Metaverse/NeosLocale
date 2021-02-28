@@ -49,6 +49,9 @@ Settings.AutosaveScreenshotPath
 Settings.DebugInputBinding  
 Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
+Settings.Audio.OutputDevice  
+Settings.Audio.SelectOutputDevice  
+Settings.Audio.SystemDefaultOutput  
 Inspector.Mesh.ConvertToPointCloud  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
@@ -59,6 +62,9 @@ Inspector.Texture.Saturation
 Inspector.Texture.AdjustSaturation  
 Inspector.Texture.Value  
 Inspector.Texture.AdjustValue  
+Inspector.Texture.MakeTileable  
+Inspector.Texture.TileLoop  
+Inspector.Texture.TileMirror  
 Inspector.Material.VariantInfo  
 Inspector.Material.WaitingForApply  
 Inspector.Audio.DenoiseRNNoise  
@@ -70,6 +76,7 @@ Inspector.AudioStream.BufferStats
 Inspector.Rig.CleanupBoneColliders  
 Inspector.Rig.GenerateDebugVisuals  
 Inspector.Rig.ClearDebugVisuals  
+Inspector.AvatarExpression.AutoAssign  
 Wizard.AssetOptimization.CleanupUnusedAssets  
 Wizard.LightSources.Title  
 Wizard.LightSources.Header  

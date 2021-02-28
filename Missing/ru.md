@@ -2,11 +2,11 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Russian [ru]
-Importer.Model.Advanced.SplitSubmeshes  
-Settings.DisableLAN  
-Settings.DebugInputBinding  
-Settings.Audio.Master  
-Inspector.Mesh.ConvertToPointCloud  
-Inspector.Texture.AddWhiteBackground  
-Inspector.Texture.AddBlackBackground  
+Settings.Audio.OutputDevice  
+Settings.Audio.SelectOutputDevice  
+Settings.Audio.SystemDefaultOutput  
+Inspector.Texture.MakeTileable  
+Inspector.Texture.TileLoop  
+Inspector.Texture.TileMirror  
+Inspector.AvatarExpression.AutoAssign  
 

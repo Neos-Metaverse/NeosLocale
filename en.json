@@ -895,12 +895,15 @@
         "Settings.Audio.NormzliationThreshold" : "Normalization Threshold: {n}",
         "Settings.Audio.NoiseSupression" : "Noise Suppression Filter (RNNoise)",
         "Settings.Audio.InputDevice" : "Audio Input Device:",
+        "Settings.Audio.OutputDevice" : "Audio Output Device:",
         "Settings.Audio.SelectInputDevice" : "Select Audio Input Device",
+        "Settings.Audio.SelectOutputDevice" : "Select Audio Output Device",
         "Settings.Audio.TestInput" : "Test your audio input:",
         "Settings.Audio.TestDescription" : "We'll play the sound from the selected audio device back at you, so you can verify it's correct.",
         "Settings.Audio.StartTest" : "Listen to device\n<size=50%>(check microphone / audio in)</size>",
         "Settings.Audio.StopTest" : "Stop Testing",
         "Settings.Audio.Monitoring" : "Audio Input Monitoring:",
+        "Settings.Audio.SystemDefaultOutput" : "Use System Default",
 
         "Settings.Locale.ChangeLanguage" : "Change Language",
         "Settings.Locale.SelectLanguageHeader" : "Select your language:",
@@ -1044,6 +1047,9 @@
         "Inspector.Texture.Rotate180" : "Rotate 180°",
         "Inspector.Texture.MakeSquare" : "Make Square",
         "Inspector.Texture.ToNearestPOT" : "To nearest power of two",
+        "Inspector.Texture.MakeTileable" : "Make Tileable (transition ratio):",
+        "Inspector.Texture.TileLoop" : "Tile (loop)",
+        "Inspector.Texture.TileMirror" : "Tile (mirror)",
 
         "Inspector.Texture.InvalidFloats" : "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnostic: Generate Bitmap Metadata",
@@ -1090,6 +1096,8 @@
         "Inspector.Rig.CleanupBoneColliders" : "Cleanup bone colliders",
         "Inspector.Rig.GenerateDebugVisuals" : "Generate debug visuals",
         "Inspector.Rig.ClearDebugVisuals" : "Clear debug visuals",
+
+        "Inspector.AvatarExpression.AutoAssign" : "Auto Assign (using heuristics)",
 
         "Wizard.General.ProcessRoot" : "Process Root:",
         "Wizard.General.Result" : "Result:",
