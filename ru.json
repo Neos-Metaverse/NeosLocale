@@ -894,13 +894,16 @@
         "Settings.Audio.NoiseGateThreshold" : "Порог шумодава: {n}",
         "Settings.Audio.NormzliationThreshold" : "Порог нормализации: {n}",
         "Settings.Audio.NoiseSupression" : "Фильтр подавления шума (RNNoise)",
-        "Settings.Audio.InputDevice" : "Устройство Аудио Захвата:",
+        "Settings.Audio.InputDevice" : "Устройство аудио захвата:",
+        "Settings.Audio.OutputDevice" : "Устройство аудио вывода:",
         "Settings.Audio.SelectInputDevice" : "Выберите устройство аудио захвата",
+        "Settings.Audio.SelectOutputDevice" : "Выберите устройство аудио вывода",
         "Settings.Audio.TestInput" : "Протестируйте ваш звук:",
         "Settings.Audio.TestDescription" : "Мы проиграем звук с выбранного устройства обратно к Вам чтобы проверить, что всё работает.",
         "Settings.Audio.StartTest" : "Прослушать устройство\n<size=50%>(проверить микрофон / аудио вход)</size>",
         "Settings.Audio.StopTest" : "Остановить проверку",
         "Settings.Audio.Monitoring" : "Монитор аудио входа:",
+        "Settings.Audio.SystemDefaultOutput" : "Использовать системные настройки",
 
         "Settings.Locale.ChangeLanguage" : "Сменить язык",
         "Settings.Locale.SelectLanguageHeader" : "Выберите ваш язык:",
@@ -1044,6 +1047,9 @@
         "Inspector.Texture.Rotate180" : "Повернуть на 180°",
         "Inspector.Texture.MakeSquare" : "Сделать Квадратным",
         "Inspector.Texture.ToNearestPOT" : "К ближайшей степени 2-х",
+        "Inspector.Texture.MakeTileable" : "Сделать повторяемой (размер перехода):",
+        "Inspector.Texture.TileLoop" : "Повторяемая (цикл)",
+        "Inspector.Texture.TileMirror" : "Повторяемая (зеркало)",
 
         "Inspector.Texture.InvalidFloats" : "Диагностика: Не действительные float числа",
         "Inspector.Texture.GenerateMetadata" : "Диагностика: Генерация Bitmap Метаданных",
@@ -1090,6 +1096,8 @@
         "Inspector.Rig.CleanupBoneColliders" : "Очистить коллайдеры костей",
         "Inspector.Rig.GenerateDebugVisuals" : "Генерировать отладочную визуализацию",
         "Inspector.Rig.ClearDebugVisuals" : "Очистить отладочную визуализацию",
+
+        "Inspector.AvatarExpression.AutoAssign" : "Авто присвоение (используя эвристику)",
 
         "Wizard.General.ProcessRoot" : "Начиная с корня:",
         "Wizard.General.Result" : "Результат:",
