@@ -846,7 +846,7 @@
 		"Settings.Audio.NoiseGateThreshold": "잡음 식별(Noise gate) 기준값: {n}",
 		"Settings.Audio.NormzliationThreshold": "음량 평탄화(노멀라이즈) 기준값: {n}",
 		"Settings.Audio.NoiseSupression" : "노이즈 제거 필터 (RNNoise)",
-		"Settings.Audio.InputDevice": "오디오 입력 장치:",
+		"Settings.Audio.InputDevice": "오디오 입력장치:",
 
 		"Settings.Save": "설정 저장",
 
@@ -1094,7 +1094,7 @@
 		"World.Edit.AccessPublic": "모든 사용자(공개)",
 		"Contacts.InHiddenFriendsOnly": "숨겨진 월드(친구전용)에 있음",
 		"Settings.MaxConcurrentAssetTransfers": "에셋의 동시 전송량",
-		"Settings.Audio.SelectInputDevice": "오디오 장치를 선택하세요.",
+		"Settings.Audio.SelectInputDevice": "오디오 입력장치 선택",
 		"Settings.Audio.TestInput": "오디오 장치를 시험해 보세요.",
 		"Settings.Audio.TestDescription": "선택된 장치에서 오디오를 재생합니다. 동작이 정상적인지 확인 해 주세요.",
 		"Settings.Audio.StartTest": "마이크 시험",
@@ -1289,6 +1289,14 @@
 		
 		"Inspector.Texture.AddWhiteBackground" : "백색배경 추가",
 		"Inspector.Texture.AddBlackBackground" : "흑색배경 추가",
+		
+		"Settings.Audio.OutputDevice" : "오디오 출력장치:",
+		"Settings.Audio.SelectOutputDevice" : "오디오 출력장치 선택",
+		"Settings.Audio.SystemDefaultOutput" : "시스템 기본값 사용",
+		"Inspector.Texture.MakeTileable" : "타일 만들기(변환비):",
+		"Inspector.Texture.TileLoop" : "반복(Loop) 타일",
+		"Inspector.Texture.TileMirror" : "대칭(Mirror) 타일",
+		"Inspector.AvatarExpression.AutoAssign" : "자동지정(휴리스틱)",
 		
 		"Dummy": "더미"
 	}
