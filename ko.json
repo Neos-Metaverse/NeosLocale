@@ -1287,6 +1287,9 @@
 		"Settings.DebugInputBinding" : "입력정보 확인(Debug input binding)",
 		"Inspector.Mesh.ConvertToPointCloud" : "점(Point Cloud)들로 변환",
 		
+		"Inspector.Texture.AddWhiteBackground" : "백색배경 추가",
+		"Inspector.Texture.AddBlackBackground" : "흑색배경 추가",
+		
 		"Dummy": "더미"
 	}
 }
