@@ -46,11 +46,11 @@ If you're like, you can help translate the store descriptions as well (this is u
 If you do translate them and you haven't added a credit yet, put your name in the regular .json file for translations of in-game strings, even if you haven't translated any in-game strings.
 
 # If you're contributing a new language
-1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
+1) Create a new Issue (https://github.com/Neos-Metaverse/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
 
-2) Verify that Neos' fork of ICU MessageFormat.NET has pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/Frooxius/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
+2) Verify that Neos' fork of ICU MessageFormat.NET has pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/Neos-Metaverse/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
 
-If you can't find your language code in this file, please make a Issue either on the official Neos issue tracker (https://github.com/Frooxius/NeosPublic/issues) or in this repository.
+If you can't find your language code in this file, please make a Issue either on the official Neos issue tracker (https://github.com/Neos-Metaverse/NeosPublic/issues) or in this repository.
 
 Alternatively you can implement the pluralizer yourself based on the reference from the Unicode CLDR repository: https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml and make a pull request for it to be merged with our fork or MessageFormat.NET
 
