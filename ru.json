@@ -1203,7 +1203,7 @@
         "Tutorial.Intro.WelcomeDescription" : "Ваш проводник в Метаверс.",
 
         "Tutorial.Intro.GrabbingTitle" : "Хватание",
-        "Tutorial.Intro.GrabbingVR" : "Подбирайте объекты, <color=#ffdd77><b>хватая</b></color> их <color=#77ff77><b>кнопкой хвата</b></color>.<br>Хватайте на расстоянии с помощью лазера.",
+        "Tutorial.Intro.GrabbingVR" : "Подбирайте близкие объекты, <color=#ffdd77><b>хватая</b></color> их <color=#77ff77><b>кнопкой хвата</b></color>.<br>Хватайте на расстоянии с помощью лазера. Нажмите <color=#77ff77><b>спусковой крючок</b></color> чтобы включить лазер, затем <color=#77ff77><b>кнопкой хвата</b></color> схватите обхект",
         "Tutorial.Intro.GrabbingScreen" : "Подбирайте объекты, <color=#ffdd77><b>хватая</b></color> их <color=#77ff77><b>правой кнопкой мыши</b></color>.",
 
         "Tutorial.Intro.ScalingTitle" : "Масштаб",
