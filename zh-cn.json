@@ -625,6 +625,7 @@
         "Importer.Model.Advanced.Tangents" : "计算切线",
         "Importer.Model.Advanced.VertexColors" : "导入顶点颜色",
         "Importer.Model.Advanced.Bones" : "导入骨骼",
+        "Importer.Model.Advanced.Lights" : "进口灯",
         "Importer.Model.Advanced.TextureAlpha" : "计算纹理Alpha",
         "Importer.Model.Advanced.AlbedoColor" : "导入反照率颜色",
         "Importer.Model.Advanced.ImportEmissive" : "导入发射",

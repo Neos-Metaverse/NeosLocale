@@ -625,6 +625,7 @@
         "Importer.Model.Advanced.Tangents": "Kalkuli klavojn",
         "Importer.Model.Advanced.VertexColors": "Importi verticajn kolorojn",
         "Importer.Model.Advanced.Bones": "Importi Ostojn",
+        "Importer.Model.Advanced.Lights" : "importi lumon",
         "Importer.Model.Advanced.TextureAlpha": "Kalkuli Teksturan Alfa",
         "Importer.Model.Advanced.AlbedoColor": "Importi Albedo-Koloron",
         "Importer.Model.Advanced.ImportEmissive": "Importi Sendan",
