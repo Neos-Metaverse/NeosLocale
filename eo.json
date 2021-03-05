@@ -895,12 +895,15 @@
         "Settings.Audio.NormzliationThreshold": "Normaliga Sojlo: {n}",
         "Settings.Audio.NoiseSupression" : "Filtrilo pri Subpremado de Bruo (RNNoise)",
         "Settings.Audio.InputDevice": "Aŭd-Eniga Aparato:",
+        "Settings.Audio.OutputDevice" : "Aŭd-Eliga Aparato:",
         "Settings.Audio.SelectInputDevice" : "Elektu Aŭd-Eniga Aparato",
+        "Settings.Audio.SelectOutputDevice" : "Elektu Aŭd-Eliga Aparato",
         "Settings.Audio.TestInput" : "Provo Aŭd-Eniga Aparato:",
         "Settings.Audio.TestDescription" : "Ni ludos la sonon de la elektita sonsistemo kun vi, por ke vi kontrolu, ke ĝi estas ĝusta.",
         "Settings.Audio.StartTest" : "Aŭskultu aparaton\n<size=50%>(kontrolu mikrofonon/sonon)</size>",
         "Settings.Audio.StopTest" : "Ĉesu Provi",
         "Settings.Audio.Monitoring" : "Aŭdiga Eniga Monitoraĵo:",
+        "Settings.Audio.SystemDefaultOutput" : "Uzu Sisteman Defaŭlton",
 
         "Settings.Locale.ChangeLanguage" : "Ŝanĝi Lingvon",
         "Settings.Locale.SelectLanguageHeader" : "Elektu vian lingvon:",
@@ -1044,6 +1047,9 @@
         "Inspector.Texture.Rotate180" : "Rotacii 180°",
         "Inspector.Texture.MakeSquare" : "Faru Kvadraton",
         "Inspector.Texture.ToNearestPOT" : "Al plej proksima potenco de du",
+        "Inspector.Texture.MakeTileable" : "Make Tileable (transition ratio):",
+        "Inspector.Texture.TileLoop" : "Kahelo (buklo)",
+        "Inspector.Texture.TileMirror" : "Kahelo (spegulo)",
 
         "Inspector.Texture.InvalidFloats" : "Diagnozo: Nevalidaj flosiloj",
         "Inspector.Texture.GenerateMetadata" : "Diagnozo: Generi Bitmapajn Metadatenojn",
@@ -1090,6 +1096,8 @@
         "Inspector.Rig.CleanupBoneColliders" : "Purigi ostkolizioj",
         "Inspector.Rig.GenerateDebugVisuals" : "Generi senararigajn bildojn",
         "Inspector.Rig.ClearDebugVisuals" : "Klari vida elpurigado",
+
+        "Inspector.AvatarExpression.AutoAssign" : "Aŭtomata Asigno (uzante heŭristikon)",
 
         "Wizard.General.ProcessRoot": "Procezo enradikiĝas:",
         "Wizard.General.Result": "Rezulto:",

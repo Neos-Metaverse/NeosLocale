@@ -895,12 +895,15 @@
         "Settings.Audio.NormzliationThreshold" : "标准化阈值: {n}",
         "Settings.Audio.NoiseSupression" : "噪声抑制滤波器（RNNoise）",
         "Settings.Audio.InputDevice" : "音频输入装置:",
+        "Settings.Audio.OutputDevice" : "音频输出设备:",
         "Settings.Audio.SelectInputDevice" : "选择音频输入设备",
+        "Settings.Audio.SelectOutputDevice" : "选择音频输出设备",
         "Settings.Audio.TestInput" : "测试您的音频输入:",
         "Settings.Audio.TestDescription" : "我们将向您播放来自所选音频设备的声音，以便您确认它是正确的。",
         "Settings.Audio.StartTest" : "听设备\n<size=50％>(检查麦克风/音频输入)</size>",
         "Settings.Audio.StopTest" : "停止测试",
         "Settings.Audio.Monitoring" : "音频输入监控:",
+        "Settings.Audio.SystemDefaultOutput" : "使用系统默认值",
 
         "Settings.Locale.ChangeLanguage" : "改变语言",
         "Settings.Locale.SelectLanguageHeader" : "选择你的语言:",
@@ -1044,6 +1047,9 @@
         "Inspector.Texture.Rotate180" : "旋转180°",
         "Inspector.Texture.MakeSquare" : "使平方",
         "Inspector.Texture.ToNearestPOT" : "到最接近的2的幂",
+        "Inspector.Texture.MakeTileable" : "使图块（过渡比率）:",
+        "Inspector.Texture.TileLoop" : "平铺（循环）",
+        "Inspector.Texture.TileMirror" : "瓷砖（镜面）",
 
         "Inspector.Texture.InvalidFloats" : "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata" : "诊断：生成位图元数据",
@@ -1090,6 +1096,8 @@
         "Inspector.Rig.CleanupBoneColliders" : "清理骨对撞机",
         "Inspector.Rig.GenerateDebugVisuals" : "生成调试视觉效果",
         "Inspector.Rig.ClearDebugVisuals" : "清除调试视觉效果",
+
+        "Inspector.AvatarExpression.AutoAssign" : "自动分配（使用启发式）",
 
         "Wizard.General.ProcessRoot" : "进程根:",
         "Wizard.General.Result" : "结果:",

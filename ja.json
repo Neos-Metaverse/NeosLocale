@@ -895,12 +895,15 @@
         "Settings.Audio.NormzliationThreshold" : "ノーマライゼーションの閾値: {n}",
         "Settings.Audio.NoiseSupression" : "ノイズ抑制フィルター（RNNoise）",
         "Settings.Audio.InputDevice" : "音声入力デバイス:",
+        "Settings.Audio.OutputDevice" : "音声出力デバイス:",
         "Settings.Audio.SelectInputDevice" : "音声入力デバイスを選択",
+        "Settings.Audio.SelectOutputDevice" : "音声出力デバイスを選択",
         "Settings.Audio.TestInput" : "音声入力デバイスのテスト:",
         "Settings.Audio.TestDescription" : "選択したオーディオデバイスからのサウンドが再生され、入力した音声を確認できます。",
         "Settings.Audio.StartTest" : "入力した音声を聴く\n<size=50%>(マイク/オーディオ入力を確認してください)</size>",
         "Settings.Audio.StopTest" : "テスト終了",
         "Settings.Audio.Monitoring" : "音声入力のモニタリング:",
+        "Settings.Audio.SystemDefaultOutput" : "システムデフォルトを使用",
 
         "Settings.Locale.ChangeLanguage" : "言語設定",
         "Settings.Locale.SelectLanguageHeader" : "言語を選択:",
@@ -1044,6 +1047,9 @@
         "Inspector.Texture.Rotate180" : "180°回転",
         "Inspector.Texture.MakeSquare" : "正方形にする",
         "Inspector.Texture.ToNearestPOT" : "最も近い2の累乗の値に合わせる",
+        "Inspector.Texture.MakeTileable" : "タイル化できるようにする（遷移比）:",
+        "Inspector.Texture.TileLoop" : "タイル (ループ)",
+        "Inspector.Texture.TileMirror" : "タイル (ミラー)",
 
         "Inspector.Texture.InvalidFloats" : "診断：フロートが無効です",
         "Inspector.Texture.GenerateMetadata" : "診断：ビットマップメタデータを生成します",
@@ -1090,6 +1096,8 @@
         "Inspector.Rig.CleanupBoneColliders" : "ボーンコライダーをクリーンアップする",
         "Inspector.Rig.GenerateDebugVisuals" : "デバッグビジュアル生成",
         "Inspector.Rig.ClearDebugVisuals" : "デバッグビジュアル除去",
+
+        "Inspector.AvatarExpression.AutoAssign" : "自動割り当て(ヒューリスティクスを使用)",
 
         "Wizard.General.ProcessRoot" : "プロセスルート:",
         "Wizard.General.Result" : "結果:",

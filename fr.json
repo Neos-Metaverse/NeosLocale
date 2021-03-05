@@ -895,12 +895,15 @@
         "Settings.Audio.NormzliationThreshold" : "Seuil de normalisation: {n}",
         "Settings.Audio.NoiseSupression" : "Filtre de suppression du bruit (RNNoise)",
         "Settings.Audio.InputDevice" : "Dispositif d'entrée audio:",
+        "Settings.Audio.OutputDevice" : "Dispositif de sortie audio:",
         "Settings.Audio.SelectInputDevice" : "Sélectionner le périphérique audio d'entrée",
+        "Settings.Audio.SelectOutputDevice" : "Sélectionner le périphérique audio de sortie",
         "Settings.Audio.TestInput" : "Testez votre entrée audio:",
         "Settings.Audio.TestDescription" : "Nous vous rejouerons le son du périphérique audio sélectionné afin que vous puissiez vérifier qu'il est correct.",
         "Settings.Audio.StartTest" : "Tester le microphone",
         "Settings.Audio.StopTest" : "Arrêt du test",
         "Settings.Audio.Monitoring" : "Moniteur du microphone",
+        "Settings.Audio.SystemDefaultOutput" : "Utiliser la configuration système",
 
         "Settings.Locale.ChangeLanguage" : "Changer la langue",
         "Settings.Locale.SelectLanguageHeader" : "Choisissez votre langue:",
@@ -1044,6 +1047,10 @@
         "Inspector.Texture.Rotate180" : "Pivoter de 180°",
         "Inspector.Texture.MakeSquare" : "Rendre carré",
         "Inspector.Texture.ToNearestPOT" : "Puissance de deux la plus près",
+        "Inspector.Texture.MakeTileable" : "Rendre tuilable (ration de transition)",
+
+        "Inspector.Texture.TileLoop" : "Tuile (boucle)",
+        "Inspector.Texture.TileMirror" : "Tuile (miroir)",
 
         "Inspector.Texture.InvalidFloats" : "Diagnostique: Variables numériques invalides",
         "Inspector.Texture.GenerateMetadata" : "Diagnostique: Générer les metadonnées des Bitmaps",
@@ -1090,6 +1097,8 @@
         "Inspector.Rig.CleanupBoneColliders" : "Nettoyer les collisions osseuses",
         "Inspector.Rig.GenerateDebugVisuals" : "Générer des visuels de débogage",
         "Inspector.Rig.ClearDebugVisuals" : "Effacer les visuels de débogage",
+
+        "Inspector.AvatarExpression.AutoAssign" : "Affectation automatique (utiliser l'heuristique)",
 
         "Wizard.General.ProcessRoot" : "Racine du Processus:",
         "Wizard.General.Result" : "Résultat:",
