@@ -1203,7 +1203,7 @@
         "Tutorial.Intro.WelcomeDescription" : "Your guide to experiencing the metaverse.",
 
         "Tutorial.Intro.GrabbingTitle" : "Grabbing",
-        "Tutorial.Intro.GrabbingVR" : "Pick up objects by <color=#ffdd77><b>Grabbing</b></color> with the <color=#77ff77><b>Grip button</b></color>.<br>Grab at a distance using your laser.",
+        "Tutorial.Intro.GrabbingVR" : "Pick up near objects by <color=#ffdd77><b>Grabbing</b></color> with the <color=#77ff77><b>Grip</b></color>button.<br>To pick up far objects, first press <b><color=#77ff77>Trigger</color></b> to toggle your laser, then <color=#ffdd77><b>Grab</b></color> the object with the <color=#77ff77><b>Grip</b></color> button.",
         "Tutorial.Intro.GrabbingScreen" : "Pick up objects by <color=#ffdd77><b>Grabbing</b></color> with the <color=#77ff77><b>Right Mouse button</b></color>.",
 
         "Tutorial.Intro.ScalingTitle" : "Scaling",
