@@ -621,13 +621,14 @@
         "Importer.Model.Advanced.PreferSpecular" : "Предпочитать зеркальный (specular) материал",
         "Importer.Model.Advanced.AlignAxis" : "Свести к Оси: ",
 
-        "Importer.Model.Advanced.Normals" : "Расчитать Нормали",
-        "Importer.Model.Advanced.Tangents" : "Расчитать Касательные",
-        "Importer.Model.Advanced.VertexColors" : "Импорт Цветов Вершин",
+        "Importer.Model.Advanced.Normals" : "Рассчитать нормали",
+        "Importer.Model.Advanced.Tangents" : "Рассчитать касательные",
+        "Importer.Model.Advanced.VertexColors" : "Импорт цветов вершин",
         "Importer.Model.Advanced.Bones" : "Импорт костей",
-        "Importer.Model.Advanced.TextureAlpha" : "Расчитать Альфа Текстуры",
-        "Importer.Model.Advanced.AlbedoColor" : "Импорт Цветов Поверхности",
-        "Importer.Model.Advanced.ImportEmissive" : "Импорт Излучения",
+        "Importer.Model.Advanced.Lights" : "Импорт источников света",
+        "Importer.Model.Advanced.TextureAlpha" : "Расчитать прозрачность текстур",
+        "Importer.Model.Advanced.AlbedoColor" : "Импорт цвета поверхности (albedo)",
+        "Importer.Model.Advanced.ImportEmissive" : "Импорт свечения (emissive)",
 
         "Importer.Model.Advanced.Colliders" : "Генерировать Коллайдеры",
         "Importer.Model.Advanced.Animations" : "Импорт Анимаций",
@@ -1097,7 +1098,7 @@
         "Inspector.Rig.GenerateDebugVisuals" : "Генерировать отладочную визуализацию",
         "Inspector.Rig.ClearDebugVisuals" : "Очистить отладочную визуализацию",
 
-        "Inspector.AvatarExpression.AutoAssign" : "Авто присвоение (используя эвристику)",
+        "Inspector.AvatarExpression.AutoAssign" : "Авто присвоение blendshape'ов (используя эвристику)",
 
         "Wizard.General.ProcessRoot" : "Начиная с корня:",
         "Wizard.General.Result" : "Результат:",
