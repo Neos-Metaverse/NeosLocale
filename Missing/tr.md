@@ -40,6 +40,7 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 Importer.Model.Advanced.PreferSpecular  
+Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
 CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.Haptics  

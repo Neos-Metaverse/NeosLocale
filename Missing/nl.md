@@ -5,6 +5,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
 Tooltips.Dev.ConfirmDestroySelected  
+Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
 Settings.DisableLAN  
 Settings.DebugInputBinding  

@@ -3,6 +3,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # German [de]
 Tooltips.Dev.ConfirmDestroySelected  
+Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
 Settings.DisableLAN  
 Settings.DebugInputBinding  

@@ -625,6 +625,7 @@
         "Importer.Model.Advanced.Tangents" : "Calculate Tangents",
         "Importer.Model.Advanced.VertexColors" : "Import Vertex Colors",
         "Importer.Model.Advanced.Bones" : "Import Bones",
+        "Importer.Model.Advanced.Lights" : "Import Lights",
         "Importer.Model.Advanced.TextureAlpha" : "Calculate Texture Alpha",
         "Importer.Model.Advanced.AlbedoColor" : "Import Albedo Color",
         "Importer.Model.Advanced.ImportEmissive" : "Import Emissive",
@@ -1097,7 +1098,7 @@
         "Inspector.Rig.GenerateDebugVisuals" : "Generate debug visuals",
         "Inspector.Rig.ClearDebugVisuals" : "Clear debug visuals",
 
-        "Inspector.AvatarExpression.AutoAssign" : "Auto Assign (using heuristics)",
+        "Inspector.AvatarExpression.AutoAssign" : "Auto Assign Blendshapes (using heuristics)",
 
         "Wizard.General.ProcessRoot" : "Process Root:",
         "Wizard.General.Result" : "Result:",

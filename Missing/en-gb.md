@@ -537,6 +537,7 @@ Importer.Model.Advanced.AlignAxis
 Importer.Model.Advanced.Normals  
 Importer.Model.Advanced.Tangents  
 Importer.Model.Advanced.Bones  
+Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.TextureAlpha  
 Importer.Model.Advanced.ImportEmissive  
 Importer.Model.Advanced.Colliders  

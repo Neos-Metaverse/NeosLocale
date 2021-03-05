@@ -139,6 +139,7 @@ Importer.Model.Advanced.Normals
 Importer.Model.Advanced.Tangents  
 Importer.Model.Advanced.VertexColors  
 Importer.Model.Advanced.Bones  
+Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.TextureAlpha  
 Importer.Model.Advanced.AlbedoColor  
 Importer.Model.Advanced.ImportEmissive  

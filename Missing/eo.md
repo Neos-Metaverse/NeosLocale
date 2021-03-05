@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Esperanto [eo]
+Importer.Model.Advanced.Lights  
 Settings.Audio.OutputDevice  
 Settings.Audio.SelectOutputDevice  
 Settings.Audio.SystemDefaultOutput  

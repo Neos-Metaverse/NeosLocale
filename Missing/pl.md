@@ -17,6 +17,7 @@ Permissions.NotAllowedToSwapAvatar
 Contacts.Bot  
 Tooltips.Dev.ConfirmDestroySelected  
 Importer.Model.Advanced.PreferSpecular  
+Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
 CameraControl.Settings.AudioFromCameraViewpoint  
 Settings.DisableLAN  
