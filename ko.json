@@ -1298,6 +1298,8 @@
 		"Inspector.Texture.TileMirror" : "대칭(Mirror) 타일",
 		"Inspector.AvatarExpression.AutoAssign" : "자동지정(휴리스틱)",
 		
+		"Importer.Model.Advanced.Lights" : "광원 가져오기",
+		
 		"Dummy": "더미"
 	}
 }
