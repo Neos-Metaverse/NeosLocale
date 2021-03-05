@@ -1098,7 +1098,7 @@
         "Inspector.Rig.GenerateDebugVisuals" : "生成调试视觉效果",
         "Inspector.Rig.ClearDebugVisuals" : "清除调试视觉效果",
 
-        "Inspector.AvatarExpression.AutoAssign" : "自动分配（使用启发式）",
+        "Inspector.AvatarExpression.AutoAssign" : "自动分配Blendshapes（使用启发式）",
 
         "Wizard.General.ProcessRoot" : "进程根:",
         "Wizard.General.Result" : "结果:",
