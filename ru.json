@@ -626,7 +626,7 @@
         "Importer.Model.Advanced.VertexColors" : "Импорт цветов вершин",
         "Importer.Model.Advanced.Bones" : "Импорт костей",
         "Importer.Model.Advanced.Lights" : "Импорт источников света",
-        "Importer.Model.Advanced.TextureAlpha" : "Расчитать прозрачность текстур",
+        "Importer.Model.Advanced.TextureAlpha" : "Рассчитать прозрачность текстур",
         "Importer.Model.Advanced.AlbedoColor" : "Импорт цвета поверхности (albedo)",
         "Importer.Model.Advanced.ImportEmissive" : "Импорт свечения (emissive)",
 
