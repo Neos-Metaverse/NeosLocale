@@ -267,7 +267,7 @@
         "World.Edit.AccessPatreon" : "Patreon的支持者",
         "World.Edit.AccessPublic" : "任何人（公开）",
 
-        "Tools.AvatarCreator" : "化身造物主",
+        "Tools.AvatarCreator" : "化身创建器",
         "Tools.FullBodyCalibrator" : "全身/化身校准器",
         "Tools.CameraStreaming" : "相机/流媒体",
         "Tools.CreateNewWorld" : "创造新世界",
@@ -497,7 +497,7 @@
         "CreateNew.ParticleSystem" : "粒子系统",
 
         "CreateNew.Object" : "物体",
-        "CreateNew.Object.AvatarCreator" : "化身创建机器",
+        "CreateNew.Object.AvatarCreator" : "化身创建器",
         "CreateNew.Object.Camera" : "相机",
         "CreateNew.Object.ReflectionProbe" : "反射探针",
         "CreateNew.Object.Mirror" : "镜子",
@@ -551,7 +551,7 @@
 
         "CreateNew.Materials" : "材质",
 
-        "AvatarCreator.Title" : "化身创建机器",
+        "AvatarCreator.Title" : "化身创建器",
         "AvatarCreator.Instructions" : "将化身对象与耳机和控制器参考对齐（可选），然后按创建将其转换为化身",
         "AvatarCreator.UseSymmetry" : "使用对称",
         "AvatarCreator.ShowToolAnchors" : "显示工具锚",
@@ -1241,7 +1241,7 @@
         "Tutorial.Intro.InventoryScreen" : "您的<color=#ffdd77><b>库存</b></color>位于Neos仪表板上。<br>要<color=#77ddff><b>生成<</b></color>对象，<color=#77ff77> <b>双击</b></color>库存中的项目。<br>要保存<color=#77ddff><b>保存</b></color>一个对象，按住该项目并按<color=#77ff77><b>Ctrl + S</b></color>。",
 
         "Tutorial.Intro.HomeScreenTitle" : "您的主屏幕",
-        "Tutorial.Intro.HomeScreenDescription" : "您的<color=#ffdd77><b>主屏幕</b></color>包含具有许多功能的方面。<br>其中包括化身创建机器，全身校准器，相机/流媒体，创造新世界。",
+        "Tutorial.Intro.HomeScreenDescription" : "您的<color=#ffdd77><b>主屏幕</b></color>包含具有许多功能的方面。<br>其中包括化身创建器，全身校准器，相机/流媒体，创造新世界。",
         "Tutorial.Intro.ContactsDescription" : "您的<color=#ffdd77> <b>朋友</b></color>位于仪表板上。<br>使用聊天框向朋友发送消息，语音消息或对象。在右下角。<br>使用左上角的搜索栏添加朋友。",
         "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>导入</b></color>文件，3D模型，图像，音频，视频或字体直接导入Neos！<br><color=#77ddff><b>将</b></color>文件拖放到Neos窗口中，或使用<color=#ffdd77><b>文件浏览器</b></color>查找它们。",
         "Tutorial.Intro.SessionTitle" : "会话设置",
