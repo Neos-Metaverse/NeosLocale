@@ -625,6 +625,7 @@
         "Importer.Model.Advanced.Tangents" : "接線(タンジェント)を計算",
         "Importer.Model.Advanced.VertexColors" : "頂点カラーをインポート",
         "Importer.Model.Advanced.Bones" : "ボーンをインポート",
+        "Importer.Model.Advanced.Lights" : "ライトをインポート",
         "Importer.Model.Advanced.TextureAlpha" : "テクスチャのアルファを計算",
         "Importer.Model.Advanced.AlbedoColor" : "アルベドカラーをインポート",
         "Importer.Model.Advanced.ImportEmissive" : "エミッシブをインポート",
@@ -1097,7 +1098,7 @@
         "Inspector.Rig.GenerateDebugVisuals" : "デバッグビジュアル生成",
         "Inspector.Rig.ClearDebugVisuals" : "デバッグビジュアル除去",
 
-        "Inspector.AvatarExpression.AutoAssign" : "自動割り当て(ヒューリスティクスを使用)",
+        "Inspector.AvatarExpression.AutoAssign" : "ブレンドシェイプの自動割り当て(ヒューリスティクスを使用)",
 
         "Wizard.General.ProcessRoot" : "プロセスルート:",
         "Wizard.General.Result" : "結果:",
