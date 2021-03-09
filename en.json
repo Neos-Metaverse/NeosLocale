@@ -315,7 +315,7 @@
         "Account.PatreonSupporter" : "Patreon Supporter",
         "Account.Username" : "Username:",
         "Account.Email" : "Email:",
-        "Account.RememberMe" : "Remember Me:",
+        "Account.RememberMe" : "Remember Me (for 7 days):",
         "Account.RepeatEmail" : "Repeat Email:",
         "Account.UsernameOrEmail" : "Username or Email:",
         "Account.Password" : "Password:",
