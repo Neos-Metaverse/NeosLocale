@@ -315,7 +315,7 @@
         "Account.PatreonSupporter" : "Patreon支持者",
         "Account.Username" : "用戶名:",
         "Account.Email" : "電子郵件:",
-        "Account.RememberMe" : "記得我:",
+        "Account.RememberMe" : "記得我（7天）:",
         "Account.RepeatEmail" : "重複的電子郵件:",
         "Account.UsernameOrEmail" : "用戶名或電子郵件:",
         "Account.Password" : "密碼:",

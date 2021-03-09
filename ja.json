@@ -315,7 +315,7 @@
         "Account.PatreonSupporter" : "Patreonサポーター",
         "Account.Username" : "ユーザーネーム:",
         "Account.Email" : "メール:",
-        "Account.RememberMe" : "記憶する:",
+        "Account.RememberMe" : "記憶する(7日間有効):",
         "Account.RepeatEmail" : "メール(再入力):",
         "Account.UsernameOrEmail" : "ユーザーネームまたはメール:",
         "Account.Password" : "パスワード:",
