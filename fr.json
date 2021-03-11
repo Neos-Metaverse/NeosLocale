@@ -625,6 +625,7 @@
         "Importer.Model.Advanced.Tangents" : "Calculer les tangents",
         "Importer.Model.Advanced.VertexColors" : "Importer les couleurs des vertex",
         "Importer.Model.Advanced.Bones" : "Importer l'armature",
+        "Importer.Model.Advanced.Lights" : "Importer lumières",
         "Importer.Model.Advanced.TextureAlpha" : "Calculer l'alpha de la texture",
         "Importer.Model.Advanced.AlbedoColor" : "Importer la couleur de l'albédo",
         "Importer.Model.Advanced.ImportEmissive" : "Importer la couleur de l'émission",
