@@ -1,6 +1,6 @@
 {
     "localeCode" : "de",
-    "authors" : ["Avunia", "Elektrospy", "MR-Alex", "Schwefelhexafluorid", "Blaze", "Tillikum", "Bluigi", "Ardes", "dfgHiatus"],
+    "authors" : ["Avunia", "Elektrospy", "MR-Alex", "Schwefelhexafluorid", "Blaze", "Tillikum", "Bluigi", "Ardes", "dfgHiatus", "Pr3Ci510n"],
     "messages" :
     {
         "General.OK" : "OK",
@@ -442,6 +442,7 @@
         "Tooltips.Dev.OpenInspector" : "Inspektor öffnen",
         "Tooltips.Dev.DeselectAll" : "Alles abwählen",
         "Tooltips.Dev.DestroySelected" : "Ausgewählte Objekte löschen",
+        "Tooltips.Dev.ConfirmDestroySelected" : "WIRKLICH Ausgewählte Objekte löschen",
 
         "Tooltip.Logix.NodeBrowser" : "Node-Browser",
         "Tooltip.Logix.UnpackChildren" : "Verbundene und Unterknoten entpacken",
@@ -624,6 +625,7 @@
         "Importer.Model.Advanced.Tangents" : "Tangenten berechnen",
         "Importer.Model.Advanced.VertexColors" : "Vertex-Farben importieren",
         "Importer.Model.Advanced.Bones" : "Bones importieren",
+        "Importer.Model.Advanced.Lights" : "Beleuchtung importieren",
         "Importer.Model.Advanced.TextureAlpha" : "Texture-Alpha berechnen",
         "Importer.Model.Advanced.AlbedoColor" : "Albedo-Texturen importieren",
         "Importer.Model.Advanced.ImportEmissive" : "Emissions-Texturen importieren",
@@ -643,6 +645,7 @@
         "Importer.Model.Advanced.FlatShaded" : "Flach schattieren",
         "Importer.Model.Advanced.DeduplicateInstances" : "Instanzen-Duplikate entfernen (langsam)",
         "Importer.Model.Advanced.Optimize" : "Modell/Szene optimieren",
+        "Importer.Model.Advanced.SplitSubmeshes" : "Submeshes aufteilen",
         "Importer.Model.Advanced.RandomColors" : "Zufällige Farben generieren",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Material-Orbs spawnen",
         "Importer.Model.Advanced.ImagesByName" : "Bilder per Name importieren",
@@ -865,6 +868,7 @@
         "Settings.DoubleClickInterval" : "Doppelklick-Intervall",
         "Settings.ResetAllTutorials" : "Alle Tutorials zurücksetzen",
         "Settings.PreferSteamNetworking" : "Bevorzuge Steam Networking Sockets",
+        "Settings.DisableLAN" : "Deaktivieren LAN",
         "Settings.LegacyGripEquip" : "Aktiviere altes Doppel-Greifen-Ausrüsten",
         "Settings.LegacyWorldSwitcher" : "Aktiviere alten Welten-Wechseler",
         "Settings.FetchIncompatibleSessions" : "Zeige inkompatible Sitzungen",
@@ -881,6 +885,7 @@
         "Settings.LaserSmoothing.Reset" : "Laser-Einstellungen zurücksetzen",
 
         "Settings.Audio.Header" : "Audio",
+        "Settings.Audio.Master" : "Hauptlautstärke: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "Soundeffekte: {n,number,percent}",
         "Settings.Audio.Multimedia" : "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice" : "Stimme: {n,number,percent}",
@@ -890,7 +895,9 @@
         "Settings.Audio.NormzliationThreshold" : "Normalisierungs-Grenzwert: {n}",
         "Settings.Audio.NoiseSupression" : "Noise Suppression Filter (RNNoise)",
         "Settings.Audio.InputDevice" : "Aufnahmegerät:",
+        "Settings.Audio.OutputDevice" : "Ausgabegerät:",
         "Settings.Audio.SelectInputDevice" : "Aufnahmegerät wählen",
+        "Settings.Audio.SelectOutputDevice" : "Ausgabegerät wählen",
         "Settings.Audio.TestInput" : "Testen Sie Ihr Mikrofon:",
         "Settings.Audio.TestDescription" : "Wir geben Ihnen zur Überprüfung den Ton des gewählten Aufnahmegerätes aus",
         "Settings.Audio.StartTest" : "Mikrofontest starten",
@@ -1019,6 +1026,8 @@
         "Inspector.Texture.SwapRG" : "Tausche R und G",
         "Inspector.Texture.SwapRB" : "Tausche R und B",
         "Inspector.Texture.SwapGB" : "Tausche G und B",
+        "Inspector.Texture.AddWhiteBackground" : "Weiß Hintergrund hinzufügen",
+        "Inspector.Texture.AddBlackBackground" : "Schwarz Hintergrund hinzufügen",
         "Inspector.Texture.Hue" : "Farbton:",
         "Inspector.Texture.ShiftHue" : "Farbton verschieben",
         "Inspector.Texture.Saturation" : "Sättigung:",
