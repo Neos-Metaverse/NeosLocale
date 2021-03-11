@@ -462,13 +462,13 @@
 
         "Tooltip.Light.Point" : "Bodové",
         "Tooltip.Light.Spot" : "Kůželové",
-        "Tooltip.Light.Sun" : "Pohyb Slunce",
+        "Tooltip.Light.Sun" : "Pohyb Sluncem",
 
         "Tooltip.MeshVisibility.KeepShadow" : "Zachovat stín",
-        "Tooltip.MeshVisibility.ShadowOff" : "Vypnout stín",
-        "Tooltip.MeshVisibility.ShadowOn" : "Zapnout stín",
-        "Tooltip.MeshVisibility.OnlyShadow" : "Nastavít pouze na stín",
-        "Tooltip.MeshVisibility.DoubleSidedShadow" : "Nastavit oboustraný stín",
+        "Tooltip.MeshVisibility.ShadowOff" : "Zakázat stín",
+        "Tooltip.MeshVisibility.ShadowOn" : "Povolit stín",
+        "Tooltip.MeshVisibility.OnlyShadow" : "Zobrazit pouze stín",
+        "Tooltip.MeshVisibility.DoubleSidedShadow" : "Nastavit stín na oboustranný",
 
         "Tooltip.Slicer.Add" : "Přidat řez",
         "Tooltip.Slicer.Clear" : "Resetovat stav",
@@ -625,6 +625,7 @@
         "Importer.Model.Advanced.Tangents" : "Spočítat Tangenty",
         "Importer.Model.Advanced.VertexColors" : "Importovat barvy vertexů",
         "Importer.Model.Advanced.Bones" : "Importovat bones",
+        "Importer.Model.Advanced.Lights" : "Importovat světla",
         "Importer.Model.Advanced.TextureAlpha" : "Detekovat průhlednost textur",
         "Importer.Model.Advanced.AlbedoColor" : "Importovat albedo barvy",
         "Importer.Model.Advanced.ImportEmissive" : "Importovat emisivní barvy",
