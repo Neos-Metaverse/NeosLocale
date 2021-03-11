@@ -625,6 +625,7 @@
         "Importer.Model.Advanced.Tangents" : "Spočítat Tangenty",
         "Importer.Model.Advanced.VertexColors" : "Importovat barvy vertexů",
         "Importer.Model.Advanced.Bones" : "Importovat bones",
+        "Importer.Model.Advanced.Lights" : "Importovat světlo",
         "Importer.Model.Advanced.TextureAlpha" : "Detekovat průhlednost textur",
         "Importer.Model.Advanced.AlbedoColor" : "Importovat albedo barvy",
         "Importer.Model.Advanced.ImportEmissive" : "Importovat emisivní barvy",
