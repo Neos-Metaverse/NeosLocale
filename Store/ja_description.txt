@@ -55,7 +55,7 @@ NeosVRは、あなたが今まで体験したことのないメタバース（�
 [*][b]フルボディトラッキング[/b] 
 [*][b]アイトラッキング[/b]「VivePro Eye」で利用可能。
 [*][b]リップトラッキング[/b] 「HTC Vive Facial Tracker」モジュールで利用可能。[/list]
-[*][b]触覚(Haptics)フィードバック[/b]  (bHaptics, OWO Game Suit)モジュールで利用可能。[/list]
+[*][b]触覚(Haptics)フィードバック[/b]「bHaptics, OWO Game Suit」モジュールで利用可能。[/list]
 
 [h2]コミュニティのサポートと迅速な開発[/h2]
 
