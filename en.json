@@ -557,6 +557,7 @@
         "AvatarCreator.ShowToolAnchors" : "Show Tool Anchors",
         "AvatarCreator.SetupVolumeMeter" : "Setup Volume Meter",
         "AvatarCreator.SetupEyes" : "Setup Eyes",
+        "AvatarCreator.SetupFaceTracking" : "Setup Face Tracking",
         "AvatarCreator.ProtectAvatar" : "Protect Avatar",
         "AvatarCreator.CalibrateFeet" : "Calibrate Feet",
         "AvatarCreator.CalibrateHips" : "Calibrate Pelvis/Hips",
@@ -883,6 +884,7 @@
         "Settings.LaserSmoothing.ModulateExponent" : "Modulate Exponent",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "Modulate Speed Multiplier",
         "Settings.LaserSmoothing.StickThreshold" : "Stick Threshold",
+        "Settings.Laser.ShowInDesktop" : "Show Laser in Desktop Mode",
         "Settings.LaserSmoothing.Reset" : "Reset Laser Settings",
 
         "Settings.Audio.Header" : "Audio",

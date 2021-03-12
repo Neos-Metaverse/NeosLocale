@@ -67,7 +67,8 @@ Come join our diverse and creative community and bring your own uniqueness to th
 [*]Full Index Controller support with [b]finger tracking[/b]
 [*][b]Leap Motion support[/b] with full body avatars
 [*][b]Eye tracking support[/b] (Vive Pro Eye) - look direction, eye closing, pupil dilation
-[*][b]Lip tracking support[/b] (HTC Lip Tracking module) - track your mouth, cheeks and tongue on  your avatar or utilize the raw data[/list]
+[*][b]Lip tracking support[/b] (HTC Vive Facial Tracker) - track your mouth, cheeks and tongue on  your avatar or utilize the raw data[/list]
+[*][b]Haptics feedback support[/b] (bHaptics, OWO Game Suit) with avatar to avatar interactions as well as environment interactions
 
 [h2]Rapid Development[/h2]
 

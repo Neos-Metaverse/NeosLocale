@@ -78,6 +78,7 @@ AvatarCreator.UseSymmetry
 AvatarCreator.ShowToolAnchors  
 AvatarCreator.SetupVolumeMeter  
 AvatarCreator.SetupEyes  
+AvatarCreator.SetupFaceTracking  
 AvatarCreator.ProtectAvatar  
 AvatarCreator.CalibrateFeet  
 AvatarCreator.CalibrateHips  
@@ -326,6 +327,7 @@ Settings.DisableLAN
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
 Settings.DebugInputBinding  
+Settings.Laser.ShowInDesktop  
 Settings.Audio.Header  
 Settings.Audio.Master  
 Settings.Audio.Multimedia  

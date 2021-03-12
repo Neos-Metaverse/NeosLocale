@@ -484,6 +484,7 @@ AvatarCreator.UseSymmetry
 AvatarCreator.ShowToolAnchors  
 AvatarCreator.SetupVolumeMeter  
 AvatarCreator.SetupEyes  
+AvatarCreator.SetupFaceTracking  
 AvatarCreator.ProtectAvatar  
 AvatarCreator.CalibrateFeet  
 AvatarCreator.CalibrateHips  
@@ -765,6 +766,7 @@ Settings.LaserSmoothing.ModulateEndAngle
 Settings.LaserSmoothing.ModulateExponent  
 Settings.LaserSmoothing.ModulateSpeedMultiplier  
 Settings.LaserSmoothing.StickThreshold  
+Settings.Laser.ShowInDesktop  
 Settings.LaserSmoothing.Reset  
 Settings.Audio.Header  
 Settings.Audio.Master  

@@ -5,10 +5,12 @@ Note that this file updates only during Neos build process and doesn't necessari
 Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
 Tooltips.Dev.ConfirmDestroySelected  
+AvatarCreator.SetupFaceTracking  
 Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
 Settings.DisableLAN  
 Settings.DebugInputBinding  
+Settings.Laser.ShowInDesktop  
 Settings.Audio.Master  
 Settings.Audio.OutputDevice  
 Settings.Audio.SelectOutputDevice  

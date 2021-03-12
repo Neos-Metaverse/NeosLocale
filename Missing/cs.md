@@ -2,5 +2,6 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Czech [cs]
-Importer.Model.Advanced.Lights  
+AvatarCreator.SetupFaceTracking  
+Settings.Laser.ShowInDesktop  
 

@@ -16,6 +16,7 @@ Permissions.NotAllowedToSave
 Permissions.NotAllowedToSwapAvatar  
 Contacts.Bot  
 Tooltips.Dev.ConfirmDestroySelected  
+AvatarCreator.SetupFaceTracking  
 Importer.Model.Advanced.PreferSpecular  
 Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
@@ -23,6 +24,7 @@ CameraControl.Settings.AudioFromCameraViewpoint
 Settings.DisableLAN  
 Settings.AutosaveScreenshotPath  
 Settings.DebugInputBinding  
+Settings.Laser.ShowInDesktop  
 Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
 Settings.Audio.OutputDevice  

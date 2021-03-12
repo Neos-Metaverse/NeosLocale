@@ -24,6 +24,7 @@ Tooltip.Microphone.SourceFiltered
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+AvatarCreator.SetupFaceTracking  
 Importer.General.AsRawFile  
 Importer.Model.Advanced.PreferSpecular  
 Importer.Model.Advanced.Lights  
@@ -34,6 +35,7 @@ Settings.DisableLAN
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
 Settings.DebugInputBinding  
+Settings.Laser.ShowInDesktop  
 Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
 Settings.Audio.OutputDevice  

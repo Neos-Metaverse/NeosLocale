@@ -3,10 +3,12 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # German [de]
 Tooltips.Dev.ConfirmDestroySelected  
+AvatarCreator.SetupFaceTracking  
 Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
 Settings.DisableLAN  
 Settings.DebugInputBinding  
+Settings.Laser.ShowInDesktop  
 Settings.Audio.Master  
 Settings.Audio.OutputDevice  
 Settings.Audio.SelectOutputDevice  
