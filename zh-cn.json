@@ -557,6 +557,7 @@
         "AvatarCreator.ShowToolAnchors" : "显示工具锚",
         "AvatarCreator.SetupVolumeMeter" : "设置音量计",
         "AvatarCreator.SetupEyes" : "设置眼睛",
+        "AvatarCreator.SetupFaceTracking" : "设置人脸跟踪",
         "AvatarCreator.ProtectAvatar" : "保护化身",
         "AvatarCreator.CalibrateFeet" : "校准脚",
         "AvatarCreator.CalibrateHips" : "校准骨盆/臀部",
@@ -883,6 +884,7 @@
         "Settings.LaserSmoothing.ModulateExponent" : "调整指数",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "调制速度倍增器",
         "Settings.LaserSmoothing.StickThreshold" : "粘阈值",
+        "Settings.Laser.ShowInDesktop" : "在桌面模式下显示激光",
         "Settings.LaserSmoothing.Reset" : "重置激光设置",
 
         "Settings.Audio.Header" : "音讯",

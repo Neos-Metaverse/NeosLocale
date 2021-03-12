@@ -557,6 +557,7 @@
         "AvatarCreator.ShowToolAnchors" : "ツールアンカーを表示",
         "AvatarCreator.SetupVolumeMeter" : "Volume Meterをセットアップ",
         "AvatarCreator.SetupEyes" : "目をセットアップ",
+        "AvatarCreator.SetupFaceTracking" : "フェイストラッキングをセットアップ",
         "AvatarCreator.ProtectAvatar" : "プロテクトアバター",
         "AvatarCreator.CalibrateFeet" : "足を指定",
         "AvatarCreator.CalibrateHips" : "腰を指定",
@@ -883,6 +884,7 @@
         "Settings.LaserSmoothing.ModulateExponent" : "指数を変更",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "スピード倍率を変更",
         "Settings.LaserSmoothing.StickThreshold" : "吸い付く閾値",
+        "Settings.Laser.ShowInDesktop" : "デスクトップモードでレーザーを表示する",
         "Settings.LaserSmoothing.Reset" : "レーザーの設定をリセット",
 
         "Settings.Audio.Header" : "オーディオ",
