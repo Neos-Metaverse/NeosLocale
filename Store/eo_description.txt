@@ -67,7 +67,8 @@ Venu aliĝi al nia diversa kaj kreiva komunumo kaj alportu vian propran unikecon
 [*]Subteno de Plena Indeksa Regilo kun[b]fingrospurado[/b]
 [*][b] Leap Motion-subteno[/b] kun korpaj avataroj
 [*][b] Subtena spura subteno[/b](Vive Pro Eye) - aspekto direkto, okulo fermo, pupilo dilatación
-[*][b] Subteno por spurado de lipoj[/b](modulo HTC Lip Tracking) - spuri vian buŝon, vangojn kaj langon sur via avataro aŭ uzi la krudajn datumojn[/list]
+[*][b] Subteno por spurado de lipoj[/b](modulo HTC Vive Facial Tracker) - spuri vian buŝon, vangojn kaj langon sur via avataro aŭ uzi la krudajn datumojn[/list]
+[*][b] Subteno pri reagoj de Haptics[/b](bHaptics, OWO Game Suit) kun interagoj de avataro al avataro same kiel mediaj interagoj[/list]
 
 [h2]Rapida Disvolviĝo[/h2]
 
