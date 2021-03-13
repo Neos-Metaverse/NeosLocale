@@ -558,6 +558,7 @@
         "AvatarCreator.SetupVolumeMeter" : "Přidat měřič hlasitosti",
         "AvatarCreator.SetupEyes" : "Automaticky nakonfigurovat oči",
         "AvatarCreator.ProtectAvatar" : "Ochránit avatara",
+        "AvatarCreator.SetupFaceTracking" : "Nakonfigurovat tracking obličeje",
         "AvatarCreator.CalibrateFeet" : "Kalibrovat chodidla",
         "AvatarCreator.CalibrateHips" : "Kalibrovat pánev",
         "AvatarCreator.AlignHeadForward" : "Zarovnat osu Z hlavy",
@@ -883,6 +884,7 @@
         "Settings.LaserSmoothing.ModulateExponent" : "Exponent modulace",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "Modulovaný násobek rychlosti",
         "Settings.LaserSmoothing.StickThreshold" : "Maximální vzdálenost \"lepení\"",
+        "Settings.Laser.ShowInDesktop" : "Zobrazit laser v desktopovém režimu",
         "Settings.LaserSmoothing.Reset" : "Resetovat nastavení laseru",
 
         "Settings.Audio.Header" : "Zvuk",
