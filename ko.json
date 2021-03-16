@@ -1300,6 +1300,9 @@
 		
 		"Importer.Model.Advanced.Lights" : "광원 가져오기",
 		
+		"AvatarCreator.SetupFaceTracking" : "안면 추적장치 설정",
+		"Settings.Laser.ShowInDesktop" : "데스크탑 모드에서 지시선 보이기",
+		
 		"Dummy": "더미"
 	}
 }
