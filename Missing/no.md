@@ -85,6 +85,7 @@ Settings.Audio.StartTest
 Settings.Audio.StopTest  
 Settings.Audio.Monitoring  
 Settings.Audio.SystemDefaultOutput  
+Settings.Graphics.DesktopFOV  
 Settings.Locale.ChangeLanguage  
 Settings.Locale.SelectLanguageHeader  
 Inspector.Mesh.ConvertToPointCloud  

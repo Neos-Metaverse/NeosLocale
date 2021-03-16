@@ -30,6 +30,7 @@ Settings.Audio.NoiseSupression
 Settings.Audio.OutputDevice  
 Settings.Audio.SelectOutputDevice  
 Settings.Audio.SystemDefaultOutput  
+Settings.Graphics.DesktopFOV  
 Inspector.Mesh.ConvertToPointCloud  
 Inspector.Texture.AddWhiteBackground  
 Inspector.Texture.AddBlackBackground  

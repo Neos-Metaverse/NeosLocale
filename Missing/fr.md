@@ -5,4 +5,5 @@ Note that this file updates only during Neos build process and doesn't necessari
 AvatarCreator.SetupFaceTracking  
 Importer.Model.Advanced.Lights  
 Settings.Laser.ShowInDesktop  
+Settings.Graphics.DesktopFOV  
 

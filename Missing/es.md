@@ -8,6 +8,7 @@ Settings.Laser.ShowInDesktop
 Settings.Audio.OutputDevice  
 Settings.Audio.SelectOutputDevice  
 Settings.Audio.SystemDefaultOutput  
+Settings.Graphics.DesktopFOV  
 Inspector.Texture.MakeTileable  
 Inspector.Texture.TileLoop  
 Inspector.Texture.TileMirror  

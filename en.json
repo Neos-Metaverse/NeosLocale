@@ -908,6 +908,8 @@
         "Settings.Audio.Monitoring" : "Audio Input Monitoring:",
         "Settings.Audio.SystemDefaultOutput" : "Use System Default",
 
+        "Settings.Graphics.DesktopFOV" : "Desktop FOV",
+
         "Settings.Locale.ChangeLanguage" : "Change Language",
         "Settings.Locale.SelectLanguageHeader" : "Select your language:",
 
