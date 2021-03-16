@@ -67,7 +67,8 @@ Pojďte se připojit do naší rozmanité a kreativní komunity a přineste svoj
 [*]Plnohodnotná podpora Index Controller s [b]trackováním prstů[/b]
 [*][b]Podpora Leap Motion[/b] s full body avatary
 [*][b]Podpora eye trackingu[/b] (Vive Pro Eye) - směr pohledu, zavírání očí, dilatace zorniček
-[*][b]Podpora trackování rtů [/b] (HTC Lip Tracking module) - trackujte vaše ústa, tváře a jazyk na váš avatar nebo využijte čistých dat[/list]
+[*][b]Podpora trackování rtů [/b] (HTC Lip Tracking module) - trackujte vaše ústa, tváře a jazyk na váš avatar nebo využijte čistých dat
+[*][b]Podpora haptické zpětné vazby[/b] (bHaptics, OWO Game Suit) s interakcemi mezi avatary, a okolním prostředím[/list]
 
 [h2]Rapidní vývoj[/h2]
 
