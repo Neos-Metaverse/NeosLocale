@@ -557,6 +557,7 @@
         "AvatarCreator.ShowToolAnchors": "Montri Ilajn Ankrojn",
         "AvatarCreator.SetupVolumeMeter": "Agordi Volumen-Mezurilon",
         "AvatarCreator.SetupEyes": "Agordi Okulojn",
+        "AvatarCreator.SetupFaceTracking" : "Agordi Vizaĝan Spuradon",
         "AvatarCreator.ProtectAvatar": "Protekti Avataron",
         "AvatarCreator.CalibrateFeet": "Kalibri Piedojn",
         "AvatarCreator.CalibrateHips": "Kalibri Pelvon / Koksojn",
@@ -883,6 +884,7 @@
         "Settings.LaserSmoothing.ModulateExponent": "Moduli Eksponenton",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier": "Moduli Rapidan Multiplikaton",
         "Settings.LaserSmoothing.StickThreshold": "Bastoni Sojlon",
+        "Settings.Laser.ShowInDesktop" : "Montri Laseron en labortabla reĝimo",
         "Settings.LaserSmoothing.Reset": "Restarigi laseron-agordojn",
 
         "Settings.Audio.Header": "Aŭdio",

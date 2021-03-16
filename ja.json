@@ -557,6 +557,7 @@
         "AvatarCreator.ShowToolAnchors" : "ツールアンカーを表示",
         "AvatarCreator.SetupVolumeMeter" : "Volume Meterをセットアップ",
         "AvatarCreator.SetupEyes" : "目をセットアップ",
+        "AvatarCreator.SetupFaceTracking" : "フェイストラッキングをセットアップ",
         "AvatarCreator.ProtectAvatar" : "プロテクトアバター",
         "AvatarCreator.CalibrateFeet" : "足を指定",
         "AvatarCreator.CalibrateHips" : "腰を指定",
@@ -883,6 +884,7 @@
         "Settings.LaserSmoothing.ModulateExponent" : "指数を変更",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "スピード倍率を変更",
         "Settings.LaserSmoothing.StickThreshold" : "吸い付く閾値",
+        "Settings.Laser.ShowInDesktop" : "デスクトップモードでレーザーを表示",
         "Settings.LaserSmoothing.Reset" : "レーザーの設定をリセット",
 
         "Settings.Audio.Header" : "オーディオ",
@@ -937,7 +939,7 @@
         "Settings.WindowsIntegration" : "Windows Integration",
         "Settings.LinuxIntegration" : "Linux Integration",
 
-        "Settings.System.KeepOriginalScreenshotFormat" : "元のスクリーンショット形式を維持する",
+        "Settings.System.KeepOriginalScreenshotFormat" : "元のスクリーンショット形式を維持",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "有効にすると、ドキュメントフォルダーに保存したときにスクリーンショットがJPGに変換されません。",
 
         "Security.Hyperlink.Warning" : "<b><size=125%>警告: 外部リンク</size></b>\n本当に開きますか? デスクトップのWebブラウザーで開きます。",
