@@ -908,6 +908,8 @@
         "Settings.Audio.Monitoring" : "音頻輸入監控:",
         "Settings.Audio.SystemDefaultOutput" : "使用系統默認值",
 
+        "Settings.Graphics.DesktopFOV" : "桌面視場",
+
         "Settings.Locale.ChangeLanguage" : "改變語言",
         "Settings.Locale.SelectLanguageHeader" : "選擇你的語言:",
 
