@@ -29,8 +29,8 @@
         "General.Sort.Ascending" : "上升",
         "General.Sort.Descending" : "降序",
 
-        "Locomotion.Noclip.Name" : "無剪輯",
-        "Locomotion.Noclip.Description" : "簡單的無剪輯飛行模式，非常適合編輯。",
+        "Locomotion.Noclip.Name" : "穿牆",
+        "Locomotion.Noclip.Description" : "簡單的穿牆輯飛行模式，非常適合編輯。",
         "Locomotion.Teleport.Name" : "傳送",
         "Locomotion.Teleport.Description" : "使用彈道路徑傳送，移動舒適。",
         "Locomotion.Fly.Name" : "飛行模式",
