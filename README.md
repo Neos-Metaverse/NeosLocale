@@ -13,7 +13,7 @@ Finnish [fi] - 40.2% - Missing keys: 715
 French [fr] - 95.6% - Missing keys: 53  
 Icelandic [is] - 36.2% - Missing keys: 763  
 Japanese [ja] - 95.9% - Missing keys: 49  
-Korean [ko] - 95.9% - Missing keys: 49  
+Korean [ko] - 100.0% - Missing keys: 0  
 Dutch [nl] - 94.1% - Missing keys: 70  
 Norwegian [no] - 68.5% - Missing keys: 376  
 Polish [pl] - 91.5% - Missing keys: 101  
