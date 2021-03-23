@@ -908,10 +908,12 @@
         "Settings.Audio.Monitoring" : "Монитор аудио входа:",
         "Settings.Audio.SystemDefaultOutput" : "Использовать системные настройки",
 
+        "Settings.Graphics.DesktopFOV" : "Поле зрения в экранном режиме",
+
         "Settings.Locale.ChangeLanguage" : "Сменить язык",
         "Settings.Locale.SelectLanguageHeader" : "Выберите ваш язык:",
 
-        "Settings.Save" : "Сохранить Настройки",
+        "Settings.Save" : "Сохранить настройки",
 
         "Settings.FullBody.Header" : "Full Body Трекинг:",
         "Settings.FullBody.FeetPositionSmoothing" : "Сглаживание Позиции Ног",
