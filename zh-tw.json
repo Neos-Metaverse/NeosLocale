@@ -29,8 +29,8 @@
         "General.Sort.Ascending" : "上升",
         "General.Sort.Descending" : "降序",
 
-        "Locomotion.Noclip.Name" : "無剪輯",
-        "Locomotion.Noclip.Description" : "簡單的無剪輯飛行模式，非常適合編輯。",
+        "Locomotion.Noclip.Name" : "穿牆",
+        "Locomotion.Noclip.Description" : "簡單的穿牆輯飛行模式，非常適合編輯。",
         "Locomotion.Teleport.Name" : "傳送",
         "Locomotion.Teleport.Description" : "使用彈道路徑傳送，移動舒適。",
         "Locomotion.Fly.Name" : "飛行模式",
@@ -907,6 +907,8 @@
         "Settings.Audio.StopTest" : "停止測試",
         "Settings.Audio.Monitoring" : "音頻輸入監控:",
         "Settings.Audio.SystemDefaultOutput" : "使用系統默認值",
+
+        "Settings.Graphics.DesktopFOV" : "桌面視場",
 
         "Settings.Locale.ChangeLanguage" : "改變語言",
         "Settings.Locale.SelectLanguageHeader" : "選擇你的語言:",

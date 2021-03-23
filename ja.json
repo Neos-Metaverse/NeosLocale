@@ -908,6 +908,8 @@
         "Settings.Audio.Monitoring" : "音声入力のモニタリング:",
         "Settings.Audio.SystemDefaultOutput" : "システムデフォルトを使用",
 
+        "Settings.Graphics.DesktopFOV" : "デスクトップモードの視野角(FOV)",
+
         "Settings.Locale.ChangeLanguage" : "言語設定",
         "Settings.Locale.SelectLanguageHeader" : "言語を選択:",
 

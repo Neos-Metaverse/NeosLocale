@@ -908,6 +908,8 @@
         "Settings.Audio.Monitoring" : "Aŭdiga Eniga Monitoraĵo:",
         "Settings.Audio.SystemDefaultOutput" : "Uzu Sisteman Defaŭlton",
 
+        "Settings.Graphics.DesktopFOV" : "Labortabla FOV",
+
         "Settings.Locale.ChangeLanguage" : "Ŝanĝi Lingvon",
         "Settings.Locale.SelectLanguageHeader" : "Elektu vian lingvon:",
 
