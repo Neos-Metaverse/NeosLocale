@@ -1303,6 +1303,8 @@
 		"AvatarCreator.SetupFaceTracking" : "안면 추적장치 설정",
 		"Settings.Laser.ShowInDesktop" : "데스크탑 모드에서 지시선 보이기",
 		
+		"Settings.Graphics.DesktopFOV" : "데스크탑 시야(FOV)",
+		
 		"Dummy": "더미"
 	}
 }
