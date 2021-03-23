@@ -1311,9 +1311,9 @@
         "Tutorial.BotDesigner.ModelOptions.Cloak" : "マント",
         "Tutorial.BotDesigner.ColorOptions.Metal" : "メタル",
         "Tutorial.BotDesigner.ColorOptions.Secondary" : "アクセント",
-        "Tutorial.BotDesigner.ColorOptions.Underbody" : "基部",
+        "Tutorial.BotDesigner.ColorOptions.Underbody" : "ベース",
         "Tutorial.BotDesigner.ColorOptions.Emission" : "エミッション",
-        "Tutorial.BotDesigner.ColorOptions.PickColor" : "色を選択",
+        "Tutorial.BotDesigner.ColorOptions.PickColor" : "色を変更",
 
         "Tutorial.AvatarTutorial.Start" : "開始",
         "Tutorial.AvatarTutorial.OpenWorld" : "ワールドを開く",
