@@ -908,6 +908,8 @@
         "Settings.Audio.Monitoring" : "Monitorování mikrofonu:",
         "Settings.Audio.SystemDefaultOutput" : "Použít systémové výchozí",
 
+        "Settings.Graphics.DesktopFOV" : "Zorné pole pro desktopový režim",
+
         "Settings.Locale.ChangeLanguage" : "Změnit jazyk",
         "Settings.Locale.SelectLanguageHeader" : "Vyberte váš jazyk:",
 
