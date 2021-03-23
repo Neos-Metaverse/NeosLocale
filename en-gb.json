@@ -39,6 +39,7 @@
         "Inspector.Texture.ConvertToGrayscaleAverage" : "Convert to greyscale (average)",
 
         "Inspector.Audio.Normalize" : "Normalise Volume",
+        "Inspector.Audio.DenoiseRNNoise" : "Denoise (RNNoise, optimised for voice at 48 kHz)",
 
         "Wizard.AssetOptimization.Title" : "Asset Optimisation Wizard",
 
