@@ -1330,7 +1330,7 @@
         "Tutorial.AvatarTutorial.Avatars.Description" : "Аватары - один из способов самовыражения.<br>Вы можете найти аватар на просторах Метаверса или создать свой собственный.",
         "Tutorial.AvatarTutorial.FindingAvatars.Description" : "Публичные аватары могум быть найдены<br>в папке Neos Essentials в инвентаре.<br><br>Созданные сообществом аватары могут быть найдены в публичных папках или опубликованных мирах.",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Получив аватар, экипируйте его, щелкнув<br>на нем и выбрав Надеть.<br><br>Сохраните ваш надетый аватар, щелкнув <sprite name=Download>  .<br><br>Вы можете установить свой аватар по умолчанию,<br>выбрав его в инвентаре и щелкнув <sprite name=Favorite>  .",
-        "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Чтобы импортировать и настроить свой собственный аватар,<br>смотрите инструкцию Создание аватаров Neos.",
+        "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Чтобы импортировать и настроить<br>свой собственный аватар,<br>смотрите инструкцию Создание аватаров Neos.",
 
         "Tutorial.AvatarCreator.Intro.Title" : "Создание аватаров Neos",
         "Tutorial.AvatarCreator.Intro.Description" : "Узнайте как импортировать и настроить свой собственный аватар!",
