@@ -48,6 +48,7 @@
 
         "Interaction.Destroy" : "破棄",
         "Interaction.Duplicate" : "複製",
+        "Interaction.SaveToInventory" : "インベントリーに保存",
         "Interaction.Undo" : "戻す",
         "Interaction.Redo" : "やり直す",
         "Interaction.EquipTool" : "装備",
