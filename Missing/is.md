@@ -10,6 +10,7 @@ Locomotion.GrabWorld.Name
 Locomotion.GrabWorld.Description  
 Locomotion.Slide.Name  
 Locomotion.Slide.Description  
+Interaction.SaveToInventory  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  

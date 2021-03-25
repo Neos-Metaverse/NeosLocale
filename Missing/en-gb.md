@@ -43,6 +43,7 @@ Locomotion.Slide.Name
 Locomotion.Slide.Description  
 Interaction.Destroy  
 Interaction.Duplicate  
+Interaction.SaveToInventory  
 Interaction.Undo  
 Interaction.Redo  
 Interaction.EquipTool  

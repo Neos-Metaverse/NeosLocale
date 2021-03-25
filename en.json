@@ -48,6 +48,7 @@
 
         "Interaction.Destroy" : "Destroy",
         "Interaction.Duplicate" : "Duplicate",
+        "Interaction.SaveToInventory" : "Save To Inventory",
         "Interaction.Undo" : "Undo",
         "Interaction.Redo" : "Redo",
         "Interaction.EquipTool" : "Equip",

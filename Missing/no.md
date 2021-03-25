@@ -7,6 +7,7 @@ General.Saving
 General.Done  
 General.Create  
 General.Creating  
+Interaction.SaveToInventory  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  

@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
+Interaction.SaveToInventory  
 Interaction.CopyLink  
 World.Detail.Users.Count  
 Tools.Debug  

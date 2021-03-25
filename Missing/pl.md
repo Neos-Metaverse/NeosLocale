@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Polish [pl]
+Interaction.SaveToInventory  
 Interaction.CopyLink  
 Tools.StreamAudio  
 Tools.StreamAudio.Start  

@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
+Interaction.SaveToInventory  
 Tutorial.BotDesigner.Start  
 Tutorial.BotDesigner.WearAvatar  
 Tutorial.BotDesigner.Intro.Title  

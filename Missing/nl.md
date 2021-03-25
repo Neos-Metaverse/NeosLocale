@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Dutch [nl]
+Interaction.SaveToInventory  
 Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
 Tooltips.Dev.ConfirmDestroySelected  

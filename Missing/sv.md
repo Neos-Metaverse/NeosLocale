@@ -6,6 +6,7 @@ General.Save
 General.Saving  
 General.Create  
 General.Creating  
+Interaction.SaveToInventory  
 Interaction.SaveAsScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
