@@ -48,6 +48,7 @@
        
         "Interaction.Destroy" : "Odstranit",
         "Interaction.Duplicate" : "Duplikovat",
+        "Interaction.SaveToInventory" : "Uložit do inventáře",
         "Interaction.Undo" : "Zpět",
         "Interaction.Redo" : "Znovu",
         "Interaction.EquipTool" : "Nasadit",
