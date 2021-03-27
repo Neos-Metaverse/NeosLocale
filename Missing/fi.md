@@ -333,6 +333,7 @@ Settings.Audio.Header
 Settings.Audio.Master  
 Settings.Audio.Multimedia  
 Settings.Audio.NoiseSupression  
+Settings.Audio.WhisperVoiceVolume  
 Settings.Audio.OutputDevice  
 Settings.Audio.SelectInputDevice  
 Settings.Audio.SelectOutputDevice  

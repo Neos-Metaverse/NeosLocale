@@ -6,6 +6,7 @@ Interaction.SaveToInventory
 AvatarCreator.SetupFaceTracking  
 Importer.Model.Advanced.Lights  
 Settings.Laser.ShowInDesktop  
+Settings.Audio.WhisperVoiceVolume  
 Settings.Graphics.DesktopFOV  
 Tutorial.BotDesigner.Start  
 Tutorial.BotDesigner.WearAvatar  

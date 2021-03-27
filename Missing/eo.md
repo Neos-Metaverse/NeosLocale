@@ -3,6 +3,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Esperanto [eo]
 Interaction.SaveToInventory  
+Settings.Audio.WhisperVoiceVolume  
 Tutorial.BotDesigner.Start  
 Tutorial.BotDesigner.WearAvatar  
 Tutorial.BotDesigner.Intro.Title  

@@ -777,6 +777,7 @@ Settings.Audio.Voice
 Settings.Audio.UI  
 Settings.Audio.NoiseGateThreshold  
 Settings.Audio.NoiseSupression  
+Settings.Audio.WhisperVoiceVolume  
 Settings.Audio.InputDevice  
 Settings.Audio.OutputDevice  
 Settings.Audio.SelectInputDevice  

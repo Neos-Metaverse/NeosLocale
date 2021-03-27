@@ -898,6 +898,7 @@
         "Settings.Audio.NoiseGateThreshold" : "Noise Gate Threshold: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalization Threshold: {n}",
         "Settings.Audio.NoiseSupression" : "Noise Suppression Filter (RNNoise)",
+        "Settings.Audio.WhisperVoiceVolume" : "Whisper Voice Volume (outside bubble): {n,number,percent}",
         "Settings.Audio.InputDevice" : "Audio Input Device:",
         "Settings.Audio.OutputDevice" : "Audio Output Device:",
         "Settings.Audio.SelectInputDevice" : "Select Audio Input Device",

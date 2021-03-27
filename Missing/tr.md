@@ -53,6 +53,7 @@ Settings.DebugInputBinding
 Settings.Laser.ShowInDesktop  
 Settings.Audio.Master  
 Settings.Audio.NoiseSupression  
+Settings.Audio.WhisperVoiceVolume  
 Settings.Audio.OutputDevice  
 Settings.Audio.SelectOutputDevice  
 Settings.Audio.SystemDefaultOutput  

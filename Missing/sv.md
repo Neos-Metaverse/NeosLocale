@@ -725,6 +725,7 @@ Settings.Audio.DisableVoiceNormalization
 Settings.Audio.NoiseGateThreshold  
 Settings.Audio.NormzliationThreshold  
 Settings.Audio.NoiseSupression  
+Settings.Audio.WhisperVoiceVolume  
 Settings.Audio.InputDevice  
 Settings.Audio.OutputDevice  
 Settings.Audio.SelectInputDevice  
