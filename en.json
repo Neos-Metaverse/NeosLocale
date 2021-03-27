@@ -1,7 +1,7 @@
 {
     "localeCode" : "en",
     "authors" : ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus"],
-    "messages" : 
+    "messages" :
     {
         "General.OK" : "OK",
         "General.Cancel" : "Cancel",
@@ -373,8 +373,8 @@
         "Contacts.IgnoreRequest" : "Ignore Request",
         "Contacts.Invite" : "Invite Here",
         "Contacts.SendCredits" : "Send Credits",
-        "Contacts.BanFromAllSessions" : "Ban from ALL my sessions",
-        "Contacts.UnbanFromAllSessions" : "Unban from ALL my sessions",
+        "Contacts.BanFromAllSessions" : "Ban from my hosted sessions",
+        "Contacts.UnbanFromAllSessions" : "Unban from my hosted sessions",
         "Contacts.BanFromCurrentWorld" : "Ban from current world",
         "Contacts.UnbanFromCurrentWorld" : "Unban from current world",
         "Contacts.RecordingVoiceMessage" : "Recording voice...",
@@ -942,7 +942,7 @@
 
         "Settings.WindowsIntegration" : "Windows Integration",
         "Settings.LinuxIntegration" : "Linux Integration",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Keep original screenshot format",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "When enabled, screenshots won't be converted to JPG when saved into the Documents folder",
 
