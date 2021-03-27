@@ -898,6 +898,7 @@
         "Settings.Audio.NoiseGateThreshold" : "Hranice pro potlačení šumu: {n}",
         "Settings.Audio.NormzliationThreshold" : "Hranice pro normalizaci: {n}",
         "Settings.Audio.NoiseSupression" : "Filtr pro potlačení okolního hluku (RNNoise)",
+        "Settings.Audio.WhisperVoiceVolume" : "Hlasitost hlasu v režimu šepotu (lidé mimo bublinu šepotu): {n,number,percent}",
         "Settings.Audio.InputDevice" : "Vstupní zařízení:",
         "Settings.Audio.OutputDevice" : "Výstupní zařízení:",
         "Settings.Audio.SelectInputDevice" : "Vyberte vstupní zvukové zařízení",
