@@ -898,6 +898,7 @@
         "Settings.Audio.NoiseGateThreshold" : "ノイズゲートの閾値: {n}",
         "Settings.Audio.NormzliationThreshold" : "ノーマライゼーションの閾値: {n}",
         "Settings.Audio.NoiseSupression" : "ノイズ抑制フィルター（RNNoise）",
+        "Settings.Audio.WhisperVoiceVolume" : "ウィスパーモードの音量(球の外側): {n,number,percent}",
         "Settings.Audio.InputDevice" : "音声入力デバイス:",
         "Settings.Audio.OutputDevice" : "音声出力デバイス:",
         "Settings.Audio.SelectInputDevice" : "音声入力デバイスを選択",
