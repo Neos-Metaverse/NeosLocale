@@ -1357,6 +1357,8 @@
 		
 		"Interaction.SaveToInventory" : "보관함에 저장",
 		
+		"Settings.Audio.WhisperVoiceVolume" : "개인대화시 범위밖에서 들려오는 소리의 음량: {n,number,percent}",
+		
 		"Dummy": "더미"
 	}
 }
