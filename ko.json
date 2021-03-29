@@ -19,7 +19,7 @@
 		"General.CopiedToClipboardLong": "클립보드에 복사되었습니다.",
 
 		"General.UI.SearchPrompt": "검색하기...",
-		"General.UI.SearchPromptLong": "문자열로 검색하기...",
+		"General.UI.SearchPromptLong": "이곳에 검색할 키워드를 입력하세요.",
 
 		"General.Sort.Ascending": "오름차순",
 		"General.Sort.Descending": "내림차순",
@@ -32,7 +32,7 @@
 		"Locomotion.Fly.Description": "컨트롤러의 조작을 통해 자유로운 이동이 가능합니다.",
 		"Locomotion.WalkRun.Name": "걷기/뛰기",
 		"Locomotion.WalkRun.Description": "지면의 굴곡에 영향을 받으며 이동할 수 있습니다.",
-		"Locomotion.WalkRunGripping.Name": "걷기/뛰기이동(벽타기 지원)",
+		"Locomotion.WalkRunGripping.Name": "걷기/뛰기/벽타기",
 		"Locomotion.WalkRunGripping.Description": "지면의 굴곡을 통한 이동과 손으로 벽을 잡고 기어오르는 이동을 할 수 있습니다.",
 		"Locomotion.ZeroG.Name": "무중력",
 		"Locomotion.ZeroG.Description": "무중력 상태의 이동방법입니다.",
@@ -85,7 +85,7 @@
 		"Dash.Exit.ExitAndSave": "저장 후 종료",
 		"Dash.Exit.ExitAndDiscard": "NEOS 종료(저장안함)",
 		"Dash.Exit.ThankYou": "NEOS를 이용해 주셔서 감사합니다.",
-		"Dash.Exit.SubmittedBy": "발송자 : {name}",
+		"Dash.Exit.SubmittedBy": "이 메세지는 {name}이(가) 남겼습니다.",
 
 		"World.Waiting": "대기중입니다.",
 		"World.HostIsStarting": "호스트가 세션을 시작하고 있습니다.",
