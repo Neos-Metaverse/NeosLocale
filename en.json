@@ -4,6 +4,8 @@
     "messages" :
     {
         "General.OK" : "OK",
+        "General.Start" : "Start",
+        "General.Finish" : "Finish",
         "General.Cancel" : "Cancel",
         "General.Continue" : "Continue",
         "General.Next" : "Next",
@@ -1215,22 +1217,22 @@
 
         "Tutorial.Intro.ScalingTitle" : "Scaling",
         "Tutorial.Intro.ScalingVR" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with both hands and move them <color=#77ddff><b>closer or further</b></color> apart - this can also be done with your lasers.",
-        "Tutorial.Intro.ScalingScreen" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with <color=#77ff77><b>Right Mouse button</b></color> and <color=#77ddff><b>scroll</b></color> with your <color=#77ff77><b>Scroll Wheel</b></color>.",
+        "Tutorial.Intro.ScalingScreen" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with <color=#77ff77><b>Right Mouse button</b></color>. While holding down <color=#77ddff><b>Shift</b></color> <color=#77ddff><b>scroll</b></color> with your <color=#77ff77><b>Scroll Wheel</b></color>.",
 
         "Tutorial.Intro.ContextMenuTitle" : "Context Menu",
         "Tutorial.Intro.ContextMenuDescription" : "Your <color=#ffdd77><b>Context Menu</b></color> provides quick actions.<br>Open or close it using the <color=#77ff77><b>{button}</b></color>.",
         "Tutorial.Intro.ContextMenu_ButtonB" : "B button",
         "Tutorial.Intro.ContextMenu_ButtonBY" : "B or Y button",
         "Tutorial.Intro.ContextMenu_ButtonMenu" : "Menu button",
-        "Tutorial.Intro.ContextMenu_Screen" : "R key",
+        "Tutorial.Intro.ContextMenu_Screen" : "Middle Mouse button",
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "Destroying and Duplicating",
         "Tutorial.Intro.DestroyingDuplicatingVR" : "While holding an object, <b><color=#ffdd77>Destroy or Duplicate</color></b> it by <color=#77ff77><b>Clicking</b></color> the action in the context menu.",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "While holding an object, <b><color=#ffdd77>Destroy</color></b> it by pressing <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Duplicate</b></color> it by pressing <color=#77ff77><b>F key</b></color>.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "While holding an object, <b><color=#ffdd77>Destroy</color></b> it with the action in the <color=#ffdd77><b>Context Menu</b></color> or by pressing the <color=#77ff77><b>Delete</b></color> key. <color=#ffdd77><b>Duplicate</b></color> it with the action in the <color=#ffdd77><b>Context Menu</b></color>.",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "Scaling Yourself",
         "Tutorial.Intro.ScalingYourselfVR" : "To <color=#ffdd77><b>Scale Yourself</b></color>, enable scaling in your context menu, then hold both <color=#77ff77><b>Grip Buttons</b></color> and move your hands <color=#77ddff><b>closer or further</b></color> apart.",
-        "Tutorial.Intro.ScalingYourselfScreen" : "To <color=#ffdd77><b>Scale Yourself</b></color>, hold <color=#77ff77><b>Ctrl</b></color> and <color=#77ddff><b>scroll</b></color> your <color=#77ff77><b>Scroll wheel</b></color>.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "To <color=#ffdd77><b>Scale Yourself</b></color> Open the <color=#ffdd77><b>Context Menu</b></color> and Enable Scaling then hold <color=#77ff77><b>Ctrl</b></color> and <color=#77ddff><b>scroll</b></color> your <color=#77ff77><b>Scroll wheel</b></color>.",
 
         "Tutorial.Intro.LocomotionTitle" : "Locomotion",
         "Tutorial.Intro.LocomotionDescription" : "Neos contains many different methods of movement.<br>These locomotion options are available within your <color=#ffdd77>Context Menu</color>.",
@@ -1241,7 +1243,7 @@
         "Tutorial.Intro.Dashboard_ButtonA" : "A button",
         "Tutorial.Intro.Dashboard_ButtonAX" : "A or X button",
         "Tutorial.Intro.Dashboard_ButtonMenu" : "Menu button",
-        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl + Space key combination",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Escape Key",
 
         "Tutorial.Intro.InventoryVR" : "Your <color=#ffdd77><b>Inventory</b></color> is located on your Dashboard.<br>To <color=#77ddff><b>Spawn</b></color> an object, <color=#77ff77><b>Double-Click</b></color> the item in your inventory.<br>To <color=#77ddff><b>Save</b></color> an object, <color=#77ddff><b>hold</b></color> the item and press <sprite name=inv-add> on the top right corner.",
         "Tutorial.Intro.InventoryScreen" : "Your <color=#ffdd77><b>Inventory</b></color> is located on your Neos Dashboard.<br>To <color=#77ddff><b>spawn</b></color> an object, <color=#77ff77><b>Double-Click</b></color> the item in your inventory.<br>To <color=#77ddff><b>save</b></color> an object, hold the item and press <color=#77ff77><b>Ctrl + S</b></color>.",
@@ -1355,7 +1357,17 @@
         "Tutorial.UserResources.UserResourcesTitle" : "User Resources",
         "Tutorial.UserResources.SupportTitle" : "How to support Neos",
         "Tutorial.UserResources.MerchandiseTitle" : "Neos Merch",
-
+        
+        "Tutorial.Intro.BadgesNeosTeam" : "Neos Team",
+        "Tutorial.Intro.BadgesModerator" : "Moderator",
+        "Tutorial.Intro.BadgesMentor" : "Mentor",
+        "Tutorial.Intro.BadgesDisabilityHearing" : "Hearing Impaired",
+        "Tutorial.Intro.BadgesDisabilityVision" : "Vision Impaired",
+        "Tutorial.Intro.BadgesDisabilitySpeech" : "Speech Impaired",
+        "Tutorial.Intro.BadgesTitle" : "Badges",
+        "Tutorial.Intro.BadgesDescription" : "Badges are small icons which show aspects of a user. Here are a few important badges to remember. The disability badges can be self assigned though the NeosBot.",
+       "Tutorial.Intro.HelpSite" : "Help",
+       
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
         "Exiting.Exiting" : "Exiting...",
