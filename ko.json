@@ -730,7 +730,7 @@
 		"CameraControl.Settings.MovementWobble": "흔들림 효과 주기",
 		"CameraControl.Settings.AimInFrontOfHead": "촬영점을 머리 앞으로 변경 ",
 		"CameraControl.Settings.HideCamera": "카메라 숨기기",
-		"CameraControl.Settings.ForceEyesOnCamera": "카메라 중심 고정",
+		"CameraControl.Settings.ForceEyesOnCamera": "시선을 카메라로 보내기",
 		"CameraControl.Settings.HideBadges": "뱃지 숨기기",
 		"CameraControl.Settings.HideLasers": "지시선 숨기기",
 		"CameraControl.Settings.ShowFrustum": "투사 안내선 보이기",
