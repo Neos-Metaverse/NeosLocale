@@ -4,6 +4,8 @@
     "messages" : 
     {
         "General.OK" : "OK",
+        "General.Start" : "Start",
+        "General.Finish" : "Dokončit",
         "General.Cancel" : "Zrušit",
         "General.Continue" : "Pokračovat",
         "General.Next" : "Další",
@@ -1215,22 +1217,22 @@
 
         "Tutorial.Intro.ScalingTitle" : "Škálování objektů",
         "Tutorial.Intro.ScalingVR" : "Pro <color=#ffdd77><b>škálování</b></color> objektu jej uchopte objema rukama a pohybujte jimi <color=#77ddff><b>k sobě/od sebe</b></color> - toto lze také dělat pomocí vašich laserů.",
-        "Tutorial.Intro.ScalingScreen" : "Pro <color=#ffdd77><b>škálování</b></color> objektu jej uchopte pomocí <color=#77ff77><b>pravého tlačítka myši</b></color> a <color=#77ddff><b>scrollujte</b></color> <color=#77ff77><b>kolečkem myši</b></color>.",
+        "Tutorial.Intro.ScalingScreen" : "Pro <color=#ffdd77><b>škálování</b></color> objektu jej uchopte pomocí <color=#77ff77><b>pravého tlačítka myši</b></color> a <color=#77ddff><b>scrollujte</b></color> <color=#77ff77><b>kolečkem myši</b></color> při stisknuté klávese <color=#77ddff><b>Shift</b></color>.",
 
         "Tutorial.Intro.ContextMenuTitle" : "Kontextové menu",
         "Tutorial.Intro.ContextMenuDescription" : "Vaše <color=#ffdd77><b>kontextové menu</b></color> poskytuje rychlý přístup k akcím.<br>Můžete jej otevřít/zavřít pomocí <color=#77ff77><b>{button}</b></color>.",
         "Tutorial.Intro.ContextMenu_ButtonB" : "tlačítka B",
         "Tutorial.Intro.ContextMenu_ButtonBY" : "tlačítka B nebo Y",
         "Tutorial.Intro.ContextMenu_ButtonMenu" : "tlačítka Menu",
-        "Tutorial.Intro.ContextMenu_Screen" : "klávesy R",
+        "Tutorial.Intro.ContextMenu_Screen" : "stisku kolečka myši",
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "Ničení a duplikace objektů",
         "Tutorial.Intro.DestroyingDuplicatingVR" : "Když držíte objekt, můžete jej <b><color=#ffdd77>zničit nebo duplikovat</color></b> <color=#77ff77><b>kliknutím</b></color> na akci v kontextovém menu.",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Když držíte objekt, můžete jej <b><color=#ffdd77>zničit</color></b> stiskem <color=#77ff77><b>klávesy Delete</b></color>. <color=#ffdd77><b>Duplikovat</b></color> jej můžete stisknutím <color=#77ff77><b>klávesy F</b></color>.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Když držíte objekt, můžete jej <b><color=#ffdd77>zničit</color></b> pomocí akce v <color=#ffdd77><b>Kontextovém menu</b></color>, nebo stiskem <color=#77ff77><b>klávesy Delete</b></color>. <color=#ffdd77><b>Duplikovat</b></color> jej můžete akcí v <color=#ffdd77><b>Kontextovém menu</b></color>.",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "Škálování sebe sama",
         "Tutorial.Intro.ScalingYourselfVR" : "Pro <color=#ffdd77><b>škálování sebe sama</b></color>, povolte škálování ve vašem kontextovém menu, stiskněte <color=#77ff77><b>obě tlačítka uchopení</b></color> a pohybujte svými rukami <color=#77ddff><b>k sobě/od sebe</b></color>.",
-        "Tutorial.Intro.ScalingYourselfScreen" : "Pro <color=#ffdd77><b>škálování sebe sama</b></color>, přidržte <color=#77ff77><b>klávesu Ctrl</b></color> a <color=#77ddff><b>scrollujte</b></color> <color=#77ff77><b>kolečkem myši</b></color>.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Pro <color=#ffdd77><b>škálování sebe sama</b></color>, otevřte <color=#ffdd77><b>Kontextové menu</b></color> a povolte škálování. Následně přidržte <color=#77ff77><b>klávesu Ctrl</b></color> a <color=#77ddff><b>scrollujte</b></color> <color=#77ff77><b>kolečkem myši</b></color>.",
 
         "Tutorial.Intro.LocomotionTitle" : "Pohyb",
         "Tutorial.Intro.LocomotionDescription" : "Neos obsahuje mnoho různých metod pohybu.<br>Tyto možnosti pohybu jsou k dispozici ve vašem <color=#ffdd77>kontextovém menu</color>.",
@@ -1241,7 +1243,7 @@
         "Tutorial.Intro.Dashboard_ButtonA" : "tlačítko A",
         "Tutorial.Intro.Dashboard_ButtonAX" : "tlačítko A nebo X",
         "Tutorial.Intro.Dashboard_ButtonMenu" : "tlačítko Menu",
-        "Tutorial.Intro.Dashboard_ButtonScreen" : "kombinace kláves Ctrl + Space",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "klávesy Escape",
 
         "Tutorial.Intro.InventoryVR" : "Váš <color=#ffdd77><b>inventář</b></color> se nachází na vašem Dashboardu.<br>Pro <color=#77ddff><b>spawnování (vložení objektu do světa)</b></color> objektu <color=#77ff77><b>2x klikněte</b></color> na požadovanou položku ve vašem inventáři.<br>Pro <color=#77ddff><b>uložení</b></color> objektu jej <col0or=#77ddff><b>držte v ruce</b></color> a stiskněte <sprite name=inv-add> v pravém horním rohu obrazovky inventáře.",
         "Tutorial.Intro.InventoryScreen" : "Váš <color=#ffdd77><b>inventář</b></color> se nachází na vašem Dashboardu.<br>Pro <color=#77ddff><b>spawnování (vložení objektu do světa)</b></color> objektu <color=#77ff77><b>2x klikněte</b></color> na požadovanou položku ve vašem inventáři.<br>Pro <color=#77ddff><b>uložení</b></color> objektu jej uchopte a stiskněte <color=#77ff77><b>klávesovou kombinaci Ctrl + S</b></color>.",
@@ -1355,6 +1357,16 @@
         "Tutorial.UserResources.UserResourcesTitle" : "Uživatelské zdroje",
         "Tutorial.UserResources.SupportTitle" : "Jak podpořit Neos",
         "Tutorial.UserResources.MerchandiseTitle" : "Neos Merch",
+
+        "Tutorial.Intro.BadgesNeosTeam" : "Neos Team",
+        "Tutorial.Intro.BadgesModerator" : "Moderátor",
+        "Tutorial.Intro.BadgesMentor" : "Mentor",
+        "Tutorial.Intro.BadgesDisabilityHearing" : "Poškození sluchu",
+        "Tutorial.Intro.BadgesDisabilityVision" : "Deficit barevného vidění",
+        "Tutorial.Intro.BadgesDisabilitySpeech" : "Porucha řeči",
+        "Tutorial.Intro.BadgesTitle" : "Odznaky",
+        "Tutorial.Intro.BadgesDescription" : "Odznaky jsou malé ikony, označující aspekty uživatele. Zde je pár důležitých odznaků k zapamatování. Odznaky hendikepů si lze samoobslužně přidělit skrze NeosBota.",
+        "Tutorial.Intro.HelpSite" : "Pomoc",
 
         "Exiting.SavingItems" : "Ukládám {n, plural, one {# položku} few {# položky} other {# položek}}...",
         "Exiting.SavingChanges" : "Ukládám změny...",
