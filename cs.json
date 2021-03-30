@@ -1246,7 +1246,7 @@
         "Tutorial.Intro.Dashboard_ButtonScreen" : "klávesy Escape",
 
         "Tutorial.Intro.InventoryVR" : "Váš <color=#ffdd77><b>inventář</b></color> se nachází na vašem Dashboardu.<br>Pro <color=#77ddff><b>spawnování (vložení objektu do světa)</b></color> objektu <color=#77ff77><b>2x klikněte</b></color> na požadovanou položku ve vašem inventáři.<br>Pro <color=#77ddff><b>uložení</b></color> objektu jej <col0or=#77ddff><b>držte v ruce</b></color> a stiskněte <sprite name=inv-add> v pravém horním rohu obrazovky inventáře.",
-        "Tutorial.Intro.InventoryScreen" : "Váš <color=#ffdd77><b>inventář</b></color> se nachází na vašem Dashboardu.<br>Pro <color=#77ddff><b>spawnování (vložení objektu do světa)</b></color> objektu <color=#77ff77><b>2x klikněte</b></color> na požadovanou položku ve vašem inventáři.<br>Pro <color=#77ddff><b>uložení</b></color> objektu jej uchopte a stiskněte <color=#77ff77><b>klávesovou kombinaci Ctrl + S</b></color>.",
+        "Tutorial.Intro.InventoryScreen" : "Váš <color=#ffdd77><b>inventář</b></color> se nachází na vašem Dashboardu.<br>Pro <color=#77ddff><b>spawnování (vložení objektu do světa)</b></color> objektu <color=#77ff77><b>2x klikněte</b></color> na požadovanou položku ve vašem inventáři.<br>Pro <color=#77ddff><b>uložení</b></color> objektu jej uchopte a uložte jej skrze akci v <color=#ffdd77><b>Kontextovém menu</b></color>.",
 
         "Tutorial.Intro.HomeScreenTitle" : "Vaše domovská obrazovka",
         "Tutorial.Intro.HomeScreenDescription" : "Vaše <color=#ffdd77><b>domovská obrazovka</b></color> obsahuje facety s mnoha funkcemi.<br>Funkce obsahují nástroj pro tvorbu avatarů, kalibrátor trackování celého těla, ovládání kamery/streamování, a vytvoření nového světa.",
