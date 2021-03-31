@@ -1246,7 +1246,7 @@
         "Tutorial.Intro.Dashboard_ButtonScreen" : "Escape Key",
 
         "Tutorial.Intro.InventoryVR" : "Your <color=#ffdd77><b>Inventory</b></color> is located on your Dashboard.<br>To <color=#77ddff><b>Spawn</b></color> an object, <color=#77ff77><b>Double-Click</b></color> the item in your inventory.<br>To <color=#77ddff><b>Save</b></color> an object, <color=#77ddff><b>hold</b></color> the item and press <sprite name=inv-add> on the top right corner.",
-        "Tutorial.Intro.InventoryScreen" : "Your <color=#ffdd77><b>Inventory</b></color> is located on your Neos Dashboard.<br>To <color=#77ddff><b>spawn</b></color> an object, <color=#77ff77><b>Double-Click</b></color> the item in your inventory.<br>To <color=#77ddff><b>save</b></color> an object, hold the item and press <color=#77ff77><b>Ctrl + S</b></color>.",
+        "Tutorial.Intro.InventoryScreen" : "Your <color=#ffdd77><b>Inventory</b></color> is located on your Neos Dashboard.<br>To <color=#77ddff><b>spawn</b></color> an object, <color=#77ff77><b>Double-Click</b></color> the item in your inventory.<br>To <color=#77ddff><b>save</b></color> an object, hold the item and save through the <color=#ffdd77><b>Context Menu</b></color>.",
 
         "Tutorial.Intro.HomeScreenTitle" : "Your Home Screen",
         "Tutorial.Intro.HomeScreenDescription" : "Your <color=#ffdd77><b>Home Screen</b></color> contains facets with many features.<br>These include the Avatar Creator, Full body Calibrator, Camera/Streaming, and Create New World.",
