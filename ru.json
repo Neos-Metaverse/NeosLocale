@@ -4,6 +4,8 @@
     "messages" :
     {
         "General.OK" : "OK",
+        "General.Start" : "Начать",
+        "General.Finish" : "Закончить",
         "General.Cancel" : "Отмена",
         "General.Continue" : "Продолжить",
         "General.Next" : "Далее",
@@ -1215,22 +1217,22 @@
 
         "Tutorial.Intro.ScalingTitle" : "Масштаб",
         "Tutorial.Intro.ScalingVR" : "Чтобы <color=#ffdd77><b>масштабировать</b></color> объект, схватите его двумя руками и <color=#77ddff><b>сдвигайте или раздвигайте</b></color> их. Это также можно сделать лазерами.",
-        "Tutorial.Intro.ScalingScreen" : "Чтобы <color=#ffdd77><b>масштабировать</b></color> объект, схватите его <color=#77ff77><b>правой кнопкой мыши</b></color>, зажмите <color=#77ff77><b>Shift</b></color>, и <color=#77ddff><b>прокручивайте</b></color> <color=#77ff77><b>колесико мыши</b></color>.",
+        "Tutorial.Intro.ScalingScreen" : "Чтобы <color=#ffdd77><b>масштабировать</b></color> объект, схватите его <color=#77ff77><b>правой кнопкой мыши</b></color>. Удерживая <color=#77ff77><b>Shift</b></color>, <color=#77ddff><b>прокручивайте</b></color> <color=#77ff77><b>колесико мыши</b></color>.",
 
         "Tutorial.Intro.ContextMenuTitle" : "Контекстное меню",
         "Tutorial.Intro.ContextMenuDescription" : "Ваше <color=#ffdd77><b>контекстное меню</b></color> содержит быстрые действия.<br>Открывайте и закрывайте его с помощью <color=#77ff77><b>{button}</b></color>.",
         "Tutorial.Intro.ContextMenu_ButtonB" : "кнопки B",
         "Tutorial.Intro.ContextMenu_ButtonBY" : "кнопки B или Y",
         "Tutorial.Intro.ContextMenu_ButtonMenu" : "кнопки Меню",
-        "Tutorial.Intro.ContextMenu_Screen" : "клавиши R",
+        "Tutorial.Intro.ContextMenu_Screen" : "средней кнопки мыши",
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "Удаление и копирование",
         "Tutorial.Intro.DestroyingDuplicatingVR" : "Удерживая объект, <b><color=#ffdd77>удалите или копируйте</color></b> его, <color=#77ff77><b>щелкнув</b></color> по пункту в контекстном меню.",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Удерживая объект, <b><color=#ffdd77>удалите</color></b> его, нажав <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Копируйте</b></color> с помощью <color=#77ff77><b>Ctrl + D</b></color>.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Удерживая объект, <b><color=#ffdd77>удалите</color></b> его соответствующим действием в контекстном меню или нажав <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Копируйте</b></color> действием в <color=#ffdd77><b>контекстном меню</b></color>.",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "Масштабирование себя",
         "Tutorial.Intro.ScalingYourselfVR" : "Чтобы <color=#ffdd77><b>масштабировать себя</b></color>, включите масштабирование в контекстном меню, затем зажмите обе <color=#77ff77><b>кнопки хвата</b></color> и <color=#77ddff><b>сдвигайте или раздвигайте</b></color> руки.",
-        "Tutorial.Intro.ScalingYourselfScreen" : "Чтобы <color=#ffdd77><b>масштабировать себя</b></color>, зажмите <color=#77ff77><b>Ctrl</b></color> и <color=#77ddff><b>прокручивайте</b></color> <color=#77ff77><b>колесико мыши</b></color>.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Чтобы <color=#ffdd77><b>масштабировать себя</b></color>, откройте <color=#ffdd77><b>контекстное меню</b></color>, включите масштабирование, зажмите <color=#77ff77><b>Ctrl</b></color> и <color=#77ddff><b>прокручивайте</b></color> ваше <color=#77ff77><b>колесико мыши</b></color>.",
 
         "Tutorial.Intro.LocomotionTitle" : "Перемещение",
         "Tutorial.Intro.LocomotionDescription" : "Neos поддерживает много разных режимов перемещения.<br>Эти режимы перемещения доступны в вашем <color=#ffdd77>контекстном меню</color>.",
@@ -1241,7 +1243,7 @@
         "Tutorial.Intro.Dashboard_ButtonA" : "кнопку A",
         "Tutorial.Intro.Dashboard_ButtonAX" : "кнопку A или X",
         "Tutorial.Intro.Dashboard_ButtonMenu" : "кнопку Меню",
-        "Tutorial.Intro.Dashboard_ButtonScreen" : "комбинацию Ctrl + Space",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "клавишу Escape",
 
         "Tutorial.Intro.InventoryVR" : "Ваш <color=#ffdd77><b>инвентарь</b></color> находится в вашем Dashboard.<br>Чтобы <color=#77ddff><b>вызвать</b></color> объект, <color=#77ff77><b>щелкните дважды</b></color> по нему в инвентаре.<br>Чтобы <color=#77ddff><b>сохранить</b></color> объект, <color=#77ddff><b>держите</b></color> его в руке и нажмите <sprite name=inv-add> в верхнем правом углу.",
         "Tutorial.Intro.InventoryScreen" : "Ваш <color=#ffdd77><b>инвентарь</b></color> находится в вашем Dashboard.<br>Чтобы <color=#77ddff><b>вызвать</b></color> объект, <color=#77ff77><b>щелкните дважды</b></color> по нему в инвентаре.<br>Чтобы <color=#77ddff><b>сохранить</b></color> объект, держите его и нажмите <color=#77ff77><b>Ctrl + S</b></color>.",
@@ -1355,6 +1357,16 @@
         "Tutorial.UserResources.UserResourcesTitle" : "Ресурсы Neos",
         "Tutorial.UserResources.SupportTitle" : "Как поддержать Neos",
         "Tutorial.UserResources.MerchandiseTitle" : "Мерч Neos",
+
+        "Tutorial.Intro.BadgesNeosTeam" : "Команда Neos",
+        "Tutorial.Intro.BadgesModerator" : "Модератор",
+        "Tutorial.Intro.BadgesMentor" : "Учитель",
+        "Tutorial.Intro.BadgesDisabilityHearing" : "Нарушение слуха",
+        "Tutorial.Intro.BadgesDisabilityVision" : "Нарушение зрения",
+        "Tutorial.Intro.BadgesDisabilitySpeech" : "Нарушение речи",
+        "Tutorial.Intro.BadgesTitle" : "Бэджи",
+        "Tutorial.Intro.BadgesDescription" : "Бэджи - это маленькие иконки, показывающие разные стороны пользователя. Вот несколько важных бэджей, которые следует запомнить. Бэджи нарушений можно самостоятельно присвоить с помощью бота Neos.",
+        "Tutorial.Intro.HelpSite" : "Справка",
 
         "Exiting.SavingItems" : "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
         "Exiting.SavingChanges" : "Сохранение Изменений...",
