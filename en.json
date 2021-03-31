@@ -1357,7 +1357,7 @@
         "Tutorial.UserResources.UserResourcesTitle" : "User Resources",
         "Tutorial.UserResources.SupportTitle" : "How to support Neos",
         "Tutorial.UserResources.MerchandiseTitle" : "Neos Merch",
-        
+
         "Tutorial.Intro.BadgesNeosTeam" : "Neos Team",
         "Tutorial.Intro.BadgesModerator" : "Moderator",
         "Tutorial.Intro.BadgesMentor" : "Mentor",
@@ -1365,9 +1365,9 @@
         "Tutorial.Intro.BadgesDisabilityVision" : "Vision Impaired",
         "Tutorial.Intro.BadgesDisabilitySpeech" : "Speech Impaired",
         "Tutorial.Intro.BadgesTitle" : "Badges",
-        "Tutorial.Intro.BadgesDescription" : "Badges are small icons which show aspects of a user. Here are a few important badges to remember. The disability badges can be self assigned though the NeosBot.",
+        "Tutorial.Intro.BadgesDescription" : "Badges are small icons which show aspects of a user. Here are a few important badges to remember. The disability badges can be self assigned though the Neos bot.",
         "Tutorial.Intro.HelpSite" : "Help",
-       
+
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
         "Exiting.Exiting" : "Exiting...",
