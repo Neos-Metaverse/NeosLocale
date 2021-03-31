@@ -3,6 +3,7 @@
 	"authors": ["MirPASEC", "R3C0D3r", "LUA"],
 	"messages": {
 		"General.OK": "확인",
+		"General.Finish" : "완료",
 		"General.Cancel": "취소",
 		"General.Continue": "계속",
 		"General.Next": "다음",
@@ -757,6 +758,8 @@
 		"CameraControl.Control.AnyoneCanInteract": "타인에게 카메라 조작을 허용",
 		"CameraControl.Control.RenderPreviewForEveryone": "미리보기 공개하기(카메라 상단 버튼 클릭)",
 		"CameraControl.Control.RenderPrivateUI": "개인 UI 보이기",
+		"CameraControl.Control.MotionBlur" : "모션블러",
+		"CameraControl.Control.ScreenSpaceReflections" : "SSR(스크린 스페이스 리플렉션)",
 		"CameraControl.Control.SpawnPhotoInWorld": "월드에 사진 생성",
 		"CameraControl.Control.FlipPreview": "수평반전",
 		"CameraControl.Control.GroupDetectionRadius": "그룹 탐지 반경: {n} m",
