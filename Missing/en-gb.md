@@ -694,6 +694,8 @@ CameraControl.Positioning.Reset
 CameraControl.Control.AnyoneCanInteract  
 CameraControl.Control.RenderPreviewForEveryone  
 CameraControl.Control.RenderPrivateUI  
+CameraControl.Control.MotionBlur  
+CameraControl.Control.ScreenSpaceReflections  
 CameraControl.Control.SpawnPhotoInWorld  
 CameraControl.Control.FlipPreview  
 CameraControl.Control.GroupDetectionRadius  

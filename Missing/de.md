@@ -9,6 +9,8 @@ Tooltips.Dev.ConfirmDestroySelected
 AvatarCreator.SetupFaceTracking  
 Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
+CameraControl.Control.MotionBlur  
+CameraControl.Control.ScreenSpaceReflections  
 Settings.DisableLAN  
 Settings.DebugInputBinding  
 Settings.Laser.ShowInDesktop  

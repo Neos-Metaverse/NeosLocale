@@ -5,6 +5,8 @@ Note that this file updates only during Neos build process and doesn't necessari
 General.Start  
 General.Finish  
 Interaction.SaveToInventory  
+CameraControl.Control.MotionBlur  
+CameraControl.Control.ScreenSpaceReflections  
 Settings.Audio.WhisperVoiceVolume  
 Tutorial.BotDesigner.Start  
 Tutorial.BotDesigner.WearAvatar  

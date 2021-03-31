@@ -24,6 +24,8 @@ Importer.Model.Advanced.PreferSpecular
 Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
 CameraControl.Settings.AudioFromCameraViewpoint  
+CameraControl.Control.MotionBlur  
+CameraControl.Control.ScreenSpaceReflections  
 Settings.DisableLAN  
 Settings.AutosaveScreenshotPath  
 Settings.DebugInputBinding  

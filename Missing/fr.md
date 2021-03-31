@@ -7,6 +7,8 @@ General.Finish
 Interaction.SaveToInventory  
 AvatarCreator.SetupFaceTracking  
 Importer.Model.Advanced.Lights  
+CameraControl.Control.MotionBlur  
+CameraControl.Control.ScreenSpaceReflections  
 Settings.Laser.ShowInDesktop  
 Settings.Audio.WhisperVoiceVolume  
 Settings.Graphics.DesktopFOV  

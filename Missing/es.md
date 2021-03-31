@@ -4,6 +4,8 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Spanish [es]
 General.Start  
 General.Finish  
+CameraControl.Control.MotionBlur  
+CameraControl.Control.ScreenSpaceReflections  
 Settings.Laser.ShowInDesktop  
 Tutorial.Intro.BadgesNeosTeam  
 Tutorial.Intro.BadgesModerator  

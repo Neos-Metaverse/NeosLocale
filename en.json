@@ -806,6 +806,8 @@
         "CameraControl.Control.AnyoneCanInteract" : "Anyone Can Interact",
         "CameraControl.Control.RenderPreviewForEveryone" : "Render Preview For Everyone",
         "CameraControl.Control.RenderPrivateUI" : "Render Private UI",
+        "CameraControl.Control.MotionBlur" : "Motion Blur",
+        "CameraControl.Control.ScreenSpaceReflections" : "Screen Space Reflections",
         "CameraControl.Control.SpawnPhotoInWorld" : "Spawn photo in the world",
         "CameraControl.Control.FlipPreview" : "Flip Preview",
         "CameraControl.Control.GroupDetectionRadius" : "Group Detection Radius: {n} m",
