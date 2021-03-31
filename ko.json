@@ -1362,7 +1362,6 @@
 		
 		"Settings.Audio.WhisperVoiceVolume" : "개인대화시 범위밖에서 들려오는 소리의 음량: {n,number,percent}",
 		
-		"General.OK" : "확인",
 		"General.Start" : "시작",		
 		"Tutorial.Intro.BadgesNeosTeam" : "네오스팀",
 		"Tutorial.Intro.BadgesModerator" : "중재자",
