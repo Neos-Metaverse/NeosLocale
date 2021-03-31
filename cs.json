@@ -1365,7 +1365,7 @@
         "Tutorial.Intro.BadgesDisabilityVision" : "Deficit barevného vidění",
         "Tutorial.Intro.BadgesDisabilitySpeech" : "Porucha řeči",
         "Tutorial.Intro.BadgesTitle" : "Odznaky",
-        "Tutorial.Intro.BadgesDescription" : "Odznaky jsou malé ikony, označující aspekty uživatele. Zde je pár důležitých odznaků k zapamatování. Odznaky hendikepů si lze samoobslužně přidělit skrze NeosBota.",
+        "Tutorial.Intro.BadgesDescription" : "Odznaky jsou malé ikony, označující aspekty uživatele. Zde je pár důležitých odznaků k zapamatování. Odznaky hendikepů si lze samoobslužně přidělit skrze Neos bota (bot účet Neos v kontaktech ve hře).",
         "Tutorial.Intro.HelpSite" : "Pomoc",
 
         "Exiting.SavingItems" : "Ukládám {n, plural, one {# položku} few {# položky} other {# položek}}...",
