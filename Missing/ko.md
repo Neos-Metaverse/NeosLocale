@@ -2,7 +2,5 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Korean [ko]
-General.Finish  
-CameraControl.Control.MotionBlur  
-CameraControl.Control.ScreenSpaceReflections  
+Tutorial.Intro.HomeScreenTitle  
 
