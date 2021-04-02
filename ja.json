@@ -806,6 +806,8 @@
         "CameraControl.Control.AnyoneCanInteract" : "他人が触れるようにする",
         "CameraControl.Control.RenderPreviewForEveryone" : "全員にプレビューを表示",
         "CameraControl.Control.RenderPrivateUI" : "プライベートUIを表示",
+        "CameraControl.Control.MotionBlur" : "モーションブラー",
+        "CameraControl.Control.ScreenSpaceReflections" : "画面空間の反射(SSR)",
         "CameraControl.Control.SpawnPhotoInWorld" : "ワールドに写真をスポーン",
         "CameraControl.Control.FlipPreview" : "プレビューを反転",
         "CameraControl.Control.GroupDetectionRadius" : "グループの判定範囲: {n} m",
