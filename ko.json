@@ -1171,6 +1171,7 @@
 		"Tutorial.Intro.Dashboard_ButtonScreen": "ESC",
 		"Tutorial.Intro.InventoryVR": "<color=#ffdd77><b>보관함</b></color>은 대시에서 접근 가능합니다.<br>보관함 내의 객체를 월드에 <color=#77ddff><b>소환</b></color>하기 위해 보관함에서 대상을 <color=#77ff77><b>더블클릭</b></color>합니다.<br>월드의 객체를 보관함에 <color=#77ddff><b>복사</b></color>하는 방법은 대상을 <color=#77ddff><b>잡은(그립)</b></color> 상태에서 보관함 상단에 있는 <sprite name=inv-add>를 누릅니다.",
 		"Tutorial.Intro.InventoryScreen": "<color=#ffdd77><b>보관함(인벤토리)</b></color> 는 대시 메뉴에 있습니다.<br>오브젝트를 <color=#77ddff><b>소환</b></color> 하려면, 보관함내의 아이템을 <color=#77ff77><b>더블클릭</b></color> 하십시요.<br>오브젝트를 <color=#77ddff><b>저장</b></color>하려면, 아이템을 잡은(마우스 우클릭) 상태에서 <color=#ffdd77><b>컨텍스트 메뉴</b></color>를 열어 <color=#ffdd77><b>보관함에 저장</b></color>을 클릭합니다",
+		"Tutorial.Intro.HomeScreenTitle" : "홈 화면",
 		"Tutorial.Intro.HomeScreenDescription": "대시의 <color=#ffdd77><b>홈</b></color>에서는 아바타 생성, 풀 바디 재조정,<br>카메라/스트리밍과 월드를 생성하는 기능들을 제공합니다.",
 		"Tutorial.Intro.ContactsDescription": "<color=#ffdd77><b>연락처(소셜)</b></color>는 대시에서 찾을 수 있습니다.<br>오른쪽 하단의 채팅상자를 통해 문자나 음성 또는 객체를 보낼 수 있습니다.<br>왼쪽 상단에는 새로운 친구를 추가하기 위한 검색기가 제공됩니다.",
 		"Tutorial.Intro.FilesDescription": "<color=#ffdd77><b>파일탐색기</b></color>는 대시에서 찾을 수 있습니다.<br>로컬 컴퓨터에 존재하는 파일, 3D모델, 이미지, 오디오, 비디오, 폰트등을 네오스에 가져올 수 있습니다.<br>파일을 직접 드래그 & 드랍으로 네오스 창에 넣거나, <color=#ffdd77><b>파일탐색기</b></color>에서 직접 가져올 수 있습니다.",
