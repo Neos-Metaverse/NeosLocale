@@ -806,6 +806,8 @@
         "CameraControl.Control.AnyoneCanInteract" : "Všichni můžou interagovat",
         "CameraControl.Control.RenderPreviewForEveryone" : "Zobrazit náhled pro všechny",
         "CameraControl.Control.RenderPrivateUI" : "Zobrazit privátní rozhraní",
+        "CameraControl.Control.MotionBlur" : "Rozostření pohybu",
+        "CameraControl.Control.ScreenSpaceReflections" : "Screen space odrazy",
         "CameraControl.Control.SpawnPhotoInWorld" : "Vložit fotografii do světa",
         "CameraControl.Control.FlipPreview" : "Zrcadlit náhled",
         "CameraControl.Control.GroupDetectionRadius" : "Poloměr detekce skupiny: {n} m",
