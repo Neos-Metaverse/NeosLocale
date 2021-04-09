@@ -6,6 +6,11 @@ General.Start
 General.Finish  
 Interaction.SaveToInventory  
 Interaction.CopyLink  
+World.Connection.LNL.DirectIP  
+World.Connection.LNL.NATPunchthrough  
+World.Connection.LNL.Relay  
+World.Connection.SteamNetworkingSockets  
+World.Error.FailedToConnect  
 World.Detail.Users.Count  
 Tools.Debug  
 Tools.StreamAudio  

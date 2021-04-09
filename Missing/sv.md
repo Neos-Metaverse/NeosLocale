@@ -25,6 +25,10 @@ World.Connection.RequestingJoin
 World.Connection.Authenticating  
 World.Connection.Connected  
 World.Connection.SyncingInitialState  
+World.Connection.LNL.DirectIP  
+World.Connection.LNL.NATPunchthrough  
+World.Connection.LNL.Relay  
+World.Connection.SteamNetworkingSockets  
 World.Error.AccessDenied  
 World.Error.SecurityViolation  
 World.Error.OnlyRegisteredUsers  
@@ -38,6 +42,7 @@ World.Error.FailedUserID
 World.Error.FailedFetchingAuthentication  
 World.Error.JoinAlreadyRequested  
 World.Error.FailedConnectToRelay  
+World.Error.FailedToConnect  
 World.Error.NoPort  
 World.Error.IncompatibleVersion  
 World.Error.Unknown  

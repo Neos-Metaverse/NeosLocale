@@ -11,7 +11,12 @@ General.Creating
 Interaction.SaveToInventory  
 Interaction.CopyLink  
 Dash.Screens.Desktop  
+World.Connection.LNL.DirectIP  
+World.Connection.LNL.NATPunchthrough  
+World.Connection.LNL.Relay  
+World.Connection.SteamNetworkingSockets  
 World.Error.OnlyContactsOfContacts  
+World.Error.FailedToConnect  
 World.AccessLevel.FriendsOfFriends  
 World.Edit.Title  
 World.Edit.Name  

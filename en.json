@@ -112,6 +112,11 @@
         "World.Connection.Connected" : "Connected",
         "World.Connection.SyncingInitialState" : "Syncing initial world state",
 
+        "World.Connection.LNL.DirectIP" : "LNL Direct IP",
+        "World.Connection.LNL.NATPunchthrough" : "LNL NAT Punchthrough {n}",
+        "World.Connection.LNL.Relay" : "LNL Relay",
+        "World.Connection.SteamNetworkingSockets" : "Steam Networking Sockets",
+
         "World.Error.AccessDenied" : "Access Denied",
         "World.Error.SecurityViolation" : "Security Violation",
         "World.Error.OnlyRegisteredUsers" : "Only registered users are allowed to join",
@@ -125,6 +130,7 @@
         "World.Error.FailedFetchingAuthentication" : "Failed to fetch authentication info",
         "World.Error.JoinAlreadyRequested" : "Join has already been requested",
         "World.Error.FailedConnectToRelay" : "Failed to connect to relay",
+        "World.Error.FailedToConnect" : "Failed to establish connection",
         "World.Error.NoPort" : "No Port Specified",
         "World.Error.IncompatibleVersion" : "Incompatible Neos Version",
         "World.Error.Unknown" : "Unknown Error",
