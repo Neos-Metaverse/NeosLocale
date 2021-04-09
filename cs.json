@@ -112,6 +112,11 @@
         "World.Connection.Connected" : "Připojeno",
         "World.Connection.SyncingInitialState" : "Synchronizuji stav světa",
 
+        "World.Connection.LNL.DirectIP" : "LNL Direct IP",
+        "World.Connection.LNL.NATPunchthrough" : "LNL NAT Punchthrough {n}",
+        "World.Connection.LNL.Relay" : "LNL Relay",
+        "World.Connection.SteamNetworkingSockets" : "Steam Networking Sockets",
+
         "World.Error.AccessDenied" : "Přístup odepřen",
         "World.Error.SecurityViolation" : "Narušení bezpečnosti",
         "World.Error.OnlyRegisteredUsers" : "Pouze registrovaní uživatelé mohou vstoupit",
@@ -125,6 +130,7 @@
         "World.Error.FailedFetchingAuthentication" : "Nenalezeny informace pro authentikaci",
         "World.Error.JoinAlreadyRequested" : "Vstup byl už jednou vyžádán",
         "World.Error.FailedConnectToRelay" : "Nelze se připojit k relé",
+        "World.Error.FailedToConnect" : "Pokus o připojení selhal",
         "World.Error.NoPort" : "Nebyl specifikován port",
         "World.Error.IncompatibleVersion" : "Nekompatibilní verze Neosu",
         "World.Error.Unknown" : "Neznámá chyba",
