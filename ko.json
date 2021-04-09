@@ -100,6 +100,11 @@
 		"World.Connection.Authenticating": "인증을 진행중입니다.",
 		"World.Connection.Connected": "연결되었습니다.",
 		"World.Connection.SyncingInitialState": "동기화가 진행중입니다.",
+		
+		"World.Connection.LNL.DirectIP" : "LNL 다이렉트 IP",
+		"World.Connection.LNL.NATPunchthrough" : "LNL NAT 펀치 스루(punch-through) {n}",
+		"World.Connection.LNL.Relay" : "LNL 릴레이",
+		"World.Connection.SteamNetworkingSockets" : "스팀 네트워킹 소켓",
 
 		"World.Error.AccessDenied": "접근이 거부되었습니다.",
 		"World.Error.SecurityViolation": "보안 위반이 발생하였습니다.",
@@ -112,7 +117,8 @@
 		"World.Error.FailedUserID": "사용자 ID의 인증이 실패하였습니다.",
 		"World.Error.FailedFetchingAuthentication": "인증 정보를 불러올 수 없습니다.",
 		"World.Error.JoinAlreadyRequested": "이미 참여를 요청한 상태입니다.",
-		"World.Error.FailedConnectToRelay": "연결실패",
+		"World.Error.FailedConnectToRelay": "릴레이에 연결 실패",
+		"World.Error.FailedToConnect" : "연결 실패",
 		"World.Error.NoPort": "포트가 설정되지 않았습니다.",
 		"World.Error.IncompatibleVersion": "실행중인 클라이언트와 월드의 버전이 일치하지 않습니다.",
 		"World.Error.Unknown": "알 수 없는 오류가 발생하였습니다.",
