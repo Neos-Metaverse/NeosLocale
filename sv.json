@@ -14,6 +14,8 @@
         "General.FAILED" : "Misslyckades",
         "General.Reset" : "Återställ",
         "General.WorldOpenConfirm" : "Öppna värld?",
+        "General.Save" : "Spara",
+        "General.Saving" : "Sparar...",
         "General.Saved" : "Sparad!",
         "General.Done" : "Klar!",
         "General.CopiedToClipboard" : "Kopierad!",
@@ -22,8 +24,8 @@
         "General.UI.SearchPrompt" : "Sök...",
         "General.UI.SearchPromptLong" : "Skriv för att söka...",
 
-        "General.Sort.Ascending" : "Uppåtgående",
-        "General.Sort.Descending" : "Nedåtgående",
+        "General.Sort.Ascending" : "Stigande",
+        "General.Sort.Descending" : "Fallande",
         
         "Locomotion.Noclip.Name" : "Noclip",
         "Locomotion.Noclip.Description" : "Simpelt no-clip flygläge, idealt för redigering.",
@@ -34,20 +36,20 @@
         "Locomotion.WalkRun.Name" : "Gå/Spring",
         "Locomotion.WalkRun.Description" : "Fysiskt gående, springande och hoppande.",
         "Locomotion.WalkRunGripping.Name" : "Gå/Spring (med klättring)",
-        "Locomotion.WalkRunGripping.Description" : "Fysiskt gående, springande och hoppande och klättring.",
+        "Locomotion.WalkRunGripping.Description" : "Fysiskt gående, springande, hoppande och klättring.",
         "Locomotion.ZeroG.Name" : "Zero-G",
         "Locomotion.ZeroG.Description" : "Viktlös fysisk förflyttning",
         "Locomotion.GrabWorld.Name" : "Greppa Värld",
         "Locomotion.GrabWorld.Description" : "Skapar ett världsankare med referensen och flyttar användaren relativt till det.",
         "Locomotion.Slide.Name" : "Glid",
-        "Locomotion.Slide.Description" : "Simpelt glidförflyttningsläge som snäpper till yta om närvarande, flyger annars.",
+        "Locomotion.Slide.Description" : "Simpelt glidförflyttningsläge som snäpper till yta om den finns, flyger annars.",
 
         "Interaction.Destroy" : "Förstör",
         "Interaction.Duplicate" : "Duplicera",
         "Interaction.Undo" : "Ångra",
         "Interaction.Redo" : "Gör Om",
-        "Interaction.EquipTool" : "Montera",
-        "Interaction.DequipTool" : "Avmontera",
+        "Interaction.EquipTool" : "Utrusta",
+        "Interaction.DequipTool" : "Lossa",
         "Interaction.ScalingEnabled" : "Skalning På",
         "Interaction.ScalingDisabled" : "Skalning Av",
         "Interaction.ResetScale" : "Återställ Skala",
@@ -55,6 +57,9 @@
         "Interaction.LaserDisabled" : "Laser Av",
         "Interaction.Locomotion" : "Förflyttning",
         "Interaction.Locomotion.None" : "Ingen",
+
+        "Interaction.NamedEquipTool" : "Utrusta {name}",
+        "Interaction.NamedEquipTool.Default" : "Verktyg",
 
         "Dummy" : "Dummy"
     }
