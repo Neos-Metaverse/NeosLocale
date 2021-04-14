@@ -16,9 +16,9 @@
         "General.FAILED" : "失敗",
         "General.Reset" : "リセット",
         "General.WorldOpenConfirm" : "本当に開きますか?",
-        "General.Save" : "セーブ",
-        "General.Saving" : "セーブ中...",
-        "General.Saved" : "セーブ完了!",
+        "General.Save" : "保存",
+        "General.Saving" : "保存中...",
+        "General.Saved" : "保存完了!",
         "General.Done" : "完了!",
         "General.CopiedToClipboard" : "コピー完了!",
         "General.CopiedToClipboardLong" : "クリップボードにコピー完了!",
@@ -94,8 +94,8 @@
         "Dash.Actions.CloudHome" : "クラウドホーム",
 
         "Dash.Exit.Header" : "終了",
-        "Dash.Exit.ExitAndSave" : "ホームをセーブして終了",
-        "Dash.Exit.ExitAndDiscard" : "ホームをセーブせず終了",
+        "Dash.Exit.ExitAndSave" : "ホームを保存して終了",
+        "Dash.Exit.ExitAndDiscard" : "ホームを保存せず終了",
         "Dash.Exit.ThankYou" : "ご利用いただきありがとうございます!",
         "Dash.Exit.SubmittedBy" : "{name} さんの投稿",
 
@@ -112,6 +112,11 @@
         "World.Connection.Connected" : "接続完了",
         "World.Connection.SyncingInitialState" : "ワールドの初期状態を同期中",
 
+        "World.Connection.LNL.DirectIP" : "LNL Direct IP",
+        "World.Connection.LNL.NATPunchthrough" : "LNL NAT Punchthrough {n}",
+        "World.Connection.LNL.Relay" : "LNL Relay",
+        "World.Connection.SteamNetworkingSockets" : "Steam Networking Sockets",
+
         "World.Error.AccessDenied" : "アクセスが拒否されました",
         "World.Error.SecurityViolation" : "セキュリティ違反",
         "World.Error.OnlyRegisteredUsers" : "登録されたユーザーのみが入室できます",
@@ -125,6 +130,7 @@
         "World.Error.FailedFetchingAuthentication" : "認証情報を取得できませんでした",
         "World.Error.JoinAlreadyRequested" : "参加はすでにリクエストされています",
         "World.Error.FailedConnectToRelay" : "リレーに接続できませんでした",
+        "World.Error.FailedToConnect" : "接続の確立に失敗しました",
         "World.Error.NoPort" : "ポートが指定されていません",
         "World.Error.IncompatibleVersion" : "互換性のないNeosバージョンです",
         "World.Error.Unknown" : "Unknown Error",
@@ -358,7 +364,7 @@
         "Session.Permission.ClearOverrides" : "ユーザーオーバーライドを消去",
 
         "Permissions.NotAllowedToSpawn" : "ここでは物をスポーンすることは許可されていません。",
-        "Permissions.NotAllowedToSave" : "このワールドではアイテムのセーブは許可されていません。",
+        "Permissions.NotAllowedToSave" : "このワールドではアイテムの保存は許可されていません。",
         "Permissions.NotAllowedToSwapAvatar" : "ここではカスタムアバターの仕様は許可されていません。",
 
         "User.Actions.Silence" : "全体ミュート",
@@ -1230,7 +1236,7 @@
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "破棄と複製",
         "Tutorial.Intro.DestroyingDuplicatingVR" : "オブジェクトをグラブしながら、コンテキストメニューを開き<color=#77ff77><b>クリック</b></color>すると<b><color=#ffdd77>破棄か複製</color></b>をすることができます。",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "オブジェクトをグラブしながら、コンテキストメニューを開き<b><color=#ffdd77>破棄</color></b>か<color=#77ff77><b>複製</b></color>をクリックするか、グラブしたまま<color=#77ff77><b>Delete</b></color>キーか<br><color=#ffdd77><b>Insert</b></color>キーを押します。",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "オブジェクトをグラブしながら、コンテキストメニューを開き<b><color=#ffdd77>破棄</color></b>か<color=#77ff77><b>複製</b></color>をクリックするか、グラブしたまま<color=#ffdd77><b>Delete</b></color>キーか<br><color=#77ff77><b>Insert</b></color>キーを押します。",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "自分をスケールする",
         "Tutorial.Intro.ScalingYourselfVR" : "<color=#ffdd77><b>自分をスケールする</b></color>には、コンテキストメニューでスケーリングを有効にしてから、両手の<color=#77ff77><b>グリップボタン</b></color>を押しながら手を<color=#77ddff><b>近づけたり遠ざけたり</b></color>します。",
@@ -1247,11 +1253,11 @@
         "Tutorial.Intro.Dashboard_ButtonMenu" : "メニューボタン",
         "Tutorial.Intro.Dashboard_ButtonScreen" : "Escキー",
 
-        "Tutorial.Intro.InventoryVR" : "ダッシュメニューには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムを<color=#77ddff><b>グラブ</b></color>しながら右上の<sprite name=inv-add>を押します。",
-        "Tutorial.Intro.InventoryScreen" : "ダッシュメニューには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>セーブ</b></color>するには、アイテムをグラブしながらコンテキストメニューを開き、<color=#77ff77><b>インベントリーに保存</b></color>を押します。",
+        "Tutorial.Intro.InventoryVR" : "ダッシュメニューには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>保存</b></color>するには、アイテムを<color=#77ddff><b>グラブ</b></color>しながら右上の<sprite name=inv-add>を押します。",
+        "Tutorial.Intro.InventoryScreen" : "ダッシュメニューには<color=#ffdd77><b>インベントリー</b></color>があります。オブジェクトを<color=#77ddff><b>スポーン</b></color>するには、インベントリーでアイテムを<color=#77ff77><b>ダブルクリック</b></color>します。オブジェクトを<color=#77ddff><b>保存</b></color>するには、アイテムをグラブしながらコンテキストメニューを開き、<color=#77ff77><b>インベントリーに保存</b></color>を押します。",
 
-        "Tutorial.Intro.HomeScreenTitle" : "ホームスクリーン",
-        "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>ホームスクリーン</b></color>には、多くの機能を備えたfacetが含まれています。これらには、アバタークリエイター、全身キャリブレーター、カメラ、新しいワールドの作成などがあります。",
+        "Tutorial.Intro.HomeScreenTitle" : "ホーム",
+        "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>ホーム</b></color>には、多くの機能を備えたfacetが含まれています。これらには、アバタークリエイター、全身キャリブレーター、カメラ、新しいワールドの作成などがあります。",
         "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>フレンド</b></color>の一覧はダッシュメニューにあります。メッセージ、音声メッセージ、またはオブジェクトを右下のチャットボックスからフレンドに送信できます。左上隅にある検索バーでフレンドを追加できます。",
         "Tutorial.Intro.FilesDescription" : "ファイル、3Dモデル、画像、オーディオ、ビデオ、またはフォントを直接Neosに<color=#ffdd77><b>インポート</b></color>できます！ファイルをNeosウィンドウに<color=#77ddff><b>ドラッグアンドドロップ</b></color>するか、<color=#ffdd77><b>ファイルブラウザ</b></color>からファイルを検索します。",
         "Tutorial.Intro.SessionTitle" : "セッション設定",
@@ -1370,8 +1376,8 @@
         "Tutorial.Intro.BadgesDescription" : "バッジは、ユーザーの一面を示す小さなアイコンです。 いくつか重要なバッジがあります。 障害者バッジは、NeosBotを介して自己割り当てできます。",
         "Tutorial.Intro.HelpSite" : "ヘルプ",
 
-        "Exiting.SavingItems" : "{n, plural, other {# 個のアイテムを}} セーブ中...",
-        "Exiting.SavingChanges" : "変更をセーブ中...",
+        "Exiting.SavingItems" : "{n, plural, other {# 個のアイテムを}} 保存中...",
+        "Exiting.SavingChanges" : "変更を保存中...",
         "Exiting.Exiting" : "終了中...",
         "Exiting.LoggingOut" : "ログアウト中...",
 
