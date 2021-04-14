@@ -28,8 +28,8 @@
         "General.UI.SearchPrompt" : "Suchen...",
         "General.UI.SearchPromptLong" : "Tippen zum suchen...",
 
-        "General.Sort.Ascending" : "Aufsteigen",
-        "General.Sort.Descending" : "Absteigen",
+        "General.Sort.Ascending" : "Aufsteigend",
+        "General.Sort.Descending" : "Absteigend",
 
         "Locomotion.Noclip.Name" : "Noclip",
         "Locomotion.Noclip.Description" : "Einfacher Flug-Modus ohne Hindernisserkennung, ideal fürs Editieren.",
