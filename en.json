@@ -24,6 +24,9 @@
         "General.CopiedToClipboardLong" : "Copied to clipboard!",
         "General.Create" : "Create",
         "General.Creating" : "Creating...",
+        "General.Mirror" : "Mirror",
+        "General.Local" : "Local",
+        "General.Toggle" : "Toggle",
 
         "General.UI.SearchPrompt" : "Search...",
         "General.UI.SearchPromptLong" : "Type to search...",
@@ -1335,6 +1338,9 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Once you have an avatar, equip it by clicking<br>on it and choosing Equip Avatar.<br><br>Save your currently equipped avatar by clicking <sprite name=Download>  .<br><br>You can favorite your avatar by selecting it in your<br>inventory and clicking <sprite name=Favorite>  .",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "To import and setup a custom avatar, refer to<br>the Neos Avatar Creation tutorial.",
 
+        "Tutorial.Intro.PublicFolders.Title" : "Public Folders",
+        "Tutorial.Intro.PublicFolders.Description" : "Public Folders are an easy way for users in the Community to share and update their Creations like Avatars.<br><br>To save, grab the folder, then while holding press <sprite name=Add>  in your Inventory.<br><br>You can also save with your Context Menu.<br><br>Try it with <b>The Starter Pack</b>. A folder designed for new users.",
+        
         "Tutorial.AvatarCreator.Intro.Title" : "Neos Avatar Creation",
         "Tutorial.AvatarCreator.Intro.Description" : "Learn how to import your avatar and set it up!",
         "Tutorial.AvatarCreator.Options.Start" : "Start",
