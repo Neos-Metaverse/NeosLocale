@@ -191,7 +191,7 @@
         "World.Indicator.Author" : "作者: {name}",
         "World.Indicator.Host" : "ホスト: {name}",
         "World.Indicator.Hosting" : "ホスティング",
-        "World.Indicator.Sessions" : "セッション",
+        "World.Indicator.Sessions" : "{n} セッション",
         "World.Indicator.Users" : "ユーザー",
         "World.Indicator.Users.None" : "(アクティブなセッションはありません)",
         "World.Indicator.Description" : "説明",
