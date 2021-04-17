@@ -1,0 +1,95 @@
+Neos VR estas metaverso kreita por nekonataĵo! Ĝi estas unu el la plej multflankaj kaj riĉaj metaversoj por virtuala realaĵo, desegnita por ke ĉiuj trovu ion interesan aŭ utilan fari en socia medio.
+
+Ĝi funkcias kiel hazarda restadeja sperto kun plurmediaj kaj ludoj, kreinto, konstruanto kaj programisto-sandbox, profesia laborilo, eduka sperto kaj multe pli!
+
+Ni kredas, ke socia VR devas esti parto de ĉies vivo, negrave kion ili faras kaj ĝi devas plibonigi kiel ili komunikas kaj dividas siajn ideojn kaj vivojn kun aliaj. Ni konstruis Neos por doni al via menso superpotencojn.
+
+Venu aliĝi al nia diversa kaj kreiva komunumo kaj alportu vian propran unikecon al la komuna universo! Jen kelkaj el la ĉefaj trajtoj, kiujn ofertas Neos VR:
+
+[h2]Avatara sistemo de la arto[/h2]
+
+[list][*]Importi, krei kaj[b]agordi vian avataron tute en-ludon[/b]
+[*]Tute agordebla[b]kompleta korpo IK kun ĝis 11 spurpunktoj[/b] (kapo, manoj, koksoj, piedoj, brusto, kubutoj kaj genuoj)
+[*][b]Blendshape[/b]subteno kun aŭtomata agordado de videmo
+[*][b]Interagaj dinamikaj ostoj[/b]kun kolizioj kaj kaptado
+[*]Rapide[b] aldonu akcesoraĵojn[/b]aŭ modifu en-ludon - aldoni ĉapelon estas tiel simple kiel meti ĝin sur vian kapon
+[*][b]Vida skripto[/b]por aldoni unikajn agordojn kaj kondutojn[/list]
+
+[h2]Sociaj Trajtoj[/h2]
+
+[list][*][b]Virtuala fotilo[b]- kaptas fotojn, stereon, 360 aŭ eĉ objektojn, kun agordebla rezolucio
+[*]Facila amaskomunikila interŝanĝo -[b]kopiu kaj algluu filmetojn[b](inkluzive ligojn de YouTube), muzikon, bildojn kaj 3D-modelojn senprokraste en iun ajn mondon senpage. Ĉio estas plene sinkronigita
+[*][b]Amikosistemo[b]- vidu kiam viaj amikoj estas interrete kaj en kiuj mondoj ili estas
+[*]Mesaĝsistemo -[b]sendu mesaĝojn, invitojn kaj eĉ arbitrajn objektojn [b] en la ludo
+[*][b]Twitch-integriĝo[/b]por sekva nivela interagado kun spektantaro - babilado kun laŭmenda emote-subteno kaj vida skripta aliro por interagaj mondoj[/list]
+
+[h2]Altnivela lokomotiva sistemo[/h2]
+
+[list][*][b] Marŝado, glitado, nul-G[/b], sfera gravito kaj pli
+[*][b]Grimpado[/b] kaj ĉirkaŭa kaj aliaj ludantoj
+[*][b]Teletransportantoj, fortokampoj, risortoj, portaloj[/b]kaj laŭmendaj koordinataj spacoj
+[*]Rapida en-luda skalo -[b]ŝrumpu aŭ kresku al iu ajn skalo![/b]
+[*][b]Tre agordebla kaj skribebla[/b] - konstruu jetpakaĵojn, svingajn ŝnurojn, gravitajn liftojn kaj pli tute en-ludan[/list]
+
+[h2]Dinamika kaj unika sperto ĉiutage[/h2]
+
+[list][*][b]Stokregistra sistemo[/b]- konservu kaj generu ion ajn ie ajn! Vi ne estas limigita de tio, kion la kreinto de la mondo inkluzivis kun ĝi
+[*][b]Ĉio estas redaktebla![/b]Krom se la mondposedanto blokis aferojn, iu ajn mondo kaj ero povas esti modifitaj, remiksitaj kaj etenditaj
+[*]Multinstancado - vi povas esti konektita[b]en multaj mondoj samtempe[/b]kaj tuj ŝanĝi inter ili kiel langetoj en retumilo
+[*][b]Korektoj kaj redaktoj[/b]povas esti faritaj[b]ene de sekundoj/minutoj en la ludo[/b]- neniu kompleksa kaj tempopostula alŝuta procezo trairi[/list]
+
+[h2]Ludejo de Kreinto[/h2]
+
+[list][*][b]Konstruu ĉion kunlabore en reala tempo[/b] kun viaj amikoj sen depreni vian aŭdilon
+[*][b]Simplaj kreivaj iloj[/b] - penikoj, materialaj pafiloj, formaj iloj
+[*][b]Altnivelaj konstruiloj[/b] - inspektoro de sceno / komponanto, redaktado de aparatoj
+[*][b]Potenca vida skripta lingvo[/b](LogiX) kapabla facile aldoni kutimajn interagojn al laŭvorte io ajn, al konstruado de kompleksaj sistemoj, ludoj kaj simuladoj
+[*][b]Importu ludajn havaĵojn[/b]dum vi laboras - pli ol 40 3D-modelaj formatoj (inkluzive FBX, Blend, OBJ), teksturoj / bildoj, audio[/list]
+
+[h2]Potenca laborilo[/h2]
+
+[list][*][b]Tranĉu iun ajn importitan 3D-modelon[/b] por helpi videbligi
+[*][b]Volumetria datuma bildigo[/b](ekz. CT aŭ MRI) kun tranĉaĵoj kaj filtrado
+[*][b]Eksportu ĉion, kion vi kreis[/b]aŭ modifis kiel 3D-modelo, kaj faru Neos parto de via dukto
+[*][b]Baza en-luda tekstura & maŝa prilaborado[/b]por oftaj modifoj
+[*][b]Altnivela en-matĉa fotilo kun regpanelo[/b], ankroj permesas facile akiri bonajn pafojn por filmetoj aŭ vivaj fluoj[/list]
+
+[h2]Vi regas vian propran sperton[/h2]
+
+[list][*][b]Permesa sistemo[/b] por limigi tion, kion aliaj povas fari en viaj mondoj
+[*][b]Privataj kunsidoj[/b]- kun P2P-gastigado kaj sekura aŭtentikigo
+[*]Senpenaj memgastigitaj kunsidoj
+[*][b]Senkapa servilo[/b]por agordi kutimajn[b]dediĉitajn servilojn[/b](nuntempe en privata beta)[/list]
+
+[h2]Larĝa aparata subteno[/h2]
+
+[list][*][b]PCVR & Mobile VR[/b] kun krucludo
+[*]Subteno de Plena Indeksa Regilo kun[b]fingrospurado[/b]
+[*][b] Leap Motion-subteno[/b] kun korpaj avataroj
+[*][b] Subtena spura subteno[/b](Vive Pro Eye) - aspekto direkto, okulo fermo, pupilo dilatación
+[*][b] Subteno por spurado de lipoj[/b](modulo HTC Vive Facial Tracker) - spuri vian buŝon, vangojn kaj langon sur via avataro aŭ uzi la krudajn datumojn[/list]
+[*][b] Subteno pri reagoj de Haptics[/b](bHaptics, OWO Game Suit) kun interagoj de avataro al avataro same kiel mediaj interagoj[/list]
+
+[h2]Rapida Disvolviĝo[/h2]
+
+[list][*]La[b]plej rapide kreskanta socia VR-platformo[/b]
+[*][b]Novaj ĉefaj trajtoj ĉiumonate[/b]
+[*][b]Ĝisdatigoj kaj korektoj de cimoj (kutime) ĉiutage[/b]- multaj negravaj problemoj estas riparitaj ene de tago
+[*][b]Komunuma movado[/b]- viaj reagoj kaj subteno formas la disvolviĝon de ĉi tiu projekto![/list]
+
+Neos VR estas amo por ni kaj nia celo estas konstrui metaverson kiel ni imagas, ke ĝi devas esti, sen influoj de grandaj kompanioj. Ni estas tre malgranda kaj lerta teamo, sed ni alvenis ĝis nun danke al niaj mirindaj komunumo kaj Patreon-subtenantoj, kiuj daŭrigas ĉi tiun projekton.
+
+Se vi ĝuas tion, kion ni faras, bonvolu ĝui subteni la disvolviĝon. Jen kelkaj aferoj, al kiuj vi kontribuus:
+
+[h2]Kio venos estontece?[/h2]
+
+[list][*]UI/UX restrukturi
+[*]Plena rigida korpa fiziko
+[*]Terena sistemo
+[*]Timeline-kuraĝiga sistemo
+[*]Ekrankonduko
+[*]Altnivelaj optimumigoj
+[*]Novaj konstruaj iloj
+[*]Subteno de AR
+[*]Taŭga labortabla subteno
+[*]Kaj pli![/list]

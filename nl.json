@@ -1,6 +1,6 @@
 {
     "localeCode" : "nl",
-    "authors" : ["jeana", "Beaned", "alexderpyfox"],
+    "authors" : ["jeana", "Beaned", "alexderpyfox", "AnotherFoxGuy"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -20,6 +20,8 @@
         "General.Done" : "Klaar!",
         "General.CopiedToClipboard" : "Gekopieerd!",
         "General.CopiedToClipboardLong" : "Gekopieerd naar klembord!",
+        "General.Create" : "Creer",
+        "General.Creating" : "Creëren...",
 
         "General.UI.SearchPrompt" : "Zoeken...",
         "General.UI.SearchPromptLong" : "Hier typen...",
@@ -33,9 +35,9 @@
         "Locomotion.Teleport.Description" : "Maakt gebruik van een ballistisch traject Teleporteren, voor comfortabel voortbeveging.",
         "Locomotion.Fly.Name" : "Vliegen",
         "Locomotion.Fly.Description" : "Fysieke vliegmodus",
-        "Locomotion.WalkRun.Name" : "wandelen/Lopen",
+        "Locomotion.WalkRun.Name" : "Wandelen/Lopen",
         "Locomotion.WalkRun.Description" : "Fysiek wandelen, Lopen en springen.",
-        "Locomotion.WalkRunGripping.Name" : "wandelen/Lopen (met klimmen)",
+        "Locomotion.WalkRunGripping.Name" : "Wandelen/Lopen (met klimmen)",
         "Locomotion.WalkRunGripping.Description" : "Fysiek wandelen, Lopen en springen met ook klimmen.",
         "Locomotion.ZeroG.Name" : "Gewichtloos",
         "Locomotion.ZeroG.Description" : "Gewichtloze fysieke voortbeweging",
@@ -44,12 +46,12 @@
         "Locomotion.Slide.Name" : "Glijden",
         "Locomotion.Slide.Description" : "Simpele glij locomotie die aan opervlaktes hecht als die er zijn, anders vliegen.",
 
-        "Interaction.Destroy" : "Vernietigen",
+        "Interaction.Destroy" : "Verwijderen",
         "Interaction.Duplicate" : "Dupliceren",
         "Interaction.Undo" : "Ongedaan maken",
         "Interaction.Redo" : "Herdoen",
-        "Interaction.EquipTool" : "vastgrijpen",
-        "Interaction.DequipTool" : "loslaten",
+        "Interaction.EquipTool" : "Vastgrijpen",
+        "Interaction.DequipTool" : "Loslaten",
         "Interaction.ScalingEnabled" : "Schalen Aan",
         "Interaction.ScalingDisabled" : "Schalen Uit",
         "Interaction.ResetScale" : "Schaal resetten",
@@ -65,15 +67,17 @@
         "Interaction.ExitAnchor" : "Verlaat Anker",
 
         "Interaction.EquipAvatar" : "Equip Avatar",
-        
+
         "Interaction.SaveAsScreenshot" : "Sla op als screenshot",
         "Interaction.ImportFile" : "Importeer Bestand",
         "Interaction.ExportFile" : "Exporteer Bestand",
-        
+        "Interaction.CopyLink" : "Kopieer link",
+
         "Dash.Screens.Home" : "Thuis",
         "Dash.Screens.Worlds" : "Werelden",
         "Dash.Screens.Contacts" : "Contacten",
         "Dash.Screens.Inventory" : "Inventaris",
+        "Dash.Screens.Desktop" : "Bureaublad",
         "Dash.Screens.Session" : "Sessie",
         "Dash.Screens.FileBrowser" : "<nobr>Verkenner",
         "Dash.Screens.Settings" : "Instellingen",
@@ -96,10 +100,10 @@
         "World.HostIsStarting" : "Host begint sessie",
         "World.Loading" : "Bezig met laden...",
         "World.LoadingFailed" : "Mislukt",
-        "World.LoadedAssets" : "{assets} Geladen van {total_assets}",
+        "World.LoadedAssets" : "{assets} geladen van {total_assets}",
         "World.Downloading" : "{bytes} Gedownload van {total_bytes}",
 
-        "World.Connection.EstablishingConnection" : "vestigen van verbinding",
+        "World.Connection.EstablishingConnection" : "Verbinding tot stand brengen",
         "World.Connection.RequestingJoin" : "Toegang Verzoekend",
         "World.Connection.Authenticating" : "Authenticatie",
         "World.Connection.Connected" : "Verbonden",
@@ -109,13 +113,14 @@
         "World.Error.SecurityViolation" : "Veiligheidsovertreding",
         "World.Error.OnlyRegisteredUsers" : "Alleen geregistreerde gebruikers krijgen toegang",
         "World.Error.OnlyContacts" : "Alleen contacten van de host krijgen toegang",
+        "World.Error.OnlyContactsOfContacts" : "Alleen contacten van gebruikers in de sessie mogen deelnemen",
         "World.Error.Private" : "Deze sessie is privé",
         "World.Error.SessionEnded" : "Sessie is beëindigd",
-        "World.Error.UserLimitReached" : "sessie heeft de gebruikerslimiet bereikt",
+        "World.Error.UserLimitReached" : "Sessie heeft de gebruikerslimiet bereikt",
         "World.Error.FailedAuthentication" : "Authenticatie mislukt",
         "World.Error.FailedUserID" : "Kan gebruikers-ID niet verifiëren",
         "World.Error.FailedFetchingAuthentication" : "Verificatiegegevens kunnen niet worden opgehaald",
-        "World.Error.JoinAlreadyRequested" : "toegang is al aangevraagd",
+        "World.Error.JoinAlreadyRequested" : "Toegang is al aangevraagd",
         "World.Error.FailedConnectToRelay" : "Kan geen verbinding maken met Relay",
         "World.Error.NoPort" : "Geen poort gespecificeerd",
         "World.Error.IncompatibleVersion" : "Incompatibele Neos-versie",
@@ -129,7 +134,7 @@
         "World.Config.EditMode" : "Bewerkingsmodus:",
         "World.Config.AccessLevelHeader" : "Wie kan deelnemen aan deze wereld?",
         "World.Config.AutoKickAFK" : "Auto Kick AFK gebruikers:",
-        "World.Config.AutoKickAFKMinutes" : "maximum Minuten voor AFK:",
+        "World.Config.AutoKickAFKMinutes" : "Maximum Minuten voor AFK:",
         "World.Config.HideFromListing" : "Niet weergeven in sessielijst",
         "World.Config.Autosave" : "Automatisch opslaan (overschrijven):",
         "World.Config.AutosaveInterval" : "Enkele minuten automatisch opslaan:",
@@ -148,7 +153,7 @@
         "World.Actions.SaveToInventory" : "Opslaan in inventaris",
         "World.Actions.Saving" : "Opslaan...",
         "World.Actions.Discard" : "Negeer wijzigingen",
-        "World.Actions.Clone" : "kopieer wereld",
+        "World.Actions.Clone" : "Kopieer wereld",
         "World.Actions.Delete" : "Wereld verwijderen",
         "World.Actions.ConfirmDelete" : "Verwijderen bevestigen",
         "World.Actions.ReallyConfirmDelete" : "PERMANENT VERWIJDEREN",
@@ -217,7 +222,8 @@
 
         "World.AccessLevel.Anyone" : "Iedereen",
         "World.AccessLevel.RegisteredUsers" : "Geregistreerde gebruikers",
-        "World.AccessLevel.Friends" : "vrienden",
+        "World.AccessLevel.Friends" : "Vrienden",
+        "World.AccessLevel.FriendsOfFriends" : "Contacten+",
         "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "Privé (alleen op uitnodiging)",
 
@@ -250,7 +256,7 @@
         "World.Filter.MaxAccessLevel" : "Maximaal toegangsniveau:",
         "World.Filter.MinimumUptime" : "Minimale uptime:",
         "World.Filter.Sorting" : "Sorteer:",
-        
+
         "World.Edit.Title" : "Bewerk wereld Metadata",
         "World.Edit.Name" : "Wereld Naam:",
         "World.Edit.Description" : "Omschrijving:",
@@ -268,13 +274,25 @@
         "Tools.DepositNCR" : "Stort NCR",
         "Tools.WithdrawNCR" : "NCR Opnemen",
         "Tools.Debug" : "Debug",
+        "Tools.StreamAudio" : "Stream Audio",
+
+        "Tools.StreamAudio.Start" : "Begin met streamen",
+        "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "{username} Audio Stream",
+
+
+        "Tools.StreamAudio.PlayForOwner.Off" : "Afspelen voor eigenaar: Uit",
+        "Tools.StreamAudio.PlayForOwner.On" : "Afspelen voor eigenaar: Aan",
 
         "Options.FreeformDash.On" : "Freeform Dash: Aan",
         "Options.FreeformDash.Off" : "Freeform Dash: Uit",
         "Options.SeatedMode.On" : "Zittende modus: Aan",
         "Options.SeatedMode.Off" : "Zittende modus: Uit",
+        "Options.Nameplates.All" : "Naamplaten: Alle",
+        "Options.Nameplates.NonContacts" : "Naamplaten: niet-contacten",
+        "Options.Nameplates.Hide" : "Naamplaten: Verborgen",
 
-        "Indicator.OnlineUsers" : "Online Gebruikers: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "Online Gebruikers: {num_registered} (~{num_total})",
         "Indicator.ServerStatus" : "<color=#fff>Server Status:</color> {status, select, Good {Goed} Slow {Traag} Down {Down} NoInternet {Geen Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Alles gesynchroniseerd",
@@ -318,7 +336,7 @@
         "Account.ErrorEmailMismatch" : "Emails komen niet overeen!",
         "Account.ErrorLoginError" : "Login fout:",
         "Account.RegistrationSuccess" : "<size=120%>Succes!</size><br><br>Er is een e-mail verzonden naar {email} met een verificatielink.<br><br>Zodra u deze link opent, loggen we je automatisch in zolang dit bercht open is.<br><br>Als je in de problemen loopt email ons dan naar hello@neos.com of bericht ons op de officiele discord, discord.gg/neosvr",
-        
+
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Weg",
         "Profile.Status.Busy" : "Niet Storen",
@@ -335,6 +353,10 @@
         "Session.Permission.Host" : "Standaard Host:",
         "Session.Permission.PermissionOverrideCount" : "Rechten Overschrijven: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Wis Gebruikersoverschrijvingen",
+
+        "Permissions.NotAllowedToSpawn" : "Je mag hier geen dingen spawnen.",
+        "Permissions.NotAllowedToSave" : "Je mag in deze wereld geen voorwerpen opslaan.",
+        "Permissions.NotAllowedToSwapAvatar" : "Je mag hier niet wisselen naar een aangepaste avatar.",
 
         "User.Actions.Silence" : "Silence",
         "User.Actions.Mute" : "Dempen",
@@ -358,9 +380,10 @@
 
         "Contacts.InSession" : "In {name}",
         "Contacts.InPrivate" : "In privéwereld",
-        "Contacts.InFriendsOnly" : "In Alleen Contacten Wereld",
+        "Contacts.InFriendsOnly" : "In Alleen-Contacten Wereld",
         "Contacts.InHidden" : "In Verborgen wereld",
         "Contacts.InHiddenFriendsOnly" : "In Verborgen, Alleen Contacten Wereld",
+        "Contacts.InHiddenFriendsOfFriends" : "In Verborgen, Contacten+ Wereld",
         "Contacts.InLAN" : "In LAN Wereld",
         "Contacts.UsingDifferentVersion" : "Gebruikt Versie {version}",
         "Contacts.RequestSent" : "Verzoek verzonden",
@@ -368,6 +391,7 @@
         "Contacts.RequestIgnored" : "Genegeerd",
         "Contacts.Blocked" : "Geblokkeerd",
         "Contacts.SearchResult" : "Zoekresultaat",
+        "Contacts.Bot" : "Bot-account",
 
         "Notifications.IsOnline" : "Is nu online",
         "Notifications.IsOnlineOnDifferentVersion" : "Is nu online <size=75%>(Met versie: {version})</size>",
@@ -378,15 +402,15 @@
         "Notifications.TransferedCredits" : "{amount} {token} Overgedragen",
         "Notifications.ReceivedTip" : "Fooi Ontvangen {amount} {token}",
         "Notifications.SentTip" : "Verzonden Fooi {amount} {token}",
-        "Notifications.VoiceMessage" : "Stembericht Verstuurd ",
+        "Notifications.VoiceMessage" : "Stembericht Verstuurd",
 
         "Undo.SetField" : "Veld instellen {field_name} naar {value}",
         "Undo.SetReference" : "Referentie instellen {ref_name} naar {ref_target}",
         "Undo.Spawn" : "Spawn {name}",
-        "Undo.Destroy" : "Vernietig {name}",
+        "Undo.Destroy" : "Verwijder {name}",
         "Undo.SpawnComponent" : "Maak {component_type} vast aan {slot_name}",
         "Undo.DuplicateComponent" : "Dupliceer Component",
-        "Undo.DestroyComponent" : "Vernietig {component_type} op {slot_name}",
+        "Undo.DestroyComponent" : "Verwijder {component_type} op {slot_name}",
         "Undo.Transform" : "{name} Verplaatst",
         "Undo.Translate" : "Overplaatsen",
         "Undo.TranslateAlongAxis" : "Vertaal langs de as",
@@ -396,7 +420,7 @@
         "Undo.ResetScale" : "Reset Schaal",
 
         "Undo.GrabObjects" : "Grijp objecten",
-        "Undo.DestroyGrabbed" : "Vernietig gegrepen objecten",
+        "Undo.DestroyGrabbed" : "Verwijder gegrepen objecten",
         "Undo.DuplicateGrabbed" : "Verdubbel gegrepen objecten",
 
         "Undo.ChangeBoxSize" : "Verander de grootte van de Box",
@@ -417,7 +441,7 @@
         "Tooltips.Dev.DevMode.On" : "Ontwikkelaarsmodus: Aan",
         "Tooltips.Dev.OpenInspector" : "Open Inspector",
         "Tooltips.Dev.DeselectAll" : "Deselecteer alles",
-        "Tooltips.Dev.DestroySelected" : "Vernietig geselecteerde",
+        "Tooltips.Dev.DestroySelected" : "Verwijder geselecteerde",
 
         "Tooltip.Logix.NodeBrowser" : "Node Browser",
         "Tooltip.Logix.UnpackChildren" : "Pak Childeren en verbonden nodes uit",
@@ -440,8 +464,8 @@
         "Tooltip.Light.Sun" : "Zon",
 
         "Tooltip.MeshVisibility.KeepShadow" : "Behoud schaduw",
-        "Tooltip.MeshVisibility.ShadowOff" : "zet schaduwen uit",
-        "Tooltip.MeshVisibility.ShadowOn" : "zet schaduwen Aan",
+        "Tooltip.MeshVisibility.ShadowOff" : "Zet schaduwen Uit",
+        "Tooltip.MeshVisibility.ShadowOn" : "Zet schaduwen Aan",
         "Tooltip.MeshVisibility.OnlyShadow" : "Stel in op alleen schaduwen",
         "Tooltip.MeshVisibility.DoubleSidedShadow" : "Stel in op dubbelzijdige schaduw",
 
@@ -458,7 +482,7 @@
         "Tooltip.Material.CreateNew" : "Maak nieuw",
 
         "Tooltip.Mesh.Edit" : "Bewerk Mesh",
-        
+
         "Tooltip.Microphone.Format.WAV" : "WAV",
         "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC" : "FLAC",
@@ -474,6 +498,7 @@
         "CreateNew.Object" : "Object",
         "CreateNew.Object.AvatarCreator" : "Avatar Creator",
         "CreateNew.Object.Camera" : "Camera",
+        "CreateNew.Object.ReflectionProbe" : "Reflectie Probe",
         "CreateNew.Object.Mirror" : "Spiegel",
         "CreateNew.Object.Portal" : "Portaal",
         "CreateNew.Object.VideoPlayer" : "Video Speler",
@@ -497,6 +522,8 @@
         "CreateNew.Editor.LightSourcesWizard" : "Wereldlichtbronnen Wizard",
         "CreateNew.Editor.AssetOptimizationWizard" : "Asset Optimalisatie Wizard",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX Overdracht Wizard",
+        "CreateNew.Editor.CubemapCreator" : "Cubemap Creator",
+        "CreateNew.Editor.ReflectionProbes" : "Reflectie Probe Wizard",
 
         "CreateNew.3DModel" : "3D Model",
         "CreateNew.3DModel.Box" : "Box",
@@ -539,14 +566,14 @@
         "AvatarCreator.TryAlignHands" : "Probeer Handen uit te lijnen",
         "AvatarCreator.AlignToolAnchors" : "Lijn de gereedschapsankers uit",
         "AvatarCreator.Create" : "Creëer",
-        
+
         "Importer.General.AsRawFile" : "Onbewerkt Bestand",
 
         "Importer.Folder.Title" : "Map Importer",
         "Importer.Folder.Individual" : "Individuele import",
         "Importer.Folder.Individual.Description" : "Creëert een apart importdialoogvenster voor elk ondersteund bestand in de map",
         "Importer.Folder.Batch" : "Batch importeren",
-        "Importer.Folder.Batch.Description" : "Maak een enkele importer voor elk type, met dezelfde instellingen voor elk bestand",
+        "Importer.Folder.Batch.Description" : "Creëert een enkele importer voor elk type, met dezelfde instellingen voor elk bestand",
 
         "Importer.Image.Title" : "Afbeelding Importer",
         "Importer.Image.Prompt" : "Wat importeert u?",
@@ -590,6 +617,7 @@
         "Importer.Model.Advanced.MaxTexSize" : "Max Textuurgrootte",
         "Importer.Model.Advanced.ImageFormat" : "Afbeelding Formaat: ",
         "Importer.Model.Advanced.Material" : "Materiaal: ",
+        "Importer.Model.Advanced.PreferSpecular" : "Geef de voorkeur aan Speculair",
         "Importer.Model.Advanced.AlignAxis" : "Lijn as uit: ",
 
         "Importer.Model.Advanced.Normals" : "Bereken Normals",
@@ -642,7 +670,7 @@
         "Credits.NCR.Description" : "Ethereum token met echte wereldwaarde",
         "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "Neos' sandbox token met geen echte waarde.",
-        "Credits.AmountPrompt" : "{action,select, send {Hoeveel wil je sturen?} withdraw {Hoeveel wil je terugtrekken?} tip {Hoeveel fooi wil je geven?}}",
+        "Credits.AmountPrompt" : "{action,select, send {Hoeveel wil je sturen?} withdraw {Hoeveel wil je opnemen?} tip {Hoeveel fooi wil je geven?}}",
         "Credits.Amount" : "Bedrag: ",
         "Credits.Balance" : "Saldo: ",
         "Credits.WithdrawalAddress" : "Herroepingsadres: ",
@@ -702,13 +730,13 @@
         "FullBody.ShowReferenceOverlay" : "Toon referentie-overlay",
         "FullBody.ResetAvatarPrompt" : "Avatar verminkt of volgt niet fatsoenlijk?",
         "FullBody.ResetAvatar" : "Mapping Resetten",
-        "FullBody.AvatarHeightCompensationInstructions" : "Als de avatar te lang is (uiteindes ineengedoken) of te kort voor u, past u hier de hoogtecompensatie aan zodat deze beter bij uw lengte past.",
+        "FullBody.AvatarHeightCompensationInstructions" : "Als de avatar te lang is (eindigt ineengedoken) of te kort voor u, past u hier de hoogtecompensatie aan zodat deze beter bij uw lengte past.",
         "FullBody.AvatarHeightCompensation" : "Avatar Lengtecompensatie: {n, number, percent}",
         "FullBody.ResetAvatarHeightCompensation" : "Hoogte Compensatie Resetten",
         "FullBody.AvatarSaveWarning" : "Vergeet niet uw avatar op te slaan nadat u deze hebt gekalibreerd!",
         "FullBody.FinishAvatarCalibration" : "Voltooi de kalibratie van de avatar",
-        "FullBody.CalibrationFinishedInstructions" : "Als u tevreden bent met de kalibratie, kunt u uw avatar nu opslaan en .",
-        "FullBody.CloseCalibrator" : "Close Calibrator",
+        "FullBody.CalibrationFinishedInstructions" : "Als u tevreden bent met de kalibratie, kunt u uw avatar nu opslaan en afsluiten.",
+        "FullBody.CloseCalibrator" : "Calibrator Sluiten",
         "FullBody.CalibrationRedoInstructions" : "Als de kalibratie niet goed is of als u meer avatars wilt kalibreren, kunt u meer aanpassingen maken. U kunt deze kalibrator ook op elk gewenst moment in de toekomst opnieuw openen om aanpassingen door te voeren. \nAls je alleen je trackers hebt gewijzigd, hoef je je avatars niet opnieuw te kalibreren.",
         "FullBody.ReturnToTrackerCalibration" : "Keer terug naar trackerkalibratie",
 
@@ -716,15 +744,15 @@
         "FullBody.Feet" : "Voeten",
         "FullBody.Chest" : "Borstkas",
         "FullBody.Elbows" : "Ellebogen",
-        "FullBody.Knees" : "knieën",
+        "FullBody.Knees" : "Knieën",
 
         "FullBody.TrackerMapped" : "Tracker In Kaart Gebracht",
         "FullBody.NotTracking" : "Niet Aan Het Tracken...",
         "FullBody.NoTracker" : "Geen Tracker Toegewezen",
         "FullBody.FeetNotTracking" : "Voeten Niet Aan Het Tracken...",
 
-        "FullBody.AvatarPointMapped" : "In Kaart Gebracht",
-        "FullBody.AvatarPointNotMapped" : "Niet In Kaart Gebracht",
+        "FullBody.AvatarPointMapped" : "Toegewezen",
+        "FullBody.AvatarPointNotMapped" : "Niet toegewezen",
         "FullBody.AvatarPointNoTracker" : "Geen Tracker",
 
         "CameraControl.Title" : "Camera Bediening",
@@ -750,6 +778,7 @@
         "CameraControl.Settings.ShowFrustum" : "Laat Frustum Zien",
         "CameraControl.Settings.PhotoTimer" : "Foto Timer",
         "CameraControl.Settings.ShowLiveBadge" : "Laat Live Badge Zien",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Audio vanuit het camera standpunt",
 
         "CameraControl.OpenCloseUsers" : "Gebruikers",
         "CameraControl.CreateCameraAnchor" : "Maak Camera Anker",
@@ -778,7 +807,6 @@
         "CameraControl.Control.AngleSmoothSpeed" : "Hoek Smooth Snelheid: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Framing Smooth Snelheid: {n}",
 
-
         "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBS Passwoord (optioneel):",
         "CameraControl.OBS.Connect" : "Verbind",
@@ -799,7 +827,7 @@
         "CameraControl.OBS.AutoMirror" : "Auto Spiegelen bij Opnemen/Streamen",
         "CameraControl.OBS.Bitrate" : "Bitrate: {n}/s",
         "CameraControl.OBS.FPS" : "FPS: {n}",
-        "CameraControl.OBS.DroppedFrames" : "Verlaagde frames: {n}",
+        "CameraControl.OBS.DroppedFrames" : "Verloren frames: {n}",
         "CameraCOntrol.OBS.Live" : "LIVE",
         "CameraCOntrol.OBS.Recording" : "REC",
 
@@ -831,6 +859,7 @@
         "Settings.SpeedExponent" : "SnelheidsExponent",
         "Settings.MoveThreshold" : "Beweging Dode zone",
         "Settings.ControllerVibration" : "Controller Vibraties",
+        "Settings.Haptics" : "Haptiek Feedback",
         "Settings.DisablePhysicalInteractions" : "Schakel Fysieke Interacties Uit",
         "Settings.EnableGestures" : "Schakel gebaren in",
         "Settings.DoubleClickInterval" : "DubbelKlikInterval",
@@ -839,6 +868,8 @@
         "Settings.LegacyGripEquip" : "Schakel Legacy Double Grip Equip in",
         "Settings.LegacyWorldSwitcher" : "Schakel Legacy Wereld Switcher in",
         "Settings.FetchIncompatibleSessions" : "Incompatibele sessies weergeven",
+        "Settings.MaxConcurrentAssetTransfers" : "Max. gelijktijdige asset overdrachten",
+        "Settings.AutosaveScreenshotPath" : "Pad voor het automatisch opslaan van screenshots",
 
         "Settings.LaserSmoothing.Header" : "Laser Smoothing",
         "Settings.LaserSmoothing.Speed" : "Smooth Snelheid",
@@ -853,18 +884,19 @@
         "Settings.Audio.SoundEffects" : "Geluidseffecten: {n,number,percent}",
         "Settings.Audio.Multimedia" : "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice" : "Stem: {n,number,percent}",
-        "Settings.Audio.UI" : "gebruikersOmgeving: {n,number,percent}",
+        "Settings.Audio.UI" : "GebruikersOmgeving: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization" : "Schakel Stemnormalisatie Uit",
         "Settings.Audio.NoiseGateThreshold" : "Noise Gate Drempel: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalisatiedrempel: {n}",
+        "Settings.Audio.NoiseSupression" : "Ruisonderdrukkingsfilter (RNNoise)",
         "Settings.Audio.InputDevice" : "Audio-invoerapparaat:",
         "Settings.Audio.SelectInputDevice" : "Selecteer Audio Invoer Apparaat",
         "Settings.Audio.TestInput" : "Test je Audio Invoer:",
         "Settings.Audio.TestDescription" : "We spelen het geluid van het geselecteerde audioapparaat naar u terug, zodat u kunt controleren of het correct is.",
-        "Settings.Audio.StartTest" : "Check Microfoon",
+        "Settings.Audio.StartTest" : "Luister naar het apparaat\n<size=50%>(controleer microfoon / audio in)</size>",
         "Settings.Audio.StopTest" : "Stoppen met Testen",
-        "Settings.Audio.Monitoring" : "Microfoon Controleren:",
-        
+        "Settings.Audio.Monitoring" : "Audio-ingang Controleren:",
+
         "Settings.Locale.ChangeLanguage" : "Taal Veranderen",
         "Settings.Locale.SelectLanguageHeader" : "Selecteer je Taal:",
 
@@ -887,18 +919,18 @@
         "Settings.LeapMotion.ForwardOffset" : "Forwaardse Compensatie",
         "Settings.LeapMotion.SnapDistance" : "Controller Hand Snap Afstand",
         "Settings.LeapMotion.UseFingersWhenSnapped" : "Vingers Gebruiken Wanneer Gesnapt",
-        
+
         "Settings.ViveHandTracking.Name" : "Vive Vinger Tracking",
         "Settings.ViveHandTracking.Enabled" : "Vive Hand Tracking Ingeschakeld",
         "Settings.ViveHandTracking.SnapDistance" : "Vive Hand Tracking Snap Afstand",
         "Settings.ViveHandTracking.UseFingersWhenSnapped" : "Vive Vingers Gebruiken Wanneer Gesnapt",
-        
+
         "Settings.WindowsIntegration" : "Windows Integratie",
         "Settings.LinuxIntegration" : "Linux Integratie",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Behoud Orginele Screenshot Formaat",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Wanneer Ingeschakeld, worden screenshots niet geconverteerd naar JPG wanneer het word opgeslagen in de Documenten Folder",
-        
+
         "Security.Hyperlink.Warning" : "<b><size=125%>Waarschuwing: Uitgaande hyperlink</size></b>\nJe hebt op een link in een wereld geklikt. Wilt u deze openen? Dit wordt geopend in uw desktopwebbrowser.",
         "Security.Hyperlink.Open" : "Open",
         "Security.Hyperlink.Cancel" : "Annuleer",
@@ -910,8 +942,8 @@
         "Security.HostAccess.NoReason" : "<i>Geen reden opgegeven</i>",
         "Security.HostAccess.Allow" : "Toestaan",
         "Security.HostAccess.Deny" : "Weigeren",
-        
-          "Inspector.Mesh.StatsHeader" : "Mesh Statistieken",
+
+        "Inspector.Mesh.StatsHeader" : "Mesh Statistieken",
         "Inspector.Mesh.VertexCount" : "Vertex Hoeveelheid: {n}",
         "Inspector.Mesh.TriangleCount" : "Triangle Hoeveelheid: {n}",
         "Inspector.Mesh.PointCount" : "Punten Hoeveelheid: {n}",
@@ -921,13 +953,13 @@
         "Inspector.Mesh.ChannelStats" : "Normals: {normals}, Tangents: {tangents}, kleuren: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "Bak Mesh",
-        "Inspector.Mesh.ResaveMesh" : "Mesh Heropslaan",
+        "Inspector.Mesh.ResaveMesh" : "Mesh opnieuw opslaan",
         "Inspector.Mesh.RecalculateNormals" : "Hercalculeer Normals",
-        "Inspector.Mesh.RecalculateNormalsSmooth" : "Hercalculeer Normals (smooth shading)",
-        "Inspector.Mesh.RecalculateTangentsMikkt" : "Hercalculeer Tangents (Mikktspace)",
-        "Inspector.Mesh.RecalculateTangentsSimple" : "Hercalculeer Tangents (simpel)",
-        "Inspector.Mesh.FlipNormals" : "Keer Normals om",
-        "Inspector.Mesh.ReverseWinding" : "Omgekeerde Winding",
+        "Inspector.Mesh.RecalculateNormalsSmooth" : "Normals opnieuw berekenen (smooth shading)",
+        "Inspector.Mesh.RecalculateTangentsMikkt" : "Tangents opnieuw berekenen (Mikktspace)",
+        "Inspector.Mesh.RecalculateTangentsSimple" : "Tangents opnieuw berekenen (simpel)",
+        "Inspector.Mesh.FlipNormals" : "Normals Omkeren",
+        "Inspector.Mesh.ReverseWinding" : "Vertex volgorde omkeren",
         "Inspector.Mesh.MakeDualSided" : "Maak dubbelzijdig",
         "Inspector.Mesh.ConvertToFlatShading" : "Converteer naar vlakke Shading",
         "Inspector.Mesh.ConvertToConvexHull" : "Converteer naar Convex Hull",
@@ -945,7 +977,10 @@
         "Inspector.Mesh.ScaleUVs" : "Schaal UVs",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Voeg submeshes samem die het zeldfe materiaal hebben",
-        "Inspector.MeshRenderer.SplitByMaterial" : "verdeel in losse meshes gebaseerd op materiaal",
+        "Inspector.MeshRenderer.SplitByMaterial" : "Splits in losse meshes gebaseerd op materiaal",
+
+        "Inspector.ReflectionProbe.Bake" : "Bak reflecties",
+        "Inspector.ReflectionProbe.Baking" : "Aan het bakken...",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Verdeel delen van de mesh die onaangetast zijn door blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Strip Lege Blendshapes",
@@ -966,8 +1001,9 @@
         "Inspector.BipedRig.LeftHandRigResult" : "Klaar! Detected left: {detected}",
         "Inspector.BipedRig.RightHandRigResult" : "Klaar! Detected right: {detected}",
 
-        "Inspector.Texture.Size" : "formaat: {width} x {height}",
+        "Inspector.Texture.Size" : "Formaat: {width} x {height}",
         "Inspector.Texture.Format" : "Formaat: {format}, Memory: <nobr>{memory}</nobr>",
+        "Inspector.Texture.Variant" : "VariantID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Keer RGB om",
         "Inspector.Texture.InvertR" : "Keer R om",
@@ -985,6 +1021,10 @@
         "Inspector.Texture.SwapGB" : "Verwissel G en B",
         "Inspector.Texture.Hue" : "Tint:",
         "Inspector.Texture.ShiftHue" : "Verschuif tint",
+        "Inspector.Texture.Saturation" : "Saturatie:",
+        "Inspector.Texture.AdjustSaturation" : "Saturatie aanpassen",
+        "Inspector.Texture.Value" : "Waarde:",
+        "Inspector.Texture.AdjustValue" : "Waarde aanpassen",
         "Inspector.Texture.Gamma" : "Gamma:",
         "Inspector.Texture.AdjustGamma" : "Pas gamma aan",
         "Inspector.Texture.LongestSide" : "Langste zijde:",
@@ -999,6 +1039,9 @@
 
         "Inspector.Texture.InvalidFloats" : "Diagnose: ongeldige floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnose: Genereer Bitmap Metadata",
+
+        "Inspector.Material.VariantInfo" : "Variant: {variantID} (Raw: {rawVariantID})",
+        "Inspector.Material.WaitingForApply" : "Wachten op toepassing: {waiting}",
 
         "Inspector.Audio.BakeAudio" : "Bak Geluids Clip",
         "Inspector.Audio.FormatInfo" : "Voorbeeldssnelheid: {rate} Hz, Kanalen: {channels} ({channel_count})",
@@ -1019,7 +1062,14 @@
         "Inspector.Audio.ToWAV" : "Converteer naar WAV",
         "Inspector.Audio.ToVorbis" : "Converteer naar OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Converteer naar FLAC",
-        
+        "Inspector.Audio.DenoiseRNNoise" : "Ruisonderdrukking (RNNoise, geoptimaliseerd voor spraak op 48 kHz)",
+        "Inspector.Audio.ExtractSides" : "Extract Zijkanten (kan vocalen op stereosporen verwijderen)",
+
+        "Inspector.AudioStream.BufferState" : "Beschikbare samples: {samples}, gemist: {gemist}, lengte: {length}, globale index: {index}",
+        "Inspector.AudioStream.EncodeState" : "Beschikbaar voor encoding: {samples}, framegrootte: {frame} (max: {max_frame}), samplefrequentie: {rate}",
+        "Inspector.AudioStream.DecodeState" : "Totaal pakketten: {total}, Totaal verloren pakketten: {lost}, Pakketverlies: {loss, number, percent}",
+        "Inspector.AudioStream.BufferStats" : "Gem. Codec: {avgCodec}/s, Gem. gelezen: {avgRead}/s, Gem geschreven: {avgWritten}/s",
+
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Stel op van Children",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Stel op van Children (forceer alle)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Stel op van Children (alleen rig)",
@@ -1028,7 +1078,11 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Colliders & Grijpen -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Voeg vaste colliders toe van de hierarchy (gebruikt object root)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Grijp altijd het laatste bot",
-        
+
+        "Inspector.Rig.CleanupBoneColliders" : "Bone colliders opruimen",
+        "Inspector.Rig.GenerateDebugVisuals" : "Genereer debug visuals",
+        "Inspector.Rig.ClearDebugVisuals" : "Verwijder debug visuals",
+
         "Wizard.General.ProcessRoot" : "Process Root:",
         "Wizard.General.Result" : "Resultaat:",
         "Wizard.General.ErrorNoRoot" : "Geen Root Geselecteerd",
@@ -1046,6 +1100,51 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Hercalculeer Alle Normals (samengevoegd)",
         "Wizard.AssetOptimization.RecalculateAllTangents" : "Hercalculeer Alle Raaklijnen (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Gewijzigd Formaat {n}",
+
+        "Wizard.LightSources.Title" : "Lichtbronnen Wizard",
+        "Wizard.LightSources.Header" : "Scene Lichtbronnen",
+        "Wizard.LightSources.ProcessRoot" : "Procesbasis:",
+        "Wizard.LightSources.PointLights" : "Puntlichten:",
+        "Wizard.LightSources.SpotLights" : "Spotlichten:",
+        "Wizard.LightSources.DirectionalLights" : "Directionele lichten:",
+        "Wizard.LightSources.DisabledLights" : "Uitgeschakelde lichten:",
+        "Wizard.LightSources.WithTag" : "Met label:",
+        "Wizard.LightSources.SetShadowType" : "Stel schaduwtype in",
+        "Wizard.LightSources.ChangeIntensity" : "Intensiteit wijzigen",
+        "Wizard.LightSources.ChangeRange" : "Bereik wijzigen",
+        "Wizard.LightSources.Enable" : "Inschakelen",
+        "Wizard.LightSources.Disable" : "Uitschakelen",
+        "Wizard.LightSources.Destroy" : "Verwijderen",
+
+        "Wizard.CubemapCreator.Title" : "Cubemap Creator",
+        "Wizard.CubemapCreator.Textures" : "Bron Textures:",
+        "Wizard.CubemapCreator.TexturesNote" : "Let op! sommige conventies hebben links en rechts verwisseld. Als de cubemap resultaat incorrect is, Probeer dan links en rechts te verwsselen.",
+        "Wizard.CubemapCreator.PosX" : "Positief X (right)",
+        "Wizard.CubemapCreator.NegX" : "Negatief X (left)",
+        "Wizard.CubemapCreator.PosY" : "Positief Y (top)",
+        "Wizard.CubemapCreator.NegY" : "Negatief Y (bottom)",
+        "Wizard.CubemapCreator.PosZ" : "Positief Z (front)",
+        "Wizard.CubemapCreator.NegZ" : "Negatief Z (back)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Boven/Beneden Draaien:",
+
+        "Wizard.ReflectionProbes.Title" : "Reflectie Probe Wizard",
+        "Wizard.ReflectionProbes.ProcessRoot" : "Procesbasis:",
+        "Wizard.ReflectionProbes.ProcessDisabled" : "Proces gestopt",
+        "Wizard.ReflectionProbes.WithTag" : "Met label:",
+        "Wizard.ReflectionProbes.TeleportUserToProbe" : "Teleporteer me naar elke probe",
+        "Wizard.ReflectionProbes.DelayBetweenProbes" : "Vertraging tussen probes",
+        "Wizard.ReflectionProbes.ShowDebugVisuals" : "Debug-visuals weergeven",
+        "Wizard.ReflectionProbes.HideDebugVisuals" : "Debug-visuals verbergen",
+        "Wizard.ReflectionProbes.BakeProbes" : "Bak probes",
+        "Wizard.ReflectionProbes.Baking" : "Bakken {index} van {count}...",
+
+        "Desktop.OpenKeyboard" : "Open Toetsenbord",
+        "Desktop.FollowCursor.On" : "Volg Cursor: Aan",
+        "Desktop.FollowCursor.Off" : "Volg Cursor: Uit",
+        "Desktop.LegacyInputMode.On" : "Legacy-invoer: Aan",
+        "Desktop.LegacyInputMode.Off" : "Legacy-invoer: Uit",
+        "Desktop.Brightness" : "Helderheid: {n,number,percent}",
+        "Desktop.Opacity" : "Ondoorzichtigheid: {n,number,percent}",
 
         "Tutorial.Welcome.WelcomeTo" : "Welkom Bij",
         "Tutorial.Welcome.LetsStart" : "Laten We Beginnen!",
@@ -1074,7 +1173,7 @@
         "Tutorial.Welcome.SettingsPrimaryRight" : "Rechts",
         "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Links:</b> Strafe, <b>Rechts:</b> Draaien",
         "Tutorial.Welcome.SettingsHeight" : "Je Hoogte",
-        "Tutorial.Welcome.SettingsHeightExamples" : "Voorbeelden: 1.85 m, 185 cm, 6\" 1', 6 feet 1 inch",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Voorbeelden: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader" : "Begin Tutorial",
         "Tutorial.Welcome.StartTutorialDescription" : "We brengen je naar een eenvoudige tutorialwereld om je op weg te helpen met Neos. je kan ervoor kiezen om de tutorial wereld openbaar te maken, zodat de Neos-community je kan joinen zodat ze je kunnen helpen, of zodat je zelf kan leren.",
@@ -1083,6 +1182,64 @@
         "Tutorial.Welcome.PrivateTutorialHeader" : "Zeker weten als privewereld starten?",
         "Tutorial.Welcome.PrivateTutorialDescription" : "Community Leden kunnen je helpen om makkelijker en sneller aan de slag te gaan, wil je zeker alleen beginnen?",
         "Tutorial.Welcome.PrivateTutorialConfirm" : "Start Prive",
+
+        "Tutorial.Intro.WelcomeTitle" : "Welkom bij Neos",
+        "Tutorial.Intro.WelcomeDescription" : "Uw gids om de metaverse te ervaren.",
+
+        "Tutorial.Intro.GrabbingTitle" : "Grijpen",
+        "Tutorial.Intro.GrabbingVR" : "Pick up objects by <color=#ffdd77><b>Grabbing</b></color> with the <color=#77ff77><b>Grip button</b></color>.<br>Grab at a distance using your laser.",
+        "Tutorial.Intro.GrabbingScreen" : "Pak objecten op door te <color=#ffdd77><b>Grijpen</b></color> met de <color=#77ff77><b>rechtermuisknop</b></color>.",
+
+        "Tutorial.Intro.ScalingTitle" : "Schalen",
+        "Tutorial.Intro.ScalingVR" : "Om een object te <color=#ffdd77><b>Schalen</b></color>, pakt u het met beide handen vast en beweegt ze<color=#77ddff><b>dichter of verder</b></color> uit elkaar - dit kan ook met uw lasers.",
+        "Tutorial.Intro.ScalingScreen" : "Om een object te <color=#ffdd77><b>Schalen</b></color>, pakt u het met de <color=#77ff77><b>rechtermuisknop</b></color> en <color=#77ddff><b>scrolt</b></color> u met uw <color=#77ff77><b>scrollwiel</b></color>.",
+
+        "Tutorial.Intro.ContextMenuTitle" : "Contextmenu",
+        "Tutorial.Intro.ContextMenuDescription" : "Uw <color=#ffdd77><b>Contextmenu</b></color> biedt snelle acties.<br>Open of sluit het met <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B of Y",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "Menuknop",
+        "Tutorial.Intro.ContextMenu_Screen" : "R",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Verwijderen en dupliceren",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Terwijl u een object vasthoudt, kunt u het <b><color=#ffdd77>Verwijderen of dupliceren</color></b> door op de actie in het contextmenu te <color=#77ff77><b>klikken</b></color>.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Terwijl je een object vasthoudt, <b><color=#ffdd77>Verwijder</color></b> het door op <color=#77ff77><b>Delete</b></color> te drukken. <color=#ffdd77><b>Dupliceer</b></color> het door op de <color=#77ff77><b>F-toets</b></color> te drukken.",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "Jezelf Schalen",
+        "Tutorial.Intro.ScalingYourselfVR" : "Om uzelf te <color=#ffdd77><b>Schalen</b></color>, schakelt u schalen in uw contextmenu in, houdt u beide <color=#77ff77><b>handgreepknoppen</b></color> ingedrukt en beweegt u uw handen <color=#77ddff><b>dichterbij of verder</b></color> uit elkaar.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Om jezelf te <color=#ffdd77><b>Schalen</b></color>, houd <color=#77ff77><b>Ctrl</b></color> ingedrukt en <color=#77ddff><b>scrol</b></color> met je <color=#77ff77><b>scrollwiel</b></color>.",
+
+        "Tutorial.Intro.LocomotionTitle" : "Voortbeweging",
+        "Tutorial.Intro.LocomotionDescription" : "Neos bevat veel verschillende bewegingsmethoden.<br>Deze voortbewegingsopties zijn beschikbaar in uw <color=#ffdd77>Contextmenu</color>.",
+
+        "Tutorial.Intro.DashboardTitle" : "Neos Dashboard",
+        "Tutorial.Intro.DashboardDescription" : "Het <color=#ffdd77><b>Dashboard</b></color> is uw hoofdmenu.<br>Je opent en sluit hem met de <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "Het <color=#ffdd77><b>Dashboard</b></color> is uw hoofdmenu.<br>Je opent en sluit hem door de <color=#77ff77><b>{button}</b></color> ingedrukt te houden tot de cirkel vol is en <color=#77ddff><b>laat hem dan los</b></color>.",
+        "Tutorial.Intro.Dashboard_ButtonA" : "A",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A of X",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "Menuknop",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Ctrl + spatiebalk",
+
+        "Tutorial.Intro.InventoryVR" : "Uw <color=#ffdd77><b>Inventaris</b></color> bevindt zich op uw dashboard.<br><color=#77ff77><b>Dubbelklik</b></color> op het item in je inventaris om een object te <br>To <color=#77ddff><b>Spawnen</b></color>.<br>Om een object <color=#77ddff><b>op te slaan</b></color>, <color=#77ddff><b>houdt</b></color> u het item vast en drukt u op <sprite name=inv-add> in de rechterbovenhoek.",
+        "Tutorial.Intro.InventoryScreen" : "Uw <color=#ffdd77><b>Inventaris</b></color> bevindt zich op uw Neos Dashboard.<br> <color=#77ff77><b>Dubbelklik</b></color> op het item in je inventaris om een object te <color=#77ddff><b>spawnen</b></color>.<br> Om een object <color=#77ddff><b>op te slaan</b></color>, houdt u het item ingedrukt en drukt u op <color=#77ddff><b>Ctrl + S</b></color>.",
+
+        "Tutorial.Intro.HomeScreenTitle" : "Uw startscherm",
+        "Tutorial.Intro.HomeScreenDescription" : "Uw <color=#ffdd77><b>startscherm</b></color> bevat een lijst met handige functies.<br> Deze bevatten onder andere de Avatar Creator, Full body Calibrator, Camera/streaming en het Creëren van een nieuwe wereld.",
+        "Tutorial.Intro.ContactsDescription" : "Uw <color=#ffdd77><b>Contacten</b></color> bevinden zich op het Dashboard. <br> Stuur berichten, spraakberichten of objecten naar contacten met de chatbox rechtsonder. <br> Voeg contacten toe met de zoekbalk, te vinden in de linkerbovenhoek.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Importeer</b></color> bestanden, 3D-modellen, afbeeldingen, audio, video's of lettertypen rechtstreeks in Neos!<br><color=#77ddff><b>Sleep</b></color> bestanden naar het Neos-venster of zoek ze met de <color=#ffdd77><b>bestandsbrowser</b></color>.",
+        "Tutorial.Intro.SessionTitle" : "Sessie-instellingen",
+        "Tutorial.Intro.SessionDescription" : "Sessie-instellingen, machtigingsniveaus en instellingen die te maken hebben met andere gebruikers in de wereld, zijn te vinden in het paneel <color=#ffdd77><b>Sessie</b></color>.",
+        "Tutorial.Intro.SettingsDescription" : "Hoogte, volume, comfortinstellingen, taalkeuze en meer kunnen worden aangepast op het tabblad <color=#ffdd77><b>Instellingen</b> </color>.",
+        "Tutorial.Intro.WorldsTitle" : "Werelden Menu",
+        "Tutorial.Intro.WorldsDescription" : "Verken de metaverse met behulp van het menu <color=#ffdd77><b>Werelden</b></color>. <br> Als je hier klaar bent, neem dan deel aan een actieve sessie om de community te ontmoeten!",
+
+        "Tutorial.Intro.OutroTop" : "Verdere tutorials zijn over de hele wereld beschikbaar. <br><br> Veel succes en geniet van de metaverse!",
+        "Tutorial.Intro.Website" : "Website",
+        "Tutorial.Intro.OutroEnd" : "Word lid van onze Patreon om het project te ondersteunen. <br> <br> Word lid van de Discord voor statusupdates, netwerken of technische ondersteuning.",
+
+        "Tutorial.MTC.Avatars" : "Avatars & Sociaal",
+        "Tutorial.MTC.Creation" : "Creatie & Utility",
+        "Tutorial.MTC.RecordingStreaming" : "Opnemen & Streamen",
 
         "Tutorial.Grab.MoveRotate" : "Verplaats/Draai vastgehoude items",
         "Tutorial.Grab.Scale" : "Grijp met andere controller om te schalen",
@@ -1097,7 +1254,7 @@
         "Tutorial.Tooltip.GeneralPrimary" : "Gebruik",
         "Tutorial.Tooltip.GeneralSecondary" : "Tweede actie",
         "Tutorial.Tooltip.ContextMenu" : "Toegang tot tool menu en dequip optie",
-        "Tutorial.Tooltip.DevPrimary" : "Interact met  gizmos (houden)",
+        "Tutorial.Tooltip.DevPrimary" : "Interact met gizmos (houden)",
         "Tutorial.Tooltip.DevSecondary" : "Select (Laat gizmos zien)",
         "Tutorial.Tooltip.Duplicator" : "Verdubbel (terwijl je een item vast houd)",
         "Tutorial.Tooltip.GluePrimary" : "Lijm aanbregnen (houden)",
@@ -1109,8 +1266,8 @@
         "Tutorial.Tooltip.MaterialSecondary" : "Extract Material\n<size=75%>(check of er geen materiaal orb aanwezig is in de tool)</size>",
         "Tutorial.Tooltip.MeshPrimary" : "Vervang Mesh",
         "Tutorial.Tooltip.MeshSecondary" : "Trek Mesh uit",
-        "Tutorial.Tooltip.CharacterColliderPrimary" : "voeg Character Collider toe",
-        "Tutorial.Tooltip.CharacterColliderSecondary" : "verwijder Character Collider",
+        "Tutorial.Tooltip.CharacterColliderPrimary" : "Voeg Character Collider toe",
+        "Tutorial.Tooltip.CharacterColliderSecondary" : "Verwijder Character Collider",
         "Tutorial.Tooltip.GrabbableSetterPrimary" : "Maak Grijpbaar",
         "Tutorial.Tooltip.GrabbableSetterSecondary" : "Maak Niet-grijpbaar",
         "Tutorial.Tooltip.LightPrimary" : "Creer licht (houd)",
@@ -1119,7 +1276,7 @@
         "Tutorial.Tooltip.MeshVisibilitySecondary" : "Maak Ontzichtbaar",
         "Tutorial.Tooltip.ShapePrimary" : "Creer Vorm",
         "Tutorial.Tooltip.ShapeSecondary" : "Verander Vorm",
-        "Tutorial.Tooltip.WigglerPrimary" : "laat ongesproken kwaadaardigeheden los op de wereld",
+        "Tutorial.Tooltip.WigglerPrimary" : "Laat ongesproken kwaadaardigeheden los op de wereld",
         "Tutorial.Tooltip.WigglerSecondary" : "Red je ziel een beetje",
 
         "Exiting.SavingItems" : "Opslaan Van {n, plural, one {# item} other {# items}}...",

@@ -2,28 +2,28 @@
 This repository contains the locale assets for the core UI of Neos VR (www.neos.com) and allow anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (https://store.steampowered.com/app/740250/Neos_VR/) and other platforms.
 
 # Localization Status
-Czech [cs] - 101.0% - Missing keys: -10  
-German [de] - 95.8% - Missing keys: 44  
-English (United Kingdom) [en-gb] - 1.7% - Missing keys: 1020  
+Czech [cs] - 100.0% - Missing keys: 0  
+German [de] - 100.0% - Missing keys: 0  
+English (United Kingdom) [en-gb] - 2.6% - Missing keys: 1183  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 100.0% - Missing keys: 0  
-Spanish [es] - 89.1% - Missing keys: 113  
-Estonian [et] - 81.9% - Missing keys: 188  
-Finnish [fi] - 39.1% - Missing keys: 632  
-French [fr] - 81.9% - Missing keys: 188  
-Icelandic [is] - 34.0% - Missing keys: 685  
+Esperanto [eo] - 94.3% - Missing keys: 69  
+Spanish [es] - 99.6% - Missing keys: 5  
+Estonian [et] - 85.0% - Missing keys: 182  
+Finnish [fi] - 39.5% - Missing keys: 735  
+French [fr] - 94.0% - Missing keys: 73  
+Icelandic [is] - 35.6% - Missing keys: 783  
 Japanese [ja] - 100.0% - Missing keys: 0  
-Korean [ko] - 101.0% - Missing keys: -10  
-Dutch [nl] - 95.5% - Missing keys: 47  
-Norwegian [no] - 79.9% - Missing keys: 209  
-Polish [pl] - 94.1% - Missing keys: 61  
+Korean [ko] - 100.0% - Missing keys: 0  
+Dutch [nl] - 92.6% - Missing keys: 90  
+Norwegian [no] - 67.4% - Missing keys: 396  
+Polish [pl] - 90.0% - Missing keys: 121  
 Russian [ru] - 100.0% - Missing keys: 0  
-Swedish [sv] - 4.7% - Missing keys: 989  
-Turkish [tr] - 94.3% - Missing keys: 59  
-Chinese (China) [zh-cn] - 100.0% - Missing keys: 0  
-Chinese (Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
+Swedish [sv] - 5.9% - Missing keys: 1143  
+Turkish [tr] - 79.4% - Missing keys: 250  
+Chinese (China) [zh-cn] - 94.3% - Missing keys: 69  
+Chinese (Taiwan) [zh-tw] - 94.3% - Missing keys: 69  
 
-Total keys: 1038
+Total keys: 1215
 
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
@@ -38,13 +38,19 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
 - DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
 - DON'T convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
+- DON'T correct mistakes in the string keys, only report them. They will be fixed by a script, which will apply the correction to all locales at once.
+
+# Translating the Store descriptions
+If you're like, you can help translate the store descriptions as well (this is used on Steam for example), but we consider those highly optional since it's quite a lot of text. If you don't want to translate those, don't worry about them! The store descriptions do not count towards the translation completeness percerntage and are provided in separate files.
+
+If you do translate them and you haven't added a credit yet, put your name in the regular .json file for translations of in-game strings, even if you haven't translated any in-game strings.
 
 # If you're contributing a new language
-1) Create a new Issue (https://github.com/Frooxius/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
+1) Create a new Issue (https://github.com/Neos-Metaverse/NeosLocale/issues) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
 
-2) Verify that Neos' fork of ICU MessageFormat.NET has pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/Frooxius/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
+2) Verify that Neos' fork of ICU MessageFormat.NET has pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/Neos-Metaverse/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
 
-If you can't find your language code in this file, please make a Issue either on the official Neos issue tracker (https://github.com/Frooxius/NeosPublic/issues) or in this repository.
+If you can't find your language code in this file, please make a Issue either on the official Neos issue tracker (https://github.com/Neos-Metaverse/NeosPublic/issues) or in this repository.
 
 Alternatively you can implement the pluralizer yourself based on the reference from the Unicode CLDR repository: https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml and make a pull request for it to be merged with our fork or MessageFormat.NET
 
@@ -113,6 +119,23 @@ Currently there are a few known parts that cannot be translated, but are planned
 - Component names and categories (component names will still show original for technical reasons, but will show optional translation for non-English languages)
 - LogiX node names and categories (same as above)
 - Component fields (those will only show optional translated names on hover once tooltip system is implemented)
+
+# If you use an external tool to do the translation and the JSON structure is mangled
+You can use the python script in this repository: CleanJSON.py
+
+For example to clean the french json, `./CleanJSON.py --en en.json --lang fr.json --out fr.json.cleaned`
+
+```usage: CleanJSON.py [-h] [--en en_path] [--lang lang_path] [--out out_path]
+
+This script will reformat a Babel style JSON for locales to match the en.json
+baseline formating for git changes purposes.
+
+optional arguments:
+  -h, --help        show this help message and exit
+  --en en_path      The path to the en.json Neos locale.
+  --lang lang_path  The path to the LANG.json Neos locale to clean.
+  --out out_path    The path to save the formated file.
+```
 
 # Any questions?
 If you have questions or are unsure about something, you can create an Issue on this repository or reach out to our team on the official Discord: https://discord.gg/neosvr
