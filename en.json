@@ -24,9 +24,6 @@
         "General.CopiedToClipboardLong" : "Copied to clipboard!",
         "General.Create" : "Create",
         "General.Creating" : "Creating...",
-        "General.Mirror" : "Mirror",
-        "General.Local" : "Local",
-        "General.Toggle" : "Toggle",
 
         "General.UI.SearchPrompt" : "Search...",
         "General.UI.SearchPromptLong" : "Type to search...",
@@ -1340,7 +1337,7 @@
 
         "Tutorial.Intro.PublicFolders.Title" : "Public Folders",
         "Tutorial.Intro.PublicFolders.Description" : "Public Folders are an easy way for users in the Community to share and update their Creations like Avatars.<br><br>To save, grab the folder, then while holding press <sprite name=Add>  in your Inventory.<br><br>You can also save with your Context Menu.<br><br>Try it with <b>The Starter Pack</b>. A folder designed for new users.",
-        
+
         "Tutorial.AvatarCreator.Intro.Title" : "Neos Avatar Creation",
         "Tutorial.AvatarCreator.Intro.Description" : "Learn how to import your avatar and set it up!",
         "Tutorial.AvatarCreator.Options.Start" : "Start",
@@ -1363,7 +1360,7 @@
         "Tutorial.UserResources.UserResourcesTitle" : "User Resources",
         "Tutorial.UserResources.SupportTitle" : "How to support Neos",
         "Tutorial.UserResources.MerchandiseTitle" : "Neos Merch",
-        
+
         "Tutorial.Intro.BadgesNeosTeam" : "Neos Team",
         "Tutorial.Intro.BadgesModerator" : "Moderator",
         "Tutorial.Intro.BadgesMentor" : "Mentor",
@@ -1372,8 +1369,10 @@
         "Tutorial.Intro.BadgesDisabilitySpeech" : "Speech Impaired",
         "Tutorial.Intro.BadgesTitle" : "Badges",
         "Tutorial.Intro.BadgesDescription" : "Badges are small icons which show aspects of a user. Here are a few important badges to remember. The disability badges can be self assigned though the NeosBot.",
-        "Tutorial.Intro.HelpSite" : "Help",
-       
+        "Tutorial.Intro.HelpSite" : "Help
+
+        "Object.Mirror.Toggle" : "Local Toggle",
+
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
         "Exiting.Exiting" : "Exiting...",
