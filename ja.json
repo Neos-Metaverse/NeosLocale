@@ -942,13 +942,13 @@
         "Settings.LeapMotion.HorizontalOffset" : "水平オフセット",
         "Settings.LeapMotion.VerticalOffset" : "垂直オフセット",
         "Settings.LeapMotion.ForwardOffset" : "前方オフセット",
-        "Settings.LeapMotion.SnapDistance" : "コントローラーハンドスナップ距離",
+        "Settings.LeapMotion.SnapDistance" : "手のスナップ距離",
         "Settings.LeapMotion.UseFingersWhenSnapped" : "スナップしたときに指を使う",
 
         "Settings.ViveHandTracking.Name" : "Viveフィンガートラッキング",
         "Settings.ViveHandTracking.Enabled" : "Viveハンドトラッキングを有効化",
-        "Settings.ViveHandTracking.SnapDistance" : "Viveハンドトラッキングスナップ距離",
-        "Settings.ViveHandTracking.UseFingersWhenSnapped" : "スナップしたときにバイブフィンガーを使用する",
+        "Settings.ViveHandTracking.SnapDistance" : "手のスナップ距離",
+        "Settings.ViveHandTracking.UseFingersWhenSnapped" : "スナップしたときにViveフィンガーを使う",
 
         "Settings.WindowsIntegration" : "Windows Integration",
         "Settings.LinuxIntegration" : "Linux Integration",
@@ -1286,7 +1286,7 @@
 
         "Tutorial.Tooltip.GeneralPrimary" : "使用",
         "Tutorial.Tooltip.GeneralSecondary" : "セカンダリーアクション",
-        "Tutorial.Tooltip.ContextMenu" : "ツールメニューへのアクセスとオプションの装備解除を行えます",
+        "Tutorial.Tooltip.ContextMenu" : "ツールメニューへのアクセスと装備解除を行えます",
         "Tutorial.Tooltip.DevPrimary" : "（長押し）ギズモにインタラクト",
         "Tutorial.Tooltip.DevSecondary" : "（ギズモを表示）選択",
         "Tutorial.Tooltip.Duplicator" : "（アイテムをグラブしながら）複製",
