@@ -4,6 +4,8 @@
     "messages" : 
     {
         "General.OK" : "Bone",
+        "General.Start" : "Komenci",
+        "General.Finish" : "Fini",
         "General.Cancel" : "Nuligi",
         "General.Continue" : "Daŭrigi",
         "General.Next" : "Sekva",
@@ -48,6 +50,7 @@
 
         "Interaction.Destroy": "Detrui",
         "Interaction.Duplicate": "Multobligo",
+        "Interaction.SaveToInventory" : "Konservi En Inventaro",
         "Interaction.Undo": "Malfari",
         "Interaction.Redo": "Refari",
         "Interaction.EquipTool": "Ekipi",
@@ -61,12 +64,12 @@
         "Interaction.Locomotion.None": "Neniu",
 
         "Interaction.NamedEquipTool" : "Ekipi {name}",
-        "Interaction.NamedEquipTool.Default" : "Ilo",
+        "Interaction.NamedEquipTool.Default" : "Ilon",
 
         "Interaction.EnterAnchor" : "Eniri Ankron",
         "Interaction.ExitAnchor" : "Eliri Ankron",
 
-        "Interaction.EquipAvatar" : "Ekipi Avataron",
+        "Interaction.EquipAvatar" : "Porti Avataron",
 
         "Interaction.SaveAsScreenshot" : "Konservi kiel ekrankopion",
         "Interaction.ImportFile" : "Importi dosieron",
@@ -122,10 +125,11 @@
         "World.Error.FailedFetchingAuthentication": "Malsukcesis preni aŭtentikajn informojn",
         "World.Error.JoinAlreadyRequested": "Aliĝo jam estis petita",
         "World.Error.FailedConnectToRelay": "Malsukcesis konekti al relajso",
+        "World.Error.FailedToConnect" : "Malsukcesis la konekto",
         "World.Error.NoPort": "Neniu Haveno Specifita",
         "World.Error.IncompatibleVersion": "Nekongrua Neos-Versio",
         "World.Error.Unknown": "Nekonata Eraro",
-        
+
         "World.Config.Name": "Monda Nomo:",
         "World.Config.Description": "Priskribo:",
         "World.Config.MaxUsers": "Maksimumaj uzantoj:",
@@ -168,7 +172,7 @@
         "World.Actions.CannotClose": "(ne povas fermi ĉi tiun mondon)",
         "World.Actions.GuestWarning": "",
         "World.Actions.HostingWarning": "Vi gastigas ĉi tiun mondon. Ĉiuj uzantoj estos malkonektitaj.",
-      
+
         "World.Actions.GetWorldOrb": "Akiru Mondan Okulkavon",
         "World.Actions.CopyWorldURL": "Kopii URL de Mondo",
         "World.Actions.CopyRecordURL": "Kopii Rekordan URL",
@@ -549,7 +553,7 @@
         "CreateNew.Light.Spot": "Makulo",
         "CreateNew.Light.Directional": "Unudirekta",
 
-        "CreateNew.Materials": "Materialoj",        
+        "CreateNew.Materials": "Materialoj",
 
         "AvatarCreator.Title": "Kreanto de Avataro",
         "AvatarCreator.Instructions": "Vicigu avatarajn objektojn kun la aŭdilaj kaj regilaj referencoj (laŭvola) kaj premu Krei por konverti ilin al avataro",
@@ -568,7 +572,7 @@
         "AvatarCreator.TryAlignHands": "Provu Vicigi Manojn",
         "AvatarCreator.AlignToolAnchors": "Vicigi Ilajn Ankrojn",
         "AvatarCreator.Create": "Krei",
-        
+
         "Importer.General.AsRawFile" : "Kruda Dosiero",
 
         "Importer.Folder.Title": "Dosierujo.",
@@ -576,7 +580,7 @@
         "Importer.Folder.Individual.Description": "Kreas apartan importan dialogon por ĉiu subtenata dosiero en la dosierujo",
         "Importer.Folder.Batch": "Borsa importado",
         "Importer.Folder.Batch.Description": "Kreis unu importiston por ĉiu tipo, uzante samajn agordojn por ĉiu dosiero",
-        
+
         "Importer.Image.Title": "Bildimportisto",
         "Importer.Image.Prompt": "Kion vi importas?",
         "Importer.Image.Regular": "Bildo / Teksturo",
@@ -803,6 +807,8 @@
         "CameraControl.Control.AnyoneCanInteract": "Ĉiu Povas Interagi",
         "CameraControl.Control.RenderPreviewForEveryone": "Redonu Antaŭrigardon Por Ĉiuj",
         "CameraControl.Control.RenderPrivateUI": "Redonu Privatan UI",
+        "CameraControl.Control.MotionBlur" : "Mov-malklarigo",
+        "CameraControl.Control.ScreenSpaceReflections" : "Reflektoj en Ekran-spaco (SSR)",
         "CameraControl.Control.SpawnPhotoInWorld": "Fari foton en la mondo",
         "CameraControl.Control.FlipPreview": "Renversi antaŭrigardon",
         "CameraControl.Control.GroupDetectionRadius": "Grupo-detekta radiuso: {n} m",
@@ -897,6 +903,7 @@
         "Settings.Audio.NoiseGateThreshold": "Brua Pordega Sojlo: {n}",
         "Settings.Audio.NormzliationThreshold": "Normaliga Sojlo: {n}",
         "Settings.Audio.NoiseSupression" : "Filtrilo pri Subpremado de Bruo (RNNoise)",
+        "Settings.Audio.WhisperVoiceVolume" : "Flustro-laŭteco (ekster la bobelo): {n,number,percent}",
         "Settings.Audio.InputDevice": "Aŭd-Eniga Aparato:",
         "Settings.Audio.OutputDevice" : "Aŭd-Eliga Aparato:",
         "Settings.Audio.SelectInputDevice" : "Elektu Aŭd-Eniga Aparato",
@@ -940,7 +947,7 @@
 
         "Settings.WindowsIntegration" : "Windows-Integriĝo",
         "Settings.LinuxIntegration" : "Linux Integriĝo",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Konservu originalan ekranfoton",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Se ebligita, ekrankopioj ne konvertiĝos al JPG se konservitaj en la dosierujo Dokumentoj",
 
@@ -1158,7 +1165,7 @@
         "Wizard.ReflectionProbes.HideDebugVisuals": "Kaŝi Elpurigajn Bildojn",
         "Wizard.ReflectionProbes.BakeProbes": "Baki Sondojn",
         "Wizard.ReflectionProbes.Baking": "Bakado {index} de {count} ...",
-        
+
         "Desktop.OpenKeyboard" : "Malfermi Klavaron",
         "Desktop.FollowCursor.On" : "Sekvu Kursoron: On",
         "Desktop.FollowCursor.Off" : "Sekvu Kursoron: Off",
@@ -1180,7 +1187,7 @@
         "Tutorial.Welcome.AccountSkipHeader" : "Ĉu preterlasi krei konton?",
         "Tutorial.Welcome.AccountSkipDescription" : "Iuj funkcioj kiel konservi artikolojn por stokado, favorante avataron pri aldono de kontaktoj ne estos alireblaj.",
         "Tutorial.Welcome.AccountSkipConfirm" : "Vere saltu",
-        
+
         "Tutorial.Welcome.SettingsHeader" : "Bazaj Preferoj",
         "Tutorial.Welcome.SettingsDescription" : "Vi povas agordi bazajn movajn kaj uzulajn preferojn. Ĉiuj ĉi povas esti ŝanĝitaj poste.",
         "Tutorial.Welcome.SettingsTurning" : "Turn-stilo",
@@ -1207,7 +1214,7 @@
         "Tutorial.Intro.WelcomeTitle": "Bonvenon al Neos!",
         "Tutorial.Intro.WelcomeDescription": "Via gvidilo por sperti la metaverson.",
 
-        "Tutorial.Intro.GrabbingTitle": "Grabbing",
+        "Tutorial.Intro.GrabbingTitle": "Prenado",
         "Tutorial.Intro.GrabbingVR": "Elektu objektojn per <color=#ffdd77><b>Grabbing</b></color> per la <color=#77ff77><b>Grip-butono</b></color>. <br>Ekprenu malproksime per via lasero. ",
         "Tutorial.Intro.GrabbingScreen": "<color=#ffdd77><b>Prenu</b></color> objektojn per la <color=#77ff77><b>Dekstra musbutono</b></color>. ",
 
@@ -1256,7 +1263,7 @@
 
         "Tutorial.Intro.OutroTop": "Pliaj lerniloj haveblas tra ĉi tiu mondo. <br> <br> Bonŝancon kaj ĝuu la metaverson!",
         "Tutorial.Intro.Website": "Retejo",
-        "Tutorial.Intro.OutroEnd": "Por subteni la projekton, aliĝu al nia Patreon. <br><br> Aliĝu al la Malakordo por statusaj ĝisdatigoj, retoj aŭ teknika subteno.",
+        "Tutorial.Intro.OutroEnd": "Por subteni la projekton, aliĝu al nia Patreon. <br><br> Aliĝu al Discord por stat-ĝisdatigoj, kontaktretumado aŭ teknika subteno.",
 
         "Tutorial.MTC.Avatars": "Avataroj",
         "Tutorial.MTC.Creation": "Kreo",
@@ -1299,12 +1306,76 @@
         "Tutorial.Tooltip.ShapeSecondary": "Ŝanĝi Formon",
         "Tutorial.Tooltip.WigglerPrimary": "Ellasu Nesprimitajn Malbonojn Sur La Mondon",
         "Tutorial.Tooltip.WigglerSecondary": "Elaĉetu vian animon iomete",
-        
+
+        "Tutorial.BotDesigner.Start" : "Komenci",
+        "Tutorial.BotDesigner.WearAvatar" : "Porti Avataron",
+        "Tutorial.BotDesigner.Intro.Title" : "Dezajnilo de Neos-roboto",
+        "Tutorial.BotDesigner.Intro.Description" : "Dezajnu vian propran Neos-roboton!",
+        "Tutorial.BotDesigner.List.Models" : "Modeloj",
+        "Tutorial.BotDesigner.List.Colors" : "Koloroj",
+        "Tutorial.BotDesigner.ModelOptions.Genders.Male" : "Vira",
+        "Tutorial.BotDesigner.ModelOptions.Genders.Female" : "Ina",
+        "Tutorial.BotDesigner.ModelOptions.Cloak" : "Mantelo",
+        "Tutorial.BotDesigner.ColorOptions.Metal" : "Metalo",
+        "Tutorial.BotDesigner.ColorOptions.Secondary" : "Dua",
+        "Tutorial.BotDesigner.ColorOptions.Underbody" : "Subkorpa",
+        "Tutorial.BotDesigner.ColorOptions.Emission" : "Emisio",
+        "Tutorial.BotDesigner.ColorOptions.PickColor" : "Elektu Koloron",
+
+        "Tutorial.AvatarTutorial.Start" : "Komenci",
+        "Tutorial.AvatarTutorial.OpenWorld" : "Malfermi Mondon",
+        "Tutorial.AvatarTutorial.AvatarWorlds" : "Avatarmondoj",
+        "Tutorial.AvatarTutorial.Intro.Title" : "Avataroj de Neos",
+        "Tutorial.AvatarTutorial.Intro.Description" : "Lernu kiel trovi kaj uzi avatarojn!",
+        "Tutorial.AvatarTutorial.Avatars.Title" : "Avataroj",
+        "Tutorial.AvatarTutorial.FindingAvatars.Title" : "Trovi Avatarojn",
+        "Tutorial.AvatarTutorial.EquippingAndFavoriting.Title" : "Porti kaj Preferatigi",
+        "Tutorial.AvatarTutorial.AvatarCreation.Title" : "Avatarkreado",
+        "Tutorial.AvatarTutorial.AvatarWorlds.Title" : "Avatarmondoj",
+        "Tutorial.AvatarTutorial.AvatarWorlds.Description" : "Elektu iun avatarmondon, kien vi volas iri, kaj alklaku <color=#77ff77>Malfermi Mondon</color>.",
+        "Tutorial.AvatarTutorial.Avatars.Description" : "Avataroj estas maniero esprimi vin mem.<br>Vi povas trovi aŭ krei avatarojn ene de la metaverso.",
+        "Tutorial.AvatarTutorial.FindingAvatars.Description" : "Komunaj avataroj troviĝas en la<br>dosierujo Neos Essentials en via inventaro.<br><br>Avataroj kreitaj de la komunumo troveblas en publikaj dosierujoj aŭ en publikigitaj mondoj.",
+        "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Post kiam vi havos avataron, ekportu ĝin klakante sur ĝi kaj elektante Porti Avataron.<br><br>Konservu vian nun portatan avataron alklakante <sprite name=Download>  .<br><br>Vi povas preferatigi vian avataron elektante ĝin en via<br>inventaro kaj alklakante <sprite name=Favorite>  .",
+        "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Por importi kaj agordi propran avataron, iru al<br>la Lernilo pri Kreado de Neos-avataroj",
+
+        "Tutorial.AvatarCreator.Intro.Title" : "Kreado de Neos-avataroj",
+        "Tutorial.AvatarCreator.Intro.Description" : "Lernu kiel importi vian avataron kaj agordi ĝin!",
+        "Tutorial.AvatarCreator.Options.Start" : "Komenci",
+        "Tutorial.AvatarCreator.ImportingAssets.Title" : "Importi Resursojn",
+        "Tutorial.AvatarCreator.AvatarCreator.Title" : "Avatar-kreilo",
+        "Tutorial.AvatarCreator.SettingUpMaterials.Title" : "Agordi Materialojn",
+        "Tutorial.AvatarCreator.DynamicBones.Title" : "Dinamikaj Ostoj",
+        "Tutorial.AvatarCreator.Saving&Favoriting.Title" : "Konservi kaj preferatigi",
+        "Tutorial.AvatarCreator.ImportingAssets.Description" : "Propraj avatar-resursoj, inklude la modelon, teksturojn, normal-mapojn, kaj pli, ĉiuj importeblas rekte el la enaplikaĵa dosierfoliumilo, aŭ per ŝovo kaj delaso de la dosieroj el via labortablo en la Neos-fenestron.",
+        "Tutorial.AvatarCreator.AvatarCreator.Description" : "Post importi la modelon, malfermu la <color=#77ccff><b>Avatarkreilon</b></color> en la regpanelo kaj metu la kapon, manojn kaj il-ankrojn laŭprefere.",
+        "Tutorial.AvatarCreator.SettingUpMaterials.Description" : "Uzante la <color=#77ccff><b>Developer Tooltip</b></color> <sprite name=DevTip>  premu la <color=#77ff77><b>Duan Ĉefbutonon</b></color> por elekti la avataron kaj malfermi ĝian hierarkion.<br>Foliumu al la avatar-radiko, kaj kun la <color=#77ccff><b>Material Tooltip</b></color> <sprite name=MatTip>   enmane, <color=#77ff77><b>Prenu</b></color> la fendon CenteredRoot kaj premu la <color=#77ff77><b>Duan Ĉefbutonon</b></color> por elpreni la materialojn de la avataro.<br>Teksturojn kaj mapojn, kiuj ne estis importitaj rekte sur la avataron, vi povas aldoni redaktante la materialon, prenante la teksturon kaj alklakante la kampon celitan.",
+        "Tutorial.AvatarCreator.DynamicBones.Description" : "Dinamikaj ostoj povas aldoni vivecon kaj interageblojn al alimaniere statika rigo. <br>Aldonu la elementon DynamicBoneChain al la komenco de la celita ostoĉeno, rulumu al la fundo kaj alklaku <color=#77ccff><b>Agordi de infanoj (Nur Rigilaro)</b></color>. Ĉi tio kreas defaŭltan ostoĉenon. Vi povas redakti ĝiajn ecojn uzante la inspektilon.",
+        "Tutorial.AvatarCreator.SavingFavoriting.Description" : "Post kiam vi finos la komencan agordadon, ekportu la avataron kaj foliumu al dosierujo kreita en via inventaro en kie vi volas konservi ĝin. Poste premu <sprite name=Download>  .<br><br>Alklaku vian avataron en via inventaro por elekti ĝin, kaj premu <sprite name=Favorite>  por igi ĝin via preferata avataro.",
+        "Tutorial.AvatarCreator.Outro.Title" : "Pli da Informoj kaj Helpo",
+        "Tutorial.AvatarCreator.Outro.Button.Wiki" : "Vikio",
+        "Tutorial.AvatarCreator.Outro.Description" : "Ekstraj resursoj por avatar-kreado, agordado kaj aliaj lernmaterialoj troveblas ĉe la komunum-subtenita vikio, Neos-Discord kaj YouTube.",
+
+        "Tutorial.CommunityYouTube.Title" : "Komunumaj Jutub-kanaloj",
+
+        "Tutorial.UserResources.UserResourcesTitle" : "Uzant-resursoj",
+        "Tutorial.UserResources.SupportTitle" : "Kiel subteni Neos?",
+        "Tutorial.UserResources.MerchandiseTitle" : "Varoj de Neos",
+
+        "Tutorial.Intro.BadgesNeosTeam" : "Neos-teamo",
+        "Tutorial.Intro.BadgesModerator" : "Moderigisto",
+        "Tutorial.Intro.BadgesMentor" : "Mentoro",
+        "Tutorial.Intro.BadgesDisabilityHearing" : "Aŭde Handikapita",
+        "Tutorial.Intro.BadgesDisabilityVision" : "Vide Handikapita",
+        "Tutorial.Intro.BadgesDisabilitySpeech" : "Voĉe Handikapita",
+        "Tutorial.Intro.BadgesTitle" : "Insignoj",
+        "Tutorial.Intro.BadgesDescription" : "Insignoj estas malgrandaj simboloj kiuj montras trajtojn de uzanto. Tie ĉi troviĝas kelkete da gravaj memorindaj insignoj. La handikap-insignoj povas esti aŭtomate asignitaj per la Neos-roboto",
+        "Tutorial.Intro.HelpSite" : "Helpo",
+
         "Exiting.SavingItems" : "Konservante {n, plural, one {# ero} other {# erojn}}...",
         "Exiting.SavingChanges" : "Konservi Ŝanĝojn ...",
         "Exiting.Exiting" : "Elirante ...",
         "Exiting.LoggingOut" : "Elŝalti ...",
- 
+
         "Dummy" : "Dummy"
     }
 }
