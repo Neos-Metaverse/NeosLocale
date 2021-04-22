@@ -890,7 +890,7 @@
 		"Security.HostAccess.Warning": "<b><size=125%>경고: 지금 제삼자(3rd Party)의 서비스에 접근 합니다.</size></b>\n월드가 방문자나 점수기록등의 작업을 수행하는 경우 필요한 기능이지만, 이 연결을 승인할 경우 사용자의 IP정보가 해당 서비스로 유출 될 수 있습니다.",
 		"Security.HostAccess.TargetHost": "대상 호스트: <b>{host}</b>",
 		"Security.HostAccess.Reason": "이유: {reason}",
-		"Security.HostAccess.NoReason": "<i>미작성</i>",
+		"Security.HostAccess.NoReason": "<i>사유가 작성되지 않았습니다.</i>",
 		"Security.HostAccess.Allow": "수락",
 		"Security.HostAccess.Deny": "거절",
 
