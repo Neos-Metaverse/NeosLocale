@@ -428,7 +428,7 @@
 		"Tooltip.MeshVisibility.KeepShadow": "그림자 유지",
 		"Tooltip.MeshVisibility.ShadowOff": "그림자 끄기",
 		"Tooltip.MeshVisibility.ShadowOn": "그림자 켜기",
-		"Tooltip.MeshVisibility.OnlyShadow": "그림자만 남기기",
+		"Tooltip.MeshVisibility.OnlyShadow": "그림자에만 설정",
 		"Tooltip.MeshVisibility.DoubleSidedShadow": "양면 그림자로 설정",
 
 		"Tooltip.Slicer.Add": "슬라이서 추가",
