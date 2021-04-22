@@ -92,8 +92,8 @@
 		"World.HostIsStarting": "호스트가 세션을 시작하고 있습니다.",
 		"World.Loading": "읽어오는 중입니다.",
 		"World.LoadingFailed": "읽어오기 실패",
-		"World.LoadedAssets": "{total_assets}개의 에셋(Asset) 중 {assets}개를 읽고 있습니다.",
-		"World.Downloading": "{total_bytes}중 {bytes} 다운로드 중",
+		"World.LoadedAssets": "총 {total_assets}개의 에셋(Asset) 중 {assets}번째를 읽고 있습니다.",
+		"World.Downloading": "총 {total_bytes}Byte중 {bytes}Byte의 다운로드가 완료되었습니다.",
 
 		"World.Connection.EstablishingConnection": "연결을 진행중입니다.",
 		"World.Connection.RequestingJoin": "참여를 요청합니다.",
