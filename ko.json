@@ -267,7 +267,7 @@
 		"Indicator.Sync.SyncingItems": "동기화 : {item_count,plural, other {# 항목}} <nobr>({item_percent} %)",
 		"Indicator.Sync.UploadingVariants": "업로드 : {variant_count,plural, other {# 에셋(asset)}}",
 		"Indicator.Sync.SyncError": "동기화 오류가 발생하였습니다.<size=50%>자세한 내용은 로그를 확인하세요.</size>",
-		"Indicator.Sync.OutOfSpace": "저장소 공간이 부족하여합니다.<size=50%>동기화가 불가능합니다</size>",
+		"Indicator.Sync.OutOfSpace": "저장소 공간이 부족하여, <size=50%>동기화가 불가능합니다</size>",
 
 		"Indicator.LiveHiddenMessage": "(방송중엔 가려집니다)",
 
