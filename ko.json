@@ -64,7 +64,7 @@
 		
 		"Interaction.SaveAsScreenshot" : "스크린샷으로 저장",
 		"Interaction.ImportFile" : "파일을 월드로 추출",
-		"Interaction.ExportFile" : "파일 다운로드(문서/NeosVR)",
+		"Interaction.ExportFile" : "파일 다운로드(문서/Neos VR)",
 
 		"Dash.Screens.Home": "홈",
 		"Dash.Screens.Worlds": "월드",
