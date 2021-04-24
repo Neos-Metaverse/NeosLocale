@@ -7,4 +7,7 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
 World.Error.FailedToConnect  
+Tutorial.Intro.PublicFolders.Title  
+Tutorial.Intro.PublicFolders.Description  
+Object.Mirror.Toggle  
 

@@ -369,6 +369,8 @@ Tutorial.AvatarTutorial.Avatars.Description
 Tutorial.AvatarTutorial.FindingAvatars.Description  
 Tutorial.AvatarTutorial.EquippingAndFavoriting.Description  
 Tutorial.AvatarTutorial.AvatarCreation.Description  
+Tutorial.Intro.PublicFolders.Title  
+Tutorial.Intro.PublicFolders.Description  
 Tutorial.AvatarCreator.Intro.Title  
 Tutorial.AvatarCreator.Intro.Description  
 Tutorial.AvatarCreator.Options.Start  
@@ -398,4 +400,5 @@ Tutorial.Intro.BadgesDisabilitySpeech
 Tutorial.Intro.BadgesTitle  
 Tutorial.Intro.BadgesDescription  
 Tutorial.Intro.HelpSite  
+Object.Mirror.Toggle  
 
