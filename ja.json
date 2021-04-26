@@ -1344,7 +1344,7 @@
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "カスタムアバターをインポートして設定するには、<br> Neosアバター作成チュートリアルを参照してください。",
 
         "Tutorial.Intro.PublicFolders.Title" : "パブリックフォルダー",
-        "Tutorial.Intro.PublicFolders.Description" : "パブリックフォルダは、コミュニティのユーザーがアバターなど自分の作品を共有するための簡単な方法です。<br><br>保存するにはフォルダをグラブしながら、インベントリで<sprite name=Add>を押します。<br><br>コンテキストメニューから保存することもできます。<br><br>初心者向けに作られた<b>The Starter Pack</b>で試してみてください。",
+        "Tutorial.Intro.PublicFolders.Description" : "パブリックフォルダを作ると、ユーザーがアバターなど自分の作品を共有する事ができます。<br><br>保存するにはフォルダをグラブしながら、インベントリで<sprite name=Add>を押します。<br><br>コンテキストメニューから保存することもできます。<br><br>初心者向けに作られた<b>The Starter Pack</b>で試してみてください。",
 
         "Tutorial.AvatarCreator.Intro.Title" : "Neosでアバターを作成する",
         "Tutorial.AvatarCreator.Intro.Description" : "アバターをインポートして設定する方法を学びましょう！",
