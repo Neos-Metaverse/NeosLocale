@@ -1343,6 +1343,9 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "アバターを入手したら、<br>クリックして<b>アバターを着る</b>を選択します。<br><br><sprite name=Download>をクリックして、現在装備しているアバターを保存できます。<br><br>お気に入りに追加するには、アバターを<br>インベントリで選択し、<sprite name=Favorite>をクリックします。",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "カスタムアバターをインポートして設定するには、<br> Neosアバター作成チュートリアルを参照してください。",
 
+        "Tutorial.Intro.PublicFolders.Title" : "パブリックフォルダー",
+        "Tutorial.Intro.PublicFolders.Description" : "パブリックフォルダは、コミュニティのユーザーがアバターなど自分の作品を共有するための簡単な方法です。<br><br>保存するにはフォルダをグラブしながら、インベントリで<sprite name=Add>を押します。<br><br>コンテキストメニューから保存することもできます。<br><br>初心者向けに作られた<b>The Starter Pack</b>で試してみてください。",
+
         "Tutorial.AvatarCreator.Intro.Title" : "Neosでアバターを作成する",
         "Tutorial.AvatarCreator.Intro.Description" : "アバターをインポートして設定する方法を学びましょう！",
         "Tutorial.AvatarCreator.Options.Start" : "開始",
@@ -1375,6 +1378,8 @@
         "Tutorial.Intro.BadgesTitle" : "バッジ",
         "Tutorial.Intro.BadgesDescription" : "バッジは、ユーザーの一面を示す小さなアイコンです。 いくつか重要なバッジがあります。 障害者バッジは、NeosBotを介して自己割り当てできます。",
         "Tutorial.Intro.HelpSite" : "ヘルプ",
+
+        "Object.Mirror.Toggle" : "ローカルトグル",
 
         "Exiting.SavingItems" : "{n, plural, other {# 個のアイテムを}} 保存中...",
         "Exiting.SavingChanges" : "変更を保存中...",
