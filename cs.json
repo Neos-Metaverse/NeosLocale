@@ -1343,6 +1343,9 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Jakmile máte avatara, převtělte se v něj kliknutím na něj<br>a zvolením Převtělit se do avatara.<br><br>Uložte si aktuálně používaného avatara kliknutím na <sprite name=Download>  .<br><br>Avatara můžete označit za oblíbeného vybráním<br>z vašeho inventáře a kliknutím na <sprite name=Favorite>  .",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Pro importování a nastavení vlastního avatara, shlédněte<br>tutorial o tvorbě Neos avatarů.",
 
+        "Tutorial.Intro.PublicFolders.Title" : "Veřejné složky",
+        "Tutorial.Intro.PublicFolders.Description" : "Veřejné složky jsou jednoduchým způsobem pro sdílení a aktualizaci výtvorů (například avatarů) mezi uživateli komunity.<br><br>Pro uložení, uchopte složku, a následně při držení složky stiskněte <sprite name=Add>  ve vašem inventáři.<br><br>Můžete také ukládat pomocí vašeho kontextového menu.<br><br>Vyzkoušejte si to se složkou <b>The Starter Pack</b> - složkou určenou pro nové uživatele.",
+
         "Tutorial.AvatarCreator.Intro.Title" : "Tvorba Neos avatarů",
         "Tutorial.AvatarCreator.Intro.Description" : "Naučte se importovat a nastavit svého avatara!",
         "Tutorial.AvatarCreator.Options.Start" : "Start",
@@ -1375,6 +1378,8 @@
         "Tutorial.Intro.BadgesTitle" : "Odznaky",
         "Tutorial.Intro.BadgesDescription" : "Odznaky jsou malé ikony, označující aspekty uživatele. Zde je pár důležitých odznaků k zapamatování. Odznaky hendikepů si lze samoobslužně přidělit skrze Neos bota (bot účet Neos v kontaktech ve hře).",
         "Tutorial.Intro.HelpSite" : "Pomoc",
+
+        "Object.Mirror.Toggle" : "Lokální toggle",
 
         "Exiting.SavingItems" : "Ukládám {n, plural, one {# položku} few {# položky} other {# položek}}...",
         "Exiting.SavingChanges" : "Ukládám změny...",
