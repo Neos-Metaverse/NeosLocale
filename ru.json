@@ -1343,6 +1343,9 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Получив аватар, экипируйте его, щелкнув<br>на нем и выбрав Надеть.<br><br>Сохраните ваш надетый аватар, щелкнув <sprite name=Download>  .<br><br>Вы можете установить свой аватар по умолчанию,<br>выбрав его в инвентаре и щелкнув <sprite name=Favorite>  .",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Чтобы импортировать и настроить<br>свой собственный аватар,<br>смотрите инструкцию Создание аватаров Neos.",
 
+        "Tutorial.Intro.PublicFolders.Title" : "Публичные папки",
+        "Tutorial.Intro.PublicFolders.Description" : "Публичные папки - это простой способ делиться своими созданиями (например, такими как аватары) и обновлять их для пользователей сообщества.<br><br>Чтобы сохранить, схватите папку и, удерживая, нажмите <sprite name=Add>  в инвентаре.<br><br>Также можно сохранить папку из контекстного меню.<br><br>Попробуйте с <b>The Starter Pack</b>, папкой для новоприбывших.",
+
         "Tutorial.AvatarCreator.Intro.Title" : "Создание аватаров Neos",
         "Tutorial.AvatarCreator.Intro.Description" : "Узнайте как импортировать и настроить свой собственный аватар!",
         "Tutorial.AvatarCreator.Options.Start" : "Начать",
@@ -1375,6 +1378,8 @@
         "Tutorial.Intro.BadgesTitle" : "Беджи",
         "Tutorial.Intro.BadgesDescription" : "Беджи - это маленькие значки, показывающие разные стороны пользователя. Вот несколько важных беджей, которые следует запомнить. Беджи ограниченных возможностей можно самостоятельно присвоить с помощью бота Neos.",
         "Tutorial.Intro.HelpSite" : "Справка",
+
+        "Object.Mirror.Toggle" : "Включить локально",
 
         "Exiting.SavingItems" : "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
         "Exiting.SavingChanges" : "Сохранение Изменений...",
