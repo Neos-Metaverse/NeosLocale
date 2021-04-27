@@ -2,22 +2,22 @@
 This repository contains the locale assets for the core UI of Neos VR (www.neos.com) and allow anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (https://store.steampowered.com/app/740250/Neos_VR/) and other platforms.
 
 # Localization Status
-Czech [cs] - 99.8% - Missing keys: 3  
+Czech [cs] - 100.0% - Missing keys: 0  
 German [de] - 99.8% - Missing keys: 3  
 English (United Kingdom) [en-gb] - 2.6% - Missing keys: 1186  
 English [en] - 100.0% - Missing keys: 0  
 Esperanto [eo] - 99.4% - Missing keys: 7  
-Spanish [es] - 99.3% - Missing keys: 8  
+Spanish [es] - 100.0% - Missing keys: 0  
 Estonian [et] - 84.8% - Missing keys: 185  
 Finnish [fi] - 39.4% - Missing keys: 738  
 French [fr] - 93.8% - Missing keys: 76  
 Icelandic [is] - 35.5% - Missing keys: 786  
-Japanese [ja] - 99.8% - Missing keys: 3  
-Korean [ko] - 99.8% - Missing keys: 3  
+Japanese [ja] - 100.0% - Missing keys: 0  
+Korean [ko] - 100.0% - Missing keys: 0  
 Dutch [nl] - 98.3% - Missing keys: 21  
 Norwegian [no] - 67.2% - Missing keys: 399  
 Polish [pl] - 89.8% - Missing keys: 124  
-Russian [ru] - 99.8% - Missing keys: 3  
+Russian [ru] - 100.0% - Missing keys: 0  
 Swedish [sv] - 20.4% - Missing keys: 969  
 Turkish [tr] - 79.2% - Missing keys: 253  
 Chinese (China) [zh-cn] - 94.1% - Missing keys: 72  
