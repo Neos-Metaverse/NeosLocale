@@ -471,7 +471,7 @@
 		"CreateNew.Object.FogVolume": "안개 생성",
 		"CreateNew.Object.FogVolume.Additive": "가산혼합(밝음)",
 		"CreateNew.Object.FogVolume.Alpha": "알파혼합",
-		"CreateNew.Object.FogVolume.Multiplicative": "곱산혼합(어두움)",
+		"CreateNew.Object.FogVolume.Multiplicative": "승산혼합(어두움)",
 		"CreateNew.Object.FogVolume.Gradient": "그레디언트",
 
 		"CreateNew.Text": "텍스트",
