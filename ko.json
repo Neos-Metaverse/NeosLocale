@@ -448,8 +448,8 @@
 		"Tooltip.Microphone.Format.WAV" : "WAV",
 		"Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
 		"Tooltip.Microphone.Format.FLAC" : "FLAC",		
-		"Tooltip.Microphone.ModeHold" : "트리거 클릭 모드",
-		"Tooltip.Microphone.ModePress" : "토글모드",
+		"Tooltip.Microphone.ModeHold" : "트리거로 녹음",
+		"Tooltip.Microphone.ModePress" : "토글(켜기/끄기)로 녹음",
 		"Tooltip.Microphone.SourceRaw" : "Raw",
 		"Tooltip.Microphone.SourceFiltered" : "필터 및 정규화",
 
