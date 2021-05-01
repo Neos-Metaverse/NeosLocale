@@ -1,6 +1,6 @@
 {
     "localeCode" : "eo",
-    "authors" : ["Melnus", "yellowcrash10", "Inferus"],
+    "authors" : ["Melnus", "Yellow", "Inferus"],
     "messages" : 
     {
         "General.OK" : "Bone",
@@ -112,6 +112,11 @@
         "World.Connection.Connected": "Konektita",
         "World.Connection.SyncingInitialState": "Sinkronigante komencan mondan ŝtaton",
 
+        "World.Connection.LNL.DirectIP" : "LNL Rekta IP",
+        "World.Connection.LNL.NATPunchthrough" : "LNL NAT Tra-truigado {n}",
+        "World.Connection.LNL.Relay" : "LNL Relajso",
+        "World.Connection.SteamNetworkingSockets" : "Steam-retaj konekt-interfacoj",
+        
         "World.Error.AccessDenied": "Malpermesita aliro",
         "World.Error.SecurityViolation": "Sekureca Malobservo",
         "World.Error.OnlyRegisteredUsers": "Nur registritaj uzantoj rajtas aliĝi",
@@ -874,7 +879,7 @@
         "Settings.EnableGestures": "Ebligi Gestojn",
         "Settings.DoubleClickInterval": "Duobla Alklako-Intervalo",
         "Settings.ResetAllTutorials": "Restarigi ĉiujn lernilojn",
-        "Settings.PreferSteamNetworking": "Preferu Steam-retajn ingojn",
+        "Settings.PreferSteamNetworking": "Preferi Steam-retajn konekt-interfacojn",
         "Settings.DisableLAN" : "Malŝalti LAN",
         "Settings.LegacyGripEquip": "Ebligi Heredaĵan Duoblan Teni-Ekipaĵon",
         "Settings.LegacyWorldSwitcher": "Ebligi Malnovan Mondo-ŝanĝilon",
@@ -1338,6 +1343,9 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Post kiam vi havos avataron, ekportu ĝin klakante sur ĝi kaj elektante Porti Avataron.<br><br>Konservu vian nun portatan avataron alklakante <sprite name=Download>  .<br><br>Vi povas preferatigi vian avataron elektante ĝin en via<br>inventaro kaj alklakante <sprite name=Favorite>  .",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Por importi kaj agordi propran avataron, iru al<br>la Lernilo pri Kreado de Neos-avataroj",
 
+        "Tutorial.Intro.PublicFolders.Title" : "Publikaj Dosierujoj",
+        "Tutorial.Intro.PublicFolders.Description" : "Publikaj Dosieruoj estas facila vojo por uzantoj en la Komunumo konigi kaj ĝisdatigi iliajn Faraĵojn kiel Avataroj.<br><br>Por konservi, ekprenu la dosierujon, kaj dum tenado premu <sprite name=Add>  en via Inventaro.<br><br>Vi ankaŭ povas konservi per via Kunteksta Menuo.<br><br>Provu per <b>The Starter Pack</b>. Dosierujo desegnita por novaj uzantoj.",
+
         "Tutorial.AvatarCreator.Intro.Title" : "Kreado de Neos-avataroj",
         "Tutorial.AvatarCreator.Intro.Description" : "Lernu kiel importi vian avataron kaj agordi ĝin!",
         "Tutorial.AvatarCreator.Options.Start" : "Komenci",
@@ -1370,6 +1378,8 @@
         "Tutorial.Intro.BadgesTitle" : "Insignoj",
         "Tutorial.Intro.BadgesDescription" : "Insignoj estas malgrandaj simboloj kiuj montras trajtojn de uzanto. Tie ĉi troviĝas kelkete da gravaj memorindaj insignoj. La handikap-insignoj povas esti aŭtomate asignitaj per la Neos-roboto",
         "Tutorial.Intro.HelpSite" : "Helpo",
+        
+        "Object.Mirror.Toggle" : "Loka Baskulo",
 
         "Exiting.SavingItems" : "Konservante {n, plural, one {# ero} other {# erojn}}...",
         "Exiting.SavingChanges" : "Konservi Ŝanĝojn ...",
