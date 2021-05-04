@@ -1013,9 +1013,11 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "除去完了: {n,plural, other {# ブレンドシェイプ}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "空のボーンの除去",
         "Inspector.SkinnedMesh.StripBonesResult" : "除去完了: {n,plural, other {# ボーン}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "使用していないブレンドシェイプを除去",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "除去したブレンドシェイプ: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "ボーンのバウンディングボックスの可視化",
-        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "マージされたボーンのスフィアバウンディングボックスの可視化",
-        "Inspector.SkinnedMesh.ClearBoundsVisuals" : "ボーンのバウンディングボックスを取り除く",
+        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "マージされたボーンのスフィアバウンディングの可視化",
+        "Inspector.SkinnedMesh.ClearBoundsVisuals" : "可視化したボーンのバウンディングボックスを非表示",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "リグ診断情報取得",
         "Inspector.BipedRig.GenerateDebugVisuals" : "デバッグビジュアル生成",
@@ -1376,7 +1378,7 @@
         "Tutorial.Intro.BadgesDisabilityVision" : "視覚障害",
         "Tutorial.Intro.BadgesDisabilitySpeech" : "発語障害",
         "Tutorial.Intro.BadgesTitle" : "バッジ",
-        "Tutorial.Intro.BadgesDescription" : "バッジは、ユーザーの一面を示す小さなアイコンです。 いくつか重要なバッジがあります。 障害者バッジは、NeosBotを介して自己割り当てできます。",
+        "Tutorial.Intro.BadgesDescription" : "バッジは、ユーザーの一面を示す小さなアイコンです。 いくつか重要なバッジがあります。 障害者バッジは、NeosBotを介して自己割り当てできます。 詳しくはNeosWikiを確認してください。",
         "Tutorial.Intro.HelpSite" : "ヘルプ",
 
         "Object.Mirror.Toggle" : "ローカルトグル",
