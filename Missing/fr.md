@@ -17,6 +17,8 @@ CameraControl.Control.ScreenSpaceReflections
 Settings.Laser.ShowInDesktop  
 Settings.Audio.WhisperVoiceVolume  
 Settings.Graphics.DesktopFOV  
+Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
+Inspector.SkinnedMesh.BakeBlendShapeResult  
 Tutorial.BotDesigner.Start  
 Tutorial.BotDesigner.WearAvatar  
 Tutorial.BotDesigner.Intro.Title  

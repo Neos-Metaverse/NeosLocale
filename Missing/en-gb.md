@@ -872,6 +872,8 @@ Inspector.SkinnedMesh.StripEmptyBlendshapes
 Inspector.SkinnedMesh.StripBlendshapesResult  
 Inspector.SkinnedMesh.StripEmptyBones  
 Inspector.SkinnedMesh.StripBonesResult  
+Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
+Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.SkinnedMesh.ClearBoundsVisuals  
 Inspector.BipedRig.GetDiagnosticInfo  
 Inspector.BipedRig.GenerateDebugVisuals  

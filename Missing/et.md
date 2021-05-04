@@ -22,6 +22,8 @@ Settings.Audio.WhisperVoiceVolume
 Inspector.Mesh.ConvertToPointCloud  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
+Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
+Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.Texture.Variant  
 Inspector.Texture.AddWhiteBackground  
 Inspector.Texture.AddBlackBackground  

@@ -9,6 +9,8 @@ World.Connection.SteamNetworkingSockets
 Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
 CameraControl.Control.ScreenSpaceReflections  
+Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
+Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.Texture.TileLoop  
 Inspector.Texture.TileMirror  
 Tutorial.BotDesigner.WearAvatar  

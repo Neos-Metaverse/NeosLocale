@@ -644,6 +644,8 @@ Inspector.SkinnedMesh.StripEmptyBlendshapes
 Inspector.SkinnedMesh.StripBlendshapesResult  
 Inspector.SkinnedMesh.StripEmptyBones  
 Inspector.SkinnedMesh.StripBonesResult  
+Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
+Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.SkinnedMesh.VisualizeBoneBounds  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ClearBoundsVisuals  

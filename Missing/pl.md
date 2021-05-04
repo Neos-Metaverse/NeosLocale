@@ -43,6 +43,8 @@ Settings.Audio.SelectOutputDevice
 Settings.Audio.SystemDefaultOutput  
 Settings.Graphics.DesktopFOV  
 Inspector.Mesh.ConvertToPointCloud  
+Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
+Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.Texture.AddWhiteBackground  
 Inspector.Texture.AddBlackBackground  
 Inspector.Texture.Saturation  

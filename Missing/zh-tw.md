@@ -13,6 +13,8 @@ World.Error.FailedToConnect
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
 Settings.Audio.WhisperVoiceVolume  
+Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
+Inspector.SkinnedMesh.BakeBlendShapeResult  
 Tutorial.BotDesigner.Start  
 Tutorial.BotDesigner.WearAvatar  
 Tutorial.BotDesigner.Intro.Title  

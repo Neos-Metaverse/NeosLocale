@@ -1013,6 +1013,8 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Done! Stripped: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Strip Empty Bones",
         "Inspector.SkinnedMesh.StripBonesResult" : "Done! Stripped: {n,plural, one {# bone} other {# bones}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Bake Non-Driven BlendShapes",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Baked BlendShapes: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Visualize bone bounding boxes",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Visualize approximate merged bone sphere bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Remove bone bounding box visuals",
