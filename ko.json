@@ -1383,6 +1383,9 @@
 		"Tutorial.Intro.PublicFolders.Description" : "공개폴더는 아바타나 기타 아이템들을 쉽게 공유하는 방법을 제공합니다. 이는 공유하는 사람의 저장소를 참조하는 것으로, 항상 최신 상태를 유지할 수 있고 저장소 공간도 아낄 수 있지요.<br><br>월드에 있는 주황색 사각형 모양의 공개폴더를 잡은 상태에서 개인 보관함 우상단의 <sprite name=Add> 아이콘을 클릭하는것으로 폴더를 공유받을 수 있습니다.<br><br>또한, 잡은 후 컨텍스트 메뉴를 호출하여 보관함에 저장하실 수 도 있습니다.<br><br>대표적으로 기본적으로 내장된 <b>The Starter Pack</b> 폴더는 신규 사용자를 위해 디자인 되었습니다.",
 		"Object.Mirror.Toggle" : "혼자보기 토글",
 		
+		"Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "동작하지 않는 블렌드셰이프를 베이크",
+        	"Inspector.SkinnedMesh.BakeBlendShapeResult" : "베이크 된 블렌드셰이프: {n}",
+		
 		"Dummy": "더미"
 	}
 }
