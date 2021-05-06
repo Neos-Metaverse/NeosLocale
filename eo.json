@@ -116,7 +116,7 @@
         "World.Connection.LNL.NATPunchthrough" : "LNL NAT Tra-truigado {n}",
         "World.Connection.LNL.Relay" : "LNL Relajso",
         "World.Connection.SteamNetworkingSockets" : "Steam-retaj konekt-interfacoj",
-        
+
         "World.Error.AccessDenied": "Malpermesita aliro",
         "World.Error.SecurityViolation": "Sekureca Malobservo",
         "World.Error.OnlyRegisteredUsers": "Nur registritaj uzantoj rajtas aliĝi",
@@ -1013,6 +1013,8 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Finita! Senvestigita: {n,plural, one {# Miksaĵformo} other {#  Miksaĵformojn}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Nudigi Malplenajn ostojn",
         "Inspector.SkinnedMesh.StripBonesResult" : "Finita! Senvestigita: {n,plural, one {# Osto} other {# Ostoj}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Baki sen-pelilajn Miksformojn",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Bakitaj Miksformoj: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Bildigu ostajn limigajn skatolojn",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Bildigu proksimumajn kunfanditajn ostajn sferajn limojn",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Forigi bildojn limoj de ostoj",
@@ -1378,7 +1380,7 @@
         "Tutorial.Intro.BadgesTitle" : "Insignoj",
         "Tutorial.Intro.BadgesDescription" : "Insignoj estas malgrandaj simboloj kiuj montras trajtojn de uzanto. Tie ĉi troviĝas kelkete da gravaj memorindaj insignoj. La handikap-insignoj povas esti aŭtomate asignitaj per la Neos-roboto",
         "Tutorial.Intro.HelpSite" : "Helpo",
-        
+
         "Object.Mirror.Toggle" : "Loka Baskulo",
 
         "Exiting.SavingItems" : "Konservante {n, plural, one {# ero} other {# erojn}}...",
