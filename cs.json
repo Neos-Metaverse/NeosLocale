@@ -1013,6 +1013,8 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Hotovo! Odstraněno: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Odstranit přebytečné prázdné bones",
         "Inspector.SkinnedMesh.StripBonesResult" : "Hotovo! Odstraněno: {n,plural, one {# bone} other {# bones}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Zapéct nedrivované blendshapes",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Zapečené blendshapes: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Vizualizovat bone bounding box",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Vizualizovat přibližné merged bone sphere bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Odstranit bone bounding box vizuály",
