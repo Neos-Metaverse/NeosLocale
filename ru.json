@@ -1013,6 +1013,8 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Готово! Убрали: {n,plural, one {# blendshape} few {# blendshape'а} many {# blendshape'ов}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Убрать Пустые Кости",
         "Inspector.SkinnedMesh.StripBonesResult" : "Готово! Убрано: {n,plural, one {# кость} few {# кости} many {# костей}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Запечь неподвижные blendshape'ы",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Запечено blendshape'ов: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Визуализировать габариты костей",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Визуализировать приблизительные объединенные сферические границы костей",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Убрать визуализацию габаритов костей",
