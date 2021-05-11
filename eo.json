@@ -16,7 +16,7 @@
         "General.FAILED" : "MALSUKCESIS",
         "General.Reset" : "Restartigi",
         "General.WorldOpenConfirm" : "Ĉu vere malfermi?",
-        "General.Save" : "Savi",
+        "General.Save" : "Konservi",
         "General.Saving" : "Ŝparante...",
         "General.Saved" : "Konservita!",
         "General.Done" : "Finita!",
@@ -82,7 +82,7 @@
         "Dash.Screens.Inventory": "Inventaro",
         "Dash.Screens.Desktop" : "Labortablo",
         "Dash.Screens.Session": "Seanco",
-        "Dash.Screens.FileBrowser": "<nobr> Dosierfoliumilo",
+        "Dash.Screens.FileBrowser": "Dosiera Foliumilo",
         "Dash.Screens.Settings": "Agordoj",
         "Dash.Screens.Exit": "Eliri",
 
@@ -99,9 +99,9 @@
         "Dash.Exit.ThankYou": "Dankon pro via uzo de Neos!",
         "Dash.Exit.SubmittedBy": "Sendita de: {name}",
 
-        "World.Waiting": "Atendante ...",
+        "World.Waiting": "Atendante...",
         "World.HostIsStarting": "Gastiganto komencas la seancon",
-        "World.Loading": "Ŝarĝante ...",
+        "World.Loading": "Ŝarĝante...",
         "World.LoadingFailed": "Malsukcesis",
         "World.LoadedAssets": "{assets} ŝarĝitaj el {total_assets}",
         "World.Downloading": "Elŝutante {bytes} el {total_bytes}",
@@ -317,9 +317,9 @@
         "Account.Register": "Registriĝi",
         "Account.LoginOrRegister": "Ensaluti / Registriĝi",
         "Account.LogoutConfirm": "Ĉu vere elsaluti?",
-        "Account.LoggingIn": "Ensaluti ...",
-        "Account.LoggingOut": "Elsaluti ...",
-        "Account.Registering": "Registrante ...",
+        "Account.LoggingIn": "Ensaluti...",
+        "Account.LoggingOut": "Elsaluti...",
+        "Account.Registering": "Registrante...",
         "Account.Anonymous": "Anonima",
         "Account.PatreonSupporter": "Patreon-Subtenanto",
         "Account.Username": "Uzantnomo:",
@@ -340,7 +340,7 @@
         "Account.RecoveryCode": "Reakira Kodo:",
         "Account.NewPassword": "Nova pasvorto:",
         "Account.ResetPassword": "Agordi Novan Pasvorton",
-        "Account.Requesting": "Petante ...",
+        "Account.Requesting": "Petante...",
         "Account.ErrorPasswordMismatch": "Pasvortoj ne kongruas!",
         "Account.ErrorEmailMismatch": "Retpoŝtoj ne kongruas!",
         "Account.ErrorLoginError": "Ensaluta Eraro:",
@@ -444,7 +444,7 @@
         "Undo.InsertParent": "Enmeti gepatron por {name}",
         "Undo.Wiggler": "Malbonaj Aĵoj",
 
-        "Tooltips.Dev.CreateNew": "Krei novan ...",
+        "Tooltips.Dev.CreateNew": "Krei novan...",
         "Tooltips.Dev.Selection" : "Elekto: {mode}",
         "Tooltips.Dev.DevMode.Off": "Programisto: Malŝaltita",
         "Tooltips.Dev.DevMode.On": "Programisto: Enŝaltita",
@@ -488,7 +488,7 @@
         "Tooltip.Material.SceneMode": "Scena Tutmonda Reĝimo",
         "Tooltip.Material.CreateCopy": "Krei Kopion",
         "Tooltip.Material.Edit": "Redakti materialon",
-        "Tooltip.Material.Convert": "Konverti al ...",
+        "Tooltip.Material.Convert": "Konverti al...",
         "Tooltip.Material.CreateNew": "Krei novan",
 
         "Tooltip.Mesh.Edit": "Redakti maŝon",
@@ -696,7 +696,7 @@
         "Credits.Comment": "Komento:",
         "Credits.SendWarning": "Vi sendas veran monon, bonvolu duoble kontroli la informojn.",
         "Credits.Send": "Sendu",
-        "Credits.Sending": "Sendante ...",
+        "Credits.Sending": "Sendante...",
         "Credits.Success" : "Sukceso! \nVi povas fermi ĉi tiun fenestron.",
         "Credits.BlockchainWarning" : "Bonvolu noti, ke la translokigo al blokĉeno povas daŭri ĝis 48 horoj.",
 
@@ -760,9 +760,9 @@
         "FullBody.Knees" : "Genuoj",
 
         "FullBody.TrackerMapped": "Spuristo Mapita",
-        "FullBody.NotTracking": "Ne Spuranta ...",
+        "FullBody.NotTracking": "Ne Spuranta...",
         "FullBody.NoTracker": "Neniu Spuristo Mapita",
-        "FullBody.FeetNotTracking": "Piedoj ne spuras ...",
+        "FullBody.FeetNotTracking": "Piedoj ne spuras...",
 
         "FullBody.AvatarPointMapped": "Mapita",
         "FullBody.AvatarPointNotMapped": "Ne mapita",
@@ -828,9 +828,9 @@
         "CameraControl.OBS.Instructions": "Certigu, ke OBS funkcias kaj la OBS-reteja kromaĵo estas instalita",
         "CameraControl.OBS.OpenInstaller": "Malfermu retpaĝon de instalilo",
         "CameraControl.OBS.Launch": "Lanĉi OBS",
-        "CameraControl.OBS.Launching": "Lanĉante ...",
+        "CameraControl.OBS.Launching": "Lanĉante...",
         "CameraControl.OBS.Launched": "Lanĉita!",
-        "CameraControl.OBS.Connecting": "Konektante ...",
+        "CameraControl.OBS.Connecting": "Konektante...",
         "CameraControl.OBS.Connected": "Konektita!",
         "CameraControl.OBS.Disconnected": "Malkonektita!",
         "CameraControl.OBS.AuthFailure": "Aŭtentiga Malsukceso!",
@@ -852,7 +852,7 @@
         "CameraControl.OBS.Streaming.Stopping": "Haltante Elsendfluo...",
 
         "CameraControl.OBS.Recording.Start": "Komenci Registradon",
-        "CameraControl.OBS.Recording.Starting": "Komenci Registradon ...",
+        "CameraControl.OBS.Recording.Starting": "Komenci Registradon...",
         "CameraControl.OBS.Recording.Stop": "Ĉesi Registradon",
         "CameraControl.OBS.Recording.Stopping": "Ĉesigi Registradon",
 
@@ -1006,7 +1006,7 @@
         "Inspector.MeshRenderer.SplitByMaterial" : "Disigi en apartajn maŝojn laŭ materialo",
 
         "Inspector.ReflectionProbe.Bake" : "Baki Reflektadojn",
-        "Inspector.ReflectionProbe.Baking" : "Bakante ...",
+        "Inspector.ReflectionProbe.Baking" : "Bakante...",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Apartigi partoj de maŝo netuŝitaj de miksaĵformoj",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Nudigi Malplenajn nudigi malplenajn miksaĵformojn",
@@ -1171,7 +1171,7 @@
         "Wizard.ReflectionProbes.ShowDebugVisuals": "Montri Elpurigajn Bildojn",
         "Wizard.ReflectionProbes.HideDebugVisuals": "Kaŝi Elpurigajn Bildojn",
         "Wizard.ReflectionProbes.BakeProbes": "Baki Sondojn",
-        "Wizard.ReflectionProbes.Baking": "Bakado {index} de {count} ...",
+        "Wizard.ReflectionProbes.Baking": "Bakado {index} de {count}...",
 
         "Desktop.OpenKeyboard" : "Malfermi Klavaron",
         "Desktop.FollowCursor.On" : "Sekvu Kursoron: On",
@@ -1384,9 +1384,9 @@
         "Object.Mirror.Toggle" : "Loka Baskulo",
 
         "Exiting.SavingItems" : "Konservante {n, plural, one {# ero} other {# erojn}}...",
-        "Exiting.SavingChanges" : "Konservi Ŝanĝojn ...",
-        "Exiting.Exiting" : "Elirante ...",
-        "Exiting.LoggingOut" : "Elŝalti ...",
+        "Exiting.SavingChanges" : "Konservi Ŝanĝojn...",
+        "Exiting.Exiting" : "Elirante...",
+        "Exiting.LoggingOut" : "Elŝalti...",
 
         "Dummy" : "Dummy"
     }
