@@ -727,7 +727,7 @@
 		"CameraControl.Mode.Manual": "사용자 지정",
 
 		"CameraControl.Settings.AvoidOcclusion": "촬영 장애물 피하기",
-		"CameraControl.Settings.KeepInWorldspace": "월드 공간에 카메라 배치",
+		"CameraControl.Settings.KeepInWorldspace": "카메라를 월드공간에 유지",
 		"CameraControl.Settings.MovementWobble": "흔들림 효과 주기",
 		"CameraControl.Settings.AimInFrontOfHead": "시점을 머리의 앞쪽으로 이동",
 		"CameraControl.Settings.HideCamera": "카메라 숨기기",
