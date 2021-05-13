@@ -1013,6 +1013,8 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "¡Listo! {n,plural, one {Removida: # forma clave} other {Removidas: # formas clave}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Remover Huesos Vacíos",
         "Inspector.SkinnedMesh.StripBonesResult" : "¡Listo! {n,plural, one {Removido: # hueso} other {Removidos: # huesos}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Hornear Formas Clave no Dirigidas",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Formas Clave Horneadas: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Visualizar cajas delimitadoras de huesos",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Visualizar aproximación esférica de los límites de la unión de huesos",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Quitar visualización de cajas de huesos",
