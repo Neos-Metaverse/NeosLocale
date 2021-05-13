@@ -716,7 +716,7 @@
 
 		"CameraControl.Title": "카메라 제어",
 		"CameraControl.MirroringOffWarning": "미러링 꺼짐, 현재 HMD 화면이 투사중입니다.",
-		"CameraControl.MirrorToDisplay": "카메라 화면을 모니터로 투사",
+		"CameraControl.MirrorToDisplay": "카메라 화면을<br>모니터로 투사",
 		"CameraControl.TakePhoto": "사진",
 		"CameraControl.Take360Photo": "360도 사진",
 
@@ -727,19 +727,19 @@
 		"CameraControl.Mode.Manual": "사용자 지정",
 
 		"CameraControl.Settings.AvoidOcclusion": "촬영 장애물 피하기",
-		"CameraControl.Settings.KeepInWorldspace": "월드 공간에 고정",
+		"CameraControl.Settings.KeepInWorldspace": "카메라를 월드공간에 유지",
 		"CameraControl.Settings.MovementWobble": "흔들림 효과 주기",
-		"CameraControl.Settings.AimInFrontOfHead": "촬영점을 머리 앞으로 변경 ",
+		"CameraControl.Settings.AimInFrontOfHead": "시점을 머리의 앞쪽으로 이동",
 		"CameraControl.Settings.HideCamera": "카메라 숨기기",
-		"CameraControl.Settings.ForceEyesOnCamera": "시선을 카메라로 고정",
+		"CameraControl.Settings.ForceEyesOnCamera": "아바타의 시선을 카메라로 고정",
 		"CameraControl.Settings.HideBadges": "배지 숨기기",
 		"CameraControl.Settings.HideLasers": "지시선 숨기기",
 		"CameraControl.Settings.ShowFrustum": "투사 안내선 보이기",
 		"CameraControl.Settings.PhotoTimer": "사진 촬영 타이머 사용하기",
 		"CameraControl.Settings.ShowLiveBadge": "방송배지(LIVE) 보이기",
-		"CameraControl.Settings.AudioFromCameraViewpoint" : "카메라 주변의 소리를 캡쳐",
+		"CameraControl.Settings.AudioFromCameraViewpoint" : "카메라 시점을 기준으로 음향 캡쳐",
 
-		"CameraControl.OpenCloseUsers": "유저",
+		"CameraControl.OpenCloseUsers": "사용자별<br>촬영제어",
 		"CameraControl.CreateCameraAnchor": "촬영위치 생성",
 
 		"CameraControl.Anchors.Interpolate": "촬영위치간 부드러운 이동 지원",
