@@ -8,4 +8,17 @@ World.Connection.LNL.Relay
 World.Connection.SteamNetworkingSockets  
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  
+Tutorial.Streaming.StageControl  
+Tutorial.Streaming.StageUI  
+Tutorial.Streaming.StageLights  
+Tutorial.Streaming.StageLightController  
+Tutorial.Streaming.StageMicrophone  
+Tutorial.Streaming.GreenScreenControl  
+Tutorial.Streaming.GreenScreenToggle360  
+Tutorial.Streaming.GreenScreenTracking  
+Tutorial.Streaming.GreenScreenMarker  
+Tutorial.Streaming.GreenScreenCycleScene  
+Tutorial.Streaming.StreamRoomControl  
+Tutorial.Streaming.StreamRoomSkyWall  
+Tutorial.Streaming.StreamRoomLayout  
 
