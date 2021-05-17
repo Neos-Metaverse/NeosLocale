@@ -1381,7 +1381,21 @@
         "Tutorial.Intro.BadgesDescription" : "バッジは、ユーザーの一面を示す小さなアイコンです。 いくつか重要なバッジがあります。 障害者バッジは、NeosBotを介して自己割り当てできます。 詳しくはNeosWikiを確認してください。",
         "Tutorial.Intro.HelpSite" : "ヘルプ",
 
-        "Object.Mirror.Toggle" : "ローカルトグル",
+        "Object.Mirror.Toggle" : "ローカルミラー",
+
+        "Tutorial.Streaming.StageControl" : "ステージコントロール",
+        "Tutorial.Streaming.StageUI" : "ステージUI",
+        "Tutorial.Streaming.StageLights" : "ステージライト",
+        "Tutorial.Streaming.StageLightController" : "ライトコントローラー",
+        "Tutorial.Streaming.StageMicrophone" : "マイクスタンド",
+        "Tutorial.Streaming.GreenScreenControl" : "グリーンスクリーンコントロール",
+        "Tutorial.Streaming.GreenScreenToggle360" : "360<sup>o</sup>撮影",
+        "Tutorial.Streaming.GreenScreenTracking" : "トラッキングリファレンス",
+        "Tutorial.Streaming.GreenScreenMarker" : "グラブ可能なマーカーを設置",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "シーン切り替え",
+        "Tutorial.Streaming.StreamRoomControl" : "ストリーミングルームコントロール",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "スカイボックスの画像",
+        "Tutorial.Streaming.StreamRoomLayout" : "レイアウトをセット",
 
         "Exiting.SavingItems" : "{n, plural, other {# 個のアイテムを}} 保存中...",
         "Exiting.SavingChanges" : "変更を保存中...",
