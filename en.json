@@ -1382,6 +1382,20 @@
         "Tutorial.Intro.HelpSite" : "Help",
 
         "Object.Mirror.Toggle" : "Local Toggle",
+        
+        "Tutorial.Streaming.StageControl" : "Stage Control",
+        "Tutorial.Streaming.StageUI" : "Toggle Stage UI",
+        "Tutorial.Streaming.StageLights" : "Toggle Stage Lights",
+        "Tutorial.Streaming.StageLightController" : "Toggle Light Controller",
+        "Tutorial.Streaming.StageMicrophone" : "Toggle Microphone Stand",
+        "Tutorial.Streaming.GreenScreenControl" : "Green Screen Control",
+        "Tutorial.Streaming.GreenScreenToggle360" : "Toggle 360<sup>o</sup> Scene",
+        "Tutorial.Streaming.GreenScreenTracking" : "Toggle Tracking References",
+        "Tutorial.Streaming.GreenScreenMarker" : "Create Grabbable Marker",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Cycle Scene",
+        "Tutorial.Streaming.StreamRoomControl" : "Streaming Room Control",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "Sky Wall Image",
+        "Tutorial.Streaming.StreamRoomLayout" : "Set Layout",
 
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
