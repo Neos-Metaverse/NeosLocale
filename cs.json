@@ -1383,6 +1383,20 @@
 
         "Object.Mirror.Toggle" : "Lokální toggle",
 
+        "Tutorial.Streaming.StageControl" : "Ovládání jeviště",
+        "Tutorial.Streaming.StageUI" : "Zap/Vyp UI jeviště",
+        "Tutorial.Streaming.StageLights" : "Zap/Vyp osvětlení jeviště",
+        "Tutorial.Streaming.StageLightController" : "Zap/Vyp ovladač osvětlení",
+        "Tutorial.Streaming.StageMicrophone" : "Zap/Vyp stojan na mikrofon",
+        "Tutorial.Streaming.GreenScreenControl" : "Ovládání green screenu",
+        "Tutorial.Streaming.GreenScreenToggle360" : "Zap/Vyp 360<sup>o</sup> scénu",
+        "Tutorial.Streaming.GreenScreenTracking" : "Zap/Vyp trackovací reference",
+        "Tutorial.Streaming.GreenScreenMarker" : "Vytvořit tvořič Grabbables",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Cyklovat scénu",
+        "Tutorial.Streaming.StreamRoomControl" : "Ovládání streamovací místnosti",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "Obrázek Sky Wall",
+        "Tutorial.Streaming.StreamRoomLayout" : "Nastavit rozložení",
+
         "Exiting.SavingItems" : "Ukládám {n, plural, one {# položku} few {# položky} other {# položek}}...",
         "Exiting.SavingChanges" : "Ukládám změny...",
         "Exiting.Exiting" : "Ukončuji...",
