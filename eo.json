@@ -1382,6 +1382,20 @@
         "Tutorial.Intro.HelpSite" : "Helpo",
 
         "Object.Mirror.Toggle" : "Loka Baskulo",
+        
+        "Tutorial.Streaming.StageControl" : "Sceneja Regilo",
+        "Tutorial.Streaming.StageUI" : "Baskuligi Scenejan UI",
+        "Tutorial.Streaming.StageLights" : "Baskuligi Scenej-lumojn",
+        "Tutorial.Streaming.StageLightController" : "Baskuligi Lum-regilon",
+        "Tutorial.Streaming.StageMicrophone" : "Baskuligi Mikrofon-stativon",
+        "Tutorial.Streaming.GreenScreenControl" : "Verd-kurtena Regilo",
+        "Tutorial.Streaming.GreenScreenToggle360" : "Baskuligi 360<sup>o</sup> Scenon",
+        "Tutorial.Streaming.GreenScreenTracking" : "Baskuligi Spuradajn Referencojn",
+        "Tutorial.Streaming.GreenScreenMarker" : "Krei Teneblan Indikilon",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Cikli Scenon",
+        "Tutorial.Streaming.StreamRoomControl" : "Elsendflueja Regilo",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "Ĉiel-mura Bildo",
+        "Tutorial.Streaming.StreamRoomLayout" : "Agordi Aranĝon",
 
         "Exiting.SavingItems" : "Konservante {n, plural, one {# ero} other {# erojn}}...",
         "Exiting.SavingChanges" : "Konservi Ŝanĝojn...",
