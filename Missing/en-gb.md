@@ -1199,6 +1199,7 @@ Tutorial.Streaming.GreenScreenCycleScene
 Tutorial.Streaming.StreamRoomControl  
 Tutorial.Streaming.StreamRoomSkyWall  
 Tutorial.Streaming.StreamRoomLayout  
+Tutorial.Streaming.StageLightShadowToggle  
 Exiting.SavingItems  
 Exiting.SavingChanges  
 Exiting.Exiting  
