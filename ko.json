@@ -1,6 +1,6 @@
 {
 	"localeCode": "ko",
-	"authors": ["MirPASEC", "R3C0D3r", "LUA"],
+	"authors": ["MirPASEC", "R3C0D3r", "LUA", "Guide"],
 	"messages": {
 		"General.OK": "확인",
 		"General.Finish" : "완료",
@@ -1385,6 +1385,20 @@
 		
 		"Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "동작하지 않는 블렌드셰이프를 베이크",
         	"Inspector.SkinnedMesh.BakeBlendShapeResult" : "베이크 된 블렌드셰이프: {n}",
+		        
+        	"Tutorial.Streaming.StageControl" : "무대 지역",
+        	"Tutorial.Streaming.StageUI" : "무대 UI 토글",
+        	"Tutorial.Streaming.StageLights" : "무대 조명 토글",
+        	"Tutorial.Streaming.StageLightController" : "조명 제어기 토글",
+        	"Tutorial.Streaming.StageMicrophone" : "스탠드 마이크 토글",
+        	"Tutorial.Streaming.GreenScreenControl" : "크로마 키 제어",
+        	"Tutorial.Streaming.GreenScreenToggle360" : "360<sup>o</sup> 장면 토글",
+        	"Tutorial.Streaming.GreenScreenTracking" : "Toggle Tracking References",
+        	"Tutorial.Streaming.GreenScreenMarker" : "Create Grabbable Marker",
+        	"Tutorial.Streaming.GreenScreenCycleScene" : "Cycle Scene",
+        	"Tutorial.Streaming.StreamRoomControl" : "방송실 제어",
+        	"Tutorial.Streaming.StreamRoomSkyWall" : "배경 선택",
+        	"Tutorial.Streaming.StreamRoomLayout" : "레이아웃 설정",
 		
 		"Dummy": "더미"
 	}
