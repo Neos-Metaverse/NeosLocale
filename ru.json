@@ -1383,6 +1383,20 @@
 
         "Object.Mirror.Toggle" : "Включить локально",
 
+        "Tutorial.Streaming.StageControl" : "Управление сценой",
+        "Tutorial.Streaming.StageUI" : "Переключить UI сцены",
+        "Tutorial.Streaming.StageLights" : "Переключить свет сцены",
+        "Tutorial.Streaming.StageLightController" : "Переключить управление светом",
+        "Tutorial.Streaming.StageMicrophone" : "Переключить микрофон",
+        "Tutorial.Streaming.GreenScreenControl" : "Управление зеленым экраном",
+        "Tutorial.Streaming.GreenScreenToggle360" : "Переключить 360<sup>o</sup> сцену",
+        "Tutorial.Streaming.GreenScreenTracking" : "Переключить метки для трекинга",
+        "Tutorial.Streaming.GreenScreenMarker" : "Создать хватаемый маркер",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Следующая сцена",
+        "Tutorial.Streaming.StreamRoomControl" : "Управление комнатой стриминга",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "Картинка неба",
+        "Tutorial.Streaming.StreamRoomLayout" : "Установить разметку",
+
         "Exiting.SavingItems" : "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
         "Exiting.SavingChanges" : "Сохранение Изменений...",
         "Exiting.Exiting" : "Выход...",
