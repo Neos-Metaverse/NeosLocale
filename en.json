@@ -1396,6 +1396,7 @@
         "Tutorial.Streaming.StreamRoomControl" : "Streaming Room Control",
         "Tutorial.Streaming.StreamRoomSkyWall" : "Sky Wall Image",
         "Tutorial.Streaming.StreamRoomLayout" : "Set Layout",
+        "Tutorial.Streaming.StageLightShadowToggle" : "Toggle Light Shadows",
 
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
