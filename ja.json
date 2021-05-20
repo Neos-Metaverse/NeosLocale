@@ -1396,6 +1396,7 @@
         "Tutorial.Streaming.StreamRoomControl" : "ストリーミングルームコントロール",
         "Tutorial.Streaming.StreamRoomSkyWall" : "スカイボックスの画像",
         "Tutorial.Streaming.StreamRoomLayout" : "レイアウトをセット",
+        "Tutorial.Streaming.StageLightShadowToggle" : "ライトの影",
 
         "Exiting.SavingItems" : "{n, plural, other {# 個のアイテムを}} 保存中...",
         "Exiting.SavingChanges" : "変更を保存中...",
