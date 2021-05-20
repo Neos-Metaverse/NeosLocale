@@ -111,11 +111,11 @@
         "World.Connection.Authenticating" : "Uwierzytelnianie",
         "World.Connection.Connected" : "Połączono",
         "World.Connection.SyncingInitialState" : "Synchronizacja początkowego stanu świata",
-        
-        
-        
-        
-        
+
+        "World.Connection.LNL.DirectIP" : "LNL Bezpośrednie IP",
+        "World.Connection.LNL.NATPunchthrough" : "Przebicie LNL NAT {n}",
+        "World.Connection.LNL.Relay" : "Przekaźnik LNL",
+        "World.Connection.SteamNetworkingSockets" : "Gniazda Sieciowe Steam",
 
         "World.Error.AccessDenied" : "Wstęp Odmówiony",
         "World.Error.SecurityViolation" : "Naruszenie Bezpieczeństwa",
@@ -919,7 +919,7 @@
         "Settings.Audio.StopTest" : "Zakończ Test",
         "Settings.Audio.Monitoring" : "Monitorowanie Mikrofonu:",
         "Settings.Audio.SystemDefaultOutput" : "Używaj Domyślnych Urządzeń",
-        
+
         "Settings.Graphics.DesktopFOV" : "Pole Widzenia Trybu Ekranowego",
 
         "Settings.Locale.ChangeLanguage" : "Zmień Język",
@@ -1013,6 +1013,8 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Gotowe! Usunięto: {n,plural, one {# blendshape} few {# blendshapy} many {# blendshapeów}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Usuń Puste Kości",
         "Inspector.SkinnedMesh.StripBonesResult" : "Gotowe! Usunięto: {n,plural, one {# kość} few {# kości} many {# kości}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Wypal nieaktywne Blendshapy",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Ilość wypalonych blendshapeów: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Wizualizuj obszary kości",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Wizualizuj przybliżone obszary kości",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Usuń wizualizacje obszarów kości",
@@ -1311,7 +1313,7 @@
         "Tutorial.Tooltip.ShapeSecondary" : "Zmień Kształt",
         "Tutorial.Tooltip.WigglerPrimary" : "Wypuść Niewypowiedziane Zła Na Świat",
         "Tutorial.Tooltip.WigglerSecondary" : "Częściowo odzyskaj swoją duszę",
-        
+
         "Tutorial.BotDesigner.Start" : "Rozpocznij",
         "Tutorial.BotDesigner.WearAvatar" : "Ubierz Awatar",
         "Tutorial.BotDesigner.Intro.Title" : "Kreator Robota Neos",
@@ -1379,7 +1381,22 @@
         "Tutorial.Intro.BadgesDescription" : "Odznaki to małe ikony pokazujące informacje o użytkownikach. Tu jest kilka najważnejszych odznak do zapamiętania. Odznaki związane z zaburzeniami zmysłów mogą być dodane używając Bota Neos.",
         "Tutorial.Intro.HelpSite" : "Pomoc",
 
-        "Object.Mirror.Toggle" : "Lokalny Przełącznik",
+        "Object.Mirror.Toggle" : "Lokalny Przycisk",
+
+        "Tutorial.Streaming.StageControl" : "Kontrola Sceny",
+        "Tutorial.Streaming.StageUI" : "Włącz/Wyłącz Interfejs Sceny",
+        "Tutorial.Streaming.StageLights" : "Włącz/Wyłącz Światła Sceny",
+        "Tutorial.Streaming.StageLightController" : "Włącz/Wyłącz Kontroler Świateł",
+        "Tutorial.Streaming.StageMicrophone" : "Włącz/Wyłącz Stojak z Mikrofonem",
+        "Tutorial.Streaming.GreenScreenControl" : "Kontrola Zielonego Ekranu",
+        "Tutorial.Streaming.GreenScreenToggle360" : "Włącz/Wyłącz Scenę 360<sup>o</sup>",
+        "Tutorial.Streaming.GreenScreenTracking" : "Włącz/Wyłącz Podpowiedzi Śledzenia",
+        "Tutorial.Streaming.GreenScreenMarker" : "Stwórz Przenośny Marker",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Zmień Scenę",
+        "Tutorial.Streaming.StreamRoomControl" : "Kontrola Pokoju Transmisji",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "Obraz na Ścianie",
+        "Tutorial.Streaming.StreamRoomLayout" : "Ustaw Układ",
+        "Tutorial.Streaming.StageLightShadowToggle" : "Włącz/Wyłącz Cienie Świateł",
 
         "Exiting.SavingItems" : "Zapisywanie {n, plural, one {# przedmiotu} few {# przedmiotów} many {# przedmiotów}}...",
         "Exiting.SavingChanges" : "Zapisywanie Zmian...",
