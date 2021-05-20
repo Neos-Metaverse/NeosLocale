@@ -1396,6 +1396,7 @@
         "Tutorial.Streaming.StreamRoomControl" : "Управление комнатой стриминга",
         "Tutorial.Streaming.StreamRoomSkyWall" : "Картинка неба",
         "Tutorial.Streaming.StreamRoomLayout" : "Установить разметку",
+        "Tutorial.Streaming.StageLightShadowToggle" : "Переключить тени от освещения",
 
         "Exiting.SavingItems" : "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
         "Exiting.SavingChanges" : "Сохранение Изменений...",
