@@ -1396,6 +1396,7 @@
         "Tutorial.Streaming.StreamRoomControl" : "Ovládání streamovací místnosti",
         "Tutorial.Streaming.StreamRoomSkyWall" : "Obrázek Sky Wall",
         "Tutorial.Streaming.StreamRoomLayout" : "Nastavit rozložení",
+        "Tutorial.Streaming.StageLightShadowToggle" : "Zap/Vyp stíny osvětlení",
 
         "Exiting.SavingItems" : "Ukládám {n, plural, one {# položku} few {# položky} other {# položek}}...",
         "Exiting.SavingChanges" : "Ukládám změny...",
