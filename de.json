@@ -1013,6 +1013,8 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Erledigt! entfernte: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Entferne leere Knochen",
         "Inspector.SkinnedMesh.StripBonesResult" : "Erledigt! entfernte: {n,plural, one {# Knochen} other {# Knochen}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Fixiere freie BlendShapes",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Anzahl BlendShapes die fixiert wurden: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Zeige Knochen Begrenzungsboxen an",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Zeige ungefähre Begrenzungskugeln von zusammengeführten Knochen an",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Entferne Darstellung von Knochen Begrenzungsboxen",
@@ -1343,6 +1345,9 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Sobald Sie einen Avatar besitzen, können Sie<br>auf den Avatar klicken und Avatar Ausrüsten auswählen.<br><br>Speichern Sie den aktuell ausgerüsteten Avatar indem Sie auf <sprite name=Download>  klicken.<br><br>Sie können Ihren Lieblings-Avatar favoritisieren indem Sie auf<br> Ihr Inventar zugreifen und <sprite name=Favorite>  klicken.",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Um einen Benutzerdefinierten Avatar zu importieren,<br>wenden Sie sich an die Neos Avatar Kreations-Anleitung.",
 
+        "Tutorial.Intro.PublicFolders.Title" : "Öffentliche Ordner",
+        "Tutorial.Intro.PublicFolders.Description" : "Öffentliche Ordner sind ein einfacher Weg für Benutzer in der Community öffentliche Kreationen zu teilen.<br><br>Um den Ordner zu speichern: Greifen Sie den Ordner und drücken Sie <sprite name=Add>  in Ihrem Inventar.<br><br>Sie können auch über das Kontext-Menü den Ordner speichern.<br><br>Versuchen Sie dies mit dem <b>The Starter Pack</b>-Ordner. Ein Ordner entworfen speziell für neue Benutzer.",
+
         "Tutorial.AvatarCreator.Intro.Title" : "Neos Avatar Kreation",
         "Tutorial.AvatarCreator.Intro.Description" : "Lernen Sie wie Sie Ihren Avatar importieren!",
         "Tutorial.AvatarCreator.Options.Start" : "Anfangen",
@@ -1366,7 +1371,7 @@
         "Tutorial.UserResources.SupportTitle" : "Neos unterstützen",
         "Tutorial.UserResources.MerchandiseTitle" : "Neos Fanartikel",
 
-        "Tutorial.Intro.BadgesNeosTeam" : "Neos Team",
+        "Tutorial.Intro.BadgesNeosTeam" : "Neos-Team",
         "Tutorial.Intro.BadgesModerator" : "Moderator",
         "Tutorial.Intro.BadgesMentor" : "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing" : "Hör-geschädigt",
@@ -1375,6 +1380,23 @@
         "Tutorial.Intro.BadgesTitle" : "Abzeichen",
         "Tutorial.Intro.BadgesDescription" : "Abzeichen sind kleine Icons, welche Aspekte von Benutzern zeigen. Hier sind ein paar wichtige, welche Sie nicht vergeßen sollten. Die Invalid-Abzeichen sind selbst-designiert durch den Neos-Bot.",
         "Tutorial.Intro.HelpSite" : "Hilfe",
+
+        "Object.Mirror.Toggle" : "Ein-/Ausschalten",
+
+        "Tutorial.Streaming.StageControl" : "Bühnen Kontrolle",
+        "Tutorial.Streaming.StageUI" : "Bühnen UI Ein-/Ausschalten",
+        "Tutorial.Streaming.StageLights" : "Bühnen Lichter Ein-/Ausschalten",
+        "Tutorial.Streaming.StageLightController" : "Licht Regler Ein-/Ausschalten",
+        "Tutorial.Streaming.StageMicrophone" : "Mikrofonständer Ein-/Ausschalten",
+        "Tutorial.Streaming.GreenScreenControl" : "Green-Screen Kontrolle",
+        "Tutorial.Streaming.GreenScreenToggle360" : "360<sup>o</sup> Szene Ein-/Ausschalten",
+        "Tutorial.Streaming.GreenScreenTracking" : "Tracking Referenzen Ein-/Ausschalten",
+        "Tutorial.Streaming.GreenScreenMarker" : "Erstelle greifbaren Marker",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Szenen austauschen",
+        "Tutorial.Streaming.StreamRoomControl" : "Streaming Raum-Kontrolle",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "Himmels-Bild",
+        "Tutorial.Streaming.StreamRoomLayout" : "Layout setzen",
+        "Tutorial.Streaming.StageLightShadowToggle" : "Licht-Schatten Ein-/Ausschalten",
 
         "Exiting.SavingItems" : "Speichere {n, plural, one {# Objekt} other {# Objekte}}...",
         "Exiting.SavingChanges" : "Speichere Änderungen...",
