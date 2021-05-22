@@ -1400,7 +1400,11 @@
         "Tutorial.Streaming.StreamRoomSkyWall" : "배경 선택",
         "Tutorial.Streaming.StreamRoomLayout" : "레이아웃 설정",
         "Tutorial.Streaming.StageLightShadowToggle" : "조명 그림자 토글",
-
+        
+        "Undo.ExtractMaterialsFromHierarchy" : "머티리얼을 계층에서 추출",
+        "Undo.BatchConvertMaterials" : "머티리얼 일괄 바꾸기",
+        "Tooltip.Material.ConvertAll" : "모두 ~로 바꾸기",
+        
         "Dummy": "더미"
     }
 }
