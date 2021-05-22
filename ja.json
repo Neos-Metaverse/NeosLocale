@@ -444,6 +444,9 @@
         "Undo.InsertParent" : "{name}に親を挿入",
         "Undo.Wiggler" : "エヴィルスタッフ",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "階層からマテリアルを抽出",
+        "Undo.BatchConvertMaterials" : "マテリアルのバッチ変換",
+
         "Tooltips.Dev.CreateNew" : "新規作成...",
         "Tooltips.Dev.Selection" : "選択: {mode}",
         "Tooltips.Dev.DevMode.Off" : "開発者モード: Off",
@@ -489,6 +492,7 @@
         "Tooltip.Material.CreateCopy" : "コピーを作成",
         "Tooltip.Material.Edit" : "マテリアルを編集",
         "Tooltip.Material.Convert" : "変換",
+        "Tooltip.Material.ConvertAll" : "全てを変換",
         "Tooltip.Material.CreateNew" : "新規作成",
 
         "Tooltip.Mesh.Edit" : "メッシュの編集",
