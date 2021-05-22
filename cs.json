@@ -444,6 +444,9 @@
         "Undo.InsertParent" : "Vložit parent na {name}",
         "Undo.Wiggler" : "Nemyslitelné děsy",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "Extrahovat materiály z hierarchie",
+        "Undo.BatchConvertMaterials" : "Hromadně konvertovat materiály",
+
         "Tooltips.Dev.CreateNew" : "Vytvořit nový...",
         "Tooltips.Dev.Selection" : "Výběr: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Vývojářský režim: Vypnutý",
