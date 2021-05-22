@@ -444,6 +444,9 @@
         "Undo.InsertParent" : "Insert Parent for {name}",
         "Undo.Wiggler" : "Evil Stuff",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "Extract Materials from Hierarchy",
+        "Undo.BatchConvertMaterials" : "Batch convert materials",
+
         "Tooltips.Dev.CreateNew" : "Create New...",
         "Tooltips.Dev.Selection" : "Selection: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Developer Mode: Off",
@@ -489,6 +492,7 @@
         "Tooltip.Material.CreateCopy" : "Create Copy",
         "Tooltip.Material.Edit" : "Edit Material",
         "Tooltip.Material.Convert" : "Convert to...",
+        "Tooltip.Material.ConvertAll" : "Convert All to...",
         "Tooltip.Material.CreateNew" : "Create New",
 
         "Tooltip.Mesh.Edit" : "Edit Mesh",

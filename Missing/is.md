@@ -62,6 +62,8 @@ Contacts.InHiddenFriendsOfFriends
 Contacts.InLAN  
 Contacts.Bot  
 Notifications.VoiceMessage  
+Undo.ExtractMaterialsFromHierarchy  
+Undo.BatchConvertMaterials  
 Tooltips.Dev.ConfirmDestroySelected  
 Tooltip.Logix.NodeBrowser  
 Tooltip.Logix.UnpackChildren  
@@ -77,6 +79,7 @@ Tooltip.Material.RayMode
 Tooltip.Material.AreaMode  
 Tooltip.Material.ObjectMode  
 Tooltip.Material.SceneMode  
+Tooltip.Material.ConvertAll  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  

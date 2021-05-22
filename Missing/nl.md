@@ -8,6 +8,9 @@ World.Connection.LNL.Relay
 World.Connection.SteamNetworkingSockets  
 Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
+Undo.ExtractMaterialsFromHierarchy  
+Undo.BatchConvertMaterials  
+Tooltip.Material.ConvertAll  
 CameraControl.Control.ScreenSpaceReflections  
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  

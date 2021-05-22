@@ -25,7 +25,10 @@ Permissions.NotAllowedToSpawn
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
 Undo.Wiggler  
+Undo.ExtractMaterialsFromHierarchy  
+Undo.BatchConvertMaterials  
 Tooltips.Dev.ConfirmDestroySelected  
+Tooltip.Material.ConvertAll  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  

@@ -10,6 +10,9 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
 World.Error.FailedToConnect  
+Undo.ExtractMaterialsFromHierarchy  
+Undo.BatchConvertMaterials  
+Tooltip.Material.ConvertAll  
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
 Settings.Audio.WhisperVoiceVolume  

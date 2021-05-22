@@ -2,6 +2,9 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # French [fr]
+Undo.ExtractMaterialsFromHierarchy  
+Undo.BatchConvertMaterials  
+Tooltip.Material.ConvertAll  
 CameraControl.Control.ScreenSpaceReflections  
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  

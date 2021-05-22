@@ -43,7 +43,10 @@ Permissions.NotAllowedToSave
 Permissions.NotAllowedToSwapAvatar  
 Contacts.InHiddenFriendsOfFriends  
 Contacts.Bot  
+Undo.ExtractMaterialsFromHierarchy  
+Undo.BatchConvertMaterials  
 Tooltips.Dev.ConfirmDestroySelected  
+Tooltip.Material.ConvertAll  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  

@@ -393,6 +393,8 @@ Undo.BakeMeshes
 Undo.ChangeMesh  
 Undo.InsertParent  
 Undo.Wiggler  
+Undo.ExtractMaterialsFromHierarchy  
+Undo.BatchConvertMaterials  
 Tooltips.Dev.CreateNew  
 Tooltips.Dev.Selection  
 Tooltips.Dev.DevMode.Off  
@@ -429,6 +431,7 @@ Tooltip.Material.SceneMode
 Tooltip.Material.CreateCopy  
 Tooltip.Material.Edit  
 Tooltip.Material.Convert  
+Tooltip.Material.ConvertAll  
 Tooltip.Material.CreateNew  
 Tooltip.Mesh.Edit  
 Tooltip.Microphone.Format.WAV  

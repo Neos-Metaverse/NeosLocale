@@ -2,6 +2,9 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Spanish [es]
+Undo.ExtractMaterialsFromHierarchy  
+Undo.BatchConvertMaterials  
+Tooltip.Material.ConvertAll  
 Tutorial.Streaming.StageControl  
 Tutorial.Streaming.StageUI  
 Tutorial.Streaming.StageLights  
