@@ -444,6 +444,9 @@
         "Undo.InsertParent" : "Insertar Padre para {name}",
         "Undo.Wiggler" : "Cosas malvadas",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "Extraer Materiales desde Jerarquía",
+        "Undo.BatchConvertMaterials" : "Convertir materiales en lotes",
+
         "Tooltips.Dev.CreateNew" : "Crear Nuevo...",
         "Tooltips.Dev.Selection" : "Selección: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Modo Desarrollador: No",
@@ -489,6 +492,7 @@
         "Tooltip.Material.CreateCopy" : "Crear Copia",
         "Tooltip.Material.Edit" : "Editar Material",
         "Tooltip.Material.Convert" : "Convertir a...",
+        "Tooltip.Material.ConvertAll" : "Convertir Todos a...",
         "Tooltip.Material.CreateNew" : "Crear Nuevo",
 
         "Tooltip.Mesh.Edit" : "Editar malla",
@@ -1344,7 +1348,7 @@
         "Tutorial.AvatarTutorial.FindingAvatars.Description" : "Dispone de Avatares comunes dentro de la carpeta <br>Neos Essentials en su inventario.<br><br>Avatares hechos por la comunidad pueden ser encontrados en carpetas públicas o en mundos publicados.",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Una vez posea un avatar, equípelo haciéndole click<br> y seleccionando Equipar Avatar.<br><br>Guarde su avatar actualmente equipado haciendo click en <sprite name=Download>  .<br><br>Puedes marcar un avatar como favorito seleccionándolo<br>en el inventario y haciendo click en <sprite name=Favorite>  .",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Para importar y configurar un avatar personalizado, vea<br>el tutorial de Creación de Avatares.",
-        
+
         "Tutorial.Intro.PublicFolders.Title" : "Carpetas Públicas",
         "Tutorial.Intro.PublicFolders.Description" : "Las Carpetas Públicas son un medio sencillo por el cual la Comuunidad comparte y actualiza sus Creaciones, tales como Avatares.<br><br>Para guardar una, agarre la carpeta y mientras agarra, presione <sprite name=Add>  en su Inventario.<br><br>También puede guardar con el Menú Contextual.<br><br>Pruebe a guardar la carpeta <b>The Starter Pack</b>, una carpeta destinada a nuevos usuarios.",
 
@@ -1380,8 +1384,23 @@
         "Tutorial.Intro.BadgesTitle" : "Insignias",
         "Tutorial.Intro.BadgesDescription" : "Las Insignias son pequeños íconos que muestran aspectos de un usuario. Aquí hay algunas importantes. Puede asignarse una insignia de impedimento a través del bot Neos.",
         "Tutorial.Intro.HelpSite" : "Ayuda",
-        
+
         "Object.Mirror.Toggle" : "Conmutar Localmente",
+
+        "Tutorial.Streaming.StageControl" : "Control de Escenario",
+        "Tutorial.Streaming.StageUI" : "Conmutar Interfaz de Escenario",
+        "Tutorial.Streaming.StageLights" : "Conmutar Luces del Escenario",
+        "Tutorial.Streaming.StageLightController" : "Conmutar Controlador de Luces",
+        "Tutorial.Streaming.StageMicrophone" : "Conmutar Soporte de Micrófono",
+        "Tutorial.Streaming.GreenScreenControl" : "Control de Pantalla Verde",
+        "Tutorial.Streaming.GreenScreenToggle360" : "Conmutar Escena en 360<sup>o</sup>",
+        "Tutorial.Streaming.GreenScreenTracking" : "Conmutar Referencias para Rastrear",
+        "Tutorial.Streaming.GreenScreenMarker" : "Crear Marcador Agarrable",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Alternar Escena",
+        "Tutorial.Streaming.StreamRoomControl" : "Control de Sala de Retransmisión",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "Imagen de Pared de Cielo",
+        "Tutorial.Streaming.StreamRoomLayout" : "Configurar Disposición",
+        "Tutorial.Streaming.StageLightShadowToggle" : "Conmutar Sombras de Luces",
 
         "Exiting.SavingItems" : "Guardando {n, plural, one {# objeto} other {# objetos}}...",
         "Exiting.SavingChanges" : "Guardando Cambios...",
