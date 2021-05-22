@@ -1399,7 +1399,7 @@
         "Tutorial.Streaming.StreamRoomControl" : "방송실 제어",
         "Tutorial.Streaming.StreamRoomSkyWall" : "배경 선택",
         "Tutorial.Streaming.StreamRoomLayout" : "레이아웃 설정",
-        "Tutorial.Streaming.StageLightShadowToggle" : "그림자 토글",
+        "Tutorial.Streaming.StageLightShadowToggle" : "조명 그림자 토글",
 
         "Dummy": "더미"
     }
