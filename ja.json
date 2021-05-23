@@ -444,6 +444,9 @@
         "Undo.InsertParent" : "{name}に親を挿入",
         "Undo.Wiggler" : "エヴィルスタッフ",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "階層からマテリアルを抽出",
+        "Undo.BatchConvertMaterials" : "マテリアルのバッチ変換",
+
         "Tooltips.Dev.CreateNew" : "新規作成...",
         "Tooltips.Dev.Selection" : "選択: {mode}",
         "Tooltips.Dev.DevMode.Off" : "開発者モード: Off",
@@ -489,6 +492,7 @@
         "Tooltip.Material.CreateCopy" : "コピーを作成",
         "Tooltip.Material.Edit" : "マテリアルを編集",
         "Tooltip.Material.Convert" : "変換",
+        "Tooltip.Material.ConvertAll" : "全てを変換",
         "Tooltip.Material.CreateNew" : "新規作成",
 
         "Tooltip.Mesh.Edit" : "メッシュの編集",
@@ -713,7 +717,7 @@
         "FullBody.SetHeight" : "1) 身長を入力",
         "FullBody.HeightInstructions" : "実際の身長になっていますか？<br>異なっている場合は正しくキャリブレーションできません。<br>ガイドとヘッドセット・コントローラーの位置が合うようにしてください。",
         "FullBody.HeightWarning" : "間違っているようです。<br>実際の身長になっているか確認してください。",
-        "FullBody.ConfirmMapping" : "2) トラッカーのマッピングを確認",
+        "FullBody.ConfirmMapping" : "2) トラッカーの割り当てを確認",
         "FullBody.MappingInstructions" : "まっすぐ立ち、 トラッカーが<br>正しく認識されているか確認してください。",
         "FullBody.StartCalibration" : "トラッカーキャリブレーション開始",
         "FullBody.JustCalibrateAvatar" : "アバターをキャリブレーションする",
@@ -741,7 +745,7 @@
         "FullBody.CalibrateAvatarTitle" : "アバターキャリブレート",
         "FullBody.CalibrateAvatarInstructions" : "全てのボディパーツが<br>正しく配置されていることを確認し、<br>青い球体をドラッグしてアバターを<br>体のガイドに一致させてください。",
         "FullBody.ShowReferenceOverlay" : "リファレンスオーバーレイを表示",
-        "FullBody.ResetAvatarPrompt" : "アバターが見つからない、またはトラッキングされいませんか?",
+        "FullBody.ResetAvatarPrompt" : "アバターが見つからない、またはトラッキングされていませんか?",
         "FullBody.ResetAvatar" : "マッピングリセット",
         "FullBody.AvatarHeightCompensationInstructions" : "アバターの身長が高すぎたり、低すぎる場合は<br>身長補正を調整してください。",
         "FullBody.AvatarHeightCompensation" : "身長補正: {n, number, percent}",
