@@ -492,6 +492,7 @@
         "Tooltip.Material.CreateCopy" : "Vytvořit kopii",
         "Tooltip.Material.Edit" : "Editovat materiál",
         "Tooltip.Material.Convert" : "Převést na...",
+        "Tooltip.Material.ConvertAll" : "Převést všechny na...",
         "Tooltip.Material.CreateNew" : "Vytvořit nový",
 
         "Tooltip.Mesh.Edit" : "Editovat mesh",
