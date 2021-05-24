@@ -1223,6 +1223,7 @@
         "Tutorial.Welcome.PrivateTutorialConfirm" : "プライベートで開始します",
 
         "Tutorial.Intro.WelcomeTitle" : "Neosにようこそ",
+        "Tutorial.Intro.WelcomeDescription" : "メタバースを体験するためのガイドを行います",
 
         "Tutorial.Intro.GrabbingTitle" : "グラブ(掴む)",
         "Tutorial.Intro.GrabbingVR" : "オブジェクトを持つには<color=#77ff77><b>グリップボタン</b></color>で<color=#ffdd77><b>グラブ</b></color>します。<br>離れた物もレーザーを使用してグラブできます。",
