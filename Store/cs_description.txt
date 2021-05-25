@@ -1,0 +1,95 @@
+NeosVR je metaverse navržen pro neznámo! Je jedním z nejvíce všestranných a na funkce bohatých metaversů pro virtuální realitu, designován tak, aby kdokoliv našel nějákou zajímavou nebo užitečnou činnost v sociálním prostředí.
+
+Slouží jako prostředí pro setkávání s multimedii a hrami, sandbox pro tvůrce, stavitele a vývojáře, profesionální pracovní nástroj, vzdělávací prostředí a mnoho dalších!
+
+My věříme, že sociální VR by měla být součástí života každého, nehledě na to co dělají a měla by zlepšit jak komunikují a sdílejí své nápady a svůj život s ostatními. Postavili jsme Neos tak, aby dal vaší mysli superschopnosti.
+
+Pojďte se připojit do naší rozmanité a kreativní komunity a přineste svoji vlastní unikátnost do sdíleného vesmíru! Zde je pár hlavních vlastností, které Neos VR nabízí:
+
+[h2]Nejmodernější avatar systém[/h2]
+
+[list][*]Importujte, sestavte a [b]nastavte váš avatar kompletně přímo ve hře[/b]
+[*]Plně konfigurovatelné [b]full body IK s až 11 body trackování[/b] (hlava, ruce, kyčle, chodidla, hrudník, lokty a kolena)
+[*]Podpora [b]blendshapes[/b] s automatickým nastavením visemes
+[*][b]Interaktivní dynamic bones[/b] s kolizemi a uchopením
+[*]Rychle [b]přidávejte doplňky[/b] nebo modifikujte ve hře - přidání klobouku je tak jednoduché, jako si jej nasadit na hlavu
+[*][b]Vizuální skriptování[/b] pro přidání unikátních přizpůsobení a chování[/list]
+
+[h2]Sociální funkce[/h2]
+
+[list][*][b]Virtuální kamera[b] - pořizujte fotografie, stereo, 360 nebo dokonce výstřižky objektů, s nastavitelným rozlišení
+[*]Jednoduché sdílení médií - [b]zkopírujte a vložte video soubory[b] (včetně YouTube linků), hudbu, obrázky a 3D modely zdarma přímo do do jakéhokoliv světa. Vše je plně synchronizováno
+[*][b]Systém přátel[b] - uvidíte zda jsou vaši přátelé online, a ve kterých světech se nachází
+[*]Systém zpráv - [b]posílejte zprávy, pozvánky a dokonce libovolné objekty[b] přímo uvnitř hry
+[*][b]Integrace s Twitchem[/b] pro vyšší úroveň interakce s publikem - chat s podporou vlastních emotes a přístupem k vizuálnímu skriptování pro interaktivní světy[/list]
+
+[h2]Pokročilý systém pohybu[/h2]
+
+[list][*][b]Chůze, posun, zero-G[/b], sférická gravitace a více
+[*][b]Šplhání[/b] jak po prostředí, tak ostatních hráčích
+[*][b]Teleportery, silová pole, průžiny, portály[/b] a vlastní koordinátové prostory
+[*]Rychlé škálování ve hře - [b]zmenšujte se a zvětšujte do jakékoliv velikosti![/b]
+[*][b]Silně konfigurovatelný a skriptovatelný[/b] - sestavujte jet packy, houpací lana, gravitační výtahy a další kompletně ve hře[/list]
+
+[h2]Dynamický a unikátní zážitek každý den[/h2]
+
+[list][*][b]Inventářový systém[/b] - ukládejte a spawnujte cokoliv a kdekoliv! Nejste limitováni tím, co tvůrce světa do něj zahrnul
+[*][b]Vše je editovatelné![/b] Pokud vlastník světa neuzamkne objekty v něm, jakékoliv objekty ve světě jsou editovatelné, remixovatelné a rozšiřitelné
+[*]Multi-instancing - můžete být připojeni [b]do několika světů ve stejnou chvíli[/b] a okamžitě mezi nimi přepínat jako mezi záložkami ve webovém prohlížeči
+[*][b]Opravy a úpravy[/b] mohou být hotovy [b] v řádech sekund/minut ve hře[/b] - žádný komplexní a časově náročný proces nahrávání není třeba[/list]
+
+[h2]Hřiště tvůrců[/h2]
+
+[list][*][b]Kolaborativně postavte cokoliv v reaálném čase[/b] s vašimi přáteli bez nutnosti sundat váš headset
+[*][b]Jednoduché kreativní nástroje[/b] - štětce, materiálové pistole, tvarové nástroje
+[*][b]Pokročilé budovatelské nástroje[/b] - inspektor scény / komponenty, editační udělátka
+[*][b]Mocný vizuální skriptovací jazyk[/b] (LogiX) umožňující jednoduché přidávání vlastních interakcí k literárně čemukoliv, dále také stavbu komplexních systémů, her a simulací
+[*][b]Importujte herní assety[/b] během své práce - přes 40 formátů 3D modelů (včetně FBX, Blend, OBJ), textury/obrázky, audio[/list]
+
+[h2]Mocný pracovní nástroj[/h2]
+
+[list][*][b]Rozřežte jakýkoliv importovaný 3D model[/b] pro pomoc s vizualizací
+[*][b]Vizualizace volumetrických dat[/b] (např. CT or MRI) s možností řezů a filtrace
+[*][b]Exportujte cokoliv co jste vytvořili[/b] nebo modifikovali jako 3D model a učiňte Neos součástí vaší pipeline
+[*][b]Základní zpracování textur a meshů ve hře[/b] pro běžné modifikace
+[*][b]Pokročilá kamera ve hře s ovládacím panelem[/b], kotvy umožňují jednoduše získat dobré záběry pro video klipy nebo live streamy[/list]
+
+[h2]Svůj zážitek máte pod kontrolou[/h2]
+
+[list][*][b]Systém povolení[/b] k omezení čínností ostatních ve vašich světech
+[*][b]Privátní relace[/b] - s P2P hostingem a bezpečnou authentifikací
+[*]Sebou hostované relace bez námahy 
+[*][b]Headless server[/b] pro vytvoření [b]dedicated serverů[/b] (aktuálně v privátní betě)[/list]
+
+[h2]Široká podpora hardware[/h2]
+
+[list][*][b]PCVR a Mobilní VR[/b] s možností crossplay
+[*]Plnohodnotná podpora Index Controller s [b]trackováním prstů[/b]
+[*][b]Podpora Leap Motion[/b] s full body avatary
+[*][b]Podpora eye trackingu[/b] (Vive Pro Eye) - směr pohledu, zavírání očí, dilatace zorniček
+[*][b]Podpora trackování rtů [/b] (HTC Lip Tracking module) - trackujte vaše ústa, tváře a jazyk na váš avatar nebo využijte čistých dat
+[*][b]Podpora haptické zpětné vazby[/b] (bHaptics, OWO Game Suit) s interakcemi mezi avatary, a okolním prostředím[/list]
+
+[h2]Rapidní vývoj[/h2]
+
+[list][*][b]Nejrychleji roustoucí sociální VR platforma[/b]
+[*][b]Nové důležité funkce každý měsíc[/b]
+[*][b]Aktualizace a opravy bugů (téměř) každý den[/b] - mnoho menších chyb je opraveno během jednoho dne
+[*][b]Řízen komunitou[/b] - váš feedback a podpora udává směr vývoji tohoto projektu![/list]
+
+Neos VR je pro nás produktem lásky, a je naším cílem vybudovat metaverse takovým způsobem, jak si jej představujeme že by měl vypadat, bez ovlivnění velkých korporací. Jsme velmi malý a hbitý tým, ale takto daleko jsme se dostali pouze díky naší úžasné komunitě a Patreon patronům, kteří udržují tento projekt v chodu.
+
+Pokud vás baví to co děláme, zvažte prosím podpoření vývoje. Zde je pár věcí ke kterým přispějete:
+
+[h2]Co přijde do budoucna?[/h2]
+
+[list][*]UI/UX redesign 
+[*]Plnohodnotná fyzika rigidbody
+[*]Systém terénu
+[*]Systém timeline animace
+[*]Sdílení obrazovky
+[*]Pokročilé optimizace
+[*]Nové budovatelské nástroje
+[*]Podpora AR
+[*]Řádná podpora desktopu
+[*]A mnohem více![/list]
