@@ -4,7 +4,7 @@
     "messages" : 
     {
         "General.OK" : "Ókei",
-        "General.Cancel" : "Hætta",Y
+        "General.Cancel" : "Hætta",
         "General.Continue" : "Halda áfram",
         "General.Next" : "Næst",
         "General.Back" : "Til baka",
@@ -414,7 +414,7 @@
         "Undo.CloneComponent" : "Klóna Component",
         "Undo.MoveIKBone" : "Færa IK Bein",
         "Undo.MoveSun" : "Færa sólina",
-        "Undo.ApplyMaterial" : "SItja Material",
+        "Undo.ApplyMaterial" : "Setja Material",
         "Undo.BakeMeshes" : "Baka {name}",
         "Undo.ChangeMesh" : "Breyta Mesh",
         "Undo.InsertParent" : "Stilla in Parent fyrir {name}",
@@ -425,7 +425,7 @@
         "Tooltips.Dev.DevMode.Off" : "Forritarastilling: Af",
         "Tooltips.Dev.DevMode.On" : "Forritarastilling: Á",
         "Tooltips.Dev.OpenInspector" : "Opna Eftirlitsglugga",
-        "Tooltips.Dev.DeselectAll" : "Afvelja allt",;
+        "Tooltips.Dev.DeselectAll" : "Afvelja allt",
         "Tooltips.Dev.DestroySelected" : "Eyða því völdu",
 
 
