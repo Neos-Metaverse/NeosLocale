@@ -112,7 +112,7 @@
         "World.Error.SecurityViolation" : "Öryggisbrot",
         "World.Error.OnlyRegisteredUsers" : "Einungis skráðar notendur fá að tengjast",
         "World.Error.OnlyContacts" : "Einungis meðlimar gestgjafans fá að tengjast",
-
+        "World.Error.OnlyContactsOfContacts" : "Einungis meðlimar af notendur í þinginnu fá að tengjast",
         "World.Error.Private" : "Þingið er Einkaþing",
         "World.Error.SessionEnded" : "Þingið hefur lokað",
         "World.Error.UserLimitReached" : "Þing hefur náð hámarksnotendafjölda",
@@ -208,7 +208,7 @@
         "World.Category.Everything" : "Allt",
         "World.Category.Featured" : "Valin sérstaklega",
         "World.Category.PublishedWorlds" : "Útgefnir veraldar",
-        "World.Category.ActiveSessions" : "Virkir þingir",
+        "World.Category.ActiveSessions" : "Virk þing",
         "World.Category.FriendSessions" : "Þing meðlimar",
         "World.Category.HeadlessSessions" : "Netþjónn hýst þing",
         "World.Category.Social" : "Félagsleg",
@@ -222,11 +222,11 @@
         "World.AccessLevel.Anyone" : "Hver sem er",
         "World.AccessLevel.RegisteredUsers" : "Skráðar notendur",
         "World.AccessLevel.Friends" : "Tengiliðir",
-
+        "World.AccessLevel.FriendsOfFriends" : "Tengiliðir+",
         "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "Einkaþing (einungis boð)",
 
-        "World.SortParameter.SearchScore" : "Search Score",
+        "World.SortParameter.SearchScore" : "Leitarstig",
         "World.SortParameter.Name" : "Nafn",
         "World.SortParameter.OpenedWorldCount" : "Opnaðar veraldar",
         "World.SortParameter.TotalSessionCount" : "Öll þing",
@@ -256,15 +256,15 @@
         "World.Filter.MinimumUptime" : "Lámarks upptími:",
         "World.Filter.Sorting" : "Flokkun:",
 
-
-
-
-
-
-
-
-
-
+        "World.Edit.Title" : "Breyta veraldar Metadata",
+        "World.Edit.Name" : "Nafn veraldar:",
+        "World.Edit.Description" : "Lysing:",
+        "World.Edit.Tags" : "Tags (komma á milli):",
+        "World.Edit.Path" : "Heimsleið:",
+        "World.Edit.AccessLevelHeader" : "Hver getur opnað þennan heim?",
+        "World.Edit.AccessPrivate" : "Bara ég",
+        "World.Edit.AccessPatreon" : "Patreon Stuðningsmeðlimar",
+        "World.Edit.AccessPublic" : "Hver sem er (Almenning)",
 
         "Tools.AvatarCreator" : "Avatar smíðara",
         "Tools.FullBodyCalibrator" : "Full Body stillingagræja",
