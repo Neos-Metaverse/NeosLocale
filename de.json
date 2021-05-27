@@ -444,6 +444,9 @@
         "Undo.InsertParent" : "Parent für {name} einfügen",
         "Undo.Wiggler" : "Böses Zeug",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "Materialien von Hierarchy extrahieren",
+        "Undo.BatchConvertMaterials" : "Batch-Konvertierung",
+
         "Tooltips.Dev.CreateNew" : "Neu...",
         "Tooltips.Dev.Selection" : "Auswahl: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Entwicklermodus: Aus",
@@ -489,6 +492,7 @@
         "Tooltip.Material.CreateCopy" : "Kopie erzeugen",
         "Tooltip.Material.Edit" : "Material bearbeiten",
         "Tooltip.Material.Convert" : "Konvertieren zu...",
+        "Tooltip.Material.ConvertAll" : "Konvertiere alle zu...",
         "Tooltip.Material.CreateNew" : "Neu erstellen",
 
         "Tooltip.Mesh.Edit" : "Mesh bearbeiten",
