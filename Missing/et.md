@@ -16,9 +16,14 @@ Tooltip.Material.ConvertAll
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+Importer.Folder.Minecraft  
+Importer.Folder.Minecraft.Description  
 Importer.Model.Advanced.PreferSpecular  
 Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
+Importer.Model.Advanced.ForcePointFiltering  
+Importer.Model.Advanced.ForceNoMipMaps  
+Importer.Model.Advanced.ForceUncompressed  
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
 Settings.Audio.WhisperVoiceVolume  

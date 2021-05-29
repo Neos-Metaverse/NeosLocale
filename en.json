@@ -589,6 +589,8 @@
         "Importer.Folder.Individual.Description" : "Creates a separate import dialog for each supported file in the folder",
         "Importer.Folder.Batch" : "Batch import",
         "Importer.Folder.Batch.Description" : "Creates a single importer for each type, using same settings for each file",
+        "Importer.Folder.Minecraft" : "Minecraft World",
+        "Importer.Folder.Minecraft.Description" : "Imports a Minecraft World if Mineways is installed.",
 
         "Importer.Image.Title" : "Image Importer",
         "Importer.Image.Prompt" : "What are you importing?",
@@ -663,6 +665,9 @@
         "Importer.Model.Advanced.RandomColors" : "Generate Random Colors",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Spawn Material Orbs",
         "Importer.Model.Advanced.ImagesByName" : "Import Images by Name",
+        "Importer.Model.Advanced.ForcePointFiltering" : "Force Point Filtering",
+        "Importer.Model.Advanced.ForceNoMipMaps" : "No MipMaps",
+        "Importer.Model.Advanced.ForceUncompressed" : "Force Uncompressed",
 
         "Importer.Model.Advanced.Grabbable" : "Make Grabbable",
         "Importer.Model.Advanced.Scalable" : "Make Scalable",

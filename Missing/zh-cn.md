@@ -13,6 +13,11 @@ World.Error.FailedToConnect
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
 Tooltip.Material.ConvertAll  
+Importer.Folder.Minecraft  
+Importer.Folder.Minecraft.Description  
+Importer.Model.Advanced.ForcePointFiltering  
+Importer.Model.Advanced.ForceNoMipMaps  
+Importer.Model.Advanced.ForceUncompressed  
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
 Settings.Audio.WhisperVoiceVolume  

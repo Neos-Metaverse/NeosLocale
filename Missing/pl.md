@@ -5,4 +5,9 @@ Note that this file updates only during Neos build process and doesn't necessari
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
 Tooltip.Material.ConvertAll  
+Importer.Folder.Minecraft  
+Importer.Folder.Minecraft.Description  
+Importer.Model.Advanced.ForcePointFiltering  
+Importer.Model.Advanced.ForceNoMipMaps  
+Importer.Model.Advanced.ForceUncompressed  
 

@@ -509,6 +509,8 @@ Importer.Folder.Title
 Importer.Folder.Individual  
 Importer.Folder.Batch  
 Importer.Folder.Batch.Description  
+Importer.Folder.Minecraft  
+Importer.Folder.Minecraft.Description  
 Importer.Image.Title  
 Importer.Image.Prompt  
 Importer.Image.Regular  
@@ -567,6 +569,9 @@ Importer.Model.Advanced.DeduplicateInstances
 Importer.Model.Advanced.SplitSubmeshes  
 Importer.Model.Advanced.SpawnMaterialOrbs  
 Importer.Model.Advanced.ImagesByName  
+Importer.Model.Advanced.ForcePointFiltering  
+Importer.Model.Advanced.ForceNoMipMaps  
+Importer.Model.Advanced.ForceUncompressed  
 Importer.Model.Advanced.Grabbable  
 Importer.Model.Advanced.Scalable  
 Importer.Model.Advanced.PositionAtOrigin  
