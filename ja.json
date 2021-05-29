@@ -589,10 +589,12 @@
         "Importer.Folder.Individual.Description" : "フォルダ内の対応ファイルごとに個別のダイアログを表示",
         "Importer.Folder.Batch" : "バッチインポート",
         "Importer.Folder.Batch.Description" : "タイプごとに1つのダイアログを表示",
+        "Importer.Folder.Minecraft" : "Minecraftワールド",
+        "Importer.Folder.Minecraft.Description" : "Mineways がインストールされている場合、Minecraft ワールドをインポートします",
 
         "Importer.Image.Title" : "画像インポーター",
         "Importer.Image.Prompt" : "インポートしようとしているものはなんですか?",
-        "Importer.Image.Regular" : "イメージ / テクスチャ",
+        "Importer.Image.Regular" : "画像 / テクスチャ",
         "Importer.Image.360" : "360 フォト / スカイボックス",
         "Importer.Image.StereoPhoto" : "ステレオフォト",
         "Importer.Image.Stereo360" : "ステレオ 360 フォト",
@@ -663,6 +665,9 @@
         "Importer.Model.Advanced.RandomColors" : "ランダムな色を生成する",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "マテリアルオーブを生成",
         "Importer.Model.Advanced.ImagesByName" : "名前で画像をインポート",
+        "Importer.Model.Advanced.ForcePointFiltering" : "画像にポイントフィルタリングを使用",
+        "Importer.Model.Advanced.ForceNoMipMaps" : "ミップマップを無効化",
+        "Importer.Model.Advanced.ForceUncompressed" : "画像を圧縮しない(注:重くなります)",
 
         "Importer.Model.Advanced.Grabbable" : "グラブ可能にする",
         "Importer.Model.Advanced.Scalable" : "スケール可能にする",
