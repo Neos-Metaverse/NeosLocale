@@ -589,6 +589,8 @@
         "Importer.Folder.Individual.Description" : "Crea un cuadro de diálogo de importación independiente para cada archivo admitido en la carpeta",
         "Importer.Folder.Batch" : "Importación por lotes",
         "Importer.Folder.Batch.Description" : "Crea un sólo importador para cada tipo, usando la misma configuración para cada archivo",
+        "Importer.Folder.Minecraft" : "Mundo de Minecraft",
+        "Importer.Folder.Minecraft.Description" : "Importa un mundo de Minecraft si Mineways está instalado.",
 
         "Importer.Image.Title" : "Importar imagen",
         "Importer.Image.Prompt" : "¿Qué está importando?",
@@ -663,6 +665,9 @@
         "Importer.Model.Advanced.RandomColors" : "Generar colores aleatorios",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Crear Esferas de Materiales",
         "Importer.Model.Advanced.ImagesByName" : "Importar imágenes por nombre",
+        "Importer.Model.Advanced.ForcePointFiltering" : "Forzar Filtro de Punto",
+        "Importer.Model.Advanced.ForceNoMipMaps" : "Sin MipMaps",
+        "Importer.Model.Advanced.ForceUncompressed" : "Forzar Descomprimidos",
 
         "Importer.Model.Advanced.Grabbable" : "Hacer agarrable",
         "Importer.Model.Advanced.Scalable" : "Hacer escalable",
