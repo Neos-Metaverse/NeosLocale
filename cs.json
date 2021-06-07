@@ -589,6 +589,8 @@
         "Importer.Folder.Individual.Description" : "Vytvoří individuální dialog pro každý soubor v složce",
         "Importer.Folder.Batch" : "Skupinový import",
         "Importer.Folder.Batch.Description" : "Vytvoří jeden dialog pro všechny soubory stejného typu",
+        "Importer.Folder.Minecraft" : "Minecraft svět",
+        "Importer.Folder.Minecraft.Description" : "Importuje Minecraft svět, pokud je instalován Mineways.",
 
         "Importer.Image.Title" : "Import obrázku",
         "Importer.Image.Prompt" : "Co importujete?",
@@ -663,6 +665,9 @@
         "Importer.Model.Advanced.RandomColors" : "Vygenerovat náhodné barvy",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Vygenerovat materiály",
         "Importer.Model.Advanced.ImagesByName" : "Importovat obrázky podle jména",
+        "Importer.Model.Advanced.ForcePointFiltering" : "Vynutit Point Filtering",
+        "Importer.Model.Advanced.ForceNoMipMaps" : "Žádné MipMaps",
+        "Importer.Model.Advanced.ForceUncompressed" : "Vynutit nekomprimovaný",
 
         "Importer.Model.Advanced.Grabbable" : "Učinit uchopitelným",
         "Importer.Model.Advanced.Scalable" : "Učinit škálovatelným",
