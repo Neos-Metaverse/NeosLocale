@@ -134,6 +134,9 @@ Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description
 Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description  
 Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description  
 Tutorial.Streaming.StreamCamera.Modes.Page1.Description  
+Tutorial.Streaming.StreamCamera.Modes.Page2.Description  
+Tutorial.Streaming.StreamCamera.Modes.Page3.Description  
+Tutorial.Streaming.StreamCamera.Modes.Page4.Description  
 Tutorial.Streaming.StreamCamera.Functions.Page1.Description  
 Tutorial.Streaming.StreamCamera.Functions.Page2.Description  
 Tutorial.Streaming.StreamCamera.Functions.Page3.Description  
