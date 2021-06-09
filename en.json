@@ -1406,22 +1406,22 @@
         "Tutorial.Streaming.StreamRoomSkyWall" : "Sky Wall Image",
         "Tutorial.Streaming.StreamRoomLayout" : "Set Layout",
         "Tutorial.Streaming.StageLightShadowToggle" : "Toggle Light Shadows",
-        
+
         "Tutorial.Streaming.Microphone.Title" : "Microphone Tool",
         "Tutorial.Streaming.Microphone.UsageDescription" : "Once the <b><color=#ffdd77>MICROPHONE TIP</b></color> is equipped audio can be recorded by holding the <b><color=#77ff77>PRIMARY</b></color> button.",
         "Tutorial.Streaming.Microphone.AudioTypeDescription" : "Select the <b><color=#ffdd77>AUDIO FILE TYPE</b></color> you want to use by opening the <b><color=#dd77ff>CONTEXT MENU</b></color> on the tools equiped hand.",
         "Tutorial.Streaming.Microphone.RecordingDescription" : "You can change the <b><color=#ffdd77>RECORDING</b></color> method using the options in the <b><color=#dd77ff>CONTEXT MENU</b></color>.",
         "Tutorial.Streaming.Microphone.RawDescription" : "The <b><color=#ffdd77>AUDIO OUTPUT</b></color> method can be changed to <b><color=#ffdd77>RAW AUDIO</b></color> format in the <b><color=#dd77ff>CONTEXT MENU</b></color>.",
-        
+
         "Tutorial.Streaming.AudioStreaming.Title" : "Audio Streaming",
         "Tutorial.Streaming.AudioStreaming.StreamAudioDescription" : "Desktop audio can be streamed into Neos for others to hear. To stream audio, click <b><color=#ffdd77>STREAM AUDIO</b></color> button on your dashboard homepage.",
         "Tutorial.Streaming.AudioStreaming.StartStreamingDescription" : "Choose a device you would like to stream from the <b><color=#ffdd77>AUDIO INPUT</b></color> list. The input chosen can be previewed in this panel before you begin streaming. Click <b><color=#77ff77>START STREAMING</b></color> to open an audio streaming panel.",
         "Tutorial.Streaming.AudioStreaming.StopStreamingDescription" : "The <b><color=#ffdd77>AUDIO STREAMING PANEL</b></color> allows others in the session to hear audio from your computer. Closing the panel <b><color=red>STOPS</b></color> the stream.",
-        
+
         "Tutorial.Streaming.StreamControl.SkyboxTexture" : "Place Skybox Texture Here",
-        
+
         "Tutorial.Streaming.Twitch.TwitchChat" : "Twitch Chat",
-        
+
         "Tutorial.Streaming.Camera.BasicFunctions.Page1.Title" : "The Camera",
         "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title" : "Taking a Photo",
         "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title" : "UI Zoom Control",
@@ -1448,7 +1448,6 @@
         "Tutorial.Streaming.Camera.BasicFunctions.Page3.Description" : "The <color=#ffdd77><b>ZOOM</b></color> function can be found under <sprite name=Options>. You can interact with the <color=#ffdd77><b>ZOOM SLIDER</b></color> using <color=#77ff77><b>PHYSICAL INTERACTION</b></color> or by using your <color=#dd77ff><b>LASERS</b></color> and <color=#77ff77><b>PRIMARY</b></color>. ",
         "Tutorial.Streaming.Camera.BasicFunctions.Page4.Description" : "You can also control the <color=#ffdd77><b>ZOOM</b></color> amount by <color=#77ff77><b>GRABBING</b></color> the <color=#dd77ff><b>CAMERA LENS</b></color> with your free hand and <color=#77ff77><b>TWISTING</b></color> the <color=#dd77ff><b>CAMERA LENS</b></color> in a physical motion.",
         "Tutorial.Streaming.Camera.Resolution.Page1.Description" : "Under <sprite name=2K> you can find multiple options to change the <color=#ffdd77><b>RESOLUTION</b></color> of the images the <color=#ffdd77><b>CAMERA</b></color> takes.",
-        "Tutorial.Streaming.Camera.Resolution.Page1.Description" : "Under <sprite name=2K> you can find multiple options to change the <color=#ffdd77><b>RESOLUTION</b></color> of the images the <color=#ffdd77><b>CAMERA</b></color> takes.",
         "Tutorial.Streaming.Camera.Mode.Page1.Description" : "<color=#ffdd77><b>BASIC SETTINGS</b></color> can be found under <sprite name=Camera> By default the <color=#ffdd77><b>CAMERA</b></color> is set to <color=#ffdd77><b>STANDARD PHOTO</b></color>, which is the most commonly used <color=#ffdd77><b>CAMERA</b></color> setting to <color=#77ff77><b>CAPTURE</b></color> images. ",
         "Tutorial.Streaming.Camera.Mode.Page2.Description" : "The <color=#ffdd77><b>3D PHOTO</b></color> setting allows you to <color=#77ff77><b>CAPTURE</b></color> images that have an illusion of depth to them, which is achieved by creating a stereoscopic image. Note that this effect only is only viewable with a headset and that the <color=#dd77ff><b>SCREENSHOT</b></color> saved will appear as two images combined side by side in a single file.",
         "Tutorial.Streaming.Camera.Mode.Page3.Description" : "The <color=#ffdd77><b>360 PHOTO</b></color> setting allows the <color=#77ff77><b>CAPTURE</b></color> of <color=#dd77ff><b>EQUIRECTANGULAR 360 IMAGES</b></color> that can be used in a <color=#dd77ff><b>PROJECTION360 MATERIAL</b></color>, for use as a <color=#dd77ff><b>SKYBOX</b></color>.",
@@ -1473,7 +1472,7 @@
         "Tutorial.Streaming.Camera.ExcludeTip.Title" : "Camera Object Exclude Tip",
         "Tutorial.Streaming.Camera.Intro.Title" : "Physical Camera Tutorial",
         "Tutorial.Streaming.Camera.Intro.Description" : "Learn all the functions of the physical camera",
-        
+
         "Tutorial.Streaming.LightTip.Intro.Title" : "Light Tip Tutorial",
         "Tutorial.Streaming.LightTip.Intro.Description" : "Learn all the functions of the light tip",
         "Tutorial.Streaming.LightTip.Titles.BasicUsage" : "Basic Usage",
@@ -1498,7 +1497,7 @@
         "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "<b><color=#77ff77>OBJECTS</b></color> will cast shadows with hard edges.",
         "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "<b><color=#77ff77>OBJECTS</b></color> will cast shadows with soft edges.",
         "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "You can change the <b><color=#ffdd77>COLOR</b></color> of the <b><color=#ffdd77>LIGHT</b></color> using the <b><color=#77ff77>CHANGE COLOR</b></color> option in the <b><color=#77ff77>CONTEXT MENU</b></color>.",
-        
+
         "Tutorial.Streaming.StreamCamera.CameraControl.Title" : "The Camera Control",
         "Tutorial.Streaming.StreamCamera.Overview.Title" : "Camera Control Overview",
         "Tutorial.Streaming.StreamCamera.ControlMovement.Title" : "Camera Control Movement",
@@ -1541,7 +1540,6 @@
         "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "The <b><color=#77ddff>WAYPOINT</b></color> icon opens a panel to control different camera anchors. This is useful for changing to different anchors set in the world as well as the speed of interpolation.",
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "The <b><color=#77ddff>OBS</b></color> icon opens a panel to connect to OBS. This can allow you to quickly start recording using OBS.",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "The <b><color=#77ddff>TWITCH</b></color> icon allows you to see your Twitch chat. You can link your channel by typing the channels name in the top left bar.",
-
 
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
