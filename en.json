@@ -1498,8 +1498,8 @@
         "Tutorial.Streaming.StreamCamera.World.Title" : "World",
         "Tutorial.Streaming.StreamCamera.Manual.Title" : "Manual",
         "Tutorial.Streaming.StreamCamera.Mirror.Title" : "Mirror To Display",
-        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "To<b> <color=#77ff77>SPAWN</color></b> a <b><color=#ffdd77>CAMERA ANCHOR</b></color> press the <b><color=#77ddff>CREATE CAMERA ANCHOR</b></color> button on the left of your UI. Once created you can snap your camera to it by selecting it with <b><color=#77ff77>PRIMARY</b></color>."
-        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "The <b><color=#77ddff>ARROW</b></color> icon opens a panel to control the cameras motion. This can include position, angle, and FOV of the camera for the different preset viewpoints."
+        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "To<b> <color=#77ff77>SPAWN</color></b> a <b><color=#ffdd77>CAMERA ANCHOR</b></color> press the <b><color=#77ddff>CREATE CAMERA ANCHOR</b></color> button on the left of your UI. Once created you can snap your camera to it by selecting it with <b><color=#77ff77>PRIMARY</b></color>.",
+        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "The <b><color=#77ddff>ARROW</b></color> icon opens a panel to control the cameras motion. This can include position, angle, and FOV of the camera for the different preset viewpoints.",
         "Tutorial.Streaming.StreamCamera.Photo.Title" : "Photo",
         "Tutorial.Streaming.StreamCamera.360.Title" : "360 Photo",
         "Tutorial.Streaming.StreamCamera.Users.Title" : "Users",
