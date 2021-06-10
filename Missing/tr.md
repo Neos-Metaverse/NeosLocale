@@ -374,6 +374,8 @@ Tutorial.Streaming.StreamCamera.Group.Title
 Tutorial.Streaming.StreamCamera.World.Title  
 Tutorial.Streaming.StreamCamera.Manual.Title  
 Tutorial.Streaming.StreamCamera.Mirror.Title  
+Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description  
+Tutorial.Streaming.StreamCamera.Features.Page2.Description  
 Tutorial.Streaming.StreamCamera.Photo.Title  
 Tutorial.Streaming.StreamCamera.360.Title  
 Tutorial.Streaming.StreamCamera.Users.Title  
