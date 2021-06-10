@@ -1,9 +1,11 @@
 {
     "localeCode" : "fi",
-    "authors" : ["AdmiralSoap", "Napo", "Hexdigest"],
+    "authors" : ["AdmiralSoap", "Napo", "Hexdigest", "Toni Kat"],
     "messages" : 
     {
         "General.OK" : "OK",
+        "General.Start" : "Aloita",
+        "General.Finish" : "Valmis",
         "General.Cancel" : "Peruuta",
         "General.Continue" : "Jatka",
         "General.Next" : "Seuraava",
@@ -48,6 +50,7 @@
 
         "Interaction.Destroy" : "Tuhoa",
         "Interaction.Duplicate" : "Kopioi",
+        "Interaction.SaveToInventory" : "Tallenna inventaarioon",
         "Interaction.Undo" : "Peruuta",
         "Interaction.Redo" : "Toista",
         "Interaction.EquipTool" : "Ota käteen",
@@ -71,6 +74,7 @@
         "Interaction.SaveAsScreenshot" : "Tallenna kuvana",
         "Interaction.ImportFile" : "Tuo tiedosto",
         "Interaction.ExportFile" : "Vie tiedosto",
+        "Interaction.CopyLink" : "Kopioi linkki",
 
         "Dash.Screens.Home" : "Koti",
         "Dash.Screens.Worlds" : "Maailmoja",
@@ -93,7 +97,7 @@
         "Dash.Exit.ExitAndSave" : "Poistu & tallenna kodit",
         "Dash.Exit.ExitAndDiscard" : "Poistu & hylkää kodit",
         "Dash.Exit.ThankYou" : "Kiitos kun käytät Neosta!",
-        "Dash.Exit.SubmittedBy" : "Kääntäjä: {name}",
+        "Dash.Exit.SubmittedBy" : "Lähettäjä: {name}",
 
         "World.Waiting" : "Odotetaan...",
         "World.HostIsStarting" : "Isäntä aloittaa sessiota...",
@@ -121,6 +125,7 @@
         "World.Error.FailedFetchingAuthentication" : "Todennustietojen noutaminen epäonnistui",
         "World.Error.JoinAlreadyRequested" : "Liittymistä on jo pyydetty",
         "World.Error.FailedConnectToRelay" : "Yhteyden muodostaminen epäonnistui",
+        "World.Error.FailedToConnect" : "Yhteyden muodostaminen epäonnistui",
         "World.Error.NoPort" : "Ei määritettyä porttia",
         "World.Error.IncompatibleVersion" : "Yhteensopimaton Neos Versio",
         "World.Error.Unknown" : "Tuntematon virhe",
@@ -272,7 +277,12 @@
         "Tools.CreateNewWorld" : "Tee uusi maailma",
         "Tools.DepositNCR" : "Talleta NCR",
         "Tools.WithdrawNCR" : "Nosta NCR",
+        "Tools.StreamAudio" : "Äänen suoratoisto",
 
+        "Tools.StreamAudio.Start" : "Aloita suoratoisto",
+        "Tools.StreamAudio.Bitrate" : "Bittinopeus: {bitrate} kbps",
+        "Tools.StreamAudio.PlayForOwner.Off" : "Toista omistajalle: Pois",
+        "Tools.StreamAudio.PlayForOwner.On" : "Toista omistajalle: Päällä",
 
         "Options.FreeformDash.On" : "Liikkuva valikko: Päällä",
         "Options.FreeformDash.Off" : "Liikkuva valikko: Pois",
@@ -344,10 +354,14 @@
         "Session.Permission.PermissionOverrideCount" : "Käyttäjä lupia: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Poista oletus käyttöoikeudet",
 
+        "Permissions.NotAllowedToSpawn" : "Et voi spawnata esineitä tässä maailmassa.",
+        "Permissions.NotAllowedToSave" : "Et voi tallentaa esineitä tässä maailmassa.",
+        "Permissions.NotAllowedToSwapAvatar" : "Mukautettuun avatariin vaihto estetty tässä maailmassa.",
+
         "User.Actions.Silence" : "Hiljennä",
         "User.Actions.Mute" : "Hiljennä",
         "User.Actions.Jump" : "Hyppää",
-        "User.Actions.Respawn" : "Uudelleen synnytä",
+        "User.Actions.Respawn" : "Respawnaa",
         "User.Actions.Kick" : "Potki",
         "User.Actions.Ban" : "Estä sessiosta",
 
@@ -362,7 +376,7 @@
         "Contacts.UnbanFromAllSessions" : "Poista esto KAIKISTA minun sessioistani",
         "Contacts.BanFromCurrentWorld" : "Estä nykyisestä maailmasta",
         "Contacts.UnbanFromCurrentWorld" : "Poista esto nykyisestä maailmasta",
-        "Contacts.RecordingVoiceMessage" : "Nouhoitetaan ääntä...",
+        "Contacts.RecordingVoiceMessage" : "Nauhoitetaan ääntä...",
 
         "Contacts.InSession" : "Maailmassa {name}",
         "Contacts.InPrivate" : "Yksityisessä maailmassa",
@@ -428,6 +442,7 @@
         "Tooltips.Dev.OpenInspector" : "Avaa valintaikkuna",
         "Tooltips.Dev.DeselectAll" : "Lopeta valinta",
         "Tooltips.Dev.DestroySelected" : "Poista valitut",
+        "Tooltips.Dev.ConfirmDestroySelected" : "VARMASTI Poista valitut",
 
         "Tooltip.Logix.NodeBrowser" : "Solmuhakemisto",
         "Tooltip.Logix.UnpackChildren" : "Pura valinta & yhdistetyt solmut",
@@ -465,6 +480,7 @@
         "Tooltip.Material.CreateCopy" : "Tee kopio",
         "Tooltip.Material.Edit" : "Muokkaa materiaalia",
         "Tooltip.Material.Convert" : "Muunna...",
+        "Tooltip.Material.ConvertAll" : "Muunna KAIKKI...",
         "Tooltip.Material.CreateNew" : "Luo uusi",
 
         "Tooltip.Mesh.Edit" : "Muokkaa verkkoa",
@@ -519,6 +535,8 @@
         "Settings.LegacyGripEquip" : "Ota vanha Double Grip käyttöön",
         "Settings.LegacyWorldSwitcher" : "Ota vanha maailma vaihdos käyttöön",
         "Settings.FetchIncompatibleSessions" : "Näytä yhteensopimattomat istunnot",
+        "Settings.MaxConcurrentAssetTransfers" : "Maksimimäärä samanaikaisia tiedostosiirtoja",
+        "Settings.AutosaveScreenshotPath" : "Kuvankaappauksen automaattinen polku",
 
         "Settings.LaserSmoothing.Header" : "Laaserin tasoitus",
         "Settings.LaserSmoothing.Speed" : "Tasoituksen nopeus",
@@ -527,25 +545,34 @@
         "Settings.LaserSmoothing.ModulateExponent" : "Tarrauksen eksponentti",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "Tarrauksen nopeus kerroin",
         "Settings.LaserSmoothing.StickThreshold" : "Kiinnityksen kynnys",
+        "Settings.Laser.ShowInDesktop" : "Näytä laaseri työpöytätilassa",
         "Settings.LaserSmoothing.Reset" : "Nollaa laaserin asetukset",
 
 
         "Settings.Audio.SoundEffects" : "Ääniefektit: {n,number,percent}",
 
-        "Settings.Audio.Voice" : "Ääni: {n,number,percent}",
+        "Settings.Audio.Voice" : "Puhe: {n,number,percent}",
         "Settings.Audio.UI" : "Käyttöliittymä: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization" : "Poista äänen normalisointi",
         "Settings.Audio.NoiseGateThreshold" : "Äänenvoimakkuuden kynnys: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalisoinnin kynnys: {n}",
+        "Settings.Audio.NoiseSupression" : "Kohinanvaimennussuodatin (RNNoise)",
+        "Settings.Audio.WhisperVoiceVolume" : "Kuiskauksen äänenvoimakkuus (kuplan ulkopuolella): {n,number,percent}",
         "Settings.Audio.InputDevice" : "Äänitulolaite:",
+        "Settings.Audio.OutputDevice" : "Äänilähtölaite:",
+        "Settings.Audio.SelectInputDevice" : "Valitse äänitulolaite",
+        "Settings.Audio.SelectOutputDevice" : "Valitse äänilähtölaite",
+
+        "Settings.Locale.ChangeLanguage" : "Vaihda kieli",
+        "Settings.Locale.SelectLanguageHeader" : "Valitse kielesi:",
 
         "Settings.Save" : "Tallenna asetukset",
 
         "Settings.FullBody.Header" : "Full-Body kalibrointi:",
         "Settings.FullBody.FeetPositionSmoothing" : "Jalan sijainnin tasoitus",
-        "Settings.FullBody.FeetRotationSmoothing" : "Jalan rotaatio tasoitus",
+        "Settings.FullBody.FeetRotationSmoothing" : "Jalan käännön tasoitus",
         "Settings.FullBody.HipsPositionSmoothing" : "Vyötärön sijainnin tasoitus",
-        "Settings.FullBody.HipsRotationSmoothing" : "Vyötärön rotaatio tasoitus",
+        "Settings.FullBody.HipsRotationSmoothing" : "Vyötärön käännön tasoitus",
 
         "Settings.Dash.Header" : "Valikko",
         "Settings.Dash.Curvature" : "Kaarevuus",
@@ -557,6 +584,20 @@
         "Settings.LeapMotion.VerticalOffset" : "Vertikaalinen siirto",
         "Settings.LeapMotion.ForwardOffset" : "Eteenpäin siirto",
         "Settings.LeapMotion.SnapDistance" : "Käsiohjain napsautusetäisyys",
+
+        "Settings.WindowsIntegration" : "Windows Integraatio",
+        "Settings.LinuxIntegration" : "Linux Integraatio",
+
+        "Settings.System.KeepOriginalScreenshotFormat" : "Säilytä alkuperäinen kuvaformaatti",
+        "Settings.System.KeepOriginalScreenshotFormat.Description" : "Kun tämä asetus on käytössä, kuvaa ei muunneta .jpg:ksi, kun ne tallennetaan Asiakirjat-kansioon",
+
+        "Desktop.OpenKeyboard" : "Avaa näppäimistö",
+        "Desktop.FollowCursor.On" : "Seuraa osoitinta: Päällä",
+        "Desktop.FollowCursor.Off" : "Seuraa osoitinta: Pois",
+        "Desktop.LegacyInputMode.On" : "Vanha syöttömuoto: Päällä",
+        "Desktop.LegacyInputMode.Off" : "Vanha syöttömuoto: Pois",
+        "Desktop.Brightness" : "Kirkkaus: {n,number,percent}",
+        "Desktop.Opacity" : "Läpinäkyvyys: {n,number,percent}",
 
         "Tutorial.Welcome.WelcomeTo" : "Tervetuloa",
         "Tutorial.Welcome.LetsStart" : "Aloitetaan!",
@@ -754,6 +795,10 @@
         "Tutorial.Intro.BadgesTitle" : "Merkit",
         "Tutorial.Intro.BadgesDescription" : "Merkit ovat pieniä ikoneita jotka kuvaavat käyttäjää. Tässä lista muutamasta merkistä, jotka kannattaa muistaa. Kuulo-, näkö- ja puhevammaisuuden merkit pystyy itse lisäämään Neos botti komentojen kautta.",
         "Tutorial.Intro.HelpSite" : "Apua",
+
+        "Exiting.SavingChanges" : "Tallennetaan muutoksia...",
+        "Exiting.Exiting" : "Suljetaan...",
+        "Exiting.LoggingOut" : "Kirjaudutaan ulos...",
 
         "Dummy" : "Dummy"
     }
