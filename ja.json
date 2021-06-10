@@ -1508,6 +1508,8 @@
         "Tutorial.Streaming.StreamCamera.World.Title" : "ワールド固定",
         "Tutorial.Streaming.StreamCamera.Manual.Title" : "マニュアル",
         "Tutorial.Streaming.StreamCamera.Mirror.Title" : "デスクトップにミラーリング",
+        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "カメラ アンカーを取り出すには、UI の左側にある<b><color=#77ddff>カメラアンカー配置</b></color>ボタンを押します。カメラアンカーを<b><color=#77ff77>トリガー</b></color>で選択することでカメラを移動できます。",
+        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "<b><color=#77ddff>矢印</b></color>アイコンは、カメラの動きを制御するパネルを開きます。さまざまなプリセット視点のカメラの位置、角度、FOVを設定できます。",
         "Tutorial.Streaming.StreamCamera.Photo.Title" : "撮影",
         "Tutorial.Streaming.StreamCamera.360.Title" : "360度撮影",
         "Tutorial.Streaming.StreamCamera.Users.Title" : "ユーザー",
