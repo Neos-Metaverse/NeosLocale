@@ -1,6 +1,6 @@
 {
 	"localeCode": "ko",
-	"authors": ["MirPASEC", "R3C0D3r", "LUA", "Guide"],
+	"authors": ["MirPASEC", "R3C0D3r", "LUA", "Guide", "Titancube"],
 	"messages": {
         "General.OK": "확인",
         "General.Finish" : "완료",
@@ -423,7 +423,7 @@
 
         "Tooltip.Light.Point": "점(Point)",
         "Tooltip.Light.Spot": "스포트라이트(Spot)",
-        "Tooltip.Light.Sun": "태양(Sun)",
+        "Tooltip.Light.Sun": "태양(Sun)/직사(Directional)",
 
         "Tooltip.MeshVisibility.KeepShadow": "그림자 유지",
         "Tooltip.MeshVisibility.ShadowOff": "그림자 끄기",
@@ -448,7 +448,7 @@
         "Tooltip.Microphone.Format.WAV" : "WAV",
         "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC" : "FLAC",
-        "Tooltip.Microphone.ModeHold" : "트리거로 녹음",
+        "Tooltip.Microphone.ModeHold" : "프라이머리(트리거) 액션으로 녹음",
         "Tooltip.Microphone.ModePress" : "토글(켜기/끄기)로 녹음",
         "Tooltip.Microphone.SourceRaw" : "Raw",
         "Tooltip.Microphone.SourceFiltered" : "필터 및 정규화",
@@ -505,7 +505,7 @@
         "CreateNew.Light": "빛",
         "CreateNew.Light.Point": "점(Point)",
         "CreateNew.Light.Spot": "스포트라이트(Spot)",
-        "CreateNew.Light.Directional": "직사(Directional)",
+        "CreateNew.Light.Directional": "태양(Sun)/직사(Directional)",
 
         "CreateNew.Materials": "머티리얼(Materials)",
 
@@ -665,10 +665,10 @@
         "FullBody.JustCalibrateAvatar": "아바타를 조정합니다.",
         "FullBody.JustCalibrateAvatarDescription": "풀 바디 조정을 건너 뛰고, 바로 아바타 조정에 들어갑니다.",
         "FullBody.SkipAndAdjustAvatar": "건너 뛰고 아바타 조정",
-        "FullBody.CalibrateInstructions": "설정판에 나타난 투명 아바타에 자신의 몸을 최대한 맞추고, 양 컨트롤러의 트리거를 동시에 당깁니다.",
+        "FullBody.CalibrateInstructions": "설정판에 나타난 투명 아바타에 자신의 몸을 최대한 맞추고, 양 컨트롤러의 프라이머리 액션(트리거)을 동시에 당깁니다.",
 
         "FullBody.BeforeCalibrationInstructions": "모든 트래커가 제대로 작동중인지 확인하고, 키가 제대로 설정되었는지 확인하세요.",
-        "FullBody.CalibratingPoseInstructions": "투명 아바타와 몸을 일치시키고 양 쪽 트리거를 동시에 눌러 확인하세요.",
+        "FullBody.CalibratingPoseInstructions": "투명 아바타와 몸을 일치시키고 양 쪽 프라이머리 액션(트리거)을 동시에 눌러 확인하세요.",
         "FullBody.AdjustAvatarInstructions": "투명 아바타에 최대한 일치되도록 조정하세요.",
         "FullBody.FineTuneCalibrationInstructions": "파란색 원형 참조점을 움직여 세밀한 조정이 가능합니다.",
 
@@ -734,7 +734,7 @@
         "CameraControl.Settings.ForceEyesOnCamera": "아바타의 시선을 카메라로 고정",
         "CameraControl.Settings.HideBadges": "배지 숨기기",
         "CameraControl.Settings.HideLasers": "지시선 숨기기",
-        "CameraControl.Settings.ShowFrustum": "투사 안내선 보이기",
+        "CameraControl.Settings.ShowFrustum": "카메라 시야를 시각화",
         "CameraControl.Settings.PhotoTimer": "사진 촬영 타이머 사용하기",
         "CameraControl.Settings.ShowLiveBadge": "방송배지(LIVE) 보이기",
         "CameraControl.Settings.AudioFromCameraViewpoint" : "카메라 시점을 기준으로 음향 캡쳐",
@@ -1410,6 +1410,31 @@
         "Importer.Model.Advanced.ForcePointFiltering" : "포인트 필터링 강제적용",
         "Importer.Model.Advanced.ForceNoMipMaps" : "밉맵 없음",
         "Importer.Model.Advanced.ForceUncompressed" : "강제 압축 해제",
+		
+		"Tutorial.Streaming.LightTip.Intro.Title" : "광원 툴팁 자습서",
+        "Tutorial.Streaming.LightTip.Intro.Description" : "광원 툴팁에서 제공하는 기능을 알아봅니다.",
+        "Tutorial.Streaming.LightTip.Titles.BasicUsage" : "기본적인 사용방법",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfLights" : "광원의 유형",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfShadows" : "그림자의 유형",
+        "Tutorial.Streaming.LightTip.Titles.ChangingColor" : "색상 변경",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Title" : "광원 툴팁",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Title" : "광원 만들기",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Title" : "점(Point)",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title" : "스포트라이트(Spot)",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Title" : "태양(Sun)/직사광(Directional)",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Title" : "그림자 제거",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Title" : "강한 그림자",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Title" : "부드러운 그림자",
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "색상 선택 패널",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "<color=#dd77ff><b>보관함</b></color>의 <color=#dd77ff><b>NEOS ESSENTIALS</b></color> 폴더에서 <color=#ffdd77><b>LIGHT TIP</b></color>을 <color=#77ff77><b>생성</b></color>할 수 있습니다. 광원 툴팁은 Neos 월드에 <color=#77ff77><b>광원을 생성</b></color>하는 기본 도구입니다.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "<color=#ffdd77><b>LIGHT TIP</b></color>은 기본적으로 <color=#77ff77><b>프라이머리 액션(트리거)</b></color>을 클릭했을 때 <color=#dd77ff><b>점(Point) 광원</b></color>을 생성합니다. <color=#77ff77><b>프라이머리 액션(트리거)</b></color>을 클릭한 채로 드래그하면, 드래그한 위치에 따라 광원의 <color=#dd77ff><b>밝기</b></color>가 <color=#dd77ff><b>변경</b></color>됩니다.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "The <color=#ffdd77><b>점(Point) 광원</b></color>은 하나의 점에서 모든 방향을 <color=#77ff77><b>밝히고</b></color> 거리에 따라<color=#dd77ff><b>세기가 감소</b></color>하는 광원을 생성합니다.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Description" : "<color=#ffdd77><b>스포트라이트(Spot)</b></color>는 광원 시작점으로부터 지정된 특정 방향을 원뿔 모양으로 <color=#77ff77><b>밝히고</b></color> 거리에 따라<color=#dd77ff><b>밝기가 감소</b></color>하는 광원을 생성합니다.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Description" : "<color=#ffdd77><b>직사(Directional) 광원</b></color>은 태양처럼 월드 내에서 거리에 상관 없이 <color=#dd77ff><b>동일한 밝기</b></color>의 빛을 방출합니다.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description" : "<b><color=#77ff77>물체</b></color>에 그림자가 생기지 <b><color=red>않습니다</b></color>.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "그림자의 모서리가 또렷해집니다.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "그림자의 모서리가 부드럽게 만들어집니다.",
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "<color=#77ff77>컨텍스트 메뉴</b></color>에서 <color=#77ff77>색상 변경</b></color> 옵션을 변경하여 <color=#ffdd77>광원</b></color>의 <b><color=#ffdd77>색상</b></color>을 변경할 수 있습니다.",
 
         "Dummy": "더미"
     }
