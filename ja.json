@@ -1537,7 +1537,7 @@
         "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "<b><color=#ffdd77>カメラアンカー</b></color>を取り出すには、UIの左側にある<b><color=#77ddff>カメラアンカー配置</b></color>ボタンを<br>押します。カメラアンカーを<b><color=#77ff77>トリガー</b></color>で選択することでカメラを移動できます。",
         "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "プレビュー画面の右上にある<b><color=#77ddff>歯車</b></color>アイコンを押すと右端に追加のカメラ設定が出ます。<br>ここから、レンダリング設定、ユーザーコントロール、および追尾距離を変更できます。",
         "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "<b><color=#77ddff>矢印</b></color>アイコンは、カメラの動きを制御するパネルを開きます。<br>各モードのカメラの位置、角度、FOVを設定できます。",
-        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "<b><color=#77ddff>ウェイポイント</b></color>アイコンは、さまざまなカメラアンカーを制御するパネルを開きます。これは、<br>補間の速度だけでなく、ワールドに設定された異なるアンカーに変更する場合にも役立ちます。",
+        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "<b><color=#77ddff>ピン</b></color>アイコンは、カメラアンカーを制御するパネルを開きます。これは、補間の<br>速度だけでなく、ワールドに設定したアンカー間を移動する場合にも役立ちます。",
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "<b><color=#77ddff>OBS</b></color>アイコンは、OBSに接続するためのパネルを開きます。<br>これにより、OBSを使用した録画をすばやく開始できます。",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "<b><color=#77ddff>TWITCH</b></color>アイコンは、Twitchのチャットを表示できます。<br>こ左上のバーにチャンネル名を入力して、チャンネルをリンクできます。",
 
