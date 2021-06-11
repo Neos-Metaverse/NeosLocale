@@ -1406,22 +1406,22 @@
         "Tutorial.Streaming.StreamRoomSkyWall" : "Sky Wall Image",
         "Tutorial.Streaming.StreamRoomLayout" : "Set Layout",
         "Tutorial.Streaming.StageLightShadowToggle" : "Toggle Light Shadows",
-        
+
         "Tutorial.Streaming.Microphone.Title" : "Microphone Tool",
         "Tutorial.Streaming.Microphone.UsageDescription" : "Once the <b><color=#ffdd77>MICROPHONE TIP</b></color> is equipped audio can be recorded by holding the <b><color=#77ff77>PRIMARY</b></color> button.",
         "Tutorial.Streaming.Microphone.AudioTypeDescription" : "Select the <b><color=#ffdd77>AUDIO FILE TYPE</b></color> you want to use by opening the <b><color=#dd77ff>CONTEXT MENU</b></color> on the tools equiped hand.",
         "Tutorial.Streaming.Microphone.RecordingDescription" : "You can change the <b><color=#ffdd77>RECORDING</b></color> method using the options in the <b><color=#dd77ff>CONTEXT MENU</b></color>.",
         "Tutorial.Streaming.Microphone.RawDescription" : "The <b><color=#ffdd77>AUDIO OUTPUT</b></color> method can be changed to <b><color=#ffdd77>RAW AUDIO</b></color> format in the <b><color=#dd77ff>CONTEXT MENU</b></color>.",
-        
+
         "Tutorial.Streaming.AudioStreaming.Title" : "Audio Streaming",
         "Tutorial.Streaming.AudioStreaming.StreamAudioDescription" : "Desktop audio can be streamed into Neos for others to hear. To stream audio, click <b><color=#ffdd77>STREAM AUDIO</b></color> button on your dashboard homepage.",
         "Tutorial.Streaming.AudioStreaming.StartStreamingDescription" : "Choose a device you would like to stream from the <b><color=#ffdd77>AUDIO INPUT</b></color> list. The input chosen can be previewed in this panel before you begin streaming. Click <b><color=#77ff77>START STREAMING</b></color> to open an audio streaming panel.",
         "Tutorial.Streaming.AudioStreaming.StopStreamingDescription" : "The <b><color=#ffdd77>AUDIO STREAMING PANEL</b></color> allows others in the session to hear audio from your computer. Closing the panel <b><color=red>STOPS</b></color> the stream.",
-        
+
         "Tutorial.Streaming.StreamControl.SkyboxTexture" : "Place Skybox Texture Here",
-        
+
         "Tutorial.Streaming.Twitch.TwitchChat" : "Twitch Chat",
-        
+
         "Tutorial.Streaming.Camera.BasicFunctions.Page1.Title" : "The Camera",
         "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title" : "Taking a Photo",
         "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title" : "UI Zoom Control",
@@ -1457,7 +1457,7 @@
         "Tutorial.Streaming.Camera.ImageFilters.Page3.Description" : "The <color=#ffdd77><b>GREYSCALE</b></color> filter removes all saturation from colors.",
         "Tutorial.Streaming.Camera.ImageFilters.Page4.Description" : "The <color=#ffdd77><b>SEPIA</b></color> filter removes all saturation from colors and hue shifts them to emulate the look of tintype photographs.",
         "Tutorial.Streaming.Camera.ImageFilters.Page5.Description" : "The <color=#ffdd77><b>RAINBOW</b></color> filter can be used to add some color to your photos.",
-        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Description" : "<color=#ffdd77><b>ADVANCED SETTINGS</b></color> can be found under <sprite name=OptionsPlus>. By default none of these are active. <color=#ffdd77><b>FRUSTRUM</b></color> is the first in the column, it creates a <color=#dd77ff><b>VISUAL</b></color> which is the area that will be shown in the <color=#dd77ff><b>PREVIEW SCREEN</b></color> of the <color=#ffdd77><b>CAMERA</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Description" : "<color=#ffdd77><b>ADVANCED SETTINGS</b></color> can be found under <sprite name=OptionsPlus>. By default none of these are active. <color=#ffdd77><b>FRUSTUM</b></color> is the first in the column, it creates a <color=#dd77ff><b>VISUAL</b></color> which is the area that will be shown in the <color=#dd77ff><b>PREVIEW SCREEN</b></color> of the <color=#ffdd77><b>CAMERA</b></color>.",
         "Tutorial.Streaming.Camera.OptionsPlus.Page2.Description" : "The <color=#ffdd77><b>TIMER</b></color> option can be <color=#77ff77><b>ACTIVATED</b></color> with <sprite name=Timer>. It creates a 10 second countdown timer which starts when you <color=#77ff77><b>CAPTURE</b></color> an image by using your <color=#77ff77><b>PRIMARY</b></color> on the <color=#dd77ff><b>BUTTON</b></color> on top of the <color=#ffdd77><b>CAMERA</b></color>, or while <color=#77ff77><b>GRABBING</b></color> the <color=#dd77ff><b>CAMERA BODY</b></color> and pressing <color=#77ff77><b>PRIMARY</b></color>.",
         "Tutorial.Streaming.Camera.OptionsPlus.Page3.Description" : "The <color=#ffdd77><b>SCREENSPACE REFLECTIONS</b></color> option enables reflections based off of the viewport of the <color=#ffdd77><b>CAMERA</b></color>.",
         "Tutorial.Streaming.Camera.OptionsPlus.Page4.Description" : "The <color=#ffdd77><b>FLASH</b></color> option can be <color=#77ff77><b>ACTIVATED</b></color> with <sprite name=Lightning>. This <color=#77ff77><b>EXTENDS</b></color> a <color=#dd77ff><b>LIGHT</b></color> out of top of the <color=#dd77ff><b>CAMERA BODY</b></color> that <color=#77ff77><b>ILLUMINATES</b></color> the <color=#dd77ff><b>SCENE</b></color>. ",
@@ -1472,7 +1472,7 @@
         "Tutorial.Streaming.Camera.ExcludeTip.Title" : "Camera Object Exclude Tip",
         "Tutorial.Streaming.Camera.Intro.Title" : "Physical Camera Tutorial",
         "Tutorial.Streaming.Camera.Intro.Description" : "Learn all the functions of the physical camera",
-        
+
         "Tutorial.Streaming.LightTip.Intro.Title" : "Light Tip Tutorial",
         "Tutorial.Streaming.LightTip.Intro.Description" : "Learn all the functions of the light tip",
         "Tutorial.Streaming.LightTip.Titles.BasicUsage" : "Basic Usage",
@@ -1497,7 +1497,7 @@
         "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "<b><color=#77ff77>OBJECTS</b></color> will cast shadows with hard edges.",
         "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "<b><color=#77ff77>OBJECTS</b></color> will cast shadows with soft edges.",
         "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "You can change the <b><color=#ffdd77>COLOR</b></color> of the <b><color=#ffdd77>LIGHT</b></color> using the <b><color=#77ff77>CHANGE COLOR</b></color> option in the <b><color=#77ff77>CONTEXT MENU</b></color>.",
-        
+
         "Tutorial.Streaming.StreamCamera.CameraControl.Title" : "The Camera Control",
         "Tutorial.Streaming.StreamCamera.Overview.Title" : "Camera Control Overview",
         "Tutorial.Streaming.StreamCamera.ControlMovement.Title" : "Camera Control Movement",
