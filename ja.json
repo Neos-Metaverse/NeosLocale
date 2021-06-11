@@ -1411,7 +1411,7 @@
         "Tutorial.Streaming.Microphone.UsageDescription" : "<b><color=#ffdd77>MICROPHONE TIP</b></color>を装着すると、<b><color=#77ff77>トリガー</b></color>ボタン<br>を長押しすることで自分の声を録音できます。",
         "Tutorial.Streaming.Microphone.AudioTypeDescription" : "使用する<b><color=#ffdd77>ファイル形式</b></color>を変更するには、ツールを<br>装備した手で<b><color=#dd77ff>コンテキストメニュー</b></color>を開きます。",
         "Tutorial.Streaming.Microphone.RecordingDescription" : "<b><color=#dd77ff>コンテキストメニュー</b></color>から、<b><color=#ffdd77>録音モード</b></color>を変更できます。",
-        "Tutorial.Streaming.Microphone.RawDescription" : "<b><color=#dd77ff>コンテキストメニュー</b></color>から、音源に対して<br><b><color=#ffdd77>フィルタリング・正規化</b></color>を行か変更できます。",
+        "Tutorial.Streaming.Microphone.RawDescription" : "<b><color=#dd77ff>コンテキストメニュー</b></color>から、音源に対して<br><b><color=#ffdd77>フィルタリング・正規化</b></color>を行うか変更できます。",
 
         "Tutorial.Streaming.AudioStreaming.Title" : "音声配信",
         "Tutorial.Streaming.AudioStreaming.StreamAudioDescription" : "デスクトップ音声ををNeosVRへ配信して、他の人に聞かせる<br>ことができます。音声配信するには、ダッシュメニューの<br>ホームの<b><color=#ffdd77>ストリームオーディオ</b></color>ボタンをクリックします。",
