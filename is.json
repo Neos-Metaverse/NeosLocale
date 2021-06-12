@@ -1203,7 +1203,7 @@
         "Tutorial.Welcome.AccountLogin" : "Ég er nú þegar með reikning",
         "Tutorial.Welcome.AccountSkip" : "Halda áfram án reiknings",
         "Tutorial.Welcome.AccountSkipHeader" : "Sleppa áð búa til reikning?",
-        "Tutorial.Welcome.AccountSkipDescription" : "Sumpt verður ekki aðgengilegt eins og að vista hlutir æi birgðarhald, eftirlæta avatara, bæta fólk við sem tengilið, og einungis aðgang að hystum veröldum stillt sem hver sem er getur tengst.",
+        "Tutorial.Welcome.AccountSkipDescription" : "Sumpt verður ekki aðgengilegt eins og að vista hlutir í birgðarhald, eftirlæta avatara, bæta fólk við sem tengilið, og einungis aðgang að hystum veröldum stillt sem hver sem er getur tengst.",
         "Tutorial.Welcome.AccountSkipConfirm" : "Sleppa virkilega",
 
         "Tutorial.Welcome.SettingsHeader" : "Grunnstillingar",
