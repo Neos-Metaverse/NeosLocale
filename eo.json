@@ -1383,17 +1383,17 @@
 
         "Object.Mirror.Toggle" : "Loka Baskulo",
         
-        "Tutorial.Streaming.StageControl" : "Sceneja Regilo",
+        "Tutorial.Streaming.StageControl" : "Regilo de scenejo",
         "Tutorial.Streaming.StageUI" : "Baskuligi Scenejan UI",
         "Tutorial.Streaming.StageLights" : "Baskuligi Scenej-lumojn",
         "Tutorial.Streaming.StageLightController" : "Baskuligi Lum-regilon",
         "Tutorial.Streaming.StageMicrophone" : "Baskuligi Mikrofon-stativon",
-        "Tutorial.Streaming.GreenScreenControl" : "Verd-kurtena Regilo",
+        "Tutorial.Streaming.GreenScreenControl" : "Regilo de verda ekrano",
         "Tutorial.Streaming.GreenScreenToggle360" : "Baskuligi 360<sup>o</sup> Scenon",
         "Tutorial.Streaming.GreenScreenTracking" : "Baskuligi Spuradajn Referencojn",
         "Tutorial.Streaming.GreenScreenMarker" : "Krei Teneblan Indikilon",
-        "Tutorial.Streaming.GreenScreenCycleScene" : "Cikli Scenon",
-        "Tutorial.Streaming.StreamRoomControl" : "Elsendflueja Regilo",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Cikligi scenon",
+        "Tutorial.Streaming.StreamRoomControl" : "Regilo de la elsendfluejo",
         "Tutorial.Streaming.StreamRoomSkyWall" : "Ĉiel-mura Bildo",
         "Tutorial.Streaming.StreamRoomLayout" : "Agordi Aranĝon",
 
