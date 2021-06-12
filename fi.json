@@ -181,7 +181,7 @@
         "World.Indicator.Author" : "Tehnyt: {name}",
         "World.Indicator.Host" : "Isäntä: {name}",
         "World.Indicator.Hosting" : "Isännöi",
-        "World.Indicator.Sessions" : "{n,plural, yksi {# session} muut {# sessions}}",
+        "World.Indicator.Sessions" : "{n,plural, one {# sessio} other {# sessiota}}",
         "World.Indicator.Users" : "Käyttäjät",
         "World.Indicator.Users.None" : "(Aktiivisia sessioita ei löytynyt)",
         "World.Indicator.Description" : "Kuvaus",

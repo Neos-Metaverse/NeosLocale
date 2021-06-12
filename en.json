@@ -444,6 +444,9 @@
         "Undo.InsertParent" : "Insert Parent for {name}",
         "Undo.Wiggler" : "Evil Stuff",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "Extract Materials from Hierarchy",
+        "Undo.BatchConvertMaterials" : "Batch convert materials",
+
         "Tooltips.Dev.CreateNew" : "Create New...",
         "Tooltips.Dev.Selection" : "Selection: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Developer Mode: Off",
@@ -489,6 +492,7 @@
         "Tooltip.Material.CreateCopy" : "Create Copy",
         "Tooltip.Material.Edit" : "Edit Material",
         "Tooltip.Material.Convert" : "Convert to...",
+        "Tooltip.Material.ConvertAll" : "Convert All to...",
         "Tooltip.Material.CreateNew" : "Create New",
 
         "Tooltip.Mesh.Edit" : "Edit Mesh",
@@ -585,6 +589,8 @@
         "Importer.Folder.Individual.Description" : "Creates a separate import dialog for each supported file in the folder",
         "Importer.Folder.Batch" : "Batch import",
         "Importer.Folder.Batch.Description" : "Creates a single importer for each type, using same settings for each file",
+        "Importer.Folder.Minecraft" : "Minecraft World",
+        "Importer.Folder.Minecraft.Description" : "Imports a Minecraft World if Mineways is installed.",
 
         "Importer.Image.Title" : "Image Importer",
         "Importer.Image.Prompt" : "What are you importing?",
@@ -659,6 +665,9 @@
         "Importer.Model.Advanced.RandomColors" : "Generate Random Colors",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Spawn Material Orbs",
         "Importer.Model.Advanced.ImagesByName" : "Import Images by Name",
+        "Importer.Model.Advanced.ForcePointFiltering" : "Force Point Filtering",
+        "Importer.Model.Advanced.ForceNoMipMaps" : "No MipMaps",
+        "Importer.Model.Advanced.ForceUncompressed" : "Force Uncompressed",
 
         "Importer.Model.Advanced.Grabbable" : "Make Grabbable",
         "Importer.Model.Advanced.Scalable" : "Make Scalable",
@@ -1013,6 +1022,8 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Done! Stripped: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Strip Empty Bones",
         "Inspector.SkinnedMesh.StripBonesResult" : "Done! Stripped: {n,plural, one {# bone} other {# bones}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Bake Non-Driven BlendShapes",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Baked BlendShapes: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Visualize bone bounding boxes",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Visualize approximate merged bone sphere bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Remove bone bounding box visuals",
@@ -1343,7 +1354,7 @@
         "Tutorial.AvatarTutorial.FindingAvatars.Description" : "Common avatars are located in the<br>Neos Essentials folder in your inventory.<br><br>Community-made avatars can be found in public folders or published worlds.",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Once you have an avatar, equip it by clicking<br>on it and choosing Equip Avatar.<br><br>Save your currently equipped avatar by clicking <sprite name=Download>  .<br><br>You can favorite your avatar by selecting it in your<br>inventory and clicking <sprite name=Favorite>  .",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "To import and setup a custom avatar, refer to<br>the Neos Avatar Creation tutorial.",
-        
+
         "Tutorial.Intro.PublicFolders.Title" : "Public Folders",
         "Tutorial.Intro.PublicFolders.Description" : "Public Folders are an easy way for users in the Community to share and update their Creations like Avatars.<br><br>To save, grab the folder, then while holding press <sprite name=Add>  in your Inventory.<br><br>You can also save with your Context Menu.<br><br>Try it with <b>The Starter Pack</b>. A folder designed for new users.",
 
@@ -1377,11 +1388,11 @@
         "Tutorial.Intro.BadgesDisabilityVision" : "Vision Impaired",
         "Tutorial.Intro.BadgesDisabilitySpeech" : "Speech Impaired",
         "Tutorial.Intro.BadgesTitle" : "Badges",
-        "Tutorial.Intro.BadgesDescription" : "Badges are small icons which show aspects of a user. Here are a few important badges to remember. The disability badges can be self assigned though the Neos bot.",
+        "Tutorial.Intro.BadgesDescription" : "Badges are small icons which show aspects of a user. Here are a few important badges to remember. The disability badges can be self assigned though the Neos bot. For more information please check the Neos Wiki",
         "Tutorial.Intro.HelpSite" : "Help",
-        
+
         "Object.Mirror.Toggle" : "Local Toggle",
-        
+
         "Tutorial.Streaming.StageControl" : "Stage Control",
         "Tutorial.Streaming.StageUI" : "Toggle Stage UI",
         "Tutorial.Streaming.StageLights" : "Toggle Stage Lights",
@@ -1450,7 +1461,7 @@
         "Tutorial.Streaming.Camera.BasicFunctions.Page2.Description" : "You can <color=#77ff77><b>CAPTURE</b></color> images using your <color=#77ff77><b>PRIMARY</b></color> on the <color=#ffdd77><b>BUTTON</b></color> on top of the <color=#ffdd77><b>CAMERA</b></color> or by <color=#77ff77><b>GRABBING</b></color> it anywhere on the<color=#dd77ff><b> CAMERA BODY</b></color> and using your <color=#77ff77><b>PRIMARY</b></color>.",
         "Tutorial.Streaming.Camera.BasicFunctions.Page3.Description" : "The <color=#ffdd77><b>ZOOM</b></color> function can be found under <sprite name=Options>. You can interact with the <color=#ffdd77><b>ZOOM SLIDER</b></color> using <color=#77ff77><b>PHYSICAL INTERACTION</b></color> or by using your <color=#dd77ff><b>LASERS</b></color> and <color=#77ff77><b>PRIMARY</b></color>. ",
         "Tutorial.Streaming.Camera.BasicFunctions.Page4.Description" : "You can also control the <color=#ffdd77><b>ZOOM</b></color> amount by <color=#77ff77><b>GRABBING</b></color> the <color=#dd77ff><b>CAMERA LENS</b></color> with your free hand and <color=#77ff77><b>TWISTING</b></color> the <color=#dd77ff><b>CAMERA LENS</b></color> in a physical motion.",
-        
+
         "Tutorial.Streaming.Camera.Mode.Page1.Description" : "<color=#ffdd77><b>BASIC SETTINGS</b></color> can be found under <sprite name=Camera> By default the <color=#ffdd77><b>CAMERA</b></color> is set to <color=#ffdd77><b>STANDARD PHOTO</b></color>, which is the most commonly used <color=#ffdd77><b>CAMERA</b></color> setting to <color=#77ff77><b>CAPTURE</b></color> images. ",
         "Tutorial.Streaming.Camera.Mode.Page2.Description" : "The <color=#ffdd77><b>3D PHOTO</b></color> setting allows you to <color=#77ff77><b>CAPTURE</b></color> images that have an illusion of depth to them, which is achieved by creating a stereoscopic image. Note that this effect only is only viewable with a headset and that the <color=#dd77ff><b>SCREENSHOT</b></color> saved will appear as two images combined side by side in a single file.",
         "Tutorial.Streaming.Camera.Mode.Page3.Description" : "The <color=#ffdd77><b>360 PHOTO</b></color> setting allows the <color=#77ff77><b>CAPTURE</b></color> of <color=#dd77ff><b>EQUIRECTANGULAR 360 IMAGES</b></color> that can be used in a <color=#dd77ff><b>PROJECTION360 MATERIAL</b></color>, for use as a <color=#dd77ff><b>SKYBOX</b></color>.",
@@ -1542,7 +1553,7 @@
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description" : "The <b><color=#ffdd77>CAMERA CONTROL PANEL</b></color> has many different functions that can be used to improve the quality of your streams/video recording. These functions include camera movement, modes, anchors, settings, Twitch chat and more.",
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "The <b><color=#ffdd77>CAMERA CONTROL PANEL</b></color> movement function can be located at the top left corner of the preview screen, Using this you will be able to adjust the cameras view and position. Additionally you can click the Reset button to reset the position of the camera.",
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description" : "To control the <color=#ffdd77><b>ZOOM</b></color>, use <b><color=#77ff77>PRIMARY</b></color> on the grey bar at the bottom of the preview screen and move the slider left or right.",
-        
+  
         "Tutorial.Streaming.StreamCamera.Modes.Page1.Description" : "<b><color=#ffdd77>SMOOTH POV</b></color> set the camera to your first person view and smooths any movement.",
         "Tutorial.Streaming.StreamCamera.Modes.Page2.Description" : "<b><color=#ffdd77>THIRD PERSON</b></color> mode allows you to view yourself from an outside perspecive. You can adjust the cameras position using the camera movement controls on the preview screen.",
         "Tutorial.Streaming.StreamCamera.Modes.Page3.Description" : "<b><color=#ffdd77>GROUP</b></color> mode automatically adjusts its view to keep nearby users in view.",
@@ -1558,7 +1569,7 @@
         "Tutorial.Streaming.StreamCamera.Intro.Description" : "Learn all the functions of the streaming camera",
         
         "Tutorial.Streaming.StreamCamera.Options.Page1.Description" : "<b><color=#ffdd77>CONTROL OPTIONS</b></color> can be found on the far left of the UI, here you can change settings similar to the physical camera as well as nameplate rendering and more.",
-        
+
         "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "Extra camera control options can be found on the far right of the UI by pressing the <b><color=#77ddff>GEAR</b></color> icon on the top right of the preview screen. Here you can change render settings, user control, and follow distances.",
         "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "The <b><color=#77ddff>ARROW</b></color> icon opens a panel to control the cameras motion. This can include position, angle, and FOV of the camera for the different preset viewpoints.",
         "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "The <b><color=#77ddff>WAYPOINT</b></color> icon opens a panel to control different camera anchors. This is useful for changing to different anchors set in the world as well as the speed of interpolation.",

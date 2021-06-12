@@ -111,8 +111,8 @@
         "World.Error.AccessDenied" : "Aðgengi hafnað",
         "World.Error.SecurityViolation" : "Öryggisbrot",
         "World.Error.OnlyRegisteredUsers" : "Einungis skráðar notendur fá að tengjast",
-        "World.Error.OnlyContacts" : "Einungis meðlimar gestgjafans fá að tengjast",
-
+        "World.Error.OnlyContacts" : "Einungis tengiliðir gestgjafans fá að tengjast",
+        "World.Error.OnlyContactsOfContacts" : "Einungis tengiliðir af notendur í þinginnu fá að tengjast",
         "World.Error.Private" : "Þingið er Einkaþing",
         "World.Error.SessionEnded" : "Þingið hefur lokað",
         "World.Error.UserLimitReached" : "Þing hefur náð hámarksnotendafjölda",
@@ -208,8 +208,8 @@
         "World.Category.Everything" : "Allt",
         "World.Category.Featured" : "Valin sérstaklega",
         "World.Category.PublishedWorlds" : "Útgefnir veraldar",
-        "World.Category.ActiveSessions" : "Virkir þingir",
-        "World.Category.FriendSessions" : "Þing meðlimar",
+        "World.Category.ActiveSessions" : "Virk þing",
+        "World.Category.FriendSessions" : "Þing tengiliðir",
         "World.Category.HeadlessSessions" : "Netþjónn hýst þing",
         "World.Category.Social" : "Félagsleg",
         "World.Category.Games" : "Leikir",
@@ -222,11 +222,11 @@
         "World.AccessLevel.Anyone" : "Hver sem er",
         "World.AccessLevel.RegisteredUsers" : "Skráðar notendur",
         "World.AccessLevel.Friends" : "Tengiliðir",
-
+        "World.AccessLevel.FriendsOfFriends" : "Tengiliðir+",
         "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "Einkaþing (einungis boð)",
 
-        "World.SortParameter.SearchScore" : "Search Score",
+        "World.SortParameter.SearchScore" : "Leitarstig",
         "World.SortParameter.Name" : "Nafn",
         "World.SortParameter.OpenedWorldCount" : "Opnaðar veraldar",
         "World.SortParameter.TotalSessionCount" : "Öll þing",
@@ -256,15 +256,15 @@
         "World.Filter.MinimumUptime" : "Lámarks upptími:",
         "World.Filter.Sorting" : "Flokkun:",
 
-
-
-
-
-
-
-
-
-
+        "World.Edit.Title" : "Breyta veraldar Metadata",
+        "World.Edit.Name" : "Nafn veraldar:",
+        "World.Edit.Description" : "Lysing:",
+        "World.Edit.Tags" : "Tags (komma á milli):",
+        "World.Edit.Path" : "Heimsleið:",
+        "World.Edit.AccessLevelHeader" : "Hver getur opnað þennan heim?",
+        "World.Edit.AccessPrivate" : "Bara ég",
+        "World.Edit.AccessPatreon" : "Patreon stuðningsmeðlimar",
+        "World.Edit.AccessPublic" : "Hver sem er (Almenning)",
 
         "Tools.AvatarCreator" : "Avatar smíðara",
         "Tools.FullBodyCalibrator" : "Full Body stillingagræja",
@@ -351,8 +351,8 @@
         "User.Actions.Kick" : "Sparka",
         "User.Actions.Ban" : "Banna",
 
-        "Contacts.Add" : "Bæta við sem meðlimur",
-        "Contacts.Remove" : "Eyða meðlim",
+        "Contacts.Add" : "Bæta við sem tengilið",
+        "Contacts.Remove" : "Eyða tengilið",
         "Contacts.ConfirmRemove" : "Eyða, ertu viss?",
         "Contacts.AcceptRequest" : "Samþykkja beiðni",
         "Contacts.IgnoreRequest" : "Hunsa beiðni",
@@ -366,21 +366,21 @@
 
         "Contacts.InSession" : "Í {name}",
         "Contacts.InPrivate" : "Í einkaheim",
-
-
-
-
-
+        "Contacts.InFriendsOnly" : "Í tengiliða heim",
+        "Contacts.InHidden" : "Í fallinn heim",
+        "Contacts.InHiddenFriendsOnly" : "Í fallinn, tengiliða heim",
+        "Contacts.InHiddenFriendsOfFriends" : "Í fallinn, tengiliða+ heim",
+        "Contacts.InLAN" : "Í LAN heim",
         "Contacts.UsingDifferentVersion" : "Á útgáfu {version}",
         "Contacts.RequestSent" : "Beiðni sent",
-        "Contacts.RequestReceived" : "Meðlimabeiðni til þín",
+        "Contacts.RequestReceived" : "Tengiliðabeiðni til þín",
         "Contacts.RequestIgnored" : "Hunsað",
         "Contacts.Blocked" : "Blokkað",
         "Contacts.SearchResult" : "Leitarniðurstaða",
 
         "Notifications.IsOnline" : "Er nú Online",
         "Notifications.IsOnlineOnDifferentVersion" : "Er nú Online <size=75%>(á útgáfu: {version})</size>",
-        "Notifications.ReceivedContactRequest" : "Senti meðlimabeiðni",
+        "Notifications.ReceivedContactRequest" : "Senti tengiliðabeiðni",
         "Notifications.ReceivedInvite" : "Er að bjóða þig að taka þátt í:",
         "Notifications.ReceivedItem" : "Senti þér hlut:",
         "Notifications.ReceivedCredits" : "Senti {amount} {token}",
