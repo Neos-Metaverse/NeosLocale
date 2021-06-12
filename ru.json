@@ -1398,14 +1398,17 @@
         "Tutorial.Streaming.StageLights" : "Переключить свет сцены",
         "Tutorial.Streaming.StageLightController" : "Переключить управление светом",
         "Tutorial.Streaming.StageMicrophone" : "Переключить микрофон",
+
         "Tutorial.Streaming.GreenScreenControl" : "Управление зеленым экраном",
         "Tutorial.Streaming.GreenScreenToggle360" : "Переключить 360<sup>o</sup> фон",
         "Tutorial.Streaming.GreenScreenTracking" : "Переключить метки для трекинга",
         "Tutorial.Streaming.GreenScreenMarker" : "Создать хватаемый маркер",
         "Tutorial.Streaming.GreenScreenCycleScene" : "Следующая сцена",
+
         "Tutorial.Streaming.StreamRoomControl" : "Управление комнатой стриминга",
         "Tutorial.Streaming.StreamRoomSkyWall" : "Картинка неба",
         "Tutorial.Streaming.StreamRoomLayout" : "Расстановка декораций",
+
         "Tutorial.Streaming.StageLightShadowToggle" : "Переключить тени от освещения",
 
         "Tutorial.Streaming.Microphone.Title" : "Микрофон",
@@ -1427,51 +1430,65 @@
         "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title" : "Съемка кадра",
         "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title" : "Управление зумом из UI",
         "Tutorial.Streaming.Camera.BasicFunctions.Page4.Title" : "Физическое управление зумом",
+
         "Tutorial.Streaming.Camera.Resolution.Page1.Title" : "Изменение разрешения",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Description" : "Под <sprite name=2K> вы найдете опции для изменения <color=#ffdd77><b>разрешения</b></color> фотографий, которые снимает <color=#ffdd77><b>камера</b></color>.",
+
         "Tutorial.Streaming.Camera.Mode.Page1.Title" : "Обычное фото",
         "Tutorial.Streaming.Camera.Mode.Page2.Title" : "3D (стерео) фото",
         "Tutorial.Streaming.Camera.Mode.Page3.Title" : "360 фото",
         "Tutorial.Streaming.Camera.Mode.Page4.Title" : "Прозрачное фото",
+
         "Tutorial.Streaming.Camera.ImageFilters.Page1.Title" : "Обычный",
         "Tutorial.Streaming.Camera.ImageFilters.Page2.Title" : "Насыщенный",
         "Tutorial.Streaming.Camera.ImageFilters.Page3.Title" : "Градации серого",
         "Tutorial.Streaming.Camera.ImageFilters.Page4.Title" : "Сепия",
         "Tutorial.Streaming.Camera.ImageFilters.Page5.Title" : "Радуга",
+
         "Tutorial.Streaming.Camera.OptionsPlus.Page1.Title" : "Поле зрения",
         "Tutorial.Streaming.Camera.OptionsPlus.Page2.Title" : "Таймер",
         "Tutorial.Streaming.Camera.OptionsPlus.Page3.Title" : "Отражения",
         "Tutorial.Streaming.Camera.OptionsPlus.Page4.Title" : "Вспышка",
         "Tutorial.Streaming.Camera.OptionsPlus.Page5.Title" : "Большой экран",
+
         "Tutorial.Streaming.Camera.ExcludeTip.Page1.Title" : "Где найти",
         "Tutorial.Streaming.Camera.ExcludeTip.Page2.Title" : "Как использовать",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Title" : "Основные функции",
+
         "Tutorial.Streaming.Camera.BasicFunctions.Page1.Description" : "Вы можете <color=#77ff77><b>вызвать</b></color> <color=#ffdd77><b>камеру</b></color> из папки <color=#dd77ff><b>Neos Essentials</b></color> в вашем <color=#dd77ff><b>инвентаре</b></color>. Это ваш основной инструмент для <color=#77ff77><b>съемки</b></color> фотографий в Neos.",
         "Tutorial.Streaming.Camera.BasicFunctions.Page2.Description" : "Вы можете <color=#77ff77><b>снять</b></color> фото нажав <color=#77ff77><b>первичной кнопкой</b></color> на <color=#ffdd77><b>кнопке</b></color> сверху <color=#ffdd77><b>камеры</b></color> или <color=#77ff77><b>схватив</b></color> её за <color=#dd77ff><b>корпус</b></color> и нажав <color=#77ff77><b>первичную кнопку</b></color>.",
         "Tutorial.Streaming.Camera.BasicFunctions.Page3.Description" : "Функция <color=#ffdd77><b>зума</b></color> находится под <sprite name=Options>. Вы можете взаимодействовать с <color=#ffdd77><b>движком зума</b></color> используя <color=#77ff77><b>физическое взаимодействие</b></color> или  <color=#dd77ff><b>лазеры</b></color> и <color=#77ff77><b>первичную кнопку</b></color>. ",
         "Tutorial.Streaming.Camera.BasicFunctions.Page4.Description" : "Вы также можете управлять <color=#ffdd77><b>зумом</b></color>, <color=#77ff77><b>схватившись</b></color> за <color=#dd77ff><b>объектив</b></color> свободной рукой и <color=#77ff77><b>поворачивая</b></color> <color=#dd77ff><b>объектив</b></color> соответствующем движением.",
-        "Tutorial.Streaming.Camera.Resolution.Page1.Description" : "Под <sprite name=2K> вы найдете опции для изменения <color=#ffdd77><b>разрешения</b></color> фотографий, которые снимает <color=#ffdd77><b>камера</b></color>.",
+
         "Tutorial.Streaming.Camera.Mode.Page1.Description" : "<color=#ffdd77><b>Режим камеры</b></color> можно переключить под <sprite name=Camera>. По умолчанию, <color=#ffdd77><b>камера</b></color> настроена на <color=#ffdd77><b>обычное фото</b></color>, самый часто используемый режим <color=#ffdd77><b>камеры</b></color> для <color=#77ff77><b>съёмки</b></color> фотографий. ",
         "Tutorial.Streaming.Camera.Mode.Page2.Description" : "Режим <color=#ffdd77><b>3D фото</b></color> позволяет <color=#77ff77><b>снять</b></color> фотографию с иллюзией глубины, что достигается с помощью создания стереоскопической фотографии. Заметьте, что этот эффект можно увидеть только в VR шлеме и что сохраненный <color=#dd77ff><b>скриншот</b></color> будет выглядеть как две картинки рядом в одном файле.",
         "Tutorial.Streaming.Camera.Mode.Page3.Description" : "Режим <color=#ffdd77><b>360 фото</b></color> позволяет <color=#77ff77><b>снять</b></color> <color=#dd77ff><b>равнопромежуточную 360 фотографию</b></color> которую можно использовать в <color=#dd77ff><b>материале Projection360</b></color>, для использования как <color=#dd77ff><b>скайбокс</b></color>.",
         "Tutorial.Streaming.Camera.Mode.Page4.Description" : "Режим <color=#ffdd77><b>вырезки</b></color> позволяет <color=#77ff77><b>снять</b></color> <color=#dd77ff><b>вырезку</b></color>. <color=#ffdd77><b>Камера</b></color> включает <color=#dd77ff><b>лазер</b></color> которым нужно указать на <color=#dd77ff><b>объект</b></color>, вырезку которого требуется получить. Её можно <color=#dd77ff><b>сохранить в инвентарь</b></color> или сохранить как <color=#dd77ff><b>скриншот</b></color>.",
+
         "Tutorial.Streaming.Camera.ImageFilters.Page1.Description" : "<color=#ffdd77><b>Фильтры камеры</b></color> можно найти в <sprite name=NoFilter>. По умолчанию, <color=#ffdd77><b>камера</b></color> настроена на <color=#ffdd77><b>съёмку без фильтра</b></color>.",
         "Tutorial.Streaming.Camera.ImageFilters.Page2.Description" : "<color=#ffdd77><b>Насыщенный</b></color> фильтр увеличивает насыщенность цвета и контраст между светлыми и тёмными тонами.",
         "Tutorial.Streaming.Camera.ImageFilters.Page3.Description" : "<color=#ffdd77><b>Серый</b></color> фильтр убирает всю насыщенность цветов.",
         "Tutorial.Streaming.Camera.ImageFilters.Page4.Description" : "Фильтр <color=#ffdd77><b>сепия</b></color> убирает всю насыщенность и тонирует фото чтобы получить сходство со старой фотографией.",
         "Tutorial.Streaming.Camera.ImageFilters.Page5.Description" : "<color=#ffdd77><b>Радужный</b></color> фильтр можно использовать чтобы добавить цветности вашей фотографии.",
+
         "Tutorial.Streaming.Camera.OptionsPlus.Page1.Description" : "<color=#ffdd77><b>Расширенные настройки</b></color> находятся в <sprite name=OptionsPlus>. По умолчанию все они выключены. <color=#ffdd77><b>Поле зрения</b></color> - первая опция в списке, она включает <color=#dd77ff><b>отображение</b></color> конуса зрения <color=#ffdd77><b>камеры</b></color>, который также соответствует картинке в <color=#dd77ff><b>видоискателе</b></color>.",
         "Tutorial.Streaming.Camera.OptionsPlus.Page2.Description" : "Опция <color=#ffdd77><b>таймер</b></color> <color=#77ff77><b>включается</b></color> кнопкой <sprite name=Timer>. Она включает 10-секундный таймер, который запустится когда вы <color=#77ff77><b>нажмете на спуск</b></color> используя <color=#77ff77><b>первичную кнопку</b></color> на <color=#dd77ff><b>спусковую кнопку</b></color> сверху <color=#ffdd77><b>камеры</b></color>, или <color=#77ff77><b>держа</b></color> <color=#dd77ff><b>корпус камеры</b></color> и нажимая <color=#77ff77><b>первичную кнопку</b></color>.",
         "Tutorial.Streaming.Camera.OptionsPlus.Page3.Description" : "Опция <color=#ffdd77><b>экранных отражений</b></color> включает отражения, основанные на поле зрения <color=#ffdd77><b>камеры</b></color>.",
         "Tutorial.Streaming.Camera.OptionsPlus.Page4.Description" : "Опция <color=#ffdd77><b>вспышка</b></color> может быть <color=#77ff77><b>включена</b></color> кнопкой <sprite name=Lightning>. Это <color=#77ff77><b>выдвигает</b></color> <color=#dd77ff><b>вспышку</b></color> сверху <color=#dd77ff><b>корпуса камеры</b></color>, которая <color=#77ff77><b>освещает</b></color> <color=#dd77ff><b>объект съёмки</b></color>. ",
         "Tutorial.Streaming.Camera.OptionsPlus.Page5.Description" : "Опция <color=#ffdd77><b>большой экран</b></color> может быть <color=#77ff77><b>включена</b></color> кнопкой <sprite name=BigScreen>. Она включает <color=#dd77ff><b>экран-видоискатель</b></color> большего размера над <color=#dd77ff><b>корпусом камеры</b></color>. Также его можно включить с помощью нажатия на среднюю <color=#dd77ff><b>кнопку</b></color> сверху <color=#dd77ff><b>корпуса камеры</b></color> <color=#77ff77><b>первичной кнопкой</b></color> или <color=#77ff77><b>касанием</b></color>.",
+
         "Tutorial.Streaming.Camera.ExcludeTip.Page1.Description" : "Инструмент <b><color=#ffdd77>Camera Object Exclude Tip</color></b> можно найти в вашем <b><color=#77ddff>инвентаре</b></color> в папке <b><color=#77ddff>Essential Tools --> Misc</Color></b>.",
         "Tutorial.Streaming.Camera.ExcludeTip.Page2.Description" : "Когда инструмент экипирован, <b><color=#77ff77>прицельтесь</b></color> на объект, который нужно исключить из фотографии, и нажмите <b><color=#77ff77>вторичную кнопку</b></color>. <b><color=#77ff77>Первичная кнопка</b></color> отменяет изменения.",
-        "Tutorial.Streaming.Camera.BasicFunctions.Title" : "Основные функции",
+
         "Tutorial.Streaming.Camera.Resolution.Title" : "Разрешение",
         "Tutorial.Streaming.Camera.Mode.Title" : "Режим",
         "Tutorial.Streaming.Camera.ImageFilters.Title" : "Фильтры изображения",
         "Tutorial.Streaming.Camera.OptionsPlus.Title" : "Дополнительные опции",
         "Tutorial.Streaming.Camera.ExcludeTip.Title" : "Camera Object Exclude Tip",
         "Tutorial.Streaming.Camera.Intro.Title" : "Инструкция по использованию камеры",
+
         "Tutorial.Streaming.Camera.Intro.Description" : "Научитесь работать с физической камерой",
 
         "Exiting.SavingItems" : "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
