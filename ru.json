@@ -1281,10 +1281,9 @@
         "Tutorial.Intro.Website" : "Вебсайт",
         "Tutorial.Intro.OutroEnd" : "Чтобы поддержать наш проект, присоединитесь к нашему Patreon.<br><br>Зайдите в Discord чтобы видеть свежие обновления, общаться и обращаться за помощью.",
 
-        "Tutorial.MTC.Avatars" : "Аватары и Общение",
+        "Tutorial.MTC.Avatars" : "Зал Аватаров",
         "Tutorial.MTC.Creation" : "Творчество и Утилиты",
         "Tutorial.MTC.RecordingStreaming" : "Запись и Трансляция",
-        "Tutorial.MTC.AvatarLobby" : "Зал Аватаров",
 
         "Tutorial.Grab.MoveRotate" : "Двигайте/Поворачивайте удерживаемые предметы",
         "Tutorial.Grab.Scale" : "Схватите другим контроллером для масштабирования",
@@ -1490,6 +1489,40 @@
         "Tutorial.Streaming.Camera.Intro.Title" : "Инструкция по использованию камеры",
 
         "Tutorial.Streaming.Camera.Intro.Description" : "Научитесь работать с физической камерой",
+
+        "Tutorial.Streaming.LightTip.Intro.Title" : "Инструкция по Light Tip",
+        "Tutorial.Streaming.LightTip.Intro.Description" : "Научитесь пользоваться всеми функциями светового инструмента (Light Tip)",
+
+        "Tutorial.Streaming.LightTip.Titles.BasicUsage" : "Обычное использование",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfLights" : "Виды источников света",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfShadows" : "Виды теней",
+        "Tutorial.Streaming.LightTip.Titles.ChangingColor" : "Изменение цвета",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Title" : "Световой инструмент",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Title" : "Создание источника света",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Title" : "Точечный",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title" : "Прожектор/Конус",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Title" : "Солнце/Направленный",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Title" : "Нет теней",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Title" : "Жесткие тени",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Title" : "Мягкие тени",
+
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Панель выбора цвета",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "Вы можете <color=#77ff77><b>вызвать</b></color> <color=#ffdd77><b>световой инструмент</b></color> из папки <color=#dd77ff><b>Neos Essentials</b></color> в вашем <color=#dd77ff><b>инвентаре</b></color>. Это основной инструмент для <color=#77ff77><b>создания источников света</b></color> в мирах Neos.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "По умолчанию, <color=#ffdd77><b>световой инструмент</b></color> создает <color=#dd77ff><b>точечный источник света</b></color> при целчке <color=#77ff77><b>первичной кнопкой</b></color>. Если зажать <color=#77ff77><b>первичную кнопку</b></color> и перемещать контроллер, будет регулироваться <color=#dd77ff><b>яркость</b></color> источника света в зависимости от <color=#dd77ff><b>расстояния</b></color> до <color=#77ff77><b>руки</b></color>.",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "<color=#ffdd77><b>Точечный источник света</b></color> <color=#77ff77><b>освещает</b></color> равномерно во всех направлениях от одной точки с <color=#dd77ff><b>затуханием яркости</b></color>.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Description" : "<color=#ffdd77><b>Прожектор (конус)</b></color> создает источник света, который <color=#77ff77><b>светит</b></color> в одном направлении в виде конуса с вершиной в одной точке с <color=#dd77ff><b>затуханием яркости</b></color>.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Description" : "<color=#ffdd77><b>Направленный источник света</b></color> <color=#77ff77><b>освещает</b></color> весь мир в одном направлении без <color=#dd77ff><b>затухания яркости</b></color>.",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description" : "<b><color=#77ff77>Объекты</b></color> <b><color=red>не</b></color> будут отбрасывать тени",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "<b><color=#77ff77>Объекты</b></color> будут отбрасывать тени с резкими краями.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "<b><color=#77ff77>Объекты</b></color> будут отбрасывать тени с мягкими краями.",
+
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "Вы можете изменить <b><color=#ffdd77>цвет</b></color> <b><color=#ffdd77>источника света</b></color> используя опцию <b><color=#77ff77>изменить цвет</b></color> в <b><color=#77ff77>контекстном меню</b></color>.",
 
         "Exiting.SavingItems" : "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
         "Exiting.SavingChanges" : "Сохранение Изменений...",
