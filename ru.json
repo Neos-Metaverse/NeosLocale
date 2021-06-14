@@ -1524,6 +1524,58 @@
 
         "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "Вы можете изменить <b><color=#ffdd77>цвет</b></color> <b><color=#ffdd77>источника света</b></color> используя опцию <b><color=#77ff77>изменить цвет</b></color> в <b><color=#77ff77>контекстном меню</b></color>.",
 
+        "Tutorial.Streaming.StreamCamera.CameraControl.Title" : "Панель управления камерой",
+        "Tutorial.Streaming.StreamCamera.Overview.Title" : "Обзор панели управления камерой",
+        "Tutorial.Streaming.StreamCamera.ControlMovement.Title" : "Перемещение камеры",
+        "Tutorial.Streaming.StreamCamera.Zoom.Title" : "Управление зумом",
+        "Tutorial.Streaming.StreamCamera.SmoothPOV.Title" : "Сглаженный вид",
+        "Tutorial.Streaming.StreamCamera.ThirdPerson.Title" : "Вид от 3го лица",
+        "Tutorial.Streaming.StreamCamera.Group.Title" : "Группа",
+        "Tutorial.Streaming.StreamCamera.World.Title" : "Мир",
+        "Tutorial.Streaming.StreamCamera.Manual.Title" : "Ручной режим",
+        "Tutorial.Streaming.StreamCamera.Mirror.Title" : "Отображать на экран",
+
+        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "Чтобы <b><color=#77ff77>вызвать</color></b> <b><color=#ffdd77>якорь камеры</b></color>, нажмите кнопку <b><color=#77ddff>создать якорь камеры</b></color> в левой части интерфейса. К созданному таким образом якорю можно привязать камеру, выбрав его <b><color=#77ff77>первичной кнопкой</b></color>.",
+
+        "Tutorial.Streaming.StreamCamera.Photo.Title" : "Фото",
+        "Tutorial.Streaming.StreamCamera.360.Title" : "360 фото",
+        "Tutorial.Streaming.StreamCamera.Users.Title" : "Пользователи",
+        "Tutorial.Streaming.StreamCamera.CameraOptions.Title" : "Настройки камеры",
+        "Tutorial.Streaming.StreamCamera.Anchor.Title" : "Создание якоря",
+        "Tutorial.Streaming.StreamCamera.ExtraCameraControls.Title" : "Дополнительные настройки камеры",
+        "Tutorial.Streaming.StreamCamera.MotionSettings.Title" : "Настройки движения камеры",
+        "Tutorial.Streaming.StreamCamera.AnchorSettings.Title" : "Настройки якоря камеры",
+        "Tutorial.Streaming.StreamCamera.OBS.Title" : "Подключение к OBS",
+        "Tutorial.Streaming.StreamCamera.Twitch.Title" :"Подключение к Twitch",
+
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page1.Description" : "Вы можете <color=#77ff77><b>вызвать</b></color> <b><color=#ffdd77>Панель управления камерой</b></color> из домашней вкладки <b><color=#ffdd77>дэша Neos</b></color> из фасета с названием Камера/Стриминг. Это основной инструмент для трансляции контента из Neos.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description" : "<b><color=#ffdd77>Панель управления камерой</b></color> содержит разнообразные функции которые можно использовать для улучшения качества записи и стриминга. Эти функции включают движение камеры, режимы, якоря, настройки, чат Twitch и многое другое.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "Функции перемещения камеры <b><color=#ffdd77>панели управления камерой</b></color> можно найти в верхнем левом углу экрана предпросмотра. С помощью них можно настроить положение и кадрирование камеры. Кроме того, можно нажать кнопку сброса чтобы вернуть камеру к позиции по умолчанию.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description" : "Чтобы управлять <color=#ffdd77><b>зумом</b></color>, используйте <b><color=#77ff77>первичную кнопку</b></color> на серой полоске внизу области предпросмотра и двигайте слайдер влево или вправо.",
+
+        "Tutorial.Streaming.StreamCamera.Modes.Page1.Description" : "<b><color=#ffdd77>Сглаженный</b></color> режим привязывает камеру к вашему виду от первого лица и сглаживает движение.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page2.Description" : "Режим <b><color=#ffdd77>от первого лица</b></color> позволяет увидеть себя с точки зрения внешнего наблюдателя. Вы можете настроить расположение камеры с помощью элементов управления на панели предпросмотра.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page3.Description" : "<b><color=#ffdd77>Групповой</b></color> режим автоматически подстраивает своё расположение чтобы держать ближайших пользователей в поле зрения.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page4.Description" : "<b><color=#ffdd77>Мировой</b></color> режим держит камеру на одном месте и следит за пользователем.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page5.Description" : "<b><color=#ffdd77>Ручной</b></color> режим позволяет управлять камерой трансляции как обычной физической камерой.",
+
+        "Tutorial.Streaming.StreamCamera.Functions.Page1.Description" : "<b><color=#ffdd77>Отображать на экран</b></color> изменяет отображение в окне на рабочем столе с вида из шлема на картинку с камеры, эту опцию следует использовать для стриминга или записи.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page2.Description" : "<b><color=#ffdd77>Фото</b></color> снимает фото с текущего положения камеры. Эти фото будут сохранены в вашу библиотеку скриншотов.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page3.Description" : "<b><color=#ffdd77>360 фото</b></color> снимает 360 панораму вокруг текущего положения камеры. Эти фото будут сохранены в вашу библиотеку скриншотов.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page4.Description" : "<b><color=#ffdd77>Пользователи</b></color> позволяет изменить отображаемый вид камеры на вид от лица другого пользователя, а также изменить громкость и права управления камерой для каждого пользователя.",
+
+        "Tutorial.Streaming.StreamCamera.Intro.Title" : "Инструкция стриминговой камеры",
+        "Tutorial.Streaming.StreamCamera.Intro.Description" : "Научитесь пользоваться всеми функциями стриминговой камеры",
+
+        "Tutorial.Streaming.StreamCamera.Options.Page1.Description" : "<b><color=#ffdd77>Опции управления</b></color> можно найти в левой части интерфейса, здесь можно изменить настройки аналогично настройкам физической камеры, а также переключить отображение имен и другие настройки.",
+
+        "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "Дополнительные настройки камеры можно найти справа от интерфейса, нажав на иконку <b><color=#77ddff>шестерёнки</b></color> в правом верхнем углу панели предпросмотра. Здесь можно изменить настройки рендеринга, управление доступом к камере, и дистанцию следования.",
+        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "Иконка <b><color=#77ddff>стрелки</b></color> открывает панель для управления настройками движения камеры. Это включает позицию, направление и зум камеры для разных преднастроенных точек съёмки.",
+        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "<b><color=#77ddff>Путевой маркер</b></color> открывает панель для управления якорями камеры. Это может быть полезно для переключения между разными якорями в мире и для управления скорости перемещения между ними.",
+        "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "Иконка <b><color=#77ddff>OBS</b></color> открывает панель для настройки связи с OBS. Из неё можно быстро начать запись в OBS.",
+        "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "Иконка <b><color=#77ddff>TWITCH</b></color> показывает вам ваш чат Twitch. Вы можете привязать свой канал, введя его название в верхее левое поле.",
+
+
         "Exiting.SavingItems" : "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
         "Exiting.SavingChanges" : "Сохранение Изменений...",
         "Exiting.Exiting" : "Выход...",
