@@ -10,6 +10,8 @@ Importer.Folder.Minecraft.Description
 Importer.Model.Advanced.ForcePointFiltering  
 Importer.Model.Advanced.ForceNoMipMaps  
 Importer.Model.Advanced.ForceUncompressed  
+Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Tutorial.Streaming.Microphone.Title  
 Tutorial.Streaming.Microphone.UsageDescription  
 Tutorial.Streaming.Microphone.AudioTypeDescription  

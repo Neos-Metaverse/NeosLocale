@@ -657,6 +657,8 @@ Inspector.SkinnedMesh.BakeBlendShapeResult
 Inspector.SkinnedMesh.VisualizeBoneBounds  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ClearBoundsVisuals  
+Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.BipedRig.GetDiagnosticInfo  
 Inspector.BipedRig.GenerateDebugVisuals  
 Inspector.BipedRig.ClearDebugVisuals  

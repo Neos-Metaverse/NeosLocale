@@ -19,6 +19,8 @@ Importer.Model.Advanced.ForceUncompressed
 CameraControl.Control.ScreenSpaceReflections  
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  
+Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.Texture.TileLoop  
 Inspector.Texture.TileMirror  
 Tutorial.BotDesigner.WearAvatar  

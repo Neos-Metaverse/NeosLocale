@@ -23,6 +23,8 @@ CameraControl.Control.ScreenSpaceReflections
 Settings.Audio.WhisperVoiceVolume  
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  
+Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Tutorial.BotDesigner.Start  
 Tutorial.BotDesigner.WearAvatar  
 Tutorial.BotDesigner.Intro.Title  

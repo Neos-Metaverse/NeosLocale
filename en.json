@@ -1028,6 +1028,9 @@
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Visualize approximate merged bone sphere bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Remove bone bounding box visuals",
 
+        "Inspector.SimpleAvatarProtection.RemoveAll" : "Remove All Instances",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "REMOVE Avatar Protection",
+
         "Inspector.BipedRig.GetDiagnosticInfo" : "Get rig diagnostic info",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Generate Debug Visuals",
         "Inspector.BipedRig.ClearDebugVisuals" : "Clear Debug Visuals",

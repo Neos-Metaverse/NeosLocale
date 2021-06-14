@@ -2,6 +2,8 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Czech [cs]
+Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Tutorial.Streaming.Microphone.Title  
 Tutorial.Streaming.Microphone.UsageDescription  
 Tutorial.Streaming.Microphone.AudioTypeDescription  
