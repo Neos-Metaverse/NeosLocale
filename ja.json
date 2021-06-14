@@ -1028,6 +1028,9 @@
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "マージされたボーンのスフィアバウンディングの可視化",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "可視化したボーンのバウンディングボックスを非表示",
 
+        "Inspector.SimpleAvatarProtection.RemoveAll" : "階層下にあるアバター保護を削除する",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "本当に階層下にあるアバター保護を削除しますか？",
+
         "Inspector.BipedRig.GetDiagnosticInfo" : "リグ診断情報取得",
         "Inspector.BipedRig.GenerateDebugVisuals" : "デバッグビジュアル生成",
         "Inspector.BipedRig.ClearDebugVisuals" : "デバッグビジュアル除去",
