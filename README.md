@@ -39,6 +39,7 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
 - DON'T convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
 - DON'T correct mistakes in the string keys, only report them. They will be fixed by a script, which will apply the correction to all locales at once.
+- DON'T submit purely machine translated locales. Those often result in odd and confusing results for user interfaces. Using machine translation as basis for manual translation is ok.
 
 # Translating the Store descriptions
 If you're like, you can help translate the store descriptions as well (this is used on Steam for example), but we consider those highly optional since it's quite a lot of text. If you don't want to translate those, don't worry about them! The store descriptions do not count towards the translation completeness percerntage and are provided in separate files.
