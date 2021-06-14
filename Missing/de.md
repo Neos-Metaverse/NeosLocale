@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # German [de]
+Dash.Actions.TurnOffUIEdit  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
 Importer.Model.Advanced.ForcePointFiltering  

@@ -9,6 +9,7 @@ General.Creating
 Interaction.SaveToInventory  
 Interaction.CopyLink  
 Dash.Screens.Desktop  
+Dash.Actions.TurnOffUIEdit  
 World.Connection.LNL.DirectIP  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  

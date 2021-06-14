@@ -5,6 +5,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 General.Start  
 General.Finish  
 Interaction.SaveToInventory  
+Dash.Actions.TurnOffUIEdit  
 World.Connection.LNL.DirectIP  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  

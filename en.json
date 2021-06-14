@@ -88,6 +88,8 @@
 
         "Dash.Actions.PasteFromClipboard" : "Paste content from clipboard",
 
+        "Dash.Actions.TurnOffUIEdit" : "Turn off UI Edit Mode",
+
         "Dash.Actions.CoreWorldsHeader" : "Core Worlds",
         "Dash.Actions.ContentHub" : "Content Hub",
         "Dash.Actions.MTC" : "Metaverse Training Center <size=75%>(tutorials)</size>",

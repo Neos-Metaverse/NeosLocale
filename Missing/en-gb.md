@@ -76,6 +76,7 @@ Dash.Screens.FileBrowser
 Dash.Screens.Settings  
 Dash.Screens.Exit  
 Dash.Actions.PasteFromClipboard  
+Dash.Actions.TurnOffUIEdit  
 Dash.Actions.CoreWorldsHeader  
 Dash.Actions.ContentHub  
 Dash.Actions.CloudHome  

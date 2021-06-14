@@ -6,6 +6,7 @@ General.Start
 General.Finish  
 Interaction.SaveToInventory  
 Interaction.CopyLink  
+Dash.Actions.TurnOffUIEdit  
 World.Connection.LNL.DirectIP  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
