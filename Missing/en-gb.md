@@ -1148,7 +1148,6 @@ Tutorial.BotDesigner.ColorOptions.Metal
 Tutorial.BotDesigner.ColorOptions.Secondary  
 Tutorial.BotDesigner.ColorOptions.Underbody  
 Tutorial.BotDesigner.ColorOptions.Emission  
-Tutorial.BotDesigner.ColorOptions.PickColor  
 Tutorial.AvatarTutorial.Start  
 Tutorial.AvatarTutorial.OpenWorld  
 Tutorial.AvatarTutorial.AvatarWorlds  
@@ -1156,7 +1155,6 @@ Tutorial.AvatarTutorial.Intro.Title
 Tutorial.AvatarTutorial.Intro.Description  
 Tutorial.AvatarTutorial.Avatars.Title  
 Tutorial.AvatarTutorial.FindingAvatars.Title  
-Tutorial.AvatarTutorial.EquippingAndFavoriting.Title  
 Tutorial.AvatarTutorial.AvatarCreation.Title  
 Tutorial.AvatarTutorial.AvatarWorlds.Title  
 Tutorial.AvatarTutorial.AvatarWorlds.Description  
@@ -1188,7 +1186,6 @@ Tutorial.UserResources.SupportTitle
 Tutorial.UserResources.MerchandiseTitle  
 Tutorial.Intro.BadgesNeosTeam  
 Tutorial.Intro.BadgesModerator  
-Tutorial.Intro.BadgesMentor  
 Tutorial.Intro.BadgesDisabilityHearing  
 Tutorial.Intro.BadgesDisabilityVision  
 Tutorial.Intro.BadgesDisabilitySpeech  
@@ -1226,6 +1223,7 @@ Tutorial.Streaming.Camera.BasicFunctions.Page2.Title
 Tutorial.Streaming.Camera.BasicFunctions.Page3.Title  
 Tutorial.Streaming.Camera.BasicFunctions.Page4.Title  
 Tutorial.Streaming.Camera.Resolution.Page1.Title  
+Tutorial.Streaming.Camera.Resolution.Page1.Description  
 Tutorial.Streaming.Camera.Mode.Page1.Title  
 Tutorial.Streaming.Camera.Mode.Page2.Title  
 Tutorial.Streaming.Camera.Mode.Page3.Title  
@@ -1242,11 +1240,11 @@ Tutorial.Streaming.Camera.OptionsPlus.Page4.Title
 Tutorial.Streaming.Camera.OptionsPlus.Page5.Title  
 Tutorial.Streaming.Camera.ExcludeTip.Page1.Title  
 Tutorial.Streaming.Camera.ExcludeTip.Page2.Title  
+Tutorial.Streaming.Camera.BasicFunctions.Title  
 Tutorial.Streaming.Camera.BasicFunctions.Page1.Description  
 Tutorial.Streaming.Camera.BasicFunctions.Page2.Description  
 Tutorial.Streaming.Camera.BasicFunctions.Page3.Description  
 Tutorial.Streaming.Camera.BasicFunctions.Page4.Description  
-Tutorial.Streaming.Camera.Resolution.Page1.Description  
 Tutorial.Streaming.Camera.Mode.Page1.Description  
 Tutorial.Streaming.Camera.Mode.Page2.Description  
 Tutorial.Streaming.Camera.Mode.Page3.Description  
@@ -1263,7 +1261,6 @@ Tutorial.Streaming.Camera.OptionsPlus.Page4.Description
 Tutorial.Streaming.Camera.OptionsPlus.Page5.Description  
 Tutorial.Streaming.Camera.ExcludeTip.Page1.Description  
 Tutorial.Streaming.Camera.ExcludeTip.Page2.Description  
-Tutorial.Streaming.Camera.BasicFunctions.Title  
 Tutorial.Streaming.Camera.Resolution.Title  
 Tutorial.Streaming.Camera.Mode.Title  
 Tutorial.Streaming.Camera.ImageFilters.Title  
@@ -1306,7 +1303,6 @@ Tutorial.Streaming.StreamCamera.World.Title
 Tutorial.Streaming.StreamCamera.Manual.Title  
 Tutorial.Streaming.StreamCamera.Mirror.Title  
 Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description  
-Tutorial.Streaming.StreamCamera.Features.Page2.Description  
 Tutorial.Streaming.StreamCamera.Photo.Title  
 Tutorial.Streaming.StreamCamera.360.Title  
 Tutorial.Streaming.StreamCamera.Users.Title  
@@ -1325,15 +1321,16 @@ Tutorial.Streaming.StreamCamera.Modes.Page1.Description
 Tutorial.Streaming.StreamCamera.Modes.Page2.Description  
 Tutorial.Streaming.StreamCamera.Modes.Page3.Description  
 Tutorial.Streaming.StreamCamera.Modes.Page4.Description  
+Tutorial.Streaming.StreamCamera.Modes.Page5.Description  
 Tutorial.Streaming.StreamCamera.Functions.Page1.Description  
 Tutorial.Streaming.StreamCamera.Functions.Page2.Description  
 Tutorial.Streaming.StreamCamera.Functions.Page3.Description  
 Tutorial.Streaming.StreamCamera.Functions.Page4.Description  
-Tutorial.Streaming.StreamCamera.BasicFunctions.Page5.Description  
 Tutorial.Streaming.StreamCamera.Intro.Title  
 Tutorial.Streaming.StreamCamera.Intro.Description  
 Tutorial.Streaming.StreamCamera.Options.Page1.Description  
 Tutorial.Streaming.StreamCamera.Features.Page1.Description  
+Tutorial.Streaming.StreamCamera.Features.Page2.Description  
 Tutorial.Streaming.StreamCamera.Features.Page3.Description  
 Tutorial.Streaming.StreamCamera.Features.Page4.Description  
 Tutorial.Streaming.StreamCamera.Features.Page5.Description  
