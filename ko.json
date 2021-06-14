@@ -1527,7 +1527,6 @@
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description" : "<color=#ffdd77><b>카메라 제어판</b></color>은 방송 / 영상 녹화 품질을 개선하는 많은 기능을 가지고 있습니다. 카메라 움직임, 모드, 촬영위치, 설정, 트위치 채팅 등의 기능을 포함합니다.",
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "<color=#ffdd77><b>카메라 제어판</b></color> 움직임 기능은 미리보기 화면의 왼쪽 위 구석에 있으며, 이를 사용하면 카메라의 시야와 위치를 조정할 수 있습니다. 추가적으로, 초기화 버튼을 사용해 카메라의 위치를 초기화 시킬 수 있습니다.",
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description" : "미리보기 화면 아래쪽 회색 바를 <color=#77ff77><b>프라이머리 액션(트리거)</b></color>으로 클릭해 카메라를 <color=#ffdd77><b>확대하거나 축소</b></color>할 수 있습니다.",
-        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page5.Description" : "<color=#ffdd77><b>사용자 지정</b></color> 모드는 카메라를 직접 잡아서 조작을 할 수 있도록 해줍니다.",
 		
 		"Tutorial.Streaming.StreamCamera.Modes.Page1.Description" : "<color=#ffdd77><b>3인칭</b></color> 모드는 외부에서 사용자를 보는 시점으로 장면을 잡아줍니다. 카메라 제어판의 미리보기에 있는 UI로 카메라의 위치를 조정할 수 있습니다.",
         "Tutorial.Streaming.StreamCamera.Modes.Page2.Description" : "<color=#ffdd77><b>그룹</b></color> 모드는 3인칭 모드와 유사하나, 가까운 곳(거리는 설정가능)에 있는 사용자를 자동으로 탐색하여 한 장면에 담아줍니다.",
