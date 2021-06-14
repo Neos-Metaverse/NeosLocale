@@ -1551,7 +1551,7 @@
 
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page1.Description" : "You can <color=#77ff77><b>SPAWN</b></color> a <b><color=#ffdd77>CAMERA CONTROL PANEL</b></color> from the <b><color=#ffdd77>NEOS DASHBOARD</b></color> on the home tab under a facet called Camera/Streaming. This is your main tool for streaming content from Neos.",
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description" : "The <b><color=#ffdd77>CAMERA CONTROL PANEL</b></color> has many different functions that can be used to improve the quality of your streams/video recording. These functions include camera movement, modes, anchors, settings, Twitch chat and more.",
-        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "The <b><color=#ffdd77>CAMERA CONTROL PANEL</b></color> movement function can be located at the top left corner of the preview screen, Using this you will be able to adjust the cameras view and position. Additionally you can click the Reset button to reset the position of the camera.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "The <b><color=#ffdd77>CAMERA CONTROL PANEL</b></color> movement function can be located at the top left corner of the preview screen. Using this you will be able to adjust the cameras view and position. Additionally you can click the Reset button to reset the position of the camera.",
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description" : "To control the <color=#ffdd77><b>ZOOM</b></color>, use <b><color=#77ff77>PRIMARY</b></color> on the grey bar at the bottom of the preview screen and move the slider left or right.",
 
         "Tutorial.Streaming.StreamCamera.Modes.Page1.Description" : "<b><color=#ffdd77>SMOOTH POV</b></color> set the camera to your first person view and smooths any movement.",
@@ -1560,7 +1560,7 @@
         "Tutorial.Streaming.StreamCamera.Modes.Page4.Description" : "<b><color=#ffdd77>WORLD</b></color> mode keeps the camera stationary and tracks the user.",
         "Tutorial.Streaming.StreamCamera.Modes.Page5.Description" : "<b><color=#ffdd77>MANUAL</b></color> mode allows you to use the streaming camera like the physical camera.",
 
-        "Tutorial.Streaming.StreamCamera.Functions.Page1.Description" : "<b><color=#ffdd77>MIRROR TO DISPLAY</b></color> changes your desktop from your vr headset to the streaming camera view, this option should be used if streaming. ",
+        "Tutorial.Streaming.StreamCamera.Functions.Page1.Description" : "<b><color=#ffdd77>MIRROR TO DISPLAY</b></color> changes your desktop from your vr headset to the streaming camera view, this option should be used if streaming or recording.",
         "Tutorial.Streaming.StreamCamera.Functions.Page2.Description" : "<b><color=#ffdd77>PHOTO</b></color> takes a picture of the cameras current view. These photos get saved to your screenshot library.",
         "Tutorial.Streaming.StreamCamera.Functions.Page3.Description" : "<b><color=#ffdd77>360 PHOTO</b></color> takes a 360 picture of the scene from the cameras current position. These photos get saved to your screenshot library.",
         "Tutorial.Streaming.StreamCamera.Functions.Page4.Description" : "<b><color=#ffdd77>USERS</b></color> allows you to change the cameras view to another users perspecive as well as modify the volume and camera permissions for each person.",
