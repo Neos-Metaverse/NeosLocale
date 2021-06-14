@@ -1028,6 +1028,9 @@
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Визуализировать приблизительные объединенные сферические границы костей",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Убрать визуализацию габаритов костей",
 
+        "Inspector.SimpleAvatarProtection.RemoveAll" : "Убрать все вхождения",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "УБРАТЬ защиту аватара",
+
         "Inspector.BipedRig.GetDiagnosticInfo" : "Получить диагностику рига",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Генерировать отладочную визуализацию",
         "Inspector.BipedRig.ClearDebugVisuals" : "Убрать отладочную визуализацию",
