@@ -46,6 +46,12 @@
         "Tutorial.Tooltip.ColorPrimary" : "Apply Colour",
         "Tutorial.Tooltip.ColorSecondary" : "Pick Colour",
         "Tutorial.Tooltip.LightSecondary" : "Change Colour",
+		
+        "Tutorial.BotDesigner.ColorOptions.PickColor" : "Pick Colour",
+		
+        "Tutorial.AvatarTutorial.EquippingAndFavoriting.Title" : "Equipping & Favouriting",
+		
+        "Tutorial.Intro.BadgesMentor" : "Mentour",
 
         "Dummy" : "Dummy"
     }
