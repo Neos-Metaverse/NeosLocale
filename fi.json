@@ -1,9 +1,11 @@
 {
     "localeCode" : "fi",
-    "authors" : ["AdmiralSoap", "Napo", "Hexdigest"],
+    "authors" : ["AdmiralSoap", "Napo", "Hexdigest", "Toni Kat"],
     "messages" : 
     {
         "General.OK" : "OK",
+        "General.Start" : "Aloita",
+        "General.Finish" : "Valmis",
         "General.Cancel" : "Peruuta",
         "General.Continue" : "Jatka",
         "General.Next" : "Seuraava",
@@ -48,9 +50,10 @@
 
         "Interaction.Destroy" : "Tuhoa",
         "Interaction.Duplicate" : "Kopioi",
+        "Interaction.SaveToInventory" : "Tallenna inventaarioon",
         "Interaction.Undo" : "Peruuta",
         "Interaction.Redo" : "Toista",
-        "Interaction.EquipTool" : "Ota käteen",
+        "Interaction.EquipTool" : "Pidä kädessä",
         "Interaction.DequipTool" : "Irrota kädestä",
         "Interaction.ScalingEnabled" : "Skaalaus päällä",
         "Interaction.ScalingDisabled" : "Skaalaus pois päältä",
@@ -60,7 +63,7 @@
         "Interaction.Locomotion" : "Liikkumistila",
         "Interaction.Locomotion.None" : "Ei mitään",
 
-        "Interaction.NamedEquipTool" : "Ota käteen {name}",
+        "Interaction.NamedEquipTool" : "Pidä kädessä {name}",
         "Interaction.NamedEquipTool.Default" : "Työkalu",
 
         "Interaction.EnterAnchor" : "Käytä istuinta",
@@ -71,9 +74,10 @@
         "Interaction.SaveAsScreenshot" : "Tallenna kuvana",
         "Interaction.ImportFile" : "Tuo tiedosto",
         "Interaction.ExportFile" : "Vie tiedosto",
+        "Interaction.CopyLink" : "Kopioi linkki",
 
         "Dash.Screens.Home" : "Koti",
-        "Dash.Screens.Worlds" : "Maailmoja",
+        "Dash.Screens.Worlds" : "Maailmat",
         "Dash.Screens.Contacts" : "Kontaktit",
         "Dash.Screens.Inventory" : "Inventaario",
         "Dash.Screens.Desktop" : "Työpöytä",
@@ -84,6 +88,8 @@
 
         "Dash.Actions.PasteFromClipboard" : "Liitä leikepöydältä",
 
+        "Dash.Actions.TurnOffUIEdit" : "Sulje käyttöliittymän muokkaustila",
+
         "Dash.Actions.CoreWorldsHeader" : "Ydinmaailmat",
         "Dash.Actions.ContentHub" : "Sisältökeskus",
         "Dash.Actions.MTC" : "Metaverse Koulutuskeskus <size=75%>(oppaat)</size>",
@@ -93,7 +99,7 @@
         "Dash.Exit.ExitAndSave" : "Poistu & tallenna kodit",
         "Dash.Exit.ExitAndDiscard" : "Poistu & hylkää kodit",
         "Dash.Exit.ThankYou" : "Kiitos kun käytät Neosta!",
-        "Dash.Exit.SubmittedBy" : "Kääntäjä: {name}",
+        "Dash.Exit.SubmittedBy" : "Lähettäjä: {name}",
 
         "World.Waiting" : "Odotetaan...",
         "World.HostIsStarting" : "Isäntä aloittaa sessiota...",
@@ -108,6 +114,11 @@
         "World.Connection.Connected" : "Yhdistetty",
         "World.Connection.SyncingInitialState" : "Synkronoidaan",
 
+        "World.Connection.LNL.DirectIP" : "LNL suora IP",
+        "World.Connection.LNL.NATPunchthrough" : "LNL NAT lävistys {n}",
+        "World.Connection.LNL.Relay" : "LNL rele",
+        "World.Connection.SteamNetworkingSockets" : "Steam verkkoliitäntä",
+
         "World.Error.AccessDenied" : "Pääsy Estetty",
         "World.Error.SecurityViolation" : "Turvallisuusrikkomus",
         "World.Error.OnlyRegisteredUsers" : "Vain rekisteröityneet käyttäjät voivat liittyä",
@@ -121,6 +132,7 @@
         "World.Error.FailedFetchingAuthentication" : "Todennustietojen noutaminen epäonnistui",
         "World.Error.JoinAlreadyRequested" : "Liittymistä on jo pyydetty",
         "World.Error.FailedConnectToRelay" : "Yhteyden muodostaminen epäonnistui",
+        "World.Error.FailedToConnect" : "Yhteyden muodostaminen epäonnistui",
         "World.Error.NoPort" : "Ei määritettyä porttia",
         "World.Error.IncompatibleVersion" : "Yhteensopimaton Neos Versio",
         "World.Error.Unknown" : "Tuntematon virhe",
@@ -170,7 +182,7 @@
 
         "World.Actions.GetWorldOrb" : "Tuo maailman pallo",
         "World.Actions.CopyWorldURL" : "Kopioi maailman URL",
-        "World.Actions.CopyRecordURL" : "Copy Record URL",
+        "World.Actions.CopyRecordURL" : "Kopioi Record URL",
         "World.Actions.StartCustomSession" : "Aloita mukautettu sessio",
         "World.Actions.ModifyMetadata" : "Muokkaa Metadataa",
         "World.Actions.GetSessionOrb" : "Tuo session pallo",
@@ -239,7 +251,7 @@
         "World.Filter.DataSources" : "Tietolähteet:",
         "World.Filter.OpenedWorlds" : "Avatut maailmat",
         "World.Filter.ActiveSessions" : "Aktiiviset istunnot",
-        "World.Filter.PublishedWorlds" : "Julkisia maailmoja",
+        "World.Filter.PublishedWorlds" : "Julkiset maailmat",
         "World.Filter.LocalWorlds" : "Paikalliset istunnot",
         "World.Filter.BaseSearch" : "Haku:",
         "World.Filter.ByOwner" : "Omistajan mukaan:",
@@ -272,7 +284,16 @@
         "Tools.CreateNewWorld" : "Tee uusi maailma",
         "Tools.DepositNCR" : "Talleta NCR",
         "Tools.WithdrawNCR" : "Nosta NCR",
+        "Tools.Debug" : "Debugi",
+        "Tools.StreamAudio" : "Äänen suoratoisto",
 
+        "Tools.StreamAudio.Start" : "Aloita suoratoisto",
+        "Tools.StreamAudio.Bitrate" : "Bittinopeus: {bitrate} kbps",
+        "Tools.StreamAudio.Title" : "{username} audion suoratoisto",
+        "Tools.StreamAudio.Spatialized" : "Spatialisoitu",
+        "Tools.StreamAudio.Broadcast" : "Lähetysmoodi",
+        "Tools.StreamAudio.PlayForOwner.Off" : "Toista omistajalle: Pois",
+        "Tools.StreamAudio.PlayForOwner.On" : "Toista omistajalle: Päällä",
 
         "Options.FreeformDash.On" : "Liikkuva valikko: Päällä",
         "Options.FreeformDash.Off" : "Liikkuva valikko: Pois",
@@ -344,10 +365,14 @@
         "Session.Permission.PermissionOverrideCount" : "Käyttäjä lupia: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides" : "Poista oletus käyttöoikeudet",
 
+        "Permissions.NotAllowedToSpawn" : "Et voi spawnata esineitä tässä maailmassa.",
+        "Permissions.NotAllowedToSave" : "Et voi tallentaa esineitä tässä maailmassa.",
+        "Permissions.NotAllowedToSwapAvatar" : "Mukautettuun avatariin vaihto estetty tässä maailmassa.",
+
         "User.Actions.Silence" : "Hiljennä",
         "User.Actions.Mute" : "Hiljennä",
         "User.Actions.Jump" : "Hyppää",
-        "User.Actions.Respawn" : "Uudelleen synnytä",
+        "User.Actions.Respawn" : "Respawnaa",
         "User.Actions.Kick" : "Potki",
         "User.Actions.Ban" : "Estä sessiosta",
 
@@ -362,7 +387,7 @@
         "Contacts.UnbanFromAllSessions" : "Poista esto KAIKISTA minun sessioistani",
         "Contacts.BanFromCurrentWorld" : "Estä nykyisestä maailmasta",
         "Contacts.UnbanFromCurrentWorld" : "Poista esto nykyisestä maailmasta",
-        "Contacts.RecordingVoiceMessage" : "Nouhoitetaan ääntä...",
+        "Contacts.RecordingVoiceMessage" : "Nauhoitetaan puhetta...",
 
         "Contacts.InSession" : "Maailmassa {name}",
         "Contacts.InPrivate" : "Yksityisessä maailmassa",
@@ -388,7 +413,7 @@
         "Notifications.TransferedCredits" : "Siirretty {amount} {token}",
         "Notifications.ReceivedTip" : "Vastaanotettu tippi {amount} {token}",
         "Notifications.SentTip" : "Lähetty tippi {amount} {token}",
-        "Notifications.VoiceMessage" : "Ääniviesti lähetetty",
+        "Notifications.VoiceMessage" : "Lähetti ääniviestin",
 
         "Undo.SetField" : "Aseta kenttä {field_name} tähän {value}",
         "Undo.SetReference" : "Aseta viite {ref_name} tähän {ref_target}",
@@ -421,6 +446,9 @@
         "Undo.InsertParent" : "Lisää yliluokka {name}",
 
 
+
+
+
         "Tooltips.Dev.CreateNew" : "Tee uusi...",
         "Tooltips.Dev.Selection" : "Valintatila: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Kehittäjätila: Pois",
@@ -428,6 +456,7 @@
         "Tooltips.Dev.OpenInspector" : "Avaa valintaikkuna",
         "Tooltips.Dev.DeselectAll" : "Lopeta valinta",
         "Tooltips.Dev.DestroySelected" : "Poista valitut",
+        "Tooltips.Dev.ConfirmDestroySelected" : "VARMASTI Poista valitut",
 
         "Tooltip.Logix.NodeBrowser" : "Solmuhakemisto",
         "Tooltip.Logix.UnpackChildren" : "Pura valinta & yhdistetyt solmut",
@@ -465,6 +494,7 @@
         "Tooltip.Material.CreateCopy" : "Tee kopio",
         "Tooltip.Material.Edit" : "Muokkaa materiaalia",
         "Tooltip.Material.Convert" : "Muunna...",
+        "Tooltip.Material.ConvertAll" : "Muunna KAIKKI...",
         "Tooltip.Material.CreateNew" : "Luo uusi",
 
         "Tooltip.Mesh.Edit" : "Muokkaa verkkoa",
@@ -476,6 +506,22 @@
         "Tooltip.Microphone.ModePress" : "Paina aloittaaksesi/lopettaaksesi nauhoituksen",
 
         "Tooltip.Microphone.SourceFiltered" : "Filteröity ja normalisoitu",
+
+        "CreateNew.Back" : "<<< <i>Takaisin</i>",
+        "CreateNew.EmptyObject" : "Tyhjä Objekti",
+        "CreateNew.ParticleSystem" : "Partikkelijärjestelmä",
+
+        "CreateNew.Object" : "Objekti",
+        "CreateNew.Object.AvatarCreator" : "Avatar luoja",
+        "CreateNew.Object.Camera" : "Kamera",
+        "CreateNew.Object.ReflectionProbe" : "Heijastusanturi",
+        "CreateNew.Object.Mirror" : "Peili",
+        "CreateNew.Object.Portal" : "Portaali",
+        "CreateNew.Object.VideoPlayer" : "Videosoitin",
+        "CreateNew.Object.SpawnArea" : "Aloitus alue",
+        "CreateNew.Object.SpawnPoint" : "Aloitus piste",
+        "CreateNew.Object.UIXCanvas" : "UIX paneeli",
+        "CreateNew.Object.Facet" : "Fasetti",
 
         "FullBody.Hips" : "Vyötärö",
         "FullBody.Feet" : "Jalat",
@@ -519,6 +565,8 @@
         "Settings.LegacyGripEquip" : "Ota vanha Double Grip käyttöön",
         "Settings.LegacyWorldSwitcher" : "Ota vanha maailma vaihdos käyttöön",
         "Settings.FetchIncompatibleSessions" : "Näytä yhteensopimattomat istunnot",
+        "Settings.MaxConcurrentAssetTransfers" : "Maksimimäärä samanaikaisia tiedostosiirtoja",
+        "Settings.AutosaveScreenshotPath" : "Kuvankaappauksen automaattinen polku",
 
         "Settings.LaserSmoothing.Header" : "Laaserin tasoitus",
         "Settings.LaserSmoothing.Speed" : "Tasoituksen nopeus",
@@ -527,25 +575,34 @@
         "Settings.LaserSmoothing.ModulateExponent" : "Tarrauksen eksponentti",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier" : "Tarrauksen nopeus kerroin",
         "Settings.LaserSmoothing.StickThreshold" : "Kiinnityksen kynnys",
+        "Settings.Laser.ShowInDesktop" : "Näytä laaseri työpöytätilassa",
         "Settings.LaserSmoothing.Reset" : "Nollaa laaserin asetukset",
 
 
         "Settings.Audio.SoundEffects" : "Ääniefektit: {n,number,percent}",
 
-        "Settings.Audio.Voice" : "Ääni: {n,number,percent}",
+        "Settings.Audio.Voice" : "Puhe: {n,number,percent}",
         "Settings.Audio.UI" : "Käyttöliittymä: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization" : "Poista äänen normalisointi",
         "Settings.Audio.NoiseGateThreshold" : "Äänenvoimakkuuden kynnys: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalisoinnin kynnys: {n}",
+        "Settings.Audio.NoiseSupression" : "Kohinanvaimennussuodatin (RNNoise)",
+        "Settings.Audio.WhisperVoiceVolume" : "Kuiskauksen äänenvoimakkuus (kuplan ulkopuolella): {n,number,percent}",
         "Settings.Audio.InputDevice" : "Äänitulolaite:",
+        "Settings.Audio.OutputDevice" : "Äänilähtölaite:",
+        "Settings.Audio.SelectInputDevice" : "Valitse äänitulolaite",
+        "Settings.Audio.SelectOutputDevice" : "Valitse äänilähtölaite",
+
+        "Settings.Locale.ChangeLanguage" : "Vaihda kieli",
+        "Settings.Locale.SelectLanguageHeader" : "Valitse kielesi:",
 
         "Settings.Save" : "Tallenna asetukset",
 
         "Settings.FullBody.Header" : "Full-Body kalibrointi:",
         "Settings.FullBody.FeetPositionSmoothing" : "Jalan sijainnin tasoitus",
-        "Settings.FullBody.FeetRotationSmoothing" : "Jalan rotaatio tasoitus",
+        "Settings.FullBody.FeetRotationSmoothing" : "Jalan käännön tasoitus",
         "Settings.FullBody.HipsPositionSmoothing" : "Vyötärön sijainnin tasoitus",
-        "Settings.FullBody.HipsRotationSmoothing" : "Vyötärön rotaatio tasoitus",
+        "Settings.FullBody.HipsRotationSmoothing" : "Vyötärön käännön tasoitus",
 
         "Settings.Dash.Header" : "Valikko",
         "Settings.Dash.Curvature" : "Kaarevuus",
@@ -557,6 +614,221 @@
         "Settings.LeapMotion.VerticalOffset" : "Vertikaalinen siirto",
         "Settings.LeapMotion.ForwardOffset" : "Eteenpäin siirto",
         "Settings.LeapMotion.SnapDistance" : "Käsiohjain napsautusetäisyys",
+
+        "Settings.WindowsIntegration" : "Windows Integraatio",
+        "Settings.LinuxIntegration" : "Linux Integraatio",
+
+        "Settings.System.KeepOriginalScreenshotFormat" : "Säilytä alkuperäinen kuvaformaatti",
+        "Settings.System.KeepOriginalScreenshotFormat.Description" : "Kun tämä asetus on käytössä, kuvaa ei muunneta .jpg:ksi, kun ne tallennetaan Asiakirjat-kansioon",
+
+        "Desktop.OpenKeyboard" : "Avaa näppäimistö",
+        "Desktop.FollowCursor.On" : "Seuraa osoitinta: Päällä",
+        "Desktop.FollowCursor.Off" : "Seuraa osoitinta: Pois",
+        "Desktop.LegacyInputMode.On" : "Vanha syöttömuoto: Päällä",
+        "Desktop.LegacyInputMode.Off" : "Vanha syöttömuoto: Pois",
+        "Desktop.Brightness" : "Kirkkaus: {n,number,percent}",
+        "Desktop.Opacity" : "Läpinäkyvyys: {n,number,percent}",
+
+        "Tutorial.Welcome.WelcomeTo" : "Tervetuloa",
+        "Tutorial.Welcome.LetsStart" : "Aloitetaan!",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>VAROITUS:</b></color> Pelaat tällä hetkellä työpöytä -tilassa. Emme vielä täysin tue työpöytä -tilaa. Tällä hetkellä se on suurimmaksi osaksi tarkoitettu debugausta varten.<br><br>Työpöytä -tilaa voi kuitenkin käyttää, mutta osa asioista ei välttämättä toimi niin kuin pitäisi ja ohjattavuus voi olla hankalaa.<br><br><b>Neos on tarkoitettu VR käyttöön.</b><br><br>Kunnon työpöytätuki on työn alla ja se tulee niin nopeasti kuin vain mahdollista.",
+        "Tutorial.Welcome.ScreenUnderstand" : "Hyväksy",
+
+        "Tutorial.Welcome.AccountHeader" : "Neos tili",
+        "Tutorial.Welcome.AccountDescription" : "Kun teet tilin, saat 1 GB ilmaista tallennustilaa, kyvyn tallentaa tavaroita ja avatareja, lisätä kontakteja ja lähettää viestejä.",
+        "Tutorial.Welcome.AccountCreate" : "Luo tili",
+        "Tutorial.Welcome.AccountLogin" : "Minulla on jo tili",
+        "Tutorial.Welcome.AccountSkip" : "Jatka ilman tiliä",
+        "Tutorial.Welcome.AccountSkipHeader" : "Ohita tilin tekeminen?",
+        "Tutorial.Welcome.AccountSkipDescription" : "Osa toiminnallisuuksista, kuten tavaroiden ja avatarien tallentaminen, tai kontaktien lisääminen ei tule olemaan mahdollista.",
+        "Tutorial.Welcome.AccountSkipConfirm" : "Varmista ohitus",
+
+        "Tutorial.Welcome.SettingsHeader" : "Perusasetukset",
+        "Tutorial.Welcome.SettingsDescription" : "Voit määrittää liikeen ja käyttäjän perusasetukset. Kaikkia näitä asetuksia voi myös muokata myöhemmin",
+        "Tutorial.Welcome.SettingsTurning" : "Kääntymistyyli",
+        "Tutorial.Welcome.SettingsSnapTurn" : "Napsautus kääntyminen",
+        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Kääntyminen tapahtuu välittömästi napsahtamalla uuteen kulmaan. Ideaali uusille käyttäjille.",
+        "Tutorial.Welcome.SettingsSmoothTurn" : "Pehmeä kääntyminen",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Pehmeä kääntyminen. Voi aiheuttaa pahoinvointia.",
+        "Tutorial.Welcome.SettingsPrimaryController" : "Ensisijainen ohjain",
+        "Tutorial.Welcome.SettingsPrimaryLeft" : "Vasen",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Vasen:</b> Käänny, <b>Oikea:</b> Liiku",
+        "Tutorial.Welcome.SettingsPrimaryRight" : "Oikea",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Vasen:</b> Liiku, <b>Oikea:</b> Käänny",
+        "Tutorial.Welcome.SettingsHeight" : "Pituus",
+        "Tutorial.Welcome.SettingsHeightExamples" : "Esim: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
+
+        "Tutorial.Welcome.StartTutorialHeader" : "Aloita tutoriaali",
+        "Tutorial.Welcome.StartTutorialDescription" : "Siirrämme sinut tutorial maailmaan auttaaksesi sinua pääsemään alkuun. Voit aloittaa tutorial sessiosi julkisena, johon muut pystyvät liittymään ja tulla auttamaan sinua, tai aloita yksityinen sessio.",
+        "Tutorial.Welcome.StartTutorialPublic" : "Haluan, että muut pystyvät liittymään ja tulla auttamaan minua",
+        "Tutorial.Welcome.StartTutorialPrivate" : "Haluan oppia yksin",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Haluatko varmasti aloittaa yksityisen session?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Yhteisön jäsenet voivat auttaa sinua pääsemään alkuun helpommin ja nopeammin. Haluatko varmasti jatkaa yksin?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Aloita yksityinen sessio",
+
+        "Tutorial.Intro.WelcomeTitle" : "Tervetuloa Neokseen",
+        "Tutorial.Intro.WelcomeDescription" : "Sinun opas metaverssin kokemiseen.",
+
+        "Tutorial.Intro.GrabbingTitle" : "Tarttuminen",
+        "Tutorial.Intro.GrabbingVR" : "<color=#ffdd77><b>Nosta</b></color> lähellä oleva esine painamalla <color=#77ff77><b>tarraamis</b></color>näppäintä.<br> Jotta voit tarttua kaukaiseen esineeseen, paina ensin <b><color=#77ff77>liipaisinta</color></b> saadaksesi osoittimen(laaserin) näkyviin, sitten <color=#ffdd77><b>nappaa</b></color> esine painamalla <color=#77ff77><b>tarraamis</b></color> näppäintä.",
+        "Tutorial.Intro.GrabbingScreen" : "<color=#ffdd77><b>Nosta</b></color> esineitä painamalla <color=#77ff77><b>oikean hiiren painiketta</b></color>.",
+
+        "Tutorial.Intro.ScalingTitle" : "Skaalaus",
+        "Tutorial.Intro.ScalingVR" : "<color=#ffdd77><b>Skaalataksesi</b></color> esinettä, pidä siitä kiinni molemmilla käsillä ja liikuta niitä <color=#77ddff><b>lähemmäs tai kauemmas</b></color> toisistaan - tämä toiminto toimii myös osoittimillasi.",
+        "Tutorial.Intro.ScalingScreen" : "<color=#ffdd77><b>Skaalataksesi</b></color> esinettä, pidä siitä kiinni <color=#77ff77><b>oikeanpuoleisen hiiren näppäimellä</b></color>, sitten pidä <color=#77ddff><b>'Shift'</b></color> nappi pohjassa ja käytä <color=#77ddff><b>hiiren rullaa</b></color>",
+
+        "Tutorial.Intro.ContextMenuTitle" : "Säde -valikko",
+        "Tutorial.Intro.ContextMenuDescription" : "Sinun <color=#ffdd77><b>säde -valikko</b></color> sisältää nopeita toimintoja.<br>Avaa tai sulje se painamalla <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B näppäin",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B tai Y näppäin",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "Valikko näppäin",
+        "Tutorial.Intro.ContextMenu_Screen" : "Hiiren rulla näppäin",
+
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Tuhoaminen ja kopioiminen",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Kun pidät esinettä kädessäsi, voit <b><color=#ffdd77>poistaa tai kopioida</color></b> sen <color=#77ff77><b>painamalla</b></color> kyseistä toimintoa sinun säde -valikossasi.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Kun pidät esinettä kädessäsi, voit <b><color=#ffdd77>poistaa</color></b> sen <color=#ffdd77><b>säde -valikon</b></color> toiminnolla, tai painamalla <color=#77ff77><b>Delete</b></color> näppäintä. <color=#ffdd77><b>Kopiointi</b></color> onnistuu <color=#ffdd77><b>säde -valikon</b></color> toiminnolla.",
+
+        "Tutorial.Intro.ScalingYourselfTitle" : "Skaalaa itseäsi",
+        "Tutorial.Intro.ScalingYourselfVR" : "<color=#ffdd77><b>Skaalataksesi itseäsi</b></color> pistä skaalautuvuus päälle sinun säde -valikosta, sitten pidä kiinni molemmista <color=#77ff77><b>tarraus napeista</b></color> ja ala liikuttamaan käsiäsi <color=#77ddff><b>lähemmäksi tai kauemmasi</b></color> toisistaan.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "<color=#ffdd77><b>Skaalataksesi itseäsi</b></color> avaa <color=#ffdd77><b>säde -valikko</b></color> ja pistä skaalautuvuus päälle, sitten pidä <color=#77ff77><b>Ctrl</b></color> pohjassa ja käytä <color=#77ff77><b>hiiren rullaa</b></color>.",
+
+        "Tutorial.Intro.LocomotionTitle" : "Liikkumistyyli",
+        "Tutorial.Intro.LocomotionDescription" : "Neoksessa on monta erillaista liikkumistapaa.<br>Nämä liikkumistyylit ovat saatavilla sinun <color=#ffdd77>säde -valikosta</color>.",
+
+        "Tutorial.Intro.DashboardTitle" : "Neos liukuvalikko",
+        "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>Liukuvalikko</b></color> on sinun päävalikko.<br>Pystyt avaamaan ja sulkemaan sen painamalla <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>Liukuvalikko</b></color> on sinun päävalikko.<br>Pystyt avaamaan ja sulkemaan sen painamalla <color=#77ff77><b>{button}</b></color> kunnes ympyrä on täynnä, sitten <color=#77ddff><b>vapauta</b></color> painike.",
+        "Tutorial.Intro.Dashboard_ButtonA" : "A nappi",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A tai X nappi",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "Valikko nappi",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Esc nappi",
+
+        "Tutorial.Intro.InventoryVR" : "Sinun <color=#ffdd77><b>inventaario</b></color> löytyy liukuvalikostasi.<br><color=#77ddff><b>Spawnataksesi</b></color> esineen, sinun täytyy <color=#77ff77><b>tupla klikata</b></color> esinettä sinun inventaariossa.<br>Jotta voit <color=#77ddff><b>tallentaa</b></color> esineen, <color=#77ddff><b>pidä kiinni</b></color> esineestä ja paina <sprite name=inv-add> oikeassa yläkulmassa.",
+        "Tutorial.Intro.InventoryScreen" : "Sinun <color=#ffdd77><b>inventaario</b></color> löytyy liukuvalikostasi.<br><color=#77ddff><b>Spawnataksesi</b></color> esineen, sinun täytyy <color=#77ff77><b>tupla klikata</b></color> esinettä sinun inventaariossa.<br>Jotta voit <color=#77ddff><b>tallentaa</b></color> esineen, pidä kiinni esineestä ja tallenna se <color=#ffdd77><b>Säde -valikon</b></color> kautta.",
+
+        "Tutorial.Intro.HomeScreenTitle" : "Aloitusnäyttö",
+        "Tutorial.Intro.HomeScreenDescription" : "Sinun <color=#ffdd77><b>Aloitus näyttö</b></color> sisältää monenlaisia toiminnallisia fasetteja.<br>Mukaan lukien Avatarin luominen, Full-body kalibrointi, Kamera / Suoratoisto ja Tee uusi maailma.",
+        "Tutorial.Intro.ContactsDescription" : "Sinun <color=#ffdd77><b>kontaktit</b></color> löytyvät liukuvalikosta.<br>Lähetä teksti- tai ääniviestejä ja esineitä kontakteille tekstikentällä oikeassa alakulmassa.<br>Lisää kontakteja hakupalkin kautta, jonka löydät vasemmasta yläkulmasta.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Tuo</b></color> tiedostoja, 3D-malleja, kuvia, audiota, videoita, tai fontteja suoraan Neokseen!<br>Joko <color=#77ddff><b>valitsemalla ja tiputtamalla</b></color> tiedosto Neos -ikkunaan, tai etsimällä tiedosto <color=#ffdd77><b>Tiedostot</b></color> valikkoa käyttäen.",
+        "Tutorial.Intro.SessionTitle" : "Session asetukset",
+        "Tutorial.Intro.SessionDescription" : "Sessionin asetukset, käyttöoikeus tasot ja muut asetukset jotka koskevat muita käyttäjiä maailmassa löytyvät <color=#ffdd77><b>Sessio</b></color> valikosta.",
+        "Tutorial.Intro.SettingsDescription" : "Pituus-, ääni-, mukavuus-, kielisyys- ja monet muut asetukset ovat säädettävissä <color=#ffdd77><b>Asetukset</b></color> valikosta.",
+        "Tutorial.Intro.WorldsTitle" : "Maailma valikko",
+        "Tutorial.Intro.WorldsDescription" : "Seikkaile metaverssissä käyttämällä <color=#ffdd77><b>Maailmoja</b></color> -valikkoa.<br>Kun olet mielestäsi valmis, liity aktiiviseen sessioon tavataksesi muita yhteisön jäseniä!",
+
+        "Tutorial.Intro.OutroTop" : "Lisää opetusohjelmia on saatavilla ympäri tätä maailmaa.<br><br>Onnea matkaan ja nauti metaverssistä!",
+        "Tutorial.Intro.Website" : "Verkkosivut",
+        "Tutorial.Intro.OutroEnd" : "Voit tukea Neosta liittymällä Patreoniin.<br><br>Voit myös liittyä Neos Discordiin päivityksiä, verkostoitumista ja teknistä tukea varten.",
+
+        "Tutorial.MTC.Avatars" : "Avatarit & Sosiaalliset",
+        "Tutorial.MTC.Creation" : "Luominen & Hyödylliset",
+        "Tutorial.MTC.RecordingStreaming" : "Nauhoitus & Striimaus",
+
+        "Tutorial.Grab.MoveRotate" : "Liikuta/Pyöritä pitämääsi esinettä",
+        "Tutorial.Grab.Scale" : "Tartu toisella ohjaimella skaalataksesi",
+        "Tutorial.Grab.PullToEquip" : "Vedä itseäsi kohti käyttääksesi",
+        "Tutorial.Grab.UseHeld" : "Käytä päätoimintoa (ei tarvitse pitää kädessä)",
+        "Tutorial.Grab.ContextEquip" : "Käytä säde -valikkoa pukeaksesi tai saadaksesi esille vaihtoehtoja",
+        "Tutorial.Grab.EquipForFullUse" : "Pidä kädessä, jotta pystyt käyttämään kaikkia toimintoja",
+
+        "Tutorial.WorldOrb.Click" : "Klikkaa maailma -palloa",
+        "Tutorial.WorldOrb.Info" : "<b>Maailma -pallo</b>\n<size=80%>On maailma tai sessio</size>\nTupla klikkaus - Hyppää sisään\nYksi klikkaus  - säde -valikko",
+
+        "Tutorial.Tooltip.GeneralPrimary" : "Päätoiminto",
+        "Tutorial.Tooltip.GeneralSecondary" : "Toissijainen toiminto",
+        "Tutorial.Tooltip.ContextMenu" : "Työkaluvalikko ja dequip option",
+        "Tutorial.Tooltip.DevPrimary" : "Liikuta valintaa (pidä liipaisinta)",
+        "Tutorial.Tooltip.DevSecondary" : "Valitse (näyttää valinnan)",
+        "Tutorial.Tooltip.Duplicator" : "Kopioi (samalla kun pidät kiinni)",
+        "Tutorial.Tooltip.GluePrimary" : "Levitä liimaa (pidä liipaisinta)",
+        "Tutorial.Tooltip.GlueSecondary" : "Pakota liiman kuivuminen",
+        "Tutorial.Tooltip.ColorPrimary" : "Aseta väri",
+        "Tutorial.Tooltip.ColorSecondary" : "Valitse väri",
+        "Tutorial.Tooltip.Brush" : "Piirrä",
+        "Tutorial.Tooltip.MaterialPrimary" : "Aseta materiaali\n<size=75%>(Aseta materiaali työkaluun)</size>",
+        "Tutorial.Tooltip.MaterialSecondary" : "Ota materiaali\n<size=75%>(Varmista ensin, että sinulla ei ole materiaalia työkalussa)</size>",
+        "Tutorial.Tooltip.MeshPrimary" : "Korvaa malli",
+        "Tutorial.Tooltip.MeshSecondary" : "Ota malli",
+        "Tutorial.Tooltip.CharacterColliderPrimary" : "Lisää hahmon fyysinen este",
+        "Tutorial.Tooltip.CharacterColliderSecondary" : "Poista hahmon fyysinen este",
+        "Tutorial.Tooltip.GrabbableSetterPrimary" : "Lisää tarttuminen",
+        "Tutorial.Tooltip.GrabbableSetterSecondary" : "Poista tarttuminen",
+        "Tutorial.Tooltip.LightPrimary" : "Luo valo (pidä liipaisinta)",
+        "Tutorial.Tooltip.LightSecondary" : "Vaihda väri",
+        "Tutorial.Tooltip.MeshVisibilityPrimary" : "Vaihda näkyväksi",
+        "Tutorial.Tooltip.MeshVisibilitySecondary" : "Vaihda näkymättömäksi",
+        "Tutorial.Tooltip.ShapePrimary" : "Luo muoto",
+        "Tutorial.Tooltip.ShapeSecondary" : "Muuta muotoa",
+        "Tutorial.Tooltip.WigglerPrimary" : "Päästä paha valloilleen",
+        "Tutorial.Tooltip.WigglerSecondary" : "Palauta hieman sieluasi",
+
+        "Tutorial.BotDesigner.Start" : "Aloita",
+        "Tutorial.BotDesigner.WearAvatar" : "Käytä Avataria",
+        "Tutorial.BotDesigner.Intro.Title" : "Neos botti tekijä",
+        "Tutorial.BotDesigner.Intro.Description" : "Suunnittele ja muokkaa oma Neos botti!",
+        "Tutorial.BotDesigner.List.Models" : "Mallit",
+        "Tutorial.BotDesigner.List.Colors" : "Värit",
+        "Tutorial.BotDesigner.ModelOptions.Genders.Male" : "Miespuolinen",
+        "Tutorial.BotDesigner.ModelOptions.Genders.Female" : "Naispuolinen",
+        "Tutorial.BotDesigner.ModelOptions.Cloak" : "Viitta",
+        "Tutorial.BotDesigner.ColorOptions.Metal" : "Metalli",
+        "Tutorial.BotDesigner.ColorOptions.Secondary" : "Toissijainen",
+        "Tutorial.BotDesigner.ColorOptions.Underbody" : "Alaosa",
+        "Tutorial.BotDesigner.ColorOptions.Emission" : "Hohde",
+        "Tutorial.BotDesigner.ColorOptions.PickColor" : "Valitse väri",
+
+        "Tutorial.AvatarTutorial.Start" : "Aloita",
+        "Tutorial.AvatarTutorial.OpenWorld" : "Avaa maailma",
+        "Tutorial.AvatarTutorial.AvatarWorlds" : "Avatari maailmat",
+        "Tutorial.AvatarTutorial.Intro.Title" : "Neos Avatarit",
+        "Tutorial.AvatarTutorial.Intro.Description" : "Opi etsimään ja käyttämään avatareja!",
+        "Tutorial.AvatarTutorial.Avatars.Title" : "Avatarit",
+        "Tutorial.AvatarTutorial.FindingAvatars.Title" : "Avatarien löytäminen",
+        "Tutorial.AvatarTutorial.EquippingAndFavoriting.Title" : "Käyttäminen ja tallentaminen",
+        "Tutorial.AvatarTutorial.AvatarCreation.Title" : "Avatarin tekeminen",
+        "Tutorial.AvatarTutorial.AvatarWorlds.Title" : "Avatari maailmat",
+        "Tutorial.AvatarTutorial.AvatarWorlds.Description" : "Valitse avatari maailma jonne haluat mennä ja paina <color=#77ff77>Avaa maailma</color>.",
+        "Tutorial.AvatarTutorial.Avatars.Description" : "Avatarit ovat tapa ilmaista itseäsi.<br>Voit löytää tai luoda avatareja metaverssissä.",
+        "Tutorial.AvatarTutorial.FindingAvatars.Description" : "Löydät yleisiä avatereja sinun inventaarion <br>'Neos Essentials' -kansiosta.<br><br>Yhteisön tekemiä avatareja voit löytää julkisista kansioista tai maailmoista.",
+        "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Pue avatari painamalla liipaisinta <br> ja valitsemalla 'Vaihda avatar'.<br><br>Tallenna nykyinen puettu avatarisi painamalla <sprite name=Download>  .<br><br>Voit myös lisätä avatarin suosikiksi <br>inventaariossa valitsemalla  <sprite name=Favorite>  .",
+        "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Tuodaksesi mukautetun avatarin Neokseen, tutustu <br> Neoksen avatarin luomis oppaaseen.",
+
+        "Tutorial.AvatarCreator.Intro.Title" : "Neos avatarin tekeminen",
+        "Tutorial.AvatarCreator.Intro.Description" : "Opi tuomaan avatarisi Neokseen",
+        "Tutorial.AvatarCreator.Options.Start" : "Aloita",
+        "Tutorial.AvatarCreator.ImportingAssets.Title" : "Resurssien tuominen",
+        "Tutorial.AvatarCreator.AvatarCreator.Title" : "Avatarin luominen",
+        "Tutorial.AvatarCreator.SettingUpMaterials.Title" : "Materiaalien asettaminen",
+        "Tutorial.AvatarCreator.DynamicBones.Title" : "Dynaamiset luut",
+        "Tutorial.AvatarCreator.Saving&Favoriting.Title" : "Tallentaminen ja suosikkeihin lisääminen",
+        "Tutorial.AvatarCreator.ImportingAssets.Description" : "Mukautetut avatari resurssit, kuten 3D-mallit, tekstuurit, normaalit ja muut voidaan tuoda suoraan pelin sisään tiedostoselaimella, tai vetämällä ja tiputtamalla tiedostot suoraan työpöydältä Neos-ikkunaan.",
+        "Tutorial.AvatarCreator.AvatarCreator.Description" : "Kun olet saanut tuotua mallisi Neokseen, avaa <color=#77ccff><b>Avatarin luomis-työkalu</b></color> liukumauvalikostasi ja aseta pää, kädet ja työkaluankkurit haluamallasi tavalla.",
+        "Tutorial.AvatarCreator.SettingUpMaterials.Description" : "<color=#77ccff><b>Kehittäjän työkalulla</b></color> <sprite name=DevTip> voit painaa <color=#77ff77><b>toissijais näppäintä</b></color> valitaksesi<br>avatarin ja avataksesi sen hierarkian.<br>Navigoi avatarin juureen ja <color=#77ccff><b>materiaali työkalun</b></color> <sprite name=MatTip>  avulla, <color=#77ff77><b>tarraa</b></color> 'CenteredRoot' ja paina <color=#77ff77><b>toissijais näppäintä</b></color> saadaksesi avatarin materiaalit esille.<br>Tekstuurit ja muut, jotka eivät tulleet suoraan avatarin mukana voi asettaa editoimalla materiaaleja. Tarraa tekstuuri, vie se oikean kentän päälle ja paina liipaisinta.",
+        "Tutorial.AvatarCreator.DynamicBones.Description" : "Dynaamiset luut voivat lisätä elämää ja vuorovaikutteisuutta muuten staattisiin malleihin.<br>Lisää 'DynamicBoneChain' komponentti valittuun luuhun hierarkiassa, selaa alas ja valitse <color=#77ccff><b>'Setup from Children (Rig Only)'</b></color>. Tämän tekee perus dynaamisen luun -ketjun, jonka asetuksia voit muokata kehittäjän työkalulla.",
+        "Tutorial.AvatarCreator.SavingFavoriting.Description" : "Alkuasetuksien jälkeen, pue avatari ja siirry inventaarioon. Navigoi kansioon jonne haluat tallentaa avatarisi ja paina <sprite name=Download>  .<br><br>Valitse avatarisi inventaariossa ja paina <sprite name=Favorite>  lisätäksesi avatarin suosikkeihin.",
+        "Tutorial.AvatarCreator.Outro.Title" : "Lisätietoa & Apua",
+
+        "Tutorial.AvatarCreator.Outro.Description" : "Lisäresursseja avatarin luomiseen, käyttöönottoon ja muuhun opetussisältöön löytyy yhteisön ylläpitämästä wikistä, Neos Discordista ja YouTubesta.",
+
+        "Tutorial.CommunityYouTube.Title" : "Yhteisön YouTube kanavia",
+
+        "Tutorial.UserResources.UserResourcesTitle" : "Yhteisö resurrseja",
+        "Tutorial.UserResources.SupportTitle" : "Kuinka voit tukea Neosta",
+        "Tutorial.UserResources.MerchandiseTitle" : "Neos tuotteita",
+
+        "Tutorial.Intro.BadgesNeosTeam" : "Neos Tiimi",
+        "Tutorial.Intro.BadgesModerator" : "Moderaattori",
+        "Tutorial.Intro.BadgesMentor" : "Mentori",
+        "Tutorial.Intro.BadgesDisabilityHearing" : "Kuuro & Heikentynyt kuulo",
+        "Tutorial.Intro.BadgesDisabilityVision" : "Sokeutta & muuta näkövammaa",
+        "Tutorial.Intro.BadgesDisabilitySpeech" : "Ei puhe kykeneväinen & puhevamma",
+        "Tutorial.Intro.BadgesTitle" : "Merkit",
+        "Tutorial.Intro.BadgesDescription" : "Merkit ovat pieniä ikoneita jotka kuvaavat käyttäjää. Tässä lista muutamasta merkistä, jotka kannattaa muistaa. Kuulo-, näkö- ja puhevammaisuuden merkit pystyy itse lisäämään Neos -botti komentojen avulla.",
+        "Tutorial.Intro.HelpSite" : "Apua",
+
+        "Exiting.SavingChanges" : "Tallennetaan muutoksia...",
+        "Exiting.Exiting" : "Suljetaan...",
+        "Exiting.LoggingOut" : "Kirjaudutaan ulos...",
 
         "Dummy" : "Dummy"
     }
