@@ -77,7 +77,7 @@
         "Interaction.CopyLink" : "Kopioi linkki",
 
         "Dash.Screens.Home" : "Koti",
-        "Dash.Screens.Worlds" : "Maailmoja",
+        "Dash.Screens.Worlds" : "Maailmat",
         "Dash.Screens.Contacts" : "Kontaktit",
         "Dash.Screens.Inventory" : "Inventaario",
         "Dash.Screens.Desktop" : "Työpöytä",
@@ -87,6 +87,8 @@
         "Dash.Screens.Exit" : "Poistu",
 
         "Dash.Actions.PasteFromClipboard" : "Liitä leikepöydältä",
+
+        "Dash.Actions.TurnOffUIEdit" : "Sulje käyttöliittymän muokkaustila",
 
         "Dash.Actions.CoreWorldsHeader" : "Ydinmaailmat",
         "Dash.Actions.ContentHub" : "Sisältökeskus",
@@ -175,7 +177,7 @@
 
         "World.Actions.GetWorldOrb" : "Tuo maailman pallo",
         "World.Actions.CopyWorldURL" : "Kopioi maailman URL",
-        "World.Actions.CopyRecordURL" : "Copy Record URL",
+        "World.Actions.CopyRecordURL" : "Kopioi Record URL",
         "World.Actions.StartCustomSession" : "Aloita mukautettu sessio",
         "World.Actions.ModifyMetadata" : "Muokkaa Metadataa",
         "World.Actions.GetSessionOrb" : "Tuo session pallo",
@@ -244,7 +246,7 @@
         "World.Filter.DataSources" : "Tietolähteet:",
         "World.Filter.OpenedWorlds" : "Avatut maailmat",
         "World.Filter.ActiveSessions" : "Aktiiviset istunnot",
-        "World.Filter.PublishedWorlds" : "Julkisia maailmoja",
+        "World.Filter.PublishedWorlds" : "Julkiset maailmat",
         "World.Filter.LocalWorlds" : "Paikalliset istunnot",
         "World.Filter.BaseSearch" : "Haku:",
         "World.Filter.ByOwner" : "Omistajan mukaan:",
@@ -277,10 +279,14 @@
         "Tools.CreateNewWorld" : "Tee uusi maailma",
         "Tools.DepositNCR" : "Talleta NCR",
         "Tools.WithdrawNCR" : "Nosta NCR",
+
         "Tools.StreamAudio" : "Äänen suoratoisto",
 
         "Tools.StreamAudio.Start" : "Aloita suoratoisto",
         "Tools.StreamAudio.Bitrate" : "Bittinopeus: {bitrate} kbps",
+
+
+
         "Tools.StreamAudio.PlayForOwner.Off" : "Toista omistajalle: Pois",
         "Tools.StreamAudio.PlayForOwner.On" : "Toista omistajalle: Päällä",
 
@@ -376,7 +382,7 @@
         "Contacts.UnbanFromAllSessions" : "Poista esto KAIKISTA minun sessioistani",
         "Contacts.BanFromCurrentWorld" : "Estä nykyisestä maailmasta",
         "Contacts.UnbanFromCurrentWorld" : "Poista esto nykyisestä maailmasta",
-        "Contacts.RecordingVoiceMessage" : "Nauhoitetaan ääntä...",
+        "Contacts.RecordingVoiceMessage" : "Nauhoitetaan puhetta...",
 
         "Contacts.InSession" : "Maailmassa {name}",
         "Contacts.InPrivate" : "Yksityisessä maailmassa",
@@ -402,7 +408,7 @@
         "Notifications.TransferedCredits" : "Siirretty {amount} {token}",
         "Notifications.ReceivedTip" : "Vastaanotettu tippi {amount} {token}",
         "Notifications.SentTip" : "Lähetty tippi {amount} {token}",
-        "Notifications.VoiceMessage" : "Ääniviesti lähetetty",
+        "Notifications.VoiceMessage" : "Lähetti ääniviestin",
 
         "Undo.SetField" : "Aseta kenttä {field_name} tähän {value}",
         "Undo.SetReference" : "Aseta viite {ref_name} tähän {ref_target}",
@@ -433,6 +439,9 @@
         "Undo.BakeMeshes" : "Beikkaa {name}",
         "Undo.ChangeMesh" : "Vaihda tahkoverkko",
         "Undo.InsertParent" : "Lisää yliluokka {name}",
+
+
+
 
 
         "Tooltips.Dev.CreateNew" : "Tee uusi...",
@@ -492,6 +501,22 @@
         "Tooltip.Microphone.ModePress" : "Paina aloittaaksesi/lopettaaksesi nauhoituksen",
 
         "Tooltip.Microphone.SourceFiltered" : "Filteröity ja normalisoitu",
+
+        "CreateNew.Back" : "<<< <i>Takaisin</i>",
+        "CreateNew.EmptyObject" : "Tyhjä Objekti",
+        "CreateNew.ParticleSystem" : "Partikkelijärjestelmä",
+
+        "CreateNew.Object" : "Objekti",
+        "CreateNew.Object.AvatarCreator" : "Avatar luoja",
+        "CreateNew.Object.Camera" : "Kamera",
+        "CreateNew.Object.ReflectionProbe" : "Heijastusanturi",
+        "CreateNew.Object.Mirror" : "Peili",
+        "CreateNew.Object.Portal" : "Portaali",
+        "CreateNew.Object.VideoPlayer" : "Videosoitin",
+        "CreateNew.Object.SpawnArea" : "Spawn Area",
+        "CreateNew.Object.SpawnPoint" : "Spawn Point",
+        "CreateNew.Object.UIXCanvas" : "UIX Canvas",
+        "CreateNew.Object.Facet" : "Facet",
 
         "FullBody.Hips" : "Vyötärö",
         "FullBody.Feet" : "Jalat",
@@ -724,9 +749,9 @@
         "Tutorial.Tooltip.GrabbableSetterPrimary" : "Make Grabbable",
         "Tutorial.Tooltip.GrabbableSetterSecondary" : "Make Non-grabbable",
         "Tutorial.Tooltip.LightPrimary" : "Create Light (hold)",
-        "Tutorial.Tooltip.LightSecondary" : "Change Color",
-        "Tutorial.Tooltip.MeshVisibilityPrimary" : "Make Visible",
-        "Tutorial.Tooltip.MeshVisibilitySecondary" : "Make Invisible",
+        "Tutorial.Tooltip.LightSecondary" : "Vaihda väri",
+        "Tutorial.Tooltip.MeshVisibilityPrimary" : "Vaihda näkyväksi",
+        "Tutorial.Tooltip.MeshVisibilitySecondary" : "Vaihda näkymättömäksi",
         "Tutorial.Tooltip.ShapePrimary" : "Create Shape",
         "Tutorial.Tooltip.ShapeSecondary" : "Change Shape",
         "Tutorial.Tooltip.WigglerPrimary" : "Unleash Unspoken Evils Upon The World",
@@ -749,14 +774,14 @@
 
         "Tutorial.AvatarTutorial.Start" : "Aloita",
         "Tutorial.AvatarTutorial.OpenWorld" : "Avaa maailma",
-        "Tutorial.AvatarTutorial.AvatarWorlds" : "Avatari maailmoja",
+        "Tutorial.AvatarTutorial.AvatarWorlds" : "Avatari maailmat",
         "Tutorial.AvatarTutorial.Intro.Title" : "Neos Avatarit",
         "Tutorial.AvatarTutorial.Intro.Description" : "Opi etsimään ja käyttämään avatareja!",
         "Tutorial.AvatarTutorial.Avatars.Title" : "Avatarit",
         "Tutorial.AvatarTutorial.FindingAvatars.Title" : "Avatarien löytäminen",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Title" : "Käyttäminen ja tallentaminen",
         "Tutorial.AvatarTutorial.AvatarCreation.Title" : "Avatarin tekeminen",
-        "Tutorial.AvatarTutorial.AvatarWorlds.Title" : "Avatari maailmoja",
+        "Tutorial.AvatarTutorial.AvatarWorlds.Title" : "Avatari maailmat",
         "Tutorial.AvatarTutorial.AvatarWorlds.Description" : "Select an avatar world you want to go to and click <color=#77ff77>Open World</color>.",
         "Tutorial.AvatarTutorial.Avatars.Description" : "Avatars are a way to express yourself.<br>You can find or create avatars within the metaverse.",
         "Tutorial.AvatarTutorial.FindingAvatars.Description" : "Common avatars are located in the<br>Neos Essentials folder in your inventory.<br><br>Community-made avatars can be found in public folders or published worlds.",
