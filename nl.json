@@ -1,6 +1,6 @@
 {
     "localeCode" : "nl",
-    "authors" : ["jeana", "Beaned", "alexderpyfox", "AnotherFoxGuy"],
+    "authors" : ["jeana", "Beaned", "alexderpyfox", "AnotherFoxGuy", "marsmaantje"],
     "messages" : 
     {
         "General.OK" : "OK",
@@ -111,11 +111,11 @@
         "World.Connection.Authenticating" : "Authenticatie",
         "World.Connection.Connected" : "Verbonden",
         "World.Connection.SyncingInitialState" : "Initiële wereldstatus synchroniseren",
-
-
-
-
-
+ 
+        "World.Connection.LNL.DirectIP" : "LNL Direct IP",
+        "World.Connection.LNL.NATPunchthrough" : "LNL NAT Punchthrough {n}",
+        "World.Connection.LNL.Relay" : "LNL Relay",
+        "World.Connection.SteamNetworkingSockets" : "Steam Networking Sockets",
 
         "World.Error.AccessDenied" : "Toegang geweigerd",
         "World.Error.SecurityViolation" : "Veiligheidsovertreding",
@@ -288,8 +288,8 @@
         "Tools.StreamAudio.Start" : "Begin met streamen",
         "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
         "Tools.StreamAudio.Title" : "{username} Audio Stream",
-
-
+        "Tools.StreamAudio.Spatialized" : "Spatialized",
+        "Tools.StreamAudio.Broadcast" : "Broadcast",
         "Tools.StreamAudio.PlayForOwner.Off" : "Afspelen voor eigenaar: Uit",
         "Tools.StreamAudio.PlayForOwner.On" : "Afspelen voor eigenaar: Aan",
 
@@ -444,6 +444,9 @@
         "Undo.InsertParent" : "Parent invoegen voor {name}",
         "Undo.Wiggler" : "Kwaadaardige Dingen",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "Extract Materials from Hierarchy",
+        "Undo.BatchConvertMaterials" : "Batch convert materials",
+
         "Tooltips.Dev.CreateNew" : "Maak nieuw...",
         "Tooltips.Dev.Selection" : "Selectie: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Ontwikkelaarsmodus: Uit",
@@ -489,6 +492,7 @@
         "Tooltip.Material.CreateCopy" : "Maak een kopie",
         "Tooltip.Material.Edit" : "Materiaal bewerken",
         "Tooltip.Material.Convert" : "Omzetten naar...",
+        "Tooltip.Material.ConvertAll" : "Convert All to...",
         "Tooltip.Material.CreateNew" : "Maak nieuw",
 
         "Tooltip.Mesh.Edit" : "Bewerk Mesh",
@@ -585,6 +589,8 @@
         "Importer.Folder.Individual.Description" : "Creëert een apart importdialoogvenster voor elk ondersteund bestand in de map",
         "Importer.Folder.Batch" : "Batch importeren",
         "Importer.Folder.Batch.Description" : "Creëert een enkele importer voor elk type, met dezelfde instellingen voor elk bestand",
+        "Importer.Folder.Minecraft" : "Minecraft World",
+        "Importer.Folder.Minecraft.Description" : "Imports a Minecraft World if Mineways is installed.",
 
         "Importer.Image.Title" : "Afbeelding Importer",
         "Importer.Image.Prompt" : "Wat importeert u?",
@@ -659,6 +665,9 @@
         "Importer.Model.Advanced.RandomColors" : "Genereer Willekeurige Kleuren",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Spawn materiaal Orbs",
         "Importer.Model.Advanced.ImagesByName" : "Importeer Afbeeldingen Op Naam",
+        "Importer.Model.Advanced.ForcePointFiltering" : "Force Point Filtering",
+        "Importer.Model.Advanced.ForceNoMipMaps" : "No MipMaps",
+        "Importer.Model.Advanced.ForceUncompressed" : "Force Uncompressed",
 
         "Importer.Model.Advanced.Grabbable" : "Maak grijpbaar",
         "Importer.Model.Advanced.Scalable" : "Maak Schaalbaar",
@@ -671,7 +680,7 @@
         "Importer.Video.360" : "360 Video",
         "Importer.Video.Stereo" : "Stereo Video",
         "Importer.Video.Stereo360" : "Stereo 360 Video",
-        "Importer.Video.Depth" : "Depth Video",
+        "Importer.Video.Depth" : "Diepte video",
         "Importer.Video.180" : "180 Video",
         "Importer.Video.Stereo180" : "Stereo 180 Video",
         "Importer.Video.Depth.Prompt" : "Diepte Preset",
@@ -796,7 +805,7 @@
         "CameraControl.OpenCloseUsers" : "Gebruikers",
         "CameraControl.CreateCameraAnchor" : "Maak Camera Anker",
 
-        "CameraControl.Anchors.Interpolate" : "Interpoleer tussen ankers",
+        "CameraControl.Anchors.Interpolate" : "Verplaatssnelheid tussen ankerpunten",
         "CameraControl.Anchors.InterpolationSpeed" : "Ankerinterpolatiesnelheid:",
         "CameraControl.Anchors.NoAnchors" : "Geen camera-ankers in deze wereld",
 
@@ -1013,9 +1022,14 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Klaar! Stripped: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Strip Lege Botten",
         "Inspector.SkinnedMesh.StripBonesResult" : "Klaar! Stripped: {n,plural, one {# bot} other {# botten}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Bake Non-Driven BlendShapes",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Baked BlendShapes: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Visualizeer bot bounding boxes",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Visualizeer ongeveer samengevoegde bot bal bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Verwijder bot bounding box visuelen",
+
+        "Inspector.SimpleAvatarProtection.RemoveAll" : "Remove All Instances",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "REMOVE Avatar Protection",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Geef rig diagnostische info",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Genereer Debug Visuelen",
@@ -1313,7 +1327,7 @@
         "Tutorial.Tooltip.WigglerSecondary" : "Red je ziel een beetje",
 
         "Tutorial.BotDesigner.Start" : "Begin",
-
+        "Tutorial.BotDesigner.WearAvatar" : "Draag Avatar",
         "Tutorial.BotDesigner.Intro.Title" : "Neos Bot Ontwerper",
         "Tutorial.BotDesigner.Intro.Description" : "Ontwerp een aangepaste Neos Bot!",
         "Tutorial.BotDesigner.List.Models" : "Modellen",
@@ -1332,7 +1346,7 @@
         "Tutorial.AvatarTutorial.AvatarWorlds" : "Avatar Werelden",
         "Tutorial.AvatarTutorial.Intro.Title" : "Neos Avatars",
         "Tutorial.AvatarTutorial.Intro.Description" : "Leer hoe u avatars kunt vinden en gebruiken!",
-
+        "Tutorial.AvatarTutorial.Avatars.Title" : "Avatars",
         "Tutorial.AvatarTutorial.FindingAvatars.Title" : "Avatars vinden",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Title" : "Uitrusten & Favoriet maken",
         "Tutorial.AvatarTutorial.AvatarCreation.Title" : "Avatar Creatie",
@@ -1342,12 +1356,15 @@
         "Tutorial.AvatarTutorial.FindingAvatars.Description" : "Veel voorkomende avatars bevinden zich in de<br>Neos Essentials-map in je inventaris.<br>Door de Community gemaakte avatars zijn te vinden in openbare mappen of gepubliceerde werelden.",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Zodra je een avatar hebt, rust je deze uit door erop te klikken<br>en Equip Avatar te kiezen.<br><br>Sla uw huidig uitgeruste avatar op door op <sprite name=Download> te klikken.<br><br>U kunt uw avatar favoriet maken door deze <br>te selecteren in uw inventaris en op <sprite name=Favorite> te klikken.",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Om een aangepaste avatar te importeren en in te stellen, raadpleegt u<br>de Neos Avatar Creation-tutorial.",
+        
+        "Tutorial.Intro.PublicFolders.Title" : "Publieke Folders",
+        "Tutorial.Intro.PublicFolders.Description" : "Publieke folders zijn een makkelijke manier voor de community om hun creaties zoals bijvoorbeeld avatars te delen en updaten.<br><br>Om op te slaan, grijp de folder en klik op <sprite name=Add> in uw inventaris.<br><br>U kunt het ook opslaan via het Context Menu.<br><br>Probeer maar met <b>The Starter Pack</b>. Een folder gemaakt voor nieuwe gebruikers.",
 
-
+        "Tutorial.AvatarCreator.Intro.Title" : "Neos Avatar Creation",
         "Tutorial.AvatarCreator.Intro.Description" : "Leer hoe u uw avatar kunt importeren en instellen!",
         "Tutorial.AvatarCreator.Options.Start" : "Begin",
         "Tutorial.AvatarCreator.ImportingAssets.Title" : "Assets Importeren",
-
+        "Tutorial.AvatarCreator.AvatarCreator.Title" : "Avatar Creator",
         "Tutorial.AvatarCreator.SettingUpMaterials.Title" : "Materialen Instellen",
         "Tutorial.AvatarCreator.DynamicBones.Title" : "Dynamisch Bones",
         "Tutorial.AvatarCreator.Saving&Favoriting.Title" : "Opslaan & Favoriet maken",
@@ -1364,17 +1381,203 @@
 
         "Tutorial.UserResources.UserResourcesTitle" : "Hulpmiddelen",
         "Tutorial.UserResources.SupportTitle" : "Hoe kan ik Neos ondersteunen",
+        "Tutorial.UserResources.MerchandiseTitle" : "Neos Merch",
 
-
-
-
-
+        "Tutorial.Intro.BadgesNeosTeam" : "Neos Team",
+        "Tutorial.Intro.BadgesModerator" : "Moderator",
+        "Tutorial.Intro.BadgesMentor" : "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing" : "Slechthorend",
         "Tutorial.Intro.BadgesDisabilityVision" : "Slechtziend",
         "Tutorial.Intro.BadgesDisabilitySpeech" : "Spraakmoeilijkheden",
-
+        "Tutorial.Intro.BadgesTitle" : "Badges",
         "Tutorial.Intro.BadgesDescription" : "Badges zijn kleine icoontjes die aspecten van een gebruiker laten zien. Hier zijn een paar belangrijke badges om te onthouden. De handicap badges kunnen zelf worden toegewezen via de Neos bot.",
         "Tutorial.Intro.HelpSite" : "Help",
+   
+        "Object.Mirror.Toggle" : "Local Toggle",
+ 
+        "Tutorial.Streaming.StageControl" : "Podium bediening",
+        "Tutorial.Streaming.StageUI" : "Schakel podium UI",
+        "Tutorial.Streaming.StageLights" : "Schakel podium lichten",
+        "Tutorial.Streaming.StageLightController" : "Schakel licht bediening",
+        "Tutorial.Streaming.StageMicrophone" : "Schakel microfoonhouder",
+
+        "Tutorial.Streaming.GreenScreenControl" : "Greenscreen bediening",
+        "Tutorial.Streaming.GreenScreenToggle360" : "Schakel 360<sup>o</sup> omgeving",
+        "Tutorial.Streaming.GreenScreenTracking" : "Schakel tracking markeringen",
+        "Tutorial.Streaming.GreenScreenMarker" : "Maak grijpbare marker",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Verander scène",
+
+        "Tutorial.Streaming.StreamRoomControl" : "Streamingruimte bediening",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "Sky Wall afbeelding",
+        "Tutorial.Streaming.StreamRoomLayout" : "Set indeling",
+
+        "Tutorial.Streaming.StageLightShadowToggle" : "Schakel lichtschaduw",
+
+        "Tutorial.Streaming.Microphone.Title" : "Microfoon",
+        "Tutorial.Streaming.Microphone.UsageDescription" : "Wanneer u de <b><color=#ffdd77>MICROFOON TIP</b></color> vast heeft kunt u <b><color=#77ff77>PRIMAIR</b></color> gebruiken om audio op te nemen.",
+        "Tutorial.Streaming.Microphone.AudioTypeDescription" : "Selecteer het <b><color=#ffdd77>TYPE AUDIO FILE</b></color> dat u wil gebruiken door het <b><color=#dd77ff>CONTEXT MENU</b></color> te openen op de hand waarin u de tool vast heeft.",
+        "Tutorial.Streaming.Microphone.RecordingDescription" : "U kunt de <b><color=#ffdd77>OPNAME</b></color> methode veranderen met de opties in het <b><color=#dd77ff>CONTEXT MENU</b></color>.",
+        "Tutorial.Streaming.Microphone.RawDescription" : "De <b><color=#ffdd77>AUDIO OUTPUT</b></color> kunt u veranderen naar <b><color=#ffdd77>RAW AUDIO</b></color> formaat in het<b><color=#dd77ff>CONTEXT MENU</b></color>.",
+        
+        "Tutorial.Streaming.AudioStreaming.Title" : "Audio streamen",
+        "Tutorial.Streaming.AudioStreaming.StreamAudioDescription" : "U kunt voor anderen in Neos desktop-audio streamen. Om audio te streamen, klik op de <b><color=#ffdd77>STREAM AUDIO</b></color> knop op uw dashboard homepagina.",
+        "Tutorial.Streaming.AudioStreaming.StartStreamingDescription" : "Kies een <b><color=#ffdd77>AUDIO INPUT</b></color> van de lijst die u wil streamen. In dit paneel kunt u ook van tevoren de gekozen input beluisteren. Druk op <b><color=#77ff77>BEGIN MET STREAMEN</b></color> om een audio streaming paneel te maken.",
+        "Tutorial.Streaming.AudioStreaming.StopStreamingDescription" : "Het <b><color=#ffdd77>AUDIO STREAMING PANEEL</b></color> laat anderen in de sessie de audio van uw computer horen. De stream <b><color=red>STOPT</b></color> wanneer u het paneel sluit.",
+        
+        "Tutorial.Streaming.StreamControl.SkyboxTexture" : "Plaats skybox afbeelding hier",
+
+        "Tutorial.Streaming.Twitch.TwitchChat" : "Twitch Chat",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Title" : "De camera",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title" : "Neem een foto",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title" : "UI zoom bediening",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Title" : "Fysieke zoom bediening",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Title" : "Resolutie veranderen",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Description" : "Onder <sprite name=2K> kunt u meerdere opties vinden om de <color=#ffdd77><b>RESOLUTIE</b></color> van de foto's die de <color=#ffdd77><b>CAMERA</b></color> maakt te veranderen.",
+
+        "Tutorial.Streaming.Camera.Mode.Page1.Title" : "Standaard foto",
+        "Tutorial.Streaming.Camera.Mode.Page2.Title" : "3D foto",
+        "Tutorial.Streaming.Camera.Mode.Page3.Title" : "360 foto",
+        "Tutorial.Streaming.Camera.Mode.Page4.Title" : "Transparante foto",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Title" : "Standaard",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Title" : "Verzadigd",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Title" : "Grijswaarden",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Title" : "Sepia",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Title" : "Regenboog",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Title" : "Beeldhoek",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Title" : "Timer",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Title" : "Reflecties",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Title" : "Flits",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Title" : "Groot scherm",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Title" : "Waar kunt u het vinden",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Title" : "Hoe moet u het gebruiken",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Title" : "Basis Functies",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Description" : "U kunt een <color=#ffdd77><b>CAMERA SPAWNEN</b></color> van de <color=#dd77ff><b>NEOS ESSENTIALS FOLDER</b></color> in uw <color=#dd77ff><b>INVENTARIS</b></color>. Dit is uw primaire tool voor het <color=#77ff77><b>MAKEN</b></color> van foto's in Neos.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Description" : "U kunt foto's <color=#77ff77><b>MAKEN</b></color> door <color=#77ff77><b>PRIMAIR</b></color> te gebruiken op de <color=#ffdd77><b>KNOP</b></color> boven op de <color=#ffdd77><b>CAMERA</b></color> of door de <color=#dd77ff><b>CAMERA</b></color> ergens te <color=#77ff77><b>PAKKEN</b></color> en <color=#77ff77><b>PRIMAIR</b></color> te gebruiken.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Description" : "De <color=#ffdd77><b>ZOOM</b></color> functie kunt u vinden onder <sprite name=Options>. Je kan de <color=#ffdd77><b>ZOOM SLIDER</b></color> verschuiven met <color=#77ff77><b>FYSIEKE INTERACTIE</b></color> of met de <color=#dd77ff><b>LASERS</b></color> en <color=#77ff77><b>PRIMAIR</b></color>. ",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Description" : "U kunt ook de <color=#ffdd77><b>ZOOM</b></color> veranderen door de <color=#dd77ff><b>CAMERA-LENS</b></color> te <color=#77ff77><b>PAKKEN</b></color> en fysiek te <color=#77ff77><b>DRAAIEN</b></color>.",
+
+        "Tutorial.Streaming.Camera.Mode.Page1.Description" : "<color=#ffdd77><b>BASIS INSTELLINGEN</b></color> kunt u vinden onder <sprite name=Camera>. <color=#ffdd77><b>STANDAARD FOTO</b></color> is de beginwaarde, dit is de meest gebruikte <color=#ffdd77><b>CAMERA</b></color> instelling om foto's mee te maken.",
+        "Tutorial.Streaming.Camera.Mode.Page2.Description" : "De <color=#ffdd77><b>3D FOTO</b></color> optie laat u foto's maken met een illusie van diepte, dit wordt gedaan met een stereoscopische foto. Dit effect is alleen zichtbaar in een headset en het opgeslagen <color=#dd77ff><b>SCREENSHOT</b></color> zal twee foto's naast elkaar zijn.",
+        "Tutorial.Streaming.Camera.Mode.Page3.Description" : "De 360 FOTO optie laat u een <color=#dd77ff><b>RECHTHOEKIGE 360 FOTO</b></color> maken die u kan gebruiken in een <color=#dd77ff><b>PROJECTION360 MATERIAAL</b></color>, voor gebruik als een <color=#dd77ff><b>SKYBOX</b></color>.",
+        "Tutorial.Streaming.Camera.Mode.Page4.Description" : "De <color=#ffdd77><b>CUTOUT FOTO</b></color> optie laat u een <color=#dd77ff><b>UITGESNEDEN AFBEELDING</b></color> nemen. De <color=#ffdd77><b>CAMERA</b></color> projecteert een <color=#dd77ff><b>LASER</b></color> van de voorkant dat alleen het geraakte <color=#dd77ff><b>OBJECT</b></color> rendert op een transparante achtergrond, waar een <color=#dd77ff><b>SAVEABLE ITEM</b></color> en <color=#dd77ff><b>SCREENSHOT</b></color> van gemaakt wordt.",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Description" : "<color=#ffdd77><b>CAMERA FILTERS</b></color> kunt u vinden onder <sprite name=NoFilter>. <color=#ffdd77><b>STANDAARD</b></color> filter is de beginwaarde.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Description" : "Het filter <color=#ffdd77><b>VERZADIGING</b></color> vergroot de verzadiging van kleur en vergroot het contrast tussen donker en licht.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Description" : "Het <color=#ffdd77><b>GRIJS</b></color> filter verwijdert alle kleur uit de foto's.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Description" : "Het <color=#ffdd77><b>SEPIA</b></color> filter verwijdert alle kleur en verschuift de tint om oude foto's te simuleren.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Description" : "Het <color=#ffdd77><b>REGENBOOG</b></color> filter kan gebruikt worden om wat kleur aan uw foto's toe te voegen.",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Description" : "U kunt <color=#ffdd77><b>GEAVANCEERDE INSTELLINGEN</b></color> vinden onder <sprite name=OptionsPlus>. Normaal gesproken zijn geen van deze actief. <color=#ffdd77><b>FRUSTRUM</b></color> is de eerste in de kolom, het <color=#dd77ff><b>VISUALISEERT</b></color> het gebied dat u kan zien op het <color=#dd77ff><b>VOORBEELDSCHERM</b></color> van de <color=#ffdd77><b>CAMERA</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Description" : "De <color=#ffdd77><b>TIMER</b></color> optie kunt u <color=#77ff77><b>ACTIVEREN</b></color> met <sprite name=Timer>. Dit telt van 10 seconden af wanneer u een <color=#77ff77><b>AFBEELDING</b></color> neemt.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Description" : "De <color=#ffdd77><b>SCHERM REFLECTIES</b></color> optie activeert reflecties vanaf de viewport van de <color=#ffdd77><b>CAMERA</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Description" : "De <color=#ffdd77><b>FLITS</b></color> optie kan <color=#77ff77><b>GEACTIVEERD</b></color> worden met <sprite name=Lightning>. Dit <color=#77ff77><b>SCHUIFT</b></color> een <color=#dd77ff><b>LAMP</b></color> uit de bovenkant van de <color=#dd77ff><b>CAMERA</b></color> die de <color=#dd77ff><b>OMGEVING</b></color> <color=#77ff77><b>VERLICHT</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Description" : "De <color=#ffdd77><b>GROOT SCHERM</b></color> optie kan <color=#77ff77><b>GEACTIVEERD</b></color> worden met <sprite name=BigScreen>. Deze maakt een groot <color=#dd77ff><b>SCHERM</b></color> boven de <color=#dd77ff><b>CAMERA</b></color>. Deze kan ook geactiveerd worden door <color=#77ff77><b>PRIMAIR</b></color> te gebruiken of <color=#77ff77><b>FYSIEK</b></color> te klikken op de <color=#dd77ff><b>KNOP</b></color> middenboven op de <color=#dd77ff><b>CAMERA</b></color>.",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Description" : "De <b><color=#ffdd77>CAMERA OBJECT EXCLUDEER TIP</color></b> kunt u vinden in uw <b><color=#77ddff>INVENTARIS</b></color> onder <b><color=#77ddff>ESSENTIAL TOOLS --> MISC</Color></b>.",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Description" : "Zodra u de tool vast heeft <b><color=#77ff77>RICHT</b></color> u op het object dat u niet wil zien in de camera en drukt u op <b><color=#77ff77>SECUNDAIR</b></color>. Druk op <b><color=#77ff77> PRIMAIR</b></color> om het object weer terug te brengen.",
+ 
+        "Tutorial.Streaming.Camera.Resolution.Title" : "Resolutie",
+        "Tutorial.Streaming.Camera.Mode.Title" : "Modus",
+        "Tutorial.Streaming.Camera.ImageFilters.Title" : "Image Filters",
+        "Tutorial.Streaming.Camera.OptionsPlus.Title" : "Opties+",
+        "Tutorial.Streaming.Camera.ExcludeTip.Title" : "Camera Object Excludeer Tip",
+        "Tutorial.Streaming.Camera.Intro.Title" : "Fysieke Kamera Tutorial",
+
+        "Tutorial.Streaming.Camera.Intro.Description" : "Leer alle functies van de fysieke kamera",
+
+        "Tutorial.Streaming.LightTip.Intro.Title" : "Licht tip tutorial",
+        "Tutorial.Streaming.LightTip.Intro.Description" : "Leer alle functies van de licht tip",
+
+        "Tutorial.Streaming.LightTip.Titles.BasicUsage" : "Basis gebruik",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfLights" : "Soorten lichten",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfShadows" : "Soorten schaduwen",
+        "Tutorial.Streaming.LightTip.Titles.ChangingColor" : "Kleur veranderen",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Title" : "De licht tip",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Title" : "Een licht maken",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Title" : "Punt",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title" : "Spot",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Title" : "Zon/Directioneel",
+ 
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Title" : "Geen schaduw",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Title" : "Harde schaduw",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Title" : "Zachte schaduw",
+ 
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Kleur selecteer paneel",
+ 
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "U kunt een <color=#ffdd77><b>LICHT TIP</b></color> <color=#77ff77><b>SPAWNEN</b></color> van de <color=#dd77ff><b>NEOS ESSENTIALS</b></color> folder in uw <color=#dd77ff><b>INVENTARIS</b></color>. Dit is de belangrijkste tool voor het <color=#77ff77><b>TOEVOEGEN VAN LICHTEN</b></color> in werelden in Neos.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "De <color=#ffdd77><b>LICHT TIP</b></color> maakt standaard een <color=#dd77ff><b>PUNT LICHT</b></color> aan wanneer u <color=#77ff77><b>PRIMAIR</b></color> gebruikt. Als u <color=#77ff77><b>PRIMAIR</b></color> vasthoudt en sleept, wordt de <color=#dd77ff><b>INTENSITEIT</b></color> van het licht aangepast afhankelijk van de <color=#dd77ff><b>AFSTAND</b></color> die u <color=#77ff77><b>GESLEEPT</b></color> heeft.",
+ 
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "Het <color=#ffdd77><b>PUNT LICHT</b></color> maakt een licht dat de omgeving in alle richtingen <color=#77ff77><b>VERLICHT</b></color> vanuit een punt. De intensiteit neemt af met de afstand.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Description" : "Het <color=#ffdd77><b>SPOTLICHT</b></color> maakt een licht dat de omgeving <color=#77ff77><b>VERLICHT</b></color> in een kegelvorm vanuit een punt. De intensiteit neemt af met de afstand.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Description" : "Het <color=#ffdd77><b>DIRECTIONELE LICHT</b></color> maakt een licht dat de wereld in een richting <color=#77ff77><b>VERLICHT</b></color>. De intensiteit neemt <b><color=#ff7777>NIET</color></b> af met de afstand.",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description" : "<b><color=#77ff77>OBJECTEN</b></color> hebben <b><color=red>GEEN</b></color> schaduw.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "<b><color=#77ff77>OBJECTEN</b></color> hebben schaduw met harde randen.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "<b><color=#77ff77>OBJECTEN</b></color> hebben schaduw met zachte randen.",
+ 
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "U kunt de <b><color=#ffdd77>KLEUR</b></color> van het <b><color=#ffdd77>LICHT</b></color> veranderen met de <b><color=#77ff77>CHANGE COLOR</b></color> optie in het <b><color=#77ff77>CONTEXT MENU</b></color>.",
+        
+        "Tutorial.Streaming.StreamCamera.CameraControl.Title" : "De camerabediening",
+        "Tutorial.Streaming.StreamCamera.Overview.Title" : "Overzicht camerabediening",
+        "Tutorial.Streaming.StreamCamera.ControlMovement.Title" : "Camera bewegingsfunctie",
+        "Tutorial.Streaming.StreamCamera.Zoom.Title" : "Zoom bediening",
+        "Tutorial.Streaming.StreamCamera.SmoothPOV.Title" : "Smooth POV",
+        "Tutorial.Streaming.StreamCamera.ThirdPerson.Title" : "Derde persoon",
+        "Tutorial.Streaming.StreamCamera.Group.Title" : "Groep",
+        "Tutorial.Streaming.StreamCamera.World.Title" : "Wereld",
+        "Tutorial.Streaming.StreamCamera.Manual.Title" : "Handmatig",
+        "Tutorial.Streaming.StreamCamera.Mirror.Title" : "Spiegel naar scherm",
+        
+        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "Om een <b><color=#ffdd77>CAMERA ANKERPUNT</b></color> te <b><color=#77ff77>SPAWNEN</color></b> drukt u op de <b><color=#77ddff>MAAK CAMERA ANKER</b></color> knop aan de linkerkant van uw scherm. Wanneer u er een heeft gemaakt kunt u uw camera eraan vastmaken door het ankerpunt te selecteren met <b><color=#77ff77>PRIMAIR</b></color>.",
+        
+        "Tutorial.Streaming.StreamCamera.Photo.Title" : "Foto",
+        "Tutorial.Streaming.StreamCamera.360.Title" : "360 Foto",
+        "Tutorial.Streaming.StreamCamera.Users.Title" : "Gebruikers",
+        "Tutorial.Streaming.StreamCamera.CameraOptions.Title" : "Camera opties",
+        "Tutorial.Streaming.StreamCamera.Anchor.Title" : "Ankerpunt aanmaken",
+        "Tutorial.Streaming.StreamCamera.ExtraCameraControls.Title" : "Extra camera opties",
+        "Tutorial.Streaming.StreamCamera.MotionSettings.Title" : "Camera bewegingsopties",
+        "Tutorial.Streaming.StreamCamera.AnchorSettings.Title" : "Camera ankerpuntinstellingen",
+        "Tutorial.Streaming.StreamCamera.OBS.Title" : "OBS Connectie",
+        "Tutorial.Streaming.StreamCamera.Twitch.Title" :" Twitch Koppeling",
+        
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page1.Description" : "U kunt een <b><color=#ffdd77>CAMERA BEDIENINGSPANEEL</b></color> <color=#77ff77><b>SPAWNEN</b></color> van het <b><color=#ffdd77>NEOS DASHBOARD</b></color> onder de home tab onder een facet genaamd Camera/Streaming. Dit is uw primaire tool voor het streamen van content in Neos.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description" : "Het <b><color=#ffdd77>CAMERA BEDIENINGSPANEEL</b></color> heeft verschillende functies die gebruikt kunnen worden om de kwaliteit van uw streams/videos te verbeteren. Deze functies bestaan onder andere uit camera beweging, modi, ankers, instellingen, Twitch chat en meer.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "De <b><color=#ffdd77>CAMERA BEDIENINGSPANEEL</b></color> bewegingsfunctie kunt u linksboven op het scherm vinden. Hiermee kunt u het zicht en de positie van de camera veranderen. Als u op de resetknop klikt gaat de positie van de camera terug naar de beginstand.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description" : "Om de <color=#ffdd77><b>ZOOM</b></color> te bedienen, gebruikt u <b><color=#77ff77>PRIMAIR</b></color> op de grijze balk onderaan het scherm en schuift u het bolletje naar links of rechts.",
+  
+        "Tutorial.Streaming.StreamCamera.Modes.Page1.Description" : "Met <b><color=#ffdd77>SMOOTH POV</b></color> volgt de camera uw hoofd en maakt het de bewegingen vloeiend.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page2.Description" : "<b><color=#ffdd77>DERDE PERSOONS</b></color> modus laat u uzelf zien van andermans perspectief. U kunt de positie van de camera veranderen op het scherm.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page3.Description" : "<b><color=#ffdd77>GROEP</b></color> modus past zich automatisch aan om dichtbijzijnde personen in beeld te houden.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page4.Description" : "<b><color=#ffdd77>WERELD</b></color> modus houdt de camera op een punt en volgt de gebruiker.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page5.Description" : " Met de <b><color=#ffdd77>HANDMATIG</b></color> modus gebruikt u de streaming camera als een fysieke camera.",
+        
+        "Tutorial.Streaming.StreamCamera.Functions.Page1.Description" : "<b><color=#ffdd77>SPIEGEL NAAR SCHERM</b></color> verandert het beeld op uw desktop naar dat van uw streaming camera, deze optie kan gebruikt worden bij streamen of opnemen.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page2.Description" : "<b><color=#ffdd77>FOTO</b></color> neemt een foto van wat de camera nu ziet. Deze foto's worden opgeslagen in uw screenshot bibliotheek.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page3.Description" : "<b><color=#ffdd77>360 FOTO</b></color> neemt een 360 foto van de omgeving vanuit de huidige camerapositie. Deze foto's worden opgeslagen in uw screenshot bibliotheek.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page4.Description" : "<b><color=#ffdd77>GEBRUIKERS</b></color> laat de camera iemand anders volgen. U kunt het volume en de toestemmingen per persoon veranderen.",
+        
+        "Tutorial.Streaming.StreamCamera.Intro.Title" : "Streaming camera tutorial",
+        "Tutorial.Streaming.StreamCamera.Intro.Description" : "Leer alle functies van de streaming camera",
+        
+        "Tutorial.Streaming.StreamCamera.Options.Page1.Description" : "<b><color=#ffdd77>CAMERA OPTIES</b></color> vindt u aan de linkerkant van het scherm, hier kunt u instellingen veranderen net als bij de fysieke camera en onder andere ook naamkaarten aan/uitzetten.",
+
+        "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "Extra camera opties vindt u helemaal rechts van het scherm door op het <b><color=#77ddff>TANDWIEL</b></color> icoon in het previewscherm te drukken. Hier vindt u onder andere instellingen voor weergave, gebruikersbediening en volgafstanden.",
+        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "Het <b><color=#77ddff>PIJL</b></color> icoon opent een scherm waarmee de camerabeweging ingesteld kan worden zoals positie, hoek en FOV voor de verschillende vooringestelde posities.",
+        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "Het <b><color=#77ddff>WAYPOINT</b></color> icoon opent een scherm waarmee verschillende ankerpunten bediend kunnen worden. Dit is handig voor het verplaatsen naar verschillende ankerpunten en de snelheid van verplaatsen aan te passen.",
+        "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "Het <b><color=#77ddff>OBS</b></color> icoon opent een scherm om met OBS te verbinden. Zo kunt u snel OBS-opnames starten en stoppen.",
+        "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "Het <b><color=#77ddff>TWITCH</b></color> icoon opent een scherm met uw Twitch chat. U kunt uw kanaal koppelen door de naam linksboven in te typen.",
+
 
         "Exiting.SavingItems" : "Opslaan Van {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Wijzigingen opslaan...",
