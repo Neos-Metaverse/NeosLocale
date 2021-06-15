@@ -114,6 +114,11 @@
         "World.Connection.Connected" : "Yhdistetty",
         "World.Connection.SyncingInitialState" : "Synkronoidaan",
 
+        "World.Connection.LNL.DirectIP" : "LNL suora IP",
+        "World.Connection.LNL.NATPunchthrough" : "LNL NAT lävistys {n}",
+        "World.Connection.LNL.Relay" : "LNL rele",
+        "World.Connection.SteamNetworkingSockets" : "Steam verkkoliitäntä",
+
         "World.Error.AccessDenied" : "Pääsy Estetty",
         "World.Error.SecurityViolation" : "Turvallisuusrikkomus",
         "World.Error.OnlyRegisteredUsers" : "Vain rekisteröityneet käyttäjät voivat liittyä",
@@ -279,14 +284,14 @@
         "Tools.CreateNewWorld" : "Tee uusi maailma",
         "Tools.DepositNCR" : "Talleta NCR",
         "Tools.WithdrawNCR" : "Nosta NCR",
-
+        "Tools.Debug" : "Debugi",
         "Tools.StreamAudio" : "Äänen suoratoisto",
 
         "Tools.StreamAudio.Start" : "Aloita suoratoisto",
         "Tools.StreamAudio.Bitrate" : "Bittinopeus: {bitrate} kbps",
-
-
-
+        "Tools.StreamAudio.Title" : "{username} audion suoratoisto",
+        "Tools.StreamAudio.Spatialized" : "Spatialisoitu",
+        "Tools.StreamAudio.Broadcast" : "Lähetysmoodi",
         "Tools.StreamAudio.PlayForOwner.Off" : "Toista omistajalle: Pois",
         "Tools.StreamAudio.PlayForOwner.On" : "Toista omistajalle: Päällä",
 
@@ -669,26 +674,26 @@
         "Tutorial.Intro.GrabbingScreen" : "<color=#ffdd77><b>Nosta</b></color> esineitä painamalla <color=#77ff77><b>oikean hiiren painiketta</b></color>.",
 
         "Tutorial.Intro.ScalingTitle" : "Skaalaus",
-        "Tutorial.Intro.ScalingVR" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with both hands and move them <color=#77ddff><b>closer or further</b></color> apart - this can also be done with your lasers.",
-        "Tutorial.Intro.ScalingScreen" : "To <color=#ffdd77><b>Scale</b></color> an object, grab it with <color=#77ff77><b>Right Mouse button</b></color>. While holding down <color=#77ddff><b>Shift</b></color> <color=#77ddff><b>scroll</b></color> with your <color=#77ff77><b>Scroll Wheel</b></color>.",
+        "Tutorial.Intro.ScalingVR" : "<color=#ffdd77><b>Skaalataksesi</b></color> esinettä, pidä siitä kiinni molemmilla käsillä ja liikuta niitä <color=#77ddff><b>lähemmäs tai kauemmas</b></color> toisistaan - tämä toiminto toimii myös osoittimillasi.",
+        "Tutorial.Intro.ScalingScreen" : "<color=#ffdd77><b>Skaalataksesi</b></color> esinettä, pidä siitä kiinni <color=#77ff77><b>oikeanpuoleisen hiiren näppäimellä</b></color>, sitten pidä <color=#77ddff><b>'Shift'</b></color> nappi pohjassa ja käytä <color=#77ddff><b>hiiren rullaa</b></color>",
 
         "Tutorial.Intro.ContextMenuTitle" : "Säde -valikko",
-        "Tutorial.Intro.ContextMenuDescription" : "Your <color=#ffdd77><b>Context Menu</b></color> provides quick actions.<br>Open or close it using the <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.ContextMenuDescription" : "Sinun <color=#ffdd77><b>säde -valikko</b></color> sisältää nopeita toimintoja.<br>Avaa tai sulje se painamalla <color=#77ff77><b>{button}</b></color>.",
         "Tutorial.Intro.ContextMenu_ButtonB" : "B näppäin",
         "Tutorial.Intro.ContextMenu_ButtonBY" : "B tai Y näppäin",
         "Tutorial.Intro.ContextMenu_ButtonMenu" : "Valikko näppäin",
         "Tutorial.Intro.ContextMenu_Screen" : "Hiiren rulla näppäin",
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "Tuhoaminen ja kopioiminen",
-        "Tutorial.Intro.DestroyingDuplicatingVR" : "While holding an object, <b><color=#ffdd77>Destroy or Duplicate</color></b> it by <color=#77ff77><b>Clicking</b></color> the action in the context menu.",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "While holding an object, <b><color=#ffdd77>Destroy</color></b> it with the action in the <color=#ffdd77><b>Context Menu</b></color> or by pressing the <color=#77ff77><b>Delete</b></color> key. <color=#ffdd77><b>Duplicate</b></color> it with the action in the <color=#ffdd77><b>Context Menu</b></color>.",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Kun pidät esinettä kädessäsi, voit <b><color=#ffdd77>poistaa tai kopioida</color></b> sen <color=#77ff77><b>painamalla</b></color> kyseistä toimintoa sinun säde -valikossasi.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Kun pidät esinettä kädessäsi, voit <b><color=#ffdd77>poistaa</color></b> sen <color=#ffdd77><b>säde -valikon</b></color> toiminnolla, tai painamalla <color=#77ff77><b>Delete</b></color> näppäintä. <color=#ffdd77><b>Kopiointi</b></color> onnistuu <color=#ffdd77><b>säde -valikon</b></color> toiminnolla.",
 
         "Tutorial.Intro.ScalingYourselfTitle" : "Skaalaa itseäsi",
-        "Tutorial.Intro.ScalingYourselfVR" : "To <color=#ffdd77><b>Scale Yourself</b></color>, enable scaling in your context menu, then hold both <color=#77ff77><b>Grip Buttons</b></color> and move your hands <color=#77ddff><b>closer or further</b></color> apart.",
-        "Tutorial.Intro.ScalingYourselfScreen" : "To <color=#ffdd77><b>Scale Yourself</b></color> Open the <color=#ffdd77><b>Context Menu</b></color> and Enable Scaling then hold <color=#77ff77><b>Ctrl</b></color> and <color=#77ddff><b>scroll</b></color> your <color=#77ff77><b>Scroll wheel</b></color>.",
+        "Tutorial.Intro.ScalingYourselfVR" : "<color=#ffdd77><b>Skaalataksesi itseäsi</b></color> pistä skaalautuvuus päälle sinun säde -valikosta, sitten pidä kiinni molemmista <color=#77ff77><b>tarraus napeista</b></color> ja ala liikuttamaan käsiäsi <color=#77ddff><b>lähemmäksi tai kauemmasi</b></color> toisistaan.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "<color=#ffdd77><b>Skaalataksesi itseäsi</b></color> avaa <color=#ffdd77><b>säde -valikko</b></color> ja pistä skaalautuvuus päälle, sitten pidä <color=#77ff77><b>Ctrl</b></color> pohjassa ja käytä <color=#77ff77><b>hiiren rullaa</b></color>.",
 
-        "Tutorial.Intro.LocomotionTitle" : "Locomotion",
-        "Tutorial.Intro.LocomotionDescription" : "Neos contains many different methods of movement.<br>These locomotion options are available within your <color=#ffdd77>Context Menu</color>.",
+        "Tutorial.Intro.LocomotionTitle" : "Liikkumistyyli",
+        "Tutorial.Intro.LocomotionDescription" : "Neoksessa on monta erillaista liikkumistapaa.<br>Nämä liikkumistyylit ovat saatavilla sinun <color=#ffdd77>säde -valikosta</color>.",
 
         "Tutorial.Intro.DashboardTitle" : "Neos liukuvalikko",
         "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>Liukuvalikko</b></color> on sinun päävalikko.<br>Pystyt avaamaan ja sulkemaan sen painamalla <color=#77ff77><b>{button}</b></color>.",
@@ -696,10 +701,10 @@
         "Tutorial.Intro.Dashboard_ButtonA" : "A nappi",
         "Tutorial.Intro.Dashboard_ButtonAX" : "A tai X nappi",
         "Tutorial.Intro.Dashboard_ButtonMenu" : "Valikko nappi",
-        "Tutorial.Intro.Dashboard_ButtonScreen" : "'Esc' nappi",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Esc nappi",
 
-        "Tutorial.Intro.InventoryVR" : "Your <color=#ffdd77><b>Inventory</b></color> is located on your Dashboard.<br>To <color=#77ddff><b>Spawn</b></color> an object, <color=#77ff77><b>Double-Click</b></color> the item in your inventory.<br>To <color=#77ddff><b>Save</b></color> an object, <color=#77ddff><b>hold</b></color> the item and press <sprite name=inv-add> on the top right corner.",
-        "Tutorial.Intro.InventoryScreen" : "Your <color=#ffdd77><b>Inventory</b></color> is located on your Neos Dashboard.<br>To <color=#77ddff><b>spawn</b></color> an object, <color=#77ff77><b>Double-Click</b></color> the item in your inventory.<br>To <color=#77ddff><b>save</b></color> an object, hold the item and save through the <color=#ffdd77><b>Context Menu</b></color>.",
+        "Tutorial.Intro.InventoryVR" : "Sinun <color=#ffdd77><b>inventaario</b></color> löytyy liukuvalikostasi.<br><color=#77ddff><b>Spawnataksesi</b></color> esineen, sinun täytyy <color=#77ff77><b>tupla klikata</b></color> esinettä sinun inventaariossa.<br>Jotta voit <color=#77ddff><b>tallentaa</b></color> esineen, <color=#77ddff><b>pidä kiinni</b></color> esineestä ja paina <sprite name=inv-add> oikeassa yläkulmassa.",
+        "Tutorial.Intro.InventoryScreen" : "Sinun <color=#ffdd77><b>inventaario</b></color> löytyy liukuvalikostasi.<br><color=#77ddff><b>Spawnataksesi</b></color> esineen, sinun täytyy <color=#77ff77><b>tupla klikata</b></color> esinettä sinun inventaariossa.<br>Jotta voit <color=#77ddff><b>tallentaa</b></color> esineen, pidä kiinni esineestä ja tallenna se <color=#ffdd77><b>Säde -valikon</b></color> kautta.",
 
         "Tutorial.Intro.HomeScreenTitle" : "Aloitusnäyttö",
         "Tutorial.Intro.HomeScreenDescription" : "Sinun <color=#ffdd77><b>Aloitus näyttö</b></color> sisältää monenlaisia toiminnallisia fasetteja.<br>Mukaan lukien Avatarin luominen, Full-body kalibrointi, Kamera / Suoratoisto ja Tee uusi maailma.",
@@ -712,11 +717,11 @@
         "Tutorial.Intro.WorldsDescription" : "Seikkaile metaverssissä käyttämällä <color=#ffdd77><b>Maailmoja</b></color> -valikkoa.<br>Kun olet mielestäsi valmis, liity aktiiviseen sessioon tavataksesi muita yhteisön jäseniä!",
 
         "Tutorial.Intro.OutroTop" : "Lisää opetusohjelmia on saatavilla ympäri tätä maailmaa.<br><br>Onnea matkaan ja nauti metaverssistä!",
-        "Tutorial.Intro.Website" : "Verkkosivu",
-        "Tutorial.Intro.OutroEnd" : "Voit tukea Neosta liittymällä Patreoniin.<br><br>Liity Discordiin saadaksesi päivityksiä, verkostoitumista ja teknistä tukea.",
+        "Tutorial.Intro.Website" : "Verkkosivut",
+        "Tutorial.Intro.OutroEnd" : "Voit tukea Neosta liittymällä Patreoniin.<br><br>Voit myös liittyä Neos Discordiin päivityksiä, verkostoitumista ja teknistä tukea varten.",
 
         "Tutorial.MTC.Avatars" : "Avatarit & Sosiaalliset",
-        "Tutorial.MTC.Creation" : "Luominen & Hyödyllisyys",
+        "Tutorial.MTC.Creation" : "Luominen & Hyödylliset",
         "Tutorial.MTC.RecordingStreaming" : "Nauhoitus & Striimaus",
 
         "Tutorial.Grab.MoveRotate" : "Liikuta/Pyöritä pitämääsi esinettä",
