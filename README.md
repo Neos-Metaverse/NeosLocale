@@ -34,6 +34,7 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - Copy & Paste the whole content of the file into this online validator to ensure you don't have any syntax errors: https://jsonformatter.curiousconcept.com/
 - DO use spaces instead of tabs to keep the formatting of all documents consistent
 - DO check if other users are making modifications to the same locale as you are in Issues and coordinate. If you send changes that conflict with other users, it's hard to resolve them on our end since we don't understand the language.
+- DO keep the same style of formating and coloring where it's present in the text to ensure it stays consistent across locales. Coloring in particular can be contextual and used in other parts of the UI and changing or removing it would cause user confusion.
 
 - DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
 - DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
