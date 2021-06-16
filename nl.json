@@ -3,7 +3,6 @@
     "authors" : ["jeana", "Beaned", "alexderpyfox", "AnotherFoxGuy", "marsmaantje"],
     "messages" : 
     {
-        "General.OK" : "OK",
         "General.Start" : "Begin",
         "General.Finish" : "Einde",
         "General.Cancel" : "Annuleer",
@@ -14,7 +13,6 @@
         "General.Loading" : "Laden...",
         "General.Processing" : "Verwerken...",
         "General.FAILED" : "MISLUKT",
-        "General.Reset" : "Reset",
         "General.WorldOpenConfirm" : "Echt openen?",
         "General.Save" : "Opslaan",
         "General.Saving" : "Bezig Met Opslaan...",
@@ -31,7 +29,6 @@
         "General.Sort.Ascending" : "Oplopend",
         "General.Sort.Descending" : "Aflopend",
 
-        "Locomotion.Noclip.Name" : "Noclip",
         "Locomotion.Noclip.Description" : "Eenvoudige vliegmodus zonder colisie, ideaal voor editing.",
         "Locomotion.Teleport.Name" : "Teleporteren",
         "Locomotion.Teleport.Description" : "Maakt gebruik van een ballistisch traject Teleporteren, voor comfortabel voortbeveging.",
@@ -63,13 +60,11 @@
         "Interaction.Locomotion" : "Voortbeweging",
         "Interaction.Locomotion.None" : "Geen",
 
-        "Interaction.NamedEquipTool" : "Equip {name}",
         "Interaction.NamedEquipTool.Default" : "Gereedschap",
 
         "Interaction.EnterAnchor" : "Betreed Anker",
         "Interaction.ExitAnchor" : "Verlaat Anker",
 
-        "Interaction.EquipAvatar" : "Equip Avatar",
 
         "Interaction.SaveAsScreenshot" : "Sla op als screenshot",
         "Interaction.ImportFile" : "Importeer Bestand",
@@ -89,7 +84,6 @@
         "Dash.Actions.PasteFromClipboard" : "Plak inhoud van klembord",
 
         "Dash.Actions.CoreWorldsHeader" : "Hoofd werelden",
-        "Dash.Actions.ContentHub" : "Content Hub",
         "Dash.Actions.MTC" : "Metaverse Trainingscentrum <size=75%>(tutorials)</size>",
         "Dash.Actions.CloudHome" : "Mijn Cloud Thuis",
 
@@ -112,10 +106,6 @@
         "World.Connection.Connected" : "Verbonden",
         "World.Connection.SyncingInitialState" : "Initiële wereldstatus synchroniseren",
  
-        "World.Connection.LNL.DirectIP" : "LNL Direct IP",
-        "World.Connection.LNL.NATPunchthrough" : "LNL NAT Punchthrough {n}",
-        "World.Connection.LNL.Relay" : "LNL Relay",
-        "World.Connection.SteamNetworkingSockets" : "Steam Networking Sockets",
 
         "World.Error.AccessDenied" : "Toegang geweigerd",
         "World.Error.SecurityViolation" : "Veiligheidsovertreding",
@@ -152,7 +142,6 @@
 
         "World.Actions.StartSession" : "Start sessie",
         "World.Actions.Join" : "Toetreden",
-        "World.Actions.Focus" : "Focus",
         "World.Actions.Close" : "Wereld sluiten",
         "World.Actions.Leave" : "Verlaat wereld",
         "World.Actions.Save" : "Wijzigingen opslaan",
@@ -189,9 +178,6 @@
         "World.Indicator.NoData" : "Geen Data",
         "World.Indicator.LocalWorld" : "Lokale computer",
         "World.Indicator.Author" : "Gemaakt door: {name}",
-        "World.Indicator.Host" : "Host: {name}",
-        "World.Indicator.Hosting" : "Hosting",
-        "World.Indicator.Sessions" : "{n,plural, one {# session} other {# sessions}}",
         "World.Indicator.Users" : "Gebruikers",
         "World.Indicator.Users.None" : "(geen actieve sessies gevonden)",
         "World.Indicator.Description" : "Omschrijving",
@@ -202,17 +188,14 @@
         "World.Detail.NewSession" : "<nieuwe sessie>",
         "World.Detail.DescriptionHeader" : "Omschrijving: ",
         "World.Detail.SessionInformationHeader" : "Sessie-informatie",
-        "World.Detail.Uptime" : "Uptime",
         "World.Detail.AccessLevel" : "Zichtbaarheid",
         "World.Detail.Users" : "Gebruikers",
-        "World.Detail.Users.Count" : "{active}{away, select, 0 {} other { (+{away} away)}} out of {max}",
 
         "World.Detail.WorldInformationHeader" : "Wereldinformatie",
         "World.Detail.PublishDate" : "Gepubliceerd",
         "World.Detail.ModifyDate" : "Laatst bijgewerkt",
         "World.Detail.Visits" : "Bezocht",
 
-        "World.Detail.Tags" : "Tags",
         "World.Detail.ActionsHeader" : "Acties:",
 
         "World.Category.Everything" : "Alles",
@@ -224,7 +207,6 @@
         "World.Category.Social" : "Sociaal",
         "World.Category.Games" : "Spelletjes",
         "World.Category.Art" : "Kunst",
-        "World.Category.Tutorials" : "Tutorials",
         "World.Category.Educational" : "Educatief",
         "World.Category.MyWorlds" : "Mijn werelden",
         "World.Category.Custom" : "Aangepast",
@@ -233,7 +215,6 @@
         "World.AccessLevel.RegisteredUsers" : "Geregistreerde gebruikers",
         "World.AccessLevel.Friends" : "Vrienden",
         "World.AccessLevel.FriendsOfFriends" : "Contacten+",
-        "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "Privé (alleen op uitnodiging)",
 
         "World.SortParameter.SearchScore" : "Zoekscore",
@@ -273,23 +254,15 @@
         "World.Edit.Path" : "Wereld Pad:",
         "World.Edit.AccessLevelHeader" : "Wie kan deze wereld openen?",
         "World.Edit.AccessPrivate" : "Alleen mij",
-        "World.Edit.AccessPatreon" : "Patreon Supporters",
         "World.Edit.AccessPublic" : "Iedereen (Openbaar)",
 
-        "Tools.AvatarCreator" : "Avatar Creator",
         "Tools.FullBodyCalibrator" : "Full Body Kalibrator",
         "Tools.CameraStreaming" : "Camera / Streamen",
         "Tools.CreateNewWorld" : "Creëer een nieuwe wereld",
         "Tools.DepositNCR" : "Stort NCR",
         "Tools.WithdrawNCR" : "NCR Opnemen",
-        "Tools.Debug" : "Debug",
-        "Tools.StreamAudio" : "Stream Audio",
 
         "Tools.StreamAudio.Start" : "Begin met streamen",
-        "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
-        "Tools.StreamAudio.Title" : "{username} Audio Stream",
-        "Tools.StreamAudio.Spatialized" : "Spatialized",
-        "Tools.StreamAudio.Broadcast" : "Broadcast",
         "Tools.StreamAudio.PlayForOwner.Off" : "Afspelen voor eigenaar: Uit",
         "Tools.StreamAudio.PlayForOwner.On" : "Afspelen voor eigenaar: Aan",
 
@@ -321,7 +294,6 @@
         "Account.LoggingOut" : "Uitloggen...",
         "Account.Registering" : "Registreren...",
         "Account.Anonymous" : "Anoniem",
-        "Account.PatreonSupporter" : "Patreon Supporter",
         "Account.Username" : "Gebruikersnaam:",
         "Account.Email" : "E-mail:",
         "Account.RememberMe" : "Onthoud mij (voor 7 dagen):",
@@ -346,11 +318,9 @@
         "Account.ErrorLoginError" : "Login fout:",
         "Account.RegistrationSuccess" : "<size=120%>Succes!</size><br><br>Er is een e-mail verzonden naar {email} met een verificatielink.<br><br>Zodra u deze link opent, loggen we je automatisch in zolang dit bercht open is.<br><br>Als je in de problemen loopt email ons dan naar hello@neos.com of bericht ons op de officiele discord, discord.gg/neosvr",
 
-        "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Weg",
         "Profile.Status.Busy" : "Niet Storen",
         "Profile.Status.Invisible" : "Onzichtbaar",
-        "Profile.Status.Offline" : "Offline",
 
         "Session.Tab.Settings" : "Instellingen",
         "Session.Tab.Users" : "Gebruikers",
@@ -367,12 +337,8 @@
         "Permissions.NotAllowedToSave" : "Je mag in deze wereld geen voorwerpen opslaan.",
         "Permissions.NotAllowedToSwapAvatar" : "Je mag hier niet wisselen naar een aangepaste avatar.",
 
-        "User.Actions.Silence" : "Silence",
         "User.Actions.Mute" : "Dempen",
         "User.Actions.Jump" : "Spring",
-        "User.Actions.Respawn" : "Respawn",
-        "User.Actions.Kick" : "Kick",
-        "User.Actions.Ban" : "Ban",
 
         "Contacts.Add" : "Contact toevoegen",
         "Contacts.Remove" : "Contact verwijderen",
@@ -387,7 +353,6 @@
         "Contacts.UnbanFromCurrentWorld" : "Ontban uit huidige wereld",
         "Contacts.RecordingVoiceMessage" : "Neemt Stem Op...",
 
-        "Contacts.InSession" : "In {name}",
         "Contacts.InPrivate" : "In privéwereld",
         "Contacts.InFriendsOnly" : "In Alleen-Contacten Wereld",
         "Contacts.InHidden" : "In Verborgen wereld",
@@ -415,7 +380,6 @@
 
         "Undo.SetField" : "Veld instellen {field_name} naar {value}",
         "Undo.SetReference" : "Referentie instellen {ref_name} naar {ref_target}",
-        "Undo.Spawn" : "Spawn {name}",
         "Undo.Destroy" : "Verwijder {name}",
         "Undo.SpawnComponent" : "Maak {component_type} vast aan {slot_name}",
         "Undo.DuplicateComponent" : "Dupliceer Component",
@@ -444,19 +408,15 @@
         "Undo.InsertParent" : "Parent invoegen voor {name}",
         "Undo.Wiggler" : "Kwaadaardige Dingen",
 
-        "Undo.ExtractMaterialsFromHierarchy" : "Extract Materials from Hierarchy",
-        "Undo.BatchConvertMaterials" : "Batch convert materials",
 
         "Tooltips.Dev.CreateNew" : "Maak nieuw...",
         "Tooltips.Dev.Selection" : "Selectie: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Ontwikkelaarsmodus: Uit",
         "Tooltips.Dev.DevMode.On" : "Ontwikkelaarsmodus: Aan",
-        "Tooltips.Dev.OpenInspector" : "Open Inspector",
         "Tooltips.Dev.DeselectAll" : "Deselecteer alles",
         "Tooltips.Dev.DestroySelected" : "Verwijder geselecteerde",
         "Tooltips.Dev.ConfirmDestroySelected" : "ECHT Geselecteerde Vernietigen",
 
-        "Tooltip.Logix.NodeBrowser" : "Node Browser",
         "Tooltip.Logix.UnpackChildren" : "Pak Childeren en verbonden nodes uit",
         "Tooltip.Logix.SetPackingRoot" : "Stel Packing Root in",
         "Tooltip.Logix.ClearPackingRoot" : "Wis de PackingRoot",
@@ -473,7 +433,6 @@
         "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Verzeker fysieke vliegbeweging",
 
         "Tooltip.Light.Point" : "Punt",
-        "Tooltip.Light.Spot" : "Spot",
         "Tooltip.Light.Sun" : "Zon",
 
         "Tooltip.MeshVisibility.KeepShadow" : "Behoud schaduw",
@@ -492,14 +451,10 @@
         "Tooltip.Material.CreateCopy" : "Maak een kopie",
         "Tooltip.Material.Edit" : "Materiaal bewerken",
         "Tooltip.Material.Convert" : "Omzetten naar...",
-        "Tooltip.Material.ConvertAll" : "Convert All to...",
         "Tooltip.Material.CreateNew" : "Maak nieuw",
 
         "Tooltip.Mesh.Edit" : "Bewerk Mesh",
 
-        "Tooltip.Microphone.Format.WAV" : "WAV",
-        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
-        "Tooltip.Microphone.Format.FLAC" : "FLAC",
         "Tooltip.Microphone.ModeHold" : "Houd Vast Voor Opnamen",
         "Tooltip.Microphone.ModePress" : "Druk om te starten/stoppen met opnemen",
         "Tooltip.Microphone.SourceRaw" : "Rauw",
@@ -509,62 +464,39 @@
         "CreateNew.EmptyObject" : "Leeg Object",
         "CreateNew.ParticleSystem" : "Particle Systeem",
 
-        "CreateNew.Object" : "Object",
-        "CreateNew.Object.AvatarCreator" : "Avatar Creator",
-        "CreateNew.Object.Camera" : "Camera",
         "CreateNew.Object.ReflectionProbe" : "Reflectie Probe",
         "CreateNew.Object.Mirror" : "Spiegel",
         "CreateNew.Object.Portal" : "Portaal",
         "CreateNew.Object.VideoPlayer" : "Video Speler",
         "CreateNew.Object.SpawnArea" : "Spawn gebied",
         "CreateNew.Object.SpawnPoint" : "Spawn Punt",
-        "CreateNew.Object.UIXCanvas" : "UIX Canvas",
-        "CreateNew.Object.Facet" : "Facet",
 
         "CreateNew.Object.FogVolume" : "Mist volume",
         "CreateNew.Object.FogVolume.Additive" : "Additief",
-        "CreateNew.Object.FogVolume.Alpha" : "Alpha",
         "CreateNew.Object.FogVolume.Multiplicative" : "Multiplicatief",
         "CreateNew.Object.FogVolume.Gradient" : "KleurOvergang",
 
         "CreateNew.Text" : "Tekst",
-        "CreateNew.Text.Basic" : "Basic",
         "CreateNew.Text.Outline" : "Omlijning",
 
-        "CreateNew.Editor" : "Editor",
         "CreateNew.Editor.UserInspector" : "Gebruikers Inspector",
         "CreateNew.Editor.LightSourcesWizard" : "Wereldlichtbronnen Wizard",
         "CreateNew.Editor.AssetOptimizationWizard" : "Asset Optimalisatie Wizard",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX Overdracht Wizard",
-        "CreateNew.Editor.CubemapCreator" : "Cubemap Creator",
         "CreateNew.Editor.ReflectionProbes" : "Reflectie Probe Wizard",
 
-        "CreateNew.3DModel" : "3D Model",
-        "CreateNew.3DModel.Box" : "Box",
         "CreateNew.3DModel.Sphere" : "Bol",
-        "CreateNew.3DModel.Capsule" : "Capsule",
         "CreateNew.3DModel.Cone" : "Kegel",
-        "CreateNew.3DModel.Cylinder" : "Cylinder",
-        "CreateNew.3DModel.Quad" : "Quad",
-        "CreateNew.3DModel.Grid" : "Grid",
-        "CreateNew.3DModel.Torus" : "Torus",
 
-        "CreateNew.Collider" : "Collider",
-        "CreateNew.Collider.Box" : "Box",
         "CreateNew.Collider.Sphere" : "Bol",
-        "CreateNew.Collider.Capsule" : "Capsule",
-        "CreateNew.Collider.Cylinder" : "Cylinder",
         "CreateNew.Collider.Cone" : "Kegel",
-        "CreateNew.Collider.Mesh" : "Mesh",
 
         "CreateNew.Light" : "Licht",
         "CreateNew.Light.Point" : "Punt",
-        "CreateNew.Light.Spot" : "Spot",
         "CreateNew.Light.Directional" : "Directioneel",
 
         "CreateNew.Materials" : "Materialen",
 
-        "AvatarCreator.Title" : "Avatar Creator",
         "AvatarCreator.Instructions" : "Lijn de avatarobjecten uit met de referenties van de headset en controller (optioneel) en druk op Maken om ze naar een avatar te converteren",
         "AvatarCreator.UseSymmetry" : "Gebruik symmetrie",
         "AvatarCreator.ShowToolAnchors" : "Toon gereedschapsankers",
@@ -589,8 +521,6 @@
         "Importer.Folder.Individual.Description" : "Creëert een apart importdialoogvenster voor elk ondersteund bestand in de map",
         "Importer.Folder.Batch" : "Batch importeren",
         "Importer.Folder.Batch.Description" : "Creëert een enkele importer voor elk type, met dezelfde instellingen voor elk bestand",
-        "Importer.Folder.Minecraft" : "Minecraft World",
-        "Importer.Folder.Minecraft.Description" : "Imports a Minecraft World if Mineways is installed.",
 
         "Importer.Image.Title" : "Afbeelding Importer",
         "Importer.Image.Prompt" : "Wat importeert u?",
@@ -600,20 +530,10 @@
         "Importer.Image.Stereo360" : "Stereo 360 Foto",
         "Importer.Image.180" : "180 Foto",
         "Importer.Image.Stereo180" : "Stereo 180 Foto",
-        "Importer.Image.LUT" : "LUT",
 
         "Importer.ImageVideo.LayoutPrompt" : "Welke lay-out gebruikt het?",
-        "Importer.ImageVideo.LayoutHorizontalLR" : "Side by Side LR",
-        "Importer.ImageVideo.LayoutHorizontalRL" : "Side by Side RL",
-        "Importer.ImageVideo.LayoutVerticalLR" : "Top Bottom LR",
-        "Importer.ImageVideo.LayoutVerticalRL" : "Top Bottom RL",
 
-        "Importer.Model.Title" : "Model Importer",
         "Importer.Model.Prompt" : "Wat importeert u?",
-        "Importer.Model.Regular" : "3D Model",
-        "Importer.Model.3DScan" : "3D Scan",
-        "Importer.Model.CAD" : "CAD Model",
-        "Importer.Model.PointCloud" : "Point Cloud",
         "Importer.Model.VertexColorModel" : "Vertex Gekleurd Model",
         "Importer.Model.AdvancedSettings" : "Geavanceerde Instellingen",
         "Importer.Model.ModelKindPrompt" : "Wat voor soort 3D Model?",
@@ -665,32 +585,20 @@
         "Importer.Model.Advanced.RandomColors" : "Genereer Willekeurige Kleuren",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Spawn materiaal Orbs",
         "Importer.Model.Advanced.ImagesByName" : "Importeer Afbeeldingen Op Naam",
-        "Importer.Model.Advanced.ForcePointFiltering" : "Force Point Filtering",
-        "Importer.Model.Advanced.ForceNoMipMaps" : "No MipMaps",
-        "Importer.Model.Advanced.ForceUncompressed" : "Force Uncompressed",
 
         "Importer.Model.Advanced.Grabbable" : "Maak grijpbaar",
         "Importer.Model.Advanced.Scalable" : "Maak Schaalbaar",
         "Importer.Model.Advanced.PositionAtOrigin" : "Positioneer Op Oorsprong",
         "Importer.Model.Advanced.AssetsOnObject" : "Plaats Assets Op Object",
 
-        "Importer.Video.Title" : "Video Importer",
         "Importer.Video.Prompt" : "Wat wil je Importeren?",
-        "Importer.Video.Regular" : "Video",
-        "Importer.Video.360" : "360 Video",
-        "Importer.Video.Stereo" : "Stereo Video",
-        "Importer.Video.Stereo360" : "Stereo 360 Video",
         "Importer.Video.Depth" : "Diepte video",
-        "Importer.Video.180" : "180 Video",
-        "Importer.Video.Stereo180" : "Stereo 180 Video",
         "Importer.Video.Depth.Prompt" : "Diepte Preset",
         "Importer.Video.Depth.Default" : "Standaard",
 
         "Credits.Title" : "Stuur credits",
         "Credits.TokenPrompt" : "Welke token wil je sturen?",
-        "Credits.NCR.Title" : "Neos Credits (<b>NCR</b>)",
         "Credits.NCR.Description" : "Ethereum token met echte wereldwaarde",
-        "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "Neos' sandbox token met geen echte waarde.",
         "Credits.AmountPrompt" : "{action,select, send {Hoeveel wil je sturen?} withdraw {Hoeveel wil je opnemen?} tip {Hoeveel fooi wil je geven?}}",
         "Credits.Amount" : "Bedrag: ",
@@ -715,7 +623,6 @@
         "NewWorld.SessionSettings" : "Sessie Instellingen:",
         "NewWorld.UnsafeMode" : "Onveilige Modus:",
         "NewWorld.Port" : "Poort:",
-        "NewWorld.AutoPort" : "Auto:",
         "NewWorld.DefaultName" : "{name} Wereld",
 
         "FullBody.Title" : "Full Body Calibratie",
@@ -783,8 +690,6 @@
         "CameraControl.TakePhoto" : "Foto",
         "CameraControl.Take360Photo" : "360 Foto",
 
-        "CameraControl.Mode.SmoothPOV" : "Smooth POV",
-        "CameraControl.Mode.ThirdPerson" : "Third Person",
         "CameraControl.Mode.Group" : "Groep",
         "CameraControl.Mode.World" : "Wereld",
         "CameraControl.Mode.Manual" : "Manueel",
@@ -813,10 +718,6 @@
         "CameraControl.Positioning.AngleOffset" : "Hoek offset",
         "CameraControl.Positioning.Distance" : "Afstand",
         "CameraControl.Positioning.Height" : "Hoogte",
-        "CameraControl.Positioning.FirstPersonPitch" : "First Person Pitch",
-        "CameraControl.Positioning.FirstPersonRoll" : "First Person Roll",
-        "CameraControl.Positioning.FirstPersonOffset" : "First Person Offset",
-        "CameraControl.Positioning.Reset" : "Reset",
 
         "CameraControl.Control.AnyoneCanInteract" : "Iedereen kan Bedienen",
         "CameraControl.Control.RenderPreviewForEveryone" : "Render Preview Voor Iedereen",
@@ -824,14 +725,12 @@
         "CameraControl.Control.MotionBlur" : "Bewegingsonscherpte",
 
         "CameraControl.Control.SpawnPhotoInWorld" : "Spawn Foto in De wereld",
-        "CameraControl.Control.FlipPreview" : "Flip Preview",
         "CameraControl.Control.GroupDetectionRadius" : "Groepsdetectieradius: {n} m",
         "CameraControl.Control.GroupExcludeBoundary" : "Groep UitsluitingsGrens: {n} m",
         "CameraControl.Control.PositionSmoothSpeed" : "Positie Smooth Snelheid: {n}",
         "CameraControl.Control.AngleSmoothSpeed" : "Hoek Smooth Snelheid: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Framing Smooth Snelheid: {n}",
 
-        "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBS Passwoord (optioneel):",
         "CameraControl.OBS.Connect" : "Verbind",
         "CameraControl.OBS.Instructions" : "Zorg ervoor dat OBS actief is en dat de obs-websocket plug-in is geïnstalleerd",
@@ -849,11 +748,7 @@
         "CameraControl.OBS.DisconnectedPage" : "OBS Verbinding Verbroken",
         "CameraControl.OBS.ReturnToConnect" : "Ga terug naar de verbindingspagina",
         "CameraControl.OBS.AutoMirror" : "Auto Spiegelen bij Opnemen/Streamen",
-        "CameraControl.OBS.Bitrate" : "Bitrate: {n}/s",
-        "CameraControl.OBS.FPS" : "FPS: {n}",
         "CameraControl.OBS.DroppedFrames" : "Verloren frames: {n}",
-        "CameraCOntrol.OBS.Live" : "LIVE",
-        "CameraCOntrol.OBS.Recording" : "REC",
 
         "CameraControl.OBS.Streaming.Start" : "Start Stream",
         "CameraControl.OBS.Streaming.Starting" : "Stream Starten...",
@@ -897,7 +792,6 @@
         "Settings.AutosaveScreenshotPath" : "Pad voor het automatisch opslaan van screenshots",
         "Settings.DebugInputBinding" : "Debug Invoer Bindingen",
 
-        "Settings.LaserSmoothing.Header" : "Laser Smoothing",
         "Settings.LaserSmoothing.Speed" : "Smooth Snelheid",
         "Settings.LaserSmoothing.ModulateStartAngle" : "Moduleer de starthoek",
         "Settings.LaserSmoothing.ModulateEndAngle" : "Moduleer de eindhoek",
@@ -907,10 +801,8 @@
         "Settings.Laser.ShowInDesktop" : "Laser weergeven in bureaubladmodus",
         "Settings.LaserSmoothing.Reset" : "Reset LaserInstellingen",
 
-        "Settings.Audio.Header" : "Audio",
         "Settings.Audio.Master" : "Hoofdvolume: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "Geluidseffecten: {n,number,percent}",
-        "Settings.Audio.Multimedia" : "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice" : "Stem: {n,number,percent}",
         "Settings.Audio.UI" : "GebruikersOmgeving: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization" : "Schakel Stemnormalisatie Uit",
@@ -929,24 +821,19 @@
         "Settings.Audio.Monitoring" : "Audio-ingang Controleren:",
         "Settings.Audio.SystemDefaultOutput" : "Gebruik Systeemstandaard",
 
-        "Settings.Graphics.DesktopFOV" : "Desktop FOV",
-
         "Settings.Locale.ChangeLanguage" : "Taal Veranderen",
         "Settings.Locale.SelectLanguageHeader" : "Selecteer je Taal:",
 
         "Settings.Save" : "Instellingen opslaan",
 
-        "Settings.FullBody.Header" : "Full Body Tracking:",
         "Settings.FullBody.FeetPositionSmoothing" : "Voeten Positie Smoothing",
         "Settings.FullBody.FeetRotationSmoothing" : "Voeten Rotatie Smoothing",
         "Settings.FullBody.HipsPositionSmoothing" : "Heupen Positie Smoothing",
         "Settings.FullBody.HipsRotationSmoothing" : "Heupen Rotatie Smoothing",
 
-        "Settings.Dash.Header" : "Dash",
         "Settings.Dash.Curvature" : "Kromming",
         "Settings.Dash.OpenCloseSpeed" : "Open/Sluit Snelheid",
 
-        "Settings.LeapMotion.Name" : "Leap Motion",
         "Settings.LeapMotion.Enabled" : "Leap Tracking ingeschakeld",
         "Settings.LeapMotion.HorizontalOffset" : "Horizontale Compensatie",
         "Settings.LeapMotion.VerticalOffset" : "Verticale Compensatie",
@@ -966,7 +853,6 @@
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Wanneer Ingeschakeld, worden screenshots niet geconverteerd naar JPG wanneer het word opgeslagen in de Documenten Folder",
 
         "Security.Hyperlink.Warning" : "<b><size=125%>Waarschuwing: Uitgaande hyperlink</size></b>\nJe hebt op een link in een wereld geklikt. Wilt u deze openen? Dit wordt geopend in uw desktopwebbrowser.",
-        "Security.Hyperlink.Open" : "Open",
         "Security.Hyperlink.Cancel" : "Annuleer",
 
         "Security.HostAccess.Title" : "Hosttoegang",
@@ -1000,15 +886,12 @@
         "Inspector.Mesh.ConvertToPointCloud" : "Converteren naar puntenwolk",
         "Inspector.Mesh.MergeDoubles" : "Dubbelen samenvoegen",
         "Inspector.Mesh.StripEmptyBlendshapes" : "Strip Lege Blendshapes",
-        "Inspector.Mesh.StripBlendshapeNormals" : "Strip Blendshape Normals",
-        "Inspector.Mesh.StripBlendshapeTangents" : "Strip Blendshape Tangents",
 
         "Inspector.Mesh.GetBoneList" : "Geef Botten Lijst",
         "Inspector.Mesh.GetBoneData" : "Geef Botten Data",
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo" : "Trim Vertex Botten Gewichten Naar:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bot} other {# Botten}}",
-        "Inspector.Mesh.UV_Multiplicator" : "Multiplicator:",
         "Inspector.Mesh.ScaleUVs" : "Schaal UVs",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Voeg submeshes samem die het zeldfe materiaal hebben",
@@ -1022,14 +905,9 @@
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Klaar! Stripped: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "Strip Lege Botten",
         "Inspector.SkinnedMesh.StripBonesResult" : "Klaar! Stripped: {n,plural, one {# bot} other {# botten}}",
-        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes" : "Bake Non-Driven BlendShapes",
-        "Inspector.SkinnedMesh.BakeBlendShapeResult" : "Baked BlendShapes: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Visualizeer bot bounding boxes",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Visualizeer ongeveer samengevoegde bot bal bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Verwijder bot bounding box visuelen",
-
-        "Inspector.SimpleAvatarProtection.RemoveAll" : "Remove All Instances",
-        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "REMOVE Avatar Protection",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Geef rig diagnostische info",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Genereer Debug Visuelen",
@@ -1043,7 +921,6 @@
 
         "Inspector.Texture.Size" : "Formaat: {width} x {height}",
         "Inspector.Texture.Format" : "Formaat: {format}, Memory: <nobr>{memory}</nobr>",
-        "Inspector.Texture.Variant" : "VariantID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Keer RGB om",
         "Inspector.Texture.InvertR" : "Keer R om",
@@ -1067,7 +944,6 @@
         "Inspector.Texture.AdjustSaturation" : "Saturatie aanpassen",
         "Inspector.Texture.Value" : "Waarde:",
         "Inspector.Texture.AdjustValue" : "Waarde aanpassen",
-        "Inspector.Texture.Gamma" : "Gamma:",
         "Inspector.Texture.AdjustGamma" : "Pas gamma aan",
         "Inspector.Texture.LongestSide" : "Langste zijde:",
         "Inspector.Texture.Resize" : "Formaat wijzigen",
@@ -1099,7 +975,6 @@
         "Inspector.Audio.TrimStartSilence" : "Trim Start Stilte",
         "Inspector.Audio.TrimEndSilence" : "Trim Einde Stilte",
         "Inspector.Audio.PositionDuration" : "Positie/Duur (in seconden):",
-        "Inspector.Audio.TrimStart" : "Trim Start",
         "Inspector.Audio.TrimEnd" : "Trim Einde",
         "Inspector.Audio.FadeIn" : "Voeg Fade In toe",
         "Inspector.Audio.FadeOut" : "Voeg Fade Out toe",
@@ -1130,7 +1005,6 @@
 
         "Inspector.AvatarExpression.AutoAssign" : "Automatisch Blendshapes toewijzen (met behulp van heuristiek)",
 
-        "Wizard.General.ProcessRoot" : "Process Root:",
         "Wizard.General.Result" : "Resultaat:",
         "Wizard.General.ErrorNoRoot" : "Geen Root Geselecteerd",
         "Wizard.General.RemovedResult" : "Verwijderd {n}",
@@ -1163,7 +1037,6 @@
         "Wizard.LightSources.Disable" : "Uitschakelen",
         "Wizard.LightSources.Destroy" : "Verwijderen",
 
-        "Wizard.CubemapCreator.Title" : "Cubemap Creator",
         "Wizard.CubemapCreator.Textures" : "Bron Textures:",
         "Wizard.CubemapCreator.TexturesNote" : "Let op! sommige conventies hebben links en rechts verwisseld. Als de cubemap resultaat incorrect is, Probeer dan links en rechts te verwsselen.",
         "Wizard.CubemapCreator.PosX" : "Positief X (right)",
@@ -1198,7 +1071,6 @@
         "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>WAARSCHUWING:</b></color> Je bent op het moment in scherm modus, wat op het monent niet officieel ondersteund word, en is primeer voor testen.<br><br>Ondertussen kan het wel gebruikt worden voor spelen, sommige besturingen werken nog niet zo makkelijk en sommige dingen werken nog niet.<br><br><b>Neos is op het moment gemaakt voor gebruik in VR.</b><br><br>Een volledige desktop modus is geplant in de toekomst.",
         "Tutorial.Welcome.ScreenUnderstand" : "Ik Begrijp Het",
 
-        "Tutorial.Welcome.AccountHeader" : "Neos account",
         "Tutorial.Welcome.AccountDescription" : "Creeren van een account geeft je 1gb gratis opslag en geeft je toegang om objecten te kunnen opslaan in je inventory, Avatars te kunnen favoriteren, Contacten te kunnen toevoegen en berichten kunnen sturen.",
         "Tutorial.Welcome.AccountCreate" : "Creer Account",
         "Tutorial.Welcome.AccountLogin" : "Ik heb al een Account",
@@ -1222,7 +1094,6 @@
         "Tutorial.Welcome.SettingsHeight" : "Je Hoogte",
         "Tutorial.Welcome.SettingsHeightExamples" : "Voorbeelden: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
-        "Tutorial.Welcome.StartTutorialHeader" : "Begin Tutorial",
         "Tutorial.Welcome.StartTutorialDescription" : "We brengen je naar een eenvoudige tutorialwereld om je op weg te helpen met Neos. je kan ervoor kiezen om de tutorial wereld openbaar te maken, zodat de Neos-community je kan joinen zodat ze je kunnen helpen, of zodat je zelf kan leren.",
         "Tutorial.Welcome.StartTutorialPublic" : "Ik wil dat mensen mee kunnen doen en mij kunnen helpen",
         "Tutorial.Welcome.StartTutorialPrivate" : "Ik wil het zelf leren",
@@ -1259,7 +1130,6 @@
         "Tutorial.Intro.LocomotionTitle" : "Voortbeweging",
         "Tutorial.Intro.LocomotionDescription" : "Neos bevat veel verschillende bewegingsmethoden.<br>Deze voortbewegingsopties zijn beschikbaar in uw <color=#ffdd77>Contextmenu</color>.",
 
-        "Tutorial.Intro.DashboardTitle" : "Neos Dashboard",
         "Tutorial.Intro.DashboardDescription" : "Het <color=#ffdd77><b>Dashboard</b></color> is uw hoofdmenu.<br>Je opent en sluit hem met de <color=#77ff77><b>{button}</b></color>.",
         "Tutorial.Intro.DashboardDescriptionCircle" : "Het <color=#ffdd77><b>Dashboard</b></color> is uw hoofdmenu.<br>Je opent en sluit hem door de <color=#77ff77><b>{button}</b></color> ingedrukt te houden tot de cirkel vol is en <color=#77ddff><b>laat hem dan los</b></color>.",
         "Tutorial.Intro.Dashboard_ButtonA" : "A",
@@ -1281,7 +1151,6 @@
         "Tutorial.Intro.WorldsDescription" : "Verken de metaverse met behulp van het menu <color=#ffdd77><b>Werelden</b></color>. <br> Als je hier klaar bent, neem dan deel aan een actieve sessie om de community te ontmoeten!",
 
         "Tutorial.Intro.OutroTop" : "Verdere tutorials zijn over de hele wereld beschikbaar. <br><br> Veel succes en geniet van de metaverse!",
-        "Tutorial.Intro.Website" : "Website",
         "Tutorial.Intro.OutroEnd" : "Word lid van onze Patreon om het project te ondersteunen. <br> <br> Word lid van de Discord voor statusupdates, netwerken of technische ondersteuning.",
 
         "Tutorial.MTC.Avatars" : "Avatars & Sociaal",
@@ -1344,9 +1213,7 @@
         "Tutorial.AvatarTutorial.Start" : "Begin",
         "Tutorial.AvatarTutorial.OpenWorld" : "Open wereld",
         "Tutorial.AvatarTutorial.AvatarWorlds" : "Avatar Werelden",
-        "Tutorial.AvatarTutorial.Intro.Title" : "Neos Avatars",
         "Tutorial.AvatarTutorial.Intro.Description" : "Leer hoe u avatars kunt vinden en gebruiken!",
-        "Tutorial.AvatarTutorial.Avatars.Title" : "Avatars",
         "Tutorial.AvatarTutorial.FindingAvatars.Title" : "Avatars vinden",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Title" : "Uitrusten & Favoriet maken",
         "Tutorial.AvatarTutorial.AvatarCreation.Title" : "Avatar Creatie",
@@ -1360,11 +1227,9 @@
         "Tutorial.Intro.PublicFolders.Title" : "Publieke Folders",
         "Tutorial.Intro.PublicFolders.Description" : "Publieke folders zijn een makkelijke manier voor de community om hun creaties zoals bijvoorbeeld avatars te delen en updaten.<br><br>Om op te slaan, grijp de folder en klik op <sprite name=Add> in uw inventaris.<br><br>U kunt het ook opslaan via het Context Menu.<br><br>Probeer maar met <b>The Starter Pack</b>. Een folder gemaakt voor nieuwe gebruikers.",
 
-        "Tutorial.AvatarCreator.Intro.Title" : "Neos Avatar Creation",
         "Tutorial.AvatarCreator.Intro.Description" : "Leer hoe u uw avatar kunt importeren en instellen!",
         "Tutorial.AvatarCreator.Options.Start" : "Begin",
         "Tutorial.AvatarCreator.ImportingAssets.Title" : "Assets Importeren",
-        "Tutorial.AvatarCreator.AvatarCreator.Title" : "Avatar Creator",
         "Tutorial.AvatarCreator.SettingUpMaterials.Title" : "Materialen Instellen",
         "Tutorial.AvatarCreator.DynamicBones.Title" : "Dynamisch Bones",
         "Tutorial.AvatarCreator.Saving&Favoriting.Title" : "Opslaan & Favoriet maken",
@@ -1374,26 +1239,17 @@
         "Tutorial.AvatarCreator.DynamicBones.Description" : "Dynamic bones kunnen leven en interactiviteit toevoegen aan een anders statische rig.<br>Voeg de DynamicBoneChain-component toe aan het begin van de doel bone chain, scrol naar beneden en klik op <color=#77ccff><b>Setup van Children (Alleen Rig)</b></color>. Dit creëert een standaard dynamische botketen. U kunt de eigenschappen ervan bewerken met de inspector.",
         "Tutorial.AvatarCreator.SavingFavoriting.Description" : "Nadat je klaar bent met de eerste instellingen, rust je de avatar uit en navigeer je naar een map in je inventaris waar je hem wilt opslaan, en druk je op <sprite name=Download> .<br><br>Klik op je avatar in de inventaris om hem te selecteren, en druk je op <sprite name=Favorite> om hem als favoriete avatar in te stellen.",
         "Tutorial.AvatarCreator.Outro.Title" : "Meer informatie & hulp",
-        "Tutorial.AvatarCreator.Outro.Button.Wiki" : "Wiki",
         "Tutorial.AvatarCreator.Outro.Description" : "Extra bronnen voor het maken van avatars, set-up, en andere tutorials zijn te vinden op de community-wiki, de Neos Discord, en op YouTube.",
 
         "Tutorial.CommunityYouTube.Title" : "Community YouTube Kanalen",
 
         "Tutorial.UserResources.UserResourcesTitle" : "Hulpmiddelen",
         "Tutorial.UserResources.SupportTitle" : "Hoe kan ik Neos ondersteunen",
-        "Tutorial.UserResources.MerchandiseTitle" : "Neos Merch",
 
-        "Tutorial.Intro.BadgesNeosTeam" : "Neos Team",
-        "Tutorial.Intro.BadgesModerator" : "Moderator",
-        "Tutorial.Intro.BadgesMentor" : "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing" : "Slechthorend",
         "Tutorial.Intro.BadgesDisabilityVision" : "Slechtziend",
         "Tutorial.Intro.BadgesDisabilitySpeech" : "Spraakmoeilijkheden",
-        "Tutorial.Intro.BadgesTitle" : "Badges",
         "Tutorial.Intro.BadgesDescription" : "Badges zijn kleine icoontjes die aspecten van een gebruiker laten zien. Hier zijn een paar belangrijke badges om te onthouden. De handicap badges kunnen zelf worden toegewezen via de Neos bot.",
-        "Tutorial.Intro.HelpSite" : "Help",
-   
-        "Object.Mirror.Toggle" : "Local Toggle",
  
         "Tutorial.Streaming.StageControl" : "Podium bediening",
         "Tutorial.Streaming.StageUI" : "Schakel podium UI",
@@ -1426,8 +1282,6 @@
         
         "Tutorial.Streaming.StreamControl.SkyboxTexture" : "Plaats skybox afbeelding hier",
 
-        "Tutorial.Streaming.Twitch.TwitchChat" : "Twitch Chat",
-
         "Tutorial.Streaming.Camera.BasicFunctions.Page1.Title" : "De camera",
         "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title" : "Neem een foto",
         "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title" : "UI zoom bediening",
@@ -1445,11 +1299,9 @@
         "Tutorial.Streaming.Camera.ImageFilters.Page1.Title" : "Standaard",
         "Tutorial.Streaming.Camera.ImageFilters.Page2.Title" : "Verzadigd",
         "Tutorial.Streaming.Camera.ImageFilters.Page3.Title" : "Grijswaarden",
-        "Tutorial.Streaming.Camera.ImageFilters.Page4.Title" : "Sepia",
         "Tutorial.Streaming.Camera.ImageFilters.Page5.Title" : "Regenboog",
 
         "Tutorial.Streaming.Camera.OptionsPlus.Page1.Title" : "Beeldhoek",
-        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Title" : "Timer",
         "Tutorial.Streaming.Camera.OptionsPlus.Page3.Title" : "Reflecties",
         "Tutorial.Streaming.Camera.OptionsPlus.Page4.Title" : "Flits",
         "Tutorial.Streaming.Camera.OptionsPlus.Page5.Title" : "Groot scherm",
@@ -1486,7 +1338,6 @@
  
         "Tutorial.Streaming.Camera.Resolution.Title" : "Resolutie",
         "Tutorial.Streaming.Camera.Mode.Title" : "Modus",
-        "Tutorial.Streaming.Camera.ImageFilters.Title" : "Image Filters",
         "Tutorial.Streaming.Camera.OptionsPlus.Title" : "Opties+",
         "Tutorial.Streaming.Camera.ExcludeTip.Title" : "Camera Object Excludeer Tip",
         "Tutorial.Streaming.Camera.Intro.Title" : "Fysieke Kamera Tutorial",
@@ -1505,7 +1356,6 @@
         "Tutorial.Streaming.LightTip.BasicUsage.Page2.Title" : "Een licht maken",
 
         "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Title" : "Punt",
-        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title" : "Spot",
         "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Title" : "Zon/Directioneel",
  
         "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Title" : "Geen schaduw",
@@ -1531,7 +1381,6 @@
         "Tutorial.Streaming.StreamCamera.Overview.Title" : "Overzicht camerabediening",
         "Tutorial.Streaming.StreamCamera.ControlMovement.Title" : "Camera bewegingsfunctie",
         "Tutorial.Streaming.StreamCamera.Zoom.Title" : "Zoom bediening",
-        "Tutorial.Streaming.StreamCamera.SmoothPOV.Title" : "Smooth POV",
         "Tutorial.Streaming.StreamCamera.ThirdPerson.Title" : "Derde persoon",
         "Tutorial.Streaming.StreamCamera.Group.Title" : "Groep",
         "Tutorial.Streaming.StreamCamera.World.Title" : "Wereld",
