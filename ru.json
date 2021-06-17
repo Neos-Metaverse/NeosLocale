@@ -88,6 +88,8 @@
 
         "Dash.Actions.PasteFromClipboard" : "Вставить содержимое из буфера",
 
+        "Dash.Actions.TurnOffUIEdit" : "Выключить режим редактирования UI",
+
         "Dash.Actions.CoreWorldsHeader" : "Основные Миры",
         "Dash.Actions.ContentHub" : "Контент Центр",
         "Dash.Actions.MTC" : "Метаверс. Тренировочный Центр <size=75%>(обучение)</size>",
