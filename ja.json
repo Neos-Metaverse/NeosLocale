@@ -88,6 +88,8 @@
 
         "Dash.Actions.PasteFromClipboard" : "クリップボードからペースト",
 
+        "Dash.Actions.TurnOffUIEdit" : "UI編集モード をオフにする",
+
         "Dash.Actions.CoreWorldsHeader" : "コアワールド",
         "Dash.Actions.ContentHub" : "コンテントハブ",
         "Dash.Actions.MTC" : "メタバース トレーニング センター <size=75%>(チュートリアル)</size>",
