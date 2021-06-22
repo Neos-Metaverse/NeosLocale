@@ -24,6 +24,7 @@ Importer.Video.Stereo360
 Importer.Video.180  
 Importer.Video.Stereo180  
 Credits.AmountPrompt  
+Credits.TipConfirmation  
 NewWorld.CustomPreset  
 NewWorld.AutoPort  
 FullBody.Title  

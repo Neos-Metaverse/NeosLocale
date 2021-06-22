@@ -95,6 +95,7 @@ Importer.Video.180
 Importer.Video.Stereo180  
 Credits.NCR.Title  
 Credits.KFC.Title  
+Credits.TipConfirmation  
 NewWorld.AutoPort  
 CameraControl.Mode.SmoothPOV  
 CameraControl.Mode.ThirdPerson  

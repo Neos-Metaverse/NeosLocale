@@ -379,6 +379,7 @@ Credits.Send
 Credits.Sending  
 Credits.Success  
 Credits.BlockchainWarning  
+Credits.TipConfirmation  
 NewWorld.Title  
 NewWorld.Template  
 NewWorld.CustomPreset  

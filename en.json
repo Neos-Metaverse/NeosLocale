@@ -710,6 +710,7 @@
         "Credits.Sending" : "Sending...",
         "Credits.Success" : "Success!\nYou can close this window.",
         "Credits.BlockchainWarning" : "Please note that the transfer to blockchain can take up to 48 hours.",
+        "Credits.TipConfirmation" : "You are about to send a tip to <b><color=#0ff>{username}</color></b>. Would you like to proceed?",
 
         "NewWorld.Title" : "New World",
         "NewWorld.Template" : "World Template:",

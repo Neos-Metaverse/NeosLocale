@@ -11,6 +11,7 @@ Importer.Folder.Minecraft.Description
 Importer.Model.Advanced.ForcePointFiltering  
 Importer.Model.Advanced.ForceNoMipMaps  
 Importer.Model.Advanced.ForceUncompressed  
+Credits.TipConfirmation  
 CameraControl.Control.ScreenSpaceReflections  
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  
