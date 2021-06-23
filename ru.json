@@ -710,6 +710,7 @@
         "Credits.Sending" : "Отправка...",
         "Credits.Success" : "Завершено!\nВы можете закрыть это окно.",
         "Credits.BlockchainWarning" : "Пожалуйста заметьте, что отправка в блокчейн может занять до 48 часов.",
+        "Credits.TipConfirmation" : "Вы собираетесь отправить чаевые пользователю <b><color=#0ff>{username}</color></b>. Продолжить?",
 
         "NewWorld.Title" : "Новый мир",
         "NewWorld.Template" : "Шаблон мира:",
