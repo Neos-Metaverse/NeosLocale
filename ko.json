@@ -1554,6 +1554,8 @@
         "Dash.Actions.TurnOffUIEdit" : "UI 편집모드 종료",
         "Inspector.SimpleAvatarProtection.RemoveAll" : "아바타 보호기능 모두 제거",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "아바타 보호기능을 제거합니다",
+		
+		"Credits.TipConfirmation" : "지금 <b><color=#0ff>{username}</color></b>에게 송금하려 합니다. 정확히 확인 하셨나요?",
 
         "Dummy": "더미"
     }
