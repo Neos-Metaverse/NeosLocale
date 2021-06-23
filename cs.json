@@ -694,7 +694,7 @@
         "Credits.NCR.Description" : "Ethereum token s reálnou peněžní hodnotou",
         "Credits.KFC.Title" : "Kompletně Falešené Credity (<b>KFC</b>)",
         "Credits.KFC.Description" : "Testovací měna bez skutečné hodnoty",
-        "Credits.AmountPrompt" : "{action,select, send {Kolik chcete poslat?} withdraw {Kolik chcete vybrat?} tip {Kolik chcete tipovat?}}",
+        "Credits.AmountPrompt" : "{action,select, send {Kolik chcete poslat?} withdraw {Kolik chcete vybrat?} tip {Kolik chcete poslat jako spropitné?}}",
         "Credits.Amount" : "Množství: ",
         "Credits.Balance" : "Zůstatek: ",
         "Credits.WithdrawalAddress" : "Adresa pro výběr: ",
@@ -710,7 +710,7 @@
         "Credits.Sending" : "Posílám...",
         "Credits.Success" : "Úspěch!\nMůžete zavřít toto okno",
         "Credits.BlockchainWarning" : "Přesuny na blockchain mohou tvrat až 48 hodin.",
-        "Credits.TipConfirmation" : "Chystáte se poslat tip uživateli <b><color=#0ff>{username}</color></b>. Přejete si pokračovat?",
+        "Credits.TipConfirmation" : "Chystáte se poslat spropitné uživateli <b><color=#0ff>{username}</color></b>. Přejete si pokračovat?",
 
         "NewWorld.Title" : "Vytvořit svět",
         "NewWorld.Template" : "Typ světa:",
