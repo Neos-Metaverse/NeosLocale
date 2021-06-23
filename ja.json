@@ -710,6 +710,7 @@
         "Credits.Sending" : "送信中...",
         "Credits.Success" : "成功!\nこのウィンドウを閉じてください。",
         "Credits.BlockchainWarning" : "ブロックチェーンへの転送には最大48時間かかる場合があることにご注意ください。",
+        "Credits.TipConfirmation" : "<b><color=#0ff>{username}</color></b>にチップを送信しようとしています。続行しますか？",
 
         "NewWorld.Title" : "新規ワールド",
         "NewWorld.Template" : "テンプレート:",
@@ -1524,8 +1525,8 @@
         "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Description" : "<color=#ffdd77><b>ディレクショナルライト</b></color>は、<color=#dd77ff><b>減衰</b></color>せずにワールドを一方向に照らします。",
 
         "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description" : "<b><color=#77ff77>オブジェクト</b></color>は影を<b><color=red>全く</b></color>投影しません。",
-        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "<b><color=#77ff77>オブジェクト</b></color>は、鋭い影を落とします。",
-        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "<b><color=#77ff77>オブジェクト</b></color>は、柔らかな影を落とします。",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "<b><color=#77ff77>オブジェクト</b></color>は鋭い影を落とします。",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "<b><color=#77ff77>オブジェクト</b></color>は柔らかな影を落とします。",
 
         "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "<b><color=#77ff77>コンテキストメニュー</b></color>の<b><color=#77ff77>CHANGE COLOR</b></color>から、<b><color=#ffdd77>LIGHT</b></color>の<b><color=#77ff77>色を変更</b></color>できます。",
 
@@ -1574,11 +1575,11 @@
 
         "Tutorial.Streaming.StreamCamera.Options.Page1.Description" : "<b><color=#ffdd77>コントロールオプション</b></color>はUIの左端にあり、ここでフィジカル<br>カメラと同様の設定やネームプレートの表示などを変更できます。",
 
-        "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "プレビュー画面の右上にある<b><color=#77ddff>歯車</b></color>アイコンを押すと右端に追加のカメラ設定が出ます。<br>ここから、レンダリング設定、ユーザーコントロール、および追尾距離を変更できます。",
-        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "<b><color=#77ddff>矢印</b></color>アイコンは、カメラの動きを制御するパネルを開きます。<br>各モードのカメラの位置、角度、FOVを設定できます。",
-        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "<b><color=#77ddff>ピン</b></color>アイコンは、カメラアンカーを制御するパネルを開きます。これは、補間の<br>速度だけでなく、ワールドに設定したアンカー間を移動する場合にも役立ちます。",
-        "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "<b><color=#77ddff>OBS</b></color>アイコンは、OBSに接続するためのパネルを開きます。<br>これにより、OBSを使用した録画をすばやく開始できます。",
-        "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "<b><color=#77ddff>TWITCH</b></color>アイコンは、Twitchのチャットを表示できます。<br>こ左上のバーにチャンネル名を入力して、チャンネルをリンクできます。",
+        "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "プレビュー画面の右上にある<b><color=#77ddff>歯車</b></color>アイコンを押すと追加のカメラ設定が出ます。<br>レンダリング設定、ユーザーコントロール、および追尾距離を変更できます。",
+        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "<b><color=#77ddff>矢印</b></color>アイコンを押すとカメラの動きを制御するパネルを開きます。<br>各モードのカメラの位置、角度、FOVを設定できます。",
+        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "<b><color=#77ddff>ピン</b></color>アイコンを押すとカメラアンカーを制御するパネルを開きます。<br>補間の速度だけでなく、ワールドに設定したアンカー間を移動する場合にも役立ちます。",
+        "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "<b><color=#77ddff>OBS</b></color>アイコンを押すとOBSに接続するためのパネルを開きます。<br>OBSを使用した録画をすばやく開始できます。",
+        "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "<b><color=#77ddff>TWITCH</b></color>アイコンを押すとTwitchのチャットを表示できます。<br>左上のバーにチャンネル名を入力してチャンネルをリンクできます。",
 
         "Exiting.SavingItems" : "{n, plural, other {# 個のアイテムを}} 保存中...",
         "Exiting.SavingChanges" : "変更を保存中...",
