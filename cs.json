@@ -710,6 +710,7 @@
         "Credits.Sending" : "Posílám...",
         "Credits.Success" : "Úspěch!\nMůžete zavřít toto okno",
         "Credits.BlockchainWarning" : "Přesuny na blockchain mohou tvrat až 48 hodin.",
+        "Credits.TipConfirmation" : "Chystáte se poslat tip uživateli <b><color=#0ff>{username}</color></b>. Přejete si pokračovat?",
 
         "NewWorld.Title" : "Vytvořit svět",
         "NewWorld.Template" : "Typ světa:",
