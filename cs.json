@@ -91,9 +91,9 @@
         "Dash.Actions.TurnOffUIEdit" : "Vypnout režim editace UI",
 
         "Dash.Actions.CoreWorldsHeader" : "Důležité světy",
-        "Dash.Actions.ContentHub" : "Centrum Obsahu",
-        "Dash.Actions.MTC" : "Trénovací Centrum Metaversu <size=75%>(tutoriály)</size>",
-        "Dash.Actions.CloudHome" : "Můj Domov",
+        "Dash.Actions.ContentHub" : "Centrum obsahu",
+        "Dash.Actions.MTC" : "Trénovací centrum metaversu <size=75%>(tutoriály)</size>",
+        "Dash.Actions.CloudHome" : "Cloudový domov",
 
         "Dash.Exit.Header" : "Ukončit Neos",
         "Dash.Exit.ExitAndSave" : "Ukončit a uložit změny v domovech",
