@@ -78,6 +78,7 @@ AvatarCreator.SetupFaceTracking
 Importer.General.AsRawFile  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
+Importer.Image.Screenshot  
 Importer.Model.Advanced.PreferSpecular  
 Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  

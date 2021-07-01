@@ -11,6 +11,7 @@ Tooltip.Microphone.SourceRaw
 CreateNew.3DModel.Grid  
 CreateNew.3DModel.Torus  
 CreateNew.Collider  
+Importer.Image.Screenshot  
 Importer.Image.LUT  
 Importer.Model.SeparableKind  
 Importer.Model.Advanced.PreferSpecular  

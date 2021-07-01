@@ -73,6 +73,7 @@ CreateNew.Light.Spot
 AvatarCreator.Title  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
+Importer.Image.Screenshot  
 Importer.Image.LUT  
 Importer.ImageVideo.LayoutHorizontalLR  
 Importer.ImageVideo.LayoutHorizontalRL  

@@ -5,6 +5,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 Dash.Actions.TurnOffUIEdit  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
+Importer.Image.Screenshot  
 Importer.Model.Advanced.ForcePointFiltering  
 Importer.Model.Advanced.ForceNoMipMaps  
 Importer.Model.Advanced.ForceUncompressed  

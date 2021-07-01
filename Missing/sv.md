@@ -275,6 +275,7 @@ Importer.Folder.Minecraft.Description
 Importer.Image.Title  
 Importer.Image.Prompt  
 Importer.Image.Regular  
+Importer.Image.Screenshot  
 Importer.Image.360  
 Importer.Image.StereoPhoto  
 Importer.Image.Stereo360  

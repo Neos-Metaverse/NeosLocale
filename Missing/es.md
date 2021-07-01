@@ -3,6 +3,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Spanish [es]
 Dash.Actions.TurnOffUIEdit  
+Importer.Image.Screenshot  
 Credits.TipConfirmation  
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  

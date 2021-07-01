@@ -597,6 +597,7 @@
         "Importer.Image.Title" : "Image Importer",
         "Importer.Image.Prompt" : "What are you importing?",
         "Importer.Image.Regular" : "Image / Texture",
+        "Importer.Image.Screenshot" : "Neos Photo <size=50%>(captured here)</size>",
         "Importer.Image.360" : "360 photo / skybox",
         "Importer.Image.StereoPhoto" : "Stereo Photo",
         "Importer.Image.Stereo360" : "Stereo 360 photo",
