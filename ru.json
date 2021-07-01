@@ -597,6 +597,7 @@
         "Importer.Image.Title" : "Импорт Изображения",
         "Importer.Image.Prompt" : "Что вы импортируете?",
         "Importer.Image.Regular" : "Изображение / Текстуру",
+        "Importer.Image.Screenshot" : "Фото из Neos <size=50%>(снятое здась)</size>",
         "Importer.Image.360" : "360 фото / скайбокс",
         "Importer.Image.StereoPhoto" : "Стерео Фото",
         "Importer.Image.Stereo360" : "Стерео 360 Фото",
