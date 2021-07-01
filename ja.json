@@ -710,6 +710,7 @@
         "Credits.Sending" : "送信中...",
         "Credits.Success" : "成功!\nこのウィンドウを閉じてください。",
         "Credits.BlockchainWarning" : "ブロックチェーンへの転送には最大48時間かかる場合があることにご注意ください。",
+        "Credits.TipConfirmation" : "<b><color=#0ff>{username}</color></b>に送金しようとしています。 送金作業を続けますか？",
 
         "NewWorld.Title" : "新規ワールド",
         "NewWorld.Template" : "テンプレート:",
