@@ -1,7 +1,7 @@
 {
     "localeCode" : "fi",
     "authors" : ["AdmiralSoap", "Napo", "Hexdigest", "Toni Kat"],
-    "messages" :
+    "messages" : 
     {
         "General.OK" : "OK",
         "General.Start" : "Aloita",
@@ -552,7 +552,6 @@
 
 
         "CreateNew.Collider" : "Törmäytin",
-
         "CreateNew.Collider.Box" : "Laatikko",
         "CreateNew.Collider.Sphere" : "Pallo",
         "CreateNew.Collider.Capsule" : "Kapseli",
@@ -598,6 +597,7 @@
         "Importer.Image.Title" : "Kuva",
         "Importer.Image.Prompt" : "Mitä tuot?",
         "Importer.Image.Regular" : "Kuva / Tekstuuri",
+
         "Importer.Image.360" : "360 kuva / Skybox",
         "Importer.Image.StereoPhoto" : "Stereokuva",
         "Importer.Image.Stereo360" : "360 stereokuva",
@@ -712,6 +712,7 @@
         "Credits.Success" : "Onnistui!\nVoit nyt sulkea ikkunan.",
         "Credits.BlockchainWarning" : "Huomaa, että siirto blockchainiin voi kestää jopa 48 tuntia.",
 
+
         "NewWorld.Title" : "Uusi Maailma",
         "NewWorld.Template" : "Mallimaailmat:",
 
@@ -750,11 +751,35 @@
         "FullBody.FinishPrompt" : "Valmis?",
         "FullBody.FinishCalibration" : "Full-Body kalibrointi valmis",
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "FullBody.Hips" : "Vyötärö",
         "FullBody.Feet" : "Jalat",
         "FullBody.Chest" : "Rinta",
         "FullBody.Elbows" : "Kyynärpäät",
         "FullBody.Knees" : "Polvet",
+
+
+
+
+
+
+
+
+
 
         "CameraControl.Title" : "Kameran hallinta",
         "CameraControl.MirroringOffWarning" : "PEILAUS POIS PÄÄLTÄ",
@@ -985,14 +1010,40 @@
         "Inspector.Mesh.GetBoneList" : "Näytä luulistaus",
         "Inspector.Mesh.GetBoneData" : "Näytä luutiedot",
 
+
+
+
+
+
         "Inspector.MeshRenderer.MergeByMaterial" : "Yhdistä ala-tahkoverkot joissa sama materiaali",
         "Inspector.MeshRenderer.SplitByMaterial" : "Eroita tahkoverkot materiaalien mukaan",
 
         "Inspector.ReflectionProbe.Bake" : "Beikkaa heijastukset",
         "Inspector.ReflectionProbe.Baking" : "Beikkaa...",
 
+
+
+
+
+
+
+
+
+
+
+
         "Inspector.SimpleAvatarProtection.RemoveAll" : "Poista KAIKKI avatar-suojaukset",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "Poista avatar-suojaus",
+
+
+
+
+
+
+
+
+
+
 
         "Inspector.Texture.Size" : "Koko: {width} x {height}",
         "Inspector.Texture.Format" : "Formaatti: {format}, Muisti: <nobr>{memory}</nobr>",
@@ -1031,8 +1082,112 @@
         "Inspector.Texture.Rotate180" : "Käännä 180°",
         "Inspector.Texture.MakeSquare" : "Muunna neliöksi",
 
+
+
+
+
+
+
+
         "Inspector.Material.VariantInfo" : "Variantti-ID: {variantID} (Raaka variantti-ID: {rawVariantID})",
         "Inspector.Material.WaitingForApply" : "Odottaa asetusta: {waiting}",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         "Desktop.OpenKeyboard" : "Avaa näppäimistö",
         "Desktop.FollowCursor.On" : "Seuraa osoitinta: Päällä",
@@ -1206,6 +1361,9 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Pue avatari painamalla liipaisinta <br> ja valitsemalla 'Vaihda avatar'.<br><br>Tallenna nykyinen puettu avatarisi painamalla <sprite name=Download>  .<br><br>Voit myös lisätä avatarin suosikiksi <br>inventaariossa valitsemalla  <sprite name=Favorite>  .",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Tuodaksesi mukautetun avatarin Neokseen, tutustu <br> Neoksen avatarin luomis oppaaseen.",
 
+
+
+
         "Tutorial.AvatarCreator.Intro.Title" : "Neos avatarin tekeminen",
         "Tutorial.AvatarCreator.Intro.Description" : "Opi tuomaan avatarisi Neokseen",
         "Tutorial.AvatarCreator.Options.Start" : "Aloita",
@@ -1238,6 +1396,193 @@
         "Tutorial.Intro.BadgesTitle" : "Merkit",
         "Tutorial.Intro.BadgesDescription" : "Merkit ovat pieniä ikoneita jotka kuvaavat käyttäjää. Tässä lista muutamasta merkistä, jotka kannattaa muistaa. Kuulo-, näkö- ja puhevammaisuuden merkit pystyy itse lisäämään Neos -botti komentojen avulla.",
         "Tutorial.Intro.HelpSite" : "Apua",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         "Exiting.SavingChanges" : "Tallennetaan muutoksia...",
         "Exiting.Exiting" : "Suljetaan...",
