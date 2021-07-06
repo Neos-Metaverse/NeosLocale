@@ -23,6 +23,16 @@ Come join our diverse and creative community and bring your own uniqueness to th
 [*]Messaging system - [b]send messages, invites and even arbitrary objects[b] in-game
 [*][b]Twitch integration[/b] for next level interaction with audience - chat with custom emote support and visual scripting access for interactive worlds[/list]
 
+[h2]Fully featured Desktop mode - play without VR![/h2]
+[list][*][b]First person mode[b] - interact from the viewpoint of your character! Any tools, gadgets and guns are automatically posed and fully usable
+[*][b]Third person mode[b] - want to see your avatar when you socialize or build? This mode is ideal for you and all the interactions still work!
+[*][b]Freeform Camera mode[b] - decouple the view from your character completely and move it freely around - ideal for building worlds in desktop
+[*][b]UI Aligned Camera mode[b] - click on any in-world UI to align it with your screen and free your mouse cursor to make the interaction much easier
+[*][b]Toggle between Desktop and VR[b] - no restart needed! If you play both in VR and desktop, you can toggle between each with a press of a key
+[/list]
+
+
+
 [h2]Advanced locomotion system[/h2]
 
 [list][*][b]Walking, sliding, zero-G[/b], spherical gravity and more
@@ -67,8 +77,8 @@ Come join our diverse and creative community and bring your own uniqueness to th
 [*]Full Index Controller support with [b]finger tracking[/b]
 [*][b]Leap Motion support[/b] with full body avatars
 [*][b]Eye tracking support[/b] (Vive Pro Eye) - look direction, eye closing, pupil dilation
-[*][b]Lip tracking support[/b] (HTC Vive Facial Tracker) - track your mouth, cheeks and tongue on  your avatar or utilize the raw data
-[*][b]Haptics feedback support[/b] (bHaptics, OWO Game Suit) with avatar to avatar interactions as well as environment interactions[/list]
+[*][b]Lip tracking support[/b] (HTC Vive Facial Tracker) - track your mouth, cheeks and tongue on  your avatar or utilize the raw data[/list]
+[*][b]Haptics feedback support[/b] (bHaptics, OWO Game Suit) with avatar to avatar interactions as well as environment interactions
 
 [h2]Rapid Development[/h2]
 
@@ -91,5 +101,4 @@ If you enjoy what we do, please enjoy supporting the development. Here are some 
 [*]Advanced optimizations
 [*]New building tools
 [*]AR support
-[*]Proper Desktop support
 [*]And more![/list]

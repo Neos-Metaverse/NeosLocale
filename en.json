@@ -698,7 +698,7 @@
         "Credits.AmountPrompt" : "{action,select, send {How much do you want to send?} withdraw {How much do you want to withdraw?} tip {How much do you want to tip?}}",
         "Credits.Amount" : "Amount: ",
         "Credits.Balance" : "Balance: ",
-        "Credits.WithdrawalAddress" : "Withdrawal Address: ",
+        "Credits.WithdrawalAddress" : "Withdrawal Address:\n<color=red>Make sure your wallet supports ERC-20 tokens!</color>",
         "Credits.AnonymousTip" : "Anonymous Tip: ",
         "Credits.TipMessage" : "Tip Message: ",
         "Credits.TransactionComment" : "Transaction Comment: ",
