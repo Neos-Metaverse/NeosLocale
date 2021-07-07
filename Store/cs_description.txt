@@ -23,6 +23,16 @@ Pojďte se připojit do naší rozmanité a kreativní komunity a přineste svoj
 [*]Systém zpráv - [b]posílejte zprávy, pozvánky a dokonce libovolné objekty[b] přímo uvnitř hry
 [*][b]Integrace s Twitchem[/b] pro vyšší úroveň interakce s publikem - chat s podporou vlastních emotes a přístupem k vizuálnímu skriptování pro interaktivní světy[/list]
 
+[h2]Plnohodnotný desktopový režim - hrajte bez VR![/h2]
+[list][*][b]Režim pohledu první osoby[b] - provádějte interakce z pohledu vaší postavy! Veškeré nástroje, gadgety a zbraně jsou automaticky pózovány a jsou plně použitelné
+[*][b]Režim pohledu třetí osoby[b] - chcete vidět váš avatar když se socializujete nebo stavíte? Tento režim je pro vás ideální, a veškeré interakce stále fungují!
+[*][b]Režim volné kamery[b] - kompletně odpojte pohled od vaší postavy, a volně jím pohybujte okolo - ideální pro stavbu světů v desktopovém režimu
+[*][b]Režim zarovnání kamery s UI[b] - klikněte na jakékoliv UI ve světě, aby jste jej zarovnali na vaši obrazovku, a uvolnili váš kurzor pro zjednodušení interakce s ním
+[*][b]Přepínejte mezi desktopem a VR[b] - restart není třeba! Pokud hrajete jak ve VR, tak na desktopu, můžete mezi nimi přepínat stiskem jedné klávesy
+[/list]
+
+
+
 [h2]Pokročilý systém pohybu[/h2]
 
 [list][*][b]Chůze, posun, zero-G[/b], sférická gravitace a více
