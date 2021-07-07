@@ -698,7 +698,7 @@
         "Credits.AmountPrompt" : "{action,select, send {Сколько вы хотите отправить?} withdraw {Сколько вы хотите изъять?} tip {Сколько вы хотите положить чаевых?}}",
         "Credits.Amount" : "Количество: ",
         "Credits.Balance" : "Баланс: ",
-        "Credits.WithdrawalAddress" : "Адрес изъятия: ",
+        "Credits.WithdrawalAddress" : "Адрес изъятия:\n<color=red>Убедитесь что ваш бумажник поддерживает токены ERC-20!</color>",
         "Credits.AnonymousTip" : "Анонимные чаевые: ",
         "Credits.TipMessage" : "Сообщение чаевых: ",
         "Credits.TransactionComment" : "Коментарий транзакции: ",
