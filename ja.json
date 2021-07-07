@@ -698,7 +698,7 @@
         "Credits.AmountPrompt" : "{action,select, send {いくら送りますか?} withdraw {いくら引き出しますか?} tip {いくらチップを送りますか?}}",
         "Credits.Amount" : "数量: ",
         "Credits.Balance" : "残高: ",
-        "Credits.WithdrawalAddress" : "出金アドレス: ",
+        "Credits.WithdrawalAddress" : "出金アドレス:\n<color=red>ウォレットがERC-20トークンを\nサポートしていることを確認してください！</color>",
         "Credits.AnonymousTip" : "匿名で送る: ",
         "Credits.TipMessage" : "チップメッセージ: ",
         "Credits.TransactionComment" : "トランザクションコメント: ",
