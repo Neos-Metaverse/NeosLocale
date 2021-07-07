@@ -91,6 +91,7 @@ CameraControl.Control.MotionBlur
 CameraControl.Control.ScreenSpaceReflections  
 Settings.Haptics  
 Settings.DisableLAN  
+Settings.DoNotSendReadStatus  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
 Settings.DebugInputBinding  

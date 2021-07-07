@@ -333,6 +333,7 @@ Settings.SpeedExponent
 Settings.MoveThreshold  
 Settings.Haptics  
 Settings.DisableLAN  
+Settings.DoNotSendReadStatus  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
 Settings.DebugInputBinding  

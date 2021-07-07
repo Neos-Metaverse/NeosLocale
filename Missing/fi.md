@@ -55,6 +55,7 @@ CameraControl.OBS.IP
 CameraControl.OBS.FPS  
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
+Settings.DoNotSendReadStatus  
 Settings.DebugInputBinding  
 Settings.Audio.Header  
 Settings.Audio.Master  

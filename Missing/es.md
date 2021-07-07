@@ -5,6 +5,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 Dash.Actions.TurnOffUIEdit  
 Importer.Image.Screenshot  
 Credits.TipConfirmation  
+Settings.DoNotSendReadStatus  
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Tutorial.Streaming.Microphone.Title  

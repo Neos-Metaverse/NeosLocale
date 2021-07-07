@@ -29,6 +29,7 @@ Importer.Model.Advanced.ForceUncompressed
 Credits.TipConfirmation  
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
+Settings.DoNotSendReadStatus  
 Settings.Audio.WhisperVoiceVolume  
 Inspector.Mesh.ConvertToPointCloud  
 Inspector.ReflectionProbe.Bake  

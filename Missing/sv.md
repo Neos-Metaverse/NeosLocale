@@ -546,6 +546,7 @@ Settings.DisableLAN
 Settings.LegacyGripEquip  
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
+Settings.DoNotSendReadStatus  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
 Settings.DebugInputBinding  

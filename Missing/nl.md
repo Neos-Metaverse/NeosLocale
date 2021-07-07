@@ -111,6 +111,7 @@ CameraControl.OBS.Bitrate
 CameraControl.OBS.FPS  
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
+Settings.DoNotSendReadStatus  
 Settings.LaserSmoothing.Header  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  

@@ -14,6 +14,7 @@ Importer.Model.Advanced.ForceNoMipMaps
 Importer.Model.Advanced.ForceUncompressed  
 Credits.TipConfirmation  
 CameraControl.Control.ScreenSpaceReflections  
+Settings.DoNotSendReadStatus  
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.SimpleAvatarProtection.RemoveAll  

@@ -897,6 +897,7 @@
         "Settings.LegacyGripEquip" : "Enable Legacy Double Grip Equip",
         "Settings.LegacyWorldSwitcher" : "Enable Legacy World Switcher",
         "Settings.FetchIncompatibleSessions" : "Show Incompatible Sessions",
+        "Settings.DoNotSendReadStatus" : "Don't send realtime message read status",
         "Settings.MaxConcurrentAssetTransfers" : "Max Concurrent Asset Transfers",
         "Settings.AutosaveScreenshotPath" : "Auto-save screenshot path",
         "Settings.DebugInputBinding" : "Debug Input Bindings",
