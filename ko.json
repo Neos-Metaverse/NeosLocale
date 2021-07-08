@@ -1,6 +1,6 @@
 {
 	"localeCode": "ko",
-	"authors": ["MirPASEC", "R3C0D3r", "LUA", "Guide", "Titancube"],
+	"authors": ["MirPASEC", "R3C0D3r", "LUA", "Guide", "Titancube", "Holy_Water"],
 	"messages": {
         "General.OK": "확인",
         "General.Finish" : "완료",
@@ -1558,7 +1558,7 @@
         "Credits.TipConfirmation" : "지금 <b><color=#0ff>{username}</color></b>에게 송금하려 합니다. 정확히 확인 하셨나요?",
         
         "Importer.Image.Screenshot" : "<size=70%>네오스포토로<br>붙여넣기</size><br><size=50%>(세션정보 포함)</size>",
-
+        "Settings.DoNotSendReadStatus" : "메시지 읽음 상태 실시간 전송 금지",
         "Dummy": "더미"
     }
 }
