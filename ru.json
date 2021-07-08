@@ -897,6 +897,7 @@
         "Settings.LegacyGripEquip" : "Включить старое двойное нажатие Grip для экипировки",
         "Settings.LegacyWorldSwitcher" : "Включить старый переключатель миров",
         "Settings.FetchIncompatibleSessions" : "Показать несовместимые сессии",
+        "Settings.DoNotSendReadStatus" : "Не отправлять сообщение о прочтении сразу",
         "Settings.MaxConcurrentAssetTransfers" : "Максимальное количество передач ресурсов",
         "Settings.AutosaveScreenshotPath" : "Путь авто-сохранения скриншотов",
         "Settings.DebugInputBinding" : "Отладка привязки ввода",
