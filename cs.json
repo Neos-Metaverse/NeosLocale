@@ -897,6 +897,7 @@
         "Settings.LegacyGripEquip" : "Povolit dvoj-klik gripu pro nasazení nástrojů",
         "Settings.LegacyWorldSwitcher" : "Povolit starý přepínač světů",
         "Settings.FetchIncompatibleSessions" : "Zobrazit nekompatibilní relace",
+        "Settings.DoNotSendReadStatus" : "Neposílat stav přečtení zpráv v reálném čase",
         "Settings.MaxConcurrentAssetTransfers" : "Maximální souběžné přenosy assetů",
         "Settings.AutosaveScreenshotPath" : "Cesta autom. ulož. screenshotů",
         "Settings.DebugInputBinding" : "Ladit mapování vstupů",
