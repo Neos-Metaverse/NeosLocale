@@ -897,6 +897,7 @@
         "Settings.LegacyGripEquip" : "ダブルグリップ装備(レガシー)を有効化",
         "Settings.LegacyWorldSwitcher" : "ワールドスイッチャー(レガシー)を有効化",
         "Settings.FetchIncompatibleSessions" : "互換性のないセッションを表示",
+        "Settings.DoNotSendReadStatus" : "メッセージの既読状態をリアルタイムで送信しない",
         "Settings.MaxConcurrentAssetTransfers" : "アセットの最多同時転送量",
         "Settings.AutosaveScreenshotPath" : "スクリーンショット自動保存パス",
         "Settings.DebugInputBinding" : "入力バインディングのデバッグ",
