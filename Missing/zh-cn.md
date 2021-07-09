@@ -2,16 +2,6 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
-General.Start  
-General.Finish  
-Interaction.SaveToInventory  
-Dash.Actions.TurnOffUIEdit  
-World.Connection.LNL.DirectIP  
-World.Connection.LNL.NATPunchthrough  
-World.Connection.LNL.Relay  
-World.Connection.SteamNetworkingSockets  
-World.Error.FailedToConnect  
-Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
 Tooltip.Material.ConvertAll  
 Importer.Folder.Minecraft  
@@ -29,36 +19,15 @@ Inspector.SkinnedMesh.BakeNonDrivenBlendshapes
 Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
-Tutorial.BotDesigner.Start  
-Tutorial.BotDesigner.WearAvatar  
-Tutorial.BotDesigner.Intro.Title  
-Tutorial.BotDesigner.Intro.Description  
-Tutorial.BotDesigner.List.Models  
-Tutorial.BotDesigner.List.Colors  
-Tutorial.BotDesigner.ModelOptions.Genders.Male  
-Tutorial.BotDesigner.ModelOptions.Genders.Female  
 Tutorial.BotDesigner.ModelOptions.Cloak  
-Tutorial.BotDesigner.ColorOptions.Metal  
 Tutorial.BotDesigner.ColorOptions.Secondary  
 Tutorial.BotDesigner.ColorOptions.Underbody  
 Tutorial.BotDesigner.ColorOptions.Emission  
-Tutorial.BotDesigner.ColorOptions.PickColor  
-Tutorial.AvatarTutorial.Start  
-Tutorial.AvatarTutorial.OpenWorld  
-Tutorial.AvatarTutorial.AvatarWorlds  
-Tutorial.AvatarTutorial.Intro.Title  
-Tutorial.AvatarTutorial.Intro.Description  
-Tutorial.AvatarTutorial.Avatars.Title  
-Tutorial.AvatarTutorial.FindingAvatars.Title  
-Tutorial.AvatarTutorial.EquippingAndFavoriting.Title  
-Tutorial.AvatarTutorial.AvatarCreation.Title  
-Tutorial.AvatarTutorial.AvatarWorlds.Title  
 Tutorial.AvatarTutorial.AvatarWorlds.Description  
 Tutorial.AvatarTutorial.Avatars.Description  
 Tutorial.AvatarTutorial.FindingAvatars.Description  
 Tutorial.AvatarTutorial.EquippingAndFavoriting.Description  
 Tutorial.AvatarTutorial.AvatarCreation.Description  
-Tutorial.Intro.PublicFolders.Title  
 Tutorial.Intro.PublicFolders.Description  
 Tutorial.AvatarCreator.Intro.Title  
 Tutorial.AvatarCreator.Intro.Description  
