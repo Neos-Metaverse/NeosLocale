@@ -2,8 +2,6 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Japanese [ja]
-Account.TOTP.RecoveryCodes.Description  
-Account.TOTP.Activate.Header  
 Account.TOTP.Deactivate.Header  
 Account.TOTP.Deactivate.Description  
 Account.TOTP.Deactivate.Deactivate  
