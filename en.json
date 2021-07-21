@@ -74,6 +74,7 @@
         "Interaction.EquipAvatar" : "Equip Avatar",
 
         "Interaction.SaveAsScreenshot" : "Save as screenshot",
+        "Interaction.ExportScreenshot" : "Export screenshot",
         "Interaction.ImportFile" : "Import File",
         "Interaction.ExportFile" : "Export File",
         "Interaction.CopyLink" : "Copy Link",

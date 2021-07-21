@@ -9,6 +9,7 @@ General.CopyToClipboard
 General.Create  
 General.Creating  
 Interaction.SaveToInventory  
+Interaction.ExportScreenshot  
 Interaction.CopyLink  
 Dash.Screens.Desktop  
 Dash.Actions.TurnOffUIEdit  

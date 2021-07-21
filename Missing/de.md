@@ -4,6 +4,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 # German [de]
 General.Close  
 General.CopyToClipboard  
+Interaction.ExportScreenshot  
 Tools.Setup2FA  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  

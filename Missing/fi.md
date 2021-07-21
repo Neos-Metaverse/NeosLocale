@@ -4,6 +4,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Finnish [fi]
 General.Close  
 General.CopyToClipboard  
+Interaction.ExportScreenshot  
 World.Detail.Users.Count  
 World.AccessLevel.LAN  
 Tools.Setup2FA  

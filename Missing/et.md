@@ -7,6 +7,7 @@ General.Finish
 General.Close  
 General.CopyToClipboard  
 Interaction.SaveToInventory  
+Interaction.ExportScreenshot  
 Dash.Actions.TurnOffUIEdit  
 World.Connection.LNL.DirectIP  
 World.Connection.LNL.NATPunchthrough  

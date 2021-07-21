@@ -9,6 +9,7 @@ General.CopyToClipboard
 Locomotion.Noclip.Name  
 Interaction.NamedEquipTool  
 Interaction.EquipAvatar  
+Interaction.ExportScreenshot  
 Dash.Actions.TurnOffUIEdit  
 Dash.Actions.ContentHub  
 World.Connection.LNL.DirectIP  

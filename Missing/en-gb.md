@@ -65,6 +65,7 @@ Interaction.EnterAnchor
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
 Interaction.SaveAsScreenshot  
+Interaction.ExportScreenshot  
 Interaction.ImportFile  
 Interaction.ExportFile  
 Interaction.CopyLink  

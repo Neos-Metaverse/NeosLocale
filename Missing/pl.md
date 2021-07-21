@@ -4,6 +4,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Polish [pl]
 General.Close  
 General.CopyToClipboard  
+Interaction.ExportScreenshot  
 Dash.Actions.TurnOffUIEdit  
 Tools.Setup2FA  
 Account.TOTP.Initializing  
