@@ -25,6 +25,11 @@ Account.TOTP.Activate.InvalidToken
 Account.TOTP.Message.AlreadySetup  
 Account.TOTP.Message.Error  
 Account.TOTP.Message.SetupComplete  
+Account.TOTP.Deactivate.Header  
+Account.TOTP.Deactivate.Description  
+Account.TOTP.Deactivate.Deactivate  
+Account.TOTP.Deactivate.Deactivating  
+Account.TOTP.Message.DeactivationComplete  
 2FA.Header  
 2FA.Token  
 Importer.Image.Screenshot  

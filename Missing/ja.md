@@ -4,4 +4,9 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Japanese [ja]
 Account.TOTP.RecoveryCodes.Description  
 Account.TOTP.Activate.Header  
+Account.TOTP.Deactivate.Header  
+Account.TOTP.Deactivate.Description  
+Account.TOTP.Deactivate.Deactivate  
+Account.TOTP.Deactivate.Deactivating  
+Account.TOTP.Message.DeactivationComplete  
 
