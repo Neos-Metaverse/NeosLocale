@@ -4,6 +4,8 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Swedish [sv]
 General.Start  
 General.Finish  
+General.Close  
+General.CopyToClipboard  
 General.Create  
 General.Creating  
 Interaction.SaveToInventory  
@@ -18,6 +20,7 @@ World.Error.OnlyContactsOfContacts
 World.Error.FailedToConnect  
 World.AccessLevel.FriendsOfFriends  
 Tools.StreamAudio  
+Tools.Setup2FA  
 Tools.StreamAudio.Start  
 Tools.StreamAudio.Bitrate  
 Tools.StreamAudio.Title  
@@ -61,6 +64,26 @@ Account.ErrorPasswordMismatch
 Account.ErrorEmailMismatch  
 Account.ErrorLoginError  
 Account.RegistrationSuccess  
+Account.TOTP.Initializing  
+Account.TOTP.Code.Header  
+Account.TOTP.Code.Description  
+Account.TOTP.Code.QRCode  
+Account.TOTP.Code.Key  
+Account.TOTP.RecoveryCodes.Header  
+Account.TOTP.RecoveryCodes.Description  
+Account.TOTP.RecoveryCodes.Codes  
+Account.TOTP.Activate.Header  
+Account.TOTP.Activate.Description  
+Account.TOTP.Activate.Token  
+Account.TOTP.Activate.TokenField  
+Account.TOTP.Activate.Activate  
+Account.TOTP.Activate.Activating  
+Account.TOTP.Activate.InvalidToken  
+Account.TOTP.Message.AlreadySetup  
+Account.TOTP.Message.Error  
+Account.TOTP.Message.SetupComplete  
+2FA.Header  
+2FA.Token  
 Profile.Status.Online  
 Profile.Status.Away  
 Profile.Status.Busy  

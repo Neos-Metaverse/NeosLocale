@@ -4,6 +4,8 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Estonian [et]
 General.Start  
 General.Finish  
+General.Close  
+General.CopyToClipboard  
 Interaction.SaveToInventory  
 Dash.Actions.TurnOffUIEdit  
 World.Connection.LNL.DirectIP  
@@ -11,6 +13,27 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
 World.Error.FailedToConnect  
+Tools.Setup2FA  
+Account.TOTP.Initializing  
+Account.TOTP.Code.Header  
+Account.TOTP.Code.Description  
+Account.TOTP.Code.QRCode  
+Account.TOTP.Code.Key  
+Account.TOTP.RecoveryCodes.Header  
+Account.TOTP.RecoveryCodes.Description  
+Account.TOTP.RecoveryCodes.Codes  
+Account.TOTP.Activate.Header  
+Account.TOTP.Activate.Description  
+Account.TOTP.Activate.Token  
+Account.TOTP.Activate.TokenField  
+Account.TOTP.Activate.Activate  
+Account.TOTP.Activate.Activating  
+Account.TOTP.Activate.InvalidToken  
+Account.TOTP.Message.AlreadySetup  
+Account.TOTP.Message.Error  
+Account.TOTP.Message.SetupComplete  
+2FA.Header  
+2FA.Token  
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
 Tooltip.Material.ConvertAll  
