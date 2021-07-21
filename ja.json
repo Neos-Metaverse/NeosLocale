@@ -369,7 +369,12 @@
         "Account.TOTP.Activate.InvalidToken" : "無効なコードです!",
         "Account.TOTP.Message.AlreadySetup" : "2段階認証はこのアカウントで既に設定されています!",
         "Account.TOTP.Message.Error" : "予期しないエラー！ もう一度やり直してください。",
-        "Account.TOTP.Message.SetupComplete" : "<size=150%>おめでとうございます！</size><br><br>アカウントは2段階認証により保護が強化されました！<br><br>現在、NCRの操作では、コードを入力する必要があります。 将来的には、アカウントログインにも拡張される予定です。",
+        "Account.TOTP.Message.SetupComplete" : "<size=150%>おめでとうございます！</size><br><br>アカウントは2段階認証により保護が強化されました！<br><br>現在、NCRの操作では、コードを入力する必要があります。 /enableLogin2FAコマンドを使用して アカウントログインに対してこれを有効にすることができますが、 account.neos.comにログインする前に /webLoginコマンドを使用する必要がある ことに注意してください。",
+        "Account.TOTP.Deactivate.Header" : "2段階認証を無効化する",
+        "Account.TOTP.Deactivate.Description" : "2段階認証は現在<b><color=green>アカウントで有効になっています</color></b>。 無効化する必要がある場合（例：電話の紛失やコードの漏洩など）、ここで行うことができます。 <br><br>非アクティブ化後、2段階認証を再度設定すると、新しいセットアップキーが生成されます。 <br><br>スマートフォンを紛失して2段階認証を再設定する必要がある場合は、<b>強く</b>すぐに設定することをお勧めします。 各リカバリコードは1回しか使用できません。 不足すると、アカウントに完全にアクセスできなくなります",
+        "Account.TOTP.Deactivate.Deactivate" : "無効化",
+        "Account.TOTP.Deactivate.Deactivating" : "無効化中...",
+        "Account.TOTP.Message.DeactivationComplete" : "アカウントで2段階認証が無効化されました。<br><br>アカウントのリスクが高まっています！<br><br>特にスマートフォンを紛失したためにリカバリーコードを使用した場合は、すぐに2段階認証を再設定してください。",
 
         "2FA.Header" : "2段階認証",
         "2FA.Token" : "6桁のコード:",
