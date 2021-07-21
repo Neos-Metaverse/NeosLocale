@@ -74,6 +74,7 @@
         "Interaction.EquipAvatar" : "Надеть",
 
         "Interaction.SaveAsScreenshot" : "Сохранить как скриншот",
+        "Interaction.ExportScreenshot" : "Экспортировать скриншот",
         "Interaction.ImportFile" : "Импортировать файл",
         "Interaction.ExportFile" : "Экспортировать файл",
         "Interaction.CopyLink" : "Копировать ссылку",
