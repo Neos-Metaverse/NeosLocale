@@ -1585,6 +1585,12 @@
 
         "2FA.Header" : "2FA(2차인증) 검증",
         "2FA.Token" : "토큰(6자리 숫자):",
+		
+        "Account.TOTP.Deactivate.Header" : "2FA(2차인증) 끄기",
+        "Account.TOTP.Deactivate.Description" : "현재 <b><color=green>2FA(2차인증)가 활성화된 상태</color></b>입니다. 휴대전화 분실이나 코드분실등으로 이 기능을 끌 필요가 있는 경우. 이곳에서 진행할 수 있습니다. 기능을 껐다가 다시 활성화 시키시면 비밀코드와 복구코드가 새로 발급됩니다.<br><br>폰의 분실 등으로 2FA를 재설정 하는 경우, 일련의 설정 과정을 즉시 완료하는 것을 <b>강력히</b> 권고하는 바입니다. 각 복구 코드는 한번만 사용 가능하며, 모두 사용하는 경우 계정이 완전히 잠기게 됩니다.",
+        "Account.TOTP.Deactivate.Deactivate" : "비활성",
+        "Account.TOTP.Deactivate.Deactivating" : "기능을 끄는 중입니다.",
+        "Account.TOTP.Message.DeactivationComplete" : "2FA(2차인증)이 비활성화 되었습니다.<br><br>계정의 보안등급이 낮아졌습니다!<br><br>휴대전화 분실 등으로 복구코드를 사용하신 경우, 즉시 재설정하는것을 추천합니다.",
 
         "Dummy": "더미"
     }
