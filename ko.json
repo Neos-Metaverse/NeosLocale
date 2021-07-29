@@ -1559,6 +1559,39 @@
         
         "Importer.Image.Screenshot" : "<size=70%>네오스포토로<br>붙여넣기</size><br><size=50%>(세션정보 포함)</size>",
         "Settings.DoNotSendReadStatus" : "메시지 읽음 상태 실시간 전송 금지",
+		
+        "General.Close" : "닫기",
+        "General.CopyToClipboard" : "클립보드로 복사",
+        "Interaction.ExportScreenshot" : "스크린샷 내보내기",
+        "Tools.Setup2FA" : "2FA(2차인증) 설정",
+		"Account.TOTP.Initializing" : "2FA(2차인증) 상태를 확인하고 있습니다.",
+        "Account.TOTP.Code.Header" : "비밀코드",
+        "Account.TOTP.Code.Description" : "먼저, <b>Authy</b> 또는 <b>Google Authenticator</b>과 같은 TOTP 인증앱에 비밀번호를 입력하셔야 합니다.<br><br>비밀코드를 수동으로도 입력할 수 있지만, QR 코드 스캔 방식을 추천합니다.<b>이 코드를 타인에게 공유 또는 공개하지 마십시오.</b><br><br>VR 모드를 사용중이신 경우 F8 키를 눌러 데스크탑 모드로 전환할 수 있습니다.",
+        "Account.TOTP.Code.QRCode" : "QR코드 스캔",
+        "Account.TOTP.Code.Key" : "비밀코드:",
+        "Account.TOTP.RecoveryCodes.Header" : "복구코드",
+        "Account.TOTP.RecoveryCodes.Description" : "이 코드를 안전하게 보관하세요. 인증을 위한 기기(=휴대폰)가 분실 또는 손상된 경우, 계정에 대한 접근권한을 복원하는데 사용할 수 있습니다. 각 코드는 한번만 사용 가능합니다.<b>절대 타인에게 공유 또는 공개하지 마세요.</b>)코드를 분실하실 경우 계정을 <color=red>영구적으로</color> 사용하실 수 없게 됩니다.",
+        "Account.TOTP.RecoveryCodes.Codes" : "코드:",
+        "Account.TOTP.Activate.Header" : "2FA(2차인증) 활성화",
+        "Account.TOTP.Activate.Description" : "계정에 대해 2FA 인증을 활성화 하시려면, 인증앱에서 생성된 6자리 토콘을 사용하여 정상적인 동작을 하는지 확인하세요.<br><br>활성화 된 후에는 몇몇 특정 작업을 수행할때 코드를 입력해야 할 수 있습니다.<br><br>참고: 현재 이 코드는 NCR 거래에서만 사용되나, 추후 계정 로그인시에도 사용되도록 범위를 넓힐 예정입니다.",
+        "Account.TOTP.Activate.Token" : "토큰(6자리 숫자):",
+        "Account.TOTP.Activate.TokenField" : "여기에 토큰을 입력하세요....",
+        "Account.TOTP.Activate.Activate" : "활성화",
+        "Account.TOTP.Activate.Activating" : "기능을 활성화하는 중입니다.",
+        "Account.TOTP.Activate.InvalidToken" : "토큰 정보가 잘못되었습니다!",
+        "Account.TOTP.Message.AlreadySetup" : "2FA(2차인증)가 이미 활성화된 상태 입니다!",
+        "Account.TOTP.Message.Error" : "확인되지 않은 오류가 발생하였습니다. 잠시 후 재시도 해 주세요.",
+        "Account.TOTP.Message.SetupComplete" : "<size=150%>축하합니다!</size><br><br>계정은 이제 2FA(2차인증)으로 보호됩니다.<br><br>이제 NCR 송금등의 상호작용시 코드를 입력하셔야 하며, 향후 계정 로그인시에도 입력하도록 개선될 것입니다.",
+
+        "2FA.Header" : "2FA(2차인증) 검증",
+        "2FA.Token" : "토큰(6자리 숫자):",
+		
+        "Account.TOTP.Deactivate.Header" : "2FA(2차인증) 끄기",
+        "Account.TOTP.Deactivate.Description" : "현재 <b><color=green>2FA(2차인증)가 활성화된 상태</color></b>입니다. 휴대전화 분실이나 코드분실등으로 이 기능을 끌 필요가 있는 경우. 이곳에서 진행할 수 있습니다. 기능을 껐다가 다시 활성화 시키시면 비밀코드와 복구코드가 새로 발급됩니다.<br><br>폰의 분실 등으로 2FA를 재설정 하는 경우, 일련의 설정 과정을 즉시 완료하는 것을 <b>강력히</b> 권고하는 바입니다. 각 복구 코드는 한번만 사용 가능하며, 모두 사용하는 경우 계정이 완전히 잠기게 됩니다.",
+        "Account.TOTP.Deactivate.Deactivate" : "비활성",
+        "Account.TOTP.Deactivate.Deactivating" : "기능을 끄는 중입니다.",
+        "Account.TOTP.Message.DeactivationComplete" : "2FA(2차인증)이 비활성화 되었습니다.<br><br>계정의 보안등급이 낮아졌습니다!<br><br>휴대전화 분실 등으로 복구코드를 사용하신 경우, 즉시 재설정하는것을 추천합니다.",
+
         "Dummy": "더미"
     }
 }
