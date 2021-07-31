@@ -1013,6 +1013,30 @@
         "Security.HostAccess.Allow" : "Принять",
         "Security.HostAccess.Deny" : "Отклонить",
 
+        "Inspector.Slot.AttachComponent" : "Добавить компонент",
+
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>Вправо <b>-</b>Влево",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Вверх <b>-</b>Вниз",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Вперед <b>-</b>Назад",
+
+        "Inspector.Slot.Reset.Label" : "Сбросить:",
+        "Inspector.Slot.Reset.Position" : "Позицию",
+        "Inspector.Slot.Reset.Rotation" : "Вращение",
+        "Inspector.Slot.Reset.Scale" : "Масштаб",
+
+        "Inspector.Slot.CreatePivotAtCenter" : "Создать точку вращения в центре",
+
+        "Inspector.Slot.JumpTo" : "Прыгнуть к",
+        "Inspector.Slot.BringTo" : "Переместить сюда",
+        "Inspector.Slot.BringTo.Undo" : "Переместить {name} к пользователю",
+
+        "Inspector.Slot.ParentUnder.Label" : "Сделать потомком:",
+        "Inspector.Slot.ParentUnder.WorldRoot" : "Корня мира",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "Установка {name} потомком корня мира",
+        "Inspector.Slot.ParentUnder.LocalUserSpace" : "Локального пространства пользователя",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "Установка {name} потомком локального пространства пользователя",
+
+
         "Inspector.Mesh.StatsHeader" : "Статистика Меша",
         "Inspector.Mesh.VertexCount" : "Кол-во Вершин: {n}",
         "Inspector.Mesh.TriangleCount" : "Кол-во Треугольников: {n}",
@@ -1023,6 +1047,7 @@
         "Inspector.Mesh.ChannelStats" : "Нормали: {normals}, Тангенты: {tangents}, Цвета: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "Запечь Меш",
+        "Inspector.Mesh.SetupRenderer" : "Настроить рендерер",
         "Inspector.Mesh.ResaveMesh" : "Пересохранить Меш",
         "Inspector.Mesh.RecalculateNormals" : "Перерасчитать Нормали",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Перерасчитать Нормали (сглаж. шейдинг)",
@@ -1080,6 +1105,8 @@
         "Inspector.Texture.Size" : "Размер: {width} x {height}",
         "Inspector.Texture.Format" : "Формат: {format}, Память: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "VariantID: {variant}",
+
+        "Inspector.Texture.BakeTexture" : "Запечь текстуру",
 
         "Inspector.Texture.InvertRGB" : "Инвертировать RGB",
         "Inspector.Texture.InvertR" : "Инвертировать R",
