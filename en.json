@@ -1013,6 +1013,30 @@
         "Security.HostAccess.Allow" : "Allow",
         "Security.HostAccess.Deny" : "Deny",
 
+        "Inspector.Slot.AttachComponent" : "Attach Component",
+
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>Right <b>-</b>Left",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Up <b>-</b>Down",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Forward <b>-</b>Backward",
+
+        "Inspector.Slot.Reset.Label" : "Reset:",
+        "Inspector.Slot.Reset.Position" : "Position",
+        "Inspector.Slot.Reset.Rotation" : "Rotation",
+        "Inspector.Slot.Reset.Scale" : "Scale",
+
+        "Inspector.Slot.CreatePivotAtCenter" : "Create Pivot At Center",
+
+        "Inspector.Slot.JumpTo" : "Jump To",
+        "Inspector.Slot.BringTo" : "Bring To",
+        "Inspector.Slot.BringTo.Undo" : "Bring {name} to user",
+
+        "Inspector.Slot.ParentUnder.Label" : "Parent Under:",
+        "Inspector.Slot.ParentUnder.WorldRoot" : "World Root",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "Parent {name} under world root",
+        "Inspector.Slot.ParentUnder.LocalUserSpace" : "Local User Space",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "Parent {name} under local user space",
+
+
         "Inspector.Mesh.StatsHeader" : "Mesh Statistics",
         "Inspector.Mesh.VertexCount" : "Vertex Count: {n}",
         "Inspector.Mesh.TriangleCount" : "Triangle Count: {n}",
@@ -1023,6 +1047,7 @@
         "Inspector.Mesh.ChannelStats" : "Normals: {normals}, Tangents: {tangents}, Colors: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "Bake Mesh",
+        "Inspector.Mesh.SetupRenderer" : "Setup Renderer",
         "Inspector.Mesh.ResaveMesh" : "Resave Mesh",
         "Inspector.Mesh.RecalculateNormals" : "Recalculate Normals",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Recalculate Normals (smooth shading)",
@@ -1080,6 +1105,8 @@
         "Inspector.Texture.Size" : "Size: {width} x {height}",
         "Inspector.Texture.Format" : "Format: {format}, Memory: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "VariantID: {variant}",
+
+        "Inspector.Texture.BakeTexture" : "Bake Texture",
 
         "Inspector.Texture.InvertRGB" : "Invert RGB",
         "Inspector.Texture.InvertR" : "Invert R",
