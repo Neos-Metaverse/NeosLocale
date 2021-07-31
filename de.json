@@ -1,6 +1,6 @@
 {
     "localeCode" : "de",
-    "authors" : ["3x1t_5tyl3", "Ardes", "Avunia", "Blaze", "Bluigi", "dfgHiatus", "Elektrospy", "InnocentThief", "MR-Alex", "Schwefelhexafluorid", "Tillikum"],
+    "authors" : ["3x1t_5tyl3", "Ardes", "Avunia", "Blaze", "Bluigi", "dfgHiatus", "Elektrospy", "InnocentThief", "m1nt_", "MR-Alex", "Schwefelhexafluorid", "Tillikum"],
     "messages" :
     {
         "General.OK" : "OK",
@@ -157,7 +157,7 @@
 
         "World.Actions.StartSession" : "Starte Sitzung",
         "World.Actions.Join" : "Beitreten",
-        "World.Actions.Focus" : "Fokusieren",
+        "World.Actions.Focus" : "Fokussieren",
         "World.Actions.Close" : "Welt schließen",
         "World.Actions.Leave" : "Welt verlassen",
         "World.Actions.Save" : "Änderungen speichern",
@@ -169,7 +169,7 @@
         "World.Actions.Discard" : "Änderungen verwerfen",
         "World.Actions.Clone" : "Welt duplizieren",
         "World.Actions.Delete" : "Welt löschen ",
-        "World.Actions.ConfirmDelete" : "Löschen bestätigten",
+        "World.Actions.ConfirmDelete" : "Löschen bestätigen",
         "World.Actions.ReallyConfirmDelete" : "UNWIDERRUFLICH LÖSCHEN",
         "World.Actions.Overwrite" : "Überschreiben mit {name}",
         "World.Actions.ConfirmOverwrite" : "ÜBERSCHREIBEN BESTÄTIGEN",
@@ -699,9 +699,9 @@
         "Importer.Model.Advanced.RandomColors" : "Zufällige Farben generieren",
         "Importer.Model.Advanced.SpawnMaterialOrbs" : "Material-Orbs spawnen",
         "Importer.Model.Advanced.ImagesByName" : "Bilder per Name importieren",
-        "Importer.Model.Advanced.ForcePointFiltering" : "Force Point Filtering",
-        "Importer.Model.Advanced.ForceNoMipMaps" : "No MipMaps",
-        "Importer.Model.Advanced.ForceUncompressed" : "Force Uncompressed",
+        "Importer.Model.Advanced.ForcePointFiltering" : "Point-Filterung erzwingen",
+        "Importer.Model.Advanced.ForceNoMipMaps" : "Keine MipMaps",
+        "Importer.Model.Advanced.ForceUncompressed" : "Unkomprimiert erzwingen",
 
         "Importer.Model.Advanced.Grabbable" : "Greifbar machen",
         "Importer.Model.Advanced.Scalable" : "Skalierbar machen",
@@ -874,7 +874,7 @@
         "CameraControl.OBS.Launch" : "Starte OBS",
         "CameraControl.OBS.Launching" : "Starte...",
         "CameraControl.OBS.Launched" : "Gestartet!",
-        "CameraControl.OBS.Connecting" : "Verbindsaufbau...",
+        "CameraControl.OBS.Connecting" : "Verbindungsaufbau...",
         "CameraControl.OBS.Connected" : "Verbunden!",
         "CameraControl.OBS.Disconnected" : "Getrennt!",
         "CameraControl.OBS.AuthFailure" : "Authentifizierung fehlgeschlagen!",
@@ -928,9 +928,9 @@
         "Settings.LegacyGripEquip" : "Aktiviere altes Doppel-Greifen-Ausrüsten",
         "Settings.LegacyWorldSwitcher" : "Aktiviere alten Welten-Wechseler",
         "Settings.FetchIncompatibleSessions" : "Zeige inkompatible Sitzungen",
-        "Settings.DoNotSendReadStatus" : "Gelesen Status nicht sofort senden",
+        "Settings.DoNotSendReadStatus" : "Lesebestätigungen nicht sofort senden",
         "Settings.MaxConcurrentAssetTransfers" : "Max. gleichzeitige Asset-Übertragungen",
-        "Settings.AutosaveScreenshotPath" : "Pfad für Automatisch gespeicherte Screenshots",
+        "Settings.AutosaveScreenshotPath" : "Pfad für automatisch gespeicherte Screenshots",
         "Settings.DebugInputBinding" : "Debug-Eingabebindungen",
 
         "Settings.LaserSmoothing.Header" : "Laser-Glättung",
@@ -952,8 +952,8 @@
         "Settings.Audio.DisableVoiceNormalization" : "Keine Sprachlautstärke-Normalisierung",
         "Settings.Audio.NoiseGateThreshold" : "Hintergrundlautstärke-Grenzwert: {n}",
         "Settings.Audio.NormzliationThreshold" : "Normalisierungs-Grenzwert: {n}",
-        "Settings.Audio.NoiseSupression" : "Noise Suppression Filter (RNNoise)",
-        "Settings.Audio.WhisperVoiceVolume" : "Flüster lautstärke (außerhalb der Blase): {n,number,percent}",
+        "Settings.Audio.NoiseSupression" : "Rauschunterdrückungsfilter (RNNoise)",
+        "Settings.Audio.WhisperVoiceVolume" : "Flüsterlautstärke (außerhalb der Blase): {n,number,percent}",
         "Settings.Audio.InputDevice" : "Aufnahmegerät:",
         "Settings.Audio.OutputDevice" : "Ausgabegerät:",
         "Settings.Audio.SelectInputDevice" : "Aufnahmegerät auswählen",
@@ -963,9 +963,9 @@
         "Settings.Audio.StartTest" : "Mikrofontest starten",
         "Settings.Audio.StopTest" : "Test stoppen",
         "Settings.Audio.Monitoring" : "Mikrofon-Überwachung:",
-        "Settings.Audio.SystemDefaultOutput" : "Benutze System Standard",
+        "Settings.Audio.SystemDefaultOutput" : "Benutze Systemstandard",
 
-        "Settings.Graphics.DesktopFOV" : "Desktop FOV",
+        "Settings.Graphics.DesktopFOV" : "Desktop-Sichtfeld",
 
         "Settings.Locale.ChangeLanguage" : "Sprache ändern",
         "Settings.Locale.SelectLanguageHeader" : "Wählen Sie Ihre Sprache:",
@@ -1126,7 +1126,7 @@
 
         "Inspector.Audio.BakeAudio" : "Audio-Clip zusammenfügen",
         "Inspector.Audio.FormatInfo" : "Sample-Rate: {rate} Hz, Kanäle: {channels} ({channel_count})",
-        "Inspector.Audio.Duration" : "Dauer: {duration}, SampleCount: {samples}",
+        "Inspector.Audio.Duration" : "Dauer: {duration}, Sample-Anzahl: {samples}",
         "Inspector.Audio.EncodingInfo" : "Codec-Info: {info}, Dekodiert: {decoded}",
 
         "Inspector.Audio.Normalize" : "Lautstärke normalisieren",
@@ -1139,7 +1139,7 @@
         "Inspector.Audio.TrimEnd" : "Ende trimmen",
         "Inspector.Audio.FadeIn" : "Fade-In hinzufügen",
         "Inspector.Audio.FadeOut" : "Fade-Out hinzufügen",
-        "Inspector.Audio.MakeLoopable" : "Wiederholbar machen (durch crossfade)",
+        "Inspector.Audio.MakeLoopable" : "Wiederholbar machen (durch Crossfade)",
         "Inspector.Audio.ToWAV" : "Konvertiere zu WAV",
         "Inspector.Audio.ToVorbis" : "Konvertiere zu OGG Vorbis",
         "Inspector.Audio.ToFLAC" : "Konvertiere zu FLAC",
@@ -1153,7 +1153,7 @@
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "Erzeuge auf Basis von untergeordneten Objekten",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Erzeuge auf Basis von untergeordneten Objekten (erzwinge auf alle)",
-        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Erzeuge auf Basis von untergeordneten Objekten (nur Rigg)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Erzeuge auf Basis von untergeordneten Objekten (nur Rig)",
         "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Ersetze Glatte Transformationen in untergeordneten Objekten",
         "Inspector.DynamicBoneChain.ClearSmoothTransforms" : "Lösche Glatte Transformationen in untergeordneten Objekten",
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- Kollisionen & Greifen -------",
@@ -1201,7 +1201,7 @@
 
         "Wizard.CubemapCreator.Title" : "Cubemap-Ersteller",
         "Wizard.CubemapCreator.Textures" : "Quell-Texturen:",
-        "Wizard.CubemapCreator.TexturesNote" : "Beaechten Sie, dass einige Konventionen links-rechts-vertauscht sind. Falls die resultierende Cubemap nicht korrekt ist, versuchen Sie, die Texturen für links und rechts zu tauschen.",
+        "Wizard.CubemapCreator.TexturesNote" : "Beachten Sie, dass einige Konventionen links-rechts-vertauscht sind. Falls die resultierende Cubemap nicht korrekt ist, versuchen Sie, die Texturen für links und rechts zu tauschen.",
         "Wizard.CubemapCreator.PosX" : "Positiv X (rechts)",
         "Wizard.CubemapCreator.NegX" : "Negativ X (links)",
         "Wizard.CubemapCreator.PosY" : "Positiv Y (oben)",
@@ -1224,8 +1224,8 @@
         "Desktop.OpenKeyboard" : "Öffne Tastatur",
         "Desktop.FollowCursor.On" : "Zeiger folgen: An",
         "Desktop.FollowCursor.Off" : "Zeiger folgen: Aus",
-        "Desktop.LegacyInputMode.On" : "Abwärstkompatible Eingabe: An",
-        "Desktop.LegacyInputMode.Off" : "Abwärstkompatible Eingabe: Aus",
+        "Desktop.LegacyInputMode.On" : "Abwärtskompatible Eingabe: An",
+        "Desktop.LegacyInputMode.Off" : "Abwärtskompatible Eingabe: Aus",
         "Desktop.Brightness" : "Helligkeit: {n,number,percent}",
         "Desktop.Opacity" : "Transparenz: {n,number,percent}",
 
