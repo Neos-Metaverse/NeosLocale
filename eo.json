@@ -1,7 +1,7 @@
 {
     "localeCode" : "eo",
-    "authors" : ["Melnus", "Yellow", "Inferus"],
-    "messages" : 
+    "authors" : ["Melnus", "Yellow", "Sejden"],
+    "messages" :
     {
         "General.OK" : "Bone",
         "General.Start" : "Komenci",
@@ -14,12 +14,14 @@
         "General.Loading" : "Ŝarĝante...",
         "General.Processing" : "Prilaborante...",
         "General.FAILED" : "MALSUKCESIS",
-        "General.Reset" : "Restartigi",
+        "General.Reset" : "Restarigi",
         "General.WorldOpenConfirm" : "Ĉu vere malfermi?",
         "General.Save" : "Konservi",
         "General.Saving" : "Konservante...",
         "General.Saved" : "Konservita!",
         "General.Done" : "Finita!",
+        "General.Close" : "Fermi",
+        "General.CopyToClipboard" : "Kopii al tondujo",
         "General.CopiedToClipboard" : "Kopiita!",
         "General.CopiedToClipboardLong" : "Kopiita al tondejo!",
         "General.Create" : "Krei",
@@ -72,6 +74,7 @@
         "Interaction.EquipAvatar" : "Porti Avataron",
 
         "Interaction.SaveAsScreenshot" : "Konservi kiel ekrankopion",
+        "Interaction.ExportScreenshot" : "Elporti ekrankopion",
         "Interaction.ImportFile" : "Importi dosieron",
         "Interaction.ExportFile" : "Eksporti dosieron",
         "Interaction.CopyLink" : "Kopii Ligilon",
@@ -87,6 +90,8 @@
         "Dash.Screens.Exit": "Eliri",
 
         "Dash.Actions.PasteFromClipboard": "Alglui enhavon el tondejo",
+
+        "Dash.Actions.TurnOffUIEdit" : "Malŝalti redaktoreĝimon de UI",
 
         "Dash.Actions.CoreWorldsHeader": "Kernaj Mondoj",
         "Dash.Actions.ContentHub": "Enhav-Nabo",
@@ -283,11 +288,12 @@
         "Tools.DepositNCR": "Deponejo NCR",
         "Tools.WithdrawNCR": "Retiri NCR",
         "Tools.Debug": "Elpurigi",
-        "Tools.StreamAudio" : "Aŭdio de Elsendfluo",
+        "Tools.StreamAudio" : "Elsendi sonon",
+        "Tools.Setup2FA" : "Agordi 2FA",
 
-        "Tools.StreamAudio.Start" : "Komenci Elsendfluo",
+        "Tools.StreamAudio.Start" : "Komenci elsendfluon",
         "Tools.StreamAudio.Bitrate" : "Bitkvanto: {bitrate} kbps",
-        "Tools.StreamAudio.Title" : "{username} transsendata aŭdio",
+        "Tools.StreamAudio.Title" : "Son-elsendfluo de {username}",
         "Tools.StreamAudio.Spatialized" : "Spacigita(Spatialized)",
         "Tools.StreamAudio.Broadcast" : "Elsendo",
         "Tools.StreamAudio.PlayForOwner.Off" : "Ludi por posedanto: Off",
@@ -345,6 +351,33 @@
         "Account.ErrorEmailMismatch": "Retpoŝtoj ne kongruas!",
         "Account.ErrorLoginError": "Ensaluta Eraro:",
         "Account.RegistrationSuccess": "<size=120%> Sukceso!</size><br><br> Retpoŝto estis sendita al {email} kun kontrola ligilo. <br><br> Post kiam vi alklakos ĉi tiun ligon, ni aŭtomate ensalutos. vin dum ĉi tiu dialogo estos malfermita. <br><br> Se vi havas problemojn, kontaktu nin ĉe hello@neos.com aŭ discord.gg/neosvr",
+
+        "Account.TOTP.Initializing" : "Kontrolanta staton de 2FA por via konto...",
+        "Account.TOTP.Code.Header" : "Sekreta kodo",
+        "Account.TOTP.Code.Description" : "Unue vi devas entajpi sekretan kodon por via TOTP aŭtentiga apo, kiel <b>Authy</b> aŭ <b>Google Authenticator</b>.<br><br>Ni rekomendas fari tion per skano de la QR kodo, sed alternative vi povas permane entajpi la sekretan kodon. <b>Neniam diskonigu ĉi tiun kodon kun iu ajn.</b><br><br>Se vi estas en VR, vi povas ŝanĝi al via komputilo premante F8.",
+        "Account.TOTP.Code.QRCode" : "Skani QR-kodon",
+        "Account.TOTP.Code.Key" : "Sekreta kodo:",
+        "Account.TOTP.RecoveryCodes.Header" : "Restaŭraj kodoj",
+        "Account.TOTP.RecoveryCodes.Description" : "Konservu ĉi tiujn kodojn en sekura loko. Vi povas uzi ilin por restaŭri la enireblon al via konto okaze de perdo aŭ difekto de via poŝtelefono. Ĉiu kodo povas esti uzita nur unufoje. <b>Neniam diskonigu ilin kun iu ajn.</b> Se vi perdas ilin, vi perdos <color=red>PORĈIAME</color> la enireblon al via konto.",
+        "Account.TOTP.RecoveryCodes.Codes" : "Kodoj",
+        "Account.TOTP.Activate.Header" : "Aktivigi 2FA",
+        "Account.TOTP.Activate.Description" : "Por aktivigi 2FA en via konto, uzu la 6-ciferan ĵetonon generitan fare de via aŭtentiga apo por certigi ke ĉio bone funkcias.<br><br>Post aktivigi ĝin, vi bezonos uzi la kodon por konfirmi iujn operaciojn.<br><br>Rimarku: Nuntempe la kodo estas uzata nur por NCR transakcioj, sed ĉi tio plivastiĝos al konto-ensalutoj estontece.",
+        "Account.TOTP.Activate.Token" : "6-cifera ĵetono:",
+        "Account.TOTP.Activate.TokenField" : "Entajpu vian ĵetonon ĉi tie...",
+        "Account.TOTP.Activate.Activate" : "Aktivigi",
+        "Account.TOTP.Activate.Activating" : "Aktiviganta...",
+        "Account.TOTP.Activate.InvalidToken" : "Nevalida ĵetono!",
+        "Account.TOTP.Message.AlreadySetup" : "2FA estas jam agordita en via konto!",
+        "Account.TOTP.Message.Error" : "Neatendita eraro! Bonvolu reprovi poste.",
+        "Account.TOTP.Message.SetupComplete" : "<size=150%>Gratulon!</size><br><br>Via konto estas nun agordita kun 2FA por ekstra protekto!<br><br>Nuntempe ajna NCR interago postulos de vi entajpi vian kodon. Vi povas opcie ebligi ĉi tion por ensalutoj per la komando /enableLogin2FA, sed rimarku ke ĉi tio bezonas ke vi uzu la komandon /webLogin antaŭ ensaluti en account.neos.com",
+        "Account.TOTP.Deactivate.Header" : "Malaktivigi 2FA",
+        "Account.TOTP.Deactivate.Description" : "2FA estas nuntempe <b><color=green>agordita kaj aktiva en via konto</color></b>. Se vi bezonas malaktivigi ĝin (ekz. kaŭze ke vi perdas vian poŝtelefonon aŭ la kodoj endanĝeriĝas), vi povas fari tion tie ĉi.<br><br>Post malaktivigo, vi povas agordi 2FA denove, kio generos tute novan sekretan kodon kaj novan aron de restaŭran kodojn.<br><br>Se vi perdas vian poŝtelefonon kaj bezonas agordi 2FA denove, ni <b>FORTE</b> konsilas ke vi faru tuj, ĉar ĉiu restaŭra kodo uzeblas nur unufoje kaj post kiam ili elĉerpiĝos vi estos tute ŝlosita ekster via konto.",
+        "Account.TOTP.Deactivate.Deactivate" : "Malaktivigi",
+        "Account.TOTP.Deactivate.Deactivating" : "Malaktiviganta...",
+        "Account.TOTP.Message.DeactivationComplete" : "2FA sukcese malaktiviĝis en via konto.<br><br>Via konto estas nun en pli alta risko!<br><br>Ni forte rekomendas agordi tuj 2FA denove, speciale se vi uzis restaŭran kodon kaŭze de tio ke vi perdis vian poŝtelefonon.",
+
+        "2FA.Header" : "2FA kontrolo",
+        "2FA.Token" : "6-cifera ĵetono",
 
         "Profile.Status.Online": "Rete",
         "Profile.Status.Away": "For",
@@ -444,6 +477,9 @@
         "Undo.InsertParent": "Enmeti gepatron por {name}",
         "Undo.Wiggler": "Malbonaj Aĵoj",
 
+        "Undo.ExtractMaterialsFromHierarchy" : "Elpreni materialojn el hierarkio",
+        "Undo.BatchConvertMaterials" : "Konverti materialojn staple",
+
         "Tooltips.Dev.CreateNew": "Krei novan...",
         "Tooltips.Dev.Selection" : "Elekto: {mode}",
         "Tooltips.Dev.DevMode.Off": "Programisto: Malŝaltita",
@@ -470,7 +506,7 @@
         "Tooltip.CharacterCollider.EnsurePhysicalFly": "Certigi Fizikan Muŝan movadon",
 
         "Tooltip.Light.Point": "Punkto",
-        "Tooltip.Light.Spot": "Makulo",
+        "Tooltip.Light.Spot": "Spoto",
         "Tooltip.Light.Sun": "Suno",
 
         "Tooltip.MeshVisibility.KeepShadow": "Konservi Ombron",
@@ -489,6 +525,7 @@
         "Tooltip.Material.CreateCopy": "Krei Kopion",
         "Tooltip.Material.Edit": "Redakti materialon",
         "Tooltip.Material.Convert": "Konverti al...",
+        "Tooltip.Material.ConvertAll" : "Konverti ĉiujn al...",
         "Tooltip.Material.CreateNew": "Krei novan",
 
         "Tooltip.Mesh.Edit": "Redakti maŝon",
@@ -555,7 +592,7 @@
 
         "CreateNew.Light": "Malpeza",
         "CreateNew.Light.Point": "Punkto",
-        "CreateNew.Light.Spot": "Makulo",
+        "CreateNew.Light.Spot": "Spoto",
         "CreateNew.Light.Directional": "Unudirekta",
 
         "CreateNew.Materials": "Materialoj",
@@ -585,14 +622,17 @@
         "Importer.Folder.Individual.Description": "Kreas apartan importan dialogon por ĉiu subtenata dosiero en la dosierujo",
         "Importer.Folder.Batch": "Borsa importado",
         "Importer.Folder.Batch.Description": "Kreis unu importiston por ĉiu tipo, uzante samajn agordojn por ĉiu dosiero",
+        "Importer.Folder.Minecraft" : "Minecraft Mondo",
+        "Importer.Folder.Minecraft.Description" : "Ĝi importas Minecraft Mondon, se Mineways estas instalita.",
 
         "Importer.Image.Title": "Bildimportilo",
         "Importer.Image.Prompt": "Kion vi importas?",
         "Importer.Image.Regular": "Bildo / Teksturo",
+        "Importer.Image.Screenshot" : "Neos foto <size=50%>(fotita ĉi tie)</size>",
         "Importer.Image.360": "360-foto / ĉielo",
         "Importer.Image.StereoPhoto": "Stereofoto",
         "Importer.Image.Stereo360": "Stereofonia 360-foto",
-        "Importer.Image.180": "180 foto",
+        "Importer.Image.180": "180-foto",
         "Importer.Image.Stereo180": "Stereofonia 180-foto",
         "Importer.Image.LUT": "LUT",
 
@@ -659,6 +699,9 @@
         "Importer.Model.Advanced.RandomColors": "Generi Hazardajn Kolorojn",
         "Importer.Model.Advanced.SpawnMaterialOrbs": "Aperigi Materialsferojn",
         "Importer.Model.Advanced.ImagesByName": "Importi bildojn laŭ nomo",
+        "Importer.Model.Advanced.ForcePointFiltering" : "Devigi punktofiltradon",
+        "Importer.Model.Advanced.ForceNoMipMaps" : "Sen MipMapoj",
+        "Importer.Model.Advanced.ForceUncompressed" : "Devigi senkompaktigitaj",
 
         "Importer.Model.Advanced.Grabbable": "Fari Prenebla",
         "Importer.Model.Advanced.Scalable": "Fari Skalebla",
@@ -683,7 +726,7 @@
         "Credits.NCR.Description" : "Ethereum-signo kun reala monda valoro",
         "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "La sablokesto de Neos sen reala valoro.",
-        "Credits.AmountPrompt" : "{action,select, send {Kiom vi volas sendi?} withdraw {Kiom vi volas retiri?} tip {Kiom vi volas doni trinkmonon?}}",
+        "Credits.AmountPrompt" : "{action,select, send {Kiom vi volas sendi?} withdraw {Kiom vi volas retiri?} tip {Per kiom vi volas gratifiki?}}",
         "Credits.Amount" : "Kvanto: ",
         "Credits.Balance" : "Ekvilibro:",
         "Credits.WithdrawalAddress": "Larĝtira Adreso:",
@@ -699,6 +742,7 @@
         "Credits.Sending": "Sendante...",
         "Credits.Success" : "Sukceso! \nVi povas fermi ĉi tiun fenestron.",
         "Credits.BlockchainWarning" : "Bonvolu noti, ke la translokigo al blokĉeno povas daŭri ĝis 48 horoj.",
+        "Credits.TipConfirmation" : "Vi estas sendonta gratifikon al <b><color=#0ff>{username}</color></b>. Ĉu vi volas procedi?",
 
         "NewWorld.Title": "Nova Mondo",
         "NewWorld.Template": "Monda Ŝablono:",
@@ -768,13 +812,13 @@
         "FullBody.AvatarPointNotMapped": "Ne mapita",
         "FullBody.AvatarPointNoTracker": "Neniu Spuristo",
 
-        "CameraControl.Title": "Fotila Kontrolo",
+        "CameraControl.Title": "Regilo de la kamerao",
         "CameraControl.MirroringOffWarning": "SPEGULADO MALŜALTITA",
         "CameraControl.MirrorToDisplay": "Speguli al ekrano",
         "CameraControl.TakePhoto": "Foto",
-        "CameraControl.Take360Photo": "360 Foto",
+        "CameraControl.Take360Photo": "360-foto",
 
-        "CameraControl.Mode.SmoothPOV": "Glata POV",
+        "CameraControl.Mode.SmoothPOV": "Glata vidpunkto",
         "CameraControl.Mode.ThirdPerson": "Tria Persono",
         "CameraControl.Mode.Group": "Grupo",
         "CameraControl.Mode.World": "Mondo",
@@ -788,16 +832,16 @@
         "CameraControl.Settings.ForceEyesOnCamera": "Devigi Okulojn Sur Fotilo",
         "CameraControl.Settings.HideBadges": "Kaŝi insignojn",
         "CameraControl.Settings.HideLasers": "Kaŝi laserojn",
-        "CameraControl.Settings.ShowFrustum": "Montri Frustum",
+        "CameraControl.Settings.ShowFrustum": "Montri trunkon",
         "CameraControl.Settings.PhotoTimer": "Foto-Tempigilo",
         "CameraControl.Settings.ShowLiveBadge": "Montri Vivan Insignon",
-        "CameraControl.Settings.AudioFromCameraViewpoint" : "Aŭdio de fotila vidpunkto",
+        "CameraControl.Settings.AudioFromCameraViewpoint" : "Sono el vidpunkto de la kamerao",
 
         "CameraControl.OpenCloseUsers": "Uzantoj",
         "CameraControl.CreateCameraAnchor": "Krei Ĉambran Ankron",
 
         "CameraControl.Anchors.Interpolate": "Interpoli inter ankroj",
-        "CameraControl.Anchors.InterpolationSpeed": "Ankora Interpola Rapido:",
+        "CameraControl.Anchors.InterpolationSpeed": "Ankra Interpola Rapido:",
         "CameraControl.Anchors.NoAnchors": "Neniuj ĉambraj ankroj en ĉi tiu mondo",
 
         "CameraControl.Positioning.FieldOfView": "Vidkampo (FOV)",
@@ -814,8 +858,8 @@
         "CameraControl.Control.RenderPrivateUI": "Bildigi Privatan UI",
         "CameraControl.Control.MotionBlur" : "Mov-malklarigo",
         "CameraControl.Control.ScreenSpaceReflections" : "Reflektoj en Ekran-spaco (SSR)",
-        "CameraControl.Control.SpawnPhotoInWorld": "Fari foton en la mondo",
-        "CameraControl.Control.FlipPreview": "Renversi antaŭrigardon",
+        "CameraControl.Control.SpawnPhotoInWorld": "Aperigi foton en la mondo",
+        "CameraControl.Control.FlipPreview": "Renversi antaŭvidon",
         "CameraControl.Control.GroupDetectionRadius": "Grupo-detekta radiuso: {n} m",
         "CameraControl.Control.GroupExcludeBoundary": "Grupo Ekskludi Limon: {n} m",
         "CameraControl.Control.PositionSmoothSpeed": "Pozicia Glata Rapido: {n}",
@@ -884,6 +928,7 @@
         "Settings.LegacyGripEquip": "Ebligi Heredaĵan Duoblan Teni-Ekipaĵon",
         "Settings.LegacyWorldSwitcher": "Ebligi Malnovan Mondo-ŝanĝilon",
         "Settings.FetchIncompatibleSessions": "Montri Nekongruajn Seancojn",
+        "Settings.DoNotSendReadStatus" : "Ne sendi realtempajn leg-statojn de la mesaĝoj",
         "Settings.MaxConcurrentAssetTransfers" : "Maksimumaj Samtempaj Aktaj Translokigoj",
         "Settings.AutosaveScreenshotPath" : "Aŭtomate konservi ekranpadon",
         "Settings.DebugInputBinding" : "Elpurigi Enigajn Katenojn",
@@ -898,7 +943,7 @@
         "Settings.Laser.ShowInDesktop" : "Montri Laseron en labortabla reĝimo",
         "Settings.LaserSmoothing.Reset": "Restarigi laseron-agordojn",
 
-        "Settings.Audio.Header": "Aŭdio",
+        "Settings.Audio.Header": "Sono",
         "Settings.Audio.Master" : "Majstra Volumo: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Sonefikoj: {n, number, percent}",
         "Settings.Audio.Multimedia": "Plurmedio: {n, number, percent}",
@@ -909,11 +954,11 @@
         "Settings.Audio.NormzliationThreshold": "Normaliga Sojlo: {n}",
         "Settings.Audio.NoiseSupression" : "Filtrilo pri Subpremado de Bruo (RNNoise)",
         "Settings.Audio.WhisperVoiceVolume" : "Flustro-laŭteco (ekster la bobelo): {n,number,percent}",
-        "Settings.Audio.InputDevice": "Aŭd-Eniga Aparato:",
-        "Settings.Audio.OutputDevice" : "Aŭd-Eliga Aparato:",
-        "Settings.Audio.SelectInputDevice" : "Elekti Aŭd-Eniga Aparato",
-        "Settings.Audio.SelectOutputDevice" : "Elekti Aŭd-Eliga Aparato",
-        "Settings.Audio.TestInput" : "Provo Aŭd-Eniga Aparato:",
+        "Settings.Audio.InputDevice": "Son-Eniga Aparato:",
+        "Settings.Audio.OutputDevice" : "Son-Eliga Aparato:",
+        "Settings.Audio.SelectInputDevice" : "Elekti Son-Enigan Aparaton",
+        "Settings.Audio.SelectOutputDevice" : "Elekti Son-Eligan Aparaton",
+        "Settings.Audio.TestInput" : "Provi vian Son-Enigadon:",
         "Settings.Audio.TestDescription" : "Ni ludos la sonon de la elektita sonsistemo reen al vi, por ke vi kontrolu, ĉu ĝi estas ĝusta.",
         "Settings.Audio.StartTest" : "Aŭskulti aparaton\n<size=50%>(kontrolu mikrofonon/sonon)</size>",
         "Settings.Audio.StopTest" : "Haltigi Provon",
@@ -1018,6 +1063,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Bildigi ostajn limigajn skatolojn",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Bildigi proksimumajn kunfanditajn ostajn sferajn limojn",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Forigi bildojn limoj de ostoj",
+
+
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "FORIGI protekton de avataro",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Akiri diagnozajn informojn pri Rigilaro",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Generi Elpurigajn Bildojn",
@@ -1382,20 +1430,190 @@
         "Tutorial.Intro.HelpSite" : "Helpo",
 
         "Object.Mirror.Toggle" : "Loka Baskulo",
-        
+
         "Tutorial.Streaming.StageControl" : "Regilo de scenejo",
         "Tutorial.Streaming.StageUI" : "Baskuligi Scenejan UI",
         "Tutorial.Streaming.StageLights" : "Baskuligi Scenej-lumojn",
         "Tutorial.Streaming.StageLightController" : "Baskuligi Lum-regilon",
         "Tutorial.Streaming.StageMicrophone" : "Baskuligi Mikrofon-stativon",
+
         "Tutorial.Streaming.GreenScreenControl" : "Regilo de verda ekrano",
         "Tutorial.Streaming.GreenScreenToggle360" : "Baskuligi 360<sup>o</sup> Scenon",
         "Tutorial.Streaming.GreenScreenTracking" : "Baskuligi Spuradajn Referencojn",
         "Tutorial.Streaming.GreenScreenMarker" : "Krei Teneblan Indikilon",
         "Tutorial.Streaming.GreenScreenCycleScene" : "Cikligi scenon",
+
         "Tutorial.Streaming.StreamRoomControl" : "Regilo de la elsendfluejo",
         "Tutorial.Streaming.StreamRoomSkyWall" : "Ĉiel-mura Bildo",
         "Tutorial.Streaming.StreamRoomLayout" : "Agordi Aranĝon",
+
+        "Tutorial.Streaming.StageLightShadowToggle" : "Baskuligi lum-ombrojn",
+
+        "Tutorial.Streaming.Microphone.Title" : "Mikrofono",
+        "Tutorial.Streaming.Microphone.UsageDescription" : "Post ekipi vin per la <b><color=#ffdd77>MIKROFONO</b></color>, vi povas registri sonojn uzante la <b><color=#77ff77>ĈEFAN</b></color> butonon.",
+        "Tutorial.Streaming.Microphone.AudioTypeDescription" : "Elektu la <b><color=#ffdd77>SONDOSIER-TIPON</b></color>, kiun vi volas uzi, uzante la opciojn ĉe la <b><color=#dd77ff>KUNTEKSTA MENUO</b></color>.",
+        "Tutorial.Streaming.Microphone.RecordingDescription" : "Vi povas ŝanĝi la metodon de la <b><color=#ffdd77>SONREGISTRADO</b></color> uzante la opciojn ĉe la <b><color=#dd77ff>KUNTEKSTA MENUO</b></color>.",
+        "Tutorial.Streaming.Microphone.RawDescription" : "Vi povas ŝanĝi la metodon de la <b><color=#ffdd77>SON-ELIGADO</b></color> en la dosierformon <b><color=#ffdd77>KRUDA SONO</b></color> ĉe la <b><color=#dd77ff>KUNTEKSTA MENUO</b></color>.",
+
+        "Tutorial.Streaming.AudioStreaming.Title" : "Elsendfluo de sono",
+        "Tutorial.Streaming.AudioStreaming.StreamAudioDescription" : "Vi povas elsendi la sonon de via komputilo en Neos por ke aliaj aŭskultu ĝin. Por elsendi sonon, klaku sur la butono <b><color=#ffdd77>ELSENDI SONON</b></color> ĉe la ĉefpaĝo de via regpanelo.",
+        "Tutorial.Streaming.AudioStreaming.StartStreamingDescription" : "Elektu el la listo de <b><color=#ffdd77>SON-ENIGOJ</b></color> la sonaparaton el kiu vi volas elsendi. Vi povas antaŭaŭskulti la enigon en ĉi tiu panelo antaŭ komenci la elsendfluon. Klaku sur <b><color=#77ff77>KOMENCI ELSENDFLUON</b></color> por malfermi la panelon de la son-elsendfluo.",
+        "Tutorial.Streaming.AudioStreaming.StopStreamingDescription" : "La <b><color=#ffdd77>PANELO POR SON-ELSENDFLUO</b></color> permesas al aliaj sam-seancanoj aŭskulti la sonon de via komputilo. Fermi la panelon <b><color=red>HALTIGAS</b></color> la elsendfluon.",
+
+        "Tutorial.Streaming.StreamControl.SkyboxTexture" : "Metu ĉi tien la teksturon<br>por la ĉielo",
+
+        "Tutorial.Streaming.Twitch.TwitchChat" : "Twitch babilejo",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Title" : "La Kamerao",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title" : "Foti",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title" : "Regilo por UI-zomo",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Title" : "Regilo por fizika zomo",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Title" : "Ŝanĝi distingivon",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Description" : "Sub <sprite name=2K> vi povas trovi plurajn opciojn por ŝanĝi la <color=#ffdd77><b>DISTINGIVON</b></color> de la bildoj, kiujn la <color=#ffdd77><b>KAMERAO</b></color> elfotas.",
+
+        "Tutorial.Streaming.Camera.Mode.Page1.Title" : "Defaŭlta foto",
+        "Tutorial.Streaming.Camera.Mode.Page2.Title" : "3D foto",
+        "Tutorial.Streaming.Camera.Mode.Page3.Title" : "360-foto",
+        "Tutorial.Streaming.Camera.Mode.Page4.Title" : "Travidebla foto",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Title" : "Defaŭlta",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Title" : "Saturita",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Title" : "Grizoskala",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Title" : "Sepia",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Title" : "Ĉielarka",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Title" : "Trunko",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Title" : "Tempilo",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Title" : "Reflektoj",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Title" : "Fulmilo",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Title" : "Granda ekrano",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Title" : "Kie trovi ĝin?",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Title" : "Kiel uzi?",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Title" : "Bazaj funkcioj",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Description" : "Vi povas <color=#77ff77><b>APERIGI</b></color> <color=#ffdd77><b>KAMERAON</b></color> el la <color=#dd77ff><b>DOSIERUJO «NEOS ESSENTIALS»</b></color> ene de via <color=#dd7744><b>INVENTARO</b></color>. Ĉi tio estas via ĉefa ilo por <color=#77ff77><b>FOTI</b></color> en Neos.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Description" : "Vi povas <color=#77ff77><b>FOTI</b></color> uzante vian <color=#77ff77><b>ĈEFAN BUTONON</b></color> je la <color=#ffdd77><b>BUTONO</b></color>, kiu troviĝas sur la <color=#ffdd77><b>KAMERAO</b></color>, aŭ <color=#77ff77><b>PRENANTE</b></color> ie ajn sur la <color=#dd77ff><b>KORPO DE LA KAMERAO</b></color> kaj uzante vian <color=#77ff77><b>ĈEFAN BUTONON</b></color>.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Description" : "La funkcio <color=#ffdd77><b>ZOMO</b></color> troviĝas sub <sprite name=Options>. Vi povas interagi kun la <color=#ffdd77><b>ZOMŜOVILO</b></color> uzante <color=#77ff77><b>FIZIKAN INTERAGON</b></color> aŭ uzante viajn <color=#dd77ff><b>LASEROJN</b></color> kaj <color=#77ff77><b>ĈEFAN BUTONON</b></color>.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Description" : "Vi ankaŭ povas stiri la kvanton da <color=#ffdd77><b>ZOMO</b></color> <color=#77ff77><b>PRENANTE</b></color> la <color=#dd77ff><b>OBJEKTIVON</b></color> per via libera mano kaj <color=#77ff77><b>TORDANTE</b></color> ĝin per fizika movo.",
+
+        "Tutorial.Streaming.Camera.Mode.Page1.Description" : "<color=#ffdd77><b>BAZAJ AGORDOJ</b></color> troveblas sub <sprite name=Camera>. Defaŭlte la <color=#ffdd77><b>KAMERAO</b></color> estas agordita je <color=#ffdd77><b>DEFAŬLTA FOTO</b></color>, kiu estas la plej kutima agordo de la <color=#ffdd77><b>KAMERAO</b></color> por <color=#77ff77><b>FOTI</b></color>.",
+        "Tutorial.Streaming.Camera.Mode.Page2.Description" : "La opcio <color=#ffdd77><b>3D FOTO</b></color> permesas al vi <color=#77ff77><b>ELFOTI</b></color> bildojn kiuj havas iluzion de profundeco, kio estas atingata per kreado de stereoskopian bildon. Rimarku ke ĉi tiu efekto estas videbla nur per VR-ilo kaj ke la konservita <color=#dd77ff><b>EKRANKOPIO</b></color> aperos kiel du kombinitaj bildoj flankalflankaj en unuopa dosiero.",
+        "Tutorial.Streaming.Camera.Mode.Page3.Description" : "La opcio <color=#ffdd77><b>360-FOTO</b></color> permesas al vi <color=#dd77ff><b>ELFOTI</b></color> <color=#dd77ff><b>SAMDISTANCAJN CILINDRAJN 360-BILDOJN</b></color> kiuj uzeblas sur <color=#dd77ff><b>«PROJECTION360» MATERIALON</b></color>, por uzi ĝin kiel <color=#dd77ff><b>ĈIELTEKSTURON</b></color>.",
+        "Tutorial.Streaming.Camera.Mode.Page4.Description" : "La opcio <color=#ffdd77><b>ELTONDITA FOTO</b></color> permesas <color=#77ff77><b>ELFOTI</b></color> <color=#dd77ff><b>ELTONDITAJN BILDOJN</b></color>. La <color=#ffdd77><b>KAMERAO</b></color> el la fronto projekcias <color=#dd77ff><b>LASERON</b></color> kiu bildigas nur la trafitan <color=#dd77ff><b>OBJEKTON</b></color> sur travideblan fonon, kio aperos kiel <color=#dd77ff><b>KONSERVEBLA AĴO</b></color> kaj <color=#dd77ff><b>EKRANKOPIO</b></color>.",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Description" : "<color=#ffdd77><b>KAMERA-FILTRILOJ</b></color> troveblas sub <sprite name=NoFilter>. Defaŭlte, la <color=#ffdd77><b>KAMERAO</b></color> estas agordita je la <color=#ffdd77><b>DEFAŬLTA</b></color> filtrilo.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Description" : "La <color=#ffdd77><b>SATURITA</b></color> filtro pliigas la saturecon de koloroj kaj la kontraston de helaj kaj malhelaj valoroj.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Description" : "La <color=#ffdd77><b>GRIZOSKALA</b></color> filtro forigas tute la saturecon de koloroj.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Description" : "La <color=#ffdd77><b>SEPIA</b></color> filtro forigas tute la saturecon de koloroj kaj nuancas ilin por simuli aspekton de stanladajn fotojn.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Description" : "La <color=#ffdd77><b>ĈIELARKA</b></color> filtro uzeblas por aldoni iom da koloro al viaj fotoj.",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Description" : "<color=#ffdd77><b>ALTNIVELAJ AGORDOJ</b></color> troveblas sub <sprite name=OptionsPlus>. Defaŭlte neniu el ĉi tiuj estas aktivaj. <color=#ffdd77><b>TRUNKO</b></color> estas la unua en la kolumno. Ĝi kreas <color=#dd77ff><b>VIDAĴON</b></color> kiu estas la areo montrata je la <color=#dd77ff><b>ANTAŬVID-EKRANO</b></color> de la <color=#ffdd77><b>KAMERAO</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Description" : "Vi povas <color=#77ff77><b>AKTIVIGI</b></color> la opcion <color=#ffdd77><b>TEMPILO</b></color> per <sprite name=Timer>. Ĝi kreas retrokalkulilon kiu ekas kiam vi <color=#77ff77><b>FOTAS</b></color> uzante vian <color=#77ff77><b>ĈEFAN BUTONON</b></color> sur la <color=#dd77ff><b>BUTONO</b></color> sure de la <color=#ffdd77><b>KAMERAO</b></color>, aŭ <color=#77ff77><b>PRENANTE</b></color> la <color=#dd77ff><b>KORPON DE LA KAMERAO</b></color> kaj premante vian <color=#77ff77><b>ĈEFAN BUTONON</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Description" : "La opcio <color=#ffdd77><b>REFLEKTOJ EN EKRANSPACO (SSR)</b></color> ebligas reflektojn laŭ la vidujo de la <color=#ffdd77><b>KAMERAO</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Description" : "Vi povas <color=#77ff77><b>AKTIVIGI</b></color> la opcion <color=#ffdd77><b>FULMILO</b></color> per <sprite name=Lightning>. El sur la <color=#dd77ff><b>KORPO DE LA KAMERAO</b></color> tio <color=#77ff77><b>ETENDAS</b></color> <color=#dd77ff><b>LUMILON</b></color> kiu <color=#77ff77><b>LUMIGAS</b></color> la <color=#dd77ff><b>SCENON</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Description" : "La opcio <color=#ffdd77><b>GRANDA EKRANO</b></color> <color=#77ff77><b>AKTIVEBLAS</b></color> per <sprite name=BigScreen>. Ĝi kreas pli grandan <color=#dd77ff><b>ANTAŬVID-EKRANON</b></color> super la <color=#dd77ff><b>KORPON DE LA KAMERAO</b></color>. Vi povas aktivigi ĝin ankaŭ uzante vian <color=#77ff77><b>ĈEFAN BUTONON</b></color> aŭ <color=#77ff77><b>FIZIKE TUŜANTE</b></color> la centran supran <color=#dd77ff><b>BUTONON</b></color> de la <color=#dd77ff><b>KORPO DE LA KAMERAO</b></color>.",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Description" : "La <color=#ffdd77><b>«CAMERA OBJECT EXCLUDE TIP»</b></color> troveblas en via <color=#77ddff><b>INVENTARO</b></color> sub <color=#77ddff><b>«ESSENTIAL TOOLS» --> «MISC»</b></color>",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Description" : "Post ekipi vin per la ilo, <color=#77ff77><b>CELU</b></color> al la objektoj kiujn vi volas ekskludi el la vido de la kameraoj kaj premu vian <color=#77ff77><b>DUARANGAN BUTONON</b></color>. Uzu la <color=#77ff77><b>ĈEFAN</b></color> por retroŝanĝi.",
+
+        "Tutorial.Streaming.Camera.Resolution.Title" : "Distingivon",
+        "Tutorial.Streaming.Camera.Mode.Title" : "Reĝimo",
+        "Tutorial.Streaming.Camera.ImageFilters.Title" : "Bildofiltriloj",
+        "Tutorial.Streaming.Camera.OptionsPlus.Title" : "Opcioj+",
+        "Tutorial.Streaming.Camera.ExcludeTip.Title" : "«Camera Object Exclude Tip»",
+        "Tutorial.Streaming.Camera.Intro.Title" : "Lernilo pri la fizika kamerao",
+
+        "Tutorial.Streaming.Camera.Intro.Description" : "Lernu ĉiujn funkciojn de la fizika kamerao",
+
+        "Tutorial.Streaming.LightTip.Intro.Title" : "Lernilo pri «Light Tip»",
+        "Tutorial.Streaming.LightTip.Intro.Description" : "Lernu ĉiujn funkciojn de «Light tip»",
+
+        "Tutorial.Streaming.LightTip.Titles.BasicUsage" : "Baza uzo",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfLights" : "Tipoj de lumoj",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfShadows" : "Tipoj de ombroj",
+        "Tutorial.Streaming.LightTip.Titles.ChangingColor" : "Ŝanĝi kolorojn",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Title" : "La «Light Tip»",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Title" : "Krei lumon",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Title" : "Punkto",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title" : "Spoto",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Title" : "Suno/direkta",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Title" : "Sen ombroj",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Title" : "Akraj ombroj",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Title" : "Malakraj ombroj",
+
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Elektu kolorpanelon",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "Vi povas <color=#77ff77><b>APERIGI</b></color> <color=#ffdd77><b>«LIGHT TIP»</b></color> el la dosierujo <color=#dd77ff><b>«NEOS ESSENTIALS»</b></color> ene de via <color=#dd77ff><b>INVENTARO</b></color>. Ĉi tiu estas via ĉefa ilo por <color=#77ff77><b>ALDONI LUMOJN</b></color> al mondoj en Neos.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "Defaŭlte la <color=#ffdd77><b>«LIGHT TIP»</b></color> kreas <color=#dd77ff><b>LUMPUNKTON</b></color> kiam vi uzas vian <color=#77ff77><b>ĈEFAN BUTONON</b></color>. Kiam vi trenas vian manon prenante la <color=#77ff77><b>ĈEFAN BUTONON</b></color>, la <color=#dd77ff><b>BRILECON</b></color> de la lumo ŝanĝiĝos laŭe al la <color=#dd77ff><b>DISTANCO</b></color> kiom la mano <color=#77ff77><b>TRENIĜAS</b></color>.",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "La <color=#ffdd77><b>LUMPUNKTO</b></color> kreas ĉiudirektan punktan lumigilon kun <color=#dd77ff><b>MALPLIIĜO DE INTENSECO</b></color>.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Description" : "La <color=#ffdd77><b>SPOTO</b></color> kreas unudirektan konusan lumigilon kun <color=#dd77ff><b>MALPLIIĜO DE INTENSECO</b></color>.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Description" : "La <color=#ffdd77><b>DIREKTA LUMO</b></color> kreas unudirektan lumon kiu ne havas <color=#dd77ff><b>MALPLIIĜON DE INTENSECO</b></color>.",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description" : "<color=#77ff77><b>OBJEKTOJ</b></color> <color=red><b>NE</b></color> projekcios ombron.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "<color=#77ff77><b>OBJEKTOJ</b></color> projekcios ombrojn kun akraj randoj.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "<color=#77ff77><b>OBJEKTOJ</b></color> projekcios ombrojn kun malakraj randoj.",
+
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "Vi povas ŝanĝi la <color=#ffdd77><b>KOLORON</b></color> de la <color=#ffdd77><b>LUMO</b></color> uzante la opcion <color=#77ff77><b>ŜANĜI KOLORON</b></color> en la <color=#77ff77><b>KUNTEKSTA MENUO</b></color>.",
+
+        "Tutorial.Streaming.StreamCamera.CameraControl.Title" : "La regilo de la kamerao",
+        "Tutorial.Streaming.StreamCamera.Overview.Title" : "Superrigardo al la regilo",
+        "Tutorial.Streaming.StreamCamera.ControlMovement.Title" : "Movi la kameraon",
+        "Tutorial.Streaming.StreamCamera.Zoom.Title" : "Stiri la zomon",
+        "Tutorial.Streaming.StreamCamera.SmoothPOV.Title" : "Glata vidpunkto",
+        "Tutorial.Streaming.StreamCamera.ThirdPerson.Title" : "Tria persono",
+        "Tutorial.Streaming.StreamCamera.Group.Title" : "Grupo",
+        "Tutorial.Streaming.StreamCamera.World.Title" : "Mondo",
+        "Tutorial.Streaming.StreamCamera.Manual.Title" : "Permana",
+        "Tutorial.Streaming.StreamCamera.Mirror.Title" : "Spegulo al ekrano",
+
+        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "Por <color=#77ff77><b>APERIGI</b></color> <color=#ffdd77><b>KAMERAANKRON</b></color> premu la buronon <color=#77ddff><b>KAMERAANKRO</b></color> maldekstre ene de via UI. Post krei ĝin, vi povas kapti vian kameraon tie elektante ĝin per via <color=#77ff77><b>ĈEFBUTONO</bs></color>.",
+
+        "Tutorial.Streaming.StreamCamera.Photo.Title" : "Foto",
+        "Tutorial.Streaming.StreamCamera.360.Title" : "360-foto",
+        "Tutorial.Streaming.StreamCamera.Users.Title" : "Uzantoj",
+        "Tutorial.Streaming.StreamCamera.CameraOptions.Title" : "Opcioj de la kamerao",
+        "Tutorial.Streaming.StreamCamera.Anchor.Title" : "Aperigi ankron",
+        "Tutorial.Streaming.StreamCamera.ExtraCameraControls.Title" : "Ekstraj stiriloj por la kamerao",
+        "Tutorial.Streaming.StreamCamera.MotionSettings.Title" : "Agordoj de kameramovo",
+        "Tutorial.Streaming.StreamCamera.AnchorSettings.Title" : "Agordoj de kameraankroj",
+        "Tutorial.Streaming.StreamCamera.OBS.Title" : "OBS konekto",
+        "Tutorial.Streaming.StreamCamera.Twitch.Title" : "Twitch konekto",
+
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page1.Description" : "Vi povas <color=#77ff77><b>APERIGI</b></color> <color=#ffdd77><b>STIRPANELON DE KAMERAO</b></color> el la <color=#ffdd77><b>NEOS ĈEFPANELO</b></color> en la langeto hejmo sur la faceto nomita Fotilo/Elsendfluo. Ĉi tiu estas via ĉefa ilo por elsendi enhavon el Neos.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description" : "La <color=#ffdd77><b>STIRPANELO DE LA KAMERAO</b></color> havas plurajn malsamajn funkciojn kiuj uzeblas por plibonigi la kvaliton de viaj elsendoj/filmregistroj. Ĉi tiu funkcias inkludas kameramovon, reĝimojn, ankrojn, agordojn, Twitch-babilejo kaj pli.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "La funkcio de movo en <color=#ffdd77><b>STIRPANELON DE LA KAMERAO</b></color> troveblas ĉe la supra maldekstra angulo the la antaŭvidekrano. Uzante ĉi tion vi povos agordi la vidpunkton kaj pozicion de la kameraoj. Aldone, vi povas klaki sur la butono Restarigi por restarigi la pozicion de la kamerao.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description" : "Por stiri la <color=#ffdd77><b>ZOMON</b></color>, uzu vian <color=#77ff77><b>ĈEFBUTONON</b></color> sur la griza stango malsupre de la antaŭvidekrano kaj ŝovu la stirilon maldekstren aŭ dekstren.",
+
+        "Tutorial.Streaming.StreamCamera.Modes.Page1.Description" : "<color=#ffdd77><b>GLATA VIDPUNKTO</b></color> lokas la kameraon en vian unuapersonan vidon kaj glatigas ajnan movon.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page2.Description" : "La reĝimo <color=#ffdd77><b>TRIA PERSONO</b></color> permesas al vi vidi vin mem el ekstera vidpunkto. Vi povas ĝustigi la pozicion de la kamerao uzante la stirilojn de kameramovo ĉe la antaŭvidekrano.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page3.Description" : "La reĝimo <color=#ffdd77><b>GRUPO</b></color> aŭtomate akomodas la vidon de la kamerao por konservi proksimajn uzantojn envide.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page4.Description" : "En la reĝimo <color=#ffdd77><b>MONDO</b></color> la kamerao restas senmova kaj vide sekvas la uzanton.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page5.Description" : "La reĝimo <color=#ffdd77><b>PERMANA</b></color> permesas al vi uzi la elsendokameraon samkiel la fizikan kameraon.",
+
+        "Tutorial.Streaming.StreamCamera.Functions.Page1.Description" : "<color=#ffdd77><b>SPEGULO AL EKRANO</b></color> ŝanĝas la labortablon el via VR-ilo al la vido de la elsendokamerao. Ĉi tiu opcio devus esti uzata se vi elsendas aŭ registras.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page2.Description" : "<color=#ffdd77><b>FOTO</b></color> fotas la nunan vidon de la kamerao. Ĉi tiuj fotoj estas konservataj en via biblioteko de ekrankopioj.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page3.Description" : "<color=#ffdd77><b>360-FOTO</b></color> fotas 360-bildon de la sceno el la nuna pozicio de la kamerao. Ĉi tiuj fotoj estas konservataj en via biblioteko de ekrankopioj.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page4.Description" : "<color=#ffdd77><b>UZANTOJ</b></color> permesas al vi kaj ŝanĝi la vidon de la kamerao al la vidpunktoj de aliaj uzantoj kaj modifi la laŭtecon kaj kamerapermesojn pohome.",
+
+        "Tutorial.Streaming.StreamCamera.Intro.Title" : "Lernilo pri la elsendokamerao",
+        "Tutorial.Streaming.StreamCamera.Intro.Description" : "Lernu ĉiujn funkciojn de la elsendokamerao",
+
+        "Tutorial.Streaming.StreamCamera.Options.Page1.Description" : "<color=#ffdd77><b>OPCIOJ DE STIRO</b></color> troveblas plej maldekstre en la UI. Ĉi tie vi povas ŝanĝi agordojn similajn al tiuj de la fizika kamerao, nomplatobildigon kaj pli.",
+
+        "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "Ekstraj opcioj por la stirado de la kamerao troveblas plej dekstre en la UI, premante la <color=#77ddff><b>DENTRADON</b></color> supre dekstre de la antaŭvidekrano. Ĉi tie vi povas ŝanĝi la agordojn por bildigado, regado de uzantoj kaj sekvodistancojn.",
+        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "La <color=#77ddff><b>SAGETON</b></color> malfermas panelon por regi la movon de la kamerao. Ĉi tio inkludas la pozicion, angulon kaj vidkampon de la kamerao por la malsamaj antaŭfiksitaj vidpunktoj.",
+        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "La <color=#77ddff><b>LOKINDIKILO</b></color> malfermas panelon por regi malsamajn kameraankrojn. Ĉi tio utilas por ŝanĝi al malsamaj ankroj fiksitaj en la mondo kaj ankaŭ ŝanĝi la rapidon de interpolado.",
+        "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "La <color=#77ddff><b>OBS</b></color> simbolo malfermas panelon por konektiĝi al OBS. Ĉi tio povas permesi al vi rapide komenci registron uzante OBS.",
+        "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "La <color=#77ddff><b>TWITCH</b></color> simbolo permesas al vi vidi vian Twitch babilejon. Vi povas ligi vian kanalon entajpante la nomon de via kanalo en la supran maldekstran stangon.",
+
 
         "Exiting.SavingItems" : "Konservante {n, plural, one {# ero} other {# erojn}}...",
         "Exiting.SavingChanges" : "Konservi Ŝanĝojn...",
