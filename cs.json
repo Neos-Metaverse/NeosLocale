@@ -1013,6 +1013,29 @@
         "Security.HostAccess.Allow" : "Povolit",
         "Security.HostAccess.Deny" : "Zakázat",
 
+        "Inspector.Slot.AttachComponent" : "Přidat komponentu",
+
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>Doprava <b>-</b>Doleva",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Nahoru <b>-</b>Dolu",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Dopředu <b>-</b>Dozadu",
+
+        "Inspector.Slot.Reset.Label" : "Reset:",
+        "Inspector.Slot.Reset.Position" : "Pozice",
+        "Inspector.Slot.Reset.Rotation" : "Rotace",
+        "Inspector.Slot.Reset.Scale" : "Škála",
+
+        "Inspector.Slot.CreatePivotAtCenter" : "Vytvořit pivot ve středu",
+
+        "Inspector.Slot.JumpTo" : "Skočit k objektu",
+        "Inspector.Slot.BringTo" : "Přenést objekt k hráči",
+        "Inspector.Slot.BringTo.Undo" : "Přenést {name} k hráči",
+
+        "Inspector.Slot.ParentUnder.Label" : "Parentovat pod:",
+        "Inspector.Slot.ParentUnder.WorldRoot" : "Root světa",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "Parentovat {name} pod root světa",
+        "Inspector.Slot.ParentUnder.LocalUserSpace" : "Lokální user space",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "Parentovat {name} pod lokální user space",
+
         "Inspector.Mesh.StatsHeader" : "Statistiky Meshe",
         "Inspector.Mesh.VertexCount" : "Počet vertexů: {n}",
         "Inspector.Mesh.TriangleCount" : "Počet trojůhelníků: {n}",
@@ -1022,7 +1045,8 @@
         "Inspector.Mesh.BlendshapeCount" : "Počet blendshapů: {n}",
         "Inspector.Mesh.ChannelStats" : "Normály: {normals,select, True {Má} False {Nemá}}, Tangenty: {tangents,select, True {Má} False {Nemá}}, Barvy: {colors,select, True {Má} False {Nemá}}, UV0: {uv0,select, True {Má} False {Nemá}}, UV1: {uv1,select, True {Má} False {Nemá}}, UV2: {uv2,select, True {Má} False {Nemá}}, UV3: {uv3,select, True {Má} False {Nemá}}",
 
-        "Inspector.Mesh.BakeMesh" : "Zapéct Mesh",
+        "Inspector.Mesh.BakeMesh" : "Zapéct mesh",
+        "Inspector.Mesh.SetupRenderer" : "Nastavit renderer",
         "Inspector.Mesh.ResaveMesh" : "Znovu uložit mesh",
         "Inspector.Mesh.RecalculateNormals" : "Přepočítat normály",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Přepočítat normály (hladké stínování)",
@@ -1080,6 +1104,8 @@
         "Inspector.Texture.Size" : "Rozlišení: {width} x {height}",
         "Inspector.Texture.Format" : "Formát: {format}, Využití VRAM: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "ID varianty: {variant}",
+
+        "Inspector.Texture.BakeTexture" : "Zapéct texturu",
 
         "Inspector.Texture.InvertRGB" : "Invertovat barvy",
         "Inspector.Texture.InvertR" : "Invertovat červený kanál",
