@@ -2,28 +2,28 @@
 This repository contains the locale assets for the core UI of Neos VR (www.neos.com) and allow anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (https://store.steampowered.com/app/740250/Neos_VR/) and other platforms.
 
 # Localization Status
-Czech [cs] - 90.7% - Missing keys: 127  
-German [de] - 90.4% - Missing keys: 132  
-English (United Kingdom) [en-gb] - 2.3% - Missing keys: 1337  
+Czech [cs] - 98.7% - Missing keys: 19  
+German [de] - 98.7% - Missing keys: 19  
+English (United Kingdom) [en-gb] - 2.5% - Missing keys: 1388  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 89.1% - Missing keys: 149  
-Spanish [es] - 90.7% - Missing keys: 127  
-Estonian [et] - 75.5% - Missing keys: 336  
-Finnish [fi] - 35.1% - Missing keys: 889  
-French [fr] - 88.6% - Missing keys: 156  
-Icelandic [is] - 32.7% - Missing keys: 921  
-Japanese [ja] - 99.9% - Missing keys: 2  
-Korean [ko] - 90.7% - Missing keys: 127  
-Dutch [nl] - 87.4% - Missing keys: 172  
-Norwegian [no] - 59.8% - Missing keys: 550  
-Polish [pl] - 90.1% - Missing keys: 135  
-Russian [ru] - 90.7% - Missing keys: 127  
-Swedish [sv] - 18.2% - Missing keys: 1120  
-Turkish [tr] - 70.5% - Missing keys: 404  
-Chinese (China) [zh-cn] - 83.7% - Missing keys: 223  
-Chinese (Taiwan) [zh-tw] - 83.7% - Missing keys: 223  
+Esperanto [eo] - 98.6% - Missing keys: 20  
+Spanish [es] - 87.3% - Missing keys: 181  
+Estonian [et] - 72.6% - Missing keys: 390  
+Finnish [fi] - 73.8% - Missing keys: 373  
+French [fr] - 85.2% - Missing keys: 210  
+Icelandic [is] - 41.3% - Missing keys: 836  
+Japanese [ja] - 98.7% - Missing keys: 19  
+Korean [ko] - 98.7% - Missing keys: 19  
+Dutch [nl] - 85.8% - Missing keys: 202  
+Norwegian [no] - 57.6% - Missing keys: 604  
+Polish [pl] - 86.7% - Missing keys: 189  
+Russian [ru] - 98.7% - Missing keys: 19  
+Swedish [sv] - 17.5% - Missing keys: 1174  
+Turkish [tr] - 67.8% - Missing keys: 458  
+Chinese (China) [zh-cn] - 82.7% - Missing keys: 246  
+Chinese (Taiwan) [zh-tw] - 80.5% - Missing keys: 277  
 
-Total keys: 1369
+Total keys: 1423
 
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
@@ -34,11 +34,13 @@ If you'd like to contribute translations, create a branch of fork of the reposit
 - Copy & Paste the whole content of the file into this online validator to ensure you don't have any syntax errors: https://jsonformatter.curiousconcept.com/
 - DO use spaces instead of tabs to keep the formatting of all documents consistent
 - DO check if other users are making modifications to the same locale as you are in Issues and coordinate. If you send changes that conflict with other users, it's hard to resolve them on our end since we don't understand the language.
+- DO keep the same style of formating and coloring where it's present in the text to ensure it stays consistent across locales. Coloring in particular can be contextual and used in other parts of the UI and changing or removing it would cause user confusion.
 
 - DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
 - DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
 - DON'T convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
 - DON'T correct mistakes in the string keys, only report them. They will be fixed by a script, which will apply the correction to all locales at once.
+- DON'T submit purely machine translated locales. Those often result in odd and confusing results for user interfaces. Using machine translation as basis for manual translation is ok.
 
 # Translating the Store descriptions
 If you're like, you can help translate the store descriptions as well (this is used on Steam for example), but we consider those highly optional since it's quite a lot of text. If you don't want to translate those, don't worry about them! The store descriptions do not count towards the translation completeness percerntage and are provided in separate files.

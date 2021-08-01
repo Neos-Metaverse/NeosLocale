@@ -1,9 +1,8 @@
 {
     "localeCode" : "nl",
-    "authors" : ["jeana", "Beaned", "alexderpyfox", "AnotherFoxGuy"],
+    "authors" : ["jeana", "Beaned", "alexderpyfox", "AnotherFoxGuy", "marsmaantje"],
     "messages" : 
     {
-        "General.OK" : "OK",
         "General.Start" : "Begin",
         "General.Finish" : "Einde",
         "General.Cancel" : "Annuleer",
@@ -14,7 +13,6 @@
         "General.Loading" : "Laden...",
         "General.Processing" : "Verwerken...",
         "General.FAILED" : "MISLUKT",
-        "General.Reset" : "Reset",
         "General.WorldOpenConfirm" : "Echt openen?",
         "General.Save" : "Opslaan",
         "General.Saving" : "Bezig Met Opslaan...",
@@ -31,7 +29,6 @@
         "General.Sort.Ascending" : "Oplopend",
         "General.Sort.Descending" : "Aflopend",
 
-        "Locomotion.Noclip.Name" : "Noclip",
         "Locomotion.Noclip.Description" : "Eenvoudige vliegmodus zonder colisie, ideaal voor editing.",
         "Locomotion.Teleport.Name" : "Teleporteren",
         "Locomotion.Teleport.Description" : "Maakt gebruik van een ballistisch traject Teleporteren, voor comfortabel voortbeveging.",
@@ -63,13 +60,11 @@
         "Interaction.Locomotion" : "Voortbeweging",
         "Interaction.Locomotion.None" : "Geen",
 
-        "Interaction.NamedEquipTool" : "Equip {name}",
         "Interaction.NamedEquipTool.Default" : "Gereedschap",
 
         "Interaction.EnterAnchor" : "Betreed Anker",
         "Interaction.ExitAnchor" : "Verlaat Anker",
 
-        "Interaction.EquipAvatar" : "Equip Avatar",
 
         "Interaction.SaveAsScreenshot" : "Sla op als screenshot",
         "Interaction.ImportFile" : "Importeer Bestand",
@@ -89,7 +84,6 @@
         "Dash.Actions.PasteFromClipboard" : "Plak inhoud van klembord",
 
         "Dash.Actions.CoreWorldsHeader" : "Hoofd werelden",
-        "Dash.Actions.ContentHub" : "Content Hub",
         "Dash.Actions.MTC" : "Metaverse Trainingscentrum <size=75%>(tutorials)</size>",
         "Dash.Actions.CloudHome" : "Mijn Cloud Thuis",
 
@@ -111,11 +105,7 @@
         "World.Connection.Authenticating" : "Authenticatie",
         "World.Connection.Connected" : "Verbonden",
         "World.Connection.SyncingInitialState" : "Initiële wereldstatus synchroniseren",
-
-
-
-
-
+ 
 
         "World.Error.AccessDenied" : "Toegang geweigerd",
         "World.Error.SecurityViolation" : "Veiligheidsovertreding",
@@ -152,7 +142,6 @@
 
         "World.Actions.StartSession" : "Start sessie",
         "World.Actions.Join" : "Toetreden",
-        "World.Actions.Focus" : "Focus",
         "World.Actions.Close" : "Wereld sluiten",
         "World.Actions.Leave" : "Verlaat wereld",
         "World.Actions.Save" : "Wijzigingen opslaan",
@@ -189,9 +178,6 @@
         "World.Indicator.NoData" : "Geen Data",
         "World.Indicator.LocalWorld" : "Lokale computer",
         "World.Indicator.Author" : "Gemaakt door: {name}",
-        "World.Indicator.Host" : "Host: {name}",
-        "World.Indicator.Hosting" : "Hosting",
-        "World.Indicator.Sessions" : "{n,plural, one {# session} other {# sessions}}",
         "World.Indicator.Users" : "Gebruikers",
         "World.Indicator.Users.None" : "(geen actieve sessies gevonden)",
         "World.Indicator.Description" : "Omschrijving",
@@ -202,17 +188,14 @@
         "World.Detail.NewSession" : "<nieuwe sessie>",
         "World.Detail.DescriptionHeader" : "Omschrijving: ",
         "World.Detail.SessionInformationHeader" : "Sessie-informatie",
-        "World.Detail.Uptime" : "Uptime",
         "World.Detail.AccessLevel" : "Zichtbaarheid",
         "World.Detail.Users" : "Gebruikers",
-        "World.Detail.Users.Count" : "{active}{away, select, 0 {} other { (+{away} away)}} out of {max}",
 
         "World.Detail.WorldInformationHeader" : "Wereldinformatie",
         "World.Detail.PublishDate" : "Gepubliceerd",
         "World.Detail.ModifyDate" : "Laatst bijgewerkt",
         "World.Detail.Visits" : "Bezocht",
 
-        "World.Detail.Tags" : "Tags",
         "World.Detail.ActionsHeader" : "Acties:",
 
         "World.Category.Everything" : "Alles",
@@ -224,7 +207,6 @@
         "World.Category.Social" : "Sociaal",
         "World.Category.Games" : "Spelletjes",
         "World.Category.Art" : "Kunst",
-        "World.Category.Tutorials" : "Tutorials",
         "World.Category.Educational" : "Educatief",
         "World.Category.MyWorlds" : "Mijn werelden",
         "World.Category.Custom" : "Aangepast",
@@ -233,7 +215,6 @@
         "World.AccessLevel.RegisteredUsers" : "Geregistreerde gebruikers",
         "World.AccessLevel.Friends" : "Vrienden",
         "World.AccessLevel.FriendsOfFriends" : "Contacten+",
-        "World.AccessLevel.LAN" : "LAN",
         "World.AccessLevel.Private" : "Privé (alleen op uitnodiging)",
 
         "World.SortParameter.SearchScore" : "Zoekscore",
@@ -273,23 +254,15 @@
         "World.Edit.Path" : "Wereld Pad:",
         "World.Edit.AccessLevelHeader" : "Wie kan deze wereld openen?",
         "World.Edit.AccessPrivate" : "Alleen mij",
-        "World.Edit.AccessPatreon" : "Patreon Supporters",
         "World.Edit.AccessPublic" : "Iedereen (Openbaar)",
 
-        "Tools.AvatarCreator" : "Avatar Creator",
         "Tools.FullBodyCalibrator" : "Full Body Kalibrator",
         "Tools.CameraStreaming" : "Camera / Streamen",
         "Tools.CreateNewWorld" : "Creëer een nieuwe wereld",
         "Tools.DepositNCR" : "Stort NCR",
         "Tools.WithdrawNCR" : "NCR Opnemen",
-        "Tools.Debug" : "Debug",
-        "Tools.StreamAudio" : "Stream Audio",
 
         "Tools.StreamAudio.Start" : "Begin met streamen",
-        "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
-        "Tools.StreamAudio.Title" : "{username} Audio Stream",
-
-
         "Tools.StreamAudio.PlayForOwner.Off" : "Afspelen voor eigenaar: Uit",
         "Tools.StreamAudio.PlayForOwner.On" : "Afspelen voor eigenaar: Aan",
 
@@ -321,7 +294,6 @@
         "Account.LoggingOut" : "Uitloggen...",
         "Account.Registering" : "Registreren...",
         "Account.Anonymous" : "Anoniem",
-        "Account.PatreonSupporter" : "Patreon Supporter",
         "Account.Username" : "Gebruikersnaam:",
         "Account.Email" : "E-mail:",
         "Account.RememberMe" : "Onthoud mij (voor 7 dagen):",
@@ -346,11 +318,9 @@
         "Account.ErrorLoginError" : "Login fout:",
         "Account.RegistrationSuccess" : "<size=120%>Succes!</size><br><br>Er is een e-mail verzonden naar {email} met een verificatielink.<br><br>Zodra u deze link opent, loggen we je automatisch in zolang dit bercht open is.<br><br>Als je in de problemen loopt email ons dan naar hello@neos.com of bericht ons op de officiele discord, discord.gg/neosvr",
 
-        "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Weg",
         "Profile.Status.Busy" : "Niet Storen",
         "Profile.Status.Invisible" : "Onzichtbaar",
-        "Profile.Status.Offline" : "Offline",
 
         "Session.Tab.Settings" : "Instellingen",
         "Session.Tab.Users" : "Gebruikers",
@@ -367,12 +337,8 @@
         "Permissions.NotAllowedToSave" : "Je mag in deze wereld geen voorwerpen opslaan.",
         "Permissions.NotAllowedToSwapAvatar" : "Je mag hier niet wisselen naar een aangepaste avatar.",
 
-        "User.Actions.Silence" : "Silence",
         "User.Actions.Mute" : "Dempen",
         "User.Actions.Jump" : "Spring",
-        "User.Actions.Respawn" : "Respawn",
-        "User.Actions.Kick" : "Kick",
-        "User.Actions.Ban" : "Ban",
 
         "Contacts.Add" : "Contact toevoegen",
         "Contacts.Remove" : "Contact verwijderen",
@@ -387,7 +353,6 @@
         "Contacts.UnbanFromCurrentWorld" : "Ontban uit huidige wereld",
         "Contacts.RecordingVoiceMessage" : "Neemt Stem Op...",
 
-        "Contacts.InSession" : "In {name}",
         "Contacts.InPrivate" : "In privéwereld",
         "Contacts.InFriendsOnly" : "In Alleen-Contacten Wereld",
         "Contacts.InHidden" : "In Verborgen wereld",
@@ -415,7 +380,6 @@
 
         "Undo.SetField" : "Veld instellen {field_name} naar {value}",
         "Undo.SetReference" : "Referentie instellen {ref_name} naar {ref_target}",
-        "Undo.Spawn" : "Spawn {name}",
         "Undo.Destroy" : "Verwijder {name}",
         "Undo.SpawnComponent" : "Maak {component_type} vast aan {slot_name}",
         "Undo.DuplicateComponent" : "Dupliceer Component",
@@ -444,16 +408,15 @@
         "Undo.InsertParent" : "Parent invoegen voor {name}",
         "Undo.Wiggler" : "Kwaadaardige Dingen",
 
+
         "Tooltips.Dev.CreateNew" : "Maak nieuw...",
         "Tooltips.Dev.Selection" : "Selectie: {mode}",
         "Tooltips.Dev.DevMode.Off" : "Ontwikkelaarsmodus: Uit",
         "Tooltips.Dev.DevMode.On" : "Ontwikkelaarsmodus: Aan",
-        "Tooltips.Dev.OpenInspector" : "Open Inspector",
         "Tooltips.Dev.DeselectAll" : "Deselecteer alles",
         "Tooltips.Dev.DestroySelected" : "Verwijder geselecteerde",
         "Tooltips.Dev.ConfirmDestroySelected" : "ECHT Geselecteerde Vernietigen",
 
-        "Tooltip.Logix.NodeBrowser" : "Node Browser",
         "Tooltip.Logix.UnpackChildren" : "Pak Childeren en verbonden nodes uit",
         "Tooltip.Logix.SetPackingRoot" : "Stel Packing Root in",
         "Tooltip.Logix.ClearPackingRoot" : "Wis de PackingRoot",
@@ -470,7 +433,6 @@
         "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Verzeker fysieke vliegbeweging",
 
         "Tooltip.Light.Point" : "Punt",
-        "Tooltip.Light.Spot" : "Spot",
         "Tooltip.Light.Sun" : "Zon",
 
         "Tooltip.MeshVisibility.KeepShadow" : "Behoud schaduw",
@@ -493,9 +455,6 @@
 
         "Tooltip.Mesh.Edit" : "Bewerk Mesh",
 
-        "Tooltip.Microphone.Format.WAV" : "WAV",
-        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
-        "Tooltip.Microphone.Format.FLAC" : "FLAC",
         "Tooltip.Microphone.ModeHold" : "Houd Vast Voor Opnamen",
         "Tooltip.Microphone.ModePress" : "Druk om te starten/stoppen met opnemen",
         "Tooltip.Microphone.SourceRaw" : "Rauw",
@@ -505,62 +464,39 @@
         "CreateNew.EmptyObject" : "Leeg Object",
         "CreateNew.ParticleSystem" : "Particle Systeem",
 
-        "CreateNew.Object" : "Object",
-        "CreateNew.Object.AvatarCreator" : "Avatar Creator",
-        "CreateNew.Object.Camera" : "Camera",
         "CreateNew.Object.ReflectionProbe" : "Reflectie Probe",
         "CreateNew.Object.Mirror" : "Spiegel",
         "CreateNew.Object.Portal" : "Portaal",
         "CreateNew.Object.VideoPlayer" : "Video Speler",
         "CreateNew.Object.SpawnArea" : "Spawn gebied",
         "CreateNew.Object.SpawnPoint" : "Spawn Punt",
-        "CreateNew.Object.UIXCanvas" : "UIX Canvas",
-        "CreateNew.Object.Facet" : "Facet",
 
         "CreateNew.Object.FogVolume" : "Mist volume",
         "CreateNew.Object.FogVolume.Additive" : "Additief",
-        "CreateNew.Object.FogVolume.Alpha" : "Alpha",
         "CreateNew.Object.FogVolume.Multiplicative" : "Multiplicatief",
         "CreateNew.Object.FogVolume.Gradient" : "KleurOvergang",
 
         "CreateNew.Text" : "Tekst",
-        "CreateNew.Text.Basic" : "Basic",
         "CreateNew.Text.Outline" : "Omlijning",
 
-        "CreateNew.Editor" : "Editor",
         "CreateNew.Editor.UserInspector" : "Gebruikers Inspector",
         "CreateNew.Editor.LightSourcesWizard" : "Wereldlichtbronnen Wizard",
         "CreateNew.Editor.AssetOptimizationWizard" : "Asset Optimalisatie Wizard",
         "CreateNew.Editor.LogixTransferWizard" : "LogiX Overdracht Wizard",
-        "CreateNew.Editor.CubemapCreator" : "Cubemap Creator",
         "CreateNew.Editor.ReflectionProbes" : "Reflectie Probe Wizard",
 
-        "CreateNew.3DModel" : "3D Model",
-        "CreateNew.3DModel.Box" : "Box",
         "CreateNew.3DModel.Sphere" : "Bol",
-        "CreateNew.3DModel.Capsule" : "Capsule",
         "CreateNew.3DModel.Cone" : "Kegel",
-        "CreateNew.3DModel.Cylinder" : "Cylinder",
-        "CreateNew.3DModel.Quad" : "Quad",
-        "CreateNew.3DModel.Grid" : "Grid",
-        "CreateNew.3DModel.Torus" : "Torus",
 
-        "CreateNew.Collider" : "Collider",
-        "CreateNew.Collider.Box" : "Box",
         "CreateNew.Collider.Sphere" : "Bol",
-        "CreateNew.Collider.Capsule" : "Capsule",
-        "CreateNew.Collider.Cylinder" : "Cylinder",
         "CreateNew.Collider.Cone" : "Kegel",
-        "CreateNew.Collider.Mesh" : "Mesh",
 
         "CreateNew.Light" : "Licht",
         "CreateNew.Light.Point" : "Punt",
-        "CreateNew.Light.Spot" : "Spot",
         "CreateNew.Light.Directional" : "Directioneel",
 
         "CreateNew.Materials" : "Materialen",
 
-        "AvatarCreator.Title" : "Avatar Creator",
         "AvatarCreator.Instructions" : "Lijn de avatarobjecten uit met de referenties van de headset en controller (optioneel) en druk op Maken om ze naar een avatar te converteren",
         "AvatarCreator.UseSymmetry" : "Gebruik symmetrie",
         "AvatarCreator.ShowToolAnchors" : "Toon gereedschapsankers",
@@ -594,20 +530,10 @@
         "Importer.Image.Stereo360" : "Stereo 360 Foto",
         "Importer.Image.180" : "180 Foto",
         "Importer.Image.Stereo180" : "Stereo 180 Foto",
-        "Importer.Image.LUT" : "LUT",
 
         "Importer.ImageVideo.LayoutPrompt" : "Welke lay-out gebruikt het?",
-        "Importer.ImageVideo.LayoutHorizontalLR" : "Side by Side LR",
-        "Importer.ImageVideo.LayoutHorizontalRL" : "Side by Side RL",
-        "Importer.ImageVideo.LayoutVerticalLR" : "Top Bottom LR",
-        "Importer.ImageVideo.LayoutVerticalRL" : "Top Bottom RL",
 
-        "Importer.Model.Title" : "Model Importer",
         "Importer.Model.Prompt" : "Wat importeert u?",
-        "Importer.Model.Regular" : "3D Model",
-        "Importer.Model.3DScan" : "3D Scan",
-        "Importer.Model.CAD" : "CAD Model",
-        "Importer.Model.PointCloud" : "Point Cloud",
         "Importer.Model.VertexColorModel" : "Vertex Gekleurd Model",
         "Importer.Model.AdvancedSettings" : "Geavanceerde Instellingen",
         "Importer.Model.ModelKindPrompt" : "Wat voor soort 3D Model?",
@@ -665,23 +591,14 @@
         "Importer.Model.Advanced.PositionAtOrigin" : "Positioneer Op Oorsprong",
         "Importer.Model.Advanced.AssetsOnObject" : "Plaats Assets Op Object",
 
-        "Importer.Video.Title" : "Video Importer",
         "Importer.Video.Prompt" : "Wat wil je Importeren?",
-        "Importer.Video.Regular" : "Video",
-        "Importer.Video.360" : "360 Video",
-        "Importer.Video.Stereo" : "Stereo Video",
-        "Importer.Video.Stereo360" : "Stereo 360 Video",
-        "Importer.Video.Depth" : "Depth Video",
-        "Importer.Video.180" : "180 Video",
-        "Importer.Video.Stereo180" : "Stereo 180 Video",
+        "Importer.Video.Depth" : "Diepte video",
         "Importer.Video.Depth.Prompt" : "Diepte Preset",
         "Importer.Video.Depth.Default" : "Standaard",
 
         "Credits.Title" : "Stuur credits",
         "Credits.TokenPrompt" : "Welke token wil je sturen?",
-        "Credits.NCR.Title" : "Neos Credits (<b>NCR</b>)",
         "Credits.NCR.Description" : "Ethereum token met echte wereldwaarde",
-        "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "Neos' sandbox token met geen echte waarde.",
         "Credits.AmountPrompt" : "{action,select, send {Hoeveel wil je sturen?} withdraw {Hoeveel wil je opnemen?} tip {Hoeveel fooi wil je geven?}}",
         "Credits.Amount" : "Bedrag: ",
@@ -706,7 +623,6 @@
         "NewWorld.SessionSettings" : "Sessie Instellingen:",
         "NewWorld.UnsafeMode" : "Onveilige Modus:",
         "NewWorld.Port" : "Poort:",
-        "NewWorld.AutoPort" : "Auto:",
         "NewWorld.DefaultName" : "{name} Wereld",
 
         "FullBody.Title" : "Full Body Calibratie",
@@ -774,8 +690,6 @@
         "CameraControl.TakePhoto" : "Foto",
         "CameraControl.Take360Photo" : "360 Foto",
 
-        "CameraControl.Mode.SmoothPOV" : "Smooth POV",
-        "CameraControl.Mode.ThirdPerson" : "Third Person",
         "CameraControl.Mode.Group" : "Groep",
         "CameraControl.Mode.World" : "Wereld",
         "CameraControl.Mode.Manual" : "Manueel",
@@ -796,7 +710,7 @@
         "CameraControl.OpenCloseUsers" : "Gebruikers",
         "CameraControl.CreateCameraAnchor" : "Maak Camera Anker",
 
-        "CameraControl.Anchors.Interpolate" : "Interpoleer tussen ankers",
+        "CameraControl.Anchors.Interpolate" : "Verplaatssnelheid tussen ankerpunten",
         "CameraControl.Anchors.InterpolationSpeed" : "Ankerinterpolatiesnelheid:",
         "CameraControl.Anchors.NoAnchors" : "Geen camera-ankers in deze wereld",
 
@@ -804,10 +718,6 @@
         "CameraControl.Positioning.AngleOffset" : "Hoek offset",
         "CameraControl.Positioning.Distance" : "Afstand",
         "CameraControl.Positioning.Height" : "Hoogte",
-        "CameraControl.Positioning.FirstPersonPitch" : "First Person Pitch",
-        "CameraControl.Positioning.FirstPersonRoll" : "First Person Roll",
-        "CameraControl.Positioning.FirstPersonOffset" : "First Person Offset",
-        "CameraControl.Positioning.Reset" : "Reset",
 
         "CameraControl.Control.AnyoneCanInteract" : "Iedereen kan Bedienen",
         "CameraControl.Control.RenderPreviewForEveryone" : "Render Preview Voor Iedereen",
@@ -815,14 +725,12 @@
         "CameraControl.Control.MotionBlur" : "Bewegingsonscherpte",
 
         "CameraControl.Control.SpawnPhotoInWorld" : "Spawn Foto in De wereld",
-        "CameraControl.Control.FlipPreview" : "Flip Preview",
         "CameraControl.Control.GroupDetectionRadius" : "Groepsdetectieradius: {n} m",
         "CameraControl.Control.GroupExcludeBoundary" : "Groep UitsluitingsGrens: {n} m",
         "CameraControl.Control.PositionSmoothSpeed" : "Positie Smooth Snelheid: {n}",
         "CameraControl.Control.AngleSmoothSpeed" : "Hoek Smooth Snelheid: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Framing Smooth Snelheid: {n}",
 
-        "CameraControl.OBS.IP" : "OBS Websocket IP:",
         "CameraControl.OBS.Password" : "OBS Passwoord (optioneel):",
         "CameraControl.OBS.Connect" : "Verbind",
         "CameraControl.OBS.Instructions" : "Zorg ervoor dat OBS actief is en dat de obs-websocket plug-in is geïnstalleerd",
@@ -840,11 +748,7 @@
         "CameraControl.OBS.DisconnectedPage" : "OBS Verbinding Verbroken",
         "CameraControl.OBS.ReturnToConnect" : "Ga terug naar de verbindingspagina",
         "CameraControl.OBS.AutoMirror" : "Auto Spiegelen bij Opnemen/Streamen",
-        "CameraControl.OBS.Bitrate" : "Bitrate: {n}/s",
-        "CameraControl.OBS.FPS" : "FPS: {n}",
         "CameraControl.OBS.DroppedFrames" : "Verloren frames: {n}",
-        "CameraCOntrol.OBS.Live" : "LIVE",
-        "CameraCOntrol.OBS.Recording" : "REC",
 
         "CameraControl.OBS.Streaming.Start" : "Start Stream",
         "CameraControl.OBS.Streaming.Starting" : "Stream Starten...",
@@ -888,7 +792,6 @@
         "Settings.AutosaveScreenshotPath" : "Pad voor het automatisch opslaan van screenshots",
         "Settings.DebugInputBinding" : "Debug Invoer Bindingen",
 
-        "Settings.LaserSmoothing.Header" : "Laser Smoothing",
         "Settings.LaserSmoothing.Speed" : "Smooth Snelheid",
         "Settings.LaserSmoothing.ModulateStartAngle" : "Moduleer de starthoek",
         "Settings.LaserSmoothing.ModulateEndAngle" : "Moduleer de eindhoek",
@@ -898,10 +801,8 @@
         "Settings.Laser.ShowInDesktop" : "Laser weergeven in bureaubladmodus",
         "Settings.LaserSmoothing.Reset" : "Reset LaserInstellingen",
 
-        "Settings.Audio.Header" : "Audio",
         "Settings.Audio.Master" : "Hoofdvolume: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "Geluidseffecten: {n,number,percent}",
-        "Settings.Audio.Multimedia" : "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice" : "Stem: {n,number,percent}",
         "Settings.Audio.UI" : "GebruikersOmgeving: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization" : "Schakel Stemnormalisatie Uit",
@@ -920,24 +821,19 @@
         "Settings.Audio.Monitoring" : "Audio-ingang Controleren:",
         "Settings.Audio.SystemDefaultOutput" : "Gebruik Systeemstandaard",
 
-        "Settings.Graphics.DesktopFOV" : "Desktop FOV",
-
         "Settings.Locale.ChangeLanguage" : "Taal Veranderen",
         "Settings.Locale.SelectLanguageHeader" : "Selecteer je Taal:",
 
         "Settings.Save" : "Instellingen opslaan",
 
-        "Settings.FullBody.Header" : "Full Body Tracking:",
         "Settings.FullBody.FeetPositionSmoothing" : "Voeten Positie Smoothing",
         "Settings.FullBody.FeetRotationSmoothing" : "Voeten Rotatie Smoothing",
         "Settings.FullBody.HipsPositionSmoothing" : "Heupen Positie Smoothing",
         "Settings.FullBody.HipsRotationSmoothing" : "Heupen Rotatie Smoothing",
 
-        "Settings.Dash.Header" : "Dash",
         "Settings.Dash.Curvature" : "Kromming",
         "Settings.Dash.OpenCloseSpeed" : "Open/Sluit Snelheid",
 
-        "Settings.LeapMotion.Name" : "Leap Motion",
         "Settings.LeapMotion.Enabled" : "Leap Tracking ingeschakeld",
         "Settings.LeapMotion.HorizontalOffset" : "Horizontale Compensatie",
         "Settings.LeapMotion.VerticalOffset" : "Verticale Compensatie",
@@ -957,7 +853,6 @@
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Wanneer Ingeschakeld, worden screenshots niet geconverteerd naar JPG wanneer het word opgeslagen in de Documenten Folder",
 
         "Security.Hyperlink.Warning" : "<b><size=125%>Waarschuwing: Uitgaande hyperlink</size></b>\nJe hebt op een link in een wereld geklikt. Wilt u deze openen? Dit wordt geopend in uw desktopwebbrowser.",
-        "Security.Hyperlink.Open" : "Open",
         "Security.Hyperlink.Cancel" : "Annuleer",
 
         "Security.HostAccess.Title" : "Hosttoegang",
@@ -991,15 +886,12 @@
         "Inspector.Mesh.ConvertToPointCloud" : "Converteren naar puntenwolk",
         "Inspector.Mesh.MergeDoubles" : "Dubbelen samenvoegen",
         "Inspector.Mesh.StripEmptyBlendshapes" : "Strip Lege Blendshapes",
-        "Inspector.Mesh.StripBlendshapeNormals" : "Strip Blendshape Normals",
-        "Inspector.Mesh.StripBlendshapeTangents" : "Strip Blendshape Tangents",
 
         "Inspector.Mesh.GetBoneList" : "Geef Botten Lijst",
         "Inspector.Mesh.GetBoneData" : "Geef Botten Data",
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo" : "Trim Vertex Botten Gewichten Naar:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bot} other {# Botten}}",
-        "Inspector.Mesh.UV_Multiplicator" : "Multiplicator:",
         "Inspector.Mesh.ScaleUVs" : "Schaal UVs",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Voeg submeshes samem die het zeldfe materiaal hebben",
@@ -1029,7 +921,6 @@
 
         "Inspector.Texture.Size" : "Formaat: {width} x {height}",
         "Inspector.Texture.Format" : "Formaat: {format}, Memory: <nobr>{memory}</nobr>",
-        "Inspector.Texture.Variant" : "VariantID: {variant}",
 
         "Inspector.Texture.InvertRGB" : "Keer RGB om",
         "Inspector.Texture.InvertR" : "Keer R om",
@@ -1053,7 +944,6 @@
         "Inspector.Texture.AdjustSaturation" : "Saturatie aanpassen",
         "Inspector.Texture.Value" : "Waarde:",
         "Inspector.Texture.AdjustValue" : "Waarde aanpassen",
-        "Inspector.Texture.Gamma" : "Gamma:",
         "Inspector.Texture.AdjustGamma" : "Pas gamma aan",
         "Inspector.Texture.LongestSide" : "Langste zijde:",
         "Inspector.Texture.Resize" : "Formaat wijzigen",
@@ -1085,7 +975,6 @@
         "Inspector.Audio.TrimStartSilence" : "Trim Start Stilte",
         "Inspector.Audio.TrimEndSilence" : "Trim Einde Stilte",
         "Inspector.Audio.PositionDuration" : "Positie/Duur (in seconden):",
-        "Inspector.Audio.TrimStart" : "Trim Start",
         "Inspector.Audio.TrimEnd" : "Trim Einde",
         "Inspector.Audio.FadeIn" : "Voeg Fade In toe",
         "Inspector.Audio.FadeOut" : "Voeg Fade Out toe",
@@ -1116,7 +1005,6 @@
 
         "Inspector.AvatarExpression.AutoAssign" : "Automatisch Blendshapes toewijzen (met behulp van heuristiek)",
 
-        "Wizard.General.ProcessRoot" : "Process Root:",
         "Wizard.General.Result" : "Resultaat:",
         "Wizard.General.ErrorNoRoot" : "Geen Root Geselecteerd",
         "Wizard.General.RemovedResult" : "Verwijderd {n}",
@@ -1149,7 +1037,6 @@
         "Wizard.LightSources.Disable" : "Uitschakelen",
         "Wizard.LightSources.Destroy" : "Verwijderen",
 
-        "Wizard.CubemapCreator.Title" : "Cubemap Creator",
         "Wizard.CubemapCreator.Textures" : "Bron Textures:",
         "Wizard.CubemapCreator.TexturesNote" : "Let op! sommige conventies hebben links en rechts verwisseld. Als de cubemap resultaat incorrect is, Probeer dan links en rechts te verwsselen.",
         "Wizard.CubemapCreator.PosX" : "Positief X (right)",
@@ -1184,7 +1071,6 @@
         "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>WAARSCHUWING:</b></color> Je bent op het moment in scherm modus, wat op het monent niet officieel ondersteund word, en is primeer voor testen.<br><br>Ondertussen kan het wel gebruikt worden voor spelen, sommige besturingen werken nog niet zo makkelijk en sommige dingen werken nog niet.<br><br><b>Neos is op het moment gemaakt voor gebruik in VR.</b><br><br>Een volledige desktop modus is geplant in de toekomst.",
         "Tutorial.Welcome.ScreenUnderstand" : "Ik Begrijp Het",
 
-        "Tutorial.Welcome.AccountHeader" : "Neos account",
         "Tutorial.Welcome.AccountDescription" : "Creeren van een account geeft je 1gb gratis opslag en geeft je toegang om objecten te kunnen opslaan in je inventory, Avatars te kunnen favoriteren, Contacten te kunnen toevoegen en berichten kunnen sturen.",
         "Tutorial.Welcome.AccountCreate" : "Creer Account",
         "Tutorial.Welcome.AccountLogin" : "Ik heb al een Account",
@@ -1208,7 +1094,6 @@
         "Tutorial.Welcome.SettingsHeight" : "Je Hoogte",
         "Tutorial.Welcome.SettingsHeightExamples" : "Voorbeelden: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
-        "Tutorial.Welcome.StartTutorialHeader" : "Begin Tutorial",
         "Tutorial.Welcome.StartTutorialDescription" : "We brengen je naar een eenvoudige tutorialwereld om je op weg te helpen met Neos. je kan ervoor kiezen om de tutorial wereld openbaar te maken, zodat de Neos-community je kan joinen zodat ze je kunnen helpen, of zodat je zelf kan leren.",
         "Tutorial.Welcome.StartTutorialPublic" : "Ik wil dat mensen mee kunnen doen en mij kunnen helpen",
         "Tutorial.Welcome.StartTutorialPrivate" : "Ik wil het zelf leren",
@@ -1245,7 +1130,6 @@
         "Tutorial.Intro.LocomotionTitle" : "Voortbeweging",
         "Tutorial.Intro.LocomotionDescription" : "Neos bevat veel verschillende bewegingsmethoden.<br>Deze voortbewegingsopties zijn beschikbaar in uw <color=#ffdd77>Contextmenu</color>.",
 
-        "Tutorial.Intro.DashboardTitle" : "Neos Dashboard",
         "Tutorial.Intro.DashboardDescription" : "Het <color=#ffdd77><b>Dashboard</b></color> is uw hoofdmenu.<br>Je opent en sluit hem met de <color=#77ff77><b>{button}</b></color>.",
         "Tutorial.Intro.DashboardDescriptionCircle" : "Het <color=#ffdd77><b>Dashboard</b></color> is uw hoofdmenu.<br>Je opent en sluit hem door de <color=#77ff77><b>{button}</b></color> ingedrukt te houden tot de cirkel vol is en <color=#77ddff><b>laat hem dan los</b></color>.",
         "Tutorial.Intro.Dashboard_ButtonA" : "A",
@@ -1267,7 +1151,6 @@
         "Tutorial.Intro.WorldsDescription" : "Verken de metaverse met behulp van het menu <color=#ffdd77><b>Werelden</b></color>. <br> Als je hier klaar bent, neem dan deel aan een actieve sessie om de community te ontmoeten!",
 
         "Tutorial.Intro.OutroTop" : "Verdere tutorials zijn over de hele wereld beschikbaar. <br><br> Veel succes en geniet van de metaverse!",
-        "Tutorial.Intro.Website" : "Website",
         "Tutorial.Intro.OutroEnd" : "Word lid van onze Patreon om het project te ondersteunen. <br> <br> Word lid van de Discord voor statusupdates, netwerken of technische ondersteuning.",
 
         "Tutorial.MTC.Avatars" : "Avatars & Sociaal",
@@ -1313,7 +1196,7 @@
         "Tutorial.Tooltip.WigglerSecondary" : "Red je ziel een beetje",
 
         "Tutorial.BotDesigner.Start" : "Begin",
-
+        "Tutorial.BotDesigner.WearAvatar" : "Draag Avatar",
         "Tutorial.BotDesigner.Intro.Title" : "Neos Bot Ontwerper",
         "Tutorial.BotDesigner.Intro.Description" : "Ontwerp een aangepaste Neos Bot!",
         "Tutorial.BotDesigner.List.Models" : "Modellen",
@@ -1330,9 +1213,7 @@
         "Tutorial.AvatarTutorial.Start" : "Begin",
         "Tutorial.AvatarTutorial.OpenWorld" : "Open wereld",
         "Tutorial.AvatarTutorial.AvatarWorlds" : "Avatar Werelden",
-        "Tutorial.AvatarTutorial.Intro.Title" : "Neos Avatars",
         "Tutorial.AvatarTutorial.Intro.Description" : "Leer hoe u avatars kunt vinden en gebruiken!",
-
         "Tutorial.AvatarTutorial.FindingAvatars.Title" : "Avatars vinden",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Title" : "Uitrusten & Favoriet maken",
         "Tutorial.AvatarTutorial.AvatarCreation.Title" : "Avatar Creatie",
@@ -1342,12 +1223,13 @@
         "Tutorial.AvatarTutorial.FindingAvatars.Description" : "Veel voorkomende avatars bevinden zich in de<br>Neos Essentials-map in je inventaris.<br>Door de Community gemaakte avatars zijn te vinden in openbare mappen of gepubliceerde werelden.",
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Zodra je een avatar hebt, rust je deze uit door erop te klikken<br>en Equip Avatar te kiezen.<br><br>Sla uw huidig uitgeruste avatar op door op <sprite name=Download> te klikken.<br><br>U kunt uw avatar favoriet maken door deze <br>te selecteren in uw inventaris en op <sprite name=Favorite> te klikken.",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Om een aangepaste avatar te importeren en in te stellen, raadpleegt u<br>de Neos Avatar Creation-tutorial.",
-
+        
+        "Tutorial.Intro.PublicFolders.Title" : "Publieke Folders",
+        "Tutorial.Intro.PublicFolders.Description" : "Publieke folders zijn een makkelijke manier voor de community om hun creaties zoals bijvoorbeeld avatars te delen en updaten.<br><br>Om op te slaan, grijp de folder en klik op <sprite name=Add> in uw inventaris.<br><br>U kunt het ook opslaan via het Context Menu.<br><br>Probeer maar met <b>The Starter Pack</b>. Een folder gemaakt voor nieuwe gebruikers.",
 
         "Tutorial.AvatarCreator.Intro.Description" : "Leer hoe u uw avatar kunt importeren en instellen!",
         "Tutorial.AvatarCreator.Options.Start" : "Begin",
         "Tutorial.AvatarCreator.ImportingAssets.Title" : "Assets Importeren",
-
         "Tutorial.AvatarCreator.SettingUpMaterials.Title" : "Materialen Instellen",
         "Tutorial.AvatarCreator.DynamicBones.Title" : "Dynamisch Bones",
         "Tutorial.AvatarCreator.Saving&Favoriting.Title" : "Opslaan & Favoriet maken",
@@ -1357,7 +1239,6 @@
         "Tutorial.AvatarCreator.DynamicBones.Description" : "Dynamic bones kunnen leven en interactiviteit toevoegen aan een anders statische rig.<br>Voeg de DynamicBoneChain-component toe aan het begin van de doel bone chain, scrol naar beneden en klik op <color=#77ccff><b>Setup van Children (Alleen Rig)</b></color>. Dit creëert een standaard dynamische botketen. U kunt de eigenschappen ervan bewerken met de inspector.",
         "Tutorial.AvatarCreator.SavingFavoriting.Description" : "Nadat je klaar bent met de eerste instellingen, rust je de avatar uit en navigeer je naar een map in je inventaris waar je hem wilt opslaan, en druk je op <sprite name=Download> .<br><br>Klik op je avatar in de inventaris om hem te selecteren, en druk je op <sprite name=Favorite> om hem als favoriete avatar in te stellen.",
         "Tutorial.AvatarCreator.Outro.Title" : "Meer informatie & hulp",
-        "Tutorial.AvatarCreator.Outro.Button.Wiki" : "Wiki",
         "Tutorial.AvatarCreator.Outro.Description" : "Extra bronnen voor het maken van avatars, set-up, en andere tutorials zijn te vinden op de community-wiki, de Neos Discord, en op YouTube.",
 
         "Tutorial.CommunityYouTube.Title" : "Community YouTube Kanalen",
@@ -1365,16 +1246,187 @@
         "Tutorial.UserResources.UserResourcesTitle" : "Hulpmiddelen",
         "Tutorial.UserResources.SupportTitle" : "Hoe kan ik Neos ondersteunen",
 
-
-
-
-
         "Tutorial.Intro.BadgesDisabilityHearing" : "Slechthorend",
         "Tutorial.Intro.BadgesDisabilityVision" : "Slechtziend",
         "Tutorial.Intro.BadgesDisabilitySpeech" : "Spraakmoeilijkheden",
-
         "Tutorial.Intro.BadgesDescription" : "Badges zijn kleine icoontjes die aspecten van een gebruiker laten zien. Hier zijn een paar belangrijke badges om te onthouden. De handicap badges kunnen zelf worden toegewezen via de Neos bot.",
-        "Tutorial.Intro.HelpSite" : "Help",
+ 
+        "Tutorial.Streaming.StageControl" : "Podium bediening",
+        "Tutorial.Streaming.StageUI" : "Schakel podium UI",
+        "Tutorial.Streaming.StageLights" : "Schakel podium lichten",
+        "Tutorial.Streaming.StageLightController" : "Schakel licht bediening",
+        "Tutorial.Streaming.StageMicrophone" : "Schakel microfoonhouder",
+
+        "Tutorial.Streaming.GreenScreenControl" : "Greenscreen bediening",
+        "Tutorial.Streaming.GreenScreenToggle360" : "Schakel 360<sup>o</sup> omgeving",
+        "Tutorial.Streaming.GreenScreenTracking" : "Schakel tracking markeringen",
+        "Tutorial.Streaming.GreenScreenMarker" : "Maak grijpbare marker",
+        "Tutorial.Streaming.GreenScreenCycleScene" : "Verander scène",
+
+        "Tutorial.Streaming.StreamRoomControl" : "Streamingruimte bediening",
+        "Tutorial.Streaming.StreamRoomSkyWall" : "Sky Wall afbeelding",
+        "Tutorial.Streaming.StreamRoomLayout" : "Set indeling",
+
+        "Tutorial.Streaming.StageLightShadowToggle" : "Schakel lichtschaduw",
+
+        "Tutorial.Streaming.Microphone.Title" : "Microfoon",
+        "Tutorial.Streaming.Microphone.UsageDescription" : "Wanneer u de <b><color=#ffdd77>MICROFOON TIP</b></color> vast heeft kunt u <b><color=#77ff77>PRIMAIR</b></color> gebruiken om audio op te nemen.",
+        "Tutorial.Streaming.Microphone.AudioTypeDescription" : "Selecteer het <b><color=#ffdd77>TYPE AUDIO FILE</b></color> dat u wil gebruiken door het <b><color=#dd77ff>CONTEXT MENU</b></color> te openen op de hand waarin u de tool vast heeft.",
+        "Tutorial.Streaming.Microphone.RecordingDescription" : "U kunt de <b><color=#ffdd77>OPNAME</b></color> methode veranderen met de opties in het <b><color=#dd77ff>CONTEXT MENU</b></color>.",
+        "Tutorial.Streaming.Microphone.RawDescription" : "De <b><color=#ffdd77>AUDIO OUTPUT</b></color> kunt u veranderen naar <b><color=#ffdd77>RAW AUDIO</b></color> formaat in het<b><color=#dd77ff>CONTEXT MENU</b></color>.",
+        
+        "Tutorial.Streaming.AudioStreaming.Title" : "Audio streamen",
+        "Tutorial.Streaming.AudioStreaming.StreamAudioDescription" : "U kunt voor anderen in Neos desktop-audio streamen. Om audio te streamen, klik op de <b><color=#ffdd77>STREAM AUDIO</b></color> knop op uw dashboard homepagina.",
+        "Tutorial.Streaming.AudioStreaming.StartStreamingDescription" : "Kies een <b><color=#ffdd77>AUDIO INPUT</b></color> van de lijst die u wil streamen. In dit paneel kunt u ook van tevoren de gekozen input beluisteren. Druk op <b><color=#77ff77>BEGIN MET STREAMEN</b></color> om een audio streaming paneel te maken.",
+        "Tutorial.Streaming.AudioStreaming.StopStreamingDescription" : "Het <b><color=#ffdd77>AUDIO STREAMING PANEEL</b></color> laat anderen in de sessie de audio van uw computer horen. De stream <b><color=red>STOPT</b></color> wanneer u het paneel sluit.",
+        
+        "Tutorial.Streaming.StreamControl.SkyboxTexture" : "Plaats skybox afbeelding hier",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Title" : "De camera",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title" : "Neem een foto",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title" : "UI zoom bediening",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Title" : "Fysieke zoom bediening",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Title" : "Resolutie veranderen",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Description" : "Onder <sprite name=2K> kunt u meerdere opties vinden om de <color=#ffdd77><b>RESOLUTIE</b></color> van de foto's die de <color=#ffdd77><b>CAMERA</b></color> maakt te veranderen.",
+
+        "Tutorial.Streaming.Camera.Mode.Page1.Title" : "Standaard foto",
+        "Tutorial.Streaming.Camera.Mode.Page2.Title" : "3D foto",
+        "Tutorial.Streaming.Camera.Mode.Page3.Title" : "360 foto",
+        "Tutorial.Streaming.Camera.Mode.Page4.Title" : "Transparante foto",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Title" : "Standaard",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Title" : "Verzadigd",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Title" : "Grijswaarden",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Title" : "Regenboog",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Title" : "Beeldhoek",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Title" : "Reflecties",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Title" : "Flits",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Title" : "Groot scherm",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Title" : "Waar kunt u het vinden",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Title" : "Hoe moet u het gebruiken",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Title" : "Basis Functies",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Description" : "U kunt een <color=#ffdd77><b>CAMERA SPAWNEN</b></color> van de <color=#dd77ff><b>NEOS ESSENTIALS FOLDER</b></color> in uw <color=#dd77ff><b>INVENTARIS</b></color>. Dit is uw primaire tool voor het <color=#77ff77><b>MAKEN</b></color> van foto's in Neos.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Description" : "U kunt foto's <color=#77ff77><b>MAKEN</b></color> door <color=#77ff77><b>PRIMAIR</b></color> te gebruiken op de <color=#ffdd77><b>KNOP</b></color> boven op de <color=#ffdd77><b>CAMERA</b></color> of door de <color=#dd77ff><b>CAMERA</b></color> ergens te <color=#77ff77><b>PAKKEN</b></color> en <color=#77ff77><b>PRIMAIR</b></color> te gebruiken.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Description" : "De <color=#ffdd77><b>ZOOM</b></color> functie kunt u vinden onder <sprite name=Options>. Je kan de <color=#ffdd77><b>ZOOM SLIDER</b></color> verschuiven met <color=#77ff77><b>FYSIEKE INTERACTIE</b></color> of met de <color=#dd77ff><b>LASERS</b></color> en <color=#77ff77><b>PRIMAIR</b></color>. ",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Description" : "U kunt ook de <color=#ffdd77><b>ZOOM</b></color> veranderen door de <color=#dd77ff><b>CAMERA-LENS</b></color> te <color=#77ff77><b>PAKKEN</b></color> en fysiek te <color=#77ff77><b>DRAAIEN</b></color>.",
+
+        "Tutorial.Streaming.Camera.Mode.Page1.Description" : "<color=#ffdd77><b>BASIS INSTELLINGEN</b></color> kunt u vinden onder <sprite name=Camera>. <color=#ffdd77><b>STANDAARD FOTO</b></color> is de beginwaarde, dit is de meest gebruikte <color=#ffdd77><b>CAMERA</b></color> instelling om foto's mee te maken.",
+        "Tutorial.Streaming.Camera.Mode.Page2.Description" : "De <color=#ffdd77><b>3D FOTO</b></color> optie laat u foto's maken met een illusie van diepte, dit wordt gedaan met een stereoscopische foto. Dit effect is alleen zichtbaar in een headset en het opgeslagen <color=#dd77ff><b>SCREENSHOT</b></color> zal twee foto's naast elkaar zijn.",
+        "Tutorial.Streaming.Camera.Mode.Page3.Description" : "De 360 FOTO optie laat u een <color=#dd77ff><b>RECHTHOEKIGE 360 FOTO</b></color> maken die u kan gebruiken in een <color=#dd77ff><b>PROJECTION360 MATERIAAL</b></color>, voor gebruik als een <color=#dd77ff><b>SKYBOX</b></color>.",
+        "Tutorial.Streaming.Camera.Mode.Page4.Description" : "De <color=#ffdd77><b>CUTOUT FOTO</b></color> optie laat u een <color=#dd77ff><b>UITGESNEDEN AFBEELDING</b></color> nemen. De <color=#ffdd77><b>CAMERA</b></color> projecteert een <color=#dd77ff><b>LASER</b></color> van de voorkant dat alleen het geraakte <color=#dd77ff><b>OBJECT</b></color> rendert op een transparante achtergrond, waar een <color=#dd77ff><b>SAVEABLE ITEM</b></color> en <color=#dd77ff><b>SCREENSHOT</b></color> van gemaakt wordt.",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Description" : "<color=#ffdd77><b>CAMERA FILTERS</b></color> kunt u vinden onder <sprite name=NoFilter>. <color=#ffdd77><b>STANDAARD</b></color> filter is de beginwaarde.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Description" : "Het filter <color=#ffdd77><b>VERZADIGING</b></color> vergroot de verzadiging van kleur en vergroot het contrast tussen donker en licht.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Description" : "Het <color=#ffdd77><b>GRIJS</b></color> filter verwijdert alle kleur uit de foto's.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Description" : "Het <color=#ffdd77><b>SEPIA</b></color> filter verwijdert alle kleur en verschuift de tint om oude foto's te simuleren.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Description" : "Het <color=#ffdd77><b>REGENBOOG</b></color> filter kan gebruikt worden om wat kleur aan uw foto's toe te voegen.",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Description" : "U kunt <color=#ffdd77><b>GEAVANCEERDE INSTELLINGEN</b></color> vinden onder <sprite name=OptionsPlus>. Normaal gesproken zijn geen van deze actief. <color=#ffdd77><b>FRUSTRUM</b></color> is de eerste in de kolom, het <color=#dd77ff><b>VISUALISEERT</b></color> het gebied dat u kan zien op het <color=#dd77ff><b>VOORBEELDSCHERM</b></color> van de <color=#ffdd77><b>CAMERA</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Description" : "De <color=#ffdd77><b>TIMER</b></color> optie kunt u <color=#77ff77><b>ACTIVEREN</b></color> met <sprite name=Timer>. Dit telt van 10 seconden af wanneer u een <color=#77ff77><b>AFBEELDING</b></color> neemt.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Description" : "De <color=#ffdd77><b>SCHERM REFLECTIES</b></color> optie activeert reflecties vanaf de viewport van de <color=#ffdd77><b>CAMERA</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Description" : "De <color=#ffdd77><b>FLITS</b></color> optie kan <color=#77ff77><b>GEACTIVEERD</b></color> worden met <sprite name=Lightning>. Dit <color=#77ff77><b>SCHUIFT</b></color> een <color=#dd77ff><b>LAMP</b></color> uit de bovenkant van de <color=#dd77ff><b>CAMERA</b></color> die de <color=#dd77ff><b>OMGEVING</b></color> <color=#77ff77><b>VERLICHT</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Description" : "De <color=#ffdd77><b>GROOT SCHERM</b></color> optie kan <color=#77ff77><b>GEACTIVEERD</b></color> worden met <sprite name=BigScreen>. Deze maakt een groot <color=#dd77ff><b>SCHERM</b></color> boven de <color=#dd77ff><b>CAMERA</b></color>. Deze kan ook geactiveerd worden door <color=#77ff77><b>PRIMAIR</b></color> te gebruiken of <color=#77ff77><b>FYSIEK</b></color> te klikken op de <color=#dd77ff><b>KNOP</b></color> middenboven op de <color=#dd77ff><b>CAMERA</b></color>.",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Description" : "De <b><color=#ffdd77>CAMERA OBJECT EXCLUDEER TIP</color></b> kunt u vinden in uw <b><color=#77ddff>INVENTARIS</b></color> onder <b><color=#77ddff>ESSENTIAL TOOLS --> MISC</Color></b>.",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Description" : "Zodra u de tool vast heeft <b><color=#77ff77>RICHT</b></color> u op het object dat u niet wil zien in de camera en drukt u op <b><color=#77ff77>SECUNDAIR</b></color>. Druk op <b><color=#77ff77> PRIMAIR</b></color> om het object weer terug te brengen.",
+ 
+        "Tutorial.Streaming.Camera.Resolution.Title" : "Resolutie",
+        "Tutorial.Streaming.Camera.Mode.Title" : "Modus",
+        "Tutorial.Streaming.Camera.OptionsPlus.Title" : "Opties+",
+        "Tutorial.Streaming.Camera.ExcludeTip.Title" : "Camera Object Excludeer Tip",
+        "Tutorial.Streaming.Camera.Intro.Title" : "Fysieke Kamera Tutorial",
+
+        "Tutorial.Streaming.Camera.Intro.Description" : "Leer alle functies van de fysieke kamera",
+
+        "Tutorial.Streaming.LightTip.Intro.Title" : "Licht tip tutorial",
+        "Tutorial.Streaming.LightTip.Intro.Description" : "Leer alle functies van de licht tip",
+
+        "Tutorial.Streaming.LightTip.Titles.BasicUsage" : "Basis gebruik",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfLights" : "Soorten lichten",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfShadows" : "Soorten schaduwen",
+        "Tutorial.Streaming.LightTip.Titles.ChangingColor" : "Kleur veranderen",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Title" : "De licht tip",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Title" : "Een licht maken",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Title" : "Punt",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Title" : "Zon/Directioneel",
+ 
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Title" : "Geen schaduw",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Title" : "Harde schaduw",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Title" : "Zachte schaduw",
+ 
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Kleur selecteer paneel",
+ 
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "U kunt een <color=#ffdd77><b>LICHT TIP</b></color> <color=#77ff77><b>SPAWNEN</b></color> van de <color=#dd77ff><b>NEOS ESSENTIALS</b></color> folder in uw <color=#dd77ff><b>INVENTARIS</b></color>. Dit is de belangrijkste tool voor het <color=#77ff77><b>TOEVOEGEN VAN LICHTEN</b></color> in werelden in Neos.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "De <color=#ffdd77><b>LICHT TIP</b></color> maakt standaard een <color=#dd77ff><b>PUNT LICHT</b></color> aan wanneer u <color=#77ff77><b>PRIMAIR</b></color> gebruikt. Als u <color=#77ff77><b>PRIMAIR</b></color> vasthoudt en sleept, wordt de <color=#dd77ff><b>INTENSITEIT</b></color> van het licht aangepast afhankelijk van de <color=#dd77ff><b>AFSTAND</b></color> die u <color=#77ff77><b>GESLEEPT</b></color> heeft.",
+ 
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "Het <color=#ffdd77><b>PUNT LICHT</b></color> maakt een licht dat de omgeving in alle richtingen <color=#77ff77><b>VERLICHT</b></color> vanuit een punt. De intensiteit neemt af met de afstand.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Description" : "Het <color=#ffdd77><b>SPOTLICHT</b></color> maakt een licht dat de omgeving <color=#77ff77><b>VERLICHT</b></color> in een kegelvorm vanuit een punt. De intensiteit neemt af met de afstand.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Description" : "Het <color=#ffdd77><b>DIRECTIONELE LICHT</b></color> maakt een licht dat de wereld in een richting <color=#77ff77><b>VERLICHT</b></color>. De intensiteit neemt <b><color=#ff7777>NIET</color></b> af met de afstand.",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description" : "<b><color=#77ff77>OBJECTEN</b></color> hebben <b><color=red>GEEN</b></color> schaduw.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "<b><color=#77ff77>OBJECTEN</b></color> hebben schaduw met harde randen.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "<b><color=#77ff77>OBJECTEN</b></color> hebben schaduw met zachte randen.",
+ 
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "U kunt de <b><color=#ffdd77>KLEUR</b></color> van het <b><color=#ffdd77>LICHT</b></color> veranderen met de <b><color=#77ff77>CHANGE COLOR</b></color> optie in het <b><color=#77ff77>CONTEXT MENU</b></color>.",
+        
+        "Tutorial.Streaming.StreamCamera.CameraControl.Title" : "De camerabediening",
+        "Tutorial.Streaming.StreamCamera.Overview.Title" : "Overzicht camerabediening",
+        "Tutorial.Streaming.StreamCamera.ControlMovement.Title" : "Camera bewegingsfunctie",
+        "Tutorial.Streaming.StreamCamera.Zoom.Title" : "Zoom bediening",
+        "Tutorial.Streaming.StreamCamera.ThirdPerson.Title" : "Derde persoon",
+        "Tutorial.Streaming.StreamCamera.Group.Title" : "Groep",
+        "Tutorial.Streaming.StreamCamera.World.Title" : "Wereld",
+        "Tutorial.Streaming.StreamCamera.Manual.Title" : "Handmatig",
+        "Tutorial.Streaming.StreamCamera.Mirror.Title" : "Spiegel naar scherm",
+        
+        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "Om een <b><color=#ffdd77>CAMERA ANKERPUNT</b></color> te <b><color=#77ff77>SPAWNEN</color></b> drukt u op de <b><color=#77ddff>MAAK CAMERA ANKER</b></color> knop aan de linkerkant van uw scherm. Wanneer u er een heeft gemaakt kunt u uw camera eraan vastmaken door het ankerpunt te selecteren met <b><color=#77ff77>PRIMAIR</b></color>.",
+        
+        "Tutorial.Streaming.StreamCamera.Photo.Title" : "Foto",
+        "Tutorial.Streaming.StreamCamera.360.Title" : "360 Foto",
+        "Tutorial.Streaming.StreamCamera.Users.Title" : "Gebruikers",
+        "Tutorial.Streaming.StreamCamera.CameraOptions.Title" : "Camera opties",
+        "Tutorial.Streaming.StreamCamera.Anchor.Title" : "Ankerpunt aanmaken",
+        "Tutorial.Streaming.StreamCamera.ExtraCameraControls.Title" : "Extra camera opties",
+        "Tutorial.Streaming.StreamCamera.MotionSettings.Title" : "Camera bewegingsopties",
+        "Tutorial.Streaming.StreamCamera.AnchorSettings.Title" : "Camera ankerpuntinstellingen",
+        "Tutorial.Streaming.StreamCamera.OBS.Title" : "OBS Connectie",
+        "Tutorial.Streaming.StreamCamera.Twitch.Title" :" Twitch Koppeling",
+        
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page1.Description" : "U kunt een <b><color=#ffdd77>CAMERA BEDIENINGSPANEEL</b></color> <color=#77ff77><b>SPAWNEN</b></color> van het <b><color=#ffdd77>NEOS DASHBOARD</b></color> onder de home tab onder een facet genaamd Camera/Streaming. Dit is uw primaire tool voor het streamen van content in Neos.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description" : "Het <b><color=#ffdd77>CAMERA BEDIENINGSPANEEL</b></color> heeft verschillende functies die gebruikt kunnen worden om de kwaliteit van uw streams/videos te verbeteren. Deze functies bestaan onder andere uit camera beweging, modi, ankers, instellingen, Twitch chat en meer.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "De <b><color=#ffdd77>CAMERA BEDIENINGSPANEEL</b></color> bewegingsfunctie kunt u linksboven op het scherm vinden. Hiermee kunt u het zicht en de positie van de camera veranderen. Als u op de resetknop klikt gaat de positie van de camera terug naar de beginstand.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description" : "Om de <color=#ffdd77><b>ZOOM</b></color> te bedienen, gebruikt u <b><color=#77ff77>PRIMAIR</b></color> op de grijze balk onderaan het scherm en schuift u het bolletje naar links of rechts.",
+  
+        "Tutorial.Streaming.StreamCamera.Modes.Page1.Description" : "Met <b><color=#ffdd77>SMOOTH POV</b></color> volgt de camera uw hoofd en maakt het de bewegingen vloeiend.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page2.Description" : "<b><color=#ffdd77>DERDE PERSOONS</b></color> modus laat u uzelf zien van andermans perspectief. U kunt de positie van de camera veranderen op het scherm.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page3.Description" : "<b><color=#ffdd77>GROEP</b></color> modus past zich automatisch aan om dichtbijzijnde personen in beeld te houden.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page4.Description" : "<b><color=#ffdd77>WERELD</b></color> modus houdt de camera op een punt en volgt de gebruiker.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page5.Description" : " Met de <b><color=#ffdd77>HANDMATIG</b></color> modus gebruikt u de streaming camera als een fysieke camera.",
+        
+        "Tutorial.Streaming.StreamCamera.Functions.Page1.Description" : "<b><color=#ffdd77>SPIEGEL NAAR SCHERM</b></color> verandert het beeld op uw desktop naar dat van uw streaming camera, deze optie kan gebruikt worden bij streamen of opnemen.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page2.Description" : "<b><color=#ffdd77>FOTO</b></color> neemt een foto van wat de camera nu ziet. Deze foto's worden opgeslagen in uw screenshot bibliotheek.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page3.Description" : "<b><color=#ffdd77>360 FOTO</b></color> neemt een 360 foto van de omgeving vanuit de huidige camerapositie. Deze foto's worden opgeslagen in uw screenshot bibliotheek.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page4.Description" : "<b><color=#ffdd77>GEBRUIKERS</b></color> laat de camera iemand anders volgen. U kunt het volume en de toestemmingen per persoon veranderen.",
+        
+        "Tutorial.Streaming.StreamCamera.Intro.Title" : "Streaming camera tutorial",
+        "Tutorial.Streaming.StreamCamera.Intro.Description" : "Leer alle functies van de streaming camera",
+        
+        "Tutorial.Streaming.StreamCamera.Options.Page1.Description" : "<b><color=#ffdd77>CAMERA OPTIES</b></color> vindt u aan de linkerkant van het scherm, hier kunt u instellingen veranderen net als bij de fysieke camera en onder andere ook naamkaarten aan/uitzetten.",
+
+        "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "Extra camera opties vindt u helemaal rechts van het scherm door op het <b><color=#77ddff>TANDWIEL</b></color> icoon in het previewscherm te drukken. Hier vindt u onder andere instellingen voor weergave, gebruikersbediening en volgafstanden.",
+        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "Het <b><color=#77ddff>PIJL</b></color> icoon opent een scherm waarmee de camerabeweging ingesteld kan worden zoals positie, hoek en FOV voor de verschillende vooringestelde posities.",
+        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "Het <b><color=#77ddff>WAYPOINT</b></color> icoon opent een scherm waarmee verschillende ankerpunten bediend kunnen worden. Dit is handig voor het verplaatsen naar verschillende ankerpunten en de snelheid van verplaatsen aan te passen.",
+        "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "Het <b><color=#77ddff>OBS</b></color> icoon opent een scherm om met OBS te verbinden. Zo kunt u snel OBS-opnames starten en stoppen.",
+        "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "Het <b><color=#77ddff>TWITCH</b></color> icoon opent een scherm met uw Twitch chat. U kunt uw kanaal koppelen door de naam linksboven in te typen.",
+
 
         "Exiting.SavingItems" : "Opslaan Van {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Wijzigingen opslaan...",

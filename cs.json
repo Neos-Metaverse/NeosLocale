@@ -20,6 +20,8 @@
         "General.Saving" : "Ukládám...",
         "General.Saved" : "Uloženo!",
         "General.Done" : "Hotovo!",
+        "General.Close" : "Zavřít",
+        "General.CopyToClipboard" : "Kopírovat do schránky",
         "General.CopiedToClipboard" : "Zkopírováno!",
         "General.CopiedToClipboardLong" : "Zkopírováno do schránky!",
         "General.Create" : "Vytvořit",
@@ -72,6 +74,7 @@
         "Interaction.EquipAvatar" : "Převtělit se do avatara",
 
         "Interaction.SaveAsScreenshot" : "Uložit jako screenshot",
+        "Interaction.ExportScreenshot" : "Exportovat screenshot",
         "Interaction.ImportFile" : "Importovat Soubor",
         "Interaction.ExportFile" : "Exportovat Soubor",
         "Interaction.CopyLink" : "Kopírovat odkaz",
@@ -88,10 +91,12 @@
 
         "Dash.Actions.PasteFromClipboard" : "Vložit obsah ze schránky",
 
+        "Dash.Actions.TurnOffUIEdit" : "Vypnout režim editace UI",
+
         "Dash.Actions.CoreWorldsHeader" : "Důležité světy",
-        "Dash.Actions.ContentHub" : "Centrum Obsahu",
-        "Dash.Actions.MTC" : "Trénovací Centrum Metaversu <size=75%>(tutoriály)</size>",
-        "Dash.Actions.CloudHome" : "Můj Domov",
+        "Dash.Actions.ContentHub" : "Centrum obsahu",
+        "Dash.Actions.MTC" : "Trénovací centrum metaversu <size=75%>(tutoriály)</size>",
+        "Dash.Actions.CloudHome" : "Cloudový domov",
 
         "Dash.Exit.Header" : "Ukončit Neos",
         "Dash.Exit.ExitAndSave" : "Ukončit a uložit změny v domovech",
@@ -284,6 +289,7 @@
         "Tools.WithdrawNCR" : "Vyzvednout NCR",
         "Tools.Debug" : "Diagnostika",
         "Tools.StreamAudio" : "Streamovat audio",
+        "Tools.Setup2FA" : "Nastavit 2FA",
 
         "Tools.StreamAudio.Start" : "Spustit streamování",
         "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
@@ -345,6 +351,33 @@
         "Account.ErrorEmailMismatch" : "Emaily nejsou stejné!",
         "Account.ErrorLoginError" : "Chyba přihlášení:",
         "Account.RegistrationSuccess" : "<size=120%>Registrace byla úspěšná!</size><br><br>Na adresu {email} byl odeslán email s ověřovacím odkazem.<br><br>Jakmile na tento odkaz kliknete, automaticky vás přihlásíme (pouze pokud nezavřete tento dialog).<br><br>Pokud jste narazili na problémy, spojte se s námi na hello@neos.com nebo discord.gg/neosvr.",
+
+        "Account.TOTP.Initializing" : "Probíhá kontrola stavu 2FA pro váš účet...",
+        "Account.TOTP.Code.Header" : "Tajný kód",
+        "Account.TOTP.Code.Description" : "Nejprve musíte zadat tajný kód do vaší TOTP authentifikační aplikace - například <b>Authy</b> nebo <b>Google Authenticator</b>.<br><br>Doporučujeme toto provést naskenováním QR kódu, alternativně ale můžete také zadat tajný kód ručně. <b>Tento kód nikdy s nikým nesdílejte.</b><br><br>Pokud jste ve VR, můžete do desktopového režimu přepnout stisknutím klávesy F8.",
+        "Account.TOTP.Code.QRCode" : "Naskenujte QR kód",
+        "Account.TOTP.Code.Key" : "Tajný kód:",
+        "Account.TOTP.RecoveryCodes.Header" : "Záchranné kódy",
+        "Account.TOTP.RecoveryCodes.Description" : "Uložte tyto kódy na bezpečné místo. Tyto kódy lze využít pro znovuzískání přístupu k vašemu účtu v případě ztráty nebo poruchy vašeho telefonu. Každý kód lze použít pouze jednou. <b>Záchranné kódy nikdy s nikým nesdílejte.</b> Pokud je ztratíte, přijdete <color=red>PERMANENTNĚ</color> o přístup k vašemu účtu.",
+        "Account.TOTP.RecoveryCodes.Codes" : "Kódy:",
+        "Account.TOTP.Activate.Header" : "Aktivovat 2FA",
+        "Account.TOTP.Activate.Description" : "Pro aktivaci 2FA na vašem účtu použijte 6-ti číselný token generovaný vaší authentifikační aplikací. Toto je třeba pro ověření že vše funguje jak má.<br><br>Po aktivaci 2FA bude vyžadováno použití kódu pro potvrzení určitých operací.<br><br>Poznámka: Aktuálně je kód využíván pouze pro NCR transakce, ale jeho užití bude do budoucna rozšířeno i na přihlašování k účtu.",
+        "Account.TOTP.Activate.Token" : "6-ti číselný token:",
+        "Account.TOTP.Activate.TokenField" : "Zde zadejte váš token...",
+        "Account.TOTP.Activate.Activate" : "Aktivovat",
+        "Account.TOTP.Activate.Activating" : "Aktivuji...",
+        "Account.TOTP.Activate.InvalidToken" : "Neplatný token!",
+        "Account.TOTP.Message.AlreadySetup" : "2FA byla již na vašem účtu nastavena!",
+        "Account.TOTP.Message.Error" : "Neočekávaná chyba! Zkuste to prosím později.",
+        "Account.TOTP.Message.SetupComplete" : "<size=150%>Gratulujeme!</size><br><br>Váš účet má nyní nastavenu 2FA pro extra ochranu!<br><br>Nyní veškeré NCR interakce budou vyžadovat zadání vašeho 2FA kódu. Do budoucna bude toto rozšířeno i na přihlašování k účtu.",
+        "Account.TOTP.Deactivate.Header" : "Deaktivovat 2FA",
+        "Account.TOTP.Deactivate.Description" : "2FA je aktuálně <b><color=green>nastavena a aktivní na vašem účtu</color></b>. Pokud ji potřebujete deaktivovat (např. kvůli ztrátě telefonu nebo odtajnění kódů), můžete tak učinit zde.<br><br>Po deaktivaci můžete 2FA nastavit znovu, čímž vygenerujete nový tajný kód a novou sadu záchranných kódů.<br><br>Pokud ztratíte váš telefon, a potřebujete znovu nastavit 2FA, <b>DŮRAZNĚ</b> doporučujeme aby jste tak provedli okamžitě, jelikož každý záchranný kód lze použít pouze jednou, a jakmile všechny spotřebujete, ztratíte kompletně přístup k vašemu účtu.",
+        "Account.TOTP.Deactivate.Deactivate" : "Deaktivovat",
+        "Account.TOTP.Deactivate.Deactivating" : "Deaktivuji...",
+        "Account.TOTP.Message.DeactivationComplete" : "2FA byla na vašem účtu úspěšně deaktivována.<br><br>Váš účet je nyní více zranitelný!<br><br>Důrazně doporučujeme okamžitě znovu nastavit 2FA, obzvláště pokud jste využili záchranného kódu kvůli ztrátě telefonu.",
+
+        "2FA.Header" : "Ověření 2FA",
+        "2FA.Token" : "6-ti číselný token:",
 
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Pryč",
@@ -595,6 +628,7 @@
         "Importer.Image.Title" : "Import obrázku",
         "Importer.Image.Prompt" : "Co importujete?",
         "Importer.Image.Regular" : "Obrázek / Texturu",
+        "Importer.Image.Screenshot" : "Neos fotografie <size=50%>(pořízena zde)</size>",
         "Importer.Image.360" : "360° fotku / skybox",
         "Importer.Image.StereoPhoto" : "Stereo foto",
         "Importer.Image.Stereo360" : "Stereo 360° foto",
@@ -692,10 +726,10 @@
         "Credits.NCR.Description" : "Ethereum token s reálnou peněžní hodnotou",
         "Credits.KFC.Title" : "Kompletně Falešené Credity (<b>KFC</b>)",
         "Credits.KFC.Description" : "Testovací měna bez skutečné hodnoty",
-        "Credits.AmountPrompt" : "{action,select, send {Kolik chcete poslat?} withdraw {Kolik chcete vybrat?} tip {Kolik chcete tipovat?}}",
+        "Credits.AmountPrompt" : "{action,select, send {Kolik chcete poslat?} withdraw {Kolik chcete vybrat?} tip {Kolik chcete poslat jako spropitné?}}",
         "Credits.Amount" : "Množství: ",
         "Credits.Balance" : "Zůstatek: ",
-        "Credits.WithdrawalAddress" : "Adresa pro výběr: ",
+        "Credits.WithdrawalAddress" : "Adresa pro výběr:\n<color=red>Zkontrolujte si že vaše peněženka podporuje ERC-20 tokeny!</color>",
         "Credits.AnonymousTip" : "Anonymní spropitné: ",
         "Credits.TipMessage" : "Zpráva pro příjemce: ",
         "Credits.TransactionComment" : "Komentář transakce: ",
@@ -708,6 +742,7 @@
         "Credits.Sending" : "Posílám...",
         "Credits.Success" : "Úspěch!\nMůžete zavřít toto okno",
         "Credits.BlockchainWarning" : "Přesuny na blockchain mohou tvrat až 48 hodin.",
+        "Credits.TipConfirmation" : "Chystáte se poslat spropitné uživateli <b><color=#0ff>{username}</color></b>. Přejete si pokračovat?",
 
         "NewWorld.Title" : "Vytvořit svět",
         "NewWorld.Template" : "Typ světa:",
@@ -893,6 +928,7 @@
         "Settings.LegacyGripEquip" : "Povolit dvoj-klik gripu pro nasazení nástrojů",
         "Settings.LegacyWorldSwitcher" : "Povolit starý přepínač světů",
         "Settings.FetchIncompatibleSessions" : "Zobrazit nekompatibilní relace",
+        "Settings.DoNotSendReadStatus" : "Neposílat stav přečtení zpráv v reálném čase",
         "Settings.MaxConcurrentAssetTransfers" : "Maximální souběžné přenosy assetů",
         "Settings.AutosaveScreenshotPath" : "Cesta autom. ulož. screenshotů",
         "Settings.DebugInputBinding" : "Ladit mapování vstupů",
@@ -1027,6 +1063,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Vizualizovat bone bounding box",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Vizualizovat přibližné merged bone sphere bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Odstranit bone bounding box vizuály",
+
+        "Inspector.SimpleAvatarProtection.RemoveAll" : "Odstranit veškeré instance",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "ODSTRANIT Avatar Protection",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Získat diagnostické info rigu",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Generovat Ladicí Vizuály",
@@ -1281,7 +1320,7 @@
         "Tutorial.Intro.Website" : "Web",
         "Tutorial.Intro.OutroEnd" : "Pro podpoření projektu se můžete stát naším Patreon patronem.<br><br>Připojte se na náš Discord pro stavové aktualizace, síťování, nebo technickou podporu.",
 
-        "Tutorial.MTC.Avatars" : "Avataři a komunikace",
+        "Tutorial.MTC.Avatars" : "Avatar lobby",
         "Tutorial.MTC.Creation" : "Tvorba a užitečnost",
         "Tutorial.MTC.RecordingStreaming" : "Nahrávání a streamování",
         
@@ -1397,15 +1436,185 @@
         "Tutorial.Streaming.StageLights" : "Zap/Vyp osvětlení jeviště",
         "Tutorial.Streaming.StageLightController" : "Zap/Vyp ovladač osvětlení",
         "Tutorial.Streaming.StageMicrophone" : "Zap/Vyp stojan na mikrofon",
+
         "Tutorial.Streaming.GreenScreenControl" : "Ovládání green screenu",
         "Tutorial.Streaming.GreenScreenToggle360" : "Zap/Vyp 360<sup>o</sup> scénu",
         "Tutorial.Streaming.GreenScreenTracking" : "Zap/Vyp trackovací reference",
         "Tutorial.Streaming.GreenScreenMarker" : "Vytvořit tvořič Grabbables",
         "Tutorial.Streaming.GreenScreenCycleScene" : "Cyklovat scénu",
+
         "Tutorial.Streaming.StreamRoomControl" : "Ovládání streamovací místnosti",
         "Tutorial.Streaming.StreamRoomSkyWall" : "Obrázek Sky Wall",
         "Tutorial.Streaming.StreamRoomLayout" : "Nastavit rozložení",
+
         "Tutorial.Streaming.StageLightShadowToggle" : "Zap/Vyp stíny osvětlení",
+
+        "Tutorial.Streaming.Microphone.Title" : "Nástroj mikrofon",
+        "Tutorial.Streaming.Microphone.UsageDescription" : "Po nasazení <b><color=#ffdd77>MIKROFON TIPU</b></color> můžete nahrávat audio držením <b><color=#77ff77>PRIMÁRNÍHO</b></color> tlačítka.",
+        "Tutorial.Streaming.Microphone.AudioTypeDescription" : "Zvolte <b><color=#ffdd77>FORMÁT AUDIO SOUBORU</b></color> který chcete otevřením <b><color=#dd77ff>KONTEXTOVÉHO MENU</b></color> na ruce s nasazeným nástrojem.",
+        "Tutorial.Streaming.Microphone.RecordingDescription" : "Metodu <b><color=#ffdd77>NAHRÁVÁNÍ</b></color> můžete změnit pomocí možností v <b><color=#dd77ff>KONTEXTOVÉM MENU</b></color>.",
+        "Tutorial.Streaming.Microphone.RawDescription" : "Metoda <b><color=#ffdd77>AUDIO VÝSTUPU</b></color> může být změněna na <b><color=#ffdd77>RAW AUDIO</b></color> formát v <b><color=#dd77ff>KONTEXTOVÉM MENU</b></color>.",
+        
+        "Tutorial.Streaming.AudioStreaming.Title" : "Streamování audia",
+        "Tutorial.Streaming.AudioStreaming.StreamAudioDescription" : "Audio z vašeho počítače můžete streamovat d o Neosu, aby jej mohli slyšet i ostatní. Pro stramování audia, klepněte na tlačítko <b><color=#ffdd77>STREAMOVAT AUDIO</b></color> na domovské stránce vašeho dashboardu.",
+        "Tutorial.Streaming.AudioStreaming.StartStreamingDescription" : "Zvolte zařízení, které chcete streamovat ze seznamu <b><color=#ffdd77>AUDIO VSTUPŮ</b></color>. Zvolený vstup si můžete poslechnout v tomto panelu než začnete streamovat. Klikněte na tlačítko <b><color=#77ff77>SPUSTIT STREAMOVÁNÍ</b></color> pro otevření panelu streamování audia.",
+        "Tutorial.Streaming.AudioStreaming.StopStreamingDescription" : "<b><color=#ffdd77>PANEL STREAMOVÁNÍ AUDIA</b></color> umožňuje ostatním v relaci slyšet audio z vašeho počítače. Zavření panelu stream <b><color=red>ZASTAVÍ</b></color>.",
+        
+        "Tutorial.Streaming.StreamControl.SkyboxTexture" : "Sem vložte texturu Skyboxu",
+        
+        "Tutorial.Streaming.Twitch.TwitchChat" : "Twitch Chat",
+        
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Title" : "Fotoaparát",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title" : "Focení",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title" : "Ovládání zoomu v UI",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Title" : "Fyzické ovládání zoomu",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Title" : "Změna rozlišení",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Description" : "Pod tlačítkem <sprite name=2K> můžete najít několik možností pro volbu <color=#ffdd77><b>ROZLIŠENÍ</b></color> fotografií, které <color=#ffdd77><b>FOTOAPARÁT</b></color> pořizuje.",
+
+        "Tutorial.Streaming.Camera.Mode.Page1.Title" : "Standardní fotografie",
+        "Tutorial.Streaming.Camera.Mode.Page2.Title" : "3D fotografie",
+        "Tutorial.Streaming.Camera.Mode.Page3.Title" : "360° fotografie",
+        "Tutorial.Streaming.Camera.Mode.Page4.Title" : "Průhledná fotografie",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Title" : "Výchozí",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Title" : "Saturovaný",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Title" : "Černobílý",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Title" : "Sépie",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Title" : "Duha",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Title" : "Frustum",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Title" : "Časovač",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Title" : "Odrazy",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Title" : "Blesk",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Title" : "Velká obrazovka",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Title" : "Kde jej najít?",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Title" : "Použití",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Title" : "Základní funkce",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Description" : "Můžete <color=#77ff77><b>SPAWNOVAT</b></color> <color=#ffdd77><b>FOTOAPARÁT</b></color> ze <color=#dd77ff><b>SLOŽKY NEOS ESSENTIALS</b></color> ve vašem <color=#dd77ff><b>INVENTÁŘI</b></color>. Toto je váš hlavní nástroj pro <color=#77ff77><b>FOTOGRAFOVÁNÍ</b></color> v Neosu.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Description" : "<color=#77ff77><b>FOTOGRAFOVAT</b></color> můžete pomocí <color=#77ff77><b>PRIMÁRNÍ AKCE</b></color> na <color=#ffdd77><b>TLAČÍTKU</b></color> horní straně <color=#ffdd77><b>FOTOAPARÁTU</b></color> nebo <color=#77ff77><b>UCHOPENÍM</b></color> fotoaparátu kdekoliv<color=#dd77ff><b> NA TĚLE</b></color> a použitím <color=#77ff77><b>PRIMÁRNÍ AKCE</b></color>.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Description" : "Funkci <color=#ffdd77><b>ZOOM</b></color> můžete najít pod <sprite name=Options>. Interagovat s <color=#ffdd77><b>SLIDEREM ZOOMU</b></color> můžete pomocí <color=#77ff77><b>FYZICKÉ INTERAKCE</b></color> nebo použitím <color=#dd77ff><b>LASERŮ</b></color>, a <color=#77ff77><b>PRIMÁRNÍ AKCE</b></color>. ",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Description" : "Zároveň můžete také <color=#ffdd77><b>ZOOM</b></color> ovládat <color=#77ff77><b>UCHOPENÍM</b></color> <color=#dd77ff><b>OBJEKTIVU FOTOAPARÁTU</b></color> vaší volnou rukou, a fyzickým <color=#77ff77><b>KROUCENÍM</b></color> <color=#dd77ff><b>OBJEKTIVU</b></color>.",
+       
+        "Tutorial.Streaming.Camera.Mode.Page1.Description" : "<color=#ffdd77><b>ZÁKLDNÍ NASTAVENÍ</b></color> lze najít pod <sprite name=Camera> Ve výchozím stavu, <color=#ffdd77><b>FOTOAPARÁT</b></color> je nastaven na <color=#ffdd77><b>STANDARDNÍ FOTO</b></color>, což je nejčastěji používané nastavení <color=#ffdd77><b>FOTOAPARÁTU</b></color> pro <color=#77ff77><b>FOTOGRAFOVÁNÍ</b></color>. ",
+        "Tutorial.Streaming.Camera.Mode.Page2.Description" : "Nastavení <color=#ffdd77><b>3D FOTO</b></color> umožňuje <color=#77ff77><b>POŘÍDIT</b></color> snímky s iluzí hloubky, dosažené vytvořením stereoskopického snímku. Všimněte si, že tento efekt je viditelný pouze pomocí VR headsetu, a že <color=#dd77ff><b>SCREENSHOT</b></color> bude při uložení vypadat jako dva snímky uložené vedle sebe v jednom souboru.",
+        "Tutorial.Streaming.Camera.Mode.Page3.Description" : "Možnost <color=#ffdd77><b>360° FOTO</b></color> umožňuje <color=#77ff77><b>ZACHYCENÍ</b></color> <color=#dd77ff><b>EQUIREKTANGULÁRNNÍCH 360° SNÍMKŮ</b></color>, které mohou být využity v <color=#dd77ff><b>PROJECTION360 MATERIÁLU</b></color>, pro využítí jako <color=#dd77ff><b>SKYBOX</b></color>.",
+        "Tutorial.Streaming.Camera.Mode.Page4.Description" : "Možnost <color=#ffdd77><b>VÝSTŘIŽEK</b></color> umožňuje <color=#77ff77><b>VYTVOŘENÍ</b></color> <color=#dd77ff><b>VÝSTŘIŽKU</b></color>. <color=#ffdd77><b>FOTOAPARÁT</b></color> promítá z přední strany <color=#dd77ff><b>LASER</b></color>, který renderuje pouze <color=#dd77ff><b>OBJEKT</b></color> kterým prochází na transparentní pozadí, které je spawnováno jako <color=#dd77ff><b>ULOŽITELNÝ OBJEKT</b></color> a <color=#dd77ff><b>SCREENSHOT</b></color>.",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Description" : "<color=#ffdd77><b>OBRAZOVÉ FILTRY</b></color> můžete najít pod <sprite name=NoFilter>. Jako vždy, <color=#ffdd77><b>FOTOAPARÁT</b></color> je nastaven na <color=#ffdd77><b>VÝCHOZÍ</b></color> filtr.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Description" : "Filtr <color=#ffdd77><b>SATUROVANÝ</b></color> zvyšuje úroveň saturace barev a zároveň zvyšuje kontrast světlých a tmavých hodnot.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Description" : "Filtr <color=#ffdd77><b>ČERNOBÍLÝ</b></color> odstraňuje veškerou saturaci barev.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Description" : "Filtr <color=#ffdd77><b>SÉPIE</b></color> odstraňuje veškerou saturaci barev a posouvá jejich odstín pro emulaci vzhledu starých fotografií.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Description" : "Filtr <color=#ffdd77><b>DUHA</b></color> může být použit pro dodání barev do vašich fotografií.",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Description" : "<color=#ffdd77><b>POKROČILÁ NASTAVENÍ</b></color> lze najít pod <sprite name=OptionsPlus>. Ve výchozím stavu není žádná z těchto možností aktivní. <color=#ffdd77><b>FRUSTRUM</b></color> je první možnost ve sloupci - vytváří <color=#dd77ff><b>VISUÁL</b></color> znázorňující prostor viditelný na <color=#dd77ff><b>NÁHLEDOVÉ OBRAZOVCE</b></color> <color=#ffdd77><b>FOTOAPARÁTU</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Description" : "Možnost <color=#ffdd77><b>ČASOVAČ</b></color> může být <color=#77ff77><b>AKTIVOVÁNA</b></color> kliknutím na <sprite name=Timer>. Toto vytvoří 10ti sekundový odpočítávací časovač, který se spustí <color=#77ff77><b>POŘÍZENÍM</b></color> snímku použitím <color=#77ff77><b>PRIMÁRNÍ AKCE</b></color> na <color=#dd77ff><b>TLAČÍTKO</b></color> na vrchní straně <color=#ffdd77><b>FOTOAPARÁTU</b></color>, nebo <color=#77ff77><b>DRŽENÍM</b></color> <color=#dd77ff><b>TĚLA FOTOAPARÁTU</b></color> a stisknutím <color=#77ff77><b>TLAČÍTKA PRIMÁRNÍ AKCE</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Description" : "Možnost <color=#ffdd77><b>SCREENSPACE ODRAZY</b></color> povoluje odrazy odvozené od pohledu <color=#ffdd77><b>FOTOAPARÁTU</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Description" : "Možnost <color=#ffdd77><b>BLESK</b></color> může být <color=#77ff77><b>AKTIVOVÁNA</b></color> kliknutím na <sprite name=Lightning>. Toto vytvoří <color=#77ff77><b>ZÁBLESK</b></color> <color=#dd77ff><b>SVĚTLA</b></color> z vrchní části <color=#dd77ff><b>TĚLA FOTOAPARÁTU</b></color>, které <color=#77ff77><b>OSVĚTLÍ</b></color> <color=#dd77ff><b>SCÉNU</b></color>. ",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Description" : "Možnost <color=#ffdd77><b>VELKÁ OBRAZOVKA</b></color> může být <color=#77ff77><b>AKTIVOVÁNA</b></color> kliknutím na <sprite name=BigScreen>. Toto vytvoří větší <color=#dd77ff><b>NÁHLEDOVOU OBRAZOVKU</b></color> nad <color=#dd77ff><b>TĚLEM FOTOAPARÁTU</b></color>. Zároveň lze možnost také aktivovat použitím <color=#77ff77><b>PRIMÁRNÍ AKCE</b></color> nebo <color=#77ff77><b>FYZIKÁLNÍHO DOTYKU</b></color> na <color=#dd77ff><b>TLAČÍTKO</b></color> ve středu vrchní strany <color=#dd77ff><b>TĚLA FOTOAPARÁTU</b></color>.",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Description" : "<b><color=#ffdd77>CAMERA OBJECT EXCLUDE TIP</color></b> najdete ve vašem <b><color=#77ddff>INVENTÁŘI</b></color> ve složce <b><color=#77ddff>ESSENTIAL TOOLS --> MISC</Color></b>.",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Description" : "Po nasazení nástroje <b><color=#77ff77>NAMIŘTE</b></color> na objekt, který si přejete vynechat z pohledu kamery/fotoaparátu, a stiskněte <b><color=#77ff77>TLAČÍTKO SEKUNDÁRNÍ AKCE</b></color>. Stiskněte <b><color=#77ff77>TLAČÍTKO PRIMÁRNÍ AKCE</b></color> pro zrušení změny.",
+        
+        "Tutorial.Streaming.Camera.Resolution.Title" : "Rozlišení",
+        "Tutorial.Streaming.Camera.Mode.Title" : "Režim",
+        "Tutorial.Streaming.Camera.ImageFilters.Title" : "Obrazové filtry",
+        "Tutorial.Streaming.Camera.OptionsPlus.Title" : "Možnosti+",
+        "Tutorial.Streaming.Camera.ExcludeTip.Title" : "Camera Object Exclude Tip",
+        "Tutorial.Streaming.Camera.Intro.Title" : "Tutoriál fyzického fotoaparátu",
+
+        "Tutorial.Streaming.Camera.Intro.Description" : "Naučte se všechny funkce fyzického fotoaparátu",
+        
+        "Tutorial.Streaming.LightTip.Intro.Title" : "Light Tip tutoriál",
+        "Tutorial.Streaming.LightTip.Intro.Description" : "Naučte se všechny funkce light tipu",
+
+        "Tutorial.Streaming.LightTip.Titles.BasicUsage" : "Základní použití",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfLights" : "Typy světel",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfShadows" : "Typy stínů",
+        "Tutorial.Streaming.LightTip.Titles.ChangingColor" : "Změna barvy",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Title" : "Light Tip",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Title" : "Tvorba světla",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Title" : "Bodové",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title" : "Kuželové",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Title" : "Slunce/Směrové",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Title" : "Žádné stíny",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Title" : "Ostré stíny",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Title" : "Jemné stíny",
+
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Panel výběru barvy",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "Můžete <color=#77ff77><b>SPAWNOVAT</b></color> <color=#ffdd77><b>LIGHT TIP</b></color> ze složky <color=#dd77ff><b>NEOS ESSENTIALS</b></color> ve vašem <color=#dd77ff><b>INVENTÁŘI</b></color>. Toto je váš hlavní nástroj pro <color=#77ff77><b>PŘIDÁVÁNÍ SVĚTEL</b></color> do světů v Neosu.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "Ve výchozím stavu, <color=#ffdd77><b>LIGHT TIP</b></color> vytváří <color=#dd77ff><b>BODOVÉ SVĚTLO</b></color>, když je <color=#77ff77><b>STISKNUTO TLAČÍTKO PRIMÁRNÍ AKCE</b></color>. Když je <color=#77ff77><b>TLAČÍTKO PRIMÁRNÍ AKCE</b></color> drženo, tažením je ovlivňován <color=#dd77ff><b>JAS</b></color> světla, v závislosti na <color=#dd77ff><b>VZDÁLENOSTI</b></color>, kterou byla ruka <color=#77ff77><b>TAŽENA</b></color>.",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "<color=#ffdd77><b>BODOVÉ SVĚTLO</b></color> vytvoří světlo, <color=#77ff77><b>OSVĚTLUJÍCÍ</b></color> všechny směry z jednoho, s <color=#dd77ff><b>OPADAJÍCÍ INTENZITOU</b></color>.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Description" : "<color=#ffdd77><b>KUŽELOVÉ SVĚTLO</b></color> vytvoří světlo, <color=#77ff77><b>OSVĚTLUJÍCÍ</b></color> v jednom směru, ve tvaru kuželu,vycházejícího z jednoho bodu s <color=#dd77ff><b>OPADAJÍCÍ INTENZITOU</b></color>.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Description" : "<color=#ffdd77><b>SMĚROVÉ SVĚTLO</b></color> vytvoří světlo, <color=#77ff77><b>OSVĚTLUJÍCÍ</b></color> svět v jednom směru bez <color=#dd77ff><b>OPADAJÍCÍ INTENZITY</b></color>.",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description" : "<b><color=#77ff77>OBJEKTY</b></color> <b><color=red>NEBUDOU</b></color> mít žádné stíny.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "<b><color=#77ff77>OBJEKTY</b></color> budou mít stíny s ostrými okraji.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "<b><color=#77ff77>OBJEKTY</b></color> budou mít stíny s jemnými okraji.",
+
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "<b><color=#ffdd77>BARVU</b></color> <b><color=#ffdd77>SVĚTLA</b></color> můžete upravit pomocí možnosti <b><color=#77ff77>ZMĚNIT BARVU</b></color> v <b><color=#77ff77>KONTEXTOVÉM MENU</b></color>.",
+        
+        "Tutorial.Streaming.StreamCamera.CameraControl.Title" : "Ovládání kamery",
+        "Tutorial.Streaming.StreamCamera.Overview.Title" : "Přehled ovládání kamery",
+        "Tutorial.Streaming.StreamCamera.ControlMovement.Title" : "Ovládání pohybu kamery",
+        "Tutorial.Streaming.StreamCamera.Zoom.Title" : "Ovládání zoomu",
+        "Tutorial.Streaming.StreamCamera.SmoothPOV.Title" : "Stabilizovaný pohled 1. osoby",
+        "Tutorial.Streaming.StreamCamera.ThirdPerson.Title" : "Pohled 3. osoby",
+        "Tutorial.Streaming.StreamCamera.Group.Title" : "Skupina",
+        "Tutorial.Streaming.StreamCamera.World.Title" : "Svět",
+        "Tutorial.Streaming.StreamCamera.Manual.Title" : "Manuální",
+        "Tutorial.Streaming.StreamCamera.Mirror.Title" : "Poslat na monitor",
+
+        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "Pro <b><color=#77ff77>SPAWNONVÁNÍ</color></b> <b><color=#ffdd77>KOTVY KAMERY</b></color>, stiskněte tlačítko <b><color=#77ddff>VYTVOŘIT KOTVU KAMERY</b></color> na levé straně vašeho UI. Po vytvoření můžete na ni snapovat vaši kameru, a to tak, že ji vyberete <b><color=#77ff77>TLAČÍTKEM PRIMÁRNÍ AKCE</b></color>.",
+
+        "Tutorial.Streaming.StreamCamera.Photo.Title" : "Foto",
+        "Tutorial.Streaming.StreamCamera.360.Title" : "360° Foto",
+        "Tutorial.Streaming.StreamCamera.Users.Title" : "Uživatelé",
+        "Tutorial.Streaming.StreamCamera.CameraOptions.Title" : "Možnosti kamery",
+        "Tutorial.Streaming.StreamCamera.Anchor.Title" : "Spawnování kotvy",
+        "Tutorial.Streaming.StreamCamera.ExtraCameraControls.Title" : "Extra ovládání kamery",
+        "Tutorial.Streaming.StreamCamera.MotionSettings.Title" : "Nastavení pohybu kamery",
+        "Tutorial.Streaming.StreamCamera.AnchorSettings.Title" : "Nastavení kotvy kamery",
+        "Tutorial.Streaming.StreamCamera.OBS.Title" : "Propojení s OBS",
+        "Tutorial.Streaming.StreamCamera.Twitch.Title" :"Propojení s Twitchem",
+
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page1.Description" : "Můžete <color=#77ff77><b>SPAWNOVAT</b></color> <b><color=#ffdd77>OVLÁDACÍ PANEL KAMERY</b></color> z <b><color=#ffdd77>NEOS DASHBOARDU</b></color> na záložce domů, na facetu nazavném Kamera/Streamování. Toto je váš hlavní nástroj pro streamování z Neosu.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description" : "<b><color=#ffdd77>OVLÁDACÍ PANEL KAMERY</b></color> má mnoho různých funkcí, které můžete použít k vylepšení kvality vašich streamů/video nahrávek. Tyto funkce zahrnují pohyb kamery, režimy, kotvy, nastavení, Twitch chat a více.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "Pohybovou funkci <b><color=#ffdd77>OVLÁDACÍHO PANELU KAMERY</b></color> můžete najít v horním levém rohu náhledové obrazovky. Pomocí této funkce můžete upravit pohled a pozici kamer. Dále můžete kliknout na tlačítko Reset pro reset pozice kamery.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description" : "Pro ovládání <color=#ffdd77><b>ZOOMU</b></color>, použijte <b><color=#77ff77>PRIMÁRNÍ AKCI</b></color> na šedý proužek na spodní části náhledové obrazovky, a posuťe posuvník vpravo nebo vlevo.",
+
+        "Tutorial.Streaming.StreamCamera.Modes.Page1.Description" : "Režim <b><color=#ffdd77>STABILIZOVANÝ POHLED 1. OSOBY</b></color> nastaví kameru na váš pohled z první osoby a vyhladí veškeré pohyby.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page2.Description" : "Režim <b><color=#ffdd77>3. OSOBY</b></color> vám umožňuje dívat se na sebe z vnější perspektivy. Pozici kamery můžete upravit pomocí ovládání pohybu kamery na náhledové obrazovce.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page3.Description" : "Režim <b><color=#ffdd77>SKUPINA</b></color> automaticky upravuje svůj pohled pro udržení uživatelů poblíž uvnitř pohledu.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page4.Description" : "Režim <b><color=#ffdd77>SVĚT</b></color> udržuje kameru stacionární, a sleduje uživatele.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page5.Description" : "<b><color=#ffdd77>MANUÁLNÍ</b></color> režim vám umožňuje používat streamovací kameru jako fyzickou kameru.",
+
+        "Tutorial.Streaming.StreamCamera.Functions.Page1.Description" : "<b><color=#ffdd77>POSLAT NA MONITOR</b></color> změní váš desktopový náhled z VR headsetu na pohled streamovací kamery - tato možnost by měla být používána při streamování. ",
+        "Tutorial.Streaming.StreamCamera.Functions.Page2.Description" : "<b><color=#ffdd77>FOTO</b></color> sejme snímek aktuálního pohledu kamery. Tyto snímky se uloži do vaší knihovny snímků obrazovky.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page3.Description" : "<b><color=#ffdd77>360° FOTO</b></color> pořídí 360° sníme scény z aktuální pozice kamery. Tyto fotografie se uloží do vaší knihovny snímků obrazovky.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page4.Description" : "Obrazovka <b><color=#ffdd77>UŽIVATELÉ</b></color> vám umožňuje měnit pohled kamery na perspektivu jiného uživatele, zároveň také modifikovat hlasitosti a povolení kamery pro každou osobu.",
+
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page5.Description" : "<b><color=#ffdd77>MANUÁLNÍ</b></color> režim vám umožňuje využívat streamovací kameru jako fyzickou kameru.",
+
+        "Tutorial.Streaming.StreamCamera.Intro.Title" : "Tutoriál streamovací kamery",
+        "Tutorial.Streaming.StreamCamera.Intro.Description" : "Naučte se všechny funkce streamovací kamery",
+
+        "Tutorial.Streaming.StreamCamera.Options.Page1.Description" : "<b><color=#ffdd77>MOŽNOSTI OVLÁDÁNÍ</b></color> můžet nalézt úplně na levé okraji UI. Zde můžete měnit nastavení podobná jako u fyzické kamery, zároveň také rendering jmenovek a další.",
+
+        "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "Extra možnosti ovládání kamery lze nalézt na úplně pravém okraji UI, stisknutím ikony <b><color=#77ddff>OZUBENÉHO KOLEČKA</b></color> vpravo nahoře na náhledové obrazovce. Zde můžete nastavit možnosti renderování, kontroly uživatelů, a vzdálenosti následování.",
+        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "Ikona <b><color=#77ddff>ŠIPKY</b></color> otevírá panel ovládající pohyb kamery. Toto může zahrnovat pozici, úhel, a zorné pole kamery pro různé přednastavené pohledy.",
+        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "Ikona <b><color=#77ddff>WAYPOINTU</b></color> otevírá panel pro ovládání kotev kamery. Toto je užitečné pro přepínání na různé kotvy kamery připravené ve světě, a také upravu rychlosti interpolace mezi nimi.",
+        "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "Ikona <b><color=#77ddff>OBS</b></color> otevírá panel pro připojení k OBS. Toto vám umožňuje rychle zahájit nahrávání pomocí OBS.",
+        "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "Ikona <b><color=#77ddff>TWITCH</b></color> vám umožňuje zobrazit váš Twitch chat. Váš kanál můžete připojit napsáním jména kanálu do pole vlevo nahoře.",
 
         "Exiting.SavingItems" : "Ukládám {n, plural, one {# položku} few {# položky} other {# položek}}...",
         "Exiting.SavingChanges" : "Ukládám změny...",
