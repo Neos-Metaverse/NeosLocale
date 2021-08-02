@@ -209,7 +209,7 @@
         "World.Category.Tutorials": "자습서",
         "World.Category.Educational": "교육",
         "World.Category.MyWorlds": "나의 월드",
-        "World.Category.Custom": "사용자 설정 월드",
+        "World.Category.Custom": "검색조건 지정",
 
         "World.AccessLevel.Anyone": "누구나",
         "World.AccessLevel.RegisteredUsers": "Neos 가입자",
@@ -903,7 +903,7 @@
         "Inspector.Mesh.BlendshapeCount" : "블렌드셰이프 수: {n}",
         "Inspector.Mesh.ChannelStats" : "일반: {normals}, 접선: {tangents}, 색상: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
-        "Inspector.Mesh.BakeMesh" : "베이크 메쉬",
+        "Inspector.Mesh.BakeMesh" : "메쉬 베이크",
         "Inspector.Mesh.ResaveMesh" : "메쉬 다시 저장",
         "Inspector.Mesh.RecalculateNormals" : "방향(Normal) 재계산",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "방향(Normal) 재계산(스무스 셰이딩)",
@@ -924,7 +924,7 @@
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo" : "버텍스 본(Bone) 가중치를 조정:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bone} other {# Bones}}",
-        "Inspector.Mesh.UV_Multiplicator" : "Multiplicator:",
+        "Inspector.Mesh.UV_Multiplicator" : "다중복사:",
         "Inspector.Mesh.ScaleUVs" : "스케일 UVs",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "동일 머티리얼을 사용하는 서브메쉬 병합",
@@ -1591,6 +1591,32 @@
         "Account.TOTP.Deactivate.Deactivate" : "비활성",
         "Account.TOTP.Deactivate.Deactivating" : "기능을 끄는 중입니다.",
         "Account.TOTP.Message.DeactivationComplete" : "2FA(2차인증)이 비활성화 되었습니다.<br><br>계정의 보안등급이 낮아졌습니다!<br><br>휴대전화 분실 등으로 복구코드를 사용하신 경우, 즉시 재설정하는것을 추천합니다.",
+		
+        "Inspector.Slot.AttachComponent" : "구성요소(Component) 추가",
+
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>우 / <b>-</b>좌",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>상 / <b>-</b>하",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>전 / <b>-</b>후",
+
+        "Inspector.Slot.Reset.Label" : "초기화:",
+        "Inspector.Slot.Reset.Position" : "위치",
+        "Inspector.Slot.Reset.Rotation" : "회전",
+        "Inspector.Slot.Reset.Scale" : "배율",
+
+        "Inspector.Slot.CreatePivotAtCenter" : "슬롯의 중심점 위치를 보정",
+
+        "Inspector.Slot.JumpTo" : "찾아가기",
+        "Inspector.Slot.BringTo" : "불러오기",
+        "Inspector.Slot.BringTo.Undo" : "내 위치로 {name} 불러오기",
+
+        "Inspector.Slot.ParentUnder.Label" : "부모 지정:",
+        "Inspector.Slot.ParentUnder.WorldRoot" : "월드 루트",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "루트를 {name}의 부모 슬롯으로 지정",
+        "Inspector.Slot.ParentUnder.LocalUserSpace" : "로컬 사용자 영역",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "로컬 사용자 영역을 {name}의 부모 슬롯으로 지정",
+		
+        "Inspector.Mesh.SetupRenderer" : "렌더러 추가하기",
+        "Inspector.Texture.BakeTexture" : "텍스쳐 베이크",
 
         "Dummy": "더미"
     }
