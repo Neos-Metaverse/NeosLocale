@@ -1577,7 +1577,7 @@
 
         "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Select Color Panel",
 
-        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "You can <color=#77ff77><b>SPAWN</b></color> a <color=#ffdd77><b>LIGHT TIP</b></color> from the <color=#dd77ff><b>NEOS ESSENTIALS</b></color> folder within your <color=#dd77ff><b>INVENTORY</b></color>. This is your main tool for <color=#77ff77><b>ADDING LIGHTS</b></color> to worlds in Neos.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "You can <color=#77ff77><b>SPAWN</b></color> a <color=#ffdd77><b>LIGHT TIP</b></color> from the <color=#dd77ff><b>ESSENTIAL TOOLS</b></color> folder within your <color=#dd77ff><b>INVENTORY</b></color>. This is your main tool for <color=#77ff77><b>ADDING LIGHTS</b></color> to worlds in Neos.",
         "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "By default the <color=#ffdd77><b>LIGHT TIP</b></color> creates a <color=#dd77ff><b>POINT LIGHT</b></color> when <color=#77ff77><b>PRIMARY</b></color> is used. When <color=#77ff77><b>PRIMARY</b></color> is held and dragged, the <color=#dd77ff><b>BRIGHTNESS</b></color> of the light is affected based on the <color=#dd77ff><b>DISTANCE</b></color> the hand is <color=#77ff77><b>DRAGGED</b></color>.",
 
         "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "The <color=#ffdd77><b>POINT LIGHT</b></color> creates a light that <color=#77ff77><b>ILLUMINATES</b></color> every direction from a single point with <color=#dd77ff><b>INTENSITY FALLOFF</b></color>.",

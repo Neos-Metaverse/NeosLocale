@@ -1208,7 +1208,7 @@
         "Wizard.AssetOptimization.RecompressTextures" : "Пересжать текстуры",
         "Wizard.AssetOptimization.RecalculateAllNormals" : "Пересчитать все нормали",
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Пересчитать все нормали (слияние)",
-        "Wizard.AssetOptimization.RecalculateAllTangents" : "Пересчитать все касательные (Mikktspace)",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Пересчитать все тангенты (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult" : "Масштабировано {n}",
 
         "Wizard.LightSources.Title" : "Мастер источников света",
@@ -1577,7 +1577,7 @@
 
         "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Панель выбора цвета",
 
-        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "Вы можете <color=#77ff77><b>вызвать</b></color> <color=#ffdd77><b>световой инструмент</b></color> из папки <color=#dd77ff><b>Neos Essentials</b></color> в вашем <color=#dd77ff><b>инвентаре</b></color>. Это основной инструмент для <color=#77ff77><b>создания источников света</b></color> в мирах Neos.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "Вы можете <color=#77ff77><b>вызвать</b></color> <color=#ffdd77><b>световой инструмент</b></color> из папки <color=#dd77ff><b>Essential Tools</b></color> в вашем <color=#dd77ff><b>инвентаре</b></color>. Это основной инструмент для <color=#77ff77><b>создания источников света</b></color> в мирах Neos.",
         "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "По умолчанию, <color=#ffdd77><b>световой инструмент</b></color> создает <color=#dd77ff><b>точечный источник света</b></color> при целчке <color=#77ff77><b>первичной кнопкой</b></color>. Если зажать <color=#77ff77><b>первичную кнопку</b></color> и перемещать контроллер, будет регулироваться <color=#dd77ff><b>яркость</b></color> источника света в зависимости от <color=#dd77ff><b>расстояния</b></color> до <color=#77ff77><b>руки</b></color>.",
 
         "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "<color=#ffdd77><b>Точечный источник света</b></color> <color=#77ff77><b>освещает</b></color> равномерно во всех направлениях от одной точки с <color=#dd77ff><b>затуханием яркости</b></color>.",
