@@ -1641,6 +1641,13 @@
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "Иконка <b><color=#77ddff>OBS</b></color> открывает панель для настройки связи с OBS. Из неё можно быстро начать запись в OBS.",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "Иконка <b><color=#77ddff>TWITCH</b></color> показывает вам ваш чат Twitch. Вы можете привязать свой канал, введя его название в верхее левое поле.",
 
+        "Twitch.Panel.Button.Commands.Enabled" : "Команды включены",
+        "Twitch.Panel.Button.Commands.Disabled" : "Команды отключены",
+        "Twitch.Panel.Button.SafeMode.Enabled" : "Безопасный режим включен",
+        "Twitch.Panel.Button.SafeMode.Disabled" : "Безопасный режим выключен",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled" : "Команды подписчиков<br> Включены только для подписчиков",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled" : "Команды подписчиков<br> Включены для всех",
+        "Twitch.Panel.Title.Text" : "Чат Twitch",
 
         "Exiting.SavingItems" : "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
         "Exiting.SavingChanges" : "Сохранение Изменений...",
