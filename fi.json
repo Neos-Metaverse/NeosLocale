@@ -20,6 +20,8 @@
         "General.Saving" : "Tallennetaan...",
         "General.Saved" : "Tallennettu!",
         "General.Done" : "Valmis!",
+        "General.Close" : "Sulje",
+        "General.CopyToClipboard" : "Kopioi leikepöydälle",
         "General.CopiedToClipboard" : "Kopioitu!",
         "General.CopiedToClipboardLong" : "Kopioitu leikepöydälle!",
         "General.Create" : "Luo",
@@ -39,7 +41,7 @@
         "Locomotion.Fly.Description" : "Fyysinen lentotila",
         "Locomotion.WalkRun.Name" : "Kävely/Juoksu",
         "Locomotion.WalkRun.Description" : "Kävely, juoksu ja hyppiminen.",
-        "Locomotion.WalkRunGripping.Name" : "Kävely/Juoksu (Kiipeilyllä)",
+        "Locomotion.WalkRunGripping.Name" : "Kävely/Juoksu (kiipeilyllä)",
         "Locomotion.WalkRunGripping.Description" : "Kävely, juoksu, hyppiminen ja kiipeily.",
         "Locomotion.ZeroG.Name" : "Painottomuus",
         "Locomotion.ZeroG.Description" : "Painovoimaton tila",
@@ -72,6 +74,7 @@
         "Interaction.EquipAvatar" : "Vaihda avatar",
 
         "Interaction.SaveAsScreenshot" : "Tallenna kuvana",
+        "Interaction.ExportScreenshot" : "Vie kuva",
         "Interaction.ImportFile" : "Tuo tiedosto",
         "Interaction.ExportFile" : "Vie tiedosto",
         "Interaction.CopyLink" : "Kopioi linkki",
@@ -214,7 +217,7 @@
         "World.Detail.ModifyDate" : "Viimeksi päivitetty",
         "World.Detail.Visits" : "Vierailut",
 
-        "World.Detail.Tags" : "Tunnisteet",
+        "World.Detail.Tags" : "Tägit",
         "World.Detail.ActionsHeader" : "Toiminnot:",
 
         "World.Category.Everything" : "Kaikki",
@@ -286,6 +289,7 @@
         "Tools.WithdrawNCR" : "Nosta NCR",
         "Tools.Debug" : "Debugi",
         "Tools.StreamAudio" : "Äänen suoratoisto",
+        "Tools.Setup2FA" : "Määritä 2FA",
 
         "Tools.StreamAudio.Start" : "Aloita suoratoisto",
         "Tools.StreamAudio.Bitrate" : "Bittinopeus: {bitrate} kbps",
@@ -346,7 +350,34 @@
         "Account.ErrorPasswordMismatch" : "Salasanat eivät täsmää!",
         "Account.ErrorEmailMismatch" : "Sähköpostit eivät täsmää!",
         "Account.ErrorLoginError" : "Kirjautumisvirhe:",
-        "Account.RegistrationSuccess" : "Onnistui! Vahvistuslinkki on lähetetty sähköpostiisi. Kun avaat tämän linkin, voit kirjautua sisään.",
+        "Account.RegistrationSuccess" : "Onnistui! Vahvistuslinkki on lähetetty sähköpostiin: {email} Kun avaat tämän linkin, voit kirjautua sisään. Jos kirjautumisessa on ongelmia, ota meihin yhteyttä osoitteessa hello@neos.com tai discord.gg/neosvr.",
+
+        "Account.TOTP.Initializing" : "Tarkistetaan tilisi 2FA-tila...",
+        "Account.TOTP.Code.Header" : "Salainen koodi",
+        "Account.TOTP.Code.Description" : "Ensin sinun on syötettävä salainen koodi TOTP-todennussovellukseesi, kuten <b>Authy</b> tai <b>Google Authenticator</b>.<br><br>Suosittelemme tämän tekemistä skannaamalla QR-koodin, mutta vaihtoehtoisesti voit syöttää salaisen koodin manuaalisesti. <b>Älä koskaan jaa tätä koodia kenenkään kanssa.</b><br><br>Jos olet VR-tilassa, voit siirtyä työpöytätilaan painamalla F8.",
+        "Account.TOTP.Code.QRCode" : "Skannaa QR-koodi",
+        "Account.TOTP.Code.Key" : "Salainen koodi:",
+        "Account.TOTP.RecoveryCodes.Header" : "Palautuskoodit",
+        "Account.TOTP.RecoveryCodes.Description" : "Tallenna nämä koodit turvalliseen paikkaan. Niitä voidaan käyttää tilisi palauttamiseen, jos kadotat tai rikot puhelimesi. Kutakin koodia voidaan käyttää vain kerran. <b>Älä koskaan jaa niitä kenellekään.</b> Jos kadotat ne, menetät <color=red>PYSYVÄSTI</color> pääsyn tilillesi.",
+        "Account.TOTP.RecoveryCodes.Codes" : "Koodit:",
+        "Account.TOTP.Activate.Header" : "Aktivoi 2FA",
+        "Account.TOTP.Activate.Description" : "Aktivoi tilisi 2FA käyttämällä autentikointisovelluksesi luomaa 6-numeroista tunnusta varmistaaksesi, että kaikki toimii oikein.<br><br>Kun se on aktivoitu, sinun on käytettävä koodia tiettyjen toimintojen vahvistamiseen.<br><br>Huomaa: Koodia käytetään tällä hetkellä vain NCR-siirtoihin, mutta tulevaisuudessa myös tilille kirjautumiseen.",
+        "Account.TOTP.Activate.Token" : "6-numeroinen tunnus:",
+        "Account.TOTP.Activate.TokenField" : "Kirjoita tunnuksesi tähän...",
+        "Account.TOTP.Activate.Activate" : "Aktivoi",
+        "Account.TOTP.Activate.Activating" : "Aktivoidaan...",
+        "Account.TOTP.Activate.InvalidToken" : "Virheellinen tunnus!",
+        "Account.TOTP.Message.AlreadySetup" : "2FA on jo määritetty tilillesi!",
+        "Account.TOTP.Message.Error" : "Odottamaton virhe! Yritä uudelleen myöhemmin.",
+        "Account.TOTP.Message.SetupComplete" : "<size=150%>Onnittelut!</size><br><br>Tilisi on nyt suojattu 2FA:lla!<br><br>Tällä hetkellä kaikki NCR-siirrot edellyttävät koodisi syöttämistä. Voit halutessasi ottaa 2FA:n käyttöön myös tilille kirjautumiseen komennolla /enableLogin2FA, mutta huomaa, että tämä vaatii sinua käyttämään /webLogin komentoa ennen kirjautumista account.neos.com sivulle",
+        "Account.TOTP.Deactivate.Header" : "Poista 2FA käytöstä",
+        "Account.TOTP.Deactivate.Description" : "2FA on tällä hetkellä <b><color=green>määritetty ja aktiivinen tililläsi</color></b>. Jos haluat poistaa sen käytöstä (esim. puhelimen kadottamisen tai koodien vaarantumisen vuoksi), voit tehdä sen täällä.<br><br>Käytöstä poistaminen jälkeen voit määrittää 2FA:n uudelleen, tämä luo uuden salaisen koodin ja uudet palautuskoodit.<br><br>Jos kadotat puhelimesi ja sinun on määritettävä 2FA uudelleen, suosittelemme, että teet sen heti, koska kutakin palautuskoodia voidaan käyttää vain kerran. Kun koodit ovat käytetty, tilisi on lukossa ja et voi enään kirjautua sisään.",
+        "Account.TOTP.Deactivate.Deactivate" : "Poista käytöstä",
+        "Account.TOTP.Deactivate.Deactivating" : "Poistetaan käytöstä...",
+        "Account.TOTP.Message.DeactivationComplete" : "2FA on poistettu käytöstä.<br><br>Tililläsi on nyt lisääntynyt riski!<br><br>Suosittelemme 2FA:n uudelleen käyttöön ottamista, varsinkin jos käytit palautuskoodia puhelimesi hukkaamisen vuoksi.",
+
+        "2FA.Header" : "2FA-vahvistus",
+        "2FA.Token" : "6-numeroinen tunnus:",
 
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Poissa",
@@ -497,7 +528,7 @@
         "Tooltip.Material.ConvertAll" : "Muunna KAIKKI...",
         "Tooltip.Material.CreateNew" : "Luo uusi",
 
-        "Tooltip.Mesh.Edit" : "Muokkaa verkkoa",
+        "Tooltip.Mesh.Edit" : "Muokkaa tahkoverkkoa",
 
 
 
@@ -597,7 +628,7 @@
         "Importer.Image.Title" : "Kuva",
         "Importer.Image.Prompt" : "Mitä tuot?",
         "Importer.Image.Regular" : "Kuva / Tekstuuri",
-
+        "Importer.Image.Screenshot" : "Neos kuva <size=50%>(otettu täällä)</size>",
         "Importer.Image.360" : "360 kuva / Skybox",
         "Importer.Image.StereoPhoto" : "Stereokuva",
         "Importer.Image.Stereo360" : "360 stereokuva",
@@ -695,10 +726,10 @@
         "Credits.NCR.Description" : "Ethereum kolikko jolla todellista arvoa",
         "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "Neoksen testikolikko jolla ei todellista arvoa",
-
+        "Credits.AmountPrompt" : "{action,select, send {Paljonko haluat lähettää?} withdraw {Paljonko haluat nostaa?} tip {Paljonko haluat tipata?}}",
         "Credits.Amount" : "Määrä: ",
         "Credits.Balance" : "Saldo: ",
-        "Credits.WithdrawalAddress" : "Nosto-osoite: ",
+        "Credits.WithdrawalAddress" : "Nosto-osoite:\n<color=red>Varmista, että lompakkosi tukee ERC-20 tokeneita!</color>",
         "Credits.AnonymousTip" : "Anonyymi tippi: ",
         "Credits.TipMessage" : "Tipin viesti: ",
         "Credits.TransactionComment" : "Tapahtuman kommentti: ",
@@ -706,12 +737,12 @@
         "Credits.Recipient" : "Vastaanottaja:",
         "Credits.Conversion" : "Muuntaminen:",
         "Credits.Comment" : "Kommentti:",
-        "Credits.SendWarning" : "Olet lähettämässä oikeaa rahaa, varmista että tiedot ovat oikein.",
+        "Credits.SendWarning" : "Olet lähettämässä oikeaa rahaa. Varmista, että tiedot ovat oikein.",
         "Credits.Send" : "Lähetä",
         "Credits.Sending" : "Lähettää...",
         "Credits.Success" : "Onnistui!\nVoit nyt sulkea ikkunan.",
         "Credits.BlockchainWarning" : "Huomaa, että siirto blockchainiin voi kestää jopa 48 tuntia.",
-
+        "Credits.TipConfirmation" : "Olet lähettämässä tipin henkilölle <b><color=#0ff>{username}</color></b>. Haluatko jatkaa?",
 
         "NewWorld.Title" : "Uusi Maailma",
         "NewWorld.Template" : "Mallimaailmat:",
@@ -751,20 +782,20 @@
         "FullBody.FinishPrompt" : "Valmis?",
         "FullBody.FinishCalibration" : "Full-Body kalibrointi valmis",
 
+        "FullBody.CalibrateAvatarTitle" : "Kalibroi avatar",
 
 
 
+        "FullBody.ResetAvatar" : "Nollaa kartoitus",
 
+        "FullBody.AvatarHeightCompensation" : "Avatarin pituuden kompensointi: {n, number, percent}",
+        "FullBody.ResetAvatarHeightCompensation" : "Nollaa pituuden kompensointi",
+        "FullBody.AvatarSaveWarning" : "Muista tallentaa avatar kalibroinnin jälkeen!",
+        "FullBody.FinishAvatarCalibration" : "Avatar kalibrointi valmis",
+        "FullBody.CalibrationFinishedInstructions" : "Jos kaikki näyttää hyvältä, voit sulkea kalibroinnin ja tallentaa avatarin.",
+        "FullBody.CloseCalibrator" : "Sulje kalibrointi",
 
-
-
-
-
-
-
-
-
-
+        "FullBody.ReturnToTrackerCalibration" : "Palaa trackerien kalibrointiin",
 
         "FullBody.Hips" : "Vyötärö",
         "FullBody.Feet" : "Jalat",
@@ -772,17 +803,17 @@
         "FullBody.Elbows" : "Kyynärpäät",
         "FullBody.Knees" : "Polvet",
 
+        "FullBody.TrackerMapped" : "Tracker kartoitettu",
+        "FullBody.NotTracking" : "Ei seurantaa...",
+        "FullBody.NoTracker" : "Trackeria ei kartoitettu",
+        "FullBody.FeetNotTracking" : "Jaloilla ei seurantaa...",
 
-
-
-
-
-
-
-
+        "FullBody.AvatarPointMapped" : "Kartoitettu",
+        "FullBody.AvatarPointNotMapped" : "Ei kartoitettu",
+        "FullBody.AvatarPointNoTracker" : "Ei trackeria",
 
         "CameraControl.Title" : "Kameran hallinta",
-        "CameraControl.MirroringOffWarning" : "PEILAUS POIS PÄÄLTÄ",
+        "CameraControl.MirroringOffWarning" : "PEILAUS ON POIS PÄÄLTÄ",
         "CameraControl.MirrorToDisplay" : "Peilaa näytölle",
         "CameraControl.TakePhoto" : "Kuva",
         "CameraControl.Take360Photo" : "360 kuva",
@@ -835,7 +866,7 @@
         "CameraControl.Control.AngleSmoothSpeed" : "Käännön tasoitusnopeus: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Kehystyksen tasoitusnopeus: {n}",
 
-
+        "CameraControl.OBS.IP" : "OBS Websocketin IP:",
         "CameraControl.OBS.Password" : "OBS salasana (valinnainen):",
         "CameraControl.OBS.Connect" : "Yhdistä",
         "CameraControl.OBS.Instructions" : "Varmista, että OBS on käynnissä ja obs-websocket on asennettu",
@@ -897,6 +928,7 @@
         "Settings.LegacyGripEquip" : "Ota vanha Double Grip käyttöön",
         "Settings.LegacyWorldSwitcher" : "Käytä vanhaa maailman vaihtajaa",
         "Settings.FetchIncompatibleSessions" : "Näytä yhteensopimattomat istunnot",
+        "Settings.DoNotSendReadStatus" : "Älä lähetä tietoa luetusta viestistä reaaliajassa",
         "Settings.MaxConcurrentAssetTransfers" : "Maksimimäärä samanaikaisia tiedostosiirtoja",
         "Settings.AutosaveScreenshotPath" : "Kuvankaappauksen automaattinen polku",
 
@@ -912,7 +944,7 @@
         "Settings.LaserSmoothing.Reset" : "Nollaa laaserin asetukset",
 
 
-
+        "Settings.Audio.Master" : "Pää-äänenvoimakkuus: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "Ääniefektit: {n,number,percent}",
 
         "Settings.Audio.Voice" : "Puhe: {n,number,percent}",
@@ -981,6 +1013,30 @@
         "Security.HostAccess.Allow" : "Salli",
         "Security.HostAccess.Deny" : "Estä",
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "Inspector.Mesh.StatsHeader" : "Tahkoverkon tiedot",
         "Inspector.Mesh.VertexCount" : "Kärkipisteiden määrä: {n}",
         "Inspector.Mesh.TriangleCount" : "Kolmioiden määrä: {n}",
@@ -991,6 +1047,7 @@
         "Inspector.Mesh.ChannelStats" : "Normaalit: {normals}, Tangentit: {tangents}, Värit: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "Beikkaa tahkoverkko",
+
         "Inspector.Mesh.ResaveMesh" : "Tallenna tahkoverkko uudelleen",
         "Inspector.Mesh.RecalculateNormals" : "Laske normaalit uudelleen",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Laske normaalit uudelleen (pehmeä sävytin)",
@@ -1035,19 +1092,21 @@
         "Inspector.SimpleAvatarProtection.RemoveAll" : "Poista KAIKKI avatar-suojaukset",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "Poista avatar-suojaus",
 
-
-
-
-
-
-
-
-
-
+        "Inspector.BipedRig.GetDiagnosticInfo" : "Hae rigin diagnostiikka info",
+        "Inspector.BipedRig.GenerateDebugVisuals" : "Generoi debug visuaalit",
+        "Inspector.BipedRig.ClearDebugVisuals" : "Piilota debug visuaalit",
+        "Inspector.BipedRig.DetectHands" : "Etsi käsi rigit",
+        "Inspector.BipedRig.DetectLeftHand" : "Etsi vasemman käden rigi",
+        "Inspector.BipedRig.DetectRightHand" : "Etsi oikean käden rigi",
+        "Inspector.BipedRig.HandRigResult" : "Valmis! Vasen: {left}, Oikea: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "Valmis! Löydetty vasen: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "Valmis! Löydetty oikea: {detected}",
 
         "Inspector.Texture.Size" : "Koko: {width} x {height}",
         "Inspector.Texture.Format" : "Formaatti: {format}, Muisti: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "Variantti-ID: {variant}",
+
+
 
         "Inspector.Texture.InvertRGB" : "Invertoi RGB",
         "Inspector.Texture.InvertR" : "Invertoi R",
@@ -1092,8 +1151,26 @@
         "Inspector.Material.VariantInfo" : "Variantti-ID: {variantID} (Raaka variantti-ID: {rawVariantID})",
         "Inspector.Material.WaitingForApply" : "Odottaa asetusta: {waiting}",
 
+        "Inspector.Audio.BakeAudio" : "Beikkaa audioklippi",
+        "Inspector.Audio.FormatInfo" : "Näytteenottotaajuus: {rate} Hz, Kanavat: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Kesto: {duration}, Näytemäärä: {samples}",
+        "Inspector.Audio.EncodingInfo" : "Koodekkitiedot: {info}, Täysin dekoodattu: {decoded}",
 
+        "Inspector.Audio.Normalize" : "Normalisoi äänenvoimakkuus",
+        "Inspector.Audio.AmplitudeThreshold" : "Amplitudin kynnys:",
+        "Inspector.Audio.TrimSilence" : "Trimmaa hiljaisuus",
+        "Inspector.Audio.TrimStartSilence" : "Trimmaa hiljaisuus alusta",
+        "Inspector.Audio.TrimEndSilence" : "Trimmaa hiljaisuus lopusta",
+        "Inspector.Audio.PositionDuration" : "Sijainti/kesto (sekunteina):",
+        "Inspector.Audio.TrimStart" : "Trimmaa alusta",
+        "Inspector.Audio.TrimEnd" : "Trimmaa lopusta",
+        "Inspector.Audio.FadeIn" : "Lisää sisäänfeidaus",
+        "Inspector.Audio.FadeOut" : "Lisää ulosfeidaus",
 
+        "Inspector.Audio.ToWAV" : "Muunna WAV formaattiin",
+        "Inspector.Audio.ToVorbis" : "Muunna OGG Vorbis formaattiin",
+        "Inspector.Audio.ToFLAC" : "Muunna FLAC formaattiin",
+        "Inspector.Audio.DenoiseRNNoise" : "Melunvaimennus (RNNoise, optimoitu puheeseen 48kHz taajuudella)",
 
 
 
@@ -1111,83 +1188,65 @@
 
 
 
+        "Inspector.Rig.GenerateDebugVisuals" : "Generoi debug visuaalit",
+        "Inspector.Rig.ClearDebugVisuals" : "Piilota debug visuaalit",
 
 
 
+        "Wizard.General.ProcessRoot" : "Prosessointipolku:",
+        "Wizard.General.Result" : "Tulos:",
+        "Wizard.General.ErrorNoRoot" : "Polkua ei määritetty",
+        "Wizard.General.RemovedResult" : "Poistettu {n}",
 
+        "Wizard.AssetOptimization.Title" : "Resurssien optimointi",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Siivoa käyttämättömät resurssit",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Siivoa tyhjät slotit",
 
 
 
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Aseta textuurien maksimiresoluutio",
+        "Wizard.AssetOptimization.RecompressTextures" : "Pakkaa tekstuurit uudelleen",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Laske kaikki normaalit uudelleen",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Laske kaikki normaalit uudelleen (yhdistetty)",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Laske kaikki tangentit uudelleen (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Muutettu {n}",
 
+        "Wizard.LightSources.Title" : "Maailman valonlähteet",
+        "Wizard.LightSources.Header" : "Skenen valonlähteet",
+        "Wizard.LightSources.ProcessRoot" : "Prosessointipolku:",
+        "Wizard.LightSources.PointLights" : "Pistevalot:",
+        "Wizard.LightSources.SpotLights" : "Spottivalot:",
+        "Wizard.LightSources.DirectionalLights" : "Suunnatut valot:",
+        "Wizard.LightSources.DisabledLights" : "Käytöstä poistetut valot:",
+        "Wizard.LightSources.WithTag" : "Tägillä:",
+        "Wizard.LightSources.SetShadowType" : "Aseta varjon tyyppi",
+        "Wizard.LightSources.ChangeIntensity" : "Vaihda intensiteetti",
+        "Wizard.LightSources.ChangeRange" : "Vaihda alue",
+        "Wizard.LightSources.Enable" : "Ota käyttöön",
+        "Wizard.LightSources.Disable" : "Poista käytöstä",
+        "Wizard.LightSources.Destroy" : "Poista/Tuhoa",
 
+        "Wizard.CubemapCreator.Title" : "Cubemap luoja",
+        "Wizard.CubemapCreator.Textures" : "Tekstuurien lähde:",
+        "Wizard.CubemapCreator.TexturesNote" : "Huomaa, että joissakin tapauksissa vasen ja oikea ovat päinvastaisia. Jos cubemap näyttää väärältä, kokeile vaihtaa vasen ja oikea keskenään.",
+        "Wizard.CubemapCreator.PosX" : "Positiivi X (oikea)",
+        "Wizard.CubemapCreator.NegX" : "Negatiivi X (vasen)",
+        "Wizard.CubemapCreator.PosY" : "Positiivi Y (ylä)",
+        "Wizard.CubemapCreator.NegY" : "Negatiivi Y (ala)",
+        "Wizard.CubemapCreator.PosZ" : "Positiivi Z (etu)",
+        "Wizard.CubemapCreator.NegZ" : "Negatiivi Z (taka)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Ylä/Ala kierto:",
 
+        "Wizard.ReflectionProbes.Title" : "Heijastusanturit",
+        "Wizard.ReflectionProbes.ProcessRoot" : "Prosessointipolku:",
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        "Wizard.ReflectionProbes.WithTag" : "Tägillä:",
+        "Wizard.ReflectionProbes.TeleportUserToProbe" : "Siirrä minut jokaiselle anturille",
+        "Wizard.ReflectionProbes.DelayBetweenProbes" : "Anturien välinen viive",
+        "Wizard.ReflectionProbes.ShowDebugVisuals" : "Näytä debug visuaalit",
+        "Wizard.ReflectionProbes.HideDebugVisuals" : "Piilota debug visuaalit",
+        "Wizard.ReflectionProbes.BakeProbes" : "Beikkaa anturit",
+        "Wizard.ReflectionProbes.Baking" : "Beikkaa {index} / {count}...",
 
         "Desktop.OpenKeyboard" : "Avaa näppäimistö",
         "Desktop.FollowCursor.On" : "Seuraa osoitinta: Päällä",
@@ -1304,7 +1363,7 @@
 
         "Tutorial.Tooltip.GeneralPrimary" : "Päätoiminto",
         "Tutorial.Tooltip.GeneralSecondary" : "Toissijainen toiminto",
-        "Tutorial.Tooltip.ContextMenu" : "Työkaluvalikko ja dequip option",
+        "Tutorial.Tooltip.ContextMenu" : "Työkaluvalikko ja kädestä irroitus",
         "Tutorial.Tooltip.DevPrimary" : "Liikuta valintaa (pidä liipaisinta)",
         "Tutorial.Tooltip.DevSecondary" : "Valitse (näyttää valinnan)",
         "Tutorial.Tooltip.Duplicator" : "Kopioi (samalla kun pidät kiinni)",
@@ -1361,8 +1420,8 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Pue avatari painamalla liipaisinta <br> ja valitsemalla 'Vaihda avatar'.<br><br>Tallenna nykyinen puettu avatarisi painamalla <sprite name=Download>  .<br><br>Voit myös lisätä avatarin suosikiksi <br>inventaariossa valitsemalla  <sprite name=Favorite>  .",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Tuodaksesi mukautetun avatarin Neokseen, tutustu <br> Neoksen avatarin luomis oppaaseen.",
 
-
-
+        "Tutorial.Intro.PublicFolders.Title" : "Julkiset kansiot",
+        "Tutorial.Intro.PublicFolders.Description" : "Julkiset kansiot ovat helppo tapa yhteisön käyttäjille jakaa ja päivittää luomuksiaan, kuten avatareja.<br><br>Tallentaaksesi kansion, ota siitä kiinni ja paina <sprite name=Add> inventaariossasi.<br><br>Voit myös tallentaa säde -valikolla.<br><br>Kokeile sitä kansiolla <b>The Starter Pack</b>. Tämä on uusille käyttäjille tarkoitettu kansio.",
 
         "Tutorial.AvatarCreator.Intro.Title" : "Neos avatarin tekeminen",
         "Tutorial.AvatarCreator.Intro.Description" : "Opi tuomaan avatarisi Neokseen",
@@ -1584,6 +1643,13 @@
 
 
 
+
+
+
+
+
+
+        "Exiting.SavingItems" : "Tallennetaan {n, plural, one {# kohde} other {# kohdetta}}...",
         "Exiting.SavingChanges" : "Tallennetaan muutoksia...",
         "Exiting.Exiting" : "Suljetaan...",
         "Exiting.LoggingOut" : "Kirjaudutaan ulos...",
