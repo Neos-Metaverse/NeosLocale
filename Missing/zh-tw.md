@@ -279,4 +279,11 @@ Tutorial.Streaming.StreamCamera.Features.Page2.Description
 Tutorial.Streaming.StreamCamera.Features.Page3.Description  
 Tutorial.Streaming.StreamCamera.Features.Page4.Description  
 Tutorial.Streaming.StreamCamera.Features.Page5.Description  
+Twitch.Panel.Button.Commands.Enabled  
+Twitch.Panel.Button.Commands.Disabled  
+Twitch.Panel.Button.SafeMode.Enabled  
+Twitch.Panel.Button.SafeMode.Disabled  
+Twitch.Panel.Button.SubscriberCommands.Enabled  
+Twitch.Panel.Button.SubscriberCommands.Disabled  
+Twitch.Panel.Title.Text  
 

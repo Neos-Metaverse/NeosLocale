@@ -2,10 +2,6 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
-General.Close  
-General.CopyToClipboard  
-Interaction.ExportScreenshot  
-Tools.Setup2FA  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  
 Account.TOTP.Code.Description  
@@ -32,10 +28,6 @@ Account.TOTP.Message.DeactivationComplete
 2FA.Header  
 2FA.Token  
 Undo.BatchConvertMaterials  
-Tooltip.Material.ConvertAll  
-Importer.Folder.Minecraft  
-Importer.Folder.Minecraft.Description  
-Importer.Image.Screenshot  
 Importer.Model.Advanced.ForcePointFiltering  
 Importer.Model.Advanced.ForceNoMipMaps  
 Importer.Model.Advanced.ForceUncompressed  
@@ -44,20 +36,10 @@ CameraControl.Control.MotionBlur
 CameraControl.Control.ScreenSpaceReflections  
 Settings.DoNotSendReadStatus  
 Settings.Audio.WhisperVoiceVolume  
-Inspector.Slot.AttachComponent  
-Inspector.Slot.Axis.X  
-Inspector.Slot.Axis.Y  
-Inspector.Slot.Axis.Z  
-Inspector.Slot.Reset.Label  
-Inspector.Slot.Reset.Position  
-Inspector.Slot.Reset.Rotation  
-Inspector.Slot.Reset.Scale  
-Inspector.Slot.CreatePivotAtCenter  
 Inspector.Slot.JumpTo  
 Inspector.Slot.BringTo  
 Inspector.Slot.BringTo.Undo  
 Inspector.Slot.ParentUnder.Label  
-Inspector.Slot.ParentUnder.WorldRoot  
 Inspector.Slot.ParentUnder.WorldRoot.Undo  
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
@@ -71,10 +53,7 @@ Tutorial.BotDesigner.ModelOptions.Cloak
 Tutorial.BotDesigner.ColorOptions.Secondary  
 Tutorial.BotDesigner.ColorOptions.Underbody  
 Tutorial.BotDesigner.ColorOptions.Emission  
-Tutorial.AvatarTutorial.AvatarWorlds.Description  
-Tutorial.AvatarTutorial.Avatars.Description  
 Tutorial.AvatarTutorial.FindingAvatars.Description  
-Tutorial.AvatarTutorial.EquippingAndFavoriting.Description  
 Tutorial.AvatarTutorial.AvatarCreation.Description  
 Tutorial.Intro.PublicFolders.Description  
 Tutorial.AvatarCreator.Intro.Title  
@@ -248,4 +227,11 @@ Tutorial.Streaming.StreamCamera.Features.Page2.Description
 Tutorial.Streaming.StreamCamera.Features.Page3.Description  
 Tutorial.Streaming.StreamCamera.Features.Page4.Description  
 Tutorial.Streaming.StreamCamera.Features.Page5.Description  
+Twitch.Panel.Button.Commands.Enabled  
+Twitch.Panel.Button.Commands.Disabled  
+Twitch.Panel.Button.SafeMode.Enabled  
+Twitch.Panel.Button.SafeMode.Disabled  
+Twitch.Panel.Button.SubscriberCommands.Enabled  
+Twitch.Panel.Button.SubscriberCommands.Disabled  
+Twitch.Panel.Title.Text  
 

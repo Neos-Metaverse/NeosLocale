@@ -204,4 +204,11 @@ Tutorial.Streaming.Camera.OptionsPlus.Page2.Title
 Tutorial.Streaming.Camera.ImageFilters.Title  
 Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title  
 Tutorial.Streaming.StreamCamera.SmoothPOV.Title  
+Twitch.Panel.Button.Commands.Enabled  
+Twitch.Panel.Button.Commands.Disabled  
+Twitch.Panel.Button.SafeMode.Enabled  
+Twitch.Panel.Button.SafeMode.Disabled  
+Twitch.Panel.Button.SubscriberCommands.Enabled  
+Twitch.Panel.Button.SubscriberCommands.Disabled  
+Twitch.Panel.Title.Text  
 
