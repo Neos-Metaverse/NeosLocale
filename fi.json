@@ -1,7 +1,7 @@
 {
     "localeCode" : "fi",
     "authors" : ["AdmiralSoap", "Napo", "Hexdigest", "Toni Kat"],
-    "messages" :
+    "messages" : 
     {
         "General.OK" : "OK",
         "General.Start" : "Aloita",
@@ -1013,6 +1013,30 @@
         "Security.HostAccess.Allow" : "Salli",
         "Security.HostAccess.Deny" : "Estä",
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "Inspector.Mesh.StatsHeader" : "Tahkoverkon tiedot",
         "Inspector.Mesh.VertexCount" : "Kärkipisteiden määrä: {n}",
         "Inspector.Mesh.TriangleCount" : "Kolmioiden määrä: {n}",
@@ -1023,6 +1047,7 @@
         "Inspector.Mesh.ChannelStats" : "Normaalit: {normals}, Tangentit: {tangents}, Värit: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "Beikkaa tahkoverkko",
+
         "Inspector.Mesh.ResaveMesh" : "Tallenna tahkoverkko uudelleen",
         "Inspector.Mesh.RecalculateNormals" : "Laske normaalit uudelleen",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Laske normaalit uudelleen (pehmeä sävytin)",
@@ -1080,6 +1105,8 @@
         "Inspector.Texture.Size" : "Koko: {width} x {height}",
         "Inspector.Texture.Format" : "Formaatti: {format}, Muisti: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "Variantti-ID: {variant}",
+
+
 
         "Inspector.Texture.InvertRGB" : "Invertoi RGB",
         "Inspector.Texture.InvertR" : "Invertoi R",
@@ -1428,6 +1455,13 @@
         "Tutorial.Intro.BadgesTitle" : "Merkit",
         "Tutorial.Intro.BadgesDescription" : "Merkit ovat pieniä ikoneita jotka kuvaavat käyttäjää. Tässä lista muutamasta merkistä, jotka kannattaa muistaa. Kuulo-, näkö- ja puhevammaisuuden merkit pystyy itse lisäämään Neos -botti komentojen avulla.",
         "Tutorial.Intro.HelpSite" : "Apua",
+
+
+
+
+
+
+
 
 
 
