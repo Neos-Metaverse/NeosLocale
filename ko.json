@@ -1618,7 +1618,7 @@
         "Inspector.Mesh.SetupRenderer" : "렌더러 추가하기",
         "Inspector.Texture.BakeTexture" : "텍스쳐 베이크",
 
-		"Twitch.Panel.Button.Commands.Enabled" : "명령어 활성화",
+        "Twitch.Panel.Button.Commands.Enabled" : "명령어 활성화",
         "Twitch.Panel.Button.Commands.Disabled" : "명령어 비활성화",
         "Twitch.Panel.Button.SafeMode.Enabled" : "안전모드 켜기",
         "Twitch.Panel.Button.SafeMode.Disabled" : "안전모드 끄기",
