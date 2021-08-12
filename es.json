@@ -1013,28 +1013,28 @@
         "Security.HostAccess.Allow" : "Permitir",
         "Security.HostAccess.Deny" : "Denegar",
 
-        "Inspector.Slot.AttachComponent" : "Attach Component",
+        "Inspector.Slot.AttachComponent" : "Añadir Componente",
 
-        "Inspector.Slot.Axis.X" : "X: <b>+</b>Right <b>-</b>Left",
-        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Up <b>-</b>Down",
-        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Forward <b>-</b>Backward",
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>Derecha <b>-</b>Izquierda",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Arriba <b>-</b>Abajo",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Adelante <b>-</b>Atrás",
 
-        "Inspector.Slot.Reset.Label" : "Reset:",
-        "Inspector.Slot.Reset.Position" : "Position",
-        "Inspector.Slot.Reset.Rotation" : "Rotation",
-        "Inspector.Slot.Reset.Scale" : "Scale",
+        "Inspector.Slot.Reset.Label" : "Reiniciar:",
+        "Inspector.Slot.Reset.Position" : "Posición",
+        "Inspector.Slot.Reset.Rotation" : "Rotación",
+        "Inspector.Slot.Reset.Scale" : "Escala",
 
-        "Inspector.Slot.CreatePivotAtCenter" : "Create Pivot At Center",
+        "Inspector.Slot.CreatePivotAtCenter" : "Crear Pivote en el Centro",
 
-        "Inspector.Slot.JumpTo" : "Jump To",
-        "Inspector.Slot.BringTo" : "Bring To",
-        "Inspector.Slot.BringTo.Undo" : "Bring {name} to user",
+        "Inspector.Slot.JumpTo" : "Saltar A",
+        "Inspector.Slot.BringTo" : "Traer A",
+        "Inspector.Slot.BringTo.Undo" : "Traer {name} a usuario",
 
-        "Inspector.Slot.ParentUnder.Label" : "Parent Under:",
-        "Inspector.Slot.ParentUnder.WorldRoot" : "World Root",
-        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "Parent {name} under world root",
-        "Inspector.Slot.ParentUnder.LocalUserSpace" : "Local User Space",
-        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "Parent {name} under local user space",
+        "Inspector.Slot.ParentUnder.Label" : "Emparentar Dentro de:",
+        "Inspector.Slot.ParentUnder.WorldRoot" : "Raíz de Mundo",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "Emparentar {name} dentro de raíz de mundo",
+        "Inspector.Slot.ParentUnder.LocalUserSpace" : "Espacio de Usuario Local",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "Emparentar {name} dentro de espacio de usuario local",
 
 
         "Inspector.Mesh.StatsHeader" : "Estadísticas de Malla",
