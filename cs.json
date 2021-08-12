@@ -1642,6 +1642,14 @@
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "Ikona <b><color=#77ddff>OBS</b></color> otevírá panel pro připojení k OBS. Toto vám umožňuje rychle zahájit nahrávání pomocí OBS.",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "Ikona <b><color=#77ddff>TWITCH</b></color> vám umožňuje zobrazit váš Twitch chat. Váš kanál můžete připojit napsáním jména kanálu do pole vlevo nahoře.",
 
+        "Twitch.Panel.Button.Commands.Enabled" : "Příkazy povoleny",
+        "Twitch.Panel.Button.Commands.Disabled" : "Příkazy zakázány",
+        "Twitch.Panel.Button.SafeMode.Enabled" : "Bezpečný režim povolen",
+        "Twitch.Panel.Button.SafeMode.Disabled" : "Bezpečný režim zakázán",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled" : "Příkazy pro předplatitele<br> Povoleny pouze pro předplatitele",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled" : "Příkazy pro předplatitele<br> Povoleny pro všechny",
+        "Twitch.Panel.Title.Text" : "Twitch Chat",
+
         "Exiting.SavingItems" : "Ukládám {n, plural, one {# položku} few {# položky} other {# položek}}...",
         "Exiting.SavingChanges" : "Ukládám změny...",
         "Exiting.Exiting" : "Ukončuji...",
