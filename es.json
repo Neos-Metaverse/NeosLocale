@@ -20,6 +20,8 @@
         "General.Saving" : "Guardando...",
         "General.Saved" : "¡Guardado!",
         "General.Done" : "Listo!",
+        "General.Close" : "Cerrar",
+        "General.CopyToClipboard" : "Copiar al portapapeles",
         "General.CopiedToClipboard" : "¡Copiado!",
         "General.CopiedToClipboardLong" : "¡Copiado al portapapeles!",
         "General.Create" : "Crear",
@@ -72,6 +74,7 @@
         "Interaction.EquipAvatar" : "Equipar Avatar",
 
         "Interaction.SaveAsScreenshot" : "Guardar captura de pantalla",
+        "Interaction.ExportScreenshot" : "Exportar captura",
         "Interaction.ImportFile" : "Importar Archivo",
         "Interaction.ExportFile" : "Exportar Archivo",
         "Interaction.CopyLink" : "Copiar Enlace",
@@ -87,6 +90,8 @@
         "Dash.Screens.Exit" : "Salir",
 
         "Dash.Actions.PasteFromClipboard" : "Pegar contenido del portapapeles",
+
+        "Dash.Actions.TurnOffUIEdit" : "Deshabilitar edición de UI",
 
         "Dash.Actions.CoreWorldsHeader" : "Mundos Principales",
         "Dash.Actions.ContentHub" : "Central de Contenidos",
@@ -284,6 +289,7 @@
         "Tools.WithdrawNCR" : "Retirar NCR",
         "Tools.Debug" : "Depurar",
         "Tools.StreamAudio" : "Transmitir Audio",
+        "Tools.Setup2FA" : "Configurar 2FA",
 
         "Tools.StreamAudio.Start" : "Iniciar Transmisión",
         "Tools.StreamAudio.Bitrate" : "Tasa de bits: {bitrate} kbps",
@@ -345,6 +351,33 @@
         "Account.ErrorEmailMismatch" : "¡Los E-mails no coinciden!",
         "Account.ErrorLoginError" : "Error al iniciar la sesión:",
         "Account.RegistrationSuccess" : "<size=120%>¡Éxito!</size><br><br>Se ha enviado un correo electrónico a {email} con un enlace de verificación.<br><br>Una vez abra ese enlace, iniciará sesión automáticamente siempre y cuando éste diálogo siga abierto.<br><br>Si encuentras un error, contáctanos: hello@neos.com o discord.gg/neosvr",
+
+        "Account.TOTP.Initializing" : "Verificando estado de 2FA en su cuenta...",
+        "Account.TOTP.Code.Header" : "Código Secreto",
+        "Account.TOTP.Code.Description" : "Primero, debe introducir un código secreto a su aplicación de TOTP tales como <b>Authy</b> o <b>Google Authenticator</b>.<br><br>Recomendamos hacer esto escaneando el código QR, pero alternativamente puede introducir el código secreto manualmente. <b>Nunca comparta este código.</b><br><br>Si está en modo VR puede cambiar a modo escritorio presionando F8.",
+        "Account.TOTP.Code.QRCode" : "Escanear código QR",
+        "Account.TOTP.Code.Key" : "Código Secreto:",
+        "Account.TOTP.RecoveryCodes.Header" : "Códigos de Recuperación",
+        "Account.TOTP.RecoveryCodes.Description" : "Guarde éstos en una ubicación segura. Pueden ser usados para recuperar el acceso a su cuenta en caso que su teléfono sea extraviado o dañado. Cada código puede ser usado sólo una vez. <b>Nunca los comparta.</b> Si los pierde, perderá <color=red>PERMANENTEMENTE</color> el acceso a su cuenta.",
+        "Account.TOTP.RecoveryCodes.Codes" : "Códigos:",
+        "Account.TOTP.Activate.Header" : "Activar 2FA",
+        "Account.TOTP.Activate.Description" : "Para activar 2FA en su cuenta, use el token de 6 dígitos generado por su aplicación de autenticación para asegurar que todo funcione correctamente.<br><br>Una vez activado, deberá usar el código para confirmar ciertas acciones.<br><br>Nota: Actualmente el código es usado sólo para transacciones de NCR, pero se expandirá al inicio de sesión en el futuro.",
+        "Account.TOTP.Activate.Token" : "Token de 6 dígitos:",
+        "Account.TOTP.Activate.TokenField" : "Introduzca su token aquí...",
+        "Account.TOTP.Activate.Activate" : "Activar",
+        "Account.TOTP.Activate.Activating" : "Activando...",
+        "Account.TOTP.Activate.InvalidToken" : "Token inválido!",
+        "Account.TOTP.Message.AlreadySetup" : "2FA ya ha sido configurada en su cuenta!",
+        "Account.TOTP.Message.Error" : "Error inesperado! Por favor intente luego.",
+        "Account.TOTP.Message.SetupComplete" : "<size=150%>Felicitaciones!</size><br><br>Su cuenta ahora está configurada con 2FA para protección extra!<br><br>Cualquier interacción con NCR requerirá que introduzca su código. Puedes opcionalmente habilitarlo para el inicio de sesión con el comando /enableLogin2FA , pero tenga en cuenta que ésto requiere que use el comando /webLogin previamente a que inicie sesión en account.neos.com",
+        "Account.TOTP.Deactivate.Header" : "Desactivar 2FA",
+        "Account.TOTP.Deactivate.Description" : "2FA está <b><color=green>configurado y activo en su cuenta</color></b>. Si necesita desactivarlo (por ejemplo debido al extravío de su teléfono o la seguridad de los códigos habiendo sido comprometida), puede hacerlo aquí.<br><br>Luego de la desactivación, puede configurar 2FA nuevamente, lo que generará un código secreto nuevo y un nuevo set de códigos de recuperación.<br><br>Si pierde su teléfono y necesita configurar 2FA nuevamente, recomendamos <b>FUERTEMENTE</b> que lo haga inmediatemente, dado que cada código de recuperación puede ser usado una vez y si se acaban, perderá completamente el acceso a su cuenta.",
+        "Account.TOTP.Deactivate.Deactivate" : "Desactivar",
+        "Account.TOTP.Deactivate.Deactivating" : "Desactivando...",
+        "Account.TOTP.Message.DeactivationComplete" : "2FA ha sido exitosamente desactivado de su cuenta.<br><br>Su cuenta está en un riesgo mayor ahora!<br><br>Recomendamos configurar 2FA nuevamente, especialmente si ha usado un código de recuperación.",
+
+        "2FA.Header" : "Verificación de 2FA",
+        "2FA.Token" : "Token de 6 dígitos:",
 
         "Profile.Status.Online" : "En línea",
         "Profile.Status.Away" : "Ausente",
@@ -595,6 +628,7 @@
         "Importer.Image.Title" : "Importar imagen",
         "Importer.Image.Prompt" : "¿Qué está importando?",
         "Importer.Image.Regular" : "Imagen / Textura",
+        "Importer.Image.Screenshot" : "Foto de Neos <size=50%>(capturada aquí)</size>",
         "Importer.Image.360" : "Foto 360 / caja de cielo",
         "Importer.Image.StereoPhoto" : "Foto estéreo",
         "Importer.Image.Stereo360" : "Foto 360 estéreo",
@@ -695,7 +729,7 @@
         "Credits.AmountPrompt" : "{action,select, send {¿Cuánto quiere enviar?} withdraw {¿Cuánto quiere retirar?} tip {¿Cuánto quiere donar?}}",
         "Credits.Amount" : "Cantidad: ",
         "Credits.Balance" : "Saldo: ",
-        "Credits.WithdrawalAddress" : "Dirección de retiro: ",
+        "Credits.WithdrawalAddress" : "Dirección de retiro:\n<color=red>Asegúrese que su billetera soporta tokens ERC-20!</color> ",
         "Credits.AnonymousTip" : "Donación anónima: ",
         "Credits.TipMessage" : "Mensaje de la donación: ",
         "Credits.TransactionComment" : "Comentario de transacción: ",
@@ -708,6 +742,7 @@
         "Credits.Sending" : "Enviando...",
         "Credits.Success" : "¡Éxito!\nPuede cerrar esta ventana.",
         "Credits.BlockchainWarning" : "Tenga en cuenta que la transferencia a blockchain puede tardar hasta 48 horas.",
+        "Credits.TipConfirmation" : "Está a punto de donar a <b><color=#0ff>{username}</color></b>. Desea continuar?",
 
         "NewWorld.Title" : "Mundo Nuevo",
         "NewWorld.Template" : "Plantilla de Mundo:",
@@ -784,7 +819,7 @@
         "CameraControl.Take360Photo" : "Foto 360",
 
         "CameraControl.Mode.SmoothPOV" : "Vista Suavizada en<br>Primera Persona",
-        "CameraControl.Mode.ThirdPerson" : "Vista en<br>Tercera Persona",
+        "CameraControl.Mode.ThirdPerson" : "Tercera Persona",
         "CameraControl.Mode.Group" : "Grupo",
         "CameraControl.Mode.World" : "Mundo",
         "CameraControl.Mode.Manual" : "Manual",
@@ -797,7 +832,7 @@
         "CameraControl.Settings.ForceEyesOnCamera" : "Forzar ojos hacia la Cámara",
         "CameraControl.Settings.HideBadges" : "Ocultar Insignias",
         "CameraControl.Settings.HideLasers" : "Ocultar Lásers",
-        "CameraControl.Settings.ShowFrustum" : "Mostrar Área",
+        "CameraControl.Settings.ShowFrustum" : "Mostrar Tronco",
         "CameraControl.Settings.PhotoTimer" : "Temporizador de Foto",
         "CameraControl.Settings.ShowLiveBadge" : "Mostrar Insignia de \"En Vivo\"",
         "CameraControl.Settings.AudioFromCameraViewpoint" : "Audio desde vista de cámara",
@@ -893,6 +928,7 @@
         "Settings.LegacyGripEquip" : "Habilitar Equipar con Agarre Doble de Legado",
         "Settings.LegacyWorldSwitcher" : "Habilitar Traslado entre Mundos de Legado",
         "Settings.FetchIncompatibleSessions" : "Mostrar Sesiones Incompatibles",
+        "Settings.DoNotSendReadStatus" : "No enviar estatus en tiempo real de mensaje leído.",
         "Settings.MaxConcurrentAssetTransfers" : "Máximas Transferencias de Recursos Simultáneas",
         "Settings.AutosaveScreenshotPath" : "Destino de auto-guardado de capturas",
         "Settings.DebugInputBinding" : "Depurar Asignaciones de Entrada",
@@ -977,6 +1013,30 @@
         "Security.HostAccess.Allow" : "Permitir",
         "Security.HostAccess.Deny" : "Denegar",
 
+        "Inspector.Slot.AttachComponent" : "Añadir Componente",
+
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>Derecha <b>-</b>Izquierda",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Arriba <b>-</b>Abajo",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Adelante <b>-</b>Atrás",
+
+        "Inspector.Slot.Reset.Label" : "Reiniciar:",
+        "Inspector.Slot.Reset.Position" : "Posición",
+        "Inspector.Slot.Reset.Rotation" : "Rotación",
+        "Inspector.Slot.Reset.Scale" : "Escala",
+
+        "Inspector.Slot.CreatePivotAtCenter" : "Crear Pivote en el Centro",
+
+        "Inspector.Slot.JumpTo" : "Saltar A",
+        "Inspector.Slot.BringTo" : "Traer A",
+        "Inspector.Slot.BringTo.Undo" : "Traer {name} a usuario",
+
+        "Inspector.Slot.ParentUnder.Label" : "Emparentar Dentro de:",
+        "Inspector.Slot.ParentUnder.WorldRoot" : "Raíz de Mundo",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "Emparentar {name} dentro de raíz de mundo",
+        "Inspector.Slot.ParentUnder.LocalUserSpace" : "Espacio de Usuario Local",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "Emparentar {name} dentro de espacio de usuario local",
+
+
         "Inspector.Mesh.StatsHeader" : "Estadísticas de Malla",
         "Inspector.Mesh.VertexCount" : "Cantidad de Vértices: {n}",
         "Inspector.Mesh.TriangleCount" : "Cantidad de Triángulos: {n}",
@@ -987,6 +1047,7 @@
         "Inspector.Mesh.ChannelStats" : "Normales: {normals}, Tangentes: {tangents}, Colores: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "Hornear Malla",
+        "Inspector.Mesh.SetupRenderer" : "Configurar Renderizador",
         "Inspector.Mesh.ResaveMesh" : "Re-Guardar Malla",
         "Inspector.Mesh.RecalculateNormals" : "Recalcular Normales",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Recalcular Normales (sombreado suave)",
@@ -1028,6 +1089,9 @@
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Visualizar aproximación esférica de los límites de la unión de huesos",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Quitar visualización de cajas de huesos",
 
+        "Inspector.SimpleAvatarProtection.RemoveAll" : "Quitar todas las instancias",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "QUITAR Protección de Avatar",
+
         "Inspector.BipedRig.GetDiagnosticInfo" : "Obtener información de diagnóstico del armazón",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Generar Visuales de Depuración",
         "Inspector.BipedRig.ClearDebugVisuals" : "Quitar Visuales de Depuración",
@@ -1041,6 +1105,8 @@
         "Inspector.Texture.Size" : "Tamaño: {width} x {height}",
         "Inspector.Texture.Format" : "Formato: {format}, Memoria: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "ID de variante: {variant}",
+
+        "Inspector.Texture.BakeTexture" : "Hornear Textura",
 
         "Inspector.Texture.InvertRGB" : "Invertir RGB",
         "Inspector.Texture.InvertR" : "Invertir R",
@@ -1282,9 +1348,9 @@
         "Tutorial.Intro.OutroEnd" : "Para apoyar el proyecto, únase a nuestro Patreon.<br><br>Únase al servidor de Discord para ver actualizaciones, hacer contactos, u obtener soporte técnico.",
 
         "Tutorial.MTC.Avatars" : "Avatares",
-        "Tutorial.MTC.Creation" : "Creación",
+        "Tutorial.MTC.Creation" : "Creación y Utilidades",
         "Tutorial.MTC.RecordingStreaming" : "Grabar y<br>Transmitir",
-
+        
         "Tutorial.Grab.MoveRotate" : "Mover/Rotar objetos sujetados",
         "Tutorial.Grab.Scale" : "Agarre con el otro mando para redimensionar",
         "Tutorial.Grab.PullToEquip" : "Tire hacia usted para equipar",
@@ -1394,18 +1460,187 @@
 
         "Tutorial.Streaming.StageControl" : "Control de Escenario",
         "Tutorial.Streaming.StageUI" : "Conmutar Interfaz de Escenario",
-        "Tutorial.Streaming.StageLights" : "Conmutar Luces del Escenario",
-        "Tutorial.Streaming.StageLightController" : "Conmutar Controlador de Luces",
+        "Tutorial.Streaming.StageLights" : "Conmutar Luces",
+        "Tutorial.Streaming.StageLightController" : "Conmutar Controles de Luces",
         "Tutorial.Streaming.StageMicrophone" : "Conmutar Soporte de Micrófono",
+
         "Tutorial.Streaming.GreenScreenControl" : "Control de Pantalla Verde",
         "Tutorial.Streaming.GreenScreenToggle360" : "Conmutar Escena en 360<sup>o</sup>",
-        "Tutorial.Streaming.GreenScreenTracking" : "Conmutar Referencias para Rastrear",
+        "Tutorial.Streaming.GreenScreenTracking" : "Conmutar Referencias para Rastreo",
         "Tutorial.Streaming.GreenScreenMarker" : "Crear Marcador Agarrable",
         "Tutorial.Streaming.GreenScreenCycleScene" : "Alternar Escena",
-        "Tutorial.Streaming.StreamRoomControl" : "Control de Sala de Retransmisión",
+
+        "Tutorial.Streaming.StreamRoomControl" : "Control de Sala de Transmisión",
         "Tutorial.Streaming.StreamRoomSkyWall" : "Imagen de Pared de Cielo",
-        "Tutorial.Streaming.StreamRoomLayout" : "Configurar Disposición",
-        "Tutorial.Streaming.StageLightShadowToggle" : "Conmutar Sombras de Luces",
+        "Tutorial.Streaming.StreamRoomLayout" : "Establecer Disposición",
+
+        "Tutorial.Streaming.StageLightShadowToggle" : "Conmutar Sombras",
+
+        "Tutorial.Streaming.Microphone.Title" : "Herramienta de Micrófono",
+        "Tutorial.Streaming.Microphone.UsageDescription" : "Una vez equipe el <b><color=#ffdd77>MICRÓFONO</b></color>, puede grabar audio manteniendo presionado el botón <b><color=#77ff77>PRIMARIO</b></color>.",
+        "Tutorial.Streaming.Microphone.AudioTypeDescription" : "Seleccione el <b><color=#ffdd77>TIPO DE ARCHIVO DE AUDIO</b></color> que desee usar abriendo el <b><color=#dd77ff>MENÚ CONTEXTUAL</b></color> en la mano que sostiene la herramienta.",
+        "Tutorial.Streaming.Microphone.RecordingDescription" : "Puede cambiar el método de <b><color=#ffdd77>GRABACIÓN</b></color> usando las opciones del <b><color=#dd77ff>MENÚ CONTEXTUAL</b></color>.",
+        "Tutorial.Streaming.Microphone.RawDescription" : "La <b><color=#ffdd77>SALIDA DE AUDIO</b></color> puede cambiarse a un formato de <b><color=#ffdd77>AUDIO CRUDO</b></color> en el <b><color=#dd77ff>MENÚ CONTEXTUAL</b></color>.",
+
+        "Tutorial.Streaming.AudioStreaming.Title" : "Transmisión de Audio",
+        "Tutorial.Streaming.AudioStreaming.StreamAudioDescription" : "El audio del escritorio puede ser transimitido hacia Neos para que otros escuchen. Para transmitir audio, haga click en el botón de <b><color=#ffdd77>TRANSMITIR AUDIO</b></color> en su pestaña de inicio en el Panel.",
+        "Tutorial.Streaming.AudioStreaming.StartStreamingDescription" : "Elija un dispositivo desde el cual quisiera transmitir de la lista de <b><color=#ffdd77>ENTRADA DE AUDIO</b></color>. La entrada seleccionada puede ser escuchada en este panel previo a iniciar la transmisión. Haga click en <b><color=#77ff77>INICIAR TRANSMISIÓN</b></color> para abrir un panel de transmisión de audio.",
+        "Tutorial.Streaming.AudioStreaming.StopStreamingDescription" : "El <b><color=#ffdd77>PANEL DE TRANSMISIÓN DE AUDIO</b></color> permite que otros en la sesión escuchen audio de su computadora. Cerrar el panel <b><color=red>FINALIZA</b></color> la transmisión.",
+
+        "Tutorial.Streaming.StreamControl.SkyboxTexture" : "Coloque aquí la textura del cielo",
+
+        "Tutorial.Streaming.Twitch.TwitchChat" : "Chat de Twitch",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Title" : "La Cámara",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title" : "Tomando una Foto",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title" : "Control del Zoom",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Title" : "Control físico del Zoom",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Title" : "Cambiando la Resolución",
+
+        "Tutorial.Streaming.Camera.Resolution.Page1.Description" : "Debajo de <sprite name=2K> puede encontrar múltiples opciones para cambiar la <color=#ffdd77><b>RESOLUCIÓN</b></color> de las imágenes que la <color=#ffdd77><b>CÁMARA</b></color> toma.",
+
+        "Tutorial.Streaming.Camera.Mode.Page1.Title" : "Foto Estándar",
+        "Tutorial.Streaming.Camera.Mode.Page2.Title" : "Foto 3D",
+        "Tutorial.Streaming.Camera.Mode.Page3.Title" : "Foto 360",
+        "Tutorial.Streaming.Camera.Mode.Page4.Title" : "Foto Transparente",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Title" : "Por Defecto",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Title" : "Saturado",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Title" : "Escala de Gris",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Title" : "Sepia",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Title" : "Arcoiris",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Title" : "Tronco",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Title" : "Temporizador",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Title" : "Reflecciones",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Title" : "Flash",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Title" : "Pantalla Grande",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Title" : "Dónde encontrarlo",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Title" : "Cómo usar",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Title" : "Funciones Básicas",
+
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Description" : "Puede <color=#77ff77><b>CREAR</b></color> una <color=#ffdd77><b>CÁMARA</b></color> desde la carpeta <color=#dd77ff><b>NEOS ESSENTIALS</b></color> dentro de su <color=#dd77ff><b>INVENTARIO</b></color>. Ésta es su herramienta principal para <color=#77ff77><b>CAPTURAR</b></color> imágenes en Neos.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Description" : "Puede <color=#77ff77><b>CAPTURAR</b></color> imágenes usando su botón <color=#77ff77><b>PRIMARIO</b></color> en el <color=#ffdd77><b>BOTÓN</b></color> situado en la parte superior de la <color=#ffdd77><b>CÁMARA</b></color> o <color=#77ff77><b>AGARRANDO</b></color> cualquier parte de la <color=#dd77ff><b>CÁMARA</b></color> y usando el botón <color=#77ff77><b>PRIMARIO</b></color>.",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Description" : "La función de <color=#ffdd77><b>ZOOM</b></color> se encuentra debajo de <sprite name=Options>. Puede interactuar con el <color=#ffdd77><b>DESLIZADOR DE ZOOM</b></color> usando una <color=#77ff77><b>INTERACCIÓN FÍSICA</b></color> o usando el <color=#dd77ff><b>LÁSER</b></color> y el botón <color=#77ff77><b>PRIMARIO</b></color>. ",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Description" : "También puede controlar la cantidad de <color=#ffdd77><b>ZOOM</b></color> <color=#77ff77><b>AGARRANDO</b></color> la <color=#dd77ff><b>LENTE DE LA CÁMARA</b></color> con su mano libre y <color=#77ff77><b>GIRANDO</b></color> la <color=#dd77ff><b>LENTE</b></color>.",
+
+        "Tutorial.Streaming.Camera.Mode.Page1.Description" : "Las <color=#ffdd77><b>OPCIONES BÁSICAS</b></color> pueden encontrarse debajo de <sprite name=Camera>. Por defecto la <color=#ffdd77><b>CÁMARA</b></color> está configurada en <color=#ffdd77><b>FOTO ESTÁNDAR</b></color>, que es la opción de la <color=#ffdd77><b>CÁMARA</b></color> más comúnmente usada para <color=#77ff77><b>CAPTURAR</b></color> imágenes. ",
+        "Tutorial.Streaming.Camera.Mode.Page2.Description" : "La opción <color=#ffdd77><b>FOTO 3D</b></color> le permite <color=#77ff77><b>CAPTURAR</b></color> imágenes que aparentan una ilusión de profundidad, que es lograda creando una imágen estereoscópica. Tenga en cuenta que éste efecto sólo se puede percibir usando un casco VR y que la <color=#dd77ff><b>CAPTURA</b></color> guardada aparecerá como dos imágenes combinadas lado a lado en un único archivo.",
+        "Tutorial.Streaming.Camera.Mode.Page3.Description" : "La opción <color=#ffdd77><b>FOTO 360</b></color> permite la <color=#77ff77><b>CAPTURA</b></color> de <color=#dd77ff><b>IMÁGENES 360 EQUIRECTANGULARES</b></color> que pueden ser usadas en un <color=#dd77ff><b>MATERIAL PROJECTION360</b></color>, para su uso como <color=#dd77ff><b>CAJA DE CIELO</b></color>.",
+        "Tutorial.Streaming.Camera.Mode.Page4.Description" : "La opción <color=#ffdd77><b>FOTO TRANSPARENTE</b></color> permite la <color=#77ff77><b>CAPTURA</b></color> de una <color=#dd77ff><b>IMAGEN RECORTADA</b></color>. La <color=#ffdd77><b>CÁMARA</b></color> proyecta un <color=#dd77ff><b>LÁSER</b></color> desde el frente que renderiza sólo el <color=#dd77ff><b>OBJETO</b></color> con el cual intersecta sobre un fondo transparente, el cual aparece como un <color=#dd77ff><b>OBJETO GUARDABLE</b></color> y <color=#dd77ff><b>CAPTURA</b></color>.",
+
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Description" : "Los <color=#ffdd77><b>FILTROS DE CÁMARA</b></color> se encuentran debajo de <sprite name=NoFilter>. Como estándar, la <color=#ffdd77><b>CÁMARA</b></color> está configurada al filtro <color=#ffdd77><b>POR DEFECTO</b></color>.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Description" : "El filtro <color=#ffdd77><b>SATURADO</b></color> incrementa el nivel de saturación de los colores así también como el contraste de valores claros y oscuros.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Description" : "El filtro <color=#ffdd77><b>ESCALA DE GRIS</b></color> quita por completo la saturación de los colores.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Description" : "El filtro <color=#ffdd77><b>SEPIA</b></color> quita la saturación de los colores y cambia la tonalidad para emular el aspecto de una fotografía de ferrotipo.",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Description" : "El filtro <color=#ffdd77><b>ARCOIRIS</b></color> puede ser usado para agregar un poco de color a sus fotos.",
+
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Description" : "Las <color=#ffdd77><b>OPCIONES AVANZADAS</b></color> se encuentran debajo de <sprite name=OptionsPlus>. Por defecto ninguna está activa. <color=#ffdd77><b>TRONCO</b></color> es la primera en la columna, crea una <color=#dd77ff><b>REPRESENTACIÓN</b></color> del área que será mostrada en la <color=#dd77ff><b>PANTALLA DE PREVISUALIZACIÓN</b></color> de la <color=#ffdd77><b>CÁMARA</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Description" : "La opción <color=#ffdd77><b>TEMPORIZADOR</b></color> puede ser <color=#77ff77><b>ACTIVADA</b></color> con <sprite name=Timer>. Crea una cuenta regresiva de 10 segundos que comienza cuando <color=#77ff77><b>CAPTURA</b></color> una imagen usando su botón <color=#77ff77><b>PRIMARIO</b></color> en el <color=#dd77ff><b>BOTÓN</b></color> de la parte superior de la <color=#ffdd77><b>CÁMARA</b></color>, o mientras <color=#77ff77><b>AGARRA</b></color> la <color=#dd77ff><b>CÁMARA</b></color> y presiona el botón <color=#77ff77><b>PRIMARIO</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Description" : "La opción <color=#ffdd77><b>REFLECCIONES</b></color> habilita reflecciones basadas en el contenido de la <color=#ffdd77><b>CÁMARA</b></color>.",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Description" : "La opción <color=#ffdd77><b>FLASH</b></color> puede ser <color=#77ff77><b>ACTIVADA</b></color> con <sprite name=Lightning>. Ésto <color=#77ff77><b>EXTIENDE</b></color> una <color=#dd77ff><b>LUZ</b></color> por sobre el <color=#dd77ff><b>CUERPO DE LA CÁMARA</b></color> que <color=#77ff77><b>ILUMINA</b></color> la <color=#dd77ff><b>ESCENA</b></color>. ",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Description" : "La opción <color=#ffdd77><b>PANTALLA GRANDE</b></color> puede ser <color=#77ff77><b>ACTIVADA</b></color> con <sprite name=BigScreen>. Crea una <color=#dd77ff><b>PANTALLA DE PREVISUALIZACIÓN</b></color> sobre el <color=#dd77ff><b>CUERPO DE LA CÁMARA</b></color>. También puede ser activado usando su botón <color=#77ff77><b>PRIMARIO</b></color> o <color=#77ff77><b>TOCANDO FÍSICAMENTE</b></color> el <color=#dd77ff><b>BOTÓN</b></color> situado en el centro de la parte superior del <color=#dd77ff><b>CUERPO DE LA CÁMARA</b></color>.",
+
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Description" : "El <b><color=#ffdd77>CAMERA OBJECT EXCLUDE TIP</color></b> puede encontrarse en su <b><color=#77ddff>INVENTARIO</b></color> dentro de la carpeta <b><color=#77ddff>ESSENTIAL TOOLS --> MISC</Color></b>. ",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Description" : "Una vez equipada la herramienta <b><color=#77ff77>APUNTE</b></color> a un objeto que desee excluir de la visión de la cámara y presione el botón <b><color=#77ff77>SECUNDARIO</b></color>. El botón <b><color=#77ff77>PRIMARIO</b></color> revierte el cambio.",
+
+        "Tutorial.Streaming.Camera.Resolution.Title" : "Resolución",
+        "Tutorial.Streaming.Camera.Mode.Title" : "Modo",
+        "Tutorial.Streaming.Camera.ImageFilters.Title" : "Filtros de imagen",
+        "Tutorial.Streaming.Camera.OptionsPlus.Title" : "Opciones+",
+        "Tutorial.Streaming.Camera.ExcludeTip.Title" : "Camera Object Exclude Tip",
+        "Tutorial.Streaming.Camera.Intro.Title" : "Tutorial de Cámara Física",
+
+        "Tutorial.Streaming.Camera.Intro.Description" : "Aprende todas las funciones de la cámara física",
+
+        "Tutorial.Streaming.LightTip.Intro.Title" : "Tutorial de Light Tip",
+        "Tutorial.Streaming.LightTip.Intro.Description" : "Aprende todas las funciones de la herramienta de luces",
+
+        "Tutorial.Streaming.LightTip.Titles.BasicUsage" : "Uso Básico",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfLights" : "Tipos de Luces",
+        "Tutorial.Streaming.LightTip.Titles.TypesOfShadows" : "Tipos de Sombras",
+        "Tutorial.Streaming.LightTip.Titles.ChangingColor" : "Cambiando Colores",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Title" : "El Light Tip",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Title" : "Creando una Luz",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Title" : "Punto",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title" : "Zona",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Title" : "Sol/Direccional",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Title" : "Sin Sombras",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Title" : "Sombras Fuertes",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Title" : "Sombras Suaves",
+
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Panel de Selección de Color",
+
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "Puede <color=#77ff77><b>CREAR</b></color> un <color=#ffdd77><b>LIGHT TIP</b></color> desde la carpeta <color=#dd77ff><b>ESSENTIAL TOOLS</b></color> dentro de su <color=#dd77ff><b>INVENTARIO</b></color>. Ésta es su herramienta principal para <color=#77ff77><b>AGREGAR LUCES</b></color> a mundos en Neos.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "Por defecto el <color=#ffdd77><b>LIGHT TIP</b></color> crea una <color=#dd77ff><b>LUZ DE PUNTO</b></color> cuando usa el botón <color=#77ff77><b>PRIMARIO</b></color>. Cuando el botón <color=#77ff77><b>PRIMARIO</b></color> se mantiene presionado y se arrastra, el <color=#dd77ff><b>BRILLO</b></color> de la luz se ve afectado basado en la <color=#dd77ff><b>DISTANCIA</b></color> <color=#77ff77><b>ARRASTRADA</b></color>.",
+
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "La <color=#ffdd77><b>LUZ DE PUNTO</b></color> crea una luz que <color=#77ff77><b>ILUMINA</b></color> en todas direcciones desde un único punto con <color=#dd77ff><b>DISMINUCIÓN DE INTENSIDAD</b></color>.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Description" : "La <color=#ffdd77><b>LUZ DE ZONA</b></color> crea una luz que <color=#77ff77><b>ILUMINA</b></color> en una dirección en forma de cono desde un único punto con <color=#dd77ff><b>DISMINUCIÓN DE INTENSIDAD</b></color>.",
+        "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Description" : "La <color=#ffdd77><b>LUZ DIRECCIONAL</b></color> crea una luz que <color=#77ff77><b>ILUMINA</b></color> el mundo en una dirección sin <color=#dd77ff><b>DISMINUCIÓN DE INTENSIDAD</b></color>.",
+
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description" : "Los <b><color=#77ff77>OBJETOS</b></color> <b><color=red>NO</b></color> producirán sombras.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description" : "Los <b><color=#77ff77>OBJETOS</b></color> producirán sombras con bordes definidos.",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description" : "Los <b><color=#77ff77>OBJETOS</b></color> producirán sombras con bordes suavizados.",
+
+        "Tutorial.Streaming.LightTip.ChangingColor.Page1.Description" : "Puede cambiar el <b><color=#ffdd77>COLOR</b></color> de la <b><color=#ffdd77>LUZ</b></color> usando la opción de <b><color=#77ff77>CAMBIAR COLOR</b></color> en el <b><color=#77ff77>MENÚ CONTEXTUAL</b></color>.",
+
+        "Tutorial.Streaming.StreamCamera.CameraControl.Title" : "Controlador de la Cámara",
+        "Tutorial.Streaming.StreamCamera.Overview.Title" : "Vistazo al Controlador de la Cámara",
+        "Tutorial.Streaming.StreamCamera.ControlMovement.Title" : "Control del Movimiento de la Cámara",
+        "Tutorial.Streaming.StreamCamera.Zoom.Title" : "Control del Zoom",
+        "Tutorial.Streaming.StreamCamera.SmoothPOV.Title" : "Vista Suavizada en Primera Persona",
+        "Tutorial.Streaming.StreamCamera.ThirdPerson.Title" : "Tercera Persona",
+        "Tutorial.Streaming.StreamCamera.Group.Title" : "Grupo",
+        "Tutorial.Streaming.StreamCamera.World.Title" : "Mundo",
+        "Tutorial.Streaming.StreamCamera.Manual.Title" : "Manual",
+        "Tutorial.Streaming.StreamCamera.Mirror.Title" : "Reflejar en pantalla",
+
+        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description" : "Para<b> <color=#77ff77>CREAR</color></b> un <b><color=#ffdd77>ANCLAJE DE CÁMARA</b></color> presione el botón <b><color=#77ddff>CREAR ANCLAJE DE CÁMARA</b></color> a la izquierda de la interfaz. Una vez creado puede anclar su cámara seleccionando el anclaje con el botón <b><color=#77ff77>PRIMARIO</b></color>.",
+
+        "Tutorial.Streaming.StreamCamera.Photo.Title" : "Foto",
+        "Tutorial.Streaming.StreamCamera.360.Title" : "Foto 360",
+        "Tutorial.Streaming.StreamCamera.Users.Title" : "Usuarios",
+        "Tutorial.Streaming.StreamCamera.CameraOptions.Title" : "Opciones de Cámara",
+        "Tutorial.Streaming.StreamCamera.Anchor.Title" : "Creando un Anclaje",
+        "Tutorial.Streaming.StreamCamera.ExtraCameraControls.Title" : "Controles Extra de Cámara",
+        "Tutorial.Streaming.StreamCamera.MotionSettings.Title" : "Opciones de Movimiento de Cámara",
+        "Tutorial.Streaming.StreamCamera.AnchorSettings.Title" : "Opciones de Anclajes de Cámara",
+        "Tutorial.Streaming.StreamCamera.OBS.Title" : "Conexión con OBS",
+        "Tutorial.Streaming.StreamCamera.Twitch.Title" :"Conexión con Twitch",
+
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page1.Description" : "Puede <color=#77ff77><b>CREAR</b></color> un <b><color=#ffdd77>PANEL DE CONTROL DE CÁMARA</b></color> desde el <b><color=#ffdd77>PANEL DE NEOS</b></color> en la pestaña de inicio mediante el botón Cámara/Transmisión. Ésta es su herramienta principal para transmitir contenido de Neos.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description" : "El <b><color=#ffdd77>PANEL DE CONTROL DE CÁMARA</b></color> tiene diversas funciones que pueden ser usadas para mejorar la calidad de sus transmisiones/grabaciones. Éstas funciones incluyen mover la cámara, modos, anclajes, opciones, chat de Twitch y más.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description" : "Las funciones de movimiento del <b><color=#ffdd77>PANEL DE CONTROL DE CÁMARA</b></color> se encuentran en la esquina superior izquierda de la pantalla de previsualización. Usándolas será capaz de ajustar la vista y posición de la cámara. Adicionalmente puede hacer click en el botón de Reiniciar para reiniciar la posición de la cámara.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description" : "Para controlar el <color=#ffdd77><b>ZOOM</b></color>, use el botón <b><color=#77ff77>PRIMARIO</b></color> en la barra gris al fondo de la pantalla y mueva el deslizador horizontalmente.",
+
+        "Tutorial.Streaming.StreamCamera.Modes.Page1.Description" : "La <b><color=#ffdd77>VISTA SUAVIZADA EN PRIMERA PERSONA</b></color> establece la cámara a su vista en primera persona y suaviza cualquier movimiento.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page2.Description" : "El modo <b><color=#ffdd77>TERCERA PERSONA</b></color> le permite verse desde una perspectiva externa. Puede ajustar la posición de la cámara usando los controles de movimiento de la cámara en la pantalla de previsualización.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page3.Description" : "El modo <b><color=#ffdd77>GRUPO</b></color> automáticamente ajusta su vista para mantener a usuarios cercanos en la escena.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page4.Description" : "El modo <b><color=#ffdd77>MUNDO</b></color> mantiene la cámara en una posición estática y apunta al usuario.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page5.Description" : "El modo <b><color=#ffdd77>MANUAL</b></color> le permite usar la cámara de transmisión como la cámara física.",
+
+        "Tutorial.Streaming.StreamCamera.Functions.Page1.Description" : "<b><color=#ffdd77>REFLEJAR EN PANTALLA</b></color> cambia su escritorio del casco VR a la vista de la cámara de tranmisión, ésta opción debería ser usada si está transmitiendo o grabando.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page2.Description" : "<b><color=#ffdd77>FOTO</b></color> toma una captura de la vista actual de la cámara. Éstas fotos se guardan a su librería de capturas.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page3.Description" : "<b><color=#ffdd77>FOTO 360</b></color> toma una captura 360 de la escena desde la posición actual de la cámara. Éstas fotos se guardan a su librería de capturas.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page4.Description" : "<b><color=#ffdd77>USUARIOS</b></color> le permite cambiar la vista de la cámara a la perspectiva de otro usuario así también como modificar el volumen y los permisos de la cámara de cada persona.",
+
+        "Tutorial.Streaming.StreamCamera.Intro.Title" : "Tutorial de Cámara de Transmisión",
+        "Tutorial.Streaming.StreamCamera.Intro.Description" : "Aprende todas las funciones de la cámara de transmisión",
+
+        "Tutorial.Streaming.StreamCamera.Options.Page1.Description" : "Los <b><color=#ffdd77>CONTROLES DE OPCIONES</b></color> pueden encontrarse en el costado izquierdo de la interfaz, aquí puede cambiar opciones similares a la cámara física, así tanto como la renderización de placas de nombres y más.",
+
+        "Tutorial.Streaming.StreamCamera.Features.Page1.Description" : "Opciones extra de la cámara pueden encontrarse en el costado derecho de la interfaz presionando el ícono de <b><color=#77ddff>ENGRANAJE</b></color> en la esquina superior derecha de la pantalla. Aquí puede cambiar opciones de renderizado, control de usuarios, y distancias de seguimiento.",
+        "Tutorial.Streaming.StreamCamera.Features.Page2.Description" : "La <b><color=#77ddff>FLECHA</b></color> abre un panel para controlar el movimiento de la cámara. Ésto incluye posición, ángulo, y campo de visión de la cámara para los diferentes puntos de vista preestablecidos.",
+        "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "El <b><color=#77ddff>MARCADOR</b></color> abre un panel para controlar anclajes de cámara diferentes. Ésto es útil para cambiar a los distintos anclajes colocados en el mundo así también como la velocidad de interpolación.",
+        "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "El ícono de <b><color=#77ddff>OBS</b></color> abre un panel para conectarse a OBS. Ésto le permite velozmente comenzar una grabación usando OBS.",
+        "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "El ícono de <b><color=#77ddff>TWITCH</b></color> le permite ver su chat de Twitch. Puede enlazar su canal escribiendo el nombre del canal en la barra superior izquierda.",
+
 
         "Exiting.SavingItems" : "Guardando {n, plural, one {# objeto} other {# objetos}}...",
         "Exiting.SavingChanges" : "Guardando Cambios...",
