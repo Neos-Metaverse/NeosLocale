@@ -1350,7 +1350,7 @@
         "Tutorial.MTC.Avatars" : "Avatar Lobby",
         "Tutorial.MTC.Creation" : "Creation & Utility",
         "Tutorial.MTC.RecordingStreaming" : "Recording & Streaming",
-        
+
         "Tutorial.Grab.MoveRotate" : "Move/Rotate held items",
         "Tutorial.Grab.Scale" : "Grab with other controller to scale",
         "Tutorial.Grab.PullToEquip" : "Pull towards you to equip",
@@ -1577,7 +1577,7 @@
 
         "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Select Color Panel",
 
-        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "You can <color=#77ff77><b>SPAWN</b></color> a <color=#ffdd77><b>LIGHT TIP</b></color> from the <color=#dd77ff><b>NEOS ESSENTIALS</b></color> folder within your <color=#dd77ff><b>INVENTORY</b></color>. This is your main tool for <color=#77ff77><b>ADDING LIGHTS</b></color> to worlds in Neos.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "You can <color=#77ff77><b>SPAWN</b></color> a <color=#ffdd77><b>LIGHT TIP</b></color> from the <color=#dd77ff><b>ESSENTIAL TOOLS</b></color> folder within your <color=#dd77ff><b>INVENTORY</b></color>. This is your main tool for <color=#77ff77><b>ADDING LIGHTS</b></color> to worlds in Neos.",
         "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "By default the <color=#ffdd77><b>LIGHT TIP</b></color> creates a <color=#dd77ff><b>POINT LIGHT</b></color> when <color=#77ff77><b>PRIMARY</b></color> is used. When <color=#77ff77><b>PRIMARY</b></color> is held and dragged, the <color=#dd77ff><b>BRIGHTNESS</b></color> of the light is affected based on the <color=#dd77ff><b>DISTANCE</b></color> the hand is <color=#77ff77><b>DRAGGED</b></color>.",
 
         "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "The <color=#ffdd77><b>POINT LIGHT</b></color> creates a light that <color=#77ff77><b>ILLUMINATES</b></color> every direction from a single point with <color=#dd77ff><b>INTENSITY FALLOFF</b></color>.",
@@ -1640,7 +1640,7 @@
         "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "The <b><color=#77ddff>WAYPOINT</b></color> icon opens a panel to control different camera anchors. This is useful for changing to different anchors set in the world as well as the speed of interpolation.",
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "The <b><color=#77ddff>OBS</b></color> icon opens a panel to connect to OBS. This can allow you to quickly start recording using OBS.",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "The <b><color=#77ddff>TWITCH</b></color> icon allows you to see your Twitch chat. You can link your channel by typing the channels name in the top left bar.",
-        
+
         "Twitch.Panel.Button.Commands.Enabled" : "Commands Enabled",
         "Twitch.Panel.Button.Commands.Disabled" : "Commands Disabled",
         "Twitch.Panel.Button.SafeMode.Enabled" : "Safemode Enabled",
@@ -1648,7 +1648,7 @@
         "Twitch.Panel.Button.SubscriberCommands.Enabled" : "Subscriber Commands<br> Enabled for Subscribers Only",
         "Twitch.Panel.Button.SubscriberCommands.Disabled" : "Subscriber Commands<br> Enabled for Everyone",
         "Twitch.Panel.Title.Text" : "Twitch Chat",
-        
+
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
         "Exiting.Exiting" : "Exiting...",
