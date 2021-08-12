@@ -1640,8 +1640,15 @@
         "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "The <b><color=#77ddff>WAYPOINT</b></color> icon opens a panel to control different camera anchors. This is useful for changing to different anchors set in the world as well as the speed of interpolation.",
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "The <b><color=#77ddff>OBS</b></color> icon opens a panel to connect to OBS. This can allow you to quickly start recording using OBS.",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "The <b><color=#77ddff>TWITCH</b></color> icon allows you to see your Twitch chat. You can link your channel by typing the channels name in the top left bar.",
-
-
+        
+        "Twitch.Panel.Button.Commands.Enabled" : "Commands Enabled",
+        "Twitch.Panel.Button.Commands.Disabled" : "Commands Disabled",
+        "Twitch.Panel.Button.SafeMode.Enabled" : "Safemode Enabled",
+        "Twitch.Panel.Button.SafeMode.Disabled" : "Safemode Disabled",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled" : "Subscriber Commands<br> Enabled for Subscribers Only",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled" : "Subscriber Commands<br> Enabled for Everyone",
+        "Twitch.Panel.Title.Text" : "Twitch Chat",
+        
         "Exiting.SavingItems" : "Saving {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges" : "Saving Changes...",
         "Exiting.Exiting" : "Exiting...",

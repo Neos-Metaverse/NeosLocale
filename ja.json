@@ -1013,6 +1013,29 @@
         "Security.HostAccess.Allow" : "許可",
         "Security.HostAccess.Deny" : "拒否",
 
+        "Inspector.Slot.AttachComponent" : "コンポーネントをアタッチ",
+
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>右 <b>-</b>左",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>上 <b>-</b>下",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>前 <b>-</b>後",
+
+        "Inspector.Slot.Reset.Label" : "リセット:",
+        "Inspector.Slot.Reset.Position" : "位置",
+        "Inspector.Slot.Reset.Rotation" : "回転",
+        "Inspector.Slot.Reset.Scale" : "拡大/縮小",
+
+        "Inspector.Slot.CreatePivotAtCenter" : "中心に親を作成",
+
+        "Inspector.Slot.JumpTo" : "ジャンプする",
+        "Inspector.Slot.BringTo" : "引き寄せる",
+        "Inspector.Slot.BringTo.Undo" : "{name}をユーザーに引き寄せ",
+
+        "Inspector.Slot.ParentUnder.Label" : "子にする:",
+        "Inspector.Slot.ParentUnder.WorldRoot" : "ワールドルート",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "{name}をワールドルートの子にする",
+        "Inspector.Slot.ParentUnder.LocalUserSpace" : "ローカルユーザースペース",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "{name}をローカルユーザースペースの子にする",
+
         "Inspector.Mesh.StatsHeader" : "メッシュ統計",
         "Inspector.Mesh.VertexCount" : "頂点数: {n}",
         "Inspector.Mesh.TriangleCount" : "ポリゴン数: {n}",
@@ -1023,6 +1046,7 @@
         "Inspector.Mesh.ChannelStats" : "法線(ノーマル): {normals}, 接線(タンジェント): {tangents}, カラー: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "メッシュをベイクする",
+        "Inspector.Mesh.SetupRenderer" : "レンダラーを設定",
         "Inspector.Mesh.ResaveMesh" : "メッシュの再保存",
         "Inspector.Mesh.RecalculateNormals" : "法線の再計算",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "法線の再計算(スムーズシェーディング)",
@@ -1080,6 +1104,8 @@
         "Inspector.Texture.Size" : "サイズ: {width} x {height}",
         "Inspector.Texture.Format" : "フォーマット: {format}, メモリー: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "バリアントID: {variant}",
+
+        "Inspector.Texture.BakeTexture" : "テスクチャをベイク",
 
         "Inspector.Texture.InvertRGB" : "RGBを反転",
         "Inspector.Texture.InvertR" : "Rを反転",
