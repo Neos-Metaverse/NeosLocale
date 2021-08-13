@@ -3,7 +3,9 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Finnish [fi]
 World.Detail.Users.Count  
+World.Category.Random  
 World.AccessLevel.LAN  
+World.SortParameter.Random  
 Undo.Wiggler  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  

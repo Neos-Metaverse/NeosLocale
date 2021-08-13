@@ -19,7 +19,9 @@ World.Connection.LNL.Relay
 World.Connection.SteamNetworkingSockets  
 World.Error.OnlyContactsOfContacts  
 World.Error.FailedToConnect  
+World.Category.Random  
 World.AccessLevel.FriendsOfFriends  
+World.SortParameter.Random  
 Tools.StreamAudio  
 Tools.Setup2FA  
 Tools.StreamAudio.Start  

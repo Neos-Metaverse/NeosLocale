@@ -203,6 +203,7 @@ World.Category.Games
 World.Category.Art  
 World.Category.Tutorials  
 World.Category.Educational  
+World.Category.Random  
 World.Category.MyWorlds  
 World.Category.Custom  
 World.AccessLevel.Anyone  
@@ -220,6 +221,7 @@ World.SortParameter.CreationDate
 World.SortParameter.LastUpdateDate  
 World.SortParameter.FirstPublishTime  
 World.SortParameter.TotalVisits  
+World.SortParameter.Random  
 World.Filter.DataSources  
 World.Filter.OpenedWorlds  
 World.Filter.ActiveSessions  

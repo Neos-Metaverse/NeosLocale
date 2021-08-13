@@ -21,7 +21,9 @@ World.Connection.LNL.Relay
 World.Connection.SteamNetworkingSockets  
 World.Error.OnlyContactsOfContacts  
 World.Error.FailedToConnect  
+World.Category.Random  
 World.AccessLevel.FriendsOfFriends  
+World.SortParameter.Random  
 World.Edit.Title  
 World.Edit.Name  
 World.Edit.Description  

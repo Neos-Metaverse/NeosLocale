@@ -231,6 +231,7 @@
         "World.Category.Art" : "Art",
         "World.Category.Tutorials" : "Tutorials",
         "World.Category.Educational" : "Educational",
+        "World.Category.Random" : "Shuffle",
         "World.Category.MyWorlds" : "My Worlds",
         "World.Category.Custom" : "Custom",
 
@@ -250,6 +251,7 @@
         "World.SortParameter.LastUpdateDate" : "Modification Date",
         "World.SortParameter.FirstPublishTime" : "Published Date",
         "World.SortParameter.TotalVisits" : "Total Visits",
+        "World.SortParameter.Random" : "Random",
 
         "World.Filter.DataSources" : "Data Sources:",
         "World.Filter.OpenedWorlds" : "Opened Worlds",

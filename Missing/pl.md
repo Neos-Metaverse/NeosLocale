@@ -6,6 +6,8 @@ General.Close
 General.CopyToClipboard  
 Interaction.ExportScreenshot  
 Dash.Actions.TurnOffUIEdit  
+World.Category.Random  
+World.SortParameter.Random  
 Tools.Setup2FA  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  

@@ -2,6 +2,8 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Esperanto [eo]
+World.Category.Random  
+World.SortParameter.Random  
 Inspector.Slot.AttachComponent  
 Inspector.Slot.Axis.X  
 Inspector.Slot.Axis.Y  

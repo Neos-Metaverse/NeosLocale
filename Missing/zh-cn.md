@@ -2,6 +2,8 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
+World.Category.Random  
+World.SortParameter.Random  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  
 Account.TOTP.Code.Description  
