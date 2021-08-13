@@ -1618,6 +1618,14 @@
         "Inspector.Mesh.SetupRenderer" : "렌더러 추가하기",
         "Inspector.Texture.BakeTexture" : "텍스쳐 베이크",
 
+        "Twitch.Panel.Button.Commands.Enabled" : "명령어 활성화",
+        "Twitch.Panel.Button.Commands.Disabled" : "명령어 비활성화",
+        "Twitch.Panel.Button.SafeMode.Enabled" : "안전모드 켜기",
+        "Twitch.Panel.Button.SafeMode.Disabled" : "안전모드 끄기",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled" : "구독자 명령어<br> 구독자만 사용 가능합니다.",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled" : "구독자 명령어<br> 모든 시청자가 사용 가능합니다.",
+        "Twitch.Panel.Title.Text" : "트위치 챗",
+
         "Dummy": "더미"
     }
 }

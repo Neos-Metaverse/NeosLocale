@@ -231,6 +231,7 @@
         "World.Category.Art" : "アート",
         "World.Category.Tutorials" : "チュートリアル",
         "World.Category.Educational" : "教育",
+        "World.Category.Random" : "シャッフル",
         "World.Category.MyWorlds" : "自分のワールド",
         "World.Category.Custom" : "カスタム",
 
@@ -250,6 +251,7 @@
         "World.SortParameter.LastUpdateDate" : "更新日",
         "World.SortParameter.FirstPublishTime" : "公開日",
         "World.SortParameter.TotalVisits" : "訪問数",
+        "World.SortParameter.Random" : "ランダム",
 
         "World.Filter.DataSources" : "データソース:",
         "World.Filter.OpenedWorlds" : "開いているワールド",
@@ -1576,7 +1578,7 @@
 
         "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title" : "Select Color Panel",
 
-        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "<color=#dd77ff><b>インベントリー</b></color>内の<color=#dd77ff><b>NEOS ESSENTIALS</b></color>フォルダから<br><color=#ffdd77><b>LIGHT TIP</b></color>を取り出すことができます。これは、<br>Neosの世界に<color=#77ff77><b>ライトを追加</b></color>するためのツールです。",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description" : "<color=#dd77ff><b>インベントリー</b></color>内の<color=#dd77ff><b>ESSENTIAL TOOLS</b></color>フォルダから<br><color=#ffdd77><b>LIGHT TIP</b></color>を取り出すことができます。これは、<br>Neosの世界に<color=#77ff77><b>ライトを追加</b></color>するためのツールです。",
         "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description" : "標準では、<color=#77ff77><b>トリガー</b></color>を押すと、<color=#ffdd77><b>LIGHT TIP</b></color>は<color=#dd77ff><b>ポイントライト</b></color>を<br>作成します。<color=#77ff77><b>トリガー</b></color>を押したままドラッグするとライトの<color=#dd77ff><b><br>明るさ</b></color>は、手を<color=#77ff77><b>ドラッグ</b></color>した<color=#dd77ff><b>距離</b></color>に基づいて影響を受けます。",
 
         "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description" : "<color=#ffdd77><b>ポイントライト</b></color>は、一点からあらゆる方向を<color=#dd77ff><b>減衰</b></color>しながら照らします。",
@@ -1639,6 +1641,14 @@
         "Tutorial.Streaming.StreamCamera.Features.Page3.Description" : "<b><color=#77ddff>ピン</b></color>アイコンを押すとカメラアンカーを制御するパネルを開きます。<br>補間の速度だけでなく、ワールドに設定したアンカー間を移動する場合にも役立ちます。",
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "<b><color=#77ddff>OBS</b></color>アイコンを押すとOBSに接続するためのパネルを開きます。<br>OBSを使用した録画をすばやく開始できます。",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "<b><color=#77ddff>TWITCH</b></color>アイコンを押すとTwitchのチャットを表示できます。<br>左上のバーにチャンネル名を入力してチャンネルをリンクできます。",
+
+        "Twitch.Panel.Button.Commands.Enabled" : "コマンド有効",
+        "Twitch.Panel.Button.Commands.Disabled" : "コマンド無効",
+        "Twitch.Panel.Button.SafeMode.Enabled" : "セーフモード有効",
+        "Twitch.Panel.Button.SafeMode.Disabled" : "セーフモード無効",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled" : "サブスクライバーコマンド<br>サブスクライバーのみ有効",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled" : "サブスクライバーコマンド<br>すべてのユーザーが有効",
+        "Twitch.Panel.Title.Text" : "Twitch チャット",
 
         "Exiting.SavingItems" : "{n, plural, other {# 個のアイテムを}} 保存中...",
         "Exiting.SavingChanges" : "変更を保存中...",
