@@ -231,6 +231,7 @@
         "World.Category.Art" : "アート",
         "World.Category.Tutorials" : "チュートリアル",
         "World.Category.Educational" : "教育",
+        "World.Category.Random" : "シャッフル",
         "World.Category.MyWorlds" : "自分のワールド",
         "World.Category.Custom" : "カスタム",
 
@@ -250,6 +251,7 @@
         "World.SortParameter.LastUpdateDate" : "更新日",
         "World.SortParameter.FirstPublishTime" : "公開日",
         "World.SortParameter.TotalVisits" : "訪問数",
+        "World.SortParameter.Random" : "ランダム",
 
         "World.Filter.DataSources" : "データソース:",
         "World.Filter.OpenedWorlds" : "開いているワールド",
