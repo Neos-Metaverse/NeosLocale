@@ -231,6 +231,7 @@
         "World.Category.Art" : "Umění",
         "World.Category.Tutorials" : "Tutoriály",
         "World.Category.Educational" : "Vzdělávací",
+        "World.Category.Random" : "Náhodné",
         "World.Category.MyWorlds" : "Moje Světy",
         "World.Category.Custom" : "Vlastní",
 
@@ -250,6 +251,7 @@
         "World.SortParameter.LastUpdateDate" : "Datum modifikace",
         "World.SortParameter.FirstPublishTime" : "Datum publikace",
         "World.SortParameter.TotalVisits" : "Počet návštěv",
+        "World.SortParameter.Random" : "Náhodně", 
 
         "World.Filter.DataSources" : "Zdroje dat:",
         "World.Filter.OpenedWorlds" : "Otevřené světy",
