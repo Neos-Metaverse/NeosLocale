@@ -1077,6 +1077,31 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Объединить под-меши с одинаковым материалом",
         "Inspector.MeshRenderer.SplitByMaterial" : "Разделить на отдельные меши по материалу",
 
+        "Inspector.MeshCollider.VHACD" : "Разбор на выпуклые многогранники (V-HACD 2.0)",
+
+        "Inspector.VHACD.Parameter.MergeDoubles" : "Объединить дубликаты",
+        "Inspector.VHACD.Parameter.Resolution" : "Разрешение",
+        "Inspector.VHACD.Parameter.Depth" : "Глубина",
+        "Inspector.VHACD.Parameter.Concavity" : "Впуклость",
+        "Inspector.VHACD.Parameter.PlaneDownsampling" : "Уменьшение разрешения плоскости",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling" : "Уменьшение разрешения выпуклого многогранника",
+        "Inspector.VHACD.Parameter.Alpha" : "Alpha",
+        "Inspector.VHACD.Parameter.Beta" : "Beta",
+        "Inspector.VHACD.Parameter.Gamma" : "Gamma",
+        "Inspector.VHACD.Parameter.Delta" : "Delta",
+        "Inspector.VHACD.Parameter.PCA" : "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "Максимум вершин на многогранник",
+        "Inspector.VHACD.Parameter.MinVolumePerHull" : "Минимальный объём на многогранник",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation" : "Приближение выпуклого многогранника",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "Режим разбора:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "Воксельный",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "Тетраэдральный",
+
+        "Inspector.VHACD.RunDecomposition" : "Запустить разбор",
+        "Inspector.VHACD.RemoveVisuals" : "Убрать визуализацию",
+        "Inspector.VHACD.RemoveHulls" : "Убрать многогранники",
+
         "Inspector.ReflectionProbe.Bake" : "Запечь отражения",
         "Inspector.ReflectionProbe.Baking" : "Запекание...",
 
