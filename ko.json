@@ -1625,6 +1625,9 @@
         "Twitch.Panel.Button.SubscriberCommands.Enabled" : "구독자 명령어<br> 구독자만 사용 가능합니다.",
         "Twitch.Panel.Button.SubscriberCommands.Disabled" : "구독자 명령어<br> 모든 시청자가 사용 가능합니다.",
         "Twitch.Panel.Title.Text" : "트위치 챗",
+		
+        "World.Category.Random" : "무작위",
+        "World.SortParameter.Random" : "무작위",
 
         "Dummy": "더미"
     }
