@@ -1079,6 +1079,8 @@
 
         "Inspector.MeshCollider.VHACD" : "Convex Hull Decomposition (V-HACD 2.0)",
 
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Update locomotion modules on present users",
+
         "Inspector.VHACD.Parameter.MergeDoubles" : "Merge Doubles",
         "Inspector.VHACD.Parameter.Resolution" : "Resolution",
         "Inspector.VHACD.Parameter.Depth" : "Depth",
