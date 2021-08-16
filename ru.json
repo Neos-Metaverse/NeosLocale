@@ -36,7 +36,7 @@
         "Locomotion.Noclip.Name" : "Noclip",
         "Locomotion.Noclip.Description" : "Простой режим полёта сквозь стены. Идеально для редактирования мира.",
         "Locomotion.Teleport.Name" : "Телепорт",
-        "Locomotion.Teleport.Description" : "Использует баллистическую траекторию для телепорта. Удобно для передвижения с комфортом.",
+        "Locomotion.Teleport.Description" : "Телепорт по баллистической траектории. Удобно для передвижения с комфортом.",
         "Locomotion.Fly.Name" : "Полёт",
         "Locomotion.Fly.Description" : "Физический режим полёта, без пролёта сквозь стены.",
         "Locomotion.WalkRun.Name" : "Ходьба/Бег",
@@ -48,7 +48,7 @@
         "Locomotion.GrabWorld.Name" : "Захват мира",
         "Locomotion.GrabWorld.Description" : "Создаёт мировой якорь на уровне руки пользователя и перемещает его относительно руки.",
         "Locomotion.Slide.Name" : "Скольжение",
-        "Locomotion.Slide.Description" : "Простое скользящее перемещение, которое прикрепляется к поверхности, если таковая имеется (В противном случае: включает Полёт).",
+        "Locomotion.Slide.Description" : "Простое скользящее передвижение, которое прикрепляется к поверхности, если таковая имеется (В противном случае: включает Полёт).",
 
         "Interaction.Destroy" : "Удалить",
         "Interaction.Duplicate" : "Дублировать",
@@ -503,9 +503,9 @@
 
         "Tooltip.CharacterCollider.MarkGrippable" : "Отметить Захватываемым",
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Не Отмечать Захватываемым",
-        "Tooltip.CharacterCollider.EnsureWalkRun" : "Обеспечить тип перемещения Ходьба/Бег",
-        "Tooltip.CharacterCollider.EnsureZeroG" : "Обеспечить тип перемещения Нулевая гравитация",
-        "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Обеспечить тип перемещения Полёт",
+        "Tooltip.CharacterCollider.EnsureWalkRun" : "Обеспечить тип передвижения Ходьба/Бег",
+        "Tooltip.CharacterCollider.EnsureZeroG" : "Обеспечить тип передвижения Нулевая гравитация",
+        "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Обеспечить тип передвижения Полёт",
 
         "Tooltip.Light.Point" : "Точечный",
         "Tooltip.Light.Spot" : "Конусный",
@@ -1079,6 +1079,8 @@
 
         "Inspector.MeshCollider.VHACD" : "Разбор на выпуклые многогранники (V-HACD 2.0)",
 
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Обновить модули передвижения на присутствующих пользователях",
+
         "Inspector.VHACD.Parameter.MergeDoubles" : "Объединить дубликаты",
         "Inspector.VHACD.Parameter.Resolution" : "Разрешение",
         "Inspector.VHACD.Parameter.Depth" : "Глубина",
@@ -1298,7 +1300,7 @@
         "Tutorial.Welcome.AccountSkipConfirm" : "Точно пропустить",
 
         "Tutorial.Welcome.SettingsHeader" : "Базовые настройки",
-        "Tutorial.Welcome.SettingsDescription" : "Вы можете поменять базовые настройки перемещения и другие предпочтения. Все эти настройки могут быть изменены позже.",
+        "Tutorial.Welcome.SettingsDescription" : "Вы можете поменять базовые настройки передвижения и другие предпочтения. Все эти настройки могут быть изменены позже.",
         "Tutorial.Welcome.SettingsTurning" : "Стиль поворота",
         "Tutorial.Welcome.SettingsSnapTurn" : "Шагами",
         "Tutorial.Welcome.SettingsSnapTurnDescription" : "Сразу поворачивает на фиксированный угол, идеально для новых пользователей",
@@ -1306,9 +1308,9 @@
         "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Плавно поворачивает, но может вызвать тошноту.",
         "Tutorial.Welcome.SettingsPrimaryController" : "Основной контроллер",
         "Tutorial.Welcome.SettingsPrimaryLeft" : "Левый",
-        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Левый:</b> Поворот, <b>Правый:</b> Перемещение",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Левый:</b> Поворот, <b>Правый:</b> Передвижение",
         "Tutorial.Welcome.SettingsPrimaryRight" : "Правый",
-        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Левый:</b> Перемещение, <b>Правый:</b> Поворот",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Левый:</b> Передвижение, <b>Правый:</b> Поворот",
         "Tutorial.Welcome.SettingsHeight" : "Ваш рост",
         "Tutorial.Welcome.SettingsHeightExamples" : "Например: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
@@ -1346,8 +1348,8 @@
         "Tutorial.Intro.ScalingYourselfVR" : "Чтобы <color=#ffdd77><b>масштабировать себя</b></color>, включите масштабирование в контекстном меню, затем зажмите обе <color=#77ff77><b>кнопки хвата</b></color> и <color=#77ddff><b>сдвигайте или раздвигайте</b></color> руки.",
         "Tutorial.Intro.ScalingYourselfScreen" : "Чтобы <color=#ffdd77><b>масштабировать себя</b></color>, откройте <color=#ffdd77><b>контекстное меню</b></color>, включите масштабирование, зажмите <color=#77ff77><b>Ctrl</b></color> и <color=#77ddff><b>прокручивайте</b></color> ваше <color=#77ff77><b>колесико мыши</b></color>.",
 
-        "Tutorial.Intro.LocomotionTitle" : "Перемещение",
-        "Tutorial.Intro.LocomotionDescription" : "Neos поддерживает много разных режимов перемещения.<br>Эти режимы перемещения доступны в вашем <color=#ffdd77>контекстном меню</color>.",
+        "Tutorial.Intro.LocomotionTitle" : "Передвижение",
+        "Tutorial.Intro.LocomotionDescription" : "Neos поддерживает много разных режимов передвижения.<br>Эти режимы передвижения доступны в вашем <color=#ffdd77>контекстном меню</color>.",
 
         "Tutorial.Intro.DashboardTitle" : "Neos Dashboard (главное меню)",
         "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>Dashboard</b></color> - это ваше главное меню.<br>Открывайте и закрывайте его используя <color=#77ff77><b>{button}</b></color>.",
