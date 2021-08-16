@@ -1077,6 +1077,31 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Merge submeshes with same material",
         "Inspector.MeshRenderer.SplitByMaterial" : "Split into separate meshes by material",
 
+        "Inspector.MeshCollider.VHACD" : "Convex Hull Decomposition (V-HACD 2.0)",
+
+        "Inspector.VHACD.Parameter.MergeDoubles" : "Merge Doubles",
+        "Inspector.VHACD.Parameter.Resolution" : "Resolution",
+        "Inspector.VHACD.Parameter.Depth" : "Depth",
+        "Inspector.VHACD.Parameter.Concavity" : "Concavity",
+        "Inspector.VHACD.Parameter.PlaneDownsampling" : "Plane Downsampling",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling" : "Convex Hull Downsampling",
+        "Inspector.VHACD.Parameter.Alpha" : "Alpha",
+        "Inspector.VHACD.Parameter.Beta" : "Beta",
+        "Inspector.VHACD.Parameter.Gamma" : "Gamma",
+        "Inspector.VHACD.Parameter.Delta" : "Delta",
+        "Inspector.VHACD.Parameter.PCA" : "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "Max Vertices Per Hull",
+        "Inspector.VHACD.Parameter.MinVolumePerHull" : "Min Volume Per Hull",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation" : "Convex Hull Approximation",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "Decomposition Mode:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "Voxel",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "Tetrahedron",
+
+        "Inspector.VHACD.RunDecomposition" : "Run Decomposition",
+        "Inspector.VHACD.RemoveVisuals" : "Remove Visuals",
+        "Inspector.VHACD.RemoveHulls" : "RemoveHulls",
+
         "Inspector.ReflectionProbe.Bake" : "Bake Reflections",
         "Inspector.ReflectionProbe.Baking" : "Baking...",
 
