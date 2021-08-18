@@ -1102,7 +1102,7 @@
 
         "Inspector.VHACD.RunDecomposition" : "Run Decomposition",
         "Inspector.VHACD.RemoveVisuals" : "Remove Visuals",
-        "Inspector.VHACD.RemoveHulls" : "RemoveHulls",
+        "Inspector.VHACD.RemoveHulls" : "Remove Hulls",
 
         "Inspector.ReflectionProbe.Bake" : "Bake Reflections",
         "Inspector.ReflectionProbe.Baking" : "Baking...",
