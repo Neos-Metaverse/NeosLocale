@@ -51,7 +51,7 @@
         "Locomotion.Slide.Description" : "简单的滑动运动（如果存在）会捕捉到表面，否则会飞行。",
 
         "Interaction.Destroy" : "消灭",
-        "Interaction.Duplicate" : "复制并且粘贴",
+        "Interaction.Duplicate" : "复制并粘贴",
         "Interaction.Undo" : "撤消",
         "Interaction.Redo" : "重做",
         "Interaction.EquipTool" : "装备",
@@ -68,7 +68,7 @@
         "Interaction.NamedEquipTool" : "装备{name}",
         "Interaction.NamedEquipTool.Default" : "工具",
 
-        "Interaction.EnterAnchor" : "输入Anchor",
+        "Interaction.EnterAnchor" : "进入Anchor",
         "Interaction.ExitAnchor" : "退出Anchor",
 
         "Interaction.EquipAvatar" : "装备化身",
@@ -154,7 +154,7 @@
         "World.Config.CleanupAssets" : "清理未使用的资产:",
         "World.Config.CleanupInterval" : "清理间隔（秒）:",
 
-        "World.Actions.StartSession" : "开始会议",
+        "World.Actions.StartSession" : "开始客户端",
         "World.Actions.Join" : "加入",
         "World.Actions.Focus" : "焦点",
         "World.Actions.Close" : "关闭世界",
@@ -162,8 +162,8 @@
         "World.Actions.Save" : "保存更改",
         "World.Actions.SaveAs" : "另存为...",
         "World.Actions.SaveCopy" : "保存副本...",
-        "World.Actions.SaveHere" : "保存在这里",
-        "World.Actions.SaveToInventory" : "保存到库存",
+        "World.Actions.SaveHere" : "保存到这里",
+        "World.Actions.SaveToInventory" : "保存到物品栏",
         "World.Actions.Saving" : "正在保存...",
         "World.Actions.Discard" : "放弃更改",
         "World.Actions.Clone" : "克隆世界",
@@ -180,14 +180,14 @@
         "World.Actions.LeaveConfirm" : "离开",
         "World.Actions.CannotClose" : "(无法关闭这个世界)",
         "World.Actions.GuestWarning" : "",
-        "World.Actions.HostingWarning" : "您在主持这个世界。所有的用户都会从此客户端被断开连接。",
+        "World.Actions.HostingWarning" : "您在主持这个世界。所有的用户都会从此客户端断开连接。",
 
         "World.Actions.GetWorldOrb" : "获取世界球体",
         "World.Actions.CopyWorldURL" : "复制世界网址",
         "World.Actions.CopyRecordURL" : "复制记录网址",
         "World.Actions.StartCustomSession" : "开始自定义客户端",
         "World.Actions.ModifyMetadata" : "编辑元数据",
-        "World.Actions.GetSessionOrb" : "获取会议球",
+        "World.Actions.GetSessionOrb" : "获取客户端球",
         "World.Actions.CopySessionURL" : "复制会议网址",
 
         "World.Indicator.NoData" : "没有数据",
@@ -225,11 +225,12 @@
         "World.Category.ActiveSessions" : "活跃客户端",
         "World.Category.FriendSessions" : "联系人的客户端",
         "World.Category.HeadlessSessions" : "无头客户端",
-        "World.Category.Social" : "聚会用",
+        "World.Category.Social" : "聚会",
         "World.Category.Games" : "游戏类",
         "World.Category.Art" : "艺术",
         "World.Category.Tutorials" : "教程",
-        "World.Category.Educational" : "教育用",
+        "World.Category.Educational" : "教育",
+         "World.Category.Random" : "随机",
         "World.Category.MyWorlds" : "我的世界",
         "World.Category.Custom" : "自定义",
 
@@ -256,7 +257,7 @@
         "World.Filter.PublishedWorlds" : "出版的世界",
         "World.Filter.LocalWorlds" : "本地世界",
         "World.Filter.BaseSearch" : "基础搜索:",
-        "World.Filter.ByOwner" : "由业主:",
+        "World.Filter.ByOwner" : "所有者:",
         "World.Filter.UserOwner" : "所有者是用户",
         "World.Filter.GroupOwner" : "所有者是组",
         "World.Filter.SubmittedToGroup" : "提交给组:",
@@ -267,7 +268,7 @@
         "World.Filter.MinimumFriends" : "最少朋友数: <b>{n}</b>",
         "World.Filter.OnlyHeadless" : "仅无头主机",
         "World.Filter.MaxAccessLevel" : "最大访问权限:",
-        "World.Filter.MinimumUptime" : "最小正常运行时间:",
+        "World.Filter.MinimumUptime" : "最小运行时间:",
         "World.Filter.Sorting" : "排序:",
 
         "World.Edit.Title" : "编辑世界元数据",
@@ -351,6 +352,9 @@
         "Account.ErrorLoginError" : "记录错误:",
         "Account.RegistrationSuccess" : "<size=120％>成功！</size><br><br>已通过验证链接将电子邮件发送到{email}。<br><br>单击此链接后，我们将自动记录 只要打开此对话框即可。<br><br>如果遇到问题，请通过hello@neos.com或discord.gg/neosvr与我们联系。",
 
+        "2FA.Header" : "2FA验证",
+        "2FA.Token" : "6位令牌:",
+        
         "Profile.Status.Online" : "线上",
         "Profile.Status.Away" : "离去",
         "Profile.Status.Busy" : "繁忙",
@@ -532,7 +536,7 @@
         "CreateNew.Object.FogVolume.Gradient" : "梯度",
 
         "CreateNew.Text" : "文本",
-        "CreateNew.Text.Basic" : "基本的",
+        "CreateNew.Text.Basic" : "基本",
         "CreateNew.Text.Outline" : "轮廓",
 
         "CreateNew.Editor" : "编辑",
@@ -989,6 +993,10 @@
 
         "Inspector.Slot.CreatePivotAtCenter" : "在中心创建Pivot",
         
+        "Inspector.Slot.JumpTo" : "前往到该物体",
+        "Inspector.Slot.BringTo" : "把该物体带到前方",
+        "Inspector.Slot.BringTo.Undo" : "把{name}传送到我的位置",
+        
         "Inspector.Slot.ParentUnder.WorldRoot" : "世界Root",
 
 
@@ -1047,9 +1055,9 @@
         "Inspector.BipedRig.DetectHands" : "检测 Hand Rigs",
         "Inspector.BipedRig.DetectLeftHand" : "检测 Left Hand Rig",
         "Inspector.BipedRig.DetectRightHand" : "检测 Right Hand Rig",
-        "Inspector.BipedRig.HandRigResult" : "做完了！ 左手: {left}, 右手: {right}",
-        "Inspector.BipedRig.LeftHandRigResult" : "做完了！ 检测到左手: {detected}",
-        "Inspector.BipedRig.RightHandRigResult" : "做完了！ 检测到右手: {detected}",
+        "Inspector.BipedRig.HandRigResult" : "完成！ 左手: {left}, 右手: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "完成！ 检测到左手: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "完成！ 检测到右手: {detected}",
 
         "Inspector.Texture.Size" : "尺寸: {width} x {height}",
         "Inspector.Texture.Format" : "格式: {format}, 存储器: <nobr>{memory}</nobr>",
@@ -1215,7 +1223,7 @@
         "Tutorial.Welcome.AccountSkip" : "没有帐户继续",
         "Tutorial.Welcome.AccountSkipHeader" : "跳过创建帐户？",
         "Tutorial.Welcome.AccountSkipDescription" : "无法将某些功能（例如，将项目保存到库存，使其成为最喜欢的化身）访问。",
-        "Tutorial.Welcome.AccountSkipConfirm" : "真的跳过",
+        "Tutorial.Welcome.AccountSkipConfirm" : "确定跳过",
         
         "Tutorial.Welcome.SettingsHeader" : "基本配置",
         "Tutorial.Welcome.SettingsDescription" : "你可以配置基本动作和用户首选项。 所有这些都可以在以后更改。",
@@ -1294,6 +1302,8 @@
         "Tutorial.Intro.Website" : "网站",
         "Tutorial.Intro.OutroEnd" : "要支持该项目，请加入我们的Patreon。<br><br>加入Discord以获取状态更新，网络或技术支持。",
 
+        "Object.Mirror.Toggle" : "切换（尽自己）",
+        
         "Tutorial.MTC.Avatars" : "化身",
         "Tutorial.MTC.Creation" : "创作",
         "Tutorial.MTC.RecordingStreaming" : "记录<br>和流式传输",
