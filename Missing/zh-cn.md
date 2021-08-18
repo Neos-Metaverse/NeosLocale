@@ -2,7 +2,6 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
-World.Category.Random  
 World.SortParameter.Random  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  
@@ -27,8 +26,6 @@ Account.TOTP.Deactivate.Description
 Account.TOTP.Deactivate.Deactivate  
 Account.TOTP.Deactivate.Deactivating  
 Account.TOTP.Message.DeactivationComplete  
-2FA.Header  
-2FA.Token  
 Undo.BatchConvertMaterials  
 Importer.Model.Advanced.ForcePointFiltering  
 Importer.Model.Advanced.ForceNoMipMaps  
@@ -38,15 +35,13 @@ CameraControl.Control.MotionBlur
 CameraControl.Control.ScreenSpaceReflections  
 Settings.DoNotSendReadStatus  
 Settings.Audio.WhisperVoiceVolume  
-Inspector.Slot.JumpTo  
-Inspector.Slot.BringTo  
-Inspector.Slot.BringTo.Undo  
 Inspector.Slot.ParentUnder.Label  
 Inspector.Slot.ParentUnder.WorldRoot.Undo  
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Mesh.SetupRenderer  
 Inspector.MeshCollider.VHACD  
+Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.Resolution  
 Inspector.VHACD.Parameter.Depth  
@@ -108,7 +103,6 @@ Tutorial.Intro.BadgesDisabilitySpeech
 Tutorial.Intro.BadgesTitle  
 Tutorial.Intro.BadgesDescription  
 Tutorial.Intro.HelpSite  
-Object.Mirror.Toggle  
 Tutorial.Streaming.StageControl  
 Tutorial.Streaming.StageUI  
 Tutorial.Streaming.StageLights  
