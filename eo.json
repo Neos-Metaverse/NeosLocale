@@ -231,6 +231,7 @@
         "World.Category.Art": "Arto",
         "World.Category.Tutorials": "Lerniloj",
         "World.Category.Educational": "Eduka",
+        "World.Category.Random" : "Senorda",
         "World.Category.MyWorlds": "Miaj Mondoj",
         "World.Category.Custom": "Propra",
 
@@ -250,6 +251,7 @@
         "World.SortParameter.LastUpdateDate": "Dato de modifo",
         "World.SortParameter.FirstPublishTime": "Eldonita dato",
         "World.SortParameter.TotalVisits": "Entute Vizitoj",
+        "World.SortParameter.Random" : "Senorda",
 
         "World.Filter.DataSources": "Datumfontoj:",
         "World.Filter.OpenedWorlds": "Malfermitaj Mondoj",
@@ -451,7 +453,7 @@
         "Undo.Spawn" : "Aperigi {name}",
         "Undo.Destroy" : "Detrui {name}",
         "Undo.SpawnComponent" : "Aldoni {component_type} al {slot_name}",
-        "Undo.DuplicateComponent" : "Duobligi Komponenton",
+        "Undo.DuplicateComponent" : "Duobligi Komponanton",
         "Undo.DestroyComponent" : "Detrui {component_type} de {slot_name}",
         "Undo.Transform" : "Movis {name}",
         "Undo.Translate" : "Translacii",
@@ -1012,6 +1014,29 @@
         "Security.HostAccess.NoReason" : "<i>Neniu kialo provizita</i>",
         "Security.HostAccess.Allow" : "Permesi",
         "Security.HostAccess.Deny" : "Neigi",
+        
+        "Inspector.Slot.AttachComponent" : "Aldoni Komponanton",
+        
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>Dekstre <b>-</b>Maldekstre",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Supre <b>-</b>Malsupre",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Antaŭe <b>-</b>Malantaŭe",
+        
+        "Inspector.Slot.Reset.Label" : "Restarigi:",
+        "Inspector.Slot.Reset.Position" : "Pozicion",
+        "Inspector.Slot.Reset.Rotation" : "Rotacion",
+        "Inspector.Slot.Reset.Scale" : "Skalon",
+        
+        "Inspector.Slot.CreatePivotAtCenter" : "Krei Pivoton Ĉe Centro",
+        
+        "Inspector.Slot.JumpTo" : "Iri Al",
+        "Inspector.Slot.BringTo" : "Porti Al",
+        "Inspector.Slot.BringTo.Undo" : "Porti {name} al uzanto",
+        
+        "Inspector.Slot.ParentUnder.Label" : "Gepatrigi Sub:",
+        "Inspector.Slot.ParentUnder.WorldRoot" : "Monda Radiko",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "Gepatrigi {name} sub monda radiko",
+        "Inspector.Slot.ParentUnder.LocalUserSpace" : "Loka Uzanta Spaco",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "Gepatrigi {name} sub loka uzanta spaco",
 
         "Inspector.Mesh.StatsHeader" : "Maŝ-Statistikoj",
         "Inspector.Mesh.VertexCount" : "Vertica Kalkulo: {n}",
@@ -1023,6 +1048,7 @@
         "Inspector.Mesh.ChannelStats" : "Normalaĵoj: {normals}, Tanĝantoj: {tangents}, Koloroj: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "Baki Maŝon",
+        "Inspector.Mesh.SetupRenderer" : "Agordi Bildigilon",
         "Inspector.Mesh.ResaveMesh" : "Konservi Maŝon",
         "Inspector.Mesh.RecalculateNormals" : "Rekalkuli Normalaĵojn",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Rekalkuli normalojn (glata ombrado)",
@@ -1049,6 +1075,33 @@
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Kunfandi submaŝojn kun sama materialo",
         "Inspector.MeshRenderer.SplitByMaterial" : "Disigi en apartajn maŝojn laŭ materialo",
+        
+        "Inspector.MeshCollider.VHACD" : "Dismetado De Konveksa Ŝelo (V-HACD 2.0)",
+        
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Ĝisdatigi movadajn modulojn de ĉeestantaj uzantoj",
+
+        "Inspector.VHACD.Parameter.MergeDoubles" : "Kunfandi Duoblojn",
+        "Inspector.VHACD.Parameter.Resolution" : "Distingivo",
+        "Inspector.VHACD.Parameter.Depth" : "Profundeco",
+        "Inspector.VHACD.Parameter.Concavity" : "Kaveco",
+        "Inspector.VHACD.Parameter.PlaneDownsampling" : "Reduktado De Ebeno",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling" : "Reduktado De Konveksa Ŝelo",
+        "Inspector.VHACD.Parameter.Alpha" : "Alfa",
+        "Inspector.VHACD.Parameter.Beta" : "Beta",
+        "Inspector.VHACD.Parameter.Gamma" : "Gama",
+        "Inspector.VHACD.Parameter.Delta" : "Delta",
+        "Inspector.VHACD.Parameter.PCA" : "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "Maksimuma Verticoj Po Ŝelo",
+        "Inspector.VHACD.Parameter.MinVolumePerHull" : "Minimuma Volumeno Po Ŝelo",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation" : "Proksimumo De Konveksa Ŝelo",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "Reĝimo De Dismetado:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "Voxel",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "Kvaredro",
+
+        "Inspector.VHACD.RunDecomposition" : "Ruli Dismetadon",
+        "Inspector.VHACD.RemoveVisuals" : "Forigi Bildigon",
+        "Inspector.VHACD.RemoveHulls" : "Forigi Ŝelojn",
 
         "Inspector.ReflectionProbe.Bake" : "Baki Reflektadojn",
         "Inspector.ReflectionProbe.Baking" : "Bakante...",
@@ -1064,7 +1117,7 @@
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Bildigi proksimumajn kunfanditajn ostajn sferajn limojn",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Forigi bildojn limoj de ostoj",
 
-
+        "Inspector.SimpleAvatarProtection.RemoveAll" : "Forigi Ĉiajn Aperojn",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "FORIGI protekton de avataro",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Akiri diagnozajn informojn pri Rigilaro",
@@ -1080,6 +1133,8 @@
         "Inspector.Texture.Size" : "Grandeco: {width} x {height}",
         "Inspector.Texture.Format" : "Formato: {format}, Memoro: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "VariantID: {variant}",
+        
+        "Inspector.Texture.BakeTexture" : "Baki Teksturo",
 
         "Inspector.Texture.InvertRGB" : "Inversigi RGB",
         "Inspector.Texture.InvertR" : "Inversigi R",
@@ -1614,6 +1669,13 @@
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "La <color=#77ddff><b>OBS</b></color> simbolo malfermas panelon por konektiĝi al OBS. Ĉi tio povas permesi al vi rapide komenci registron uzante OBS.",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "La <color=#77ddff><b>TWITCH</b></color> simbolo permesas al vi vidi vian Twitch babilejon. Vi povas ligi vian kanalon entajpante la nomon de via kanalo en la supran maldekstran stangon.",
 
+        "Twitch.Panel.Button.Commands.Enabled" : "Komandoj Estas Ŝaltitaj",
+        "Twitch.Panel.Button.Commands.Disabled" : "Komandoj Estas Malŝaltitaj",
+        "Twitch.Panel.Button.SafeMode.Enabled" : "Sendanĝera Reĝimo Estas Ŝaltita",
+        "Twitch.Panel.Button.SafeMode.Disabled" : "Sendanĝera Reĝimo Estas Malŝaltita",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled" : "Abonantaj Komandoj<br> Ŝaltitaj Nur Por Abonantoj",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled" : "Abonantaj Komandoj<br> Ŝaltitaj Por Ĉiuj",
+        "Twitch.Panel.Title.Text" : "Twitch Babilejo",
 
         "Exiting.SavingItems" : "Konservante {n, plural, one {# ero} other {# erojn}}...",
         "Exiting.SavingChanges" : "Konservi Ŝanĝojn...",
