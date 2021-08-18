@@ -1058,7 +1058,7 @@
         "Inspector.Mesh.ReverseWinding" : "逆巻き(面を反転)",
         "Inspector.Mesh.MakeDualSided" : "両面設定にする",
         "Inspector.Mesh.ConvertToFlatShading" : "フラットシェーディングにする",
-        "Inspector.Mesh.ConvertToConvexHull" : "Convex Hull(凸多面体)に変換",
+        "Inspector.Mesh.ConvertToConvexHull" : "Convex Hull(凸包)に変換",
         "Inspector.Mesh.ConvertToPointCloud" : "点群に変換",
         "Inspector.Mesh.MergeDoubles" : "重複頂点の結合",
         "Inspector.Mesh.StripEmptyBlendshapes" : "空のブレンドシェイプを取り除く",
@@ -1075,6 +1075,33 @@
 
         "Inspector.MeshRenderer.MergeByMaterial" : "同じマテリアル同士で結合",
         "Inspector.MeshRenderer.SplitByMaterial" : "マテリアルでメッシュを分ける",
+
+        "Inspector.MeshCollider.VHACD" : "凸包に分解(V-HACD 2.0)",
+
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "ユーザーのロコモーションモジュールを更新",
+
+        "Inspector.VHACD.Parameter.MergeDoubles" : "重複を結合",
+        "Inspector.VHACD.Parameter.Resolution" : "解像度",
+        "Inspector.VHACD.Parameter.Depth" : "クリッピングの深さ",
+        "Inspector.VHACD.Parameter.Concavity" : "最大凹面",
+        "Inspector.VHACD.Parameter.PlaneDownsampling" : "平面ダウンサンプリング",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling" : "凸包ダウンサンプリング",
+        "Inspector.VHACD.Parameter.Alpha" : "アルファ",
+        "Inspector.VHACD.Parameter.Beta" : "ベータ",
+        "Inspector.VHACD.Parameter.Gamma" : "ガンマ",
+        "Inspector.VHACD.Parameter.Delta" : "デルタ",
+        "Inspector.VHACD.Parameter.PCA" : "メッシュを正規化",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "凸包の最大頂点",
+        "Inspector.VHACD.Parameter.MinVolumePerHull" : "凸包の最小体積",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation" : "凸包近似",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "分解モード:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "ボクセル",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "四面体",
+
+        "Inspector.VHACD.RunDecomposition" : "分解を実行する",
+        "Inspector.VHACD.RemoveVisuals" : "ビジュアルを除去",
+        "Inspector.VHACD.RemoveHulls" : "凸包を除去",
 
         "Inspector.ReflectionProbe.Bake" : "リフレクションプローブをベイク",
         "Inspector.ReflectionProbe.Baking" : "ベイク中...",
