@@ -1076,10 +1076,9 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Sloučit submeshe se stejným materiálem",
         "Inspector.MeshRenderer.SplitByMaterial" : "Rozdělit do samostatných meshů dle materiálu",
 
-        "Inspector.ReflectionProbe.Bake" : "Zapéct odrazy",
-        "Inspector.ReflectionProbe.Baking" : "Zapékám...",
-
         "Inspector.MeshCollider.VHACD" : "Dekompozice convex hullu (V-HACD 2.0)",
+
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Aktualizovat pohybové moduly přítomných uživatelů",
 
         "Inspector.VHACD.Parameter.MergeDoubles" : "Sloučit doubly",
         "Inspector.VHACD.Parameter.Resolution" : "Rozlišení",
@@ -1095,6 +1094,17 @@
         "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "Maximum verticí na hull",
         "Inspector.VHACD.Parameter.MinVolumePerHull" : "Minimální objem na hull",
         "Inspector.VHACD.Parameter.ConvexHullApproximation" : "Aproximace convex hullu ",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "Režim dekompozice:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "Voxel",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "Tetrahedron",
+
+        "Inspector.VHACD.RunDecomposition" : "Spustit dekompozici",
+        "Inspector.VHACD.RemoveVisuals" : "Odstranit vizuály",
+        "Inspector.VHACD.RemoveHulls" : "Odstranit hully",
+
+        "Inspector.ReflectionProbe.Bake" : "Zapéct odrazy",
+        "Inspector.ReflectionProbe.Baking" : "Zapékám...",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Oddělit části meshe neovlivněné blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Odstranit přebytečné prázdné blendshapes",
