@@ -1381,6 +1381,24 @@
         "Exiting.Exiting" : "Au revoir!",
         "Exiting.LoggingOut" : "En déconnexion",
 
+        "Earthenworks.MentorSignal.Title.Intro": "Besoin D'aide?<br>Des Mentors volontaires peuvent vous aider!",
+        "Earthenworks.MentorSignal.Title.Offline": "Besoin D'aide?<br>Posez vos questions dans notre discord!",
+        "Earthenworks.MentorSignal.Title.Requested": "Votre demande a été envoyée!",
+        "Earthenworks.MentorSignal.Title.Responding": "Un Mentor est en chemin...",
+        "Earthenworks.MentorSignal.Title.Canceled": "Ticket Annulé.",
+        "Earthenworks.MentorSignal.Title.Completed": "Ticket marqué comme complété",
+        "Earthenworks.MentorSignal.Description.Requested": "Les mentors sont volontaires, Il est possible qu'ils vous contactent plus tard si votre ticket n'est pas traité dans les prochaines minutes.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> a récupéré votre ticket, dans peut de temps, ce mentor rejoindra votre monde ou vous enverra une demande de contact dans peu de temps.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "Si vous avez encore besoin d'aide, n'hésitez pas à demander plus d'aide sur Discord ou dans un monde public. Il est possible que des mentors vous contactent plus tard dans le cas où vous avez besoin d'un peu plus d'aides.",
+        "Earthenworks.MentorSignal.Description.Completed": "N'hésitez pas à créer un nouveau ticket si besoin, ou demander de l'aide sur Discord! La plupart de la communauté adore aider ceux qui en on besoin!",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>La connexion au service Mentor fut perdue:</color> ce panel tenté de se reconnecter automatiquement. Vérifiez que votre connexion n'est pas bloquée dans <color=#8888ff>Dashboard -> Home -> Debug -> Web Hosts</color>. Si cela ne fonctionne pas, veuillez annuler votre ticket, et renouveler la création de celui-ci.<br>Si le problème persisté veuillez nous le faire savoir sur <color=#8888ff>Discord</color>.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>Le monde a atteint sa capacité maximale:</color> Demandez au créateur du monde d'augmenter la limite de joueur, invitez le mentor directement ou communiquez avec le mentor pour trouver un monde de travail.",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>Le monde n'est pas accessible au public:</color> Pour que le mentor vous rejoignes sans invitation directe, le monde doit être enregistré ou joignable par tout le monde, et ne dois pas être caché dans la liste des sessions.<br><color=#8888ff>Si vous avez besoin d'intimité:</color> Contactez le mentor via votre liste de contacts pour qu'il/elle puisse être invités.",
+        "Earthenworks.MentorSignal.Cancel.Text": "Annuler",
+        "Earthenworks.MentorSignal.Reset.Text": "Créer un nouveau ticket",
+        "Earthenworks.MentorSignal.Next.Text": "Demander de l'aide",
+        "Earthenworks.MentorSignal.Discord.Text": "Rejoindre le discord de Neos",
+
         "Dummy" : "Dummy"
     }
 }

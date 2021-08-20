@@ -1,6 +1,6 @@
 {
     "localeCode" : "de",
-    "authors" : ["3x1t_5tyl3", "Ardes", "Avunia", "Blaze", "Bluigi", "dfgHiatus", "Elektrospy", "InnocentThief", "m1nt_", "MR-Alex", "Schwefelhexafluorid", "Tillikum"],
+    "authors" : ["3x1t_5tyl3", "Ardes", "Avunia", "Blaze", "Bluigi", "dfgHiatus", "Elektrospy", "Holy", "InnocentThief", "m1nt_", "MR-Alex", "Schwefelhexafluorid", "Tillikum"],
     "messages" :
     {
         "General.OK" : "OK",
@@ -1619,6 +1619,24 @@
         "Exiting.SavingChanges" : "Speichere Änderungen...",
         "Exiting.Exiting" : "Beenden...",
         "Exiting.LoggingOut" : "Abmelden...",
+
+        "Earthenworks.MentorSignal.Title.Intro": "Brauchst du Hilfe?<br>Freiwillige Mentoren können helfen",
+        "Earthenworks.MentorSignal.Title.Offline": "Brauchst du Hilfe?<br>Frage im Discord nach Hilfe",
+        "Earthenworks.MentorSignal.Title.Requested": "Die Anfrage wurde gesendet",
+        "Earthenworks.MentorSignal.Title.Responding": "Ein Mentor ist auf dem Weg",
+        "Earthenworks.MentorSignal.Title.Canceled": "Ticket wurde abgebrochen",
+        "Earthenworks.MentorSignal.Title.Completed": "Ticket wurde als fertig markiert",
+        "Earthenworks.MentorSignal.Description.Requested": "Mentoren sind Freiwillige, du wirst vielleicht später kontaktiert wenn das Ticket im Moment nicht beantwortet wird.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> hat das Ticket angenommen, der Mentor sollte bald deiner Welt beitreten oder dich per Kontaktliste benachrichtigen.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "Wenn du immer noch Hilfe brauchst, bitte wende dich an den Discord-Server oder an öffentliche Welten. Du wirst möglicherweise später kontaktiert, um zu bestätigen ob du noch Hilfe benötigst.",
+        "Earthenworks.MentorSignal.Description.Completed": "Erstelle ruhig ein weiteres Ticket, falls mehr Hilfe benötigt wird oder frage auf Discord. Die Community hilft dir sicher gern!",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>Dieses Panel hat Verbindung mit dem Mentor-Service verloren:</color> Das Panel wird versuchen, sich automatisch erneut zu verbinden. Prüfe, dass die Verbindung nicht blockiert wird in <color=#8888ff>Dashboard -> Home -> Debug -> Web Hosts</color>. Wenn alles scheitert, bitte brich das Ticket ab und erstelle ein neues.<br>Wenn das Problem besteht, bitte lass es uns auf <color=#8888ff>Discord</color> wissen.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>Die Welt is momentan voll:</color> Frage den Host nach einer Erhöhung des Limits, lade den Mentor direkt ein, oder koordiniere mit dem Mentor, um eine Arbeitswelt zu finden.",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>Die Welt ist nicht öffentlich zugänglich:</color> Damit der Mentor ohne direkte Einladung beitreten kann, muss die Welt auf \"Registrierte Benutzer\" oder \"Jeder\" gesetzt werden und nicht von der Sitzungs-Liste versteckt sein.<br><color=#8888ff>Wenn du Privatsphäre brauchst:</color> Kontaktiere den Mentor durch die Kontaktliste um ihn direkt einzuladen.",
+        "Earthenworks.MentorSignal.Cancel.Text": "Abbrechen",
+        "Earthenworks.MentorSignal.Reset.Text": "Weiteres erstellen",
+        "Earthenworks.MentorSignal.Next.Text": "Hilfe bekommen",
+        "Earthenworks.MentorSignal.Discord.Text": "Tritt dem Neos Discord bei",
 
         "Dummy" : "Dummy"
     }

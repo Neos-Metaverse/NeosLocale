@@ -1682,6 +1682,24 @@
         "Exiting.Exiting" : "終了中...",
         "Exiting.LoggingOut" : "ログアウト中...",
 
+        "Earthenworks.MentorSignal.Title.Intro": "助けが必要ですか？<br>メンターにヘルプを求めることが出来ます",
+        "Earthenworks.MentorSignal.Title.Offline": "助けが必要ですか？<br>Discordで質問してみましょう",
+        "Earthenworks.MentorSignal.Title.Requested": "ヘルプを呼びました！",
+        "Earthenworks.MentorSignal.Title.Responding": "メンターがもうすぐ来ます",
+        "Earthenworks.MentorSignal.Title.Canceled": "ヘルプをキャンセルしました",
+        "Earthenworks.MentorSignal.Title.Completed": "要求が完了しました",
+        "Earthenworks.MentorSignal.Description.Requested": "メンターはボランティアです、 すぐには誰も来られないかもしれません。 その場合は後日連絡が来ることがあります。 {2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> がリクエストを確認しました。 すぐにワールドに参加して来るか、 「フレンド」からメッセージが飛んでくるかもしれません。 確認してみてください。 {2} {3} {4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "まだヘルプが必要な場合は、Discordや パブリックワールドで改めて声をかけてください。 後日、ヘルプが必要かどうかの連絡があるかもしれません。",
+        "Earthenworks.MentorSignal.Description.Completed": "必要に応じて改めてヘルプを求めたり、 Discordで助けを求めてください。 コミュニティが喜んでお手伝いいたします！",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>現在、メンターサービスとの接続が切れているようです:</color> 自動的に再接続を試みます。<color=#8888ff>ダッシュメニュー -> ホーム -> デバッグ -> Web Hosts</color>で接続がブロックされていないか確認してください。<br>もしブロックしていないのにこの表示が 出る場合は、<color=#8888ff>Discord</color>で知らせてください。",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>このワールドは満員のようです。</color> 可能であればホストに最大ユーザー数を上げてもらうか、メンターを直接招待してください。 あるいは、メンターと別ワールドを開くことを検討してください。",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>このワールドは誰でも入れないようになっています （またはリストに表示されていません） :</color> もし応答したメンターがフレンドでない場合は、「このワールドに入れる人」を「登録ユーザー」または「誰でも」に設定してください。<br><color=#8888ff>セキュリティ上の 問題がある場合 (アバターの初期セットアップなど):</color> 「セッション」から「セッションリストに表示しない」にチェックを入れることで メンター以外はアクセスが困難になります。 もしくはメンターとフレンドになり 直接招待することもできます。",
+        "Earthenworks.MentorSignal.Cancel.Text": "キャンセル",
+        "Earthenworks.MentorSignal.Reset.Text": "最初に戻る",
+        "Earthenworks.MentorSignal.Next.Text": "ヘルプを呼ぶ",
+        "Earthenworks.MentorSignal.Discord.Text": "Neos Discord に参加しましょう！",
+
         "Dummy" : "ダミー"
     }
 }
