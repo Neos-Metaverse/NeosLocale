@@ -1058,7 +1058,7 @@
         "Inspector.Mesh.ReverseWinding" : "逆巻き(面を反転)",
         "Inspector.Mesh.MakeDualSided" : "両面設定にする",
         "Inspector.Mesh.ConvertToFlatShading" : "フラットシェーディングにする",
-        "Inspector.Mesh.ConvertToConvexHull" : "Convex Hull(凸多面体)に変換",
+        "Inspector.Mesh.ConvertToConvexHull" : "Convex Hull(凸包)に変換",
         "Inspector.Mesh.ConvertToPointCloud" : "点群に変換",
         "Inspector.Mesh.MergeDoubles" : "重複頂点の結合",
         "Inspector.Mesh.StripEmptyBlendshapes" : "空のブレンドシェイプを取り除く",
@@ -1075,6 +1075,33 @@
 
         "Inspector.MeshRenderer.MergeByMaterial" : "同じマテリアル同士で結合",
         "Inspector.MeshRenderer.SplitByMaterial" : "マテリアルでメッシュを分ける",
+
+        "Inspector.MeshCollider.VHACD" : "凸包に分解(V-HACD 2.0)",
+
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "ユーザーのロコモーションモジュールを更新",
+
+        "Inspector.VHACD.Parameter.MergeDoubles" : "重複を結合",
+        "Inspector.VHACD.Parameter.Resolution" : "解像度",
+        "Inspector.VHACD.Parameter.Depth" : "クリッピングの深さ",
+        "Inspector.VHACD.Parameter.Concavity" : "最大凹面",
+        "Inspector.VHACD.Parameter.PlaneDownsampling" : "平面ダウンサンプリング",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling" : "凸包ダウンサンプリング",
+        "Inspector.VHACD.Parameter.Alpha" : "アルファ",
+        "Inspector.VHACD.Parameter.Beta" : "ベータ",
+        "Inspector.VHACD.Parameter.Gamma" : "ガンマ",
+        "Inspector.VHACD.Parameter.Delta" : "デルタ",
+        "Inspector.VHACD.Parameter.PCA" : "メッシュを正規化",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "凸包の最大頂点",
+        "Inspector.VHACD.Parameter.MinVolumePerHull" : "凸包の最小体積",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation" : "凸包近似",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "分解モード:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "ボクセル",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "四面体",
+
+        "Inspector.VHACD.RunDecomposition" : "分解を実行する",
+        "Inspector.VHACD.RemoveVisuals" : "ビジュアルを除去",
+        "Inspector.VHACD.RemoveHulls" : "凸包を除去",
 
         "Inspector.ReflectionProbe.Bake" : "リフレクションプローブをベイク",
         "Inspector.ReflectionProbe.Baking" : "ベイク中...",
@@ -1654,6 +1681,24 @@
         "Exiting.SavingChanges" : "変更を保存中...",
         "Exiting.Exiting" : "終了中...",
         "Exiting.LoggingOut" : "ログアウト中...",
+
+        "Earthenworks.MentorSignal.Title.Intro": "助けが必要ですか？<br>メンターにヘルプを求めることが出来ます",
+        "Earthenworks.MentorSignal.Title.Offline": "助けが必要ですか？<br>Discordで質問してみましょう",
+        "Earthenworks.MentorSignal.Title.Requested": "ヘルプを呼びました！",
+        "Earthenworks.MentorSignal.Title.Responding": "メンターがもうすぐ来ます",
+        "Earthenworks.MentorSignal.Title.Canceled": "ヘルプをキャンセルしました",
+        "Earthenworks.MentorSignal.Title.Completed": "要求が完了しました",
+        "Earthenworks.MentorSignal.Description.Requested": "メンターはボランティアです、 すぐには誰も来られないかもしれません。 その場合は後日連絡が来ることがあります。 {2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> がリクエストを確認しました。 すぐにワールドに参加して来るか、 「フレンド」からメッセージが飛んでくるかもしれません。 確認してみてください。 {2} {3} {4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "まだヘルプが必要な場合は、Discordや パブリックワールドで改めて声をかけてください。 後日、ヘルプが必要かどうかの連絡があるかもしれません。",
+        "Earthenworks.MentorSignal.Description.Completed": "必要に応じて改めてヘルプを求めたり、 Discordで助けを求めてください。 コミュニティが喜んでお手伝いいたします！",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>現在、メンターサービスとの接続が切れているようです:</color> 自動的に再接続を試みます。<color=#8888ff>ダッシュメニュー -> ホーム -> デバッグ -> Web Hosts</color>で接続がブロックされていないか確認してください。<br>もしブロックしていないのにこの表示が 出る場合は、<color=#8888ff>Discord</color>で知らせてください。",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>このワールドは満員のようです。</color> 可能であればホストに最大ユーザー数を上げてもらうか、メンターを直接招待してください。 あるいは、メンターと別ワールドを開くことを検討してください。",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>このワールドは誰でも入れないようになっています （またはリストに表示されていません） :</color> もし応答したメンターがフレンドでない場合は、「このワールドに入れる人」を「登録ユーザー」または「誰でも」に設定してください。<br><color=#8888ff>セキュリティ上の 問題がある場合 (アバターの初期セットアップなど):</color> 「セッション」から「セッションリストに表示しない」にチェックを入れることで メンター以外はアクセスが困難になります。 もしくはメンターとフレンドになり 直接招待することもできます。",
+        "Earthenworks.MentorSignal.Cancel.Text": "キャンセル",
+        "Earthenworks.MentorSignal.Reset.Text": "最初に戻る",
+        "Earthenworks.MentorSignal.Next.Text": "ヘルプを呼ぶ",
+        "Earthenworks.MentorSignal.Discord.Text": "Neos Discord に参加しましょう！",
 
         "Dummy" : "ダミー"
     }

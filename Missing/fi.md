@@ -67,6 +67,7 @@ Inspector.Mesh.BoneTrimCount
 Inspector.Mesh.UV_Multiplicator  
 Inspector.Mesh.ScaleUVs  
 Inspector.MeshCollider.VHACD  
+Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.Resolution  
 Inspector.VHACD.Parameter.Depth  

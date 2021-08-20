@@ -36,7 +36,7 @@
         "Locomotion.Noclip.Name" : "Noclip",
         "Locomotion.Noclip.Description" : "Простой режим полёта сквозь стены. Идеально для редактирования мира.",
         "Locomotion.Teleport.Name" : "Телепорт",
-        "Locomotion.Teleport.Description" : "Использует баллистическую траекторию для телепорта. Удобно для передвижения с комфортом.",
+        "Locomotion.Teleport.Description" : "Телепорт по баллистической траектории. Удобно для передвижения с комфортом.",
         "Locomotion.Fly.Name" : "Полёт",
         "Locomotion.Fly.Description" : "Физический режим полёта, без пролёта сквозь стены.",
         "Locomotion.WalkRun.Name" : "Ходьба/Бег",
@@ -48,7 +48,7 @@
         "Locomotion.GrabWorld.Name" : "Захват мира",
         "Locomotion.GrabWorld.Description" : "Создаёт мировой якорь на уровне руки пользователя и перемещает его относительно руки.",
         "Locomotion.Slide.Name" : "Скольжение",
-        "Locomotion.Slide.Description" : "Простое скользящее перемещение, которое прикрепляется к поверхности, если таковая имеется (В противном случае: включает Полёт).",
+        "Locomotion.Slide.Description" : "Простое скользящее передвижение, которое прикрепляется к поверхности, если таковая имеется (В противном случае: включает Полёт).",
 
         "Interaction.Destroy" : "Удалить",
         "Interaction.Duplicate" : "Дублировать",
@@ -503,9 +503,9 @@
 
         "Tooltip.CharacterCollider.MarkGrippable" : "Отметить Захватываемым",
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Не Отмечать Захватываемым",
-        "Tooltip.CharacterCollider.EnsureWalkRun" : "Обеспечить тип перемещения Ходьба/Бег",
-        "Tooltip.CharacterCollider.EnsureZeroG" : "Обеспечить тип перемещения Нулевая гравитация",
-        "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Обеспечить тип перемещения Полёт",
+        "Tooltip.CharacterCollider.EnsureWalkRun" : "Обеспечить тип передвижения Ходьба/Бег",
+        "Tooltip.CharacterCollider.EnsureZeroG" : "Обеспечить тип передвижения Нулевая гравитация",
+        "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Обеспечить тип передвижения Полёт",
 
         "Tooltip.Light.Point" : "Точечный",
         "Tooltip.Light.Spot" : "Конусный",
@@ -1077,6 +1077,33 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Объединить под-меши с одинаковым материалом",
         "Inspector.MeshRenderer.SplitByMaterial" : "Разделить на отдельные меши по материалу",
 
+        "Inspector.MeshCollider.VHACD" : "Разбор на выпуклые многогранники (V-HACD 2.0)",
+
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Обновить модули передвижения на присутствующих пользователях",
+
+        "Inspector.VHACD.Parameter.MergeDoubles" : "Объединить дубликаты",
+        "Inspector.VHACD.Parameter.Resolution" : "Разрешение",
+        "Inspector.VHACD.Parameter.Depth" : "Глубина",
+        "Inspector.VHACD.Parameter.Concavity" : "Впуклость",
+        "Inspector.VHACD.Parameter.PlaneDownsampling" : "Уменьшение разрешения плоскости",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling" : "Уменьшение разрешения выпуклого многогранника",
+        "Inspector.VHACD.Parameter.Alpha" : "Alpha",
+        "Inspector.VHACD.Parameter.Beta" : "Beta",
+        "Inspector.VHACD.Parameter.Gamma" : "Gamma",
+        "Inspector.VHACD.Parameter.Delta" : "Delta",
+        "Inspector.VHACD.Parameter.PCA" : "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "Максимум вершин на многогранник",
+        "Inspector.VHACD.Parameter.MinVolumePerHull" : "Минимальный объём на многогранник",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation" : "Приближение выпуклого многогранника",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "Режим разбора:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "Воксельный",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "Тетраэдральный",
+
+        "Inspector.VHACD.RunDecomposition" : "Запустить разбор",
+        "Inspector.VHACD.RemoveVisuals" : "Убрать визуализацию",
+        "Inspector.VHACD.RemoveHulls" : "Убрать многогранники",
+
         "Inspector.ReflectionProbe.Bake" : "Запечь отражения",
         "Inspector.ReflectionProbe.Baking" : "Запекание...",
 
@@ -1273,7 +1300,7 @@
         "Tutorial.Welcome.AccountSkipConfirm" : "Точно пропустить",
 
         "Tutorial.Welcome.SettingsHeader" : "Базовые настройки",
-        "Tutorial.Welcome.SettingsDescription" : "Вы можете поменять базовые настройки перемещения и другие предпочтения. Все эти настройки могут быть изменены позже.",
+        "Tutorial.Welcome.SettingsDescription" : "Вы можете поменять базовые настройки передвижения и другие предпочтения. Все эти настройки могут быть изменены позже.",
         "Tutorial.Welcome.SettingsTurning" : "Стиль поворота",
         "Tutorial.Welcome.SettingsSnapTurn" : "Шагами",
         "Tutorial.Welcome.SettingsSnapTurnDescription" : "Сразу поворачивает на фиксированный угол, идеально для новых пользователей",
@@ -1281,9 +1308,9 @@
         "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Плавно поворачивает, но может вызвать тошноту.",
         "Tutorial.Welcome.SettingsPrimaryController" : "Основной контроллер",
         "Tutorial.Welcome.SettingsPrimaryLeft" : "Левый",
-        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Левый:</b> Поворот, <b>Правый:</b> Перемещение",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Левый:</b> Поворот, <b>Правый:</b> Передвижение",
         "Tutorial.Welcome.SettingsPrimaryRight" : "Правый",
-        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Левый:</b> Перемещение, <b>Правый:</b> Поворот",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Левый:</b> Передвижение, <b>Правый:</b> Поворот",
         "Tutorial.Welcome.SettingsHeight" : "Ваш рост",
         "Tutorial.Welcome.SettingsHeightExamples" : "Например: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
@@ -1321,8 +1348,8 @@
         "Tutorial.Intro.ScalingYourselfVR" : "Чтобы <color=#ffdd77><b>масштабировать себя</b></color>, включите масштабирование в контекстном меню, затем зажмите обе <color=#77ff77><b>кнопки хвата</b></color> и <color=#77ddff><b>сдвигайте или раздвигайте</b></color> руки.",
         "Tutorial.Intro.ScalingYourselfScreen" : "Чтобы <color=#ffdd77><b>масштабировать себя</b></color>, откройте <color=#ffdd77><b>контекстное меню</b></color>, включите масштабирование, зажмите <color=#77ff77><b>Ctrl</b></color> и <color=#77ddff><b>прокручивайте</b></color> ваше <color=#77ff77><b>колесико мыши</b></color>.",
 
-        "Tutorial.Intro.LocomotionTitle" : "Перемещение",
-        "Tutorial.Intro.LocomotionDescription" : "Neos поддерживает много разных режимов перемещения.<br>Эти режимы перемещения доступны в вашем <color=#ffdd77>контекстном меню</color>.",
+        "Tutorial.Intro.LocomotionTitle" : "Передвижение",
+        "Tutorial.Intro.LocomotionDescription" : "Neos поддерживает много разных режимов передвижения.<br>Эти режимы передвижения доступны в вашем <color=#ffdd77>контекстном меню</color>.",
 
         "Tutorial.Intro.DashboardTitle" : "Neos Dashboard (главное меню)",
         "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>Dashboard</b></color> - это ваше главное меню.<br>Открывайте и закрывайте его используя <color=#77ff77><b>{button}</b></color>.",
@@ -1655,6 +1682,24 @@
         "Exiting.SavingChanges" : "Сохранение Изменений...",
         "Exiting.Exiting" : "Выход...",
         "Exiting.LoggingOut" : "Выход с аккаунта...",
+
+        "Earthenworks.MentorSignal.Title.Intro": "Потерялись?<br>Добровольцы-Менторы могут помочь",
+        "Earthenworks.MentorSignal.Title.Offline": "Потерялись?<br>Спросите совета в Discord",
+        "Earthenworks.MentorSignal.Title.Requested": "Запрос отправлен",
+        "Earthenworks.MentorSignal.Title.Responding": "Ментор спешит на помощь",
+        "Earthenworks.MentorSignal.Title.Canceled": "Заявка отменена",
+        "Earthenworks.MentorSignal.Title.Completed": "Заявка помечена как выполненная",
+        "Earthenworks.MentorSignal.Description.Requested": "Менторы - это добровольцы, с Вами могут связаться позже если на заявку сейчас никто не ответит.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> принял заявку, вскоре он(а) подключится к сессии, или свяжется с Вами через список Контактов.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "Если Вам всё ещё нужна помощь, попробуйте задать вопрос в Discord или в публичных сессиях. С Вами могут связаться позже, если ваш вопрос ещё не будет решен.",
+        "Earthenworks.MentorSignal.Description.Completed": "Не стесняйтесь завести новую заявку, или попросите помощи в Discord. Сообщество обычно готово помочь!",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>Эта панель потеряла связь с сервисом заявок:</color> Панель попытается переподключиться автоматически. Проверьте что соединение не заблокировано в <color=#8888ff>Дэш -> Дом -> Отладка -> Web Hosts</color>. Если ничего не помогает, попробуйте отменить и пересоздать заявку.<br>Если проблема сохраняется, сообщите нам через <color=#8888ff>Discord</color>.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>Сессия в настоящий момент заполнена:</color> Попросите владельца сессии поднять лимит пользователей, пригласите ментора напрямую, или договоритесь с ментором встретиться в другой сессии.",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>Эта сессия недоступна для публики:</color> Чтобы ментор мог подключиться без прямого приглашения, доступ в сессию должен быть Все или Зарегистрированные, и сессия не должна быть спрятана из списка сессий.<br><color=#8888ff>Если Вам нужна приватность:</color> Свяжитесь с ментором через список Контактов чтобы пригласить его(её) напрямую.",
+        "Earthenworks.MentorSignal.Cancel.Text": "Отменить",
+        "Earthenworks.MentorSignal.Reset.Text": "Создать ещё",
+        "Earthenworks.MentorSignal.Next.Text": "Получить помощь",
+        "Earthenworks.MentorSignal.Discord.Text": "Подключиться к Neos Discord",
 
         "Dummy" : "Dummy"
     }
