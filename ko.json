@@ -1629,6 +1629,24 @@
         "World.Category.Random" : "무작위",
         "World.SortParameter.Random" : "무작위",
 
+        "Earthenworks.MentorSignal.Title.Intro": "도움이 필요하신가요?<br>멘토들이 도움을 드릴 수 있습니다.",
+        "Earthenworks.MentorSignal.Title.Offline": "도움이 필요하신가요?<br>디스코드에서 도움을 요청해 보세요",
+        "Earthenworks.MentorSignal.Title.Requested": "티켓이 전송되었습니다",
+        "Earthenworks.MentorSignal.Title.Responding": "멘토가 곧 도착합니다",
+        "Earthenworks.MentorSignal.Title.Canceled": "티켓이 취소되었습니다",
+        "Earthenworks.MentorSignal.Title.Completed": "티켓이 완료된 것으로 처리되었습니다",
+        "Earthenworks.MentorSignal.Description.Requested": "멘토는 자원봉사자 입니다, 지금 요청이 수락되지 않더라도 나중에 연락을 받으실 수 있습니다.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> 님께서 요청을 수락하셨습니다, 곧 월드로 접속하거나, 연락처를 통해 메시지를 보낼 것입니다.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "아직 도움이 필요하다면, 디스코드나 퍼블릭 월드에서 도움을 요청하세요. 나중에 멘토로부터 아직 도움이 필요한지 묻는 연락이 올 수 있습니다.",
+        "Earthenworks.MentorSignal.Description.Completed": "필요한 경우 언제든 새 티켓을 생성하거나, 디스코드에서 도움을 요청하세요. 커뮤니티 멤버들이 정성껏 도와드릴 것입니다!",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>해당 패널은 멘토 서비스와 연결이 끊긴 상태입니다:</color> 자동으로 재접속을 시도합니다. 대시보드 -> 홈 -> 디버그 -> 허가된 호스트에서 연결이 차단되지는 않았는지 확인해주세요. 모든 접속 시도가 실패했다면, 요청을 취소하고 새 티켓을 생성해주세요.<br>해당 문제가 지속된다면 <color=#8888ff>디스코드</color>에서 알려주세요.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>월드가 최대 인원에 도달했습니다:</color> 호스트에게 인원 증가를 요청하거나, 멘토를 직접 초대하거나, 또는 멘토와 함께 작업이 가능한 월드를 찾아보세요.",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>월드가 공개적으로 접근할 수 없는 상태입니다:</color> 직접 초대하지 않고도 멘토가 들어오려면 월드의 접근 권한이 가입된 사용자나 누구나로 설정되어 있어야 하며, 세션 리스트에서 숨겨져있지 않아야 합니다.<br><color=#8888ff>프라이버시가 필요할 경우:</color> 연락처를 통해 멘토와 연락한 후 직접 초대를 보내주세요.",
+        "Earthenworks.MentorSignal.Cancel.Text": "취소",
+        "Earthenworks.MentorSignal.Reset.Text": "새 티켓 생성",
+        "Earthenworks.MentorSignal.Next.Text": "도움 요청",
+        "Earthenworks.MentorSignal.Discord.Text": "네오스 디스코드 참여",
+
         "Dummy": "더미"
     }
 }

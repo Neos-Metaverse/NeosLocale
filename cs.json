@@ -1674,6 +1674,24 @@
         "Exiting.Exiting" : "Ukončuji...",
         "Exiting.LoggingOut" : "Odhlašuji...",
 
+        "Earthenworks.MentorSignal.Title.Intro": "Cítíte se ztraceni?<br>Dobrovolní mentoři mohou pomoci",
+        "Earthenworks.MentorSignal.Title.Offline": "Cítíte se ztraceni?<br>Požádejte o pomoc na Discordu",
+        "Earthenworks.MentorSignal.Title.Requested": "Požadavek byl odeslán",
+        "Earthenworks.MentorSignal.Title.Responding": "Mentor je na cestě",
+        "Earthenworks.MentorSignal.Title.Canceled": "Tiket byl zrušen",
+        "Earthenworks.MentorSignal.Title.Completed": "Tiket byl označen jako dokončený",
+        "Earthenworks.MentorSignal.Description.Requested": "Mentoři jsou dobrovolníci - můžete být kontaktováni později, pokud nebude tiket teď vyřízen.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> přijal(a) tiket. Mentor by se měl brzy připojit do světa, nebo vás kontaktovat skrz seznam kontaktů na dashboardu.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "Pokud stále potřebujete pomoc, prosíme zeptejte se na Discordu nebo ve veřejných světech. Můžete být později kontaktováni za účelem zjištění, zda stále potřebujete asistenci.",
+        "Earthenworks.MentorSignal.Description.Completed": "Pokud to je potřeba, vytvořte další tiket, nebo požádejte o pomoc na Discordu. Komunita často ráda pomůže!",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>Tento panel ztratil připojení ke službě mentorů:</color> Panel se automaticky pokusí o znovu připojení. Zkontrolujte, zda není připojení blokováno v dialogu <color=#8888ff>Dashboard -> Domů -> Diagnostika -> Web Hosts</color>. Pokud vše ostatní selže, prosíme zrušte a znovu vytvořte tiket.<br>Pokud tento problém přetrvává, dejte nám prosíme vědět na <color=#8888ff>Discordu</color>.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>Svět je aktuálně plný:</color> Požádejte hostitele o zvednutí limitu počtu hráčů/přímé pozvání mentora, nebo v koordinaci s mentorem najděte pracovní svět.",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>Svět není aktuálně veřejně přístupný:</color> Aby se mentor mohl do světa připojit bez přímého pozvání, je třeba aby svět byl nastaven na úroveň přístupu Registrovaní uživatelé nebo Kdokoliv, a nesmí být skryt ze seznamu relací.<br><color=#8888ff>Pokud potřebujete soukromí:</color>  Kontaktujte mentora skrz seznam kontaktů na dashboardu, aby jste jej mohli pozvat přímo.",
+        "Earthenworks.MentorSignal.Cancel.Text": "Zrušit",
+        "Earthenworks.MentorSignal.Reset.Text": "Vytvořit nový požadavek",
+        "Earthenworks.MentorSignal.Next.Text": "Požádat o pomoc",
+        "Earthenworks.MentorSignal.Discord.Text": "Připojte se na Neos Discord",
+
         "Dummy" : "Dummy"
     }
 }

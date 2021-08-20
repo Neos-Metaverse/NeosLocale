@@ -173,6 +173,7 @@ Inspector.Mesh.StripBlendshapeNormals
 Inspector.Mesh.StripBlendshapeTangents  
 Inspector.Mesh.UV_Multiplicator  
 Inspector.MeshCollider.VHACD  
+Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.Resolution  
 Inspector.VHACD.Parameter.Depth  
