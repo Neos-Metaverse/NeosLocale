@@ -1079,6 +1079,23 @@
         "Inspector.ReflectionProbe.Bake" : "Zapéct odrazy",
         "Inspector.ReflectionProbe.Baking" : "Zapékám...",
 
+        "Inspector.MeshCollider.VHACD" : "Dekompozice convex hullu (V-HACD 2.0)",
+
+        "Inspector.VHACD.Parameter.MergeDoubles" : "Sloučit doubly",
+        "Inspector.VHACD.Parameter.Resolution" : "Rozlišení",
+        "Inspector.VHACD.Parameter.Depth" : "Hloubka",
+        "Inspector.VHACD.Parameter.Concavity" : "Konkávnost",
+        "Inspector.VHACD.Parameter.PlaneDownsampling" : "Downsampling roviny",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling" : "Downsampling convex hullu",
+        "Inspector.VHACD.Parameter.Alpha" : "Alfa",
+        "Inspector.VHACD.Parameter.Beta" : "Beta",
+        "Inspector.VHACD.Parameter.Gamma" : "Gamma",
+        "Inspector.VHACD.Parameter.Delta" : "Delta",
+        "Inspector.VHACD.Parameter.PCA" : "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "Maximum verticí na hull",
+        "Inspector.VHACD.Parameter.MinVolumePerHull" : "Minimální objem na hull",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation" : "Aproximace convex hullu ",
+
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Oddělit části meshe neovlivněné blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Odstranit přebytečné prázdné blendshapes",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Hotovo! Odstraněno: {n,plural, one {# blendshape} other {# blendshapes}}",
