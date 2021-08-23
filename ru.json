@@ -1683,6 +1683,24 @@
         "Exiting.Exiting" : "Выход...",
         "Exiting.LoggingOut" : "Выход с аккаунта...",
 
+        "Earthenworks.MentorSignal.Title.Intro": "Потерялись?<br>Добровольцы-Менторы могут помочь",
+        "Earthenworks.MentorSignal.Title.Offline": "Потерялись?<br>Спросите совета в Discord",
+        "Earthenworks.MentorSignal.Title.Requested": "Запрос отправлен",
+        "Earthenworks.MentorSignal.Title.Responding": "Ментор спешит на помощь",
+        "Earthenworks.MentorSignal.Title.Canceled": "Заявка отменена",
+        "Earthenworks.MentorSignal.Title.Completed": "Заявка помечена как выполненная",
+        "Earthenworks.MentorSignal.Description.Requested": "Менторы - это добровольцы, с Вами могут связаться позже если на заявку сейчас никто не ответит.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> принял заявку, вскоре он(а) подключится к сессии, или свяжется с Вами через список Контактов.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "Если Вам всё ещё нужна помощь, попробуйте задать вопрос в Discord или в публичных сессиях. С Вами могут связаться позже, если ваш вопрос ещё не будет решен.",
+        "Earthenworks.MentorSignal.Description.Completed": "Не стесняйтесь завести новую заявку, или попросите помощи в Discord. Сообщество обычно готово помочь!",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>Эта панель потеряла связь с сервисом заявок:</color> Панель попытается переподключиться автоматически. Проверьте что соединение не заблокировано в <color=#8888ff>Дэш -> Дом -> Отладка -> Web Hosts</color>. Если ничего не помогает, попробуйте отменить и пересоздать заявку.<br>Если проблема сохраняется, сообщите нам через <color=#8888ff>Discord</color>.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>Сессия в настоящий момент заполнена:</color> Попросите владельца сессии поднять лимит пользователей, пригласите ментора напрямую, или договоритесь с ментором встретиться в другой сессии.",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>Эта сессия недоступна для публики:</color> Чтобы ментор мог подключиться без прямого приглашения, доступ в сессию должен быть Все или Зарегистрированные, и сессия не должна быть спрятана из списка сессий.<br><color=#8888ff>Если Вам нужна приватность:</color> Свяжитесь с ментором через список Контактов чтобы пригласить его(её) напрямую.",
+        "Earthenworks.MentorSignal.Cancel.Text": "Отменить",
+        "Earthenworks.MentorSignal.Reset.Text": "Создать ещё",
+        "Earthenworks.MentorSignal.Next.Text": "Получить помощь",
+        "Earthenworks.MentorSignal.Discord.Text": "Подключиться к Neos Discord",
+
         "Dummy" : "Dummy"
     }
 }

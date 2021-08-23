@@ -1,6 +1,6 @@
 {
     "localeCode" : "en",
-    "authors" : ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus"],
+    "authors" : ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark"],
     "messages" :
     {
         "General.OK" : "OK",
@@ -1683,6 +1683,24 @@
         "Exiting.SavingChanges" : "Saving Changes...",
         "Exiting.Exiting" : "Exiting...",
         "Exiting.LoggingOut" : "Logging out...",
+
+        "Earthenworks.MentorSignal.Title.Intro": "Feeling Lost?<br>Mentor Volunteers Can Help",
+        "Earthenworks.MentorSignal.Title.Offline": "Feeling Lost?<br>Ask in the Discord for help",
+        "Earthenworks.MentorSignal.Title.Requested": "The Request Has Gone Out",
+        "Earthenworks.MentorSignal.Title.Responding": "A Mentor Is On The Way",
+        "Earthenworks.MentorSignal.Title.Canceled": "Ticket Was Canceled",
+        "Earthenworks.MentorSignal.Title.Completed": "Ticket Was Marked As Completed",
+        "Earthenworks.MentorSignal.Description.Requested": "Mentors are volunteers, you may be contacted later if the ticket doesn't get answered at this time.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> has claimed the ticket, soon they should either join the world, or contact you through the Contacts list.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "If you still need help, please reach out to the Discord or in public worlds. You may be contacted later to see if you still need assistance.",
+        "Earthenworks.MentorSignal.Description.Completed": "Feel free to create another ticket if required, or ask for help on the Discord. The community is often happy to help!",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>This panel has lost connection with the mentor service:</color> The panel will attempt to reconnect automatically. Check to ensure the connection is not blocked in <color=#8888ff>Dashboard -> Home -> Debug -> Web Hosts</color>. If all else fails, please cancel and re-create the ticket.<br>If this problem persists please let us known on the <color=#8888ff>Discord</color>.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>The world is currently full:</color> Ask the host to raise the player limit, invite the mentor directly, or coordinate with the mentor to find a work world.",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>The world is not publically accessible:</color> For the mentor to join without an direct invitation the world must be Registered or Anyone, and must not be hidden from the session list.<br><color=#8888ff>If you need privacy:</color> Contact the mentor through the Contacts list so they can be invited directly.",
+        "Earthenworks.MentorSignal.Cancel.Text": "Cancel",
+        "Earthenworks.MentorSignal.Reset.Text": "Create Another",
+        "Earthenworks.MentorSignal.Next.Text": "Get Help",
+        "Earthenworks.MentorSignal.Discord.Text": "Join the Neos Discord",
 
         "Dummy" : "Dummy"
     }
