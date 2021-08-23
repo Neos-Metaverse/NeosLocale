@@ -258,6 +258,7 @@ CreateNew.Editor.LogixTransferWizard
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 CreateNew.3DModel  
+CreateNew.3DModel.Triangle  
 CreateNew.3DModel.Box  
 CreateNew.3DModel.Sphere  
 CreateNew.3DModel.Capsule  

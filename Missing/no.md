@@ -105,6 +105,7 @@ Tooltip.Microphone.SourceFiltered
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+CreateNew.3DModel.Triangle  
 AvatarCreator.SetupFaceTracking  
 Importer.General.AsRawFile  
 Importer.Folder.Minecraft  

@@ -11,6 +11,7 @@ Tooltip.Microphone.Format.WAV
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
 Tooltip.Microphone.SourceRaw  
+CreateNew.3DModel.Triangle  
 CreateNew.3DModel.Grid  
 CreateNew.3DModel.Torus  
 Importer.Image.LUT  
