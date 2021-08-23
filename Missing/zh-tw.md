@@ -45,6 +45,7 @@ Account.TOTP.Message.DeactivationComplete
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
 Tooltip.Material.ConvertAll  
+CreateNew.3DModel.Triangle  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
 Importer.Image.Screenshot  

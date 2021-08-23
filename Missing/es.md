@@ -4,6 +4,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Spanish [es]
 World.Category.Random  
 World.SortParameter.Random  
+CreateNew.3DModel.Triangle  
 Inspector.MeshCollider.VHACD  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
