@@ -1222,6 +1222,8 @@
 
         "Inspector.AvatarExpression.AutoAssign" : "Přiřadit automaticky (pomocí heuristiky)",
 
+        "Inspector.CharacterController.Warning" : "<color=red><size=150%>VAROVÁNÍ!</size></color><br>Je možné použít tuto komponentu jako jednoduché rigidbody zaškrtnutím SimulateRotation. Než tak učiníte, prosíme uvědomte si, že komponenta není optimalizována pro tento účel a opravdová podpora rigidbody bude do budoucna přidána.<br>Opravdová podpora rigidbody nabídne:<br><b>- CPU a síťovou efektivitu</b> - s komponentou CharacterController budete více zatěžovat CPU a síť<br><b>- Spojení</b> - s pravými rigidbody budete moci vytvářet spoje, panty, pružiny a jiná spojení mezi rigidbodies<br><b>- Hladká simulace a interakce pro všechny</b> - CharacterController se porouchá, pokud se jiná osoba pokusí o interakci<br><b>- Nové vlastnosti a nástroje</b> - aby bylo jejich používání snažší<br>-----------------------<br>Více informací můžete najít na GitHubu, uvnitř issue #22. Pokud rozumíte těmto omezením, bavte se!",
+
         "Wizard.General.ProcessRoot" : "Zpracovat Root:",
         "Wizard.General.Result" : "Výsledek:",
         "Wizard.General.ErrorNoRoot" : "Nebyl vybrán žádný Root",
