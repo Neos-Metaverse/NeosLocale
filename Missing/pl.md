@@ -81,6 +81,7 @@ Inspector.VHACD.RemoveHulls
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.Texture.BakeTexture  
+Inspector.CharacterController.Warning  
 Twitch.Panel.Button.Commands.Enabled  
 Twitch.Panel.Button.Commands.Disabled  
 Twitch.Panel.Button.SafeMode.Enabled  
@@ -88,4 +89,21 @@ Twitch.Panel.Button.SafeMode.Disabled
 Twitch.Panel.Button.SubscriberCommands.Enabled  
 Twitch.Panel.Button.SubscriberCommands.Disabled  
 Twitch.Panel.Title.Text  
+Earthenworks.MentorSignal.Title.Intro  
+Earthenworks.MentorSignal.Title.Offline  
+Earthenworks.MentorSignal.Title.Requested  
+Earthenworks.MentorSignal.Title.Responding  
+Earthenworks.MentorSignal.Title.Canceled  
+Earthenworks.MentorSignal.Title.Completed  
+Earthenworks.MentorSignal.Description.Requested  
+Earthenworks.MentorSignal.Description.Responding  
+Earthenworks.MentorSignal.Description.Canceled  
+Earthenworks.MentorSignal.Description.Completed  
+Earthenworks.MentorSignal.Description.2.Disconnected  
+Earthenworks.MentorSignal.Description.3.Full  
+Earthenworks.MentorSignal.Description.4.No access  
+Earthenworks.MentorSignal.Cancel.Text  
+Earthenworks.MentorSignal.Reset.Text  
+Earthenworks.MentorSignal.Next.Text  
+Earthenworks.MentorSignal.Discord.Text  
 

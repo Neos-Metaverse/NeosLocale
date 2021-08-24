@@ -1045,6 +1045,7 @@ Inspector.Rig.CleanupBoneColliders
 Inspector.Rig.GenerateDebugVisuals  
 Inspector.Rig.ClearDebugVisuals  
 Inspector.AvatarExpression.AutoAssign  
+Inspector.CharacterController.Warning  
 Wizard.General.ProcessRoot  
 Wizard.General.Result  
 Wizard.General.ErrorNoRoot  
@@ -1422,4 +1423,21 @@ Exiting.SavingItems
 Exiting.SavingChanges  
 Exiting.Exiting  
 Exiting.LoggingOut  
+Earthenworks.MentorSignal.Title.Intro  
+Earthenworks.MentorSignal.Title.Offline  
+Earthenworks.MentorSignal.Title.Requested  
+Earthenworks.MentorSignal.Title.Responding  
+Earthenworks.MentorSignal.Title.Canceled  
+Earthenworks.MentorSignal.Title.Completed  
+Earthenworks.MentorSignal.Description.Requested  
+Earthenworks.MentorSignal.Description.Responding  
+Earthenworks.MentorSignal.Description.Canceled  
+Earthenworks.MentorSignal.Description.Completed  
+Earthenworks.MentorSignal.Description.2.Disconnected  
+Earthenworks.MentorSignal.Description.3.Full  
+Earthenworks.MentorSignal.Description.4.No access  
+Earthenworks.MentorSignal.Cancel.Text  
+Earthenworks.MentorSignal.Reset.Text  
+Earthenworks.MentorSignal.Next.Text  
+Earthenworks.MentorSignal.Discord.Text  
 

@@ -25,4 +25,5 @@ Inspector.VHACD.DecompositionMode.Tetrahedron
 Inspector.VHACD.RunDecomposition  
 Inspector.VHACD.RemoveVisuals  
 Inspector.VHACD.RemoveHulls  
+Inspector.CharacterController.Warning  
 
