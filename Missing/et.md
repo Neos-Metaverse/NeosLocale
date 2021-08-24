@@ -48,6 +48,7 @@ Tooltip.Material.ConvertAll
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+CreateNew.3DModel.Triangle  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
 Importer.Image.Screenshot  

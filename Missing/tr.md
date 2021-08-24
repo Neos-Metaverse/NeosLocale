@@ -82,6 +82,7 @@ Tooltip.Material.ConvertAll
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
+CreateNew.3DModel.Triangle  
 AvatarCreator.SetupFaceTracking  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  

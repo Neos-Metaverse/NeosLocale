@@ -89,6 +89,7 @@ CreateNew.Text.Basic
 CreateNew.Editor  
 CreateNew.Editor.CubemapCreator  
 CreateNew.3DModel  
+CreateNew.3DModel.Triangle  
 CreateNew.3DModel.Box  
 CreateNew.3DModel.Capsule  
 CreateNew.3DModel.Cylinder  
