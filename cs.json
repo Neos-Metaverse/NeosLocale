@@ -1077,7 +1077,7 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Sloučit submeshe se stejným materiálem",
         "Inspector.MeshRenderer.SplitByMaterial" : "Rozdělit do samostatných meshů dle materiálu",
 
-        "Inspector.MeshCollider.VHACD" : "Dekompozice convex hullu (V-HACD 2.0)",
+        "Inspector.MeshCollider.VHACD" : "Convex hullová dekompozice (V-HACD 2.0)",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Aktualizovat pohybové moduly přítomných uživatelů",
 
