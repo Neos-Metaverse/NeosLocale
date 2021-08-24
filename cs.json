@@ -575,6 +575,7 @@
         "CreateNew.Editor.ReflectionProbes" : "Reflection Probes",
 
         "CreateNew.3DModel" : "3D Model",
+        "CreateNew.3DModel.Triangle" : "Trojúhelník",
         "CreateNew.3DModel.Box" : "Kvádr",
         "CreateNew.3DModel.Sphere" : "Koule",
         "CreateNew.3DModel.Capsule" : "Kapsle",
