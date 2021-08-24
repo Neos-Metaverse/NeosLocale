@@ -575,6 +575,7 @@
         "CreateNew.Editor.ReflectionProbes" : "Мастер Reflection Probes",
 
         "CreateNew.3DModel" : "3D Модель",
+        "CreateNew.3DModel.Triangle" : "Треугольник",
         "CreateNew.3DModel.Box" : "Куб",
         "CreateNew.3DModel.Sphere" : "Сфера",
         "CreateNew.3DModel.Capsule" : "Капсула",
