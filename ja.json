@@ -575,6 +575,7 @@
         "CreateNew.Editor.ReflectionProbes" : "リフレクションプローブウィザード",
 
         "CreateNew.3DModel" : "3Dモデル",
+        "CreateNew.3DModel.Triangle" : "トライアングル",
         "CreateNew.3DModel.Box" : "ボックス",
         "CreateNew.3DModel.Sphere" : "スフィア",
         "CreateNew.3DModel.Capsule" : "カプセル",
@@ -1220,6 +1221,8 @@
         "Inspector.Rig.ClearDebugVisuals" : "デバッグビジュアル除去",
 
         "Inspector.AvatarExpression.AutoAssign" : "ブレンドシェイプの自動割り当て(ヒューリスティクスを使用)",
+        
+        "Inspector.CharacterController.Warning" : "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、このコンポーネントを単純なRigidbodyとして使用できます。 前提として、この目的のために最適化されておらず、適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>詳細については、GitHub issue #22をご覧ください。 これらの制限を理解している限り、楽しんでください！",
 
         "Wizard.General.ProcessRoot" : "プロセスルート:",
         "Wizard.General.Result" : "結果:",
