@@ -92,6 +92,7 @@ Inspector.SkinnedMesh.BakeBlendShapeResult
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.Texture.BakeTexture  
+Inspector.CharacterController.Warning  
 Tutorial.BotDesigner.ColorOptions.Underbody  
 Tutorial.Intro.PublicFolders.Title  
 Tutorial.Intro.PublicFolders.Description  

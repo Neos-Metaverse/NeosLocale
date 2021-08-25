@@ -181,6 +181,7 @@ Inspector.Rig.CleanupBoneColliders
 Inspector.Rig.GenerateDebugVisuals  
 Inspector.Rig.ClearDebugVisuals  
 Inspector.AvatarExpression.AutoAssign  
+Inspector.CharacterController.Warning  
 Wizard.AssetOptimization.CleanupUnusedAssets  
 Wizard.LightSources.Title  
 Wizard.LightSources.Header  
@@ -492,4 +493,21 @@ Twitch.Panel.Button.SafeMode.Disabled
 Twitch.Panel.Button.SubscriberCommands.Enabled  
 Twitch.Panel.Button.SubscriberCommands.Disabled  
 Twitch.Panel.Title.Text  
+Earthenworks.MentorSignal.Title.Intro  
+Earthenworks.MentorSignal.Title.Offline  
+Earthenworks.MentorSignal.Title.Requested  
+Earthenworks.MentorSignal.Title.Responding  
+Earthenworks.MentorSignal.Title.Canceled  
+Earthenworks.MentorSignal.Title.Completed  
+Earthenworks.MentorSignal.Description.Requested  
+Earthenworks.MentorSignal.Description.Responding  
+Earthenworks.MentorSignal.Description.Canceled  
+Earthenworks.MentorSignal.Description.Completed  
+Earthenworks.MentorSignal.Description.2.Disconnected  
+Earthenworks.MentorSignal.Description.3.Full  
+Earthenworks.MentorSignal.Description.4.No access  
+Earthenworks.MentorSignal.Cancel.Text  
+Earthenworks.MentorSignal.Reset.Text  
+Earthenworks.MentorSignal.Next.Text  
+Earthenworks.MentorSignal.Discord.Text  
 

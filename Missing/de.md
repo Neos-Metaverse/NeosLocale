@@ -46,6 +46,7 @@ Inspector.VHACD.RunDecomposition
 Inspector.VHACD.RemoveVisuals  
 Inspector.VHACD.RemoveHulls  
 Inspector.Texture.BakeTexture  
+Inspector.CharacterController.Warning  
 Twitch.Panel.Button.Commands.Enabled  
 Twitch.Panel.Button.Commands.Disabled  
 Twitch.Panel.Button.SafeMode.Enabled  
