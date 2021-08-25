@@ -575,6 +575,7 @@
         "CreateNew.Editor.ReflectionProbes" : "Reflection Probes",
 
         "CreateNew.3DModel" : "3D Model",
+        "CreateNew.3DModel.Triangle" : "Trojúhelník",
         "CreateNew.3DModel.Box" : "Kvádr",
         "CreateNew.3DModel.Sphere" : "Koule",
         "CreateNew.3DModel.Capsule" : "Kapsle",
@@ -1076,6 +1077,33 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Sloučit submeshe se stejným materiálem",
         "Inspector.MeshRenderer.SplitByMaterial" : "Rozdělit do samostatných meshů dle materiálu",
 
+        "Inspector.MeshCollider.VHACD" : "Convex hullová dekompozice (V-HACD 2.0)",
+
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Aktualizovat pohybové moduly přítomných uživatelů",
+
+        "Inspector.VHACD.Parameter.MergeDoubles" : "Sloučit doubly",
+        "Inspector.VHACD.Parameter.Resolution" : "Rozlišení",
+        "Inspector.VHACD.Parameter.Depth" : "Hloubka",
+        "Inspector.VHACD.Parameter.Concavity" : "Konkávnost",
+        "Inspector.VHACD.Parameter.PlaneDownsampling" : "Downsampling roviny",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling" : "Downsampling convex hullu",
+        "Inspector.VHACD.Parameter.Alpha" : "Alfa",
+        "Inspector.VHACD.Parameter.Beta" : "Beta",
+        "Inspector.VHACD.Parameter.Gamma" : "Gamma",
+        "Inspector.VHACD.Parameter.Delta" : "Delta",
+        "Inspector.VHACD.Parameter.PCA" : "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "Maximum verticí na hull",
+        "Inspector.VHACD.Parameter.MinVolumePerHull" : "Minimální objem na hull",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation" : "Aproximace convex hullu ",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "Režim dekompozice:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "Voxel",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "Tetrahedron",
+
+        "Inspector.VHACD.RunDecomposition" : "Spustit dekompozici",
+        "Inspector.VHACD.RemoveVisuals" : "Odstranit vizuály",
+        "Inspector.VHACD.RemoveHulls" : "Odstranit hully",
+
         "Inspector.ReflectionProbe.Bake" : "Zapéct odrazy",
         "Inspector.ReflectionProbe.Baking" : "Zapékám...",
 
@@ -1193,6 +1221,8 @@
         "Inspector.Rig.ClearDebugVisuals" : "Vyčistit debug visuály",
 
         "Inspector.AvatarExpression.AutoAssign" : "Přiřadit automaticky (pomocí heuristiky)",
+
+        "Inspector.CharacterController.Warning" : "<color=red><size=150%>VAROVÁNÍ!</size></color><br>Je možné použít tuto komponentu jako jednoduché rigidbody zaškrtnutím SimulateRotation. Než tak učiníte, prosíme uvědomte si, že komponenta není optimalizována pro tento účel a opravdová podpora rigidbody bude do budoucna přidána.<br>Opravdová podpora rigidbody nabídne:<br><b>- CPU a síťovou efektivitu</b> - s komponentou CharacterController budete více zatěžovat CPU a síť<br><b>- Spojení</b> - s pravými rigidbody budete moci vytvářet spoje, panty, pružiny a jiná spojení mezi rigidbodies<br><b>- Hladká simulace a interakce pro všechny</b> - CharacterController se porouchá, pokud se jiná osoba pokusí o interakci<br><b>- Nové vlastnosti a nástroje</b> - aby bylo jejich používání snažší<br>-----------------------<br>Více informací můžete najít na GitHubu, uvnitř issue #22. Pokud rozumíte těmto omezením, bavte se!",
 
         "Wizard.General.ProcessRoot" : "Zpracovat Root:",
         "Wizard.General.Result" : "Výsledek:",
