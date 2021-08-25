@@ -485,7 +485,7 @@
         "CreateNew.Editor.LogixTransferWizard": "LogiX 전송 마법사",
 
         "CreateNew.3DModel": "3D 모델",
-		"CreateNew.3DModel.Triangle" : "삼각형(Triangle)",
+        "CreateNew.3DModel.Triangle" : "삼각형(Triangle)",
         "CreateNew.3DModel.Box": "박스(Box)",
         "CreateNew.3DModel.Sphere": "구체(Sphere)",
         "CreateNew.3DModel.Capsule": "캡슐(Capsule)",
@@ -1652,6 +1652,7 @@
         "Inspector.VHACD.RunDecomposition" : "분해 시작",
         "Inspector.VHACD.RemoveVisuals" : "시각화 삭제",
         "Inspector.VHACD.RemoveHulls" : "껍질 삭제",
+        "Inspector.CharacterController.Warning" : "<color=red><size=150%>경고!</size></color><br>SimulateRotation을 선택하여, 이 구성요소를 단순한 형태의 리지드바디로 이용하실 수 있습니다. 이 기능은 향후 적절한 버전으로 지원될 예정이며, 현재는 목적에 부합하는 용도로 사용하기에 최적화된 상태는 아님을 이해해 주시기 바랍니다.<br>적절한 리지드바디는 아래와 같은 장단점을 제공합니다.<br><b>- CPU 및 네트워크 효율성</b> - CharacterController를 사용하는 경우, 더 많은 CPU 사용량과 상당한 양의 네트워크 트래픽이 발생됩니다.<br><b>- 제약 조건</b> - 리지드바디 간 조인트, 힌지, 스프링 및 기타 제약 조건을 생성할 수 있습니다.<br><b>- 여러 사용자에 대한 매끄러운 시뮬레이션 및 상호 작용</b> - 다른 사람이 상호 작용을 시도하면 CharacterController에서 오류를 발생시킵니다.<br><b>- 새로운 기능 및 도구</b> - 훨씬 더 간단한 사용환경을 제공합니다.<br>-----------------------<br>GitHub 이슈 #22에서 더 많은 정보를 확인하실 수 있습니다. 이러한 제약사항을 이해하신 후 즐겨주세요!", ",
 
         "Earthenworks.MentorSignal.Title.Intro": "도움이 필요하신가요?<br>멘토들이 도움을 드릴 수 있습니다.",
         "Earthenworks.MentorSignal.Title.Offline": "도움이 필요하신가요?<br>디스코드에서 도움을 요청해 보세요",
