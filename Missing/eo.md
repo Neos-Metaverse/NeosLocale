@@ -3,6 +3,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Esperanto [eo]
 CreateNew.3DModel.Triangle  
+Settings.Locale.DefaultLanguage  
 Inspector.CharacterController.Warning  
 Earthenworks.MentorSignal.Title.Intro  
 Earthenworks.MentorSignal.Title.Offline  

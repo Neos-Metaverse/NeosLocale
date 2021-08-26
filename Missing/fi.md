@@ -41,6 +41,7 @@ CameraCOntrol.OBS.Recording
 Settings.DebugInputBinding  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
+Settings.Locale.DefaultLanguage  
 Settings.LeapMotion.UseFingersWhenSnapped  
 Settings.ViveHandTracking.UseFingersWhenSnapped  
 Inspector.Slot.AttachComponent  

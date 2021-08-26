@@ -36,6 +36,7 @@ CameraControl.Control.MotionBlur
 CameraControl.Control.ScreenSpaceReflections  
 Settings.DoNotSendReadStatus  
 Settings.Audio.WhisperVoiceVolume  
+Settings.Locale.DefaultLanguage  
 Inspector.Slot.ParentUnder.Label  
 Inspector.Slot.ParentUnder.WorldRoot.Undo  
 Inspector.Slot.ParentUnder.LocalUserSpace  

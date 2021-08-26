@@ -38,6 +38,7 @@ CreateNew.3DModel.Triangle
 Importer.Image.Screenshot  
 Credits.TipConfirmation  
 Settings.DoNotSendReadStatus  
+Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  
 Inspector.Slot.Axis.X  
 Inspector.Slot.Axis.Y  

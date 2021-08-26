@@ -5,6 +5,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 World.Category.Random  
 World.SortParameter.Random  
 CreateNew.3DModel.Triangle  
+Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  
 Inspector.Slot.Axis.X  
 Inspector.Slot.Axis.Y  

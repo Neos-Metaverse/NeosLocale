@@ -972,6 +972,7 @@
 
         "Settings.Locale.ChangeLanguage" : "Change Language",
         "Settings.Locale.SelectLanguageHeader" : "Select your language:",
+        "Settings.Locale.DefaultLanguage" : "System Default",
 
         "Settings.Save" : "Save Settings",
 

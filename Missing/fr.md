@@ -47,6 +47,7 @@ Importer.Model.Advanced.ForceUncompressed
 Credits.TipConfirmation  
 CameraControl.Control.ScreenSpaceReflections  
 Settings.DoNotSendReadStatus  
+Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  
 Inspector.Slot.Axis.X  
 Inspector.Slot.Axis.Y  

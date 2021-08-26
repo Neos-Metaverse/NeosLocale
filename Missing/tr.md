@@ -111,6 +111,7 @@ Settings.Audio.OutputDevice
 Settings.Audio.SelectOutputDevice  
 Settings.Audio.SystemDefaultOutput  
 Settings.Graphics.DesktopFOV  
+Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  
 Inspector.Slot.Axis.X  
 Inspector.Slot.Axis.Y  

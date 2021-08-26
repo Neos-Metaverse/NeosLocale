@@ -93,6 +93,7 @@ Settings.LaserSmoothing.Header
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
 Settings.Graphics.DesktopFOV  
+Settings.Locale.DefaultLanguage  
 Settings.FullBody.Header  
 Settings.Dash.Header  
 Settings.LeapMotion.Name  

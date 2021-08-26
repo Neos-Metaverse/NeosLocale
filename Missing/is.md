@@ -400,6 +400,7 @@ Settings.Audio.StopTest
 Settings.Audio.Monitoring  
 Settings.Audio.SystemDefaultOutput  
 Settings.Graphics.DesktopFOV  
+Settings.Locale.DefaultLanguage  
 Settings.LeapMotion.Name  
 Settings.LeapMotion.Enabled  
 Settings.LeapMotion.HorizontalOffset  

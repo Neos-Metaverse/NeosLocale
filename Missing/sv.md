@@ -615,6 +615,7 @@ Settings.Audio.SystemDefaultOutput
 Settings.Graphics.DesktopFOV  
 Settings.Locale.ChangeLanguage  
 Settings.Locale.SelectLanguageHeader  
+Settings.Locale.DefaultLanguage  
 Settings.Save  
 Settings.FullBody.Header  
 Settings.FullBody.FeetPositionSmoothing  

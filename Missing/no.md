@@ -143,6 +143,7 @@ Settings.Audio.SystemDefaultOutput
 Settings.Graphics.DesktopFOV  
 Settings.Locale.ChangeLanguage  
 Settings.Locale.SelectLanguageHeader  
+Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  
 Inspector.Slot.Axis.X  
 Inspector.Slot.Axis.Y  
