@@ -43,8 +43,8 @@
         "Locomotion.WalkRunGripping.Description" : "Marche, course, saut, et grimpe.",
         "Locomotion.ZeroG.Name" : "Sans gravité",
         "Locomotion.ZeroG.Description" : "Mouvement sans gravité",
-        "Locomotion.GrabWorld.Name" : "Monde accroché",
-        "Locomotion.GrabWorld.Description" : "Aucune idée en fait.",
+        "Locomotion.GrabWorld.Name" : "Monde grimpable",
+        "Locomotion.GrabWorld.Description" : "Locomotion avec la capacité de vous traîner physiquement en grimpant sur les surfaces.",
         "Locomotion.Slide.Name" : "Glissade",
         "Locomotion.Slide.Description" : "Un mode de locomotion qui vous fait glisser sur les surfaces présentes, ou vous fait voler s'il n'y en a pas.",
 
@@ -276,7 +276,7 @@
         "World.Edit.AccessPatreon" : "Patron sur Patreon",
         "World.Edit.AccessPublic" : "N'importe qui (publique)",
 
-        "Tools.AvatarCreator" : "Créateur d'avatars",
+        "Tools.AvatarCreator" : "Créateur d'avatar",
         "Tools.FullBodyCalibrator" : "Calibrateur de corps / avatar",
         "Tools.CameraStreaming" : "Caméra / Diffusion",
         "Tools.CreateNewWorld" : "Créer un nouveau monde",
@@ -285,11 +285,11 @@
         "Tools.Debug" : "Déboguer",
         "Tools.StreamAudio" : "Stream audio",
 
-        "Tools.StreamAudio.Start" : "Démarrer le streaming",
+        "Tools.StreamAudio.Start" : "Démarrer la diffusion",
         "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
         "Tools.StreamAudio.Title" : "Flux audio de {username}",
         "Tools.StreamAudio.Spatialized" : "Spatialisé",
-        "Tools.StreamAudio.Broadcast" : "Broadcast",
+        "Tools.StreamAudio.Broadcast" : "Diffusion",
         "Tools.StreamAudio.PlayForOwner.Off" : "Jouer pour le propriétaire: Inactif",
         "Tools.StreamAudio.PlayForOwner.On" : "Jouer pour le propriétaire: Actif",
 
@@ -442,7 +442,7 @@
         "Undo.BakeMeshes" : "Pré-calculer {name}",
         "Undo.ChangeMesh" : "Changer le modèle",
         "Undo.InsertParent" : "Nouveau parent pour {name}",
-        "Undo.Wiggler" : "Truc Diabolique",
+        "Undo.Wiggler" : "Agitateur",
 
         "Tooltips.Dev.CreateNew" : "Nouvelle création...",
         "Tooltips.Dev.Selection" : "Sélection: {mode}",
@@ -514,7 +514,7 @@
         "CreateNew.Object.VideoPlayer" : "Lecteur vidéo",
         "CreateNew.Object.SpawnArea" : "Zone de matérialisation",
         "CreateNew.Object.SpawnPoint" : "Point de matérialisation",
-        "CreateNew.Object.UIXCanvas" : "Canevas UIX",
+        "CreateNew.Object.UIXCanvas" : "Tableau UIX",
         "CreateNew.Object.Facet" : "Facette",
 
         "CreateNew.Object.FogVolume" : "Volume de brouillard",
