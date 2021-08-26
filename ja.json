@@ -972,6 +972,7 @@
 
         "Settings.Locale.ChangeLanguage" : "言語設定",
         "Settings.Locale.SelectLanguageHeader" : "言語を選択:",
+        "Settings.Locale.DefaultLanguage" : "システムデフォルト",
 
         "Settings.Save" : "設定を保存",
 
