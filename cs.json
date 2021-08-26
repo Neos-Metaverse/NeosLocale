@@ -972,6 +972,7 @@
 
         "Settings.Locale.ChangeLanguage" : "Změnit jazyk",
         "Settings.Locale.SelectLanguageHeader" : "Vyberte váš jazyk:",
+        "Settings.Locale.DefaultLanguage" : "Systémový výchozí",
 
         "Settings.Save" : "Uložit nastavení",
 
