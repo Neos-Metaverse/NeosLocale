@@ -6,14 +6,14 @@ Czech [cs] - 100.0% - Missing keys: 0
 German [de] - 96.4% - Missing keys: 53  
 English (United Kingdom) [en-gb] - 2.4% - Missing keys: 1439  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 98.6% - Missing keys: 20  
+Esperanto [eo] - 99.9% - Missing keys: 2  
 Spanish [es] - 96.5% - Missing keys: 51  
 Estonian [et] - 70.1% - Missing keys: 441  
 Finnish [fi] - 80.0% - Missing keys: 295  
-French [fr] - 83.4% - Missing keys: 244  
+French [fr] - 100.0% - Missing keys: 0  
 Icelandic [is] - 39.8% - Missing keys: 887  
 Japanese [ja] - 100.0% - Missing keys: 0  
-Korean [ko] - 99.9% - Missing keys: 1  
+Korean [ko] - 100.0% - Missing keys: 0  
 Dutch [nl] - 90.4% - Missing keys: 141  
 Norwegian [no] - 55.6% - Missing keys: 655  
 Polish [pl] - 92.9% - Missing keys: 105  
