@@ -575,6 +575,7 @@
         "CreateNew.Editor.ReflectionProbes" : "Asistanto de Reflekta Sondo",
 
         "CreateNew.3DModel": "3D-modelo",
+        "CreateNew.3DModel.Triangle" : "Triangulo",
         "CreateNew.3DModel.Box": "Skatolo",
         "CreateNew.3DModel.Sphere": "Sfero",
         "CreateNew.3DModel.Capsule": "Kapsulo",
@@ -1014,24 +1015,24 @@
         "Security.HostAccess.NoReason" : "<i>Neniu kialo provizita</i>",
         "Security.HostAccess.Allow" : "Permesi",
         "Security.HostAccess.Deny" : "Neigi",
-        
+
         "Inspector.Slot.AttachComponent" : "Aldoni Komponanton",
-        
+
         "Inspector.Slot.Axis.X" : "X: <b>+</b>Dekstre <b>-</b>Maldekstre",
         "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Supre <b>-</b>Malsupre",
         "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Antaŭe <b>-</b>Malantaŭe",
-        
+
         "Inspector.Slot.Reset.Label" : "Restarigi:",
         "Inspector.Slot.Reset.Position" : "Pozicion",
         "Inspector.Slot.Reset.Rotation" : "Rotacion",
         "Inspector.Slot.Reset.Scale" : "Skalon",
-        
+
         "Inspector.Slot.CreatePivotAtCenter" : "Krei Pivoton Ĉe Centro",
-        
+
         "Inspector.Slot.JumpTo" : "Iri Al",
         "Inspector.Slot.BringTo" : "Porti Al",
         "Inspector.Slot.BringTo.Undo" : "Porti {name} al uzanto",
-        
+
         "Inspector.Slot.ParentUnder.Label" : "Gepatrigi Sub:",
         "Inspector.Slot.ParentUnder.WorldRoot" : "Monda Radiko",
         "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "Gepatrigi {name} sub monda radiko",
@@ -1075,9 +1076,9 @@
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Kunfandi submaŝojn kun sama materialo",
         "Inspector.MeshRenderer.SplitByMaterial" : "Disigi en apartajn maŝojn laŭ materialo",
-        
+
         "Inspector.MeshCollider.VHACD" : "Dismetado De Konveksa Ŝelo (V-HACD 2.0)",
-        
+
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Ĝisdatigi movadajn modulojn de ĉeestantaj uzantoj",
 
         "Inspector.VHACD.Parameter.MergeDoubles" : "Kunfandi Duoblojn",
@@ -1133,7 +1134,7 @@
         "Inspector.Texture.Size" : "Grandeco: {width} x {height}",
         "Inspector.Texture.Format" : "Formato: {format}, Memoro: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "VariantID: {variant}",
-        
+
         "Inspector.Texture.BakeTexture" : "Baki Teksturo",
 
         "Inspector.Texture.InvertRGB" : "Inversigi RGB",
@@ -1682,6 +1683,25 @@
         "Exiting.Exiting" : "Elirante...",
         "Exiting.LoggingOut" : "Elŝalti...",
 
+        "Earthenworks.MentorSignal.Title.Intro": "Ĉu konfuza?<br>Mentoraj volontuloj povas helpi vin",
+        "Earthenworks.MentorSignal.Title.Offline": "Ĉu konfuza?<br>Petu helpon en Discord",
+        "Earthenworks.MentorSignal.Title.Requested": "Peto estas sendita",
+        "Earthenworks.MentorSignal.Title.Responding": "Mentoro estas venanta",
+        "Earthenworks.MentorSignal.Title.Canceled": "Bileto estas nuligita",
+        "Earthenworks.MentorSignal.Title.Completed": "Bileto markita kiel plenumita",
+        "Earthenworks.MentorSignal.Description.Requested": "Mentoroj estas volontuloj. Vi povas esti kontaktita poste se la bileto ne estas respondita en ĉi tiu tempo.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1]>{0}</color> prenis la bileton. Ri baldaŭ devus eniri vian mondon aú kontakti vin per la sekcio Kontaktoj.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "Se vi ankoraŭ bezonas helpon, bonvolu iri al Discord aŭ al publikaj mondoj. Vi povas esti kontaktata poste por kontrolo ĉu vi ankoraŭ bezonas helpon.",
+        "Earthenworks.MentorSignal.Description.Completed": "Sentu vin libera krei alian bileton se necesas, aŭ peti helpon en Discord. La komunumo ofte ĝojas helpi!",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>Ĉi tiu panelo perdis konekton kun la mentoro-servo:</color> La panelo provos rekonekti aŭtomate. Kontrolu ke la konekto ne estas blokata en <color=#8888ff>Ĉefpanelo -> Hejmo -> Elpurigi -> «Web Hosts»</color>. Se ĉio ne funkcias, bonvolu nuligi kaj rekrei la bileton.<br>Se ĉi tiu problemo plu adas, sciigu nin en <color=#8888ff>Discord</color>.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>La mondo estas nuntempe plena:</color> Petu al la gastiganto plialtigi la ludantolimon, invitu la mentoron rekte aŭ interkonsentu kun la mentoro por trovi labormondon.",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>La mondo ne estas publike alirebla:</color> Por ke la mentoro povu aliĝi sen rekta invito, la mondo devas esti agordita je Registritaj Uzantoj aŭ Iu Ajn, kaj devas ne esti kaŝita el la seanco-listo.<br><color=#8888ff>Se vi bezonas privatecon:</color> Kontaktu la mentoron per la sekcio Kontaktoj por ke ili povu inviti vin rekte.",
+        "Earthenworks.MentorSignal.Cancel.Text": "Nuligi",
+        "Earthenworks.MentorSignal.Reset.Text": "Krei alian",
+        "Earthenworks.MentorSignal.Next.Text": "Ricevi helpon",
+        "Earthenworks.MentorSignal.Discord.Text": "Aliĝi Neos Discord",
+
         "Dummy" : "Dummy"
     }
 }
+
