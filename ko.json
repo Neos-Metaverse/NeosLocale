@@ -1672,7 +1672,7 @@
         "Earthenworks.MentorSignal.Next.Text": "도움 요청",
         "Earthenworks.MentorSignal.Discord.Text": "네오스 디스코드 참여",
 		
-		"Settings.Locale.DefaultLanguage" : "시스템 기본값",
+        "Settings.Locale.DefaultLanguage" : "시스템 기본값",
 
         "Dummy": "더미"
     }
