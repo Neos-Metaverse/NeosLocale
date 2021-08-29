@@ -231,6 +231,7 @@
         "World.Category.Art" : "Arte",
         "World.Category.Tutorials" : "Tutoriales",
         "World.Category.Educational" : "Mundos Educativos",
+        "World.Category.Random" : "Aleatorio",
         "World.Category.MyWorlds" : "Mis Mundos",
         "World.Category.Custom" : "Personalizar",
 
@@ -250,6 +251,7 @@
         "World.SortParameter.LastUpdateDate" : "Fecha de modificación",
         "World.SortParameter.FirstPublishTime" : "Fecha de Publicación",
         "World.SortParameter.TotalVisits" : "Total de visitas",
+        "World.SortParameter.Random" : "Aleatorio",
 
         "World.Filter.DataSources" : "Fuentes de Datos:",
         "World.Filter.OpenedWorlds" : "Mundos Abiertos",
@@ -573,6 +575,7 @@
         "CreateNew.Editor.ReflectionProbes" : "Asistente de Sondas de Reflexiones",
 
         "CreateNew.3DModel" : "Modelo 3D",
+        "CreateNew.3DModel.Triangle" : "Triángulo",
         "CreateNew.3DModel.Box" : "Cubo",
         "CreateNew.3DModel.Sphere" : "Esfera",
         "CreateNew.3DModel.Capsule" : "Cápsula",
@@ -969,6 +972,7 @@
 
         "Settings.Locale.ChangeLanguage" : "Cambiar Idioma",
         "Settings.Locale.SelectLanguageHeader" : "Selecciona tu idioma:",
+        "Settings.Locale.DefaultLanguage" : "Idioma del Sistema",
 
         "Settings.Save" : "Guardar Ajustes",
 
@@ -1006,7 +1010,7 @@
         "Security.Hyperlink.Cancel" : "Cancelar",
 
         "Security.HostAccess.Title" : "Acceso de Anfitrión",
-        "Security.HostAccess.Warning" : "<b><size=125%>Advertencia: Un mundo está tratando de acceder a un anfitrión externo</size></b>\nHabilitar el acceso podría permitir a la tercera parte recopilar información tal como tu IP y ubicación geográfica.",
+        "Security.HostAccess.Warning" : "<b><size=125%>Advertencia: El mundo está tratando de acceder a un anfitrión externo</size></b>\nHabilitar el acceso podría permitir a la tercera parte recopilar información tal como tu IP y ubicación geográfica.",
         "Security.HostAccess.TargetHost" : "Anfitrión Objetivo: <b>{host}</b>",
         "Security.HostAccess.Reason" : "Razón: {reason}",
         "Security.HostAccess.NoReason" : "<i>Sin razón proporcionada</i>",
@@ -1057,7 +1061,7 @@
         "Inspector.Mesh.ReverseWinding" : "Revertir Bobinado de Caras",
         "Inspector.Mesh.MakeDualSided" : "Hacer de Doble Cara",
         "Inspector.Mesh.ConvertToFlatShading" : "Convertir a Sombreado Plano",
-        "Inspector.Mesh.ConvertToConvexHull" : "Convertir a Estructura Convexa",
+        "Inspector.Mesh.ConvertToConvexHull" : "Convertir a Envolvente Convexo",
         "Inspector.Mesh.ConvertToPointCloud" : "Convertir a Nube de Puntos",
         "Inspector.Mesh.MergeDoubles" : "Unir Duplicados",
         "Inspector.Mesh.StripEmptyBlendshapes" : "Remover Formas Clave Vacías",
@@ -1074,6 +1078,33 @@
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Unir sub-mallas por material",
         "Inspector.MeshRenderer.SplitByMaterial" : "Separar en mallas diferentes por material",
+
+        "Inspector.MeshCollider.VHACD" : "Descomposición de Envolvente Convexo (V-HACD 2.0)",
+
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Actualizar módulos de locomoción en usuarios presentes",
+
+        "Inspector.VHACD.Parameter.MergeDoubles" : "Fusionar Duplicados",
+        "Inspector.VHACD.Parameter.Resolution" : "Resolución",
+        "Inspector.VHACD.Parameter.Depth" : "Profundidad",
+        "Inspector.VHACD.Parameter.Concavity" : "Concavidad",
+        "Inspector.VHACD.Parameter.PlaneDownsampling" : "Submuestreo de Plano",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling" : "Submuestreo de Envolvente Convexo",
+        "Inspector.VHACD.Parameter.Alpha" : "Alpha",
+        "Inspector.VHACD.Parameter.Beta" : "Beta",
+        "Inspector.VHACD.Parameter.Gamma" : "Gamma",
+        "Inspector.VHACD.Parameter.Delta" : "Delta",
+        "Inspector.VHACD.Parameter.PCA" : "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "Vértices Máximos por Envolvente",
+        "Inspector.VHACD.Parameter.MinVolumePerHull" : "Volumen Mínimo por Envolvente",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation" : "Aproximación al Envolvente Convexo",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "Modo de Descomposición:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "Voxel",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "Tetrahedro",
+
+        "Inspector.VHACD.RunDecomposition" : "Iniciar Descomposición",
+        "Inspector.VHACD.RemoveVisuals" : "Quitar Visualizaciones",
+        "Inspector.VHACD.RemoveHulls" : "Quitar Envolventes",
 
         "Inspector.ReflectionProbe.Bake" : "Hornear Reflexiones",
         "Inspector.ReflectionProbe.Baking" : "Horneando...",
@@ -1192,6 +1223,8 @@
         "Inspector.Rig.ClearDebugVisuals" : "Quitar visualización para depurar",
 
         "Inspector.AvatarExpression.AutoAssign" : "Asignar Formas Clave Automáticamente (heurísticamente)",
+
+        "Inspector.CharacterController.Warning" : "<color=red><size=150%>ADVERTENCIA!</size></color><br>Es posible usar éste componente como un cuerpo rígido simple activando SimulateRotation. Antes de hacerlo, tenga en cuenta que no está optimizado para este propósito, y el soporte para cuerpos rígidos será implementado en un futuro.<br>La simulación de cuerpos rígidos ofrecerá:<br><b>- Eficiencia de CPU y red</b> - usar CharacterController tiene un costo mayor de uso de CPU y genera una gran cantidad de tráfico de red<br><b>- Restricciones</b> - podrá crear articulaciones, bisagras, resortes y otras restricciones entre cuerpos rígidos<br><b>- Simulaciones suaves e interacciones para todos</b> - CharacterController fallará en ser preciso si otra persona interactúa<br><b>- Nuevas Funcionalidades y Herramientas</b> - para facilitar su uso<br>-----------------------<br>Puede encontrar más en el Tema de GitHub #22. Entendiendo éstas limitaciones, diviértase!",
 
         "Wizard.General.ProcessRoot" : "Raíz del Procesado:",
         "Wizard.General.Result" : "Resultado:",
@@ -1641,11 +1674,36 @@
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "El ícono de <b><color=#77ddff>OBS</b></color> abre un panel para conectarse a OBS. Ésto le permite velozmente comenzar una grabación usando OBS.",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "El ícono de <b><color=#77ddff>TWITCH</b></color> le permite ver su chat de Twitch. Puede enlazar su canal escribiendo el nombre del canal en la barra superior izquierda.",
 
+        "Twitch.Panel.Button.Commands.Enabled" : "Comandos Habilitados",
+        "Twitch.Panel.Button.Commands.Disabled" : "Comandos Deshabilitados",
+        "Twitch.Panel.Button.SafeMode.Enabled" : "Modo Seguro Habilitado",
+        "Twitch.Panel.Button.SafeMode.Disabled" : "Modo Seguro Deshabilitado",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled" : "Comandos de Suscriptores<br> Habilitados para sólo Suscriptores",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled" : "Comandos de Suscriptores<br> Habilitados para Todos",
+        "Twitch.Panel.Title.Text" : "Chat de Twitch",
 
         "Exiting.SavingItems" : "Guardando {n, plural, one {# objeto} other {# objetos}}...",
         "Exiting.SavingChanges" : "Guardando Cambios...",
         "Exiting.Exiting" : "Saliendo...",
         "Exiting.LoggingOut" : "Cerrando sesión...",
+
+        "Earthenworks.MentorSignal.Title.Intro": "¿Se siente perdido?<br>Mentores voluntarios pueden ayudarle",
+        "Earthenworks.MentorSignal.Title.Offline": "¿Se siente perdido?<br>Pida ayuda en el Discord",
+        "Earthenworks.MentorSignal.Title.Requested": "La Solicitud se ha enviado",
+        "Earthenworks.MentorSignal.Title.Responding": "Un Mentor está en camino",
+        "Earthenworks.MentorSignal.Title.Canceled": "El ticket ha sido cancelado",
+        "Earthenworks.MentorSignal.Title.Completed": "El ticket ha sido marcado como completado",
+        "Earthenworks.MentorSignal.Description.Requested": "Los Mentores son voluntarios, podría ser contactado más tarde si su ticket no ha sido contestado.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> ha reclamado el ticket, pronto debería estar uniéndose al mundo, o contactándolo a través de la lista de Contactos.{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "Si aún necesita ayuda, pídala en el Discord o en mundos públicos. Podría ser contactado más tarde para verificar si aún necesita asistencia.",
+        "Earthenworks.MentorSignal.Description.Completed": "Siéntase libre de crear otro ticket si lo requiere, o pìda ayuda en el Discord. ¡La comunidad suele estar dispuesta a ayudar!",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>Éste panel ha perdido la conexión con el servicio de mentores:</color> El panel intentará reconectarse automáticamente. Verifique que la conexión no está bloqueada en <color=#8888ff>Panel -> Inicio -> Depurar -> Web Hosts</color>. Si todo lo demás falla, por favor cancele y re-haga el ticket.<br>Si el problema háganoslo saber en el <color=#8888ff>Discord</color>.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>El mundo está actualmente lleno:</color> Pídale al anfitrión que incremente el límite de usuarios, invite al mentor directamente, o coordine con el mentor para encontrar un mundo en el cual trabajar.",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>El mundo no es accesible públicamente:</color> Para que el mentor ingrese sin invitación directa el mundo debe estar en modo Registrados o Todos, no debe estar oculto de la lista de sesiones.<br><color=#8888ff>Si requiere privacidad:</color> Contacte al mentor a través de la lista de contactos para invitarlo directamente.",
+        "Earthenworks.MentorSignal.Cancel.Text": "Cancelar",
+        "Earthenworks.MentorSignal.Reset.Text": "Crear Otro",
+        "Earthenworks.MentorSignal.Next.Text": "Obtenga Ayuda",
+        "Earthenworks.MentorSignal.Discord.Text": "Únase al Discord de Neos",
 
         "Dummy" : "Dummy"
     }
