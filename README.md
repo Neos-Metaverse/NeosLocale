@@ -7,7 +7,7 @@ German [de] - 96.4% - Missing keys: 53
 English (United Kingdom) [en-gb] - 2.4% - Missing keys: 1439  
 English [en] - 100.0% - Missing keys: 0  
 Esperanto [eo] - 99.9% - Missing keys: 2  
-Spanish [es] - 96.5% - Missing keys: 51  
+Spanish [es] - 100.0% - Missing keys: 0  
 Estonian [et] - 70.1% - Missing keys: 441  
 Finnish [fi] - 80.0% - Missing keys: 295  
 French [fr] - 100.0% - Missing keys: 0  
