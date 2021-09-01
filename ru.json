@@ -1121,6 +1121,8 @@
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Убрать визуализацию габаритов костей",
 
         "Inspector.SimpleAvatarProtection.RemoveAll" : "Убрать все вхождения",
+        "Inspector.SimpleAvatarProtection.RemoveSingle" : "Убрать это вхождение",
+        "Inspector.SimpleAvatarProtection.Warning" : "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Удаление этого компонента любыми способами кроме выделенных кнопок, расположенных ниже, вызовет срабатывание защитного механизма, который уничтожит весь объект без возможности восстановления!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "УБРАТЬ защиту аватара",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Получить диагностику рига",
