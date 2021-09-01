@@ -120,6 +120,8 @@ Inspector.VHACD.DecompositionMode.Header
 Inspector.VHACD.DecompositionMode.Voxel  
 Inspector.VHACD.RemoveVisuals  
 Inspector.VHACD.RemoveHulls  
+Inspector.SimpleAvatarProtection.RemoveSingle  
+Inspector.SimpleAvatarProtection.Warning  
 Inspector.Texture.Variant  
 Inspector.Texture.Gamma  
 Inspector.CharacterController.Warning  

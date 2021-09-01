@@ -46,6 +46,8 @@ Inspector.VHACD.DecompositionMode.Tetrahedron
 Inspector.VHACD.RunDecomposition  
 Inspector.VHACD.RemoveVisuals  
 Inspector.VHACD.RemoveHulls  
+Inspector.SimpleAvatarProtection.RemoveSingle  
+Inspector.SimpleAvatarProtection.Warning  
 Inspector.Texture.BakeTexture  
 Inspector.CharacterController.Warning  
 Twitch.Panel.Button.Commands.Enabled  

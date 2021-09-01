@@ -3,5 +3,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Esperanto [eo]
 Settings.Locale.DefaultLanguage  
+Inspector.SimpleAvatarProtection.RemoveSingle  
+Inspector.SimpleAvatarProtection.Warning  
 Inspector.CharacterController.Warning  
 

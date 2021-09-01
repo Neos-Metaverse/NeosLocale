@@ -200,6 +200,8 @@ Inspector.SkinnedMesh.VisualizeBoneBounds
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ClearBoundsVisuals  
 Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.RemoveSingle  
+Inspector.SimpleAvatarProtection.Warning  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.BipedRig.GetDiagnosticInfo  
 Inspector.BipedRig.GenerateDebugVisuals  

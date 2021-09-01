@@ -158,6 +158,8 @@ Inspector.ReflectionProbe.Baking
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.RemoveSingle  
+Inspector.SimpleAvatarProtection.Warning  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.Texture.Variant  
 Inspector.Texture.BakeTexture  

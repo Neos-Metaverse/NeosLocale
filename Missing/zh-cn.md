@@ -67,6 +67,8 @@ Inspector.VHACD.RemoveHulls
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.RemoveSingle  
+Inspector.SimpleAvatarProtection.Warning  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.Texture.BakeTexture  
 Inspector.CharacterController.Warning  

@@ -80,6 +80,8 @@ Inspector.VHACD.RunDecomposition
 Inspector.VHACD.RemoveVisuals  
 Inspector.VHACD.RemoveHulls  
 Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.RemoveSingle  
+Inspector.SimpleAvatarProtection.Warning  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.Texture.BakeTexture  
 Inspector.CharacterController.Warning  

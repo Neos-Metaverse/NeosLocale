@@ -100,6 +100,8 @@ Inspector.SkinnedMesh.BakeBlendShapeResult
 Inspector.SkinnedMesh.VisualizeBoneBounds  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ClearBoundsVisuals  
+Inspector.SimpleAvatarProtection.RemoveSingle  
+Inspector.SimpleAvatarProtection.Warning  
 Inspector.Texture.BakeTexture  
 Inspector.Texture.Value  
 Inspector.Texture.AdjustValue  

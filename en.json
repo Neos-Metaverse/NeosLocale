@@ -1121,6 +1121,8 @@
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Remove bone bounding box visuals",
 
         "Inspector.SimpleAvatarProtection.RemoveAll" : "Remove All Instances",
+        "Inspector.SimpleAvatarProtection.RemoveSingle" : "Remove Single Instance",
+        "Inspector.SimpleAvatarProtection.Warning" : "<color=red><size=150%>WARNING!</size></color><br>Removing this component through any means other than the dedicated buttons bellow will trip the protection mechanism and lead to self destruction and potential data loss!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "REMOVE Avatar Protection",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Get rig diagnostic info",
