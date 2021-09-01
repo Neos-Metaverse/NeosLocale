@@ -1673,6 +1673,9 @@
         "Earthenworks.MentorSignal.Discord.Text": "네오스 디스코드 참여",
 		
         "Settings.Locale.DefaultLanguage" : "시스템 기본값",
+		
+        "Inspector.SimpleAvatarProtection.RemoveSingle" : "단일 아바타 보호기능 제거",
+        "Inspector.SimpleAvatarProtection.Warning" : "<color=red><size=150%>경고!</size></color><br>아래에서 제공되는 전용 기능 버튼이 아닌 다른 방법을 통해 이 구성쇼소를 제거하면 보호기능이 무력화되며 스스로 파괴될 수 있으며, 이는 데이터 손실로 이어질 수 있습니다!",
 
         "Dummy": "더미"
     }
