@@ -1124,10 +1124,6 @@
         "Inspector.SimpleAvatarProtection.Warning" : "<color=red><size=150%>警告！</size></color><br>下の専用ボタン以外でこのコンポーネントを削除すると、 保護機能が作動して自己破壊やデータが失われる可能性があります。",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "アバター保護を削除",
 
-        "Inspector.BipedRig.GetDiagnosticInfo" : "リグ診断情報を取得",
-
-        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "本当にアバター保護を削除しますか？",
-
         "Inspector.BipedRig.GetDiagnosticInfo" : "リグ診断情報取得",
         "Inspector.BipedRig.GenerateDebugVisuals" : "デバッグビジュアル生成",
         "Inspector.BipedRig.ClearDebugVisuals" : "デバッグビジュアル除去",
