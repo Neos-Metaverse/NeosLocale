@@ -1120,6 +1120,8 @@
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Odstranit bone bounding box vizuály",
 
         "Inspector.SimpleAvatarProtection.RemoveAll" : "Odstranit veškeré instance",
+        "Inspector.SimpleAvatarProtection.RemoveSingle" : "Odstranit tuto instanci",
+        "Inspector.SimpleAvatarProtection.Warning" : "<color=red><size=150%>VAROVÁNÍ!</size></color><br>Odstranění této komponenty jakýmkoliv jiným zbůsobem než k tomu vyhrazenými tlačítky níže spustí ochranný mechanizmus, což povede k sebedestrukci objektu a potenciální ztrátě dat!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "ODSTRANIT Avatar Protection",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Získat diagnostické info rigu",
