@@ -1079,6 +1079,7 @@
         "Inspector.MeshRenderer.SplitByMaterial" : "Rozdělit do samostatných meshů dle materiálu",
 
         "Inspector.MeshCollider.VHACD" : "Convex hullová dekompozice (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox" : "Nahradit box colliderem",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Aktualizovat pohybové moduly přítomných uživatelů",
 
