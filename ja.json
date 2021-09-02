@@ -1119,8 +1119,10 @@
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "マージされたボーンのスフィアバウンディングの可視化",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "可視化したボーンのバウンディングボックスを非表示",
 
-        "Inspector.SimpleAvatarProtection.RemoveAll" : "階層下にあるアバター保護を削除する",
-        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "本当に階層下にあるアバター保護を削除しますか？",
+        "Inspector.SimpleAvatarProtection.RemoveAll" : "階層下にある全てのアバター保護を削除する",
+        "Inspector.SimpleAvatarProtection.RemoveSingle" : "このスロットにあるアバター保護のみを削除",
+        "Inspector.SimpleAvatarProtection.Warning" : "<color=red><size=150%>警告！</size></color><br>下の専用ボタン以外でこのコンポーネントを削除すると、 保護機能が作動して自己破壊し、データが失われる可能性があります。",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "アバター保護を削除",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "リグ診断情報取得",
         "Inspector.BipedRig.GenerateDebugVisuals" : "デバッグビジュアル生成",
