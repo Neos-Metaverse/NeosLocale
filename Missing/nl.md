@@ -105,6 +105,7 @@ Inspector.Slot.ParentUnder.LocalUserSpace.Undo
 Inspector.Mesh.SetupRenderer  
 Inspector.Mesh.UV_Multiplicator  
 Inspector.MeshCollider.VHACD  
+Inspector.MeshCollider.ReplaceBox  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.PlaneDownsampling  
 Inspector.VHACD.Parameter.ConvexHullDownsampling  

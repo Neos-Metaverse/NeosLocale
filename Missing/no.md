@@ -166,6 +166,7 @@ Inspector.Mesh.ConvertToPointCloud
 Inspector.MeshRenderer.MergeByMaterial  
 Inspector.MeshRenderer.SplitByMaterial  
 Inspector.MeshCollider.VHACD  
+Inspector.MeshCollider.ReplaceBox  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.Resolution  

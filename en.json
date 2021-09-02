@@ -1080,6 +1080,7 @@
         "Inspector.MeshRenderer.SplitByMaterial" : "Split into separate meshes by material",
 
         "Inspector.MeshCollider.VHACD" : "Convex Hull Decomposition (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox" : "Replace With Box Collider",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Update locomotion modules on present users",
 
