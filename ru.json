@@ -1080,6 +1080,7 @@
         "Inspector.MeshRenderer.SplitByMaterial" : "Разделить на отдельные меши по материалу",
 
         "Inspector.MeshCollider.VHACD" : "Разбор на выпуклые многогранники (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox" : "Заменить кубическим коллайдером",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Обновить модули передвижения на присутствующих пользователях",
 
