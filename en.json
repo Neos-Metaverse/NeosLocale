@@ -1708,6 +1708,27 @@
         "Earthenworks.MentorSignal.Next.Text": "Get Help",
         "Earthenworks.MentorSignal.Discord.Text": "Join the Neos Discord",
 
+        "Temporary.MMC.Voting UI": "MMC Voting UI",
+        "Temporary.MMC.Vote": "Vote",
+
+        "Temporary.MMC.Categories.Name": "Categories",
+
+        "Temporary.MMC.Categories.Worlds": "Worlds",
+        "Temporary.MMC.Categories.Worlds.Social": "Social",
+        "Temporary.MMC.Categories.Worlds.Game": "Game",
+
+        "Temporary.MMC.Categories.Other": "Other",
+        "Temporary.MMC.Categories.Misc": "Miscellaneous",
+        "Temporary.MMC.Categories.Meme": "Meme",
+
+        "Temporary.MMC.Categories.Avatars": "Avatars",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Accessories",
+
+        "Temporary.MMC.VoteSuccess": "Vote cast in category {category} for {voteTarget}.",
+        "Temporary.MMC.VoteFailure": "Vote failed, your vote has not been registered please try again.",
+        "Temporary.MMC.VotedAlready": "You have already voted in {category}.",
+        "Temporary.MMC.VoteInvalid": "Vote is invalid, please try again.",
+
         "Dummy" : "Dummy"
     }
 }
