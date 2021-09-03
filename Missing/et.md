@@ -49,6 +49,10 @@ CreateNew.Object.ReflectionProbe
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 CreateNew.3DModel.Triangle  
+CreateNew.Directory.Title  
+CreateNew.Directory.Error.EmptyName  
+CreateNew.Directory.Error.LongName  
+CreateNew.Directory.Error.InvalidName  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
 Importer.Image.Screenshot  
@@ -446,4 +450,9 @@ Earthenworks.MentorSignal.Cancel.Text
 Earthenworks.MentorSignal.Reset.Text  
 Earthenworks.MentorSignal.Next.Text  
 Earthenworks.MentorSignal.Discord.Text  
+Temporary.MMC.Categories.Worlds.Social  
+Temporary.MMC.Categories.Worlds.Game  
+Temporary.MMC.Categories.Misc  
+Temporary.MMC.Categories.Meme  
+Temporary.MMC.Categories.Avatars.Accessories  
 
