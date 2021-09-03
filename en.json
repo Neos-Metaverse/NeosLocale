@@ -600,6 +600,11 @@
 
         "CreateNew.Materials" : "Materials",
 
+        "CreateNew.Directory.Title": "Create new directory:",
+        "CreateNew.Directory.Error.EmptyName": "Please provide a name:",
+        "CreateNew.Directory.Error.LongName": "Name is too long:",
+        "CreateNew.Directory.Error.InvalidName": "Invalid name:",
+
         "AvatarCreator.Title" : "Avatar Creator",
         "AvatarCreator.Instructions" : "Align avatar objects with the headset and controller references (optional) and press Create to convert them to an avatar",
         "AvatarCreator.UseSymmetry" : "Use Symmetry",
