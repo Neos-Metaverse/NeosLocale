@@ -600,6 +600,11 @@
 
         "CreateNew.Materials" : "マテリアル",
 
+        "CreateNew.Directory.Title": "新しいフォルダを作成:",
+        "CreateNew.Directory.Error.EmptyName": "名前を入力してください:",
+        "CreateNew.Directory.Error.LongName": "名前が長すぎます(256字以内):",
+        "CreateNew.Directory.Error.InvalidName": "無効な名前です:",
+
         "AvatarCreator.Title" : "アバタークリエイター",
         "AvatarCreator.Instructions" : "ヘッドセットとコントローラーの位置を指定し、 「作成」を押してアバターにします。",
         "AvatarCreator.UseSymmetry" : "対称モード",
@@ -1706,6 +1711,27 @@
         "Earthenworks.MentorSignal.Reset.Text": "最初に戻る",
         "Earthenworks.MentorSignal.Next.Text": "ヘルプを呼ぶ",
         "Earthenworks.MentorSignal.Discord.Text": "Neos Discord に参加しましょう！",
+
+        "Temporary.MMC.Voting UI": "MMC投票ツール",
+        "Temporary.MMC.Vote": "投票する",
+
+        "Temporary.MMC.Categories.Name": "カテゴリー",
+
+        "Temporary.MMC.Categories.Worlds": "ワールド",
+        "Temporary.MMC.Categories.Worlds.Social": "ソーシャル",
+        "Temporary.MMC.Categories.Worlds.Game": "ゲーム",
+
+        "Temporary.MMC.Categories.Other": "その他",
+        "Temporary.MMC.Categories.Misc": "Misc(その他)",
+        "Temporary.MMC.Categories.Meme": "ミーム",
+
+        "Temporary.MMC.Categories.Avatars": "アバター",
+        "Temporary.MMC.Categories.Avatars.Accessories": "アクセサリー",
+
+        "Temporary.MMC.VoteSuccess": "{category}カテゴリーで {voteTarget}に投票しました。",
+        "Temporary.MMC.VoteFailure": "投票に失敗しました。 あなたの投票が登録されていないので、 もう一度お試しください。",
+        "Temporary.MMC.VotedAlready": "あなたはすでに{category} で投票しています。",
+        "Temporary.MMC.VoteInvalid": "投票が無効です、 もう一度やり直してください。",
 
         "Dummy" : "ダミー"
     }
