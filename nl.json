@@ -600,6 +600,11 @@
 
         "CreateNew.Materials" : "Materialen",
 
+        "CreateNew.Directory.Title" : "Maak een nieuwe map:",
+        "CreateNew.Directory.Error.EmptyName" : "Geef een naam op:",
+        "CreateNew.Directory.Error.LongName" : "Naam is te lang:",
+        "CreateNew.Directory.Error.InvalidName" : "Ongeldige naam:",
+
 
         "AvatarCreator.Instructions" : "Lijn de avatarobjecten uit met de referenties van de headset en controller (optioneel) en druk op Maken om ze naar een avatar te converteren",
         "AvatarCreator.UseSymmetry" : "Gebruik symmetrie",
@@ -972,6 +977,7 @@
 
         "Settings.Locale.ChangeLanguage" : "Taal Veranderen",
         "Settings.Locale.SelectLanguageHeader" : "Selecteer je Taal:",
+        "Settings.Locale.DefaultLanguage" : "Systeem Standaard",
 
         "Settings.Save" : "Instellingen opslaan",
 
@@ -1079,10 +1085,11 @@
         "Inspector.MeshRenderer.SplitByMaterial" : "Splits in losse meshes gebaseerd op materiaal",
 
 
+        "Inspector.MeshCollider.ReplaceBox" : "Vervang door Box Collider",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Update locomototie-modules op de aanwezig gebruikers",
 
-
+        "Inspector.VHACD.Parameter.MergeDoubles" : "Dubbelen samenvoegen",
         "Inspector.VHACD.Parameter.Resolution" : "Resolutie",
         "Inspector.VHACD.Parameter.Depth" : "Diepte",
         "Inspector.VHACD.Parameter.Concavity" : "Concaviteit",
@@ -1097,7 +1104,7 @@
 
 
 
-
+        "Inspector.VHACD.DecompositionMode.Header" : "Decompositie Mode:",
 
         "Inspector.VHACD.DecompositionMode.Tetrahedron" : "Viervlak",
 
@@ -1120,6 +1127,8 @@
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Verwijder bot bounding box visuelen",
 
         "Inspector.SimpleAvatarProtection.RemoveAll" : "Verwijder alle Instanties",
+        "Inspector.SimpleAvatarProtection.RemoveSingle" : "Verwijder enkele Instantie",
+        "Inspector.SimpleAvatarProtection.Warning" : "<color=red><size=150%>WAARSCHUWING!</size></color><br>Als u deze component verwijdert op een andere manier dan met de speciale knoppen hieronder, wordt het beschermingsmechanisme geactiveerd en leidt dit tot zelfvernietiging en mogelijk gegevensverlies!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "VERWIJDER Avatar-bescherming",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Geef rig diagnostische info",
@@ -1703,6 +1712,27 @@
         "Earthenworks.MentorSignal.Reset.Text" : "Maak een ander",
         "Earthenworks.MentorSignal.Next.Text" : "Hulp krijgen",
         "Earthenworks.MentorSignal.Discord.Text" : "Wordt lid van de Neos Discord",
+
+        "Temporary.MMC.Voting UI" : "MMC Stem UI",
+        "Temporary.MMC.Vote" : "Stemmen",
+
+        "Temporary.MMC.Categories.Name" : "Categorieën",
+
+        "Temporary.MMC.Categories.Worlds" : "Werelden",
+        "Temporary.MMC.Categories.Worlds.Social" : "Sociaal",
+        "Temporary.MMC.Categories.Worlds.Game" : "Spel",
+
+        "Temporary.MMC.Categories.Other" : "Ander",
+        "Temporary.MMC.Categories.Misc" : "Diversen",
+
+
+
+
+
+        "Temporary.MMC.VoteSuccess" : "Stem uitgebracht in categorie {category} voor {voteTarget}.",
+        "Temporary.MMC.VoteFailure" : "Stem is mislukt, uw stem is niet geregistreerd, probeer het opnieuw.",
+        "Temporary.MMC.VotedAlready" : "Je hebt al gestemd in {category}.",
+        "Temporary.MMC.VoteInvalid" : "Stem is ongeldig, probeer het opnieuw.",
 
         "Dummy" : "Dummy"
     }
