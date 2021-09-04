@@ -1713,6 +1713,27 @@
         "Earthenworks.MentorSignal.Next.Text": "Получить помощь",
         "Earthenworks.MentorSignal.Discord.Text": "Подключиться к Neos Discord",
 
+        "Temporary.MMC.Voting UI": "Интерфейс голосования MMC",
+        "Temporary.MMC.Vote": "Голосовать",
+
+        "Temporary.MMC.Categories.Name": "Категории",
+
+        "Temporary.MMC.Categories.Worlds": "Миры",
+        "Temporary.MMC.Categories.Worlds.Social": "Социальные",
+        "Temporary.MMC.Categories.Worlds.Game": "Игры",
+
+        "Temporary.MMC.Categories.Other": "Другие",
+        "Temporary.MMC.Categories.Misc": "Разное",
+        "Temporary.MMC.Categories.Meme": "Мемасы",
+
+        "Temporary.MMC.Categories.Avatars": "Аватары",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Аксессуары",
+
+        "Temporary.MMC.VoteSuccess": "Голос отправлен за {voteTarget} в категории {category}.",
+        "Temporary.MMC.VoteFailure": "Голосование неуспешно, ваш голос не был зарегистрирован, попробуйте снова.",
+        "Temporary.MMC.VotedAlready": "Вы уже голосовали в категории {category}.",
+        "Temporary.MMC.VoteInvalid": "Голос некорректен, попробуйте снова.",
+
         "Dummy" : "Dummy"
     }
 }
