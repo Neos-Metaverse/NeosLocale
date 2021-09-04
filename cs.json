@@ -600,6 +600,11 @@
 
         "CreateNew.Materials" : "Materiály",
 
+        "CreateNew.Directory.Title": "Vytvořit novou složku:",
+        "CreateNew.Directory.Error.EmptyName": "Prosím zadejte jméno:",
+        "CreateNew.Directory.Error.LongName": "Jméno je příliš dlouhé:",
+        "CreateNew.Directory.Error.InvalidName": "Neplatné jméno:",
+
         "AvatarCreator.Title" : "Vytvořit avatar",
         "AvatarCreator.Instructions" : "Zarovnejte reference s objekty reprezentující avatar a zmáčkněte Vytvořit pro převedení na avatara",
         "AvatarCreator.UseSymmetry" : "Použít symetrii",
@@ -1708,6 +1713,27 @@
         "Earthenworks.MentorSignal.Reset.Text": "Vytvořit nový požadavek",
         "Earthenworks.MentorSignal.Next.Text": "Požádat o pomoc",
         "Earthenworks.MentorSignal.Discord.Text": "Připojte se na Neos Discord",
+
+        "Temporary.MMC.Voting UI": "MMC Hlasovací UI",
+        "Temporary.MMC.Vote": "Hlasovat",
+
+        "Temporary.MMC.Categories.Name": "Kategorie",
+
+        "Temporary.MMC.Categories.Worlds": "Světy",
+        "Temporary.MMC.Categories.Worlds.Social": "Sociální",
+        "Temporary.MMC.Categories.Worlds.Game": "Hry",
+
+        "Temporary.MMC.Categories.Other": "Ostatní",
+        "Temporary.MMC.Categories.Misc": "Různé",
+        "Temporary.MMC.Categories.Meme": "Memy",
+
+        "Temporary.MMC.Categories.Avatars": "Avataři",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Doplňky",
+
+        "Temporary.MMC.VoteSuccess": "Váš hlas v kategorii {category} pro {voteTarget} byl přidělen.",
+        "Temporary.MMC.VoteFailure": "Hlasování selhalo, váš hlas nebyl registrován. Zkuste to prosím znovu.",
+        "Temporary.MMC.VotedAlready": "V kategorii {category} jste již hlasovali.",
+        "Temporary.MMC.VoteInvalid": "Hlas je neplatný, zkuste to prosím znovu.",
 
         "Dummy" : "Dummy"
     }
