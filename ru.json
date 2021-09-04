@@ -591,7 +591,7 @@
         "CreateNew.Collider.Capsule" : "Капсула",
         "CreateNew.Collider.Cylinder" : "Цилиндр",
         "CreateNew.Collider.Cone" : "Конус",
-        "CreateNew.Collider.Mesh" : "Меш",
+        "CreateNew.Collider.Mesh" : "Модель",
 
         "CreateNew.Light" : "Свет",
         "CreateNew.Light.Point" : "Точечный",
@@ -599,6 +599,11 @@
         "CreateNew.Light.Directional" : "Направленный",
 
         "CreateNew.Materials" : "Материалы",
+
+        "CreateNew.Directory.Title": "Создать новую директорию:",
+        "CreateNew.Directory.Error.EmptyName": "Пожалуйста введите название:",
+        "CreateNew.Directory.Error.LongName": "Название слишком длинное:",
+        "CreateNew.Directory.Error.InvalidName": "Некорректное название:",
 
         "AvatarCreator.Title" : "Создатель аватаров",
         "AvatarCreator.Instructions" : "Сведите образы шлема и контроллеров с аватаром и нажмите Создать чтобы конвертировать модель в аватар",
