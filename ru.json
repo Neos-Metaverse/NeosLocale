@@ -591,7 +591,7 @@
         "CreateNew.Collider.Capsule" : "Капсула",
         "CreateNew.Collider.Cylinder" : "Цилиндр",
         "CreateNew.Collider.Cone" : "Конус",
-        "CreateNew.Collider.Mesh" : "Меш",
+        "CreateNew.Collider.Mesh" : "Модель",
 
         "CreateNew.Light" : "Свет",
         "CreateNew.Light.Point" : "Точечный",
@@ -599,6 +599,11 @@
         "CreateNew.Light.Directional" : "Направленный",
 
         "CreateNew.Materials" : "Материалы",
+
+        "CreateNew.Directory.Title": "Создать новую директорию:",
+        "CreateNew.Directory.Error.EmptyName": "Пожалуйста введите название:",
+        "CreateNew.Directory.Error.LongName": "Название слишком длинное:",
+        "CreateNew.Directory.Error.InvalidName": "Некорректное название:",
 
         "AvatarCreator.Title" : "Создатель аватаров",
         "AvatarCreator.Instructions" : "Сведите образы шлема и контроллеров с аватаром и нажмите Создать чтобы конвертировать модель в аватар",
@@ -1707,6 +1712,27 @@
         "Earthenworks.MentorSignal.Reset.Text": "Создать ещё",
         "Earthenworks.MentorSignal.Next.Text": "Получить помощь",
         "Earthenworks.MentorSignal.Discord.Text": "Подключиться к Neos Discord",
+
+        "Temporary.MMC.Voting UI": "Интерфейс голосования MMC",
+        "Temporary.MMC.Vote": "Голосовать",
+
+        "Temporary.MMC.Categories.Name": "Категории",
+
+        "Temporary.MMC.Categories.Worlds": "Миры",
+        "Temporary.MMC.Categories.Worlds.Social": "Социальные",
+        "Temporary.MMC.Categories.Worlds.Game": "Игры",
+
+        "Temporary.MMC.Categories.Other": "Другие",
+        "Temporary.MMC.Categories.Misc": "Разное",
+        "Temporary.MMC.Categories.Meme": "Мемасы",
+
+        "Temporary.MMC.Categories.Avatars": "Аватары",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Аксессуары",
+
+        "Temporary.MMC.VoteSuccess": "Голос отправлен за {voteTarget} в категории {category}.",
+        "Temporary.MMC.VoteFailure": "Голосование неуспешно, ваш голос не был зарегистрирован, попробуйте снова.",
+        "Temporary.MMC.VotedAlready": "Вы уже голосовали в категории {category}.",
+        "Temporary.MMC.VoteInvalid": "Голос некорректен, попробуйте снова.",
 
         "Dummy" : "Dummy"
     }
