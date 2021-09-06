@@ -60,10 +60,6 @@ CreateNew.Collider.Capsule
 CreateNew.Collider.Cylinder  
 CreateNew.Collider.Mesh  
 CreateNew.Light.Spot  
-CreateNew.Directory.Title  
-CreateNew.Directory.Error.EmptyName  
-CreateNew.Directory.Error.LongName  
-CreateNew.Directory.Error.InvalidName  
 AvatarCreator.Title  
 Importer.Image.LUT  
 Importer.Model.Title  
@@ -97,7 +93,6 @@ Settings.LaserSmoothing.Header
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
 Settings.Graphics.DesktopFOV  
-Settings.Locale.DefaultLanguage  
 Settings.FullBody.Header  
 Settings.Dash.Header  
 Settings.LeapMotion.Name  
@@ -109,8 +104,6 @@ Inspector.Slot.ParentUnder.LocalUserSpace.Undo
 Inspector.Mesh.SetupRenderer  
 Inspector.Mesh.UV_Multiplicator  
 Inspector.MeshCollider.VHACD  
-Inspector.MeshCollider.ReplaceBox  
-Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.PlaneDownsampling  
 Inspector.VHACD.Parameter.ConvexHullDownsampling  
 Inspector.VHACD.Parameter.Alpha  
@@ -121,12 +114,9 @@ Inspector.VHACD.Parameter.PCA
 Inspector.VHACD.Parameter.MaxVerticesPerHull  
 Inspector.VHACD.Parameter.MinVolumePerHull  
 Inspector.VHACD.Parameter.ConvexHullApproximation  
-Inspector.VHACD.DecompositionMode.Header  
 Inspector.VHACD.DecompositionMode.Voxel  
 Inspector.VHACD.RemoveVisuals  
 Inspector.VHACD.RemoveHulls  
-Inspector.SimpleAvatarProtection.RemoveSingle  
-Inspector.SimpleAvatarProtection.Warning  
 Inspector.Texture.Variant  
 Inspector.Texture.Gamma  
 Inspector.CharacterController.Warning  
@@ -150,19 +140,7 @@ Tutorial.Streaming.Camera.ImageFilters.Page4.Title
 Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title  
 Tutorial.Streaming.StreamCamera.SmoothPOV.Title  
 Twitch.Panel.Title.Text  
-Temporary.MMC.Voting UI  
-Temporary.MMC.Vote  
-Temporary.MMC.Categories.Name  
-Temporary.MMC.Categories.Worlds  
-Temporary.MMC.Categories.Worlds.Social  
-Temporary.MMC.Categories.Worlds.Game  
-Temporary.MMC.Categories.Other  
-Temporary.MMC.Categories.Misc  
 Temporary.MMC.Categories.Meme  
 Temporary.MMC.Categories.Avatars  
 Temporary.MMC.Categories.Avatars.Accessories  
-Temporary.MMC.VoteSuccess  
-Temporary.MMC.VoteFailure  
-Temporary.MMC.VotedAlready  
-Temporary.MMC.VoteInvalid  
 
