@@ -3,21 +3,13 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Finnish [fi]
 World.Detail.Users.Count  
-World.Category.Random  
 World.AccessLevel.LAN  
-World.SortParameter.Random  
 Undo.Wiggler  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  
 Tooltip.Microphone.SourceRaw  
-CreateNew.3DModel.Triangle  
-CreateNew.3DModel.Grid  
 CreateNew.3DModel.Torus  
-CreateNew.Directory.Title  
-CreateNew.Directory.Error.EmptyName  
-CreateNew.Directory.Error.LongName  
-CreateNew.Directory.Error.InvalidName  
 Importer.Image.LUT  
 Importer.Model.SeparableKind  
 Importer.Model.Advanced.PreferSpecular  
@@ -45,18 +37,8 @@ CameraCOntrol.OBS.Recording
 Settings.DebugInputBinding  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
-Settings.Locale.DefaultLanguage  
 Settings.LeapMotion.UseFingersWhenSnapped  
 Settings.ViveHandTracking.UseFingersWhenSnapped  
-Inspector.Slot.AttachComponent  
-Inspector.Slot.Axis.X  
-Inspector.Slot.Axis.Y  
-Inspector.Slot.Axis.Z  
-Inspector.Slot.Reset.Label  
-Inspector.Slot.Reset.Position  
-Inspector.Slot.Reset.Rotation  
-Inspector.Slot.Reset.Scale  
-Inspector.Slot.CreatePivotAtCenter  
 Inspector.Slot.JumpTo  
 Inspector.Slot.BringTo  
 Inspector.Slot.BringTo.Undo  
@@ -71,10 +53,7 @@ Inspector.Mesh.ConvertToConvexHull
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
 Inspector.Mesh.UV_Multiplicator  
-Inspector.Mesh.ScaleUVs  
 Inspector.MeshCollider.VHACD  
-Inspector.MeshCollider.ReplaceBox  
-Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.Resolution  
 Inspector.VHACD.Parameter.Depth  
@@ -105,9 +84,7 @@ Inspector.SkinnedMesh.BakeBlendShapeResult
 Inspector.SkinnedMesh.VisualizeBoneBounds  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ClearBoundsVisuals  
-Inspector.SimpleAvatarProtection.RemoveSingle  
 Inspector.SimpleAvatarProtection.Warning  
-Inspector.Texture.BakeTexture  
 Inspector.Texture.Value  
 Inspector.Texture.AdjustValue  
 Inspector.Texture.ToNearestPOT  
@@ -287,12 +264,6 @@ Twitch.Panel.Button.SafeMode.Disabled
 Twitch.Panel.Button.SubscriberCommands.Enabled  
 Twitch.Panel.Button.SubscriberCommands.Disabled  
 Twitch.Panel.Title.Text  
-Earthenworks.MentorSignal.Title.Intro  
-Earthenworks.MentorSignal.Title.Offline  
-Earthenworks.MentorSignal.Title.Requested  
-Earthenworks.MentorSignal.Title.Responding  
-Earthenworks.MentorSignal.Title.Canceled  
-Earthenworks.MentorSignal.Title.Completed  
 Earthenworks.MentorSignal.Description.Requested  
 Earthenworks.MentorSignal.Description.Responding  
 Earthenworks.MentorSignal.Description.Canceled  
@@ -300,10 +271,6 @@ Earthenworks.MentorSignal.Description.Completed
 Earthenworks.MentorSignal.Description.2.Disconnected  
 Earthenworks.MentorSignal.Description.3.Full  
 Earthenworks.MentorSignal.Description.4.No access  
-Earthenworks.MentorSignal.Cancel.Text  
-Earthenworks.MentorSignal.Reset.Text  
-Earthenworks.MentorSignal.Next.Text  
-Earthenworks.MentorSignal.Discord.Text  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  
@@ -435,19 +402,4 @@ Universe.Galaxies.SmallMagellanicCloud
 Universe.Universe.GalaxyFillament  
 Universe.Universe.StarCluster  
 Universe.Universe.ObservableUniverse  
-Temporary.MMC.Voting UI  
-Temporary.MMC.Vote  
-Temporary.MMC.Categories.Name  
-Temporary.MMC.Categories.Worlds  
-Temporary.MMC.Categories.Worlds.Social  
-Temporary.MMC.Categories.Worlds.Game  
-Temporary.MMC.Categories.Other  
-Temporary.MMC.Categories.Misc  
-Temporary.MMC.Categories.Meme  
-Temporary.MMC.Categories.Avatars  
-Temporary.MMC.Categories.Avatars.Accessories  
-Temporary.MMC.VoteSuccess  
-Temporary.MMC.VoteFailure  
-Temporary.MMC.VotedAlready  
-Temporary.MMC.VoteInvalid  
 
