@@ -85,7 +85,7 @@
         "Dash.Screens.Inventory" : "Inventaario",
         "Dash.Screens.Desktop" : "Työpöytä",
         "Dash.Screens.Session" : "Sessio",
-        "Dash.Screens.FileBrowser" : "<nobr>Tiedostot",
+        "Dash.Screens.FileBrowser" : "Tiedostot",
         "Dash.Screens.Settings" : "Asetukset",
         "Dash.Screens.Exit" : "Poistu",
 
@@ -167,7 +167,7 @@
         "World.Actions.SaveToInventory" : "Tallenna inventaarioon",
         "World.Actions.Saving" : "Tallennetaan...",
         "World.Actions.Discard" : "Hylkää muutokset",
-        "World.Actions.Clone" : "Kopioi maailma",
+        "World.Actions.Clone" : "Kloonaa maailma",
         "World.Actions.Delete" : "Poista maailma",
         "World.Actions.ConfirmDelete" : "Varmista poistaminen",
         "World.Actions.ReallyConfirmDelete" : "POISTA PYSYVÄSTI",
@@ -231,6 +231,7 @@
         "World.Category.Art" : "Taide",
         "World.Category.Tutorials" : "Harjoitukset",
         "World.Category.Educational" : "Opettavaiset",
+        "World.Category.Random" : "Sekoitus",
         "World.Category.MyWorlds" : "Omat maailmani",
         "World.Category.Custom" : "Mukauta hakua",
 
@@ -250,6 +251,7 @@
         "World.SortParameter.LastUpdateDate" : "Viimeksi päivitetty",
         "World.SortParameter.FirstPublishTime" : "Julkaisupäivä",
         "World.SortParameter.TotalVisits" : "Vierailuja yhteensä",
+        "World.SortParameter.Random" : "Satunnainen",
 
         "World.Filter.DataSources" : "Tietolähteet:",
         "World.Filter.OpenedWorlds" : "Avatut maailmat",
@@ -501,7 +503,7 @@
 
         "Tooltip.CharacterCollider.MarkGrippable" : "Aseta tarttuva pinta",
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Poista tarttuva pinta",
-        "Tooltip.CharacterCollider.EnsureWalkRun" : "Varmsita kävely/juoksu tila",
+        "Tooltip.CharacterCollider.EnsureWalkRun" : "Varmista kävely/juoksu tila",
         "Tooltip.CharacterCollider.EnsureZeroG" : "Varmista painovoimaton tila",
         "Tooltip.CharacterCollider.EnsurePhysicalFly" : "Varmista fyysinen lentotila",
 
@@ -573,13 +575,14 @@
         "CreateNew.Editor.ReflectionProbes" : "Heijastusanturin asetukset",
 
         "CreateNew.3DModel" : "3D-malli",
+        "CreateNew.3DModel.Triangle" : "Kolmio",
         "CreateNew.3DModel.Box" : "Laatikko",
         "CreateNew.3DModel.Sphere" : "Pallo",
         "CreateNew.3DModel.Capsule" : "Kapseli",
         "CreateNew.3DModel.Cone" : "Kartio",
         "CreateNew.3DModel.Cylinder" : "Lieriö",
         "CreateNew.3DModel.Quad" : "Nelikulmio",
-
+        "CreateNew.3DModel.Grid" : "Gridi",
 
 
         "CreateNew.Collider" : "Törmäytin",
@@ -596,6 +599,11 @@
         "CreateNew.Light.Directional" : "Suunnattu",
 
         "CreateNew.Materials" : "Materiaalit",
+
+        "CreateNew.Directory.Title": "Luo uusi kansio:",
+        "CreateNew.Directory.Error.EmptyName": "Anna kansiolle nimi:",
+        "CreateNew.Directory.Error.LongName": "Nimi on liian pitkä:",
+        "CreateNew.Directory.Error.InvalidName": "Epäkelpo nimi:",  
 
         "AvatarCreator.Title" : "Avatar luoja",
         "AvatarCreator.Instructions" : "Kohdista avatar VR-lasien ja ohjainten referenssien (valinnainen) kanssa ja muunna ne avatariksi painamalla Luo-painiketta",
@@ -969,6 +977,7 @@
 
         "Settings.Locale.ChangeLanguage" : "Vaihda kieli - Change language",
         "Settings.Locale.SelectLanguageHeader" : "Valitse kielesi:",
+        "Settings.Locale.DefaultLanguage" : "Järjestelmän oletus",
 
         "Settings.Save" : "Tallenna asetukset",
 
@@ -1013,18 +1022,18 @@
         "Security.HostAccess.Allow" : "Salli",
         "Security.HostAccess.Deny" : "Estä",
 
+        "Inspector.Slot.AttachComponent" : "Lisää komponentti",
 
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>Oikealle <b>-</b>Vasemmalle",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Ylös <b>-</b>Alas",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Eteenpäin <b>-</b>Taaksepäin",
 
+        "Inspector.Slot.Reset.Label" : "Nollaa:",
+        "Inspector.Slot.Reset.Position" : "Sijainti",
+        "Inspector.Slot.Reset.Rotation" : "Kierto",
+        "Inspector.Slot.Reset.Scale" : "Skaala",
 
-
-
-
-
-
-
-
-
-
+        "Inspector.Slot.CreatePivotAtCenter" : "Luo kiertopiste keskelle",
 
 
 
@@ -1070,10 +1079,38 @@
 
 
 
-
+        "Inspector.Mesh.ScaleUVs" : "Skaalaa UVt",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "Yhdistä ala-tahkoverkot joissa sama materiaali",
         "Inspector.MeshRenderer.SplitByMaterial" : "Eroita tahkoverkot materiaalien mukaan",
+
+
+        "Inspector.MeshCollider.ReplaceBox" : "Korvaa laatikkotörmäyttimellä",
+
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Päivitä liikkumistilamoduulit nykyisille käyttäjille",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         "Inspector.ReflectionProbe.Bake" : "Beikkaa heijastukset",
         "Inspector.ReflectionProbe.Baking" : "Beikkaa...",
@@ -1089,8 +1126,10 @@
 
 
 
-        "Inspector.SimpleAvatarProtection.RemoveAll" : "Poista KAIKKI avatar-suojaukset",
-        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "Poista avatar-suojaus",
+        "Inspector.SimpleAvatarProtection.RemoveAll" : "Poista KAIKKI suojaukset",
+        "Inspector.SimpleAvatarProtection.RemoveSingle" : "Poista yksittäinen suojaus",
+
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "POISTA AVATAR-SUOJAUS",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Hae rigin diagnostiikka info",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Generoi debug visuaalit",
@@ -1106,7 +1145,7 @@
         "Inspector.Texture.Format" : "Formaatti: {format}, Muisti: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "Variantti-ID: {variant}",
 
-
+        "Inspector.Texture.BakeTexture" : "Beikkaa tekstuuri",
 
         "Inspector.Texture.InvertRGB" : "Invertoi RGB",
         "Inspector.Texture.InvertR" : "Invertoi R",
@@ -1190,6 +1229,8 @@
 
         "Inspector.Rig.GenerateDebugVisuals" : "Generoi debug visuaalit",
         "Inspector.Rig.ClearDebugVisuals" : "Piilota debug visuaalit",
+
+
 
 
 
@@ -1653,6 +1694,45 @@
         "Exiting.SavingChanges" : "Tallennetaan muutoksia...",
         "Exiting.Exiting" : "Suljetaan...",
         "Exiting.LoggingOut" : "Kirjaudutaan ulos...",
+
+        "Earthenworks.MentorSignal.Title.Intro": "Tarvitsetko apua?<br>Vapaaehtois- Mentorit voivat auttaa",
+        "Earthenworks.MentorSignal.Title.Offline": "Tarvitsetko apua?<br>Kysy apua Discordissa",
+        "Earthenworks.MentorSignal.Title.Requested": "Pyyntö lähetetty",
+        "Earthenworks.MentorSignal.Title.Responding": "Mentori on tulossa",
+        "Earthenworks.MentorSignal.Title.Canceled": "Tiketti peruutettu",
+        "Earthenworks.MentorSignal.Title.Completed": "Tiketti merkattu valmiiksi",
+
+
+
+
+
+
+
+        "Earthenworks.MentorSignal.Cancel.Text": "Peruuta",
+        "Earthenworks.MentorSignal.Reset.Text": "Luo uusi",
+        "Earthenworks.MentorSignal.Next.Text": "Hae apua",
+        "Earthenworks.MentorSignal.Discord.Text": "Liity Neos Discordiin",
+
+        "Temporary.MMC.Voting UI": "MMC äänestysikkuna",
+        "Temporary.MMC.Vote": "Äänestä",
+
+        "Temporary.MMC.Categories.Name": "Kategoriat",
+
+        "Temporary.MMC.Categories.Worlds": "Maailmat",
+        "Temporary.MMC.Categories.Worlds.Social": "Sosiaaliset",
+        "Temporary.MMC.Categories.Worlds.Game": "Pelit",
+
+        "Temporary.MMC.Categories.Other": "Muut",
+        "Temporary.MMC.Categories.Misc": "Sekalaiset",
+        "Temporary.MMC.Categories.Meme": "Meemit",
+
+        "Temporary.MMC.Categories.Avatars": "Avatarit",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Lisätarvikkeet",
+
+        "Temporary.MMC.VoteSuccess": "Äänestit kategoriassa {category} kohdetta {voteTarget}.",
+        "Temporary.MMC.VoteFailure": "Äänestys epäonnistui! Yritä uudelleen.",
+        "Temporary.MMC.VotedAlready": "Olet jo äänestänyt kategoriassa {category}.",
+        "Temporary.MMC.VoteInvalid": "Äänestys on virheellinen! Yritä uudelleen.",
 
         "Dummy" : "Dummy"
     }
