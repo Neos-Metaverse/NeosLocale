@@ -52,12 +52,14 @@ Universe.Biology.AverageHumanCell
 Universe.Biology.Bacteriophage  
 Universe.Biology.HumanBrain  
 Universe.Biology.RedBloodCell  
+Universe.Biology.WhiteBloodCell  
 Universe.Biology.XChromosome  
 Universe.Biology.YChromosome  
 Universe.Biology.EColi  
 Universe.Biology.DNA  
 Universe.Biology.AlphaHelix  
 Universe.Biology.Rhinovirus  
+Universe.Biology.Adenovirus  
 Universe.Biology.Ribosome  
 Universe.Biology.Chloroplast  
 Universe.Biology.PhospholipidBilayer  
