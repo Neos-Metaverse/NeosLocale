@@ -3,27 +3,27 @@ This repository contains the locale assets for the core UI of Neos VR (www.neos.
 
 # Localization Status
 Czech [cs] - 100.0% - Missing keys: 0  
-German [de] - 87.3% - Missing keys: 206  
-English (United Kingdom) [en-gb] - 2.2% - Missing keys: 1592  
+German [de] - 86.2% - Missing keys: 227  
+English (United Kingdom) [en-gb] - 2.1% - Missing keys: 1613  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 90.5% - Missing keys: 155  
-Spanish [es] - 90.6% - Missing keys: 153  
-Estonian [et] - 64.1% - Missing keys: 584  
-Finnish [fi] - 75.4% - Missing keys: 400  
-French [fr] - 90.6% - Missing keys: 153  
-Icelandic [is] - 36.1% - Missing keys: 1040  
-Japanese [ja] - 91.9% - Missing keys: 131  
-Korean [ko] - 91.9% - Missing keys: 131  
-Dutch [nl] - 83.3% - Missing keys: 272  
-Norwegian [no] - 51.0% - Missing keys: 798  
-Polish [pl] - 84.1% - Missing keys: 258  
-Russian [ru] - 91.9% - Missing keys: 131  
-Swedish [sv] - 15.3% - Missing keys: 1378  
-Turkish [tr] - 59.9% - Missing keys: 652  
-Chinese (China) [zh-cn] - 74.1% - Missing keys: 422  
-Chinese (Taiwan) [zh-tw] - 70.4% - Missing keys: 481  
+Esperanto [eo] - 89.3% - Missing keys: 176  
+Spanish [es] - 89.4% - Missing keys: 174  
+Estonian [et] - 63.3% - Missing keys: 605  
+Finnish [fi] - 74.5% - Missing keys: 421  
+French [fr] - 89.4% - Missing keys: 174  
+Icelandic [is] - 35.6% - Missing keys: 1061  
+Japanese [ja] - 90.8% - Missing keys: 152  
+Korean [ko] - 90.8% - Missing keys: 152  
+Dutch [nl] - 82.2% - Missing keys: 293  
+Norwegian [no] - 50.3% - Missing keys: 819  
+Polish [pl] - 83.1% - Missing keys: 279  
+Russian [ru] - 90.8% - Missing keys: 152  
+Swedish [sv] - 15.1% - Missing keys: 1399  
+Turkish [tr] - 59.2% - Missing keys: 673  
+Chinese (China) [zh-cn] - 73.1% - Missing keys: 443  
+Chinese (Taiwan) [zh-tw] - 69.5% - Missing keys: 502  
 
-Total keys: 1627
+Total keys: 1648
 
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
