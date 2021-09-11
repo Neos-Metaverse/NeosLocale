@@ -70,6 +70,8 @@ Universe.Biology.Paramecium
 Universe.Biology.HIV  
 Universe.Biology.Mitochrondrion  
 Universe.Biology.Hair  
+Universe.Biology.HepatitisB  
+Universe.Biology.Platelet  
 Universe.Biology.LargestBacteria  
 Universe.Particles.Electron  
 Universe.Particles.Proton  
@@ -158,6 +160,8 @@ Universe.Galaxies.Andromeda
 Universe.Galaxies.Sombrero  
 Universe.Galaxies.IC1101  
 Universe.Galaxies.SmallMagellanicCloud  
+Universe.Galaxies.NGC1300  
+Universe.Galaxies.NGC4414  
 Universe.Universe.GalaxyFillament  
 Universe.Universe.StarCluster  
 Universe.Universe.ObservableUniverse  

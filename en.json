@@ -1784,6 +1784,8 @@
         "Universe.Biology.HIV": "HIV",
         "Universe.Biology.Mitochrondrion": "Mitochrondrion",
         "Universe.Biology.Hair": "Hair (width)",
+        "Universe.Biology.HepatitisB" : "Heptatitis B",
+        "Universe.Biology.Platelet" : "Platelet (active)",
         "Universe.Biology.LargestBacteria": "Largest Bacteria",
 
         "Universe.Particles.Electron": "Electron",
@@ -1881,6 +1883,8 @@
         "Universe.Galaxies.Sombrero": "Sombrero",
         "Universe.Galaxies.IC1101": "IC1101 (supergiant galaxy)",
         "Universe.Galaxies.SmallMagellanicCloud": "Small Magellanic Cloud",
+        "Universe.Galaxies.NGC1300": "NGC 1300 (barred spiral galaxy)",
+        "Universe.Galaxies.NGC4414": "NGC 4414 (unbarred spiral galaxy)",
 
         "Universe.Universe.GalaxyFillament": "Galaxy Fillament",
         "Universe.Universe.StarCluster": "Star Cluster",

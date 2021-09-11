@@ -1783,6 +1783,8 @@
         "Universe.Biology.HIV": "HIV",
         "Universe.Biology.Mitochrondrion": "Mitochondrie",
         "Universe.Biology.Hair": "Vlas (průřez)",
+        "Universe.Biology.HepatitisB" : "Hepatitida B",
+        "Universe.Biology.Platelet" : "Krevní destička (aktivní)",
         "Universe.Biology.LargestBacteria": "Největší Bakterie",
 
         "Universe.Particles.Electron": "Elektron",
@@ -1880,6 +1882,8 @@
         "Universe.Galaxies.Sombrero": "Galaxie Sombrero",
         "Universe.Galaxies.IC1101": "IC1101 (superobří galaxie)",
         "Universe.Galaxies.SmallMagellanicCloud": "Malý Magellanův oblak",
+        "Universe.Galaxies.NGC1300": "NGC 1300 (spirální galaxie)",
+        "Universe.Galaxies.NGC4414": "NGC 4414 (vločková spirální galaxie)",
 
         "Universe.Universe.GalaxyFillament": "Galaktické vlákno",
         "Universe.Universe.StarCluster": "Hvězdokupa",
