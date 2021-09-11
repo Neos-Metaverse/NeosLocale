@@ -500,6 +500,8 @@
 
         "Tooltip.GrabbableSetter.Scalable": "スケール可能にする",
         "Tooltip.GrabbableSetter.NonScalable": "スケール不可能にする",
+        "Tooltip.GrabbableSetter.ApplyToRoot": "オブジェクトルート​に適用する",
+        "Tooltip.GrabbableSetter.AppyToHit": "ヒットした階層​に適用する",
 
         "Tooltip.CharacterCollider.MarkGrippable": "グラブ可能にする",
         "Tooltip.CharacterCollider.DontMarkGrippable": "グラブ不可能にする",
