@@ -1868,7 +1868,7 @@
 
         "Universe.Landmarks.EiffelTower": "Eiffel Tower",
         "Universe.Landmarks.DistanceFromLA2SF" : "Distance from Los Angeles to San Fransisco",
-        "Universe.Landmarks.StatueOfLiberty": "Status of Liberty",
+        "Universe.Landmarks.StatueOfLiberty": "Statue of Liberty</br><size=50%>(height without the base)",
         "Universe.Landmarks.PyramidOfKhafre": "Pyramid of Khafre",
         "Universe.Landmarks.MountEverest": "Mount Everest",
         "Universe.Landmarks.LHC": "Large Hadron Collider",

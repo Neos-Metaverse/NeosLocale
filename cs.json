@@ -1867,7 +1867,7 @@
 
         "Universe.Landmarks.EiffelTower": "Eiffelova věž",
         "Universe.Landmarks.DistanceFromLA2SF" : "Vzdálenost mezi Los Angeles a San Fransiskem",
-        "Universe.Landmarks.StatueOfLiberty": "Socha svobody",
+        "Universe.Landmarks.StatueOfLiberty": "Socha svobody</br><size=50%>(výška bez základny)",
         "Universe.Landmarks.PyramidOfKhafre": "Rachefova pyramida",
         "Universe.Landmarks.MountEverest": "Mount Everest",
         "Universe.Landmarks.LHC": "Velký hadronový urychlovač (LHC)",
