@@ -1506,6 +1506,7 @@ Universe.Biology.DNA
 Universe.Biology.AlphaHelix  
 Universe.Biology.Rhinovirus  
 Universe.Biology.Adenovirus  
+Universe.Biology.PorcineCircovirus  
 Universe.Biology.Ribosome  
 Universe.Biology.Chloroplast  
 Universe.Biology.PhospholipidBilayer  
@@ -1584,8 +1585,10 @@ Universe.Technology.Starship
 Universe.Technology.Sputnik  
 Universe.Technology.MoonLander  
 Universe.Technology.Voyager  
+Universe.Technology.Ingenuity  
 Universe.Technology.CargoShip  
 Universe.Landmarks.EiffelTower  
+Universe.Landmarks.DistanceFromLA2SF  
 Universe.Landmarks.StatueOfLiberty  
 Universe.Landmarks.PyramidOfKhafre  
 Universe.Landmarks.MountEverest  
