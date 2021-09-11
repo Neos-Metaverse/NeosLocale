@@ -500,6 +500,8 @@
 
         "Tooltip.GrabbableSetter.Scalable" : "Set Scalable",
         "Tooltip.GrabbableSetter.NonScalable" : "Set Non-scalable",
+        "Tooltip.GrabbableSetter.ApplyToRoot" : "Set Apply to Root",
+        "Tooltip.GrabbableSetter.AppyToHit" : "Set Apply to Hit",
 
         "Tooltip.CharacterCollider.MarkGrippable" : "Mark Grippable",
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Don't Mark Grippable",
