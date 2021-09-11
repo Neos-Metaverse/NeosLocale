@@ -2,6 +2,8 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Spanish [es]
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 CreateNew.Directory.Title  
 CreateNew.Directory.Error.EmptyName  
 CreateNew.Directory.Error.LongName  

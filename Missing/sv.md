@@ -196,6 +196,8 @@ Tooltip.Logix.ClearPackingRoot
 Tooltip.Color.Picker  
 Tooltip.GrabbableSetter.Scalable  
 Tooltip.GrabbableSetter.NonScalable  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.CharacterCollider.MarkGrippable  
 Tooltip.CharacterCollider.DontMarkGrippable  
 Tooltip.CharacterCollider.EnsureWalkRun  

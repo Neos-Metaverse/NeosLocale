@@ -38,6 +38,8 @@ User.Actions.Kick
 Contacts.InSession  
 Undo.Spawn  
 Tooltip.Logix.NodeBrowser  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Light.Spot  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  

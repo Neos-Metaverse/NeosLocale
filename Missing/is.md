@@ -44,6 +44,8 @@ Account.TOTP.Message.DeactivationComplete
 User.Actions.Silence  
 Contacts.RecordingVoiceMessage  
 Tooltips.Dev.ConfirmDestroySelected  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Slicer.Add  
 Tooltip.Slicer.Clear  
 Tooltip.Material.RayMode  

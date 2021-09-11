@@ -27,6 +27,8 @@ Account.TOTP.Deactivate.Deactivate
 Account.TOTP.Deactivate.Deactivating  
 Account.TOTP.Message.DeactivationComplete  
 Undo.BatchConvertMaterials  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 CreateNew.3DModel.Triangle  
 CreateNew.Directory.Title  
 CreateNew.Directory.Error.EmptyName  

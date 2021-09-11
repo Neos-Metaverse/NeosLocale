@@ -94,6 +94,8 @@ Notifications.VoiceMessage
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
 Tooltips.Dev.ConfirmDestroySelected  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Material.ConvertAll  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  

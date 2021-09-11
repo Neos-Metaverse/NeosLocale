@@ -44,6 +44,8 @@ Account.TOTP.Message.DeactivationComplete
 2FA.Token  
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Material.ConvertAll  
 CreateNew.3DModel.Triangle  
 CreateNew.Directory.Title  

@@ -5,6 +5,8 @@ Note that this file updates only during Neos build process and doesn't necessari
 World.Detail.Users.Count  
 World.AccessLevel.LAN  
 Undo.Wiggler  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
 Tooltip.Microphone.Format.FLAC  

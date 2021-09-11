@@ -2,6 +2,8 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Korean [ko]
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  

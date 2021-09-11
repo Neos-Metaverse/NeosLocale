@@ -34,6 +34,8 @@ Account.TOTP.Deactivate.Deactivating
 Account.TOTP.Message.DeactivationComplete  
 2FA.Header  
 2FA.Token  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 CreateNew.3DModel.Triangle  
 CreateNew.Directory.Title  
 CreateNew.Directory.Error.EmptyName  

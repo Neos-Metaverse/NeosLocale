@@ -4,6 +4,8 @@ Note that this file updates only during Neos build process and doesn't necessari
 # German [de]
 World.Category.Random  
 World.SortParameter.Random  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 CreateNew.3DModel.Triangle  
 CreateNew.Directory.Title  
 CreateNew.Directory.Error.EmptyName  
