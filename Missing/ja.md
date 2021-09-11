@@ -68,7 +68,7 @@ Universe.Biology.Chloroplast
 Universe.Biology.PhospholipidBilayer  
 Universe.Biology.Paramecium  
 Universe.Biology.HIV  
-Universe.Biology.Mitochrondrion  
+Universe.Biology.Mitochondrion  
 Universe.Biology.Hair  
 Universe.Biology.HepatitisB  
 Universe.Biology.Platelet  
