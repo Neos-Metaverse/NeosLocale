@@ -1713,6 +1713,153 @@
         "Earthenworks.MentorSignal.Next.Text": "Hae apua",
         "Earthenworks.MentorSignal.Discord.Text": "Liity Neos Discordiin",
 
+        "Universe.Stars.Sun" : "Aurinko",
+
+
+
+
+
+
+        "Universe.Stars.Betelgeuse" : "Betelgeuze",
+
+
+
+
+        "Universe.SolarSystem.Mercury": "Merkurius",
+
+        "Universe.SolarSystem.Earth": "Maa",
+
+
+        "Universe.SolarSystem.Saturn": "Saturnus",
+
+        "Universe.SolarSystem.Neptune": "Neptunus",
+
+        "Universe.SolarSystem.Moon": "Kuu",
+        "Universe.SolarSystem.SolarSystem": "Aurinkokunta",
+
+        "Universe.SolarSystem.AsteroidGanymed": "Ganymedes (asteroidi)",
+
+        "Universe.Animals.BottlenoseDolphin": "Pullonokkadelfiini",
+
+        "Universe.Animals.FinWhale": "Sillivalas",
+        "Universe.Animals.DustMite": "Pölypunkki",
+        "Universe.Animals.Mouse": "Hiiri",
+        "Universe.Animals.GiantSquid": "Jättiläiskalmari",
+        "Universe.Animals.Tardigrade": "Karhukainen",
+
+        "Universe.Animals.Eel": "Ankerias",
+
+
+        "Universe.Biology.AverageHumanCell": "Ihmisen solu (keskimääräinen)",
+        "Universe.Biology.Bacteriophage": "Bakteriofagi",
+        "Universe.Biology.HumanBrain": "Ihmisen aivot",
+        "Universe.Biology.RedBloodCell": "Punasolu",
+        "Universe.Biology.WhiteBloodCell": "Valkosolu",
+        "Universe.Biology.XChromosome": "X Kromosomi",
+        "Universe.Biology.YChromosome": "Y Kromosomi",
+        "Universe.Biology.EColi": "Kolibakteeri",
+
+        "Universe.Biology.AlphaHelix": "Alfa-kierre",
+        "Universe.Biology.Rhinovirus": "Rinovirus",
+
+        "Universe.Biology.Ribosome": "Ribosomi",
+        "Universe.Biology.Chloroplast": "Viherhiukkanen",
+        "Universe.Biology.PhospholipidBilayer": "Fosfolipidi kaksoiskerros",
+        "Universe.Biology.Paramecium": "Tohvelieläin",
+
+        "Universe.Biology.Mitochrondrion": "Mitokondrio",
+        "Universe.Biology.Hair": "Hius (leveys)",
+        "Universe.Biology.LargestBacteria": "Isoin bakteeri",
+
+        "Universe.Particles.Electron": "Elektroni",
+        "Universe.Particles.Proton": "Protoni",
+        "Universe.Particles.Neutron": "Neutroni",
+        "Universe.Atoms.Hydrogen": "Vety",
+
+        "Universe.Atoms.Sulfur": "Rikki",
+
+        "Universe.Common.CoffeeBean": "Kahvipapu",
+        "Universe.Common.Matchstick": "Tulitikku",
+        "Universe.Common.SaltGrain": "Suolahippu",
+        "Universe.Common.SandGrain": "Hiekanjyvä",
+        "Universe.Common.USCent": "Sentti (US)",
+        "Universe.Common.Train": "Juna",
+        "Universe.Common.ChickenEgg": "Kananmuna",
+        "Universe.Common.OstrichEgg": "Strutsin muna",
+        "Universe.Common.Earthworm": "Kastemato",
+        "Universe.Common.RiceGrain": "Riisinjyvä",
+        "Universe.Common.SunflowerSeed": "Auringonkukan siemen",
+        "Universe.Common.BeachBall": "Rantapallo",
+        "Universe.Common.Snowflake": "Lumihiutale",
+        "Universe.Common.ClayParticle": "Savipartikkeli",
+        "Universe.Common.BasketBall": "Koripallo",
+        "Universe.Common.Hailstone": "Lumirae",
+        "Universe.Common.FootballField": "Jalkapallokenttä",
+        "Universe.Common.Human": "Ihminen",
+
+        "Universe.Wavelength.Gamma": "Gammasäde",
+        "Universe.Wavelength.XRayHard": "Röntgensäde (kova)",
+        "Universe.Wavelength.XRaySoft": "Röntgensäde (pehmeä)",
+
+
+
+
+        "Universe.Wavelength.BlackLight": "Mustavalo",
+        "Universe.Wavelength.Microwave": "Mikroaalto",
+        "Universe.Wavelength.Purple": "Violetti valo",
+        "Universe.Wavelength.Cyan": "Syaani valo",
+        "Universe.Wavelength.Yellow": "Keltainen valo",
+        "Universe.Wavelength.Red": "Punainen valo",
+
+
+
+        "Universe.Geology.AllWater": "Kaikki vesi maapallolla",
+        "Universe.Geology.LiquidFreshWater": "Kaikki makea vesi",
+        "Universe.Geology.WaterInLakesAndRivers": "Kaikki vesi järvissä ja joissa",
+        "Universe.Countries.USA": "Yhdysvallat",
+        "Universe.Countries.CzechRepublic": "Tšekin tasavalta",
+        "Universe.Countries.UnitedKingdom": "Yhdistynyt kuningaskunta",
+        "Universe.Countries.Ukraine": "Ukraina",
+
+        "Universe.Cities.Paris": "Pariisi",
+
+        "Universe.Nebulae.Crab": "Rapusumu",
+        "Universe.Nebulae.CatEye": "Kissansilmäsumu",
+        "Universe.Nebulae.Butterfly": "Perhossumu",
+        "Universe.Nebulae.NGC604": "NGC604 -sumu",
+        "Universe.Nebulae.Orion": "Orionsumu",
+        "Universe.Nebulae.Tarantula": "Tarantellasumu",
+        "Universe.Nebulae.Ring": "Lyyran rengassumu",
+        "Universe.Nebulae.Eagle": "Kotkasumu",
+
+        "Universe.Technology.TransistorGate": "Transistoriportti",
+        "Universe.Technology.CPU": "Prosessori",
+        "Universe.Technology.MicroSD": "MicroSD -kortti",
+        "Universe.Technology.ISS": "Kansainvälinen avaruusasema",
+
+        "Universe.Technology.BMW": "BMW auto",
+
+        "Universe.Landmarks.EiffelTower": "Eiffel torni",
+        "Universe.Landmarks.StatueOfLiberty": "Vapaudenpatsas",
+        "Universe.Landmarks.PyramidOfKhafre": "Khafren pyramidi",
+
+
+
+        "Universe.Chemistry.Ethanol": "Etyylialkoholi",
+        "Universe.Chemistry.CarbonNanotube": "Hiilinanoputki",
+        "Universe.Chemistry.Glucose": "Glukoosi",
+        "Universe.Chemistry.Water": "Vesi",
+
+        "Universe.Galaxies.MilkyWay": "Linnunrata",
+        "Universe.Galaxies.Andromeda": "Andromedan galaksi",
+        "Universe.Galaxies.Sombrero": "Sombrerogalaksi",
+        "Universe.Galaxies.IC1101": "IC1101 (ylijättiläinen)",
+        "Universe.Galaxies.SmallMagellanicCloud": "Pieni Magellanin pilvi",
+
+        "Universe.Universe.GalaxyFillament": "Galaksimuuri",
+        "Universe.Universe.StarCluster": "Tähtijoukko",
+        "Universe.Universe.ObservableUniverse": "Havaittava maailmankaikkeus",
+
         "Temporary.MMC.Voting UI": "MMC äänestysikkuna",
         "Temporary.MMC.Vote": "Äänestä",
 
