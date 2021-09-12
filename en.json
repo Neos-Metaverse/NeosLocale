@@ -1890,6 +1890,21 @@
         "Universe.Universe.StarCluster": "Star Cluster",
         "Universe.Universe.ObservableUniverse": "Observable Universe",
 
+        "Universe.Units.Attometer" : "Attometer",
+        "Universe.Units.Femtometer" : "Femtometer",
+        "Universe.Units.Picometer" : "Picometer",
+        "Universe.Units.Angstrom" : "Ångström",
+        "Universe.Units.Nanometer" : "Nanometer",
+        "Universe.Units.Micrometer" : "Micrometer",
+        "Universe.Units.Millimeter" : "Millimeter",
+        "Universe.Units.Centimeter" : "Centimeter",
+        "Universe.Units.Meter" : "Meter",
+        "Universe.Units.Kilometer" : "Kilometer",
+        "Universe.Units.AU" : "Astronomical Unit",
+        "Universe.Units.LightSecond" : "Light-second",
+        "Universe.Units.LightYear" : "Light-year",
+        "Universe.Units.Parsec" : "Parsec",
+
         "Temporary.MMC.Voting UI": "MMC Voting UI",
         "Temporary.MMC.Vote": "Vote",
 

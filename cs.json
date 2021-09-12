@@ -1889,6 +1889,21 @@
         "Universe.Universe.StarCluster": "Hvězdokupa",
         "Universe.Universe.ObservableUniverse": "Pozorovatelný vesmír",
 
+        "Universe.Units.Attometer" : "Attometr",
+        "Universe.Units.Femtometer" : "Femtometr",
+        "Universe.Units.Picometer" : "Pikometr",
+        "Universe.Units.Angstrom" : "Ångström",
+        "Universe.Units.Nanometer" : "Nanometr",
+        "Universe.Units.Micrometer" : "Mikrometr",
+        "Universe.Units.Millimeter" : "Milimetr",
+        "Universe.Units.Centimeter" : "Centimetr",
+        "Universe.Units.Meter" : "Metr",
+        "Universe.Units.Kilometer" : "Kilometr",
+        "Universe.Units.AU" : "Astronomická jednotka",
+        "Universe.Units.LightSecond" : "Světelná sekunda",
+        "Universe.Units.LightYear" : "Světelný rok",
+        "Universe.Units.Parsec" : "Parsek",
+
         "Temporary.MMC.Voting UI": "MMC Hlasovací UI",
         "Temporary.MMC.Vote": "Hlasovat",
 
