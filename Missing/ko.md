@@ -179,4 +179,12 @@ Universe.Units.AU
 Universe.Units.LightSecond  
 Universe.Units.LightYear  
 Universe.Units.Parsec  
+Universe.Units.EarthRadius  
+Universe.Units.HubbleLength  
+Universe.Units.LunarDistance  
+Universe.Units.Inch  
+Universe.Units.Foot  
+Universe.Units.Yard  
+Universe.Units.Mile  
+Universe.Units.NauticalMile  
 

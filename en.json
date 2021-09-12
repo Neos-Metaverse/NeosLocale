@@ -1904,6 +1904,15 @@
         "Universe.Units.LightSecond" : "Light-second",
         "Universe.Units.LightYear" : "Light-year",
         "Universe.Units.Parsec" : "Parsec",
+        "Universe.Units.EarthRadius" : "Earth Radius",
+        "Universe.Units.HubbleLength" : "Hubble length",
+        "Universe.Units.LunarDistance" : "Lunar distance",
+        
+        "Universe.Units.Inch" : "Inch",
+        "Universe.Units.Foot" : "Foot",
+        "Universe.Units.Yard" : "Yard",
+        "Universe.Units.Mile" : "Mile",
+        "Universe.Units.NauticalMile" : "Nautical mile",
 
         "Temporary.MMC.Voting UI": "MMC Voting UI",
         "Temporary.MMC.Vote": "Vote",

@@ -1903,6 +1903,15 @@
         "Universe.Units.LightSecond" : "Světelná sekunda",
         "Universe.Units.LightYear" : "Světelný rok",
         "Universe.Units.Parsec" : "Parsek",
+        "Universe.Units.EarthRadius" : "Poloměr Zeme",
+        "Universe.Units.HubbleLength" : "Délka HST",
+        "Universe.Units.LunarDistance" : "Měsíční vzdálenost",
+        
+        "Universe.Units.Inch" : "Palec",
+        "Universe.Units.Foot" : "Stopa",
+        "Universe.Units.Yard" : "Yard",
+        "Universe.Units.Mile" : "Míle",
+        "Universe.Units.NauticalMile" : "Námořní míle",
 
         "Temporary.MMC.Voting UI": "MMC Hlasovací UI",
         "Temporary.MMC.Vote": "Hlasovat",
