@@ -44,6 +44,8 @@ Account.TOTP.Message.DeactivationComplete
 User.Actions.Silence  
 Contacts.RecordingVoiceMessage  
 Tooltips.Dev.ConfirmDestroySelected  
+Tooltip.GrabbableSetter.ApplyToRoot  
+Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Slicer.Add  
 Tooltip.Slicer.Clear  
 Tooltip.Material.RayMode  
@@ -954,13 +956,16 @@ Universe.Biology.DNA
 Universe.Biology.AlphaHelix  
 Universe.Biology.Rhinovirus  
 Universe.Biology.Adenovirus  
+Universe.Biology.PorcineCircovirus  
 Universe.Biology.Ribosome  
 Universe.Biology.Chloroplast  
 Universe.Biology.PhospholipidBilayer  
 Universe.Biology.Paramecium  
 Universe.Biology.HIV  
-Universe.Biology.Mitochrondrion  
+Universe.Biology.Mitochondrion  
 Universe.Biology.Hair  
+Universe.Biology.HepatitisB  
+Universe.Biology.Platelet  
 Universe.Biology.LargestBacteria  
 Universe.Particles.Electron  
 Universe.Particles.Proton  
@@ -1032,8 +1037,10 @@ Universe.Technology.Starship
 Universe.Technology.Sputnik  
 Universe.Technology.MoonLander  
 Universe.Technology.Voyager  
+Universe.Technology.Ingenuity  
 Universe.Technology.CargoShip  
 Universe.Landmarks.EiffelTower  
+Universe.Landmarks.DistanceFromLA2SF  
 Universe.Landmarks.StatueOfLiberty  
 Universe.Landmarks.PyramidOfKhafre  
 Universe.Landmarks.MountEverest  
@@ -1047,6 +1054,8 @@ Universe.Galaxies.Andromeda
 Universe.Galaxies.Sombrero  
 Universe.Galaxies.IC1101  
 Universe.Galaxies.SmallMagellanicCloud  
+Universe.Galaxies.NGC1300  
+Universe.Galaxies.NGC4414  
 Universe.Universe.GalaxyFillament  
 Universe.Universe.StarCluster  
 Universe.Universe.ObservableUniverse  
