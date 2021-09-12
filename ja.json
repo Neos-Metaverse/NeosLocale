@@ -1,8 +1,7 @@
 {
     "localeCode": "ja",
     "authors": ["orange", "Melnus", "Aesc", "kazu"],
-    "messages": 
-    {
+    "messages": {
         "General.OK": "OK",
         "General.Start": "開始",
         "General.Finish": "終了",
@@ -91,7 +90,7 @@
 
         "Dash.Actions.PasteFromClipboard": "クリップボード​からペースト",
 
-        "Dash.Actions.TurnOffUIEdit": "UI編集モード をオフにする",
+        "Dash.Actions.TurnOffUIEdit": "UI編集モード​をオフにする",
 
         "Dash.Actions.CoreWorldsHeader": "コアワールド",
         "Dash.Actions.ContentHub": "コンテントハブ",
@@ -379,7 +378,7 @@
         "Account.TOTP.Message.DeactivationComplete": "2要素認証が無効化されました。<br><br>アカウントのリスクが高まっています！<br><br>特にスマートフォンを紛失したために​リカバリーコードを使用した場合は、​すぐに2要素認証を再設定してください。",
 
         "2FA.Header": "2要素認証",
-        "2FA.Token": "6桁のコード:",
+        "2FA.Token": "6桁のコード​を入力",
 
         "Profile.Status.Online": "オンライン",
         "Profile.Status.Away": "退席中",
@@ -732,7 +731,7 @@
 
         "Credits.Title": "クレジットを送る",
         "Credits.TokenPrompt": "どのトークンを送信しますか?",
-        "Credits.NCR.Title": "ネオスクレジット​(<b>NCR</b>)",
+        "Credits.NCR.Title": "ネオスクレジット​ (<b>NCR</b>)",
         "Credits.NCR.Description": "実際に価値のある​イーサリアムトークン",
         "Credits.KFC.Title": "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description": "実際には価値のない​サンドボックストークン",
@@ -763,7 +762,7 @@
         "NewWorld.AutoPort": "Auto:",
         "NewWorld.DefaultName": "{name} World",
 
-        "FullBody.Title": "フルボディ/アバターキャリブレーション",
+        "FullBody.Title": "キャリブレート",
         "FullBody.SetHeight": "1) 身長を入力",
         "FullBody.HeightInstructions": "実際の身長になっていますか？異なっている場合は正しく<br>キャリブレーションできません。ガイドとヘッドセット・<br>コントローラーの位置が合うようにしてください。",
         "FullBody.HeightWarning": "間違っているようです。<br>実際の身長になっているか確認してください。",
@@ -792,7 +791,7 @@
         "FullBody.FinishPrompt": "完璧ですか?",
         "FullBody.FinishCalibration": "フルボディキャリブレーション完了",
 
-        "FullBody.CalibrateAvatarTitle": "アバターキャリブレート",
+        "FullBody.CalibrateAvatarTitle": "キャリブレート アバター",
         "FullBody.CalibrateAvatarInstructions": "全てのボディパーツが<br>正しく配置されていることを確認し、<br>青い球体をドラッグしてアバターを<br>体のガイドに一致させてください。",
         "FullBody.ShowReferenceOverlay": "リファレンスオーバーレイを表示",
         "FullBody.ResetAvatarPrompt": "アバターが見つからない、またはトラッキングされていませんか?",
@@ -994,20 +993,20 @@
         "Settings.Dash.OpenCloseSpeed": "開閉スピード",
 
         "Settings.LeapMotion.Name": "Leap Motion",
-        "Settings.LeapMotion.Enabled": "Leap トラッキングを有効化",
+        "Settings.LeapMotion.Enabled": "Leap Motion トラッキングを有効化",
         "Settings.LeapMotion.HorizontalOffset": "水平オフセット",
         "Settings.LeapMotion.VerticalOffset": "垂直オフセット",
         "Settings.LeapMotion.ForwardOffset": "前方オフセット",
         "Settings.LeapMotion.SnapDistance": "手のスナップ距離",
-        "Settings.LeapMotion.UseFingersWhenSnapped": "スナップしたときに指を使う",
+        "Settings.LeapMotion.UseFingersWhenSnapped": "スナップしたときにLeap Motionを使う",
 
-        "Settings.ViveHandTracking.Name": "Viveフィンガートラッキング",
+        "Settings.ViveHandTracking.Name": "Viveハンドトラッキング",
         "Settings.ViveHandTracking.Enabled": "Viveハンドトラッキングを有効化",
         "Settings.ViveHandTracking.SnapDistance": "手のスナップ距離",
-        "Settings.ViveHandTracking.UseFingersWhenSnapped": "スナップしたときにViveフィンガーを使う",
+        "Settings.ViveHandTracking.UseFingersWhenSnapped": "スナップしたときにViveハンドトラッキングを使う",
 
-        "Settings.WindowsIntegration": "Windows Integration",
-        "Settings.LinuxIntegration": "Linux Integration",
+        "Settings.WindowsIntegration": "Windows 向け設定項目",
+        "Settings.LinuxIntegration": "Linux 向け設定項目",
 
         "Settings.System.KeepOriginalScreenshotFormat": "WebP形式で保存(透過を維持)",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "有効にすると、ドキュメントフォルダーに保存したときにスクリーンショットがJPGに変換されません。",
@@ -1229,10 +1228,10 @@
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "常に最後のボーンをグラブする",
 
         "Inspector.Rig.CleanupBoneColliders": "ボーンコライダーをクリーンアップ",
-        "Inspector.Rig.GenerateDebugVisuals": "デバッグビジュアル生成",
-        "Inspector.Rig.ClearDebugVisuals": "デバッグビジュアル除去",
+        "Inspector.Rig.GenerateDebugVisuals": "デバッグビジュアルを生成",
+        "Inspector.Rig.ClearDebugVisuals": "デバッグビジュアルを除去",
 
-        "Inspector.AvatarExpression.AutoAssign": "ブレンドシェイプの自動割り当て(ヒューリスティクスを使用)",
+        "Inspector.AvatarExpression.AutoAssign": "ブレンドシェイプの自動割り当て(自動的に設定)",
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、​このコンポーネントを単純なRigidbodyとして使用できます。​前提として、この目的のために最適化されておらず、​適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、 CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、 その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>詳細については、GitHub issue #22をご覧ください。 これらの制限を理解している限り、楽しんでください！",
 
@@ -1241,7 +1240,7 @@
         "Wizard.General.ErrorNoRoot": "ルートが選択されていません",
         "Wizard.General.RemovedResult": "削除完了 {n}",
 
-        "Wizard.AssetOptimization.Title": "アセット最適化ウィザード",
+        "Wizard.AssetOptimization.Title": "アセットを最適化",
         "Wizard.AssetOptimization.CleanupUnusedAssets": "使われていないアセットを削除",
         "Wizard.AssetOptimization.CleanupEmptySlots": "空スロットを削除",
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "非表示のメッシュレンダラを削除",
@@ -1254,7 +1253,7 @@
         "Wizard.AssetOptimization.RecalculateAllTangents": "すべての接線(タンジェント)を再計算(Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult": "変換完了 {n}",
 
-        "Wizard.LightSources.Title": "光源ウィザード",
+        "Wizard.LightSources.Title": "光源設定",
         "Wizard.LightSources.Header": "シーンライトソース",
         "Wizard.LightSources.ProcessRoot": "プロセスルート:",
         "Wizard.LightSources.PointLights": "ポイントライト:",
@@ -1269,7 +1268,7 @@
         "Wizard.LightSources.Disable": "無効化",
         "Wizard.LightSources.Destroy": "破棄",
 
-        "Wizard.CubemapCreator.Title": "キューブマップクリエイター",
+        "Wizard.CubemapCreator.Title": "キューブマップ作成",
         "Wizard.CubemapCreator.Textures": "ソーステクスチャ:",
         "Wizard.CubemapCreator.TexturesNote": "一部の慣例では、左右が入れ替わっていることに注意​してください。キューブマップが正しく表示されない​場合は、左右のテクスチャを交換してみてください。",
         "Wizard.CubemapCreator.PosX": "+X軸 (右面)",
@@ -1322,7 +1321,7 @@
         "Tutorial.Welcome.SettingsSmoothTurnDescription": "徐々に向きを変えます。吐き気を引き起こす可能性があります。",
         "Tutorial.Welcome.SettingsPrimaryController": "プライマリーコントローラー(標準は右です)",
         "Tutorial.Welcome.SettingsPrimaryLeft": "左",
-        "Tutorial.Welcome.SettingsPrimaryLeftDescription": "<b>左</b> 回転, <b>右:</b> 平行移動",
+        "Tutorial.Welcome.SettingsPrimaryLeftDescription": "<b>左:</b> 回転, <b>右:</b> 平行移動",
         "Tutorial.Welcome.SettingsPrimaryRight": "右",
         "Tutorial.Welcome.SettingsPrimaryRightDescription": "<b>左:</b> 平行移動, <b>右:</b> 回転",
         "Tutorial.Welcome.SettingsHeight": "身長",
@@ -1784,8 +1783,8 @@
         "Universe.Biology.HIV": "HIV (ヒト免疫不全ウイルス)",
         "Universe.Biology.Mitochondrion": "ミトコンドリア",
         "Universe.Biology.Hair": "毛髪 (幅)",
-        "Universe.Biology.HepatitisB" : "B型肝炎",
-        "Universe.Biology.Platelet" : "(活性化した)血小板",
+        "Universe.Biology.HepatitisB": "B型肝炎",
+        "Universe.Biology.Platelet": "(活性化した)血小板",
         "Universe.Biology.LargestBacteria": "最大のバクテリア",
 
         "Universe.Particles.Electron": "電子",
@@ -1804,9 +1803,9 @@
         "Universe.Common.Train": "電車",
         "Universe.Common.ChickenEgg": "鶏の卵",
         "Universe.Common.OstrichEgg": "ダチョウの卵",
-        "Universe.Common.Duckweed" : "ウキクサ",
-        "Universe.Common.Paper" : "紙 (厚さ)",
-        "Universe.Common.Pencil" : "鉛筆の芯",
+        "Universe.Common.Duckweed": "ウキクサ",
+        "Universe.Common.Paper": "紙 (厚さ)",
+        "Universe.Common.Pencil": "鉛筆の芯",
         "Universe.Common.Earthworm": "ミミズ",
         "Universe.Common.RiceGrain": "米粒",
         "Universe.Common.SunflowerSeed": "ひまわりの種",
