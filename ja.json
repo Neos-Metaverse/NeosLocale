@@ -1776,6 +1776,7 @@
         "Universe.Biology.AlphaHelix": "αヘリックス",
         "Universe.Biology.Rhinovirus": "ライノウイルス",
         "Universe.Biology.Adenovirus": "アデノウイルス",
+        "Universe.Biology.PorcineCircovirus": "豚サーコウイルス",
         "Universe.Biology.Ribosome": "リボゾーム",
         "Universe.Biology.Chloroplast": "葉緑体",
         "Universe.Biology.PhospholipidBilayer": "脂質二重層",
@@ -1783,6 +1784,8 @@
         "Universe.Biology.HIV": "HIV (ヒト免疫不全ウイルス)",
         "Universe.Biology.Mitochrondrion": "ミトコンドリア",
         "Universe.Biology.Hair": "毛髪 (幅)",
+        "Universe.Biology.HepatitisB" : "B型肝炎",
+        "Universe.Biology.Platelet" : "(活性化した)血小板",
         "Universe.Biology.LargestBacteria": "最大のバクテリア",
 
         "Universe.Particles.Electron": "電子",
@@ -1860,6 +1863,7 @@
         "Universe.Technology.Sputnik": "スプートニク1号",
         "Universe.Technology.MoonLander": "NASA月着陸船",
         "Universe.Technology.Voyager": "NASAボイジャー",
+        "Universe.Technology.Ingenuity": "NASAインジェニュイティヘリコプター",
         "Universe.Technology.CargoShip": "貨物船",
 
         "Universe.Landmarks.EiffelTower": "エッフェル塔",
@@ -1878,6 +1882,8 @@
         "Universe.Galaxies.Sombrero": "ソンブレロ銀河 (M104)",
         "Universe.Galaxies.IC1101": "IC1101 (超巨大銀河)",
         "Universe.Galaxies.SmallMagellanicCloud": "小マゼラン雲(NGC 292)",
+        "Universe.Galaxies.NGC1300": "NGC 1300 (棒渦巻銀河)",
+        "Universe.Galaxies.NGC4414": "NGC 4414 (非棒渦巻銀河)",
 
         "Universe.Universe.GalaxyFillament": "銀河フィラメント(グレートウォール)",
         "Universe.Universe.StarCluster": "星団",
