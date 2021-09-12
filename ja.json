@@ -1782,7 +1782,7 @@
         "Universe.Biology.PhospholipidBilayer": "脂質二重層",
         "Universe.Biology.Paramecium": "ゾウリムシ",
         "Universe.Biology.HIV": "HIV (ヒト免疫不全ウイルス)",
-        "Universe.Biology.Mitochrondrion": "ミトコンドリア",
+        "Universe.Biology.Mitochondrion": "ミトコンドリア",
         "Universe.Biology.Hair": "毛髪 (幅)",
         "Universe.Biology.HepatitisB" : "B型肝炎",
         "Universe.Biology.Platelet" : "(活性化した)血小板",
@@ -1867,7 +1867,7 @@
         "Universe.Technology.CargoShip": "貨物船",
 
         "Universe.Landmarks.EiffelTower": "エッフェル塔",
-        "Universe.Landmarks.StatueOfLiberty": "自由の女神像",
+        "Universe.Landmarks.StatueOfLiberty": "自由の女神像</br><size=50%>(台座を除いた高さ)",
         "Universe.Landmarks.PyramidOfKhafre": "カフラー王のピラミッド",
         "Universe.Landmarks.MountEverest": "エベレスト(山)",
         "Universe.Landmarks.LHC": "大型ハドロン衝突型加速器",
