@@ -1688,6 +1688,9 @@
         "Temporary.MMC.Categories.Misc": "기타",
         "Temporary.MMC.Categories.Meme": "밈(Meme)",
         "Temporary.MMC.Categories.Avatars.Accessories": "악세서리",
+		
+        "Tooltip.GrabbableSetter.ApplyToRoot" : "아이템 루트에 적용",
+        "Tooltip.GrabbableSetter.AppyToHit" : "지시선 대상에 적용",
 
         "Dummy": "더미"
     }
