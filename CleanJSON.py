@@ -19,35 +19,33 @@ class NeosLocaleCleaner:
     
     def make_header(self):
         self.output.append('{')
-        self.output.append('    "localeCode" : "{}",'.format(self.lang["localeCode"]))
-        self.output.append('    "authors" : ["{}"],'.format('", "'.join(self.lang["authors"])))
-        self.output.append('    "messages" : ')
-        self.output.append('    {')
+        self.output.append('    "localeCode": "{}",'.format(self.lang["localeCode"]))
+        self.output.append('    "authors": ["{}"],'.format('", "'.join(self.lang["authors"])))
+        self.output.append('    "messages": {')
         
     def make_footer(self):
-        self.output.append('        "Dummy" : "Dummy"')
+        self.output.append('        "Dummy": "Dummy"')
         self.output.append('    }')
         self.output.append('}')
         self.output.append('')
 
     def find_start(self):
-        message = False
         counter = 0
         for line in self.en:
+            counter += 1
             if "message" in line:
                 break
-            counter += 1
         return counter
         
     def parse(self):
-        start_pos = self.find_start() + 2
+        start_pos = self.find_start()
         for line in self.en[start_pos:]:
-            if '"Dummy" : "Dummy"' in line:
+            if '"Dummy": "Dummy"' in line:
                 break
             key = line.strip().split(':')[0].strip().replace('"','')
             if key in self.lang["messages"]:
                 translation = self.lang["messages"][key].replace('\n','\\n').replace('"','\\"')
-                self.output.append('        "{}" : "{}",'.format(key, translation))
+                self.output.append('        "{}": "{}",'.format(key, translation))
             else:
                 self.output.append('')
     
