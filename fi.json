@@ -501,6 +501,8 @@
         "Tooltip.GrabbableSetter.Scalable" : "Aseta skaalautuva",
         "Tooltip.GrabbableSetter.NonScalable" : "Aseta ei skaalautuva",
 
+
+
         "Tooltip.CharacterCollider.MarkGrippable" : "Aseta tarttuva pinta",
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Poista tarttuva pinta",
         "Tooltip.CharacterCollider.EnsureWalkRun" : "Varmista kävely/juoksu tila",
@@ -1737,6 +1739,17 @@
         "Universe.SolarSystem.Moon": "Kuu",
         "Universe.SolarSystem.SolarSystem": "Aurinkokunta",
 
+        "Universe.SolarSystem.Charon": "Kharon",
+        "Universe.SolarSystem.Mithra": "4486 Mithra (asteroidi)",
+        "Universe.SolarSystem.Geographos": "1920 Geographos (asteroidi)",
+        "Universe.SolarSystem.Kelopatra": "216 Kleopatra (asteroidi)",
+        "Universe.SolarSystem.HW1": "8567 1996 HW (asteroidi)",
+        "Universe.SolarSystem.Golevka": "6489 Golevka (asteroidi)",
+        "Universe.SolarSystem.Toutatis": "4179 Toutatis (asteroidi)",
+        "Universe.SolarSystem.Bennu": "101955 Bennu (asteroidi)",
+
+        "Universe.SolarSystem.Ganymede": "Ganymedes",
+        "Universe.SolarSystem.Callisto": "Kallisto",
         "Universe.SolarSystem.AsteroidGanymed": "Ganymedes (asteroidi)",
 
         "Universe.Animals.BottlenoseDolphin": "Pullonokkadelfiini",
@@ -1748,6 +1761,7 @@
         "Universe.Animals.Tardigrade": "Karhukainen",
 
         "Universe.Animals.Eel": "Ankerias",
+        "Universe.Animals.Bream": "Lahna",
 
 
         "Universe.Biology.AverageHumanCell": "Ihmisen solu (keskimääräinen)",
@@ -1762,13 +1776,16 @@
         "Universe.Biology.AlphaHelix": "Alfa-kierre",
         "Universe.Biology.Rhinovirus": "Rinovirus",
 
+        "Universe.Biology.PorcineCircovirus": "Sian sirkovirus",
         "Universe.Biology.Ribosome": "Ribosomi",
         "Universe.Biology.Chloroplast": "Viherhiukkanen",
         "Universe.Biology.PhospholipidBilayer": "Fosfolipidi kaksoiskerros",
         "Universe.Biology.Paramecium": "Tohvelieläin",
 
-        "Universe.Biology.Mitochrondrion": "Mitokondrio",
+        "Universe.Biology.Mitochondrion": "Mitokondrio",
         "Universe.Biology.Hair": "Hius (leveys)",
+        "Universe.Biology.HepatitisB" : "B-hepatiitti",
+        "Universe.Biology.Platelet" : "Verihiutale (aktiivinen)",
         "Universe.Biology.LargestBacteria": "Isoin bakteeri",
 
         "Universe.Particles.Electron": "Elektroni",
@@ -1780,12 +1797,16 @@
 
         "Universe.Common.CoffeeBean": "Kahvipapu",
         "Universe.Common.Matchstick": "Tulitikku",
+        "Universe.Common.SiltParticle": "Lietepartikkeli",
         "Universe.Common.SaltGrain": "Suolahippu",
         "Universe.Common.SandGrain": "Hiekanjyvä",
         "Universe.Common.USCent": "Sentti (US)",
         "Universe.Common.Train": "Juna",
         "Universe.Common.ChickenEgg": "Kananmuna",
         "Universe.Common.OstrichEgg": "Strutsin muna",
+        "Universe.Common.Duckweed" : "Sorsanlimaska",
+        "Universe.Common.Paper" : "Paperi (paksuus)",
+        "Universe.Common.Pencil" : "Lyijykynän lyijy",
         "Universe.Common.Earthworm": "Kastemato",
         "Universe.Common.RiceGrain": "Riisinjyvä",
         "Universe.Common.SunflowerSeed": "Auringonkukan siemen",
@@ -1827,7 +1848,7 @@
         "Universe.Nebulae.CatEye": "Kissansilmäsumu",
         "Universe.Nebulae.Butterfly": "Perhossumu",
         "Universe.Nebulae.NGC604": "NGC604 -sumu",
-        "Universe.Nebulae.Orion": "Orionsumu",
+        "Universe.Nebulae.Orion": "Orionin sumu",
         "Universe.Nebulae.Tarantula": "Tarantellasumu",
         "Universe.Nebulae.Ring": "Lyyran rengassumu",
         "Universe.Nebulae.Eagle": "Kotkasumu",
@@ -1837,10 +1858,17 @@
         "Universe.Technology.MicroSD": "MicroSD -kortti",
         "Universe.Technology.ISS": "Kansainvälinen avaruusasema",
 
-        "Universe.Technology.BMW": "BMW auto",
+        "Universe.Technology.Car": "Auto",
 
-        "Universe.Landmarks.EiffelTower": "Eiffel torni",
-        "Universe.Landmarks.StatueOfLiberty": "Vapaudenpatsas",
+
+
+
+
+        "Universe.Technology.CargoShip": "Rahtilaiva",
+
+        "Universe.Landmarks.EiffelTower": "Eiffel-torni",
+        "Universe.Landmarks.DistanceFromLA2SF" : "Etäisyys Los Angelesista San Franciscoon",
+        "Universe.Landmarks.StatueOfLiberty": "Vapaudenpatsas<br><size=50%>(korkeus ilman jalustaa)",
         "Universe.Landmarks.PyramidOfKhafre": "Khafren pyramidi",
 
 
@@ -1855,10 +1883,36 @@
         "Universe.Galaxies.Sombrero": "Sombrerogalaksi",
         "Universe.Galaxies.IC1101": "IC1101 (ylijättiläinen)",
         "Universe.Galaxies.SmallMagellanicCloud": "Pieni Magellanin pilvi",
+        "Universe.Galaxies.NGC1300": "NGC 1300 (sauvaspiraaligalaksi)",
+        "Universe.Galaxies.NGC4414": "NGC 4414 (kierteisgalaksi)",
 
         "Universe.Universe.GalaxyFillament": "Galaksimuuri",
         "Universe.Universe.StarCluster": "Tähtijoukko",
         "Universe.Universe.ObservableUniverse": "Havaittava maailmankaikkeus",
+        
+        "Universe.Units.Attometer" : "Attometri",
+        "Universe.Units.Femtometer" : "Femtometri",
+        "Universe.Units.Picometer" : "Pikometri",
+
+        "Universe.Units.Nanometer" : "Nanometri",
+        "Universe.Units.Micrometer" : "Mikrometri",
+        "Universe.Units.Millimeter" : "Millimetri",
+        "Universe.Units.Centimeter" : "Senttimetri",
+        "Universe.Units.Meter" : "Metri",
+        "Universe.Units.Kilometer" : "Kilometri",
+        "Universe.Units.AU" : "Astronominen yksikkö",
+        "Universe.Units.LightSecond" : "Valosekunti",
+        "Universe.Units.LightYear" : "Valovuosi",
+        "Universe.Units.Parsec" : "Parsek",
+        "Universe.Units.EarthRadius" : "Maan säde",
+        "Universe.Units.HubbleLength" : "Hubblen pituus",
+        "Universe.Units.LunarDistance" : "Kuun etäisyys",
+        
+        "Universe.Units.Inch" : "Tuuma",
+        "Universe.Units.Foot" : "Jalka",
+        "Universe.Units.Yard" : "Jaardi",
+        "Universe.Units.Mile" : "Maili",
+        "Universe.Units.NauticalMile" : "Merimaili",
 
         "Temporary.MMC.Voting UI": "MMC äänestysikkuna",
         "Temporary.MMC.Vote": "Äänestä",
