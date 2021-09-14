@@ -498,8 +498,10 @@
 
         "Tooltip.Color.Picker": "Инстр: Пипетка",
 
-        "Tooltip.GrabbableSetter.Scalable": "Устан. Масштабируемым",
-        "Tooltip.GrabbableSetter.NonScalable": "Устан. Не-Масштабируемым",
+        "Tooltip.GrabbableSetter.Scalable": "Сделать масштабируемым",
+        "Tooltip.GrabbableSetter.NonScalable": "Сделать не-масштабируемым",
+        "Tooltip.GrabbableSetter.ApplyToRoot": "Применить на корень объекта",
+        "Tooltip.GrabbableSetter.AppyToHit": "Применить на цель",
 
         "Tooltip.CharacterCollider.MarkGrippable": "Отметить Захватываемым",
         "Tooltip.CharacterCollider.DontMarkGrippable": "Не Отмечать Захватываемым",
