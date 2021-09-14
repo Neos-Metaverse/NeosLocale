@@ -2,6 +2,10 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
+Interaction.Grab.Palm  
+Interaction.Grab.Precision  
+Interaction.Grab.Auto  
+Interaction.Grab.Off  
 World.SortParameter.Random  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  

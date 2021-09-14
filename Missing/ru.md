@@ -2,6 +2,10 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Russian [ru]
+Interaction.Grab.Palm  
+Interaction.Grab.Precision  
+Interaction.Grab.Auto  
+Interaction.Grab.Off  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
 Universe.Stars.Sun  

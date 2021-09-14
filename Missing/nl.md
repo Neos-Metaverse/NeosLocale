@@ -5,6 +5,10 @@ Note that this file updates only during Neos build process and doesn't necessari
 General.OK  
 General.Reset  
 Locomotion.Noclip.Name  
+Interaction.Grab.Palm  
+Interaction.Grab.Precision  
+Interaction.Grab.Auto  
+Interaction.Grab.Off  
 Dash.Actions.ContentHub  
 World.Connection.LNL.DirectIP  
 World.Connection.LNL.NATPunchthrough  

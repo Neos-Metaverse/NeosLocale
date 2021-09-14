@@ -62,6 +62,10 @@
         "Interaction.ResetScale": "Reset Scale",
         "Interaction.LaserEnabled": "Laser Enabled",
         "Interaction.LaserDisabled": "Laser Disabled",
+        "Interaction.Grab.Palm" : "Grab: Palm",
+        "Interaction.Grab.Precision" : "Grab: Precision",
+        "Interaction.Grab.Auto" : "Grab: Auto",
+        "Interaction.Grab.Off" : "Grab: Laser Only",
         "Interaction.Locomotion": "Locomotion",
         "Interaction.Locomotion.None": "None",
 
