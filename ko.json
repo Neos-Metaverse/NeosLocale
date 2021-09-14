@@ -1692,6 +1692,11 @@
         "Tooltip.GrabbableSetter.ApplyToRoot" : "아이템 루트에 적용",
         "Tooltip.GrabbableSetter.AppyToHit" : "지시선 대상에 적용",
 		
+        "Interaction.Grab.Palm" : "잡기: 손바닥",
+        "Interaction.Grab.Precision" : "잡기: 정밀",
+        "Interaction.Grab.Auto" : "잡기: 자동",
+        "Interaction.Grab.Off" : "잡기: 지시선만 허용",
+		
         "Universe.Stars.Sun": "태양",
         "Universe.Stars.Sirius": "시리우스",
         "Universe.Stars.Pollux": "폴룩스",
