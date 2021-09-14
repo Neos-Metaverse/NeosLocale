@@ -1692,7 +1692,7 @@
         "Tooltip.GrabbableSetter.ApplyToRoot" : "아이템 루트에 적용",
         "Tooltip.GrabbableSetter.AppyToHit" : "지시선 대상에 적용",
 		
-		"Universe.Stars.Sun": "태양",
+        "Universe.Stars.Sun": "태양",
         "Universe.Stars.Sirius": "시리우스",
         "Universe.Stars.Pollux": "폴룩스",
         "Universe.Stars.Arcturus": "아크트루스",
