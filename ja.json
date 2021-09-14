@@ -1866,6 +1866,7 @@
         "Universe.Technology.CargoShip": "貨物船",
 
         "Universe.Landmarks.EiffelTower": "エッフェル塔",
+        "Universe.Landmarks.DistanceFromLA2SF": "ロサンゼルスからサンフランシスコまでの距離",
         "Universe.Landmarks.StatueOfLiberty": "自由の女神像<br><size=50%>(台座を除いた高さ)",
         "Universe.Landmarks.PyramidOfKhafre": "カフラー王のピラミッド",
         "Universe.Landmarks.MountEverest": "エベレスト(山)",
