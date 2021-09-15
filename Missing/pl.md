@@ -96,6 +96,14 @@ Inspector.SimpleAvatarProtection.Warning
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.Texture.BakeTexture  
 Inspector.CharacterController.Warning  
+Inspector.ParticleStyle.CommonTransitions  
+Inspector.ParticleStyle.AlphaFadeInOut  
+Inspector.ParticleStyle.AlphaFadeIn  
+Inspector.ParticleStyle.AlphaFadeOut  
+Inspector.ParticleStyle.IntensityFadeInOut  
+Inspector.ParticleStyle.IntensityFadeIn  
+Inspector.ParticleStyle.IntensityFadeOut  
+Inspector.ParticleStyle.ClearFades  
 Twitch.Panel.Button.Commands.Enabled  
 Twitch.Panel.Button.Commands.Disabled  
 Twitch.Panel.Button.SafeMode.Enabled  

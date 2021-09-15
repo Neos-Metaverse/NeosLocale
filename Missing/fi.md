@@ -116,6 +116,14 @@ Inspector.DynamicBoneChain.AlwaysGrabLastBone
 Inspector.Rig.CleanupBoneColliders  
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
+Inspector.ParticleStyle.CommonTransitions  
+Inspector.ParticleStyle.AlphaFadeInOut  
+Inspector.ParticleStyle.AlphaFadeIn  
+Inspector.ParticleStyle.AlphaFadeOut  
+Inspector.ParticleStyle.IntensityFadeInOut  
+Inspector.ParticleStyle.IntensityFadeIn  
+Inspector.ParticleStyle.IntensityFadeOut  
+Inspector.ParticleStyle.ClearFades  
 Wizard.AssetOptimization.CleanupDisabledMeshRenderers  
 Wizard.AssetOptimization.DeduplicateMaterials  
 Wizard.AssetOptimization.CleanupFileItems  

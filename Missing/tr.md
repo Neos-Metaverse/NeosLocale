@@ -196,6 +196,14 @@ Inspector.Rig.GenerateDebugVisuals
 Inspector.Rig.ClearDebugVisuals  
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
+Inspector.ParticleStyle.CommonTransitions  
+Inspector.ParticleStyle.AlphaFadeInOut  
+Inspector.ParticleStyle.AlphaFadeIn  
+Inspector.ParticleStyle.AlphaFadeOut  
+Inspector.ParticleStyle.IntensityFadeInOut  
+Inspector.ParticleStyle.IntensityFadeIn  
+Inspector.ParticleStyle.IntensityFadeOut  
+Inspector.ParticleStyle.ClearFades  
 Wizard.AssetOptimization.CleanupUnusedAssets  
 Wizard.LightSources.Title  
 Wizard.LightSources.Header  

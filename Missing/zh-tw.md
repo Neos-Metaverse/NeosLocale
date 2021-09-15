@@ -117,6 +117,14 @@ Inspector.SimpleAvatarProtection.Warning
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.Texture.BakeTexture  
 Inspector.CharacterController.Warning  
+Inspector.ParticleStyle.CommonTransitions  
+Inspector.ParticleStyle.AlphaFadeInOut  
+Inspector.ParticleStyle.AlphaFadeIn  
+Inspector.ParticleStyle.AlphaFadeOut  
+Inspector.ParticleStyle.IntensityFadeInOut  
+Inspector.ParticleStyle.IntensityFadeIn  
+Inspector.ParticleStyle.IntensityFadeOut  
+Inspector.ParticleStyle.ClearFades  
 Tutorial.BotDesigner.Start  
 Tutorial.BotDesigner.WearAvatar  
 Tutorial.BotDesigner.Intro.Title  

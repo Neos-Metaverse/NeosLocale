@@ -126,6 +126,14 @@ Inspector.VHACD.RemoveHulls
 Inspector.Texture.Variant  
 Inspector.Texture.Gamma  
 Inspector.CharacterController.Warning  
+Inspector.ParticleStyle.CommonTransitions  
+Inspector.ParticleStyle.AlphaFadeInOut  
+Inspector.ParticleStyle.AlphaFadeIn  
+Inspector.ParticleStyle.AlphaFadeOut  
+Inspector.ParticleStyle.IntensityFadeInOut  
+Inspector.ParticleStyle.IntensityFadeIn  
+Inspector.ParticleStyle.IntensityFadeOut  
+Inspector.ParticleStyle.ClearFades  
 Wizard.CubemapCreator.Title  
 Tutorial.Welcome.AccountHeader  
 Tutorial.Welcome.StartTutorialHeader  

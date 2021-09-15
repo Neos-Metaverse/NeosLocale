@@ -8,6 +8,14 @@ Interaction.Grab.Auto
 Interaction.Grab.Off  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
+Inspector.ParticleStyle.CommonTransitions  
+Inspector.ParticleStyle.AlphaFadeInOut  
+Inspector.ParticleStyle.AlphaFadeIn  
+Inspector.ParticleStyle.AlphaFadeOut  
+Inspector.ParticleStyle.IntensityFadeInOut  
+Inspector.ParticleStyle.IntensityFadeIn  
+Inspector.ParticleStyle.IntensityFadeOut  
+Inspector.ParticleStyle.ClearFades  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  
