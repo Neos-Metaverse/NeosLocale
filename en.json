@@ -1939,9 +1939,6 @@
         "Temporary.MMC.VotedAlready": "You have already voted in {category}.",
         "Temporary.MMC.VoteInvalid": "Vote is invalid, please try again.",
 
-        "Dummy": "Dummy",
-
-
         "Dummy": "Dummy"
     }
 }
