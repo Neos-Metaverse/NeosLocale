@@ -496,6 +496,9 @@ Inspector.SkinnedMesh.BakeBlendShapeResult
 Inspector.SkinnedMesh.VisualizeBoneBounds  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ClearBoundsVisuals  
+Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
+Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
+Inspector.SkinnedMesh.BakeToStaticMesh  
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.RemoveSingle  
 Inspector.SimpleAvatarProtection.Warning  
@@ -910,6 +913,12 @@ Earthenworks.MentorSignal.Cancel.Text
 Earthenworks.MentorSignal.Reset.Text  
 Earthenworks.MentorSignal.Next.Text  
 Earthenworks.MentorSignal.Discord.Text  
+Universe.UI.Title  
+Universe.UI.SelectExperience  
+Universe.UI.Narrative  
+Universe.UI.Freeform  
+Universe.UI.Align  
+Universe.UI.Add  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  

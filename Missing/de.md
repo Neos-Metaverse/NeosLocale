@@ -57,6 +57,9 @@ Inspector.VHACD.DecompositionMode.Tetrahedron
 Inspector.VHACD.RunDecomposition  
 Inspector.VHACD.RemoveVisuals  
 Inspector.VHACD.RemoveHulls  
+Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
+Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
+Inspector.SkinnedMesh.BakeToStaticMesh  
 Inspector.SimpleAvatarProtection.RemoveSingle  
 Inspector.SimpleAvatarProtection.Warning  
 Inspector.Texture.BakeTexture  
@@ -76,6 +79,12 @@ Twitch.Panel.Button.SafeMode.Disabled
 Twitch.Panel.Button.SubscriberCommands.Enabled  
 Twitch.Panel.Button.SubscriberCommands.Disabled  
 Twitch.Panel.Title.Text  
+Universe.UI.Title  
+Universe.UI.SelectExperience  
+Universe.UI.Narrative  
+Universe.UI.Freeform  
+Universe.UI.Align  
+Universe.UI.Add  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  

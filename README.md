@@ -2,28 +2,28 @@
 This repository contains the locale assets for the core UI of Neos VR (www.neos.com) and allow anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (https://store.steampowered.com/app/740250/Neos_VR/) and other platforms.
 
 # Localization Status
-Czech [cs] - 99.2% - Missing keys: 14  
-German [de] - 83.9% - Missing keys: 272  
-English (United Kingdom) [en-gb] - 2.1% - Missing keys: 1658  
+Czech [cs] - 98.6% - Missing keys: 23  
+German [de] - 83.5% - Missing keys: 281  
+English (United Kingdom) [en-gb] - 2.1% - Missing keys: 1667  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 86.9% - Missing keys: 221  
-Spanish [es] - 87.1% - Missing keys: 219  
-Estonian [et] - 61.6% - Missing keys: 650  
-Finnish [fi] - 81.0% - Missing keys: 322  
-French [fr] - 87.1% - Missing keys: 219  
-Icelandic [is] - 34.7% - Missing keys: 1106  
-Japanese [ja] - 99.3% - Missing keys: 12  
-Korean [ko] - 99.3% - Missing keys: 12  
-Dutch [nl] - 80.0% - Missing keys: 338  
-Norwegian [no] - 49.0% - Missing keys: 864  
-Polish [pl] - 80.9% - Missing keys: 324  
-Russian [ru] - 88.4% - Missing keys: 197  
-Swedish [sv] - 14.7% - Missing keys: 1444  
-Turkish [tr] - 57.6% - Missing keys: 718  
-Chinese (China) [zh-cn] - 71.2% - Missing keys: 488  
-Chinese (Taiwan) [zh-tw] - 67.7% - Missing keys: 547  
+Esperanto [eo] - 86.5% - Missing keys: 230  
+Spanish [es] - 86.6% - Missing keys: 228  
+Estonian [et] - 61.3% - Missing keys: 659  
+Finnish [fi] - 80.6% - Missing keys: 331  
+French [fr] - 86.6% - Missing keys: 228  
+Icelandic [is] - 34.5% - Missing keys: 1115  
+Japanese [ja] - 98.8% - Missing keys: 21  
+Korean [ko] - 98.8% - Missing keys: 21  
+Dutch [nl] - 79.6% - Missing keys: 347  
+Norwegian [no] - 48.7% - Missing keys: 873  
+Polish [pl] - 80.4% - Missing keys: 333  
+Russian [ru] - 87.9% - Missing keys: 206  
+Swedish [sv] - 14.6% - Missing keys: 1453  
+Turkish [tr] - 57.3% - Missing keys: 727  
+Chinese (China) [zh-cn] - 70.8% - Missing keys: 497  
+Chinese (Taiwan) [zh-tw] - 67.3% - Missing keys: 556  
 
-Total keys: 1693
+Total keys: 1702
 
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.

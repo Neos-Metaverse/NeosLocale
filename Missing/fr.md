@@ -13,6 +13,9 @@ CreateNew.Directory.Error.EmptyName
 CreateNew.Directory.Error.LongName  
 CreateNew.Directory.Error.InvalidName  
 Inspector.MeshCollider.ReplaceBox  
+Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
+Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
+Inspector.SkinnedMesh.BakeToStaticMesh  
 Inspector.SimpleAvatarProtection.RemoveSingle  
 Inspector.SimpleAvatarProtection.Warning  
 Inspector.ParticleStyle.CommonTransitions  
@@ -23,6 +26,12 @@ Inspector.ParticleStyle.IntensityFadeInOut
 Inspector.ParticleStyle.IntensityFadeIn  
 Inspector.ParticleStyle.IntensityFadeOut  
 Inspector.ParticleStyle.ClearFades  
+Universe.UI.Title  
+Universe.UI.SelectExperience  
+Universe.UI.Narrative  
+Universe.UI.Freeform  
+Universe.UI.Align  
+Universe.UI.Add  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  

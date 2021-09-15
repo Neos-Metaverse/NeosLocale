@@ -1131,6 +1131,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Visualize bone bounding boxes",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Visualize approximate merged bone sphere bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Remove bone bounding box visuals",
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Compute explicit bounds from current pose",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Extend explicit bounds from current pose",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Bake To Static Mesh",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Remove All Instances",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Remove Single Instance",
@@ -1728,6 +1731,13 @@
         "Earthenworks.MentorSignal.Next.Text": "Get Help",
         "Earthenworks.MentorSignal.Discord.Text": "Join the Neos Discord",
 
+        "Universe.UI.Title" : "The Universe",
+        "Universe.UI.SelectExperience" : "Select your experience:",
+        "Universe.UI.Narrative" : "Narrative",
+        "Universe.UI.Freeform" : "Freeform",
+        "Universe.UI.Align" : "Align",
+        "Universe.UI.Add" : "Add",
+
         "Universe.Stars.Sun": "Sun",
         "Universe.Stars.Sirius": "Sirius",
         "Universe.Stars.Pollux": "Pollux",
@@ -1947,9 +1957,6 @@
         "Temporary.MMC.VoteFailure": "Vote failed, your vote has not been registered please try again.",
         "Temporary.MMC.VotedAlready": "You have already voted in {category}.",
         "Temporary.MMC.VoteInvalid": "Vote is invalid, please try again.",
-
-        "Dummy": "Dummy",
-
 
         "Dummy": "Dummy"
     }

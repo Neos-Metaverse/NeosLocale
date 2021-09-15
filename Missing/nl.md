@@ -123,6 +123,9 @@ Inspector.VHACD.Parameter.ConvexHullApproximation
 Inspector.VHACD.DecompositionMode.Voxel  
 Inspector.VHACD.RemoveVisuals  
 Inspector.VHACD.RemoveHulls  
+Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
+Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
+Inspector.SkinnedMesh.BakeToStaticMesh  
 Inspector.Texture.Variant  
 Inspector.Texture.Gamma  
 Inspector.CharacterController.Warning  
@@ -154,6 +157,12 @@ Tutorial.Streaming.Camera.ImageFilters.Page4.Title
 Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title  
 Tutorial.Streaming.StreamCamera.SmoothPOV.Title  
 Twitch.Panel.Title.Text  
+Universe.UI.Title  
+Universe.UI.SelectExperience  
+Universe.UI.Narrative  
+Universe.UI.Freeform  
+Universe.UI.Align  
+Universe.UI.Add  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  
