@@ -62,6 +62,10 @@
         "Interaction.ResetScale": "Сброс масштаба",
         "Interaction.LaserEnabled": "Лазер включен",
         "Interaction.LaserDisabled": "Лазер выключен",
+        "Interaction.Grab.Palm" : "Хват: ладонь",
+        "Interaction.Grab.Precision" : "Хват: точный",
+        "Interaction.Grab.Auto" : "Хват: авто",
+        "Interaction.Grab.Off" : "Хват: только лазер",
         "Interaction.Locomotion": "Передвижение",
         "Interaction.Locomotion.None": "Нет передвижения",
 
