@@ -12,6 +12,10 @@ General.CopyToClipboard
 General.Create  
 General.Creating  
 Interaction.SaveToInventory  
+Interaction.Grab.Palm  
+Interaction.Grab.Precision  
+Interaction.Grab.Auto  
+Interaction.Grab.Off  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  

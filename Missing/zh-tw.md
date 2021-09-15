@@ -7,6 +7,10 @@ General.Finish
 General.Close  
 General.CopyToClipboard  
 Interaction.SaveToInventory  
+Interaction.Grab.Palm  
+Interaction.Grab.Precision  
+Interaction.Grab.Auto  
+Interaction.Grab.Off  
 Interaction.ExportScreenshot  
 Dash.Actions.TurnOffUIEdit  
 World.Connection.LNL.DirectIP  

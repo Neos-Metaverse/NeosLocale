@@ -57,6 +57,10 @@ Interaction.ScalingDisabled
 Interaction.ResetScale  
 Interaction.LaserEnabled  
 Interaction.LaserDisabled  
+Interaction.Grab.Palm  
+Interaction.Grab.Precision  
+Interaction.Grab.Auto  
+Interaction.Grab.Off  
 Interaction.Locomotion  
 Interaction.Locomotion.None  
 Interaction.NamedEquipTool  

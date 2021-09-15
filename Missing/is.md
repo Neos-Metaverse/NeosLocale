@@ -4,6 +4,10 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Icelandic [is]
 General.Close  
 General.CopyToClipboard  
+Interaction.Grab.Palm  
+Interaction.Grab.Precision  
+Interaction.Grab.Auto  
+Interaction.Grab.Off  
 Interaction.ExportScreenshot  
 Dash.Actions.TurnOffUIEdit  
 World.Connection.LNL.DirectIP  

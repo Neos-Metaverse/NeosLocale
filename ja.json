@@ -1713,7 +1713,7 @@
         "Earthenworks.MentorSignal.Reset.Text": "最初に戻る",
         "Earthenworks.MentorSignal.Next.Text": "ヘルプを呼ぶ",
         "Earthenworks.MentorSignal.Discord.Text": "Neos​Discord​に​参加しましょう！",
-        
+
         "Universe.Stars.Sun": "太陽",
         "Universe.Stars.Sirius": "シリウス",
         "Universe.Stars.Pollux": "ポルックス",
@@ -1866,7 +1866,8 @@
         "Universe.Technology.CargoShip": "貨物船",
 
         "Universe.Landmarks.EiffelTower": "エッフェル塔",
-        "Universe.Landmarks.StatueOfLiberty": "自由の女神像</br><size=50%>(台座を除いた高さ)",
+        "Universe.Landmarks.DistanceFromLA2SF": "ロサンゼルスからサンフランシスコまでの距離",
+        "Universe.Landmarks.StatueOfLiberty": "自由の女神像<br><size=50%>(台座を除いた高さ)",
         "Universe.Landmarks.PyramidOfKhafre": "カフラー王のピラミッド",
         "Universe.Landmarks.MountEverest": "エベレスト(山)",
         "Universe.Landmarks.LHC": "大型ハドロン衝突型加速器",
@@ -1887,7 +1888,7 @@
         "Universe.Universe.GalaxyFillament": "銀河フィラメント(グレートウォール)",
         "Universe.Universe.StarCluster": "星団",
         "Universe.Universe.ObservableUniverse": "観測可能な宇宙",
-        
+
         "Universe.Units.Attometer": "アトメータ",
         "Universe.Units.Femtometer": "フェムトメートル",
         "Universe.Units.Picometer": "ピコメートル",
