@@ -61,6 +61,10 @@
         "Interaction.ResetScale": "スケールリセット",
         "Interaction.LaserEnabled": "レーザー有効",
         "Interaction.LaserDisabled": "レーザー無効",
+        "Interaction.Grab.Palm" : "グラブ: 手のひら",
+        "Interaction.Grab.Precision" : "グラブ: 精密(摘み)",
+        "Interaction.Grab.Auto" : "グラブ: 自動切替",
+        "Interaction.Grab.Off" : "グラブ: レーザーのみ",
         "Interaction.Locomotion": "移動方法",
         "Interaction.Locomotion.None": "なし",
 
