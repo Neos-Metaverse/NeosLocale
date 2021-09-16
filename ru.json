@@ -1131,6 +1131,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Визуализировать габариты костей",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Визуализировать приблизительные объединенные сферические границы костей",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Убрать визуализацию габаритов костей",
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Вычислить габариты по текущей позе",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Расширить габариты по текущей позе",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Запечь в статический меш",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Убрать все вхождения",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Убрать это вхождение",
