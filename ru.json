@@ -1731,6 +1731,13 @@
         "Earthenworks.MentorSignal.Next.Text": "Получить помощь",
         "Earthenworks.MentorSignal.Discord.Text": "Подключиться к Neos Discord",
 
+        "Universe.UI.Title" : "Вселенная",
+        "Universe.UI.SelectExperience" : "Выберите программу:",
+        "Universe.UI.Narrative" : "Нарративная",
+        "Universe.UI.Freeform" : "Свободная",
+        "Universe.UI.Align" : "Выровнять",
+        "Universe.UI.Add" : "Добавить",
+
         "Universe.Stars.Sun": "Солнце",
         "Universe.Stars.Sirius": "Сириус",
         "Universe.Stars.Pollux": "Поллукс",
