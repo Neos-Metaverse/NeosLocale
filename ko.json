@@ -1896,6 +1896,26 @@
         "Universe.Units.Mile": "마일",
         "Universe.Units.NauticalMile": "노티컬마일",
 		
+        "Universe.UI.Title" : "우주",
+        "Universe.UI.SelectExperience" : "탐험할 분야를 선택하세요:",
+        "Universe.UI.Narrative" : "흐름형",
+        "Universe.UI.Freeform" : "자유형",
+        "Universe.UI.Align" : "정렬",
+        "Universe.UI.Add" : "추가",
+		
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "현재 형태에서 명확한 경계를 계산",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "현재 형태에서 경계 확장",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "정적 메쉬로 베이크",
+		
+        "Inspector.ParticleStyle.CommonTransitions": "통상적인 변화유형:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "투명도: 페이드 인 -> 페이드 아웃",
+        "Inspector.ParticleStyle.AlphaFadeIn": "투명도: 페이드 인",
+        "Inspector.ParticleStyle.AlphaFadeOut": "투명도: 페이드 아웃",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "강도: 페이드 인 -> 페이드 아웃",
+        "Inspector.ParticleStyle.IntensityFadeIn": "강도: 페이드 인",
+        "Inspector.ParticleStyle.IntensityFadeOut": "강도: 페이드 아웃",
+        "Inspector.ParticleStyle.ClearFades": "변화유형 지우기",
+		
         "Dummy": "더미"
     }
 }
