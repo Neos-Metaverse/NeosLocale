@@ -1897,7 +1897,7 @@
         "Universe.Units.NauticalMile": "노티컬마일",
 		
         "Universe.UI.Title" : "우주",
-        "Universe.UI.SelectExperience" : "탐험할 분야를 선택하세요:",
+        "Universe.UI.SelectExperience" : "진행방식을 지정하세요:",
         "Universe.UI.Narrative" : "흐름형",
         "Universe.UI.Freeform" : "자유형",
         "Universe.UI.Align" : "정렬",
