@@ -1955,7 +1955,7 @@
 
         "Temporary.MMC.VoteSuccess": "Vote cast in category {category} for {voteTarget}.",
         "Temporary.MMC.VoteFailure": "Vote failed, your vote has not been registered please try again.",
-        "Temporary.MMC.VotedAlready": "You have already voted in {category}.",
+        "Temporary.MMC.VotedAlready": "You have already voted for {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Vote is invalid, please try again.",
 
         "Dummy": "Dummy"
