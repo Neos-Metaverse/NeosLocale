@@ -1243,6 +1243,15 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Этот компонент можно использовать как простое твердое тело, выбрав SimulateRotation. Перед тем как сделать это, имейте в виду, что он не оптимизирован для этих целей и полная поддержка твердых тел будет позже.<br>Полная поддержка твердых тел даст:<br><b>- Эффективное использование ЦП и сети</b> - с CharacterController вы используете больше ресурсов ЦП и ощутимо больше сетевого трафика<br><b>- Ограничения</b> - вы сможете задавать суставы, петли, пружины и другие ограничения между твердыми телами<br><b>- Плавная симуляция и взаимодействие для всех</b> - CharacterController ведет себя очень странно если другой пользователь пытается с ним взаимодействовать<br><b>- Новые фичи и инструменты</b> - чтобы упростить их использование<br>-----------------------<br>Вы можете узнать больше в заявке #22 на GitHub. Прочитали и осознали? Дерзайте!",
 
+        "Inspector.ParticleStyle.CommonTransitions": "Часто используемые шаблоны:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "Альфа нарастание и затухание",
+        "Inspector.ParticleStyle.AlphaFadeIn": "Альфа нарастание",
+        "Inspector.ParticleStyle.AlphaFadeOut": "Альфа затухание",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "Нарастание и затухание интенсивности",
+        "Inspector.ParticleStyle.IntensityFadeIn": "Нарастание интенсивности",
+        "Inspector.ParticleStyle.IntensityFadeOut": "Затухание интенсивности",
+        "Inspector.ParticleStyle.ClearFades": "Очистить нарастания/затухания",
+
         "Wizard.General.ProcessRoot": "Начиная с корня:",
         "Wizard.General.Result": "Результат:",
         "Wizard.General.ErrorNoRoot": "Корень не выбран",
