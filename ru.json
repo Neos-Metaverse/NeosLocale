@@ -1948,7 +1948,7 @@
 
         "Temporary.MMC.VoteSuccess": "Голос отправлен за {voteTarget} в категории {category}.",
         "Temporary.MMC.VoteFailure": "Голосование неуспешно, ваш голос не был зарегистрирован, попробуйте снова.",
-        "Temporary.MMC.VotedAlready": "Вы уже голосовали в категории {category}.",
+        "Temporary.MMC.VotedAlready": "Вы уже голосовали за {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Голос некорректен, попробуйте снова.",
 
         "Dummy": "Dummy"
