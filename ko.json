@@ -990,7 +990,7 @@
         "Inspector.Audio.EncodingInfo" : "코덱정보: {info}, 전체 디코딩: {decoded}",
 
         "Inspector.Audio.Normalize" : "볼륨 일반화",
-        "Inspector.Audio.AmplitudeThreshold" : "무음판정용 진폭범위:",
+        "Inspector.Audio.AmplitudeThreshold" : "무음 판정용 진폭범위:",
         "Inspector.Audio.TrimSilence" : "무음 정리",
         "Inspector.Audio.TrimStartSilence" : "시작 무음 제거",
         "Inspector.Audio.TrimEndSilence" : "종료 무음 제거",
