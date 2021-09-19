@@ -579,6 +579,7 @@
         "CreateNew.Editor.ReflectionProbes" : "Reflexionssonde-Assistent",
 
         "CreateNew.3DModel" : "3D-Modell",
+        "CreateNew.3DModel.Triangle" : "Dreieck",
         "CreateNew.3DModel.Box" : "Quader",
         "CreateNew.3DModel.Sphere" : "Kugel",
         "CreateNew.3DModel.Capsule" : "Kapsel",
