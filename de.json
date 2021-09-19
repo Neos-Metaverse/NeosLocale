@@ -235,6 +235,7 @@
         "World.Category.Art" : "Kunst",
         "World.Category.Tutorials" : "Tutorials",
         "World.Category.Educational" : "Bildung",
+        "World.Category.Random" : "Zufällig",
         "World.Category.MyWorlds" : "Meine Welten",
         "World.Category.Custom" : "Benutzerdefiniert",
 
@@ -254,6 +255,7 @@
         "World.SortParameter.LastUpdateDate" : "Zuletzt geändert",
         "World.SortParameter.FirstPublishTime" : "Veröffentlicht",
         "World.SortParameter.TotalVisits" : "Anzahl Besuche",
+        "World.SortParameter.Random" : "Zufällig",
 
         "World.Filter.DataSources" : "Datenquellen:",
         "World.Filter.OpenedWorlds" : "Geöffnete Welten",
