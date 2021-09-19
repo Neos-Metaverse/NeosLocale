@@ -1134,6 +1134,8 @@
         "Inspector.Texture.Format" : "Format: {format}, Speicher: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant" : "Variante: {variant}",
 
+        "Inspector.Texture.BakeTexture": "Texturen zusammenfügen",
+
         "Inspector.Texture.InvertRGB" : "Invertiere RGB",
         "Inspector.Texture.InvertR" : "Invertiere R",
         "Inspector.Texture.InvertG" : "Invertiere G",
