@@ -1088,6 +1088,19 @@
         "Inspector.MeshRenderer.MergeByMaterial" : "Submeshes mit demselben Material zusammenführen",
         "Inspector.MeshRenderer.SplitByMaterial" : "Nach Material in separate Meshes aufteilen",
 
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules" : "Fortbewegungs-module an vorhandenen Benutzern aktualisieren",
+
+        "Inspector.VHACD.Parameter.Resolution" : "Auflösung",
+        "Inspector.VHACD.Parameter.Alpha" : "Alpha",
+        "Inspector.VHACD.Parameter.Beta" : "Beta",
+        "Inspector.VHACD.Parameter.Gamma" : "Gamma",
+        "Inspector.VHACD.Parameter.Delta" : "Delta",
+
+        "Inspector.VHACD.DecompositionMode.Header" : "Zerlegungsmodus:",
+        "Inspector.VHACD.DecompositionMode.Voxel" : "Voxel",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron" : "Tetrahedron",
+
+
         "Inspector.ReflectionProbe.Bake" : "Reflexionssonde berechnen",
         "Inspector.ReflectionProbe.Baking" : "Berechne...",
 
