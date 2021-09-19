@@ -1116,6 +1116,8 @@
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Entferne Darstellung von Knochen Begrenzungsboxen",
 
         "Inspector.SimpleAvatarProtection.RemoveAll" : "Alle Instanzen entfernen",
+        "Inspector.SimpleAvatarProtection.RemoveSingle": "Einzelne Instanz entfernen",
+        "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Das Entfernen dieser Komponente durch andere Methoden als die folgenden dedizierten Tasten wird den Schutzmechanismus auslösen und zur Selbstzerstörung führen, mit möglichem Datenverlust!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "Avatarschutz ENTFERNEN",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "Sammle Rig-Diagnose-Informationen",
