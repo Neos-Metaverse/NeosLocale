@@ -604,6 +604,11 @@
 
         "CreateNew.Materials" : "Material",
 
+        "CreateNew.Directory.Title": "Neues Verzeichnis erstellen:",
+        "CreateNew.Directory.Error.EmptyName": "Bitte einen Namen eingeben:",
+        "CreateNew.Directory.Error.LongName": "Name ist zu lang:",
+        "CreateNew.Directory.Error.InvalidName": "Ungültiger Name:",
+
         "AvatarCreator.Title" : "Avatar-Assistent",
         "AvatarCreator.Instructions" : "Richte Avatar-Objekte am Headset sowie optional an den Controller-Referenzen aus und drücke 'Erstellen'",
         "AvatarCreator.UseSymmetry" : "Symmetrie verwenden",
