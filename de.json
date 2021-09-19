@@ -981,6 +981,7 @@
 
         "Settings.Locale.ChangeLanguage" : "Sprache ändern",
         "Settings.Locale.SelectLanguageHeader" : "Wählen Sie Ihre Sprache:",
+        "Settings.Locale.DefaultLanguage" : "Systemstandard",
 
         "Settings.Save" : "Einstellungen speichern",
 
