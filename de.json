@@ -1026,6 +1026,30 @@
         "Security.HostAccess.Allow" : "Erlauben",
         "Security.HostAccess.Deny" : "Verweigern",
 
+        "Inspector.Slot.AttachComponent" : "Komponente hinzufügen",
+
+        "Inspector.Slot.Axis.X" : "X: <b>+</b>Rechts <b>-</b>Links",
+        "Inspector.Slot.Axis.Y" : "Y: <b>+</b>Hoch <b>-</b>Runter",
+        "Inspector.Slot.Axis.Z" : "Z: <b>+</b>Vorne <b>-</b>Hinten",
+
+        "Inspector.Slot.Reset.Label" : "Zurücksetzen:",
+        "Inspector.Slot.Reset.Position" : "Position",
+        "Inspector.Slot.Reset.Rotation" : "Rotation",
+        "Inspector.Slot.Reset.Scale" : "Skalierung",
+
+        "Inspector.Slot.CreatePivotAtCenter" : "Ursprung am Mittelpunkt erstellen",
+
+        "Inspector.Slot.JumpTo" : "Springe zu",
+        "Inspector.Slot.BringTo" : "Bringe zu",
+        "Inspector.Slot.BringTo.Undo" : "Bringe {name} zum Benutzer",
+
+        "Inspector.Slot.ParentUnder.Label" : "Elternteil:",
+        "Inspector.Slot.ParentUnder.WorldRoot" : "Welt-Wurzelknoten",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo" : "Welt-Wurzelknoten als Elternteil für {name} festlegen",
+        "Inspector.Slot.ParentUnder.LocalUserSpace" : "Lokaler Benutzerbereich",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo" : "Lokaler Benutzerbereich als Elternteil für {name} festlegen",
+
+
         "Inspector.Mesh.StatsHeader" : "Mesh Statistiken",
         "Inspector.Mesh.VertexCount" : "Vertex-Anzahl: {n}",
         "Inspector.Mesh.TriangleCount" : "Dreiecke: {n}",
@@ -1036,6 +1060,7 @@
         "Inspector.Mesh.ChannelStats" : "Normalen: {normals}, Tangenten: {tangents}, Farben: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh" : "Fixiere Mesh",
+        "Inspector.Mesh.SetupRenderer" : "Renderer einrichten",
         "Inspector.Mesh.ResaveMesh" : "Mesh neu speichern",
         "Inspector.Mesh.RecalculateNormals" : "Normalen neu berechnen",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Normalen neu berechnen (glatte Schattierung)",
