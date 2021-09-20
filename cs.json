@@ -62,6 +62,10 @@
         "Interaction.ResetScale" : "Resetovat moji škálu",
         "Interaction.LaserEnabled" : "Laser: Zapnut",
         "Interaction.LaserDisabled" : "Laser: Vypnut",
+        "Interaction.Grab.Palm" : "Úchop: Dlaní",
+        "Interaction.Grab.Precision" : "Úchop: Precizní",
+        "Interaction.Grab.Auto" : "Úchop: Automaticky",
+        "Interaction.Grab.Off" : "Úchop: Pouze laser",
         "Interaction.Locomotion" : "Metoda pohybu",
         "Interaction.Locomotion.None" : "Žádná",
 
@@ -500,6 +504,8 @@
 
         "Tooltip.GrabbableSetter.Scalable" : "Nastavit objekt škálovatelným",
         "Tooltip.GrabbableSetter.NonScalable" : "Nastavit objekt neškálovatelným",
+        "Tooltip.GrabbableSetter.ApplyToRoot": "Nastavit aplikaci na root",
+        "Tooltip.GrabbableSetter.AppyToHit": "Nastavit aplikaci na zasaženou část",
 
         "Tooltip.CharacterCollider.MarkGrippable" : "Označit jako úchyt",
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Neoznačovat jako úchyt",
@@ -1124,6 +1130,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Vizualizovat bone bounding box",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Vizualizovat přibližné merged bone sphere bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Odstranit bone bounding box vizuály",
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Vypočítat explicitní boundy z aktuální pózy",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Prodloužit explicitní boundy z aktuální pózy",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Zapéct na static mesh",
 
         "Inspector.SimpleAvatarProtection.RemoveAll" : "Odstranit veškeré instance",
         "Inspector.SimpleAvatarProtection.RemoveSingle" : "Odstranit tuto instanci",
@@ -1233,6 +1242,15 @@
 
         "Inspector.CharacterController.Warning" : "<color=red><size=150%>VAROVÁNÍ!</size></color><br>Je možné použít tuto komponentu jako jednoduché rigidbody zaškrtnutím SimulateRotation. Než tak učiníte, prosíme uvědomte si, že komponenta není optimalizována pro tento účel a opravdová podpora rigidbody bude do budoucna přidána.<br>Opravdová podpora rigidbody nabídne:<br><b>- CPU a síťovou efektivitu</b> - s komponentou CharacterController budete více zatěžovat CPU a síť<br><b>- Spojení</b> - s pravými rigidbody budete moci vytvářet spoje, panty, pružiny a jiná spojení mezi rigidbodies<br><b>- Hladká simulace a interakce pro všechny</b> - CharacterController se porouchá, pokud se jiná osoba pokusí o interakci<br><b>- Nové vlastnosti a nástroje</b> - aby bylo jejich používání snažší<br>-----------------------<br>Více informací můžete najít na GitHubu, uvnitř issue #22. Pokud rozumíte těmto omezením, bavte se!",
 
+        "Inspector.ParticleStyle.CommonTransitions": "Běžné šablony přechodů:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha fade in a Fade out",
+        "Inspector.ParticleStyle.AlphaFadeIn": "Alpha fade in",
+        "Inspector.ParticleStyle.AlphaFadeOut": "Alpha fade out",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "Fade in & Fade out intenzity",
+        "Inspector.ParticleStyle.IntensityFadeIn": "Fade in intenzity",
+        "Inspector.ParticleStyle.IntensityFadeOut": "Fade out intenzity",
+        "Inspector.ParticleStyle.ClearFades": "Vyčistit fades",
+        
         "Wizard.General.ProcessRoot" : "Zpracovat Root:",
         "Wizard.General.Result" : "Výsledek:",
         "Wizard.General.ErrorNoRoot" : "Nebyl vybrán žádný Root",
@@ -1714,6 +1732,13 @@
         "Earthenworks.MentorSignal.Next.Text": "Požádat o pomoc",
         "Earthenworks.MentorSignal.Discord.Text": "Připojte se na Neos Discord",
 
+        "Universe.UI.Title" : "The Universe",
+        "Universe.UI.SelectExperience" : "Vyberte si zážitek:",
+        "Universe.UI.Narrative" : "Vyprávění",
+        "Universe.UI.Freeform" : "Volný",
+        "Universe.UI.Align" : "Zarovnat",
+        "Universe.UI.Add" : "Přidat",
+
         "Universe.Stars.Sun" : "Slunce",
         "Universe.Stars.Sirius" : "Sirius",
         "Universe.Stars.Pollux" : "Pollux",
@@ -1722,9 +1747,9 @@
         "Universe.Stars.Rigel" : "Rigel",
         "Universe.Stars.Antares" : "Antares",
         "Universe.Stars.Betelgeuse" : "Betelgeuse",
-        "Universe.Stars.VYCanisMajoris" : "VYCanisMajoris",
-        "Universe.Stars.NMLCygni" : "NMLCygni",
-        "Universe.Stars.UYScuti" : "UYScuti",
+        "Universe.Stars.VYCanisMajoris" : "VY Canis Majoris",
+        "Universe.Stars.NMLCygni" : "NML Cygni",
+        "Universe.Stars.UYScuti" : "UY Scuti",
 
         "Universe.SolarSystem.Mercury": "Merkur",
         "Universe.SolarSystem.Venus": "Venuše",
