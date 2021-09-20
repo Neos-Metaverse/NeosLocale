@@ -707,7 +707,7 @@
 
         "Importer.Model.Advanced.DualSided": "Tee kaksipuoleiseksi",
         "Importer.Model.Advanced.FlatShaded": "Tee tasasävytteiseksi",
-
+        "Importer.Model.Advanced.DeduplicateInstances": "Poista päällekkäiset instanssit (hidas)",
         "Importer.Model.Advanced.Optimize": "Optimoi malli/skene",
         "Importer.Model.Advanced.SplitSubmeshes": "Jaa ala-tahkoverkot",
         "Importer.Model.Advanced.RandomColors": "Käytä satunnaisia värejä",
@@ -1058,11 +1058,11 @@
         "Inspector.Mesh.PointCount": "Pisteiden määrä: {n}",
         "Inspector.Mesh.SubmeshCount": "Ala-tahkoverkkojen määrä: {n}",
         "Inspector.Mesh.BoneCount": "Luiden määrä: {n}",
-        "Inspector.Mesh.BlendshapeCount": "Sekoitusmuotojen määrä: {n}",
+        "Inspector.Mesh.BlendshapeCount": "Blendshapejen määrä: {n}",
         "Inspector.Mesh.ChannelStats": "Normaalit: {normals}, Tangentit: {tangents}, Värit: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh": "Beikkaa tahkoverkko",
-
+        "Inspector.Mesh.SetupRenderer": "Määritä renderöijä",
         "Inspector.Mesh.ResaveMesh": "Tallenna tahkoverkko uudelleen",
         "Inspector.Mesh.RecalculateNormals": "Laske normaalit uudelleen",
         "Inspector.Mesh.RecalculateNormalsSmooth": "Laske normaalit uudelleen (pehmeä sävytin)",
@@ -1072,12 +1072,12 @@
 
         "Inspector.Mesh.MakeDualSided": "Vaihda kaksipuoleiseksi",
         "Inspector.Mesh.ConvertToFlatShading": "Muunna tasasävytteiseksi",
-
+        "Inspector.Mesh.ConvertToConvexHull": "Muunna Convex Hulliksi",
         "Inspector.Mesh.ConvertToPointCloud": "Muunna pistepilveksi",
         "Inspector.Mesh.MergeDoubles": "Yhdistä kaksinkertaiset",
-        "Inspector.Mesh.StripEmptyBlendshapes": "Poista tyhjät sekoitusmuodot",
-        "Inspector.Mesh.StripBlendshapeNormals": "Poista sekoitusmuotojen normaalit",
-        "Inspector.Mesh.StripBlendshapeTangents": "Poista sekoitusmuotojen tangentit",
+        "Inspector.Mesh.StripEmptyBlendshapes": "Poista tyhjät Blendshapet",
+        "Inspector.Mesh.StripBlendshapeNormals": "Poista Blendshapejen normaalit",
+        "Inspector.Mesh.StripBlendshapeTangents": "Poista Blendshapejen tangentit",
 
         "Inspector.Mesh.GetBoneList": "Näytä luulistaus",
         "Inspector.Mesh.GetBoneData": "Näytä luutiedot",
@@ -1090,47 +1090,50 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Yhdistä ala-tahkoverkot joissa sama materiaali",
         "Inspector.MeshRenderer.SplitByMaterial": "Eroita tahkoverkot materiaalien mukaan",
 
-
+        "Inspector.MeshCollider.VHACD": "Convex Hull dekomponointi (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Korvaa laatikkotörmäyttimellä",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Päivitä liikkumistilamoduulit nykyisille käyttäjille",
 
+        "Inspector.VHACD.Parameter.MergeDoubles": "Yhdistä tuplat",
+        "Inspector.VHACD.Parameter.Resolution": "Resoluutio",
+        "Inspector.VHACD.Parameter.Depth": "Syvyys",
+        "Inspector.VHACD.Parameter.Concavity": "Koveruus",
 
 
+        "Inspector.VHACD.Parameter.Alpha": "Alpha",
+        "Inspector.VHACD.Parameter.Beta": "Beta",
+        "Inspector.VHACD.Parameter.Gamma": "Gamma",
+        "Inspector.VHACD.Parameter.Delta": "Delta",
+        "Inspector.VHACD.Parameter.PCA": "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Rungon maksimipisteet",
+        "Inspector.VHACD.Parameter.MinVolumePerHull": "Rungon vähimmäistilavuus",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Convex Hull arviointi",
 
+        "Inspector.VHACD.DecompositionMode.Header": "Dekomponointimoodi:",
+        "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetraedri",
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        "Inspector.VHACD.RunDecomposition": "Suorita dekomponointi",
+        "Inspector.VHACD.RemoveVisuals": "Poista visuaalit",
+        "Inspector.VHACD.RemoveHulls": "Poista rungot",
 
         "Inspector.ReflectionProbe.Bake": "Beikkaa heijastukset",
         "Inspector.ReflectionProbe.Baking": "Beikkaa...",
 
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Eroittele tahkoverkot johon Blendshapet eivät vaikuta",
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Poista tyhjät Blendshapet",
+        "Inspector.SkinnedMesh.StripBlendshapesResult": "Valmis! Poistettu: {n,plural, one {# Blendshape} other {# Blendshapea}}",
+        "Inspector.SkinnedMesh.StripEmptyBones": "Poista tyhjät luut",
+        "Inspector.SkinnedMesh.StripBonesResult": "Valmis! Poistettu: {n,plural, one {# luu} other {# luuta}}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Beikkaa käyttämättömät Blendshapet",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult": "Beikatut Blendshapet: {n}",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds": "Visualisoi luiden rajoituslaatikot",
+
+        "Inspector.SkinnedMesh.ClearBoundsVisuals": "Poista luiden rajoituslaatikoiden visuaalit",
 
 
-
-
-
-
-
-
-
-
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Beikkaa staattiseksi tahkoverkoksi",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Poista KAIKKI suojaukset",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Poista yksittäinen suojaus",
@@ -1185,7 +1188,7 @@
         "Inspector.Texture.RotateCCW": "Käännä 90° vastapäivään",
         "Inspector.Texture.Rotate180": "Käännä 180°",
         "Inspector.Texture.MakeSquare": "Muunna neliöksi",
-
+        "Inspector.Texture.ToNearestPOT": "Lähimpään kahden potenssiin",
 
 
 
@@ -1216,6 +1219,7 @@
         "Inspector.Audio.ToVorbis": "Muunna OGG Vorbis formaattiin",
         "Inspector.Audio.ToFLAC": "Muunna FLAC formaattiin",
         "Inspector.Audio.DenoiseRNNoise": "Melunvaimennus (RNNoise, optimoitu puheeseen 48kHz taajuudella)",
+        "Inspector.Audio.ExtractSides": "Pura puolet (voi poistaa laulun stereoraidoilta)",
 
 
 
@@ -1227,16 +1231,15 @@
 
 
 
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Törmäyttimet & Tarttuminen -------",
 
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Tartu aina viimeiseen luuhun",
 
-
-
-
-
+        "Inspector.Rig.CleanupBoneColliders": "Siivoa luiden törmäyttimet",
         "Inspector.Rig.GenerateDebugVisuals": "Generoi debug visuaalit",
         "Inspector.Rig.ClearDebugVisuals": "Piilota debug visuaalit",
 
-
+        "Inspector.AvatarExpression.AutoAssign": "Määritä Blendshapet automaattisesti (heuristiikan avulla)",
 
 
 
@@ -1257,8 +1260,8 @@
         "Wizard.AssetOptimization.Title": "Resurssien optimointi",
         "Wizard.AssetOptimization.CleanupUnusedAssets": "Siivoa käyttämättömät resurssit",
         "Wizard.AssetOptimization.CleanupEmptySlots": "Siivoa tyhjät slotit",
-
-
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Siivoa käytöstä poistetut tahkoverkkojen renderöijät",
+        "Wizard.AssetOptimization.DeduplicateMaterials": "Deduplikoi materiaalit",
 
         "Wizard.AssetOptimization.MaxTextureResolution": "Aseta textuurien maksimiresoluutio",
         "Wizard.AssetOptimization.RecompressTextures": "Pakkaa tekstuurit uudelleen",
@@ -1295,7 +1298,7 @@
 
         "Wizard.ReflectionProbes.Title": "Heijastusanturit",
         "Wizard.ReflectionProbes.ProcessRoot": "Prosessointipolku:",
-
+        "Wizard.ReflectionProbes.ProcessDisabled": "Prosessi pois käytöstä",
         "Wizard.ReflectionProbes.WithTag": "Tägillä:",
         "Wizard.ReflectionProbes.TeleportUserToProbe": "Siirrä minut jokaiselle anturille",
         "Wizard.ReflectionProbes.DelayBetweenProbes": "Anturien välinen viive",
@@ -1512,7 +1515,7 @@
         "Tutorial.Intro.BadgesDescription": "Merkit ovat pieniä ikoneita jotka kuvaavat käyttäjää. Tässä lista muutamasta merkistä, jotka kannattaa muistaa. Kuulo-, näkö- ja puhevammaisuuden merkit pystyy itse lisäämään Neos -botti komentojen avulla.",
         "Tutorial.Intro.HelpSite": "Apua",
 
-
+        "Object.Mirror.Toggle": "Lokaali kytkin",
 
 
 
@@ -1727,6 +1730,13 @@
         "Earthenworks.MentorSignal.Reset.Text": "Luo uusi",
         "Earthenworks.MentorSignal.Next.Text": "Hae apua",
         "Earthenworks.MentorSignal.Discord.Text": "Liity Neos Discordiin",
+
+        "Universe.UI.Title": "The Universe",
+        "Universe.UI.SelectExperience": "Valitse kokemuksesi:",
+        "Universe.UI.Narrative": "Kertomus",
+        "Universe.UI.Freeform": "Vapaamuotoinen",
+        "Universe.UI.Align": "Kohdista",
+        "Universe.UI.Add": "Lisää",
 
         "Universe.Stars.Sun": "Aurinko",
         "Universe.Stars.Sirius": "Sirius",
@@ -1945,7 +1955,7 @@
 
         "Temporary.MMC.VoteSuccess": "Äänestit kategoriassa {category} kohdetta {voteTarget}.",
         "Temporary.MMC.VoteFailure": "Äänestys epäonnistui! Yritä uudelleen.",
-        "Temporary.MMC.VotedAlready": "Olet jo äänestänyt kategoriassa {category}.",
+        "Temporary.MMC.VotedAlready": "Olet jo äänestänyt kohdetta {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Äänestys on virheellinen! Yritä uudelleen.",
 
         "Dummy": "Dummy"
