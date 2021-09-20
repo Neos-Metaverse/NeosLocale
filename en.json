@@ -377,10 +377,10 @@
         "Account.TOTP.Message.Error": "Unexpected error! Please try again later.",
         "Account.TOTP.Message.SetupComplete": "<size=150%>Congratulations!</size><br><br>Your account is now setup with 2FA for extra protection!<br><br>Currently any NCR interactions will require you to input your code. You can optionally enable this for account login with /enableLogin2FA command, but note this requires you to use /webLogin command before you login on account.neos.com",
         "Account.TOTP.Deactivate.Header": "Deactivate 2FA",
-        "Account.TOTP.Deactivate.Description": "2FA is currently <b><color=green>setup and active on your account</color></b>. If you need to deactivate it (e.g. due to loss of your phone or the codes being compromised), you can do so here.<br><br>After deactivation, you can setup 2FA again, which will generate a brand new secret code and new set of recovery codes.<br><br>If you lose your phone and need to setup 2FA again, we <b>STRONGLY</b> advise you do so immediatelly, as each recovery code can be used only once and after you run out you'll be completely locked out of your account.",
+        "Account.TOTP.Deactivate.Description": "2FA is currently <b><color=green>setup and active on your account</color></b>. If you need to deactivate it (e.g. due to loss of your phone or the codes being compromised), you can do so here.<br><br>After deactivation, you can setup 2FA again, which will generate a brand new secret code and new set of recovery codes.<br><br>If you lose your phone and need to setup 2FA again, we <b>STRONGLY</b> advise you do so immediately, as each recovery code can be used only once and after you run out you'll be completely locked out of your account.",
         "Account.TOTP.Deactivate.Deactivate": "Deactivate",
         "Account.TOTP.Deactivate.Deactivating": "Deactivating...",
-        "Account.TOTP.Message.DeactivationComplete": "2FA has been successfully deactivated on your account.<br><br>Your account is now at increased risk!<br><br>We strongly recommend setting up 2FA again immediatelly, especially if you used a recovery code due to losing your phone.",
+        "Account.TOTP.Message.DeactivationComplete": "2FA has been successfully deactivated on your account.<br><br>Your account is now at increased risk!<br><br>We strongly recommend setting up 2FA again immediately, especially if you used a recovery code due to losing your phone.",
 
         "2FA.Header": "2FA Verification",
         "2FA.Token": "6-digit Token:",
@@ -777,7 +777,7 @@
         "FullBody.JustCalibrateAvatar": "Just calibrate my avatar",
         "FullBody.JustCalibrateAvatarDescription": "Skip full body calibration and just calibrate the avatar",
         "FullBody.SkipAndAdjustAvatar": "Skip and adjust avatar",
-        "FullBody.CalibrateInstructions": "Align yourself with the the red body overlay in your playspace and press both triggers to confirm. Make sure your real feet and hips match the virtual ones as close as possible.",
+        "FullBody.CalibrateInstructions": "Align yourself with the red body overlay in your playspace and press both triggers to confirm. Make sure your real feet and hips match the virtual ones as close as possible.",
 
         "FullBody.BeforeCalibrationInstructions": "Make sure trackers are tracking and your height is set",
         "FullBody.CalibratingPoseInstructions": "Align yourself with the reference and press both triggers to confirm",
@@ -1537,7 +1537,7 @@
 
         "Tutorial.Streaming.Microphone.Title": "Microphone Tool",
         "Tutorial.Streaming.Microphone.UsageDescription": "Once the <b><color=#ffdd77>MICROPHONE TIP</b></color> is equipped audio can be recorded by holding the <b><color=#77ff77>PRIMARY</b></color> button.",
-        "Tutorial.Streaming.Microphone.AudioTypeDescription": "Select the <b><color=#ffdd77>AUDIO FILE TYPE</b></color> you want to use by opening the <b><color=#dd77ff>CONTEXT MENU</b></color> on the tools equiped hand.",
+        "Tutorial.Streaming.Microphone.AudioTypeDescription": "Select the <b><color=#ffdd77>AUDIO FILE TYPE</b></color> you want to use by opening the <b><color=#dd77ff>CONTEXT MENU</b></color> on the tools equipped hand.",
         "Tutorial.Streaming.Microphone.RecordingDescription": "You can change the <b><color=#ffdd77>RECORDING</b></color> method using the options in the <b><color=#dd77ff>CONTEXT MENU</b></color>.",
         "Tutorial.Streaming.Microphone.RawDescription": "The <b><color=#ffdd77>AUDIO OUTPUT</b></color> method can be changed to <b><color=#ffdd77>RAW AUDIO</b></color> format in the <b><color=#dd77ff>CONTEXT MENU</b></color>.",
 
@@ -1679,7 +1679,7 @@
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description": "To control the <color=#ffdd77><b>ZOOM</b></color>, use <b><color=#77ff77>PRIMARY</b></color> on the grey bar at the bottom of the preview screen and move the slider left or right.",
 
         "Tutorial.Streaming.StreamCamera.Modes.Page1.Description": "<b><color=#ffdd77>SMOOTH POV</b></color> set the camera to your first person view and smooths any movement.",
-        "Tutorial.Streaming.StreamCamera.Modes.Page2.Description": "<b><color=#ffdd77>THIRD PERSON</b></color> mode allows you to view yourself from an outside perspecive. You can adjust the cameras position using the camera movement controls on the preview screen.",
+        "Tutorial.Streaming.StreamCamera.Modes.Page2.Description": "<b><color=#ffdd77>THIRD PERSON</b></color> mode allows you to view yourself from an outside perspective. You can adjust the cameras position using the camera movement controls on the preview screen.",
         "Tutorial.Streaming.StreamCamera.Modes.Page3.Description": "<b><color=#ffdd77>GROUP</b></color> mode automatically adjusts its view to keep nearby users in view.",
         "Tutorial.Streaming.StreamCamera.Modes.Page4.Description": "<b><color=#ffdd77>WORLD</b></color> mode keeps the camera stationary and tracks the user.",
         "Tutorial.Streaming.StreamCamera.Modes.Page5.Description": "<b><color=#ffdd77>MANUAL</b></color> mode allows you to use the streaming camera like the physical camera.",
@@ -1687,7 +1687,7 @@
         "Tutorial.Streaming.StreamCamera.Functions.Page1.Description": "<b><color=#ffdd77>MIRROR TO DISPLAY</b></color> changes your desktop from your vr headset to the streaming camera view, this option should be used if streaming or recording.",
         "Tutorial.Streaming.StreamCamera.Functions.Page2.Description": "<b><color=#ffdd77>PHOTO</b></color> takes a picture of the cameras current view. These photos get saved to your screenshot library.",
         "Tutorial.Streaming.StreamCamera.Functions.Page3.Description": "<b><color=#ffdd77>360 PHOTO</b></color> takes a 360 picture of the scene from the cameras current position. These photos get saved to your screenshot library.",
-        "Tutorial.Streaming.StreamCamera.Functions.Page4.Description": "<b><color=#ffdd77>USERS</b></color> allows you to change the cameras view to another users perspecive as well as modify the volume and camera permissions for each person.",
+        "Tutorial.Streaming.StreamCamera.Functions.Page4.Description": "<b><color=#ffdd77>USERS</b></color> allows you to change the cameras view to another users perspective as well as modify the volume and camera permissions for each person.",
 
         "Tutorial.Streaming.StreamCamera.Intro.Title": "Streaming Camera Tutorial",
         "Tutorial.Streaming.StreamCamera.Intro.Description": "Learn all the functions of the streaming camera",
@@ -1807,7 +1807,7 @@
         "Universe.Biology.HIV": "HIV",
         "Universe.Biology.Mitochondrion": "Mitochondrion",
         "Universe.Biology.Hair": "Hair (width)",
-        "Universe.Biology.HepatitisB": "Heptatitis B",
+        "Universe.Biology.HepatitisB": "Hepatitis B",
         "Universe.Biology.Platelet": "Platelet (active)",
         "Universe.Biology.LargestBacteria": "Largest Bacteria",
 
@@ -1869,8 +1869,8 @@
 
         "Universe.Nebulae.Crab": "Crab Nebula",
         "Universe.Nebulae.CatEye": "Cat's Eye Nebula",
-        "Universe.Nebulae.Butterfly": "Bufferfly Nebula",
-        "Universe.Nebulae.NGC604": "NGC604 Nebula",
+        "Universe.Nebulae.Butterfly": "Butterfly Nebula",
+        "Universe.Nebulae.NGC604": "NGC 604 Nebula",
         "Universe.Nebulae.Orion": "Orion Nebula",
         "Universe.Nebulae.Tarantula": "Tarantula Nebula",
         "Universe.Nebulae.Ring": "Ring Nebula",
@@ -1890,7 +1890,7 @@
         "Universe.Technology.CargoShip": "Cargo Ship",
 
         "Universe.Landmarks.EiffelTower": "Eiffel Tower",
-        "Universe.Landmarks.DistanceFromLA2SF": "Distance from Los Angeles to San Fransisco",
+        "Universe.Landmarks.DistanceFromLA2SF": "Distance from Los Angeles to San Francisco",
         "Universe.Landmarks.StatueOfLiberty": "Statue of Liberty<br><size=50%>(height without the base)",
         "Universe.Landmarks.PyramidOfKhafre": "Pyramid of Khafre",
         "Universe.Landmarks.MountEverest": "Mount Everest",
@@ -1904,12 +1904,12 @@
         "Universe.Galaxies.MilkyWay": "Milky Way",
         "Universe.Galaxies.Andromeda": "Andromeda",
         "Universe.Galaxies.Sombrero": "Sombrero",
-        "Universe.Galaxies.IC1101": "IC1101 (supergiant galaxy)",
+        "Universe.Galaxies.IC1101": "IC 1101 (supergiant galaxy)",
         "Universe.Galaxies.SmallMagellanicCloud": "Small Magellanic Cloud",
         "Universe.Galaxies.NGC1300": "NGC 1300 (barred spiral galaxy)",
         "Universe.Galaxies.NGC4414": "NGC 4414 (unbarred spiral galaxy)",
 
-        "Universe.Universe.GalaxyFillament": "Galaxy Fillament",
+        "Universe.Universe.GalaxyFillament": "Galaxy Filament",
         "Universe.Universe.StarCluster": "Star Cluster",
         "Universe.Universe.ObservableUniverse": "Observable Universe",
 
