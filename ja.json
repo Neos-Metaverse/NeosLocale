@@ -1130,6 +1130,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "ボーンのバウンディングボックスの可視化",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "マージされたボーンのスフィアバウンディングの可視化",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "可視化したボーンのバウンディングボックスを非表示",
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "現在のポーズから明示的にバウンディングを計算する",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "現在のポーズから明示的なバウンディングを拡張する",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "スタティックメッシュにベイクする",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "階層下にある全てのアバター保護を削除する",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "このスロットにあるアバター保護のみを削除",
@@ -1238,6 +1241,15 @@
         "Inspector.AvatarExpression.AutoAssign": "ブレンドシェイプを自動割り当て",
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、​このコンポーネントを単純なRigidbodyとして使用できます。​前提として、この目的のために最適化されておらず、​適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、 CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、 その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>詳細については、GitHub issue #22をご覧ください。 これらの制限を理解している限り、楽しんでください！",
+
+        "Inspector.ParticleStyle.CommonTransitions": "遷移テンプレート:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "アルファフェードイン＆フェードアウト",
+        "Inspector.ParticleStyle.AlphaFadeIn": "アルファフェードイン",
+        "Inspector.ParticleStyle.AlphaFadeOut": "アルファフェードアウト",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "インテンシティフェードイン＆フェードアウト",
+        "Inspector.ParticleStyle.IntensityFadeIn": "インテンシティフェードイン",
+        "Inspector.ParticleStyle.IntensityFadeOut": "インテンシティフェードアウト",
+        "Inspector.ParticleStyle.ClearFades": "フェードを除去",
 
         "Wizard.General.ProcessRoot": "プロセスルート:",
         "Wizard.General.Result": "結果:",
@@ -1718,6 +1730,13 @@
         "Earthenworks.MentorSignal.Next.Text": "ヘルプを呼ぶ",
         "Earthenworks.MentorSignal.Discord.Text": "Neos​Discord​に​参加しましょう！",
 
+        "Universe.UI.Title" : "ザ・ユニバース",
+        "Universe.UI.SelectExperience" : "あなたの体験を選択してください:",
+        "Universe.UI.Narrative" : "物語",
+        "Universe.UI.Freeform" : "自由な型",
+        "Universe.UI.Align" : "一直線",
+        "Universe.UI.Add" : "追加",
+
         "Universe.Stars.Sun": "太陽",
         "Universe.Stars.Sirius": "シリウス",
         "Universe.Stars.Pollux": "ポルックス",
@@ -1935,7 +1954,7 @@
 
         "Temporary.MMC.VoteSuccess": "{category}カテゴリーで​{voteTarget}に投票しました。",
         "Temporary.MMC.VoteFailure": "投票に失敗しました。​あなたの投票が登録されていないので、​もう一度お試しください。",
-        "Temporary.MMC.VotedAlready": "あなたはすでに​{category}​で投票しています。",
+        "Temporary.MMC.VotedAlready": "あなたはすでに​{voteTarget}​へ投票しています。",
         "Temporary.MMC.VoteInvalid": "投票が無効です、​もう一度やり直してください。",
 
         "Dummy": "Dummy"
