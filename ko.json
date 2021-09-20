@@ -990,15 +990,15 @@
         "Inspector.Audio.EncodingInfo" : "코덱정보: {info}, 전체 디코딩: {decoded}",
 
         "Inspector.Audio.Normalize" : "볼륨 일반화",
-        "Inspector.Audio.AmplitudeThreshold" : "진폭 한계점:",
+        "Inspector.Audio.AmplitudeThreshold" : "무음 판정용 진폭범위:",
         "Inspector.Audio.TrimSilence" : "무음 정리",
         "Inspector.Audio.TrimStartSilence" : "시작 무음 제거",
         "Inspector.Audio.TrimEndSilence" : "종료 무음 제거",
-        "Inspector.Audio.PositionDuration" : "위치/유지시간(초):",
-        "Inspector.Audio.TrimStart" : "조정 시작",
-        "Inspector.Audio.TrimEnd" : "조정 끝",
-        "Inspector.Audio.FadeIn" : "페이드인 추가",
-        "Inspector.Audio.FadeOut" : "페이드아웃 추가",
+        "Inspector.Audio.PositionDuration" : "삭제할 크기(초):",
+        "Inspector.Audio.TrimStart" : "앞부분 삭제",
+        "Inspector.Audio.TrimEnd" : "뒷부분 삭제",
+        "Inspector.Audio.FadeIn" : "페이드인",
+        "Inspector.Audio.FadeOut" : "페이드아웃",
         "Inspector.Audio.MakeLoopable" : "반복 재생이 가능하도록 만들기(교차 페이드 사용)",
         "Inspector.Audio.ToWAV" : "WAV로 변환",
         "Inspector.Audio.ToVorbis" : "OGG Vorbis로 변환",
@@ -1895,6 +1895,26 @@
         "Universe.Units.Yard": "야드",
         "Universe.Units.Mile": "마일",
         "Universe.Units.NauticalMile": "노티컬마일",
+		
+        "Universe.UI.Title" : "우주",
+        "Universe.UI.SelectExperience" : "진행방식을 지정하세요:",
+        "Universe.UI.Narrative" : "흐름형",
+        "Universe.UI.Freeform" : "자유형",
+        "Universe.UI.Align" : "정렬",
+        "Universe.UI.Add" : "추가",
+		
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "현재 형태에서 명확한 경계를 계산",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "현재 형태에서 경계 확장",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "정적 메쉬로 베이크",
+		
+        "Inspector.ParticleStyle.CommonTransitions": "통상적인 변화유형:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "투명도: 페이드 인 -> 페이드 아웃",
+        "Inspector.ParticleStyle.AlphaFadeIn": "투명도: 페이드 인",
+        "Inspector.ParticleStyle.AlphaFadeOut": "투명도: 페이드 아웃",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "강도: 페이드 인 -> 페이드 아웃",
+        "Inspector.ParticleStyle.IntensityFadeIn": "강도: 페이드 인",
+        "Inspector.ParticleStyle.IntensityFadeOut": "강도: 페이드 아웃",
+        "Inspector.ParticleStyle.ClearFades": "변화유형 지우기",
 		
         "Dummy": "더미"
     }
