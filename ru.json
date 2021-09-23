@@ -29,6 +29,11 @@
 
         "General.UI.SearchPrompt": "Поиск...",
         "General.UI.SearchPromptLong": "Введите для поиска...",
+        "General.UI.ToggleEditMode" : "Включить режим редактирования",
+
+        "General.UI.MusicVolumeLocal" : "Громкость музыки (локальная):",
+        "General.UI.VoiceVolumeLocal" : "Громкость голоса (локальная):",
+        "General.UI.SoundVolumeLocal" : "Громкость звука (локальная):",
 
         "General.Sort.Ascending": "По возрастанию",
         "General.Sort.Descending": "По убыванию",
