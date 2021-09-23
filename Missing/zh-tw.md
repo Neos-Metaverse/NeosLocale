@@ -6,6 +6,10 @@ General.Start
 General.Finish  
 General.Close  
 General.CopyToClipboard  
+General.UI.ToggleEditMode  
+General.UI.MusicVolumeLocal  
+General.UI.VoiceVolumeLocal  
+General.UI.SoundVolumeLocal  
 Interaction.SaveToInventory  
 Interaction.Grab.Palm  
 Interaction.Grab.Precision  
@@ -360,6 +364,10 @@ Universe.UI.Narrative
 Universe.UI.Freeform  
 Universe.UI.Align  
 Universe.UI.Add  
+Universe.UI.Credits.Title  
+Universe.UI.Credits.Content  
+Universe.UI.Assets.Title  
+Universe.UI.Assets.Content  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  

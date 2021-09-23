@@ -27,6 +27,10 @@ General.Create
 General.Creating  
 General.UI.SearchPrompt  
 General.UI.SearchPromptLong  
+General.UI.ToggleEditMode  
+General.UI.MusicVolumeLocal  
+General.UI.VoiceVolumeLocal  
+General.UI.SoundVolumeLocal  
 General.Sort.Ascending  
 General.Sort.Descending  
 Locomotion.Noclip.Name  
@@ -1471,6 +1475,10 @@ Universe.UI.Narrative
 Universe.UI.Freeform  
 Universe.UI.Align  
 Universe.UI.Add  
+Universe.UI.Credits.Title  
+Universe.UI.Credits.Content  
+Universe.UI.Assets.Title  
+Universe.UI.Assets.Content  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  

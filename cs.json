@@ -1732,12 +1732,16 @@
         "Earthenworks.MentorSignal.Next.Text": "Požádat o pomoc",
         "Earthenworks.MentorSignal.Discord.Text": "Připojte se na Neos Discord",
 
-        "Universe.UI.Title" : "The Universe",
+        "Universe.UI.Title" : "Vesmír",
         "Universe.UI.SelectExperience" : "Vyberte si zážitek:",
         "Universe.UI.Narrative" : "Vyprávění",
         "Universe.UI.Freeform" : "Volný",
         "Universe.UI.Align" : "Zarovnat",
         "Universe.UI.Add" : "Přidat",
+        "Universe.UI.Credits.Title": "Autoři",
+        "Universe.UI.Credits.Content" : "Test: One<br>Another: Two<br>This: Is just a test",
+        "Universe.UI.Assets.Title" : "Modely",
+        "Universe.UI.Assets.Content" : "Test: One<br>Another: Two<br>This: Is just a test",
 
         "Universe.Stars.Sun" : "Slunce",
         "Universe.Stars.Sirius" : "Sirius",

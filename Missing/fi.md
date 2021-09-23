@@ -2,6 +2,10 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
+General.UI.ToggleEditMode  
+General.UI.MusicVolumeLocal  
+General.UI.VoiceVolumeLocal  
+General.UI.SoundVolumeLocal  
 World.Detail.Users.Count  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
@@ -206,6 +210,10 @@ Earthenworks.MentorSignal.Description.Completed
 Earthenworks.MentorSignal.Description.2.Disconnected  
 Earthenworks.MentorSignal.Description.3.Full  
 Earthenworks.MentorSignal.Description.4.No access  
+Universe.UI.Credits.Title  
+Universe.UI.Credits.Content  
+Universe.UI.Assets.Title  
+Universe.UI.Assets.Content  
 Universe.Wavelength.ExtremeUV  
 Universe.Wavelength.FarUV  
 Universe.Wavelength.MiddleUV  

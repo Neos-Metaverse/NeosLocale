@@ -29,6 +29,11 @@
 
         "General.UI.SearchPrompt": "Search...",
         "General.UI.SearchPromptLong": "Type to search...",
+        "General.UI.ToggleEditMode" : "Toggle Edit Mode",
+
+        "General.UI.MusicVolumeLocal" : "Music Volume (local):",
+        "General.UI.VoiceVolumeLocal" : "Voice Volume (local):",
+        "General.UI.SoundVolumeLocal" : "Sound Volume (local):",
 
         "General.Sort.Ascending": "Ascending",
         "General.Sort.Descending": "Descending",
@@ -1737,6 +1742,10 @@
         "Universe.UI.Freeform" : "Freeform",
         "Universe.UI.Align" : "Align",
         "Universe.UI.Add" : "Add",
+        "Universe.UI.Credits.Title": "Credits",
+        "Universe.UI.Credits.Content" : "Test: One<br>Another: Two<br>This: Is just a test",
+        "Universe.UI.Assets.Title" : "Assets",
+        "Universe.UI.Assets.Content" : "Test: One<br>Another: Two<br>This: Is just a test",
 
         "Universe.Stars.Sun": "Sun",
         "Universe.Stars.Sirius": "Sirius",

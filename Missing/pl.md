@@ -4,6 +4,10 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Polish [pl]
 General.Close  
 General.CopyToClipboard  
+General.UI.ToggleEditMode  
+General.UI.MusicVolumeLocal  
+General.UI.VoiceVolumeLocal  
+General.UI.SoundVolumeLocal  
 Interaction.Grab.Palm  
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
@@ -137,6 +141,10 @@ Universe.UI.Narrative
 Universe.UI.Freeform  
 Universe.UI.Align  
 Universe.UI.Add  
+Universe.UI.Credits.Title  
+Universe.UI.Credits.Content  
+Universe.UI.Assets.Title  
+Universe.UI.Assets.Content  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  
