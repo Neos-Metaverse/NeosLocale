@@ -28,6 +28,11 @@
 
         "General.UI.SearchPrompt": "検索...",
         "General.UI.SearchPromptLong": "入力して検索...",
+        "General.UI.ToggleEditMode" : "Toggle Edit Mode",
+
+        "General.UI.MusicVolumeLocal" : "ミュージック音量 (ローカル):",
+        "General.UI.VoiceVolumeLocal" : "ボイス音量 (ローカル):",
+        "General.UI.SoundVolumeLocal" : "サウンド音量 (ローカル):",
 
         "General.Sort.Ascending": "昇順",
         "General.Sort.Descending": "降順",
@@ -1736,6 +1741,10 @@
         "Universe.UI.Freeform" : "自由な型",
         "Universe.UI.Align" : "一直線",
         "Universe.UI.Add" : "追加",
+        "Universe.UI.Credits.Title": "クレジット",
+        "Universe.UI.Credits.Content" : "テスト: 1<br>もう1つ: 2<br>これは: 単なるテストです",
+        "Universe.UI.Assets.Title" : "アセット",
+        "Universe.UI.Assets.Content" : "テスト: 1<br>もう1つ: 2<br>これは: 単なるテストです",
 
         "Universe.Stars.Sun": "太陽",
         "Universe.Stars.Sirius": "シリウス",
