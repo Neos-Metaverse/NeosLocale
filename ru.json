@@ -30,10 +30,13 @@
         "General.UI.SearchPrompt": "Поиск...",
         "General.UI.SearchPromptLong": "Введите для поиска...",
         "General.UI.ToggleEditMode" : "Включить режим редактирования",
+        "General.UI.ToggleSubtitles" : "Переключить субтитры",
 
         "General.UI.MusicVolumeLocal" : "Громкость музыки (локальная):",
         "General.UI.VoiceVolumeLocal" : "Громкость голоса (локальная):",
         "General.UI.SoundVolumeLocal" : "Громкость звука (локальная):",
+
+        "General.UI.PressToBegin" : "Нажмите чтобы начать",
 
         "General.Sort.Ascending": "По возрастанию",
         "General.Sort.Descending": "По убыванию",
@@ -1740,6 +1743,7 @@
         "Universe.UI.SelectExperience" : "Выберите программу:",
         "Universe.UI.Narrative" : "Нарративная",
         "Universe.UI.Freeform" : "Свободная",
+        "Universe.UI.RotateToChangeScale" : "Вращайте для изменения масштаба",
         "Universe.UI.Align" : "Выровнять",
         "Universe.UI.Add" : "Добавить",
 
