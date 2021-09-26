@@ -30,10 +30,13 @@
         "General.UI.SearchPrompt": "Search...",
         "General.UI.SearchPromptLong": "Type to search...",
         "General.UI.ToggleEditMode" : "Toggle Edit Mode",
+        "General.UI.ToggleSubtitles" : "Toggle Subtitles",
 
         "General.UI.MusicVolumeLocal" : "Music Volume (local):",
         "General.UI.VoiceVolumeLocal" : "Voice Volume (local):",
         "General.UI.SoundVolumeLocal" : "Sound Volume (local):",
+
+        "General.UI.PressToBegin" : "Press To Begin",
 
         "General.Sort.Ascending": "Ascending",
         "General.Sort.Descending": "Descending",
@@ -1740,6 +1743,7 @@
         "Universe.UI.SelectExperience" : "Select your experience:",
         "Universe.UI.Narrative" : "Narrative",
         "Universe.UI.Freeform" : "Freeform",
+        "Universe.UI.RotateToChangeScale" : "Rotate To Change Scale",
         "Universe.UI.Align" : "Align",
         "Universe.UI.Add" : "Add",
         "Universe.UI.Credits.Title": "Credits",

@@ -28,9 +28,11 @@ General.Creating
 General.UI.SearchPrompt  
 General.UI.SearchPromptLong  
 General.UI.ToggleEditMode  
+General.UI.ToggleSubtitles  
 General.UI.MusicVolumeLocal  
 General.UI.VoiceVolumeLocal  
 General.UI.SoundVolumeLocal  
+General.UI.PressToBegin  
 General.Sort.Ascending  
 General.Sort.Descending  
 Locomotion.Noclip.Name  
@@ -1473,6 +1475,7 @@ Universe.UI.Title
 Universe.UI.SelectExperience  
 Universe.UI.Narrative  
 Universe.UI.Freeform  
+Universe.UI.RotateToChangeScale  
 Universe.UI.Align  
 Universe.UI.Add  
 Universe.UI.Credits.Title  
