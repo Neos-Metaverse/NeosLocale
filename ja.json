@@ -28,7 +28,7 @@
 
         "General.UI.SearchPrompt": "検索...",
         "General.UI.SearchPromptLong": "入力して検索...",
-        "General.UI.ToggleEditMode" : "Toggle Edit Mode",
+        "General.UI.ToggleEditMode" : "エディットモード​(トグル)",
 
         "General.UI.MusicVolumeLocal" : "ミュージック音量 (ローカル):",
         "General.UI.VoiceVolumeLocal" : "ボイス音量 (ローカル):",
