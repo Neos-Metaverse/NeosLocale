@@ -11,9 +11,11 @@ General.CopyToClipboard
 General.Create  
 General.Creating  
 General.UI.ToggleEditMode  
+General.UI.ToggleSubtitles  
 General.UI.MusicVolumeLocal  
 General.UI.VoiceVolumeLocal  
 General.UI.SoundVolumeLocal  
+General.UI.PressToBegin  
 Interaction.SaveToInventory  
 Interaction.Grab.Palm  
 Interaction.Grab.Precision  
@@ -543,6 +545,7 @@ Universe.UI.Title
 Universe.UI.SelectExperience  
 Universe.UI.Narrative  
 Universe.UI.Freeform  
+Universe.UI.RotateToChangeScale  
 Universe.UI.Align  
 Universe.UI.Add  
 Universe.UI.Credits.Title  
