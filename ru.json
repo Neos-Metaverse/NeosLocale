@@ -1750,6 +1750,10 @@
         "Universe.UI.RotateToChangeScale" : "Вращайте для изменения масштаба",
         "Universe.UI.Align" : "Выровнять",
         "Universe.UI.Add" : "Добавить",
+        "Universe.UI.Credits.Title": "В ролях",
+        "Universe.UI.Credits.Content" : "Тест: Один<br>Другой: Два<br>Это: Всего лишь тест",
+        "Universe.UI.Assets.Title" : "Ресурсы",
+        "Universe.UI.Assets.Content" : "Тест: Один<br>Другой: Два<br>Это: Всего лишь тест",
 
         "Universe.Stars.Sun": "Солнце",
         "Universe.Stars.Sirius": "Сириус",
