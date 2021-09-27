@@ -53,6 +53,7 @@ CreateNew.Directory.Error.LongName
 CreateNew.Directory.Error.InvalidName  
 Importer.Image.Screenshot  
 Credits.TipConfirmation  
+CameraControl.Anchors.LinearInterpolation  
 Settings.DoNotSendReadStatus  
 Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  

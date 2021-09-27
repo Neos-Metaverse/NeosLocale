@@ -21,6 +21,7 @@ CreateNew.Directory.Title
 CreateNew.Directory.Error.EmptyName  
 CreateNew.Directory.Error.LongName  
 CreateNew.Directory.Error.InvalidName  
+CameraControl.Anchors.LinearInterpolation  
 Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  
 Inspector.Slot.Axis.X  

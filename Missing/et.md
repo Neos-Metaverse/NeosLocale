@@ -75,6 +75,7 @@ Importer.Model.Advanced.ForcePointFiltering
 Importer.Model.Advanced.ForceNoMipMaps  
 Importer.Model.Advanced.ForceUncompressed  
 Credits.TipConfirmation  
+CameraControl.Anchors.LinearInterpolation  
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
 Settings.DoNotSendReadStatus  

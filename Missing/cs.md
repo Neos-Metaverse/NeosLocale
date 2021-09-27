@@ -8,5 +8,6 @@ General.UI.MusicVolumeLocal
 General.UI.VoiceVolumeLocal  
 General.UI.SoundVolumeLocal  
 General.UI.PressToBegin  
+CameraControl.Anchors.LinearInterpolation  
 Universe.UI.RotateToChangeScale  
 

@@ -515,6 +515,7 @@ CameraControl.OpenCloseUsers
 CameraControl.CreateCameraAnchor  
 CameraControl.Anchors.Interpolate  
 CameraControl.Anchors.InterpolationSpeed  
+CameraControl.Anchors.LinearInterpolation  
 CameraControl.Anchors.NoAnchors  
 CameraControl.Positioning.FieldOfView  
 CameraControl.Positioning.AngleOffset  

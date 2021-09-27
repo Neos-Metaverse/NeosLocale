@@ -864,6 +864,7 @@
 
         "CameraControl.Anchors.Interpolate": "Interpolate between anchors",
         "CameraControl.Anchors.InterpolationSpeed": "Anchor Interpolation Speed:",
+        "CameraControl.Anchors.LinearInterpolation": "Linear Interpolation",
         "CameraControl.Anchors.NoAnchors": "No camera anchors in this world",
 
         "CameraControl.Positioning.FieldOfView": "Field of View",

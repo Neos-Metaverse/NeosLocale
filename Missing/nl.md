@@ -91,6 +91,7 @@ Credits.NCR.Title
 Credits.KFC.Title  
 NewWorld.AutoPort  
 CameraControl.Mode.ThirdPerson  
+CameraControl.Anchors.LinearInterpolation  
 CameraControl.Positioning.FirstPersonPitch  
 CameraControl.Positioning.FirstPersonRoll  
 CameraControl.Positioning.FirstPersonOffset  

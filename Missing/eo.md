@@ -18,6 +18,7 @@ CreateNew.Directory.Title
 CreateNew.Directory.Error.EmptyName  
 CreateNew.Directory.Error.LongName  
 CreateNew.Directory.Error.InvalidName  
+CameraControl.Anchors.LinearInterpolation  
 Settings.Locale.DefaultLanguage  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
