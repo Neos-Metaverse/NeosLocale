@@ -29,6 +29,14 @@
 
         "General.UI.SearchPrompt" : "Hledat...",
         "General.UI.SearchPromptLong" : "Zadejte vyhledávání...",
+        "General.UI.ToggleEditMode" : "Zap/Vyp Editační režim",
+        "General.UI.ToggleSubtitles" : "Zap/Vyp Titulky",
+
+        "General.UI.MusicVolumeLocal" : "Hlasitost hudby (lokální):",
+        "General.UI.VoiceVolumeLocal" : "Hlasitost hlasu (lokální):",
+        "General.UI.SoundVolumeLocal" : "Hlasitost zvuků (lokální):",
+
+        "General.UI.PressToBegin" : "Začněte stiskem tohoto tlačítka",
 
         "General.Sort.Ascending" : "Vzestupně",
         "General.Sort.Descending" : "Sestupně",
@@ -856,6 +864,7 @@
 
         "CameraControl.Anchors.Interpolate" : "Plynule interpolovat mezi kotvami",
         "CameraControl.Anchors.InterpolationSpeed" : "Rychlost interpolace:",
+        "CameraControl.Anchors.LinearInterpolation": "Lineární interpolace",
         "CameraControl.Anchors.NoAnchors" : "Nenalezeny žádné kotvy pro kameru",
 
         "CameraControl.Positioning.FieldOfView" : "Zorné pole",
@@ -1065,8 +1074,11 @@
         "Inspector.Mesh.ResaveMesh" : "Znovu uložit mesh",
         "Inspector.Mesh.RecalculateNormals" : "Přepočítat normály",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "Přepočítat normály (hladké stínování)",
-        "Inspector.Mesh.RecalculateTangentsMikkt" : "Přepočítat Tangenty (Mikktspace)",
-        "Inspector.Mesh.RecalculateTangentsSimple" : "Přepočítat Tangenty (jednoduchý algoritmus)",
+        "Inspector.Mesh.RecalculateTangentsMikkt" : "Přepočítat tangenty (Mikktspace)",
+        "Inspector.Mesh.RecalculateTangentsSimple" : "Přepočítat tangenty (jednoduchý algoritmus)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Přepočítat normály blendshapů",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Přepočítat normály blendshapů (hladké stínování)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Přepočítat tangenty blendshapů (Mikktspace)",
         "Inspector.Mesh.FlipNormals" : "Převrátit normály",
         "Inspector.Mesh.ReverseWinding" : "Invertovat směr navíjení trojůhelníků",
         "Inspector.Mesh.MakeDualSided" : "Převést na oboustraný mesh",
