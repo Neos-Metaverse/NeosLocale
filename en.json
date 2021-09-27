@@ -1773,7 +1773,7 @@
         "Universe.SolarSystem.Neptune": "Neptune",
         "Universe.SolarSystem.Pluto": "Pluto",
         "Universe.SolarSystem.Moon": "Moon",
-        "Universe.SolarSystem.SolarSystem": "Solar System",
+        "Universe.SolarSystem.SolarSystem": "Solar System<br><size=50%>(up to Neptune)</size>",
         "Universe.SolarSystem.Phobos": "Phobos",
         "Universe.SolarSystem.Charon": "Charon",
         "Universe.SolarSystem.Mithra": "Asteroid 4486 Mithra",
