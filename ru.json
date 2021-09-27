@@ -1773,7 +1773,7 @@
         "Universe.SolarSystem.Neptune": "Нептун",
         "Universe.SolarSystem.Pluto": "Плутон",
         "Universe.SolarSystem.Moon": "Луна",
-        "Universe.SolarSystem.SolarSystem": "Солнечная Система",
+        "Universe.SolarSystem.SolarSystem": "Солнечная Система<br><size=50%>(до Нептуна)</size>",
         "Universe.SolarSystem.Phobos": "Фобос",
         "Universe.SolarSystem.Charon": "Харон",
         "Universe.SolarSystem.Mithra": "Астероид 4486 Митра",
