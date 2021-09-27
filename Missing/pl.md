@@ -53,6 +53,7 @@ CreateNew.Directory.Error.LongName
 CreateNew.Directory.Error.InvalidName  
 Importer.Image.Screenshot  
 Credits.TipConfirmation  
+CameraControl.Anchors.LinearInterpolation  
 Settings.DoNotSendReadStatus  
 Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  
@@ -73,6 +74,9 @@ Inspector.Slot.ParentUnder.WorldRoot.Undo
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Mesh.SetupRenderer  
+Inspector.Mesh.RecalculateBlendshapeNormals  
+Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
+Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  

@@ -48,6 +48,7 @@ Importer.Model.Advanced.ForcePointFiltering
 Importer.Model.Advanced.ForceNoMipMaps  
 Importer.Model.Advanced.ForceUncompressed  
 Credits.TipConfirmation  
+CameraControl.Anchors.LinearInterpolation  
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
 Settings.DoNotSendReadStatus  
@@ -58,6 +59,9 @@ Inspector.Slot.ParentUnder.WorldRoot.Undo
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Mesh.SetupRenderer  
+Inspector.Mesh.RecalculateBlendshapeNormals  
+Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
+Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  

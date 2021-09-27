@@ -746,6 +746,7 @@ CameraControl.OpenCloseUsers
 CameraControl.CreateCameraAnchor  
 CameraControl.Anchors.Interpolate  
 CameraControl.Anchors.InterpolationSpeed  
+CameraControl.Anchors.LinearInterpolation  
 CameraControl.Anchors.NoAnchors  
 CameraControl.Positioning.FieldOfView  
 CameraControl.Positioning.AngleOffset  
@@ -926,6 +927,9 @@ Inspector.Mesh.RecalculateNormals
 Inspector.Mesh.RecalculateNormalsSmooth  
 Inspector.Mesh.RecalculateTangentsMikkt  
 Inspector.Mesh.RecalculateTangentsSimple  
+Inspector.Mesh.RecalculateBlendshapeNormals  
+Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
+Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.Mesh.FlipNormals  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.MakeDualSided  

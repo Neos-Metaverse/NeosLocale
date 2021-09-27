@@ -864,6 +864,7 @@
 
         "CameraControl.Anchors.Interpolate": "Interpolate between anchors",
         "CameraControl.Anchors.InterpolationSpeed": "Anchor Interpolation Speed:",
+        "CameraControl.Anchors.LinearInterpolation": "Linear Interpolation",
         "CameraControl.Anchors.NoAnchors": "No camera anchors in this world",
 
         "CameraControl.Positioning.FieldOfView": "Field of View",
@@ -1076,6 +1077,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Recalculate Normals (smooth shading)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Recalculate Tangents (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Recalculate Tangents (simple)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Recalculate Blendshape Normals",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Recalculate Blendshape Normals (smooth shading)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Recalculate Blendshape Tangents (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Flip Normals",
         "Inspector.Mesh.ReverseWinding": "Reverse Winding",
         "Inspector.Mesh.MakeDualSided": "Make Dual Sided",
@@ -1773,7 +1777,7 @@
         "Universe.SolarSystem.Neptune": "Neptune",
         "Universe.SolarSystem.Pluto": "Pluto",
         "Universe.SolarSystem.Moon": "Moon",
-        "Universe.SolarSystem.SolarSystem": "Solar System",
+        "Universe.SolarSystem.SolarSystem": "Solar System<br><size=50%>(up to Neptune)</size>",
         "Universe.SolarSystem.Phobos": "Phobos",
         "Universe.SolarSystem.Charon": "Charon",
         "Universe.SolarSystem.Mithra": "Asteroid 4486 Mithra",

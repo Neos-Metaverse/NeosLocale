@@ -19,6 +19,7 @@ FullBody.ShowReferenceOverlay
 FullBody.ResetAvatarPrompt  
 FullBody.AvatarHeightCompensationInstructions  
 FullBody.CalibrationRedoInstructions  
+CameraControl.Anchors.LinearInterpolation  
 Settings.DebugInputBinding  
 Settings.LeapMotion.UseFingersWhenSnapped  
 Settings.ViveHandTracking.UseFingersWhenSnapped  
@@ -27,6 +28,9 @@ Inspector.Slot.ParentUnder.WorldRoot
 Inspector.Slot.ParentUnder.WorldRoot.Undo  
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
+Inspector.Mesh.RecalculateBlendshapeNormals  
+Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
+Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  

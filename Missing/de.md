@@ -21,6 +21,7 @@ CreateNew.Directory.Title
 CreateNew.Directory.Error.EmptyName  
 CreateNew.Directory.Error.LongName  
 CreateNew.Directory.Error.InvalidName  
+CameraControl.Anchors.LinearInterpolation  
 Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  
 Inspector.Slot.Axis.X  
@@ -40,6 +41,9 @@ Inspector.Slot.ParentUnder.WorldRoot.Undo
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Mesh.SetupRenderer  
+Inspector.Mesh.RecalculateBlendshapeNormals  
+Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
+Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
