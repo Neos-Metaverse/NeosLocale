@@ -699,6 +699,9 @@ Inspector.Mesh.RecalculateNormals
 Inspector.Mesh.RecalculateNormalsSmooth  
 Inspector.Mesh.RecalculateTangentsMikkt  
 Inspector.Mesh.RecalculateTangentsSimple  
+Inspector.Mesh.RecalculateBlendshapeNormals  
+Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
+Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.Mesh.FlipNormals  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.MakeDualSided  

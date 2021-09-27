@@ -115,6 +115,9 @@ Inspector.Slot.ParentUnder.Label
 Inspector.Slot.ParentUnder.WorldRoot.Undo  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Mesh.SetupRenderer  
+Inspector.Mesh.RecalculateBlendshapeNormals  
+Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
+Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.Mesh.UV_Multiplicator  
 Inspector.MeshCollider.VHACD  
 Inspector.VHACD.Parameter.PlaneDownsampling  
