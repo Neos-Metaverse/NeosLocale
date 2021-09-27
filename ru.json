@@ -864,6 +864,7 @@
 
         "CameraControl.Anchors.Interpolate": "Интерполировать между анкерами",
         "CameraControl.Anchors.InterpolationSpeed": "Скорость интерполяции анкеров:",
+        "CameraControl.Anchors.LinearInterpolation": "Линейная интерполяция",
         "CameraControl.Anchors.NoAnchors": "В этом мире нет якорей камеры",
 
         "CameraControl.Positioning.FieldOfView": "Угол обзора",
