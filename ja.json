@@ -28,11 +28,14 @@
 
         "General.UI.SearchPrompt": "検索...",
         "General.UI.SearchPromptLong": "入力して検索...",
-        "General.UI.ToggleEditMode" : "エディットモード​(トグル)",
+        "General.UI.ToggleEditMode" : "エディットモード​(on/off)",
+        "General.UI.ToggleSubtitles" : "字幕表示​(on/off)",
 
         "General.UI.MusicVolumeLocal" : "ミュージック音量 (ローカル):",
         "General.UI.VoiceVolumeLocal" : "ボイス音量 (ローカル):",
         "General.UI.SoundVolumeLocal" : "サウンド音量 (ローカル):",
+        
+        "General.UI.PressToBegin" : "押して開始",
 
         "General.Sort.Ascending": "昇順",
         "General.Sort.Descending": "降順",
@@ -860,6 +863,7 @@
 
         "CameraControl.Anchors.Interpolate": "アンカー間をなめらかに移動する",
         "CameraControl.Anchors.InterpolationSpeed": "アンカー間の補完速度:",
+        "CameraControl.Anchors.LinearInterpolation": "線形補間",
         "CameraControl.Anchors.NoAnchors": "ワールドにカメラアンカーがありません。",
 
         "CameraControl.Positioning.FieldOfView": "画角(FOV)",
@@ -1072,6 +1076,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "法線の再計算(スムーズシェーディング)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "接線の再計算(Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "接線の再計算(simple)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "ブレンドシェイプの法線を再計算",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "ブレンドシェイプの法線を再計算(スムーズシェーディング)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "ブレンドシェイプの法線を再計算(Mikktspace)",
         "Inspector.Mesh.FlipNormals": "法線を反転",
         "Inspector.Mesh.ReverseWinding": "逆巻き(面を反転)",
         "Inspector.Mesh.MakeDualSided": "両面設定にする",
@@ -1739,6 +1746,7 @@
         "Universe.UI.SelectExperience" : "あなたの体験を選択してください:",
         "Universe.UI.Narrative" : "物語",
         "Universe.UI.Freeform" : "自由な型",
+        "Universe.UI.RotateToChangeScale" : "回転してスケールを変更",
         "Universe.UI.Align" : "一直線",
         "Universe.UI.Add" : "追加",
         "Universe.UI.Credits.Title": "クレジット",
@@ -1768,7 +1776,7 @@
         "Universe.SolarSystem.Neptune": "海王星",
         "Universe.SolarSystem.Pluto": "冥王星",
         "Universe.SolarSystem.Moon": "月",
-        "Universe.SolarSystem.SolarSystem": "太陽系",
+        "Universe.SolarSystem.SolarSystem": "太陽系<br><size=50%>(海王星まで)</size>",
         "Universe.SolarSystem.Phobos": "フォボス",
         "Universe.SolarSystem.Charon": "カロン",
         "Universe.SolarSystem.Mithra": "ミスラ (4486)",
