@@ -393,7 +393,7 @@
         "Undo.MoveSun": "태양 움직이기",
         "Undo.ApplyMaterial": "머티리얼 적용",
         "Undo.BakeMeshes": "베이크 {name}",
-        "Undo.ChangeMesh": "메쉬 변경",
+        "Undo.ChangeMesh": "메시 변경",
         "Undo.InsertParent": "{name}에게 부모 설정",
         "Undo.Wiggler": "무-써운 것",
 
@@ -501,7 +501,7 @@
         "CreateNew.Collider.Capsule": "캡슐(Capsule)",
         "CreateNew.Collider.Cylinder": "원통(Cylinder)",
         "CreateNew.Collider.Cone": "원뿔(Cone)",
-        "CreateNew.Collider.Mesh": "메쉬(Mesh)",
+        "CreateNew.Collider.Mesh": "메시(Mesh)",
 
         "CreateNew.Light": "빛",
         "CreateNew.Light.Point": "점(Point)",
@@ -895,17 +895,17 @@
         "Security.HostAccess.Allow": "수락",
         "Security.HostAccess.Deny": "거절",
 
-        "Inspector.Mesh.StatsHeader" : "메쉬 통계정보",
+        "Inspector.Mesh.StatsHeader" : "메시 통계정보",
         "Inspector.Mesh.VertexCount" : "버텍스 수: {n}",
         "Inspector.Mesh.TriangleCount" : "폴리곤 수: {n}",
         "Inspector.Mesh.PointCount" : "포인트 수: {n}",
-        "Inspector.Mesh.SubmeshCount" : "서브메쉬 수: {n}",
+        "Inspector.Mesh.SubmeshCount" : "서브메시 수: {n}",
         "Inspector.Mesh.BoneCount" : "본(Bone) 수: {n}",
         "Inspector.Mesh.BlendshapeCount" : "블렌드셰이프 수: {n}",
         "Inspector.Mesh.ChannelStats" : "일반: {normals}, 접선: {tangents}, 색상: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
-        "Inspector.Mesh.BakeMesh" : "메쉬 베이크",
-        "Inspector.Mesh.ResaveMesh" : "메쉬 다시 저장",
+        "Inspector.Mesh.BakeMesh" : "메시 베이크",
+        "Inspector.Mesh.ResaveMesh" : "메시 다시 저장",
         "Inspector.Mesh.RecalculateNormals" : "방향(Normal) 재계산",
         "Inspector.Mesh.RecalculateNormalsSmooth" : "방향(Normal) 재계산(스무스 셰이딩)",
         "Inspector.Mesh.RecalculateTangentsMikkt" : "접선(Tangents) 재계산(Mikktspace)",
@@ -928,10 +928,10 @@
         "Inspector.Mesh.UV_Multiplicator" : "다중복사:",
         "Inspector.Mesh.ScaleUVs" : "스케일 UVs",
 
-        "Inspector.MeshRenderer.MergeByMaterial" : "동일 머티리얼을 사용하는 서브메쉬 병합",
-        "Inspector.MeshRenderer.SplitByMaterial" : "메쉬를 머티리얼별로 분리",
+        "Inspector.MeshRenderer.MergeByMaterial" : "동일 머티리얼을 사용하는 서브메시 병합",
+        "Inspector.MeshRenderer.SplitByMaterial" : "메시를 머티리얼별로 분리",
 
-        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "블렌드셰이프의 영향을 받지 않는 메쉬를 분리",
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "블렌드셰이프의 영향을 받지 않는 메시를 분리",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "비어있는 블렌드셰이프 제거",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "제거완료! 제거된 대상: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones" : "비어있는 본(Born) 제거",
@@ -1023,7 +1023,7 @@
         "Wizard.AssetOptimization.Title" : "에셋 최적화 마법사",
         "Wizard.AssetOptimization.CleanupUnusedAssets" : "사용하지 않는 에셋 정리",
         "Wizard.AssetOptimization.CleanupEmptySlots" : "비어있는 에셋 정리",
-        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "비활성 상태인 메쉬 렌더러 정리",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "비활성 상태인 메시 렌더러 정리",
         "Wizard.AssetOptimization.DeduplicateMaterials" : "중복되어 있는 머리티럴 병합",
         "Wizard.AssetOptimization.CleanupFileItems" : "파일 아이템 정리",
         "Wizard.AssetOptimization.MaxTextureResolution" : "텍스쳐 최대 해상도 지정",
@@ -1054,8 +1054,8 @@
         "Tutorial.Tooltip.Brush" : "그리기",
         "Tutorial.Tooltip.MaterialPrimary" : "머티리얼 적용\n<size=75%>(머티리얼 건에 머티리얼 오브를 장착하세요.)</size>",
         "Tutorial.Tooltip.MaterialSecondary" : "머티리얼 추출\n<size=75%>(현재 장착된 머티리얼이 없어야 합니다.)</size>",
-        "Tutorial.Tooltip.MeshPrimary" : "메쉬 교체",
-        "Tutorial.Tooltip.MeshSecondary" : "메쉬 추출",
+        "Tutorial.Tooltip.MeshPrimary" : "메시 교체",
+        "Tutorial.Tooltip.MeshSecondary" : "메시 추출",
         "Tutorial.Tooltip.CharacterColliderPrimary" : "캐릭터 콜라이더 추가",
         "Tutorial.Tooltip.CharacterColliderSecondary" : "캐릭터 콜라이더 제거",
         "Tutorial.Tooltip.GrabbableSetterPrimary" : "잡을 수 있게 만들기",
@@ -1287,7 +1287,7 @@
         "Settings.DisableLAN" : "로컬망(LAN) 비활성",
         "Settings.Audio.Master" : "전체음량: {n,number,percent}",
 
-        "Importer.Model.Advanced.SplitSubmeshes" : "메쉬별로 분할",
+        "Importer.Model.Advanced.SplitSubmeshes" : "메시별로 분할",
         "Settings.DebugInputBinding" : "입력정보 확인(Debug input binding)",
         "Inspector.Mesh.ConvertToPointCloud" : "점(Point Cloud)들로 변환",
 
@@ -1642,7 +1642,7 @@
         "Inspector.VHACD.Parameter.Beta" : "베타",
         "Inspector.VHACD.Parameter.Gamma" : "감마",
         "Inspector.VHACD.Parameter.Delta" : "델타",
-        "Inspector.VHACD.Parameter.PCA" : "사전 메쉬정규화 설정",
+        "Inspector.VHACD.Parameter.PCA" : "사전 메시정규화 설정",
         "Inspector.VHACD.Parameter.MaxVerticesPerHull" : "볼록 껍질당 점의 수",
         "Inspector.VHACD.Parameter.MinVolumePerHull" : "껍질당 최소 크기",
         "Inspector.VHACD.Parameter.ConvexHullApproximation" : "블록 껍질 인접도",
@@ -1902,10 +1902,15 @@
         "Universe.UI.Freeform" : "자유형",
         "Universe.UI.Align" : "정렬",
         "Universe.UI.Add" : "추가",
+        
+		"Universe.UI.Credits.Title": "크레딧",
+        "Universe.UI.Credits.Content" : "테스트: 하나<br>그외: 둘<br>이것: 테스트입니다.",
+        "Universe.UI.Assets.Title" : "에셋",
+        "Universe.UI.Assets.Content" : "테스트: 하나<br>그외: 둘<br>이것: 테스트입니다.",
 		
         "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "현재 형태에서 명확한 경계를 계산",
         "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "현재 형태에서 경계 확장",
-        "Inspector.SkinnedMesh.BakeToStaticMesh": "정적 메쉬로 베이크",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "정적 메시로 베이크",
 		
         "Inspector.ParticleStyle.CommonTransitions": "통상적인 변화유형:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "투명도: 페이드 인 -> 페이드 아웃",
@@ -1915,6 +1920,11 @@
         "Inspector.ParticleStyle.IntensityFadeIn": "강도: 페이드 인",
         "Inspector.ParticleStyle.IntensityFadeOut": "강도: 페이드 아웃",
         "Inspector.ParticleStyle.ClearFades": "변화유형 지우기",
+		
+        "General.UI.ToggleEditMode" : "UI 편집모드 전환",
+        "General.UI.MusicVolumeLocal" : "음악 볼륨(로컬):",
+        "General.UI.VoiceVolumeLocal" : "음성 볼륨(로컬):",
+        "General.UI.SoundVolumeLocal" : "음향 볼륨(로컬):",
 		
         "Dummy": "더미"
     }
