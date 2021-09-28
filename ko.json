@@ -1936,9 +1936,9 @@
 		
         "CreateNew.Editor.TextRendererWizard": "문자열 마법사",
         "Wizard.TextRenderer.Header" : "TextRenderer 마법사",
-        "Wizard.TextRenderer.ProcessRoot" : "처리형태:",
-        "Wizard.TextRenderer.ProcessStandalone": "단일 문자열",
-        "Wizard.TextRenderer.ProcessUIX": "UIX 문자열",
+        "Wizard.TextRenderer.ProcessRoot" : "처리할 루트슬롯:",
+        "Wizard.TextRenderer.ProcessStandalone": "일반 문자열만",
+        "Wizard.TextRenderer.ProcessUIX": "UIX 문자열만",
         "Wizard.TextRenderer.Disabled": "처리 비활성화",
         "Wizard.TextRenderer.WithTag": "태그 할당:",
         "Wizard.TextRenderer.ReplaceMaterial" : "머티리얼 변경",
