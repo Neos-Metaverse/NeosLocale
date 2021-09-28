@@ -14,6 +14,7 @@ Interaction.Grab.Auto
 Interaction.Grab.Off  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
+CreateNew.Editor.TextRendererWizard  
 CreateNew.Directory.Title  
 CreateNew.Directory.Error.EmptyName  
 CreateNew.Directory.Error.LongName  
@@ -36,6 +37,14 @@ Inspector.ParticleStyle.IntensityFadeInOut
 Inspector.ParticleStyle.IntensityFadeIn  
 Inspector.ParticleStyle.IntensityFadeOut  
 Inspector.ParticleStyle.ClearFades  
+Wizard.TextRenderer.Header  
+Wizard.TextRenderer.ProcessRoot  
+Wizard.TextRenderer.ProcessStandalone  
+Wizard.TextRenderer.ProcessUIX  
+Wizard.TextRenderer.Disabled  
+Wizard.TextRenderer.WithTag  
+Wizard.TextRenderer.ReplaceMaterial  
+Wizard.TextRenderer.ReplaceFont  
 Universe.UI.Title  
 Universe.UI.SelectExperience  
 Universe.UI.Narrative  

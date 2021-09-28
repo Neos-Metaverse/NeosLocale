@@ -61,6 +61,7 @@ CreateNew.Object.UIXCanvas
 CreateNew.Object.Facet  
 CreateNew.Object.FogVolume.Alpha  
 CreateNew.Editor  
+CreateNew.Editor.TextRendererWizard  
 CreateNew.Editor.CubemapCreator  
 CreateNew.3DModel  
 CreateNew.3DModel.Capsule  
@@ -148,6 +149,14 @@ Inspector.ParticleStyle.IntensityFadeIn
 Inspector.ParticleStyle.IntensityFadeOut  
 Inspector.ParticleStyle.ClearFades  
 Wizard.CubemapCreator.Title  
+Wizard.TextRenderer.Header  
+Wizard.TextRenderer.ProcessRoot  
+Wizard.TextRenderer.ProcessStandalone  
+Wizard.TextRenderer.ProcessUIX  
+Wizard.TextRenderer.Disabled  
+Wizard.TextRenderer.WithTag  
+Wizard.TextRenderer.ReplaceMaterial  
+Wizard.TextRenderer.ReplaceFont  
 Tutorial.Welcome.AccountHeader  
 Tutorial.Welcome.StartTutorialHeader  
 Tutorial.Intro.DashboardTitle  

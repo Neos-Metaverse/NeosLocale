@@ -58,6 +58,7 @@ Tooltip.GrabbableSetter.ApplyToRoot
 Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Material.ConvertAll  
 CreateNew.Object.ReflectionProbe  
+CreateNew.Editor.TextRendererWizard  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
 CreateNew.3DModel.Triangle  
@@ -245,6 +246,14 @@ Wizard.ReflectionProbes.ShowDebugVisuals
 Wizard.ReflectionProbes.HideDebugVisuals  
 Wizard.ReflectionProbes.BakeProbes  
 Wizard.ReflectionProbes.Baking  
+Wizard.TextRenderer.Header  
+Wizard.TextRenderer.ProcessRoot  
+Wizard.TextRenderer.ProcessStandalone  
+Wizard.TextRenderer.ProcessUIX  
+Wizard.TextRenderer.Disabled  
+Wizard.TextRenderer.WithTag  
+Wizard.TextRenderer.ReplaceMaterial  
+Wizard.TextRenderer.ReplaceFont  
 Tutorial.Tooltip.DevPrimary  
 Tutorial.Tooltip.DevSecondary  
 Tutorial.Tooltip.MaterialPrimary  

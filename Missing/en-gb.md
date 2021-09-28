@@ -509,6 +509,7 @@ CreateNew.Text.Outline
 CreateNew.Editor  
 CreateNew.Editor.UserInspector  
 CreateNew.Editor.LightSourcesWizard  
+CreateNew.Editor.TextRendererWizard  
 CreateNew.Editor.LogixTransferWizard  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
@@ -1130,6 +1131,14 @@ Wizard.ReflectionProbes.ShowDebugVisuals
 Wizard.ReflectionProbes.HideDebugVisuals  
 Wizard.ReflectionProbes.BakeProbes  
 Wizard.ReflectionProbes.Baking  
+Wizard.TextRenderer.Header  
+Wizard.TextRenderer.ProcessRoot  
+Wizard.TextRenderer.ProcessStandalone  
+Wizard.TextRenderer.ProcessUIX  
+Wizard.TextRenderer.Disabled  
+Wizard.TextRenderer.WithTag  
+Wizard.TextRenderer.ReplaceMaterial  
+Wizard.TextRenderer.ReplaceFont  
 Desktop.OpenKeyboard  
 Desktop.FollowCursor.On  
 Desktop.FollowCursor.Off  

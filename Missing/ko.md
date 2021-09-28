@@ -2,11 +2,13 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Korean [ko]
-General.UI.ToggleSubtitles  
-General.UI.PressToBegin  
-CameraControl.Anchors.LinearInterpolation  
-Inspector.Mesh.RecalculateBlendshapeNormals  
-Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
-Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
-Universe.UI.RotateToChangeScale  
+CreateNew.Editor.TextRendererWizard  
+Wizard.TextRenderer.Header  
+Wizard.TextRenderer.ProcessRoot  
+Wizard.TextRenderer.ProcessStandalone  
+Wizard.TextRenderer.ProcessUIX  
+Wizard.TextRenderer.Disabled  
+Wizard.TextRenderer.WithTag  
+Wizard.TextRenderer.ReplaceMaterial  
+Wizard.TextRenderer.ReplaceFont  
 

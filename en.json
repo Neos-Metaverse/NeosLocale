@@ -583,6 +583,7 @@
         "CreateNew.Editor": "Editor",
         "CreateNew.Editor.UserInspector": "User Inspector",
         "CreateNew.Editor.LightSourcesWizard": "World Light Sources Wizard",
+        "CreateNew.Editor.TextRendererWizard": "World Text Renderer Wizard",
         "CreateNew.Editor.AssetOptimizationWizard": "Asset Optimization Wizard",
         "CreateNew.Editor.LogixTransferWizard": "LogiX Transfer Wizard",
         "CreateNew.Editor.CubemapCreator": "Cubemap Creator",
@@ -1318,6 +1319,15 @@
         "Wizard.ReflectionProbes.HideDebugVisuals": "Hide Debug Visuals",
         "Wizard.ReflectionProbes.BakeProbes": "Bake Probes",
         "Wizard.ReflectionProbes.Baking": "Baking {index} of {count}...",
+
+        "Wizard.TextRenderer.Header" : "TextRenderer Wizard",
+        "Wizard.TextRenderer.ProcessRoot" : "Process Root:",
+        "Wizard.TextRenderer.ProcessStandalone": "Process Standalone",
+        "Wizard.TextRenderer.ProcessUIX": "ProcessUIX",
+        "Wizard.TextRenderer.Disabled": "Process Disabled",
+        "Wizard.TextRenderer.WithTag": "With Tag:",
+        "Wizard.TextRenderer.ReplaceMaterial" : "Replace Material",
+        "Wizard.TextRenderer.ReplaceFont" : "Replace Font",
 
         "Desktop.OpenKeyboard": "Open Keyboard",
         "Desktop.FollowCursor.On": "Follow Cursor: On",

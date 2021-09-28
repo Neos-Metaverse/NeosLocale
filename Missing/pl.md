@@ -46,6 +46,7 @@ Account.TOTP.Message.DeactivationComplete
 2FA.Token  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
+CreateNew.Editor.TextRendererWizard  
 CreateNew.3DModel.Triangle  
 CreateNew.Directory.Title  
 CreateNew.Directory.Error.EmptyName  
@@ -117,6 +118,14 @@ Inspector.ParticleStyle.IntensityFadeInOut
 Inspector.ParticleStyle.IntensityFadeIn  
 Inspector.ParticleStyle.IntensityFadeOut  
 Inspector.ParticleStyle.ClearFades  
+Wizard.TextRenderer.Header  
+Wizard.TextRenderer.ProcessRoot  
+Wizard.TextRenderer.ProcessStandalone  
+Wizard.TextRenderer.ProcessUIX  
+Wizard.TextRenderer.Disabled  
+Wizard.TextRenderer.WithTag  
+Wizard.TextRenderer.ReplaceMaterial  
+Wizard.TextRenderer.ReplaceFont  
 Twitch.Panel.Button.Commands.Enabled  
 Twitch.Panel.Button.Commands.Disabled  
 Twitch.Panel.Button.SafeMode.Enabled  

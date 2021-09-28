@@ -2,15 +2,10 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
-General.UI.ToggleEditMode  
-General.UI.ToggleSubtitles  
-General.UI.MusicVolumeLocal  
-General.UI.VoiceVolumeLocal  
-General.UI.SoundVolumeLocal  
-General.UI.PressToBegin  
 World.Detail.Users.Count  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
+CreateNew.Editor.TextRendererWizard  
 Importer.Model.Advanced.SkinnedMeshes  
 FullBody.CalibrateTrackersInstructions  
 FullBody.ShowBodyOverlay  
@@ -19,7 +14,6 @@ FullBody.ShowReferenceOverlay
 FullBody.ResetAvatarPrompt  
 FullBody.AvatarHeightCompensationInstructions  
 FullBody.CalibrationRedoInstructions  
-CameraControl.Anchors.LinearInterpolation  
 Settings.DebugInputBinding  
 Settings.LeapMotion.UseFingersWhenSnapped  
 Settings.ViveHandTracking.UseFingersWhenSnapped  
@@ -28,9 +22,6 @@ Inspector.Slot.ParentUnder.WorldRoot
 Inspector.Slot.ParentUnder.WorldRoot.Undo  
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
-Inspector.Mesh.RecalculateBlendshapeNormals  
-Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
-Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
@@ -61,6 +52,14 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.CharacterController.Warning  
 Wizard.AssetOptimization.CleanupFileItems  
+Wizard.TextRenderer.Header  
+Wizard.TextRenderer.ProcessRoot  
+Wizard.TextRenderer.ProcessStandalone  
+Wizard.TextRenderer.ProcessUIX  
+Wizard.TextRenderer.Disabled  
+Wizard.TextRenderer.WithTag  
+Wizard.TextRenderer.ReplaceMaterial  
+Wizard.TextRenderer.ReplaceFont  
 Tutorial.Streaming.StageControl  
 Tutorial.Streaming.StageUI  
 Tutorial.Streaming.StageLights  
@@ -216,7 +215,6 @@ Earthenworks.MentorSignal.Description.Completed
 Earthenworks.MentorSignal.Description.2.Disconnected  
 Earthenworks.MentorSignal.Description.3.Full  
 Earthenworks.MentorSignal.Description.4.No access  
-Universe.UI.RotateToChangeScale  
 Universe.UI.Credits.Title  
 Universe.UI.Credits.Content  
 Universe.UI.Assets.Title  

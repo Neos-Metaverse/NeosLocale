@@ -57,6 +57,7 @@ Undo.BatchConvertMaterials
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Material.ConvertAll  
+CreateNew.Editor.TextRendererWizard  
 CreateNew.3DModel.Triangle  
 CreateNew.Directory.Title  
 CreateNew.Directory.Error.EmptyName  
@@ -138,6 +139,14 @@ Inspector.ParticleStyle.IntensityFadeInOut
 Inspector.ParticleStyle.IntensityFadeIn  
 Inspector.ParticleStyle.IntensityFadeOut  
 Inspector.ParticleStyle.ClearFades  
+Wizard.TextRenderer.Header  
+Wizard.TextRenderer.ProcessRoot  
+Wizard.TextRenderer.ProcessStandalone  
+Wizard.TextRenderer.ProcessUIX  
+Wizard.TextRenderer.Disabled  
+Wizard.TextRenderer.WithTag  
+Wizard.TextRenderer.ReplaceMaterial  
+Wizard.TextRenderer.ReplaceFont  
 Tutorial.BotDesigner.Start  
 Tutorial.BotDesigner.WearAvatar  
 Tutorial.BotDesigner.Intro.Title  
