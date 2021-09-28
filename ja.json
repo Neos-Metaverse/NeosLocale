@@ -34,7 +34,7 @@
         "General.UI.MusicVolumeLocal" : "ミュージック音量 (ローカル):",
         "General.UI.VoiceVolumeLocal" : "ボイス音量 (ローカル):",
         "General.UI.SoundVolumeLocal" : "サウンド音量 (ローカル):",
-        
+
         "General.UI.PressToBegin" : "押して開始",
 
         "General.Sort.Ascending": "昇順",
@@ -582,6 +582,7 @@
         "CreateNew.Editor": "エディター",
         "CreateNew.Editor.UserInspector": "ユーザー​インスペクター",
         "CreateNew.Editor.LightSourcesWizard": "ワールド光源​ウィザード",
+        "CreateNew.Editor.TextRendererWizard": "ワールドテキスト​レンダラーウィザード",
         "CreateNew.Editor.AssetOptimizationWizard": "アセット最適化​ウィザード",
         "CreateNew.Editor.LogixTransferWizard": "LogiX転送​ウィザード",
         "CreateNew.Editor.CubemapCreator": "キューブマップ​クリエイター",
@@ -1317,6 +1318,15 @@
         "Wizard.ReflectionProbes.HideDebugVisuals": "デバッグビジュアルを非表示",
         "Wizard.ReflectionProbes.BakeProbes": "プローブをベイク",
         "Wizard.ReflectionProbes.Baking": "{count}の{index}をベイク中...",
+
+        "Wizard.TextRenderer.Header" : "テキストレンダラーウィザード",
+        "Wizard.TextRenderer.ProcessRoot" : "プロセスルート:",
+        "Wizard.TextRenderer.ProcessStandalone": "独立したテキスト",
+        "Wizard.TextRenderer.ProcessUIX": "UIXのテキスト",
+        "Wizard.TextRenderer.Disabled": "無効化されたテキスト",
+        "Wizard.TextRenderer.WithTag": "タグで設定:",
+        "Wizard.TextRenderer.ReplaceMaterial" : "マテリアルを入れ替える",
+        "Wizard.TextRenderer.ReplaceFont" : "フォントを入れ替える",
 
         "Desktop.OpenKeyboard": "キーボードを表示",
         "Desktop.FollowCursor.On": "カーソルに追従​:オン",
