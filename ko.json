@@ -1950,7 +1950,7 @@
         "Wizard.TextRenderer.WithTag": "Tag로 대상 지정:",
         "Wizard.TextRenderer.ReplaceMaterial" : "머티리얼 변경",
         "Wizard.TextRenderer.ReplaceFont" : "폰트 변경",
-		"Wizard.TextRenderer.SetColor" : "색상지정",
+        "Wizard.TextRenderer.SetColor" : "색상지정",
 		
         "Dummy": "더미"
     }
