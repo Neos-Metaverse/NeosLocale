@@ -1934,6 +1934,16 @@
         "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "블렌드셰이프 탄젠트 재계산(Mikktspace)",
         "Universe.UI.RotateToChangeScale" : "회전으로 배율 변경",
 		
+        "CreateNew.Editor.TextRendererWizard": "문자열 마법사",
+        "Wizard.TextRenderer.Header" : "TextRenderer 마법사",
+        "Wizard.TextRenderer.ProcessRoot" : "처리형태:",
+        "Wizard.TextRenderer.ProcessStandalone": "단일 문자열",
+        "Wizard.TextRenderer.ProcessUIX": "UIX 문자열",
+        "Wizard.TextRenderer.Disabled": "처리 비활성화",
+        "Wizard.TextRenderer.WithTag": "태그 할당:",
+        "Wizard.TextRenderer.ReplaceMaterial" : "머티리얼 변경",
+        "Wizard.TextRenderer.ReplaceFont" : "폰트 변경",
+		
         "Dummy": "더미"
     }
 }
