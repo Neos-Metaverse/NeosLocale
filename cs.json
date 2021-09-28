@@ -583,6 +583,7 @@
         "CreateNew.Editor" : "Editor",
         "CreateNew.Editor.UserInspector" : "Inspektor uživatelů",
         "CreateNew.Editor.LightSourcesWizard" : "Průvodce nastavením světel",
+        "CreateNew.Editor.TextRendererWizard": "Průvodce nastavením renderování textu",
         "CreateNew.Editor.AssetOptimizationWizard" : "Průvodce optimalizací assetů",
         "CreateNew.Editor.LogixTransferWizard" : "Průvodce přesunem LogiXu",
         "CreateNew.Editor.CubemapCreator" : "Tvůrce Cubemap",
@@ -1263,9 +1264,9 @@
         "Inspector.ParticleStyle.IntensityFadeOut": "Fade out intenzity",
         "Inspector.ParticleStyle.ClearFades": "Vyčistit fades",
         
-        "Wizard.General.ProcessRoot" : "Zpracovat Root:",
+        "Wizard.General.ProcessRoot" : "Zpracovat root:",
         "Wizard.General.Result" : "Výsledek:",
-        "Wizard.General.ErrorNoRoot" : "Nebyl vybrán žádný Root",
+        "Wizard.General.ErrorNoRoot" : "Nebyl vybrán žádný root",
         "Wizard.General.RemovedResult" : "Odstraněno {n} položek",
 
         "Wizard.AssetOptimization.Title" : "Průvodce optimalizací assetů",
@@ -1283,7 +1284,7 @@
         
         "Wizard.LightSources.Title" : "Průvodce zdroji světla",
         "Wizard.LightSources.Header" : "Zdroje světla scény",
-        "Wizard.LightSources.ProcessRoot" : "Zpracovat Root:",
+        "Wizard.LightSources.ProcessRoot" : "Zpracovat root:",
         "Wizard.LightSources.PointLights" : "Světla z bodu (jako slunce):",
         "Wizard.LightSources.SpotLights" : "Bodová světla:",
         "Wizard.LightSources.DirectionalLights" : "Směrová světla:",
@@ -1296,7 +1297,7 @@
         "Wizard.LightSources.Disable" : "Zakázat",
         "Wizard.LightSources.Destroy" : "Zničit",
 
-        "Wizard.CubemapCreator.Title" : "Tvůrce Cubemap",
+        "Wizard.CubemapCreator.Title" : "Tvůrce cubemap",
         "Wizard.CubemapCreator.Textures" : "Zdrojové textury:",
         "Wizard.CubemapCreator.TexturesNote" : "Všimněte si, že některé konvence mají prohozeny levou a pravou stranu. Pokud vytvořená cubemapa je špatná, zkuste zaměnit levou a pravou texturu.",
         "Wizard.CubemapCreator.PosX" : "Pozitivní X (pravá)",
@@ -1307,8 +1308,8 @@
         "Wizard.CubemapCreator.NegZ" : "Negativní Z (zadek)",
         "Wizard.CubemapCreator.TopBottomRotation" : "Rotace vršek/spodek:",
 
-        "Wizard.ReflectionProbes.Title" : "Reflection Probes",
-        "Wizard.ReflectionProbes.ProcessRoot" : "Zpracovat Root:",
+        "Wizard.ReflectionProbes.Title" : "Reflection proby",
+        "Wizard.ReflectionProbes.ProcessRoot" : "Zpracovat root:",
         "Wizard.ReflectionProbes.ProcessDisabled" : "Zpracování zakázáno",
         "Wizard.ReflectionProbes.WithTag" : "S tagem:",
         "Wizard.ReflectionProbes.TeleportUserToProbe" : "Teleportuj mě ke každé probe",
@@ -1317,6 +1318,15 @@
         "Wizard.ReflectionProbes.HideDebugVisuals" : "Skrýt ladící vizuály",
         "Wizard.ReflectionProbes.BakeProbes" : "Zapéct probes",
         "Wizard.ReflectionProbes.Baking" : "Zapékám {index} z {count}...",
+
+        "Wizard.TextRenderer.Header" : "Průvodce renderování textu",
+        "Wizard.TextRenderer.ProcessRoot" : "Zpracovat root:",
+        "Wizard.TextRenderer.ProcessStandalone": "Zpracovat samostatné",
+        "Wizard.TextRenderer.ProcessUIX": "Zpracovat UIX",
+        "Wizard.TextRenderer.Disabled": "Zpracovat zakázané",
+        "Wizard.TextRenderer.WithTag": "S tagem:",
+        "Wizard.TextRenderer.ReplaceMaterial" : "Nahradit materiál",
+        "Wizard.TextRenderer.ReplaceFont" : "Nahradit font",
 
         "Desktop.OpenKeyboard" : "Otevřít klávesnici",
         "Desktop.FollowCursor.On" : "Následovat kurzor: Zapnuto",
@@ -1748,6 +1758,7 @@
         "Universe.UI.SelectExperience" : "Vyberte si zážitek:",
         "Universe.UI.Narrative" : "Vyprávění",
         "Universe.UI.Freeform" : "Volný",
+        "Universe.UI.RotateToChangeScale" : "Otáčejte pro škálování",
         "Universe.UI.Align" : "Zarovnat",
         "Universe.UI.Add" : "Přidat",
         "Universe.UI.Credits.Title": "Autoři",
