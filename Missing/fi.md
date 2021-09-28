@@ -60,6 +60,7 @@ Wizard.TextRenderer.Disabled
 Wizard.TextRenderer.WithTag  
 Wizard.TextRenderer.ReplaceMaterial  
 Wizard.TextRenderer.ReplaceFont  
+Wizard.TextRenderer.SetColor  
 Tutorial.Streaming.StageControl  
 Tutorial.Streaming.StageUI  
 Tutorial.Streaming.StageLights  
@@ -219,6 +220,13 @@ Universe.UI.Credits.Title
 Universe.UI.Credits.Content  
 Universe.UI.Assets.Title  
 Universe.UI.Assets.Content  
+Universe.UI.NoItemSelected  
+Universe.UI.SelectItem  
+Universe.UI.NoWorldExists  
+Universe.Stars.Lich  
+Universe.Animals.Bee  
+Universe.Common.Daisy  
+Universe.Common.DouglasFir  
 Universe.Wavelength.ExtremeUV  
 Universe.Wavelength.FarUV  
 Universe.Wavelength.MiddleUV  

@@ -1328,6 +1328,7 @@
         "Wizard.TextRenderer.WithTag": "With Tag:",
         "Wizard.TextRenderer.ReplaceMaterial" : "Replace Material",
         "Wizard.TextRenderer.ReplaceFont" : "Replace Font",
+        "Wizard.TextRenderer.SetColor" : "Set Color",
 
         "Desktop.OpenKeyboard": "Open Keyboard",
         "Desktop.FollowCursor.On": "Follow Cursor: On",
@@ -1764,7 +1765,11 @@
         "Universe.UI.Credits.Content" : "Test: One<br>Another: Two<br>This: Is just a test",
         "Universe.UI.Assets.Title" : "Assets",
         "Universe.UI.Assets.Content" : "Test: One<br>Another: Two<br>This: Is just a test",
+        "Universe.UI.NoItemSelected" : "<i><alpha=#44>No item selected</alpha></i>",
+        "Universe.UI.SelectItem" : "Click on the name label of an object in the world to learn more about it!",
+        "Universe.UI.NoWorldExists": "No world exists for this item :(<br><br>Be the first one to create it!",
 
+        "Universe.Stars.Lich": "Lich<br><size=50%>PSR B1257+12 (pulsar)</size>",
         "Universe.Stars.Sun": "Sun",
         "Universe.Stars.Sirius": "Sirius",
         "Universe.Stars.Pollux": "Pollux",
@@ -1776,6 +1781,8 @@
         "Universe.Stars.VYCanisMajoris": "VY Canis Majoris",
         "Universe.Stars.NMLCygni": "NML Cygni",
         "Universe.Stars.UYScuti": "UY Scuti",
+
+        "Universe.Stars.Lich.Wiki": "PSR B1257+12",
 
         "Universe.SolarSystem.Mercury": "Mercury",
         "Universe.SolarSystem.Venus": "Venus",
@@ -1789,6 +1796,7 @@
         "Universe.SolarSystem.Moon": "Moon",
         "Universe.SolarSystem.SolarSystem": "Solar System<br><size=50%>(up to Neptune)</size>",
         "Universe.SolarSystem.Phobos": "Phobos",
+        "Universe.SolarSystem.Deimos": "Deimos",
         "Universe.SolarSystem.Charon": "Charon",
         "Universe.SolarSystem.Mithra": "Asteroid 4486 Mithra",
         "Universe.SolarSystem.Geographos": "Asteroid 1620 Geographos",
@@ -1797,21 +1805,30 @@
         "Universe.SolarSystem.Golevka": "Asteroid 6489 Golevka",
         "Universe.SolarSystem.Toutatis": "Asteroid 4179 Toutatis",
         "Universe.SolarSystem.Bennu": "Asteroid 101955 Bennu",
-        "Universe.SolarSystem.Deimos": "Deimos",
         "Universe.SolarSystem.Ganymede": "Ganymede",
         "Universe.SolarSystem.Callisto": "Callisto",
         "Universe.SolarSystem.AsteroidGanymed": "Ganymed (asteroid)",
+
+        "Universe.SolarSystem.Phobos.Wiki": "Phobos (moon)",
+        "Universe.SolarSystem.Deimos.Wiki": "Deimos (moon)",        
+        "Universe.SolarSystem.Ganymede.Wiki": "Ganymede (moon)",
+        "Universe.SolarSystem.Callisto.Wiki": "Callisto (moon)",
+        "Universe.SolarSystem.Charon.Wiki": "Charon (moon)",
+        "Universe.SolarSystem.AsteroidGanymed.Wiki": "1036 Ganymed",
+
+        "Universe.SolarSystem.SolarSystem.Wiki": "Solar System",
 
         "Universe.Animals.BottlenoseDolphin": "Bottlenose Dolphin",
         "Universe.Animals.Brachiosaurus": "Brachiosaurus",
         "Universe.Animals.FinWhale": "Fin Whale",
         "Universe.Animals.DustMite": "Dust Mite",
         "Universe.Animals.Mouse": "Mouse",
-        "Universe.Animals.GiantSquid": "Giant Squid",
+        "Universe.Animals.GiantSquid": "Giant squid",
         "Universe.Animals.Tardigrade": "Tardigrade",
         "Universe.Animals.TRex": "T-Rex",
         "Universe.Animals.Eel": "Eel",
         "Universe.Animals.Bream": "Bream",
+        "Universe.Animals.Bee": "Bee",
 
         "Universe.Biology.Salmonella": "Salmonella",
         "Universe.Biology.AverageHumanCell": "Human Cell (average)",
@@ -1837,6 +1854,10 @@
         "Universe.Biology.HepatitisB": "Hepatitis B",
         "Universe.Biology.Platelet": "Platelet (active)",
         "Universe.Biology.LargestBacteria": "Largest Bacteria",
+
+        "Universe.Biology.AverageHumanCell.Wiki": "Cell (biology)",
+        "Universe.Biology.Hair.Wiki": "Hair",
+        "Universe.Biology.Platelet.Wiki": "Platelet",
 
         "Universe.Particles.Electron": "Electron",
         "Universe.Particles.Proton": "Proton",
@@ -1867,6 +1888,19 @@
         "Universe.Common.Hailstone": "Hailstone",
         "Universe.Common.FootballField": "Football Field",
         "Universe.Common.Human": "Human",
+        "Universe.Common.Daisy": "Shasta Daisy<br>(diameter)",
+        "Universe.Common.DouglasFir": "Douglas Fir",
+
+        "Universe.Common.SiltParticle.Wiki": "Silt",
+        "Universe.Common.SaltGrain.Wiki": "Salt",
+        "Universe.Common.SandGrain.Wiki": "Sand",
+        "Universe.Common.ClayParticle.Wiki": "Clay",
+        "Universe.Common.USCent.Wiki": "Penny (United States coin)",
+        "Universe.Common.Paper.Wiki": "Paper",
+        "Universe.Common.RiceGrain.Wiki": "Rice",
+        "Universe.Common.Daisy.Wiki": "Leucanthemum × superbum",
+        "Universe.Common.ChickenEgg.Wiki": "Egg",
+        "Universe.Common.OstrichEgg.Wiki": "Egg",
 
         "Universe.Wavelength.Gamma": "Gamma Ray",
         "Universe.Wavelength.XRayHard": "X-Ray (hard)",
@@ -1884,6 +1918,13 @@
         "Universe.Wavelength.FM": "FM Radio",
         "Universe.Wavelength.AM": "AM Radio",
 
+        "Universe.Wavelength.XRayHard.Wiki": "X-Ray",
+        "Universe.Wavelength.XRaySoft.Wiki": "X-Ray",
+        "Universe.Wavelength.FarUV.Wiki": "Ultraviolet",
+        "Universe.Wavelength.MiddleUV.Wiki": "Ultraviolet",
+        "Universe.Wavelength.NearUV.Wiki": "Ultraviolet",
+        "Universe.Wavelength.BlackLight.Wiki": "Ultraviolet",
+
         "Universe.Geology.AllWater": "All Water on Earth",
         "Universe.Geology.LiquidFreshWater": "All liquid fresh water",
         "Universe.Geology.WaterInLakesAndRivers": "All water in lakes and rivers",
@@ -1894,6 +1935,10 @@
         "Universe.Countries.Australia": "Australia",
         "Universe.Cities.Paris": "Paris",
 
+        "Universe.Geology.AllWater.Wiki": "Water distribution on Earth",
+        "Universe.Geology.LiquidFreshWater.Wiki": "Fresh water",
+        "Universe.Geology.WaterInLakesAndRivers.Wiki": "River",
+
         "Universe.Nebulae.Crab": "Crab Nebula",
         "Universe.Nebulae.CatEye": "Cat's Eye Nebula",
         "Universe.Nebulae.Butterfly": "Butterfly Nebula",
@@ -1902,6 +1947,8 @@
         "Universe.Nebulae.Tarantula": "Tarantula Nebula",
         "Universe.Nebulae.Ring": "Ring Nebula",
         "Universe.Nebulae.Eagle": "Eagle Nebula",
+
+        "Universe.Nebulae.NGC604.Wiki": "NGC 604",
 
         "Universe.Technology.TransistorGate": "Transistor Gate",
         "Universe.Technology.CPU": "CPU",
@@ -1916,6 +1963,13 @@
         "Universe.Technology.Ingenuity": "NASA Ingenuity Helicopter",
         "Universe.Technology.CargoShip": "Cargo Ship",
 
+        "Universe.Technology.Ingenuity.Wiki": "Ingenuity (helicopter)",
+        "Universe.Technology.TransistorGate.Wiki": "Transistor",
+        "Universe.Technology.Starship.Wiki": "SpaceX Starship",
+
+        "Universe.Technology.Voyager.Wiki": "Voyager 1",
+        "Universe.Technology.MoonLander.Wiki": "Lunar Lander",
+
         "Universe.Landmarks.EiffelTower": "Eiffel Tower",
         "Universe.Landmarks.DistanceFromLA2SF": "Distance from Los Angeles to San Francisco",
         "Universe.Landmarks.StatueOfLiberty": "Statue of Liberty<br><size=50%>(height without the base)",
@@ -1923,20 +1977,28 @@
         "Universe.Landmarks.MountEverest": "Mount Everest",
         "Universe.Landmarks.LHC": "Large Hadron Collider",
 
+        "Universe.Landmarks.StatueOfLiberty.Wiki": "Statue of Liberty",
+
         "Universe.Chemistry.Ethanol": "Ethanol (alcohol)",
         "Universe.Chemistry.CarbonNanotube": "Carbon Nanotube",
         "Universe.Chemistry.Glucose": "Glucose",
         "Universe.Chemistry.Water": "Water",
 
+        "Universe.Chemistry.Ethanol.Wiki": "Ethanol",
+
         "Universe.Galaxies.MilkyWay": "Milky Way",
-        "Universe.Galaxies.Andromeda": "Andromeda",
-        "Universe.Galaxies.Sombrero": "Sombrero",
+        "Universe.Galaxies.Andromeda": "Andromeda Galaxy",
+        "Universe.Galaxies.Sombrero": "Sombrero Galaxy",
         "Universe.Galaxies.IC1101": "IC 1101 (supergiant galaxy)",
         "Universe.Galaxies.SmallMagellanicCloud": "Small Magellanic Cloud",
         "Universe.Galaxies.NGC1300": "NGC 1300 (barred spiral galaxy)",
         "Universe.Galaxies.NGC4414": "NGC 4414 (unbarred spiral galaxy)",
 
-        "Universe.Universe.GalaxyFillament": "Galaxy Filament",
+        "Universe.Galaxies.IC1101.Wiki": "IC 1101",
+        "Universe.Galaxies.NGC1300.Wiki": "NGC 1300",
+        "Universe.Galaxies.NGC4414.Wiki": "NGC 4414",
+
+        "Universe.Universe.GalaxyFillament": "Galaxy filament",
         "Universe.Universe.StarCluster": "Star Cluster",
         "Universe.Universe.ObservableUniverse": "Observable Universe",
 
@@ -1963,6 +2025,11 @@
         "Universe.Units.Yard": "Yard",
         "Universe.Units.Mile": "Mile",
         "Universe.Units.NauticalMile": "Nautical mile",
+
+        "Universe.Units.Inch.Wiki": "Inch (unit)",
+        "Universe.Units.Foot.Wiki": "Foot (unit)",
+        "Universe.Units.Yard.Wiki": "Yard (unit)",
+        "Universe.Units.Mile.Wiki": "Mile (unit)",
 
         "Temporary.MMC.Voting UI": "MMC Voting UI",
         "Temporary.MMC.Vote": "Vote",

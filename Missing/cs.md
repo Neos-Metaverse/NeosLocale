@@ -11,5 +11,10 @@ Wizard.TextRenderer.Disabled
 Wizard.TextRenderer.WithTag  
 Wizard.TextRenderer.ReplaceMaterial  
 Wizard.TextRenderer.ReplaceFont  
+Wizard.TextRenderer.SetColor  
 Universe.UI.RotateToChangeScale  
+Universe.UI.NoItemSelected  
+Universe.UI.SelectItem  
+Universe.UI.NoWorldExists  
+Universe.Stars.Lich  
 

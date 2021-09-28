@@ -919,6 +919,7 @@ Wizard.TextRenderer.Disabled
 Wizard.TextRenderer.WithTag  
 Wizard.TextRenderer.ReplaceMaterial  
 Wizard.TextRenderer.ReplaceFont  
+Wizard.TextRenderer.SetColor  
 Desktop.OpenKeyboard  
 Desktop.FollowCursor.On  
 Desktop.FollowCursor.Off  
@@ -1281,6 +1282,10 @@ Universe.UI.Credits.Title
 Universe.UI.Credits.Content  
 Universe.UI.Assets.Title  
 Universe.UI.Assets.Content  
+Universe.UI.NoItemSelected  
+Universe.UI.SelectItem  
+Universe.UI.NoWorldExists  
+Universe.Stars.Lich  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  
 Universe.Stars.Pollux  
@@ -1304,6 +1309,7 @@ Universe.SolarSystem.Pluto
 Universe.SolarSystem.Moon  
 Universe.SolarSystem.SolarSystem  
 Universe.SolarSystem.Phobos  
+Universe.SolarSystem.Deimos  
 Universe.SolarSystem.Charon  
 Universe.SolarSystem.Mithra  
 Universe.SolarSystem.Geographos  
@@ -1312,7 +1318,6 @@ Universe.SolarSystem.HW1
 Universe.SolarSystem.Golevka  
 Universe.SolarSystem.Toutatis  
 Universe.SolarSystem.Bennu  
-Universe.SolarSystem.Deimos  
 Universe.SolarSystem.Ganymede  
 Universe.SolarSystem.Callisto  
 Universe.SolarSystem.AsteroidGanymed  
@@ -1326,6 +1331,7 @@ Universe.Animals.Tardigrade
 Universe.Animals.TRex  
 Universe.Animals.Eel  
 Universe.Animals.Bream  
+Universe.Animals.Bee  
 Universe.Biology.Salmonella  
 Universe.Biology.AverageHumanCell  
 Universe.Biology.Bacteriophage  
@@ -1378,6 +1384,8 @@ Universe.Common.BasketBall
 Universe.Common.Hailstone  
 Universe.Common.FootballField  
 Universe.Common.Human  
+Universe.Common.Daisy  
+Universe.Common.DouglasFir  
 Universe.Wavelength.Gamma  
 Universe.Wavelength.XRayHard  
 Universe.Wavelength.XRaySoft  

@@ -1802,6 +1802,7 @@
         "Universe.Animals.TRex": "Tyrannosaurus",
         "Universe.Animals.Eel": "Úhoř",
         "Universe.Animals.Bream": "Cejn",
+        "Universe.Animals.Bee": "Včela",
 
         "Universe.Biology.Salmonella": "Salmonella",
         "Universe.Biology.AverageHumanCell": "Lidská buňka (průměrná)",
@@ -1857,6 +1858,8 @@
         "Universe.Common.Hailstone": "Kroup",
         "Universe.Common.FootballField": "Fotbalové Hřiště",
         "Universe.Common.Human": "Člověk",
+        "Universe.Common.Daisy": "Sedmikráska (Shasta)<br>(průměr)",
+        "Universe.Common.DouglasFir": "Douglaska tisolistá",
 
         "Universe.Wavelength.Gamma": "Záření Gama",
         "Universe.Wavelength.XRayHard": "Rentgenové záření (tvrdé)",
@@ -1912,6 +1915,8 @@
         "Universe.Landmarks.PyramidOfKhafre": "Rachefova pyramida",
         "Universe.Landmarks.MountEverest": "Mount Everest",
         "Universe.Landmarks.LHC": "Velký hadronový urychlovač (LHC)",
+
+        "Universe.Landmarks.StatueOfLiberty.Wiki": "Socha svobody",
 
         "Universe.Chemistry.Ethanol": "Ethanol (alkohol)",
         "Universe.Chemistry.CarbonNanotube": "Uhlíková nanotrubice",
