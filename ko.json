@@ -1926,6 +1926,14 @@
         "General.UI.VoiceVolumeLocal" : "음성 볼륨(로컬):",
         "General.UI.SoundVolumeLocal" : "음향 볼륨(로컬):",
 		
+        "General.UI.ToggleSubtitles" : "자막 토글",
+        "General.UI.PressToBegin" : "누르면 시작합니다.",
+        "CameraControl.Anchors.LinearInterpolation": "등속전환",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "블렌드셰이프 법선 재계산",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "블렌드셰이프 법선 재계산(스무스 셰이딩)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "블렌드셰이프 탄젠트 재계산(Mikktspace)",
+        "Universe.UI.RotateToChangeScale" : "회전으로 배율 변경",
+		
         "Dummy": "더미"
     }
 }
