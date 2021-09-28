@@ -1907,7 +1907,14 @@
         "Universe.UI.Credits.Content" : "테스트: 하나<br>그외: 둘<br>이것: 테스트입니다.",
         "Universe.UI.Assets.Title" : "에셋",
         "Universe.UI.Assets.Content" : "테스트: 하나<br>그외: 둘<br>이것: 테스트입니다.",
-		
+        "Universe.UI.NoItemSelected" : "<i><alpha=#44>선택된 대상이 없습니다.</alpha></i>",
+        "Universe.UI.SelectItem" : "더 자세히 알아보시려면, 월드에서 대상의 이름을 클릭해 보세요!",
+        "Universe.UI.NoWorldExists": "이 항목에 대한 월드가 존재하지 않습니다. :(<br><br>가장 먼저 월드를 만들어 보세요!",
+        "Universe.Stars.Lich": "Lich<br><size=50%>PSR B1257+12 (펄서)</size>",
+        "Universe.Animals.Bee": "벌",
+        "Universe.Common.Daisy": "샤스타 데이지<br>(지름)",
+        "Universe.Common.DouglasFir": "미송(더글러스 전나무)",
+
         "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "현재 형태에서 명확한 경계를 계산",
         "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "현재 형태에서 경계 확장",
         "Inspector.SkinnedMesh.BakeToStaticMesh": "정적 메시로 베이크",
@@ -1943,6 +1950,7 @@
         "Wizard.TextRenderer.WithTag": "Tag로 대상 지정:",
         "Wizard.TextRenderer.ReplaceMaterial" : "머티리얼 변경",
         "Wizard.TextRenderer.ReplaceFont" : "폰트 변경",
+		"Wizard.TextRenderer.SetColor" : "색상지정",
 		
         "Dummy": "더미"
     }
