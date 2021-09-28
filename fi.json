@@ -29,6 +29,14 @@
 
         "General.UI.SearchPrompt": "Etsi...",
         "General.UI.SearchPromptLong": "Kirjoita etsiäksesi...",
+        "General.UI.ToggleEditMode": "Muokkaustila",
+        "General.UI.ToggleSubtitles": "Tekstitykset",
+
+        "General.UI.MusicVolumeLocal": "Musiikin voimakkuus (lokaali):",
+        "General.UI.VoiceVolumeLocal": "Puheen voimakkuus (lokaali):",
+        "General.UI.SoundVolumeLocal": "Äänien voimakkuus (lokaali):",
+
+        "General.UI.PressToBegin": "Paina aloittaaksesi",
 
         "General.Sort.Ascending": "Nousevasti",
         "General.Sort.Descending": "Laskevasti",
@@ -856,6 +864,7 @@
 
         "CameraControl.Anchors.Interpolate": "Interpoloi ankkureiden välillä",
         "CameraControl.Anchors.InterpolationSpeed": "Ankkurin interpolaation nopeus:",
+        "CameraControl.Anchors.LinearInterpolation": "Lineaarinen interpolointi",
         "CameraControl.Anchors.NoAnchors": "Ei kamera-ankkureita tässä maailmassa",
 
         "CameraControl.Positioning.FieldOfView": "Näkökenttä",
@@ -1068,13 +1077,16 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Laske normaalit uudelleen (pehmeä sävytin)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Laske tangentit uudelleen (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Laske tangentit uudelleen (yksinkertainen)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Laske Blendshapejen normaalit uudelleen",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Laske Blendshapejen normaalit uudelleen (pehmeä sävytin)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Laske Blendshapejen tangentit uudelleen (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Käännä normaalit",
 
         "Inspector.Mesh.MakeDualSided": "Vaihda kaksipuoleiseksi",
         "Inspector.Mesh.ConvertToFlatShading": "Muunna tasasävytteiseksi",
         "Inspector.Mesh.ConvertToConvexHull": "Muunna Convex Hulliksi",
         "Inspector.Mesh.ConvertToPointCloud": "Muunna pistepilveksi",
-        "Inspector.Mesh.MergeDoubles": "Yhdistä kaksinkertaiset",
+        "Inspector.Mesh.MergeDoubles": "Yhdistä tuplat",
         "Inspector.Mesh.StripEmptyBlendshapes": "Poista tyhjät Blendshapet",
         "Inspector.Mesh.StripBlendshapeNormals": "Poista Blendshapejen normaalit",
         "Inspector.Mesh.StripBlendshapeTangents": "Poista Blendshapejen tangentit",
@@ -1735,8 +1747,13 @@
         "Universe.UI.SelectExperience": "Valitse kokemuksesi:",
         "Universe.UI.Narrative": "Kertomus",
         "Universe.UI.Freeform": "Vapaamuotoinen",
+        "Universe.UI.RotateToChangeScale": "Vaihda skaalaa kiertämällä",
         "Universe.UI.Align": "Kohdista",
         "Universe.UI.Add": "Lisää",
+
+
+
+
 
         "Universe.Stars.Sun": "Aurinko",
         "Universe.Stars.Sirius": "Sirius",
@@ -1760,7 +1777,7 @@
         "Universe.SolarSystem.Neptune": "Neptunus",
         "Universe.SolarSystem.Pluto": "Pluto",
         "Universe.SolarSystem.Moon": "Kuu",
-        "Universe.SolarSystem.SolarSystem": "Aurinkokunta",
+        "Universe.SolarSystem.SolarSystem": "Aurinkokunta<br><size=50%>(Neptunukseen asti)</size>",
         "Universe.SolarSystem.Phobos": "Phobos",
         "Universe.SolarSystem.Charon": "Kharon",
         "Universe.SolarSystem.Mithra": "4486 Mithra (asteroidi)",
