@@ -37,6 +37,10 @@ Inspector.ParticleStyle.IntensityFadeInOut
 Inspector.ParticleStyle.IntensityFadeIn  
 Inspector.ParticleStyle.IntensityFadeOut  
 Inspector.ParticleStyle.ClearFades  
+Inspector.Collider.SetFromLocalBounds  
+Inspector.Collider.SetFromGlobalBounds  
+Inspector.Collider.SetFromLocalBoundsPrecise  
+Inspector.Collider.SetFromGlobalBoundsPrecise  
 Wizard.TextRenderer.Header  
 Wizard.TextRenderer.ProcessRoot  
 Wizard.TextRenderer.ProcessStandalone  

@@ -218,6 +218,10 @@ Inspector.ParticleStyle.IntensityFadeInOut
 Inspector.ParticleStyle.IntensityFadeIn  
 Inspector.ParticleStyle.IntensityFadeOut  
 Inspector.ParticleStyle.ClearFades  
+Inspector.Collider.SetFromLocalBounds  
+Inspector.Collider.SetFromGlobalBounds  
+Inspector.Collider.SetFromLocalBoundsPrecise  
+Inspector.Collider.SetFromGlobalBoundsPrecise  
 Wizard.AssetOptimization.CleanupUnusedAssets  
 Wizard.LightSources.Title  
 Wizard.LightSources.Header  

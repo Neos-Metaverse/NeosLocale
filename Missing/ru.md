@@ -3,6 +3,10 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Russian [ru]
 CreateNew.Editor.TextRendererWizard  
+Inspector.Collider.SetFromLocalBounds  
+Inspector.Collider.SetFromGlobalBounds  
+Inspector.Collider.SetFromLocalBoundsPrecise  
+Inspector.Collider.SetFromGlobalBoundsPrecise  
 Wizard.TextRenderer.Header  
 Wizard.TextRenderer.ProcessRoot  
 Wizard.TextRenderer.ProcessStandalone  

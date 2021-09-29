@@ -1265,6 +1265,11 @@
         "Inspector.ParticleStyle.IntensityFadeOut": "Intensity Fade Out",
         "Inspector.ParticleStyle.ClearFades": "Clear Fades",
 
+        "Inspector.Collider.SetFromLocalBounds": "Set from local bounds",
+        "Inspector.Collider.SetFromGlobalBounds": "Set from global bounds",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Set from local bounds (precise)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Set from global bounds (precise)",
+
         "Wizard.General.ProcessRoot": "Process Root:",
         "Wizard.General.Result": "Result:",
         "Wizard.General.ErrorNoRoot": "No Root Selected",

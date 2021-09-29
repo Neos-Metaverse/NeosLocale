@@ -196,6 +196,10 @@ Inspector.ParticleStyle.IntensityFadeInOut
 Inspector.ParticleStyle.IntensityFadeIn  
 Inspector.ParticleStyle.IntensityFadeOut  
 Inspector.ParticleStyle.ClearFades  
+Inspector.Collider.SetFromLocalBounds  
+Inspector.Collider.SetFromGlobalBounds  
+Inspector.Collider.SetFromLocalBoundsPrecise  
+Inspector.Collider.SetFromGlobalBoundsPrecise  
 Wizard.General.ProcessRoot  
 Wizard.General.Result  
 Wizard.General.ErrorNoRoot  

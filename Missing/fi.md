@@ -51,6 +51,10 @@ Inspector.DynamicBoneChain.ReplaceSmoothTransforms
 Inspector.DynamicBoneChain.ClearSmoothTransforms  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.CharacterController.Warning  
+Inspector.Collider.SetFromLocalBounds  
+Inspector.Collider.SetFromGlobalBounds  
+Inspector.Collider.SetFromLocalBoundsPrecise  
+Inspector.Collider.SetFromGlobalBoundsPrecise  
 Wizard.AssetOptimization.CleanupFileItems  
 Wizard.TextRenderer.Header  
 Wizard.TextRenderer.ProcessRoot  
