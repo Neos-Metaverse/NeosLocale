@@ -1270,6 +1270,8 @@
         "Inspector.Collider.SetFromLocalBoundsPrecise": "Set from local bounds (precise)",
         "Inspector.Collider.SetFromGlobalBoundsPrecise": "Set from global bounds (precise)",
         "Inspector.Collider.SetFromPreciseBounds": "Set from precise bounds",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Set from precise cylinder bounds",
+        "Inspector.Collider.Visualize": "Visualize Collider",
 
         "Wizard.General.ProcessRoot": "Process Root:",
         "Wizard.General.Result": "Result:",

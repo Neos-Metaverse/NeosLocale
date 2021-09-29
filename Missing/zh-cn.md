@@ -110,6 +110,8 @@ Inspector.Collider.SetFromGlobalBounds
 Inspector.Collider.SetFromLocalBoundsPrecise  
 Inspector.Collider.SetFromGlobalBoundsPrecise  
 Inspector.Collider.SetFromPreciseBounds  
+Inspector.Collider.SetFromPreciseCylinderBounds  
+Inspector.Collider.Visualize  
 Wizard.TextRenderer.Header  
 Wizard.TextRenderer.ProcessRoot  
 Wizard.TextRenderer.ProcessStandalone  
