@@ -6,6 +6,7 @@ Inspector.Collider.SetFromLocalBounds
 Inspector.Collider.SetFromGlobalBounds  
 Inspector.Collider.SetFromLocalBoundsPrecise  
 Inspector.Collider.SetFromGlobalBoundsPrecise  
+Inspector.Collider.SetFromPreciseBounds  
 Wizard.TextRenderer.SetColor  
 Universe.UI.NoItemSelected  
 Universe.UI.SelectItem  

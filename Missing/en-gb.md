@@ -1086,6 +1086,7 @@ Inspector.Collider.SetFromLocalBounds
 Inspector.Collider.SetFromGlobalBounds  
 Inspector.Collider.SetFromLocalBoundsPrecise  
 Inspector.Collider.SetFromGlobalBoundsPrecise  
+Inspector.Collider.SetFromPreciseBounds  
 Wizard.General.ProcessRoot  
 Wizard.General.Result  
 Wizard.General.ErrorNoRoot  

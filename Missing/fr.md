@@ -41,6 +41,7 @@ Inspector.Collider.SetFromLocalBounds
 Inspector.Collider.SetFromGlobalBounds  
 Inspector.Collider.SetFromLocalBoundsPrecise  
 Inspector.Collider.SetFromGlobalBoundsPrecise  
+Inspector.Collider.SetFromPreciseBounds  
 Wizard.TextRenderer.Header  
 Wizard.TextRenderer.ProcessRoot  
 Wizard.TextRenderer.ProcessStandalone  

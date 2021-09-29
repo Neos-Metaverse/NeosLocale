@@ -222,6 +222,7 @@ Inspector.Collider.SetFromLocalBounds
 Inspector.Collider.SetFromGlobalBounds  
 Inspector.Collider.SetFromLocalBoundsPrecise  
 Inspector.Collider.SetFromGlobalBoundsPrecise  
+Inspector.Collider.SetFromPreciseBounds  
 Wizard.AssetOptimization.CleanupUnusedAssets  
 Wizard.LightSources.Title  
 Wizard.LightSources.Header  

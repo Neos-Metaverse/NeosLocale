@@ -152,6 +152,7 @@ Inspector.Collider.SetFromLocalBounds
 Inspector.Collider.SetFromGlobalBounds  
 Inspector.Collider.SetFromLocalBoundsPrecise  
 Inspector.Collider.SetFromGlobalBoundsPrecise  
+Inspector.Collider.SetFromPreciseBounds  
 Wizard.CubemapCreator.Title  
 Wizard.TextRenderer.Header  
 Wizard.TextRenderer.ProcessRoot  
