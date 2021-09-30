@@ -119,6 +119,7 @@ Inspector.Mesh.SetupRenderer
 Inspector.Mesh.RecalculateBlendshapeNormals  
 Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
 Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
+Inspector.Mesh.MergeBlendshapes  
 Inspector.Mesh.UV_Multiplicator  
 Inspector.MeshCollider.VHACD  
 Inspector.VHACD.Parameter.PlaneDownsampling  

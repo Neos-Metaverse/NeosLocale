@@ -78,6 +78,7 @@ Inspector.Mesh.SetupRenderer
 Inspector.Mesh.RecalculateBlendshapeNormals  
 Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
 Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
+Inspector.Mesh.MergeBlendshapes  
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  

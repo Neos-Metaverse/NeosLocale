@@ -5,7 +5,6 @@ Note that this file updates only during Neos build process and doesn't necessari
 World.Detail.Users.Count  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
-CreateNew.Editor.TextRendererWizard  
 Importer.Model.Advanced.SkinnedMeshes  
 FullBody.CalibrateTrackersInstructions  
 FullBody.ShowBodyOverlay  
@@ -23,6 +22,7 @@ Inspector.Slot.ParentUnder.WorldRoot.Undo
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Mesh.ReverseWinding  
+Inspector.Mesh.MergeBlendshapes  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
 Inspector.Mesh.UV_Multiplicator  
@@ -57,17 +57,7 @@ Inspector.Collider.SetFromLocalBoundsPrecise
 Inspector.Collider.SetFromGlobalBoundsPrecise  
 Inspector.Collider.SetFromPreciseBounds  
 Inspector.Collider.SetFromPreciseCylinderBounds  
-Inspector.Collider.Visualize  
 Wizard.AssetOptimization.CleanupFileItems  
-Wizard.TextRenderer.Header  
-Wizard.TextRenderer.ProcessRoot  
-Wizard.TextRenderer.ProcessStandalone  
-Wizard.TextRenderer.ProcessUIX  
-Wizard.TextRenderer.Disabled  
-Wizard.TextRenderer.WithTag  
-Wizard.TextRenderer.ReplaceMaterial  
-Wizard.TextRenderer.ReplaceFont  
-Wizard.TextRenderer.SetColor  
 Tutorial.Streaming.StageControl  
 Tutorial.Streaming.StageUI  
 Tutorial.Streaming.StageLights  
@@ -227,13 +217,8 @@ Universe.UI.Credits.Title
 Universe.UI.Credits.Content  
 Universe.UI.Assets.Title  
 Universe.UI.Assets.Content  
-Universe.UI.NoItemSelected  
 Universe.UI.SelectItem  
 Universe.UI.NoWorldExists  
-Universe.Stars.Lich  
-Universe.Animals.Bee  
-Universe.Common.Daisy  
-Universe.Common.DouglasFir  
 Universe.Wavelength.ExtremeUV  
 Universe.Wavelength.FarUV  
 Universe.Wavelength.MiddleUV  

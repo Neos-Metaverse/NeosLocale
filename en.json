@@ -1091,6 +1091,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Strip Empty Blendshapes",
         "Inspector.Mesh.StripBlendshapeNormals": "Strip Blendshape Normals",
         "Inspector.Mesh.StripBlendshapeTangents": "Strip Blendshape Tangents",
+        "Inspector.Mesh.MergeBlendshapes": "Merge Blendshapes",
 
         "Inspector.Mesh.GetBoneList": "Get Bone List",
         "Inspector.Mesh.GetBoneData": "Get Bone Data",

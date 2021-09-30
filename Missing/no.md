@@ -184,6 +184,7 @@ Inspector.Mesh.RecalculateBlendshapeNormals
 Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
 Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.Mesh.ConvertToPointCloud  
+Inspector.Mesh.MergeBlendshapes  
 Inspector.MeshRenderer.MergeByMaterial  
 Inspector.MeshRenderer.SplitByMaterial  
 Inspector.MeshCollider.VHACD  

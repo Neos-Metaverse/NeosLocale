@@ -713,6 +713,7 @@ Inspector.Mesh.MergeDoubles
 Inspector.Mesh.StripEmptyBlendshapes  
 Inspector.Mesh.StripBlendshapeNormals  
 Inspector.Mesh.StripBlendshapeTangents  
+Inspector.Mesh.MergeBlendshapes  
 Inspector.Mesh.GetBoneList  
 Inspector.Mesh.GetBoneData  
 Inspector.Mesh.TrimVertexBoneWeightsTo  

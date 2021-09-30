@@ -23,6 +23,7 @@ CameraControl.Anchors.LinearInterpolation
 Inspector.Mesh.RecalculateBlendshapeNormals  
 Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
 Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
+Inspector.Mesh.MergeBlendshapes  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
 Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
