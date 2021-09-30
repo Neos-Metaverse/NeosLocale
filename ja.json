@@ -1264,6 +1264,14 @@
         "Inspector.ParticleStyle.IntensityFadeOut": "インテンシティフェードアウト",
         "Inspector.ParticleStyle.ClearFades": "フェードを除去",
 
+        "Inspector.Collider.SetFromLocalBounds": "ローカルバウンドで設定",
+        "Inspector.Collider.SetFromGlobalBounds": "グローバルバウンドで設定",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "ローカルバウンドで設定(正確)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "グローバルバウンドで設定(正確)",
+        "Inspector.Collider.SetFromPreciseBounds": "正確なバウンドを設定",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "正確なシリンダーバウンドで設定",
+        "Inspector.Collider.Visualize": "コライダーを可視化",
+
         "Wizard.General.ProcessRoot": "プロセスルート:",
         "Wizard.General.Result": "結果:",
         "Wizard.General.ErrorNoRoot": "ルートが選択されていません",
