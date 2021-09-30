@@ -275,7 +275,7 @@
         "World.Filter.UserOwner": "Omistaja on käyttäjä",
         "World.Filter.GroupOwner": "Omistaja on ryhmä",
         "World.Filter.SubmittedToGroup": "Ryhmän julkaisema:",
-        "World.Filter.Featured": "Vain esitelyssä olevat",
+        "World.Filter.Featured": "Vain esittelyssä olevat",
         "World.Filter.MyWorlds": "Minun maailmani",
         "World.Filter.SessionFiltering": "Sessioiden suodatus:",
         "World.Filter.MinimumUsers": "Minimi käyttäjämäärä: <b>{n}</b>",
@@ -582,7 +582,8 @@
 
         "CreateNew.Editor": "Editori",
         "CreateNew.Editor.UserInspector": "Käyttäjätarkastaja",
-        "CreateNew.Editor.LightSourcesWizard": "Maailman valonlähteiden asetukset",
+        "CreateNew.Editor.LightSourcesWizard": "Valonlähteiden asetukset",
+        "CreateNew.Editor.TextRendererWizard": "Tekstin renderöijän asetukset",
         "CreateNew.Editor.AssetOptimizationWizard": "Resurssien optimointi",
         "CreateNew.Editor.LogixTransferWizard": "LogiX siirto",
         "CreateNew.Editor.CubemapCreator": "Cubemap luoja",
@@ -1264,6 +1265,14 @@
         "Inspector.ParticleStyle.IntensityFadeOut": "Voimakkuuden loppuhäivytys",
         "Inspector.ParticleStyle.ClearFades": "Poista häivytykset",
 
+
+
+
+
+
+
+        "Inspector.Collider.Visualize": "Visualisoi törmäyttimet",
+
         "Wizard.General.ProcessRoot": "Prosessointipolku:",
         "Wizard.General.Result": "Tulos:",
         "Wizard.General.ErrorNoRoot": "Polkua ei määritetty",
@@ -1319,6 +1328,16 @@
         "Wizard.ReflectionProbes.BakeProbes": "Beikkaa anturit",
         "Wizard.ReflectionProbes.Baking": "Beikkaa {index} / {count}...",
 
+        "Wizard.TextRenderer.Header": "Tekstiasetukset",
+        "Wizard.TextRenderer.ProcessRoot": "Prosessointipolku:",
+        "Wizard.TextRenderer.ProcessStandalone": "Prosessoi yksittäinen",
+        "Wizard.TextRenderer.ProcessUIX": "Prosessoi UIX",
+        "Wizard.TextRenderer.Disabled": "Prosessi pois käytöstä",
+        "Wizard.TextRenderer.WithTag": "Tägillä:",
+        "Wizard.TextRenderer.ReplaceMaterial": "Korvaa materiaali",
+        "Wizard.TextRenderer.ReplaceFont": "Korvaa fontti",
+        "Wizard.TextRenderer.SetColor": "Aseta väri",
+
         "Desktop.OpenKeyboard": "Avaa näppäimistö",
         "Desktop.FollowCursor.On": "Seuraa osoitinta: Päällä",
         "Desktop.FollowCursor.Off": "Seuraa osoitinta: Pois",
@@ -1342,7 +1361,7 @@
         "Tutorial.Welcome.AccountSkipConfirm": "Varmista ohitus",
 
         "Tutorial.Welcome.SettingsHeader": "Perusasetukset",
-        "Tutorial.Welcome.SettingsDescription": "Voit määrittää liikeen ja käyttäjän perusasetukset. Kaikkia näitä asetuksia voi myös muokata myöhemmin",
+        "Tutorial.Welcome.SettingsDescription": "Voit määrittää liikkeen ja käyttäjän perusasetukset. Kaikkia näitä asetuksia voi myös muokata myöhemmin",
         "Tutorial.Welcome.SettingsTurning": "Kääntymistyyli",
         "Tutorial.Welcome.SettingsSnapTurn": "Napsautus kääntyminen",
         "Tutorial.Welcome.SettingsSnapTurnDescription": "Kääntyminen tapahtuu välittömästi napsahtamalla uuteen kulmaan. Ideaali uusille käyttäjille.",
@@ -1387,11 +1406,11 @@
         "Tutorial.Intro.DestroyingDuplicatingScreen": "Kun pidät esinettä kädessäsi, voit <b><color=#ffdd77>poistaa</color></b> sen <color=#ffdd77><b>säde -valikon</b></color> toiminnolla, tai painamalla <color=#77ff77><b>Delete</b></color> näppäintä. <color=#ffdd77><b>Kopiointi</b></color> onnistuu <color=#ffdd77><b>säde -valikon</b></color> toiminnolla.",
 
         "Tutorial.Intro.ScalingYourselfTitle": "Skaalaa itseäsi",
-        "Tutorial.Intro.ScalingYourselfVR": "<color=#ffdd77><b>Skaalataksesi itseäsi</b></color> pistä skaalautuvuus päälle sinun säde -valikosta, sitten pidä kiinni molemmista <color=#77ff77><b>tarraus napeista</b></color> ja ala liikuttamaan käsiäsi <color=#77ddff><b>lähemmäksi tai kauemmasi</b></color> toisistaan.",
+        "Tutorial.Intro.ScalingYourselfVR": "<color=#ffdd77><b>Skaalataksesi itseäsi</b></color> pistä skaalautuvuus päälle sinun säde -valikosta, sitten pidä kiinni molemmista <color=#77ff77><b>tarraus napeista</b></color> ja ala liikuttamaan käsiäsi <color=#77ddff><b>lähemmäksi tai kauemmaksi</b></color> toisistaan.",
         "Tutorial.Intro.ScalingYourselfScreen": "<color=#ffdd77><b>Skaalataksesi itseäsi</b></color> avaa <color=#ffdd77><b>säde -valikko</b></color> ja pistä skaalautuvuus päälle, sitten pidä <color=#77ff77><b>Ctrl</b></color> pohjassa ja käytä <color=#77ff77><b>hiiren rullaa</b></color>.",
 
         "Tutorial.Intro.LocomotionTitle": "Liikkumistyyli",
-        "Tutorial.Intro.LocomotionDescription": "Neoksessa on monta erillaista liikkumistapaa.<br>Nämä liikkumistyylit ovat saatavilla sinun <color=#ffdd77>säde -valikosta</color>.",
+        "Tutorial.Intro.LocomotionDescription": "Neoksessa on monta erilaista liikkumistapaa.<br>Nämä liikkumistyylit ovat saatavilla sinun <color=#ffdd77>säde -valikosta</color>.",
 
         "Tutorial.Intro.DashboardTitle": "Neos liukuvalikko",
         "Tutorial.Intro.DashboardDescription": "<color=#ffdd77><b>Liukuvalikko</b></color> on sinun päävalikko.<br>Pystyt avaamaan ja sulkemaan sen painamalla <color=#77ff77><b>{button}</b></color>.",
@@ -1418,7 +1437,7 @@
         "Tutorial.Intro.Website": "Verkkosivut",
         "Tutorial.Intro.OutroEnd": "Voit tukea Neosta liittymällä Patreoniin.<br><br>Voit myös liittyä Neos Discordiin päivityksiä, verkostoitumista ja teknistä tukea varten.",
 
-        "Tutorial.MTC.Avatars": "Avatarit & Sosiaalliset",
+        "Tutorial.MTC.Avatars": "Avatarit & Sosiaaliset",
         "Tutorial.MTC.Creation": "Luominen & Hyödylliset",
         "Tutorial.MTC.RecordingStreaming": "Nauhoitus & Striimaus",
 
@@ -1513,7 +1532,7 @@
 
         "Tutorial.CommunityYouTube.Title": "Yhteisön YouTube kanavia",
 
-        "Tutorial.UserResources.UserResourcesTitle": "Yhteisö resurrseja",
+        "Tutorial.UserResources.UserResourcesTitle": "Yhteisöresursseja",
         "Tutorial.UserResources.SupportTitle": "Kuinka voit tukea Neosta",
         "Tutorial.UserResources.MerchandiseTitle": "Neos tuotteita",
 
@@ -1754,7 +1773,11 @@
 
 
 
+        "Universe.UI.NoItemSelected": "<i><alpha=#44>Ei valintaa</alpha></i>",
 
+
+
+        "Universe.Stars.Lich": "Lich<br><size=50%>PSR B1257+12 (pulsari)</size>",
         "Universe.Stars.Sun": "Aurinko",
         "Universe.Stars.Sirius": "Sirius",
         "Universe.Stars.Pollux": "Pollux",
@@ -1766,6 +1789,8 @@
         "Universe.Stars.VYCanisMajoris": "VY Canis Majoris",
         "Universe.Stars.NMLCygni": "NML Cygni",
         "Universe.Stars.UYScuti": "UY Scuti",
+
+
 
         "Universe.SolarSystem.Mercury": "Merkurius",
         "Universe.SolarSystem.Venus": "Venus",
@@ -1779,6 +1804,7 @@
         "Universe.SolarSystem.Moon": "Kuu",
         "Universe.SolarSystem.SolarSystem": "Aurinkokunta<br><size=50%>(Neptunukseen asti)</size>",
         "Universe.SolarSystem.Phobos": "Phobos",
+        "Universe.SolarSystem.Deimos": "Deimos",
         "Universe.SolarSystem.Charon": "Kharon",
         "Universe.SolarSystem.Mithra": "4486 Mithra (asteroidi)",
         "Universe.SolarSystem.Geographos": "1620 Geographos (asteroidi)",
@@ -1787,10 +1813,18 @@
         "Universe.SolarSystem.Golevka": "6489 Golevka (asteroidi)",
         "Universe.SolarSystem.Toutatis": "4179 Toutatis (asteroidi)",
         "Universe.SolarSystem.Bennu": "101955 Bennu (asteroidi)",
-        "Universe.SolarSystem.Deimos": "Deimos",
         "Universe.SolarSystem.Ganymede": "Ganymedes",
         "Universe.SolarSystem.Callisto": "Kallisto",
         "Universe.SolarSystem.AsteroidGanymed": "Ganymedes (asteroidi)",
+
+
+
+
+
+
+
+
+
 
         "Universe.Animals.BottlenoseDolphin": "Pullonokkadelfiini",
         "Universe.Animals.Brachiosaurus": "Brachiosaurus",
@@ -1802,6 +1836,7 @@
         "Universe.Animals.TRex": "Tyrannosaurus rex",
         "Universe.Animals.Eel": "Ankerias",
         "Universe.Animals.Bream": "Lahna",
+        "Universe.Animals.Bee": "Mehiläinen",
 
         "Universe.Biology.Salmonella": "Salmonella",
         "Universe.Biology.AverageHumanCell": "Ihmisen solu (keskimääräinen)",
@@ -1827,6 +1862,10 @@
         "Universe.Biology.HepatitisB": "B-hepatiitti",
         "Universe.Biology.Platelet": "Verihiutale (aktiivinen)",
         "Universe.Biology.LargestBacteria": "Isoin bakteeri",
+
+
+
+
 
         "Universe.Particles.Electron": "Elektroni",
         "Universe.Particles.Proton": "Protoni",
@@ -1857,6 +1896,19 @@
         "Universe.Common.Hailstone": "Lumirae",
         "Universe.Common.FootballField": "Jalkapallokenttä",
         "Universe.Common.Human": "Ihminen",
+        "Universe.Common.Daisy": "Isopäivänkakkara<br>(halkaisija)",
+        "Universe.Common.DouglasFir": "Lännendouglaskuusi",
+
+
+
+
+
+
+
+
+
+
+
 
         "Universe.Wavelength.Gamma": "Gammasäde",
         "Universe.Wavelength.XRayHard": "Röntgensäde (kova)",
@@ -1874,6 +1926,13 @@
         "Universe.Wavelength.FM": "FM radio",
         "Universe.Wavelength.AM": "AM radio",
 
+
+
+
+
+
+
+
         "Universe.Geology.AllWater": "Kaikki vesi maapallolla",
         "Universe.Geology.LiquidFreshWater": "Kaikki makea vesi",
         "Universe.Geology.WaterInLakesAndRivers": "Kaikki vesi järvissä ja joissa",
@@ -1884,14 +1943,20 @@
         "Universe.Countries.Australia": "Australia",
         "Universe.Cities.Paris": "Pariisi",
 
+
+
+
+
         "Universe.Nebulae.Crab": "Rapusumu",
         "Universe.Nebulae.CatEye": "Kissansilmäsumu",
         "Universe.Nebulae.Butterfly": "Perhossumu",
-        "Universe.Nebulae.NGC604": "NGC 604 (emissiosumu)",
+        "Universe.Nebulae.NGC604": "NGC 604 emissiosumu",
         "Universe.Nebulae.Orion": "Orionin sumu",
         "Universe.Nebulae.Tarantula": "Tarantellasumu",
         "Universe.Nebulae.Ring": "Lyyran rengassumu",
         "Universe.Nebulae.Eagle": "Kotkasumu",
+
+
 
         "Universe.Technology.TransistorGate": "Transistoriportti",
         "Universe.Technology.CPU": "Prosessori",
@@ -1906,6 +1971,13 @@
         "Universe.Technology.Ingenuity": "NASA Ingenuity helikopteri",
         "Universe.Technology.CargoShip": "Rahtilaiva",
 
+
+
+
+
+
+
+
         "Universe.Landmarks.EiffelTower": "Eiffel-torni",
         "Universe.Landmarks.DistanceFromLA2SF": "Etäisyys Los Angelesista San Franciscoon",
         "Universe.Landmarks.StatueOfLiberty": "Vapaudenpatsas<br><size=50%>(korkeus ilman jalustaa)",
@@ -1913,10 +1985,14 @@
         "Universe.Landmarks.MountEverest": "Mount Everest",
         "Universe.Landmarks.LHC": "Suuri Hadronitörmäytin (LHC)",
 
+
+
         "Universe.Chemistry.Ethanol": "Etyylialkoholi",
         "Universe.Chemistry.CarbonNanotube": "Hiilinanoputki",
         "Universe.Chemistry.Glucose": "Glukoosi",
         "Universe.Chemistry.Water": "Vesi",
+
+
 
         "Universe.Galaxies.MilkyWay": "Linnunrata",
         "Universe.Galaxies.Andromeda": "Andromedan galaksi",
@@ -1925,6 +2001,10 @@
         "Universe.Galaxies.SmallMagellanicCloud": "Pieni Magellanin pilvi",
         "Universe.Galaxies.NGC1300": "NGC 1300 (sauvaspiraaligalaksi)",
         "Universe.Galaxies.NGC4414": "NGC 4414 (kierteisgalaksi)",
+
+
+
+
 
         "Universe.Universe.GalaxyFillament": "Galaksimuuri",
         "Universe.Universe.StarCluster": "Tähtijoukko",
@@ -1953,6 +2033,11 @@
         "Universe.Units.Yard": "Jaardi",
         "Universe.Units.Mile": "Maili",
         "Universe.Units.NauticalMile": "Merimaili",
+
+
+
+
+
 
         "Temporary.MMC.Voting UI": "MMC äänestysikkuna",
         "Temporary.MMC.Vote": "Äänestä",
