@@ -1265,6 +1265,14 @@
         "Inspector.ParticleStyle.IntensityFadeOut": "Затухание интенсивности",
         "Inspector.ParticleStyle.ClearFades": "Очистить нарастания/затухания",
 
+        "Inspector.Collider.SetFromLocalBounds": "Установить по локальным границам",
+        "Inspector.Collider.SetFromGlobalBounds": "Установить по глобальным границам",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Установить по локальным границам (точно)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Установить по глобальным границам (точно)",
+        "Inspector.Collider.SetFromPreciseBounds": "Установить по точным границам",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Установить по точным цилиндрическим границам",
+        "Inspector.Collider.Visualize": "Визуализировать коллайдер",
+
         "Wizard.General.ProcessRoot": "Начиная с корня:",
         "Wizard.General.Result": "Результат:",
         "Wizard.General.ErrorNoRoot": "Корень не выбран",
