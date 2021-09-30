@@ -1091,6 +1091,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Снять пустые шейп-ключи",
         "Inspector.Mesh.StripBlendshapeNormals": "Снять нормали шейп-ключей",
         "Inspector.Mesh.StripBlendshapeTangents": "Снять тангенты шейп-ключей",
+        "Inspector.Mesh.MergeBlendshapes": "Объединить шейп-ключи",
 
         "Inspector.Mesh.GetBoneList": "Получить Список Костей",
         "Inspector.Mesh.GetBoneData": "Получить Данные Костей",
