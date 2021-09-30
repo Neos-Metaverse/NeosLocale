@@ -1951,6 +1951,14 @@
         "Wizard.TextRenderer.ReplaceMaterial" : "머티리얼 변경",
         "Wizard.TextRenderer.ReplaceFont" : "폰트 변경",
         "Wizard.TextRenderer.SetColor" : "색상지정",
+
+        "Inspector.Collider.SetFromLocalBounds": "로컬 경계로부터 설정",
+        "Inspector.Collider.SetFromGlobalBounds": "전역 경계로부터 설정",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "로컬 경계로부터 설정(정밀)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "전역 경계로부터 설정(정밀)",
+        "Inspector.Collider.SetFromPreciseBounds": "정밀한 경계로 설정",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "정밀한 실린더 경계로 설정",
+        "Inspector.Collider.Visualize": "콜라이더 시각화",
 		
         "Dummy": "더미"
     }
