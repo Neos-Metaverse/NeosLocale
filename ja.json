@@ -1090,6 +1090,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "空のブレンドシェイプを取り除く",
         "Inspector.Mesh.StripBlendshapeNormals": "ブレンドシェイプの法線を取り除く",
         "Inspector.Mesh.StripBlendshapeTangents": "ブレンドシェイプの接線を取り除く",
+        "Inspector.Mesh.MergeBlendshapes": "ブレンドシェイプを結合する",
 
         "Inspector.Mesh.GetBoneList": "ボーンのリストを取得",
         "Inspector.Mesh.GetBoneData": "ボーンデータを取得",
