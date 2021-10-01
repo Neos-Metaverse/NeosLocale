@@ -1960,6 +1960,8 @@
         "Inspector.Collider.SetFromPreciseCylinderBounds": "정밀한 실린더 경계로 설정",
         "Inspector.Collider.Visualize": "콜라이더 시각화",
 		
+        "Inspector.Mesh.MergeBlendshapes": "블렌드셰이프 병합",
+		
         "Dummy": "더미"
     }
 }
