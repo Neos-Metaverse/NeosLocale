@@ -213,6 +213,7 @@
         "World.Indicator.Users.None": "(Нет активных сессий)",
         "World.Indicator.Description": "Описание",
         "World.Indicator.Description.None": "(Нет описания)",
+        "World.Indicator.Visited": "(посещен)",
 
         "World.Detail.ActiveSessions": "Активные сессии:",
         "World.Detail.ActiveUsers": "Активные пользователи:",
