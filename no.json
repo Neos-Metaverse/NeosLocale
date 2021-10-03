@@ -420,10 +420,10 @@
         "Tooltip.Material.AreaMode" : "Area-modus",
         "Tooltip.Material.ObjectMode" : "Objekt global modus",
         "Tooltip.Material.SceneMode" : "Scene Global modus",
-        "Tooltip.Material.CreateCopy" : "Lag kopi",
+        "Tooltip.Material.CreateCopy" : "Skape kopi",
         "Tooltip.Material.Edit" : "Rediger materiale",
         "Tooltip.Material.Convert" : "Konvertere til...",
-        "Tooltip.Material.CreateNew" : "Lag ny",
+        "Tooltip.Material.CreateNew" : "Skape ny",
 
         "Tooltip.Mesh.Edit" : "Rediger nett",
 
@@ -483,7 +483,7 @@
 
         "CreateNew.Materials" : "Materialer",
 
-        "AvatarCreator.Title" : "Avatar Lager",
+        "AvatarCreator.Title" : "Avatar Skaper",
         "AvatarCreator.Instructions" : "Juster avatarobjekter med hodesett- og kontrollerhenvisninger (valgfritt) og trykk på Create for å konvertere dem til en avatar",
         "AvatarCreator.UseSymmetry" : "Bruk Symmetri",
         "AvatarCreator.ShowToolAnchors" : "Vis verktøyankre",
@@ -498,7 +498,7 @@
         "AvatarCreator.CenterHead" : "Senterhodeposisjon",
         "AvatarCreator.TryAlignHands" : "Prøve auto-Tilpasse Hender",
         "AvatarCreator.AlignToolAnchors" : "Juster verktøyankre",
-        "AvatarCreator.Create" : "lage",
+        "AvatarCreator.Create" : "Skape",
 
         "Importer.Folder.Title" : "Folder Importer",
         "Importer.Folder.Individual" : "Individual import",
@@ -710,7 +710,7 @@
         "CameraControl.Settings.ShowLiveBadge" : "Vis Live Merke",
 
         "CameraControl.OpenCloseUsers" : "Brukere",
-        "CameraControl.CreateCameraAnchor" : "Lag Kamera Anker",
+        "CameraControl.CreateCameraAnchor" : "Skape Kamera Anker",
 
         "CameraControl.Anchors.Interpolate" : "Interpolate between anchors",
         "CameraControl.Anchors.InterpolationSpeed" : "Anchor Interpolation Speed:",
