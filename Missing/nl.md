@@ -23,6 +23,7 @@ World.Connection.SteamNetworkingSockets
 World.Actions.Focus  
 World.Indicator.Host  
 World.Indicator.Hosting  
+World.Indicator.Visited  
 World.Detail.Uptime  
 World.Detail.Users.Count  
 World.Detail.Tags  

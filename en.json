@@ -213,6 +213,7 @@
         "World.Indicator.Users.None": "(no active sessions found)",
         "World.Indicator.Description": "Description",
         "World.Indicator.Description.None": "(no description provided)",
+        "World.Indicator.Visited": "(visited)",
 
         "World.Detail.ActiveSessions": "Active Sessions:",
         "World.Detail.ActiveUsers": "Active Users:",

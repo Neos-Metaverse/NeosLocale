@@ -12,6 +12,7 @@ Interaction.Grab.Palm
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
 Interaction.Grab.Off  
+World.Indicator.Visited  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
 CreateNew.Editor.TextRendererWizard  

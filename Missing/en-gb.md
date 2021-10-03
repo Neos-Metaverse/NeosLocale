@@ -187,6 +187,7 @@ World.Indicator.Users
 World.Indicator.Users.None  
 World.Indicator.Description  
 World.Indicator.Description.None  
+World.Indicator.Visited  
 World.Detail.ActiveSessions  
 World.Detail.ActiveUsers  
 World.Detail.NewSession  

@@ -12,6 +12,7 @@ Interaction.Grab.Palm
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
 Interaction.Grab.Off  
+World.Indicator.Visited  
 World.Category.Random  
 World.SortParameter.Random  
 Tooltip.GrabbableSetter.ApplyToRoot  
