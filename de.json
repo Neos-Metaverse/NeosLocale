@@ -1911,6 +1911,27 @@
         "Universe.Units.Mile": "Meile",
         "Universe.Units.NauticalMile": "Seemeile",
 
+        "Temporary.MMC.Voting UI": "MMC Wahl-UI",
+        "Temporary.MMC.Vote": "Wählen",
+
+        "Temporary.MMC.Categories.Name": "Kategorien",
+
+        "Temporary.MMC.Categories.Worlds": "Welten",
+        "Temporary.MMC.Categories.Worlds.Social": "Sozial",
+        "Temporary.MMC.Categories.Worlds.Game": "Spiel",
+
+        "Temporary.MMC.Categories.Other": "Andere",
+        "Temporary.MMC.Categories.Misc": "Sonstiges",
+        "Temporary.MMC.Categories.Meme": "Meme",
+
+        "Temporary.MMC.Categories.Avatars": "Avatare",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Accessoires",
+
+        "Temporary.MMC.VoteSuccess": "Stimme wurde in Kategorie {category} für {voteTarget} abgegeben.",
+        "Temporary.MMC.VoteFailure": "Abstimmung fehlgeschlagen, Ihre Stimme wurde nicht registriert, bitte versuchen Sie es erneut.",
+        "Temporary.MMC.VotedAlready": "Sie haben bereits für {voteTarget} gestimmt.",
+        "Temporary.MMC.VoteInvalid": "Stimme ist ungültig, bitte versuchen Sie es erneut.",
+
         "Dummy" : "Dummy"
     }
 }
