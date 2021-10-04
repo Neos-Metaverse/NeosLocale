@@ -29,6 +29,14 @@
 
         "General.UI.SearchPrompt" : "Suchen...",
         "General.UI.SearchPromptLong" : "Tippen zum Suchen...",
+        "General.UI.ToggleEditMode" : "Bearbeitungsmodus umschalten",
+        "General.UI.ToggleSubtitles" : "Untertitel umschalten",
+
+        "General.UI.MusicVolumeLocal" : "Musiklautstärke (Lokal):",
+        "General.UI.VoiceVolumeLocal" : "Stimmenlautstärke (Lokal):",
+        "General.UI.SoundVolumeLocal" : "Tonlautstärke (Lokal):",
+
+        "General.UI.PressToBegin" : "Drücken um zu Beginnen",
 
         "General.Sort.Ascending" : "Aufsteigend",
         "General.Sort.Descending" : "Absteigend",
@@ -205,6 +213,7 @@
         "World.Indicator.Users.None" : "(Keine aktive Sitzung gefunden)",
         "World.Indicator.Description" : "Beschreibung",
         "World.Indicator.Description.None" : "(Keine Beschreibung vorhanden)",
+        "World.Indicator.Visited": "(besucht)",
 
         "World.Detail.ActiveSessions" : "Aktive Sitzungen:",
         "World.Detail.ActiveUsers" : "Aktive Benutzer:",
@@ -1669,6 +1678,13 @@
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description" : "Das <b><color=#77ddff>OBS</b></color> Symbol öffnet ein Bedienfeld für die Verbinden mit OBS. Damit können Sie schnell eine Aufnahme mit OBS starten.",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description" : "Das <b><color=#77ddff>TWITCH</b></color> Symbol ermöglicht es Ihnen, Ihren Twitch-Chat zu sehen. Sie können Ihren Kanal verlinken, indem Sie den Namen des Kanals in der oberen linken Leiste eingeben.",
 
+        "Twitch.Panel.Button.Commands.Enabled": "Befehle Aktiviert",
+        "Twitch.Panel.Button.Commands.Disabled": "Befehle deaktiviert",
+        "Twitch.Panel.Button.SafeMode.Enabled": "Safemode Aktiviert",
+        "Twitch.Panel.Button.SafeMode.Disabled": "Safemode deaktiviert",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled": "Abonnenten Befehle<br> Nur für Abonnenten aktiviert",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled": "Abonnenten Befehle<br> Für alle aktiviert",
+        "Twitch.Panel.Title.Text": "Twitch Chat",
 
         "Exiting.SavingItems" : "Speichere {n, plural, one {# Objekt} other {# Objekte}}...",
         "Exiting.SavingChanges" : "Speichere Änderungen...",
