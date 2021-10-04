@@ -1962,7 +1962,7 @@
 		
         "Inspector.Mesh.MergeBlendshapes": "블렌드셰이프 병합",
 		
-		"World.Indicator.Visited": "(방문한 적 있음)",
+        "World.Indicator.Visited": "(방문한 적 있음)",
 		
         "Dummy": "더미"
     }
