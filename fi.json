@@ -213,6 +213,7 @@
         "World.Indicator.Users.None": "(Aktiivisia sessioita ei löytynyt)",
         "World.Indicator.Description": "Kuvaus",
         "World.Indicator.Description.None": "(Kuvausta ei ole)",
+        "World.Indicator.Visited": "(vierailtu)",
 
         "World.Detail.ActiveSessions": "Aktiiviset sessiot:",
         "World.Detail.ActiveUsers": "Aktiiviset käyttäjät:",
@@ -652,11 +653,11 @@
         "Importer.Image.Prompt": "Mitä tuot?",
         "Importer.Image.Regular": "Kuva / Tekstuuri",
         "Importer.Image.Screenshot": "Neos kuva <size=50%>(otettu täällä)</size>",
-        "Importer.Image.360": "360 kuva / Skybox",
+        "Importer.Image.360": "360° kuva / Skybox",
         "Importer.Image.StereoPhoto": "Stereokuva",
-        "Importer.Image.Stereo360": "360 stereokuva",
-        "Importer.Image.180": "180 kuva",
-        "Importer.Image.Stereo180": "180 stereokuva",
+        "Importer.Image.Stereo360": "360° stereokuva",
+        "Importer.Image.180": "180° kuva",
+        "Importer.Image.Stereo180": "180° stereokuva",
         "Importer.Image.LUT": "LUT",
 
         "Importer.ImageVideo.LayoutPrompt": "Mitä asettelua se käyttää?",
@@ -734,12 +735,12 @@
         "Importer.Video.Title": "Video",
         "Importer.Video.Prompt": "Mitä tuot?",
         "Importer.Video.Regular": "Video",
-        "Importer.Video.360": "360 video",
+        "Importer.Video.360": "360° video",
         "Importer.Video.Stereo": "Stereo video",
-        "Importer.Video.Stereo360": "Stereo 360 video",
+        "Importer.Video.Stereo360": "Stereo 360° video",
         "Importer.Video.Depth": "Syvyysvideo",
-        "Importer.Video.180": "180 video",
-        "Importer.Video.Stereo180": "Stereo 180 video",
+        "Importer.Video.180": "180° video",
+        "Importer.Video.Stereo180": "Stereo 180° video",
         "Importer.Video.Depth.Prompt": "Esiasetettu syvyys",
         "Importer.Video.Depth.Default": "Oletus",
 
@@ -839,7 +840,7 @@
         "CameraControl.MirroringOffWarning": "PEILAUS ON POIS PÄÄLTÄ",
         "CameraControl.MirrorToDisplay": "Peilaa näytölle",
         "CameraControl.TakePhoto": "Kuva",
-        "CameraControl.Take360Photo": "360 kuva",
+        "CameraControl.Take360Photo": "360° kuva",
 
         "CameraControl.Mode.SmoothPOV": "Sulava POV",
         "CameraControl.Mode.ThirdPerson": "Kolmas persoona",
@@ -1091,6 +1092,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Poista tyhjät Blendshapet",
         "Inspector.Mesh.StripBlendshapeNormals": "Poista Blendshapejen normaalit",
         "Inspector.Mesh.StripBlendshapeTangents": "Poista Blendshapejen tangentit",
+        "Inspector.Mesh.MergeBlendshapes": "Yhdistä Blendshapet",
 
         "Inspector.Mesh.GetBoneList": "Näytä luulistaus",
         "Inspector.Mesh.GetBoneData": "Näytä luutiedot",
@@ -1283,7 +1285,7 @@
         "Wizard.AssetOptimization.CleanupEmptySlots": "Siivoa tyhjät slotit",
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Siivoa käytöstä poistetut tahkoverkkojen renderöijät",
         "Wizard.AssetOptimization.DeduplicateMaterials": "Deduplikoi materiaalit",
-
+        "Wizard.AssetOptimization.CleanupFileItems": "Siivoa raakatiedostot",
         "Wizard.AssetOptimization.MaxTextureResolution": "Aseta textuurien maksimiresoluutio",
         "Wizard.AssetOptimization.RecompressTextures": "Pakkaa tekstuurit uudelleen",
         "Wizard.AssetOptimization.RecalculateAllNormals": "Laske kaikki normaalit uudelleen",
@@ -1548,29 +1550,69 @@
 
         "Object.Mirror.Toggle": "Lokaali kytkin",
 
+        "Tutorial.Streaming.StageControl": "Lavan asetukset",
+        "Tutorial.Streaming.StageUI": "Lavan käyttöliittymä",
+        "Tutorial.Streaming.StageLights": "Lavan valot",
+        "Tutorial.Streaming.StageLightController": "Valojen ohjain",
+        "Tutorial.Streaming.StageMicrophone": "Mikrofoniteline",
 
+        "Tutorial.Streaming.GreenScreenControl": "Green Screen asetukset",
+        "Tutorial.Streaming.GreenScreenToggle360": "360° skene",
+        "Tutorial.Streaming.GreenScreenTracking": "Seurantareferenssit",
+        "Tutorial.Streaming.GreenScreenMarker": "Luo liikuteltava merkki",
+        "Tutorial.Streaming.GreenScreenCycleScene": "Seuraava skene",
 
+        "Tutorial.Streaming.StreamRoomControl": "Striimaushuoneen asetukset",
+        "Tutorial.Streaming.StreamRoomSkyWall": "Taivasseinän kuva",
+        "Tutorial.Streaming.StreamRoomLayout": "Aseta layout",
 
+        "Tutorial.Streaming.StageLightShadowToggle": "Valojen varjot",
 
+        "Tutorial.Streaming.Microphone.Title": "Mikrofonityökalu",
 
 
 
 
 
+        "Tutorial.Streaming.AudioStreaming.Title": "Audion striimaus",
 
 
 
 
+        "Tutorial.Streaming.StreamControl.SkyboxTexture": "Aseta Skyboxin textuuri tähän",
 
+        "Tutorial.Streaming.Twitch.TwitchChat": "Twitch Chat",
 
+        "Tutorial.Streaming.Camera.BasicFunctions.Page1.Title": "Kamera",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page2.Title": "Kuvan ottaminen",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page3.Title": "Käyttöliittymässä zoomaus",
+        "Tutorial.Streaming.Camera.BasicFunctions.Page4.Title": "Fyysinen zoomaus",
 
+        "Tutorial.Streaming.Camera.Resolution.Page1.Title": "Resoluution vaihtaminen",
 
 
 
+        "Tutorial.Streaming.Camera.Mode.Page1.Title": "Perus kuva",
+        "Tutorial.Streaming.Camera.Mode.Page2.Title": "3D kuva",
+        "Tutorial.Streaming.Camera.Mode.Page3.Title": "360° kuva",
+        "Tutorial.Streaming.Camera.Mode.Page4.Title": "Läpinäkyvä kuva",
 
+        "Tutorial.Streaming.Camera.ImageFilters.Page1.Title": "Vakio",
+        "Tutorial.Streaming.Camera.ImageFilters.Page2.Title": "Värikylläinen",
+        "Tutorial.Streaming.Camera.ImageFilters.Page3.Title": "Mustavalkoinen",
+        "Tutorial.Streaming.Camera.ImageFilters.Page4.Title": "Seepia",
+        "Tutorial.Streaming.Camera.ImageFilters.Page5.Title": "Sateenkaari",
 
+        "Tutorial.Streaming.Camera.OptionsPlus.Page1.Title": "Kuva-alue",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page2.Title": "Ajastin",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page3.Title": "Heijastukset",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page4.Title": "Salama",
+        "Tutorial.Streaming.Camera.OptionsPlus.Page5.Title": "Iso näyttö",
 
+        "Tutorial.Streaming.Camera.ExcludeTip.Page1.Title": "Mistä löydän",
+        "Tutorial.Streaming.Camera.ExcludeTip.Page2.Title": "Kuinka käytän",
 
+        "Tutorial.Streaming.Camera.BasicFunctions.Title": "Perustoiminnot",
 
 
 
@@ -1597,7 +1639,12 @@
 
 
 
+        "Tutorial.Streaming.Camera.Resolution.Title": "Resoluutio",
+        "Tutorial.Streaming.Camera.Mode.Title": "Tila",
+        "Tutorial.Streaming.Camera.ImageFilters.Title": "Kuvafiltterit",
+        "Tutorial.Streaming.Camera.OptionsPlus.Title": "Asetukset+",
 
+        "Tutorial.Streaming.Camera.Intro.Title": "Fyysinen kameratutoriaali",
 
 
 
@@ -1648,61 +1695,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        "Tutorial.Streaming.StreamCamera.Photo.Title": "Kuva",
+        "Tutorial.Streaming.StreamCamera.360.Title": "360° kuva",
+        "Tutorial.Streaming.StreamCamera.Users.Title": "Käyttäjät",
+        "Tutorial.Streaming.StreamCamera.CameraOptions.Title": "Kamera-asetukset",
+        "Tutorial.Streaming.StreamCamera.Anchor.Title": "Spawnaa ankkuri",
+        "Tutorial.Streaming.StreamCamera.ExtraCameraControls.Title": "Ekstra kamera-asetukset",
+        "Tutorial.Streaming.StreamCamera.MotionSettings.Title": "Kameran liikkumisasetukset",
+        "Tutorial.Streaming.StreamCamera.AnchorSettings.Title": "Kameran ankkuriasetukset",
+        "Tutorial.Streaming.StreamCamera.OBS.Title": "OBS yhteys",
+        "Tutorial.Streaming.StreamCamera.Twitch.Title": "Twitch yhteys",
 
 
 
