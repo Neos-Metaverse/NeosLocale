@@ -213,6 +213,7 @@
         "World.Indicator.Users.None": "(Нет активных сессий)",
         "World.Indicator.Description": "Описание",
         "World.Indicator.Description.None": "(Нет описания)",
+        "World.Indicator.Visited": "(посещен)",
 
         "World.Detail.ActiveSessions": "Активные сессии:",
         "World.Detail.ActiveUsers": "Активные пользователи:",
@@ -1791,6 +1792,8 @@
         "Universe.Stars.NMLCygni": "NML Лебедя",
         "Universe.Stars.UYScuti": "UY Щита",
 
+
+
         "Universe.SolarSystem.Mercury": "Меркурий",
         "Universe.SolarSystem.Venus": "Венера",
         "Universe.SolarSystem.Earth": "Земля",
@@ -1815,6 +1818,15 @@
         "Universe.SolarSystem.Ganymede": "Ганимед",
         "Universe.SolarSystem.Callisto": "Калисто",
         "Universe.SolarSystem.AsteroidGanymed": "Ганимед (астероид)",
+
+
+
+
+
+
+
+
+
 
         "Universe.Animals.BottlenoseDolphin": "Афалина",
         "Universe.Animals.Brachiosaurus": "Брахиозавр",
@@ -1853,6 +1865,10 @@
         "Universe.Biology.Platelet": "Тромбоцит (активный)",
         "Universe.Biology.LargestBacteria": "Самая большая бактерия",
 
+
+
+
+
         "Universe.Particles.Electron": "Электрон",
         "Universe.Particles.Proton": "Протон",
         "Universe.Particles.Neutron": "Нейтрон",
@@ -1885,6 +1901,17 @@
         "Universe.Common.Daisy": "Нивяник великолепный<br>(диаметр)",
         "Universe.Common.DouglasFir": "Дугласова пихта",
 
+
+
+
+
+
+
+
+
+
+
+
         "Universe.Wavelength.Gamma": "Гамма лучи",
         "Universe.Wavelength.XRayHard": "Рентгеновские лучи (жесткие)",
         "Universe.Wavelength.XRaySoft": "Рентгеновские лучи (мягкие)",
@@ -1901,6 +1928,13 @@
         "Universe.Wavelength.FM": "УКВ(ЧМ) радио",
         "Universe.Wavelength.AM": "АМ радио",
 
+
+
+
+
+
+
+
         "Universe.Geology.AllWater": "Вся вода на Земле",
         "Universe.Geology.LiquidFreshWater": "Вся жидкая пресная вода",
         "Universe.Geology.WaterInLakesAndRivers": "Вся вода в реках и озерах",
@@ -1911,6 +1945,10 @@
         "Universe.Countries.Australia": "Австралия",
         "Universe.Cities.Paris": "Париж",
 
+
+
+
+
         "Universe.Nebulae.Crab": "Крабовидная туманность",
         "Universe.Nebulae.CatEye": "Туманность Кошачий Глаз",
         "Universe.Nebulae.Butterfly": "Туманность Бабочка",
@@ -1919,6 +1957,8 @@
         "Universe.Nebulae.Tarantula": "Туманность Тарантул",
         "Universe.Nebulae.Ring": "Туманность Кольцо",
         "Universe.Nebulae.Eagle": "Туманность Орёл",
+
+
 
         "Universe.Technology.TransistorGate": "Затвор транзистора",
         "Universe.Technology.CPU": "Центральный процессор",
@@ -1933,6 +1973,13 @@
         "Universe.Technology.Ingenuity": "Вертолет NASA Ingenuity",
         "Universe.Technology.CargoShip": "Грузовое судно",
 
+
+
+
+
+
+
+
         "Universe.Landmarks.EiffelTower": "Эйфилева Башня",
         "Universe.Landmarks.DistanceFromLA2SF": "Расстояние от Лос-Анджелеса до Сан-Франциско",
         "Universe.Landmarks.StatueOfLiberty": "Статуя Свободы<br><size=50%>(высота без основания)",
@@ -1940,10 +1987,14 @@
         "Universe.Landmarks.MountEverest": "Гора Эверест",
         "Universe.Landmarks.LHC": "Большой Адронный Коллайдер",
 
+
+
         "Universe.Chemistry.Ethanol": "Этанол (спирт)",
         "Universe.Chemistry.CarbonNanotube": "Углеродная нанотрубка",
         "Universe.Chemistry.Glucose": "Глюкоза",
         "Universe.Chemistry.Water": "Вода",
+
+
 
         "Universe.Galaxies.MilkyWay": "Млечный Путь",
         "Universe.Galaxies.Andromeda": "Галактика Андромеда",
@@ -1952,6 +2003,10 @@
         "Universe.Galaxies.SmallMagellanicCloud": "Малое Магелланово Облако",
         "Universe.Galaxies.NGC1300": "NGC 1300 (спиральная галактика с перемычкой)",
         "Universe.Galaxies.NGC4414": "NGC 4414 (спиральная галактика без перемычки)",
+
+
+
+
 
         "Universe.Universe.GalaxyFillament": "Галактическая нить",
         "Universe.Universe.StarCluster": "Скопление звезд",
@@ -1980,6 +2035,11 @@
         "Universe.Units.Yard": "Ярд",
         "Universe.Units.Mile": "Миля",
         "Universe.Units.NauticalMile": "Морская миля",
+
+
+
+
+
 
         "Temporary.MMC.Voting UI": "Интерфейс голосования MMC",
         "Temporary.MMC.Vote": "Голосовать",
