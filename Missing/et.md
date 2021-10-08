@@ -24,6 +24,7 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
 World.Error.FailedToConnect  
+World.Indicator.Visited  
 World.Category.Random  
 World.SortParameter.Random  
 Tools.Setup2FA  

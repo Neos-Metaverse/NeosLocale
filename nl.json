@@ -29,6 +29,14 @@
 
         "General.UI.SearchPrompt": "Zoeken...",
         "General.UI.SearchPromptLong": "Hier typen...",
+        "General.UI.ToggleEditMode": "Schakel Edit Mode",
+        "General.UI.ToggleSubtitles": "Schakel ondertitels",
+
+        "General.UI.MusicVolumeLocal": "Muziekvolume (lokaal):",
+        "General.UI.VoiceVolumeLocal": "Stemvolume (lokaal):",
+        "General.UI.SoundVolumeLocal": "Geluidsvolume (lokaal):",
+
+        "General.UI.PressToBegin": "Druk om te beginnen",
 
         "General.Sort.Ascending": "Oplopend",
         "General.Sort.Descending": "Aflopend",
@@ -62,10 +70,10 @@
         "Interaction.ResetScale": "Schaal resetten",
         "Interaction.LaserEnabled": "Laser Aan",
         "Interaction.LaserDisabled": "Laser Uit",
-
-
-
-
+        "Interaction.Grab.Palm": "Grijp: Palm",
+        "Interaction.Grab.Precision": "Grijp: Precisie",
+        "Interaction.Grab.Auto": "Grijp: Auto",
+        "Interaction.Grab.Off": "Grijp: Alleen laser",
         "Interaction.Locomotion": "Voortbeweging",
         "Interaction.Locomotion.None": "Geen",
 
@@ -205,6 +213,7 @@
         "World.Indicator.Users.None": "(geen actieve sessies gevonden)",
         "World.Indicator.Description": "Omschrijving",
         "World.Indicator.Description.None": "(Geen beschrijving gegeven)",
+        "World.Indicator.Visited": "(bezocht)",
 
         "World.Detail.ActiveSessions": "Actieve sessies:",
         "World.Detail.ActiveUsers": "Actieve Gebruikers:",
@@ -241,7 +250,7 @@
 
         "World.AccessLevel.Anyone": "Iedereen",
         "World.AccessLevel.RegisteredUsers": "Geregistreerde gebruikers",
-        "World.AccessLevel.Friends": "Vrienden",
+        "World.AccessLevel.Friends": "Contacten",
         "World.AccessLevel.FriendsOfFriends": "Contacten+",
 
         "World.AccessLevel.Private": "Privé (alleen op uitnodiging)",
@@ -575,6 +584,7 @@
 
         "CreateNew.Editor.UserInspector": "Gebruikers Inspector",
         "CreateNew.Editor.LightSourcesWizard": "Wereldlichtbronnen Wizard",
+        "CreateNew.Editor.TextRendererWizard": "Wereld Text Renderer Wizard",
         "CreateNew.Editor.AssetOptimizationWizard": "Asset Optimalisatie Wizard",
         "CreateNew.Editor.LogixTransferWizard": "LogiX Overdracht Wizard",
 
@@ -856,6 +866,7 @@
 
         "CameraControl.Anchors.Interpolate": "Interpoleer tussen ankers",
         "CameraControl.Anchors.InterpolationSpeed": "Ankerinterpolatiesnelheid:",
+        "CameraControl.Anchors.LinearInterpolation": "Lineaire interpolatie",
         "CameraControl.Anchors.NoAnchors": "Geen camera-ankers in deze wereld",
 
         "CameraControl.Positioning.FieldOfView": "Gezichtsveld",
@@ -1068,6 +1079,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Normals opnieuw berekenen (smooth shading)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Tangents opnieuw berekenen (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Tangents opnieuw berekenen (simpel)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Herberekenen Blendshape Normals",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Herberekenen Blendshape Normals (smooth shading)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Herberekenen Blendshape Tangents (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Normals Omkeren",
         "Inspector.Mesh.ReverseWinding": "Vertex volgorde omkeren",
         "Inspector.Mesh.MakeDualSided": "Maak dubbelzijdig",
@@ -1078,6 +1092,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Strip Lege Blendshapes",
         "Inspector.Mesh.StripBlendshapeNormals": "Verwijder Blendshape Normals",
         "Inspector.Mesh.StripBlendshapeTangents": "Verwijder Blendshape Tangents",
+        "Inspector.Mesh.MergeBlendshapes": "Blendshapes Samenvoegen",
 
         "Inspector.Mesh.GetBoneList": "Geef Botten Lijst",
         "Inspector.Mesh.GetBoneData": "Geef Botten Data",
@@ -1099,15 +1114,15 @@
         "Inspector.VHACD.Parameter.Resolution": "Resolutie",
         "Inspector.VHACD.Parameter.Depth": "Diepte",
         "Inspector.VHACD.Parameter.Concavity": "Concaviteit",
+        "Inspector.VHACD.Parameter.PlaneDownsampling": "Vlak Downsampling",
 
 
 
 
 
 
-
-
-
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maximum Vertices Per Hull",
+        "Inspector.VHACD.Parameter.MinVolumePerHull": "Minimum Volume Per Hull",
 
 
         "Inspector.VHACD.DecompositionMode.Header": "Decompositie Mode:",
@@ -1115,8 +1130,8 @@
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Viervlak",
 
         "Inspector.VHACD.RunDecomposition": "Begin Decompositie",
-
-
+        "Inspector.VHACD.RemoveVisuals": "Verwijder Visuals",
+        "Inspector.VHACD.RemoveHulls": "Verwijder Hulls",
 
         "Inspector.ReflectionProbe.Bake": "Bak reflecties",
         "Inspector.ReflectionProbe.Baking": "Aan het bakken...",
@@ -1131,9 +1146,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Visualizeer bot bounding boxes",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Visualizeer ongeveer samengevoegde bot bal bounds",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Verwijder bot bounding box visuelen",
-
-
-
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Bereken expliciete grenzen van de huidige pose",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Expliciete grenzen van huidige pose uitbreiden",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Bakken naar statisch Mesh",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Verwijder alle Instanties",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Verwijder enkele Instantie",
@@ -1243,14 +1258,22 @@
 
 
 
+        "Inspector.ParticleStyle.CommonTransitions": "Algemene Overgang-sjablonen:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha Fade-in & Fade-out",
+        "Inspector.ParticleStyle.AlphaFadeIn": "Alpha Fade-in",
+        "Inspector.ParticleStyle.AlphaFadeOut": "Alpha Fade-out",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "Intensiteit Fade-in & Fade-out",
+        "Inspector.ParticleStyle.IntensityFadeIn": "Intensiteit Fade-in",
+        "Inspector.ParticleStyle.IntensityFadeOut": "Intensiteit Fade-out",
 
 
-
-
-
-
-
-
+        "Inspector.Collider.SetFromLocalBounds": "Stel in vanuit lokale grenzen",
+        "Inspector.Collider.SetFromGlobalBounds": "Stel in vanuit globale grenzen",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Stel in vanuit lokale grenzen (precies)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Stel in vanuit globale grenzen (precies)",
+        "Inspector.Collider.SetFromPreciseBounds": "Stel in vanuit precieze grenzen",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Stel in vanuit precieze cilinder grenzen",
+        "Inspector.Collider.Visualize": "Visualiseer Collider",
 
         "Wizard.General.ProcessRoot": "Procesbasis:",
         "Wizard.General.Result": "Resultaat:",
@@ -1306,6 +1329,16 @@
         "Wizard.ReflectionProbes.HideDebugVisuals": "Debug-visuals verbergen",
         "Wizard.ReflectionProbes.BakeProbes": "Bak probes",
         "Wizard.ReflectionProbes.Baking": "Bakken {index} van {count}...",
+
+
+
+        "Wizard.TextRenderer.ProcessStandalone": "Proces Standalone",
+        "Wizard.TextRenderer.ProcessUIX": "Proces UIX",
+        "Wizard.TextRenderer.Disabled": "Proces Uitgeschakeld",
+        "Wizard.TextRenderer.WithTag": "Met Tag:",
+        "Wizard.TextRenderer.ReplaceMaterial": "Vervang Materiaal",
+        "Wizard.TextRenderer.ReplaceFont": "Vervang Lettertype",
+        "Wizard.TextRenderer.SetColor": "Kleur instellen",
 
         "Desktop.OpenKeyboard": "Open Toetsenbord",
         "Desktop.FollowCursor.On": "Volg Cursor: Aan",
@@ -1491,7 +1524,7 @@
         "Tutorial.AvatarCreator.DynamicBones.Title": "Dynamisch Bones",
         "Tutorial.AvatarCreator.Saving&Favoriting.Title": "Opslaan & Favoriet maken",
         "Tutorial.AvatarCreator.ImportingAssets.Description": "Aangepaste avatar-items, inclusief het model, texturen, normal maps en meer, kunnen allemaal rechtstreeks vanuit de in-app-bestandsbrowser worden geïmporteerd, of door de bestanden vanaf uw bureaublad naar het Neos-venster te slepen en neer te zetten.",
-        "Tutorial.AvatarCreator.AvatarCreator.Description": "Open na het importeren van het model de <color=#77ccff><b>Avatar Creator</b></color> op het dashboard en plaats de kop, handen en gereedschapankers zoals gewenst.",
+        "Tutorial.AvatarCreator.AvatarCreator.Description": "Open na het importeren van het model de <color=#77ccff><b>Avatar Creator</b></color> op het dashboard en plaats het hoofd, handen en gereedschap-ankers zoals gewenst.",
         "Tutorial.AvatarCreator.SettingUpMaterials.Description": "Gebruik de <color=#77ccff><b>Developer Tooltip</b></color> <sprite name=DevTip> en druk op <color=#77ff77><b>Secondary</b></color> om de avatar te selecteren en de hiërarchie te openen.<br>Navigeer naar de root van de avatar, en met de <color=#77ccff><b>Materiaal Tooltip</b></color> <sprite name=MatTip> uitgerust, <color=#77ff77><b>Grijp</b></color> de CenteredRoot-slot en druk op <color=#77ff77><b>Secondary</b></color> om het materiaal van de avatar te extraheren.<br>Texturen die niet rechtstreeks in de avatar zijn geïmporteerd, kunnen worden toegevoegd door het materiaal te bewerken, de textuur vast te pakken en op het doelveld te klikken.",
         "Tutorial.AvatarCreator.DynamicBones.Description": "Dynamic bones kunnen leven en interactiviteit toevoegen aan een anders statische rig.<br>Voeg de DynamicBoneChain-component toe aan het begin van de doel bone chain, scrol naar beneden en klik op <color=#77ccff><b>Setup van Children (Alleen Rig)</b></color>. Dit creëert een standaard dynamische botketen. Je kan de eigenschappen ervan bewerken met de inspector.",
         "Tutorial.AvatarCreator.SavingFavoriting.Description": "Nadat je klaar bent met de eerste instellingen, rust je de avatar uit en navigeer je naar een map in je inventaris waar je hem wilt opslaan, en druk je op <sprite name=Download> .<br><br>Klik op je avatar in de inventaris om hem te selecteren, en druk je op <sprite name=Favorite> om hem als favoriete avatar in te stellen.",
@@ -1730,6 +1763,77 @@
         "Earthenworks.MentorSignal.Reset.Text": "Maak een ander",
         "Earthenworks.MentorSignal.Next.Text": "Hulp krijgen",
         "Earthenworks.MentorSignal.Discord.Text": "Wordt lid van de Neos Discord",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -16,6 +16,7 @@ Interaction.Grab.Auto
 Interaction.Grab.Off  
 Interaction.ExportScreenshot  
 Dash.Actions.TurnOffUIEdit  
+World.Indicator.Visited  
 World.Category.Random  
 World.SortParameter.Random  
 Tools.Setup2FA  

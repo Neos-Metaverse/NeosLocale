@@ -212,6 +212,7 @@
         "World.Indicator.Users.None": "(アクティブなセッションはありません)",
         "World.Indicator.Description": "説明",
         "World.Indicator.Description.None": "(説明はありません)",
+        "World.Indicator.Visited": "(訪問済)",
 
         "World.Detail.ActiveSessions": "アクティブセッション:",
         "World.Detail.ActiveUsers": "アクティブユーザー:",
