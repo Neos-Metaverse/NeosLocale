@@ -213,6 +213,7 @@
         "World.Indicator.Users.None" : "(nenalezeny žádné aktivní relace)",
         "World.Indicator.Description" : "Popis",
         "World.Indicator.Description.None" : "(bez popisu)",
+        "World.Indicator.Visited": "(navštíveno)",
 
         "World.Detail.ActiveSessions" : "Aktivní relace:",
         "World.Detail.ActiveUsers" : "Počet uživatelů:",
