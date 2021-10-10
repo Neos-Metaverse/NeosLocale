@@ -232,6 +232,7 @@ World.SortParameter.CreationDate
 World.SortParameter.LastUpdateDate  
 World.SortParameter.FirstPublishTime  
 World.SortParameter.TotalVisits  
+World.SortParameter.LastVisit  
 World.SortParameter.Random  
 World.Filter.DataSources  
 World.Filter.OpenedWorlds  

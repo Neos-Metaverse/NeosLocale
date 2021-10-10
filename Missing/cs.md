@@ -3,6 +3,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Czech [cs]
 World.Indicator.Visited  
+World.SortParameter.LastVisit  
 Inspector.Mesh.MergeBlendshapes  
 Inspector.Collider.SetFromLocalBounds  
 Inspector.Collider.SetFromGlobalBounds  

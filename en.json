@@ -264,6 +264,7 @@
         "World.SortParameter.LastUpdateDate": "Modification Date",
         "World.SortParameter.FirstPublishTime": "Published Date",
         "World.SortParameter.TotalVisits": "Total Visits",
+        "World.SortParameter.LastVisit": "Last Visit",
         "World.SortParameter.Random": "Random",
 
         "World.Filter.DataSources": "Data Sources:",

@@ -32,6 +32,7 @@ World.Error.FailedToConnect
 World.Indicator.Visited  
 World.Category.Random  
 World.AccessLevel.FriendsOfFriends  
+World.SortParameter.LastVisit  
 World.SortParameter.Random  
 Tools.StreamAudio  
 Tools.Setup2FA  

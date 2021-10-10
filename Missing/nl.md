@@ -19,6 +19,7 @@ World.Detail.Tags
 World.Category.Tutorials  
 World.Category.Random  
 World.AccessLevel.LAN  
+World.SortParameter.LastVisit  
 World.SortParameter.Random  
 World.Edit.AccessPatreon  
 Tools.AvatarCreator  

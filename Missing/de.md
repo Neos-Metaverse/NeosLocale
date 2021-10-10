@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # German [de]
+World.SortParameter.LastVisit  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
 CreateNew.Editor.TextRendererWizard  

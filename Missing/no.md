@@ -43,6 +43,7 @@ World.Error.FailedToConnect
 World.Indicator.Visited  
 World.Category.Random  
 World.AccessLevel.FriendsOfFriends  
+World.SortParameter.LastVisit  
 World.SortParameter.Random  
 World.Edit.Title  
 World.Edit.Name  

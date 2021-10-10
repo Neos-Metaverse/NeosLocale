@@ -23,6 +23,7 @@ World.Connection.SteamNetworkingSockets
 World.Error.FailedToConnect  
 World.Indicator.Visited  
 World.Category.Random  
+World.SortParameter.LastVisit  
 World.SortParameter.Random  
 Tools.Setup2FA  
 Tools.StreamAudio.Spatialized  

@@ -3,6 +3,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Finnish [fi]
 World.Detail.Users.Count  
+World.SortParameter.LastVisit  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
 Importer.Model.Advanced.SkinnedMeshes  
