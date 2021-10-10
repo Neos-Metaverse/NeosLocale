@@ -1548,7 +1548,7 @@
         "Tutorial.Intro.BadgesDescription": "バッジは、ユーザーの一面を示す小さなアイコンです。 いくつか重要なバッジがあります。 障害者バッジは、NeosBotを介して自己割り当てできます。 詳しくはNeosWikiを確認してください。",
         "Tutorial.Intro.HelpSite": "ヘルプ",
 
-        "Object.Mirror.Toggle": "ローカルミラー",
+        "Object.Mirror.Toggle": "on/off​(ローカル)",
 
         "Tutorial.Streaming.StageControl": "ステージコントロール",
         "Tutorial.Streaming.StageUI": "ステージUI",
