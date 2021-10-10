@@ -263,6 +263,7 @@
         "World.SortParameter.LastUpdateDate": "更新日",
         "World.SortParameter.FirstPublishTime": "公開日",
         "World.SortParameter.TotalVisits": "訪問数",
+        "World.SortParameter.LastVisit": "最後に訪問",
         "World.SortParameter.Random": "ランダム",
 
         "World.Filter.DataSources": "データソース:",
