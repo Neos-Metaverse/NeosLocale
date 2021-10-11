@@ -213,6 +213,7 @@
         "World.Indicator.Users.None" : "(nenalezeny žádné aktivní relace)",
         "World.Indicator.Description" : "Popis",
         "World.Indicator.Description.None" : "(bez popisu)",
+        "World.Indicator.Visited": "(navštíveno)",
 
         "World.Detail.ActiveSessions" : "Aktivní relace:",
         "World.Detail.ActiveUsers" : "Počet uživatelů:",
@@ -1090,6 +1091,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes" : "Odstranit prázdné blendshapy",
         "Inspector.Mesh.StripBlendshapeNormals" : "Odstranit normálová data blendshapů",
         "Inspector.Mesh.StripBlendshapeTangents" : "Odstranit tangentová data blendshapů",
+        "Inspector.Mesh.MergeBlendshapes": "Sloučit blendshapy",
 
         "Inspector.Mesh.GetBoneList" : "Vygenerovat seznam bones",
         "Inspector.Mesh.GetBoneData" : "Vygenerovat informace o bones",
@@ -1263,6 +1265,14 @@
         "Inspector.ParticleStyle.IntensityFadeIn": "Fade in intenzity",
         "Inspector.ParticleStyle.IntensityFadeOut": "Fade out intenzity",
         "Inspector.ParticleStyle.ClearFades": "Vyčistit fades",
+
+        "Inspector.Collider.SetFromLocalBounds": "Nastavit z lokálních boundů",
+        "Inspector.Collider.SetFromGlobalBounds": "Nastavit z globálních boundů",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Nastavit z lokálních boundů (precizně)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Nastavit z globálních boundů (precizně)",
+        "Inspector.Collider.SetFromPreciseBounds": "Nastavit z precizních boundů",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Nastavit z precizních cylindrických boundů",
+        "Inspector.Collider.Visualize": "Vizualizovat collider",
         
         "Wizard.General.ProcessRoot" : "Zpracovat root:",
         "Wizard.General.Result" : "Výsledek:",
@@ -1327,6 +1337,7 @@
         "Wizard.TextRenderer.WithTag": "S tagem:",
         "Wizard.TextRenderer.ReplaceMaterial" : "Nahradit materiál",
         "Wizard.TextRenderer.ReplaceFont" : "Nahradit font",
+        "Wizard.TextRenderer.SetColor" : "Nastavit barvu",
 
         "Desktop.OpenKeyboard" : "Otevřít klávesnici",
         "Desktop.FollowCursor.On" : "Následovat kurzor: Zapnuto",
@@ -1765,7 +1776,11 @@
         "Universe.UI.Credits.Content" : "Test: One<br>Another: Two<br>This: Is just a test",
         "Universe.UI.Assets.Title" : "Modely",
         "Universe.UI.Assets.Content" : "Test: One<br>Another: Two<br>This: Is just a test",
+        "Universe.UI.NoItemSelected" : "<i><alpha=#44>Není výbrána žádná položka</alpha></i>",
+        "Universe.UI.SelectItem" : "Klikněte na jmenovku objektu ve světě, aby jste se o něm dozvěděli více!",
+        "Universe.UI.NoWorldExists": "Pro tuto položku neexistuje žádný svět :(<br><br>Buďte první kdo nějaký vytvoří!",
 
+        "Universe.Stars.Lich": "Lich<br><size=50%>PSR B1257+12 (pulsar)</size>",
         "Universe.Stars.Sun" : "Slunce",
         "Universe.Stars.Sirius" : "Sirius",
         "Universe.Stars.Pollux" : "Pollux",
