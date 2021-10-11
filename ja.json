@@ -263,6 +263,7 @@
         "World.SortParameter.LastUpdateDate": "更新日",
         "World.SortParameter.FirstPublishTime": "公開日",
         "World.SortParameter.TotalVisits": "訪問数",
+        "World.SortParameter.LastVisit": "最後に訪問",
         "World.SortParameter.Random": "ランダム",
 
         "World.Filter.DataSources": "データソース:",
@@ -1547,7 +1548,7 @@
         "Tutorial.Intro.BadgesDescription": "バッジは、ユーザーの一面を示す小さなアイコンです。 いくつか重要なバッジがあります。 障害者バッジは、NeosBotを介して自己割り当てできます。 詳しくはNeosWikiを確認してください。",
         "Tutorial.Intro.HelpSite": "ヘルプ",
 
-        "Object.Mirror.Toggle": "ローカルミラー",
+        "Object.Mirror.Toggle": "on/off​(ローカル)",
 
         "Tutorial.Streaming.StageControl": "ステージコントロール",
         "Tutorial.Streaming.StageUI": "ステージUI",
