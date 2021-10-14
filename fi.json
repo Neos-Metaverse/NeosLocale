@@ -223,7 +223,7 @@
         "World.Detail.Uptime": "Käyntiaika",
         "World.Detail.AccessLevel": "Näkyvyys",
         "World.Detail.Users": "Käyttäjät",
-
+        "World.Detail.Users.Count": "{active}{away, select, 0 {} other { (+{away} away)}} / {max}",
 
         "World.Detail.WorldInformationHeader": "Maailman tiedot",
         "World.Detail.PublishDate": "Julkaistu",
@@ -264,6 +264,7 @@
         "World.SortParameter.LastUpdateDate": "Viimeksi päivitetty",
         "World.SortParameter.FirstPublishTime": "Julkaisupäivä",
         "World.SortParameter.TotalVisits": "Vierailuja yhteensä",
+        "World.SortParameter.LastVisit": "Viimeksi vierailtu",
         "World.SortParameter.Random": "Satunnainen",
 
         "World.Filter.DataSources": "Tietolähteet:",
@@ -513,8 +514,8 @@
 
         "Tooltip.GrabbableSetter.Scalable": "Aseta skaalautuva",
         "Tooltip.GrabbableSetter.NonScalable": "Aseta ei skaalautuva",
-
-
+        "Tooltip.GrabbableSetter.ApplyToRoot": "Aseta valitaan",
+        "Tooltip.GrabbableSetter.AppyToHit": "Aseta osumaan",
 
         "Tooltip.CharacterCollider.MarkGrippable": "Aseta tarttuva pinta",
         "Tooltip.CharacterCollider.DontMarkGrippable": "Poista tarttuva pinta",
@@ -619,7 +620,7 @@
         "CreateNew.Directory.Title": "Luo uusi kansio:",
         "CreateNew.Directory.Error.EmptyName": "Anna kansiolle nimi:",
         "CreateNew.Directory.Error.LongName": "Nimi on liian pitkä:",
-        "CreateNew.Directory.Error.InvalidName": "Epäkelpo nimi:",  
+        "CreateNew.Directory.Error.InvalidName": "Epäkelpo nimi:",
 
         "AvatarCreator.Title": "Avatar luoja",
         "AvatarCreator.Instructions": "Kohdista avatar VR-lasien ja ohjainten referenssien (valinnainen) kanssa ja muunna ne avatariksi painamalla Luo-painiketta",
@@ -709,7 +710,7 @@
         "Importer.Model.Advanced.SetupSnappable": "Asenna napsautettavaksi",
         "Importer.Model.Advanced.SetupTimelapse": "Asenna aikaviivekuvaukseksi",
         "Importer.Model.Advanced.ImportExternalTextures": "Tuo ulkoiset tekstuurit",
-
+        "Importer.Model.Advanced.SkinnedMeshes": "Tuo skinned meshit",
         "Importer.Model.Advanced.SetupIK": "Asenna IK",
         "Importer.Model.Advanced.VisualizeRig": "Visualisoi rigi",
         "Importer.Model.Advanced.ForceTpose": "Pakota T-asento",
@@ -795,9 +796,9 @@
         "FullBody.FineTuneCalibrationInstructions": "Tarkista ja hienosäädä kalibrointia siirtämällä sinisiä referenssejä",
 
         "FullBody.CalibrateTrackersHeader": "Kalibroi trackerit",
-
+        "FullBody.CalibrateTrackersInstructions": "Tarraa ja liikuta sinisiä kehon osia trackereihin verrattuna vaihtaaksesi off-settiä. Niiden pitäisi olla lähellä samaa sijaintia sinun trackereiden kanssa.\nVoit muokata asetuksia milloin tahansa uudestaan avaamalla tämän saman valikon.",
         "FullBody.UseSymmetry": "Käytä symmetriaa",
-
+        "FullBody.ShowBodyOverlay": "Näytä kehon kerros",
         "FullBody.HeightCompensationInstructions": "Jos mallinukke on liian pitkä (kyyryssä) tai liian lyhyt, säädä pituuden kompensointia istuvuuden parantamiseksi.",
         "FullBody.RecalibratePrompt": "Trackerit sekaisin tai hukassa?",
         "FullBody.Recalibrate": "Uudelleen kalibroi T-asento",
@@ -807,18 +808,18 @@
         "FullBody.FinishCalibration": "Full-Body kalibrointi valmis",
 
         "FullBody.CalibrateAvatarTitle": "Kalibroi avatar",
-
-
-
+        "FullBody.CalibrateAvatarInstructions": "Varmista, että kaikki eri kehonosat ovat mapattu, sitten liikuta sinisiä sphearejä muokataksesi asentoa sellaiseksi mikä sopii kehon esikatselulle parhaiten.",
+        "FullBody.ShowReferenceOverlay": "Näytä kehon kerros",
+        "FullBody.ResetAvatarPrompt": "Avatari on sekaisin tai ei trackaa?",
         "FullBody.ResetAvatar": "Nollaa kartoitus",
-
+        "FullBody.AvatarHeightCompensationInstructions": "Jos avatarisi on liian korkea (hartiat ovat ylhäällä) tai liian lyhyt, säädä pituuden konpensaatiota, jotta saat avatarin sopimaan sinulle paremmin.",
         "FullBody.AvatarHeightCompensation": "Avatarin pituuden kompensointi: {n, number, percent}",
         "FullBody.ResetAvatarHeightCompensation": "Nollaa pituuden kompensointi",
         "FullBody.AvatarSaveWarning": "Muista tallentaa avatar kalibroinnin jälkeen!",
         "FullBody.FinishAvatarCalibration": "Avatar kalibrointi valmis",
         "FullBody.CalibrationFinishedInstructions": "Jos kaikki näyttää hyvältä, voit sulkea kalibroinnin ja tallentaa avatarin.",
         "FullBody.CloseCalibrator": "Sulje kalibrointi",
-
+        "FullBody.CalibrationRedoInstructions": "Jos kalibrointi meni mönkään tai haluat muokata kalibrointia muille avatareille, niin voit myös avata tämän kalibrointi ikkunan koska vain jatkossakin.\nJos olet pelkästään vaihtanut trackereitä, niin sinun ei pitäisi tarvita kalibroida uudelleen.",
         "FullBody.ReturnToTrackerCalibration": "Palaa trackerien kalibrointiin",
 
         "FullBody.Hips": "Vyötärö",
@@ -1858,7 +1859,7 @@
         "Universe.Biology.Chloroplast": "Viherhiukkanen",
         "Universe.Biology.PhospholipidBilayer": "Fosfolipidi kaksoiskerros",
         "Universe.Biology.Paramecium": "Tohvelieläin",
-        "Universe.Biology.HIV": "HIV",  
+        "Universe.Biology.HIV": "HIV",
         "Universe.Biology.Mitochondrion": "Mitokondrio",
         "Universe.Biology.Hair": "Hius (leveys)",
         "Universe.Biology.HepatitisB": "B-hepatiitti",
