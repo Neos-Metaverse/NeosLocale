@@ -264,6 +264,7 @@
         "World.SortParameter.LastUpdateDate": "Дата изменения",
         "World.SortParameter.FirstPublishTime": "Дата публикации",
         "World.SortParameter.TotalVisits": "Всего посещений",
+        "World.SortParameter.LastVisit": "Последнее посещение",
         "World.SortParameter.Random": "Случайный",
 
         "World.Filter.DataSources": "Источники данных:",
