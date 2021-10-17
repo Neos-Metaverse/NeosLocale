@@ -2,18 +2,6 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
-World.Detail.Users.Count  
-World.SortParameter.LastVisit  
-Tooltip.GrabbableSetter.ApplyToRoot  
-Tooltip.GrabbableSetter.AppyToHit  
-Importer.Model.Advanced.SkinnedMeshes  
-FullBody.CalibrateTrackersInstructions  
-FullBody.ShowBodyOverlay  
-FullBody.CalibrateAvatarInstructions  
-FullBody.ShowReferenceOverlay  
-FullBody.ResetAvatarPrompt  
-FullBody.AvatarHeightCompensationInstructions  
-FullBody.CalibrationRedoInstructions  
 Settings.DebugInputBinding  
 Settings.LeapMotion.UseFingersWhenSnapped  
 Settings.ViveHandTracking.UseFingersWhenSnapped  
