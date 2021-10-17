@@ -4,6 +4,8 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Dutch [nl]
 General.OK  
 General.Reset  
+General.UI.Subtitles.On  
+General.UI.Subtitles.Off  
 Locomotion.Noclip.Name  
 Dash.Actions.ContentHub  
 World.Connection.LNL.DirectIP  

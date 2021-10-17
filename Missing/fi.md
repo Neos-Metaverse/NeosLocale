@@ -2,6 +2,8 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
+General.UI.Subtitles.On  
+General.UI.Subtitles.Off  
 Settings.DebugInputBinding  
 Settings.LeapMotion.UseFingersWhenSnapped  
 Settings.ViveHandTracking.UseFingersWhenSnapped  

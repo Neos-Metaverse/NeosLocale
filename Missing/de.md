@@ -2,6 +2,8 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # German [de]
+General.UI.Subtitles.On  
+General.UI.Subtitles.Off  
 World.SortParameter.LastVisit  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  

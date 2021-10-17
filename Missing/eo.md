@@ -4,6 +4,8 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Esperanto [eo]
 General.UI.ToggleEditMode  
 General.UI.ToggleSubtitles  
+General.UI.Subtitles.On  
+General.UI.Subtitles.Off  
 General.UI.MusicVolumeLocal  
 General.UI.VoiceVolumeLocal  
 General.UI.SoundVolumeLocal  
