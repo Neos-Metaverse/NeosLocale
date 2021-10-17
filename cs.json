@@ -264,6 +264,7 @@
         "World.SortParameter.LastUpdateDate" : "Datum modifikace",
         "World.SortParameter.FirstPublishTime" : "Datum publikace",
         "World.SortParameter.TotalVisits" : "Počet návštěv",
+        "World.SortParameter.LastVisit": "Poslední navštěva",
         "World.SortParameter.Random" : "Náhodně", 
 
         "World.Filter.DataSources" : "Zdroje dat:",
