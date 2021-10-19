@@ -31,6 +31,8 @@
         "General.UI.SearchPromptLong": "Escriba para buscar...",
         "General.UI.ToggleEditMode": "Conmutar Modo Edición",
         "General.UI.ToggleSubtitles": "Conmutar Subtítulos",
+        "General.UI.Subtitles.On" : "Subtítulos: Sí",
+        "General.UI.Subtitles.Off" : "Subtítulos: No",
 
         "General.UI.MusicVolumeLocal": "Volumen de Música (local):",
         "General.UI.VoiceVolumeLocal": "Volumen de Voz (local):",
