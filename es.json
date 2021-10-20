@@ -31,6 +31,8 @@
         "General.UI.SearchPromptLong": "Escriba para buscar...",
         "General.UI.ToggleEditMode": "Conmutar Modo Edición",
         "General.UI.ToggleSubtitles": "Conmutar Subtítulos",
+        "General.UI.Subtitles.On" : "Subtítulos: Sí",
+        "General.UI.Subtitles.Off" : "Subtítulos: No",
 
         "General.UI.MusicVolumeLocal": "Volumen de Música (local):",
         "General.UI.VoiceVolumeLocal": "Volumen de Voz (local):",
@@ -1820,14 +1822,14 @@
         "Universe.SolarSystem.Callisto": "Calisto",
         "Universe.SolarSystem.AsteroidGanymed": "Ganymed (asteroide)",
 
-        "Universe.SolarSystem.Phobos.Wiki": "Fobos (luna)",
-        "Universe.SolarSystem.Deimos.Wiki": "Deimos (luna)",        
-        "Universe.SolarSystem.Ganymede.Wiki": "Ganímedes (luna)",
-        "Universe.SolarSystem.Callisto.Wiki": "Calisto (luna)",
-        "Universe.SolarSystem.Charon.Wiki": "Charon (luna)",
+        "Universe.SolarSystem.Phobos.Wiki": "Phobos (moon)",
+        "Universe.SolarSystem.Deimos.Wiki": "Deimos (moon)",
+        "Universe.SolarSystem.Ganymede.Wiki": "Ganymede (moon)",
+        "Universe.SolarSystem.Callisto.Wiki": "Callisto (moon)",
+        "Universe.SolarSystem.Charon.Wiki": "Charon (moon)",
         "Universe.SolarSystem.AsteroidGanymed.Wiki": "1036 Ganymed",
 
-        "Universe.SolarSystem.SolarSystem.Wiki": "Sistema Solar",
+        "Universe.SolarSystem.SolarSystem.Wiki": "Solar System",
 
         "Universe.Animals.BottlenoseDolphin": "Delfín Mular",
         "Universe.Animals.Brachiosaurus": "Braquiosaurio",
@@ -1866,9 +1868,9 @@
         "Universe.Biology.Platelet": "Plaqueta (activa)",
         "Universe.Biology.LargestBacteria": "Bacteria más grande",
 
-        "Universe.Biology.AverageHumanCell.Wiki": "Célula (biología)",
-        "Universe.Biology.Hair.Wiki": "Cabello",
-        "Universe.Biology.Platelet.Wiki": "Plaqueta",
+        "Universe.Biology.AverageHumanCell.Wiki": "Cell (biology)",
+        "Universe.Biology.Hair.Wiki": "Hair",
+        "Universe.Biology.Platelet.Wiki": "Platelet",
 
         "Universe.Particles.Electron": "Electrón",
         "Universe.Particles.Proton": "Protón",
@@ -1902,16 +1904,16 @@
         "Universe.Common.Daisy": "Margarita de Shasta<br>(diámetro)",
         "Universe.Common.DouglasFir": "Abeto de Douglas",
 
-        "Universe.Common.SiltParticle.Wiki": "Limo",
-        "Universe.Common.SaltGrain.Wiki": "Sal",
-        "Universe.Common.SandGrain.Wiki": "Arena",
-        "Universe.Common.ClayParticle.Wiki": "Arcilla",
-        "Universe.Common.USCent.Wiki": "Centavo (moneda de Estados Unidos)",
-        "Universe.Common.Paper.Wiki": "Papel",
-        "Universe.Common.RiceGrain.Wiki": "Arroz",
+        "Universe.Common.SiltParticle.Wiki": "Silt",
+        "Universe.Common.SaltGrain.Wiki": "Salt",
+        "Universe.Common.SandGrain.Wiki": "Sand",
+        "Universe.Common.ClayParticle.Wiki": "Clay",
+        "Universe.Common.USCent.Wiki": "Penny (United States coin)",
+        "Universe.Common.Paper.Wiki": "Paper",
+        "Universe.Common.RiceGrain.Wiki": "Rice",
         "Universe.Common.Daisy.Wiki": "Leucanthemum × superbum",
-        "Universe.Common.ChickenEgg.Wiki": "Huevo",
-        "Universe.Common.OstrichEgg.Wiki": "Huevo",
+        "Universe.Common.ChickenEgg.Wiki": "Egg",
+        "Universe.Common.OstrichEgg.Wiki": "Egg",
 
         "Universe.Wavelength.Gamma": "Rayo Gamma",
         "Universe.Wavelength.XRayHard": "Rayo X (duro)",
@@ -1929,12 +1931,12 @@
         "Universe.Wavelength.FM": "Radio FM",
         "Universe.Wavelength.AM": "Radio AM",
 
-        "Universe.Wavelength.XRayHard.Wiki": "Rayo X",
-        "Universe.Wavelength.XRaySoft.Wiki": "Rayo X",
-        "Universe.Wavelength.FarUV.Wiki": "Ultravioleta",
-        "Universe.Wavelength.MiddleUV.Wiki": "Ultravioleta",
-        "Universe.Wavelength.NearUV.Wiki": "Ultravioleta",
-        "Universe.Wavelength.BlackLight.Wiki": "Ultravioleta",
+        "Universe.Wavelength.XRayHard.Wiki": "X-Ray",
+        "Universe.Wavelength.XRaySoft.Wiki": "X-Ray",
+        "Universe.Wavelength.FarUV.Wiki": "Ultraviolet",
+        "Universe.Wavelength.MiddleUV.Wiki": "Ultraviolet",
+        "Universe.Wavelength.NearUV.Wiki": "Ultraviolet",
+        "Universe.Wavelength.BlackLight.Wiki": "Ultraviolet",
 
         "Universe.Geology.AllWater": "Agua de la Tierra",
         "Universe.Geology.LiquidFreshWater": "Agua dulce líquida",
@@ -1946,9 +1948,9 @@
         "Universe.Countries.Australia": "Australia",
         "Universe.Cities.Paris": "París",
 
-        "Universe.Geology.AllWater.Wiki": "Distribución del agua en la Tierra",
-        "Universe.Geology.LiquidFreshWater.Wiki": "Agua dulce",
-        "Universe.Geology.WaterInLakesAndRivers.Wiki": "Río",
+        "Universe.Geology.AllWater.Wiki": "Water distribution on Earth",
+        "Universe.Geology.LiquidFreshWater.Wiki": "Fresh water",
+        "Universe.Geology.WaterInLakesAndRivers.Wiki": "River",
 
         "Universe.Nebulae.Crab": "Nebulosa del Cangrejo",
         "Universe.Nebulae.CatEye": "Nebulosa Ojo de Gato",
@@ -1974,12 +1976,12 @@
         "Universe.Technology.Ingenuity": "Helicóptero de la NASA Ingenuity",
         "Universe.Technology.CargoShip": "Buque de Carga",
 
-        "Universe.Technology.Ingenuity.Wiki": "Ingenuity (helicóptero)",
+        "Universe.Technology.Ingenuity.Wiki": "Ingenuity (helicopter)",
         "Universe.Technology.TransistorGate.Wiki": "Transistor",
         "Universe.Technology.Starship.Wiki": "SpaceX Starship",
 
         "Universe.Technology.Voyager.Wiki": "Voyager 1",
-        "Universe.Technology.MoonLander.Wiki": "Alunizador",
+        "Universe.Technology.MoonLander.Wiki": "Lunar Lander",
 
         "Universe.Landmarks.EiffelTower": "Torre Eiffel",
         "Universe.Landmarks.DistanceFromLA2SF": "Distancia de Los Angeles a San Francisco",
@@ -1988,14 +1990,14 @@
         "Universe.Landmarks.MountEverest": "Monte Everest",
         "Universe.Landmarks.LHC": "Gran Colisionador de Hadrones",
 
-        "Universe.Landmarks.StatueOfLiberty.Wiki": "Estatua de la Libertad",
+        "Universe.Landmarks.StatueOfLiberty.Wiki": "Statue of Liberty",
 
         "Universe.Chemistry.Ethanol": "Etanol (alcohol)",
         "Universe.Chemistry.CarbonNanotube": "Nanotubo de Carbono",
         "Universe.Chemistry.Glucose": "Glucosa",
         "Universe.Chemistry.Water": "Agua",
 
-        "Universe.Chemistry.Ethanol.Wiki": "Etanol",
+        "Universe.Chemistry.Ethanol.Wiki": "Ethanol",
 
         "Universe.Galaxies.MilkyWay": "Vía Láctea",
         "Universe.Galaxies.Andromeda": "Galaxia de Andrómeda",
@@ -2037,10 +2039,10 @@
         "Universe.Units.Mile": "Milla",
         "Universe.Units.NauticalMile": "Milla náutica",
 
-        "Universe.Units.Inch.Wiki": "Pulgada (unidad)",
-        "Universe.Units.Foot.Wiki": "Pie (unidad)",
-        "Universe.Units.Yard.Wiki": "Yarda (unidad)",
-        "Universe.Units.Mile.Wiki": "Milla (unidad)",
+        "Universe.Units.Inch.Wiki": "Inch (unit)",
+        "Universe.Units.Foot.Wiki": "Foot (unit)",
+        "Universe.Units.Yard.Wiki": "Yard (unit)",
+        "Universe.Units.Mile.Wiki": "Mile (unit)",
 
         "Temporary.MMC.Voting UI": "Interfaz de Votación de MMC",
         "Temporary.MMC.Vote": "Votar",
