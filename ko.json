@@ -1965,6 +1965,9 @@
         "World.Indicator.Visited": "(방문한 적 있음)",
         "World.SortParameter.LastVisit": "최근 방문순",
 		
+        "General.UI.Subtitles.On" : "자막: 켜짐",
+        "General.UI.Subtitles.Off" : "자막: 꺼짐",
+		
         "Dummy": "더미"
     }
 }
