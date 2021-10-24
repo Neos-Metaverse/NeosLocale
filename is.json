@@ -1,6 +1,6 @@
 {
     "localeCode" : "is",
-    "authors" : ["Nammi"],
+    "authors" : ["Nammi", "Hroi"],
     "messages" : 
     {
         "General.OK" : "Ókei",
@@ -42,11 +42,11 @@
         "Locomotion.WalkRunGripping.Name" : "Ganga/Hlaupa (með klifri)",
         "Locomotion.WalkRunGripping.Description" : "Labba, hlaupa, hoppa í líkamlegu formi(með klifri).",
         "Locomotion.ZeroG.Name" : "Þyngdarleysi",
-        "Locomotion.ZeroG.Description" : "Líkamleg þyngdarleysi.",
+        "Locomotion.ZeroG.Description" : "Líkamlegt þyngdarleysi.",
         "Locomotion.GrabWorld.Name" : "Grípa heim",
         "Locomotion.GrabWorld.Description" : "Býr til heimsakkeri með tilvísun og færir notandinn miðað við því.",
-        "Locomotion.Slide.Name" : "Renning",
-        "Locomotion.Slide.Description" : "Hreyfingarkerfi sem rennur notandin nálagt yfirborð, annars er notandinn að fljúga.",
+        "Locomotion.Slide.Name" : "Renna",
+        "Locomotion.Slide.Description" : "Hreyfingarkerfi sem rennir notandanum nálægt yfirborðinu, annars er notandinn að fljúga.",
 
         "Interaction.Destroy" : "Eyða",
         "Interaction.Duplicate" : "Tvöfalda",
@@ -77,7 +77,7 @@
         "Interaction.CopyLink" : "Afrita linkur",
 
         "Dash.Screens.Home" : "Heim",
-        "Dash.Screens.Worlds" : "Veraldar",
+        "Dash.Screens.Worlds" : "Veraldir",
         "Dash.Screens.Contacts" : "Tengiliðir",
         "Dash.Screens.Inventory" : "Birgðahald",
         "Dash.Screens.Desktop" : "Skrifborð",
@@ -86,12 +86,12 @@
         "Dash.Screens.Settings" : "Stillingar",
         "Dash.Screens.Exit" : "Loka",
 
-        "Dash.Actions.PasteFromClipboard" : "Líma innihalds klippborðar.",
+        "Dash.Actions.PasteFromClipboard" : "Líma innihald klippiborðs",
 
-        "Dash.Actions.CoreWorldsHeader" : "Kjarnaveraldar",
+        "Dash.Actions.CoreWorldsHeader" : "Kjarnaveraldir",
         "Dash.Actions.ContentHub" : "Efnishöfundarmiðstöð",
         "Dash.Actions.MTC" : "Gerfiraunverulegþjáfunarmiðstöð <size=75%>(Kennsla)</size>",
-        "Dash.Actions.CloudHome" : "Hemilið mitt á netið",
+        "Dash.Actions.CloudHome" : "Heimilið mitt á netinu",
 
         "Dash.Exit.Header" : "Loka Neos",
         "Dash.Exit.ExitAndSave" : "Loka og vista heimil",
@@ -101,7 +101,7 @@
 
         "World.Waiting" : "Er í biðslu...",
         "World.HostIsStarting" : "Gestgjafi er að hefja þing",
-        "World.Loading" : "Hleðslu...",
+        "World.Loading" : "Hleður...",
         "World.LoadingFailed" : "Mistókst",
         "World.LoadedAssets" : "Hlaðaði {assets} af {total_assets}",
         "World.Downloading" : "Niðurhalaði {bytes} af {total_bytes}",
@@ -140,9 +140,9 @@
         "World.Config.MobileFriendly" : "Farsímavænt:",
         "World.Config.SaveOptionsHeader" : "Veraldarvistunarstillingar:",
         "World.Config.EditMode" : "Klippistilling:",
-        "World.Config.AccessLevelHeader" : "Hver getur tengst þessum veröld?",
-        "World.Config.AutoKickAFK" : "Sparka daufar notendur sjálfkrafa:",
-        "World.Config.AutoKickAFKMinutes" : "Hámarksdauftími:",
+        "World.Config.AccessLevelHeader" : "Hver getur tengst þessari veröld?",
+        "World.Config.AutoKickAFK" : "Sparka AFK notendum sjálfkrafa:",
+        "World.Config.AutoKickAFKMinutes" : "Hámarks AFK tími:",
         "World.Config.HideFromListing" : "Ekki sýna í þinglýsingu",
         "World.Config.Autosave" : "Vista sjálfkrafa (skrifar yfir síðasta vistun):",
         "World.Config.AutosaveInterval" : "Vista sjálfkrafa (mínútur):",
@@ -160,8 +160,8 @@
         "World.Actions.SaveHere" : "Vista hér",
         "World.Actions.SaveToInventory" : "Vista í birgðahald",
         "World.Actions.Saving" : "Er að vista...",
-        "World.Actions.Discard" : "Farga breytingar",
-        "World.Actions.Clone" : "Klón veröld",
+        "World.Actions.Discard" : "Farga breytingum",
+        "World.Actions.Clone" : "Afrita veröld",
         "World.Actions.Delete" : "Farga veröld",
         "World.Actions.ConfirmDelete" : "Staðfesta förgun",
         "World.Actions.ReallyConfirmDelete" : "Farga 100%? (Ekki hægt að afturkalla!)",
@@ -173,17 +173,17 @@
         "World.Actions.LeavePrompt" : "Fara úr veröld?",
         "World.Actions.CloseConfirm" : "Loka",
         "World.Actions.LeaveConfirm" : "Fara",
-        "World.Actions.CannotClose" : "(Ekki hægt að loka þessum veröld)",
+        "World.Actions.CannotClose" : "(Ekki hægt að loka þessari veröld)",
         "World.Actions.GuestWarning" : "",
-        "World.Actions.HostingWarning" : "Þú ert að hýsa þessum veröld. Allar notendur verða aftengdir.",
+        "World.Actions.HostingWarning" : "Þú ert að hýsa þessa veröld. Allir notendur verða aftengdir.",
 
         "World.Actions.GetWorldOrb" : "Ná veraldarkúlu",
-        "World.Actions.CopyWorldURL" : "Afrita veraldar URL",
-        "World.Actions.CopyRecordURL" : "Afrita skrá URL",
+        "World.Actions.CopyWorldURL" : "Afrita hlekk veraldar",
+        "World.Actions.CopyRecordURL" : "Afrita hlekk skráar",
         "World.Actions.StartCustomSession" : "Byrja sérsniðaðan þing",
         "World.Actions.ModifyMetadata" : "Breyta Metagögn",
         "World.Actions.GetSessionOrb" : "Ná þingkúlu",
-        "World.Actions.CopySessionURL" : "Afrita þing URL",
+        "World.Actions.CopySessionURL" : "Afrita hlekk þings",
 
         "World.Indicator.NoData" : "Engin gögn",
         "World.Indicator.LocalWorld" : "Heimagistað veröld",
@@ -225,7 +225,7 @@
         "World.Category.Art" : "List",
         "World.Category.Tutorials" : "Kennsla",
         "World.Category.Educational" : "Lærdómsríkt",
-        "World.Category.MyWorlds" : "Veraldarnar mínar",
+        "World.Category.MyWorlds" : "Veraldirnar mínar",
         "World.Category.Custom" : "Sérsnið",
 
         "World.AccessLevel.Anyone" : "Hver sem er",
@@ -237,7 +237,7 @@
 
         "World.SortParameter.SearchScore" : "Leitarstig",
         "World.SortParameter.Name" : "Nafn",
-        "World.SortParameter.OpenedWorldCount" : "Opnaðar veraldar",
+        "World.SortParameter.OpenedWorldCount" : "Opnaðar veraldir",
         "World.SortParameter.TotalSessionCount" : "Öll þing",
         "World.SortParameter.TotalUserCount" : "Heildarnotendur",
         "World.SortParameter.CreationDate" : "Stofndagur",
@@ -246,10 +246,10 @@
         "World.SortParameter.TotalVisits" : "Heildarheimsóknir",
 
         "World.Filter.DataSources" : "Gagnaheimildir:",
-        "World.Filter.OpenedWorlds" : "Opnaðar veraldar",
+        "World.Filter.OpenedWorlds" : "Opnaðar veraldir",
         "World.Filter.ActiveSessions" : "Virk þing",
-        "World.Filter.PublishedWorlds" : "Útgefnar veraldar",
-        "World.Filter.LocalWorlds" : "Heimagistaðar veraldar",
+        "World.Filter.PublishedWorlds" : "Útgefnar veraldir",
+        "World.Filter.LocalWorlds" : "Staðværar veraldir",
         "World.Filter.BaseSearch" : "Grunnleit:",
         "World.Filter.ByOwner" : "Af eiganda:",
         "World.Filter.UserOwner" : "Eigandi er notandi",
@@ -282,7 +282,7 @@
         "Tools.DepositNCR" : "NCR innborgun",
         "Tools.WithdrawNCR" : "NCR útborgun",
         "Tools.Debug" : "Debug",
-        "Tools.StreamAudio" : "Streyma hljóð",
+        "Tools.StreamAudio" : "Streyma hljóði",
 
         "Tools.StreamAudio.Start" : "Byrja að streyma",
         "Tools.StreamAudio.Bitrate" : "Bitahraði: {bitrate} kbps",
@@ -294,20 +294,20 @@
 
         "Options.FreeformDash.On" : "Fljótandi mælaborð: Á",
         "Options.FreeformDash.Off" : "Fljótandi mælaborð: Af",
-        "Options.SeatedMode.On" : "Sitjandakerfi: Á",
-        "Options.SeatedMode.Off" : "sitjandakerfi: Af",
-        "Options.Nameplates.All" : "Nafnspjöld: Syna",
-        "Options.Nameplates.NonContacts" : "Nafnspjöld: Syna ekki tengiliðir",
+        "Options.SeatedMode.On" : "Sitjandi: Á",
+        "Options.SeatedMode.Off" : "Sitjandi: Af",
+        "Options.Nameplates.All" : "Nafnspjöld: Sýna",
+        "Options.Nameplates.NonContacts" : "Nafnspjöld: Sýna ekki tengiliðir",
         "Options.Nameplates.Hide" : "Nafnspjöld: Fela",
 
-        "Indicator.OnlineUsers" : "Online notendur: ~{num_registered} ({num_total})",
-        "Indicator.ServerStatus" : "<color=#fff>Netþjónusta:</color> {status, select, Good {Gótt} Slow {Hægt} Down {Niður} NoInternet {Ekkert netsamband}} ({response_ms} ms)",
+        "Indicator.OnlineUsers" : "Virkir notendur: ~{num_registered} ({num_total})",
+        "Indicator.ServerStatus" : "<color=#fff>Netþjónusta:</color> {status, select, Good {Gott} Slow {Hægt} Down {Niður} NoInternet {Ekkert netsamband}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Allt samstillt",
         "Indicator.Sync.SyncingItems" : "Samstilla {item_count,plural, one {# hlut} other {# hlutir}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants" : "Upphlaða {variant_count,plural, one {# eignarafbrigði} other {# eignarafbrögð}}",
-        "Indicator.Sync.SyncError" : "Samstillingarvilla! <size=50%>Kiktu á log skrá fyrir gríðalega góðar upplysýngar</size>",
-        "Indicator.Sync.OutOfSpace" : "Ekkert pláss til! <size=50%>Samstilling ekki hægt af framkvæma</size>",
+        "Indicator.Sync.SyncError" : "Samstillingarvilla! <size=50%>Kíktu á log skrá fyrir gríðalega góðar upplysýngar</size>",
+        "Indicator.Sync.OutOfSpace" : "Ekkert pláss til! <size=50%>Ekki hægt að framkvæma samstillingu</size>",
 
         "Indicator.LiveHiddenMessage" : "(Upplysingar faldar á meðan þú ert í beinni)",
 
@@ -315,22 +315,22 @@
         "Account.Logout" : "Útskráning",
         "Account.Register" : "Skrá nýr notandi",
         "Account.LoginOrRegister" : "Innskráning / Skrá sig",
-        "Account.LogoutConfirm" : "Ertu viss þú villt skrá út?",
+        "Account.LogoutConfirm" : "Ertu viss um að þú viljir skrá þig út?",
         "Account.LoggingIn" : "Innskráning í vinnslu...",
         "Account.LoggingOut" : "Útskráning í vinnslu...",
         "Account.Registering" : "Skráning í vinnslu...",
         "Account.Anonymous" : "Nafnlaus",
         "Account.PatreonSupporter" : "Patreon stuðningsmeðlimur",
         "Account.Username" : "Notendanafn:",
-        "Account.Email" : "Tölvupóstur:",
+        "Account.Email" : "Tölvupóstfang:",
         "Account.RememberMe" : "Muna eftir mér: (7 daga)",
-        "Account.RepeatEmail" : "Endurtaka Tölvupóstur:",
-        "Account.UsernameOrEmail" : "Notendanafn eða tölvupóstur:",
+        "Account.RepeatEmail" : "Endurtaka Tölvupóstfang:",
+        "Account.UsernameOrEmail" : "Notendanafn eða tölvupóstfang:",
         "Account.Password" : "Lykilorð:",
         "Account.RepeatPassword" : "Endurtaka lykilorð:",
         "Account.RecoverPassword" : "Týnt lykilorð?",
-        "Account.LiveEmailWarning" : "<color=#f00>VARÚÐ:</color> live.com, hotmail.com, outlook.com og annað Microsoft-hýsað þjónustur geta tekið up að 1-2 dagar til að samþykkja tölvupostinn.",
-        "Account.PasswordRules" : "(að minnsta kosti 8 stafi, 1 tala, 1 litlastaf, 1 stórastaf)",
+        "Account.LiveEmailWarning" : "<color=#f00>VARÚÐ:</color> live.com, hotmail.com, outlook.com og aðrar Microsoft-hýsað þjónustur geta tekið up að 1-2 dagar til að samþykkja tölvupóstinn.",
+        "Account.PasswordRules" : "(að minnsta kosti 8 stafi, 1 tölu, 1 lítin staf og 1 stóran staf)",
         "Account.AgeConfirm" : "Ég er þrettán ára eða eldri",
         "Account.LostPassword" : "Týnt lykilorð",
         "Account.SendRecoveryCode" : "Senda auðkenniskóða",
@@ -343,13 +343,13 @@
         "Account.ErrorPasswordMismatch" : "Lykilorð passa ekki!",
         "Account.ErrorEmailMismatch" : "Tölvupóstfang passa ekki!",
         "Account.ErrorLoginError" : "Villa við innskráningu:",
-        "Account.RegistrationSuccess" : "Vá glæsilegt! Erum búin að senda þér tölvupóst með staðfestingarhlekkur. Eftir þú ert búin að smella á þessum hlekk getur þú skráð þig inn.",
+        "Account.RegistrationSuccess" : "Vá glæsilegt! Erum búin að senda þér tölvupóst með staðfestingarhlekk. Eftir þú ert búin að smella á þennan hlekk getur þú skráð þig inn.",
 
-        "Profile.Status.Online" : "Online",
+        "Profile.Status.Online" : "Virkur",
         "Profile.Status.Away" : "Í burtu",
         "Profile.Status.Busy" : "Upptekinn",
         "Profile.Status.Invisible" : "Ósýnilegur",
-        "Profile.Status.Offline" : "Offline",
+        "Profile.Status.Offline" : "Ótengdur",
 
         "Session.Tab.Settings" : "Stillingar",
         "Session.Tab.Users" : "Notendur",
@@ -400,8 +400,8 @@
         "Contacts.SearchResult" : "Leitarniðurstaða",
         "Contacts.Bot" : "Vélmennanotandi",
 
-        "Notifications.IsOnline" : "Er nú Online",
-        "Notifications.IsOnlineOnDifferentVersion" : "Er nú Online <size=75%>(á útgáfu: {version})</size>",
+        "Notifications.IsOnline" : "Er nú virkur",
+        "Notifications.IsOnlineOnDifferentVersion" : "Er nú virkur <size=75%>(á útgáfu: {version})</size>",
         "Notifications.ReceivedContactRequest" : "Senti tengiliðabeiðni",
         "Notifications.ReceivedInvite" : "Er að bjóða þig að taka þátt í:",
         "Notifications.ReceivedItem" : "Senti þér hlut:",
@@ -426,24 +426,24 @@
         "Undo.ResetRotation" : "Endurstilla snúning",
         "Undo.ResetScale" : "Endurstilla stærð",
 
-        "Undo.GrabObjects" : "Grab Objects",
-        "Undo.DestroyGrabbed" : "Destroy Grabbed Objects",
-        "Undo.DuplicateGrabbed" : "Duplicate Grabbed Objects",
+        "Undo.GrabObjects" : "Grípa hluti",
+        "Undo.DestroyGrabbed" : "Eyða gripnum hlutum",
+        "Undo.DuplicateGrabbed" : "Afrita gripna hluti",
 
-        "Undo.ChangeBoxSize" : "Breyta kassa stærð",
+        "Undo.ChangeBoxSize" : "Breyta stærð kassa",
         "Undo.BrushStroke" : "Pensilstrokur",
         "Undo.ChangeColor" : "Breyta lit",
         "Undo.CloneComponent" : "Klóna Component",
         "Undo.MoveIKBone" : "Færa IK Bein",
         "Undo.MoveSun" : "Færa sólina",
-        "Undo.ApplyMaterial" : "Setja Material",
+        "Undo.ApplyMaterial" : "Setja efni",
         "Undo.BakeMeshes" : "Baka {name}",
         "Undo.ChangeMesh" : "Breyta Mesh",
-        "Undo.InsertParent" : "Stilla in Parent fyrir {name}",
-        "Undo.Wiggler" : "Geggjað djöfladótt",
+        "Undo.InsertParent" : "Setja inn foreldri fyrir {name}",
+        "Undo.Wiggler" : "Vont dót",
 
-        "Undo.ExtractMaterialsFromHierarchy" : "Gríppa materials frá stigveldi",
-        "Undo.BatchConvertMaterials" : "Hópumbreyta materials",
+        "Undo.ExtractMaterialsFromHierarchy" : "Gríppa efni frá stigveldi",
+        "Undo.BatchConvertMaterials" : "Hópumbreyta efnum",
 
         "Tooltips.Dev.CreateNew" : "Búa til nýtt...",
         "Tooltips.Dev.Selection" : "Val: {mode}",
@@ -451,7 +451,8 @@
         "Tooltips.Dev.DevMode.On" : "Forritarastilling: Á",
         "Tooltips.Dev.OpenInspector" : "Opna Eftirlitsglugga",
         "Tooltips.Dev.DeselectAll" : "Afvelja allt",
-        "Tooltips.Dev.DestroySelected" : "Eyða því völdu",
+        "Tooltips.Dev.DestroySelected" : "Eyða vali",
+        "Tooltips.Dev.ConfirmDestroySelected": "VIRKILEGA eyða vali",
 
         "Tooltip.Logix.NodeBrowser" : "Hnútavafri",
         "Tooltip.Logix.UnpackChildren" : "Afpakka börn og tengdar hnútar",
@@ -460,8 +461,8 @@
 
         "Tooltip.Color.Picker" : "Lit veljari",
 
-        "Tooltip.GrabbableSetter.Scalable" : "Setja stillanleg stærð",
-        "Tooltip.GrabbableSetter.NonScalable" : "Setja sem ekki stillanleg stærð",
+        "Tooltip.GrabbableSetter.Scalable" : "Setja stillanlega stærð",
+        "Tooltip.GrabbableSetter.NonScalable" : "Setja sem ekki stillanlega stærð",
 
         "Tooltip.CharacterCollider.MarkGrippable" : "Merkja sem grípanlegt",
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Ekki merkja sem grípanlegt",
@@ -487,7 +488,7 @@
 
 
         "Tooltip.Material.CreateCopy" : "Búa til afrit",
-        "Tooltip.Material.Edit" : "Breyta Material",
+        "Tooltip.Material.Edit" : "Breyta efni",
         "Tooltip.Material.Convert" : "Breyta í...",
         "Tooltip.Material.CreateNew" : "Búa til nýtt",
 
@@ -496,7 +497,7 @@
         "Tooltip.Microphone.Format.WAV" : "WAV",
         "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC" : "FLAC",
-        "Tooltip.Microphone.ModeHold" : "Halda til að upptaka",
+        "Tooltip.Microphone.ModeHold" : "Halda til að taka upp",
         "Tooltip.Microphone.ModePress" : "Íta til að byrja/stansa upptöku",
         "Tooltip.Microphone.SourceRaw" : "Hrátt",
         "Tooltip.Microphone.SourceFiltered" : "Sigtað og venjað",
@@ -592,7 +593,7 @@
 
 
         "Importer.Image.Title" : "Mynd importara",
-        "Importer.Image.Prompt" : "Hvap ertu að importa?",
+        "Importer.Image.Prompt" : "Hvað ertu að importa?",
         "Importer.Image.Regular" : "Ljósmynd / Texture",
         "Importer.Image.360" : "360 mynd / skybox",
         "Importer.Image.StereoPhoto" : "Stereo mynd",
@@ -623,7 +624,7 @@
 
         "Importer.Model.Meters" : "Metrar (m)",
         "Importer.Model.Millimeters" : "Millimetrar (mm)",
-        "Importer.Model.Centimeters" : "Centimetrar (cm)",
+        "Importer.Model.Centimeters" : "Sentimetrar (cm)",
         "Importer.Model.Inches" : "Tommur",
         "Importer.Model.FinalizePrompt" : "Allt tilbúið?",
 
@@ -912,7 +913,7 @@
 
 
 
-        "Settings.Locale.ChangeLanguage" : "Breyta tungumál",
+        "Settings.Locale.ChangeLanguage" : "Breyta tungumáli",
         "Settings.Locale.SelectLanguageHeader" : "Veldu tungumálið þitt:",
 
         "Settings.Save" : "Vista breytingar",
