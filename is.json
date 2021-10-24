@@ -297,7 +297,7 @@
         "Options.SeatedMode.On" : "Sitjandi: Á",
         "Options.SeatedMode.Off" : "Sitjandi: Af",
         "Options.Nameplates.All" : "Nafnspjöld: Sýna",
-        "Options.Nameplates.NonContacts" : "Nafnspjöld: Sýna ekki tengiliðir",
+        "Options.Nameplates.NonContacts" : "Nafnspjöld: Sýna ekki tengiliði",
         "Options.Nameplates.Hide" : "Nafnspjöld: Fela",
 
         "Indicator.OnlineUsers" : "Virkir notendur: ~{num_registered} ({num_total})",
@@ -1283,6 +1283,46 @@
         "Tutorial.Intro.OutroTop" : "Fleiri tutorial eru finnanleg í þessum heim.<br><br>Gangi þér vel og njóttu Neos!",
         "Tutorial.Intro.Website" : "Vefsíðu",
         "Tutorial.Intro.OutroEnd" : "Ef þú villt styðja Neos, þú getur gerst Patreonstuðningsmeðlimur.<br><br>Hoppaðu í Discordið okkar fyrir nyjar upplysýngar, tengingar, eða tæknileg aðstoð.",
+
+
+        "Tutorial.MTC.Creation" : "Sköpun og Gagnsemi",
+        "Tutorial.MTC.RecordingStreaming" : "Upptöku og Streyming",
+
+        "Tutorial.Grab.MoveRotate" : "Hreyfa/Snúa hlut í hendi",
+
+
+
+
+
+
+        "Tutorial.WorldOrb.Click" : "Klikka veraldarkúlu",
+
+
+        "Tutorial.Tooltip.GeneralPrimary" : "Nota",
+
+
+
+
+
+
+
+
+        "Tutorial.Tooltip.ColorSecondary" : "Velja lit",
+        "Tutorial.Tooltip.Brush" : "Teikna",
+
+
+
+
+
+
+
+
+
+        "Tutorial.Tooltip.LightSecondary" : "Breyta lit",
+
+
+
+
 
 
 
