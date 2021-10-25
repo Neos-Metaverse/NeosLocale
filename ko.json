@@ -1968,6 +1968,8 @@
         "General.UI.Subtitles.On" : "자막: 켜짐",
         "General.UI.Subtitles.Off" : "자막: 꺼짐",
 		
+		"World.Error.InvalidAddress": "잘못된 주소입니다.",
+		
         "Dummy": "더미"
     }
 }
