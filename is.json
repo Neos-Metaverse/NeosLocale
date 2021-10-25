@@ -1234,12 +1234,12 @@
         "Tutorial.Intro.WelcomeDescription" : "Þinn leiðarvísir í þessum gerfiraunveruheim.",
 
         "Tutorial.Intro.GrabbingTitle" : "Að grípa",
-        "Tutorial.Intro.GrabbingVR" : "Taktu hluti sem eru nálægt mewð því að <color=#ffdd77><b>grípa</b></color> með <color=#77ff77><b>Grip</b></color> takkanum. <br>Taktu hluti sem eru lengra í burtu með því að ýta á <b><color=#77ff77>Trigger</color></b> til að kveikja á bendinum þínum, og <color=#ffdd77><b>gríptu</b></color> svo hlutinn með <color=#77ff77><b>Grip</b></color> takkanum.",
+        "Tutorial.Intro.GrabbingVR" : "Taktu hluti sem eru nálægt þér með því að <color=#ffdd77><b>grípa</b></color> með <color=#77ff77><b>Grip</b></color> takkanum. <br>Taktu hluti sem eru lengra í burtu með því að ýta á <b><color=#77ff77>Trigger</color></b> til að kveikja á bendinum og <color=#ffdd77><b>gríptu</b></color> svo hlutinn með <color=#77ff77><b>Grip</b></color> takkanum.",
         "Tutorial.Intro.GrabbingScreen" : "Taktu hluti sem eru nálægt með því að <color=#ffdd77><b>grípa</b></color> með <color=#77ff77><b>hægri músar takkanum</b></color>.",
 
         "Tutorial.Intro.ScalingTitle" : "Breyta stærð",
-        "Tutorial.Intro.ScalingVR" : "Til að breyta <color=#ffdd77><b>stærð</b></color> hlutar, gríptu hlutinn með báðum höndum og hreyfðu hendurnar svo <color=#77ddff><b>saman eða í sundur</b></color>. Þetta er líka hægt með bendinum.",
-        "Tutorial.Intro.ScalingScreen" : "Til að breyta <color=#ffdd77><b>stærð</b></color> hlutar, gríptu hlutinn með því að halda niðri <color=#77ff77><b>hægri músar takkanum</b></color>, <color=#77ddff><b>Shift</b></color> og hreyfðu síðan <color=#77ff77><b>Scroll Wheel</b></color>.",
+        "Tutorial.Intro.ScalingVR" : "Til að breyta <color=#ffdd77><b>stærð</b></color> hluts, gríptu hlutinn með báðum höndum og hreyfðu hendurnar svo <color=#77ddff><b>saman eða í sundur</b></color>. Þetta er líka hægt með bendinum.",
+        "Tutorial.Intro.ScalingScreen" : "Til að breyta <color=#ffdd77><b>stærð</b></color> hluts, gríptu hlutinn með því að halda niðri <color=#77ff77><b>hægri músar takkanum</b></color>, <color=#77ddff><b>Shift</b></color> og hreyfðu síðan <color=#77ff77><b>Scroll Wheel</b></color>.",
 
         "Tutorial.Intro.ContextMenuTitle" : "Samhengisvalgluggi",
         "Tutorial.Intro.ContextMenuDescription" : "Þú ert með <color=#ffdd77><b>samhengisvalglugga</b></color> eða <color=#ffdd77><b>„Context Menu“</b></color> sem gefur þér fljótann aðgang að algengum aðgerðum.<br>Þú getur opnað eða lokað þessari valmynd með <color=#77ff77><b>{button}</b></color>.",
@@ -1249,17 +1249,17 @@
         "Tutorial.Intro.ContextMenu_Screen" : "Miðju músar takkanum eða T takkanum",
 
         "Tutorial.Intro.DestroyingDuplicatingTitle" : "Að eyða og tvöfalda",
-        "Tutorial.Intro.DestroyingDuplicatingVR" : "Á meðan þú ert að grípa hlut, <b><color=#ffdd77>eyddu eða tvöfaldaðu</color></b> honum því með að velja valmöguleikann í <color=#77ff77><b>samhengisvalglugganum</b></color> með <b><color=#77ff77>Trigger</color></b> takkanum.",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Á meðan þú ert að grípa hlut, <b><color=#ffdd77>eyddu eða tvöfaldaðu</color></b> hann með því að velja valmöguleikann í <color=#77ff77><b>samhengisvalglugganum</b></color> með <b><color=#77ff77>Trigger</color></b> takkanum.",
         "Tutorial.Intro.DestroyingDuplicatingScreen" : "Á meðan þú ert að grípa hlut, <color=#ffdd77><b>tvöfaldaðu</b></color> hlutinn með því að velja valmöguleikann í <color=#ffdd77><b>samhengisvalglugganum</b></color> með <color=#77ff77><b>hægri músar takkanum</b></color>. <b><color=#ffdd77>Eyddu</color></b> hlutnum með því að velja valmöguleikann í <color=#ffdd77><b>samhengisvalgluggann</b></color> eða með því að ýta á <color=#77ff77><b>Delete</b></color> takkan.",
 
-        "Tutorial.Intro.ScalingYourselfTitle" : "Breyta þinni eiginn stærð",
-        "Tutorial.Intro.ScalingYourselfVR" : "Til að <color=#ffdd77><b>stækka eða minnka</b></color> þig, kveiktu á <color=#ffdd77><b>Breytileg stigstærð</b></color> í <color=#ffdd77><b>samhengisvalgluggann</b></color>, haltu síðan niðri báðum<color=#77ff77><b>grip tökkunum</b></color> og hreyfðu báðar hendur <color=#77ddff><b>saman eða í sundur</b></color>.",
+        "Tutorial.Intro.ScalingYourselfTitle" : "Breyta þinni eigin stærð",
+        "Tutorial.Intro.ScalingYourselfVR" : "Til að <color=#ffdd77><b>stækka eða minnka</b></color> þig, kveiktu á <color=#ffdd77><b>Breytileg stigstærð</b></color> í <color=#ffdd77><b>samhengisvalgluggann</b></color>, haltu síðan niðri báðum <color=#77ff77><b>grip tökkunum</b></color> og hreyfðu báðar hendur <color=#77ddff><b>saman eða í sundur</b></color>.",
         "Tutorial.Intro.ScalingYourselfScreen" : "Til að <color=#ffdd77><b>stækka eða minnka</b></color> sjálfan þig, kveiktu á <color=#ffdd77><b>Breytileg stigstærð</b></color> í <color=#ffdd77><b>samhengisvalgluggann</b></color>, haltu síðan niðri <color=#77ff77><b>Control</b></color> takkanum, og hreyfðu <color=#77ff77><b>Scroll Wheel</b></color>.",
 
         "Tutorial.Intro.LocomotionTitle" : "Hreyfingakerfi",
         "Tutorial.Intro.LocomotionDescription" : "Neos er með mikið val til um hvernig þú hreyfir þig um.<br>Hreyfingakerfin eru aðgengileg í <color=#ffdd77>samhengisvalglugganum</color>.",
 
-        "Tutorial.Intro.DashboardTitle" : "Neos Mælaborðið",
+        "Tutorial.Intro.DashboardTitle" : "Neos mælaborðið",
         "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>Mælaborðið</b></color> er aðal valmyndin þín.<br>Opnaðu og lokaðu því með <color=#77ff77><b>{button}</b></color>.",
         "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>Mælaborðið</b></color> er aðal valmyndin þín.<br>Opnaðu og lokaðu því með því að halda niðri<color=#77ff77><b>{button}</b></color> þangað til hringinn fer fullan hring, og <color=#77ddff><b>slepptu</b></color> þá takkanum.",
         "Tutorial.Intro.Dashboard_ButtonA" : "A takkanum",
@@ -1267,12 +1267,12 @@
         "Tutorial.Intro.Dashboard_ButtonMenu" : "valmyndar takkanum",
         "Tutorial.Intro.Dashboard_ButtonScreen" : "Escape takkanum",
 
-        "Tutorial.Intro.InventoryVR" : "<color=#ffdd77><b>Birgðahaldið</b></color> þitt er finnanlegt í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Til að ná hlut úr birgjahaldinu, <color=#77ff77><b>tvísmelltu</b></color> á hlutinn í birgðahaldinu.<br>Til að <color=#77ddff><b>vista</b></color> hlut, <color=#77ddff><b>haltu</b></color> á hlutnum og ýttu á <sprite name=inv-add> uppi í hægra horninu.",
-        "Tutorial.Intro.InventoryScreen" : "<color=#ffdd77><b>Birgðahaldið</b></color> þitt er finnanlegt í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Til að ná hlut úr birgjahaldinu, <color=#77ff77><b>tvísmelltu</b></color> á hlutinn í birgðahaldinu.<br>Til að <color=#77ddff><b>vista</b></color> hlut, <color=#77ddff><b>haltu</b></color> á hlutnum og vistaðu með því að opna birgðahaldið og velja valmöguleikann í <color=#ffdd77><b>samhengisvalglugganum</b></color>.",
+        "Tutorial.Intro.InventoryVR" : "<color=#ffdd77><b>Birgðahaldið</b></color> þitt er finnanlegt í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Til að ná hlut úr birgjahaldinu, <color=#77ff77><b>tvísmelltu</b></color> á hlutinn.<br>Til að <color=#77ddff><b>vista</b></color> hlut, <color=#77ddff><b>haltu</b></color> á hlutnum og ýttu á <sprite name=inv-add> uppi í hægra horninu.",
+        "Tutorial.Intro.InventoryScreen" : "<color=#ffdd77><b>Birgðahaldið</b></color> þitt er finnanlegt í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Til að ná hlut úr birgjahaldinu, <color=#77ff77><b>tvísmelltu</b></color> á hlutinn.<br>Til að <color=#77ddff><b>vista</b></color> hlut, <color=#77ddff><b>haltu</b></color> á hlutnum og vistaðu með því að opna birgðahaldið og velja valmöguleikann í <color=#ffdd77><b>samhengisvalglugganum</b></color>.",
 
         "Tutorial.Intro.HomeScreenTitle" : "Heimaskjárinn",
         "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>Heimaskjárinn</b></color> er finnanlegur í <color=#ffdd77><b>Mælaborðinu</b></color> og inniheldur mikið af eiginleikum.<br>Hann felur í sér Avatar smíðarann, Full body græjudæmið, Myndavél/Streymara, og getur gert nýjar veraldir.",
-        "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>Tengiliðir</b></color> skjáinn er líka finnanlegur í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Þú getur sent skilaboð, talskilaboð, eða hluti til tengiliða með textakassanum í neðra hægra horninu.<br>Bættu við meðlimum með því að nota leitargluggan í efra vinstra horninu.",
+        "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>Tengiliða</b></color> skjáinn er líka í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Þú getur sent skilaboð, talskilaboð, eða hluti til tengiliða með textakassanum í neðra hægra horninu.<br>Bættu við meðlimum með því að nota leitargluggan í efra vinstra horninu.",
         "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Flytja inn</b></color> gögn, 3D model, myndir, hljóð skrár, myndbönd, eða letur beint í Neos!<br>Þú getur annað hvort <color=#77ddff><b>dregið</b></color> gögn beint á Neos gluggann, eða fundið þau í <color=#ffdd77><b>Skráavafranum</b></color>.",
         "Tutorial.Intro.SessionTitle" : "Þing stillingar",
         "Tutorial.Intro.SessionDescription" : "Þing stillingar, leyfi, og stillingar um aðra notendur í þinginu eru í <color=#ffdd77><b>Þing</b></color> svæðinu á <color=#ffdd77><b>Mælaborðinu</b></color>.",
