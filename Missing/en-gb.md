@@ -129,6 +129,7 @@ World.Error.FailedFetchingAuthentication
 World.Error.JoinAlreadyRequested  
 World.Error.FailedConnectToRelay  
 World.Error.FailedToConnect  
+World.Error.InvalidAddress  
 World.Error.NoPort  
 World.Error.IncompatibleVersion  
 World.Error.Unknown  

@@ -12,6 +12,7 @@ World.Connection.LNL.DirectIP
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
+World.Error.InvalidAddress  
 World.Actions.Focus  
 World.Indicator.Host  
 World.Indicator.Hosting  

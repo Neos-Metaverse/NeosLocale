@@ -4,6 +4,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 # German [de]
 General.UI.Subtitles.On  
 General.UI.Subtitles.Off  
+World.Error.InvalidAddress  
 World.SortParameter.LastVisit  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  

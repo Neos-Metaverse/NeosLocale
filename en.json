@@ -150,6 +150,7 @@
         "World.Error.JoinAlreadyRequested": "Join has already been requested",
         "World.Error.FailedConnectToRelay": "Failed to connect to relay",
         "World.Error.FailedToConnect": "Failed to establish connection",
+        "World.Error.InvalidAddress": "Invalid Address",
         "World.Error.NoPort": "No Port Specified",
         "World.Error.IncompatibleVersion": "Incompatible Neos Version",
         "World.Error.Unknown": "Unknown Error",

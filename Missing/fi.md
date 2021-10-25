@@ -4,6 +4,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Finnish [fi]
 General.UI.Subtitles.On  
 General.UI.Subtitles.Off  
+World.Error.InvalidAddress  
 Settings.DebugInputBinding  
 Settings.LeapMotion.UseFingersWhenSnapped  
 Settings.ViveHandTracking.UseFingersWhenSnapped  

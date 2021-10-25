@@ -18,6 +18,7 @@ Interaction.Grab.Auto
 Interaction.Grab.Off  
 Interaction.ExportScreenshot  
 Dash.Actions.TurnOffUIEdit  
+World.Error.InvalidAddress  
 World.Indicator.Visited  
 World.Category.Random  
 World.SortParameter.LastVisit  

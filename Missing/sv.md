@@ -31,6 +31,7 @@ World.Connection.LNL.Relay
 World.Connection.SteamNetworkingSockets  
 World.Error.OnlyContactsOfContacts  
 World.Error.FailedToConnect  
+World.Error.InvalidAddress  
 World.Indicator.Visited  
 World.Category.Random  
 World.AccessLevel.FriendsOfFriends  

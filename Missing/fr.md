@@ -14,6 +14,7 @@ Interaction.Grab.Palm
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
 Interaction.Grab.Off  
+World.Error.InvalidAddress  
 World.Indicator.Visited  
 World.SortParameter.LastVisit  
 Tooltip.GrabbableSetter.ApplyToRoot  
