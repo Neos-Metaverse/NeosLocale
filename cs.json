@@ -31,6 +31,8 @@
         "General.UI.SearchPromptLong" : "Zadejte vyhledávání...",
         "General.UI.ToggleEditMode" : "Zap/Vyp Editační režim",
         "General.UI.ToggleSubtitles" : "Zap/Vyp Titulky",
+        "General.UI.Subtitles.On" : "Titulky: Zapnuty",
+        "General.UI.Subtitles.Off" : "Titulky: Vypnuty",
 
         "General.UI.MusicVolumeLocal" : "Hlasitost hudby (lokální):",
         "General.UI.VoiceVolumeLocal" : "Hlasitost hlasu (lokální):",
