@@ -31,7 +31,7 @@
         "General.Sort.Ascending" : "Hækkandi",
         "General.Sort.Descending" : "Lækkandi",
 
-        "Locomotion.Noclip.Name" : "Flug gegnum veggi",
+        "Locomotion.Noclip.Name" : "Neiklip",
         "Locomotion.Noclip.Description" : "Einfallt flug hreyfingargerfi án gerfihöggskynjun. Gott að nota fyrir að vinna.",
         "Locomotion.Teleport.Name" : "Kúluvarp",
         "Locomotion.Teleport.Description" : "Þægileg kúluvarp „Teleport“ hreyfingarkerfi.",
