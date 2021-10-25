@@ -15,7 +15,7 @@
         "General.Processing" : "Í vinnslu...",
         "General.FAILED" : "MISTÓKST",
         "General.Reset" : "Endurstilla",
-        "General.WorldOpenConfirm" : "Opna virkilega?",
+        "General.WorldOpenConfirm" : "Ertu viss um að opna?",
         "General.Save" : "Vista",
         "General.Saving" : "Að vista...",
         "General.Saved" : "Vistað!",
@@ -31,7 +31,7 @@
         "General.Sort.Ascending" : "Hækkandi",
         "General.Sort.Descending" : "Lækkandi",
 
-        "Locomotion.Noclip.Name" : "Neiklip",
+        "Locomotion.Noclip.Name" : "Flug gegnum veggi",
         "Locomotion.Noclip.Description" : "Einfallt flug hreyfingargerfi án gerfihöggskynjun. Gott að nota fyrir að vinna.",
         "Locomotion.Teleport.Name" : "Kúluvarp",
         "Locomotion.Teleport.Description" : "Þægileg kúluvarp „Teleport“ hreyfingarkerfi.",
@@ -301,7 +301,7 @@
         "Options.Nameplates.Hide" : "Nafnspjöld: Fela",
 
         "Indicator.OnlineUsers" : "Virkir notendur: ~{num_registered} ({num_total})",
-        "Indicator.ServerStatus" : "<color=#fff>Netþjónusta:</color> {status, select, Good {Gott} Slow {Hægt} Down {Niður} NoInternet {Ekkert netsamband}} ({response_ms} ms)",
+        "Indicator.ServerStatus" : "<color=#fff>Netþjónusta:</color> {status, select, Good {Góð} Slow {Hæg} Down {Niðri} NoInternet {Ekkert netsamband}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Allt samstillt",
         "Indicator.Sync.SyncingItems" : "Samstilla {item_count,plural, one {# hlut} other {# hlutir}} <nobr>({item_percent} %)",
@@ -872,7 +872,7 @@
         "Settings.SmoothTurnExclusiveMode" : "Einungis slétt snúnings stilling",
         "Settings.SmoothTurnSpeed" : "Slétt snúnings hraði",
         "Settings.SnapTurnAngle" : "Smell snúning í gráðum",
-        "Settings.NoclipSpeed" : "NeiKlipp hraði",
+        "Settings.NoclipSpeed" : "Hraði á flugi gegnum veggi",
 
 
         "Settings.ControllerVibration" : "Titring í fjarstýringu",
