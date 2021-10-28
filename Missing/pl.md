@@ -60,6 +60,7 @@ CreateNew.Directory.Error.InvalidName
 Importer.Image.Screenshot  
 Credits.TipConfirmation  
 CameraControl.Anchors.LinearInterpolation  
+CameraControl.OBS.OpenInstallerReason  
 Settings.DoNotSendReadStatus  
 Settings.Locale.DefaultLanguage  
 Inspector.Slot.AttachComponent  

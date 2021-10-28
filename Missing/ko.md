@@ -3,4 +3,5 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Korean [ko]
 World.Error.InvalidAddress  
+CameraControl.OBS.OpenInstallerReason  
 

@@ -144,6 +144,7 @@ CameraControl.Settings.AudioFromCameraViewpoint
 CameraControl.Anchors.LinearInterpolation  
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
+CameraControl.OBS.OpenInstallerReason  
 Settings.Haptics  
 Settings.DisableLAN  
 Settings.DoNotSendReadStatus  

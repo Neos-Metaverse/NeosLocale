@@ -3,27 +3,27 @@ This repository contains the locale assets for the core UI of Neos VR (www.neos.
 
 # Localization Status
 Czech [cs] - 99.9% - Missing keys: 1  
-German [de] - 96.9% - Missing keys: 54  
-English (United Kingdom) [en-gb] - 2.0% - Missing keys: 1712  
+German [de] - 96.9% - Missing keys: 55  
+English (United Kingdom) [en-gb] - 2.0% - Missing keys: 1713  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 84.3% - Missing keys: 275  
-Spanish [es] - 99.9% - Missing keys: 1  
-Estonian [et] - 59.7% - Missing keys: 704  
-Finnish [fi] - 91.1% - Missing keys: 156  
-French [fr] - 84.4% - Missing keys: 273  
-Icelandic [is] - 33.6% - Missing keys: 1160  
+Esperanto [eo] - 84.2% - Missing keys: 276  
+Spanish [es] - 99.9% - Missing keys: 2  
+Estonian [et] - 59.7% - Missing keys: 705  
+Finnish [fi] - 91.0% - Missing keys: 157  
+French [fr] - 84.3% - Missing keys: 274  
+Icelandic [is] - 34.1% - Missing keys: 1152  
 Japanese [ja] - 99.9% - Missing keys: 1  
-Korean [ko] - 99.9% - Missing keys: 1  
-Dutch [nl] - 80.2% - Missing keys: 346  
-Norwegian [no] - 47.5% - Missing keys: 918  
-Polish [pl] - 78.4% - Missing keys: 378  
-Russian [ru] - 99.8% - Missing keys: 3  
-Swedish [sv] - 14.3% - Missing keys: 1498  
-Turkish [tr] - 55.8% - Missing keys: 772  
-Chinese (China) [zh-cn] - 69.0% - Missing keys: 542  
-Chinese (Taiwan) [zh-tw] - 65.6% - Missing keys: 601  
+Korean [ko] - 99.9% - Missing keys: 2  
+Dutch [nl] - 80.4% - Missing keys: 343  
+Norwegian [no] - 47.4% - Missing keys: 919  
+Polish [pl] - 78.3% - Missing keys: 379  
+Russian [ru] - 99.8% - Missing keys: 4  
+Swedish [sv] - 14.2% - Missing keys: 1499  
+Turkish [tr] - 55.8% - Missing keys: 773  
+Chinese (China) [zh-cn] - 68.9% - Missing keys: 543  
+Chinese (Taiwan) [zh-tw] - 65.6% - Missing keys: 602  
 
-Total keys: 1792
+Total keys: 1793
 
 # How To Contribute
 If you'd like to contribute translations, create a branch of fork of the repository, make the changes and once they are ready to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.

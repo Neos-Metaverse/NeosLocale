@@ -1,6 +1,6 @@
 {
     "localeCode" : "is",
-    "authors" : ["Nammi"],
+    "authors" : ["Nammi", "Hroi"],
     "messages" : 
     {
         "General.OK" : "Ókei",
@@ -15,7 +15,7 @@
         "General.Processing" : "Í vinnslu...",
         "General.FAILED" : "MISTÓKST",
         "General.Reset" : "Endurstilla",
-        "General.WorldOpenConfirm" : "Opna virkilega?",
+        "General.WorldOpenConfirm" : "Ertu viss um að opna?",
         "General.Save" : "Vista",
         "General.Saving" : "Að vista...",
         "General.Saved" : "Vistað!",
@@ -42,11 +42,11 @@
         "Locomotion.WalkRunGripping.Name" : "Ganga/Hlaupa (með klifri)",
         "Locomotion.WalkRunGripping.Description" : "Labba, hlaupa, hoppa í líkamlegu formi(með klifri).",
         "Locomotion.ZeroG.Name" : "Þyngdarleysi",
-        "Locomotion.ZeroG.Description" : "Líkamleg þyngdarleysi.",
+        "Locomotion.ZeroG.Description" : "Líkamlegt þyngdarleysi.",
         "Locomotion.GrabWorld.Name" : "Grípa heim",
         "Locomotion.GrabWorld.Description" : "Býr til heimsakkeri með tilvísun og færir notandinn miðað við því.",
-        "Locomotion.Slide.Name" : "Renning",
-        "Locomotion.Slide.Description" : "Hreyfingarkerfi sem rennur notandin nálagt yfirborð, annars er notandinn að fljúga.",
+        "Locomotion.Slide.Name" : "Renna",
+        "Locomotion.Slide.Description" : "Hreyfingarkerfi sem rennir notandanum nálægt yfirborðinu, annars er notandinn að fljúga.",
 
         "Interaction.Destroy" : "Eyða",
         "Interaction.Duplicate" : "Tvöfalda",
@@ -77,7 +77,7 @@
         "Interaction.CopyLink" : "Afrita linkur",
 
         "Dash.Screens.Home" : "Heim",
-        "Dash.Screens.Worlds" : "Veraldar",
+        "Dash.Screens.Worlds" : "Veraldir",
         "Dash.Screens.Contacts" : "Tengiliðir",
         "Dash.Screens.Inventory" : "Birgðahald",
         "Dash.Screens.Desktop" : "Skrifborð",
@@ -86,12 +86,12 @@
         "Dash.Screens.Settings" : "Stillingar",
         "Dash.Screens.Exit" : "Loka",
 
-        "Dash.Actions.PasteFromClipboard" : "Líma innihalds klippborðar.",
+        "Dash.Actions.PasteFromClipboard" : "Líma innihald klippiborðs",
 
-        "Dash.Actions.CoreWorldsHeader" : "Kjarnaveraldar",
+        "Dash.Actions.CoreWorldsHeader" : "Kjarnaveraldir",
         "Dash.Actions.ContentHub" : "Efnishöfundarmiðstöð",
         "Dash.Actions.MTC" : "Gerfiraunverulegþjáfunarmiðstöð <size=75%>(Kennsla)</size>",
-        "Dash.Actions.CloudHome" : "Hemilið mitt á netið",
+        "Dash.Actions.CloudHome" : "Heimilið mitt á netinu",
 
         "Dash.Exit.Header" : "Loka Neos",
         "Dash.Exit.ExitAndSave" : "Loka og vista heimil",
@@ -101,7 +101,7 @@
 
         "World.Waiting" : "Er í biðslu...",
         "World.HostIsStarting" : "Gestgjafi er að hefja þing",
-        "World.Loading" : "Hleðslu...",
+        "World.Loading" : "Hleður...",
         "World.LoadingFailed" : "Mistókst",
         "World.LoadedAssets" : "Hlaðaði {assets} af {total_assets}",
         "World.Downloading" : "Niðurhalaði {bytes} af {total_bytes}",
@@ -140,9 +140,9 @@
         "World.Config.MobileFriendly" : "Farsímavænt:",
         "World.Config.SaveOptionsHeader" : "Veraldarvistunarstillingar:",
         "World.Config.EditMode" : "Klippistilling:",
-        "World.Config.AccessLevelHeader" : "Hver getur tengst þessum veröld?",
-        "World.Config.AutoKickAFK" : "Sparka daufar notendur sjálfkrafa:",
-        "World.Config.AutoKickAFKMinutes" : "Hámarksdauftími:",
+        "World.Config.AccessLevelHeader" : "Hver getur tengst þessari veröld?",
+        "World.Config.AutoKickAFK" : "Sparka AFK notendum sjálfkrafa:",
+        "World.Config.AutoKickAFKMinutes" : "Hámarks AFK tími:",
         "World.Config.HideFromListing" : "Ekki sýna í þinglýsingu",
         "World.Config.Autosave" : "Vista sjálfkrafa (skrifar yfir síðasta vistun):",
         "World.Config.AutosaveInterval" : "Vista sjálfkrafa (mínútur):",
@@ -160,8 +160,8 @@
         "World.Actions.SaveHere" : "Vista hér",
         "World.Actions.SaveToInventory" : "Vista í birgðahald",
         "World.Actions.Saving" : "Er að vista...",
-        "World.Actions.Discard" : "Farga breytingar",
-        "World.Actions.Clone" : "Klón veröld",
+        "World.Actions.Discard" : "Farga breytingum",
+        "World.Actions.Clone" : "Afrita veröld",
         "World.Actions.Delete" : "Farga veröld",
         "World.Actions.ConfirmDelete" : "Staðfesta förgun",
         "World.Actions.ReallyConfirmDelete" : "Farga 100%? (Ekki hægt að afturkalla!)",
@@ -173,17 +173,17 @@
         "World.Actions.LeavePrompt" : "Fara úr veröld?",
         "World.Actions.CloseConfirm" : "Loka",
         "World.Actions.LeaveConfirm" : "Fara",
-        "World.Actions.CannotClose" : "(Ekki hægt að loka þessum veröld)",
+        "World.Actions.CannotClose" : "(Ekki hægt að loka þessari veröld)",
         "World.Actions.GuestWarning" : "",
-        "World.Actions.HostingWarning" : "Þú ert að hýsa þessum veröld. Allar notendur verða aftengdir.",
+        "World.Actions.HostingWarning" : "Þú ert að hýsa þessa veröld. Allir notendur verða aftengdir.",
 
         "World.Actions.GetWorldOrb" : "Ná veraldarkúlu",
-        "World.Actions.CopyWorldURL" : "Afrita veraldar URL",
-        "World.Actions.CopyRecordURL" : "Afrita skrá URL",
+        "World.Actions.CopyWorldURL" : "Afrita hlekk veraldar",
+        "World.Actions.CopyRecordURL" : "Afrita hlekk skráar",
         "World.Actions.StartCustomSession" : "Byrja sérsniðaðan þing",
         "World.Actions.ModifyMetadata" : "Breyta Metagögn",
         "World.Actions.GetSessionOrb" : "Ná þingkúlu",
-        "World.Actions.CopySessionURL" : "Afrita þing URL",
+        "World.Actions.CopySessionURL" : "Afrita hlekk þings",
 
         "World.Indicator.NoData" : "Engin gögn",
         "World.Indicator.LocalWorld" : "Heimagistað veröld",
@@ -225,7 +225,7 @@
         "World.Category.Art" : "List",
         "World.Category.Tutorials" : "Kennsla",
         "World.Category.Educational" : "Lærdómsríkt",
-        "World.Category.MyWorlds" : "Veraldarnar mínar",
+        "World.Category.MyWorlds" : "Veraldirnar mínar",
         "World.Category.Custom" : "Sérsnið",
 
         "World.AccessLevel.Anyone" : "Hver sem er",
@@ -237,7 +237,7 @@
 
         "World.SortParameter.SearchScore" : "Leitarstig",
         "World.SortParameter.Name" : "Nafn",
-        "World.SortParameter.OpenedWorldCount" : "Opnaðar veraldar",
+        "World.SortParameter.OpenedWorldCount" : "Opnaðar veraldir",
         "World.SortParameter.TotalSessionCount" : "Öll þing",
         "World.SortParameter.TotalUserCount" : "Heildarnotendur",
         "World.SortParameter.CreationDate" : "Stofndagur",
@@ -246,10 +246,10 @@
         "World.SortParameter.TotalVisits" : "Heildarheimsóknir",
 
         "World.Filter.DataSources" : "Gagnaheimildir:",
-        "World.Filter.OpenedWorlds" : "Opnaðar veraldar",
+        "World.Filter.OpenedWorlds" : "Opnaðar veraldir",
         "World.Filter.ActiveSessions" : "Virk þing",
-        "World.Filter.PublishedWorlds" : "Útgefnar veraldar",
-        "World.Filter.LocalWorlds" : "Heimagistaðar veraldar",
+        "World.Filter.PublishedWorlds" : "Útgefnar veraldir",
+        "World.Filter.LocalWorlds" : "Staðværar veraldir",
         "World.Filter.BaseSearch" : "Grunnleit:",
         "World.Filter.ByOwner" : "Af eiganda:",
         "World.Filter.UserOwner" : "Eigandi er notandi",
@@ -282,7 +282,7 @@
         "Tools.DepositNCR" : "NCR innborgun",
         "Tools.WithdrawNCR" : "NCR útborgun",
         "Tools.Debug" : "Debug",
-        "Tools.StreamAudio" : "Streyma hljóð",
+        "Tools.StreamAudio" : "Streyma hljóði",
 
         "Tools.StreamAudio.Start" : "Byrja að streyma",
         "Tools.StreamAudio.Bitrate" : "Bitahraði: {bitrate} kbps",
@@ -294,20 +294,20 @@
 
         "Options.FreeformDash.On" : "Fljótandi mælaborð: Á",
         "Options.FreeformDash.Off" : "Fljótandi mælaborð: Af",
-        "Options.SeatedMode.On" : "Sitjandakerfi: Á",
-        "Options.SeatedMode.Off" : "sitjandakerfi: Af",
-        "Options.Nameplates.All" : "Nafnspjöld: Syna",
-        "Options.Nameplates.NonContacts" : "Nafnspjöld: Syna ekki tengiliðir",
+        "Options.SeatedMode.On" : "Sitjandi: Á",
+        "Options.SeatedMode.Off" : "Sitjandi: Af",
+        "Options.Nameplates.All" : "Nafnspjöld: Sýna",
+        "Options.Nameplates.NonContacts" : "Nafnspjöld: Sýna ekki tengiliði",
         "Options.Nameplates.Hide" : "Nafnspjöld: Fela",
 
-        "Indicator.OnlineUsers" : "Online notendur: ~{num_registered} ({num_total})",
-        "Indicator.ServerStatus" : "<color=#fff>Netþjónusta:</color> {status, select, Good {Gótt} Slow {Hægt} Down {Niður} NoInternet {Ekkert netsamband}} ({response_ms} ms)",
+        "Indicator.OnlineUsers" : "Virkir notendur: ~{num_registered} ({num_total})",
+        "Indicator.ServerStatus" : "<color=#fff>Netþjónusta:</color> {status, select, Good {Góð} Slow {Hæg} Down {Niðri} NoInternet {Ekkert netsamband}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Allt samstillt",
         "Indicator.Sync.SyncingItems" : "Samstilla {item_count,plural, one {# hlut} other {# hlutir}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants" : "Upphlaða {variant_count,plural, one {# eignarafbrigði} other {# eignarafbrögð}}",
-        "Indicator.Sync.SyncError" : "Samstillingarvilla! <size=50%>Kiktu á log skrá fyrir gríðalega góðar upplysýngar</size>",
-        "Indicator.Sync.OutOfSpace" : "Ekkert pláss til! <size=50%>Samstilling ekki hægt af framkvæma</size>",
+        "Indicator.Sync.SyncError" : "Samstillingarvilla! <size=50%>Kíktu á log skrá fyrir gríðalega góðar upplysýngar</size>",
+        "Indicator.Sync.OutOfSpace" : "Ekkert pláss til! <size=50%>Ekki hægt að framkvæma samstillingu</size>",
 
         "Indicator.LiveHiddenMessage" : "(Upplysingar faldar á meðan þú ert í beinni)",
 
@@ -315,22 +315,22 @@
         "Account.Logout" : "Útskráning",
         "Account.Register" : "Skrá nýr notandi",
         "Account.LoginOrRegister" : "Innskráning / Skrá sig",
-        "Account.LogoutConfirm" : "Ertu viss þú villt skrá út?",
+        "Account.LogoutConfirm" : "Ertu viss um að þú viljir skrá þig út?",
         "Account.LoggingIn" : "Innskráning í vinnslu...",
         "Account.LoggingOut" : "Útskráning í vinnslu...",
         "Account.Registering" : "Skráning í vinnslu...",
         "Account.Anonymous" : "Nafnlaus",
         "Account.PatreonSupporter" : "Patreon stuðningsmeðlimur",
         "Account.Username" : "Notendanafn:",
-        "Account.Email" : "Tölvupóstur:",
+        "Account.Email" : "Tölvupóstfang:",
         "Account.RememberMe" : "Muna eftir mér: (7 daga)",
-        "Account.RepeatEmail" : "Endurtaka Tölvupóstur:",
-        "Account.UsernameOrEmail" : "Notendanafn eða tölvupóstur:",
+        "Account.RepeatEmail" : "Endurtaka Tölvupóstfang:",
+        "Account.UsernameOrEmail" : "Notendanafn eða tölvupóstfang:",
         "Account.Password" : "Lykilorð:",
         "Account.RepeatPassword" : "Endurtaka lykilorð:",
         "Account.RecoverPassword" : "Týnt lykilorð?",
-        "Account.LiveEmailWarning" : "<color=#f00>VARÚÐ:</color> live.com, hotmail.com, outlook.com og annað Microsoft-hýsað þjónustur geta tekið up að 1-2 dagar til að samþykkja tölvupostinn.",
-        "Account.PasswordRules" : "(að minnsta kosti 8 stafi, 1 tala, 1 litlastaf, 1 stórastaf)",
+        "Account.LiveEmailWarning" : "<color=#f00>VARÚÐ:</color> live.com, hotmail.com, outlook.com og aðrar Microsoft-hýsað þjónustur geta tekið up að 1-2 dagar til að samþykkja tölvupóstinn.",
+        "Account.PasswordRules" : "(að minnsta kosti 8 stafi, 1 tölu, 1 lítin staf og 1 stóran staf)",
         "Account.AgeConfirm" : "Ég er þrettán ára eða eldri",
         "Account.LostPassword" : "Týnt lykilorð",
         "Account.SendRecoveryCode" : "Senda auðkenniskóða",
@@ -343,13 +343,13 @@
         "Account.ErrorPasswordMismatch" : "Lykilorð passa ekki!",
         "Account.ErrorEmailMismatch" : "Tölvupóstfang passa ekki!",
         "Account.ErrorLoginError" : "Villa við innskráningu:",
-        "Account.RegistrationSuccess" : "Vá glæsilegt! Erum búin að senda þér tölvupóst með staðfestingarhlekkur. Eftir þú ert búin að smella á þessum hlekk getur þú skráð þig inn.",
+        "Account.RegistrationSuccess" : "Vá glæsilegt! Erum búin að senda þér tölvupóst með staðfestingarhlekk. Eftir þú ert búin að smella á þennan hlekk getur þú skráð þig inn.",
 
-        "Profile.Status.Online" : "Online",
+        "Profile.Status.Online" : "Virkur",
         "Profile.Status.Away" : "Í burtu",
         "Profile.Status.Busy" : "Upptekinn",
         "Profile.Status.Invisible" : "Ósýnilegur",
-        "Profile.Status.Offline" : "Offline",
+        "Profile.Status.Offline" : "Ótengdur",
 
         "Session.Tab.Settings" : "Stillingar",
         "Session.Tab.Users" : "Notendur",
@@ -400,8 +400,8 @@
         "Contacts.SearchResult" : "Leitarniðurstaða",
         "Contacts.Bot" : "Vélmennanotandi",
 
-        "Notifications.IsOnline" : "Er nú Online",
-        "Notifications.IsOnlineOnDifferentVersion" : "Er nú Online <size=75%>(á útgáfu: {version})</size>",
+        "Notifications.IsOnline" : "Er nú virkur",
+        "Notifications.IsOnlineOnDifferentVersion" : "Er nú virkur <size=75%>(á útgáfu: {version})</size>",
         "Notifications.ReceivedContactRequest" : "Senti tengiliðabeiðni",
         "Notifications.ReceivedInvite" : "Er að bjóða þig að taka þátt í:",
         "Notifications.ReceivedItem" : "Senti þér hlut:",
@@ -426,24 +426,24 @@
         "Undo.ResetRotation" : "Endurstilla snúning",
         "Undo.ResetScale" : "Endurstilla stærð",
 
-        "Undo.GrabObjects" : "Grab Objects",
-        "Undo.DestroyGrabbed" : "Destroy Grabbed Objects",
-        "Undo.DuplicateGrabbed" : "Duplicate Grabbed Objects",
+        "Undo.GrabObjects" : "Grípa hluti",
+        "Undo.DestroyGrabbed" : "Eyða gripnum hlutum",
+        "Undo.DuplicateGrabbed" : "Afrita gripna hluti",
 
-        "Undo.ChangeBoxSize" : "Breyta kassa stærð",
+        "Undo.ChangeBoxSize" : "Breyta stærð kassa",
         "Undo.BrushStroke" : "Pensilstrokur",
         "Undo.ChangeColor" : "Breyta lit",
         "Undo.CloneComponent" : "Klóna Component",
         "Undo.MoveIKBone" : "Færa IK Bein",
         "Undo.MoveSun" : "Færa sólina",
-        "Undo.ApplyMaterial" : "Setja Material",
+        "Undo.ApplyMaterial" : "Setja efni",
         "Undo.BakeMeshes" : "Baka {name}",
         "Undo.ChangeMesh" : "Breyta Mesh",
-        "Undo.InsertParent" : "Stilla in Parent fyrir {name}",
-        "Undo.Wiggler" : "Geggjað djöfladótt",
+        "Undo.InsertParent" : "Setja inn foreldri fyrir {name}",
+        "Undo.Wiggler" : "Vont dót",
 
-        "Undo.ExtractMaterialsFromHierarchy" : "Gríppa materials frá stigveldi",
-        "Undo.BatchConvertMaterials" : "Hópumbreyta materials",
+        "Undo.ExtractMaterialsFromHierarchy" : "Gríppa efni frá stigveldi",
+        "Undo.BatchConvertMaterials" : "Hópumbreyta efnum",
 
         "Tooltips.Dev.CreateNew" : "Búa til nýtt...",
         "Tooltips.Dev.Selection" : "Val: {mode}",
@@ -451,7 +451,8 @@
         "Tooltips.Dev.DevMode.On" : "Forritarastilling: Á",
         "Tooltips.Dev.OpenInspector" : "Opna Eftirlitsglugga",
         "Tooltips.Dev.DeselectAll" : "Afvelja allt",
-        "Tooltips.Dev.DestroySelected" : "Eyða því völdu",
+        "Tooltips.Dev.DestroySelected" : "Eyða vali",
+        "Tooltips.Dev.ConfirmDestroySelected": "VIRKILEGA eyða vali",
 
         "Tooltip.Logix.NodeBrowser" : "Hnútavafri",
         "Tooltip.Logix.UnpackChildren" : "Afpakka börn og tengdar hnútar",
@@ -460,8 +461,8 @@
 
         "Tooltip.Color.Picker" : "Lit veljari",
 
-        "Tooltip.GrabbableSetter.Scalable" : "Setja stillanleg stærð",
-        "Tooltip.GrabbableSetter.NonScalable" : "Setja sem ekki stillanleg stærð",
+        "Tooltip.GrabbableSetter.Scalable" : "Setja stillanlega stærð",
+        "Tooltip.GrabbableSetter.NonScalable" : "Setja sem ekki stillanlega stærð",
 
         "Tooltip.CharacterCollider.MarkGrippable" : "Merkja sem grípanlegt",
         "Tooltip.CharacterCollider.DontMarkGrippable" : "Ekki merkja sem grípanlegt",
@@ -487,7 +488,7 @@
 
 
         "Tooltip.Material.CreateCopy" : "Búa til afrit",
-        "Tooltip.Material.Edit" : "Breyta Material",
+        "Tooltip.Material.Edit" : "Breyta efni",
         "Tooltip.Material.Convert" : "Breyta í...",
         "Tooltip.Material.CreateNew" : "Búa til nýtt",
 
@@ -496,7 +497,7 @@
         "Tooltip.Microphone.Format.WAV" : "WAV",
         "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC" : "FLAC",
-        "Tooltip.Microphone.ModeHold" : "Halda til að upptaka",
+        "Tooltip.Microphone.ModeHold" : "Halda til að taka upp",
         "Tooltip.Microphone.ModePress" : "Íta til að byrja/stansa upptöku",
         "Tooltip.Microphone.SourceRaw" : "Hrátt",
         "Tooltip.Microphone.SourceFiltered" : "Sigtað og venjað",
@@ -592,7 +593,7 @@
 
 
         "Importer.Image.Title" : "Mynd importara",
-        "Importer.Image.Prompt" : "Hvap ertu að importa?",
+        "Importer.Image.Prompt" : "Hvað ertu að importa?",
         "Importer.Image.Regular" : "Ljósmynd / Texture",
         "Importer.Image.360" : "360 mynd / skybox",
         "Importer.Image.StereoPhoto" : "Stereo mynd",
@@ -623,7 +624,7 @@
 
         "Importer.Model.Meters" : "Metrar (m)",
         "Importer.Model.Millimeters" : "Millimetrar (mm)",
-        "Importer.Model.Centimeters" : "Centimetrar (cm)",
+        "Importer.Model.Centimeters" : "Sentimetrar (cm)",
         "Importer.Model.Inches" : "Tommur",
         "Importer.Model.FinalizePrompt" : "Allt tilbúið?",
 
@@ -871,7 +872,7 @@
         "Settings.SmoothTurnExclusiveMode" : "Einungis slétt snúnings stilling",
         "Settings.SmoothTurnSpeed" : "Slétt snúnings hraði",
         "Settings.SnapTurnAngle" : "Smell snúning í gráðum",
-        "Settings.NoclipSpeed" : "NeiKlipp hraði",
+        "Settings.NoclipSpeed" : "Hraði á flugi gegnum veggi",
 
 
         "Settings.ControllerVibration" : "Titring í fjarstýringu",
@@ -912,7 +913,7 @@
 
 
 
-        "Settings.Locale.ChangeLanguage" : "Breyta tungumál",
+        "Settings.Locale.ChangeLanguage" : "Breyta tungumáli",
         "Settings.Locale.SelectLanguageHeader" : "Veldu tungumálið þitt:",
 
         "Settings.Save" : "Vista breytingar",
@@ -1192,96 +1193,136 @@
 
 
 
-        "Tutorial.Welcome.WelcomeTo" : "Velkomin/nn til",
+        "Tutorial.Welcome.WelcomeTo" : "Velkomin/nn í",
         "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>Varuð!:</b></color> Þú ert að spila í skjáhátt eða „Screen mode“.<br><br>Það er samt spilanlegt. En það getur verið erfit að spila.<br><br><b>Neos er í augnablikinu ætlað til að vera spilað í gerfiraunveruleika.</b><br><br>Almennileg skjáhátta útgáfu er í smiðun.",
         "Tutorial.Welcome.LetsStart" : "Byrjum!",
         "Tutorial.Welcome.ScreenUnderstand" : "Ég skill",
 
-        "Tutorial.Welcome.AccountHeader" : "Neos reikning",
-        "Tutorial.Welcome.AccountDescription" : "Að nota Neos reikning gefur þér aðgang að 1GB ókeypis geymslupláss. Getu til að eftirlæta avarara, bæta fólk sem meðlima og senda skilabóð. Aðgang að veraldar stillt sem einungis skráðar notendur getur tengst.",
+        "Tutorial.Welcome.AccountHeader" : "Neos reikningur",
+        "Tutorial.Welcome.AccountDescription" : "Að nota Neos reikning gefur þér aðgang að 1GB ókeypis geymsluplássi. Þú getur vistað hluti og avatars, bætt fólki við sem tengilið og send skilaboð.",
         "Tutorial.Welcome.AccountCreate" : "Búa til reikning",
         "Tutorial.Welcome.AccountLogin" : "Ég er nú þegar með reikning",
         "Tutorial.Welcome.AccountSkip" : "Halda áfram án reiknings",
-        "Tutorial.Welcome.AccountSkipHeader" : "Sleppa áð búa til reikning?",
-        "Tutorial.Welcome.AccountSkipDescription" : "Sumpt verður ekki aðgengilegt eins og að vista hlutir í birgðarhald, eftirlæta avatara, bæta fólk við sem tengilið, og einungis aðgang að hystum veröldum stillt sem hver sem er getur tengst.",
-        "Tutorial.Welcome.AccountSkipConfirm" : "Sleppa virkilega",
+        "Tutorial.Welcome.AccountSkipHeader" : "Sleppa að búa til reikning?",
+        "Tutorial.Welcome.AccountSkipDescription" : "Sumt verður ekki aðgengilegt eins og að vista hluti í birgðarhald, vista avatars og bæta fólki við sem tengilið.",
+        "Tutorial.Welcome.AccountSkipConfirm" : "Ég er viss um að sleppa",
 
         "Tutorial.Welcome.SettingsHeader" : "Grunnstillingar",
-        "Tutorial.Welcome.SettingsDescription" : "Stillum smá nauðsýnlegt dótt. Þú getur breytt þetta seinna ef þig þarfnast.",
+        "Tutorial.Welcome.SettingsDescription" : "Stillum smá nauðsýnlegt dótt. Þú getur líka breytt þessu seinna.",
         "Tutorial.Welcome.SettingsTurning" : "Snúnings stíll",
         "Tutorial.Welcome.SettingsSnapTurn" : "Smellsúning",
-        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Smell snúning, snýr 45 gráður undir eins. Gótt fyrir nyjar notendur í gerfiraunveruleika.",
+        "Tutorial.Welcome.SettingsSnapTurnDescription" : "Smelli snúningur, snýr 45 gráður samstundis. Gott fyrir nýja notendur í gerfiraunveruleika.",
         "Tutorial.Welcome.SettingsSmoothTurn" : "Sléttsnúning",
-        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Snúning með smám saman sveigjanleg inntak. Getur valdir ferðaveiki.",
+        "Tutorial.Welcome.SettingsSmoothTurnDescription" : "Snúning með smám saman sveigjanleg inntak. Getur valdið ferðaveiki.",
         "Tutorial.Welcome.SettingsPrimaryController" : "Aðal fjarstýring",
         "Tutorial.Welcome.SettingsPrimaryLeft" : "Vinstri",
         "Tutorial.Welcome.SettingsPrimaryLeftDescription" : "<b>Vinstri fjarstýring:</b> Snúa, <b>Hægri fjarstýring:</b> Hreyfing",
         "Tutorial.Welcome.SettingsPrimaryRight" : "Hægri",
-        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Vinstri fjarstýring:</b> Hreyfing, <b>Vinstri fjarstýring:</b> Snúa",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription" : "<b>Vinstri fjarstýring:</b> Hreyfing, <b>Hægri fjarstýring:</b> Snúa",
         "Tutorial.Welcome.SettingsHeight" : "Hæðin þín",
         "Tutorial.Welcome.SettingsHeightExamples" : "Dæmi: 1.85 m, 185 cm, 6' 1\", 6 fett 1 tomma",
 
         "Tutorial.Welcome.StartTutorialHeader" : "Byrja Tutorial",
-        "Tutorial.Welcome.StartTutorialDescription" : "Við munum færa þig til tutorial heiminn til að aðlagast Neos. Þú getur valið að hafa heiminn aðgengilegur fyrir aðrar notendur, þá getur Neos samfélagið hoppað inn og hjálpa þér. Eða læra á eigin spýtur.",
-        "Tutorial.Welcome.StartTutorialPublic" : "Ég vill að aðrar notendur geta hoppað inn.",
+        "Tutorial.Welcome.StartTutorialDescription" : "Við munum færa þig í tutorial heiminn til að aðlagast Neos. Þú getur valið að hafa heiminn aðgengilegann fyrir aðra notendur, þá getur Neos samfélagið hoppað inn og hjálpað þér. Eða læra á eigin spýtur.",
+        "Tutorial.Welcome.StartTutorialPublic" : "Ég vill að aðrir notendur geti hoppað inn.",
         "Tutorial.Welcome.StartTutorialPrivate" : "Ég vill læra á eigin spýtur.",
         "Tutorial.Welcome.PrivateTutorialHeader" : "Byrja sem einkaþing?",
-        "Tutorial.Welcome.PrivateTutorialDescription" : "Notendur í samfélaginu geta sett þér upp hraðar og auðveldara, viltu halda áfram?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Notendur í samfélaginu geta hjálpað þér að byrja hraðar og auðveldar, viltu halda áfram?",
         "Tutorial.Welcome.PrivateTutorialConfirm" : "Byrja einkaþing",
 
-        "Tutorial.Intro.WelcomeTitle" : "Velkomin/nn til Neos",
-        "Tutorial.Intro.WelcomeDescription" : "Að vísa þíg til vegar í þessum gerfiraunveruheim.",
+        "Tutorial.Intro.WelcomeTitle" : "Velkomin/nn í Neos",
+        "Tutorial.Intro.WelcomeDescription" : "Þinn leiðarvísir í þessum gerfiraunveruheim.",
 
         "Tutorial.Intro.GrabbingTitle" : "Að grípa",
-        "Tutorial.Intro.GrabbingVR" : "Griptu hlutir í nálægð með því að <color=#ffdd77><b>grípa</b></color> með <color=#77ff77><b>Grip</b></color> takkann. <br>Til að grípa hlutir í fjarlægð <b><color=#77ff77>Trigger</color></b> til að kveikja á bendillinn þinn, og svo <color=#ffdd77><b>gríptu</b></color> hlutinn með <color=#77ff77><b>Grip</b></color> takkann.",
-        "Tutorial.Intro.GrabbingScreen" : "Gríptu hlutir í nálægð með því að <color=#ffdd77><b>grípa</b></color> með <color=#77ff77><b>hægri mús takkann</b></color>.",
+        "Tutorial.Intro.GrabbingVR" : "Taktu hluti sem eru nálægt þér með því að <color=#ffdd77><b>grípa</b></color> með <color=#77ff77><b>Grip</b></color> takkanum. <br>Taktu hluti sem eru lengra í burtu með því að ýta á <b><color=#77ff77>Trigger</color></b> til að kveikja á bendinum og <color=#ffdd77><b>gríptu</b></color> svo hlutinn með <color=#77ff77><b>Grip</b></color> takkanum.",
+        "Tutorial.Intro.GrabbingScreen" : "Taktu hluti sem eru nálægt með því að <color=#ffdd77><b>grípa</b></color> með <color=#77ff77><b>hægri músar takkanum</b></color>.",
 
         "Tutorial.Intro.ScalingTitle" : "Breyta stærð",
-        "Tutorial.Intro.ScalingVR" : "Til að breyta <color=#ffdd77><b>stærð</b></color> af hlut, gríptu hlutinn með báðar hendur og hreyfðu þá <color=#77ddff><b>saman eða í burtu</b></color> frá hvor annar. Þetta er líka hægt með bendillinn.",
-        "Tutorial.Intro.ScalingScreen" : "Til að breyta <color=#ffdd77><b>stærð</b></color> af hlut, gríptu hlutinn með því að halda niður <color=#77ff77><b>hægri mús takkann</b></color>, og haltu líka niður <color=#77ddff><b>Shift</b></color> og hreyfðu síðan <color=#77ff77><b>Scroll Wheel</b></color>.",
+        "Tutorial.Intro.ScalingVR" : "Til að breyta <color=#ffdd77><b>stærð</b></color> hluts, gríptu hlutinn með báðum höndum og hreyfðu hendurnar svo <color=#77ddff><b>saman eða í sundur</b></color>. Þetta er líka hægt með bendinum.",
+        "Tutorial.Intro.ScalingScreen" : "Til að breyta <color=#ffdd77><b>stærð</b></color> hluts, gríptu hlutinn með því að halda niðri <color=#77ff77><b>hægri músar takkanum</b></color>, <color=#77ddff><b>Shift</b></color> og hreyfðu síðan <color=#77ff77><b>Scroll Wheel</b></color>.",
 
-        "Tutorial.Intro.ContextMenuTitle" : "Samhengisvalglugga",
-        "Tutorial.Intro.ContextMenuDescription" : "Þú ert með <color=#ffdd77><b>samhengisvalglugga</b></color> eða <color=#ffdd77><b>„Context Menu“</b></color> sem gefur þér fjótann aðgang af aðgerðum.<br>Opna eða loka það með <color=#77ff77><b>{button}</b></color>.",
-        "Tutorial.Intro.ContextMenu_ButtonB" : "B takkann",
-        "Tutorial.Intro.ContextMenu_ButtonBY" : "B eða Y takkann",
-        "Tutorial.Intro.ContextMenu_ButtonMenu" : "Menu Takkan",
-        "Tutorial.Intro.ContextMenu_Screen" : "Miðri mús klikk eða T takkan",
+        "Tutorial.Intro.ContextMenuTitle" : "Samhengisvalgluggi",
+        "Tutorial.Intro.ContextMenuDescription" : "Þú ert með <color=#ffdd77><b>samhengisvalglugga</b></color> eða <color=#ffdd77><b>„Context Menu“</b></color> sem gefur þér fljótann aðgang að algengum aðgerðum.<br>Þú getur opnað eða lokað þessari valmynd með <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.ContextMenu_ButtonB" : "B takkanum",
+        "Tutorial.Intro.ContextMenu_ButtonBY" : "B eða Y takkanum",
+        "Tutorial.Intro.ContextMenu_ButtonMenu" : "valmyndar takkanum",
+        "Tutorial.Intro.ContextMenu_Screen" : "Miðju músar takkanum eða T takkanum",
 
-        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Að eyða eða tvöfalda",
-        "Tutorial.Intro.DestroyingDuplicatingVR" : "Á meðan þú ert að grípa hlut, <b><color=#ffdd77>eyddu eða tvöfaldaðu</color></b> því með að velja valmöguleikann í <color=#77ff77><b>samhengisvalgluggann</b></color> með <b><color=#77ff77>Trigger</color></b> takkann.",
-        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Á meðan þú ert að grípa hlut, <color=#ffdd77><b>tvöfaldaðu</b></color> hlutinn með því að velja valmöguleikann í <color=#ffdd77><b>samhengisvalgluggann</b></color> og smella á <color=#77ff77><b>hægri mús takkann</b></color>. <b><color=#ffdd77>Eyddu</color></b> hlutinn með því að velja valmöguleikann í <color=#ffdd77><b>samhengisvalgluggann</b></color> eða með því að ýta á <color=#77ff77><b>Delete</b></color> takkan.",
+        "Tutorial.Intro.DestroyingDuplicatingTitle" : "Að eyða og tvöfalda",
+        "Tutorial.Intro.DestroyingDuplicatingVR" : "Á meðan þú ert að grípa hlut, <b><color=#ffdd77>eyddu eða tvöfaldaðu</color></b> hann með því að velja valmöguleikann í <color=#77ff77><b>samhengisvalglugganum</b></color> með <b><color=#77ff77>Trigger</color></b> takkanum.",
+        "Tutorial.Intro.DestroyingDuplicatingScreen" : "Á meðan þú ert að grípa hlut, <color=#ffdd77><b>tvöfaldaðu</b></color> hlutinn með því að velja valmöguleikann í <color=#ffdd77><b>samhengisvalglugganum</b></color> með <color=#77ff77><b>hægri músar takkanum</b></color>. <b><color=#ffdd77>Eyddu</color></b> hlutnum með því að velja valmöguleikann í <color=#ffdd77><b>samhengisvalgluggann</b></color> eða með því að ýta á <color=#77ff77><b>Delete</b></color> takkan.",
 
-        "Tutorial.Intro.ScalingYourselfTitle" : "Breyta þinn eiginn stærð",
-        "Tutorial.Intro.ScalingYourselfVR" : "Til að <color=#ffdd77><b>stækka eða minnka</b></color> sjálfan þig, kveiktu á <color=#ffdd77><b>Breytileg stigstærð</b></color> í <color=#ffdd77><b>samhengisvalgluggann</b></color>, haltu síðan niður báðar<color=#77ff77><b>gripp takkar</b></color> og hreyfðu báðar hendur <color=#77ddff><b>saman eða í burtu</b></color> frá hvor annar.",
-        "Tutorial.Intro.ScalingYourselfScreen" : "Til að <color=#ffdd77><b>stækka eða minnka</b></color> sjálfan þig, kveiktu á <color=#ffdd77><b>Breytileg stigstærð</b></color> í <color=#ffdd77><b>samhengisvalgluggann</b></color>, haltu síðan niður <color=#77ff77><b>Control</b></color> takkann, og hreyfðu <color=#77ff77><b>Scroll Wheel</b></color>.",
+        "Tutorial.Intro.ScalingYourselfTitle" : "Breyta þinni eigin stærð",
+        "Tutorial.Intro.ScalingYourselfVR" : "Til að <color=#ffdd77><b>stækka eða minnka</b></color> þig, kveiktu á <color=#ffdd77><b>Breytileg stigstærð</b></color> í <color=#ffdd77><b>samhengisvalgluggann</b></color>, haltu síðan niðri báðum <color=#77ff77><b>grip tökkunum</b></color> og hreyfðu báðar hendur <color=#77ddff><b>saman eða í sundur</b></color>.",
+        "Tutorial.Intro.ScalingYourselfScreen" : "Til að <color=#ffdd77><b>stækka eða minnka</b></color> sjálfan þig, kveiktu á <color=#ffdd77><b>Breytileg stigstærð</b></color> í <color=#ffdd77><b>samhengisvalgluggann</b></color>, haltu síðan niðri <color=#77ff77><b>Control</b></color> takkanum, og hreyfðu <color=#77ff77><b>Scroll Wheel</b></color>.",
 
         "Tutorial.Intro.LocomotionTitle" : "Hreyfingakerfi",
-        "Tutorial.Intro.LocomotionDescription" : "Neos er með mikið val til að hrefast um umhverfið.<br>Hreyfingakerfinn eru aðgengileg í <color=#ffdd77>samhengisvalgluggann</color>.",
+        "Tutorial.Intro.LocomotionDescription" : "Neos er með mikið val til um hvernig þú hreyfir þig um.<br>Hreyfingakerfin eru aðgengileg í <color=#ffdd77>samhengisvalglugganum</color>.",
 
-        "Tutorial.Intro.DashboardTitle" : "Neos Mælaborðið",
-        "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>Mælaborðið</b></color> er aðal málið.<br>Opnaðu og lokaðu það með <color=#77ff77><b>{button}</b></color>.",
-        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>Mælaborðið</b></color> er aðal málið.<br>Opnaðu og lokaðu það með því að halda niður<color=#77ff77><b>{button}</b></color> þangað til hringinn fer fulla hring, og svo <color=#77ddff><b>slepptu</b></color>.",
-        "Tutorial.Intro.Dashboard_ButtonA" : "A takkann",
-        "Tutorial.Intro.Dashboard_ButtonAX" : "A eða X takkann",
-        "Tutorial.Intro.Dashboard_ButtonMenu" : "Menu takkann",
-        "Tutorial.Intro.Dashboard_ButtonScreen" : "Escape takkann",
+        "Tutorial.Intro.DashboardTitle" : "Neos mælaborðið",
+        "Tutorial.Intro.DashboardDescription" : "<color=#ffdd77><b>Mælaborðið</b></color> er aðal valmyndin þín.<br>Opnaðu og lokaðu því með <color=#77ff77><b>{button}</b></color>.",
+        "Tutorial.Intro.DashboardDescriptionCircle" : "<color=#ffdd77><b>Mælaborðið</b></color> er aðal valmyndin þín.<br>Opnaðu og lokaðu því með því að halda niðri<color=#77ff77><b>{button}</b></color> þangað til hringinn fer fullan hring, og <color=#77ddff><b>slepptu</b></color> þá takkanum.",
+        "Tutorial.Intro.Dashboard_ButtonA" : "A takkanum",
+        "Tutorial.Intro.Dashboard_ButtonAX" : "A eða X takkanum",
+        "Tutorial.Intro.Dashboard_ButtonMenu" : "valmyndar takkanum",
+        "Tutorial.Intro.Dashboard_ButtonScreen" : "Escape takkanum",
 
-        "Tutorial.Intro.InventoryVR" : "<color=#ffdd77><b>Birgðahaldið</b></color> þitt er finnanleg í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Til að ná hlut úr birgjahaldinu, <color=#77ff77><b>tvíklikkaðu</b></color> hlutinn úr birgðahaldinu.<br>Til að <color=#77ddff><b>vista</b></color> hlut, <color=#77ddff><b>haltu</b></color> hlutinn og ýttu á <sprite name=inv-add> í efra hægra hornið.",
-        "Tutorial.Intro.InventoryScreen" : "<color=#ffdd77><b>Birgðahaldið</b></color> þitt er finnanleg í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Til að ná hlut úr birgjahaldinu, <color=#77ff77><b>tvíklikkaðu</b></color> hlutinn úr birgðahaldinu.<br>Til að <color=#77ddff><b>vista</b></color> hlut, <color=#77ddff><b>haltu</b></color> hlutinn og vistaðu með því að opna og velja valmöguleikann í <color=#ffdd77><b>samhengisvalgluggann</b></color>.",
+        "Tutorial.Intro.InventoryVR" : "<color=#ffdd77><b>Birgðahaldið</b></color> þitt er finnanlegt í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Til að ná hlut úr birgjahaldinu, <color=#77ff77><b>tvísmelltu</b></color> á hlutinn.<br>Til að <color=#77ddff><b>vista</b></color> hlut, <color=#77ddff><b>haltu</b></color> á hlutnum og ýttu á <sprite name=inv-add> uppi í hægra horninu.",
+        "Tutorial.Intro.InventoryScreen" : "<color=#ffdd77><b>Birgðahaldið</b></color> þitt er finnanlegt í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Til að ná hlut úr birgjahaldinu, <color=#77ff77><b>tvísmelltu</b></color> á hlutinn.<br>Til að <color=#77ddff><b>vista</b></color> hlut, <color=#77ddff><b>haltu</b></color> á hlutnum og vistaðu með því að opna birgðahaldið og velja valmöguleikann í <color=#ffdd77><b>samhengisvalglugganum</b></color>.",
 
-        "Tutorial.Intro.HomeScreenTitle" : "Heimilisskjáinn",
-        "Tutorial.Intro.HomeScreenDescription" : "Heimilisskjáinn <color=#ffdd77><b>Heim</b></color> er finnanleg í <color=#ffdd77><b>Mælaborðinu</b></color> inniheldur mikið af eiginleikum.<br>Sem felur í sér Avatar smíðarann, Full body græjudæmið, Myndavél/Streymara, og búa til nyjar veraldar.",
-        "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>Tengiliðir</b></color> skjáinn finnanleg í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Þú getur sent skilaboð, talskilaboð, eða hlutir til tengiliða með textakassan í neðra hægra hornið.<br>Bættu við meðlimar með því að nota leitargluggan í efra vinstra hornið.",
-        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Flytja inn</b></color> gögn, 3D model, myndir, hljóðfæla, myndbönd, eða font beint í Neos!<br>Annað hvort <color=#77ddff><b>drag og drop</b></color> gögn í Neos gluggann, or finna það í <color=#ffdd77><b>Skráavafrinn</b></color>.",
+        "Tutorial.Intro.HomeScreenTitle" : "Heimaskjárinn",
+        "Tutorial.Intro.HomeScreenDescription" : "<color=#ffdd77><b>Heimaskjárinn</b></color> er finnanlegur í <color=#ffdd77><b>Mælaborðinu</b></color> og inniheldur mikið af eiginleikum.<br>Hann felur í sér Avatar smíðarann, Full body græjudæmið, Myndavél/Streymara, og getur gert nýjar veraldir.",
+        "Tutorial.Intro.ContactsDescription" : "<color=#ffdd77><b>Tengiliða</b></color> skjáinn er líka í <color=#ffdd77><b>Mælaborðinu</b></color>.<br>Þú getur sent skilaboð, talskilaboð, eða hluti til tengiliða með textakassanum í neðra hægra horninu.<br>Bættu við meðlimum með því að nota leitargluggan í efra vinstra horninu.",
+        "Tutorial.Intro.FilesDescription" : "<color=#ffdd77><b>Flytja inn</b></color> gögn, 3D model, myndir, hljóð skrár, myndbönd, eða letur beint í Neos!<br>Þú getur annað hvort <color=#77ddff><b>dregið</b></color> gögn beint á Neos gluggann, eða fundið þau í <color=#ffdd77><b>Skráavafranum</b></color>.",
         "Tutorial.Intro.SessionTitle" : "Þing stillingar",
-        "Tutorial.Intro.SessionDescription" : "Þing stillingar, leyfi, og stillingar um aðrar notendur í þinginnu er finnanlegt í <color=#ffdd77><b>Þing</b></color> svæðið í <color=#ffdd77><b>Mælaborðinu</b></color>.",
-        "Tutorial.Intro.SettingsDescription" : "Hægð, hljóðstyrkur, þægindastillingar, tungumál, og mikið meira getur verið breytt í <color=#ffdd77><b>Stillingar</b></color> svæðið.",
-        "Tutorial.Intro.WorldsTitle" : "Veraldarskjáinn",
-        "Tutorial.Intro.WorldsDescription" : "Kannaðu gerfuraunveruleikaheiminn í <color=#ffdd77><b>Veraldar</b></color> svæðinu.<br>Þegar þú ert búin hér, hoppaðu um og hittu aðrir í Neos samfélaginu!",
+        "Tutorial.Intro.SessionDescription" : "Þing stillingar, leyfi, og stillingar um aðra notendur í þinginu eru í <color=#ffdd77><b>Þing</b></color> svæðinu á <color=#ffdd77><b>Mælaborðinu</b></color>.",
+        "Tutorial.Intro.SettingsDescription" : "Hæð, hljóðstyrkur, þægindastillingar, tungumál, og mikið meira getur verið breytt í <color=#ffdd77><b>Stillingar</b></color> svæðinu.",
+        "Tutorial.Intro.WorldsTitle" : "Veraldarskjárinn",
+        "Tutorial.Intro.WorldsDescription" : "Kannaðu gerfuraunveruleikaheiminn í <color=#ffdd77><b>Veraldar</b></color> svæðinu.<br>Þegar þú klárar þetta, hoppaðu um og hittu aðra í Neos samfélaginu!",
 
-        "Tutorial.Intro.OutroTop" : "Fleiri tutorial eru finnanleg í þessum heim.<br><br>Gangi þér vel og njóttu Neos!",
-        "Tutorial.Intro.Website" : "Vefsíðu",
-        "Tutorial.Intro.OutroEnd" : "Ef þú villt styðja Neos, þú getur gerst Patreonstuðningsmeðlimur.<br><br>Hoppaðu í Discordið okkar fyrir nyjar upplysýngar, tengingar, eða tæknileg aðstoð.",
+        "Tutorial.Intro.OutroTop" : "Þú getur fundið fleiri tutorials í þessum heimi.<br><br>Gangi þér vel og njóttu Neos!",
+        "Tutorial.Intro.Website" : "Vefsíða",
+        "Tutorial.Intro.OutroEnd" : "Ef þú villt styðja Neos, getur þú gerst Patreon stuðningsmeðlimur.<br><br>Hoppaðu í Discordið okkar fyrir nýjar upplysýngar, tengingar, eða tæknilega aðstoð.",
+
+
+        "Tutorial.MTC.Creation" : "Sköpun og Gagnsemi",
+        "Tutorial.MTC.RecordingStreaming" : "Upptöku og Streyming",
+
+        "Tutorial.Grab.MoveRotate" : "Hreyfa/Snúa hlut í hendi",
+
+
+
+
+
+
+        "Tutorial.WorldOrb.Click" : "Klikka veraldarkúlu",
+
+
+        "Tutorial.Tooltip.GeneralPrimary" : "Nota",
+
+
+
+
+
+
+
+
+        "Tutorial.Tooltip.ColorSecondary" : "Velja lit",
+        "Tutorial.Tooltip.Brush" : "Teikna",
+
+
+
+
+
+
+
+
+
+        "Tutorial.Tooltip.LightSecondary" : "Breyta lit",
+
+
+
+
 
 
 
@@ -1294,7 +1335,7 @@
         "Tutorial.Intro.BadgesDisabilityVision" : "Sjónskertur",
         "Tutorial.Intro.BadgesDisabilitySpeech" : "Talskertur",
         "Tutorial.Intro.BadgesTitle" : "Merki",
-        "Tutorial.Intro.BadgesDescription" : "Merki eða „Badges“ eru lítil merki sem sýna áhveðna hætti um notendur. Hérna eru nokkrar mikilvægar merkingar til að vita um. Fötlunarmerkin er hægt að stilla sjálfur í gegnum Neos vélmennið. Fleiri upplýsyngar finnanleg á Neos Wiki",
+        "Tutorial.Intro.BadgesDescription" : "Merki eða „Badges“ eru lítil merki sem sýna áhveðna hætti um notendur. Hérna eru nokkur mikilvæg merki til að vita um. Fötlunarmerkin er hægt að stilla sjálfur í gegnum Neos vélmennið. Meiri upplýsingar eru á Neos Wiki.",
         "Tutorial.Intro.HelpSite" : "Hjálp",
 
 

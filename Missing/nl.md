@@ -4,15 +4,12 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Dutch [nl]
 General.OK  
 General.Reset  
-General.UI.Subtitles.On  
-General.UI.Subtitles.Off  
 Locomotion.Noclip.Name  
 Dash.Actions.ContentHub  
 World.Connection.LNL.DirectIP  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
-World.Error.InvalidAddress  
 World.Actions.Focus  
 World.Indicator.Host  
 World.Indicator.Hosting  
@@ -22,7 +19,6 @@ World.Detail.Tags
 World.Category.Tutorials  
 World.Category.Random  
 World.AccessLevel.LAN  
-World.SortParameter.LastVisit  
 World.SortParameter.Random  
 World.Edit.AccessPatreon  
 Tools.AvatarCreator  
@@ -95,6 +91,7 @@ CameraControl.OBS.Bitrate
 CameraControl.OBS.FPS  
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
+CameraControl.OBS.OpenInstallerReason  
 Settings.LaserSmoothing.Header  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  

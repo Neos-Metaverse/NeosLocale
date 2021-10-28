@@ -25,6 +25,7 @@ CreateNew.Directory.Error.EmptyName
 CreateNew.Directory.Error.LongName  
 CreateNew.Directory.Error.InvalidName  
 CameraControl.Anchors.LinearInterpolation  
+CameraControl.OBS.OpenInstallerReason  
 Settings.Locale.DefaultLanguage  
 Inspector.Mesh.RecalculateBlendshapeNormals  
 Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  

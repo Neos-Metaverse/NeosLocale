@@ -58,7 +58,6 @@ Account.TOTP.Message.DeactivationComplete
 2FA.Token  
 User.Actions.Silence  
 Contacts.RecordingVoiceMessage  
-Tooltips.Dev.ConfirmDestroySelected  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Slicer.Add  
@@ -376,6 +375,7 @@ CameraControl.OBS.FPS
 CameraControl.OBS.DroppedFrames  
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
+CameraControl.OBS.OpenInstallerReason  
 CameraControl.OBS.Streaming.Start  
 CameraControl.OBS.Streaming.Starting  
 CameraControl.OBS.Streaming.Stop  
@@ -692,17 +692,12 @@ Desktop.LegacyInputMode.Off
 Desktop.Brightness  
 Desktop.Opacity  
 Tutorial.MTC.Avatars  
-Tutorial.MTC.Creation  
-Tutorial.MTC.RecordingStreaming  
-Tutorial.Grab.MoveRotate  
 Tutorial.Grab.Scale  
 Tutorial.Grab.PullToEquip  
 Tutorial.Grab.UseHeld  
 Tutorial.Grab.ContextEquip  
 Tutorial.Grab.EquipForFullUse  
-Tutorial.WorldOrb.Click  
 Tutorial.WorldOrb.Info  
-Tutorial.Tooltip.GeneralPrimary  
 Tutorial.Tooltip.GeneralSecondary  
 Tutorial.Tooltip.ContextMenu  
 Tutorial.Tooltip.DevPrimary  
@@ -711,8 +706,6 @@ Tutorial.Tooltip.Duplicator
 Tutorial.Tooltip.GluePrimary  
 Tutorial.Tooltip.GlueSecondary  
 Tutorial.Tooltip.ColorPrimary  
-Tutorial.Tooltip.ColorSecondary  
-Tutorial.Tooltip.Brush  
 Tutorial.Tooltip.MaterialPrimary  
 Tutorial.Tooltip.MaterialSecondary  
 Tutorial.Tooltip.MeshPrimary  
@@ -722,7 +715,6 @@ Tutorial.Tooltip.CharacterColliderSecondary
 Tutorial.Tooltip.GrabbableSetterPrimary  
 Tutorial.Tooltip.GrabbableSetterSecondary  
 Tutorial.Tooltip.LightPrimary  
-Tutorial.Tooltip.LightSecondary  
 Tutorial.Tooltip.MeshVisibilityPrimary  
 Tutorial.Tooltip.MeshVisibilitySecondary  
 Tutorial.Tooltip.ShapePrimary  

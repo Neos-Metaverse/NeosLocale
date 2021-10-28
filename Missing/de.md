@@ -10,6 +10,7 @@ Tooltip.GrabbableSetter.ApplyToRoot
 Tooltip.GrabbableSetter.AppyToHit  
 CreateNew.Editor.TextRendererWizard  
 CameraControl.Anchors.LinearInterpolation  
+CameraControl.OBS.OpenInstallerReason  
 Inspector.Mesh.RecalculateBlendshapeNormals  
 Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
 Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
