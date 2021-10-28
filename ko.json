@@ -1968,7 +1968,7 @@
         "General.UI.Subtitles.On" : "자막: 켜짐",
         "General.UI.Subtitles.Off" : "자막: 꺼짐",
 		
-		"World.Error.InvalidAddress": "잘못된 주소입니다.",
+        "World.Error.InvalidAddress": "잘못된 주소입니다.",
         "CameraControl.OBS.OpenInstallerReason": "OBS 웹소켓 플러그인을 내려받을 수 있는 사이트입니다.",
 		
         "Dummy": "더미"
