@@ -31,6 +31,8 @@
         "General.UI.SearchPromptLong": "Hier typen...",
         "General.UI.ToggleEditMode": "Schakel Edit Mode",
         "General.UI.ToggleSubtitles": "Schakel ondertitels",
+        "General.UI.Subtitles.On": "Ondertiteling: Aan",
+        "General.UI.Subtitles.Off": "Ondertiteling: Uit",
 
         "General.UI.MusicVolumeLocal": "Muziekvolume (lokaal):",
         "General.UI.VoiceVolumeLocal": "Stemvolume (lokaal):",
@@ -148,6 +150,7 @@
         "World.Error.JoinAlreadyRequested": "Toegang is al aangevraagd",
         "World.Error.FailedConnectToRelay": "Kan geen verbinding maken met Relay",
         "World.Error.FailedToConnect": "Kan geen verbinding maken",
+        "World.Error.InvalidAddress": "Ongeldig adres",
         "World.Error.NoPort": "Geen poort gespecificeerd",
         "World.Error.IncompatibleVersion": "Incompatibele Neos-versie",
         "World.Error.Unknown": "Onbekende fout",
@@ -264,6 +267,7 @@
         "World.SortParameter.LastUpdateDate": "Wijzigingsdatum",
         "World.SortParameter.FirstPublishTime": "Publicatiedatum",
         "World.SortParameter.TotalVisits": "Totaal aantal bezoeken",
+        "World.SortParameter.LastVisit": "Laatste bezoek",
 
 
         "World.Filter.DataSources": "Data bronnen:",
