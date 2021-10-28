@@ -797,6 +797,7 @@ CameraControl.OBS.FPS
 CameraControl.OBS.DroppedFrames  
 CameraCOntrol.OBS.Live  
 CameraCOntrol.OBS.Recording  
+CameraControl.OBS.OpenInstallerReason  
 CameraControl.OBS.Streaming.Start  
 CameraControl.OBS.Streaming.Starting  
 CameraControl.OBS.Streaming.Stop  

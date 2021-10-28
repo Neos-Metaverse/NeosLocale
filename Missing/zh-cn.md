@@ -57,6 +57,7 @@ Credits.TipConfirmation
 CameraControl.Anchors.LinearInterpolation  
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
+CameraControl.OBS.OpenInstallerReason  
 Settings.DoNotSendReadStatus  
 Settings.Audio.WhisperVoiceVolume  
 Settings.Locale.DefaultLanguage  
