@@ -917,6 +917,7 @@
         "CameraControl.OBS.DroppedFrames": "ドロップしたフレーム: {n}",
         "CameraCOntrol.OBS.Live": "LIVE",
         "CameraCOntrol.OBS.Recording": "REC",
+        "CameraControl.OBS.OpenInstallerReason": "このWebページで、​OBSWebSocket​プラグインを​ダウンロード​できます。",
 
         "CameraControl.OBS.Streaming.Start": "配信開始",
         "CameraControl.OBS.Streaming.Starting": "配信開始中...",
