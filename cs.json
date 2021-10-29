@@ -918,6 +918,7 @@
         "CameraControl.OBS.DroppedFrames" : "Zahozeno snímků: {n}",
         "CameraCOntrol.OBS.Live" : "ŽIVĚ",
         "CameraCOntrol.OBS.Recording" : "REC",
+        "CameraControl.OBS.OpenInstallerReason": "Tato webová stránka vám umožní stáhnout OBS websocket plugin",
 
         "CameraControl.OBS.Streaming.Start" : "Spustit streamování",
         "CameraControl.OBS.Streaming.Starting" : "Spouštím streamování...",
