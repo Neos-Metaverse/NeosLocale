@@ -58,6 +58,7 @@ Account.TOTP.Message.DeactivationComplete
 2FA.Token  
 User.Actions.Silence  
 Contacts.RecordingVoiceMessage  
+Contacts.TokensDisabled  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
 Tooltip.Slicer.Add  

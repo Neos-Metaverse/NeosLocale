@@ -142,6 +142,7 @@ Contacts.UnbanFromAllSessions
 Contacts.BanFromCurrentWorld  
 Contacts.UnbanFromCurrentWorld  
 Contacts.RecordingVoiceMessage  
+Contacts.TokensDisabled  
 Contacts.InSession  
 Contacts.InPrivate  
 Contacts.InFriendsOnly  

@@ -88,6 +88,7 @@ Account.TOTP.Message.DeactivationComplete
 Permissions.NotAllowedToSpawn  
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
+Contacts.TokensDisabled  
 Contacts.InHiddenFriendsOfFriends  
 Contacts.Bot  
 Undo.ExtractMaterialsFromHierarchy  
