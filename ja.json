@@ -437,6 +437,7 @@
         "Contacts.BanFromCurrentWorld": "現在のワールド​からBAN",
         "Contacts.UnbanFromCurrentWorld": "現在のワールド​からBAN解除",
         "Contacts.RecordingVoiceMessage": "録音中...",
+        "Contacts.TokensDisabled": "NCR/KFC/CDFT関連の機能は、​このビルドでは無効です。",
 
         "Contacts.InSession": "{name}にいます",
         "Contacts.InPrivate": "プライベートワールドにいます",
