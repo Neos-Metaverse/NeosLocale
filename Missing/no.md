@@ -99,6 +99,7 @@ Permissions.NotAllowedToSave
 Permissions.NotAllowedToSwapAvatar  
 User.Actions.Silence  
 Contacts.RecordingVoiceMessage  
+Contacts.TokensDisabled  
 Contacts.InFriendsOnly  
 Contacts.InHidden  
 Contacts.InHiddenFriendsOnly  

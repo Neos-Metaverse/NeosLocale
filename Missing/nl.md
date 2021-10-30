@@ -35,6 +35,7 @@ Profile.Status.Online
 Profile.Status.Offline  
 User.Actions.Respawn  
 User.Actions.Kick  
+Contacts.TokensDisabled  
 Contacts.InSession  
 Undo.Spawn  
 Tooltip.Logix.NodeBrowser  

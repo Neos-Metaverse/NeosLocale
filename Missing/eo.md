@@ -17,6 +17,7 @@ Interaction.Grab.Off
 World.Error.InvalidAddress  
 World.Indicator.Visited  
 World.SortParameter.LastVisit  
+Contacts.TokensDisabled  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
 CreateNew.Editor.TextRendererWizard  

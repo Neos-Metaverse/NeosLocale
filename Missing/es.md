@@ -3,5 +3,6 @@ Note that this file updates only during Neos build process and doesn't necessari
 
 # Spanish [es]
 World.Error.InvalidAddress  
+Contacts.TokensDisabled  
 CameraControl.OBS.OpenInstallerReason  
 
