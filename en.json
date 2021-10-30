@@ -438,6 +438,7 @@
         "Contacts.BanFromCurrentWorld": "Ban from current world",
         "Contacts.UnbanFromCurrentWorld": "Unban from current world",
         "Contacts.RecordingVoiceMessage": "Recording voice...",
+        "Contacts.TokensDisabled": "NCR/KFC/CDFT related functionality is disabled in this build.",
 
         "Contacts.InSession": "In {name}",
         "Contacts.InPrivate": "In Private World",

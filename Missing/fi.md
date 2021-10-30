@@ -5,6 +5,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 General.UI.Subtitles.On  
 General.UI.Subtitles.Off  
 World.Error.InvalidAddress  
+Contacts.TokensDisabled  
 CameraControl.OBS.OpenInstallerReason  
 Settings.DebugInputBinding  
 Settings.LeapMotion.UseFingersWhenSnapped  

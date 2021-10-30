@@ -6,6 +6,7 @@ General.UI.Subtitles.On
 General.UI.Subtitles.Off  
 World.Error.InvalidAddress  
 World.SortParameter.LastVisit  
+Contacts.TokensDisabled  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
 CreateNew.Editor.TextRendererWizard  
