@@ -438,6 +438,7 @@
         "Contacts.BanFromCurrentWorld" : "Zabanovat z aktuálního světa",
         "Contacts.UnbanFromCurrentWorld" : "Odbanovat z aktuálního světa",
         "Contacts.RecordingVoiceMessage" : "Nahrávám hlasovou zprávu...",
+        "Contacts.TokensDisabled": "Funkcionalita týkající se NCR/KFC/CDFT je v tomto buildu zakázána.",
 
         "Contacts.InSession" : "Ve světě {name}",
         "Contacts.InPrivate" : "V privátním světě",
@@ -918,6 +919,7 @@
         "CameraControl.OBS.DroppedFrames" : "Zahozeno snímků: {n}",
         "CameraCOntrol.OBS.Live" : "ŽIVĚ",
         "CameraCOntrol.OBS.Recording" : "REC",
+        "CameraControl.OBS.OpenInstallerReason": "Tato webová stránka vám umožní stáhnout OBS websocket plugin",
 
         "CameraControl.OBS.Streaming.Start" : "Spustit streamování",
         "CameraControl.OBS.Streaming.Starting" : "Spouštím streamování...",
