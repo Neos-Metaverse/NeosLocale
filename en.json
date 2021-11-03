@@ -26,6 +26,7 @@
         "General.CopiedToClipboardLong": "Copied to clipboard!",
         "General.Create": "Create",
         "General.Creating": "Creating...",
+        "General.Buy": "Buy",
 
         "General.UI.SearchPrompt": "Search...",
         "General.UI.SearchPromptLong": "Type to search...",
@@ -309,6 +310,7 @@
         "Tools.Debug": "Debug",
         "Tools.StreamAudio": "Stream Audio",
         "Tools.Setup2FA": "Setup 2FA",
+        "Tools.BuyStorage": "Buy Storage",
 
         "Tools.StreamAudio.Start": "Start Streaming",
         "Tools.StreamAudio.Bitrate": "Bitrate: {bitrate} kbps",
@@ -317,6 +319,13 @@
         "Tools.StreamAudio.Broadcast": "Broadcast",
         "Tools.StreamAudio.PlayForOwner.Off": "Play for owner: Off",
         "Tools.StreamAudio.PlayForOwner.On": "Play for owner: On",
+
+        "Tools.BuyStorage.Title.Self": "Buy additional storage space",
+        "Tools.BuyStorage.Title.Gift": "Gift storage space to {name}",
+        "Tools.BuyStorage.Description": "This will add additional storage to the account. If it already has additional storage from other sources (e.g. Patreon), it will be added on top. If you purchased the same amount of storage previously with NCR, its duration will be extended.",
+        "Tools.BuyStorage.Amount": "Amount (GB):",
+        "Tools.BuyStorage.Months": "Months:",
+        "Tools.BuyStorage.Cost": "Cost: {n} NCR",
 
         "Options.FreeformDash.On": "Freeform Dash: On",
         "Options.FreeformDash.Off": "Freeform Dash: Off",
@@ -433,6 +442,7 @@
         "Contacts.IgnoreRequest": "Ignore Request",
         "Contacts.Invite": "Invite Here",
         "Contacts.SendCredits": "Send Credits",
+        "Contacts.GiftStorage": "Gift Storage Space",
         "Contacts.BanFromAllSessions": "Ban from my hosted sessions",
         "Contacts.UnbanFromAllSessions": "Unban from my hosted sessions",
         "Contacts.BanFromCurrentWorld": "Ban from current world",

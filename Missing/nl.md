@@ -4,6 +4,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Dutch [nl]
 General.OK  
 General.Reset  
+General.Buy  
 Locomotion.Noclip.Name  
 Dash.Actions.ContentHub  
 World.Connection.LNL.DirectIP  
@@ -25,16 +26,24 @@ Tools.AvatarCreator
 Tools.Debug  
 Tools.StreamAudio  
 Tools.Setup2FA  
+Tools.BuyStorage  
 Tools.StreamAudio.Bitrate  
 Tools.StreamAudio.Title  
 Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
+Tools.BuyStorage.Title.Self  
+Tools.BuyStorage.Title.Gift  
+Tools.BuyStorage.Description  
+Tools.BuyStorage.Amount  
+Tools.BuyStorage.Months  
+Tools.BuyStorage.Cost  
 Account.PatreonSupporter  
 Account.TOTP.RecoveryCodes.Codes  
 Profile.Status.Online  
 Profile.Status.Offline  
 User.Actions.Respawn  
 User.Actions.Kick  
+Contacts.GiftStorage  
 Contacts.TokensDisabled  
 Contacts.InSession  
 Undo.Spawn  

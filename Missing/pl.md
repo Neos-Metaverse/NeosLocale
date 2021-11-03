@@ -4,6 +4,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Polish [pl]
 General.Close  
 General.CopyToClipboard  
+General.Buy  
 General.UI.ToggleEditMode  
 General.UI.ToggleSubtitles  
 General.UI.Subtitles.On  
@@ -24,6 +25,13 @@ World.Category.Random
 World.SortParameter.LastVisit  
 World.SortParameter.Random  
 Tools.Setup2FA  
+Tools.BuyStorage  
+Tools.BuyStorage.Title.Self  
+Tools.BuyStorage.Title.Gift  
+Tools.BuyStorage.Description  
+Tools.BuyStorage.Amount  
+Tools.BuyStorage.Months  
+Tools.BuyStorage.Cost  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  
 Account.TOTP.Code.Description  
@@ -49,6 +57,7 @@ Account.TOTP.Deactivate.Deactivating
 Account.TOTP.Message.DeactivationComplete  
 2FA.Header  
 2FA.Token  
+Contacts.GiftStorage  
 Contacts.TokensDisabled  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  
