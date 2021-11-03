@@ -11,6 +11,4 @@ Tools.BuyStorage.Amount
 Tools.BuyStorage.Months  
 Tools.BuyStorage.Cost  
 Contacts.GiftStorage  
-Contacts.TokensDisabled  
-CameraControl.OBS.OpenInstallerReason  
 
