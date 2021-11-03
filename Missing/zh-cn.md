@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
+General.Buy  
 General.UI.ToggleEditMode  
 General.UI.ToggleSubtitles  
 General.UI.Subtitles.On  
@@ -18,6 +19,13 @@ World.Error.InvalidAddress
 World.Indicator.Visited  
 World.SortParameter.LastVisit  
 World.SortParameter.Random  
+Tools.BuyStorage  
+Tools.BuyStorage.Title.Self  
+Tools.BuyStorage.Title.Gift  
+Tools.BuyStorage.Description  
+Tools.BuyStorage.Amount  
+Tools.BuyStorage.Months  
+Tools.BuyStorage.Cost  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  
 Account.TOTP.Code.Description  
@@ -41,6 +49,7 @@ Account.TOTP.Deactivate.Description
 Account.TOTP.Deactivate.Deactivate  
 Account.TOTP.Deactivate.Deactivating  
 Account.TOTP.Message.DeactivationComplete  
+Contacts.GiftStorage  
 Contacts.TokensDisabled  
 Undo.BatchConvertMaterials  
 Tooltip.GrabbableSetter.ApplyToRoot  

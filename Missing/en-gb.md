@@ -25,6 +25,7 @@ General.CopiedToClipboard
 General.CopiedToClipboardLong  
 General.Create  
 General.Creating  
+General.Buy  
 General.UI.SearchPrompt  
 General.UI.SearchPromptLong  
 General.UI.ToggleEditMode  
@@ -274,6 +275,7 @@ Tools.WithdrawNCR
 Tools.Debug  
 Tools.StreamAudio  
 Tools.Setup2FA  
+Tools.BuyStorage  
 Tools.StreamAudio.Start  
 Tools.StreamAudio.Bitrate  
 Tools.StreamAudio.Title  
@@ -281,6 +283,12 @@ Tools.StreamAudio.Spatialized
 Tools.StreamAudio.Broadcast  
 Tools.StreamAudio.PlayForOwner.Off  
 Tools.StreamAudio.PlayForOwner.On  
+Tools.BuyStorage.Title.Self  
+Tools.BuyStorage.Title.Gift  
+Tools.BuyStorage.Description  
+Tools.BuyStorage.Amount  
+Tools.BuyStorage.Months  
+Tools.BuyStorage.Cost  
 Options.FreeformDash.On  
 Options.FreeformDash.Off  
 Options.SeatedMode.On  
@@ -384,6 +392,7 @@ Contacts.AcceptRequest
 Contacts.IgnoreRequest  
 Contacts.Invite  
 Contacts.SendCredits  
+Contacts.GiftStorage  
 Contacts.BanFromAllSessions  
 Contacts.UnbanFromAllSessions  
 Contacts.BanFromCurrentWorld  

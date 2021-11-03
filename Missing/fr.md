@@ -2,6 +2,7 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # French [fr]
+General.Buy  
 General.UI.ToggleEditMode  
 General.UI.ToggleSubtitles  
 General.UI.Subtitles.On  
@@ -17,6 +18,14 @@ Interaction.Grab.Off
 World.Error.InvalidAddress  
 World.Indicator.Visited  
 World.SortParameter.LastVisit  
+Tools.BuyStorage  
+Tools.BuyStorage.Title.Self  
+Tools.BuyStorage.Title.Gift  
+Tools.BuyStorage.Description  
+Tools.BuyStorage.Amount  
+Tools.BuyStorage.Months  
+Tools.BuyStorage.Cost  
+Contacts.GiftStorage  
 Contacts.TokensDisabled  
 Tooltip.GrabbableSetter.ApplyToRoot  
 Tooltip.GrabbableSetter.AppyToHit  

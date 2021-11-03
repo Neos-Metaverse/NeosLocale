@@ -4,6 +4,7 @@ Note that this file updates only during Neos build process and doesn't necessari
 # Icelandic [is]
 General.Close  
 General.CopyToClipboard  
+General.Buy  
 General.UI.ToggleEditMode  
 General.UI.ToggleSubtitles  
 General.UI.Subtitles.On  
@@ -29,8 +30,15 @@ World.Category.Random
 World.SortParameter.LastVisit  
 World.SortParameter.Random  
 Tools.Setup2FA  
+Tools.BuyStorage  
 Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
+Tools.BuyStorage.Title.Self  
+Tools.BuyStorage.Title.Gift  
+Tools.BuyStorage.Description  
+Tools.BuyStorage.Amount  
+Tools.BuyStorage.Months  
+Tools.BuyStorage.Cost  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  
 Account.TOTP.Code.Description  
@@ -57,6 +65,7 @@ Account.TOTP.Message.DeactivationComplete
 2FA.Header  
 2FA.Token  
 User.Actions.Silence  
+Contacts.GiftStorage  
 Contacts.RecordingVoiceMessage  
 Contacts.TokensDisabled  
 Tooltip.GrabbableSetter.ApplyToRoot  
