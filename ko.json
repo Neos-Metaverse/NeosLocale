@@ -1979,6 +1979,7 @@
         "Tools.BuyStorage.Amount": "용량(GB):",
         "Tools.BuyStorage.Months": "개월:",
         "Tools.BuyStorage.Cost": "비용: {n} NCR",
+        "Contacts.GiftStorage": "저장소 선물",
 		
         "Dummy": "더미"
     }
