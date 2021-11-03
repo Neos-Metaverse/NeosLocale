@@ -25,6 +25,7 @@
         "General.CopiedToClipboardLong": "クリップボード​にコピー完了!",
         "General.Create": "作成",
         "General.Creating": "作成中...",
+        "General.Buy": "購入",
 
         "General.UI.SearchPrompt": "検索...",
         "General.UI.SearchPromptLong": "入力して検索...",
@@ -308,6 +309,7 @@
         "Tools.Debug": "デバッグ",
         "Tools.StreamAudio": "ストリームオーディオ",
         "Tools.Setup2FA": "2要素認証を設定",
+        "Tools.BuyStorage": "ストレージ​容量を購入",
 
         "Tools.StreamAudio.Start": "ストリーミング開始",
         "Tools.StreamAudio.Bitrate": "ビットレート:​{bitrate} kbps",
@@ -316,6 +318,13 @@
         "Tools.StreamAudio.Broadcast": "ブロードキャスト",
         "Tools.StreamAudio.PlayForOwner.Off": "配信者に再生: オフ",
         "Tools.StreamAudio.PlayForOwner.On": "配信者に再生: オン",
+        
+        "Tools.BuyStorage.Title.Self": "追加のストレージ​容量を購入",
+        "Tools.BuyStorage.Title.Gift": "ストレージ容量を​{name}に贈る",
+        "Tools.BuyStorage.Description": "これにより、ストレージ容量が​追加されます。Patreonなどから​追加のストレージがすでにある​場合は、その上に追加されます。​以前にNCRで同じ量のストレージ​を購入した場合、その期間は延長​されます。",
+        "Tools.BuyStorage.Amount": "容量(GB):",
+        "Tools.BuyStorage.Months": "期間(月):",
+        "Tools.BuyStorage.Cost": "値段: {n} NCR",
 
         "Options.FreeformDash.On": "ダッシュメニューの傾き​:オン",
         "Options.FreeformDash.Off": "ダッシュメニューの傾き​:オフ",
@@ -433,10 +442,12 @@
         "Contacts.Invite": "招待",
         "Contacts.SendCredits": "クレジット送信",
         "Contacts.BanFromAllSessions": "自分がホストの​セッションからBAN",
+        "Contacts.GiftStorage": "ストレージ​容量を贈る",
         "Contacts.UnbanFromAllSessions": "自分がホストの​セッションからBAN解除",
         "Contacts.BanFromCurrentWorld": "現在のワールド​からBAN",
         "Contacts.UnbanFromCurrentWorld": "現在のワールド​からBAN解除",
         "Contacts.RecordingVoiceMessage": "録音中...",
+        "Contacts.TokensDisabled": "NCR/KFC/CDFT関連機能は​このビルドでは無効です",
 
         "Contacts.InSession": "{name}にいます",
         "Contacts.InPrivate": "プライベートワールドにいます",
@@ -917,6 +928,7 @@
         "CameraControl.OBS.DroppedFrames": "ドロップしたフレーム: {n}",
         "CameraCOntrol.OBS.Live": "LIVE",
         "CameraCOntrol.OBS.Recording": "REC",
+        "CameraControl.OBS.OpenInstallerReason": "このWebページで、​OBSWebSocket​プラグインを​ダウンロード​できます。",
 
         "CameraControl.OBS.Streaming.Start": "配信開始",
         "CameraControl.OBS.Streaming.Starting": "配信開始中...",
