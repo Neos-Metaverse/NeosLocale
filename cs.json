@@ -26,6 +26,7 @@
         "General.CopiedToClipboardLong" : "Zkopírováno do schránky!",
         "General.Create" : "Vytvořit",
         "General.Creating" : "Vytvářím...",
+        "General.Buy": "Koupit",
 
         "General.UI.SearchPrompt" : "Hledat...",
         "General.UI.SearchPromptLong" : "Zadejte vyhledávání...",
@@ -309,6 +310,7 @@
         "Tools.Debug" : "Diagnostika",
         "Tools.StreamAudio" : "Streamovat audio",
         "Tools.Setup2FA" : "Nastavit 2FA",
+        "Tools.BuyStorage": "Koupit uložiště",
 
         "Tools.StreamAudio.Start" : "Spustit streamování",
         "Tools.StreamAudio.Bitrate" : "Bitrate: {bitrate} kbps",
@@ -317,6 +319,13 @@
         "Tools.StreamAudio.Broadcast" : "Spatializace: Vypnuta",
         "Tools.StreamAudio.PlayForOwner.Off" : "Přehrávat pro vlastníka: Vypnuto",
         "Tools.StreamAudio.PlayForOwner.On" : "Přehrávat pro vlastníka: Zapnuto",
+
+        "Tools.BuyStorage.Title.Self": "Zakoupit přídavné úložiště",
+        "Tools.BuyStorage.Title.Gift": "Darovat uložiště uživateli {name}",
+        "Tools.BuyStorage.Description": "Toto přidá na účet úložiště navíc. Pokud je na účtě již přidáno uložiště z jiných zdrojů (např. Patreon), zakoupené uložiště bude přidáno navíc k němu. Pokud jste dříve zakoupili stejné množství uložiště pomocí NCR, jeho platnost bude prodloužena.",
+        "Tools.BuyStorage.Amount": "Množství (GB):",
+        "Tools.BuyStorage.Months": "Doba (měsíce):",
+        "Tools.BuyStorage.Cost": "Cena: {n} NCR",
 
         "Options.FreeformDash.On" : "Nakláněcí dash: Zapnutý",
         "Options.FreeformDash.Off" : "Nakláněcí dash: Vypnutý",
