@@ -929,7 +929,7 @@
         "CameraControl.OBS.DroppedFrames": "Dropped frames: {n}",
         "CameraCOntrol.OBS.Live": "LIVE",
         "CameraCOntrol.OBS.Recording": "REC",
-        "CameraControl.OBS.OpenInstallerReason": "This webpage let's you download the OBS websocket plugin",
+        "CameraControl.OBS.OpenInstallerReason": "This webpage lets you download the OBS websocket plugin",
 
         "CameraControl.OBS.Streaming.Start": "Start Streaming",
         "CameraControl.OBS.Streaming.Starting": "Starting Streaming...",
