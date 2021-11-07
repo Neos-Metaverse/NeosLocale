@@ -1794,6 +1794,7 @@
         "Universe.UI.NoItemSelected": "<i><alpha=#44>No item selected</alpha></i>",
         "Universe.UI.SelectItem": "Click on the name label of an object in the world to learn more about it!",
         "Universe.UI.NoWorldExists": "No world exists for this item :(<br><br>Be the first one to create it!",
+        "Universe.UI.FromWikipedia": "From Wikipedia",
 
         "Universe.Stars.Lich": "Lich<br><size=50%>PSR B1257+12 (pulsar)</size>",
         "Universe.Stars.Sun": "Sun",
