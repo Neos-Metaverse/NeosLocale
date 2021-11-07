@@ -301,10 +301,10 @@
         "World.Edit.AccessPatreon" : "Patroni Patreon",
         "World.Edit.AccessPublic" : "Kdokoliv (veřejný)",
 
-        "Tools.AvatarCreator" : "Vytvořit Avatar",
+        "Tools.AvatarCreator" : "Vytvořit avatar",
         "Tools.FullBodyCalibrator" : "Kalibrovat trackování těla",
         "Tools.CameraStreaming" : "Kamera / Streamování",
-        "Tools.CreateNewWorld" : "Vytvořit Nový Svět",
+        "Tools.CreateNewWorld" : "Vytvořit nový svět",
         "Tools.DepositNCR" : "Vložit NCR",
         "Tools.WithdrawNCR" : "Vyzvednout NCR",
         "Tools.Debug" : "Diagnostika",
