@@ -318,7 +318,7 @@
         "Tools.StreamAudio.Broadcast": "ブロードキャスト",
         "Tools.StreamAudio.PlayForOwner.Off": "配信者に再生: オフ",
         "Tools.StreamAudio.PlayForOwner.On": "配信者に再生: オン",
-        
+
         "Tools.BuyStorage.Title.Self": "追加のストレージ​容量を購入",
         "Tools.BuyStorage.Title.Gift": "ストレージ容量を​{name}に贈る",
         "Tools.BuyStorage.Description": "これにより、ストレージ容量が​追加されます。Patreonなどから​追加のストレージがすでにある​場合は、その上に追加されます。​以前にNCRで同じ量のストレージ​を購入した場合、その期間は延長​されます。",
@@ -1793,6 +1793,7 @@
         "Universe.UI.NoItemSelected" : "<i><alpha=#44>何も選択されていません</alpha></i>",
         "Universe.UI.SelectItem" : "このワールドでそれについて学ぶにはオブジェクトの名前ラベルをクリックします！",
         "Universe.UI.NoWorldExists": "このアイテムのワールドは存在しません:(<br><br>それを最初に作成する人になりましょう",
+        "Universe.UI.FromWikipedia": "Wikipediaより",
 
         "Universe.Stars.Lich": "リッチ<br><size=50%>PSR B1257+12 (パルサー)</size>",
         "Universe.Stars.Sun": "太陽",
