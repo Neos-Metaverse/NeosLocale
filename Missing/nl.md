@@ -98,5 +98,6 @@ Tutorial.Streaming.Camera.ImageFilters.Page4.Title
 Tutorial.Streaming.LightTip.TypesOfLights.Page2.Title  
 Tutorial.Streaming.StreamCamera.SmoothPOV.Title  
 Twitch.Panel.Title.Text  
+Universe.UI.FromWikipedia  
 Temporary.MMC.Categories.Meme  
 

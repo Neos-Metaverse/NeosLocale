@@ -14,4 +14,5 @@ Tools.BuyStorage.Cost
 Contacts.GiftStorage  
 Contacts.TokensDisabled  
 CameraControl.OBS.OpenInstallerReason  
+Universe.UI.FromWikipedia  
 

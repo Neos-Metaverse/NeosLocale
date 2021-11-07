@@ -67,4 +67,5 @@ Wizard.TextRenderer.WithTag
 Wizard.TextRenderer.ReplaceMaterial  
 Wizard.TextRenderer.ReplaceFont  
 Wizard.TextRenderer.SetColor  
+Universe.UI.FromWikipedia  
 

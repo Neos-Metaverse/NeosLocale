@@ -1309,6 +1309,7 @@ Universe.UI.Assets.Content
 Universe.UI.NoItemSelected  
 Universe.UI.SelectItem  
 Universe.UI.NoWorldExists  
+Universe.UI.FromWikipedia  
 Universe.Stars.Lich  
 Universe.Stars.Sun  
 Universe.Stars.Sirius  

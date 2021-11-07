@@ -165,6 +165,7 @@ Universe.UI.Assets.Title
 Universe.UI.Assets.Content  
 Universe.UI.SelectItem  
 Universe.UI.NoWorldExists  
+Universe.UI.FromWikipedia  
 Universe.Wavelength.ExtremeUV  
 Universe.Wavelength.FarUV  
 Universe.Wavelength.MiddleUV  
