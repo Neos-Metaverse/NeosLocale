@@ -301,10 +301,10 @@
         "World.Edit.AccessPatreon" : "Patroni Patreon",
         "World.Edit.AccessPublic" : "Kdokoliv (veřejný)",
 
-        "Tools.AvatarCreator" : "Vytvořit Avatar",
+        "Tools.AvatarCreator" : "Vytvořit avatar",
         "Tools.FullBodyCalibrator" : "Kalibrovat trackování těla",
         "Tools.CameraStreaming" : "Kamera / Streamování",
-        "Tools.CreateNewWorld" : "Vytvořit Nový Svět",
+        "Tools.CreateNewWorld" : "Vytvořit nový svět",
         "Tools.DepositNCR" : "Vložit NCR",
         "Tools.WithdrawNCR" : "Vyzvednout NCR",
         "Tools.Debug" : "Diagnostika",
@@ -1795,6 +1795,7 @@
         "Universe.UI.NoItemSelected" : "<i><alpha=#44>Není výbrána žádná položka</alpha></i>",
         "Universe.UI.SelectItem" : "Klikněte na jmenovku objektu ve světě, aby jste se o něm dozvěděli více!",
         "Universe.UI.NoWorldExists": "Pro tuto položku neexistuje žádný svět :(<br><br>Buďte první kdo nějaký vytvoří!",
+        "Universe.UI.FromWikipedia": "Z Wikipedie",
 
         "Universe.Stars.Lich": "Lich<br><size=50%>PSR B1257+12 (pulsar)</size>",
         "Universe.Stars.Sun" : "Slunce",
