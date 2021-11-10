@@ -1794,6 +1794,7 @@
         "Universe.UI.NoItemSelected": "<i><alpha=#44>Ничего не выбрано</alpha></i>",
         "Universe.UI.SelectItem": "Щелкните на названии предмета в мире чтобы узнать побольше о нём!",
         "Universe.UI.NoWorldExists": "Нет такого мира :(<br><br>Будьте первым кто его создаст!",
+        "Universe.UI.FromWikipedia": "С Википедии",
 
         "Universe.Stars.Lich": "Лич<br><size=50%>PSR B1257+12 (пульсар)</size>",
         "Universe.Stars.Sun": "Солнце",
