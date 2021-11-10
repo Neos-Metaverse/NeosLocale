@@ -896,7 +896,10 @@
         "Security.HostAccess.NoReason": "<i>사유가 작성되지 않았습니다.</i>",
         "Security.HostAccess.Allow": "수락",
         "Security.HostAccess.Deny": "거절",
-
+        
+        "Inspector.ReflectionProbe.Bake": "리플렉션 베이크",
+        "Inspector.ReflectionProbe.Baking": "리플렉션을 베이크하는 중입니다.",
+        
         "Inspector.Mesh.StatsHeader" : "메시 통계정보",
         "Inspector.Mesh.VertexCount" : "버텍스 수: {n}",
         "Inspector.Mesh.TriangleCount" : "폴리곤 수: {n}",
@@ -905,7 +908,6 @@
         "Inspector.Mesh.BoneCount" : "본(Bone) 수: {n}",
         "Inspector.Mesh.BlendshapeCount" : "블렌드셰이프 수: {n}",
         "Inspector.Mesh.ChannelStats" : "일반: {normals}, 접선: {tangents}, 색상: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
-
         "Inspector.Mesh.BakeMesh" : "메시 베이크",
         "Inspector.Mesh.ResaveMesh" : "메시 다시 저장",
         "Inspector.Mesh.RecalculateNormals" : "방향(Normal) 재계산",
@@ -921,14 +923,15 @@
         "Inspector.Mesh.StripEmptyBlendshapes" : "비어있는 블렌드셰이프 제거",
         "Inspector.Mesh.StripBlendshapeNormals" : "블렌드셰이프 방향 제거",
         "Inspector.Mesh.StripBlendshapeTangents" : "블렌드셰이프 접선 제거",
-
         "Inspector.Mesh.GetBoneList" : "본(Bone) 목록 가져오기",
         "Inspector.Mesh.GetBoneData" : "본(Bone) 정보 가져오기",
-
         "Inspector.Mesh.TrimVertexBoneWeightsTo" : "버텍스 본(Bone) 가중치를 조정:",
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Bone} other {# Bones}}",
         "Inspector.Mesh.UV_Multiplicator" : "다중복사:",
         "Inspector.Mesh.ScaleUVs" : "스케일 UVs",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "블렌드셰이프 법선 재계산",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "블렌드셰이프 법선 재계산(스무스 셰이딩)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "블렌드셰이프 탄젠트 재계산(Mikktspace)",
 
         "Inspector.MeshRenderer.MergeByMaterial" : "동일 머티리얼을 사용하는 서브메시 병합",
         "Inspector.MeshRenderer.SplitByMaterial" : "메시를 머티리얼별로 분리",
@@ -941,6 +944,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "본 사각 경계면 시각화",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "근접 병합된 본의 구형 경계면 시각화",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "사각형 본 경계면 시각화 끄기",
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "현재 형태에서 명확한 경계를 계산",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "현재 형태에서 경계 확장",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "정적 메시로 베이크",
 
         "Inspector.BipedRig.GetDiagnosticInfo" : "리그 정보 조회",
         "Inspector.BipedRig.GenerateDebugVisuals" : "디버깅 정보 시각화",
@@ -951,10 +957,9 @@
         "Inspector.BipedRig.HandRigResult" : "감지완료! 왼손 : {left}, 오른손 : {right}",
         "Inspector.BipedRig.LeftHandRigResult" : "감지완료! 왼쪽 : {detected}",
         "Inspector.BipedRig.RightHandRigResult" : "감지완료! 오른쪽 : {detected}",
-
+        
         "Inspector.Texture.Size" : "크기: {width} x {height}",
         "Inspector.Texture.Format" : "형식: {format}, 메모리: <nobr>{memory}</nobr>",
-
         "Inspector.Texture.InvertRGB" : "색상반전(RGB)",
         "Inspector.Texture.InvertR" : "적색 반전",
         "Inspector.Texture.InvertG" : "녹색 반전",
@@ -982,7 +987,6 @@
         "Inspector.Texture.Rotate180" : "180도 회전",
         "Inspector.Texture.MakeSquare" : "정사각형 만들기",
         "Inspector.Texture.ToNearestPOT" : "2 거듭제곱에 가깝게",
-
         "Inspector.Texture.InvalidFloats" : "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata" : "Diagnostic: 비트맵 메타데이터 생성",
 
@@ -990,7 +994,6 @@
         "Inspector.Audio.FormatInfo" : "샘플 주파수: {rate} Hz, 체널수: {channels} ({channel_count})",
         "Inspector.Audio.Duration" : "유지시간: {duration}, 샘플수: {samples}",
         "Inspector.Audio.EncodingInfo" : "코덱정보: {info}, 전체 디코딩: {decoded}",
-
         "Inspector.Audio.Normalize" : "볼륨 일반화",
         "Inspector.Audio.AmplitudeThreshold" : "무음 판정용 진폭범위:",
         "Inspector.Audio.TrimSilence" : "무음 정리",
@@ -1006,7 +1009,7 @@
         "Inspector.Audio.ToVorbis" : "OGG Vorbis로 변환",
         "Inspector.Audio.ToFLAC" : "FLAC으로 변환",
         "Inspector.Audio.DenoiseRNNoise" : "디노이즈 (RNNoise, 48 kHz의 음성에 최적화)",
-         "Inspector.Audio.ExtractSides" : "사이드(Sides) 추출 (스테레오 트랙의 음성 제거 가능)",
+        "Inspector.Audio.ExtractSides" : "사이드(Sides) 추출 (스테레오 트랙의 음성 제거 가능)",
 
         "Inspector.DynamicBoneChain.SetupFromChildren" : "자식으로부터 설정",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "자식으로부터 설정(모두)",
@@ -1016,6 +1019,15 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader" : "------- 콜라이더와 잡기 -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "부모로부터 상속된 고정 콜라이더를 추가",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "항상 마지막 본을 잡도록 함",
+		
+        "Inspector.ParticleStyle.CommonTransitions": "통상적인 변화유형:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "투명도: 페이드 인 -> 페이드 아웃",
+        "Inspector.ParticleStyle.AlphaFadeIn": "투명도: 페이드 인",
+        "Inspector.ParticleStyle.AlphaFadeOut": "투명도: 페이드 아웃",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "강도: 페이드 인 -> 페이드 아웃",
+        "Inspector.ParticleStyle.IntensityFadeIn": "강도: 페이드 인",
+        "Inspector.ParticleStyle.IntensityFadeOut": "강도: 페이드 아웃",
+        "Inspector.ParticleStyle.ClearFades": "변화유형 지우기",
 
         "Wizard.General.ProcessRoot" : "프로세스 루트:",
         "Wizard.General.Result" : "결과:",
@@ -1207,8 +1219,7 @@
 
         "CreateNew.Object.ReflectionProbe": "리플렉션 프로브",
         "CreateNew.Editor.ReflectionProbes": "리플렉션 프로브",
-        "Inspector.ReflectionProbe.Bake": "리플렉션 베이크",
-        "Inspector.ReflectionProbe.Baking": "리플렉션을 베이크하는 중입니다.",
+        
         "Wizard.LightSources.Title": "광원 마법사",
         "Wizard.LightSources.Header": "씬(Scene) 광원",
         "Wizard.LightSources.ProcessRoot": "처리대상의 최상단:",
@@ -1917,19 +1928,8 @@
         "Universe.Animals.Bee": "벌",
         "Universe.Common.Daisy": "샤스타 데이지<br>(지름)",
         "Universe.Common.DouglasFir": "미송(더글러스 전나무)",
-
-        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "현재 형태에서 명확한 경계를 계산",
-        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "현재 형태에서 경계 확장",
-        "Inspector.SkinnedMesh.BakeToStaticMesh": "정적 메시로 베이크",
-		
-        "Inspector.ParticleStyle.CommonTransitions": "통상적인 변화유형:",
-        "Inspector.ParticleStyle.AlphaFadeInOut": "투명도: 페이드 인 -> 페이드 아웃",
-        "Inspector.ParticleStyle.AlphaFadeIn": "투명도: 페이드 인",
-        "Inspector.ParticleStyle.AlphaFadeOut": "투명도: 페이드 아웃",
-        "Inspector.ParticleStyle.IntensityFadeInOut": "강도: 페이드 인 -> 페이드 아웃",
-        "Inspector.ParticleStyle.IntensityFadeIn": "강도: 페이드 인",
-        "Inspector.ParticleStyle.IntensityFadeOut": "강도: 페이드 아웃",
-        "Inspector.ParticleStyle.ClearFades": "변화유형 지우기",
+        "Universe.UI.RotateToChangeScale" : "회전으로 배율 변경",
+        "Universe.UI.FromWikipedia": "위키피디아에서 발췌",
 		
         "General.UI.ToggleEditMode" : "UI 편집모드 전환",
         "General.UI.MusicVolumeLocal" : "음악 볼륨(로컬):",
@@ -1939,10 +1939,6 @@
         "General.UI.ToggleSubtitles" : "자막 토글",
         "General.UI.PressToBegin" : "누르면 시작합니다.",
         "CameraControl.Anchors.LinearInterpolation": "등속전환",
-        "Inspector.Mesh.RecalculateBlendshapeNormals": "블렌드셰이프 법선 재계산",
-        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "블렌드셰이프 법선 재계산(스무스 셰이딩)",
-        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "블렌드셰이프 탄젠트 재계산(Mikktspace)",
-        "Universe.UI.RotateToChangeScale" : "회전으로 배율 변경",
 		
         "CreateNew.Editor.TextRendererWizard": "문자열 마법사",
         "Wizard.TextRenderer.Header" : "TextRenderer 마법사",
@@ -1962,7 +1958,6 @@
         "Inspector.Collider.SetFromPreciseBounds": "정밀한 경계로 설정",
         "Inspector.Collider.SetFromPreciseCylinderBounds": "정밀한 실린더 경계로 설정",
         "Inspector.Collider.Visualize": "콜라이더 시각화",
-		
         "Inspector.Mesh.MergeBlendshapes": "블렌드셰이프 병합",
 		
         "World.Indicator.Visited": "(방문한 적 있음)",
