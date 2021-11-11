@@ -1418,7 +1418,10 @@
         
         "Undo.ExtractMaterialsFromHierarchy" : "머티리얼을 계층에서 추출",
         "Undo.BatchConvertMaterials" : "머티리얼 일괄 바꾸기",
+        
         "Tooltip.Material.ConvertAll" : "모두 ~로 바꾸기",
+        "Tooltip.GrabbableSetter.ApplyToRoot" : "아이템 루트에 적용",
+        "Tooltip.GrabbableSetter.AppyToHit" : "지시선 대상에 적용",
 		
 		"Importer.Folder.Minecraft" : "마인크래프트 월드",
         "Importer.Folder.Minecraft.Description" : "마인크래프트 월드 가져오기(Mineways가 설치되어 있어야 합니다).",  
@@ -1703,9 +1706,6 @@
         "Temporary.MMC.Categories.Meme": "밈(Meme)",
         "Temporary.MMC.Categories.Avatars.Accessories": "악세서리",
 		
-        "Tooltip.GrabbableSetter.ApplyToRoot" : "아이템 루트에 적용",
-        "Tooltip.GrabbableSetter.AppyToHit" : "지시선 대상에 적용",
-		
         "Interaction.Grab.Palm" : "잡기: 손바닥",
         "Interaction.Grab.Precision" : "잡기: 정밀",
         "Interaction.Grab.Auto" : "잡기: 자동",
@@ -1917,11 +1917,11 @@
         "Universe.UI.Align" : "정렬",
         "Universe.UI.Add" : "추가",
         
-		"Universe.UI.Credits.Title": "크레딧",
-        "Universe.UI.Credits.Content" : "테스트: 하나<br>그외: 둘<br>이것: 테스트입니다.",
-        "Universe.UI.Assets.Title" : "에셋",
-        "Universe.UI.Assets.Content" : "테스트: 하나<br>그외: 둘<br>이것: 테스트입니다.",
-        "Universe.UI.NoItemSelected" : "<i><alpha=#44>선택된 대상이 없습니다.</alpha></i>",
+        "Universe.UI.Credits.Title": "크레딧",
+        "Universe.UI.Credits.Content": "<alpha=#88>제작, 디자인 :</alpha> <b>Frooxius</b><br><alpha=#88>나레이션 :</alpha> <b>Marinda Botha</b><br><alpha=#88>에셋 제작 및 부가개발 :</alpha><br><b>Aegis_Wolf, RueShejn, Matěj Hora, Chroma, Nexulan, Geenz</b><br><alpha=#88>3D 모델링 및 UI 디자인과 개발 : </alpha> <b>Ryuvi</b><br><alpha=#88>음향효과 :</alpha> <b>Lewis_Snow</b><br><alpha=#88>자막 :</alpha> <b>Karel Hulec</b>",
+        "Universe.UI.Assets.Title": "에셋",
+        "Universe.UI.Assets.Content": "모델의 저작권은 CCAttribution과 CC0 입니다.<br>https://sketchfab.com/3d-models/callisto-moon-459125fd885f4539ac423b6c3795a297<br>https://sketchfab.com/3d-models/deimos-db9c281d0a7b4452aaac26eb1d3738ad<br>https://sketchfab.com/3d-models/ganymede-moon-7021e376ecb04b89b11fcbe017e48e8c<br>https://sketchfab.com/3d-models/iss-813f5b296e584c26bf386ca39de6c3d4<br>https://sketchfab.com/3d-models/spacex-starship-67ebe2e0eb4848768e71a4c582f95877<br>https://sketchfab.com/3d-models/sputnik-satellite-f45af655a619432da625875e8163745f<br>https://3d-asteroids.space/asteroids/1036-Ganymed<br>https://nasa3d.arc.nasa.gov/detail/ingenuity_thumb<br>https://nasa3d.arc.nasa.gov/detail/lunarlandernofoil-c<br>https://nasa3d.arc.nasa.gov/detail/voyager-c<br>https://nasa3d.arc.nasa.gov/detail/mithra<br>https://nasa3d.arc.nasa.gov/detail/geographos<br>https://nasa3d.arc.nasa.gov/detail/golevka<br>https://nasa3d.arc.nasa.gov/detail/toutatis<br>https://nasa3d.arc.nasa.gov/detail/bennu",
+        "Universe.UI.NoItemSelected": "<i><alpha=#44>선택된 대상이 없습니다.</alpha></i>",
         "Universe.UI.SelectItem" : "더 자세히 알아보시려면, 월드에서 대상의 이름을 클릭해 보세요!",
         "Universe.UI.NoWorldExists": "이 항목에 대한 월드가 존재하지 않습니다. :(<br><br>가장 먼저 월드를 만들어 보세요!",
         "Universe.Stars.Lich": "Lich<br><size=50%>PSR B1257+12 (펄서)</size>",
