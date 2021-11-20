@@ -1866,14 +1866,14 @@
         "Universe.Biology.HIV": "HIV (ヒト免疫不全ウイルス)",
         "Universe.Biology.Mitochondrion": "ミトコンドリア",
         "Universe.Biology.Hair": "毛髪 (幅)",
-        "Universe.Biology.HepatitisB": "B型肝炎",
+        "Universe.Biology.HepatitisB": "B型肝炎ウイルス",
         "Universe.Biology.Platelet": "(活性化した)血小板",
         "Universe.Biology.LargestBacteria": "最大のバクテリア",
 
         "Universe.Particles.Electron": "電子",
         "Universe.Particles.Proton": "陽子",
         "Universe.Particles.Neutron": "中性子",
-        "Universe.Atoms.Hydrogen": "酸素",
+        "Universe.Atoms.Hydrogen": "水素",
         "Universe.Atoms.Helium": "ヘリウム",
         "Universe.Atoms.Sulfur": "硫黄",
 
@@ -1957,7 +1957,7 @@
         "Universe.Landmarks.MountEverest": "エベレスト(山)",
         "Universe.Landmarks.LHC": "大型ハドロン衝突型加速器",
 
-        "Universe.Chemistry.Ethanol": "エタノール (アルコールの一種)",
+        "Universe.Chemistry.Ethanol": "エタノール",
         "Universe.Chemistry.CarbonNanotube": "カーボンナノチューブ",
         "Universe.Chemistry.Glucose": "グルコース (ブドウ糖)",
         "Universe.Chemistry.Water": "水",
