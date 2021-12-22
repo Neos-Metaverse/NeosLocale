@@ -408,7 +408,7 @@
 
         "Profile.Status.Online": "オンライン",
         "Profile.Status.Away": "退席中",
-        "Profile.Status.Busy": "多忙",
+        "Profile.Status.Busy": "取込中",
         "Profile.Status.Invisible": "非表示",
         "Profile.Status.Offline": "オフライン",
 
