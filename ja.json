@@ -781,6 +781,7 @@
         "Credits.Success": "成功!​このウィンドウを閉じてください。",
         "Credits.BlockchainWarning": "ブロックチェーンへの​転送には最大48時間​かかる場合があることに​ご注意ください。",
         "Credits.TipConfirmation": "<b><color=#0ff>{username}</color></b>​に送金しようとしています。​送金作業を続けますか？",
+        "Credits.TOTP_Required": "この操作を行うには、​アカウントに2要素認証を​設定する必要があります。​ダッシュメニューのホームにある​「2要素認証を設定」​ボタンを押して​設定します。",
 
         "NewWorld.Title": "新規ワールド",
         "NewWorld.Template": "テンプレート:",
