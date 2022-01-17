@@ -1394,12 +1394,12 @@
         "Tutorial.Welcome.SettingsHeightExamples": "例: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader": "チュートリアル開始",
-        "Tutorial.Welcome.StartTutorialDescription": "Neosを始めるのに役立つチュートリアルのワールドに移動します。​ワールドをパブリック(他の人が入れる)にすると、他の人に助けてもらうことができます",
+        "Tutorial.Welcome.StartTutorialDescription": "Neosを始めるためにチュートリアルワールドに移動します。​パブリック(他の人が入れる)にすると、他の人に助けてもらうことができます",
         "Tutorial.Welcome.StartTutorialPublic": "助けてもらいながらプレイ(パブリック)",
         "Tutorial.Welcome.StartTutorialPrivate": "ひとりでプレイ(プライベート)",
         "Tutorial.Welcome.PrivateTutorialHeader": "プライベートで始めますか？",
-        "Tutorial.Welcome.PrivateTutorialDescription": "コミュニティのメンバーは、セットアップをより簡単かつ迅速に行うのに役立ちます。<br>本当に一人で進めますか？",
-        "Tutorial.Welcome.PrivateTutorialConfirm": "プライベートで開始します",
+        "Tutorial.Welcome.PrivateTutorialDescription": "<b><color=red>警告!</color>あなたはNeosをハードモードでプレイしようとしています。</b><br>プライベートで始めますか?パブリックにするとユーザーが助けてくれます。",
+        "Tutorial.Welcome.PrivateTutorialConfirm": "プライベートで開始",
 
         "Tutorial.Intro.WelcomeTitle": "Neosにようこそ",
         "Tutorial.Intro.WelcomeDescription": "メタバースを体験するためのガイドを行います",
