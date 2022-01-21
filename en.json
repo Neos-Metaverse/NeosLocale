@@ -251,6 +251,7 @@
         "World.Category.Random": "Shuffle",
         "World.Category.MyWorlds": "My Worlds",
         "World.Category.Custom": "Custom",
+        "World.Category.GroupWorlds": "Group Worlds",
 
         "World.AccessLevel.Anyone": "Anyone",
         "World.AccessLevel.RegisteredUsers": "Registered Users",
