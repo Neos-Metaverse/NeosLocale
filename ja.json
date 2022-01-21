@@ -250,6 +250,7 @@
         "World.Category.Random": "シャッフル",
         "World.Category.MyWorlds": "自分のワールド",
         "World.Category.Custom": "カスタム",
+        "World.Category.GroupWorlds": "グループのワールド",
 
         "World.AccessLevel.Anyone": "誰でも",
         "World.AccessLevel.RegisteredUsers": "登録ユーザー",
