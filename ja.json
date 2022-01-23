@@ -1399,7 +1399,7 @@
         "Tutorial.Welcome.StartTutorialPublic": "助けてもらいながらプレイ(パブリック)",
         "Tutorial.Welcome.StartTutorialPrivate": "ひとりでプレイ(プライベート)",
         "Tutorial.Welcome.PrivateTutorialHeader": "プライベートで始めますか？",
-        "Tutorial.Welcome.PrivateTutorialDescription": "<b><color=red>警告!</color>あなたはNeosをハードモードでプレイしようとしています。</b><br>プライベートで始めますか?パブリックにするとユーザーが助けてくれます。",
+        "Tutorial.Welcome.PrivateTutorialDescription": "<b><color=red>警告!</color>あなたはNeosをハードモードでプレイしようとしています。</b><br>本当にプライベートで始めますか?",
         "Tutorial.Welcome.PrivateTutorialConfirm": "プライベートで開始",
 
         "Tutorial.Intro.WelcomeTitle": "Neosにようこそ",
