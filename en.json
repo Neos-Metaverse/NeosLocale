@@ -251,6 +251,7 @@
         "World.Category.Random": "Shuffle",
         "World.Category.MyWorlds": "My Worlds",
         "World.Category.Custom": "Custom",
+        "World.Category.GroupWorlds": "Group Worlds",
 
         "World.AccessLevel.Anyone": "Anyone",
         "World.AccessLevel.RegisteredUsers": "Registered Users",
@@ -782,6 +783,7 @@
         "Credits.Success": "Success!\nYou can close this window.",
         "Credits.BlockchainWarning": "Please note that the transfer to blockchain can take up to 48 hours.",
         "Credits.TipConfirmation": "You are about to send a tip to <b><color=#0ff>{username}</color></b>. Would you like to proceed?",
+        "Credits.TOTP_Required": "You need 2FA setup on your account for this action. To set it up press the 'Setup 2FA' button on the homepage of your dash.",
 
         "NewWorld.Title": "New World",
         "NewWorld.Template": "World Template:",
