@@ -251,6 +251,7 @@
         "World.Category.Random" : "Náhodné",
         "World.Category.MyWorlds" : "Moje Světy",
         "World.Category.Custom" : "Vlastní",
+        "World.Category.GroupWorlds": "Skupinové světy",
 
         "World.AccessLevel.Anyone" : "Veřejný",
         "World.AccessLevel.RegisteredUsers" : "Registrovaní uživatelé",
@@ -782,6 +783,7 @@
         "Credits.Success" : "Úspěch!\nMůžete zavřít toto okno",
         "Credits.BlockchainWarning" : "Přesuny na blockchain mohou tvrat až 48 hodin.",
         "Credits.TipConfirmation" : "Chystáte se poslat spropitné uživateli <b><color=#0ff>{username}</color></b>. Přejete si pokračovat?",
+        "Credits.TOTP_Required": "Musíte na svém účtu nastavit 2FA pro vykonání této akce. Pro nastavení klikněte na tlačítko 'Nastavit 2FA' na záložce Domů na vašem dashboardu.",
 
         "NewWorld.Title" : "Vytvořit svět",
         "NewWorld.Template" : "Typ světa:",
