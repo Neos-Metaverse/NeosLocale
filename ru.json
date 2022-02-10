@@ -251,6 +251,7 @@
         "World.Category.Random": "Вперемешку",
         "World.Category.MyWorlds": "Мои миры",
         "World.Category.Custom": "Расширенный поиск",
+        "World.Category.GroupWorlds": "Миры группы",
 
         "World.AccessLevel.Anyone": "Все",
         "World.AccessLevel.RegisteredUsers": "Зарегистрированные",
@@ -782,6 +783,7 @@
         "Credits.Success": "Завершено!\nВы можете закрыть это окно.",
         "Credits.BlockchainWarning": "Пожалуйста заметьте, что отправка в блокчейн может занять до 48 часов.",
         "Credits.TipConfirmation": "Вы собираетесь отправить чаевые пользователю <b><color=#0ff>{username}</color></b>. Продолжить?",
+        "Credits.TOTP_Required": "Для этого действия требуется настроить 2FA на вашем аккаунте. Для этого нажмите на кнопку 'Настроить 2FA' на домашней странице вашего дэша.",
 
         "NewWorld.Title": "Новый мир",
         "NewWorld.Template": "Шаблон мира:",
