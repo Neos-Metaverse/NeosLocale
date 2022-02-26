@@ -422,7 +422,7 @@
         "Session.Permission.Contact": "フレンドの初期値:",
         "Session.Permission.Host": "ホストの初期値:",
         "Session.Permission.PermissionOverrideCount": "個別の権限設定を行ったユーザー数: {n,select, -1 {--表示できません--} other {{n}}}",
-        "Session.Permission.ClearOverrides": "ユーザーごとに設定した個別の権限設定を消去",
+        "Session.Permission.ClearOverrides": "ユーザー個別の権限設定を消去",
 
         "Permissions.NotAllowedToSpawn": "ここで物をスポーンすることはできません。",
         "Permissions.NotAllowedToSave": "ここでアイテムは保存できません。",
