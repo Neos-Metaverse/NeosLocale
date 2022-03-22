@@ -978,7 +978,7 @@
         "Inspector.Texture.ShiftHue" : "쉬프트 휴",
         "Inspector.Texture.Gamma" : "감마:",
         "Inspector.Texture.AdjustGamma" : "감마 조정",
-        "Inspector.Texture.LongestSide" : "긴 면으로 지정:",
+        "Inspector.Texture.LongestSide" : "긴 면을 기준으로 이미지 크기 변경하기:",
         "Inspector.Texture.Resize" : "크기변경",
         "Inspector.Texture.FlipHorizontal" : "좌우 뒤집기",
         "Inspector.Texture.FlipVertical" : "상하 뒤집기",
