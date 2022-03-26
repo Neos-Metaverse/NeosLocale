@@ -974,7 +974,7 @@
         "Inspector.Texture.SwapRG" : "적색과 녹색을 서로 바꾸기",
         "Inspector.Texture.SwapRB" : "적색과 청색을 서로 바꾸기",
         "Inspector.Texture.SwapGB" : "녹색과 청색을 서로 바꾸기",
-        "Inspector.Texture.Hue" : "휴(Hue : 0 ~ 1):",
+        "Inspector.Texture.Hue" : "휴(Hue:-1~1):",
         "Inspector.Texture.ShiftHue" : "쉬프트 휴",
         "Inspector.Texture.Gamma" : "감마:",
         "Inspector.Texture.AdjustGamma" : "감마 조정",
@@ -1292,7 +1292,7 @@
 
         "Inspector.Texture.Saturation" : "채도:",
         "Inspector.Texture.AdjustSaturation" : "채도 조정",
-        "Inspector.Texture.Value" : "값(밝기):",
+        "Inspector.Texture.Value" : "값(밝기:양수값):",
         "Inspector.Texture.AdjustValue" : "밝기 조정",
 
         "Tooltips.Dev.ConfirmDestroySelected" : "선택된 대상을 삭제합니다",
