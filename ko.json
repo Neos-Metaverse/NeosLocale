@@ -965,8 +965,8 @@
         "Inspector.Texture.InvertG" : "녹색 반전",
         "Inspector.Texture.InvertB" : "청색 반전",
         "Inspector.Texture.InvertA" : "알파 반전",
-        "Inspector.Texture.ColorToAlphaWhite" : "회색조 변환 후 짙은곳을 알파처리(기본색은 백색 처리)",
-        "Inspector.Texture.ColorToAlphaBlack" : "회색조 변환 후 짙은곳을 알파처리(기본색은 흑색 처리)",
+        "Inspector.Texture.ColorToAlphaWhite" : "명도를 알파로 변환(밝을수록 백색)",
+        "Inspector.Texture.ColorToAlphaBlack" : "명도를 알파로 변환(밝을수록 흑색)",
         "Inspector.Texture.AlphaFromIntensity" : "채도를 알파로 변환",
         "Inspector.Texture.AlphaToMask" : "알파를 마스크로 변환",
         "Inspector.Texture.RemoveAlpha" : "불투명하게 만들기",
@@ -1304,8 +1304,8 @@
         "Settings.DebugInputBinding" : "입력정보 확인(Debug input binding)",
         "Inspector.Mesh.ConvertToPointCloud" : "점(Point Cloud)들로 변환",
 
-        "Inspector.Texture.AddWhiteBackground" : "백색배경 추가",
-        "Inspector.Texture.AddBlackBackground" : "흑색배경 추가",
+        "Inspector.Texture.AddWhiteBackground" : "알파를 백색으로 변환",
+        "Inspector.Texture.AddBlackBackground" : "알파를 흑색으로 변환",
 
         "Settings.Audio.OutputDevice" : "오디오 출력장치:",
         "Settings.Audio.SelectOutputDevice" : "오디오 출력장치 선택",
