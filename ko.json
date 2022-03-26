@@ -974,8 +974,8 @@
         "Inspector.Texture.SwapRG" : "적색과 녹색을 서로 바꾸기",
         "Inspector.Texture.SwapRB" : "적색과 청색을 서로 바꾸기",
         "Inspector.Texture.SwapGB" : "녹색과 청색을 서로 바꾸기",
-        "Inspector.Texture.Hue" : "휴(Hue:-1~1):",
-        "Inspector.Texture.ShiftHue" : "쉬프트 휴",
+        "Inspector.Texture.Hue" : "색상(H:Hue/-1~1):",
+        "Inspector.Texture.ShiftHue" : "색상 쉬프트",
         "Inspector.Texture.Gamma" : "감마:",
         "Inspector.Texture.AdjustGamma" : "감마 조정",
         "Inspector.Texture.LongestSide" : "긴 면을 기준으로 이미지 크기 변경하기:",
@@ -1290,9 +1290,9 @@
         "Permissions.NotAllowedToSwapAvatar" : "지정된 아바타만 사용가능한 월드입니다.",
         "Inspector.AudioStream.BufferStats" : "평균코딩속도: {avgCodec}/s, 평균읽기속도: {avgRead}/s, 평균쓰기속도: {avgWritten}/s",
 
-        "Inspector.Texture.Saturation" : "채도:",
+        "Inspector.Texture.Saturation" : "채도(S:Saturation):",
         "Inspector.Texture.AdjustSaturation" : "채도 조정",
-        "Inspector.Texture.Value" : "값(밝기:양수값):",
+        "Inspector.Texture.Value" : "명도(V:Value/양수값):",
         "Inspector.Texture.AdjustValue" : "밝기 조정",
 
         "Tooltips.Dev.ConfirmDestroySelected" : "선택된 대상을 삭제합니다",
