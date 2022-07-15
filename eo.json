@@ -1701,6 +1701,29 @@
         "Earthenworks.MentorSignal.Next.Text": "Ricevi helpon",
         "Earthenworks.MentorSignal.Discord.Text": "Aliĝi Neos Discord",
 
+        "Universe.UI.Freeform": "Libera formo",
+        "Universe.UI.Align": "Vicigi",
+        "Universe.UI.Add": "Aldoni",
+        "Universe.UI.Credits.Title": "Kreditojn",
+        "Universe.UI.Assets.Title": "Aktivoj",
+
+        "Universe.Stars.Sun": "Suno",
+
+        "Universe.SolarSystem.Mercury": "Merkuro",
+        "Universe.SolarSystem.Venus": "Venuso",
+        "Universe.SolarSystem.Earth": "Tero",
+        "Universe.SolarSystem.Mars": "Marso",
+        "Universe.SolarSystem.Jupiter": "Jupitero",
+        "Universe.SolarSystem.Saturn": "Saturno",
+        "Universe.SolarSystem.Uranus": "Urano",
+        "Universe.SolarSystem.Neptune": "Neptuno",
+        "Universe.SolarSystem.Pluto": "Plutono",
+        "Universe.SolarSystem.Moon": "Luno",
+
+        "Universe.SolarSystem.Phobos": "Fobo",
+        "Universe.SolarSystem.Ganymede": "Ganimedo",
+        "Universe.SolarSystem.Callisto": "Kalisto",
+
         "Dummy" : "Dummy"
     }
 }
