@@ -3,12 +3,13 @@
 import json
 
 class NeosLocaleCleaner:
-    def __init__(self, en, lang, out):
+    def __init__(self, en, lang, out, default_val):
         en_file = open(en, 'r', encoding='utf-8')
         lang_file = open(lang, 'r', encoding='utf-8')
         self.out = out
         self.en = en_file.readlines()
         self.lang = json.load(lang_file)
+        self.default_val = default_val
         self.output = []
 
     def run(self):
@@ -47,7 +48,10 @@ class NeosLocaleCleaner:
                 translation = self.lang["messages"][key].replace('\n','\\n').replace('"','\\"')
                 self.output.append('        "{}": "{}",'.format(key, translation))
             else:
-                self.output.append('')
+                if self.default_val and key:
+                    self.output.append('        "{}": "{}",'.format(key, self.default_val))
+                else:
+                    self.output.append('')
 
     def save(self):
         out = open(self.out, 'w', encoding='utf-8')
@@ -64,9 +68,11 @@ if __name__ == "__main__":
                         help='The path to the LANG.json Neos locale to clean.')
     parser.add_argument('--out', metavar='out_path', type=str,
                         help='The path to save the formated file.')
+    parser.add_argument('--default', metavar='default_missing_value', type=str,
+                        help='Default value for missing keys')
 
     args = parser.parse_args()
-    N = NeosLocaleCleaner(args.en, args.lang, args.out)
+    N = NeosLocaleCleaner(args.en, args.lang, args.out, args.default)
     N.run()
     print("Cleaned!")
 
