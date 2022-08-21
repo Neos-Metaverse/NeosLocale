@@ -11,6 +11,7 @@ class NeosLocaleCleaner:
         self.lang = json.load(lang_file)
         self.default_val = default_val
         self.output = []
+        self.missing_count = 0
 
     def run(self):
         self.make_header()
@@ -48,10 +49,14 @@ class NeosLocaleCleaner:
                 translation = self.lang["messages"][key].replace('\n','\\n').replace('"','\\"')
                 self.output.append('        "{}": "{}",'.format(key, translation))
             else:
+                if key:
+                    print('Missing %s' % key)
+                    self.missing_count += 1
                 if self.default_val and key:
                     self.output.append('        "{}": "{}",'.format(key, self.default_val))
                 else:
                     self.output.append('')
+        print('Missing: %s key(s)' % self.missing_count)
 
     def save(self):
         out = open(self.out, 'w', encoding='utf-8')
