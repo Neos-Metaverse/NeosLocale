@@ -125,7 +125,7 @@ Currently there are a few known parts that cannot be translated, but are planned
 # If you use an external tool to do the translation and the JSON structure gets mangled
 You can use the python script in this repository: CleanJSON.py
 
-For example to clean the french json, you'd use `./CleanJSON.py --en en.json --lang fr.json --out fr.json.cleaned`
+For example, to clean the french json, you'd use `./CleanJSON.py --en en.json --lang fr.json --out fr.json.cleaned`
 
 ```usage: CleanJSON.py [-h] [--en en_path] [--lang lang_path] [--out out_path]
 
