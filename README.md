@@ -20,7 +20,7 @@ Polish [pl] - 77.8% - Missing keys: 390
 Russian [ru] - 100.0% - Missing keys: 0  
 Swedish [sv] - 14.2% - Missing keys: 1510  
 Turkish [tr] - 55.4% - Missing keys: 784  
-Chinese (China) [zh-cn] - 68.5% - Missing keys: 554  
+Chinese (China) [zh-cn] - 100% - Missing keys: 0  
 Chinese (Taiwan) [zh-tw] - 65.2% - Missing keys: 613  
 
 Total keys: 1804
@@ -133,10 +133,11 @@ This script will reformat a Babel style JSON for locales to match the en.json
 baseline formating for git changes purposes.
 
 optional arguments:
-  -h, --help        show this help message and exit
-  --en en_path      The path to the en.json Neos locale.
-  --lang lang_path  The path to the LANG.json Neos locale to clean.
-  --out out_path    The path to save the formated file.
+  -h, --help                       show this help message and exit
+  --en en_path                     The path to the en.json Neos locale.
+  --lang lang_path                 The path to the LANG.json Neos locale to clean.
+  --out out_path                   The path to save the formated file.
+  --default default_missing_value  Default value for missing keys.
 ```
 
 # Any questions?

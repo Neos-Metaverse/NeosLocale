@@ -74,7 +74,7 @@ if __name__ == "__main__":
     parser.add_argument('--out', metavar='out_path', type=str,
                         help='The path to save the formated file.')
     parser.add_argument('--default', metavar='default_missing_value', type=str,
-                        help='Default value for missing keys')
+                        help='Default value for missing keys.')
 
     args = parser.parse_args()
     N = NeosLocaleCleaner(args.en, args.lang, args.out, args.default)
