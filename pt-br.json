@@ -448,7 +448,7 @@
         "Contacts.BanFromCurrentWorld": "Banir do<br><nobr>mundo atual",
         "Contacts.UnbanFromCurrentWorld": "Desbanir do<br><nobr>mundo atual",
         "Contacts.RecordingVoiceMessage": "Gravando áudio...",
-        "Contacts.TokensDisabled": "A Funcionalidade de NCR/KFC/CDFT está desativado nesta versão.",
+        "Contacts.TokensDisabled": "A Funcionalidade de NCR/KFC/CDFT está desativada nesta versão.",
 
         "Contacts.InSession": "na sessão {name}",
         "Contacts.InPrivate": "em um Mundo Privado",
@@ -520,7 +520,7 @@
         "Tooltips.Dev.ConfirmDestroySelected": "REALMENTE Destruir selecionado?",
 
         "Tooltip.Logix.NodeBrowser": "Navegador de Nodes",
-        "Tooltip.Logix.UnpackChildren": "Descompactar nodes filho e nodes conectados",
+        "Tooltip.Logix.UnpackChildren": "Descompactar nodes filhos e nodes conectados",
         "Tooltip.Logix.SetPackingRoot": "Definir Raiz de Compactação",
         "Tooltip.Logix.ClearPackingRoot": "Limpar Raiz de Compactação",
 
@@ -952,27 +952,27 @@
         "Settings.PrimaryController": "Controle Primário",
         "Settings.AllowStrafing": "Permitir Agachar",
         "Settings.UseHeadDirectionForMovement": "Usar direção da cabeça para movimento",
-        "Settings.SmoothTurn": "Viragem Suave",
-        "Settings.SmoothTurnExclusiveMode": "Modo exclusivo de Viragem Suave",
-        "Settings.SmoothTurnSpeed": "Velocidade de Viragem Suave",
-        "Settings.SnapTurnAngle": "'Snap' do Angulo de Viragem",
+        "Settings.SmoothTurn": "Virada Suave (Smooth Turn)",
+        "Settings.SmoothTurnExclusiveMode": "Modo exclusivo de Virada Suave (Smooth Turn)",
+        "Settings.SmoothTurnSpeed": "Velocidade de Virada Suave (Smooth Turn)",
+        "Settings.SnapTurnAngle": "Snap do Angulo de Virada",
         "Settings.NoclipSpeed": "Velocidade de No-clip ",
         "Settings.SpeedExponent": "Exponente de Velocidade",
         "Settings.MoveThreshold": "Deadzone do Movimento",
         "Settings.ControllerVibration": "Vibração do Controle",
         "Settings.Haptics": "Feedback Háptico",
-        "Settings.DisablePhysicalInteractions": "Desabilitar interações físicas",
+        "Settings.DisablePhysicalInteractions": "Desativar interações físicas",
         "Settings.EnableGestures": "Ativar Gestos",
         "Settings.DoubleClickInterval": "Intervalo de Duplo-Clique",
         "Settings.ResetAllTutorials": "Redefinir todos os Tutoriais",
         "Settings.PreferSteamNetworking": "Preferir soquetes de rede da Steam",
-        "Settings.DisableLAN": "Desabilitar LAN",
+        "Settings.DisableLAN": "Desativar rede LAN",
         "Settings.LegacyGripEquip": "Ativar GripEquip antigo",
         "Settings.LegacyWorldSwitcher": "Ativar alternador de mundos antigo",
         "Settings.FetchIncompatibleSessions": "Mostrar sessões incompatíveis",
-        "Settings.DoNotSendReadStatus": "Não mandar mensagens em tempo-real de leitura",
+        "Settings.DoNotSendReadStatus": "Não mandar mensagens em tempo real de leitura",
         "Settings.MaxConcurrentAssetTransfers": "Máximo de transferências de assets consecutivas",
-        "Settings.AutosaveScreenshotPath": "Directório para Captura de Tela",
+        "Settings.AutosaveScreenshotPath": "Diretório para Captura de Tela",
         "Settings.DebugInputBinding": "Teclas de Debug",
 
         "Settings.LaserSmoothing.Header": "Suavização do Laser",
@@ -1015,7 +1015,7 @@
 
         "Settings.Save": "Salvar Configurações",
 
-        "Settings.FullBody.Header": "Full Body Tracking:",
+        "Settings.FullBody.Header": "Tracking Full Body:",
         "Settings.FullBody.FeetPositionSmoothing": "Suavização da Posição dos Pés",
         "Settings.FullBody.FeetRotationSmoothing": "Suavização da Rotação dos Pés",
         "Settings.FullBody.HipsPositionSmoothing": "Suavização da Posição dos Quadris",
@@ -1069,8 +1069,8 @@
 
         "Inspector.Slot.CreatePivotAtCenter": "Criar eixo no meio",
 
-        "Inspector.Slot.JumpTo": "Pular para",
-        "Inspector.Slot.BringTo": "Trazer para",
+        "Inspector.Slot.JumpTo": "Teletransportar para o Objeto",
+        "Inspector.Slot.BringTo": "Trazer Aqui",
         "Inspector.Slot.BringTo.Undo": "Trazer {name} para usuário",
 
         "Inspector.Slot.ParentUnder.Label": "Pai sob:",
@@ -1389,7 +1389,7 @@
         "Tutorial.Welcome.SettingsPrimaryLeft": "Esquerdo",
         "Tutorial.Welcome.SettingsPrimaryLeftDescription": "<b>Esquerdo:</b> Virar, <b>Direito:</b> Strafe",
         "Tutorial.Welcome.SettingsPrimaryRight": "Direito",
-        "Tutorial.Welcome.SettingsPrimaryRightDescription": "<b>Left:</b> Strafe, <b>Right:</b> Virar",
+        "Tutorial.Welcome.SettingsPrimaryRightDescription": "<b>Esquerdo:</b> Strafe, <b>Direito:</b> Virar",
         "Tutorial.Welcome.SettingsHeight": "Sua Altura",
         "Tutorial.Welcome.SettingsHeightExamples": "Exemplos: 1.85 m, 185 cm, 6' 1\", 6 pés 1 polegada",
 
