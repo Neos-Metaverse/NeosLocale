@@ -399,7 +399,7 @@
         "Account.TOTP.Message.Error": "Erro inesperado! Por favor, tente novamente mais tarde.",
         "Account.TOTP.Message.SetupComplete": "<size=150%>Parabéns!</size><br><br>Sua conta agora está configurada com Autenticação de 2 Fatores para proteção extra!<br><br>Atualmente, qualquer interação NCR exigirá que você insira seu código. Opcionalmente, você pode habilitar isso para login de conta com o comando /enableLogin2FA, mas observe que isso requer que você use o comando /webLogin antes de fazer login em account.neos.com",
         "Account.TOTP.Deactivate.Header": "Desativar Autenticação de 2 Fatores",
-        "Account.TOTP.Deactivate.Description": "A Autenticação de 2 Fatores está atualmente <b><color=green>configurada e ativa em sua conta</color></b>. Se você precisar desativá-lo (por exemplo, devido à perda do seu telefone ou comprometimento dos códigos), faça isso aqui.<br><br>Após a desativação, você pode configurar a Autenticação de 2 Fatores novamente, o que gerará um novo código secreto e um novo conjunto de códigos de recuperação.<br><br>Se você perder seu telefone e precisar configurar a Autenticação de 2 Fatores novamente, recomendamos <b>FORTEMENTE</b> que você faça isso imediatamente, pois cada código de recuperação pode ser usado apenas uma vez e depois de esgotar, você será completamente bloqueado de sua conta.",
+        "Account.TOTP.Deactivate.Description": "A Autenticação de 2 Fatores está atualmente <b><color=green>configurada e ativa em sua conta</color></b>. Se você precisar desativá-lo (por exemplo, devido à perda do seu telefone ou comprometimento dos códigos), faça isso aqui.<br><br>Após a desativação, você pode configurar a Autenticação de 2 Fatores novamente, o que gerará um novo código secreto e um novo conjunto de códigos de recuperação.<br><br>Se você perder seu telefone e precisar configurar a Autenticação de 2 Fatores novamente, recomendamos <b>FORTEMENTE</b> que você faça isso imediatamente, pois cada código de recuperação pode ser usado apenas uma vez e depois de esgotar, você perderá acesso a sua conta.",
         "Account.TOTP.Deactivate.Deactivate": "Desativar",
         "Account.TOTP.Deactivate.Deactivating": "Desativando...",
         "Account.TOTP.Message.DeactivationComplete": "A Autenticação de 2 Fatores foi desativada com sucesso em sua conta.<br><br>Sua conta agora está em maior risco!<br><br>Recomendamos configurar a Autenticação de 2 Fatores novamente imediatamente, especialmente se você usou um código de recuperação devido à perda de seu telefone .",
@@ -972,7 +972,7 @@
         "Settings.FetchIncompatibleSessions": "Mostrar sessões incompatíveis",
         "Settings.DoNotSendReadStatus": "Não mandar mensagens em tempo-real de leitura",
         "Settings.MaxConcurrentAssetTransfers": "Máximo de transferências de assets consecutivas",
-        "Settings.AutosaveScreenshotPath": "Diretório para Captura de Tela",
+        "Settings.AutosaveScreenshotPath": "Directório para Captura de Tela",
         "Settings.DebugInputBinding": "Teclas de Debug",
 
         "Settings.LaserSmoothing.Header": "Suavização do Laser",
