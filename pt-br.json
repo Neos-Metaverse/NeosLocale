@@ -448,7 +448,7 @@
         "Contacts.BanFromCurrentWorld": "Banir do<br><nobr>mundo atual",
         "Contacts.UnbanFromCurrentWorld": "Desbanir do<br><nobr>mundo atual",
         "Contacts.RecordingVoiceMessage": "Gravando áudio...",
-        "Contacts.TokensDisabled": "Funcionalidade de NCR/KFC/CDFT está desativado nesta versão.",
+        "Contacts.TokensDisabled": "A Funcionalidade de NCR/KFC/CDFT está desativado nesta versão.",
 
         "Contacts.InSession": "na sessão {name}",
         "Contacts.InPrivate": "em um Mundo Privado",
