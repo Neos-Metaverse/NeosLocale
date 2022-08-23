@@ -1410,10 +1410,10 @@
 
         "Tutorial.Intro.ScalingTitle": "Escalonando Objetos",
         "Tutorial.Intro.ScalingVR": "Para <color=#ffdd77><b>Redimensionar</b></color> um objeto, pegue-o com as duas mãos e mova-os <color=#77ddff><b>mais perto ou mais longe</b></color> - isso também pode ser feito com seus lasers.",
-        "Tutorial.Intro.ScalingScreen": "Para <color=#ffdd77><b>Redimensionar</b></color> um objeto, pegue-o com o <color=#77ff77><b>botão direito do mouse</b></color>. Mantendo pressionado <color=#77ddff><b>Shift</b></color> <color=#77ddff><b>role</b></color> com seu <color=#77ff77><b>scroll do mouse</b></color>.",
+        "Tutorial.Intro.ScalingScreen": "Para <color=#ffdd77><b>Redimensionar</b></color> um objeto, pegue-o com o <color=#77ff77><b>botão direito do mouse</b></color>. Mantendo pressionado <color=#77ddff><b>Shift</b></color>, <color=#77ddff><b>role</b></color> com seu <color=#77ff77><b>scroll do mouse</b></color>.",
 
         "Tutorial.Intro.ContextMenuTitle": "Menu de Contexto",
-        "Tutorial.Intro.ContextMenuDescription": "Seu <color=#ffdd77><b>Menu de contexto</b></color> fornece ações rápidas.<br>Abra ou feche usando o <color=#77ff77><b>{button}</b></cor>.",
+        "Tutorial.Intro.ContextMenuDescription": "O <color=#ffdd77><b>Menu de contexto</b></color> fornece ações rápidas e opções para intergir com objetos.<br>Abra ou feche usando o <color=#77ff77><b>{button}</b></color> ou a tecla <color=#77ff77><b>T</b></color>",
         "Tutorial.Intro.ContextMenu_ButtonB": "Botão B",
         "Tutorial.Intro.ContextMenu_ButtonBY": "Botão B ou Y",
         "Tutorial.Intro.ContextMenu_ButtonMenu": "Botão de menu",
@@ -1423,15 +1423,15 @@
         "Tutorial.Intro.DestroyingDuplicatingVR": "Enquanto segura um objeto, <b><color=#ffdd77>Destrua ou duplique</color></b> <color=#77ff77><b>Clicando</b></color> na ação no menu de contexto.",
         "Tutorial.Intro.DestroyingDuplicatingScreen": "Enquanto segura um objeto, <b><color=#ffdd77>Destrua-o</color></b> com a ação no <color=#ffdd77><b>Menu de contexto</b></color> ou pressionando a tecla <color=#77ff77><b>Delete</b></color>. <color=#ffdd77><b>Duplique-o</b></color> com a ação no <color=#ffdd77><b>Menu de contexto</b></color>.",
 
-        "Tutorial.Intro.ScalingYourselfTitle": "Scaling Yourself",
-        "Tutorial.Intro.ScalingYourselfVR": "Para <color=#ffdd77><b>Redimensionar você mesmo</b></color>, ative o dimensionamento no menu de contexto e mantenha pressionados os dois <color=#77ff77><b>Botão Grip</b></color> e afaste as mãos <color=#77ddff><b>mais perto ou mais proximo</b></color>.",
-        "Tutorial.Intro.ScalingYourselfScreen": "Para <color=#ffdd77><b>Redimensionar você mesmo</b></color> Abra o <color=#ffdd77><b>Menu de contexto</b></color> e Ative o dimensionamento e segure <color=#77ff77><b>Ctrl</b></color> e <color=#77ddff><b>role</b></color> o <color=#77ff77><b>scroll do mouse</b></cor>.",
+        "Tutorial.Intro.ScalingYourselfTitle": "Escalonando seu Avatar",
+        "Tutorial.Intro.ScalingYourselfVR": "Para <color=#ffdd77><b>Redimensionar o seu Avatar</b></color>, ative o escalonamento no <color=#ffdd77><b>Menu de contexto</b></color>, após isto mantenha pressionados os dois <color=#77ff77><b>Botão Grip</b></color> e afaste as mãos <color=#77ddff><b>mais perto ou mais proximo</b></color>.",
+        "Tutorial.Intro.ScalingYourselfScreen": "Para <color=#ffdd77><b>Redimensionar o seu Avatar</b></color> Abra o <color=#ffdd77><b>Menu de contexto</b></color> e Ative o escalonamento, após isto segure <color=#77ff77><b>Ctrl</b></color> e <color=#77ddff><b>role</b></color> o <color=#77ff77><b>scroll do mouse</b></color>.",
 
         "Tutorial.Intro.LocomotionTitle": "Locomoção",
         "Tutorial.Intro.LocomotionDescription": "Neos contém muitos métodos diferentes de movimento.<br>Estas opções de locomoção estão disponíveis em seu <color=#ffdd77>Menu de Contexto</color>.",
 
         "Tutorial.Intro.DashboardTitle": "Dashboard do Neos",
-        "Tutorial.Intro.DashboardDescription": "O <color=#ffdd77><b>Dashboard</b></color> é seu menu principal.<br>Você o abre e fecha usando o <color=#77ff77><b>{button}</b> </color>.",
+        "Tutorial.Intro.DashboardDescription": "O <color=#ffdd77><b>Dashboard</b></color> é o Menu Principal do Neos.<br>Para abrir e fechar aperte a <color=#77ff77><b>{button}</b></color>.",
         "Tutorial.Intro.DashboardDescriptionCircle": "O <color=#ffdd77><b>Dashboard</b></color> é seu menu principal.<br>Você o abre e fecha segurando o <color=#77ff77><b>{button}</b ></color> até que o círculo esteja cheio, então <color=#77ddff><b>solte</b></color>.",
         "Tutorial.Intro.Dashboard_ButtonA": "Botão A",
         "Tutorial.Intro.Dashboard_ButtonAX": "Botão A ou X",
@@ -1442,13 +1442,13 @@
         "Tutorial.Intro.InventoryScreen": "O Seu <color=#ffdd77><b>Inventário</b></color> está localizado na Dashboard.<br>Para <color=#77ddff><b>spawnar</b></color> um objeto , <color=#77ff77><b>Clique duas vezes</b></color> no item em seu inventário.<br>Para <color=#77ddff><b>salvar</b></color> um objeto, segure o item e salve através do <color=#ffdd77><b>Menu de Contexto</b></color>.",
 
         "Tutorial.Intro.HomeScreenTitle": "A tela Home",
-        "Tutorial.Intro.HomeScreenDescription": "A tela <color=#ffdd77><b>Home</b></color> contém facetas com muitos recursos.<br>Incluem o Criador de avatar, Calibrador de full body, Câmera/Streaming e Criar novo mundo.",
-        "Tutorial.Intro.ContactsDescription": "Seus <color=#ffdd77><b>Contatos</b></color> estão localizados no Painel.<br>Envie mensagens, mensagens de voz ou objetos para contatos com a caixa de bate-papo no canto inferior direito.<br>Adicione contatos com a barra de pesquisa, localizada no canto superior esquerdo.",
+        "Tutorial.Intro.HomeScreenDescription": "A tela <color=#ffdd77><b>Home</b></color> contém facetas com muitos recursos.<br>Incluido o Criador de avatar, Calibrador de full body, Câmera/Streaming e Criar novo mundo.",
+        "Tutorial.Intro.ContactsDescription": "Seus <color=#ffdd77><b>Contatos</b></color> estão localizados na <color=#ffdd77><b>Dashboard</b></color>.<br>Envie mensagens, mensagens de voz ou objetos para contatos com a caixa de bate-papo no canto inferior direito.<br>Adicione contatos com a barra de pesquisa, localizada no canto superior esquerdo.",
         "Tutorial.Intro.FilesDescription": "<color=#ffdd77><b>Importe</b></color> arquivos, modelos 3D, imagens, áudio, vídeos ou fontes diretamente para o Neos!<br>Ou <color=#77ddff><b>arraste e solte</b></color> arquivos na janela do Neos ou encontre-os usando a aba <color=#ffdd77><b>Arquivos</b></color>.",
         "Tutorial.Intro.SessionTitle": "Configurações da Sessão",
         "Tutorial.Intro.SessionDescription": "Configurações de sessão, níveis de permissão e configurações que lidam com outros usuários no mundo podem ser encontrados no painel <color=#ffdd77><b>Sessão</b></color>.",
-        "Tutorial.Intro.SettingsDescription": "Altura, volume, configurações de conforto, escolha de idioma e muito mais são ajustados na guia <color=#ffdd77><b>Opções</b></color>.",
-        "Tutorial.Intro.WorldsTitle": "Menu de Mundos",
+        "Tutorial.Intro.SettingsDescription": "Altura do Avatar, volume, configurações de conforto, idioma e muito mais são ajustados na aba <color=#ffdd77><b>Opções</b></color>.",
+        "Tutorial.Intro.WorldsTitle": "A aba Mundos",
         "Tutorial.Intro.WorldsDescription": "Explore o metaverso usando o menu <color=#ffdd77><b>Mundos</b></color>.<br>Quando terminar aqui, participe de uma sessão ativa para conhecer a comunidade!",
 
         "Tutorial.Intro.OutroTop": "Outros tutoriais estão disponíveis em todo este mundo.<br><br>Boa sorte e aproveite o metaverso!",
@@ -1561,7 +1561,7 @@
         "Tutorial.Intro.BadgesDisabilityVision": "Visão prejudicada",
         "Tutorial.Intro.BadgesDisabilitySpeech": "Fala prejudicada",
         "Tutorial.Intro.BadgesTitle": "Badges",
-        "Tutorial.Intro.BadgesDescription": "Badges são pequenos ícones que mostram aspectos de um usuário. Aqui estão algumas badges importantes a serem lembrados. Os distintivos de deficiência podem ser auto-atribuídos através do bot do Neos. Para mais informações, consulte a Neos Wiki",
+        "Tutorial.Intro.BadgesDescription": "<br><br>Badges são pequenos ícones que mostram aspectos de um usuário. Aqui estão algumas badges importantes a serem lembrados. Os distintivos de deficiência podem ser auto-atribuídos através do bot do Neos. Para mais informações, consulte a Neos Wiki",
         "Tutorial.Intro.HelpSite": "Ajuda",
 
         "Object.Mirror.Toggle": "Alternar localmente",
