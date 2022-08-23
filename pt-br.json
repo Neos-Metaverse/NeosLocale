@@ -75,7 +75,7 @@
         "Interaction.Grab.Palm": "Grab: Palma",
         "Interaction.Grab.Precision": "Grab: Precisão",
         "Interaction.Grab.Auto": "Grab: Automático",
-        "Interaction.Grab.Off": "Grab: Apenas o Laser",
+        "Interaction.Grab.Off": "Grab: Apenas o Lazer",
         "Interaction.Locomotion": "Locomoção",
         "Interaction.Locomotion.None": "Nenhum",
 
@@ -972,7 +972,7 @@
         "Settings.FetchIncompatibleSessions": "Mostrar sessões incompatíveis",
         "Settings.DoNotSendReadStatus": "Não mandar mensagens em tempo-real de leitura",
         "Settings.MaxConcurrentAssetTransfers": "Máximo de transferências de assets consecutivas",
-        "Settings.AutosaveScreenshotPath": "Salvar caminho de Screenshots automaticamente",
+        "Settings.AutosaveScreenshotPath": "Diretório para Captura de Tela",
         "Settings.DebugInputBinding": "Teclas de Debug",
 
         "Settings.LaserSmoothing.Header": "Suavização do Laser",
@@ -982,7 +982,7 @@
         "Settings.LaserSmoothing.ModulateExponent": "Exponente de Modulação",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier": "Multiplicador de Velocidade da Modulação",
         "Settings.LaserSmoothing.StickThreshold": "Limiar de Stick",
-        "Settings.Laser.ShowInDesktop": "Mostrar Laser no modo Desktop",
+        "Settings.Laser.ShowInDesktop": "Mostrar Lazer no modo Desktop",
         "Settings.LaserSmoothing.Reset": "Reset Laser Settings",
 
         "Settings.Audio.Header": "Audio",
