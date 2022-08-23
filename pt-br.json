@@ -165,8 +165,8 @@
         "World.Config.AutoKickAFK": "Kickar usuários inativos automaticamente:",
         "World.Config.AutoKickAFKMinutes": "Tempo inativo máximo:",
         "World.Config.HideFromListing": "Não mostrar na lista de sessões pública",
-        "World.Config.Autosave": "Auto-Salvamento (irá sobrescrever ultimo save):",
-        "World.Config.AutosaveInterval": "Intervalo de Auto-Salvamento (minutos):",
+        "World.Config.Autosave": "Auto-Save (vai sobrescrever o ultimo save):",
+        "World.Config.AutosaveInterval": "Intervalo de Auto-Save (minutos):",
         "World.Config.CleanupAssets": "Limpar assets não utilizados:",
         "World.Config.CleanupInterval": "Intervalo de Limpeza (segundos):",
 
@@ -631,7 +631,7 @@
 
         "CreateNew.Materials": "Materiais",
 
-        "CreateNew.Directory.Title": "Criar novo Diretório:",
+        "CreateNew.Directory.Title": "Criar nova Pasta:",
         "CreateNew.Directory.Error.EmptyName": "Por favor, forneça um nome:",
         "CreateNew.Directory.Error.LongName": "Nome Muito Longo:",
         "CreateNew.Directory.Error.InvalidName": "Nome Inválido:",
