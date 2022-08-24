@@ -430,8 +430,8 @@
 
         "User.Actions.Silence": "Silenciar",
         "User.Actions.Mute": "Mutar",
-        "User.Actions.Jump": "Teletransportar",
-        "User.Actions.Respawn": "Raspawnar",
+        "User.Actions.Jump": "Teleportar",
+        "User.Actions.Respawn": "Respawnar",
         "User.Actions.Kick": "Kickar",
         "User.Actions.Ban": "Banir",
 
