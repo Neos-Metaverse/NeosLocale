@@ -198,12 +198,12 @@
         "World.Actions.GuestWarning": "",
         "World.Actions.HostingWarning": "Você está hospedando este mundo. Todos os usuários vão ser desconectados.",
 
-        "World.Actions.GetWorldOrb": "Pegar Orb do Mundo",
+        "World.Actions.GetWorldOrb": "Pegar Orbe do Mundo",
         "World.Actions.CopyWorldURL": "Copiar URL do Mundo",
         "World.Actions.CopyRecordURL": "Copiar URL do Registro",
         "World.Actions.StartCustomSession": "Inciar sessão customizada",
         "World.Actions.ModifyMetadata": "Editar Metadados",
-        "World.Actions.GetSessionOrb": "Pegar Orb da Sessão",
+        "World.Actions.GetSessionOrb": "Pegar Orbe da Sessão",
         "World.Actions.CopySessionURL": "Copiar URL da Sessão",
 
         "World.Indicator.NoData": "Sem dados",
@@ -424,14 +424,14 @@
         "Session.Permission.PermissionOverrideCount": "Substituições de permissão: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Limpar substituições do usuário",
 
-        "Permissions.NotAllowedToSpawn": "Você não tem permissão para spawnar items aqui.",
+        "Permissions.NotAllowedToSpawn": "Você não tem permissão para criar items aqui.",
         "Permissions.NotAllowedToSave": "Você não tem permissão para salvar items neste mundo.",
         "Permissions.NotAllowedToSwapAvatar": "Você não tem permissão para trocar de avatar aqui.",
 
         "User.Actions.Silence": "Silenciar",
         "User.Actions.Mute": "Mutar",
         "User.Actions.Jump": "Teleportar",
-        "User.Actions.Respawn": "Respawnar",
+        "User.Actions.Respawn": "Recriar",
         "User.Actions.Kick": "Kickar",
         "User.Actions.Ban": "Banir",
 
@@ -478,22 +478,22 @@
 
         "Undo.SetField": "Definir campo {field_name} para {value}",
         "Undo.SetReference": "Definir referencia {ref_name} para {ref_target}",
-        "Undo.Spawn": "Spawnar {name}",
+        "Undo.Spawn": "Criar {name}",
         "Undo.Destroy": "Destruir {name}",
         "Undo.SpawnComponent": "Acoplar {component_type} em {slot_name}",
         "Undo.DuplicateComponent": "Duplicar Componente",
         "Undo.DestroyComponent": "Destruir {component_type} em {slot_name}",
         "Undo.Transform": "Mover {name}",
         "Undo.Translate": "Traduzir",
-        "Undo.TranslateAlongAxis": "Traduzir Sobre o Eixo",
-        "Undo.RotateAroundAxis": "Rotacionar Envolta de Eixo",
+        "Undo.TranslateAlongAxis": "Traduzir sobre o Eixo",
+        "Undo.RotateAroundAxis": "Rotacionar envolta de Eixo",
         "Undo.ResetPosition": "Redefinir Posição",
         "Undo.ResetRotation": "Redefinir Rotação",
         "Undo.ResetScale": "Redefinir Escala",
 
-        "Undo.GrabObjects": "Pegar Objetos",
-        "Undo.DestroyGrabbed": "Destruir objetos movidos",
-        "Undo.DuplicateGrabbed": "Duplicar objetos movidos",
+        "Undo.GrabObjects": "Pegar Objeto",
+        "Undo.DestroyGrabbed": "Destruir objeto movido",
+        "Undo.DuplicateGrabbed": "Duplicar objeto movido",
 
         "Undo.ChangeBoxSize": "Mudar tamanho da caixa",
         "Undo.BrushStroke": "Tamanho do Pincel",
@@ -631,13 +631,13 @@
 
         "CreateNew.Materials": "Materiais",
 
-        "CreateNew.Directory.Title": "Criar nova Pasta:",
+        "CreateNew.Directory.Title": "Criar nova pasta:",
         "CreateNew.Directory.Error.EmptyName": "Por favor, forneça um nome:",
         "CreateNew.Directory.Error.LongName": "Nome Muito Longo:",
         "CreateNew.Directory.Error.InvalidName": "Nome Inválido:",
 
         "AvatarCreator.Title": "Criador de Avatar",
-        "AvatarCreator.Instructions": "Alinhe os objetos de avatar com as referências do headset e do controle (opcional) e pressione Criar para convertê-los em um avatar",
+        "AvatarCreator.Instructions": "Alinhe os objetos de avatar com as referências do headset e do controle (opcional) e pressione criar para convertê-los em um avatar",
         "AvatarCreator.UseSymmetry": "Usar Simetria",
         "AvatarCreator.ShowToolAnchors": "Mostrar Âncoras da Ferramenta",
         "AvatarCreator.SetupVolumeMeter": "Configurar Medidor de Volume",
@@ -736,7 +736,7 @@
         "Importer.Model.Advanced.Optimize": "Otimizar modelo/cena",
         "Importer.Model.Advanced.SplitSubmeshes": "Dividir Submeshes",
         "Importer.Model.Advanced.RandomColors": "Gerar cores aleatórias",
-        "Importer.Model.Advanced.SpawnMaterialOrbs": "Spawnar orbs de material",
+        "Importer.Model.Advanced.SpawnMaterialOrbs": "Criar orbes do material",
         "Importer.Model.Advanced.ImagesByName": "Importar imagens por nome",
         "Importer.Model.Advanced.ForcePointFiltering": "Forçar filtragem por ponto (point filtering)",
         "Importer.Model.Advanced.ForceNoMipMaps": "Sem MipMaps",
@@ -899,7 +899,7 @@
         "CameraControl.Control.RenderPrivateUI": "Renderizar UI privada",
         "CameraControl.Control.MotionBlur": "Motion Blur",
         "CameraControl.Control.ScreenSpaceReflections": "Screen Space Reflections",
-        "CameraControl.Control.SpawnPhotoInWorld": "Spawnar foto no mundo",
+        "CameraControl.Control.SpawnPhotoInWorld": "Criar foto no mundo",
         "CameraControl.Control.FlipPreview": "Virar visualização",
         "CameraControl.Control.GroupDetectionRadius": "Raio de detectadão de grupo: {n} m",
         "CameraControl.Control.GroupExcludeBoundary": "Limite de exclusão do grupo: {n} m",
@@ -1438,11 +1438,11 @@
         "Tutorial.Intro.Dashboard_ButtonMenu": "Botão Menu",
         "Tutorial.Intro.Dashboard_ButtonScreen": "Tecla Escape",
 
-        "Tutorial.Intro.InventoryVR": "Seu <color=#ffdd77><b>Inventário</b></color> está localizado na Dashboard.<br>Para <color=#77ddff><b>spawnar</b></color> um objeto, <color=#77ff77><b>Clique duas vezes</b></color> no item em seu inventário.<br>Para <color=#77ddff><b>Salvar</b></color> um objeto , <color=#77ddff><b>mantenha pressionado</b></color> o item e pressione <sprite name=inv-add> no canto superior direito.",
-        "Tutorial.Intro.InventoryScreen": "O Seu <color=#ffdd77><b>Inventário</b></color> está localizado na Dashboard.<br>Para <color=#77ddff><b>spawnar</b></color> um objeto , <color=#77ff77><b>Clique duas vezes</b></color> no item em seu inventário.<br>Para <color=#77ddff><b>salvar</b></color> um objeto, segure o item e salve através do <color=#ffdd77><b>Menu de Contexto</b></color>.",
+        "Tutorial.Intro.InventoryVR": "O <color=#ffdd77><b>Inventário</b></color> está localizado na Dashboard.<br>Para <color=#77ddff><b>CRIAR</b></color> um objeto, <color=#77ff77><b>Clique duas vezes</b></color> no item em seu inventário.<br>Para <color=#77ddff><b>SALVAR</b></color> um objeto, <color=#77ddff><b>mantenha pressionado</b></color> o item e pressione <sprite name=inv-add> no canto superior direito.",
+        "Tutorial.Intro.InventoryScreen": "O <color=#ffdd77><b>Inventário</b></color> está localizado na Dashboard.<br>Para <color=#77ddff><b>CRIAR</b></color> um objeto, <color=#77ff77><b>Clique duas vezes</b></color> no item em seu inventário.<br>Para <color=#77ddff><b>SALVAR</b></color> um objeto, segure o item e salve através do <color=#ffdd77><b>Menu de Contexto</b></color>.",
 
         "Tutorial.Intro.HomeScreenTitle": "A tela Home",
-        "Tutorial.Intro.HomeScreenDescription": "A tela <color=#ffdd77><b>Home</b></color> contém facetas com muitos recursos.<br>Incluido o Criador de avatar, Calibrador de full body, Câmera/Streaming e Criar novo mundo.",
+        "Tutorial.Intro.HomeScreenDescription": "A tela <color=#ffdd77><b>Home</b></color> contém facetas com muitos recursos.<br>Incluido o Criador de avatar, Calibrador de full body, Câmera/Streaming e criar novo mundo.",
         "Tutorial.Intro.ContactsDescription": "Seus <color=#ffdd77><b>Contatos</b></color> estão localizados na <color=#ffdd77><b>Dashboard</b></color>.<br>Envie mensagens, mensagens de voz ou objetos para contatos com a caixa de bate-papo no canto inferior direito.<br>Adicione contatos com a barra de pesquisa, localizada no canto superior esquerdo.",
         "Tutorial.Intro.FilesDescription": "<color=#ffdd77><b>Importe</b></color> arquivos, modelos 3D, imagens, áudio, vídeos ou fontes diretamente para o Neos!<br>Ou <color=#77ddff><b>arraste e solte</b></color> arquivos na janela do Neos ou encontre-os usando a aba <color=#ffdd77><b>Arquivos</b></color>.",
         "Tutorial.Intro.SessionTitle": "Configurações da Sessão",
@@ -1466,8 +1466,8 @@
         "Tutorial.Grab.ContextEquip": "Use o menu de contexto para equipar ou acessar opções",
         "Tutorial.Grab.EquipForFullUse": "Equipe para usar todas as funcionalidades",
 
-        "Tutorial.WorldOrb.Click": "Click Orb de Mundo",
-        "Tutorial.WorldOrb.Info": "<b>Orb de Mundo</b>\n<size=80%>Representa um mundo ou uma sessão</size>\nDuplo Click - Entrar\nClick - Menu de Contexto",
+        "Tutorial.WorldOrb.Click": "Click Orbe de Mundo",
+        "Tutorial.WorldOrb.Info": "<b>Orbe de Mundo</b>\n<size=80%>Representa um mundo ou uma sessão</size>\nDuplo Click - Entrar\nClick - Menu de Contexto",
 
         "Tutorial.Tooltip.GeneralPrimary": "Usar",
         "Tutorial.Tooltip.GeneralSecondary": "Ação Secundária",
@@ -1480,8 +1480,8 @@
         "Tutorial.Tooltip.ColorPrimary": "Aplicar cor",
         "Tutorial.Tooltip.ColorSecondary": "Escolher cor",
         "Tutorial.Tooltip.Brush": "Desenhar",
-        "Tutorial.Tooltip.MaterialPrimary": "Aplicar Material\n<size=75%>(Coloque a orb material na arma)</size>",
-        "Tutorial.Tooltip.MaterialSecondary": "Extrair Material\n<size=75%>(Certifique-se de que não há uma orb material primeiro)</size>",
+        "Tutorial.Tooltip.MaterialPrimary": "Aplicar Material\n<size=75%>(Coloque a orbe material na arma)</size>",
+        "Tutorial.Tooltip.MaterialSecondary": "Extrair Material\n<size=75%>(Certifique-se de que não há uma orbe material primeiro)</size>",
         "Tutorial.Tooltip.MeshPrimary": "Substituir Mesh",
         "Tutorial.Tooltip.MeshSecondary": "Extrair Mesh",
         "Tutorial.Tooltip.CharacterColliderPrimary": "Adicionar colisor de personagem",
@@ -1685,14 +1685,14 @@
 
         "Tutorial.Streaming.LightTip.ChangingColor.Page1.Title": "Selecione o painel de cores",
 
-        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description": "Você pode <color=#77ff77><b>SPAWNAR</b></color> uma <color=#ffdd77><b>LIGHT TIP</b></color> em <color=#dd77ff><b>FERRAMENTAS ESSENCIAIS</b></color> dentro do seu <color=#dd77ff><b>INVENTARIO</b></color>. Esta é sua principal ferramenta para <color=#77ff77><b>ADICIONAR LUZES</b></color> aos mundos em Neos.",
+        "Tutorial.Streaming.LightTip.BasicUsage.Page1.Description": "Você pode <color=#77ff77><b>CRIAR</b></color> uma <color=#ffdd77><b>LIGHT TIP</b></color> em <color=#dd77ff><b>FERRAMENTAS ESSENCIAIS</b></color> dentro do seu <color=#dd77ff><b>INVENTARIO</b></color>. Esta é sua principal ferramenta para <color=#77ff77><b>ADICIONAR LUZES</b></color> a mundos no Neos.",
         "Tutorial.Streaming.LightTip.BasicUsage.Page2.Description": "Por padrão, a <color=#ffdd77><b>LIGHT TIP</b></color> cria um <color=#dd77ff><b>PONTO DE LUZ</b></color> quando <color=#77ff77><b>PRIMÁRIO</b></color> é usado. Quando <color=#77ff77><b>PRIMARIO</b></color> é segurado e arrastado, o <color=#dd77ff><b>BRILHO</b></color> da luz é afetado com base na <color=#dd77ff><b>DISTANCIA</b></color> que é <color=#77ff77><b>ARRASTADO</b></color>.",
 
         "Tutorial.Streaming.LightTip.TypesOfLights.Page1.Description": "A <color=#ffdd77><b>PONTO DE LUZ</b></color> cria uma luz que <color=#77ff77><b>ILUMINA</b></color> todas as direções a partir de um único ponto com <color=#dd77ff><b>QUEDA DE INTENSIDADE</b></color>.",
         "Tutorial.Streaming.LightTip.TypesOfLights.Page2.Description": "A <color=#ffdd77><b>LUZ DE AREA</b></color> cria uma luz que <color=#77ff77><b>ILUMINA</b></color> em uma direção como um cone de um ponto único com <color=#dd77ff><b>QUEDA DE INTENSIDADE</b></color>.",
         "Tutorial.Streaming.LightTip.TypesOfLights.Page3.Description": "A <color=#ffdd77><b>LUZ DIRECIONAL</b></color> cria uma luz que <color=#77ff77><b>ILUMINA</b></color> o mundo em uma direção sem <color=#dd77ff><b>QUEDA DE INTENSIDADE</b></color>.",
 
-        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description": "<b><color=#77ff77>OBJECTS</b></color> <b><color=red>NÃO</b></color> criará sombras",
+        "Tutorial.Streaming.LightTip.TypesOfShadows.Page1.Description": "<b><color=#77ff77>OBJETOS</b></color> <b><color=red>NÃO</b></color> vão criar sombras",
         "Tutorial.Streaming.LightTip.TypesOfShadows.Page2.Description": "<b><color=#77ff77>OBJETOS</b></color> projetará sombras com bordas duras.",
         "Tutorial.Streaming.LightTip.TypesOfShadows.Page3.Description": "<b><color=#77ff77>OBJETOS</b></color> projetará sombras com bordas suaves.",
 
@@ -1709,7 +1709,7 @@
         "Tutorial.Streaming.StreamCamera.Manual.Title": "Manual",
         "Tutorial.Streaming.StreamCamera.Mirror.Title": "Espelhar para Display",
 
-        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description": "Para<b> <color=#77ff77>SPAWNAR</color></b> uma <b><color=#ffdd77>ÂNCORA DA camera</b></color> pressione o botão<b><color=#77ddff> CRIAR ÂNCORA DE camera</b></color> à esquerda de sua interface do usuário. Uma vez criada, você pode encaixar sua camera nela selecionando-a com <b><color=#77ff77>PRIMARY</b></color>.",
+        "Tutorial.Streaming.StreamCamera.CameraAnchors.Page1.Description": "Para<b> <color=#77ff77>CRIAR</color></b> uma <b><color=#ffdd77>ÂNCORA DE CAMERA</b></color> pressione o botão <b><color=#77ddff>CRIAR ÂNCORA DE camera</b></color> à esquerda de sua interface do usuário. Uma vez criada, você pode encaixar sua camera nela selecionando-a com o botão<b><color=#77ff77>PRIMARIO</b></color>.",
 
         "Tutorial.Streaming.StreamCamera.Photo.Title": "Foto",
         "Tutorial.Streaming.StreamCamera.360.Title": "Foto em 360°",
@@ -1722,7 +1722,7 @@
         "Tutorial.Streaming.StreamCamera.OBS.Title": "Conexão do OBS",
         "Tutorial.Streaming.StreamCamera.Twitch.Title": " Conexão da Twitch",
 
-        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page1.Description": "Você pode <color=#77ff77><b>SPAWNAR</b></color> um <b><color=#ffdd77>PAINEL DE CONTROLE DA CAMERA</b></color> a partir do <b><color=# ffdd77>DASHBOARD</b></color> na guia inicial em uma faceta chamada camera/Streaming. Esta é a sua principal ferramenta para streaming de conteúdo no Neos.",
+        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page1.Description": "Você pode <color=#77ff77><b>CRIAR</b></color> um <b><color=#ffdd77>PAINEL DE CONTROLE DA CAMERA</b></color> a partir da <b><color=# ffdd77>DASHBOARD</b></color> na guia home em uma faceta chamada camera/Streaming. Esta é a sua principal ferramenta para streaming de conteúdo no Neos.",
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page2.Description": "O <b><color=#ffdd77>PAINEL DE CONTROLE DA camera</b></color> tem muitas funções diferentes que podem ser usadas para melhorar a qualidade de suas transmissões/gravação de vídeo. Essas funções incluem movimento da camera, modos, âncoras, configurações, bate-papo do Twitch e muito mais.",
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page3.Description": "A função de movimento do <b><color=#ffdd77>PAINEL DE CONTROLE DA camera</b></color> pode ser localizada no canto superior esquerdo da tela de visualização. Usando isso, você poderá ajustar a visão e a posição das cameras. Além disso, você pode clicar no botão Redefinir para redefinir a posição da camera.",
         "Tutorial.Streaming.StreamCamera.BasicFunctions.Page4.Description": "Para controlar o <color=#ffdd77><b>ZOOM</b></color>, use <b><color=#77ff77>PRIMARIO</b></color> na barra cinza na parte inferior do tela de visualização e mova o controle deslizante para a esquerda ou direita.",
