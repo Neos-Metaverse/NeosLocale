@@ -212,7 +212,7 @@
         "World.Indicator.Author": "Byy: {name}",
         "World.Indicator.Host": "Host: {name}",
         "World.Indicator.Hosting": "Hostinyg",
-        "World.Indicator.Sessions": "{n,plural, one {# session} othew {# sessions}}",
+        "World.Indicator.Sessions": "{n,plural, one {# session} other {# sessions}}",
         "World.Indicator.Users": "Usews",
         "World.Indicator.Users.None": "(nyo active sessionys founyd)",
         "World.Indicator.Description": "Dyescwiption",
@@ -227,7 +227,7 @@
         "World.Detail.Uptime": "Uptimye",
         "World.Detail.AccessLevel": "Visibyiwity",
         "World.Detail.Users": "Usews",
-        "World.Detail.Users.Count": "{active}{away, select, 0 {} othew { (+{away} away)}} out of {max}",
+        "World.Detail.Users.Count": "{active}{away, select, 0 {} other { (+{away} away)}} out of {max}",
 
         "World.Detail.WorldInformationHeader": "Wowwd Inyfowmyation",
         "World.Detail.PublishDate": "Pubywished",
@@ -340,8 +340,8 @@
         "Indicator.ServerStatus": "<color=#fff>Sewvew Status:</color> {status, select, Good {Good} Swow {Slow} Dyown {Down} NyoInytewnyet {No Internet}} ({response_ms} mys)",
 
         "Indicator.Sync.AllSynced": "Aww Synyced",
-        "Indicator.Sync.SyncingItems": "Synycinyg {item_count,plural, one {# item} othew {# items}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants": "Upwoadyinyg {variant_count,plural, one {# asset variant} othew {# asset variants}}",
+        "Indicator.Sync.SyncingItems": "Synycinyg {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
+        "Indicator.Sync.UploadingVariants": "Upwoadyinyg {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Synyc Ewwow! <size=50%>Check wog fow dyetaiws</size>",
         "Indicator.Sync.OutOfSpace": "Out of Space! <size=50%>Canynyot synyc</size>",
 
@@ -422,7 +422,7 @@
         "Session.Permission.Vistor": "Dyefauwt Visitow:",
         "Session.Permission.Contact": "Dyefauwt Conytact:",
         "Session.Permission.Host": "Dyefauwt Host:",
-        "Session.Permission.PermissionOverrideCount": "Pewmyission Ovewwidyes: {n,select, -1 {---} othew {{n}}}",
+        "Session.Permission.PermissionOverrideCount": "Pewmyission Ovewwidyes: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Cweaw Usew Ovewwidyes",
 
         "Permissions.NotAllowedToSpawn": "You awe nyot awwowed to spawn thinygs hewe.",
@@ -1116,7 +1116,7 @@
         "Inspector.Mesh.GetBoneData": "Get Byonye Dyata",
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo": "Twim Vewtex Byonye Weights To:",
-        "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Bone} othew {# Bones}}",
+        "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Bone} other {# Bones}}",
         "Inspector.Mesh.UV_Multiplicator": "Myuwtipwicatow:",
         "Inspector.Mesh.ScaleUVs": "Scawe UVs",
 
@@ -1156,9 +1156,9 @@
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Sepawate pawts of myesh unyaffected byy bywenydyshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Stwip Emypty Bywenydyshapes",
-        "Inspector.SkinnedMesh.StripBlendshapesResult": "Dyonye! Stwipped: {n,plural, one {# blendshape} othew {# blendshapes}}",
+        "Inspector.SkinnedMesh.StripBlendshapesResult": "Dyonye! Stwipped: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones": "Stwip Emypty Byonyes",
-        "Inspector.SkinnedMesh.StripBonesResult": "Dyonye! Stwipped: {n,plural, one {# bone} othew {# bones}}",
+        "Inspector.SkinnedMesh.StripBonesResult": "Dyonye! Stwipped: {n,plural, one {# bone} other {# bones}}",
         "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Byake Nyon-Dywiven BywenydYShapes",
         "Inspector.SkinnedMesh.BakeBlendShapeResult": "Byaked BywenydYShapes: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Visuawize byonye byounydyinyg byoxes",
@@ -1759,7 +1759,7 @@
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "Subyscwibyew Comymyanydys<br> Enyabywed fow Evewyonye",
         "Twitch.Panel.Title.Text": "Twitch Chat",
 
-        "Exiting.SavingItems": "Savinyg {n, plural, one {# item} othew {# items}}... UwU",
+        "Exiting.SavingItems": "Savinyg {n, plural, one {# item} other {# items}}... UwU",
         "Exiting.SavingChanges": "Savinyg Chanyges... OwO",
         "Exiting.Exiting": "Exitinyg... UwU",
         "Exiting.LoggingOut": "Wogginyg out... OwO",
