@@ -1073,7 +1073,7 @@
         "Inspector.Slot.BringTo": "Trazer Aqui",
         "Inspector.Slot.BringTo.Undo": "Trazer {name} para usuário",
 
-        "Inspector.Slot.ParentUnder.Label": "Pai sob:",
+        "Inspector.Slot.ParentUnder.Label": "Alterar Pai sob para:",
         "Inspector.Slot.ParentUnder.WorldRoot": "Raiz do Mundo",
         "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Pai {name} sob a raiz do Mundo",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Espaço local do usuário",
