@@ -565,8 +565,8 @@
         "Tooltip.Microphone.Format.WAV": "WAV",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC": "FLAC",
-        "Tooltip.Microphone.ModeHold": "Segura para Gravar",
-        "Tooltip.Microphone.ModePress": "Precione para Começar/Parar a gravação",
+        "Tooltip.Microphone.ModeHold": "Modo: Segurar para Gravar",
+        "Tooltip.Microphone.ModePress": "Modo: Precionar para Começar/Parar a gravação",
         "Tooltip.Microphone.SourceRaw": "Raw",
         "Tooltip.Microphone.SourceFiltered": "Filtrado e Normalizado",
 
