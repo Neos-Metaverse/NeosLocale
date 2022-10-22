@@ -504,7 +504,7 @@
         "Undo.ApplyMaterial": "Aplicar Material",
         "Undo.BakeMeshes": "Bake {name}",
         "Undo.ChangeMesh": "Mudar Mesh",
-        "Undo.InsertParent": "Inserir Pai para {name}",
+        "Undo.InsertParent": "Inserir parent para {name}",
         "Undo.Wiggler": "Coisas do Mau",
 
         "Undo.ExtractMaterialsFromHierarchy": "Extrair material da Hierarquia",
@@ -1073,11 +1073,11 @@
         "Inspector.Slot.BringTo": "Trazer Aqui",
         "Inspector.Slot.BringTo.Undo": "Trazer {name} para usuário",
 
-        "Inspector.Slot.ParentUnder.Label": "Alterar Pai sob para:",
+        "Inspector.Slot.ParentUnder.Label": "Alterar parent para:",
         "Inspector.Slot.ParentUnder.WorldRoot": "Raiz do Mundo",
-        "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Pai {name} sob a raiz do Mundo",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Re-parent {name} sob a raiz do Mundo",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Espaço local do usuário",
-        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Pai {name} sob espaço local do usuário",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Re-parent {name} sob espaço local do usuário",
 
         "Inspector.Mesh.StatsHeader": "Estatísticas da Mesh",
         "Inspector.Mesh.VertexCount": "Total de Vertex: {n}",
