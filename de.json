@@ -26,11 +26,14 @@
         "General.CopiedToClipboardLong": "In Zwischenablage kopiert!",
         "General.Create": "Erstellen",
         "General.Creating": "Wird erstellt...",
+        "General.Buy": "Kaufen",
 
         "General.UI.SearchPrompt": "Suchen...",
         "General.UI.SearchPromptLong": "Tippen zum Suchen...",
         "General.UI.ToggleEditMode": "Bearbeitungsmodus umschalten",
         "General.UI.ToggleSubtitles": "Untertitel umschalten",
+        "General.UI.Subtitles.On" : "Untertitel: An",
+        "General.UI.Subtitles.Off" : "Untertitel: Aus",
 
         "General.UI.MusicVolumeLocal": "Musiklautstärke (Lokal):",
         "General.UI.VoiceVolumeLocal": "Stimmenlautstärke (Lokal):",
@@ -148,6 +151,7 @@
         "World.Error.JoinAlreadyRequested": "Der Beitritt wurde bereits angefordert",
         "World.Error.FailedConnectToRelay": "Verbindung zum Relay-Server konnte nicht hergestellt werden",
         "World.Error.FailedToConnect": "Verbindung fehlgeschlagen",
+        "World.Error.InvalidAddress": "Ungültige Adresse",
         "World.Error.NoPort": "Kein Port angegeben",
         "World.Error.IncompatibleVersion": "Inkompatible Neos-Version",
         "World.Error.Unknown": "Unbekannter Fehler",
@@ -264,6 +268,7 @@
         "World.SortParameter.LastUpdateDate": "Zuletzt geändert",
         "World.SortParameter.FirstPublishTime": "Veröffentlicht",
         "World.SortParameter.TotalVisits": "Anzahl Besuche",
+        "World.SortParameter.LastVisit": "Letzter Besuch",
         "World.SortParameter.Random": "Zufällig",
 
         "World.Filter.DataSources": "Datenquellen:",
@@ -305,6 +310,7 @@
         "Tools.Debug": "Debuggen",
         "Tools.StreamAudio": "Audio streamen",
         "Tools.Setup2FA": "2FA einrichten",
+        "Tools.BuyStorage": "Speicherplatz Kaufen",
 
         "Tools.StreamAudio.Start": "Starte Streaming",
         "Tools.StreamAudio.Bitrate": "Bitrate: {bitrate} kbps",
@@ -313,6 +319,13 @@
         "Tools.StreamAudio.Broadcast": "Broadcast",
         "Tools.StreamAudio.PlayForOwner.Off": "Abspielen für Besitzer: Aus",
         "Tools.StreamAudio.PlayForOwner.On": "Abspielen für Besitzer: An",
+
+        "Tools.BuyStorage.Title.Self": "Mehr Speicherplatz kaufen",
+        "Tools.BuyStorage.Title.Gift": "{name} mehr Speicherplatz schenken",
+        "Tools.BuyStorage.Description": "Dies fügt dem Konto mehr Speicherplatz hinzu. Wenn es bereits anderweitigere Speichererweiterungen enthält (z.B. durch Patreon), wird der neue Speicher auf diese aufsummiert. Hast du die gleiche Menge an Speicherplatz schon mal mit NCR gekauft, wird die Gültigkeitsdauer erweitert.",
+        "Tools.BuyStorage.Amount": "Menge (GB):",
+        "Tools.BuyStorage.Months": "Monate:",
+        "Tools.BuyStorage.Cost": "Preis: {n} NCR",
 
         "Options.FreeformDash.On": "Freiform-Dash: An",
         "Options.FreeformDash.Off": "Freiform-Dash: Aus",
@@ -429,11 +442,13 @@
         "Contacts.IgnoreRequest": "Anfrage ignorieren",
         "Contacts.Invite": "Hierher einladen",
         "Contacts.SendCredits": "Credits senden",
+        "Contacts.GiftStorage": "Speicherplatz schenken",
         "Contacts.BanFromAllSessions": "Aus ALLEN meinen gehosteten Sitzungen verbannen",
         "Contacts.UnbanFromAllSessions": "Aus ALLEN meinen Sitzungen entbannen",
         "Contacts.BanFromCurrentWorld": "Aus aktueller Welt verbannen",
         "Contacts.UnbanFromCurrentWorld": "Aus aktueller Welt entbannen",
         "Contacts.RecordingVoiceMessage": "Aufnahme läuft...",
+        "Contacts.TokensDisabled": "NCR/KFC/CDFT Funktionalität ist in dieser Version deaktiviert.",
 
         "Contacts.InSession": "In {name}",
         "Contacts.InPrivate": "In privater Welt",
@@ -584,7 +599,7 @@
         "CreateNew.Editor": "Assistenten",
         "CreateNew.Editor.UserInspector": "Benutzer-Assistent",
         "CreateNew.Editor.LightSourcesWizard": "Welt-Lichtquellen-Assistent",
-
+        "CreateNew.Editor.TextRendererWizard": "Welt-Text Renderer-Assistent",
         "CreateNew.Editor.AssetOptimizationWizard": "Asset-Optimierungs-Assistent",
         "CreateNew.Editor.LogixTransferWizard": "LogiX-Transfer-Assistent",
         "CreateNew.Editor.CubemapCreator": "Cubemap-Ersteller",
@@ -866,7 +881,7 @@
 
         "CameraControl.Anchors.Interpolate": "Interpoliere zwischen Ankerpunkten",
         "CameraControl.Anchors.InterpolationSpeed": "Ankerpunkt-Interpolations-Geschwindigkeit:",
-
+        "CameraControl.Anchors.LinearInterpolation": "Lineare Interpolation",
         "CameraControl.Anchors.NoAnchors": "Keine Kamera-Ankerpunkte in dieser Welt",
 
         "CameraControl.Positioning.FieldOfView": "Sichtfeld",
@@ -914,6 +929,7 @@
         "CameraControl.OBS.DroppedFrames": "Verlorene Frames: {n}",
         "CameraCOntrol.OBS.Live": "LIVE",
         "CameraCOntrol.OBS.Recording": "REC",
+        "CameraControl.OBS.OpenInstallerReason": "Über diese Webseite lässt sich das OBS Websocket Plugin herunterladen",
 
         "CameraControl.OBS.Streaming.Start": "Streaming starten",
         "CameraControl.OBS.Streaming.Starting": "Starte Streaming...",
@@ -1079,9 +1095,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Normalen neu berechnen (glatte Schattierung)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Tangenten neu berechnen (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Tangenten neu berechnen (einfach)",
-
-
-
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Blendshape Normalen neu berechnen",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Blendshape Normalen neu berechnen (glatte Schattierung)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Blendshape Tangenten neu berechnen (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Normalen Invertieren",
         "Inspector.Mesh.ReverseWinding": "Invertiere Vertex-Reihenfolge",
         "Inspector.Mesh.MakeDualSided": "Doppelseitig machen",
@@ -1092,7 +1108,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Entferne leere Blendshapes",
         "Inspector.Mesh.StripBlendshapeNormals": "Entferne Blendshape-Normalen",
         "Inspector.Mesh.StripBlendshapeTangents": "Entferne Blendshape-Tangenten",
-
+        "Inspector.Mesh.MergeBlendshapes": "Blendshapes zusammenführen",
 
         "Inspector.Mesh.GetBoneList": "Hole Knochen-Liste",
         "Inspector.Mesh.GetBoneData": "Hole Knochen-Daten",
@@ -1105,33 +1121,33 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Submeshes mit demselben Material zusammenführen",
         "Inspector.MeshRenderer.SplitByMaterial": "Nach Material in separate Meshes aufteilen",
 
-
-
+        "Inspector.MeshCollider.VHACD": "Konvexe Hüllen Zerlegung (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox": "Mit Box-Kollisionsobjekt ersetzen",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Fortbewegungs-module an vorhandenen Benutzern aktualisieren",
 
-
+        "Inspector.VHACD.Parameter.MergeDoubles": "Duplikate zusammenführen",
         "Inspector.VHACD.Parameter.Resolution": "Auflösung",
-
-
-
-
+        "Inspector.VHACD.Parameter.Depth": "Tiefe",
+        "Inspector.VHACD.Parameter.Concavity": "Wölbung",
+        "Inspector.VHACD.Parameter.PlaneDownsampling": "Flächen-Downsampling",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Konvexe Hüllen Downsampling",
         "Inspector.VHACD.Parameter.Alpha": "Alpha",
         "Inspector.VHACD.Parameter.Beta": "Beta",
         "Inspector.VHACD.Parameter.Gamma": "Gamma",
         "Inspector.VHACD.Parameter.Delta": "Delta",
-
-
-
-
+        "Inspector.VHACD.Parameter.PCA": "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maximale Anzahl an Eckpunkten pro Hülle",
+        "Inspector.VHACD.Parameter.MinVolumePerHull": "Minimales Volumen pro Hülle",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Annäherug an Konvexe Hülle",
 
         "Inspector.VHACD.DecompositionMode.Header": "Zerlegungsmodus:",
         "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetrahedron",
 
-
-
-
+        "Inspector.VHACD.RunDecomposition": "Zerlegung starten",
+        "Inspector.VHACD.RemoveVisuals": "Darstellung entfernen",
+        "Inspector.VHACD.RemoveHulls": "Hüllen entfernen",
 
         "Inspector.ReflectionProbe.Bake": "Reflexionssonde berechnen",
         "Inspector.ReflectionProbe.Baking": "Berechne...",
