@@ -113,8 +113,8 @@
         "Dash.Actions.CloudHome": "Meu mundo na nuvem",
 
         "Dash.Exit.Header": "Sair do Neos",
-        "Dash.Exit.ExitAndSave": "Sair e Salvar alterações",
-        "Dash.Exit.ExitAndDiscard": "Sair e descartar alterações",
+        "Dash.Exit.ExitAndSave": "Salvar alterações e Sair",
+        "Dash.Exit.ExitAndDiscard": "Sair sem salvar",
         "Dash.Exit.ThankYou": "Obrigado por usar o Neos!",
         "Dash.Exit.SubmittedBy": "Enviado por: {name}",
 
