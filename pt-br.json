@@ -2,6 +2,7 @@
     "localeCode": "pt-br",
     "authors": ["Aragubas", "Tlestf"],
     "messages": {
+        
         "General.OK": "OK",
         "General.Start": "Começar",
         "General.Finish": "Finalizar",
@@ -1079,6 +1080,7 @@
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Espaço local",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Re-parent {name} sob espaço local do usuário",
 
+        
         "Inspector.Mesh.StatsHeader": "Estatísticas da Mesh",
         "Inspector.Mesh.VertexCount": "Total de Vertex: {n}",
         "Inspector.Mesh.TriangleCount": "Total de Triângulos: {n}",
