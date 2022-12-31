@@ -2,7 +2,7 @@
     "localeCode": "pt-br",
     "authors": ["Aragubas", "Tlestf"],
     "messages": {
-        
+
         "General.OK": "OK",
         "General.Start": "Começar",
         "General.Finish": "Finalizar",
@@ -517,7 +517,7 @@
         "Tooltips.Dev.DevMode.On": "Modo de Desenvolvedor: Ativado",
         "Tooltips.Dev.OpenInspector": "Abrir Inspetor",
         "Tooltips.Dev.DeselectAll": "Deselecionar Todos",
-        "Tooltips.Dev.DestroySelected": "Destruir Selecionado",
+        "Tooltips.Dev.DestroySelected": "Destruir objeto selecionado",
         "Tooltips.Dev.ConfirmDestroySelected": "REALMENTE Destruir selecionado?",
 
         "Tooltip.Logix.NodeBrowser": "Navegador de Nodes",
@@ -527,13 +527,13 @@
 
         "Tooltip.Color.Picker": "Seletor de Cores",
 
-        "Tooltip.GrabbableSetter.Scalable": "Definir Escalonável",
-        "Tooltip.GrabbableSetter.NonScalable": "Definir como Não-Escalonável",
-        "Tooltip.GrabbableSetter.ApplyToRoot": "Definir Aplicar para Raiz",
-        "Tooltip.GrabbableSetter.AppyToHit": "Definir Aplicar para Hit",
+        "Tooltip.GrabbableSetter.Scalable": "Definir como:<br> Escalonável",
+        "Tooltip.GrabbableSetter.NonScalable": "Definir como:<br> Não-Escalonável",
+        "Tooltip.GrabbableSetter.ApplyToRoot": "Aplicar para a Raiz",
+        "Tooltip.GrabbableSetter.AppyToHit": "Aplicar para a Hit",
 
-        "Tooltip.CharacterCollider.MarkGrippable": "Definir Movível",
-        "Tooltip.CharacterCollider.DontMarkGrippable": "Não Definir como Movível",
+        "Tooltip.CharacterCollider.MarkGrippable": "Marcar como Escalável",
+        "Tooltip.CharacterCollider.DontMarkGrippable": "Não marcar como Escalável",
         "Tooltip.CharacterCollider.EnsureWalkRun": "Garantir locomoção Andar / Correr",
         "Tooltip.CharacterCollider.EnsureZeroG": "Garantir locomoção de Gravidade Zero",
         "Tooltip.CharacterCollider.EnsurePhysicalFly": "Garantir locomoção de Voo físico",
@@ -1230,7 +1230,7 @@
         "Inspector.Texture.GenerateMetadata": "Diagnostico: Gerar metadata de bitmap",
 
         "Inspector.Material.VariantInfo": "Variante: {variantID} (Raw: {rawVariantID})",
-        "Inspector.Material.WaitingForApply": "Aguardado para aplicar: {waiting}",
+        "Inspector.Material.WaitingForApply": "Aguardando para aplicar: {waiting}",
 
         "Inspector.Audio.BakeAudio": "Cozinhar clip de audio (Bake)",
         "Inspector.Audio.FormatInfo": "Taxa de Amostragem: {rate} Hz, Canais: {channels} ({channel_count})",
