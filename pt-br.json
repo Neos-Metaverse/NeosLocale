@@ -1121,7 +1121,7 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Mergir submeshes com o mesmo material",
         "Inspector.MeshRenderer.SplitByMaterial": "Dividir em meshes separadas por material",
 
-        "Inspector.MeshCollider.VHACD": "Decomposição de Casco Convexo (V-HACD 2.0)",
+        "Inspector.MeshCollider.VHACD": "Decompor Casco Convexo (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Substituir com colisor de caixa",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Atualizar modulo de locomoção em usuarios presentes",
@@ -1145,7 +1145,7 @@
         "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetrahedron",
 
-        "Inspector.VHACD.RunDecomposition": "Rodar Decomposição",
+        "Inspector.VHACD.RunDecomposition": "Executar Decomposição",
         "Inspector.VHACD.RemoveVisuals": "Remover Visuais",
         "Inspector.VHACD.RemoveHulls": "Remover Cascos (Hull)",
 
