@@ -129,7 +129,7 @@
         "World.Connection.RequestingJoin": "Solicitando permissão para entrar...",
         "World.Connection.Authenticating": "Autenticando...",
         "World.Connection.Connected": "Conectado",
-        "World.Connection.SyncingInitialState": "Sincronizando estado inicial do Mundo",
+        "World.Connection.SyncingInitialState": "Sincronizando estado inicial do mundo",
 
         "World.Connection.LNL.DirectIP": "LNL IP Direto",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
