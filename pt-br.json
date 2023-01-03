@@ -549,12 +549,12 @@
         "Tooltip.MeshVisibility.DoubleSidedShadow": "Definir para sombras de dupla-face",
 
         "Tooltip.Slicer.Add": "Adicionar Fatiador",
-        "Tooltip.Slicer.Clear": "Limpar configuração",
+        "Tooltip.Slicer.Clear": "Limpar configuração do Fatiador",
 
-        "Tooltip.Material.RayMode": "Modo de Raio",
-        "Tooltip.Material.AreaMode": "Modo de Área",
-        "Tooltip.Material.ObjectMode": "Modo Global do Objeto",
-        "Tooltip.Material.SceneMode": "Modo Global da Cena",
+        "Tooltip.Material.RayMode": "Modo de Seleção:<br>Raio",
+        "Tooltip.Material.AreaMode": "Modo de Seleção:<br>Área",
+        "Tooltip.Material.ObjectMode": "Modo de Seleção:<br>Global do Objeto",
+        "Tooltip.Material.SceneMode": "Modo de Seleção:<br>Global da Cena",
         "Tooltip.Material.CreateCopy": "Criar Cópia",
         "Tooltip.Material.Edit": "Editar Material",
         "Tooltip.Material.Convert": "Converter para...",
