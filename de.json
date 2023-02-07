@@ -597,7 +597,7 @@
         "CreateNew.Text.Outline": "Kontur",
 
         "CreateNew.Editor": "Assistenten",
-        "CreateNew.Editor.UserInspector": "Benutzer-Assistent",
+        "CreateNew.Editor.UserInspector": "Benutzer-Inspektor",
         "CreateNew.Editor.LightSourcesWizard": "Welt-Lichtquellen-Assistent",
         "CreateNew.Editor.TextRendererWizard": "Welt-Text Renderer-Assistent",
         "CreateNew.Editor.AssetOptimizationWizard": "Asset-Optimierungs-Assistent",
