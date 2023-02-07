@@ -734,7 +734,7 @@
         "Importer.Model.Advanced.FlatShaded": "Flach schattieren",
         "Importer.Model.Advanced.DeduplicateInstances": "Instanzen-Duplikate entfernen (langsam)",
         "Importer.Model.Advanced.Optimize": "Modell/Szene optimieren",
-        "Importer.Model.Advanced.SplitSubmeshes": "Unter-Mesh spalten",
+        "Importer.Model.Advanced.SplitSubmeshes": "Submeshes spalten",
         "Importer.Model.Advanced.RandomColors": "Zufällige Farben generieren",
         "Importer.Model.Advanced.SpawnMaterialOrbs": "Material-Orbs spawnen",
         "Importer.Model.Advanced.ImagesByName": "Bilder per Name importieren",
