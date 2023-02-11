@@ -309,7 +309,7 @@
         "Options.Nameplates.NonContacts" : "Noms: Cacher les contacts",
         "Options.Nameplates.Hide" : "Noms: Cacher",
 
-        "Indicator.OnlineUsers" : "Utilisateurs en ligne: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers" : "Utilisateurs en ligne: {num_registered} (~{num_total})",
         "Indicator.ServerStatus" : "<color=#fff>Statut du serveur :</color> {status, select, Good {Bon} Slow {Lent} Down {Inaccessible} NoInternet {Sans Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced" : "Synchronization complèté",
