@@ -1,6 +1,6 @@
 {
-    "localeCode": "zh-ch",
-    "authors": ["CL","Melnus","Holy_Water"],
+    "localeCode": "zh-cn",
+    "authors": ["CL","Melnus","Holy_Water","StoneMoe"],
     "messages": {
 
         "General.OK": "确定",
@@ -50,14 +50,14 @@
         "Locomotion.Teleport.Description": "可沿路径瞬移，移动方便",
         "Locomotion.Fly.Name": "飞行",
         "Locomotion.Fly.Description": "飞行模式",
-        "Locomotion.WalkRun.Name": "走路(不可攀登)",
+        "Locomotion.WalkRun.Name": "走路(不可攀爬)",
         "Locomotion.WalkRun.Description": "可走路，奔跑和跳跃",
         "Locomotion.WalkRunGripping.Name": "走路",
-        "Locomotion.WalkRunGripping.Description": "可走路，奔跑，跳跃和攀登",
+        "Locomotion.WalkRunGripping.Description": "可走路，奔跑，跳跃和攀爬",
         "Locomotion.ZeroG.Name": "零重力",
         "Locomotion.ZeroG.Description": "无重力状态",
         "Locomotion.GrabWorld.Name": "锚点",
-        "Locomotion.GrabWorld.Description": "基于一个锚点，相对于锚点移动。",
+        "Locomotion.GrabWorld.Description": "基于一个锚点，相对于锚点移动",
         "Locomotion.Slide.Name": "滑行",
         "Locomotion.Slide.Description": "如果有地面则沿地面滑行，否则会飞行",
 
@@ -115,7 +115,7 @@
 
         "Dash.Exit.Header": "退出Neos",
         "Dash.Exit.ExitAndSave": "退出并保存",
-        "Dash.Exit.ExitAndDiscard": "退出并放弃编辑",
+        "Dash.Exit.ExitAndDiscard": "退出但放弃编辑",
         "Dash.Exit.ThankYou": "感谢你使用Neos！",
         "Dash.Exit.SubmittedBy": "提交者: {name}",
 
@@ -425,16 +425,16 @@
         "Session.Permission.PermissionOverrideCount": "权限覆盖: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "清除权限覆盖",
 
-        "Permissions.NotAllowedToSpawn": "你不可以在这里生成物品",
-        "Permissions.NotAllowedToSave": "你不可以在这个星球保存物品",
-        "Permissions.NotAllowedToSwapAvatar": "你不可以在这里换成自定义化身",
+        "Permissions.NotAllowedToSpawn": "你无权在这里生成物品",
+        "Permissions.NotAllowedToSave": "你无权在这个星球保存物品",
+        "Permissions.NotAllowedToSwapAvatar": "你无权在这里换成自定义化身",
 
         "User.Actions.Silence": "全局静音",
         "User.Actions.Mute": "静音",
-        "User.Actions.Jump": "跳至",
+        "User.Actions.Jump": "跳跃",
         "User.Actions.Respawn": "重生",
         "User.Actions.Kick": "踢人",
-        "User.Actions.Ban": "禁止",
+        "User.Actions.Ban": "封禁",
 
         "Contacts.Add": "添加好友",
         "Contacts.Remove": "删除好友",
@@ -470,7 +470,7 @@
         "Notifications.IsOnlineOnDifferentVersion": "上线 <size=75%>(使用版本: {version})</size>",
         "Notifications.ReceivedContactRequest": "发送了好友请求",
         "Notifications.ReceivedInvite": "邀请你:",
-        "Notifications.ReceivedItem": "向你发送了一个项目:",
+        "Notifications.ReceivedItem": "向你发送了一个物品:",
         "Notifications.ReceivedCredits": "发送了{amount}{token}",
         "Notifications.TransferedCredits": "转账了{amount}{token}",
         "Notifications.ReceivedTip": "收到了{amount}{token}",
@@ -634,7 +634,7 @@
 
         "CreateNew.Directory.Title": "创建目录:",
         "CreateNew.Directory.Error.EmptyName": "请指定名称",
-        "CreateNew.Directory.Error.LongName": "名称太长",
+        "CreateNew.Directory.Error.LongName": "名称过长",
         "CreateNew.Directory.Error.InvalidName": "无效名称",
 
         "AvatarCreator.Title": "化身创建器",
@@ -1128,6 +1128,29 @@
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "更新当前用户的移动模块",
 
+        "Inspector.VHACD.Parameter.MergeDoubles": "合并Doubles",
+        "Inspector.VHACD.Parameter.Resolution": "体素化分辨率",
+        "Inspector.VHACD.Parameter.Depth": "最大剪切深度",
+        "Inspector.VHACD.Parameter.Concavity": "最大凹度",
+        "Inspector.VHACD.Parameter.PlaneDownsampling": "剪切平面降采样",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "凸壳生成降采样",
+        "Inspector.VHACD.Parameter.Alpha": "Alpha",
+        "Inspector.VHACD.Parameter.Beta": "Beta",
+        "Inspector.VHACD.Parameter.Gamma": "Gamma",
+        "Inspector.VHACD.Parameter.Delta": "Delta",
+        "Inspector.VHACD.Parameter.PCA": "分解前网格归一化(PCA)",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "凸壳最大顶点数",
+        "Inspector.VHACD.Parameter.MinVolumePerHull": "凸壳最小体积",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "凸壳近似法",
+
+        "Inspector.VHACD.DecompositionMode.Header": "分解模式:",
+        "Inspector.VHACD.DecompositionMode.Voxel": "体素",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron": "四面体",
+
+        "Inspector.VHACD.RunDecomposition": "运行分解计算",
+        "Inspector.VHACD.RemoveVisuals": "移除视觉",
+        "Inspector.VHACD.RemoveHulls": "移除壳",
+
         "Inspector.ReflectionProbe.Bake": "烘焙反射",
         "Inspector.ReflectionProbe.Baking": "正在烘焙...",
 
@@ -1206,6 +1229,9 @@
         "Inspector.Texture.InvalidFloats": "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata": "诊断：生成位图元数据",
 
+        "Inspector.Material.VariantInfo": "变种:{variantID} (Raw:{rawVariantID})",
+        "Inspector.Material.WaitingForApply": "等待应用:{waiting}",
+
         "Inspector.Audio.BakeAudio": "烘焙音频片段",
         "Inspector.Audio.FormatInfo": "采样率: {rate} Hz, 频道: {channels} ({channel_count})",
         "Inspector.Audio.Duration": "持续时间: {duration}",
@@ -1247,6 +1273,8 @@
         "Inspector.Rig.ClearDebugVisuals": "清除调试效果",
 
         "Inspector.AvatarExpression.AutoAssign": "根据经验自动进行混合变形Blendshapes",
+
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>警告！</size></color><br>通过勾选SimulateRotation，可以将此组件用作简单的刚体。但在您这样做之前，请知悉它并未为此为目的进行优化，并且将来会提供适当的刚体支持。<br>适当的刚体支持将提供：<br><b>- 更好的CPU和网络性能</b> - 与CharacterController共同使用，将获得更高的CPU使用率和大量的网络流量<br><b>- 约束</b> - 您将能够在刚体之间创建关节、铰链、弹簧和其他约束<br><b>- 为每个人提供流畅的模拟和交互</b> - 如果其他人尝试交互，CharacterController会出现故障<br><b>- 新功能和工具</b> - 使用它们将更加容易<br>-----------------------<br>您可以在GitHub问题#22中找到更多相关信息。希望您充分了解这些限制和特性，玩得开心！",
 
         "Inspector.ParticleStyle.CommonTransitions": "通用转换模板:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha淡入淡出",
@@ -1723,10 +1751,36 @@
         "Tutorial.Streaming.StreamCamera.Features.Page4.Description": "点击<b><color=#77ddff>OBS</b></color>图标打开OBS连接面板，这里可以快速连接OBS并开始录制。",
         "Tutorial.Streaming.StreamCamera.Features.Page5.Description": "点击<b><color=#77ddff>Twitch</b></color>图标打开Twitch消息面板，你可以在左上角输入你的Twitch频道名称并连接。",
 
+        "Twitch.Panel.Button.Commands.Enabled": "命令已启用",
+        "Twitch.Panel.Button.Commands.Disabled": "命令已禁用",
+        "Twitch.Panel.Button.SafeMode.Enabled": "安全模式已启用",
+        "Twitch.Panel.Button.SafeMode.Disabled": "安全模式已禁用",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled": "订阅者命令<br> 仅对订阅者启用",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled": "订阅者命令<br> 为所有人启用",
+        "Twitch.Panel.Title.Text": "Twitch Chat",
+
         "Exiting.SavingItems": "正在保存{n, plural, other {#个项目}}...",
         "Exiting.SavingChanges": "正在保存更改...",
         "Exiting.Exiting": "正在退出...",
         "Exiting.LoggingOut": "正在注销...",
+
+        "Earthenworks.MentorSignal.Title.Intro": "迷茫吗？<br>志愿导师可以提供帮助",
+        "Earthenworks.MentorSignal.Title.Offline": "迷茫吗？<br>可在Discord中寻求帮助",
+        "Earthenworks.MentorSignal.Title.Requested": "请求已发出",
+        "Earthenworks.MentorSignal.Title.Responding": "一位导师正在路上",
+        "Earthenworks.MentorSignal.Title.Canceled": "工单被取消",
+        "Earthenworks.MentorSignal.Title.Completed": "工单标记为已完成",
+        "Earthenworks.MentorSignal.Description.Requested": "导师都是志愿者，如果此时没有得到答复，可能会有人稍后与您联系。{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Responding": "<color=#88ff88><noparse={1}>{0}</color> 已经认领了工单，很快他们应该要么加入这个时空，要么通过好友列表与您联系。{2}{3}{4}",
+        "Earthenworks.MentorSignal.Description.Canceled": "如果您仍需要帮助，请联系Discord或公共时空。 稍后可能有人会与您联系，看看您是否仍需要帮助。",
+        "Earthenworks.MentorSignal.Description.Completed": "如果需要，请随意创建另一个工单，或在Discord上寻求帮助。社区成员通常很乐意提供帮助！",
+        "Earthenworks.MentorSignal.Description.2.Disconnected": "<br><br><color=#ff8888>此面板已与导师服务失去联系：</color> The panel will attempt to reconnect automatically. Check to ensure the connection is not blocked in <color=#8888ff>Dashboard -> Home -> Debug -> Web Hosts</color>. If all else fails, please cancel and re-create the ticket.<br>If this problem persists please let us known on the <color=#8888ff>Discord</color>.",
+        "Earthenworks.MentorSignal.Description.3.Full": "<br><br><color=#ff8888>时空目前已满：</color> 请要求主持人提高玩家上限，直接邀请导师，或与导师协调寻找工作时空。",
+        "Earthenworks.MentorSignal.Description.4.No access": "<br><br><color=#ff8888>时空无法公开访问：</color> 要让导师在没有直接邀请的情况下加入，时空必须设置为已注册用户或任何人可加入，并且不得从时空列表中隐藏。<br><color=#8888ff>如果您需要隐私：</color> 通过好友列表联系导师，以便直接邀请他们。",
+        "Earthenworks.MentorSignal.Cancel.Text": "取消",
+        "Earthenworks.MentorSignal.Reset.Text": "创建另一个",
+        "Earthenworks.MentorSignal.Next.Text": "获取帮助",
+        "Earthenworks.MentorSignal.Discord.Text": "加入Neos Discord",
 
         "Universe.UI.Title": "宇宙",
         "Universe.UI.SelectExperience": "选择体验方式:",
@@ -1839,7 +1893,7 @@
         "Universe.Particles.Neutron": "中子",
         "Universe.Atoms.Hydrogen": "氢",
         "Universe.Atoms.Helium": "氦",
-        "Universe.Atoms.Sulfur": "硫黄",
+        "Universe.Atoms.Sulfur": "硫",
 
         "Universe.Common.CoffeeBean": "咖啡豆",
         "Universe.Common.Matchstick": "火柴棍",
