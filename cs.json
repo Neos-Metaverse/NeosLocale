@@ -1810,7 +1810,7 @@
         "Universe.Stars.NMLCygni" : "NML Cygni",
         "Universe.Stars.UYScuti" : "UY Scuti",
 
-        "Universe.Stars.Lich.Wiki": "PSR B1257+12",
+        
 
         "Universe.SolarSystem.Mercury": "Merkur",
         "Universe.SolarSystem.Venus": "Venuše",
@@ -1837,14 +1837,14 @@
         "Universe.SolarSystem.Callisto": "Callisto",
         "Universe.SolarSystem.AsteroidGanymed": "Ganymed (asteroid)",
 
-        "Universe.SolarSystem.Phobos.Wiki": "Phobos (moon)",
-        "Universe.SolarSystem.Deimos.Wiki": "Deimos (moon)",
-        "Universe.SolarSystem.Ganymede.Wiki": "Ganymede (moon)",
-        "Universe.SolarSystem.Callisto.Wiki": "Callisto (moon)",
-        "Universe.SolarSystem.Charon.Wiki": "Charon (moon)",
-        "Universe.SolarSystem.AsteroidGanymed.Wiki": "1036 Ganymed",
+        
+        
+        
+        
+        
+        
 
-        "Universe.SolarSystem.SolarSystem.Wiki": "Solar System",
+        
 
         "Universe.Animals.BottlenoseDolphin": "Delfín skákavý",
         "Universe.Animals.Brachiosaurus": "Brachiosaurus",
@@ -1883,9 +1883,9 @@
         "Universe.Biology.Platelet" : "Krevní destička (aktivní)",
         "Universe.Biology.LargestBacteria": "Největší Bakterie",
 
-        "Universe.Biology.AverageHumanCell.Wiki": "Cell (biology)",
-        "Universe.Biology.Hair.Wiki": "Hair",
-        "Universe.Biology.Platelet.Wiki": "Platelet",
+        
+        
+
 
         "Universe.Particles.Electron": "Elektron",
         "Universe.Particles.Proton": "Proton",
@@ -1919,16 +1919,16 @@
         "Universe.Common.Daisy": "Sedmikráska (Shasta)<br>(průměr)",
         "Universe.Common.DouglasFir": "Douglaska tisolistá",
 
-        "Universe.Common.SiltParticle.Wiki": "Silt",
-        "Universe.Common.SaltGrain.Wiki": "Salt",
-        "Universe.Common.SandGrain.Wiki": "Sand",
-        "Universe.Common.ClayParticle.Wiki": "Clay",
-        "Universe.Common.USCent.Wiki": "Penny (United States coin)",
-        "Universe.Common.Paper.Wiki": "Paper",
-        "Universe.Common.RiceGrain.Wiki": "Rice",
-        "Universe.Common.Daisy.Wiki": "Leucanthemum × superbum",
-        "Universe.Common.ChickenEgg.Wiki": "Egg",
-        "Universe.Common.OstrichEgg.Wiki": "Egg",
+        
+        
+
+
+
+
+
+
+
+
 
         "Universe.Wavelength.Gamma": "Záření Gama",
         "Universe.Wavelength.XRayHard": "Rentgenové záření (tvrdé)",
@@ -1946,12 +1946,12 @@
         "Universe.Wavelength.FM": "FM rádiová vlna",
         "Universe.Wavelength.AM": "AM rádiová vlna",
 
-        "Universe.Wavelength.XRayHard.Wiki": "X-Ray",
-        "Universe.Wavelength.XRaySoft.Wiki": "X-Ray",
-        "Universe.Wavelength.FarUV.Wiki": "Ultraviolet",
-        "Universe.Wavelength.MiddleUV.Wiki": "Ultraviolet",
-        "Universe.Wavelength.NearUV.Wiki": "Ultraviolet",
-        "Universe.Wavelength.BlackLight.Wiki": "Ultraviolet",
+        
+        
+
+
+
+
 
         "Universe.Geology.AllWater": "Všechna voda na Zemi",
         "Universe.Geology.LiquidFreshWater": "Všechna tekutá sladká voda",
@@ -1963,9 +1963,9 @@
         "Universe.Countries.Australia": "Austrálie",
         "Universe.Cities.Paris": "Paříž",
 
-        "Universe.Geology.AllWater.Wiki": "Water distribution on Earth",
-        "Universe.Geology.LiquidFreshWater.Wiki": "Fresh water",
-        "Universe.Geology.WaterInLakesAndRivers.Wiki": "River",
+        
+        
+
 
         "Universe.Nebulae.Crab": "Krabí mlhovina",
         "Universe.Nebulae.CatEye": "Mlhovina Kočičí oko",
@@ -1976,7 +1976,7 @@
         "Universe.Nebulae.Ring": "Prstencová mlhovina",
         "Universe.Nebulae.Eagle": "Orlí mlhovina",
 
-        "Universe.Nebulae.NGC604.Wiki": "NGC 604",
+        
 
         "Universe.Technology.TransistorGate": "Tranzistorová brána",
         "Universe.Technology.CPU": "Procesor",
@@ -1991,12 +1991,12 @@
         "Universe.Technology.Ingenuity": "Vrtulník NASA Ingenuity",
         "Universe.Technology.CargoShip": "Nákladní loď",
 
-        "Universe.Technology.Ingenuity.Wiki": "Ingenuity (helicopter)",
-        "Universe.Technology.TransistorGate.Wiki": "Transistor",
-        "Universe.Technology.Starship.Wiki": "SpaceX Starship",
+        
+        
 
-        "Universe.Technology.Voyager.Wiki": "Voyager 1",
-        "Universe.Technology.MoonLander.Wiki": "Lunar Lander",
+
+        
+        
 
         "Universe.Landmarks.EiffelTower": "Eiffelova věž",
         "Universe.Landmarks.DistanceFromLA2SF" : "Vzdálenost mezi Los Angeles a San Fransiskem",
@@ -2005,14 +2005,14 @@
         "Universe.Landmarks.MountEverest": "Mount Everest",
         "Universe.Landmarks.LHC": "Velký hadronový urychlovač (LHC)",
 
-        "Universe.Landmarks.StatueOfLiberty.Wiki": "Statue of Liberty",
+        
 
         "Universe.Chemistry.Ethanol": "Ethanol (alkohol)",
         "Universe.Chemistry.CarbonNanotube": "Uhlíková nanotrubice",
         "Universe.Chemistry.Glucose": "Glukóza",
         "Universe.Chemistry.Water": "Voda",
 
-        "Universe.Chemistry.Ethanol.Wiki": "Ethanol",
+        
 
         "Universe.Galaxies.MilkyWay": "Mléčná Dráha",
         "Universe.Galaxies.Andromeda": "Galaxie v Andromedě",
@@ -2022,9 +2022,9 @@
         "Universe.Galaxies.NGC1300": "NGC 1300 (spirální galaxie)",
         "Universe.Galaxies.NGC4414": "NGC 4414 (vločková spirální galaxie)",
 
-        "Universe.Galaxies.IC1101.Wiki": "IC 1101",
-        "Universe.Galaxies.NGC1300.Wiki": "NGC 1300",
-        "Universe.Galaxies.NGC4414.Wiki": "NGC 4414",
+        
+        
+
 
         "Universe.Universe.GalaxyFillament": "Galaktické vlákno",
         "Universe.Universe.StarCluster": "Hvězdokupa",
@@ -2054,10 +2054,10 @@
         "Universe.Units.Mile" : "Míle",
         "Universe.Units.NauticalMile" : "Námořní míle",
 
-        "Universe.Units.Inch.Wiki": "Inch (unit)",
-        "Universe.Units.Foot.Wiki": "Foot (unit)",
-        "Universe.Units.Yard.Wiki": "Yard (unit)",
-        "Universe.Units.Mile.Wiki": "Mile (unit)",
+        
+        
+
+        
 
         "Temporary.MMC.Voting UI": "MMC Hlasovací UI",
         "Temporary.MMC.Vote": "Hlasovat",
