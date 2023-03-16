@@ -1080,7 +1080,6 @@
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Local User Space",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Parent {name} under local user space",
 
-
         "Inspector.Mesh.StatsHeader": "Mesh Statistics",
         "Inspector.Mesh.VertexCount": "Vertex Count: {n}",
         "Inspector.Mesh.TriangleCount": "Triangle Count: {n}",

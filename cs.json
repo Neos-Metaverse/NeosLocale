@@ -1739,8 +1739,6 @@
         "Tutorial.Streaming.StreamCamera.Functions.Page3.Description" : "<b><color=#ffdd77>360° FOTO</b></color> pořídí 360° sníme scény z aktuální pozice kamery. Tyto fotografie se uloží do vaší knihovny snímků obrazovky.",
         "Tutorial.Streaming.StreamCamera.Functions.Page4.Description" : "Obrazovka <b><color=#ffdd77>UŽIVATELÉ</b></color> vám umožňuje měnit pohled kamery na perspektivu jiného uživatele, zároveň také modifikovat hlasitosti a povolení kamery pro každou osobu.",
 
-        "Tutorial.Streaming.StreamCamera.BasicFunctions.Page5.Description" : "<b><color=#ffdd77>MANUÁLNÍ</b></color> režim vám umožňuje využívat streamovací kameru jako fyzickou kameru.",
-
         "Tutorial.Streaming.StreamCamera.Intro.Title" : "Tutoriál streamovací kamery",
         "Tutorial.Streaming.StreamCamera.Intro.Description" : "Naučte se všechny funkce streamovací kamery",
 
@@ -1812,6 +1810,8 @@
         "Universe.Stars.NMLCygni" : "NML Cygni",
         "Universe.Stars.UYScuti" : "UY Scuti",
 
+        
+
         "Universe.SolarSystem.Mercury": "Merkur",
         "Universe.SolarSystem.Venus": "Venuše",
         "Universe.SolarSystem.Earth": "Země",
@@ -1836,6 +1836,15 @@
         "Universe.SolarSystem.Ganymede": "Ganymede",
         "Universe.SolarSystem.Callisto": "Callisto",
         "Universe.SolarSystem.AsteroidGanymed": "Ganymed (asteroid)",
+
+        
+        
+        
+        
+        
+        
+
+        
 
         "Universe.Animals.BottlenoseDolphin": "Delfín skákavý",
         "Universe.Animals.Brachiosaurus": "Brachiosaurus",
@@ -1874,6 +1883,10 @@
         "Universe.Biology.Platelet" : "Krevní destička (aktivní)",
         "Universe.Biology.LargestBacteria": "Největší Bakterie",
 
+        
+        
+
+
         "Universe.Particles.Electron": "Elektron",
         "Universe.Particles.Proton": "Proton",
         "Universe.Particles.Neutron": "Neutron",
@@ -1906,6 +1919,17 @@
         "Universe.Common.Daisy": "Sedmikráska (Shasta)<br>(průměr)",
         "Universe.Common.DouglasFir": "Douglaska tisolistá",
 
+        
+        
+
+
+
+
+
+
+
+
+
         "Universe.Wavelength.Gamma": "Záření Gama",
         "Universe.Wavelength.XRayHard": "Rentgenové záření (tvrdé)",
         "Universe.Wavelength.XRaySoft": "Rentgenové záření (měkké)",
@@ -1922,6 +1946,13 @@
         "Universe.Wavelength.FM": "FM rádiová vlna",
         "Universe.Wavelength.AM": "AM rádiová vlna",
 
+        
+        
+
+
+
+
+
         "Universe.Geology.AllWater": "Všechna voda na Zemi",
         "Universe.Geology.LiquidFreshWater": "Všechna tekutá sladká voda",
         "Universe.Geology.WaterInLakesAndRivers": "Všechna voda v jezerech a řekách",
@@ -1932,6 +1963,10 @@
         "Universe.Countries.Australia": "Austrálie",
         "Universe.Cities.Paris": "Paříž",
 
+        
+        
+
+
         "Universe.Nebulae.Crab": "Krabí mlhovina",
         "Universe.Nebulae.CatEye": "Mlhovina Kočičí oko",
         "Universe.Nebulae.Butterfly": "NGC 6302 mlhovina",
@@ -1940,6 +1975,8 @@
         "Universe.Nebulae.Tarantula": "Mlhovina Tarantule",
         "Universe.Nebulae.Ring": "Prstencová mlhovina",
         "Universe.Nebulae.Eagle": "Orlí mlhovina",
+
+        
 
         "Universe.Technology.TransistorGate": "Tranzistorová brána",
         "Universe.Technology.CPU": "Procesor",
@@ -1954,6 +1991,13 @@
         "Universe.Technology.Ingenuity": "Vrtulník NASA Ingenuity",
         "Universe.Technology.CargoShip": "Nákladní loď",
 
+        
+        
+
+
+        
+        
+
         "Universe.Landmarks.EiffelTower": "Eiffelova věž",
         "Universe.Landmarks.DistanceFromLA2SF" : "Vzdálenost mezi Los Angeles a San Fransiskem",
         "Universe.Landmarks.StatueOfLiberty": "Socha svobody<br><size=50%>(výška bez základny)",
@@ -1961,12 +2005,14 @@
         "Universe.Landmarks.MountEverest": "Mount Everest",
         "Universe.Landmarks.LHC": "Velký hadronový urychlovač (LHC)",
 
-        "Universe.Landmarks.StatueOfLiberty.Wiki": "Socha svobody",
+        
 
         "Universe.Chemistry.Ethanol": "Ethanol (alkohol)",
         "Universe.Chemistry.CarbonNanotube": "Uhlíková nanotrubice",
         "Universe.Chemistry.Glucose": "Glukóza",
         "Universe.Chemistry.Water": "Voda",
+
+        
 
         "Universe.Galaxies.MilkyWay": "Mléčná Dráha",
         "Universe.Galaxies.Andromeda": "Galaxie v Andromedě",
@@ -1975,6 +2021,10 @@
         "Universe.Galaxies.SmallMagellanicCloud": "Malý Magellanův oblak",
         "Universe.Galaxies.NGC1300": "NGC 1300 (spirální galaxie)",
         "Universe.Galaxies.NGC4414": "NGC 4414 (vločková spirální galaxie)",
+
+        
+        
+
 
         "Universe.Universe.GalaxyFillament": "Galaktické vlákno",
         "Universe.Universe.StarCluster": "Hvězdokupa",
@@ -2003,6 +2053,11 @@
         "Universe.Units.Yard" : "Yard",
         "Universe.Units.Mile" : "Míle",
         "Universe.Units.NauticalMile" : "Námořní míle",
+
+        
+        
+
+        
 
         "Temporary.MMC.Voting UI": "MMC Hlasovací UI",
         "Temporary.MMC.Vote": "Hlasovat",
